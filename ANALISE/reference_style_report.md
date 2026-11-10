@@ -73,5 +73,5 @@
 ## Alertas
 
 1. **O CTA do projeto é mais fraco que o das referências.** Todas pedem um comentário com palavra-chave; isso gera comentários (sinal de distribuição) e captura o contato por DM. "Link na bio" exige sair do vídeo, abrir o perfil e tocar no link. Se a meta é crescer o perfil, vale testar o formato de comentário — é uma decisão do cliente, não foi alterada aqui.
-2. **Nosso ritmo de fala é ~30% mais lento:** ≈ 150 palavras/min contra ≈ 210 das referências. O roteiro tem 106 palavras para 42,7 s; elas colocam ~200 palavras em 55 s.
+2. **Nosso ritmo de fala ainda é mais lento:** ≈ 167 palavras/min (voz Gemini; eram ≈ 150 com Kokoro) contra ≈ 210 das referências. O roteiro tem 103 palavras para 38,9 s; elas colocam ~200 palavras em 55 s.
 3. **Densidade visual:** as referências trocam de protagonista a cada ~3 s com ilustrações variadas (pixel art, 3D, papel). O EP001 tem 5 cenas e ~20 momentos visuais — coerente, porém menos variado.

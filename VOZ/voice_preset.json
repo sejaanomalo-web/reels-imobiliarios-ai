@@ -1,19 +1,34 @@
 {
   "approved": false,
   "status": "PROVISORIO — aguardando audição e aprovação explícita do cliente",
-  "provider": "local (kokoro-onnx)",
-  "model_id": "hexgrad/Kokoro-82M",
-  "model_version": "v1.0 (ONNX: kokoro-v1.0.onnx + voices-v1.0.bin, release model-files-v1.0 de thewh1teagle/kokoro-onnx)",
+  "provider": "gemini",
+  "model_id": "gemini-3.8-flash-tts",
+  "model_version": "API generativelanguage v1beta, consultada em 2026-11-10",
   "language": "pt-BR",
-  "voice_id": "pm_alex",
+  "voice_id": "Puck",
   "voice_reference_path": null,
   "voice_reference_authorized": false,
+  "direction": "Tom de conversa entre colegas corretores de imóveis: brasileiro, próximo, seguro e natural. Ritmo ágil, sem correria, com pausas curtas entre as ideias. Nunca locutor de comercial.",
   "style": "conversacional, brasileiro, seguro e espontaneo",
   "speed": 1.0,
   "seed": null,
-  "pronunciation_overrides": { "lead": "lídi" },
-  "license": "Apache-2.0 (modelo Kokoro-82M)",
-  "license_reviewed": true,
+  "pronunciation_overrides": {},
+  "license": "Áudio gerado pela API do Gemini com a chave do cliente; uso sujeito aos termos da Gemini API (verificar plano e uso comercial)",
+  "license_reviewed": false,
   "approval_date": null,
-  "notes": "Não existia preset aprovado no repositório. pm_alex foi escolhida provisoriamente para o piloto do EP001. Chatterbox não pôde ser testado: huggingface.co está bloqueado na rede deste ambiente. Trocar voice_id e rodar `npm run ep -- EP001` regenera narração, áudio, legendas e vídeo."
+  "alternatives_auditioned": {
+    "gemini-3.8-flash-tts": [
+      "Puck",
+      "Orus",
+      "Zubenelgenubi",
+      "Charon",
+      "Achird"
+    ],
+    "kokoro-82M (local, sem custo, mais sintética)": [
+      "pm_alex",
+      "pm_santa",
+      "pf_dora"
+    ]
+  },
+  "notes": "Voz trocada de Kokoro pm_alex para Gemini a pedido do cliente (Kokoro soou robótica). Puck foi a única das 5 audições sem nenhuma palavra divergente na transcrição automática; a escolha continua provisória porque ninguém ouviu o áudio no pipeline. A fala do Gemini varia a cada geração: a narração oficial fica em PRODUCAO/episodes/<EP>/narration_source.wav e só é refeita com --regen. Para adotar outra audição: python3 tools/build_narration.py EP001 --source <arquivo.wav> (ajuste voice_id antes). Para voltar ao Kokoro: provider \"local (kokoro-onnx)\", voice_id \"pm_alex\", pronunciation_overrides {\"lead\": \"lídi\"}."
 }

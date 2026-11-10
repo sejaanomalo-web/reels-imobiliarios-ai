@@ -1,8 +1,8 @@
 {
  "file": "EP001_final_1080x1920.mp4",
- "size_mb": 14.32,
- "duration": 42.71,
- "video_bitrate_kbps": 2420,
+ "size_mb": 13.36,
+ "duration": 38.91,
+ "video_bitrate_kbps": 2484,
  "color_space": "bt709",
  "audio_sample_rate": "48000",
  "audio_channels": 2,
@@ -35,7 +35,7 @@
   {
    "check": "Duração = timeline (±0,1 s)",
    "ok": true,
-   "value": "42.71 s (timeline 42.70 s)"
+   "value": "38.91 s (timeline 38.90 s)"
   },
   {
    "check": "Decodificação sem erros",
@@ -45,12 +45,12 @@
   {
    "check": "Loudness entre -16 e -14 LUFS",
    "ok": true,
-   "value": "-15.16 LUFS"
+   "value": "-14.87 LUFS"
   },
   {
    "check": "True peak ≤ -1 dBTP",
    "ok": true,
-   "value": "-1.47 dBTP"
+   "value": "-1.21 dBTP"
   },
   {
    "check": "Sem trechos pretos ≥ 0,2 s",

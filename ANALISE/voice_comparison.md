@@ -1,38 +1,51 @@
 # Comparação de vozes — audições
 
-Arquivos em `OUTPUT/VOICE_AUDITIONS/`, todos com o texto único de `VOZ/VOZES_E_TESTES.md`.
+Arquivos em `OUTPUT/VOICE_AUDITIONS/`.
 
-**Limite desta avaliação:** as audições não foram ouvidas por ninguém. As colunas abaixo são medições (duração, ritmo, texto reconhecido por transcrição automática). Naturalidade, sotaque, timbre e emoção — os critérios que decidem a voz — **dependem de você ouvir**. Não há notas de 1 a 5 aqui porque seriam inventadas.
+**Limite desta avaliação:** ninguém ouviu as audições dentro do pipeline. As colunas são medições (duração, ritmo, texto reconhecido por transcrição automática). Naturalidade, sotaque, timbre e emoção — os critérios que decidem a voz — **dependem de você ouvir**. Não há notas de 1 a 5 porque seriam inventadas.
 
-| Voz | Duração | Palavras/min | Texto reconhecido (Whisper) | Tempo de geração (CPU) | Arquivo |
-|---|---|---|---|---|---|
-| Kokoro-82M `pm_alex` | 14.15 s | 178 | 100% | 3.9 s | `audicao_kokoro_pm_alex.wav` |
-| Kokoro-82M `pm_santa` | 14.26 s | 177 | 100% | 3.2 s | `audicao_kokoro_pm_santa.wav` |
-| Kokoro-82M `pf_dora` | 13.89 s | 181 | 100% | 2.9 s | `audicao_kokoro_pf_dora.wav` |
-| Chatterbox Multilingual pt-BR | — | — | — | — | **não gerado** |
+## Rodada 2 — Gemini `gemini-3.8-flash-tts` (voz atual)
 
-## O que as medições dizem
+Motivo: o cliente ouviu o piloto com Kokoro e reprovou ("robótica"). As audições desta rodada usam a **narração inteira do EP001**, não o texto curto de teste, com a direção: *"Tom de conversa entre colegas corretores de imóveis: brasileiro, próximo, seguro e natural. Ritmo ágil, sem correria, com pausas curtas entre as ideias. Nunca locutor de comercial."*
 
-- As três vozes Kokoro pronunciam o texto de teste de forma 100% reconhecível, incluindo "corretor" e "WhatsApp". "Imobiliária", "CRM" e "CRECI" não estão no texto de teste; "imobiliário" foi reconhecido corretamente na narração do EP001.
-- Ritmo praticamente igual entre elas (177–181 palavras/min no texto de teste).
-- Geração em ~3–4 s por trecho, em CPU, sem custo por caractere.
+| Voz (rótulo do catálogo) | Duração | Palavras/min | Divergências na transcrição automática | Arquivo |
+|---|---|---|---|---|
+| `Achird` (amigável) | 38.09 s | 162 | "pediu", "quer", "agende" reconhecidas errado | `audicao_gemini_Achird_EP001.wav` |
+| `Charon` (informativa) | 41.33 s | 150 | "agende" reconhecida errado; uma palavra a mais ("a") | `audicao_gemini_Charon_EP001.wav` |
+| `Zubenelgenubi` (casual) | 37.85 s | 163 | "agende" reconhecida errado | `audicao_gemini_Zubenelgenubi_EP001.wav` |
+| `Orus` (firme) | 36.61 s | 169 | uma palavra a mais ("para **a** sua rotina") | `audicao_gemini_Orus_EP001.wav` |
+| `Puck` (animada) | 37.05 s | 167 | nenhuma | `audicao_gemini_Puck_EP001.wav` |
 
-## Problemas de pronúncia encontrados (narração do EP001)
+- Todas dizem "lead" como "líd" sem ajuste (o reconhecedor escreve "Lid").
+- As divergências podem ser erro do reconhecedor ou da fala; só a escuta resolve. A palavra a mais de Orus e Charon é desvio real do roteiro.
+- **Puck** foi adotada provisoriamente por ser a única sem divergência — critério de fidelidade ao texto, não de timbre.
+- A descrição entre parênteses é o rótulo que o Google dá à voz, não uma avaliação.
+- O modelo lê a direção em voz alta se ela for enviada como texto solto; o pipeline usa rótulos ("DIREÇÃO" / "TEXTO A SER FALADO") e confere a transcrição a cada geração.
+- A fala muda a cada geração. A narração oficial fica congelada em `PRODUCAO/episodes/EP001/narration_source.wav`.
+- Uma sexta voz (Sulafat, feminina) não foi gerada: a chave recebeu erro 429 (cota excedida) depois de 13 requisições.
 
-| Palavra | Problema | Tratamento |
-|---|---|---|
-| lead | O modelo lê "leád" | Grafia fonética "lídi" em `VOZ/voice_preset.json` → `pronunciation_overrides`. Os dois reconhecedores ouvem "LED"; **conferir de ouvido** |
-| encheu | Whisper ouviu "em Shell"; Parakeet ouviu "encheu" | Mantido; provável erro do reconhecedor, conferir de ouvido |
-| bio / agende | Whisper ouviu "B.E.O." e "agente de"; Parakeet ouviu certo | Mantido; conferir de ouvido |
+## Rodada 1 — Kokoro-82M local (reprovada pelo cliente)
 
-## Chatterbox — por que não foi testado
+Texto único de `VOZ/VOZES_E_TESTES.md`.
 
-`huggingface.co` é bloqueado pela rede deste ambiente (403 no proxy), e os pesos do Chatterbox só são distribuídos por lá. Além disso, o ambiente não tem GPU. Para testá-lo: liberar `huggingface.co` no ambiente ou rodar numa máquina com GPU.
+| Voz | Duração | Palavras/min | Divergências | Arquivo |
+|---|---|---|---|---|
+| `pm_alex` | 14.15 s | 178 | nenhuma | `audicao_kokoro_pm_alex.wav` |
+| `pm_santa` | 14.26 s | 177 | nenhuma | `audicao_kokoro_pm_santa.wav` |
+| `pf_dora` | 13.89 s | 181 | nenhuma | `audicao_kokoro_pf_dora.wav` |
 
-## Escolha
+Precisava de grafia fonética para "lead" (lia "leád"). Continua disponível como opção sem custo: ver `notes` em `VOZ/voice_preset.json`.
 
-`pm_alex` foi usada **provisoriamente** no piloto para o vídeo existir; não é uma recomendação baseada em escuta. `VOZ/voice_preset.json` está com `"approved": false`. Para trocar: editar `voice_id` e rodar `npm run ep -- EP001` em `PRODUCAO/`.
+## Opções não testadas
 
-## Ressalva de qualidade
+| Opção | Situação |
+|---|---|
+| ElevenLabs `eleven_v4` | Conta conectada, mas com **222 créditos**; cada narração do EP001 custa 622. As 6 gerações pedidas falharam por cota e não foram cobradas. Vozes pré-selecionadas para quando houver crédito: Cirilo, Antonio de Jesus, Jhony Tygas (brasileiras, conversacionais) |
+| Chatterbox Multilingual pt-BR | `huggingface.co` bloqueado na rede do ambiente; sem GPU |
+| Gemini `gemini-2.5-pro-preview-tts` | Disponível na chave; não testado por causa da cota |
 
-Kokoro pt-BR é um modelo pequeno (82M). É plausível que soe mais sintético que a narração das referências. Se, ao ouvir, nenhuma das três convencer, as alternativas reais são Chatterbox (exige liberar rede/GPU) ou um serviço pago de TTS — a conta ElevenLabs conectada a esta sessão não foi usada, porque gasta créditos e o projeto pedia avaliar primeiro as opções locais.
+## Para trocar a voz
+
+1. Adotar outra audição desta rodada: ajustar `voice_id` em `VOZ/voice_preset.json` e rodar, em `PRODUCAO/`:
+   `python3 tools/build_narration.py EP001 --source ../OUTPUT/VOICE_AUDITIONS/audicao_gemini_<Voz>_EP001.wav && npm run audio -- EP001 && npm run render -- EP001`
+2. Usar um arquivo de fora (ElevenLabs exportado, locutor humano): `"provider": "arquivo"` e salvar o WAV em `PRODUCAO/episodes/EP001/narration_source.wav`. O pipeline alinha as legendas e as cenas a qualquer narração que siga o texto.

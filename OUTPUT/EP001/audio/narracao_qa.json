@@ -1,72 +1,64 @@
 [
   {
     "seg": "s1",
-    "seconds": 1.29,
-    "asr_match": 0.75,
-    "aligned_words": "3/4",
-    "heard": "O LED não sumiu."
+    "seconds": 1.26,
+    "palavras_nao_reconhecidas": [
+      "lead"
+    ]
   },
   {
     "seg": "s2",
-    "seconds": 1.52,
-    "asr_match": 1.0,
-    "aligned_words": "5/5",
-    "heard": "O histórico é que sumiu."
+    "seconds": 1.22,
+    "palavras_nao_reconhecidas": []
   },
   {
     "seg": "s3",
-    "seconds": 3.0,
-    "asr_match": 1.0,
-    "aligned_words": "8/8",
-    "heard": "Um comprador pediu um apartamento de dois quartos."
+    "seconds": 2.48,
+    "palavras_nao_reconhecidas": []
   },
   {
     "seg": "s4",
-    "seconds": 4.49,
-    "asr_match": 1.0,
-    "aligned_words": "12/12",
-    "heard": "Você enviou opções, conversou sobre a localização e deixou a conversa aberta."
+    "seconds": 4.22,
+    "palavras_nao_reconhecidas": []
   },
   {
     "seg": "s5",
-    "seconds": 1.9,
-    "asr_match": 0.727,
-    "aligned_words": "5/5",
-    "heard": "A Semana em Shell de Visitas"
+    "seconds": 1.71,
+    "palavras_nao_reconhecidas": []
   },
   {
     "seg": "s6",
-    "seconds": 5.86,
-    "asr_match": 1.0,
-    "aligned_words": "16/16",
-    "heard": "Quando apareceu o imóvel perfeito, você lembrava do apartamento, mas não do nome de quem procurava."
+    "seconds": 5.06,
+    "palavras_nao_reconhecidas": []
   },
   {
     "seg": "s7",
-    "seconds": 6.0,
-    "asr_match": 0.923,
-    "aligned_words": "20/20",
-    "heard": "Um contato útil precisa de três registros, o que procura em que etapa está igual é o próximo retorno."
+    "seconds": 6.7,
+    "palavras_nao_reconhecidas": []
   },
   {
     "seg": "s8",
-    "seconds": 3.52,
-    "asr_match": 1.0,
-    "aligned_words": "9/9",
-    "heard": "Sem isso, até uma boa oportunidade pode ficar esquecida."
+    "seconds": 3.31,
+    "palavras_nao_reconhecidas": []
   },
   {
     "seg": "s9",
-    "seconds": 3.91,
-    "asr_match": 1.0,
-    "aligned_words": "11/11",
-    "heard": "Quer acompanhar esse histórico em um sistema feito para sua rotina."
+    "seconds": 2.89,
+    "palavras_nao_reconhecidas": [
+      "esse"
+    ]
   },
   {
     "seg": "s10",
-    "seconds": 5.24,
-    "asr_match": 0.759,
-    "aligned_words": "13/13",
-    "heard": "Conheça nosso sistema imobiliário personalizado no link da B.E.O. e agente de uma demonstração."
+    "seconds": 4.77,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 37.05,
+    "asr_match": 0.961,
+    "aligned_words": "99/103",
+    "words_per_min": 167,
+    "heard": "O Lid não sumiu, o histórico é que sumiu. Um comprador pediu um apartamento de dois quartos. Você enviou opções, conversou sobre a localização e deixou a conversa aberta. A semana encheu de visitas. Quando apareceu o imóvel perfeito, você lembrava do apartamento, mas não do nome de quem procurava. Um contato útil precisa de três registros. O que procura em que etapa está e qual é o próximo retorno. Sem isso, até uma boa oportunidade pode ficar esquecida. Quer acompanhar essa história com um sistema feito para sua rotina? Conheça nosso sistema imobiliário personalizado no link da Bio e agende uma demonstração."
   }
 ]

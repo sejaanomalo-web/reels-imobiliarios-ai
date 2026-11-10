@@ -1,0 +1,47 @@
+[
+  {
+    "voice": "Achird",
+    "model": "gemini-3.8-flash-tts",
+    "seconds": 38.09,
+    "words_per_min": 162,
+    "asr_match": 0.966,
+    "gen_seconds": 27.1,
+    "heard": "O lead não sumiu? O histórico é que sumiu. Um comprador pedu um apartamento de dois quartos. Você enviou opções, conversou sobre a localização e deixou a conversa aberta. A semana encheu de visitas, quando apareceu o imóvel perfeito, você lembrava do apartamento, mas não do nome de quem procurava. Um contato útil precisa de três registros. O que procura, em que etapa está e qual é o próximo retorno. Sem isso, até uma boa oportunidade pode ficar esquecida. Quem acompanhar esse histórico em um sistema feito para sua rotina? Conheça nosso sistema imobiliário personalizado no link da Bio e a gente uma demonstração."
+  },
+  {
+    "voice": "Charon",
+    "model": "gemini-3.8-flash-tts",
+    "seconds": 41.33,
+    "words_per_min": 150,
+    "asr_match": 0.976,
+    "gen_seconds": 14.2,
+    "heard": "O Lid não sumiu. O histórico é que sumiu. Um comprador pediu um apartamento de dois quartos, você enviou opções, conversou sobre a localização e deixou a conversa aberta. A semana encheu de visitas. Quando apareceu o imóvel perfeito, você lembrava do apartamento, mas não do nome de quem procurava. Um contato útil precisa de três registros. O que procura, em que etapa está e qual é o próximo retorno. Sem isso, até uma boa oportunidade pode ficar esquecida. Quer acompanhar esse histórico em um sistema feito para a sua rotina? Conheça nosso sistema imobiliário personalizado no link da Bio e aginge uma demonstração."
+  },
+  {
+    "voice": "Zubenelgenubi",
+    "model": "gemini-3.8-flash-tts",
+    "seconds": 37.85,
+    "words_per_min": 163,
+    "asr_match": 0.981,
+    "gen_seconds": 13.1,
+    "heard": "O Lid não sumiu. O histórico é que sumiu. Um comprador pediu um apartamento de dois quartos, você enviou opções, conversou sobre a localização e deixou a conversa aberta. A semana encheu de visitas. Quando apareceu o imóvel perfeito, você lembrava do apartamento, mas não do nome de quem procurava. Um contato útil precisa de três registros. O que procura, em que etapa está e qual é o próximo retorno. Sem isso, até uma boa oportunidade pode ficar esquecida. Quer acompanhar esse histórico em um sistema feito para sua rotina? Conheça nosso sistema imobiliário personalizado no link da Bio e aginge uma demonstração."
+  },
+  {
+    "voice": "Orus",
+    "model": "gemini-3.8-flash-tts",
+    "seconds": 36.61,
+    "words_per_min": 169,
+    "asr_match": 0.986,
+    "gen_seconds": 25.8,
+    "heard": "O LID não sumiu. O histórico é que sumiu. Um comprador pediu um apartamento de dois quartos. Você enviou opções, conversou sobre a localização e deixou a conversa aberta. A semana encheu de visitas. Quando apareceu o imóvel perfeito, você lembrava do apartamento, mas não do nome de quem procurava. Um contato útil precisa de três registros. O que procura, em que etapa está e qual é o próximo retorno. Sem isso, até uma boa oportunidade pode ficar esquecida. Quer acompanhar esse histórico em um sistema feito para a sua rotina? Conheça nosso sistema imobiliário personalizado no link da Bio e agende uma demonstração."
+  },
+  {
+    "voice": "Puck",
+    "model": "gemini-3.8-flash-tts",
+    "seconds": 37.05,
+    "words_per_min": 167,
+    "asr_match": 0.99,
+    "gen_seconds": 13.0,
+    "heard": "O Lid não sumiu, o histórico é que sumiu. Um comprador pediu um apartamento de dois quartos. Você enviou opções, conversou sobre a localização e deixou a conversa aberta. A semana encheu de visitas. Quando apareceu o imóvel perfeito, você lembrava do apartamento, mas não do nome de quem procurava. Um contato útil precisa de três registros. O que procura em que etapa está e qual é o próximo retorno. Sem isso, até uma boa oportunidade pode ficar esquecida. Quer acompanhar esse histórico em um sistema feito para sua rotina? Conheça nosso sistema imobiliário personalizado no link da Bio e agende uma demonstração."
+  }
+]

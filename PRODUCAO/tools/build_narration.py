@@ -1,7 +1,10 @@
-"""Gera a narração final em blocos (Kokoro local), confere por transcrição, alinha palavra a palavra
+"""Gera a narração final (Kokoro local por frase, Gemini em arquivo único, ou arquivo fornecido),
+confere por transcrição, alinha palavra a palavra
 e escreve public/<EP>/narration.wav + src/episodes/<EP>/timeline.json + legendas SRT.
 
-Uso: python3 tools/build_narration.py EP001
+Uso: python3 tools/build_narration.py EP001 [--regen] [--source arquivo.wav]
+  provider em VOZ/voice_preset.json: "local (kokoro-onnx)" | "gemini" | "arquivo"
+  ("arquivo" usa episodes/<EP>/narration_source.wav — gravação humana ou export de outro serviço)
 """
 import os, sys, json, re, difflib, unicodedata
 import numpy as np
@@ -9,7 +12,7 @@ from scipy.signal import resample_poly
 sys.path.insert(0, os.path.dirname(__file__))
 from tts_common import synth, trim_silence, write_wav, transcribe, norm, resample, ROOT, MODELS
 
-EP = sys.argv[1] if len(sys.argv) > 1 else "EP001"
+EP = next((a for a in sys.argv[1:] if a.upper().startswith("EP")), "EP001")
 REPO = os.path.dirname(ROOT)
 ep = json.load(open(os.path.join(ROOT, "episodes", EP, "episode.json")))
 preset = json.load(open(os.path.join(REPO, "VOZ", "voice_preset.json")))
@@ -85,54 +88,156 @@ def align(expected, recog, dur):
 pub = os.path.join(ROOT, "public", EP); os.makedirs(pub, exist_ok=True)
 out_dir = os.path.join(REPO, "OUTPUT", EP); os.makedirs(os.path.join(out_dir, "audio"), exist_ok=True)
 
-t = float(ep["leadIn"])
-chunks, segs, words_all, qa = [np.zeros(int(t * SR), np.float32)], [], [], []
-peak = 0.0
-raw = []
-for seg in ep["segments"]:
-    x, sr = synth(tts_text(seg["text"]), VOICE, SPEED)
-    x = trim_silence(x, sr, pad=0.02)
-    raw.append((x, sr)); peak = max(peak, float(np.abs(x).max()))
+WORD_RE = r"[\wáàâãéêíóôõúüçÁÀÂÃÉÊÍÓÔÕÚÜÇ]+"
+PROVIDER = str(preset.get("provider", "kokoro")).lower()
+fps = ep["fps"]
+SRC = os.path.join(ROOT, "episodes", EP, "narration_source.wav")
+SRC_META = SRC.replace(".wav", ".json")
 
-for seg, (x, sr) in zip(ep["segments"], raw):
-    x = x / peak * 0.89
-    dur = len(x) / sr
-    heard, _, _ = transcribe(x, sr)
-    ratio = difflib.SequenceMatcher(None, [key(w) for w in norm(seg["text"])], [key(w) for w in norm(heard)]).ratio()
-    expected = re.findall(r"[\wáàâãéêíóôõúüçÁÀÂÃÉÊÍÓÔÕÚÜÇ]+", seg["text"])
-    starts, matched = align(expected, word_times(x, sr), dur)
-    # legendas: "a b | *c d*" -> chunks com ênfase
-    cap_words, ci = [], 0
+
+def caption_words(seg):
+    """Legendas: "a b | *c d*" -> palavras com índice de bloco e ênfase."""
+    out = []
     for c_i, chunk in enumerate(seg["caption"].split("|")):
         emph = False
         for tok in chunk.split():
             if tok.startswith("*"): emph = True
-            clean = tok.strip("*")
-            cap_words.append(dict(text=clean, chunk=c_i, emph=emph))
+            out.append(dict(text=tok.strip("*"), chunk=c_i, emph=emph))
             if tok.endswith("*"): emph = False
-    assert len(cap_words) == len(expected), (seg["id"], len(cap_words), len(expected))
-    ws = []
-    for i, (w, cw) in enumerate(zip(expected, cap_words)):
-        s = t + starts[i]
-        e = t + (starts[i + 1] if i + 1 < len(expected) else dur)
-        ws.append(dict(seg=seg["id"], i=i, word=w, text=cw["text"], chunk=cw["chunk"], emph=cw["emph"], start=round(s, 3), end=round(e, 3)))
-    words_all += ws
-    segs.append(dict(id=seg["id"], scene=seg["scene"], text=seg["text"], start=round(t, 3), end=round(t + dur, 3)))
-    qa.append(dict(seg=seg["id"], seconds=round(dur, 2), asr_match=round(ratio, 3), aligned_words=f"{matched}/{len(expected)}", heard=heard))
-    print(qa[-1], flush=True)
-    y = resample_poly(x, SR, sr).astype(np.float32)
-    chunks.append(y)
-    t += dur
-    pause = float(seg.get("pauseAfter", 0))
-    chunks.append(np.zeros(int(pause * SR), np.float32)); t += pause
+    return out
 
-narr_end = t
-total = narr_end + float(ep["tail"])
-fps = ep["fps"]
-total = np.ceil(total * fps) / fps
-chunks.append(np.zeros(int((total - narr_end) * SR), np.float32))
-narr = np.concatenate(chunks)
-narr = narr[: int(round(total * SR))]
+
+def build_segmented():
+    """Kokoro local: uma síntese por frase, pausas definidas em episode.json."""
+    t = float(ep["leadIn"])
+    chunks, segs, words_all, qa = [np.zeros(int(t * SR), np.float32)], [], [], []
+    peak, raw = 0.0, []
+    for seg in ep["segments"]:
+        x, sr = synth(tts_text(seg["text"]), VOICE, SPEED)
+        x = trim_silence(x, sr, pad=0.02)
+        raw.append((x, sr)); peak = max(peak, float(np.abs(x).max()))
+    for seg, (x, sr) in zip(ep["segments"], raw):
+        x = x / peak * 0.89
+        dur = len(x) / sr
+        heard, _, _ = transcribe(x, sr)
+        ratio = difflib.SequenceMatcher(None, [key(w) for w in norm(seg["text"])], [key(w) for w in norm(heard)]).ratio()
+        expected = re.findall(WORD_RE, seg["text"])
+        starts, matched = align(expected, word_times(x, sr), dur)
+        cap = caption_words(seg)
+        assert len(cap) == len(expected), (seg["id"], len(cap), len(expected))
+        for i, (w, cw) in enumerate(zip(expected, cap)):
+            e = starts[i + 1] if i + 1 < len(expected) else dur
+            words_all.append(dict(seg=seg["id"], i=i, word=w, text=cw["text"], chunk=cw["chunk"], emph=cw["emph"],
+                                  start=round(t + starts[i], 3), end=round(t + e, 3)))
+        segs.append(dict(id=seg["id"], scene=seg["scene"], text=seg["text"], start=round(t, 3), end=round(t + dur, 3)))
+        qa.append(dict(seg=seg["id"], seconds=round(dur, 2), asr_match=round(ratio, 3), aligned_words=f"{matched}/{len(expected)}", heard=heard))
+        print(qa[-1], flush=True)
+        chunks.append(resample_poly(x, SR, sr).astype(np.float32))
+        t += dur
+        pause = float(seg.get("pauseAfter", 0))
+        chunks.append(np.zeros(int(pause * SR), np.float32)); t += pause
+    return np.concatenate(chunks), segs, words_all, qa, t
+
+
+def full_text():
+    """Texto corrido, com parágrafo a cada cena (o parágrafo vira respiro natural na fala)."""
+    order, blocks = [], []
+    for s in ep["segments"]:
+        if s["scene"] not in order:
+            order.append(s["scene"]); blocks.append([])
+        blocks[-1].append(tts_text(s["text"]))
+    return "\n\n".join(" ".join(b) for b in blocks)
+
+
+def source_audio():
+    """Narração inteira em um arquivo: gerada pelo Gemini (com cache) ou fornecida (gravação/outro serviço)."""
+    import hashlib
+    from tts_common import read_wav
+    text = full_text()
+    meta = dict(provider=PROVIDER, model=preset.get("model_id"), voice=VOICE, direction=preset.get("direction", ""),
+                text_sha=hashlib.sha1(text.encode()).hexdigest())
+    have = json.load(open(SRC_META)) if os.path.exists(SRC_META) else None
+    external = PROVIDER in ("arquivo", "file", "external")
+    if "--source" in sys.argv:  # adota um arquivo já gerado (ex.: uma audição aprovada) como narração oficial
+        import shutil
+        shutil.copyfile(sys.argv[sys.argv.index("--source") + 1], SRC)
+        json.dump(meta, open(SRC_META, "w"), ensure_ascii=False, indent=1)
+    elif external:
+        assert os.path.exists(SRC), f"provider '{PROVIDER}' exige {SRC}"
+    elif "--regen" in sys.argv or not os.path.exists(SRC) or have != meta:
+        from tts_gemini import synth_gemini
+        expected_k = [key(w) for w in re.findall(WORD_RE, text)]
+        best = None
+        for attempt in range(4):
+            x, sr = synth_gemini(text, VOICE, preset["model_id"], preset.get("direction"))
+            x = trim_silence(x, sr, pad=0.02)
+            heard_k = [key(w) for w, _ in word_times(x, sr)]
+            ratio = difflib.SequenceMatcher(None, expected_k, heard_k, autojunk=False).ratio()
+            extra = len(heard_k) - len(expected_k)
+            print(f"tentativa {attempt + 1}: {len(x) / sr:.1f} s, texto reconhecido {ratio:.1%}, palavras a mais {extra}", flush=True)
+            if best is None or ratio > best[0]:
+                best = (ratio, x, sr)
+            if ratio >= 0.97 and abs(extra) <= 2:
+                break
+        ratio, x, sr = best
+        write_wav(SRC, x, sr)
+        json.dump(meta, open(SRC_META, "w"), ensure_ascii=False, indent=1)
+    return read_wav(SRC)
+
+
+def build_whole():
+    """Narração em arquivo único: alinha todas as palavras e deriva cenas e legendas do áudio real."""
+    x, sr = source_audio()
+    x = trim_silence(x, sr, pad=0.02)
+    x = x / (np.abs(x).max() + 1e-9) * 0.89
+    dur = len(x) / sr
+    recog = word_times(x, sr)
+    exp = [(seg, w) for seg in ep["segments"] for w in re.findall(WORD_RE, seg["text"])]
+    starts, matched = align([w for _, w in exp], recog, dur)
+    # fim real de cada palavra: início do primeiro silêncio ≥ 0,12 s antes da palavra seguinte
+    hop = int(sr * 0.01)
+    n = len(x) // hop
+    rms = np.sqrt(np.mean(x[: n * hop].reshape(n, hop) ** 2, axis=1) + 1e-12)
+    quiet = rms < rms.max() * 10 ** (-34 / 20)
+    ends = []
+    for i, st in enumerate(starts):
+        nxt = starts[i + 1] if i + 1 < len(starts) else dur
+        a, b = int((st + 0.06) / 0.01), int(nxt / 0.01)
+        end, run = nxt, 0
+        for f in range(a, min(b, n)):
+            run = run + 1 if quiet[f] else 0
+            if run >= 12:
+                end = (f - run + 1) * 0.01 + 0.02
+                break
+        ends.append(max(st + 0.05, end))
+    t0 = float(ep["leadIn"])
+    segs, words_all, qa, k = [], [], [], 0
+    heard_k = {key(w) for w, _ in recog}
+    for seg in ep["segments"]:
+        expected = re.findall(WORD_RE, seg["text"])
+        cap = caption_words(seg)
+        assert len(cap) == len(expected), (seg["id"], len(cap), len(expected))
+        for i, (w, cw) in enumerate(zip(expected, cap)):
+            words_all.append(dict(seg=seg["id"], i=i, word=w, text=cw["text"], chunk=cw["chunk"], emph=cw["emph"],
+                                  start=round(t0 + starts[k + i], 3), end=round(t0 + ends[k + i], 3)))
+        a, b = t0 + starts[k], t0 + ends[k + len(expected) - 1]
+        segs.append(dict(id=seg["id"], scene=seg["scene"], text=seg["text"], start=round(a, 3), end=round(b, 3)))
+        missing = [w for w in expected if key(tts_text(w)) not in heard_k]
+        qa.append(dict(seg=seg["id"], seconds=round(b - a, 2), palavras_nao_reconhecidas=missing))
+        print(qa[-1], flush=True)
+        k += len(expected)
+    heard = " ".join(w for w, _ in recog)
+    ratio = difflib.SequenceMatcher(None, [key(tts_text(w)) for _, w in exp], [key(w) for w, _ in recog], autojunk=False).ratio()
+    qa.append(dict(seg="TOTAL", seconds=round(dur, 2), asr_match=round(ratio, 3), aligned_words=f"{matched}/{len(exp)}",
+                   words_per_min=round(len(exp) / dur * 60), heard=heard))
+    print({k_: v for k_, v in qa[-1].items() if k_ != "heard"}, flush=True)
+    narr = np.concatenate([np.zeros(int(t0 * SR), np.float32), resample_poly(x, SR, sr).astype(np.float32)])
+    return narr, segs, words_all, qa, t0 + dur
+
+
+narr, segs, words_all, qa, narr_end = build_segmented() if PROVIDER.startswith("local") or "kokoro" in PROVIDER else build_whole()
+total = np.ceil((narr_end + float(ep["tail"])) * fps) / fps
+narr = np.concatenate([narr, np.zeros(max(0, int(round(total * SR)) - len(narr)), np.float32)])[: int(round(total * SR))]
 write_wav(os.path.join(pub, "narration.wav"), narr, SR)
 write_wav(os.path.join(out_dir, f"{EP}_narracao.wav"), narr, SR)
 
@@ -143,7 +248,8 @@ for s in segs:
 scenes = []
 for n, name in enumerate(order):
     first = next(s for s in segs if s["scene"] == name)
-    start = 0.0 if n == 0 else first["start"] - float(ep["sceneLead"].get(name, 0.25))
+    prev_end = max([g["end"] for g in segs if g["start"] < first["start"]], default=0.0)
+    start = 0.0 if n == 0 else max(first["start"] - float(ep["sceneLead"].get(name, 0.25)), (prev_end + first["start"]) / 2)
     scenes.append(dict(id=name, start=round(start, 3)))
 for a, b in zip(scenes, scenes[1:] + [dict(start=float(total))]):
     a["end"] = round(b["start"], 3)
