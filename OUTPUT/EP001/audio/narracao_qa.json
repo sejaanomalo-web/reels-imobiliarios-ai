@@ -1,0 +1,72 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 1.29,
+    "asr_match": 0.75,
+    "aligned_words": "3/4",
+    "heard": "O LED não sumiu."
+  },
+  {
+    "seg": "s2",
+    "seconds": 1.52,
+    "asr_match": 1.0,
+    "aligned_words": "5/5",
+    "heard": "O histórico é que sumiu."
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.0,
+    "asr_match": 1.0,
+    "aligned_words": "8/8",
+    "heard": "Um comprador pediu um apartamento de dois quartos."
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.49,
+    "asr_match": 1.0,
+    "aligned_words": "12/12",
+    "heard": "Você enviou opções, conversou sobre a localização e deixou a conversa aberta."
+  },
+  {
+    "seg": "s5",
+    "seconds": 1.9,
+    "asr_match": 0.727,
+    "aligned_words": "5/5",
+    "heard": "A Semana em Shell de Visitas"
+  },
+  {
+    "seg": "s6",
+    "seconds": 5.86,
+    "asr_match": 1.0,
+    "aligned_words": "16/16",
+    "heard": "Quando apareceu o imóvel perfeito, você lembrava do apartamento, mas não do nome de quem procurava."
+  },
+  {
+    "seg": "s7",
+    "seconds": 6.0,
+    "asr_match": 0.923,
+    "aligned_words": "20/20",
+    "heard": "Um contato útil precisa de três registros, o que procura em que etapa está igual é o próximo retorno."
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.52,
+    "asr_match": 1.0,
+    "aligned_words": "9/9",
+    "heard": "Sem isso, até uma boa oportunidade pode ficar esquecida."
+  },
+  {
+    "seg": "s9",
+    "seconds": 3.91,
+    "asr_match": 1.0,
+    "aligned_words": "11/11",
+    "heard": "Quer acompanhar esse histórico em um sistema feito para sua rotina."
+  },
+  {
+    "seg": "s10",
+    "seconds": 5.24,
+    "asr_match": 0.759,
+    "aligned_words": "13/13",
+    "heard": "Conheça nosso sistema imobiliário personalizado no link da B.E.O. e agente de uma demonstração."
+  }
+]

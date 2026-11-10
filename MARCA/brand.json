@@ -1,0 +1,12 @@
+{
+  "approved": false,
+  "status": "PROVISORIO — não existe brand kit aprovado; nome do perfil e do produto ainda não definidos",
+  "profile_name": null,
+  "product_name": null,
+  "product_descriptor": "sistema imobiliário personalizado",
+  "accent_color": "#35E0A1",
+  "accent_note": "Verde-menta escolhido só para o piloto. Não é o amarelo da ANÔMALO nem as cores das referências. Trocar aqui e em PRODUCAO/src/theme.ts.",
+  "fonts": { "sans": "Manrope", "mono": "JetBrains Mono" },
+  "cta": "link da bio → agendar demonstração",
+  "forbidden": ["URL inventada", "preço", "resultado garantido", "depoimento", "logo de terceiros"]
+}

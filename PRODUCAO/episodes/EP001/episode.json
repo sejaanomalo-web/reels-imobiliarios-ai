@@ -1,0 +1,530 @@
+{
+  "id": "EP001",
+  "title": "O lead que não sumiu",
+  "fps": 30,
+  "leadIn": 0.12,
+  "tail": 1.7,
+  "segments": [
+    {
+      "id": "s1",
+      "scene": "hook",
+      "text": "O lead não sumiu.",
+      "caption": "O lead | *não sumiu.*",
+      "pauseAfter": 0.26
+    },
+    {
+      "id": "s2",
+      "scene": "hook",
+      "text": "O histórico é que sumiu.",
+      "caption": "O *histórico* | é que sumiu.",
+      "pauseAfter": 0.62
+    },
+    {
+      "id": "s3",
+      "scene": "situacao",
+      "text": "Um comprador pediu um apartamento de dois quartos.",
+      "caption": "Um comprador pediu | um apartamento | de *dois quartos.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s4",
+      "scene": "situacao",
+      "text": "Você enviou opções, conversou sobre a localização e deixou a conversa aberta.",
+      "caption": "Você enviou opções, | conversou sobre | a *localização* | e deixou | a conversa *aberta.*",
+      "pauseAfter": 0.62
+    },
+    {
+      "id": "s5",
+      "scene": "tensao",
+      "text": "A semana encheu de visitas.",
+      "caption": "A semana encheu | de *visitas.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s6",
+      "scene": "tensao",
+      "text": "Quando apareceu o imóvel perfeito, você lembrava do apartamento, mas não do nome de quem procurava.",
+      "caption": "Quando apareceu | o *imóvel perfeito,* | você lembrava | do apartamento, | mas não do *nome* | de quem procurava.",
+      "pauseAfter": 0.66
+    },
+    {
+      "id": "s7",
+      "scene": "insight",
+      "text": "Um contato útil precisa de três registros: o que procura, em que etapa está e qual é o próximo retorno.",
+      "caption": "Um contato útil | precisa de | *três registros:* | o que *procura,* | em que *etapa* está | e qual é o | *próximo retorno.*",
+      "pauseAfter": 0.38
+    },
+    {
+      "id": "s8",
+      "scene": "insight",
+      "text": "Sem isso, até uma boa oportunidade pode ficar esquecida.",
+      "caption": "Sem isso, | até uma boa | oportunidade | pode ficar *esquecida.*",
+      "pauseAfter": 0.66
+    },
+    {
+      "id": "s9",
+      "scene": "cta",
+      "text": "Quer acompanhar esse histórico em um sistema feito para sua rotina?",
+      "caption": "Quer acompanhar | esse *histórico* | em um sistema | feito para | *sua rotina?*",
+      "pauseAfter": 0.32
+    },
+    {
+      "id": "s10",
+      "scene": "cta",
+      "text": "Conheça nosso sistema imobiliário personalizado no link da bio e agende uma demonstração.",
+      "caption": "Conheça nosso | sistema imobiliário | *personalizado* | no *link da bio* | e agende uma | *demonstração.*",
+      "pauseAfter": 0
+    }
+  ],
+  "sceneLead": {
+    "situacao": 0.3,
+    "tensao": 0.25,
+    "insight": 0.3,
+    "cta": 0.25
+  },
+  "cues": {
+    "hook_accel": {
+      "seg": "s2",
+      "word": "histórico",
+      "edge": "start"
+    },
+    "hook_exit": {
+      "seg": "s2",
+      "word": "sumiu",
+      "edge": "start"
+    },
+    "hook_dive": {
+      "seg": "s2",
+      "word": "sumiu",
+      "edge": "end",
+      "offset": 0.12
+    },
+    "sit_bubble": {
+      "seg": "s3",
+      "word": "comprador",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "sit_tag": {
+      "seg": "s3",
+      "word": "dois",
+      "edge": "start"
+    },
+    "sit_listings": {
+      "seg": "s4",
+      "word": "enviou",
+      "edge": "start"
+    },
+    "sit_map": {
+      "seg": "s4",
+      "word": "conversou",
+      "edge": "start"
+    },
+    "sit_pin": {
+      "seg": "s4",
+      "word": "localização",
+      "edge": "start"
+    },
+    "sit_typing": {
+      "seg": "s4",
+      "word": "deixou",
+      "edge": "start"
+    },
+    "sit_open": {
+      "seg": "s4",
+      "word": "aberta",
+      "edge": "start"
+    },
+    "ten_agenda": {
+      "seg": "s5",
+      "word": "semana",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ten_full": {
+      "seg": "s5",
+      "word": "visitas",
+      "edge": "end"
+    },
+    "ten_listing": {
+      "seg": "s6",
+      "word": "apareceu",
+      "edge": "start"
+    },
+    "ten_glow": {
+      "seg": "s6",
+      "word": "perfeito",
+      "edge": "start"
+    },
+    "ten_remember": {
+      "seg": "s6",
+      "word": "lembrava",
+      "edge": "start"
+    },
+    "ten_name": {
+      "seg": "s6",
+      "word": "nome",
+      "edge": "start",
+      "offset": -0.25
+    },
+    "ten_who": {
+      "seg": "s6",
+      "word": "procurava",
+      "edge": "start"
+    },
+    "ins_fold": {
+      "seg": "s7",
+      "word": "um",
+      "edge": "start",
+      "offset": -0.15
+    },
+    "ins_three": {
+      "seg": "s7",
+      "word": "três",
+      "edge": "start"
+    },
+    "ins_c1": {
+      "seg": "s7",
+      "word": "procura",
+      "edge": "start",
+      "offset": -0.3
+    },
+    "ins_c2": {
+      "seg": "s7",
+      "word": "etapa",
+      "edge": "start",
+      "offset": -0.32
+    },
+    "ins_c3": {
+      "seg": "s7",
+      "word": "próximo",
+      "edge": "start",
+      "offset": -0.15
+    },
+    "ins_ghost": {
+      "seg": "s8",
+      "word": "sem",
+      "edge": "start"
+    },
+    "ins_forgot": {
+      "seg": "s8",
+      "word": "esquecida",
+      "edge": "start"
+    },
+    "cta_dock": {
+      "seg": "s9",
+      "word": "quer",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_hist": {
+      "seg": "s9",
+      "word": "histórico",
+      "edge": "start"
+    },
+    "cta_routine": {
+      "seg": "s9",
+      "word": "rotina",
+      "edge": "start"
+    },
+    "cta_pull": {
+      "seg": "s10",
+      "word": "conheça",
+      "edge": "start"
+    },
+    "cta_link": {
+      "seg": "s10",
+      "word": "link",
+      "edge": "start",
+      "offset": -0.3
+    },
+    "cta_demo": {
+      "seg": "s10",
+      "word": "demonstração",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ins_opp": {
+      "seg": "s8",
+      "word": "oportunidade",
+      "edge": "start",
+      "offset": -0.1
+    }
+  },
+  "series": {
+    "hookRows": {
+      "first": 0.35,
+      "ratio": 0.8,
+      "floor": 0.036,
+      "anchorIndex": 7,
+      "anchorCue": "hook_exit",
+      "untilCue": "hook_dive",
+      "untilOffset": 0.45
+    },
+    "agendaBlocks": {
+      "count": 15,
+      "fromCue": "ten_agenda",
+      "toCue": "ten_full",
+      "toOffset": -0.15,
+      "power": 0.8
+    }
+  },
+  "sfx": [
+    {
+      "series": "hookRows",
+      "sound": "tick",
+      "gain": -25,
+      "gainSlope": -0.35,
+      "minGain": -38,
+      "panRandom": 0.25
+    },
+    {
+      "cue": "hook_accel",
+      "offset": 0.0,
+      "sound": "whoosh_up",
+      "gain": -21,
+      "dur": 1.0
+    },
+    {
+      "cue": "hook_exit",
+      "offset": 0.02,
+      "sound": "thump",
+      "gain": -13
+    },
+    {
+      "cue": "hook_dive",
+      "offset": -0.05,
+      "sound": "whoosh_dive",
+      "gain": -15,
+      "dur": 0.75
+    },
+    {
+      "cue": "sit_bubble",
+      "sound": "pop",
+      "gain": -18,
+      "pan": -0.3
+    },
+    {
+      "cue": "sit_tag",
+      "sound": "tick",
+      "gain": -24,
+      "pan": -0.2
+    },
+    {
+      "cue": "sit_listings",
+      "sound": "swish",
+      "gain": -20,
+      "pan": 0.3
+    },
+    {
+      "cue": "sit_listings",
+      "offset": 0.12,
+      "sound": "pop",
+      "gain": -19,
+      "pan": 0.3,
+      "pitch": 2
+    },
+    {
+      "cue": "sit_listings",
+      "offset": 0.26,
+      "sound": "pop",
+      "gain": -20,
+      "pan": 0.35,
+      "pitch": 4
+    },
+    {
+      "cue": "sit_map",
+      "sound": "pop",
+      "gain": -19,
+      "pan": -0.25,
+      "pitch": -2
+    },
+    {
+      "cue": "sit_pin",
+      "sound": "pin",
+      "gain": -16,
+      "pan": -0.1
+    },
+    {
+      "cue": "sit_typing",
+      "sound": "typing",
+      "gain": -25,
+      "pan": 0.2
+    },
+    {
+      "cue": "sit_open",
+      "offset": 0.05,
+      "sound": "hollow",
+      "gain": -17
+    },
+    {
+      "cue": "ten_agenda",
+      "offset": -0.18,
+      "sound": "whoosh_up",
+      "gain": -18,
+      "dur": 0.5
+    },
+    {
+      "series": "agendaBlocks",
+      "sound": "block",
+      "gain": -23,
+      "panSpread": 0.6
+    },
+    {
+      "cue": "ten_listing",
+      "offset": -0.1,
+      "sound": "swish",
+      "gain": -19
+    },
+    {
+      "cue": "ten_glow",
+      "sound": "shimmer",
+      "gain": -18
+    },
+    {
+      "cue": "ten_remember",
+      "offset": 0.1,
+      "sound": "tick",
+      "gain": -22,
+      "pitch": 5
+    },
+    {
+      "cue": "ten_name",
+      "sound": "scramble",
+      "gain": -23,
+      "dur": 1.5
+    },
+    {
+      "cue": "ten_who",
+      "offset": 0.25,
+      "sound": "hollow",
+      "gain": -17,
+      "pitch": -3
+    },
+    {
+      "cue": "ins_fold",
+      "offset": -0.1,
+      "sound": "whoosh_fold",
+      "gain": -16,
+      "dur": 0.7
+    },
+    {
+      "cue": "ins_fold",
+      "offset": 0.42,
+      "sound": "thump",
+      "gain": -17,
+      "pitch": 5
+    },
+    {
+      "cue": "ins_c1",
+      "sound": "bell",
+      "gain": -18,
+      "note": 65,
+      "pan": -0.15
+    },
+    {
+      "cue": "ins_c2",
+      "sound": "bell",
+      "gain": -18,
+      "note": 69
+    },
+    {
+      "cue": "ins_c3",
+      "sound": "bell",
+      "gain": -18,
+      "note": 72,
+      "pan": 0.15
+    },
+    {
+      "cue": "ins_ghost",
+      "sound": "fade_down",
+      "gain": -18,
+      "dur": 2.6
+    },
+    {
+      "cue": "cta_dock",
+      "offset": -0.05,
+      "sound": "whoosh_up",
+      "gain": -17,
+      "dur": 0.6
+    },
+    {
+      "cue": "cta_dock",
+      "offset": 0.4,
+      "sound": "click",
+      "gain": -18
+    },
+    {
+      "cue": "cta_hist",
+      "offset": 0.0,
+      "sound": "pop",
+      "gain": -21,
+      "pitch": 0
+    },
+    {
+      "cue": "cta_hist",
+      "offset": 0.22,
+      "sound": "pop",
+      "gain": -21,
+      "pitch": 2
+    },
+    {
+      "cue": "cta_hist",
+      "offset": 0.44,
+      "sound": "pop",
+      "gain": -21,
+      "pitch": 4
+    },
+    {
+      "cue": "cta_hist",
+      "offset": 0.66,
+      "sound": "pop",
+      "gain": -20,
+      "pitch": 7
+    },
+    {
+      "cue": "cta_routine",
+      "offset": 0.1,
+      "sound": "bell",
+      "gain": -21,
+      "note": 77
+    },
+    {
+      "cue": "cta_pull",
+      "offset": -0.05,
+      "sound": "swish",
+      "gain": -20
+    },
+    {
+      "cue": "cta_link",
+      "offset": -0.12,
+      "sound": "whoosh_up",
+      "gain": -18,
+      "dur": 0.45
+    },
+    {
+      "cue": "cta_link",
+      "offset": 0.1,
+      "sound": "chord",
+      "gain": -16
+    },
+    {
+      "cue": "cta_demo",
+      "offset": 0.05,
+      "sound": "click",
+      "gain": -19
+    },
+    {
+      "cue": "ins_opp",
+      "sound": "tick",
+      "gain": -23,
+      "pitch": 7,
+      "pan": 0.3
+    }
+  ],
+  "music": {
+    "gain": -30,
+    "duck": -5.5,
+    "bpm": 96
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "approved": false,
+  "status": "PROVISORIO — aguardando audição e aprovação explícita do cliente",
+  "provider": "local (kokoro-onnx)",
+  "model_id": "hexgrad/Kokoro-82M",
+  "model_version": "v1.0 (ONNX: kokoro-v1.0.onnx + voices-v1.0.bin, release model-files-v1.0 de thewh1teagle/kokoro-onnx)",
+  "language": "pt-BR",
+  "voice_id": "pm_alex",
+  "voice_reference_path": null,
+  "voice_reference_authorized": false,
+  "style": "conversacional, brasileiro, seguro e espontaneo",
+  "speed": 1.0,
+  "seed": null,
+  "pronunciation_overrides": { "lead": "lídi" },
+  "license": "Apache-2.0 (modelo Kokoro-82M)",
+  "license_reviewed": true,
+  "approval_date": null,
+  "notes": "Não existia preset aprovado no repositório. pm_alex foi escolhida provisoriamente para o piloto do EP001. Chatterbox não pôde ser testado: huggingface.co está bloqueado na rede deste ambiente. Trocar voice_id e rodar `npm run ep -- EP001` regenera narração, áudio, legendas e vídeo."
+}
