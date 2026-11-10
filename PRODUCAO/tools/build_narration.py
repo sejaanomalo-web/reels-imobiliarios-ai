@@ -2,7 +2,7 @@
 confere por transcrição, alinha palavra a palavra
 e escreve public/<EP>/narration.wav + src/episodes/<EP>/timeline.json + legendas SRT.
 
-Uso: python3 tools/build_narration.py EP001 [--regen] [--source arquivo.wav]
+Uso: python3 tools/build_narration.py EP001 [--regen] [--force] [--source arquivo.wav] [--model id-de-rascunho]
   provider em VOZ/voice_preset.json: "local (kokoro-onnx)" | "gemini" | "arquivo"
   ("arquivo" usa episodes/<EP>/narration_source.wav — gravação humana ou export de outro serviço)
 """
@@ -154,8 +154,13 @@ def source_audio():
     import hashlib
     from tts_common import read_wav
     text = full_text()
-    meta = dict(provider=PROVIDER, model=preset.get("model_id"), voice=VOICE, direction=preset.get("direction", ""),
+    # --model <id>: rascunho com outro modelo (ex.: cota diária do aprovado esgotada). O meta registra o modelo
+    # usado, então a próxima execução sem --model detecta a diferença e regenera com o modelo aprovado.
+    model = sys.argv[sys.argv.index("--model") + 1] if "--model" in sys.argv else preset.get("model_id")
+    meta = dict(provider=PROVIDER, model=model, voice=VOICE, direction=preset.get("direction", ""),
                 text_sha=hashlib.sha1(text.encode()).hexdigest())
+    if model != preset.get("model_id"):
+        meta["draft"] = True
     have = json.load(open(SRC_META)) if os.path.exists(SRC_META) else None
     external = PROVIDER in ("arquivo", "file", "external")
     if "--source" in sys.argv:  # adota um arquivo já gerado (ex.: uma audição aprovada) como narração oficial
@@ -169,7 +174,17 @@ def source_audio():
         expected_k = [key(w) for w in re.findall(WORD_RE, text)]
         best = None
         for attempt in range(4):
-            x, sr = synth_gemini(text, VOICE, preset["model_id"], preset.get("direction"))
+            try:
+                x, sr = synth_gemini(text, VOICE, model, preset.get("direction"))
+            except RuntimeError as e:
+                if best is None and os.path.exists(SRC):
+                    # cota esgotada etc.: segue com a narração já existente (pode ser rascunho) e avisa
+                    print(f"AVISO: não foi possível gerar com {model} ({str(e)[:90]}…). "
+                          f"Mantendo a narração existente: {have}", flush=True)
+                    return read_wav(SRC)
+                if best is None:
+                    raise
+                break
             x = trim_silence(x, sr, pad=0.02)
             heard_k = [key(w) for w, _ in word_times(x, sr)]
             ratio = difflib.SequenceMatcher(None, expected_k, heard_k, autojunk=False).ratio()
@@ -180,6 +195,13 @@ def source_audio():
             if ratio >= 0.97 and abs(extra) <= 2:
                 break
         ratio, x, sr = best
+        if ratio < 0.97 and os.path.exists(SRC) and "--force" not in sys.argv:
+            # nunca troca uma narração existente por uma tomada que erra o texto; guarda a tomada para escuta
+            rej = os.path.join(REPO, "OUTPUT", EP, "audio", f"narracao_tomada_rejeitada_{model}.wav")
+            write_wav(rej, x, sr)
+            print(f"AVISO: melhor tomada de {model} reconheceu só {ratio:.1%} do texto; mantida a narração existente "
+                  f"({have}). Tomada salva em {rej}. Use --force para adotá-la mesmo assim.", flush=True)
+            return read_wav(SRC)
         write_wav(SRC, x, sr)
         json.dump(meta, open(SRC_META, "w"), ensure_ascii=False, indent=1)
     return read_wav(SRC)
@@ -294,8 +316,14 @@ if "agendaBlocks" in sp:
     a = sp["agendaBlocks"]; t0 = cues[a["fromCue"]] + 0.15; t1 = cues[a["toCue"]] + a.get("toOffset", 0)
     series["agendaBlocks"] = [round(t0 + (t1 - t0) * (i / (a["count"] - 1)) ** a.get("power", 1), 3) for i in range(a["count"])]
 
+for name, a in sp.items():
+    if a.get("type") == "between":  # N eventos entre duas marcas, com aceleração opcional (power < 1)
+        t0 = cues[a["fromCue"]] + a.get("fromOffset", 0); t1 = cues[a["toCue"]] + a.get("toOffset", 0)
+        series[name] = [round(t0 + (t1 - t0) * (i / max(1, a["count"] - 1)) ** a.get("power", 1), 3) for i in range(a["count"])]
+
 timeline = dict(id=EP, title=ep["title"], fps=fps, duration=float(total), durationInFrames=int(round(total * fps)),
-                narrationEnd=round(narr_end, 3), voice=VOICE, scenes=scenes, segments=segs, cues=cues, series=series, captions=caps)
+                narrationEnd=round(narr_end, 3), voice=VOICE, scenes=scenes, segments=segs, cues=cues, series=series, captions=caps,
+                hideCaptions=ep.get("hideCaptions", []))
 os.makedirs(os.path.join(ROOT, "src", "episodes", EP), exist_ok=True)
 json.dump(timeline, open(os.path.join(ROOT, "src", "episodes", EP, "timeline.json"), "w"), ensure_ascii=False, indent=1)
 json.dump(qa, open(os.path.join(out_dir, "audio", "narracao_qa.json"), "w"), ensure_ascii=False, indent=2)

@@ -1,0 +1,627 @@
+{
+  "id": "EP002",
+  "title": "A pergunta que o corretor não faz",
+  "fps": 30,
+  "leadIn": 0.12,
+  "tail": 1.8,
+  "segments": [
+    {
+      "id": "s1",
+      "scene": "hook",
+      "text": "O cliente diz que está só olhando.",
+      "caption": "O cliente diz | que está | *só olhando.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s2",
+      "scene": "hook",
+      "text": "E você já coloca ele na pasta dos curiosos.",
+      "caption": "E você já coloca ele | na pasta | dos *curiosos.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s3",
+      "scene": "situacao",
+      "text": "Mas pense: ele pode estar pesquisando bairros, simulando financiamento ou esperando vender outro imóvel.",
+      "caption": "Mas pense: | ele pode estar | pesquisando *bairros,* | simulando | *financiamento* | ou esperando vender | outro *imóvel.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s4",
+      "scene": "situacao",
+      "text": "A frase não explica o momento de compra.",
+      "caption": "A frase | não explica | o *momento de compra.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s5",
+      "scene": "tensao",
+      "text": "Se você manda dez anúncios sem perguntar nada, a conversa continua vaga e o cliente continua desconhecido.",
+      "caption": "Se você manda | *dez anúncios* | sem perguntar *nada,* | a conversa | continua *vaga* | e o cliente | continua *desconhecido.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s6",
+      "scene": "insight",
+      "text": "Troque o julgamento por uma pergunta:",
+      "caption": "Troque o *julgamento* | por uma *pergunta:*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s7",
+      "scene": "insight",
+      "text": "o que precisa acontecer para você decidir?",
+      "caption": "o que precisa | *acontecer* | para você *decidir?*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s8",
+      "scene": "insight",
+      "text": "Registre a resposta e combine quando voltar a conversar.",
+      "caption": "*Registre* a resposta | e *combine* | quando voltar | a conversar.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s9",
+      "scene": "cta",
+      "text": "Se você quer organizar essas etapas sem depender da memória,",
+      "caption": "Se você quer | *organizar* essas etapas | sem depender | da *memória,*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s10",
+      "scene": "cta",
+      "text": "conheça nosso sistema imobiliário personalizado pelo link da bio.",
+      "caption": "conheça nosso | sistema imobiliário | *personalizado* | pelo *link da bio.*",
+      "pauseAfter": 0.3
+    }
+  ],
+  "sceneLead": {
+    "situacao": 0.2,
+    "tensao": 0.3,
+    "insight": 0.35,
+    "cta": 0.3
+  },
+  "hideCaptions": [
+    "s7"
+  ],
+  "cues": {
+    "hook_say": {
+      "seg": "s1",
+      "word": "diz",
+      "edge": "start"
+    },
+    "hook_quote": {
+      "seg": "s1",
+      "word": "só",
+      "edge": "start",
+      "offset": -0.08
+    },
+    "hook_box": {
+      "seg": "s2",
+      "word": "coloca",
+      "edge": "start",
+      "offset": -0.15
+    },
+    "hook_drop": {
+      "seg": "s2",
+      "word": "pasta",
+      "edge": "start"
+    },
+    "hook_shut": {
+      "seg": "s2",
+      "word": "curiosos",
+      "edge": "end",
+      "offset": 0.02
+    },
+    "sit_rewind": {
+      "seg": "s3",
+      "word": "mas",
+      "edge": "start",
+      "offset": -0.12
+    },
+    "sit_split": {
+      "seg": "s3",
+      "word": "pense",
+      "edge": "end",
+      "offset": 0.02
+    },
+    "sit_map": {
+      "seg": "s3",
+      "word": "bairros",
+      "edge": "start",
+      "offset": -0.25
+    },
+    "sit_calc": {
+      "seg": "s3",
+      "word": "simulando",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_sign": {
+      "seg": "s3",
+      "word": "vender",
+      "edge": "start",
+      "offset": -0.2
+    },
+    "sit_phrase": {
+      "seg": "s4",
+      "word": "frase",
+      "edge": "start",
+      "offset": -0.15
+    },
+    "sit_unknown": {
+      "seg": "s4",
+      "word": "momento",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ten_start": {
+      "seg": "s5",
+      "word": "se",
+      "edge": "start",
+      "offset": -0.2
+    },
+    "ten_count": {
+      "seg": "s5",
+      "word": "dez",
+      "edge": "start"
+    },
+    "ten_none": {
+      "seg": "s5",
+      "word": "nada",
+      "edge": "end"
+    },
+    "ten_vague": {
+      "seg": "s5",
+      "word": "vaga",
+      "edge": "start"
+    },
+    "ten_unknown": {
+      "seg": "s5",
+      "word": "desconhecido",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ins_clear": {
+      "seg": "s6",
+      "word": "troque",
+      "edge": "start",
+      "offset": -0.2
+    },
+    "ins_judge": {
+      "seg": "s6",
+      "word": "julgamento",
+      "edge": "start"
+    },
+    "ins_question": {
+      "seg": "s6",
+      "word": "pergunta",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_answer": {
+      "seg": "s8",
+      "word": "registre",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ins_timeline": {
+      "seg": "s8",
+      "word": "combine",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ins_return": {
+      "seg": "s8",
+      "word": "conversar",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_dock": {
+      "seg": "s9",
+      "word": "se",
+      "edge": "start",
+      "offset": -0.15
+    },
+    "cta_stages": {
+      "seg": "s9",
+      "word": "organizar",
+      "edge": "start"
+    },
+    "cta_memory": {
+      "seg": "s9",
+      "word": "memória",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_pull": {
+      "seg": "s10",
+      "word": "conheça",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_link": {
+      "seg": "s10",
+      "word": "link",
+      "edge": "start",
+      "offset": -0.3
+    },
+    "cta_end": {
+      "seg": "s10",
+      "word": "bio",
+      "edge": "end"
+    }
+  },
+  "series": {
+    "flood": {
+      "type": "between",
+      "fromCue": "ten_count",
+      "fromOffset": -0.35,
+      "toCue": "ten_none",
+      "toOffset": -0.1,
+      "count": 10,
+      "power": 0.85
+    }
+  },
+  "sfx": [
+    {
+      "cue": "hook_say",
+      "sound": "pop",
+      "gain": -19,
+      "pan": -0.2
+    },
+    {
+      "cue": "hook_quote",
+      "offset": -0.02,
+      "sound": "thump",
+      "gain": -13,
+      "pitch": 3
+    },
+    {
+      "cue": "hook_quote",
+      "offset": -0.06,
+      "sound": "swish",
+      "gain": -20
+    },
+    {
+      "cue": "hook_box",
+      "sound": "whoosh_up",
+      "gain": -21,
+      "dur": 0.45
+    },
+    {
+      "cue": "hook_drop",
+      "offset": -0.05,
+      "sound": "whoosh_dive",
+      "gain": -17,
+      "dur": 0.5
+    },
+    {
+      "cue": "hook_drop",
+      "offset": 0.36,
+      "sound": "thump",
+      "gain": -15,
+      "pitch": -2
+    },
+    {
+      "cue": "hook_shut",
+      "sound": "hollow",
+      "gain": -17,
+      "pitch": -5
+    },
+    {
+      "cue": "sit_rewind",
+      "sound": "whoosh_up",
+      "gain": -19,
+      "dur": 0.5
+    },
+    {
+      "cue": "sit_split",
+      "sound": "swish",
+      "gain": -19
+    },
+    {
+      "cue": "sit_split",
+      "offset": 0.08,
+      "sound": "pop",
+      "gain": -21,
+      "pan": -0.45,
+      "pitch": 0
+    },
+    {
+      "cue": "sit_split",
+      "offset": 0.16,
+      "sound": "pop",
+      "gain": -21,
+      "pitch": 2
+    },
+    {
+      "cue": "sit_split",
+      "offset": 0.24,
+      "sound": "pop",
+      "gain": -21,
+      "pan": 0.45,
+      "pitch": 4
+    },
+    {
+      "cue": "sit_map",
+      "sound": "pin",
+      "gain": -17,
+      "pan": -0.45
+    },
+    {
+      "cue": "sit_calc",
+      "sound": "typing",
+      "gain": -24
+    },
+    {
+      "cue": "sit_sign",
+      "offset": 0.25,
+      "sound": "thump",
+      "gain": -18,
+      "pitch": 7,
+      "pan": 0.45
+    },
+    {
+      "cue": "sit_unknown",
+      "sound": "hollow",
+      "gain": -17
+    },
+    {
+      "cue": "ten_start",
+      "sound": "click",
+      "gain": -19
+    },
+    {
+      "series": "flood",
+      "sound": "swish",
+      "gain": -22,
+      "gainSlope": -0.2,
+      "minGain": -26,
+      "panSpread": 0.5
+    },
+    {
+      "series": "flood",
+      "sound": "pop",
+      "gain": -24,
+      "panRandom": 0.4
+    },
+    {
+      "cue": "ten_vague",
+      "sound": "scramble",
+      "gain": -25,
+      "dur": 1.0
+    },
+    {
+      "cue": "ten_unknown",
+      "sound": "hollow",
+      "gain": -16,
+      "pitch": -3
+    },
+    {
+      "cue": "ins_clear",
+      "sound": "whoosh_fold",
+      "gain": -16,
+      "dur": 0.7
+    },
+    {
+      "cue": "ins_judge",
+      "offset": 0.25,
+      "sound": "swish",
+      "gain": -21
+    },
+    {
+      "cue": "ins_question",
+      "sound": "bell",
+      "gain": -18,
+      "note": 69
+    },
+    {
+      "cue": "ins_answer",
+      "sound": "pop",
+      "gain": -20
+    },
+    {
+      "cue": "ins_answer",
+      "offset": 0.55,
+      "sound": "bell",
+      "gain": -20,
+      "note": 72
+    },
+    {
+      "cue": "ins_timeline",
+      "sound": "swish",
+      "gain": -20
+    },
+    {
+      "cue": "ins_return",
+      "sound": "bell",
+      "gain": -18,
+      "note": 76
+    },
+    {
+      "cue": "cta_dock",
+      "sound": "whoosh_up",
+      "gain": -18,
+      "dur": 0.55
+    },
+    {
+      "cue": "cta_dock",
+      "offset": 0.42,
+      "sound": "click",
+      "gain": -19
+    },
+    {
+      "cue": "cta_stages",
+      "sound": "pop",
+      "gain": -21,
+      "pitch": 0
+    },
+    {
+      "cue": "cta_stages",
+      "offset": 0.32,
+      "sound": "pop",
+      "gain": -21,
+      "pitch": 4
+    },
+    {
+      "cue": "cta_stages",
+      "offset": 0.64,
+      "sound": "pop",
+      "gain": -20,
+      "pitch": 7
+    },
+    {
+      "cue": "cta_memory",
+      "sound": "bell",
+      "gain": -20,
+      "note": 77
+    },
+    {
+      "cue": "cta_pull",
+      "sound": "swish",
+      "gain": -20
+    },
+    {
+      "cue": "cta_link",
+      "offset": -0.12,
+      "sound": "whoosh_up",
+      "gain": -18,
+      "dur": 0.45
+    },
+    {
+      "cue": "cta_link",
+      "offset": 0.1,
+      "sound": "chord",
+      "gain": -16
+    },
+    {
+      "cue": "cta_end",
+      "offset": 0.05,
+      "sound": "click",
+      "gain": -20
+    }
+  ],
+  "music": {
+    "gain": -30,
+    "duck": -5.5,
+    "bpm": 92,
+    "prog": [
+      {
+        "at": 0,
+        "notes": [
+          33,
+          45,
+          52,
+          57,
+          60
+        ],
+        "root": 45,
+        "dens": 2,
+        "bright": 0.4,
+        "label": "Am — o julgamento"
+      },
+      {
+        "at": "cue:sit_split",
+        "notes": [
+          29,
+          41,
+          48,
+          52,
+          57
+        ],
+        "root": 41,
+        "dens": 2,
+        "bright": 0.5,
+        "label": "Fmaj7 — três possibilidades"
+      },
+      {
+        "at": "scene:tensao",
+        "notes": [
+          26,
+          38,
+          50,
+          53,
+          57,
+          60
+        ],
+        "root": 50,
+        "dens": 4,
+        "bright": 0.75,
+        "label": "Dm7 — enxurrada"
+      },
+      {
+        "at": "cue:ten_unknown",
+        "notes": [
+          28,
+          40,
+          47,
+          52,
+          57
+        ],
+        "root": 40,
+        "dens": 4,
+        "bright": 0.8,
+        "label": "Esus — desconhecido"
+      },
+      {
+        "at": "cue:ins_clear",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55
+        ],
+        "root": 48,
+        "dens": 1,
+        "bright": 0.4,
+        "label": "C — pausa, a pergunta"
+      },
+      {
+        "at": "cue:ins_timeline",
+        "notes": [
+          31,
+          43,
+          50,
+          55,
+          59
+        ],
+        "root": 43,
+        "dens": 2,
+        "bright": 0.5,
+        "label": "G — próximo passo"
+      },
+      {
+        "at": "scene:cta",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57
+        ],
+        "root": 41,
+        "dens": 2,
+        "bright": 0.55,
+        "label": "F — sistema"
+      },
+      {
+        "at": "cue:cta_link",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55,
+          62
+        ],
+        "root": 48,
+        "dens": 2,
+        "bright": 0.6,
+        "label": "Cadd9 — fecho"
+      }
+    ]
+  }
+}

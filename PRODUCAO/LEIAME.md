@@ -28,6 +28,17 @@ npm run models
 
 Audições com a narração real: `python3 tools/voice_auditions_gemini.py EP001 Puck Orus Charon`. Adotar uma audição: `python3 tools/build_narration.py EP001 --source <arquivo.wav>`.
 
+Opções de `tools/build_narration.py`:
+
+| Opção | Efeito |
+|---|---|
+| `--regen` | Gera outra tomada mesmo com a narração em cache |
+| `--model <id>` | Rascunho com outro modelo do Gemini (ex.: cota do aprovado esgotada). Na próxima execução sem `--model`, o pipeline tenta voltar ao aprovado |
+| `--force` | Adota a nova tomada mesmo que ela reconheça < 97% do texto (por padrão, a narração existente é mantida e a tomada fraca vai para `OUTPUT/EP###/audio/`) |
+| `--source <wav>` | Adota um arquivo como narração oficial |
+
+A chave atual está no plano gratuito: 10 gerações por dia **por modelo**. Um episódio usa de 1 a 4.
+
 ## Produzir um episódio
 
 ```bash
@@ -49,7 +60,9 @@ Etapas, que também rodam separadas:
 |---|---|
 | Texto narrado, quebra e ênfase das legendas (pausas: só no modo Kokoro) | `episodes/EP001/episode.json` → `segments` (`*palavra*` = ênfase, `\|` = quebra de bloco) |
 | Em que palavra cada animação dispara | `episode.json` → `cues` |
-| Efeitos sonoros e volume da trilha | `episode.json` → `sfx`, `music` |
+| Efeitos sonoros, volume e harmonia da trilha | `episode.json` → `sfx`, `music` (`music.prog`: acorde por cena ou marca) |
+| Séries de eventos (ex.: 10 anúncios em sequência) | `episode.json` → `series` (`"type": "between"`) |
+| Esconder a legenda de um trecho que já é tipografia | `episode.json` → `hideCaptions` |
 | Voz, velocidade, pronúncia | `../VOZ/voice_preset.json` |
 | Cores, fontes | `src/theme.ts` (e `../MARCA/brand.json`) |
 | Desenho e animação de uma cena | `src/episodes/EP001/scenes/*.tsx` |
@@ -66,5 +79,5 @@ Imagem e som leem o mesmo `timeline.json`, então nada sai de sincronia quando a
 ## Limites conhecidos
 
 - Ninguém ouve o áudio no pipeline: a conferência é por transcrição e por medição de volume. Ouvir antes de publicar.
-- `tools/stills.sh <pasta> <segundos…>` gera quadros avulsos para revisão visual.
+- `EP=EP002 tools/stills.sh <pasta> <segundos…>` gera quadros avulsos para revisão visual.
 - Licença do Remotion para uso comercial: ver `OUTPUT/EP001/licencas_e_creditos.md`.

@@ -1,0 +1,62 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.21,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.57,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 6.45,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.35,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.63,
+    "palavras_nao_reconhecidas": [
+      "dez"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.27,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 2.42,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 3.3,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 3.67,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 39.03,
+    "asr_match": 0.99,
+    "aligned_words": "95/96",
+    "words_per_min": 148,
+    "heard": "O cliente diz que está só olhando e você já coloca ele na pasta dos curiosos. Mas pense, ele pode estar pesquisando bairros, simulando financiamento ou esperando vender outro imóvel. A frase não explica o momento de compra. Se você manda 10 anúncios sem perguntar nada, a conversa continua vaga e o cliente continua desconhecido. Troque o julgamento por uma pergunta. O que precisa acontecer para você decidir? Registre a resposta e combine quando voltar a conversar. Se você quer organizar essas etapas sem depender da memória, conheça nosso sistema imobiliário personalizado pelo link da Bio."
+  }
+]

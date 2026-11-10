@@ -275,17 +275,17 @@ mcfg = ep.get("music", {})
 bpm = mcfg.get("bpm", 96)
 beat = 60 / bpm
 sc = {s["id"]: s for s in tl["scenes"]}
-# progressão por cena: (início, notas do pad, raiz do pulso, densidade do pulso, brilho)
-prog = [
-    (0.0, [38, 45, 50, 53, 57], 50, 2, 0.5),                       # Dm — gancho
-    (sc["situacao"]["start"], [34, 41, 50, 53, 57], 46, 2, 0.45),   # Bbmaj7 — situação
-    (sc["tensao"]["start"], [31, 43, 50, 53, 58], 43, 4, 0.7),      # Gm7 — tensão
-    (tl["cues"]["ten_name"], [33, 45, 52, 55, 57], 45, 4, 0.8),     # A7sus — suspensão
-    (sc["insight"]["start"], [29, 41, 48, 53, 57], 53, 1, 0.5),     # F — clareza
-    (tl["cues"]["ins_ghost"], [26, 38, 50, 53, 57], 50, 1, 0.35),   # Dm — "sem isso"
-    (sc["cta"]["start"], [34, 46, 50, 53, 58], 46, 2, 0.55),        # Bb — CTA
-    (tl["cues"]["cta_link"], [29, 41, 48, 53, 57, 60], 53, 2, 0.6), # F — resolução
-]
+# progressão por cena, definida em episode.json → music.prog
+# cada item: {"at": "scene:<id>" | "cue:<nome>" | segundos, "notes": [midi...], "root": midi, "dens": 1|2|4, "bright": 0..1}
+def _at(v):
+    if isinstance(v, (int, float)):
+        return float(v)
+    kind, name = v.split(":", 1)
+    return float(sc[name]["start"] if kind == "scene" else tl["cues"][name])
+
+
+prog = [(_at(p_["at"]), p_["notes"], p_["root"], p_["dens"], p_["bright"]) for p_ in mcfg["prog"]]
+prog.sort(key=lambda r: r[0])
 music = np.zeros((N, 2))
 tt = np.arange(N) / SR
 for i, (start, notes, root, dens, bright) in enumerate(prog):

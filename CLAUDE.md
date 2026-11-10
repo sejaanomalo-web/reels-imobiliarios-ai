@@ -5,7 +5,7 @@
 > `VOZ/` preset de voz e casting · `MARCA/` identidade provisória · `ANALISE/` relatórios de referência, voz e tokens ·
 > `PRODUCAO/` projeto Remotion + ferramentas (narração, áudio, render, validação) · `OUTPUT/EP###/` entregas por episódio.
 > Pipeline de um episódio: `cd PRODUCAO && npm run models && npm run ep -- EP001`. Detalhes em `PRODUCAO/LEIAME.md`.
-> Voz atual: Gemini `gemini-3.8-flash-tts` (exige `GEMINI_API_KEY`; narração congelada em `PRODUCAO/episodes/EP###/narration_source.wav`). Pendências conhecidas: voz e marca **não aprovadas** (`"approved": false`); não existe `assets/real_product/` (sem capturas reais do sistema).
+> Voz oficial: Gemini `gemini-3.8-flash-tts`, voz `Puck` — **aprovada** pelo cliente (`VOZ/voice_preset.json`). Exige `GEMINI_API_KEY`; a chave está no plano gratuito (10 gerações/dia por modelo). Narração congelada em `PRODUCAO/episodes/EP###/narration_source.wav`. Pendências: marca **não aprovada**; não existe `assets/real_product/` (sem capturas reais do sistema).
 
 # PROMPT MESTRE — PRODUÇÃO AUDIOVISUAL DE REELS IMOBILIÁRIOS COM IA
 ## Versão 1.0 — reutilizável para todos os vídeos da marca

@@ -18,7 +18,7 @@ Motivo: o cliente ouviu o piloto com Kokoro e reprovou ("robótica"). As audiç�
 
 - Todas dizem "lead" como "líd" sem ajuste (o reconhecedor escreve "Lid").
 - As divergências podem ser erro do reconhecedor ou da fala; só a escuta resolve. A palavra a mais de Orus e Charon é desvio real do roteiro.
-- **Puck** foi adotada provisoriamente por ser a única sem divergência — critério de fidelidade ao texto, não de timbre.
+- **Puck foi aprovada pelo cliente em 2026-11-10** a partir de `audicao_gemini_Puck_EP001.wav`.
 - A descrição entre parênteses é o rótulo que o Google dá à voz, não uma avaliação.
 - O modelo lê a direção em voz alta se ela for enviada como texto solto; o pipeline usa rótulos ("DIREÇÃO" / "TEXTO A SER FALADO") e confere a transcrição a cada geração.
 - A fala muda a cada geração. A narração oficial fica congelada em `PRODUCAO/episodes/EP001/narration_source.wav`.
@@ -49,3 +49,7 @@ Precisava de grafia fonética para "lead" (lia "leád"). Continua disponível co
 1. Adotar outra audição desta rodada: ajustar `voice_id` em `VOZ/voice_preset.json` e rodar, em `PRODUCAO/`:
    `python3 tools/build_narration.py EP001 --source ../OUTPUT/VOICE_AUDITIONS/audicao_gemini_<Voz>_EP001.wav && npm run audio -- EP001 && npm run render -- EP001`
 2. Usar um arquivo de fora (ElevenLabs exportado, locutor humano): `"provider": "arquivo"` e salvar o WAV em `PRODUCAO/episodes/EP001/narration_source.wav`. O pipeline alinha as legendas e as cenas a qualquer narração que siga o texto.
+
+## Observação a partir do EP002
+
+O plano gratuito limita 10 gerações por dia **por modelo**. No EP002 o modelo aprovado esgotou a cota; a única tomada obtida errou duas palavras do roteiro e foi rejeitada. O episódio usa a voz Puck do `gemini-3.1-flash-tts-preview` como rascunho até a cota voltar. Não foi verificado se os dois modelos soam iguais com a mesma voz. Para produzir em série (60 episódios), o plano gratuito não basta: considerar ativar cobrança na chave.

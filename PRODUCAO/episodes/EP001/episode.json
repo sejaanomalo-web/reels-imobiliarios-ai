@@ -525,6 +525,121 @@
   "music": {
     "gain": -30,
     "duck": -5.5,
-    "bpm": 96
+    "bpm": 96,
+    "prog": [
+      {
+        "at": 0,
+        "notes": [
+          38,
+          45,
+          50,
+          53,
+          57
+        ],
+        "root": 50,
+        "dens": 2,
+        "bright": 0.5,
+        "label": "Dm — gancho"
+      },
+      {
+        "at": "scene:situacao",
+        "notes": [
+          34,
+          41,
+          50,
+          53,
+          57
+        ],
+        "root": 46,
+        "dens": 2,
+        "bright": 0.45,
+        "label": "Bbmaj7 — situação"
+      },
+      {
+        "at": "scene:tensao",
+        "notes": [
+          31,
+          43,
+          50,
+          53,
+          58
+        ],
+        "root": 43,
+        "dens": 4,
+        "bright": 0.7,
+        "label": "Gm7 — tensão"
+      },
+      {
+        "at": "cue:ten_name",
+        "notes": [
+          33,
+          45,
+          52,
+          55,
+          57
+        ],
+        "root": 45,
+        "dens": 4,
+        "bright": 0.8,
+        "label": "A7sus — suspensão"
+      },
+      {
+        "at": "scene:insight",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57
+        ],
+        "root": 53,
+        "dens": 1,
+        "bright": 0.5,
+        "label": "F — clareza"
+      },
+      {
+        "at": "cue:ins_ghost",
+        "notes": [
+          26,
+          38,
+          50,
+          53,
+          57
+        ],
+        "root": 50,
+        "dens": 1,
+        "bright": 0.35,
+        "label": "Dm — sem isso"
+      },
+      {
+        "at": "scene:cta",
+        "notes": [
+          34,
+          46,
+          50,
+          53,
+          58
+        ],
+        "root": 46,
+        "dens": 2,
+        "bright": 0.55,
+        "label": "Bb — CTA"
+      },
+      {
+        "at": "cue:cta_link",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57,
+          60
+        ],
+        "root": 53,
+        "dens": 2,
+        "bright": 0.6,
+        "label": "F — resolução"
+      }
+    ]
   }
 }

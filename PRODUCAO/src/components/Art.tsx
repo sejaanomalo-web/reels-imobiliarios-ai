@@ -141,3 +141,21 @@ export const Avatar: React.FC<{ size: number; label: string; bg?: string; color?
     {label}
   </div>
 );
+export const IconBell: React.FC<IconProps> = ({ size, color = C.text, stroke = 2 }) => (
+  <svg {...base(size)}>
+    <path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 2h-15l1.5-2z" stroke={color} strokeWidth={stroke} strokeLinejoin="round" />
+    <path d="M10 20.5a2 2 0 0 0 4 0" stroke={color} strokeWidth={stroke} strokeLinecap="round" />
+  </svg>
+);
+
+export const House: React.FC<{ w: number; h: number }> = ({ w, h }) => (
+  <svg width={w} height={h} viewBox="0 0 250 220">
+    <rect y="200" width="250" height="20" fill="#12161B" />
+    <path d="M36 112L125 38l89 74z" fill="#2C343E" />
+    <rect x="56" y="110" width="138" height="90" fill="#1F262E" />
+    <rect x="76" y="128" width="36" height="30" rx="4" fill="#FFD98A" opacity="0.9" />
+    <rect x="138" y="128" width="36" height="30" rx="4" fill="#2C333D" />
+    <rect x="108" y="160" width="34" height="40" rx="3" fill="#39424E" />
+    <rect x="158" y="56" width="18" height="34" fill="#262D36" />
+  </svg>
+);

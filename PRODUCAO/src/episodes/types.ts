@@ -13,5 +13,7 @@ export type Timeline = {
   cues: Record<string, number>;
   series: Record<string, number[]>;
   captions: CaptionChunk[];
+  /** Segmentos cuja legenda não aparece na tela (o texto já é a tipografia da cena). O SRT mantém todos. */
+  hideCaptions?: string[];
 };
 export type SceneProps = { t: number; tl: Timeline };

@@ -13,6 +13,8 @@ export const C = {
   accent: "#35E0A1",
   accentInk: "#05261B",
   warn: "#FF6B5E",
+  cold: "#8FB4E3",
+  coldDeep: "#17212D",
   paper: "#F2F0EA",
   ink: "#14161A",
   inkMuted: "#676C75",
