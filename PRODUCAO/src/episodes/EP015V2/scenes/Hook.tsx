@@ -80,6 +80,27 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
           );
         })}
       </div>
+      {/* microanimação no ritmo normal: horário e confirmação de leitura enquanto a frase é dita */}
+      <div
+        style={{
+          position: "absolute",
+          left: 690,
+          top: 924,
+          display: "flex",
+          alignItems: "center",
+          gap: 10,
+          fontFamily: F.mono,
+          fontWeight: 700,
+          fontSize: 26,
+          color: C.muted,
+          opacity: prog(t, 1.0, 0.3, ease.out) * (1 - bubbleOut),
+          transform: `translateY(${(1 - prog(t, 1.0, 0.3, ease.out)) * 12}px)`,
+        }}
+      >
+        18:42
+        <span style={{ color: prog(t, 2.0, 0.25, ease.out) > 0.5 ? C.accent : C.dim, letterSpacing: "-0.3em", fontSize: 30 }}>✓✓</span>
+        <span style={{ fontFamily: F.sans, fontWeight: 700, fontSize: 24, color: C.accent, opacity: prog(t, 2.0, 0.3, ease.out) }}>lida</span>
+      </div>
       {/* o ponto final que cresce e vira "?" */}
       <div
         style={{
