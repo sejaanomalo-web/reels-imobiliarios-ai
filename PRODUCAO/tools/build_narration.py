@@ -17,7 +17,7 @@ REPO = os.path.dirname(ROOT)
 ep = json.load(open(os.path.join(ROOT, "episodes", EP, "episode.json")))
 preset = json.load(open(os.path.join(REPO, "VOZ", "voice_preset.json")))
 VOICE, SPEED = preset["voice_id"], float(preset.get("speed", 1.0))
-OVERRIDES = preset.get("pronunciation_overrides", {})
+OVERRIDES = {**preset.get("pronunciation_overrides", {}), **ep.get("pronunciation", {})}  # pronúncia por episódio (não altera a voz)
 SR = 48000
 
 _al = None
