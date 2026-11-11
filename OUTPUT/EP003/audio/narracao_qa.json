@@ -1,0 +1,89 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 1.52,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 0.84,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 1.2,
+    "palavras_nao_reconhecidas": [
+      "agendar"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 1.04,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 1.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 1.76,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 5.0,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 1.98,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 1.52,
+    "palavras_nao_reconhecidas": [
+      "cumpra"
+    ]
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.74,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.05,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 2.52,
+    "palavras_nao_reconhecidas": [
+      "está"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 25.09,
+    "asr_match": 0.946,
+    "aligned_words": "88/92",
+    "words_per_min": 220,
+    "heard": "Cinco pessoas chamam ao mesmo tempo. Quem responde primeiro? Uma que agenda a visita, outra pede documentação, a terceira ainda nem escolheu o bairro. No WhatsApp, tudo parece igualmente urgente. O erro é responder na ordem em que as mensagens aparecem sem considerar compromisso, prazo e próximo passo. Classifique cada contato por etapa e prazo. Primeiro compra o que já foi combinado, depois organize os novos pedidos para não prometer o que não consegue entregar. Quer visualizar seus atendimentos em um único fluxo? O sistema que personalizamos para corretores tá no link da Bio."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 27.85,
+      "wpm": 198
+    },
+    "pausas_encurtadas_s": 1.1,
+    "time_stretch": 1.066,
+    "final": {
+      "seconds": 25.09,
+      "wpm": 220
+    }
+  }
+]

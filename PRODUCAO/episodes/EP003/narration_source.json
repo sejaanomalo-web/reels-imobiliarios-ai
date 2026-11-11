@@ -1,0 +1,7 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.8-flash-tts",
+ "voice": "Puck",
+ "direction": "Narrador brasileiro de Reels conversando com um colega corretor de imóveis. Energia alta, confiante e animada, com personalidade e sorriso na voz — sem gritar e sem tom de locutor de propaganda. Ritmo RÁPIDO, por volta de 220 palavras por minuto, emendando as frases com pausas mínimas. Mude a entonação a cada parágrafo: 1º parágrafo (gancho): provocativo e intenso, como quem lança um desafio. 2º: identificação, ágil, enumerando os casos com leve surpresa. 3º: tensão, mais firme, apontando o erro. 4º: a virada — tom de descoberta, ênfase clara em 'etapa', 'prazo', 'primeiro' e 'depois'. 5º: confiante, objetivo e convidativo.",
+ "text_sha": "f12b65da66499d9fbe1b8f7088d35d17c63d4a69"
+}

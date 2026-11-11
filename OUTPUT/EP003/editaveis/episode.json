@@ -1,0 +1,705 @@
+{
+  "id": "EP003",
+  "title": "O dia em que cinco clientes ligaram",
+  "fps": 30,
+  "leadIn": 0.06,
+  "tail": 1.5,
+  "deliverables": {
+    "final": "EP003_FINAL.mp4",
+    "narration": "EP003_NARRACAO.wav"
+  },
+  "segments": [
+    {
+      "id": "s1",
+      "scene": "hook",
+      "text": "Cinco pessoas chamam ao mesmo tempo.",
+      "caption": "*Cinco pessoas* | chamam | ao *mesmo tempo.*",
+      "pauseAfter": 0.15
+    },
+    {
+      "id": "s2",
+      "scene": "hook",
+      "text": "Quem responde primeiro?",
+      "caption": "Quem responde | *primeiro?*",
+      "pauseAfter": 0.15
+    },
+    {
+      "id": "s3",
+      "scene": "situacao",
+      "text": "Uma quer agendar visita.",
+      "caption": "Uma quer | agendar *visita.*",
+      "pauseAfter": 0.15
+    },
+    {
+      "id": "s4",
+      "scene": "situacao",
+      "text": "Outra pede documentação.",
+      "caption": "Outra pede | *documentação.*",
+      "pauseAfter": 0.15
+    },
+    {
+      "id": "s5",
+      "scene": "situacao",
+      "text": "A terceira ainda nem escolheu bairro.",
+      "caption": "A terceira | ainda nem escolheu | *bairro.*",
+      "pauseAfter": 0.15
+    },
+    {
+      "id": "s6",
+      "scene": "situacao",
+      "text": "No WhatsApp, tudo parece igualmente urgente.",
+      "caption": "No WhatsApp, | tudo parece | igualmente *urgente.*",
+      "pauseAfter": 0.15
+    },
+    {
+      "id": "s7",
+      "scene": "tensao",
+      "text": "O erro é responder na ordem em que as mensagens aparecem, sem considerar compromisso, prazo e próximo passo.",
+      "caption": "O *erro* | é responder | na ordem | em que as mensagens | aparecem, | sem considerar | *compromisso,* | *prazo* | e *próximo passo.*",
+      "pauseAfter": 0.15
+    },
+    {
+      "id": "s8",
+      "scene": "insight",
+      "text": "Classifique cada contato por etapa e prazo.",
+      "caption": "*Classifique* | cada contato | por *etapa* | e *prazo.*",
+      "pauseAfter": 0.15
+    },
+    {
+      "id": "s9",
+      "scene": "insight",
+      "text": "Primeiro, cumpra o que já foi combinado.",
+      "caption": "*Primeiro,* | cumpra o que | já foi *combinado.*",
+      "pauseAfter": 0.15
+    },
+    {
+      "id": "s10",
+      "scene": "insight",
+      "text": "Depois, organize os novos pedidos para não prometer o que não consegue entregar.",
+      "caption": "Depois, | *organize* | os novos pedidos | para não *prometer* | o que não consegue | *entregar.*",
+      "pauseAfter": 0.15
+    },
+    {
+      "id": "s11",
+      "scene": "cta",
+      "text": "Quer visualizar seus atendimentos em um único fluxo?",
+      "caption": "Quer visualizar | seus atendimentos | em um *único fluxo?*",
+      "pauseAfter": 0.15
+    },
+    {
+      "id": "s12",
+      "scene": "cta",
+      "text": "O sistema que personalizamos para corretores está no link da bio.",
+      "caption": "O sistema | que *personalizamos* | para corretores | está no | *link da bio.*",
+      "pauseAfter": 0.15
+    }
+  ],
+  "sceneLead": {
+    "situacao": 0.12,
+    "tensao": 0.15,
+    "insight": 0.2,
+    "cta": 0.15
+  },
+  "voice": {
+    "direction": "Narrador brasileiro de Reels conversando com um colega corretor de imóveis. Energia alta, confiante e animada, com personalidade e sorriso na voz — sem gritar e sem tom de locutor de propaganda. Ritmo RÁPIDO, por volta de 220 palavras por minuto, emendando as frases com pausas mínimas. Mude a entonação a cada parágrafo: 1º parágrafo (gancho): provocativo e intenso, como quem lança um desafio. 2º: identificação, ágil, enumerando os casos com leve surpresa. 3º: tensão, mais firme, apontando o erro. 4º: a virada — tom de descoberta, ênfase clara em 'etapa', 'prazo', 'primeiro' e 'depois'. 5º: confiante, objetivo e convidativo.",
+    "tightenPauses": {
+      "min": 0.16,
+      "max": 0.24
+    },
+    "targetWpm": [
+      200,
+      240
+    ]
+  },
+  "cues": {
+    "hook_ring": {
+      "seg": "s1",
+      "word": "cinco",
+      "edge": "start",
+      "offset": -0.06
+    },
+    "hook_same": {
+      "seg": "s1",
+      "word": "mesmo",
+      "edge": "start",
+      "offset": -0.04
+    },
+    "hook_who": {
+      "seg": "s2",
+      "word": "quem",
+      "edge": "start",
+      "offset": -0.08
+    },
+    "hook_first": {
+      "seg": "s2",
+      "word": "primeiro",
+      "edge": "start",
+      "offset": -0.02
+    },
+    "sit_c1": {
+      "seg": "s3",
+      "word": "uma",
+      "edge": "start",
+      "offset": -0.14
+    },
+    "sit_c2": {
+      "seg": "s4",
+      "word": "outra",
+      "edge": "start",
+      "offset": -0.14
+    },
+    "sit_c3": {
+      "seg": "s5",
+      "word": "terceira",
+      "edge": "start",
+      "offset": -0.18
+    },
+    "sit_split": {
+      "seg": "s6",
+      "word": "no",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "sit_urgent": {
+      "seg": "s6",
+      "word": "urgente",
+      "edge": "start",
+      "offset": -0.08
+    },
+    "ten_err": {
+      "seg": "s7",
+      "word": "erro",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ten_order": {
+      "seg": "s7",
+      "word": "ordem",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_fall": {
+      "seg": "s7",
+      "word": "aparecem",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_tag1": {
+      "seg": "s7",
+      "word": "compromisso",
+      "edge": "start",
+      "offset": -0.04
+    },
+    "ten_tag2": {
+      "seg": "s7",
+      "word": "prazo",
+      "edge": "start",
+      "offset": -0.04
+    },
+    "ten_tag3": {
+      "seg": "s7",
+      "word": "próximo",
+      "edge": "start",
+      "offset": -0.04
+    },
+    "ins_sort": {
+      "seg": "s8",
+      "word": "classifique",
+      "edge": "start",
+      "offset": -0.12
+    },
+    "ins_etapa": {
+      "seg": "s8",
+      "word": "etapa",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_prazo": {
+      "seg": "s8",
+      "word": "prazo",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_first": {
+      "seg": "s9",
+      "word": "primeiro",
+      "edge": "start",
+      "offset": -0.06
+    },
+    "ins_done": {
+      "seg": "s9",
+      "word": "combinado",
+      "edge": "start",
+      "offset": -0.02
+    },
+    "ins_then": {
+      "seg": "s10",
+      "word": "depois",
+      "edge": "start",
+      "offset": -0.08
+    },
+    "ins_cap": {
+      "seg": "s10",
+      "word": "prometer",
+      "edge": "start",
+      "offset": -0.12
+    },
+    "ins_deliver": {
+      "seg": "s10",
+      "word": "entregar",
+      "edge": "start",
+      "offset": -0.02
+    },
+    "cta_flow": {
+      "seg": "s11",
+      "word": "quer",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_single": {
+      "seg": "s11",
+      "word": "único",
+      "edge": "start",
+      "offset": -0.04
+    },
+    "cta_sys": {
+      "seg": "s12",
+      "word": "sistema",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_link": {
+      "seg": "s12",
+      "word": "link",
+      "edge": "start",
+      "offset": -0.28
+    },
+    "cta_end": {
+      "seg": "s12",
+      "word": "bio",
+      "edge": "end"
+    }
+  },
+  "series": {
+    "rings": {
+      "type": "between",
+      "fromCue": "hook_ring",
+      "fromOffset": 0.02,
+      "toCue": "hook_same",
+      "toOffset": -0.12,
+      "count": 5,
+      "power": 0.9
+    },
+    "stamps": {
+      "type": "between",
+      "fromCue": "ten_order",
+      "fromOffset": 0.0,
+      "toCue": "ten_fall",
+      "toOffset": -0.12,
+      "count": 5,
+      "power": 1.0
+    },
+    "capFill": {
+      "type": "between",
+      "fromCue": "ins_cap",
+      "fromOffset": 0.0,
+      "toCue": "ins_deliver",
+      "toOffset": -0.15,
+      "count": 4,
+      "power": 0.9
+    }
+  },
+  "hideCaptions": [],
+  "sfx": [
+    {
+      "series": "rings",
+      "sound": "notif",
+      "gain": -17,
+      "pitches": [
+        0,
+        4,
+        7,
+        -3,
+        2
+      ],
+      "pans": [
+        -0.6,
+        0.6,
+        -0.25,
+        0.35,
+        0
+      ]
+    },
+    {
+      "series": "rings",
+      "sound": "ring",
+      "gain": -27,
+      "panSpread": 0.6
+    },
+    {
+      "cue": "hook_same",
+      "sound": "impact",
+      "gain": -14
+    },
+    {
+      "cue": "hook_who",
+      "sound": "whip",
+      "gain": -17
+    },
+    {
+      "cue": "hook_first",
+      "sound": "impact",
+      "gain": -11,
+      "pitch": -3
+    },
+    {
+      "cue": "sit_c1",
+      "sound": "whip",
+      "gain": -19,
+      "pan": -0.35
+    },
+    {
+      "cue": "sit_c1",
+      "offset": 0.32,
+      "sound": "notif",
+      "gain": -21,
+      "pitch": 5,
+      "pan": -0.35
+    },
+    {
+      "cue": "sit_c2",
+      "sound": "whip",
+      "gain": -19,
+      "pan": 0.35
+    },
+    {
+      "cue": "sit_c2",
+      "offset": 0.32,
+      "sound": "notif",
+      "gain": -21,
+      "pitch": 2,
+      "pan": 0.35
+    },
+    {
+      "cue": "sit_c3",
+      "sound": "whip",
+      "gain": -19
+    },
+    {
+      "cue": "sit_c3",
+      "offset": 0.32,
+      "sound": "notif",
+      "gain": -21,
+      "pitch": -1
+    },
+    {
+      "cue": "sit_split",
+      "sound": "swish",
+      "gain": -18
+    },
+    {
+      "cue": "sit_split",
+      "offset": 0.1,
+      "sound": "click",
+      "gain": -20
+    },
+    {
+      "cue": "sit_urgent",
+      "sound": "alert",
+      "gain": -18
+    },
+    {
+      "cue": "ten_err",
+      "sound": "impact",
+      "gain": -14,
+      "pitch": -6
+    },
+    {
+      "series": "stamps",
+      "sound": "tick",
+      "gain": -21,
+      "pitches": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "cue": "ten_fall",
+      "sound": "whoosh_dive",
+      "gain": -18,
+      "dur": 0.45
+    },
+    {
+      "cue": "ten_fall",
+      "offset": 0.42,
+      "sound": "thump",
+      "gain": -17,
+      "pitch": -4
+    },
+    {
+      "cue": "ten_tag1",
+      "sound": "hollow",
+      "gain": -20,
+      "pitch": 0
+    },
+    {
+      "cue": "ten_tag2",
+      "sound": "hollow",
+      "gain": -20,
+      "pitch": -2
+    },
+    {
+      "cue": "ten_tag3",
+      "sound": "hollow",
+      "gain": -19,
+      "pitch": -5
+    },
+    {
+      "cue": "ins_sort",
+      "offset": 0.38,
+      "sound": "shuffle",
+      "gain": -17,
+      "dur": 0.7
+    },
+    {
+      "cue": "ins_etapa",
+      "sound": "pop",
+      "gain": -20,
+      "pitch": 0
+    },
+    {
+      "cue": "ins_prazo",
+      "sound": "pop",
+      "gain": -20,
+      "pitch": 5
+    },
+    {
+      "cue": "ins_first",
+      "sound": "whip",
+      "gain": -19
+    },
+    {
+      "cue": "ins_done",
+      "offset": 0.1,
+      "sound": "bell",
+      "gain": -17,
+      "note": 72
+    },
+    {
+      "cue": "ins_then",
+      "sound": "whip",
+      "gain": -19
+    },
+    {
+      "series": "capFill",
+      "sound": "block",
+      "gain": -20,
+      "pitches": [
+        0,
+        2,
+        4,
+        7
+      ]
+    },
+    {
+      "cue": "ins_deliver",
+      "sound": "thump",
+      "gain": -17,
+      "pitch": 5
+    },
+    {
+      "cue": "ins_deliver",
+      "offset": 0.08,
+      "sound": "bell",
+      "gain": -19,
+      "note": 76
+    },
+    {
+      "cue": "cta_flow",
+      "sound": "whoosh_up",
+      "gain": -17,
+      "dur": 0.8
+    },
+    {
+      "cue": "cta_single",
+      "sound": "shimmer",
+      "gain": -19
+    },
+    {
+      "cue": "cta_link",
+      "offset": -0.1,
+      "sound": "whip",
+      "gain": -17
+    },
+    {
+      "cue": "cta_link",
+      "offset": 0.08,
+      "sound": "chord",
+      "gain": -15
+    },
+    {
+      "cue": "cta_end",
+      "offset": 0.05,
+      "sound": "impact",
+      "gain": -19,
+      "pitch": 4
+    }
+  ],
+  "music": {
+    "gain": -27,
+    "duck": -6.5,
+    "bpm": 120,
+    "prog": [
+      {
+        "at": 0,
+        "notes": [
+          33,
+          45,
+          52,
+          57,
+          60
+        ],
+        "root": 45,
+        "dens": 4,
+        "bright": 0.75,
+        "label": "Am — cinco chamadas"
+      },
+      {
+        "at": "cue:sit_c1",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57
+        ],
+        "root": 41,
+        "dens": 4,
+        "bright": 0.7,
+        "label": "F — os pedidos chegam"
+      },
+      {
+        "at": "cue:ten_err",
+        "notes": [
+          26,
+          38,
+          50,
+          53,
+          57,
+          60
+        ],
+        "root": 38,
+        "dens": 4,
+        "bright": 0.85,
+        "label": "Dm7 — o erro"
+      },
+      {
+        "at": "cue:ins_sort",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55
+        ],
+        "root": 48,
+        "dens": 2,
+        "bright": 0.5,
+        "label": "C — a virada (entra após o respiro)"
+      },
+      {
+        "at": "cue:ins_then",
+        "notes": [
+          31,
+          43,
+          50,
+          55,
+          59
+        ],
+        "root": 43,
+        "dens": 4,
+        "bright": 0.65,
+        "label": "G — organizar"
+      },
+      {
+        "at": "cue:cta_flow",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57,
+          60
+        ],
+        "root": 41,
+        "dens": 4,
+        "bright": 0.7,
+        "label": "F — fluxo único"
+      },
+      {
+        "at": "cue:cta_link",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55,
+          62
+        ],
+        "root": 48,
+        "dens": 2,
+        "bright": 0.65,
+        "label": "Cadd9 — fecho"
+      }
+    ],
+    "drums": {
+      "gain": -23,
+      "sections": [
+        {
+          "at": 0,
+          "kick": 1,
+          "hat": 1
+        },
+        {
+          "at": "cue:ten_err",
+          "kick": 1,
+          "hat": 2
+        },
+        {
+          "at": "cue:ins_sort",
+          "kick": 0,
+          "hat": 0
+        },
+        {
+          "at": "cue:ins_etapa",
+          "kick": 0,
+          "hat": 1
+        },
+        {
+          "at": "cue:ins_first",
+          "kick": 1,
+          "hat": 1
+        },
+        {
+          "at": "cue:cta_link",
+          "kick": 0,
+          "hat": 1
+        },
+        {
+          "at": "cue:cta_end",
+          "kick": 0,
+          "hat": 0
+        }
+      ]
+    },
+    "drops": [
+      {
+        "at": "cue:ins_sort",
+        "dur": 0.42
+      }
+    ]
+  }
+}

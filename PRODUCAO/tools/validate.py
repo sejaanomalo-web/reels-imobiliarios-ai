@@ -4,7 +4,8 @@ import os, sys, json, subprocess, re
 EP = sys.argv[1] if len(sys.argv) > 1 else "EP001"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 out = os.path.join(os.path.dirname(ROOT), "OUTPUT", EP)
-f = os.path.join(out, f"{EP}_final_1080x1920.mp4")
+_ep = json.load(open(os.path.join(ROOT, "episodes", EP, "episode.json")))
+f = os.path.join(out, _ep.get("deliverables", {}).get("final", f"{EP}_final_1080x1920.mp4"))
 tl = json.load(open(os.path.join(ROOT, "src", "episodes", EP, "timeline.json")))
 pr = json.loads(subprocess.run(["ffprobe", "-v", "error", "-show_streams", "-show_format", "-of", "json", f], capture_output=True, text=True).stdout)
 v = next(s for s in pr["streams"] if s["codec_type"] == "video")

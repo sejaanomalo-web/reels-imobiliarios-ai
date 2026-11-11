@@ -6,6 +6,7 @@
 > `PRODUCAO/` projeto Remotion + ferramentas (narração, áudio, render, validação) · `OUTPUT/EP###/` entregas por episódio.
 > Pipeline de um episódio: `cd PRODUCAO && npm run models && npm run ep -- EP001`. Detalhes em `PRODUCAO/LEIAME.md`.
 > Voz oficial: Gemini `gemini-3.8-flash-tts`, voz `Puck` — **aprovada** pelo cliente (`VOZ/voice_preset.json`). Exige `GEMINI_API_KEY`; a chave está no plano gratuito (10 gerações/dia por modelo). Narração congelada em `PRODUCAO/episodes/EP###/narration_source.wav`. Pendências: marca **não aprovada**; não existe `assets/real_product/` (sem capturas reais do sistema).
+> **Antes de produzir qualquer episódio, leia `PROMPTS/GUIA_MELHORIA_CONTINUA.md`** — padrão de energia v2 (voz ~220 palavras/min, câmera virtual, legenda dinâmica, trilha com bateria) e as métricas para comparar.
 
 # PROMPT MESTRE — PRODUÇÃO AUDIOVISUAL DE REELS IMOBILIÁRIOS COM IA
 ## Versão 1.0 — reutilizável para todos os vídeos da marca

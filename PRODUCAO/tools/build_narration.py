@@ -157,7 +157,7 @@ def source_audio():
     # --model <id>: rascunho com outro modelo (ex.: cota diária do aprovado esgotada). O meta registra o modelo
     # usado, então a próxima execução sem --model detecta a diferença e regenera com o modelo aprovado.
     model = sys.argv[sys.argv.index("--model") + 1] if "--model" in sys.argv else preset.get("model_id")
-    meta = dict(provider=PROVIDER, model=model, voice=VOICE, direction=preset.get("direction", ""),
+    meta = dict(provider=PROVIDER, model=model, voice=VOICE, direction=ep.get("voice", {}).get("direction", preset.get("direction", "")),
                 text_sha=hashlib.sha1(text.encode()).hexdigest())
     if model != preset.get("model_id"):
         meta["draft"] = True
@@ -175,7 +175,7 @@ def source_audio():
         best = None
         for attempt in range(4):
             try:
-                x, sr = synth_gemini(text, VOICE, model, preset.get("direction"))
+                x, sr = synth_gemini(text, VOICE, model, ep.get("voice", {}).get("direction", preset.get("direction")))
             except RuntimeError as e:
                 if best is None and os.path.exists(SRC):
                     # cota esgotada etc.: segue com a narração já existente (pode ser rascunho) e avisa
@@ -207,11 +207,72 @@ def source_audio():
     return read_wav(SRC)
 
 
+def tighten_pauses(x, sr, lo, hi):
+    """Encurta só as pausas longas: silêncios > hi viram hi (pausas entre lo e hi ficam intactas). Emendas com fade de 12 ms."""
+    hop = int(sr * 0.01); n = len(x) // hop
+    rms = np.sqrt(np.mean(x[: n * hop].reshape(n, hop) ** 2, axis=1) + 1e-12)
+    quiet = rms < rms.max() * 10 ** (-38 / 20)
+    cuts, run = [], 0
+    for i, q in enumerate(list(quiet) + [False]):
+        if q:
+            run += 1
+        else:
+            if run * 0.01 > hi:
+                a, b = (i - run) * hop, i * hop
+                keep = int(hi * sr)
+                cuts.append((a + keep // 2, b - keep // 2))
+            run = 0
+    if not cuts:
+        return x, 0.0
+    f = int(0.012 * sr); ramp = np.linspace(1, 0, f)
+    out, prev = [], 0
+    for a, b in cuts:
+        seg = x[prev:a].copy(); seg[-f:] *= ramp
+        out.append(seg); prev = b
+    tail = x[prev:].copy(); tail[:f] *= ramp[::-1]; out.append(tail)
+    y = np.concatenate(out)
+    return y, (len(x) - len(y)) / sr
+
+
+def stretch(x, sr, tempo):
+    """Time-stretch com preservação de altura e formantes (rubberband via FFmpeg)."""
+    import subprocess, tempfile
+    with tempfile.TemporaryDirectory() as d:
+        a, b = os.path.join(d, "a.wav"), os.path.join(d, "b.wav")
+        write_wav(a, x, sr)
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", a, "-af",
+                        f"rubberband=tempo={tempo:.4f}:pitchq=quality:formant=preserved:transients=mixed:detector=compound",
+                        b], check=True)
+        from tts_common import read_wav
+        y, _ = read_wav(b)
+    return y
+
+
+PROCESSING = {}
+
+
 def build_whole():
     """Narração em arquivo único: alinha todas as palavras e deriva cenas e legendas do áudio real."""
     x, sr = source_audio()
     x = trim_silence(x, sr, pad=0.02)
     x = x / (np.abs(x).max() + 1e-9) * 0.89
+    nw = sum(len(re.findall(WORD_RE, s["text"])) for s in ep["segments"])
+    vcfg = ep.get("voice", {})
+    PROCESSING["original"] = dict(seconds=round(len(x) / sr, 2), wpm=round(nw / (len(x) / sr) * 60))
+    if "tightenPauses" in vcfg:
+        x, saved = tighten_pauses(x, sr, vcfg["tightenPauses"]["min"], vcfg["tightenPauses"]["max"])
+        PROCESSING["pausas_encurtadas_s"] = round(saved, 2)
+    if "targetWpm" in vcfg:
+        lo, hi = vcfg["targetWpm"]; target = (lo + hi) / 2
+        wpm = nw / (len(x) / sr) * 60
+        tempo = min(vcfg.get("maxStretch", 1.12), target / wpm) if wpm < lo or wpm < target else 1.0
+        if tempo > 1.005:
+            x = stretch(x, sr, tempo)
+            x = x / (np.abs(x).max() + 1e-9) * 0.89
+        PROCESSING["time_stretch"] = round(tempo, 3)
+    PROCESSING["final"] = dict(seconds=round(len(x) / sr, 2), wpm=round(nw / (len(x) / sr) * 60))
+    if len(PROCESSING) > 2:
+        print("processamento da voz:", PROCESSING, flush=True)
     dur = len(x) / sr
     recog = word_times(x, sr)
     exp = [(seg, w) for seg in ep["segments"] for w in re.findall(WORD_RE, seg["text"])]
@@ -261,7 +322,7 @@ narr, segs, words_all, qa, narr_end = build_segmented() if PROVIDER.startswith("
 total = np.ceil((narr_end + float(ep["tail"])) * fps) / fps
 narr = np.concatenate([narr, np.zeros(max(0, int(round(total * SR)) - len(narr)), np.float32)])[: int(round(total * SR))]
 write_wav(os.path.join(pub, "narration.wav"), narr, SR)
-write_wav(os.path.join(out_dir, f"{EP}_narracao.wav"), narr, SR)
+write_wav(os.path.join(out_dir, ep.get("deliverables", {}).get("narration", f"{EP}_narracao.wav")), narr, SR)
 
 # cenas
 order = []
@@ -326,6 +387,8 @@ timeline = dict(id=EP, title=ep["title"], fps=fps, duration=float(total), durati
                 hideCaptions=ep.get("hideCaptions", []))
 os.makedirs(os.path.join(ROOT, "src", "episodes", EP), exist_ok=True)
 json.dump(timeline, open(os.path.join(ROOT, "src", "episodes", EP, "timeline.json"), "w"), ensure_ascii=False, indent=1)
+if PROCESSING:
+    qa.append(dict(seg="PROCESSAMENTO", **PROCESSING))
 json.dump(qa, open(os.path.join(out_dir, "audio", "narracao_qa.json"), "w"), ensure_ascii=False, indent=2)
 
 import subprocess

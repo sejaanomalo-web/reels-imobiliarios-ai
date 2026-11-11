@@ -1,0 +1,83 @@
+1
+00:00:00,060 --> 00:00:01,560
+Cinco pessoas chamam ao mesmo tempo.
+
+2
+00:00:01,580 --> 00:00:02,600
+Quem responde primeiro?
+
+3
+00:00:02,620 --> 00:00:03,800
+Uma quer agendar visita.
+
+4
+00:00:03,820 --> 00:00:04,840
+Outra pede documentação.
+
+5
+00:00:04,860 --> 00:00:06,360
+A terceira ainda nem escolheu bairro.
+
+6
+00:00:06,380 --> 00:00:07,400
+No WhatsApp, tudo parece
+
+7
+00:00:07,420 --> 00:00:08,280
+igualmente urgente.
+
+8
+00:00:08,300 --> 00:00:09,640
+O erro é responder na ordem
+
+9
+00:00:09,660 --> 00:00:10,840
+em que as mensagens aparecem,
+
+10
+00:00:10,860 --> 00:00:12,280
+sem considerar compromisso,
+
+11
+00:00:12,300 --> 00:00:13,480
+prazo e próximo passo.
+
+12
+00:00:13,500 --> 00:00:15,160
+Classifique cada contato por etapa
+
+13
+00:00:15,180 --> 00:00:15,640
+e prazo.
+
+14
+00:00:15,660 --> 00:00:17,160
+Primeiro, cumpra o que já foi combinado.
+
+15
+00:00:17,180 --> 00:00:18,520
+Depois, organize os novos pedidos
+
+16
+00:00:18,540 --> 00:00:19,640
+para não prometer o que não consegue
+
+17
+00:00:19,660 --> 00:00:20,040
+entregar.
+
+18
+00:00:20,060 --> 00:00:21,320
+Quer visualizar seus atendimentos
+
+19
+00:00:21,340 --> 00:00:22,280
+em um único fluxo?
+
+20
+00:00:22,300 --> 00:00:23,480
+O sistema que personalizamos
+
+21
+00:00:23,500 --> 00:00:25,020
+para corretores está no link da bio.

@@ -217,10 +217,64 @@ def s_fade_down(dur=2.6, **_):
     return lp(x * e, 1400) + 0.12 * sweep_noise(dur, 2400, 300, shape="down")
 
 
+def s_notif(pitch=0, **_):
+    """Notificação de celular: duas notas curtas ascendentes."""
+    out = np.zeros(int(0.42 * SR))
+    for k, (n, at) in enumerate([(81, 0.0), (88, 0.09)]):
+        b = bell(n + pitch, 0.3, 0.15) * (0.8 if k == 0 else 1.0)
+        i = int(at * SR); out[i:i + len(b)] += b[: len(out) - i]
+    return out
+
+
+def s_ring(**_):
+    """Vibração de celular sobre a mesa."""
+    t = t_(0.42)
+    am = (np.sin(2 * np.pi * 24 * t) > 0).astype(float)
+    x = np.sin(2 * np.pi * 175 * t) * am + 0.4 * lp(rng.standard_normal(len(t)), 900) * am
+    return lp(x, 1200) * np.minimum(1, t / 0.01) * np.minimum(1, (0.42 - t) / 0.05)
+
+
+def s_impact(pitch=0, **_):
+    """Impacto curto: grave + estalo filtrado."""
+    dur = 0.6
+    t = t_(dur)
+    sub = np.sin(2 * np.pi * np.cumsum(46 * semis(pitch) * (1 + 2.2 * np.exp(-t / 0.03))) / SR) * np.exp(-t / 0.18)
+    crack = lp(rng.standard_normal(len(t)), 3500) * np.exp(-t / 0.025)
+    return sub + 0.55 * crack
+
+
+def s_whip(**_):
+    """Whip rápido para cortes de câmera."""
+    return sweep_noise(0.24, 700, 7200, q=0.9, shape="hill")
+
+
+def s_alert(**_):
+    """Alerta: dois bipes curtos (tudo parece urgente)."""
+    out = np.zeros(int(0.5 * SR))
+    for at, f in [(0.0, 1046), (0.12, 784), (0.24, 1046)]:
+        t = t_(0.08)
+        b = np.tanh(2.2 * np.sin(2 * np.pi * f * t)) * np.minimum(1, t / 0.004) * np.minimum(1, (0.08 - t) / 0.01)
+        i = int(at * SR); out[i:i + len(b)] += b * 0.8
+    return lp(out, 5000)
+
+
+def s_shuffle(dur=0.7, **_):
+    """Cartões sendo reordenados: estalos em sequência sobre um swish."""
+    out = np.zeros(int(dur * SR))
+    tcur = 0.0
+    while tcur < dur - 0.08:
+        c = s_click(pitch=float(rng.uniform(-4, 4))) * rng.uniform(0.4, 0.9)
+        i = int(tcur * SR); out[i:i + len(c)] += c[: len(out) - i]
+        tcur += rng.uniform(0.05, 0.09)
+    sw = sweep_noise(dur, 900, 3800, shape="hill") * 0.5
+    return out + sw[: len(out)]
+
+
 SOUNDS = dict(tick=s_tick, click=s_click, pop=s_pop, block=s_block, thump=s_thump, whoosh_up=s_whoosh_up,
               whoosh_dive=s_whoosh_dive, whoosh_fold=s_whoosh_fold, swish=s_swish, pin=s_pin, bell=s_bell,
               shimmer=s_shimmer, chord=s_chord, hollow=s_hollow, typing=s_typing, scramble=s_scramble,
-              fade_down=s_fade_down)
+              fade_down=s_fade_down, notif=s_notif, ring=s_ring, impact=s_impact, whip=s_whip,
+              alert=s_alert, shuffle=s_shuffle)
 
 
 def place(buf, x, t, gain_db, pan=0.0):
@@ -261,7 +315,12 @@ for e in ep["sfx"]:
             pan = float(rng.uniform(-1, 1)) * e.get("panRandom", 0)
             if "panSpread" in e:
                 pan = (j % 6 / 5 - 0.5) * 2 * e["panSpread"]
-            place(sfx, fn(pitch=float(rng.uniform(-2, 2)) + j * 0.15), tt, g, pan)
+            pitch = float(rng.uniform(-2, 2)) + j * 0.15
+            if "pitches" in e:
+                pitch = e["pitches"][j % len(e["pitches"])]
+            if "pans" in e:
+                pan = e["pans"][j % len(e["pans"])]
+            place(sfx, fn(pitch=pitch), tt, g, pan)
             events_log.append(dict(t=tt, sound=e["sound"], gain=round(g, 1)))
     else:
         tt = tl["cues"][e["cue"]] + e.get("offset", 0)
@@ -328,6 +387,35 @@ music = reverb(music, 2.4, 0.5, seed=5)
 music = np.stack([hp(music[:, 0], 45), hp(music[:, 1], 45)], axis=1)
 music *= np.clip(tt / 0.4, 0, 1)[:, None] * np.clip((DUR - tt) / 1.4, 0, 1)[:, None]
 music = music / (np.abs(music).max() + 1e-9) * db(mcfg.get("gain", -27) + 9)
+
+# bateria opcional (episode.json → music.drums): bumbo nos tempos, chimbal em colcheias (1) ou semicolcheias (2)
+dcfg = mcfg.get("drums")
+if dcfg:
+    secs = sorted([(_at(d["at"]), d.get("kick", 0), d.get("hat", 0)) for d in dcfg["sections"]], key=lambda r: r[0])
+    drums = np.zeros((N, 2))
+    kt = t_(0.32)
+    kick = np.sin(2 * np.pi * np.cumsum(50 * (1 + 2.6 * np.exp(-kt / 0.025))) / SR) * np.exp(-kt / 0.11)
+    ht = t_(0.06)
+    hat = hp(rng.standard_normal(len(ht)), 7000) * np.exp(-ht / 0.012)
+    step = 60 / bpm / 4
+    k = 0
+    while k * step < DUR - 0.3:
+        tp = k * step
+        cur = [r for r in secs if r[0] <= tp + 1e-6]
+        if cur:
+            _, kk, hh = cur[-1]
+            if kk and k % 4 == 0:
+                place(drums, kick, tp, -6 if k % 16 == 0 else -8)
+            if hh and ((hh == 1 and k % 2 == 1) or (hh == 2)):
+                place(drums, hat, tp, -20 + (3 if k % 4 == 2 else 0), pan=0.25 if k % 2 else -0.15)
+        k += 1
+    drums = drums / (np.abs(drums).max() + 1e-9) * db(dcfg.get("gain", -24) + 9)
+    music = music + drums
+# respiros: a trilha some por um instante para destacar uma revelação
+for dr in mcfg.get("drops", []):
+    a0 = _at(dr["at"]); d0 = dr["dur"]
+    env = 1 - np.clip(np.minimum((tt - a0) / 0.04, (a0 + d0 - tt) / 0.12), 0, 1) * 0.92
+    music *= env[:, None]
 
 # ---------- narração + ducking ----------
 narr, sr = read_wav(os.path.join(ROOT, "public", EP, "narration.wav"))

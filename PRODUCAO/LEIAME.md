@@ -76,6 +76,22 @@ Imagem e som leem o mesmo `timeline.json`, então nada sai de sincronia quando a
 2. Criar `src/episodes/EPNNN/` com cenas próprias (reaproveitar `components/`, não as cenas — cada roteiro pede metáfora visual própria) e registrar em `src/Root.tsx`.
 3. `npm run ep -- EPNNN`.
 
+## Padrão v2 (a partir do EP003)
+
+Ver `../PROMPTS/GUIA_MELHORIA_CONTINUA.md`. Peças:
+
+| Peça | Onde |
+|---|---|
+| Direção de voz por episódio, encurtamento de pausas, ritmo-alvo | `episode.json` → `voice` (`direction`, `tightenPauses`, `targetWpm`, `maxStretch`) |
+| Tomadas de voz com métricas | `python3 tools/voice_takes.py EP### A B` (direções em `episodes/EP###/voice_takes.json`) |
+| Métricas da voz | `tools/voice_metrics.py` |
+| Medição de movimento do vídeo | `python3 tools/motion_check.py ../OUTPUT/EP###/<arquivo>.mp4` |
+| Câmera virtual | `src/components/Camera.tsx` |
+| Legenda dinâmica | `CaptionsPunch` em `src/components/Captions.tsx` |
+| Bateria e respiros na trilha | `episode.json` → `music.drums`, `music.drops` |
+| Nome dos arquivos de entrega | `episode.json` → `deliverables` (`final`, `narration`) |
+| Cópia dos editáveis em `OUTPUT/EP###/editaveis/` | feita por `npm run render` |
+
 ## Limites conhecidos
 
 - Ninguém ouve o áudio no pipeline: a conferência é por transcrição e por medição de volume. Ouvir antes de publicar.
