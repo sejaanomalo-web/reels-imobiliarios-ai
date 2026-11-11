@@ -1,0 +1,78 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 1.63,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.19,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.89,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.49,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 1.15,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.7,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 1.01,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 2.25,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 3.84,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.0,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.52,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 26.92,
+    "asr_match": 0.995,
+    "aligned_words": "92/92",
+    "words_per_min": 205,
+    "heard": "Uma conversa boa pode não gerar venda, mas não deveria terminar sem um próximo passo claro. Você mostrou as opções, respondeu dúvidas e o cliente ficou de analisar. Se ninguém combina o que acontece depois, a oportunidade fica sem acompanhamento. Antes de encerrar, pergunte, prefere que eu retorne na sexta ou você quer falar comigo quando analisar? Respeite a resposta. Depois registre data, assunto e expectativa. Parece pequeno, mas diferencia a conversa encerrada de conversa acompanhada. Se você quer manter esses próximos passos organizados, veja nosso sistema imobiliário personalizado no link da bio."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 32.9,
+      "wpm": 168
+    },
+    "pausas_encurtadas_s": 1.14,
+    "time_stretch": 1.18,
+    "final": {
+      "seconds": 26.92,
+      "wpm": 205
+    }
+  }
+]
