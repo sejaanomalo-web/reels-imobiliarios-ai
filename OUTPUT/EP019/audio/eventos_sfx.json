@@ -1,0 +1,116 @@
+[
+ {
+  "t": 0.69,
+  "sound": "click",
+  "gain": -24,
+  "cue": "hook_audio"
+ },
+ {
+  "t": 3.69,
+  "sound": "fade_down",
+  "gain": -23,
+  "cue": "hook_half"
+ },
+ {
+  "t": 5.46,
+  "sound": "hollow",
+  "gain": -23,
+  "cue": "hook_next"
+ },
+ {
+  "t": 8.21,
+  "sound": "shimmer",
+  "gain": -25,
+  "cue": "sit_close"
+ },
+ {
+  "t": 11.88,
+  "sound": "whoosh_dive",
+  "gain": -25,
+  "cue": "sit_hard"
+ },
+ {
+  "t": 12.98,
+  "sound": "whoosh_fold",
+  "gain": -24,
+  "cue": "ten_after"
+ },
+ {
+  "t": 16.36,
+  "sound": "tick",
+  "gain": -24,
+  "cue": "ten_prop"
+ },
+ {
+  "t": 17.1,
+  "sound": "tick",
+  "gain": -24,
+  "cue": "ten_deal"
+ },
+ {
+  "t": 20.03,
+  "sound": "chord",
+  "gain": -21,
+  "cue": "ten_solve"
+ },
+ {
+  "t": 20.1,
+  "sound": "swish",
+  "gain": -24,
+  "cue": "ins_reg"
+ },
+ {
+  "t": 22.42,
+  "sound": "pop",
+  "gain": -22,
+  "cue": "ins_follow"
+ },
+ {
+  "t": 26.07,
+  "sound": "bell",
+  "gain": -22,
+  "cue": "ins_heard"
+ },
+ {
+  "t": 26.53,
+  "sound": "whoosh_up",
+  "gain": -24,
+  "cue": "cta_routine"
+ },
+ {
+  "t": 33.12,
+  "sound": "pop",
+  "gain": -23,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 33.42,
+  "sound": "pop",
+  "gain": -23,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 33.72,
+  "sound": "pop",
+  "gain": -23,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 34.698,
+  "sound": "typing",
+  "gain": -27,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 35.54,
+  "sound": "chord",
+  "gain": -19,
+  "cue": "cta_word"
+ },
+ {
+  "t": 37.39,
+  "sound": "notif",
+  "gain": -20,
+  "cue": "cta_end"
+ }
+]

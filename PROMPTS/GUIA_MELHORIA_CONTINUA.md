@@ -34,6 +34,14 @@
 > - **Escopo:** EP016, EP017 e EP018. Demais episódios só quando pedido expressamente; as outras regras do Prompt Mestre continuam valendo.
 > - Aprendizados: (1) o Parakeet escreve números por extenso como dígitos ("vinte" → "2") — conferir números com o Whisper antes de suspeitar da voz; (2) série de efeitos sincronizada a uma fala (pins caindo durante "vinte endereços") cobre sílabas — efeitos de série só em trechos sem fala ou bem abaixo da voz (≤ −31 dB); (3) contador animado no 1º quadro precisa começar num número que concorde com o texto ("3 LINKS", nunca "1 LINKS").
 >
+> ### Registro do EP019 (11/11/2026)
+>
+> - **Episódio:** EP019. **Voz:** identidade vocal original aprovada. **Velocidade:** 1,0×. **Visual:** padrão inicial aprovado.
+> - **CTA:** comentário com a palavra-chave **SISTEMA**; destino: envio dos detalhes pelo **Direct**. Transição: "Se a sua rotina tem muitos atendimentos assim, vale ter esse histórico organizado."
+> - **Escopo:** EP016–EP019. Demais episódios só quando pedido expressamente.
+> - Voz: nenhuma das 3 tomadas saiu limpa (uma trocou o gancho, duas leram a direção). Usada a tomada A com corte nos silêncios (6,0 s, registro em `episodes/EP019/narration_edit.json`). Erro 429 isolado é limite por minuto, não cota diária: esperar um minuto e tentar de novo.
+> - Variação: o caminho até o fecho da CTA muda conforme o tema (EP019 dobra no módulo ATENDIMENTOS); o fecho COMENTE "SISTEMA" fica igual como assinatura.
+>
 > - As seções "Padrão v2" abaixo ficam **só como histórico**. Os itens de voz delas (aceleração, encurtamento de pausas, time-stretch, direção energética) estão **revogados**. Os itens visuais valem apenas na forma suavizada descrita acima.
 
 Registro do que **efetivamente** melhorou os Reels, para aplicar automaticamente nos próximos episódios. Cada item diz como foi medido, para o próximo ajuste poder ser comparado. O Claude Code deve ler este arquivo junto com o `CLAUDE.md` antes de produzir qualquer episódio.
@@ -116,3 +124,4 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-11 | EP016 | Padrão original 1,0× + CTA de comentário (SISTEMA → Direct), só neste episódio. Tomada C limpa, 180 palavras/min nativos, 38,6 s, movimento 1,69, maior trecho parado 0,9 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-11 | EP017 | Padrão original 1,0× + CTA de comentário (SISTEMA → Direct). Tomada A sem edição, 164 palavras/min, 43,0 s, movimento 1,68, maior trecho parado 0,7 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-11 | EP018 | Padrão original 1,0× + CTA de comentário (SISTEMA → Direct). Tomada A sem edição (B e C leram a direção), 160 palavras/min, 45,2 s, movimento 1,73, maior trecho parado 1,0 s | Pedido do cliente; aguardando avaliação |
+| 2026-11-11 | EP019 | Padrão original 1,0× + CTA de comentário (SISTEMA → Direct). Tomada A com corte da direção lida (6,0 s), 181 palavras/min nativos, 39,6 s, movimento 2,11, maior trecho parado 1,0 s | Pedido do cliente; aguardando avaliação |

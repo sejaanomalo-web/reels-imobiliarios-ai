@@ -1,0 +1,77 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.08,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.07,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 7.07,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.71,
+    "palavras_nao_reconhecidas": [
+      "envie"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 1.66,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.68,
+    "palavras_nao_reconhecidas": [
+      "registre"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 3.0,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.82,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.49,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 37.55,
+    "asr_match": 0.96,
+    "aligned_words": "107/111",
+    "words_per_min": 177,
+    "heard": "Você mandou um áudio de 3 minutos. O cliente ouviu metade e ficou sem saber o próximo passo. Áudio é ótimo para transmitir proximidade, mas detalhes como o endereço, horário e documentação ficam difíceis de consultar depois. Depois de um áudio importante, envia um resumo curto. Imóvel, combinado e próximo passo. Duas ou três linhas podem resolver. E registra a mesma informação no acompanhamento do cliente. Assim você não depende de alguém lembrar exatamente o que ouviu. Se a sua rotina tem muitos atendimentos assim, vale ter esse histórico organizado. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 37.55,
+      "wpm": 177
+    },
+    "final": {
+      "seconds": 37.55,
+      "wpm": 177
+    }
+  }
+]

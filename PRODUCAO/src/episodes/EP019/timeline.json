@@ -1,0 +1,1144 @@
+{
+ "id": "EP019",
+ "title": "Áudio longo pode esconder uma decisão",
+ "fps": 30,
+ "duration": 39.6,
+ "durationInFrames": 1188,
+ "narrationEnd": 37.667,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.575
+  },
+  {
+   "id": "situacao",
+   "start": 5.575,
+   "end": 12.975
+  },
+  {
+   "id": "tensao",
+   "start": 12.975,
+   "end": 19.95
+  },
+  {
+   "id": "insight",
+   "start": 19.95,
+   "end": 26.1
+  },
+  {
+   "id": "cta",
+   "start": 26.1,
+   "end": 39.6
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Você mandou um áudio de três minutos.",
+   "start": 0.2,
+   "end": 2.28
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "O cliente ouviu metade e ficou sem saber o próximo passo.",
+   "start": 2.28,
+   "end": 5.35
+  },
+  {
+   "id": "s3",
+   "scene": "situacao",
+   "text": "Áudio é ótimo para transmitir proximidade, mas detalhes como endereço, horário e documentação ficam difíceis de consultar depois.",
+   "start": 5.8,
+   "end": 12.87
+  },
+  {
+   "id": "s4",
+   "scene": "tensao",
+   "text": "Depois de um áudio importante, envie um resumo curto: imóvel, combinado e próximo passo.",
+   "start": 13.08,
+   "end": 17.79
+  },
+  {
+   "id": "s5",
+   "scene": "tensao",
+   "text": "Duas ou três linhas podem resolver.",
+   "start": 18.12,
+   "end": 19.78
+  },
+  {
+   "id": "s6",
+   "scene": "insight",
+   "text": "E registre a mesma informação no acompanhamento do cliente.",
+   "start": 20.12,
+   "end": 22.8
+  },
+  {
+   "id": "s7",
+   "scene": "insight",
+   "text": "Assim, você não depende de alguém lembrar exatamente o que ouviu.",
+   "start": 23.0,
+   "end": 26.0
+  },
+  {
+   "id": "s8",
+   "scene": "cta",
+   "text": "Se a sua rotina tem muitos atendimentos assim, vale ter esse histórico organizado.",
+   "start": 26.2,
+   "end": 30.02
+  },
+  {
+   "id": "s9",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "start": 30.28,
+   "end": 34.61
+  },
+  {
+   "id": "s10",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "start": 34.798,
+   "end": 37.29
+  }
+ ],
+ "cues": {
+  "hook_audio": 0.74,
+  "hook_three": 1.67,
+  "hook_client": 2.34,
+  "hook_half": 3.19,
+  "hook_next": 4.71,
+  "sit_audio": 5.7,
+  "sit_close": 7.51,
+  "sit_details": 8.47,
+  "sit_addr": 9.27,
+  "sit_time": 9.83,
+  "sit_docs": 10.47,
+  "sit_hard": 11.43,
+  "sit_later": 12.55,
+  "ten_after": 12.98,
+  "ten_summary": 15.03,
+  "ten_prop": 15.91,
+  "ten_deal": 16.55,
+  "ten_next": 17.19,
+  "ten_lines": 18.79,
+  "ten_solve": 19.43,
+  "ins_reg": 20.1,
+  "ins_follow": 21.67,
+  "ins_dep": 23.67,
+  "ins_remember": 24.55,
+  "ins_heard": 25.67,
+  "cta_routine": 26.53,
+  "cta_hist": 29.03,
+  "cta_sys": 30.18,
+  "cta_tiles": 32.87,
+  "cta_comment": 34.698,
+  "cta_word": 35.19,
+  "cta_direct": 36.77,
+  "cta_end": 37.29
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 0.68,
+   "words": [
+    {
+     "text": "Você",
+     "start": 0.2,
+     "end": 0.36,
+     "emph": false
+    },
+    {
+     "text": "mandou",
+     "start": 0.36,
+     "end": 0.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.68,
+   "end": 1.16,
+   "words": [
+    {
+     "text": "um",
+     "start": 0.68,
+     "end": 0.84,
+     "emph": false
+    },
+    {
+     "text": "áudio",
+     "start": 0.84,
+     "end": 1.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.16,
+   "end": 2.28,
+   "words": [
+    {
+     "text": "de",
+     "start": 1.16,
+     "end": 1.347,
+     "emph": false
+    },
+    {
+     "text": "três",
+     "start": 1.347,
+     "end": 1.72,
+     "emph": true
+    },
+    {
+     "text": "minutos.",
+     "start": 1.72,
+     "end": 2.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 2.28,
+   "end": 2.76,
+   "words": [
+    {
+     "text": "O",
+     "start": 2.28,
+     "end": 2.44,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 2.44,
+     "end": 2.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 2.76,
+   "end": 3.64,
+   "words": [
+    {
+     "text": "ouviu",
+     "start": 2.76,
+     "end": 3.24,
+     "emph": false
+    },
+    {
+     "text": "metade",
+     "start": 3.24,
+     "end": 3.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.64,
+   "end": 4.68,
+   "words": [
+    {
+     "text": "e",
+     "start": 3.64,
+     "end": 3.8,
+     "emph": false
+    },
+    {
+     "text": "ficou",
+     "start": 3.8,
+     "end": 4.12,
+     "emph": false
+    },
+    {
+     "text": "sem",
+     "start": 4.12,
+     "end": 4.36,
+     "emph": false
+    },
+    {
+     "text": "saber",
+     "start": 4.36,
+     "end": 4.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.68,
+   "end": 5.8,
+   "words": [
+    {
+     "text": "o",
+     "start": 4.68,
+     "end": 4.76,
+     "emph": false
+    },
+    {
+     "text": "próximo",
+     "start": 4.76,
+     "end": 5.08,
+     "emph": true
+    },
+    {
+     "text": "passo.",
+     "start": 5.08,
+     "end": 5.35,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 5.8,
+   "end": 6.76,
+   "words": [
+    {
+     "text": "Áudio",
+     "start": 5.8,
+     "end": 6.2,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 6.2,
+     "end": 6.36,
+     "emph": false
+    },
+    {
+     "text": "ótimo",
+     "start": 6.36,
+     "end": 6.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 6.76,
+   "end": 7.56,
+   "words": [
+    {
+     "text": "para",
+     "start": 6.76,
+     "end": 6.92,
+     "emph": false
+    },
+    {
+     "text": "transmitir",
+     "start": 6.92,
+     "end": 7.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 7.56,
+   "end": 8.36,
+   "words": [
+    {
+     "text": "proximidade,",
+     "start": 7.56,
+     "end": 8.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.36,
+   "end": 9.32,
+   "words": [
+    {
+     "text": "mas",
+     "start": 8.36,
+     "end": 8.52,
+     "emph": false
+    },
+    {
+     "text": "detalhes",
+     "start": 8.52,
+     "end": 9.0,
+     "emph": false
+    },
+    {
+     "text": "como",
+     "start": 9.0,
+     "end": 9.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.32,
+   "end": 9.88,
+   "words": [
+    {
+     "text": "endereço,",
+     "start": 9.32,
+     "end": 9.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.88,
+   "end": 10.36,
+   "words": [
+    {
+     "text": "horário",
+     "start": 9.88,
+     "end": 10.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.36,
+   "end": 11.08,
+   "words": [
+    {
+     "text": "e",
+     "start": 10.36,
+     "end": 10.52,
+     "emph": false
+    },
+    {
+     "text": "documentação",
+     "start": 10.52,
+     "end": 11.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.08,
+   "end": 11.96,
+   "words": [
+    {
+     "text": "ficam",
+     "start": 11.08,
+     "end": 11.48,
+     "emph": false
+    },
+    {
+     "text": "difíceis",
+     "start": 11.48,
+     "end": 11.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.96,
+   "end": 13.08,
+   "words": [
+    {
+     "text": "de",
+     "start": 11.96,
+     "end": 12.12,
+     "emph": false
+    },
+    {
+     "text": "consultar",
+     "start": 12.12,
+     "end": 12.6,
+     "emph": false
+    },
+    {
+     "text": "depois.",
+     "start": 12.6,
+     "end": 12.87,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.08,
+   "end": 13.56,
+   "words": [
+    {
+     "text": "Depois",
+     "start": 13.08,
+     "end": 13.16,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 13.4,
+     "end": 13.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.56,
+   "end": 14.68,
+   "words": [
+    {
+     "text": "um",
+     "start": 13.56,
+     "end": 13.64,
+     "emph": false
+    },
+    {
+     "text": "áudio",
+     "start": 13.64,
+     "end": 14.04,
+     "emph": false
+    },
+    {
+     "text": "importante,",
+     "start": 14.04,
+     "end": 14.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.68,
+   "end": 15.96,
+   "words": [
+    {
+     "text": "envie",
+     "start": 14.68,
+     "end": 15.0,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 15.0,
+     "end": 15.08,
+     "emph": false
+    },
+    {
+     "text": "resumo",
+     "start": 15.08,
+     "end": 15.48,
+     "emph": true
+    },
+    {
+     "text": "curto:",
+     "start": 15.48,
+     "end": 15.7,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.96,
+   "end": 16.6,
+   "words": [
+    {
+     "text": "imóvel,",
+     "start": 15.96,
+     "end": 16.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.6,
+   "end": 17.08,
+   "words": [
+    {
+     "text": "combinado",
+     "start": 16.6,
+     "end": 17.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.08,
+   "end": 18.12,
+   "words": [
+    {
+     "text": "e",
+     "start": 17.08,
+     "end": 17.24,
+     "emph": false
+    },
+    {
+     "text": "próximo",
+     "start": 17.24,
+     "end": 17.64,
+     "emph": true
+    },
+    {
+     "text": "passo.",
+     "start": 17.64,
+     "end": 17.79,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.12,
+   "end": 19.24,
+   "words": [
+    {
+     "text": "Duas",
+     "start": 18.12,
+     "end": 18.44,
+     "emph": false
+    },
+    {
+     "text": "ou",
+     "start": 18.44,
+     "end": 18.6,
+     "emph": false
+    },
+    {
+     "text": "três",
+     "start": 18.6,
+     "end": 18.84,
+     "emph": true
+    },
+    {
+     "text": "linhas",
+     "start": 18.84,
+     "end": 19.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.24,
+   "end": 20.12,
+   "words": [
+    {
+     "text": "podem",
+     "start": 19.24,
+     "end": 19.48,
+     "emph": false
+    },
+    {
+     "text": "resolver.",
+     "start": 19.48,
+     "end": 19.78,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 20.12,
+   "end": 20.84,
+   "words": [
+    {
+     "text": "E",
+     "start": 20.12,
+     "end": 20.2,
+     "emph": false
+    },
+    {
+     "text": "registre",
+     "start": 20.2,
+     "end": 20.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 20.84,
+   "end": 21.56,
+   "words": [
+    {
+     "text": "a",
+     "start": 20.84,
+     "end": 20.92,
+     "emph": false
+    },
+    {
+     "text": "mesma",
+     "start": 20.92,
+     "end": 21.16,
+     "emph": false
+    },
+    {
+     "text": "informação",
+     "start": 21.16,
+     "end": 21.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 21.56,
+   "end": 22.36,
+   "words": [
+    {
+     "text": "no",
+     "start": 21.56,
+     "end": 21.72,
+     "emph": false
+    },
+    {
+     "text": "acompanhamento",
+     "start": 21.72,
+     "end": 22.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.36,
+   "end": 23.0,
+   "words": [
+    {
+     "text": "do",
+     "start": 22.36,
+     "end": 22.52,
+     "emph": false
+    },
+    {
+     "text": "cliente.",
+     "start": 22.52,
+     "end": 22.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 23.0,
+   "end": 23.4,
+   "words": [
+    {
+     "text": "Assim,",
+     "start": 23.0,
+     "end": 23.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 23.4,
+   "end": 24.2,
+   "words": [
+    {
+     "text": "você",
+     "start": 23.4,
+     "end": 23.64,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 23.64,
+     "end": 23.72,
+     "emph": true
+    },
+    {
+     "text": "depende",
+     "start": 23.72,
+     "end": 23.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 24.2,
+   "end": 25.0,
+   "words": [
+    {
+     "text": "de",
+     "start": 24.2,
+     "end": 24.28,
+     "emph": false
+    },
+    {
+     "text": "alguém",
+     "start": 24.28,
+     "end": 24.6,
+     "emph": false
+    },
+    {
+     "text": "lembrar",
+     "start": 24.6,
+     "end": 25.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 25.0,
+   "end": 25.4,
+   "words": [
+    {
+     "text": "exatamente",
+     "start": 25.0,
+     "end": 25.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 25.4,
+   "end": 26.2,
+   "words": [
+    {
+     "text": "o",
+     "start": 25.4,
+     "end": 25.48,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 25.48,
+     "end": 25.72,
+     "emph": false
+    },
+    {
+     "text": "ouviu.",
+     "start": 25.72,
+     "end": 26.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 26.2,
+   "end": 27.08,
+   "words": [
+    {
+     "text": "Se",
+     "start": 26.2,
+     "end": 26.44,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 26.44,
+     "end": 26.52,
+     "emph": false
+    },
+    {
+     "text": "sua",
+     "start": 26.52,
+     "end": 26.68,
+     "emph": false
+    },
+    {
+     "text": "rotina",
+     "start": 26.68,
+     "end": 27.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 27.08,
+   "end": 28.04,
+   "words": [
+    {
+     "text": "tem",
+     "start": 27.08,
+     "end": 27.24,
+     "emph": false
+    },
+    {
+     "text": "muitos",
+     "start": 27.24,
+     "end": 27.48,
+     "emph": false
+    },
+    {
+     "text": "atendimentos",
+     "start": 27.48,
+     "end": 28.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 28.04,
+   "end": 28.44,
+   "words": [
+    {
+     "text": "assim,",
+     "start": 28.04,
+     "end": 28.3,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 28.44,
+   "end": 29.08,
+   "words": [
+    {
+     "text": "vale",
+     "start": 28.44,
+     "end": 28.68,
+     "emph": false
+    },
+    {
+     "text": "ter",
+     "start": 28.68,
+     "end": 28.92,
+     "emph": false
+    },
+    {
+     "text": "esse",
+     "start": 28.92,
+     "end": 29.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 29.08,
+   "end": 30.28,
+   "words": [
+    {
+     "text": "histórico",
+     "start": 29.08,
+     "end": 29.64,
+     "emph": true
+    },
+    {
+     "text": "organizado.",
+     "start": 29.64,
+     "end": 30.02,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 30.28,
+   "end": 31.0,
+   "words": [
+    {
+     "text": "Quer",
+     "start": 30.28,
+     "end": 30.6,
+     "emph": false
+    },
+    {
+     "text": "conhecer",
+     "start": 30.6,
+     "end": 31.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 31.0,
+   "end": 32.12,
+   "words": [
+    {
+     "text": "um",
+     "start": 31.0,
+     "end": 31.16,
+     "emph": false
+    },
+    {
+     "text": "sistema",
+     "start": 31.16,
+     "end": 31.48,
+     "emph": false
+    },
+    {
+     "text": "personalizado",
+     "start": 31.48,
+     "end": 32.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 32.12,
+   "end": 32.76,
+   "words": [
+    {
+     "text": "para",
+     "start": 32.12,
+     "end": 32.28,
+     "emph": false
+    },
+    {
+     "text": "organizar",
+     "start": 32.28,
+     "end": 32.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 32.76,
+   "end": 33.96,
+   "words": [
+    {
+     "text": "seus",
+     "start": 32.76,
+     "end": 32.92,
+     "emph": false
+    },
+    {
+     "text": "imóveis,",
+     "start": 32.92,
+     "end": 33.48,
+     "emph": true
+    },
+    {
+     "text": "leads",
+     "start": 33.48,
+     "end": 33.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 33.96,
+   "end": 34.798,
+   "words": [
+    {
+     "text": "e",
+     "start": 33.96,
+     "end": 34.04,
+     "emph": false
+    },
+    {
+     "text": "atendimentos?",
+     "start": 34.04,
+     "end": 34.61,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 34.798,
+   "end": 35.64,
+   "words": [
+    {
+     "text": "Comente",
+     "start": 34.798,
+     "end": 35.24,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 35.24,
+     "end": 35.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 35.64,
+   "end": 36.36,
+   "words": [
+    {
+     "text": "que",
+     "start": 35.64,
+     "end": 35.8,
+     "emph": false
+    },
+    {
+     "text": "eu",
+     "start": 35.8,
+     "end": 35.88,
+     "emph": false
+    },
+    {
+     "text": "te",
+     "start": 35.88,
+     "end": 36.04,
+     "emph": false
+    },
+    {
+     "text": "envio",
+     "start": 36.04,
+     "end": 36.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 36.36,
+   "end": 36.76,
+   "words": [
+    {
+     "text": "os",
+     "start": 36.36,
+     "end": 36.44,
+     "emph": false
+    },
+    {
+     "text": "detalhes",
+     "start": 36.44,
+     "end": 36.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 36.76,
+   "end": 37.79,
+   "words": [
+    {
+     "text": "pelo",
+     "start": 36.76,
+     "end": 36.92,
+     "emph": false
+    },
+    {
+     "text": "Direct.",
+     "start": 36.92,
+     "end": 37.29,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": [
+  "s10"
+ ]
+}
