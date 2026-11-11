@@ -27,6 +27,13 @@
 > - **Escopo:** EP016 e EP017. Nos demais episódios, só quando o cliente pedir expressamente; não substituir as CTAs dos 60 roteiros.
 > - Voz: tomada A a 164 palavras/min, nenhuma tomada leu a direção desta vez. O modelo tende a falar imperativos na forma coloquial ("pergunta", "registra", "comenta"); a legenda mantém o texto aprovado.
 >
+> ### Registro do EP018 (11/11/2026)
+>
+> - **Episódio:** EP018. **Voz oficial:** preset original aprovado. **Velocidade:** 1,0×. **Identidade audiovisual:** padrão inicial aprovado.
+> - **CTA:** comentário com a palavra-chave **SISTEMA**; envio das informações pelo **Instagram Direct**. Transição adaptada: "Escolher com critério fica mais fácil quando as prioridades de cada cliente estão registradas."
+> - **Escopo:** EP016, EP017 e EP018. Demais episódios só quando pedido expressamente; as outras regras do Prompt Mestre continuam valendo.
+> - Aprendizados: (1) o Parakeet escreve números por extenso como dígitos ("vinte" → "2") — conferir números com o Whisper antes de suspeitar da voz; (2) série de efeitos sincronizada a uma fala (pins caindo durante "vinte endereços") cobre sílabas — efeitos de série só em trechos sem fala ou bem abaixo da voz (≤ −31 dB); (3) contador animado no 1º quadro precisa começar num número que concorde com o texto ("3 LINKS", nunca "1 LINKS").
+>
 > - As seções "Padrão v2" abaixo ficam **só como histórico**. Os itens de voz delas (aceleração, encurtamento de pausas, time-stretch, direção energética) estão **revogados**. Os itens visuais valem apenas na forma suavizada descrita acima.
 
 Registro do que **efetivamente** melhorou os Reels, para aplicar automaticamente nos próximos episódios. Cada item diz como foi medido, para o próximo ajuste poder ser comparado. O Claude Code deve ler este arquivo junto com o `CLAUDE.md` antes de produzir qualquer episódio.
@@ -108,3 +115,4 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-11 | EP015 (V2) | Volta à voz original 1,0× (preset aprovado) e ao padrão audiovisual inicial, com câmera intencional suavizada. Resultado: 148 palavras/min, 39,1 s, movimento 2,5, maior trecho parado 0,9 s | Decisão do cliente; vigente |
 | 2026-11-11 | EP016 | Padrão original 1,0× + CTA de comentário (SISTEMA → Direct), só neste episódio. Tomada C limpa, 180 palavras/min nativos, 38,6 s, movimento 1,69, maior trecho parado 0,9 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-11 | EP017 | Padrão original 1,0× + CTA de comentário (SISTEMA → Direct). Tomada A sem edição, 164 palavras/min, 43,0 s, movimento 1,68, maior trecho parado 0,7 s | Pedido do cliente; aguardando avaliação |
+| 2026-11-11 | EP018 | Padrão original 1,0× + CTA de comentário (SISTEMA → Direct). Tomada A sem edição (B e C leram a direção), 160 palavras/min, 45,2 s, movimento 1,73, maior trecho parado 1,0 s | Pedido do cliente; aguardando avaliação |
