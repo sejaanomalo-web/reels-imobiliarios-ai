@@ -20,6 +20,13 @@
 > - **CTA do EP016:** exclusivamente por comentário, palavra-chave única **SISTEMA**, direcionando para o **Direct do Instagram**. Texto-base: "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct." Na tela: **COMENTE "SISTEMA"** + "Receba os detalhes no Direct.". Sem link na bio, sem botões externos, sem prometer material grátis, teste ou demonstração automática; campo de comentário genérico, sem simular perfil ou comentário de pessoa real. Só a frase de transição anterior à CTA é adaptada ao roteiro.
 > - **Escopo:** essa CTA vale para o EP016 e para episódios futuros **somente quando o cliente pedir expressamente**. Não substituir globalmente as CTAs dos 60 roteiros; o padrão do livro (link da bio) continua onde não houver pedido.
 > - Como configurar: bloco `cta` no `episode.json` (tipo `comentario`, `keyword`, `channel`, `original_bio_cta`, `transition_adapted`, `base_text`) e `pronunciation` por episódio para a palavra-chave ser falada em minúsculas ("sistema"), sem soletrar.
+> ### Registro do EP017 (11/11/2026)
+>
+> - **Voz oficial:** preset original aprovado. **Velocidade padrão: 1,0×.** **Identidade audiovisual:** padrão inicial aprovado.
+> - **CTA do EP017:** exclusivamente por comentário, palavra-chave **SISTEMA**, com envio das informações pelo **Instagram Direct** (mesmo texto-base e mesmo fecho visual do EP016). Transição adaptada: "Essas pistas só ajudam se ficarem registradas na jornada de cada cliente."
+> - **Escopo:** EP016 e EP017. Nos demais episódios, só quando o cliente pedir expressamente; não substituir as CTAs dos 60 roteiros.
+> - Voz: tomada A a 164 palavras/min, nenhuma tomada leu a direção desta vez. O modelo tende a falar imperativos na forma coloquial ("pergunta", "registra", "comenta"); a legenda mantém o texto aprovado.
+>
 > - As seções "Padrão v2" abaixo ficam **só como histórico**. Os itens de voz delas (aceleração, encurtamento de pausas, time-stretch, direção energética) estão **revogados**. Os itens visuais valem apenas na forma suavizada descrita acima.
 
 Registro do que **efetivamente** melhorou os Reels, para aplicar automaticamente nos próximos episódios. Cada item diz como foi medido, para o próximo ajuste poder ser comparado. O Claude Code deve ler este arquivo junto com o `CLAUDE.md` antes de produzir qualquer episódio.
@@ -100,3 +107,4 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-11 | EP015 (V1) | Padrão v2 aplicado a outra metáfora (fio da conversa); direção de voz escrita para o roteiro; régua de movimento mantida (3,61; 0,4 s parado) | **Reprovado** pelo cliente: voz acelerada |
 | 2026-11-11 | EP015 (V2) | Volta à voz original 1,0× (preset aprovado) e ao padrão audiovisual inicial, com câmera intencional suavizada. Resultado: 148 palavras/min, 39,1 s, movimento 2,5, maior trecho parado 0,9 s | Decisão do cliente; vigente |
 | 2026-11-11 | EP016 | Padrão original 1,0× + CTA de comentário (SISTEMA → Direct), só neste episódio. Tomada C limpa, 180 palavras/min nativos, 38,6 s, movimento 1,69, maior trecho parado 0,9 s | Pedido do cliente; aguardando avaliação |
+| 2026-11-11 | EP017 | Padrão original 1,0× + CTA de comentário (SISTEMA → Direct). Tomada A sem edição, 164 palavras/min, 43,0 s, movimento 1,68, maior trecho parado 0,7 s | Pedido do cliente; aguardando avaliação |
