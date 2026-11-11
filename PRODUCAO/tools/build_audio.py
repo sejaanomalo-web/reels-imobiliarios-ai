@@ -445,7 +445,7 @@ def save(path, x):
         w.writeframes((x * 32767).astype(np.int16).tobytes())
 
 
-out = os.path.join(REPO, "OUTPUT", EP, "audio"); os.makedirs(out, exist_ok=True)
+out = os.path.join(REPO, "OUTPUT", ep.get("outputDir", EP), "audio"); os.makedirs(out, exist_ok=True)
 save(os.path.join(out, "stem_trilha.wav"), music)
 save(os.path.join(out, "stem_efeitos.wav"), sfx)
 pre = os.path.join(out, "mix_pre_master.wav")

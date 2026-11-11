@@ -3,7 +3,7 @@
 set -e
 EP=${1:-EP001}
 cd "$(dirname "$0")/.."
-OUT=../OUTPUT/$EP
+OUT=../OUTPUT/$(python3 -c "import json;print(json.load(open('episodes/$EP/episode.json')).get('outputDir','$EP'))")
 mkdir -p "$OUT" out
 rm -rf build && npx remotion bundle --out-dir build >/dev/null
 npx remotion render build "$EP" "out/$EP.mp4" --concurrency=4 --log=error

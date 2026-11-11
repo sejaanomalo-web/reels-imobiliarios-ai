@@ -86,7 +86,7 @@ def align(expected, recog, dur):
 
 
 pub = os.path.join(ROOT, "public", EP); os.makedirs(pub, exist_ok=True)
-out_dir = os.path.join(REPO, "OUTPUT", EP); os.makedirs(os.path.join(out_dir, "audio"), exist_ok=True)
+out_dir = os.path.join(REPO, "OUTPUT", ep.get("outputDir", EP)); os.makedirs(os.path.join(out_dir, "audio"), exist_ok=True)
 
 WORD_RE = r"[\wáàâãéêíóôõúüçÁÀÂÃÉÊÍÓÔÕÚÜÇ]+"
 PROVIDER = str(preset.get("provider", "kokoro")).lower()
@@ -197,7 +197,7 @@ def source_audio():
         ratio, x, sr = best
         if ratio < 0.97 and os.path.exists(SRC) and "--force" not in sys.argv:
             # nunca troca uma narração existente por uma tomada que erra o texto; guarda a tomada para escuta
-            rej = os.path.join(REPO, "OUTPUT", EP, "audio", f"narracao_tomada_rejeitada_{model}.wav")
+            rej = os.path.join(REPO, "OUTPUT", ep.get("outputDir", EP), "audio", f"narracao_tomada_rejeitada_{model}.wav")
             write_wav(rej, x, sr)
             print(f"AVISO: melhor tomada de {model} reconheceu só {ratio:.1%} do texto; mantida a narração existente "
                   f"({have}). Tomada salva em {rej}. Use --force para adotá-la mesmo assim.", flush=True)

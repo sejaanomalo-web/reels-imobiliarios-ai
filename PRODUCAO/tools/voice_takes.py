@@ -29,7 +29,7 @@ pk = sherpa_onnx.OfflineRecognizer.from_transducer(encoder=d + "/encoder.int8.on
                                                    joiner=d + "/joiner.int8.onnx", tokens=d + "/tokens.txt",
                                                    model_type="nemo_transducer", num_threads=4)
 out = os.path.join(REPO, "OUTPUT", "VOICE_AUDITIONS"); os.makedirs(out, exist_ok=True)
-mpath = os.path.join(REPO, "OUTPUT", EP, "audio", "tomadas_metricas.json"); os.makedirs(os.path.dirname(mpath), exist_ok=True)
+mpath = os.path.join(REPO, "OUTPUT", ep.get("outputDir", EP), "audio", "tomadas_metricas.json"); os.makedirs(os.path.dirname(mpath), exist_ok=True)
 allm = json.load(open(mpath)) if os.path.exists(mpath) else {}
 for name in NAMES:
     t = takes[name]

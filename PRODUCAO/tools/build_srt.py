@@ -36,6 +36,7 @@ out = []
 for i, (a, b, text) in enumerate(lines):
     nxt = lines[i + 1][0] if i + 1 < len(lines) else b + 0.4
     out.append(f"{i + 1}\n{ts(a)} --> {ts(min(b + 0.2, nxt - 0.02))}\n{text}\n")
-path = os.path.join(os.path.dirname(ROOT), "OUTPUT", EP, f"{EP}_legendas.srt")
+_ep = json.load(open(os.path.join(ROOT, "episodes", EP, "episode.json")))
+path = os.path.join(os.path.dirname(ROOT), "OUTPUT", _ep.get("outputDir", EP), _ep.get("deliverables", {}).get("subtitles", f"{EP}_legendas.srt"))
 open(path, "w").write("\n".join(out))
 print(f"{len(lines)} legendas → {path}")
