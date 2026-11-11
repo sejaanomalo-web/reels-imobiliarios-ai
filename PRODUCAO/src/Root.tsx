@@ -18,6 +18,8 @@ import { EP018, timeline as ep018 } from "./episodes/EP018/Episode";
 import { EP018Cover } from "./episodes/EP018/Cover";
 import { EP019, timeline as ep019 } from "./episodes/EP019/Episode";
 import { EP019Cover } from "./episodes/EP019/Cover";
+import { EP020, timeline as ep020 } from "./episodes/EP020/Episode";
+import { EP020Cover } from "./episodes/EP020/Cover";
 import { VIDEO } from "./theme";
 
 export const RemotionRoot: React.FC = () => (
@@ -127,6 +129,18 @@ export const RemotionRoot: React.FC = () => (
         defaultProps={{ withAudio: true }}
       />
       <Still id="EP019-Capa" component={EP019Cover} width={VIDEO.width} height={VIDEO.height} />
+    </Folder>
+    <Folder name="EP020">
+      <Composition
+        id="EP020"
+        component={EP020}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ep020.fps}
+        durationInFrames={ep020.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP020-Capa" component={EP020Cover} width={VIDEO.width} height={VIDEO.height} />
     </Folder>
   </>
 );
