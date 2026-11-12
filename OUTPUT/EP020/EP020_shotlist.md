@@ -1,0 +1,13 @@
+# EP020 — Shotlist (tempos reais)
+
+Padrão original: câmera virtual suave (deriva 0,5), legenda original guiada pela fala, trilha discreta sem bateria, efeitos fora das sílabas.
+
+| Cena | Tempo | Fala | Visual | Movimento / transição | Som |
+|---|---|---|---|---|---|
+| 01 Gancho | 0,00–4,93 | Agendar toda visita que pedem pode parecer produtividade. Nem sempre é. | Agenda da semana já com visitas no 1º quadro, enchendo até transbordar (+16 VISITAS); por trás, rotas no mapa se cruzando; "PRODUTIVIDADE" entre aspas; em "Nem" tudo trava e cai o carimbo **NEM SEMPRE.** | Câmera inclinada que endireita na trava | embaralhar no início, batida no carimbo |
+| 02 Situação | 4,93–11,83 | Um interessado quer conhecer o apartamento, mas ainda não sabe se precisa de três quartos ou se aquele valor cabe no planejamento. | Mapa ilustrativo: rota do INTERESSADO até "Apartamento · 2 quartos"; dúvida 1: "3 quartos?" com o 3º quarto piscando tracejado; dúvida 2: "o valor cabe no planejamento?" com ponteiro que não para | Câmera desce do mapa às duas dúvidas | whoosh, pin, som oco |
+| 03 Tensão | 11,83–20,57 | Antes de confirmar, alinhe o básico: características desejadas, faixa de investimento e objetivo da visita. Isso evita deslocamentos sem contexto. | "ANTES DE CONFIRMAR, ALINHE O BÁSICO"; três contornos de pergunta aparecem e se preenchem no tempo de cada palavra; um avatar ilustrativo responde (3 quartos com varanda · faixa definida no planejamento · comparar com outra opção); "deslocamento sem contexto" riscado → EVITADO | Câmera desce pelas perguntas | swish, 3 pops, fade no risco |
+| 04 Insight | 20,57–28,65 | Se estiver tudo alinhado, marque a visita. Se não, ajude a pessoa a definir melhor o que busca. Qualificação não precisa ser pressão. | O caminho se bifurca: **VISITA CONFIRMADA** (sábado · 10h ✓) em "marque"; **AJUSTAR BUSCA** com controles de quartos/faixa/região se ajustando em "definir"; as duas acendem juntas; **QUALIFICAÇÃO ≠ ~~PRESSÃO~~** | Câmera visita cada rota e volta ao centro | dobra, sino na visita, clique no ajuste, acorde no fecho |
+| 05 CTA de comentário | 28,65–43,13 | Para decidir isso, ajuda ter os critérios de cada comprador ao lado da agenda. Quer conhecer…? Comente SISTEMA que eu te envio os detalhes pelo Direct. | Ficha "critérios do comprador" (interface ilustrativa) com características, faixa e visita na agenda — ALINHADO; dobra no módulo LEADS; IMÓVEIS e ATENDIMENTOS no tempo das palavras; campo de comentário genérico digita SISTEMA; fecho **COMENTE "SISTEMA"** + **Receba os detalhes no Direct.** | Dobra → módulo; subida da palavra; push lento até o fim | whoosh (antes da fala), 3 pops, digitação, acorde, notificação curta |
+
+Legenda da fala final (s11) oculta na tela; o SRT mantém tudo.

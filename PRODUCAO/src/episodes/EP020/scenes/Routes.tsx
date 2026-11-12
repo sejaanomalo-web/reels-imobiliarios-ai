@@ -19,7 +19,7 @@ export const Routes: React.FC<SceneProps> = ({ t, tl }) => {
   const c = tl.cues;
   const node = sp(t, c.ins_if - 0.05, { damping: 14, stiffness: 160 });
   const left = prog(t, c.ins_if + 0.4, 0.8, ease.inOut);
-  const book = sp(t, c.ins_book + 0.35, { damping: 11, stiffness: 190 });
+  const book = sp(t, c.ins_book - 0.05, { damping: 11, stiffness: 190 });
   const right = prog(t, c.ins_else, 0.8, ease.inOut);
   const help = sp(t, c.ins_help + 0.2, { damping: 12, stiffness: 180 });
   const sliders = prog(t, c.ins_define, 1.0, ease.inOut);

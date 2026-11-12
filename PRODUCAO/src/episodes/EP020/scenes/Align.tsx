@@ -42,10 +42,13 @@ export const Align: React.FC<SceneProps> = ({ t, tl }) => {
         </div>
         {QS.map((x, i) => {
           const qp = sp(t, c[x.cue] - 0.1, { damping: 14, stiffness: 170 });
+          const ghost = prog(t, c.ten_before + 0.25 + i * 0.25, 0.4, ease.out) * (1 - Math.min(1, qp * 2));
           const ap = sp(t, c[x.cue] + 0.55, { damping: 13, stiffness: 180 });
           const y = 360 + i * 235;
           return (
             <div key={x.q} style={{ position: "absolute", left: 70, top: y, width: 940, height: 210 }}>
+              {/* contorno da pergunta antes de ser feita */}
+              <div style={{ position: "absolute", right: 0, top: 0, width: [520, 430, 380][i], height: 84, borderRadius: 28, border: "3px dashed rgba(53,224,161,0.35)", opacity: ghost, transform: `translateY(${(1 - ghost) * 30}px)`, display: "flex", alignItems: "center", justifyContent: "flex-end", paddingRight: 28, boxSizing: "border-box", fontWeight: 800, fontSize: 44, color: "rgba(53,224,161,0.5)" }}>?</div>
               {/* pergunta do corretor */}
               <div style={{ position: "absolute", right: 0, top: 0, padding: "18px 28px", borderRadius: 28, borderBottomRightRadius: 8, background: "#123A2D", border: "2px solid rgba(53,224,161,0.45)", fontWeight: 800, fontSize: 38, color: C.text, opacity: Math.min(1, qp * 1.5), transform: `translateX(${(1 - Math.min(1, qp)) * 80}px)`, boxShadow: "0 20px 50px rgba(0,0,0,0.45)" }}>
                 {x.q}

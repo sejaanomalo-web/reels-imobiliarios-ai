@@ -452,8 +452,8 @@ pre = os.path.join(out, "mix_pre_master.wav")
 save(pre, mix)
 json.dump(sorted(events_log, key=lambda e: e["t"]), open(os.path.join(out, "eventos_sfx.json"), "w"), ensure_ascii=False, indent=1)
 
-# masterização: loudnorm em duas passagens (-15 LUFS, TP -1.5)
-target = "I=-15:TP=-1.5:LRA=11"
+# masterização: loudnorm em duas passagens (-15 LUFS, TP -1.5; episode.json "master": {"tp": ...} dá mais margem ao AAC)
+target = f"I=-15:TP={float(ep.get('master', {}).get('tp', -1.5))}:LRA=11"
 p1 = subprocess.run(["ffmpeg", "-hide_banner", "-i", pre, "-af", f"loudnorm={target}:print_format=json", "-f", "null", "-"], capture_output=True, text=True).stderr
 m = json.loads(p1[p1.rindex("{"): p1.rindex("}") + 1])
 flt = (f"loudnorm={target}:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}:"

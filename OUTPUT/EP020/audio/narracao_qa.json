@@ -1,0 +1,86 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.44,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 0.73,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 6.38,
+    "palavras_nao_reconhecidas": [
+      "três"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 6.32,
+    "palavras_nao_reconhecidas": [
+      "alinhe"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 1.93,
+    "palavras_nao_reconhecidas": [
+      "deslocamentos"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.22,
+    "palavras_nao_reconhecidas": [
+      "estiver"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 2.58,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 2.1,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.02,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.63,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.67,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 41.09,
+    "asr_match": 0.951,
+    "aligned_words": "107/112",
+    "words_per_min": 164,
+    "heard": "Agendar toda visita que pedem pode parecer produtividade. Nem sempre é. Um interessado quer conhecer o apartamento, mas ainda não sabe se precisa de 3 quartos ou se aquele valor cabe no planejamento. Antes de confirmar, alinha o básico, características desejadas, faixa de investimento e objetivo da visita. Isso evita deslocamento sem contexto. Se tiver tudo alinhado, marque a visita. Se não, ajude a pessoa a definir melhor o que busca. Qualificação não precisa ser pressão. Para decidir isso, ajuda a ter os critérios de cada comprador ao lado da agenda. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 41.09,
+      "wpm": 164
+    },
+    "final": {
+      "seconds": 41.09,
+      "wpm": 164
+    }
+  }
+]

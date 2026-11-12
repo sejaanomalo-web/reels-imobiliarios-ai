@@ -402,7 +402,8 @@
    "cue": "cta_crit",
    "sound": "whoosh_up",
    "gain": -24,
-   "dur": 0.5
+   "dur": 0.5,
+   "offset": -0.55
   },
   {
    "cue": "cta_tiles",
@@ -550,5 +551,8 @@
     "label": "F — comente"
    }
   ]
+ },
+ "master": {
+  "tp": -2.0
  }
 }
