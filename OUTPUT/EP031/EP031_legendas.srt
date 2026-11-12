@@ -1,0 +1,99 @@
+1
+00:00:00,120 --> 00:00:02,100
+O cliente pediu informações uma vez.
+
+2
+00:00:02,120 --> 00:00:04,020
+Recebeu resposta de dois corretores
+
+3
+00:00:04,040 --> 00:00:04,600
+diferentes.
+
+4
+00:00:04,920 --> 00:00:06,750
+Um oferece visita na quinta.
+
+5
+00:00:06,840 --> 00:00:08,580
+Outro fala de condições diferentes
+
+6
+00:00:08,600 --> 00:00:09,280
+na sexta.
+
+7
+00:00:09,560 --> 00:00:11,940
+O comprador não sabe com quem seguir
+
+8
+00:00:11,960 --> 00:00:13,190
+e a equipe também não.
+
+9
+00:00:13,880 --> 00:00:16,100
+O problema não é ter dois profissionais
+
+10
+00:00:16,120 --> 00:00:16,850
+interessados.
+
+11
+00:00:16,920 --> 00:00:18,580
+É não existir uma regra clara
+
+12
+00:00:18,600 --> 00:00:20,340
+de atribuição e acompanhamento
+
+13
+00:00:20,360 --> 00:00:21,440
+daquela oportunidade.
+
+14
+00:00:21,880 --> 00:00:24,360
+Defina quem assume o primeiro contato,
+
+15
+00:00:24,520 --> 00:00:25,620
+quando uma oportunidade
+
+16
+00:00:25,640 --> 00:00:28,260
+pode ser transferida e como registrar isso
+
+17
+00:00:28,280 --> 00:00:29,390
+sem perder contexto.
+
+18
+00:00:29,720 --> 00:00:31,300
+Esse fluxo funciona melhor
+
+19
+00:00:31,320 --> 00:00:33,220
+quando cada oportunidade tem dono
+
+20
+00:00:33,240 --> 00:00:34,840
+e histórico registrados.
+
+21
+00:00:35,160 --> 00:00:37,300
+Quer conhecer um sistema personalizado
+
+22
+00:00:37,320 --> 00:00:39,220
+para organizar seus imóveis, leads
+
+23
+00:00:39,240 --> 00:00:40,080
+e atendimentos?
+
+24
+00:00:40,200 --> 00:00:42,100
+Comente SISTEMA que eu te envio
+
+25
+00:00:42,120 --> 00:00:43,270
+os detalhes pelo Direct.

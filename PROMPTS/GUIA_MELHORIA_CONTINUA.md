@@ -57,6 +57,13 @@
 > - **Posicionamento:** a ATIVO é primeiro uma página de conteúdo; o sistema só aparece depois do insight.
 > - Aprendizados: (1) quando o roteiro pede "energia", escolher entre as tomadas limpas a de maior variação de entonação e menos pausa, sem acelerar; (2) roteiros de método (quadro, checklist) tendem a ficar parados — medir o movimento antes de entregar e manter a câmera em aproximação lenta durante listas; (3) painéis sobre fichas animadas precisam de camada própria (`zIndex`).
 >
+> ### Registro do EP031 (12/11/2026)
+>
+> - **Episódio:** EP031. **Voz:** preset original aprovado, **1,0×**. **Visual:** padrão aprovado da ATIVO — **sem o símbolo** ("A" branco + seta verde com brilho), que não está no repositório nem no Drive conectado; não recriar por aproximação.
+> - **CTA:** comentário com a palavra-chave **SISTEMA**; envio dos detalhes pelo **Instagram Direct**. Transição: "Esse fluxo funciona melhor quando cada oportunidade tem dono e histórico registrados."
+> - **Escopo:** EP016–EP020, EP030 e EP031. Demais episódios só quando pedido expressamente.
+> - Aprendizados: (1) quando o modelo lê a direção e **repete o gancho logo depois**, a segunda leitura costuma estar limpa — cortar só o início do arquivo (sem emenda no meio da fala) é a edição mais segura; (2) juntar tensão e insight no mesmo quadro (campos vazios que depois se preenchem) deu o melhor movimento da série (2,17) sem acelerar nada.
+>
 > - As seções "Padrão v2" abaixo ficam **só como histórico**. Os itens de voz delas (aceleração, encurtamento de pausas, time-stretch, direção energética) estão **revogados**. Os itens visuais valem apenas na forma suavizada descrita acima.
 
 Registro do que **efetivamente** melhorou os Reels, para aplicar automaticamente nos próximos episódios. Cada item diz como foi medido, para o próximo ajuste poder ser comparado. O Claude Code deve ler este arquivo junto com o `CLAUDE.md` antes de produzir qualquer episódio.
@@ -142,3 +149,4 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-11 | EP019 | Padrão original 1,0× + CTA de comentário (SISTEMA → Direct). Tomada A com corte da direção lida (6,0 s), 181 palavras/min nativos, 39,6 s, movimento 2,11, maior trecho parado 1,0 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-12 | EP020 | Padrão original 1,0× + CTA de comentário (SISTEMA → Direct). Tomada C sem edição (3 tomadas limpas), 164 palavras/min, 43,1 s, movimento 1,98, maior trecho parado 1,0 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-12 | EP030 | Padrão aprovado (ATIVO, sem kit de marca) 1,0× + CTA de comentário (SISTEMA → Direct). Tomada C sem edição, 158 palavras/min, 46,8 s, movimento 1,78, maior trecho parado 1,1 s | Pedido do cliente; aguardando avaliação |
+| 2026-11-12 | EP031 | Padrão aprovado (ATIVO, sem símbolo) 1,0× + CTA de comentário (SISTEMA → Direct). Tomada B a partir da 2ª leitura do gancho (corte só no início), 151 palavras/min, 45,4 s, movimento 2,17, maior trecho parado 0,6 s | Pedido do cliente; aguardando avaliação |
