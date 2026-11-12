@@ -49,6 +49,14 @@
 > - **Escopo:** EP016–EP020. Demais episódios só quando pedido expressamente; presets e Prompt Mestre preservados.
 > - Aprendizados: (1) cota esgotada (erro com `GenerateRequestsPerDayPerProjectPerModel-FreeTier`) → esperar a renovação (~08:00 UTC), nunca trocar de voz; dá para adiantar cenas com uma linha do tempo provisória e trocar pela real depois; (2) o AAC pode subir o pico verdadeiro acima de −1 dBTP — quando a validação falhar, usar `"master": {"tp": -2.0}` no `episode.json`; (3) efeito de entrada de cena não pode cair na primeira palavra da cena (antecipar para a pausa).
 >
+> ### Registro do EP030 (12/11/2026)
+>
+> - **Episódio:** EP030. **Voz:** identidade vocal original aprovada. **Velocidade:** 1,0×. **Direção visual:** padrão aprovado da ATIVO (sistema visual dos episódios aprovados; o kit oficial da ATIVO ainda não está no repositório — sem logo nem símbolo desenhado).
+> - **CTA:** comentário com a palavra-chave **SISTEMA**; destino: envio dos detalhes pelo **Instagram Direct**. Transição: "Essa revisão fica mais fácil quando a carteira inteira está organizada."
+> - **Escopo:** EP016–EP020 e EP030. Demais episódios só quando pedido expressamente.
+> - **Posicionamento:** a ATIVO é primeiro uma página de conteúdo; o sistema só aparece depois do insight.
+> - Aprendizados: (1) quando o roteiro pede "energia", escolher entre as tomadas limpas a de maior variação de entonação e menos pausa, sem acelerar; (2) roteiros de método (quadro, checklist) tendem a ficar parados — medir o movimento antes de entregar e manter a câmera em aproximação lenta durante listas; (3) painéis sobre fichas animadas precisam de camada própria (`zIndex`).
+>
 > - As seções "Padrão v2" abaixo ficam **só como histórico**. Os itens de voz delas (aceleração, encurtamento de pausas, time-stretch, direção energética) estão **revogados**. Os itens visuais valem apenas na forma suavizada descrita acima.
 
 Registro do que **efetivamente** melhorou os Reels, para aplicar automaticamente nos próximos episódios. Cada item diz como foi medido, para o próximo ajuste poder ser comparado. O Claude Code deve ler este arquivo junto com o `CLAUDE.md` antes de produzir qualquer episódio.
@@ -133,3 +141,5 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-11 | EP018 | Padrão original 1,0× + CTA de comentário (SISTEMA → Direct). Tomada A sem edição (B e C leram a direção), 160 palavras/min, 45,2 s, movimento 1,73, maior trecho parado 1,0 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-11 | EP019 | Padrão original 1,0× + CTA de comentário (SISTEMA → Direct). Tomada A com corte da direção lida (6,0 s), 181 palavras/min nativos, 39,6 s, movimento 2,11, maior trecho parado 1,0 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-12 | EP020 | Padrão original 1,0× + CTA de comentário (SISTEMA → Direct). Tomada C sem edição (3 tomadas limpas), 164 palavras/min, 43,1 s, movimento 1,98, maior trecho parado 1,0 s | Pedido do cliente; aguardando avaliação |
+
+| 2026-11-12 | EP030 | Padrão aprovado (ATIVO, sem kit de marca) 1,0× + CTA de comentário (SISTEMA → Direct). Tomada C sem edição, 158 palavras/min, 46,8 s, movimento 1,78, maior trecho parado 1,1 s | Pedido do cliente; aguardando avaliação |

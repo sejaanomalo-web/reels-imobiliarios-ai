@@ -6,7 +6,18 @@
   "product_descriptor": "sistema imobiliário personalizado",
   "accent_color": "#35E0A1",
   "accent_note": "Verde-menta escolhido só para o piloto. Não é o amarelo da ANÔMALO nem as cores das referências. Trocar aqui e em PRODUCAO/src/theme.ts.",
-  "fonts": { "sans": "Manrope", "mono": "JetBrains Mono" },
+  "fonts": {
+    "sans": "Manrope",
+    "mono": "JetBrains Mono"
+  },
   "cta": "link da bio → agendar demonstração",
-  "forbidden": ["URL inventada", "preço", "resultado garantido", "depoimento", "logo de terceiros"]
+  "forbidden": [
+    "URL inventada",
+    "preço",
+    "resultado garantido",
+    "depoimento",
+    "logo de terceiros"
+  ],
+  "profile_name_informado": "ATIVO — Inteligência Imobiliária (braço especializado da ANÔMALO), informado pelo cliente em 12/11/2026",
+  "identidade_visual_ativo": "NÃO FORNECIDA no repositório (sem logo, cores ou fontes oficiais). Não desenhar logo nem símbolo aproximado; seguir com o sistema provisório abaixo até o kit oficial chegar."
 }
