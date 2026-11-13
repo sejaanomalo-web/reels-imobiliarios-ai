@@ -1,6 +1,6 @@
 {
  "id": "LP-ATIVO-V2",
- "title": "Sistema ATIVO — vídeo da landing (v2: transcrição dinâmica, 1,2×)",
+ "title": "Sistema ATIVO — vídeo da landing (versão final: transcrição dinâmica, logo oficial)",
  "fps": 30,
  "format": "16:9",
  "width": 1920,
@@ -834,8 +834,8 @@
   "cta": 0.3
  },
  "narrationSpeed": {
-  "factor": 1.2,
-  "method": "ffmpeg atempo (pitch preservado)",
-  "motivo": "pedido do cliente em 13/11/2026 para o vídeo da landing"
+  "factor": 1.0,
+  "method": "sem aceleração",
+  "motivo": "cliente pediu −0,2 sobre 1,2× em 13/11/2026 (regra dele: 1,5×→1,3×)"
  }
 }

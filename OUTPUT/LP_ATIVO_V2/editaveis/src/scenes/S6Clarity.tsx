@@ -40,9 +40,9 @@ export const S6Clarity: React.FC<SceneProps> = ({ t, tl }) => {
           </div>
         ))}
         {/* painel HOJE */}
-        <div style={{ position: "absolute", left: 260, top: 70, width: 1400, height: 690, boxSizing: "border-box", borderRadius: 40, background: "rgba(13,20,17,0.96)", border: "2px solid rgba(53,224,161,0.35)", boxShadow: "0 50px 120px rgba(0,0,0,0.6)", padding: "40px 54px", opacity: Math.min(1, panel * 1.4), transform: `scale(${mix(0.85, 1, Math.min(1, panel))})` }}>
+        <div style={{ position: "absolute", left: 260, top: 70, width: 1400, height: 690, boxSizing: "border-box", borderRadius: 40, background: "rgba(13,20,17,0.96)", border: "2px solid rgba(58,245,132,0.35)", boxShadow: "0 50px 120px rgba(0,0,0,0.6)", padding: "40px 54px", opacity: Math.min(1, panel * 1.4), transform: `scale(${mix(0.85, 1, Math.min(1, panel))})` }}>
           <div style={{ display: "flex", alignItems: "center", gap: 18, marginBottom: 26 }}>
-            <div style={{ width: 18, height: 18, borderRadius: 9, background: NEON, boxShadow: "0 0 20px rgba(53,224,161,0.7)" }} />
+            <div style={{ width: 18, height: 18, borderRadius: 9, background: NEON, boxShadow: "0 0 20px rgba(58,245,132,0.7)" }} />
             <span style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 34, letterSpacing: "0.14em", color: NEON }}>HOJE</span>
           </div>
           {ROWS.map((r) => {

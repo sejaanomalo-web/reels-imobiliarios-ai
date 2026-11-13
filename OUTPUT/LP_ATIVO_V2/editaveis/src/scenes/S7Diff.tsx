@@ -42,8 +42,8 @@ export const S7Diff: React.FC<SceneProps> = ({ t, tl }) => {
       <Cam t={t} keys={[{ t: c.x_mas, s: 1.0 }, { t: c.x_nao, s: 1.08, e: ease.inOut }, { t: c.x_pronto + 0.3, s: 1.12, e: ease.inOut }, { t: c.x_prim + 0.4, s: 0.96, e: ease.out }, { t: c.p_a, s: 1.05, e: ease.inOut }]}>
         {/* foco de luz + marca pequena */}
         <div style={{ position: "absolute", left: 960 - 500, top: 380 - 300, width: 1000, height: 600, borderRadius: "50%", background: "radial-gradient(closest-side, rgba(255,255,255,0.07), transparent)", opacity: spot }} />
-        <div style={{ position: "absolute", left: 0, right: 0, top: 340, display: "flex", justifyContent: "center", opacity: spot }}>
-          <Mark size={80} />
+        <div style={{ position: "absolute", left: 0, right: 0, top: 305, display: "flex", justifyContent: "center", opacity: spot }}>
+          <Mark size={90} glow={0.6} reveal={prog(t, c.x_mas + 0.2, 0.7, ease.out)} />
         </div>
         {/* pacote "sistema pronto" */}
         {box > 0 ? (
@@ -59,10 +59,10 @@ export const S7Diff: React.FC<SceneProps> = ({ t, tl }) => {
         <div style={{ position: "absolute", left: 960, top: 400, transform: `translate(-50%, -50%) scale(${mix(0.4, 1, Math.min(1.08, Math.max(pre * 0.5, you)))})`, opacity: Math.min(1, Math.max(pre * 0.6, you) * 1.4) }}>
           <svg width={560} height={560} style={{ position: "absolute", left: -280 + 170, top: -280 + 170, opacity: diag }}>
             <circle cx={280} cy={280} r={250} fill="none" stroke={NEON} strokeWidth={4} strokeDasharray="30 22" transform={`rotate(${t * 40} 280 280)`} opacity={0.7} />
-            <circle cx={280} cy={280} r={210} fill="none" stroke="rgba(53,224,161,0.25)" strokeWidth={2} />
+            <circle cx={280} cy={280} r={210} fill="none" stroke="rgba(58,245,132,0.25)" strokeWidth={2} />
             <path d={`M 280 280 L ${280 + Math.cos(t * 3) * 250} ${280 + Math.sin(t * 3) * 250}`} stroke={NEON} strokeWidth={3} opacity={0.6} />
           </svg>
-          <div style={{ width: 340, height: 340, borderRadius: 170, background: "rgba(53,224,161,0.12)", border: `5px solid ${NEON}`, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 0 90px rgba(53,224,161,0.35)" }}>
+          <div style={{ width: 340, height: 340, borderRadius: 170, background: "rgba(58,245,132,0.12)", border: `5px solid ${NEON}`, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 0 90px rgba(58,245,132,0.35)" }}>
             <span style={{ fontWeight: 800, fontSize: 96, letterSpacing: "-0.04em", color: C.text }}>VOCÊ</span>
           </div>
         </div>
@@ -81,7 +81,7 @@ export const S7Diff: React.FC<SceneProps> = ({ t, tl }) => {
         {QS.map((q) => {
           const a = sp(t, c[q.cue] - 0.1, { damping: 13, stiffness: 170 });
           return (
-            <div key={q.k} style={{ position: "absolute", left: q.x, top: q.y, opacity: Math.min(1, a * 1.5), transform: `translateY(${(1 - Math.min(1, a)) * 30}px) scale(${mix(0.85, 1, Math.min(1, a))})`, padding: "24px 36px", borderRadius: 32, background: "rgba(16,24,21,0.96)", border: "2px solid rgba(53,224,161,0.5)", fontWeight: 800, fontSize: 46, color: C.text, whiteSpace: "nowrap" }}>
+            <div key={q.k} style={{ position: "absolute", left: q.x, top: q.y, opacity: Math.min(1, a * 1.5), transform: `translateY(${(1 - Math.min(1, a)) * 30}px) scale(${mix(0.85, 1, Math.min(1, a))})`, padding: "24px 36px", borderRadius: 32, background: "rgba(16,24,21,0.96)", border: "2px solid rgba(58,245,132,0.5)", fontWeight: 800, fontSize: 46, color: C.text, whiteSpace: "nowrap" }}>
               {q.k}
             </div>
           );
