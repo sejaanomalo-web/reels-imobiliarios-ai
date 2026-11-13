@@ -67,7 +67,7 @@ export const Story01: React.FC<{ withAudio?: boolean }> = ({ withAudio = false }
         <div style={{ position: "absolute", left: 0, right: 0, fontSize: 112, color: C.text, opacity: Math.min(1, t2 * 1.5) * (1 - prog(t, c.a_sabe - 0.2, 0.3, ease.in)), transform: `translateY(${(1 - Math.min(1, t2)) * 50}px)` }}>
           <span style={{ color: BRAND.hex }}>3</span> EXPERIÊNCIAS
         </div>
-        <div style={{ position: "absolute", left: 60, right: 60, fontSize: 92, color: C.text, opacity: Math.min(1, t3 * 1.5), transform: `translateY(${(1 - Math.min(1, t3)) * 50}px)` }}>
+        <div style={{ position: "absolute", left: 100, right: 100, fontSize: 80, color: C.text, opacity: Math.min(1, t3 * 1.5), transform: `translateY(${(1 - Math.min(1, t3)) * 50}px)` }}>
           UM PRINCÍPIO:
           <br />
           <span style={{ color: BRAND.hex }}>PERSONALIZAÇÃO</span>
@@ -83,7 +83,7 @@ export const Story01: React.FC<{ withAudio?: boolean }> = ({ withAudio = false }
         const s = mix(1, 0.7, gather);
         const dim = 1 - 0.55 * ask * (1 - link);
         return (
-          <div key={k.key} style={{ position: "absolute", left: x, top: y, width: 300, height: 600, borderRadius: 32, overflow: "hidden", border: `3px solid ${link > 0.4 + i * 0.15 ? BRAND.hex : "rgba(255,255,255,0.14)"}`, boxShadow: `0 40px 90px rgba(0,0,0,0.6)${link > 0.4 + i * 0.15 ? `, 0 0 50px ${brandAlpha(0.35)}` : ""}`, opacity: Math.min(1, a * 1.5) * dim * (1 - prog(t, c.a_todo + 0.6, 0.6, ease.in) * 0.6), transform: `rotate(${rot}deg) scale(${s})`, transformOrigin: "50% 50%" }}>
+          <div key={k.key} style={{ position: "absolute", left: x, top: y, width: 300, height: 600, borderRadius: 32, overflow: "hidden", border: `3px solid ${link > 0.4 + i * 0.15 ? BRAND.hex : "rgba(255,255,255,0.14)"}`, boxShadow: `0 40px 90px rgba(0,0,0,0.6)${link > 0.4 + i * 0.15 ? `, 0 0 50px ${brandAlpha(0.35)}` : ""}`, opacity: Math.min(1, a * 1.5) * dim * (1 - prog(t, c.a_todo - 0.3, 0.5, ease.in) * 0.85), transform: `rotate(${rot}deg) scale(${s})`, transformOrigin: "50% 50%" }}>
             <Shot c={cs} t={t} i={i} />
             <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, padding: "18px 20px", background: "linear-gradient(180deg, transparent, rgba(0,0,0,0.85))", fontWeight: 800, fontSize: 30, color: C.text }}>{caseLabel(cs)}</div>
           </div>
@@ -94,8 +94,8 @@ export const Story01: React.FC<{ withAudio?: boolean }> = ({ withAudio = false }
         <path d="M 60 1150 C 300 1060, 420 980, 540 940 S 860 820, 1040 700" fill="none" stroke={BRAND.hex} strokeWidth={12} strokeLinecap="round" strokeDasharray={`${1200 * link} 1400`} opacity={link > 0.02 ? 1 : 0} style={{ filter: `drop-shadow(0 0 12px ${brandAlpha(0.6)})` }} />
       </svg>
       {/* logo oficial */}
-      <div style={{ position: "absolute", left: 0, right: 0, top: 1060, display: "flex", justifyContent: "center", opacity: Math.min(1, logo * 1.5), clipPath: `inset(-20% ${(1 - prog(t, c.a_todo - 0.2, 0.6, ease.out)) * 100}% -20% -5%)` }}>
-        <Img src={staticFile(BRAND.logo)} style={{ height: 150, filter: `drop-shadow(0 0 20px ${brandAlpha(0.5)})` }} />
+      <div style={{ position: "absolute", left: 0, right: 0, top: 1150, display: "flex", justifyContent: "center", opacity: Math.min(1, logo * 1.5), clipPath: `inset(-20% ${(1 - prog(t, c.a_todo - 0.2, 0.6, ease.out)) * 100}% -20% -5%)` }}>
+        <Img src={staticFile(BRAND.logo)} style={{ height: 140, filter: `drop-shadow(0 0 20px ${brandAlpha(0.5)})` }} />
       </div>
       <Sequence name="Legendas" layout="none">
         <Captions t={t} chunks={tl.captions} />

@@ -38,6 +38,7 @@ import { LandingAtivoV2, timeline as lpAtivoV2 } from "./episodes/LP-ATIVO-V2/La
 import { LandingPoster as LandingPosterV2 } from "./episodes/LP-ATIVO-V2/Poster";
 import { LandingAtivoV3, timeline as lpAtivoV3 } from "./episodes/LP-ATIVO-V3/Landing";
 import { LandingPoster as LandingPosterV3 } from "./episodes/LP-ATIVO-V3/Poster";
+import { Story01, timeline as story01 } from "./episodes/STORY-ATIVO-01/Story";
 import { VIDEO } from "./theme";
 
 export const RemotionRoot: React.FC = () => (
@@ -267,6 +268,18 @@ export const RemotionRoot: React.FC = () => (
         defaultProps={{ withAudio: true }}
       />
       <Still id="LP-ATIVO-V3-Capa" component={LandingPosterV3} width={1920} height={1080} />
+    </Folder>
+    <Folder name="STORIES-NA-PRATICA">
+      {/* Prévia interna: sem voz (linha do tempo estimada) e sem capturas autorizadas — não publicar. */}
+      <Composition
+        id="STORY-ATIVO-01"
+        component={Story01}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={story01.fps}
+        durationInFrames={story01.durationInFrames}
+        defaultProps={{ withAudio: false }}
+      />
     </Folder>
   </>
 );
