@@ -1,0 +1,156 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 1.8,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.81,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 1.21,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 1.14,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 1.85,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 1.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 1.04,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.78,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.57,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 0.93,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 3.3,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 4.29,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s14",
+    "seconds": 3.09,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s16",
+    "seconds": 1.81,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s17",
+    "seconds": 2.4,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s18",
+    "seconds": 2.17,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s19",
+    "seconds": 3.95,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s20",
+    "seconds": 8.09,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s21",
+    "seconds": 1.76,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s22",
+    "seconds": 1.94,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s23",
+    "seconds": 2.78,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s24",
+    "seconds": 1.26,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s27",
+    "seconds": 2.1,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s28",
+    "seconds": 5.4,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s29",
+    "seconds": 4.77,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s30",
+    "seconds": 3.7,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 83.62,
+    "asr_match": 0.989,
+    "aligned_words": "271/273",
+    "words_per_min": 196,
+    "heard": "Se você precisa mudar a sua forma de trabalhar para usar um sistema ou CRM, talvez o sistema esteja errado. O sistema é que deve acompanhar sua rotina. Porque a rotina de um corretor não acontece em uma única tela. Tem cliente pedindo retorno, visita para confirmar, proprietário mudando informação do imóvel, lead chegando de campanha, negociação avançando e outra que você precisa lembrar de retomar daqui a três dias. E muitas vezes, o problema não é falta de cliente, nem falta de trabalho. É não conseguir enxergar com clareza tudo o que já está acontecendo. Porque quando a informação fica espalhada, uma oportunidade pode simplesmente ficar para trás. Foi pensando exatamente nessa rotina que criamos o sistema ativo. Você pode organizar sua carteira de imóveis, centralizar seus clientes e acompanhar cada negociação, receber e acompanhar os leads das suas campanhas, e consultar informações, compromissos e próximos passos com a ajuda do assistente com IA. Na prática, você deixa de depender tanto da memória e passa a ter mais clareza sobre quem precisa de retorno, qual negociação precisa avançar e o que merece sua atenção agora. Mas o principal diferencial tá aqui. A gente não começa te entregando um sistema pronto. Primeiro, fazemos um diagnóstico para entender como você trabalha, como organiza seus imóveis e o que realmente faria diferença na sua rotina. A partir disso, entendemos o que faz sentido e apresentamos uma solução personalizada para a sua forma de trabalhar. Se você quer entender como o sistema ativo pode funcionar na sua rotina, o próximo passo é simples. Escolha um horário para uma demonstração ou fale diretamente com o nosso time pelo WhatsApp."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 83.62,
+      "wpm": 196
+    },
+    "final": {
+      "seconds": 83.62,
+      "wpm": 196
+    }
+  }
+]
