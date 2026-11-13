@@ -1,0 +1,122 @@
+[
+ {
+  "t": 0.25,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "g_se"
+ },
+ {
+  "t": 7.48,
+  "sound": "whoosh_up",
+  "gain": -27,
+  "cue": "g_sys"
+ },
+ {
+  "t": 13.98,
+  "sound": "click",
+  "gain": -29,
+  "cue": "r_ret"
+ },
+ {
+  "t": 15.82,
+  "sound": "click",
+  "gain": -29,
+  "cue": "r_vis"
+ },
+ {
+  "t": 17.34,
+  "sound": "click",
+  "gain": -29,
+  "cue": "r_imo"
+ },
+ {
+  "t": 19.82,
+  "sound": "click",
+  "gain": -29,
+  "cue": "r_lead"
+ },
+ {
+  "t": 21.66,
+  "sound": "click",
+  "gain": -29,
+  "cue": "r_neg"
+ },
+ {
+  "t": 23.02,
+  "sound": "click",
+  "gain": -29,
+  "cue": "r_fu"
+ },
+ {
+  "t": 55.53,
+  "sound": "swish",
+  "gain": -28,
+  "cue": "f_crm"
+ },
+ {
+  "t": 58.65,
+  "sound": "swish",
+  "gain": -28,
+  "cue": "f_lead"
+ },
+ {
+  "t": 61.58,
+  "sound": "swish",
+  "gain": -28,
+  "cue": "f_ia"
+ },
+ {
+  "t": 64.82,
+  "sound": "typing",
+  "gain": -34,
+  "cue": "f_assist"
+ },
+ {
+  "t": 72.94,
+  "sound": "pin",
+  "gain": -29,
+  "cue": "c_qual"
+ },
+ {
+  "t": 75.34,
+  "sound": "pin",
+  "gain": -29,
+  "cue": "c_merece"
+ },
+ {
+  "t": 77.31,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "c_agora"
+ },
+ {
+  "t": 94.03,
+  "sound": "tick",
+  "gain": -26,
+  "cue": "p_a"
+ },
+ {
+  "t": 95.02,
+  "sound": "tick",
+  "gain": -26,
+  "cue": "p_ent"
+ },
+ {
+  "t": 97.82,
+  "sound": "tick",
+  "gain": -26,
+  "cue": "p_sol"
+ },
+ {
+  "t": 106.78,
+  "sound": "click",
+  "gain": -27,
+  "cue": "k_esc"
+ },
+ {
+  "t": 108.99,
+  "sound": "click",
+  "gain": -28,
+  "cue": "k_fale"
+ }
+]
