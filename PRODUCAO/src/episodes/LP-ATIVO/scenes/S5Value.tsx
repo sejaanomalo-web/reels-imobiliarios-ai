@@ -12,7 +12,7 @@ import { AppWindow, Cam, FeatureTitle, NEON } from "../kit";
  */
 const WX = 640;
 const WY = 110;
-const WW = 1200;
+const WW = 1150;
 const WH = 860;
 const CW = WW - 230;
 

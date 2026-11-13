@@ -74,7 +74,7 @@ export const S2Board: React.FC<SceneProps> = ({ t, tl }) => {
           { t: c.r_tela + 0.4, s: 1.08, e: ease.inOut },
           { t: c.r_3d, s: 0.88, x: 30, y: 20, e: ease.inOut },
           { t: c.d_porque, s: 0.92, x: 40, y: 0, e: ease.inOut },
-          { t: c.d_tras + 0.3, s: 0.94, x: 760, y: -10, e: ease.inOut },
+          { t: c.d_tras + 0.3, s: 0.94, x: 330, y: -10, e: ease.inOut },
           { t: c.v_foi + 0.6, s: 1.0, x: 0, y: 0, e: ease.inOut },
           { t: c.v_chato, s: 1.03, x: 0, y: -10, e: ease.inOut },
           { t: c.f_imo + 0.1, s: 1.12, x: 270, y: -40, e: ease.in },
@@ -95,7 +95,7 @@ export const S2Board: React.FC<SceneProps> = ({ t, tl }) => {
         {NOISE.map((n, i) => {
           const a = prog(t, c[n.at] + 0.4, 0.4, ease.out) * (1 - prog(t, c.v_foi, 0.5, ease.in));
           return a > 0 ? (
-            <div key={n.k} style={{ position: "absolute", left: n.x + Math.sin(t * 0.8 + i) * 18 + conv * 700, top: n.y + Math.cos(t * 0.7 + i * 2) * 14, opacity: a * 0.85 * (1 - scrim * 0.6), padding: "10px 20px", borderRadius: 22, background: "rgba(29,33,40,0.9)", border: "1px solid rgba(255,255,255,0.1)", fontWeight: 700, fontSize: 24, color: C.muted, whiteSpace: "nowrap" }}>
+            <div key={n.k} style={{ position: "absolute", left: n.x + Math.sin(t * 0.8 + i) * 18 + conv * 500, top: n.y + Math.cos(t * 0.7 + i * 2) * 14, opacity: a * 0.85 * (1 - scrim * 0.6), padding: "10px 20px", borderRadius: 22, background: "rgba(29,33,40,0.9)", border: "1px solid rgba(255,255,255,0.1)", fontWeight: 700, fontSize: 24, color: C.muted, whiteSpace: "nowrap" }}>
               {n.k}
             </div>
           ) : null;
@@ -107,7 +107,7 @@ export const S2Board: React.FC<SceneProps> = ({ t, tl }) => {
           const isPaula = i === 0;
           const bob = Math.sin(t * 1.1 + i * 1.7) * 8 * (1 - sweep);
           // dor: esteira para a direita (todos menos a Paula)
-          const cx = isPaula ? 0 : conv * 900;
+          const cx = isPaula ? 0 : conv * 600;
           const cy = isPaula ? 0 : conv * (i % 2 ? -40 : 40);
           // virada: o traço passa e o cartão vai para o lugar
           const snap = prog(t, c.v_foi + 0.1 + ((k.gx + 200) / 1920) * 1.0 + (k.gy > 500 ? 0.15 : 0), 0.6, ease.inOut);
@@ -137,7 +137,7 @@ export const S2Board: React.FC<SceneProps> = ({ t, tl }) => {
         })}
         {/* marca */}
         {mark > 0 ? (
-          <div style={{ position: "absolute", left: 0, right: 0, top: mix(260, 130, prog(t, c.v_acomp - 0.4, 0.6, ease.inOut)), display: "flex", justifyContent: "center", opacity: Math.min(1, mark * 1.5) * (1 - grow), transform: `scale(${mix(1.25, 1, Math.min(1, mark)) * mix(1.25, 0.8, prog(t, c.v_acomp - 0.4, 0.6, ease.inOut))})` }}>
+          <div style={{ position: "absolute", left: 0, right: 0, top: mix(150, 110, prog(t, c.v_acomp - 0.4, 0.6, ease.inOut)), display: "flex", justifyContent: "center", opacity: Math.min(1, mark * 1.5) * (1 - grow), transform: `scale(${mix(1.15, 1, Math.min(1, mark)) * mix(1.05, 0.8, prog(t, c.v_acomp - 0.4, 0.6, ease.inOut))})` }}>
             <Mark size={130} glow={1} sub />
           </div>
         ) : null}

@@ -52,9 +52,10 @@ export const S7Diff: React.FC<SceneProps> = ({ t, tl }) => {
             <svg width={1920} height={1080} style={{ position: "absolute", inset: 0 }}>
               {QS.map((q) => {
                 const a = prog(t, c[q.cue] - 0.15, 0.5, ease.out);
-                const qx = q.x < 960 ? q.x + 680 : q.x;
-                const qy = q.y + 50;
-                return <path key={q.k} d={`M 960 610 L ${qx} ${qy}`} stroke={NEON} strokeWidth={3} strokeDasharray={a >= 1 ? "10 10" : `${a * 600} 700`} strokeDashoffset={a >= 1 ? -t * 30 : 0} opacity={a > 0.01 ? 0.6 : 0} />;
+                const qw = q.k.length * 20 + 64;
+                const qx = q.x < 960 ? q.x + qw : q.x;
+                const qy = q.y + 45;
+                return <path key={q.k} d={`M ${960 + (qx < 960 ? -80 : 80)} ${610 + (qy < 610 ? -80 : 80)} L ${qx} ${qy}`} stroke={NEON} strokeWidth={3} strokeDasharray={a >= 1 ? "10 10" : `${a * 600} 700`} strokeDashoffset={a >= 1 ? -t * 30 : 0} opacity={a > 0.01 ? 0.6 : 0} />;
               })}
             </svg>
             <div style={{ position: "absolute", left: 960 - 110, top: 610 - 110, width: 220, height: 220, borderRadius: 110, background: "rgba(53,224,161,0.12)", border: `4px solid ${NEON}`, display: "flex", alignItems: "center", justifyContent: "center", opacity: diag, transform: `scale(${mix(0.6, 1, diag) * (1 + 0.03 * Math.sin(t * 3))})`, boxShadow: "0 0 60px rgba(53,224,161,0.3)" }}>
