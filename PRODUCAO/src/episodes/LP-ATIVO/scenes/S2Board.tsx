@@ -53,7 +53,7 @@ export const S2Board: React.FC<SceneProps> = ({ t, tl }) => {
   const bandOut = prog(t, c.d_e + 0.3, 0.5, ease.in);
   // dor
   const scrim = prog(t, c.d_e, 0.6, ease.out) * (1 - prog(t, c.d_porque - 0.2, 0.6, ease.inOut));
-  const tA = prog(t, c.d_prob - 0.15, 0.5, ease.out) * (1 - prog(t, c.d_ver - 0.35, 0.3, ease.in));
+  const tA = prog(t, c.d_e + 0.35, 0.5, ease.out) * (1 - prog(t, c.d_ver - 0.35, 0.3, ease.in));
   const tB = prog(t, c.d_ver - 0.05, 0.5, ease.out) * (1 - prog(t, c.d_porque - 0.2, 0.4, ease.in));
   const conv = prog(t, c.d_porque - 0.1, c.d_tras - c.d_porque + 0.4, ease.inOut);
   const left = prog(t, c.d_esp, 2.6, ease.inOut); // Paula esquecida
@@ -124,7 +124,7 @@ export const S2Board: React.FC<SceneProps> = ({ t, tl }) => {
             warm = prog(t, c.d_esp - 0.2, 0.4, ease.out) * (1 - gone);
             op *= mix(1, 0.35, left) * (1 - gone) + snap;
           }
-          op *= 1 - scrim * 0.62;
+          op *= 1 - scrim * 0.5;
           // saída: IMÓVEL cresce e vira a interface; os outros somem
           const isImovel = k.k === "IMÓVEL";
           op *= isImovel ? 1 - prog(grow, 0.6, 0.4, ease.linear) : 1 - grow;
@@ -151,7 +151,7 @@ export const S2Board: React.FC<SceneProps> = ({ t, tl }) => {
       </div>
 
       {/* dor: escurece e afirma */}
-      <div style={{ position: "absolute", inset: 0, background: `rgba(2,4,3,${0.55 * scrim})`, pointerEvents: "none" }} />
+      <div style={{ position: "absolute", inset: 0, background: `rgba(2,4,3,${0.42 * scrim})`, pointerEvents: "none" }} />
       <div style={{ position: "absolute", left: 0, right: 0, top: 420, textAlign: "center", fontWeight: 800, fontSize: 96, letterSpacing: "-0.035em", color: C.text, opacity: tA, transform: `translateY(${(1 - tA) * 30}px)` }}>
         NÃO É FALTA DE OPORTUNIDADE.
       </div>
