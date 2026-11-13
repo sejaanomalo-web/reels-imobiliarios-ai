@@ -12,7 +12,7 @@ from scipy.signal import resample_poly
 sys.path.insert(0, os.path.dirname(__file__))
 from tts_common import synth, trim_silence, write_wav, transcribe, norm, resample, ROOT, MODELS
 
-EP = next((a for a in sys.argv[1:] if a.upper().startswith("EP")), "EP001")
+EP = next((a for a in sys.argv[1:] if not a.startswith("-") and os.path.isfile(os.path.join(ROOT, "episodes", a, "episode.json"))), "EP001")
 REPO = os.path.dirname(ROOT)
 ep = json.load(open(os.path.join(ROOT, "episodes", EP, "episode.json")))
 preset = json.load(open(os.path.join(REPO, "VOZ", "voice_preset.json")))

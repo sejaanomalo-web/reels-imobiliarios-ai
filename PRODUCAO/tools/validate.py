@@ -19,7 +19,7 @@ black = re.findall(r"black_start:([\d.]+) black_end:([\d.]+)", bd)
 sd = subprocess.run(["ffmpeg", "-hide_banner", "-i", f, "-af", "silencedetect=noise=-50dB:d=0.4", "-vn", "-f", "null", "-"], capture_output=True, text=True).stderr
 sil = re.findall(r"silence_start: ([\d.]+)", sd)
 checks = [
-    ("Dimensões 1080x1920", v["width"] == 1080 and v["height"] == 1920, f'{v["width"]}x{v["height"]}'),
+    (f"Dimensões {_ep.get('width', 1080)}x{_ep.get('height', 1920)}", v["width"] == _ep.get("width", 1080) and v["height"] == _ep.get("height", 1920), f'{v["width"]}x{v["height"]}'),
     ("Codec de vídeo H.264", v["codec_name"] == "h264", v["codec_name"]),
     ("Pixel format yuv420p", v["pix_fmt"] == "yuv420p", v["pix_fmt"]),
     ("30 fps", v["r_frame_rate"] == "30/1", v["r_frame_rate"]),
