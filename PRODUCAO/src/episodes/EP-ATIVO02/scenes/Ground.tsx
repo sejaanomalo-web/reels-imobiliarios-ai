@@ -57,7 +57,7 @@ export const Ground: React.FC<SceneProps> = ({ t, tl }) => {
   const head = sp(t, c.o_fourth - 0.1, { damping: 14, stiffness: 170 });
   const phone = sp(t, c.o_fourth + 0.1, { damping: 15, stiffness: 140 });
   const title = sp(t, c.o_avoid - 0.1, { damping: 12, stiffness: 200 });
-  const stairs = sp(t, c.o_avoid - 0.1, { damping: 13, stiffness: 180 });
+  const stairs = sp(t, c.o_fourth + 0.35, { damping: 13, stiffness: 180 });
   const cross = sp(t, c.o_stairs + 0.25, { damping: 10, stiffness: 230 });
   const swap = prog(t, c.o_circ - 0.45, 0.5, ease.inOut);
   const plan = prog(t, c.o_circ - 0.2, 0.8, ease.inOut);

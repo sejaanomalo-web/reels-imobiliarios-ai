@@ -34,7 +34,7 @@ export const MapAccess: React.FC<SceneProps> = ({ t, tl }) => {
   const c = tl.cues;
   const head = sp(t, c.l_third - 0.1, { damping: 14, stiffness: 170 });
   const phone = sp(t, c.l_third + 0.1, { damping: 15, stiffness: 140 });
-  const map = prog(t, c.l_crit - 0.2, 0.8, ease.out);
+  const map = prog(t, c.l_third + 0.2, 0.9, ease.out);
   const title = sp(t, c.l_work - 0.05, { damping: 12, stiffness: 200 });
   const work = sp(t, c.l_work + 0.1, { damping: 10, stiffness: 220 });
   const region = sp(t, c.l_region - 0.05, { damping: 13, stiffness: 160 });

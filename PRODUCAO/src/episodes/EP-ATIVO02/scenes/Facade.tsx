@@ -28,7 +28,7 @@ export const Facade: React.FC<SceneProps> = ({ t, tl }) => {
   const c = tl.cues;
   const head = sp(t, c.k_second - 0.1, { damping: 14, stiffness: 170 });
   const phone = sp(t, c.k_second + 0.1, { damping: 15, stiffness: 140 });
-  const fac = sp(t, c.k_facade - 0.2, { damping: 14, stiffness: 150 });
+  const fac = sp(t, c.k_second + 0.25, { damping: 14, stiffness: 150 });
   const t1 = sp(t, c.k_disc - 0.05, { damping: 12, stiffness: 200 });
   const lift = prog(t, c.k_surp - 0.1, 0.8, ease.inOut);
   const t2 = sp(t, c.k_inside - 0.05, { damping: 12, stiffness: 200 });

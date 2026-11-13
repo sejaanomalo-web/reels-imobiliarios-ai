@@ -94,7 +94,7 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
                     <div style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: `${33 * waste}%`, background: C.warn }} />
                   </div>
                   {/* a mesma frase em todos */}
-                  <div style={{ position: "absolute", left: 14, right: 14, top: 64, textAlign: "center", fontWeight: 800, fontSize: 34, lineHeight: 1.02, letterSpacing: "-0.02em", color: C.text, textShadow: "0 4px 18px rgba(0,0,0,0.8)", opacity: Math.min(1, say[i] * 1.5), transform: `scale(${mix(1.4, 1, Math.min(1, say[i]))})` }}>
+                  <div style={{ position: "absolute", left: 14, right: 14, top: 64, textAlign: "center", fontWeight: 800, fontSize: 29, lineHeight: 1.02, letterSpacing: "-0.02em", color: C.text, textShadow: "0 4px 18px rgba(0,0,0,0.8)", opacity: Math.min(1, say[i] * 1.5), transform: `scale(${mix(1.4, 1, Math.min(1, say[i]))})` }}>
                     OLHA ESSA<br />OPORTUNIDADE!
                   </div>
                   {/* pausado */}

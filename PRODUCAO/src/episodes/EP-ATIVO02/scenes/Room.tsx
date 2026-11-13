@@ -33,7 +33,7 @@ export const Room: React.FC<SceneProps> = ({ t, tl }) => {
   const c = tl.cues;
   const head = sp(t, c.r_first - 0.1, { damping: 14, stiffness: 170 });
   const phone = sp(t, c.r_first + 0.1, { damping: 15, stiffness: 140 });
-  const plan = prog(t, c.r_rot - 0.2, 1.1, ease.inOut);
+  const plan = prog(t, c.r_first + 0.2, 1.3, ease.inOut);
   const title = sp(t, c.r_home - 0.05, { damping: 12, stiffness: 200 });
   const person = sp(t, c.r_home + 0.3, { damping: 12, stiffness: 190 });
   const toRoom = prog(t, c.r_quarto - 0.15, 0.55, ease.inOut);
