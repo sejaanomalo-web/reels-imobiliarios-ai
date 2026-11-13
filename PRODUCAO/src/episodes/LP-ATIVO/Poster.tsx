@@ -8,7 +8,7 @@ import { Bg, Grain16, Mark, NEON, Trail } from "./kit";
 export const LandingPoster: React.FC = () => (
   <AbsoluteFill style={{ backgroundColor: "#020403", fontFamily: F.sans }}>
     <Bg t={0} glow={0.55} />
-    <Trail d="M -60 980 C 520 1000, 820 760, 1060 560 S 1600 140, 2000 40" p={0.92} len={2700} width={12} tail={0.8} />
+    <Trail d="M 1000 1120 C 1250 900, 1420 640, 1580 420 S 1860 80, 2050 -20" p={0.95} len={1500} width={12} tail={0.85} />
     <div style={{ position: "absolute", left: 140, top: 150 }}>
       <Mark size={84} />
     </div>
