@@ -88,7 +88,7 @@ export const Room: React.FC<SceneProps> = ({ t, tl }) => {
                 <rect x={SALA.x + 280} y={SALA.y + 40} width={170} height={80} rx={18} fill="#262D36" />
               </g>
               {/* divisória */}
-              <path d={`M${NOOK.x + NOOK.w} ${SALA.y + SALA.h} L${NOOK.x + NOOK.w} ${NOOK.y} L${NOOK.x} ${NOOK.y}`} fill="none" stroke={C.accent} strokeWidth={7} strokeLinecap="round" strokeDasharray={`${370 * wall} 400`} />
+              <path d={`M${NOOK.x + NOOK.w} ${SALA.y + SALA.h} L${NOOK.x + NOOK.w} ${NOOK.y} L${NOOK.x} ${NOOK.y}`} fill="none" stroke={C.accent} strokeWidth={7} strokeLinecap="round" strokeDasharray={`${370 * wall} 400`} opacity={wall > 0.01 ? 1 : 0} />
             </svg>
             {/* rótulos */}
             {[

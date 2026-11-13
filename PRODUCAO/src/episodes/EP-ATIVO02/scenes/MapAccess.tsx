@@ -71,7 +71,7 @@ export const MapAccess: React.FC<SceneProps> = ({ t, tl }) => {
               {ROUTES.map((r, i) => (
                 <g key={i}>
                   <path d={r.d} fill="none" stroke={r.color} strokeWidth={14} opacity={0.15 * routes[i]} strokeLinecap="round" />
-                  <path d={r.d} fill="none" stroke={r.color} strokeWidth={6} strokeLinecap="round" strokeDasharray={routes[i] >= 1 ? "16 12" : `${520 * routes[i]} 600`} strokeDashoffset={routes[i] >= 1 ? -t * 50 : 0} />
+                  <path d={r.d} fill="none" stroke={r.color} strokeWidth={6} strokeLinecap="round" strokeDasharray={routes[i] >= 1 ? "16 12" : `${520 * routes[i]} 600`} strokeDashoffset={routes[i] >= 1 ? -t * 50 : 0} opacity={routes[i] > 0.01 ? 1 : 0} />
                 </g>
               ))}
             </svg>

@@ -91,7 +91,7 @@ export const Ground: React.FC<SceneProps> = ({ t, tl }) => {
               <div style={{ position: "relative" }}>
                 <Stairs size={300} />
                 <svg width={300} height={300} style={{ position: "absolute", inset: 0 }}>
-                  <path d="M40 40 L260 260" stroke={C.warn} strokeWidth={16} strokeLinecap="round" strokeDasharray={`${312 * Math.min(1, cross)} 400`} />
+                  <path d="M40 40 L260 260" stroke={C.warn} strokeWidth={16} strokeLinecap="round" strokeDasharray={`${312 * Math.min(1, cross)} 400`} opacity={cross > 0.02 ? 1 : 0} />
                 </svg>
               </div>
             </div>
