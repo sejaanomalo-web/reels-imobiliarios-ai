@@ -72,8 +72,9 @@ export const S7Diff: React.FC<SceneProps> = ({ t, tl }) => {
           {QS.map((q) => {
             const a = prog(t, c[q.cue] - 0.1, 0.4, ease.out);
             const qw = q.k.length * 25 + 70;
-            const qx = q.x < 960 ? q.x + qw : q.x;
-            const qy = q.y + 50;
+            const left = q.x + qw / 2 < 960;
+            const qx = left ? q.x + qw : q.x + qw * 0.2;
+            const qy = left ? q.y + 50 : q.y;
             return <path key={q.k} d={`M ${960 + (qx < 960 ? -170 : 170)} ${400 + (qy < 400 ? -60 : 60)} L ${qx} ${qy}`} stroke={NEON} strokeWidth={3} strokeDasharray={a >= 1 ? "10 10" : `${a * 600} 700`} strokeDashoffset={a >= 1 ? -t * 30 : 0} opacity={a > 0.01 ? 0.7 : 0} />;
           })}
         </svg>
