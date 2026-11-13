@@ -49,7 +49,50 @@
  ],
  "sceneLead": {},
  "hideCaptions": [],
- "cues": {},
+ "cues": {
+  "n_projeto": {
+   "seg": "s1",
+   "word": "projeto",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_busca": {
+   "seg": "s1",
+   "word": "busca",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_comprador": {
+   "seg": "s2",
+   "word": "comprador",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_cidade": {
+   "seg": "s2",
+   "word": "cidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_tipo": {
+   "seg": "s2",
+   "word": "tipo",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_quartos": {
+   "seg": "s2",
+   "word": "quartos",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_pesq": {
+   "seg": "s2",
+   "word": "pesquisar",
+   "edge": "start",
+   "offset": 0
+  }
+ },
  "series": {},
  "sfx": [],
  "music": {}

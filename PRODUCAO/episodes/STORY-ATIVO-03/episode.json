@@ -56,7 +56,56 @@
  ],
  "sceneLead": {},
  "hideCaptions": [],
- "cues": {},
+ "cues": {
+  "i_ident": {
+   "seg": "s1",
+   "word": "identidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_painel": {
+   "seg": "s2",
+   "word": "painel",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_imoveis": {
+   "seg": "s2",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_contatos": {
+   "seg": "s2",
+   "word": "contatos",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_ferr": {
+   "seg": "s2",
+   "word": "ferramentas",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_rotina": {
+   "seg": "s2",
+   "word": "rotina",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_org": {
+   "seg": "s3",
+   "word": "organização",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_marca": {
+   "seg": "s3",
+   "word": "marca",
+   "edge": "start",
+   "offset": 0
+  }
+ },
  "series": {},
  "sfx": [],
  "music": {}

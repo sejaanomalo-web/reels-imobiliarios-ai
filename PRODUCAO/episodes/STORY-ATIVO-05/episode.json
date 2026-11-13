@@ -81,7 +81,68 @@
  ],
  "sceneLead": {},
  "hideCaptions": [],
- "cues": {},
+ "cues": {
+  "f_perc": {
+   "seg": "s1",
+   "word": "Percebeu",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_ativo": {
+   "seg": "s2",
+   "word": "ATIVO",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_nao": {
+   "seg": "s2",
+   "word": "não",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_crm": {
+   "seg": "s2",
+   "word": "CRM",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_prim": {
+   "seg": "s3",
+   "word": "Primeiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_voce": {
+   "seg": "s3",
+   "word": "você",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_depois": {
+   "seg": "s4",
+   "word": "Depois",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_rotina": {
+   "seg": "s4",
+   "word": "rotina",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_quer": {
+   "seg": "s5",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_agende": {
+   "seg": "s6",
+   "word": "Agende",
+   "edge": "start",
+   "offset": 0
+  }
+ },
  "series": {},
  "sfx": [],
  "music": {},

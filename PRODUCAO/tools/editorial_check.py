@@ -9,7 +9,7 @@ O que verifica:
      "100%", depoimento.
   3. Fonte pequena para público 40+ (fontSize abaixo do mínimo do formato).
   4. Verde divergente da marca (#35E0A1, rgba(53,224,161,…), #00FA44) no código do episódio.
-  5. Interface de sistema desenhada sem o rótulo "ilustrativa".
+  5. Interface de sistema desenhada sem o rótulo "ilustrativa" (capturas reais via STORY-ATIVO/cases são isentas).
   6. Texto posicionado fora da área segura do Instagram (9:16: top > 1570 px).
 Não substitui a revisão humana; aponta onde olhar.
 """
@@ -73,7 +73,9 @@ def check(ep_id: str) -> int:
                 for n in re.findall(r"\btop:\s*(\d+)", line):
                     if int(n) > 1570 and ("fontSize" in line or "fontWeight" in line):
                         warns.append(f"texto em top {n}px (abaixo da área segura 1570px) — {rel}:{i}")
-        if re.search(r"AppWindow|Kanban|CRM|Painel|Dashboard|INTERFACE", src):
+        # captura REAL do sistema (STORY-ATIVO/cases + <Capture>) não é interface desenhada: não leva "ilustrativa"
+        real_capture = re.search(r"<Capture\b", src) and re.search(r"STORY-ATIVO/cases", src)
+        if re.search(r"AppWindow|Kanban|CRM|Painel|Dashboard|INTERFACE", src) and not real_capture:
             ui_like = True
         if re.search(r"ILUSTRATIV|Illus\b|<Illus", src, flags=re.I):
             labeled = True

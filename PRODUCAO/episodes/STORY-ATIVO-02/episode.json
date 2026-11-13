@@ -57,7 +57,44 @@
  ],
  "sceneLead": {},
  "hideCaptions": [],
- "cues": {},
+ "cues": {
+  "b_painel": {
+   "seg": "s1",
+   "word": "painel",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_carteira": {
+   "seg": "s1",
+   "word": "carteira",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_comprador": {
+   "seg": "s2",
+   "word": "comprador",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_site": {
+   "seg": "s2",
+   "word": "site",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_duas": {
+   "seg": "s3",
+   "word": "Duas",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_funcao": {
+   "seg": "s3",
+   "word": "função",
+   "edge": "start",
+   "offset": 0
+  }
+ },
  "series": {},
  "sfx": [],
  "music": {}

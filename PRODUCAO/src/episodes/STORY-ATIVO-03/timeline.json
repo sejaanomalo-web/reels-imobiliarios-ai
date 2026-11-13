@@ -1,0 +1,322 @@
+{
+ "id": "STORY-ATIVO-03",
+ "title": "Organização com identidade própria",
+ "fps": 30,
+ "duration": 15.067,
+ "durationInFrames": 452,
+ "narrationEnd": 13.455,
+ "voice": "PROVISÓRIO-SEM-VOZ",
+ "scenes": [
+  {
+   "id": "ident",
+   "start": 0.0,
+   "end": 2.635
+  },
+  {
+   "id": "painel",
+   "start": 2.635,
+   "end": 9.26
+  },
+  {
+   "id": "fecho",
+   "start": 9.26,
+   "end": 15.067
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "ident",
+   "text": "Aqui, a identidade é diferente.",
+   "start": 0.3,
+   "end": 2.535
+  },
+  {
+   "id": "s2",
+   "scene": "painel",
+   "text": "O painel da corretora apresenta os imóveis, a visão dos contatos e ferramentas da rotina.",
+   "start": 2.885,
+   "end": 9.16
+  },
+  {
+   "id": "s3",
+   "scene": "fecho",
+   "text": "Porque organização também pode respeitar a sua marca.",
+   "start": 9.51,
+   "end": 13.105
+  }
+ ],
+ "cues": {
+  "i_ident": 1.015,
+  "i_painel": 3.08,
+  "i_imoveis": 5.32,
+  "i_contatos": 6.92,
+  "i_ferr": 7.695,
+  "i_rotina": 8.69,
+  "i_org": 9.98,
+  "i_marca": 12.69
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.3,
+   "end": 0.82,
+   "words": [
+    {
+     "text": "Aqui,",
+     "start": 0.3,
+     "end": 0.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.82,
+   "end": 1.705,
+   "words": [
+    {
+     "text": "a",
+     "start": 0.82,
+     "end": 0.995,
+     "emph": false
+    },
+    {
+     "text": "identidade",
+     "start": 1.015,
+     "end": 1.685,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.705,
+   "end": 2.885,
+   "words": [
+    {
+     "text": "é",
+     "start": 1.705,
+     "end": 1.88,
+     "emph": false
+    },
+    {
+     "text": "diferente.",
+     "start": 1.9,
+     "end": 2.515,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 2.885,
+   "end": 3.55,
+   "words": [
+    {
+     "text": "O",
+     "start": 2.885,
+     "end": 3.06,
+     "emph": false
+    },
+    {
+     "text": "painel",
+     "start": 3.08,
+     "end": 3.53,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.55,
+   "end": 4.435,
+   "words": [
+    {
+     "text": "da",
+     "start": 3.55,
+     "end": 3.78,
+     "emph": false
+    },
+    {
+     "text": "corretora",
+     "start": 3.8,
+     "end": 4.415,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.435,
+   "end": 6.005,
+   "words": [
+    {
+     "text": "apresenta",
+     "start": 4.435,
+     "end": 5.05,
+     "emph": false
+    },
+    {
+     "text": "os",
+     "start": 5.07,
+     "end": 5.3,
+     "emph": false
+    },
+    {
+     "text": "imóveis,",
+     "start": 5.32,
+     "end": 5.825,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.005,
+   "end": 7.5,
+   "words": [
+    {
+     "text": "a",
+     "start": 6.005,
+     "end": 6.18,
+     "emph": false
+    },
+    {
+     "text": "visão",
+     "start": 6.2,
+     "end": 6.595,
+     "emph": false
+    },
+    {
+     "text": "dos",
+     "start": 6.615,
+     "end": 6.9,
+     "emph": false
+    },
+    {
+     "text": "contatos",
+     "start": 6.92,
+     "end": 7.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.5,
+   "end": 8.44,
+   "words": [
+    {
+     "text": "e",
+     "start": 7.5,
+     "end": 7.675,
+     "emph": false
+    },
+    {
+     "text": "ferramentas",
+     "start": 7.695,
+     "end": 8.42,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.44,
+   "end": 9.51,
+   "words": [
+    {
+     "text": "da",
+     "start": 8.44,
+     "end": 8.67,
+     "emph": false
+    },
+    {
+     "text": "rotina.",
+     "start": 8.69,
+     "end": 9.14,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.51,
+   "end": 10.725,
+   "words": [
+    {
+     "text": "Porque",
+     "start": 9.51,
+     "end": 9.96,
+     "emph": false
+    },
+    {
+     "text": "organização",
+     "start": 9.98,
+     "end": 10.705,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.725,
+   "end": 11.555,
+   "words": [
+    {
+     "text": "também",
+     "start": 10.725,
+     "end": 11.175,
+     "emph": false
+    },
+    {
+     "text": "pode",
+     "start": 11.195,
+     "end": 11.535,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.555,
+   "end": 12.19,
+   "words": [
+    {
+     "text": "respeitar",
+     "start": 11.555,
+     "end": 12.17,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.19,
+   "end": 13.085,
+   "words": [
+    {
+     "text": "a",
+     "start": 12.19,
+     "end": 12.365,
+     "emph": false
+    },
+    {
+     "text": "sua",
+     "start": 12.385,
+     "end": 12.67,
+     "emph": false
+    },
+    {
+     "text": "marca.",
+     "start": 12.69,
+     "end": 13.085,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

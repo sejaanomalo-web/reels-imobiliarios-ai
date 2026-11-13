@@ -39,6 +39,10 @@ import { LandingPoster as LandingPosterV2 } from "./episodes/LP-ATIVO-V2/Poster"
 import { LandingAtivoV3, timeline as lpAtivoV3 } from "./episodes/LP-ATIVO-V3/Landing";
 import { LandingPoster as LandingPosterV3 } from "./episodes/LP-ATIVO-V3/Poster";
 import { Story01, timeline as story01 } from "./episodes/STORY-ATIVO-01/Story";
+import { Story02, timeline as story02 } from "./episodes/STORY-ATIVO-02/Story";
+import { Story03, timeline as story03 } from "./episodes/STORY-ATIVO-03/Story";
+import { Story04, timeline as story04 } from "./episodes/STORY-ATIVO-04/Story";
+import { Story05, timeline as story05 } from "./episodes/STORY-ATIVO-05/Story";
 import { VIDEO } from "./theme";
 
 export const RemotionRoot: React.FC = () => (
@@ -278,6 +282,42 @@ export const RemotionRoot: React.FC = () => (
         height={VIDEO.height}
         fps={story01.fps}
         durationInFrames={story01.durationInFrames}
+        defaultProps={{ withAudio: false }}
+      />
+      <Composition
+        id="STORY-ATIVO-02"
+        component={Story02}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={story02.fps}
+        durationInFrames={story02.durationInFrames}
+        defaultProps={{ withAudio: false }}
+      />
+      <Composition
+        id="STORY-ATIVO-03"
+        component={Story03}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={story03.fps}
+        durationInFrames={story03.durationInFrames}
+        defaultProps={{ withAudio: false }}
+      />
+      <Composition
+        id="STORY-ATIVO-04"
+        component={Story04}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={story04.fps}
+        durationInFrames={story04.durationInFrames}
+        defaultProps={{ withAudio: false }}
+      />
+      <Composition
+        id="STORY-ATIVO-05"
+        component={Story05}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={story05.fps}
+        durationInFrames={story05.durationInFrames}
         defaultProps={{ withAudio: false }}
       />
     </Folder>

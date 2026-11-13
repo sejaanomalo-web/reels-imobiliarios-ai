@@ -1,0 +1,396 @@
+{
+ "id": "STORY-ATIVO-05",
+ "title": "A diferença é começar por você",
+ "fps": 30,
+ "duration": 18.867,
+ "durationInFrames": 566,
+ "narrationEnd": 17.245,
+ "voice": "PROVISÓRIO-SEM-VOZ",
+ "scenes": [
+  {
+   "id": "vira",
+   "start": 0.0,
+   "end": 6.25
+  },
+  {
+   "id": "voce",
+   "start": 6.25,
+   "end": 13.78
+  },
+  {
+   "id": "cta",
+   "start": 13.78,
+   "end": 18.867
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "vira",
+   "text": "Percebeu a diferença?",
+   "start": 0.3,
+   "end": 1.71
+  },
+  {
+   "id": "s2",
+   "scene": "vira",
+   "text": "Na ATIVO, não começamos te entregando mais um CRM pronto.",
+   "start": 2.06,
+   "end": 6.15
+  },
+  {
+   "id": "s3",
+   "scene": "voce",
+   "text": "Primeiro entendemos como você trabalha.",
+   "start": 6.5,
+   "end": 9.07
+  },
+  {
+   "id": "s4",
+   "scene": "voce",
+   "text": "Depois apresentamos o sistema que faz sentido para sua rotina.",
+   "start": 9.42,
+   "end": 13.68
+  },
+  {
+   "id": "s5",
+   "scene": "cta",
+   "text": "Quer conhecer?",
+   "start": 14.03,
+   "end": 14.97
+  },
+  {
+   "id": "s6",
+   "scene": "cta",
+   "text": "Agende uma demonstração.",
+   "start": 15.32,
+   "end": 16.895
+  }
+ ],
+ "cues": {
+  "f_perc": 0.3,
+  "f_ativo": 2.31,
+  "f_nao": 2.885,
+  "f_crm": 5.375,
+  "f_prim": 6.5,
+  "f_voce": 8.13,
+  "f_depois": 9.42,
+  "f_rotina": 13.21,
+  "f_quer": 14.03,
+  "f_agende": 15.32
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.3,
+   "end": 0.88,
+   "words": [
+    {
+     "text": "Percebeu",
+     "start": 0.3,
+     "end": 0.86,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.88,
+   "end": 2.06,
+   "words": [
+    {
+     "text": "a",
+     "start": 0.88,
+     "end": 1.055,
+     "emph": false
+    },
+    {
+     "text": "diferença?",
+     "start": 1.075,
+     "end": 1.69,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 2.06,
+   "end": 2.885,
+   "words": [
+    {
+     "text": "Na",
+     "start": 2.06,
+     "end": 2.29,
+     "emph": false
+    },
+    {
+     "text": "ATIVO,",
+     "start": 2.31,
+     "end": 2.705,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 2.885,
+   "end": 3.825,
+   "words": [
+    {
+     "text": "não",
+     "start": 2.885,
+     "end": 3.17,
+     "emph": false
+    },
+    {
+     "text": "começamos",
+     "start": 3.19,
+     "end": 3.805,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.825,
+   "end": 4.765,
+   "words": [
+    {
+     "text": "te",
+     "start": 3.825,
+     "end": 4.055,
+     "emph": false
+    },
+    {
+     "text": "entregando",
+     "start": 4.075,
+     "end": 4.745,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.765,
+   "end": 6.5,
+   "words": [
+    {
+     "text": "mais",
+     "start": 4.765,
+     "end": 5.105,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 5.125,
+     "end": 5.355,
+     "emph": false
+    },
+    {
+     "text": "CRM",
+     "start": 5.375,
+     "end": 5.66,
+     "emph": true
+    },
+    {
+     "text": "pronto.",
+     "start": 5.68,
+     "end": 6.13,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 6.5,
+   "end": 7.08,
+   "words": [
+    {
+     "text": "Primeiro",
+     "start": 6.5,
+     "end": 7.06,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 7.08,
+   "end": 7.77,
+   "words": [
+    {
+     "text": "entendemos",
+     "start": 7.08,
+     "end": 7.75,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 7.77,
+   "end": 9.42,
+   "words": [
+    {
+     "text": "como",
+     "start": 7.77,
+     "end": 8.11,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 8.13,
+     "end": 8.47,
+     "emph": true
+    },
+    {
+     "text": "trabalha.",
+     "start": 8.49,
+     "end": 9.05,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 9.42,
+   "end": 10.69,
+   "words": [
+    {
+     "text": "Depois",
+     "start": 9.42,
+     "end": 9.87,
+     "emph": false
+    },
+    {
+     "text": "apresentamos",
+     "start": 9.89,
+     "end": 10.67,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 10.69,
+   "end": 11.41,
+   "words": [
+    {
+     "text": "o",
+     "start": 10.69,
+     "end": 10.865,
+     "emph": false
+    },
+    {
+     "text": "sistema",
+     "start": 10.885,
+     "end": 11.39,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 11.41,
+   "end": 12.545,
+   "words": [
+    {
+     "text": "que",
+     "start": 11.41,
+     "end": 11.695,
+     "emph": false
+    },
+    {
+     "text": "faz",
+     "start": 11.715,
+     "end": 12.0,
+     "emph": false
+    },
+    {
+     "text": "sentido",
+     "start": 12.02,
+     "end": 12.525,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.545,
+   "end": 14.03,
+   "words": [
+    {
+     "text": "para",
+     "start": 12.545,
+     "end": 12.885,
+     "emph": false
+    },
+    {
+     "text": "sua",
+     "start": 12.905,
+     "end": 13.19,
+     "emph": false
+    },
+    {
+     "text": "rotina.",
+     "start": 13.21,
+     "end": 13.66,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 14.03,
+   "end": 15.32,
+   "words": [
+    {
+     "text": "Quer",
+     "start": 14.03,
+     "end": 14.37,
+     "emph": false
+    },
+    {
+     "text": "conhecer?",
+     "start": 14.39,
+     "end": 14.95,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 15.32,
+   "end": 15.79,
+   "words": [
+    {
+     "text": "Agende",
+     "start": 15.32,
+     "end": 15.77,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 15.79,
+   "end": 16.875,
+   "words": [
+    {
+     "text": "uma",
+     "start": 15.79,
+     "end": 16.075,
+     "emph": false
+    },
+    {
+     "text": "demonstração.",
+     "start": 16.095,
+     "end": 16.875,
+     "emph": false
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}
