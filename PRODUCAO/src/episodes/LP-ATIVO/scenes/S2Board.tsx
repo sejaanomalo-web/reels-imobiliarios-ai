@@ -88,8 +88,8 @@ export const S2Board: React.FC<SceneProps> = ({ t, tl }) => {
           </div>
         ) : null}
         {/* lugares vazios que a tela vira */}
-        {CARDS.map((k) => {
-          const a = split * (1 - prog(t, c[k.cue] - 0.2, 0.3, ease.linear));
+        {CARDS.map((k, i) => {
+          const a = prog(t, c.r_porque + 0.6 + i * 0.45, 0.35, ease.out) * (1 - prog(t, c[k.cue] - 0.2, 0.3, ease.linear));
           return a > 0 ? <div key={`g${k.k}`} style={{ position: "absolute", left: k.x, top: k.y, width: CW, height: CH, borderRadius: 26, border: "2px dashed rgba(255,255,255,0.18)", opacity: a, transform: `rotate(${k.rot}deg)` }} /> : null;
         })}
         {/* ruído de notificações */}
