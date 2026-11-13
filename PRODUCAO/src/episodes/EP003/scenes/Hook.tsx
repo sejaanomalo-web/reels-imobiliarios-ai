@@ -30,7 +30,7 @@ const Phone: React.FC<{ i: number; t: number; ringAt: number; sync: number; scal
         height: 372,
         borderRadius: 40,
         background: "linear-gradient(150deg,#4C535E,#1A1E24 45%,#0B0D10)",
-        boxShadow: `0 30px 60px rgba(0,0,0,0.6), 0 0 ${60 * ring}px rgba(53,224,161,${0.5 * ring})`,
+        boxShadow: `0 30px 60px rgba(0,0,0,0.6), 0 0 ${60 * ring}px rgba(58,245,132,${0.5 * ring})`,
         transform: `translateX(${buzz}px) scale(${scale * (1 + 0.08 * sync)})`,
         fontFamily: F.sans,
       }}
@@ -153,7 +153,7 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
             textAlign: "center",
             zIndex: 20,
             transform: `scale(${q * qPulse}) rotate(${(1 - Math.min(1, q)) * -30}deg)`,
-            boxShadow: "0 0 120px rgba(53,224,161,0.55)",
+            boxShadow: "0 0 120px rgba(58,245,132,0.55)",
           }}
         >
           ?

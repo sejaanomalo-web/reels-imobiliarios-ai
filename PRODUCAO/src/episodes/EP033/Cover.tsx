@@ -6,7 +6,7 @@ import { Background, Grain } from "../../components/Background";
 import { C, F } from "../../theme";
 import { INITIALS, TEAM } from "./scenes/ui";
 
-/** Capa 1080×1920 — oito avatares com fios embaraçados; conteúdo crítico dentro do recorte 3:4 (y 240–1680). Sem logo (símbolo ATIVO não está no repositório). */
+/** Capa 1080×1920 — oito avatares com fios embaraçados; conteúdo crítico dentro do recorte 3:4 (y 240–1680). Sem logo (produção original sem logo: o arquivo só chegou depois; logo oficial hoje em PRODUCAO/public/brand/ativo_logo.png). */
 const P = Array.from({ length: 8 }).map((_, i) => ({ x: 540 + 260 * Math.cos((i / 8) * Math.PI * 2), y: 560 + 200 * Math.sin((i / 8) * Math.PI * 2) }));
 export const EP033Cover: React.FC = () => (
   <AbsoluteFill style={{ backgroundColor: C.bg0, fontFamily: F.sans }}>

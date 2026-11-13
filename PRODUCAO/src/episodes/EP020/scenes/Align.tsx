@@ -48,9 +48,9 @@ export const Align: React.FC<SceneProps> = ({ t, tl }) => {
           return (
             <div key={x.q} style={{ position: "absolute", left: 70, top: y, width: 940, height: 210 }}>
               {/* contorno da pergunta antes de ser feita */}
-              <div style={{ position: "absolute", right: 0, top: 0, width: [520, 430, 380][i], height: 84, borderRadius: 28, border: "3px dashed rgba(53,224,161,0.35)", opacity: ghost, transform: `translateY(${(1 - ghost) * 30}px)`, display: "flex", alignItems: "center", justifyContent: "flex-end", paddingRight: 28, boxSizing: "border-box", fontWeight: 800, fontSize: 44, color: "rgba(53,224,161,0.5)" }}>?</div>
+              <div style={{ position: "absolute", right: 0, top: 0, width: [520, 430, 380][i], height: 84, borderRadius: 28, border: "3px dashed rgba(58,245,132,0.35)", opacity: ghost, transform: `translateY(${(1 - ghost) * 30}px)`, display: "flex", alignItems: "center", justifyContent: "flex-end", paddingRight: 28, boxSizing: "border-box", fontWeight: 800, fontSize: 44, color: "rgba(58,245,132,0.5)" }}>?</div>
               {/* pergunta do corretor */}
-              <div style={{ position: "absolute", right: 0, top: 0, padding: "18px 28px", borderRadius: 28, borderBottomRightRadius: 8, background: "#123A2D", border: "2px solid rgba(53,224,161,0.45)", fontWeight: 800, fontSize: 38, color: C.text, opacity: Math.min(1, qp * 1.5), transform: `translateX(${(1 - Math.min(1, qp)) * 80}px)`, boxShadow: "0 20px 50px rgba(0,0,0,0.45)" }}>
+              <div style={{ position: "absolute", right: 0, top: 0, padding: "18px 28px", borderRadius: 28, borderBottomRightRadius: 8, background: "#0E3A1F", border: "2px solid rgba(58,245,132,0.45)", fontWeight: 800, fontSize: 38, color: C.text, opacity: Math.min(1, qp * 1.5), transform: `translateX(${(1 - Math.min(1, qp)) * 80}px)`, boxShadow: "0 20px 50px rgba(0,0,0,0.45)" }}>
                 {x.q}
               </div>
               {/* resposta do avatar ilustrativo */}
@@ -80,7 +80,7 @@ export const Align: React.FC<SceneProps> = ({ t, tl }) => {
         </div>
         {strike > 0.6 ? (
           <div style={{ position: "absolute", left: 780, top: 1050, opacity: prog(t, c.ten_ctx + 0.3, 0.3, ease.out) }}>
-            <Tag text="EVITADO" tone="accent" size={24} style={{ background: "rgba(5,38,27,0.95)" }} />
+            <Tag text="EVITADO" tone="accent" size={24} style={{ background: "rgba(9,38,20,0.95)" }} />
           </div>
         ) : null}
       </Camera>

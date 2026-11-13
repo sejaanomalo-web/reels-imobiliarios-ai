@@ -111,7 +111,7 @@ export const Base: React.FC<SceneProps> = ({ t, tl }) => {
                   gap: 22,
                   padding: "0 30px",
                   borderBottom: i < ROWS.length - 1 ? `1px solid ${C.lineSoft}` : undefined,
-                  background: isCtx ? `rgba(53,224,161,${0.08 * glow})` : isOpt ? `rgba(255,255,255,${0.03 * optP})` : undefined,
+                  background: isCtx ? `rgba(58,245,132,${0.08 * glow})` : isOpt ? `rgba(255,255,255,${0.03 * optP})` : undefined,
                   opacity: mix(1, 0.4, dimWait),
                 }}
               >

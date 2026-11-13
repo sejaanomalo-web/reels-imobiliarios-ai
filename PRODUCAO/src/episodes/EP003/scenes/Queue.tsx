@@ -268,7 +268,7 @@ export const Queue: React.FC<SceneProps> = ({ t, tl }) => {
                         position: "absolute",
                         inset: 0,
                         borderRadius: 14,
-                        background: "rgba(53,224,161,0.2)",
+                        background: "rgba(58,245,132,0.2)",
                         display: "flex",
                         alignItems: "center",
                         gap: 10,

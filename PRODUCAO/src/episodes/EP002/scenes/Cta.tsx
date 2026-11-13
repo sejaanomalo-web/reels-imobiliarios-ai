@@ -56,7 +56,7 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
           borderRadius: 48,
           background: C.surface,
           border: `1px solid ${C.line}`,
-          boxShadow: "0 50px 120px rgba(0,0,0,0.6), 0 0 160px rgba(53,224,161,0.07)",
+          boxShadow: "0 50px 120px rgba(0,0,0,0.6), 0 0 160px rgba(58,245,132,0.07)",
           overflow: "hidden",
           opacity: Math.min(1, enter * 1.5) * mix(1, 0.6, pull) * (1 - away),
           transformOrigin: "50% 40%",
@@ -104,8 +104,8 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
                 height: COL.h,
                 boxSizing: "border-box",
                 borderRadius: 30,
-                background: active ? "rgba(53,224,161,0.07)" : "rgba(255,255,255,0.025)",
-                border: `1px solid ${active ? "rgba(53,224,161,0.35)" : C.lineSoft}`,
+                background: active ? "rgba(58,245,132,0.07)" : "rgba(255,255,255,0.025)",
+                border: `1px solid ${active ? "rgba(58,245,132,0.35)" : C.lineSoft}`,
                 padding: "22px 12px",
                 display: "flex",
                 flexDirection: "column",
@@ -180,15 +180,15 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
             height: 180,
             boxSizing: "border-box",
             borderRadius: 30,
-            background: "#123A2D",
-            border: "2px solid rgba(53,224,161,0.5)",
+            background: "#0E3A1F",
+            border: "2px solid rgba(58,245,132,0.5)",
             display: "flex",
             alignItems: "center",
             gap: 26,
             padding: "0 34px",
             opacity: Math.min(1, toast * 1.5),
             transform: `translateY(${(1 - Math.min(1, toast)) * 220}px)`,
-            boxShadow: "0 -10px 60px rgba(53,224,161,0.12)",
+            boxShadow: "0 -10px 60px rgba(58,245,132,0.12)",
           }}
         >
           <div
@@ -271,7 +271,7 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
               gap: 26,
               opacity: Math.min(1, end * 2),
               transform: `scale(${mix(0.6, 1, end)})`,
-              boxShadow: "0 30px 90px rgba(53,224,161,0.3), 0 30px 60px rgba(0,0,0,0.5)",
+              boxShadow: "0 30px 90px rgba(58,245,132,0.3), 0 30px 60px rgba(0,0,0,0.5)",
             }}
           >
             <IconLink size={92} color={C.accentInk} stroke={2.3} />

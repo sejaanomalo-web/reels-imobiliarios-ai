@@ -42,7 +42,7 @@ export const S7Diff: React.FC<SceneProps> = ({ t, tl }) => {
         </div>
         {/* VOCÊ enorme → COMEÇAMOS POR VOCÊ. */}
         <div style={{ position: "absolute", left: 0, right: 0, top: mix(330, 120, diag), textAlign: "center", opacity: Math.min(1, you * 1.5), transform: `scale(${mix(1, 0.42, diag)})`, transformOrigin: "50% 0" }}>
-          <div style={{ fontWeight: 800, fontSize: mix(330, 150, swap), lineHeight: 1, letterSpacing: "-0.05em", color: NEON, textShadow: `0 0 ${80 * (1 - diag)}px rgba(53,224,161,0.45)`, transform: `scale(${mix(1.2, 1, Math.min(1, you))})` }}>
+          <div style={{ fontWeight: 800, fontSize: mix(330, 150, swap), lineHeight: 1, letterSpacing: "-0.05em", color: NEON, textShadow: `0 0 ${80 * (1 - diag)}px rgba(58,245,132,0.45)`, transform: `scale(${mix(1.2, 1, Math.min(1, you))})` }}>
             <span style={{ fontSize: "0.62em", color: C.text, opacity: swap, display: swap > 0.02 ? "inline" : "none" }}>COMEÇAMOS POR </span>VOCÊ<span style={{ color: C.text, opacity: swap }}>.</span>
           </div>
         </div>
@@ -58,7 +58,7 @@ export const S7Diff: React.FC<SceneProps> = ({ t, tl }) => {
                 return <path key={q.k} d={`M ${960 + (qx < 960 ? -80 : 80)} ${610 + (qy < 610 ? -80 : 80)} L ${qx} ${qy}`} stroke={NEON} strokeWidth={3} strokeDasharray={a >= 1 ? "10 10" : `${a * 600} 700`} strokeDashoffset={a >= 1 ? -t * 30 : 0} opacity={a > 0.01 ? 0.6 : 0} />;
               })}
             </svg>
-            <div style={{ position: "absolute", left: 960 - 110, top: 610 - 110, width: 220, height: 220, borderRadius: 110, background: "rgba(53,224,161,0.12)", border: `4px solid ${NEON}`, display: "flex", alignItems: "center", justifyContent: "center", opacity: diag, transform: `scale(${mix(0.6, 1, diag) * (1 + 0.03 * Math.sin(t * 3))})`, boxShadow: "0 0 60px rgba(53,224,161,0.3)" }}>
+            <div style={{ position: "absolute", left: 960 - 110, top: 610 - 110, width: 220, height: 220, borderRadius: 110, background: "rgba(58,245,132,0.12)", border: `4px solid ${NEON}`, display: "flex", alignItems: "center", justifyContent: "center", opacity: diag, transform: `scale(${mix(0.6, 1, diag) * (1 + 0.03 * Math.sin(t * 3))})`, boxShadow: "0 0 60px rgba(58,245,132,0.3)" }}>
               <span style={{ fontWeight: 800, fontSize: 52, color: C.text }}>VOCÊ</span>
             </div>
             <div style={{ position: "absolute", left: 0, right: 0, top: 860, textAlign: "center", fontFamily: F.mono, fontWeight: 700, fontSize: 34, letterSpacing: "0.2em", color: NEON, opacity: prog(t, c.x_diag + 0.2, 0.5, ease.out) }}>DIAGNÓSTICO</div>
@@ -66,7 +66,7 @@ export const S7Diff: React.FC<SceneProps> = ({ t, tl }) => {
               const a = sp(t, c[q.cue] - 0.15, { damping: 13, stiffness: 170 });
               return (
                 <div key={q.k} style={{ position: "absolute", left: q.x, top: q.y, width: 700, display: "flex", justifyContent: q.x < 960 ? "flex-start" : "flex-start", opacity: Math.min(1, a * 1.5), transform: `translateY(${(1 - Math.min(1, a)) * 30}px) scale(${mix(0.85, 1, Math.min(1, a))})` }}>
-                  <div style={{ padding: "22px 32px", borderRadius: 30, background: "rgba(16,24,21,0.95)", border: "2px solid rgba(53,224,161,0.4)", fontWeight: 800, fontSize: 38, color: C.text, whiteSpace: "nowrap" }}>{q.k}</div>
+                  <div style={{ padding: "22px 32px", borderRadius: 30, background: "rgba(16,24,21,0.95)", border: "2px solid rgba(58,245,132,0.4)", fontWeight: 800, fontSize: 38, color: C.text, whiteSpace: "nowrap" }}>{q.k}</div>
                 </div>
               );
             })}

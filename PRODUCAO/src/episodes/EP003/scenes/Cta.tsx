@@ -50,7 +50,7 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
           {LANES.map((ln, k) => {
             const y = mix(ln.y, MAIN_Y, merge);
             return (
-              <div key={k} style={{ position: "absolute", left: L.x, top: y - 6, width: L.w, height: 16, borderRadius: 8, background: k === 1 ? `rgba(53,224,161,${mix(0.35, 0.8, merge)})` : `rgba(255,255,255,${mix(0.22, 0, merge)})` }}>
+              <div key={k} style={{ position: "absolute", left: L.x, top: y - 6, width: L.w, height: 16, borderRadius: 8, background: k === 1 ? `rgba(58,245,132,${mix(0.35, 0.8, merge)})` : `rgba(255,255,255,${mix(0.22, 0, merge)})` }}>
                 <div
                   style={{
                     position: "absolute",
@@ -162,7 +162,7 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
               gap: 26,
               opacity: Math.min(1, end * 2),
               transform: `scale(${mix(0.4, 1, end) * (1 + 0.025 * Math.sin((t - c.cta_link) * 5))})`,
-              boxShadow: "0 30px 90px rgba(53,224,161,0.35), 0 30px 60px rgba(0,0,0,0.5)",
+              boxShadow: "0 30px 90px rgba(58,245,132,0.35), 0 30px 60px rgba(0,0,0,0.5)",
             }}
           >
             <IconLink size={92} color={C.accentInk} stroke={2.3} />

@@ -48,7 +48,7 @@ export const Doubt: React.FC<SceneProps> = ({ t, tl }) => {
             <IconUser size={64} />
           </div>
           <div style={{ position: "absolute", left: 80, top: 444 }}>
-            <Tag text="INTERESSADO" tone="accent" size={20} style={{ background: "rgba(5,38,27,0.9)" }} />
+            <Tag text="INTERESSADO" tone="accent" size={20} style={{ background: "rgba(9,38,20,0.9)" }} />
           </div>
           <div style={{ position: "absolute", left: 762, top: 60, opacity: Math.min(1, apt * 3), transform: `translateY(${(1 - Math.min(1, apt)) * -80}px)`, filter: "drop-shadow(0 10px 10px rgba(0,0,0,0.5))" }}>
             <Pin size={60} />
@@ -85,7 +85,7 @@ export const Doubt: React.FC<SceneProps> = ({ t, tl }) => {
           <div style={{ fontWeight: 800, fontSize: 44, lineHeight: 1.05, color: C.text, marginTop: 6 }}>o valor cabe no planejamento<span style={{ color: C.warn }}>?</span></div>
           <svg width={390} height={150} viewBox="0 0 390 150" style={{ marginTop: 6 }}>
             <path d="M75 140 A120 120 0 0 1 315 140" fill="none" stroke={C.surface3} strokeWidth={18} strokeLinecap="round" />
-            <path d="M75 140 A120 120 0 0 1 195 20" fill="none" stroke="rgba(53,224,161,0.5)" strokeWidth={18} strokeLinecap="round" />
+            <path d="M75 140 A120 120 0 0 1 195 20" fill="none" stroke="rgba(58,245,132,0.5)" strokeWidth={18} strokeLinecap="round" />
             <path d="M195 20 A120 120 0 0 1 315 140" fill="none" stroke="rgba(255,107,94,0.5)" strokeWidth={18} strokeLinecap="round" />
             <g transform={`rotate(${needle} 195 140)`}>
               <path d="M195 140 L195 45" stroke={C.text} strokeWidth={7} strokeLinecap="round" />

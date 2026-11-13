@@ -48,14 +48,14 @@ export const Editor: React.FC<SceneProps> = ({ t, tl }) => {
         <div style={{ position: "absolute", left: 90, top: 480, width: 900, height: 640, boxSizing: "border-box", borderRadius: 44, background: C.surface, border: `2px solid ${C.line}`, boxShadow: "0 50px 110px rgba(0,0,0,0.55)", overflow: "hidden", opacity: Math.min(1, card * 1.5), transform: `translateY(${(1 - Math.min(1, card)) * 140}px) scale(${mix(0.9, 1, Math.min(1, card))})` }}>
           {/* barra do editor */}
           <div style={{ height: 84, display: "flex", alignItems: "center", gap: 12, padding: "0 30px", background: C.surface2, borderBottom: `1px solid ${C.lineSoft}` }}>
-            {["#FF6B5E", "#E8B86A", "#35E0A1"].map((k) => (
+            {["#FF6B5E", "#E8B86A", "#3AF584"].map((k) => (
               <div key={k} style={{ width: 18, height: 18, borderRadius: 9, background: k, opacity: 0.8 }} />
             ))}
             <span style={{ marginLeft: 16, fontFamily: F.mono, fontWeight: 700, fontSize: 24, color: C.muted }}>roteiro · próxima gravação</span>
           </div>
           <div style={{ padding: "40px 44px", opacity: Math.min(1, field * 1.5), transform: `translateY(${(1 - Math.min(1, field)) * 30}px)` }}>
             <div style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 30, letterSpacing: "0.06em", color: C.accent }}>PARA QUEM ESTE IMÓVEL FAZ SENTIDO?</div>
-            <div style={{ marginTop: 26, minHeight: 300, boxSizing: "border-box", borderRadius: 28, padding: "28px 32px", background: C.bg1, border: `3px solid ${stuck > 0.5 ? C.warn : typedN > 0 ? "rgba(53,224,161,0.5)" : C.line}`, fontWeight: 800, fontSize: 52, lineHeight: 1.18, letterSpacing: "-0.02em", color: C.text }}>
+            <div style={{ marginTop: 26, minHeight: 300, boxSizing: "border-box", borderRadius: 28, padding: "28px 32px", background: C.bg1, border: `3px solid ${stuck > 0.5 ? C.warn : typedN > 0 ? "rgba(58,245,132,0.5)" : C.line}`, fontWeight: 800, fontSize: 52, lineHeight: 1.18, letterSpacing: "-0.02em", color: C.text }}>
               {shown}
               <span style={{ display: "inline-block", width: 5, height: 56, marginLeft: 6, verticalAlign: "-8px", background: stuck > 0.5 ? C.warn : C.accent, opacity: caret ? 1 : 0 }} />
               {/* o espaço que deveria ser o argumento */}

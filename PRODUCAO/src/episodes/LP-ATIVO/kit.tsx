@@ -1,18 +1,16 @@
 import React from "react";
 import { AbsoluteFill, Img, staticFile } from "remotion";
-import { C, F } from "../../theme";
+import { BRAND, C, F } from "../../theme";
 import { ease, mix, prog } from "../../lib/anim";
 
 /**
  * Kit 16:9 do vídeo da landing ATIVO (1920×1080).
  *
- * IDENTIDADE: o arquivo oficial da logo ATIVO NÃO está no repositório. Enquanto LOGO_FILE for null, o vídeo usa um
- * marcador provisório só tipográfico ("ATIVO" em Manrope) e um traço de luz verde genérico no lugar da seta —
- * nenhum dos dois imita o símbolo oficial. Para trocar: salve o SVG/PNG aprovado em PRODUCAO/public/brand/ e aponte
- * LOGO_FILE para ele (ex.: "brand/ativo_logo.svg"); NEON recebe o verde oficial quando ele for informado.
+ * IDENTIDADE (aprovada, MARCA/brand.json): logo oficial em PRODUCAO/public/brand/ativo_logo.png (LOGO_FILE) e verde #3AF584
+ * (BRAND em src/theme.ts). O traço de luz é um elemento de movimento da edição; ele não substitui nem redesenha a seta da logo.
  */
-export const LOGO_FILE: string | null = null;
-export const NEON = C.accent; // provisório (MARCA/brand.json) até o verde neon oficial ser informado
+export const LOGO_FILE: string | null = BRAND.logo;
+export const NEON = BRAND.hex; // verde oficial da identidade ATIVO
 export const W = 1920;
 export const H = 1080;
 export const DEEP = "#03100B"; // verde extremamente escuro
@@ -64,7 +62,7 @@ export const Bg: React.FC<{ t: number; glow: number; warm?: number }> = ({ t, gl
           <rect width={W} height={H} fill="url(#lpgrid)" />
         </svg>
       </AbsoluteFill>
-      <AbsoluteFill style={{ background: `radial-gradient(900px 600px at ${50 + Math.sin(t * 0.13) * 8}% ${48 + Math.cos(t * 0.11) * 6}%, rgba(53,224,161,${0.05 + 0.13 * glow}) 0%, transparent 70%)` }} />
+      <AbsoluteFill style={{ background: `radial-gradient(900px 600px at ${50 + Math.sin(t * 0.13) * 8}% ${48 + Math.cos(t * 0.11) * 6}%, rgba(58,245,132,${0.05 + 0.13 * glow}) 0%, transparent 70%)` }} />
       {warm > 0 ? <AbsoluteFill style={{ background: `radial-gradient(1000px 700px at 30% 40%, rgba(255,107,94,${0.08 * warm}) 0%, transparent 70%)` }} /> : null}
       <AbsoluteFill style={{ background: "radial-gradient(1400px 900px at 50% 50%, transparent 55%, rgba(0,0,0,0.65) 100%)" }} />
     </AbsoluteFill>
@@ -82,19 +80,19 @@ export const Grain16: React.FC<{ frame: number }> = ({ frame }) => (
   </AbsoluteFill>
 );
 
-/** Marca: logo oficial quando existir; até lá, marcador tipográfico provisório (não é a logo). */
+/** Marca: logo oficial (LOGO_FILE). O ramo tipográfico só existe como segurança se o arquivo faltar. */
 export const Mark: React.FC<{ size: number; glow?: number; sub?: boolean }> = ({ size, glow = 0, sub = false }) =>
   LOGO_FILE ? (
-    <Img src={staticFile(LOGO_FILE)} style={{ height: size, filter: glow > 0 ? `drop-shadow(0 0 ${30 * glow}px rgba(53,224,161,${0.6 * glow}))` : undefined }} />
+    <Img src={staticFile(LOGO_FILE)} style={{ height: size, filter: glow > 0 ? `drop-shadow(0 0 ${30 * glow}px rgba(58,245,132,${0.6 * glow}))` : undefined }} />
   ) : (
     <div style={{ display: "inline-flex", flexDirection: "column", alignItems: "center", fontFamily: F.sans, lineHeight: 1 }}>
       {sub ? <span style={{ fontFamily: F.mono, fontWeight: 700, fontSize: size * 0.18, letterSpacing: "0.3em", color: C.muted, marginBottom: size * 0.1 }}>SISTEMA</span> : null}
-      <span style={{ fontWeight: 800, fontSize: size, letterSpacing: "0.08em", color: C.text, textShadow: glow > 0 ? `0 0 ${40 * glow}px rgba(53,224,161,${0.45 * glow})` : undefined }}>ATIVO</span>
+      <span style={{ fontWeight: 800, fontSize: size, letterSpacing: "0.08em", color: C.text, textShadow: glow > 0 ? `0 0 ${40 * glow}px rgba(58,245,132,${0.45 * glow})` : undefined }}>ATIVO</span>
     </div>
   );
 
 /**
- * Traço de luz verde que percorre uma curva (substitui provisoriamente o movimento da seta oficial; sem ponta de seta).
+ * Traço de luz verde que percorre uma curva (elemento de movimento da edição; sem ponta de seta, não imita a logo).
  * `p` 0→1 desenha; `fade` apaga a cauda. `d` é o caminho SVG em coordenadas 1920×1080.
  */
 export const Trail: React.FC<{ d: string; p: number; len?: number; width?: number; fade?: number; tail?: number }> = ({ d, p, len = 2600, width = 10, fade = 0, tail = 0.45 }) => {

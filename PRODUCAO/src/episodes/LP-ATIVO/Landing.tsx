@@ -16,7 +16,7 @@ import { S8Close } from "./scenes/S8Close";
 export const timeline = timelineJson as Timeline;
 
 /** Vídeo principal da landing page ATIVO — 1920×1080, 30 fps. Narração com o preset de voz aprovado em 1,0×.
- *  Interfaces ILUSTRATIVAS e marca provisória (logo oficial e telas reais não estão no repositório) — ver kit.tsx. */
+ *  Interfaces ILUSTRATIVAS (não há telas reais do sistema no repositório); logo oficial — ver kit.tsx. */
 export const LandingAtivo: React.FC<{ withAudio?: boolean }> = ({ withAudio = true }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();

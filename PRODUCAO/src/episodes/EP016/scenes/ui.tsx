@@ -7,7 +7,7 @@ export const OLD_MSG = "Alguma novidade?";
 export const NEW_MSG = ["Vi", "uma", "opção", "na", "região", "que", "você", "mencionou.", "Ainda", "faz", "sentido", "procurar", "por", "ali?"];
 
 export const Tag: React.FC<{ text: string; tone: "warn" | "accent" | "muted"; size?: number; style?: React.CSSProperties }> = ({ text, tone, size = 24, style }) => {
-  const p = { warn: [C.warn, "rgba(255,107,94,0.14)"], accent: [C.accent, "rgba(53,224,161,0.14)"], muted: [C.muted, C.surface3] }[tone];
+  const p = { warn: [C.warn, "rgba(255,107,94,0.14)"], accent: [C.accent, "rgba(58,245,132,0.14)"], muted: [C.muted, C.surface3] }[tone];
   return (
     <span style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: `${size * 0.3}px ${size * 0.6}px`, borderRadius: size * 0.5, background: p[1], color: p[0], fontFamily: F.mono, fontWeight: 700, fontSize: size, letterSpacing: "0.06em", whiteSpace: "nowrap", ...style }}>
       {text}
@@ -37,8 +37,8 @@ export const Bubble: React.FC<{ tone: "gray" | "green"; children: React.ReactNod
       borderRadius: 34,
       borderBottomRightRadius: 10,
       padding: `${size * 0.55}px ${size * 0.75}px`,
-      background: tone === "gray" ? "#2A2F37" : "#123A2D",
-      border: `2px solid ${tone === "gray" ? "rgba(255,255,255,0.12)" : "rgba(53,224,161,0.4)"}`,
+      background: tone === "gray" ? "#2A2F37" : "#0E3A1F",
+      border: `2px solid ${tone === "gray" ? "rgba(255,255,255,0.12)" : "rgba(58,245,132,0.4)"}`,
       color: tone === "gray" ? "#C3C8D0" : C.text,
       fontFamily: F.sans,
       fontWeight: 700,

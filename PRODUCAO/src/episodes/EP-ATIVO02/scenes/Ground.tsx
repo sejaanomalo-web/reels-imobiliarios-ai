@@ -100,7 +100,7 @@ export const Ground: React.FC<SceneProps> = ({ t, tl }) => {
               {WALLS.map((d, i) => (
                 <path key={i} d={d} fill="none" stroke="#7C8796" strokeWidth={5} strokeDasharray={`${1800 * plan} 2000`} />
               ))}
-              <rect x={PLAN.x} y={PLAN.y} width={PLAN.w} height={PLAN.h} fill="rgba(53,224,161,0.04)" />
+              <rect x={PLAN.x} y={PLAN.y} width={PLAN.w} height={PLAN.h} fill="rgba(58,245,132,0.04)" />
               {trail.map(([x, y], i) => (
                 <circle key={i} cx={x} cy={y} r={7 - i * 0.22} fill={C.accent} opacity={walk > 0 ? 0.55 * (1 - i / 24) : 0} />
               ))}

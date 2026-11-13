@@ -37,7 +37,7 @@ export const Chip: React.FC<{ text: string; tone?: "accent" | "warn" | "muted" |
   style,
 }) => {
   const pal = {
-    accent: { bg: "rgba(53,224,161,0.16)", fg: C.accent, bd: "rgba(53,224,161,0.4)" },
+    accent: { bg: "rgba(58,245,132,0.16)", fg: C.accent, bd: "rgba(58,245,132,0.4)" },
     warn: { bg: "rgba(255,107,94,0.16)", fg: C.warn, bd: "rgba(255,107,94,0.45)" },
     muted: { bg: C.surface3, fg: C.muted, bd: "transparent" },
     paper: { bg: C.paper, fg: C.ink, bd: "transparent" },
@@ -104,7 +104,7 @@ export const Row: React.FC<{
           top: 0,
           bottom: 0,
           width: `${done * 100}%`,
-          background: "rgba(53,224,161,0.12)",
+          background: "rgba(58,245,132,0.12)",
         }}
       />
       <div style={{ position: "relative" }}>

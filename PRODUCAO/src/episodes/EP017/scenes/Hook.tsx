@@ -84,7 +84,7 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
                 padding: "26px 54px",
                 borderRadius: 40,
                 border: `8px solid ${showNo ? C.warn : C.accent}`,
-                background: showNo ? "rgba(36,14,13,0.92)" : "rgba(7,40,29,0.94)",
+                background: showNo ? "rgba(36,14,13,0.92)" : "rgba(9,40,22,0.94)",
                 color: showNo ? C.warn : C.accent,
                 fontFamily: F.sans,
                 fontWeight: 800,
@@ -93,7 +93,7 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
                 letterSpacing: "-0.03em",
                 transform: `rotate(${showNo ? -7 : -3}deg) rotateX(${rotX}deg) scale(${mix(2.2, 1, Math.min(1, stamp)) * (showNo ? 1 : 1 + 0.06 * Math.min(1, value))})`,
                 opacity: Math.min(1, stamp * 2),
-                boxShadow: showNo ? "0 30px 80px rgba(0,0,0,0.6)" : `0 30px 80px rgba(0,0,0,0.6), 0 0 ${120 * Math.min(1, value)}px rgba(53,224,161,0.35)`,
+                boxShadow: showNo ? "0 30px 80px rgba(0,0,0,0.6)" : `0 30px 80px rgba(0,0,0,0.6), 0 0 ${120 * Math.min(1, value)}px rgba(58,245,132,0.35)`,
               }}
             >
               {showNo ? "NÃO" : (

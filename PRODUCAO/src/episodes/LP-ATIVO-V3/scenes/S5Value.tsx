@@ -143,7 +143,7 @@ export const S5Value: React.FC<SceneProps> = ({ t, tl }) => {
               </svg>
               {/* lead viajando */}
               <div style={{ position: "absolute", left: mix(380, 990, travel), top: 300 + Math.sin(travel * Math.PI) * 30 - 34, opacity: prog(t, c.f_lead + 0.45, 0.2, ease.out) * (1 - prog(travel, 0.92, 0.08, ease.linear)), display: "flex", alignItems: "center", gap: 10, padding: "8px 18px 8px 8px", borderRadius: 30, background: NEON, boxShadow: "0 0 30px rgba(58,245,132,0.6)" }}>
-                <Av s="R" bg="#05261B" size={44} />
+                <Av s="R" bg="#092614" size={44} />
                 <span style={{ fontWeight: 800, fontSize: 24, color: C.accentInk, whiteSpace: "nowrap" }}>Novo lead</span>
               </div>
               {/* CRM recebendo */}
@@ -163,7 +163,7 @@ export const S5Value: React.FC<SceneProps> = ({ t, tl }) => {
             {/* M4 — assistente */}
             <div style={{ position: "absolute", left: slide(3), top: 0, width: CW, height: WH - 86, padding: 34, boxSizing: "border-box" }}>
               {sent > 0 ? (
-                <div style={{ marginLeft: "auto", width: "fit-content", maxWidth: 900, padding: "22px 30px", borderRadius: 26, borderBottomRightRadius: 8, background: "#123A2D", border: "2px solid rgba(58,245,132,0.4)", fontWeight: 700, fontSize: 38, color: C.text, opacity: sent, transform: `translateY(${(1 - sent) * 20}px)` }}>{Q}</div>
+                <div style={{ marginLeft: "auto", width: "fit-content", maxWidth: 900, padding: "22px 30px", borderRadius: 26, borderBottomRightRadius: 8, background: "#0E3A1F", border: "2px solid rgba(58,245,132,0.4)", fontWeight: 700, fontSize: 38, color: C.text, opacity: sent, transform: `translateY(${(1 - sent) * 20}px)` }}>{Q}</div>
               ) : null}
               {ans[0] > 0 ? (
                 <div style={{ marginTop: 26, width: 940, padding: "24px 32px", borderRadius: 26, borderBottomLeftRadius: 8, background: "#16201C", border: "1px solid rgba(255,255,255,0.1)", opacity: ans[0] }}>

@@ -50,7 +50,7 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
           borderRadius: 48,
           background: C.surface,
           border: `1px solid ${C.line}`,
-          boxShadow: "0 50px 120px rgba(0,0,0,0.6), 0 0 160px rgba(53,224,161,0.07)",
+          boxShadow: "0 50px 120px rgba(0,0,0,0.6), 0 0 160px rgba(58,245,132,0.07)",
           overflow: "hidden",
           opacity: Math.min(1, enter * 1.5) * mix(1, 0.6, pull) * (1 - away),
           transformOrigin: "50% 40%",
@@ -178,7 +178,7 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
                   justifyContent: "center",
                   flexShrink: 0,
                   transform: last ? `scale(${mix(0.6, 1, done)})` : undefined,
-                  boxShadow: last ? `0 0 ${50 * done}px rgba(53,224,161,0.6)` : undefined,
+                  boxShadow: last ? `0 0 ${50 * done}px rgba(58,245,132,0.6)` : undefined,
                 }}
               >
                 {last ? <IconCheck size={44} /> : null}
@@ -188,8 +188,8 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
                   flex: 1,
                   height: last ? 104 : 92,
                   borderRadius: 24,
-                  background: last ? "#123A2D" : C.surface2,
-                  border: `1px solid ${last ? "rgba(53,224,161,0.45)" : C.lineSoft}`,
+                  background: last ? "#0E3A1F" : C.surface2,
+                  border: `1px solid ${last ? "rgba(58,245,132,0.45)" : C.lineSoft}`,
                   display: "flex",
                   alignItems: "center",
                   padding: "0 26px",
@@ -264,7 +264,7 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
               gap: 26,
               opacity: Math.min(1, end * 2),
               transform: `scale(${mix(0.6, 1, end)})`,
-              boxShadow: "0 30px 90px rgba(53,224,161,0.3), 0 30px 60px rgba(0,0,0,0.5)",
+              boxShadow: "0 30px 90px rgba(58,245,132,0.3), 0 30px 60px rgba(0,0,0,0.5)",
             }}
           >
             <IconLink size={92} color={C.accentInk} stroke={2.3} />

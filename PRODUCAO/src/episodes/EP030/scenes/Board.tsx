@@ -106,7 +106,7 @@ export const Board: React.FC<SceneProps> = ({ t, tl }) => {
             {CHECKS.map(([k, cue]) => {
               const on = sp(t, c[cue] - 0.05, { damping: 12, stiffness: 210 });
               return (
-                <div key={k} style={{ display: "flex", alignItems: "center", gap: 16, marginTop: 18, padding: "14px 18px", borderRadius: 20, background: on > 0.5 ? "rgba(53,224,161,0.12)" : C.surface2, border: `2px solid ${on > 0.5 ? "rgba(53,224,161,0.5)" : "transparent"}`, transform: `scale(${1 + 0.05 * Math.sin(Math.PI * Math.min(1, on))})` }}>
+                <div key={k} style={{ display: "flex", alignItems: "center", gap: 16, marginTop: 18, padding: "14px 18px", borderRadius: 20, background: on > 0.5 ? "rgba(58,245,132,0.12)" : C.surface2, border: `2px solid ${on > 0.5 ? "rgba(58,245,132,0.5)" : "transparent"}`, transform: `scale(${1 + 0.05 * Math.sin(Math.PI * Math.min(1, on))})` }}>
                   <div style={{ width: 40, height: 40, borderRadius: 12, border: `3px solid ${on > 0.5 ? C.accent : C.dim}`, background: on > 0.5 ? C.accent : "transparent", display: "flex", alignItems: "center", justifyContent: "center", color: C.accentInk, fontWeight: 800, fontSize: 26 }}>{on > 0.5 ? "✓" : ""}</div>
                   <span style={{ fontWeight: 800, fontSize: 36, color: C.text }}>{k}</span>
                 </div>

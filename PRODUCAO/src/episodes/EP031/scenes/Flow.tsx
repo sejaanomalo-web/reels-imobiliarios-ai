@@ -37,7 +37,7 @@ export const Flow: React.FC<SceneProps> = ({ t, tl }) => {
   const headTone = t < c.ten_rule - 0.3 ? "muted" : t < c.ins_def - 0.1 ? "warn" : "accent";
 
   const field = (label: string, empty: boolean, filled: React.ReactNode, p: number, emptyP: number) => (
-    <div style={{ marginTop: 18, padding: "16px 20px", borderRadius: 22, background: C.surface2, border: `2px ${empty ? "dashed" : "solid"} ${empty ? `rgba(255,107,94,${0.4 + 0.5 * pulse})` : "rgba(53,224,161,0.5)"}`, opacity: Math.min(1, Math.max(p, emptyP) * 1.5) }}>
+    <div style={{ marginTop: 18, padding: "16px 20px", borderRadius: 22, background: C.surface2, border: `2px ${empty ? "dashed" : "solid"} ${empty ? `rgba(255,107,94,${0.4 + 0.5 * pulse})` : "rgba(58,245,132,0.5)"}`, opacity: Math.min(1, Math.max(p, emptyP) * 1.5) }}>
       <div style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 21, letterSpacing: "0.1em", color: empty ? C.warn : C.accent }}>{label}</div>
       <div style={{ marginTop: 8, minHeight: 42 }}>{empty ? <span style={{ fontWeight: 800, fontSize: 36, color: C.warn }}>?</span> : filled}</div>
     </div>

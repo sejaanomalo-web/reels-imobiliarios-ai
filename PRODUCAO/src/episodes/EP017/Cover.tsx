@@ -15,7 +15,7 @@ export const EP017Cover: React.FC = () => (
         <div style={{ position: "absolute", left: 14, right: 14, top: "50%", height: 8, borderRadius: 4, background: C.warn }} />
       </div>
       <span style={{ fontWeight: 800, fontSize: 90, color: C.muted }}>→</span>
-      <div style={{ display: "flex", alignItems: "center", gap: 16, padding: "18px 34px", borderRadius: 28, border: `6px solid ${C.accent}`, background: "rgba(7,40,29,0.94)", color: C.accent, fontWeight: 800, fontSize: 90, transform: "rotate(-3deg)", boxShadow: "0 0 90px rgba(53,224,161,0.35)" }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 16, padding: "18px 34px", borderRadius: 28, border: `6px solid ${C.accent}`, background: "rgba(9,40,22,0.94)", color: C.accent, fontWeight: 800, fontSize: 90, transform: "rotate(-3deg)", boxShadow: "0 0 90px rgba(58,245,132,0.35)" }}>
         <IconLens size={80} />
         PISTA
       </div>

@@ -4,7 +4,7 @@ import "../../fonts";
 import { C, F } from "../../theme";
 import { Bg, Grain16, Mark, NEON, Trail } from "./kit";
 
-/** Pôster 1920×1080 (primeiro quadro do player na landing, antes do play). Marca provisória até a logo oficial chegar. */
+/** Pôster 1920×1080 (primeiro quadro do player na landing, antes do play). Logo oficial (LOGO_FILE em kit.tsx). */
 export const LandingPoster: React.FC = () => (
   <AbsoluteFill style={{ backgroundColor: "#020403", fontFamily: F.sans }}>
     <Bg t={0} glow={0.55} />

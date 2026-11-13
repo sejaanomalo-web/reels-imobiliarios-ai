@@ -1,0 +1,64 @@
+{
+ "id": "STORY-ATIVO-02",
+ "title": "Painel e site para o corretor",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.3,
+ "tail": 1.6,
+ "outputDir": "STORIES_NA_PRATICA/STORY-ATIVO-02",
+ "deliverables": {
+  "final": "STORY-ATIVO-02_FINAL.mp4",
+  "narration": "STORY-ATIVO-02_NARRACAO.wav",
+  "subtitles": "STORY-ATIVO-02_legendas.srt",
+  "cover": "STORY-ATIVO-02_capa.png"
+ },
+ "fonte": "STORIES/ROTEIRO_5_STORIES_NA_PRATICA_ATIVO.md",
+ "funcao": "C4 demonstração",
+ "duracao_alvo": "13–17 s",
+ "texto_tela": [
+  "PAINEL PARA ORGANIZAR",
+  "SITE PARA APRESENTAR"
+ ],
+ "assets": [
+  "bruno_painel",
+  "bruno_site"
+ ],
+ "cta": {
+  "type": "nenhum_no_video",
+  "nota": "Story de demonstração; o destaque \"Na prática\" termina no Story 05 com o agendamento."
+ },
+ "status": "AGUARDANDO: narração (voz oficial, 1,0×) e capturas reais autorizadas",
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "painel",
+   "text": "Nesse projeto, o corretor acompanha a própria carteira num painel.",
+   "caption": "Nesse projeto, | o corretor acompanha | a própria *carteira* | num *painel.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "site",
+   "text": "E o comprador encontra os imóveis no site.",
+   "caption": "E o *comprador* | encontra os imóveis | no *site.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "site",
+   "text": "Duas experiências, cada uma com sua função.",
+   "caption": "*Duas experiências,* | cada uma | com sua função.",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {},
+ "hideCaptions": [],
+ "cues": {},
+ "series": {},
+ "sfx": [],
+ "music": {}
+}

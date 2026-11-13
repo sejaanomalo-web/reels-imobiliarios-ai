@@ -6,7 +6,7 @@ import { Background, Grain } from "../../components/Background";
 import { C, F } from "../../theme";
 import { BROKERS } from "./scenes/ui";
 
-/** Capa 1080×1920 — um lead, dois corretores; conteúdo crítico dentro do recorte 3:4 (y 240–1680). Sem logo (identidade ATIVO não fornecida no repositório). */
+/** Capa 1080×1920 — um lead, dois corretores; conteúdo crítico dentro do recorte 3:4 (y 240–1680). Sem logo (produção original sem logo: o arquivo só chegou depois; logo oficial hoje em PRODUCAO/public/brand/ativo_logo.png). */
 export const EP031Cover: React.FC = () => (
   <AbsoluteFill style={{ backgroundColor: C.bg0, fontFamily: F.sans }}>
     <Background t={0} mood={-0.2} />

@@ -29,8 +29,8 @@ const PileCard: React.FC<{ i: number; x: number; y: number; rot: number; feature
       width: 380,
       height: 104,
       borderRadius: 24,
-      background: featured ? "#123A2D" : C.surface2,
-      border: `1px solid ${featured ? "rgba(53,224,161,0.5)" : C.line}`,
+      background: featured ? "#0E3A1F" : C.surface2,
+      border: `1px solid ${featured ? "rgba(58,245,132,0.5)" : C.line}`,
       display: "flex",
       alignItems: "center",
       gap: 16,
@@ -236,11 +236,11 @@ export const Tensao: React.FC<SceneProps> = ({ t, tl }) => {
             height: 452,
             borderRadius: 40,
             background: C.surface2,
-            border: `2px solid rgba(53,224,161,${0.25 + 0.6 * glow})`,
+            border: `2px solid rgba(58,245,132,${0.25 + 0.6 * glow})`,
             overflow: "hidden",
             opacity: Math.min(1, listing * 1.6),
             transform: `translateY(${(1 - listing) * 520}px) rotate(${(1 - listing) * 6}deg)`,
-            boxShadow: `0 40px 90px rgba(0,0,0,0.6), 0 0 ${120 * glow * glowPulse}px rgba(53,224,161,${0.45 * glow})`,
+            boxShadow: `0 40px 90px rgba(0,0,0,0.6), 0 0 ${120 * glow * glowPulse}px rgba(58,245,132,${0.45 * glow})`,
           }}
         >
           <Building w={560} h={300} id="perfeito" hue={1} lit={mix(0.2, 0.85, glow)} />

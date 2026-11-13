@@ -51,7 +51,7 @@ export const S3Pain: React.FC<SceneProps> = ({ t, tl }) => {
   const ab = (1 - phaseD); // A+B+C visíveis até "Porque quando..."
 
   const blur = `blur(${fog * 9}px)`;
-  const content = (sharp: boolean) => (
+  const content = () => (
     <div style={{ position: "absolute", inset: 0 }}>
       {/* A — multidão de clientes */}
       {INI.map((s, i) => {
@@ -100,10 +100,10 @@ export const S3Pain: React.FC<SceneProps> = ({ t, tl }) => {
       >
         {/* A+B+C: borrado fora da lupa, nítido dentro */}
         <div style={{ position: "absolute", inset: 0, opacity: ab }}>
-          <div style={{ position: "absolute", inset: 0, filter: fog > 0.02 ? blur : undefined, opacity: mix(1, 0.75, fog) }}>{content(false)}</div>
+          <div style={{ position: "absolute", inset: 0, filter: fog > 0.02 ? blur : undefined, opacity: mix(1, 0.75, fog) }}>{content()}</div>
           {fog > 0.05 ? (
             <>
-              <div style={{ position: "absolute", inset: 0, clipPath: `circle(${lr}px at ${lx}px ${ly}px)` }}>{content(true)}</div>
+              <div style={{ position: "absolute", inset: 0, clipPath: `circle(${lr}px at ${lx}px ${ly}px)` }}>{content()}</div>
               <div style={{ position: "absolute", left: lx - lr, top: ly - lr, width: lr * 2, height: lr * 2, borderRadius: "50%", border: `6px solid ${NEON}`, boxShadow: "0 0 40px rgba(58,245,132,0.45)", opacity: fog }} />
               <div style={{ position: "absolute", left: lx + lr * 0.7, top: ly + lr * 0.7, width: 26, height: 110, borderRadius: 13, background: NEON, opacity: fog, transform: "rotate(-45deg)", transformOrigin: "50% 0" }} />
             </>

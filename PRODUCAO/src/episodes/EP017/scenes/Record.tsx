@@ -68,7 +68,7 @@ export const Record: React.FC<SceneProps> = ({ t, tl }) => {
           </div>
           {/* campo MOTIVO */}
           <div style={{ height: mix(0, 250, Math.min(1, motivo)), overflow: "hidden" }}>
-            <div style={{ margin: "0 30px 30px", padding: "28px 30px", borderRadius: 28, border: `4px solid rgba(53,224,161,${0.55 + 0.45 * pulse * Math.min(1, motivo)})`, background: "rgba(18,58,45,0.5)", opacity: Math.min(1, motivo * 1.5) }}>
+            <div style={{ margin: "0 30px 30px", padding: "28px 30px", borderRadius: 28, border: `4px solid rgba(58,245,132,${0.55 + 0.45 * pulse * Math.min(1, motivo)})`, background: "rgba(14,58,31,0.5)", opacity: Math.min(1, motivo * 1.5) }}>
               <div style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 26, letterSpacing: "0.12em", color: C.accent }}>MOTIVO · O QUE FUNCIONOU E O QUE NÃO</div>
               <div style={{ marginTop: 18, height: 70, borderRadius: 16, background: "rgba(0,0,0,0.25)", display: "flex", alignItems: "center", padding: "0 24px", fontWeight: 700, fontSize: 34, color: C.dim }}>
                 <span style={{ width: 4, height: 44, background: C.accent, opacity: caret ? 1 : 0, marginRight: 14 }} />

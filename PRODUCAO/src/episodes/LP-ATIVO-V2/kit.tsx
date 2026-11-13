@@ -1,18 +1,16 @@
 import React from "react";
 import { AbsoluteFill, Img, staticFile } from "remotion";
-import { C, F } from "../../theme";
+import { BRAND, C, F } from "../../theme";
 import { ease, mix, prog } from "../../lib/anim";
 
 /**
  * Kit 16:9 do vídeo da landing ATIVO (1920×1080).
  *
- * IDENTIDADE: o arquivo oficial da logo ATIVO NÃO está no repositório. Enquanto LOGO_FILE for null, o vídeo usa um
- * marcador provisório só tipográfico ("ATIVO" em Manrope) e um traço de luz verde genérico no lugar da seta —
- * nenhum dos dois imita o símbolo oficial. Para trocar: salve o SVG/PNG aprovado em PRODUCAO/public/brand/ e aponte
- * LOGO_FILE para ele (ex.: "brand/ativo_logo.svg"); NEON recebe o verde oficial quando ele for informado.
+ * IDENTIDADE (aprovada, MARCA/brand.json): logo oficial em PRODUCAO/public/brand/ativo_logo.png (LOGO_FILE) e verde #3AF584
+ * (BRAND em src/theme.ts). O traço de luz é um elemento de movimento da edição; ele não substitui nem redesenha a seta da logo.
  */
-export const LOGO_FILE: string | null = "brand/ativo_logo.png"; // logo oficial (MARCA/logo), fundo removido
-export const NEON = "#3AF584"; // verde oficial da identidade ATIVO
+export const LOGO_FILE: string | null = BRAND.logo; // logo oficial (MARCA/logo), fundo removido
+export const NEON = BRAND.hex; // verde oficial da identidade ATIVO
 export const W = 1920;
 export const H = 1080;
 export const DEEP = "#03100B"; // verde extremamente escuro
@@ -101,7 +99,7 @@ export const Mark: React.FC<{ size: number; glow?: number; sub?: boolean; reveal
 };
 
 /**
- * Traço de luz verde que percorre uma curva (substitui provisoriamente o movimento da seta oficial; sem ponta de seta).
+ * Traço de luz verde que percorre uma curva (elemento de movimento da edição; sem ponta de seta, não imita a logo).
  * `p` 0→1 desenha; `fade` apaga a cauda. `d` é o caminho SVG em coordenadas 1920×1080.
  */
 export const Trail: React.FC<{ d: string; p: number; len?: number; width?: number; fade?: number; tail?: number }> = ({ d, p, len = 2600, width = 10, fade = 0, tail = 0.45 }) => {

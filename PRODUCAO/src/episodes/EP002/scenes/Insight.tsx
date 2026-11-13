@@ -141,7 +141,7 @@ export const Insight: React.FC<SceneProps> = ({ t, tl }) => {
                     marginRight: 20,
                     opacity: a,
                     transform: `translateY(${(1 - a) * 24}px)`,
-                    color: w.emph ? "#0E7A55" : C.ink,
+                    color: w.emph ? "#1D7A42" : C.ink,
                   }}
                 >
                   {text}
@@ -231,12 +231,12 @@ export const Insight: React.FC<SceneProps> = ({ t, tl }) => {
                     height: 220,
                     boxSizing: "border-box",
                     borderRadius: 32,
-                    background: k === 0 ? C.surface2 : "#123A2D",
-                    border: `2px solid ${k === 1 ? `rgba(53,224,161,${0.3 + 0.5 * glow})` : C.line}`,
+                    background: k === 0 ? C.surface2 : "#0E3A1F",
+                    border: `2px solid ${k === 1 ? `rgba(58,245,132,${0.3 + 0.5 * glow})` : C.line}`,
                     padding: "28px 30px",
                     opacity: Math.min(1, s * 1.5),
                     transform: `translateY(${(1 - Math.min(1, s)) * 50}px) scale(${mix(0.85, 1, Math.min(1, s))})`,
-                    boxShadow: `0 30px 70px rgba(0,0,0,0.5), 0 0 ${80 * glow * k}px rgba(53,224,161,0.3)`,
+                    boxShadow: `0 30px 70px rgba(0,0,0,0.5), 0 0 ${80 * glow * k}px rgba(58,245,132,0.3)`,
                   }}
                 >
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>

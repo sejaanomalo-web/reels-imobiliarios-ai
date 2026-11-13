@@ -95,7 +95,7 @@ export const Life: React.FC<SceneProps> = ({ t, tl }) => {
             return (
               <div key={p.k} style={{ position: "absolute", left: x, top: y, opacity: Math.min(1, a * 1.5), transform: `scale(${mix(0.5, 1, Math.min(1, a))})`, display: "flex", alignItems: "center", gap: 14 }}>
                 <div style={{ width: 52, height: 52, borderRadius: 26, background: C.accent, color: C.accentInk, display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, fontSize: 28, opacity: rank, transform: `scale(${rank})` }}>{r + 1}</div>
-                <div style={{ padding: "14px 26px", borderRadius: 26, background: "rgba(21,24,29,0.96)", border: `2px solid ${rank > 0.5 ? "rgba(53,224,161,0.5)" : C.line}`, fontWeight: 800, fontSize: 36, color: C.text, whiteSpace: "nowrap", boxShadow: "0 18px 40px rgba(0,0,0,0.45)" }}>{p.k}</div>
+                <div style={{ padding: "14px 26px", borderRadius: 26, background: "rgba(21,24,29,0.96)", border: `2px solid ${rank > 0.5 ? "rgba(58,245,132,0.5)" : C.line}`, fontWeight: 800, fontSize: 36, color: C.text, whiteSpace: "nowrap", boxShadow: "0 18px 40px rgba(0,0,0,0.45)" }}>{p.k}</div>
               </div>
             );
           })}
@@ -119,7 +119,7 @@ export const Life: React.FC<SceneProps> = ({ t, tl }) => {
                 <svg width={60} height={20} style={{ opacity: Math.min(1, m * 1.5) }}>
                   <path d="M2 10 H50 M40 2 L52 10 L40 18" fill="none" stroke={C.accent} strokeWidth={4} strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                <div style={{ padding: "8px 18px", borderRadius: 20, background: `rgba(53,224,161,${0.12 + 0.2 * sweep})`, fontFamily: F.mono, fontWeight: 700, fontSize: 26, color: C.accent, whiteSpace: "nowrap", opacity: Math.min(1, m * 1.5), transform: `scale(${mix(0.6, 1, Math.min(1, m))})` }}>{MOTIVE[i]}</div>
+                <div style={{ padding: "8px 18px", borderRadius: 20, background: `rgba(58,245,132,${0.12 + 0.2 * sweep})`, fontFamily: F.mono, fontWeight: 700, fontSize: 26, color: C.accent, whiteSpace: "nowrap", opacity: Math.min(1, m * 1.5), transform: `scale(${mix(0.6, 1, Math.min(1, m))})` }}>{MOTIVE[i]}</div>
               </div>
             );
           })}

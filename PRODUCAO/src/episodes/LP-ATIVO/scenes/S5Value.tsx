@@ -17,7 +17,7 @@ const WH = 860;
 const CW = WW - 230;
 
 const Chip: React.FC<{ text: string; tone: "ok" | "warm" | "cold" | "muted" }> = ({ text, tone }) => {
-  const p = { ok: [NEON, "rgba(53,224,161,0.14)"], warm: ["#E8B86A", "rgba(232,184,106,0.14)"], cold: [C.cold, "rgba(143,180,227,0.14)"], muted: [C.muted, "rgba(255,255,255,0.06)"] }[tone];
+  const p = { ok: [NEON, "rgba(58,245,132,0.14)"], warm: ["#E8B86A", "rgba(232,184,106,0.14)"], cold: [C.cold, "rgba(143,180,227,0.14)"], muted: [C.muted, "rgba(255,255,255,0.06)"] }[tone];
   return <span style={{ padding: "5px 14px", borderRadius: 14, background: p[1], color: p[0], fontFamily: F.mono, fontWeight: 700, fontSize: 18, letterSpacing: "0.04em", whiteSpace: "nowrap" }}>{text}</span>;
 };
 
@@ -87,7 +87,7 @@ export const S5Value: React.FC<SceneProps> = ({ t, tl }) => {
                 const hi = i === 1 ? hiProp : 0;
                 const a = prog(t, c.f_imo - 0.2 + i * 0.07, 0.35, ease.out);
                 return (
-                  <div key={p.n} style={{ borderRadius: 20, overflow: "hidden", background: "#121A17", border: `2px solid ${hi > 0.5 ? NEON : "rgba(255,255,255,0.08)"}`, opacity: a * (i !== 1 ? mix(1, 0.45, hiProp) : 1), transform: `translateY(${(1 - a) * 30}px) scale(${1 + hi * 0.05})`, boxShadow: hi > 0.5 ? "0 0 40px rgba(53,224,161,0.3)" : "none" }}>
+                  <div key={p.n} style={{ borderRadius: 20, overflow: "hidden", background: "#121A17", border: `2px solid ${hi > 0.5 ? NEON : "rgba(255,255,255,0.08)"}`, opacity: a * (i !== 1 ? mix(1, 0.45, hiProp) : 1), transform: `translateY(${(1 - a) * 30}px) scale(${1 + hi * 0.05})`, boxShadow: hi > 0.5 ? "0 0 40px rgba(58,245,132,0.3)" : "none" }}>
                     <div style={{ height: 160, background: "linear-gradient(180deg,#1E2A26,#141C19)", display: "flex", alignItems: "flex-end", justifyContent: "center" }}>
                       <House w={170} h={150} />
                     </div>
@@ -146,8 +146,8 @@ export const S5Value: React.FC<SceneProps> = ({ t, tl }) => {
                 <path d="M 330 300 C 450 300, 470 330, 560 330 S 700 300, 760 300" fill="none" stroke={NEON} strokeWidth={5} strokeDasharray={`${560 * travel} 600`} opacity={0.8} />
               </svg>
               {/* lead viajando */}
-              <div style={{ position: "absolute", left: mix(330, 690, travel), top: 300 + Math.sin(travel * Math.PI) * 30 - 34, opacity: prog(t, c.f_lead + 0.45, 0.2, ease.out) * (1 - prog(travel, 0.92, 0.08, ease.linear)), display: "flex", alignItems: "center", gap: 10, padding: "8px 18px 8px 8px", borderRadius: 30, background: NEON, boxShadow: "0 0 30px rgba(53,224,161,0.6)" }}>
-                <Av s="R" bg="#05261B" size={44} />
+              <div style={{ position: "absolute", left: mix(330, 690, travel), top: 300 + Math.sin(travel * Math.PI) * 30 - 34, opacity: prog(t, c.f_lead + 0.45, 0.2, ease.out) * (1 - prog(travel, 0.92, 0.08, ease.linear)), display: "flex", alignItems: "center", gap: 10, padding: "8px 18px 8px 8px", borderRadius: 30, background: NEON, boxShadow: "0 0 30px rgba(58,245,132,0.6)" }}>
+                <Av s="R" bg="#092614" size={44} />
                 <span style={{ fontWeight: 800, fontSize: 24, color: C.accentInk, whiteSpace: "nowrap" }}>Novo lead</span>
               </div>
               {/* CRM recebendo */}
@@ -167,7 +167,7 @@ export const S5Value: React.FC<SceneProps> = ({ t, tl }) => {
             {/* M4 — assistente */}
             <div style={{ position: "absolute", left: slide(3), top: 0, width: CW, height: WH - 86, padding: 34, boxSizing: "border-box" }}>
               {sent > 0 ? (
-                <div style={{ marginLeft: "auto", width: "fit-content", maxWidth: 620, padding: "18px 26px", borderRadius: 26, borderBottomRightRadius: 8, background: "#123A2D", border: "2px solid rgba(53,224,161,0.4)", fontWeight: 700, fontSize: 30, color: C.text, opacity: sent, transform: `translateY(${(1 - sent) * 20}px)` }}>{Q}</div>
+                <div style={{ marginLeft: "auto", width: "fit-content", maxWidth: 620, padding: "18px 26px", borderRadius: 26, borderBottomRightRadius: 8, background: "#0E3A1F", border: "2px solid rgba(58,245,132,0.4)", fontWeight: 700, fontSize: 30, color: C.text, opacity: sent, transform: `translateY(${(1 - sent) * 20}px)` }}>{Q}</div>
               ) : null}
               {ans[0] > 0 ? (
                 <div style={{ marginTop: 26, width: 680, padding: "22px 28px", borderRadius: 26, borderBottomLeftRadius: 8, background: "#16201C", border: "1px solid rgba(255,255,255,0.1)", opacity: ans[0] }}>
@@ -185,7 +185,7 @@ export const S5Value: React.FC<SceneProps> = ({ t, tl }) => {
                   ))}
                 </div>
               ) : null}
-              <div style={{ position: "absolute", left: 34, right: 34, bottom: 34, height: 84, borderRadius: 42, background: "#16201C", border: `2px solid ${typed > 0 ? "rgba(53,224,161,0.5)" : "rgba(255,255,255,0.1)"}`, display: "flex", alignItems: "center", padding: "0 30px", fontWeight: 700, fontSize: 28, color: sent > 0.5 ? C.dim : C.text }}>
+              <div style={{ position: "absolute", left: 34, right: 34, bottom: 34, height: 84, borderRadius: 42, background: "#16201C", border: `2px solid ${typed > 0 ? "rgba(58,245,132,0.5)" : "rgba(255,255,255,0.1)"}`, display: "flex", alignItems: "center", padding: "0 30px", fontWeight: 700, fontSize: 28, color: sent > 0.5 ? C.dim : C.text }}>
                 {sent > 0.5 ? "Pergunte ao assistente…" : Q.slice(0, typed)}
                 {sent <= 0.5 ? <span style={{ width: 3, height: 34, marginLeft: 4, background: NEON, opacity: caret ? 1 : 0 }} /> : null}
               </div>

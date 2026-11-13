@@ -20,7 +20,7 @@ export const timeline = timelineJson as Timeline;
 
 /** ATIVO · Episódio 02 — "Cinco aberturas que dão um motivo para ver o imóvel". Roteiro do cliente (ROTEIROS/ATIVO_EP02.md),
  *  voz original aprovada em 1,0×; CTA de comentário COMENTE "SISTEMA" → Direct (pedido do cliente, no lugar de "Salve este Reel").
- *  Sem logo: arquivo oficial não está no repositório. */
+ *  Sem logo (produção original sem logo: o arquivo só chegou depois; logo oficial hoje em PRODUCAO/public/brand/ativo_logo.png). */
 export const ATIVO02: React.FC<{ withAudio?: boolean }> = ({ withAudio = true }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();

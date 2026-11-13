@@ -37,8 +37,8 @@ const Bubble: React.FC<{
         borderRadius: 34,
         borderBottomLeftRadius: side === "in" ? 10 : 34,
         borderBottomRightRadius: side === "out" ? 10 : 34,
-        background: side === "in" ? C.surface2 : "#123A2D",
-        border: `1px solid ${side === "in" ? C.line : "rgba(53,224,161,0.28)"}`,
+        background: side === "in" ? C.surface2 : "#0E3A1F",
+        border: `1px solid ${side === "in" ? C.line : "rgba(58,245,132,0.28)"}`,
         opacity: Math.min(1, s * 1.6),
         transformOrigin: side === "in" ? "0% 100%" : "100% 100%",
         transform: `translateY(${(1 - s) * 34}px) scale(${mix(0.86, 1, s)})`,
@@ -185,7 +185,7 @@ export const Situacao: React.FC<SceneProps> = ({ t, tl }) => {
             <span
               style={{
                 color: tag > 0 ? C.accentInk : C.text,
-                background: `rgba(53,224,161,${tag})`,
+                background: `rgba(58,245,132,${tag})`,
                 borderRadius: 10,
                 padding: "0 10px",
                 fontWeight: 800,
@@ -199,7 +199,7 @@ export const Situacao: React.FC<SceneProps> = ({ t, tl }) => {
 
         {/* 2. opções enviadas */}
         <Bubble t={t} at={c.sit_listings} y={330} w={624} h={302} side="out" pad={22}>
-          <div style={{ fontWeight: 700, fontSize: 26, color: "#BFF3DF", marginBottom: 14 }}>Separei estas opções:</div>
+          <div style={{ fontWeight: 700, fontSize: 26, color: "#CEFCE0", marginBottom: 14 }}>Separei estas opções:</div>
           <div style={{ display: "flex", gap: 20 }}>
             <Listing t={t} at={c.sit_listings + 0.12} id="a" hue={0} label="2 qts · 68 m²" />
             <Listing t={t} at={c.sit_listings + 0.26} id="b" hue={1} label="2 qts · 74 m²" />
@@ -250,7 +250,7 @@ export const Situacao: React.FC<SceneProps> = ({ t, tl }) => {
             height: 78,
             borderRadius: 34,
             borderBottomRightRadius: 10,
-            background: "#123A2D",
+            background: "#0E3A1F",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",

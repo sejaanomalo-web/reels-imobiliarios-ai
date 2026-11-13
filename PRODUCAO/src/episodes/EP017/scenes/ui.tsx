@@ -5,7 +5,7 @@ import { C, F } from "../../../theme";
 export const LEAD = { name: "Renata M.", ini: "RM", bg: "#6A5A8C" };
 
 export const Tag: React.FC<{ text: string; tone: "warn" | "accent" | "muted"; size?: number; style?: React.CSSProperties }> = ({ text, tone, size = 24, style }) => {
-  const p = { warn: [C.warn, "rgba(255,107,94,0.14)"], accent: [C.accent, "rgba(53,224,161,0.14)"], muted: [C.muted, C.surface3] }[tone];
+  const p = { warn: [C.warn, "rgba(255,107,94,0.14)"], accent: [C.accent, "rgba(58,245,132,0.14)"], muted: [C.muted, C.surface3] }[tone];
   return (
     <span style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: `${size * 0.3}px ${size * 0.6}px`, borderRadius: size * 0.5, background: p[1], color: p[0], fontFamily: F.mono, fontWeight: 700, fontSize: size, letterSpacing: "0.06em", whiteSpace: "nowrap", ...style }}>
       {text}
@@ -35,8 +35,8 @@ export const Bubble: React.FC<{ tone: "gray" | "green"; children: React.ReactNod
       borderRadius: 34,
       borderBottomRightRadius: 10,
       padding: `${size * 0.55}px ${size * 0.75}px`,
-      background: tone === "gray" ? "#2A2F37" : "#123A2D",
-      border: `2px solid ${tone === "gray" ? "rgba(255,255,255,0.12)" : "rgba(53,224,161,0.4)"}`,
+      background: tone === "gray" ? "#2A2F37" : "#0E3A1F",
+      border: `2px solid ${tone === "gray" ? "rgba(255,255,255,0.12)" : "rgba(58,245,132,0.4)"}`,
       color: tone === "gray" ? "#C3C8D0" : C.text,
       fontFamily: F.sans,
       fontWeight: 700,
@@ -71,7 +71,7 @@ export const Mark: React.FC<{ ok: boolean; size?: number }> = ({ ok, size = 52 }
 
 /** Etiqueta com selo ✓/✕ que entra por mola. */
 export const Verdict: React.FC<{ ok: boolean; text: string; p: number; size?: number; style?: React.CSSProperties }> = ({ ok, text, p, size = 34, style }) => (
-  <div style={{ display: "inline-flex", alignItems: "center", gap: 14, padding: "12px 24px 12px 12px", borderRadius: 40, background: ok ? "rgba(18,58,45,0.92)" : "rgba(58,24,22,0.92)", border: `2px solid ${ok ? "rgba(53,224,161,0.5)" : "rgba(255,107,94,0.5)"}`, opacity: Math.min(1, p * 1.6), transform: `scale(${0.6 + 0.4 * Math.min(1.08, p)})`, boxShadow: "0 18px 40px rgba(0,0,0,0.45)", whiteSpace: "nowrap", ...style }}>
+  <div style={{ display: "inline-flex", alignItems: "center", gap: 14, padding: "12px 24px 12px 12px", borderRadius: 40, background: ok ? "rgba(14,58,31,0.92)" : "rgba(58,24,22,0.92)", border: `2px solid ${ok ? "rgba(58,245,132,0.5)" : "rgba(255,107,94,0.5)"}`, opacity: Math.min(1, p * 1.6), transform: `scale(${0.6 + 0.4 * Math.min(1.08, p)})`, boxShadow: "0 18px 40px rgba(0,0,0,0.45)", whiteSpace: "nowrap", ...style }}>
     <Mark ok={ok} size={size * 1.5} />
     <span style={{ fontFamily: F.sans, fontWeight: 800, fontSize: size, color: C.text, letterSpacing: "-0.01em" }}>{text}</span>
   </div>

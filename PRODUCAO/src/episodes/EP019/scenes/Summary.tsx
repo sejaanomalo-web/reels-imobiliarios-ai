@@ -39,7 +39,7 @@ export const Summary: React.FC<SceneProps> = ({ t, tl }) => {
         ]}
       >
         {/* o áudio de 3:00 */}
-        <div style={{ position: "absolute", left: 160, top: 290, width: 760, height: 130, boxSizing: "border-box", borderRadius: 36, borderBottomRightRadius: 10, background: "#123A2D", border: "2px solid rgba(53,224,161,0.35)", display: "flex", alignItems: "center", gap: 18, padding: "0 30px", opacity: Math.min(1, audio * 1.5) * mix(1, 0.55, squeeze), transform: `translateY(${(1 - Math.min(1, audio)) * -60}px)` }}>
+        <div style={{ position: "absolute", left: 160, top: 290, width: 760, height: 130, boxSizing: "border-box", borderRadius: 36, borderBottomRightRadius: 10, background: "#0E3A1F", border: "2px solid rgba(58,245,132,0.35)", display: "flex", alignItems: "center", gap: 18, padding: "0 30px", opacity: Math.min(1, audio * 1.5) * mix(1, 0.55, squeeze), transform: `translateY(${(1 - Math.min(1, audio)) * -60}px)` }}>
           <div style={{ width: 70, height: 70, borderRadius: 35, background: C.accent, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
             <IconPlay size={36} color={C.accentInk} />
           </div>
@@ -55,7 +55,7 @@ export const Summary: React.FC<SceneProps> = ({ t, tl }) => {
           <path d="M540 440 V510" stroke={C.accent} strokeWidth={5} strokeLinecap="round" strokeDasharray={`${80 * squeeze} 100`} />
         </svg>
         {/* resumo */}
-        <div style={{ position: "absolute", left: 110, top: 530, width: 860, boxSizing: "border-box", borderRadius: 40, borderBottomRightRadius: 12, background: "#123A2D", border: "2px solid rgba(53,224,161,0.55)", padding: "32px 36px", opacity: Math.min(1, card * 1.5), transform: `translateY(${(1 - Math.min(1, card)) * 60}px) scale(${mix(0.3, 1, Math.min(1, card))})`, transformOrigin: "50% 0", boxShadow: "0 40px 90px rgba(0,0,0,0.5)" }}>
+        <div style={{ position: "absolute", left: 110, top: 530, width: 860, boxSizing: "border-box", borderRadius: 40, borderBottomRightRadius: 12, background: "#0E3A1F", border: "2px solid rgba(58,245,132,0.55)", padding: "32px 36px", opacity: Math.min(1, card * 1.5), transform: `translateY(${(1 - Math.min(1, card)) * 60}px) scale(${mix(0.3, 1, Math.min(1, card))})`, transformOrigin: "50% 0", boxShadow: "0 40px 90px rgba(0,0,0,0.5)" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
             <span style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 24, letterSpacing: "0.12em", color: C.accent }}>RESUMO DO ÁUDIO</span>
             <Tag text="DADOS FICTÍCIOS" tone="muted" size={16} />

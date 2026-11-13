@@ -32,9 +32,9 @@ export const Routes: React.FC<SceneProps> = ({ t, tl }) => {
   const glowR = Math.max(Math.min(1, help), both);
 
   const card = (b: typeof L, p: number, glow: number, title: string, icon: React.ReactNode, body: React.ReactNode) => (
-    <div style={{ position: "absolute", left: b.x, top: b.y, width: b.w, height: b.h, boxSizing: "border-box", borderRadius: 36, background: C.surface, border: `3px solid ${glow > 0.5 ? C.accent : C.line}`, padding: "28px 30px", opacity: Math.min(1, p * 1.5), transform: `translateY(${(1 - Math.min(1, p)) * 80}px) scale(${mix(0.85, 1, Math.min(1, p))})`, boxShadow: `0 40px 90px rgba(0,0,0,0.55), 0 0 ${80 * glow}px rgba(53,224,161,${0.22 * glow})` }}>
+    <div style={{ position: "absolute", left: b.x, top: b.y, width: b.w, height: b.h, boxSizing: "border-box", borderRadius: 36, background: C.surface, border: `3px solid ${glow > 0.5 ? C.accent : C.line}`, padding: "28px 30px", opacity: Math.min(1, p * 1.5), transform: `translateY(${(1 - Math.min(1, p)) * 80}px) scale(${mix(0.85, 1, Math.min(1, p))})`, boxShadow: `0 40px 90px rgba(0,0,0,0.55), 0 0 ${80 * glow}px rgba(58,245,132,${0.22 * glow})` }}>
       <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-        <div style={{ width: 70, height: 70, borderRadius: 22, background: "rgba(53,224,161,0.14)", display: "flex", alignItems: "center", justifyContent: "center" }}>{icon}</div>
+        <div style={{ width: 70, height: 70, borderRadius: 22, background: "rgba(58,245,132,0.14)", display: "flex", alignItems: "center", justifyContent: "center" }}>{icon}</div>
         <span style={{ fontWeight: 800, fontSize: 38, lineHeight: 1.05, color: C.text }}>{title}</span>
       </div>
       <div style={{ marginTop: 24 }}>{body}</div>

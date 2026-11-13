@@ -17,7 +17,7 @@ export const timeline = timelineJson as Timeline;
 
 /** Vídeo da landing ATIVO v2 — 1920×1080, 30 fps. Voz aprovada acelerada a 1,2× (pedido do cliente), cortes de frases redundantes,
  *  texto grande = transcrição da fala (KCap).
- *  Interfaces ILUSTRATIVAS e marca provisória (logo oficial e telas reais não estão no repositório) — ver kit.tsx. */
+ *  Interfaces ILUSTRATIVAS (não há telas reais do sistema no repositório); logo oficial — ver kit.tsx. */
 export const LandingAtivoV2: React.FC<{ withAudio?: boolean }> = ({ withAudio = true }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();

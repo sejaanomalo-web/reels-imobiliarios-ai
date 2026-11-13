@@ -1,5 +1,13 @@
 # Guia de melhoria contínua
 
+> ## Identidade e processo editorial — 13/11/2026 (vale para todo material novo)
+>
+> - **Marca ATIVO aprovada:** logo oficial (`MARCA/logo/`, render `PRODUCAO/public/brand/ativo_logo.png`) e verde **`#3AF584`**. Regras: `MARCA/DIRETRIZ_IDENTIDADE_VISUAL_ATIVO.md`. No código, use `BRAND` / `brandAlpha()` de `PRODUCAO/src/theme.ts`; nunca escreva o RGB do verde à mão. `#35E0A1`/`rgba(53,224,161,…)` foram o verde-água do piloto e saíram do código em 13/11/2026 (OUTPUT/ histórico não foi re-renderizado).
+> - **Guia editorial:** `PROMPTS/GUIA_EDITORIAL_GANCHOS_RETENCAO_CTAS_ATIVO.md`. Antes de roteirizar, registrar o diagnóstico do episódio (público e situação, motivação, crença, hipótese, função C1–C5, promessa, evidências, CTA e destino). CTA é **por episódio** — não padronizar em lote nem alterar CTAs já aprovadas.
+> - **Checagem automática:** `python3 PRODUCAO/tools/editorial_check.py <EP>` aponta CTA/destino ausente, promessas não comprovadas ("garantido", "triplicar", "em X dias", depoimento), fonte pequena para 40+, verde divergente, interface ilustrativa sem rótulo e texto fora da área segura. Revisar o que ele apontar antes do render.
+> - **Processo comercial real:** call de diagnóstico → definição → desenvolvimento do sistema personalizado. Não dizer que o sistema é "apresentado/demonstrado" antes de existir.
+> - **Exceção registrada:** vídeo da landing (`LP-ATIVO-V3`): 1,1× e transcrição completa na tela por pedido do cliente (13/11/2026). Não generalizar para Reels/Stories, que seguem 1,0× e destaque de 3–8 palavras.
+
 > ## ⚠️ DECISÃO VIGENTE — 11/11/2026, a partir do EP015 (prevalece sobre tudo abaixo)
 >
 > **Narração em velocidade normal (1,0×) com a identidade vocal original aprovada.**

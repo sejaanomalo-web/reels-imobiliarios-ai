@@ -10,7 +10,7 @@ export const EP015Cover: React.FC = () => (
     <Background t={0} mood={0.3} />
     <div style={{ position: "absolute", left: 120, top: 430, width: 840, height: 250, boxSizing: "border-box", borderRadius: 64, borderTopLeftRadius: 16, background: C.surface2, border: `2px solid ${C.line}`, display: "flex", alignItems: "center", paddingLeft: 64, fontWeight: 800, fontSize: 132, letterSpacing: "-0.04em", color: C.text, boxShadow: "0 40px 90px rgba(0,0,0,0.6)" }}>
       Obrigado
-      <span style={{ display: "inline-flex", flexShrink: 0, width: 140, height: 140, borderRadius: 70, marginLeft: 18, background: C.accent, color: C.accentInk, alignItems: "center", justifyContent: "center", fontSize: 120, boxShadow: "0 0 90px rgba(53,224,161,0.5)" }}>?</span>
+      <span style={{ display: "inline-flex", flexShrink: 0, width: 140, height: 140, borderRadius: 70, marginLeft: 18, background: C.accent, color: C.accentInk, alignItems: "center", justifyContent: "center", fontSize: 120, boxShadow: "0 0 90px rgba(58,245,132,0.5)" }}>?</span>
     </div>
     <div style={{ position: "absolute", left: 80, right: 80, top: 860, textAlign: "center" }}>
       <div style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 30, letterSpacing: "0.16em", color: C.accent }}>ATENDIMENTO</div>

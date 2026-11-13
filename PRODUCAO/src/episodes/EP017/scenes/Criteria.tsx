@@ -64,14 +64,14 @@ export const Criteria: React.FC<SceneProps> = ({ t, tl }) => {
           </div>
         ))}
         {/* critérios registrados → filtros */}
-        <div style={{ position: "absolute", left: 70, top: mix(720, 640, reg), width: 940, boxSizing: "border-box", borderRadius: 32, background: C.surface2, border: `2px solid ${reg > 0.5 ? "rgba(53,224,161,0.5)" : C.line}`, padding: "22px 26px", opacity: reg, boxShadow: "0 30px 80px rgba(0,0,0,0.5)" }}>
+        <div style={{ position: "absolute", left: 70, top: mix(720, 640, reg), width: 940, boxSizing: "border-box", borderRadius: 32, background: C.surface2, border: `2px solid ${reg > 0.5 ? "rgba(58,245,132,0.5)" : C.line}`, padding: "22px 26px", opacity: reg, boxShadow: "0 30px 80px rgba(0,0,0,0.5)" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
             <IconLens size={36} />
             <span style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 24, letterSpacing: "0.1em", color: C.accent }}>CRITÉRIOS REGISTRADOS = FILTROS</span>
           </div>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 14, marginTop: 16 }}>
             {FILTERS.map((f, i) => (
-              <span key={f} style={{ padding: "12px 22px", borderRadius: 26, background: "rgba(53,224,161,0.14)", border: "2px solid rgba(53,224,161,0.45)", color: C.text, fontWeight: 800, fontSize: 30, opacity: Math.min(1, chips[i] * 1.5), transform: `scale(${mix(0.5, 1, Math.min(1.08, chips[i]))})`, display: "inline-block" }}>
+              <span key={f} style={{ padding: "12px 22px", borderRadius: 26, background: "rgba(58,245,132,0.14)", border: "2px solid rgba(58,245,132,0.45)", color: C.text, fontWeight: 800, fontSize: 30, opacity: Math.min(1, chips[i] * 1.5), transform: `scale(${mix(0.5, 1, Math.min(1.08, chips[i]))})`, display: "inline-block" }}>
                 {f}
               </span>
             ))}
@@ -83,12 +83,12 @@ export const Criteria: React.FC<SceneProps> = ({ t, tl }) => {
           const pass = o.ok ? Math.min(1, win) : 0;
           const dim = o.ok ? 0 : apply;
           return (
-            <div key={o.name} style={{ position: "absolute", left: x, top: 920, width: 290, height: 330, boxSizing: "border-box", borderRadius: 30, overflow: "hidden", background: C.surface, border: `${o.ok ? 3 : 1}px solid ${pass > 0.5 ? C.accent : C.line}`, opacity: Math.min(1, cards[i] * 1.5) * mix(1, 0.35, dim), transform: `translateY(${(1 - Math.min(1, cards[i])) * 120 + dim * 20}px) scale(${1 + 0.05 * pass})`, boxShadow: pass > 0 ? `0 30px 80px rgba(0,0,0,0.5), 0 0 ${80 * pass}px rgba(53,224,161,0.3)` : "0 30px 80px rgba(0,0,0,0.5)" }}>
+            <div key={o.name} style={{ position: "absolute", left: x, top: 920, width: 290, height: 330, boxSizing: "border-box", borderRadius: 30, overflow: "hidden", background: C.surface, border: `${o.ok ? 3 : 1}px solid ${pass > 0.5 ? C.accent : C.line}`, opacity: Math.min(1, cards[i] * 1.5) * mix(1, 0.35, dim), transform: `translateY(${(1 - Math.min(1, cards[i])) * 120 + dim * 20}px) scale(${1 + 0.05 * pass})`, boxShadow: pass > 0 ? `0 30px 80px rgba(0,0,0,0.5), 0 0 ${80 * pass}px rgba(58,245,132,0.3)` : "0 30px 80px rgba(0,0,0,0.5)" }}>
               <div style={{ height: 150, background: C.surface2, display: "flex", alignItems: "flex-end", justifyContent: "center", overflow: "hidden" }}>
                 <House w={200} h={140} />
               </div>
               {/* varredura do filtro */}
-              {apply > 0 && apply < 1 ? <div style={{ position: "absolute", left: 0, right: 0, top: scan * 330, height: 6, background: "rgba(53,224,161,0.6)" }} /> : null}
+              {apply > 0 && apply < 1 ? <div style={{ position: "absolute", left: 0, right: 0, top: scan * 330, height: 6, background: "rgba(58,245,132,0.6)" }} /> : null}
               <div style={{ padding: "18px 20px" }}>
                 <div style={{ fontWeight: 800, fontSize: 34, color: C.text }}>{o.name}</div>
                 <div style={{ display: "flex", alignItems: "center", gap: 10, marginTop: 12, opacity: o.ok ? Math.min(1, apply * 1.5) : apply }}>

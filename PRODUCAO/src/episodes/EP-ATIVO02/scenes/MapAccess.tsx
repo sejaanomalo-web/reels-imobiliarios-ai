@@ -84,7 +84,7 @@ export const MapAccess: React.FC<SceneProps> = ({ t, tl }) => {
             <div style={{ position: "absolute", left: HOME.x - 30, top: HOME.y - 78, opacity: Math.min(1, home * 1.5), transform: `translateY(${(1 - Math.min(1, home)) * -80}px)` }}>
               <Pin size={60} color={C.accent} />
             </div>
-            <div style={{ position: "absolute", left: HOME.x - 60, top: HOME.y + 10, display: "flex", alignItems: "center", gap: 8, padding: "6px 14px", borderRadius: 18, background: "rgba(18,58,45,0.95)", border: "2px solid rgba(53,224,161,0.5)", opacity: Math.min(1, addr * 1.5), transform: `scale(${mix(0.6, 1, Math.min(1, addr))})` }}>
+            <div style={{ position: "absolute", left: HOME.x - 60, top: HOME.y + 10, display: "flex", alignItems: "center", gap: 8, padding: "6px 14px", borderRadius: 18, background: "rgba(14,58,31,0.95)", border: "2px solid rgba(58,245,132,0.5)", opacity: Math.min(1, addr * 1.5), transform: `scale(${mix(0.6, 1, Math.min(1, addr))})` }}>
               <IconHome size={26} color={C.accent} />
               <span style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 22, color: C.text }}>ESTE ENDEREÇO</span>
             </div>

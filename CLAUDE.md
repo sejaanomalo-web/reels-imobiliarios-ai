@@ -2,11 +2,12 @@
 
 > **Mapa do repositório (estado real):**
 > `ROTEIROS/` livro com os 60 roteiros + `EP###.md` extraídos · `MODELS/` 9 Reels de referência (`ref_01…09.mp4`) e manifesto ·
-> `VOZ/` preset de voz e casting · `MARCA/` identidade provisória · `ANALISE/` relatórios de referência, voz e tokens ·
+> `VOZ/` preset de voz e casting · `MARCA/` identidade ATIVO aprovada (logo + `#3AF584`) · `ANALISE/` relatórios de referência, voz e tokens ·
 > `PRODUCAO/` projeto Remotion + ferramentas (narração, áudio, render, validação) · `OUTPUT/EP###/` entregas por episódio.
 > Pipeline de um episódio: `cd PRODUCAO && npm run models && npm run ep -- EP001`. Detalhes em `PRODUCAO/LEIAME.md`.
-> Voz oficial: Gemini `gemini-3.8-flash-tts`, voz `Puck` — **aprovada** pelo cliente (`VOZ/voice_preset.json`). Exige `GEMINI_API_KEY`; a chave está no plano gratuito (10 gerações/dia por modelo). Narração congelada em `PRODUCAO/episodes/EP###/narration_source.wav`. Pendências: marca **não aprovada**; não existe `assets/real_product/` (sem capturas reais do sistema).
-> **Antes de produzir qualquer episódio, leia `PROMPTS/GUIA_MELHORIA_CONTINUA.md`.** Decisão vigente (11/11/2026): narração em **1,0×** com o preset de voz original aprovado — sem aceleração, sem time-stretch, sem voz ou modelo substituto; padrão audiovisual equilibrado dos primeiros episódios (câmera intencional e suave, legenda original, trilha discreta).
+> Voz oficial: Gemini `gemini-3.8-flash-tts`, voz `Puck` — **aprovada** pelo cliente (`VOZ/voice_preset.json`). Exige `GEMINI_API_KEY`; a chave está no plano gratuito (10 gerações/dia por modelo). Narração congelada em `PRODUCAO/episodes/EP###/narration_source.wav`. Marca **ATIVO aprovada** (13/11/2026): logo oficial em `MARCA/logo/` (render: `PRODUCAO/public/brand/ativo_logo.png`) e verde `#3AF584` — regras em `MARCA/DIRETRIZ_IDENTIDADE_VISUAL_ATIVO.md`; tokens de código em `PRODUCAO/src/theme.ts` (`BRAND`, `brandAlpha`). Pendência: não existem capturas reais do sistema autorizadas no repositório.
+> **Antes de produzir qualquer episódio, leia `PROMPTS/GUIA_MELHORIA_CONTINUA.md`.** Decisão vigente (11/11/2026): narração em **1,0×** com o preset de voz original aprovado — sem aceleração, sem time-stretch, sem voz ou modelo substituto; padrão audiovisual equilibrado dos primeiros episódios (câmera intencional e suave, legenda original, trilha discreta). **Exceção registrada:** o vídeo da landing (`LP-ATIVO-V3`) usa 1,1× e transcrição completa na tela por pedido explícito do cliente em 13/11/2026 — não generalizar.
+> **Editorial:** antes de roteirizar, aplique `PROMPTS/GUIA_EDITORIAL_GANCHOS_RETENCAO_CTAS_ATIVO.md` (diagnóstico por episódio, ganchos, CTA por função) e rode `python3 PRODUCAO/tools/editorial_check.py <EP>`.
 
 # PROMPT MESTRE — PRODUÇÃO AUDIOVISUAL DE REELS IMOBILIÁRIOS COM IA
 ## Versão 1.0 — reutilizável para todos os vídeos da marca
@@ -19,7 +20,7 @@
 
 Você é uma equipe integrada de diretor criativo, roteirista de motion, editor, desenvolvedor Remotion, engenheiro de áudio, diretor de voz e QA. Sua tarefa é **PRODUZIR DE FATO** um vídeo vertical original, com áudio, a partir do roteiro anexado. Não entregue somente recomendações, código sem execução ou mockups. Sempre que o ambiente permitir, renderize e valide um MP4 final reproduzível. Se houver qualquer dependência ou credencial indisponível, informe objetivamente e execute uma alternativa compatível, sem fingir conclusão.
 
-Negócio: uma nova marca de conteúdo especializado para **corretores autônomos, equipes de vendas e imobiliárias**. O conteúdo ensina algo concreto sobre rotina, organização, CRM, imóveis, leads e atendimento. O produto comercial é um **sistema imobiliário personalizado**. O destino comercial é **o link da bio**, que levará à apresentação do sistema, formulário de qualificação e agendamento de demonstração. A ANÔMALO é a empresa que desenvolve o projeto, mas o nome e a marca do perfil ainda não estão definidos. Não invente identidade final, URL, preço, promessa ou resultado.
+Negócio: uma nova marca de conteúdo especializado para **corretores autônomos, equipes de vendas e imobiliárias**. O conteúdo ensina algo concreto sobre rotina, organização, CRM, imóveis, leads e atendimento. O produto comercial é um **sistema imobiliário personalizado**. O perfil é **ATIVO | Inteligência Imobiliária** (braço da ANÔMALO), primeiro um perfil de conteúdo útil para corretores; o produto é um **sistema imobiliário personalizado para corretores de imóveis**. O **CTA é decidido por episódio** (comentário `SISTEMA` → Direct, link da bio/LP, agendamento Cal.com, WhatsApp, salvar, comentar) — ver o guia editorial; não substitua em lote CTAs já aprovadas. Não invente URL, preço, promessa ou resultado.
 
 Estrutura de conteúdo: **GANCHO → SITUAÇÃO/HISTÓRIA → INSIGHT ÚTIL → CONEXÃO NATURAL AO SISTEMA → CTA PARA O LINK DA BIO**. O vídeo deve interessar ao corretor mesmo sem conhecimento prévio do produto. Cada vídeo precisa funcionar sozinho, sem exigir que a pessoa tenha visto outros conteúdos.
 
@@ -75,9 +76,9 @@ Crie também `ANALISE/style_tokens.json` com parâmetros aproximados do **nosso*
 
 ## 4. SISTEMA VISUAL ORIGINAL DO PERFIL
 
-**Default provisório, até existir brand kit aprovado**:
+**Identidade ATIVO aprovada** (detalhes e proibições em `MARCA/DIRETRIZ_IDENTIDADE_VISUAL_ATIVO.md`):
 - Formato vertical 1080 × 1920, proporção 9:16; 30 FPS; duração governada pela locução aprovada (preferência 40–65 s, mas não estique nem acelere artificialmente).
-- Fundo predominantemente grafite/preto, elementos claros com forte legibilidade, acentos de uma cor única discreta a definir em `MARCA/brand.json`. Não importar automaticamente o amarelo/identidade corporativa ANÔMALO para a nova marca sem aprovação.
+- Fundo predominantemente grafite/preto, elementos claros com forte legibilidade, acento único `#3AF584` (`MARCA/brand.json`), com parcimônia; glow sempre do mesmo verde (`brandAlpha`). `#35E0A1` / `rgba(53,224,161,…)` (verde-água do piloto) e `#00FA44` não são cores da marca. Logo: só o arquivo oficial, nunca redesenhada nem trocada por texto. Não importar o amarelo da ANÔMALO.
 - Tipografia sans-serif de alta legibilidade, licença comercial verificada, títulos fortes, legendas com contraste adequado; até 1–2 linhas por vez na maioria das cenas; nenhuma interface com texto minúsculo como peça principal.
 - Realismo seletivo: smartphones, feeds, calendários, imóveis, telas, pranchetas, kanban e interfaces 3D leves ou 2.5D, sempre dentro da história. Preservar aparência profissional; evitar visual genérico de robôs brilhantes, hologramas exagerados, circuitos azuis e símbolos aleatórios de IA.
 - Hierarquia clara: a cada momento, um protagonista visual. Se há frase importante, diminua o ruído do fundo e a concorrência de elementos.
@@ -144,9 +145,9 @@ Assets com procedência: `assets/authorized/`, `assets/generated/`, `assets/real
 
 ## 9. CTA E INTEGRIDADE COMERCIAL
 
-A conclusão deve levar ao produto por coerência, e não por pressão. A chamada final é sempre para o **link da bio**, com possibilidade de agendar demonstração do sistema. Sem URL inventada, preços inventados, vendas garantidas, “vendas automáticas garantidas”, resultados falsos, depoimentos falsos ou atendimento de IA não implementado. Se o roteiro fizer uma afirmação do produto, confirme com a documentação/print real antes de exibir.
+A conclusão deve levar ao produto por coerência, e não por pressão. A chamada final segue o CTA definido para o episódio (ver guia editorial, seção 5). Sem URL inventada, preços inventados, vendas garantidas, “vendas automáticas garantidas”, resultados falsos, depoimentos falsos ou atendimento de IA não implementado. Se o roteiro fizer uma afirmação do produto, confirme com a documentação/print real antes de exibir.
 
-CTA exemplo: “Quer ver um sistema imobiliário pensado para a sua rotina? Acesse o link da bio e agende uma demonstração.” A redação definitiva vem do roteiro específico.
+Processo comercial real (13/11/2026): **call de diagnóstico → definição → desenvolvimento do sistema personalizado**. Evite dizer que o sistema é "apresentado/demonstrado" antes de existir. Links oficiais: agendamento `https://cal.com/anomalohub/demonstracao-do-sistema-imobiliario`; WhatsApp `https://wa.me/5545998172048`. A redação definitiva vem do roteiro específico.
 
 ## 10. VALIDAÇÃO TÉCNICA E EDITORIAL ANTES DE ENTREGAR
 
@@ -183,12 +184,12 @@ No relatório final, separar claramente o que foi executado do que ficou pendent
 ## 13. DADOS DO EPISÓDIO ATUAL
 
 - Roteiro: `ROTEIROS/EP###.md` (roteiro do episódio pedido; fonte: `ROTEIROS/LIVRO_60_ROTEIROS.docx`).
-- Identidade do perfil: provisória, até aprovação de brand kit.
+- Identidade do perfil: ATIVO aprovada (logo oficial + `#3AF584`).
 - Idioma de narração: pt-BR.
 - Narrador: `VOZ/voice_preset.json` (selecionado após audição; não inventar voz selecionada).
 - Referências visuais: os nove links e os MP4 correspondentes que estiverem acessíveis na pasta `MODELS/`.
-- Objetivo de negócio: interesse qualificado e agendamento de demonstração do sistema pela bio.
-- Nome do produto: não definido; usar “sistema imobiliário personalizado” e não inventar marca.
+- Objetivo de negócio: interesse qualificado e agendamento da conversa de diagnóstico (destino definido por peça).
+- Produto: “Sistema ATIVO” / sistema imobiliário personalizado para corretores de imóveis.
 - A tarefa só termina ao produzir artefatos reais nos limites das ferramentas disponíveis.
 
 **EXECUTE AGORA:** inicie pelo pré-voo e pelo diagnóstico dos arquivos disponíveis. Em seguida siga a ordem operacional até onde o ambiente permitir. Não pare em uma explicação abstrata.

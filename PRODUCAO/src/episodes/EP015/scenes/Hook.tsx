@@ -89,7 +89,7 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
           height: dotSize,
           borderRadius: dotSize,
           background: mix(0, 1, toQ) > 0.5 ? C.accent : C.text,
-          boxShadow: `0 0 ${140 * grow}px rgba(53,224,161,${0.45 * grow})`,
+          boxShadow: `0 0 ${140 * grow}px rgba(58,245,132,${0.45 * grow})`,
           display: "flex",
           alignItems: "center",
           justifyContent: "center",

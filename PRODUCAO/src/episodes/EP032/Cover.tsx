@@ -5,7 +5,7 @@ import { Background, Grain } from "../../components/Background";
 import { C, F } from "../../theme";
 import { Mark } from "./scenes/ui";
 
-/** Capa 1080×1920 — grade de leads com e sem retorno; conteúdo crítico dentro do recorte 3:4 (y 240–1680). Sem logo (símbolo ATIVO não está no repositório). */
+/** Capa 1080×1920 — grade de leads com e sem retorno; conteúdo crítico dentro do recorte 3:4 (y 240–1680). Sem logo (produção original sem logo: o arquivo só chegou depois; logo oficial hoje em PRODUCAO/public/brand/ativo_logo.png). */
 const HAS = [1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1];
 export const EP032Cover: React.FC = () => (
   <AbsoluteFill style={{ backgroundColor: C.bg0, fontFamily: F.sans }}>

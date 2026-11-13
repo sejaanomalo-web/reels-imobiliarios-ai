@@ -1,4 +1,19 @@
-/** Sistema visual PROVISÓRIO do perfil (até existir brand kit aprovado). Ver MARCA/brand.json. */
+/**
+ * Sistema visual da ATIVO | Inteligência Imobiliária — identidade APROVADA (MARCA/brand.json, 13/11/2026).
+ * Fonte única do verde da marca: BRAND. Para transparências use brandAlpha(a) — nunca escreva o RGB do verde à mão.
+ * Logo oficial: PRODUCAO/public/brand/ativo_logo.png (fundo transparente) · original em MARCA/logo/.
+ */
+export const BRAND = {
+  hex: "#3AF584",
+  rgb: [58, 245, 132] as const,
+  /** texto escuro sobre o verde (botões, chips preenchidos) */
+  ink: "#092614",
+  /** tinta escura do verde para fundos de selo/balão */
+  deep: "#0E3A1F",
+  logo: "brand/ativo_logo.png",
+};
+export const brandAlpha = (a: number) => `rgba(${BRAND.rgb[0]},${BRAND.rgb[1]},${BRAND.rgb[2]},${a})`;
+
 export const C = {
   bg0: "#07080A",
   bg1: "#12151A",
@@ -10,8 +25,8 @@ export const C = {
   text: "#F4F5F7",
   muted: "#9198A3",
   dim: "#5A606B",
-  accent: "#3AF584",
-  accentInk: "#05261B",
+  accent: BRAND.hex,
+  accentInk: BRAND.ink,
   warn: "#FF6B5E",
   cold: "#8FB4E3",
   coldDeep: "#17212D",

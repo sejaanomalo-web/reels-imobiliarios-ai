@@ -209,8 +209,8 @@ export const Thread: React.FC<SceneProps> = ({ t, tl }) => {
               boxSizing: "border-box",
               borderRadius: 36,
               background: C.surface,
-              border: `2px solid ${ok > 0.5 ? "rgba(53,224,161,0.6)" : C.line}`,
-              boxShadow: `0 40px 90px rgba(0,0,0,0.55), 0 0 ${80 * Math.min(1, ok)}px rgba(53,224,161,0.25)`,
+              border: `2px solid ${ok > 0.5 ? "rgba(58,245,132,0.6)" : C.line}`,
+              boxShadow: `0 40px 90px rgba(0,0,0,0.55), 0 0 ${80 * Math.min(1, ok)}px rgba(58,245,132,0.25)`,
               padding: "24px 26px",
               fontFamily: F.sans,
               opacity: Math.min(1, cal * 1.5) * (1 - collapse),
@@ -224,7 +224,7 @@ export const Thread: React.FC<SceneProps> = ({ t, tl }) => {
             </div>
             <div style={{ display: "flex", gap: 10, marginTop: 22 }}>
               {DAYS.map((d, k) => (
-                <div key={d} style={{ flex: 1, height: 220, borderRadius: 16, background: k === 4 && chipA > 0 ? "rgba(53,224,161,0.1)" : "rgba(255,255,255,0.03)", position: "relative" }}>
+                <div key={d} style={{ flex: 1, height: 220, borderRadius: 16, background: k === 4 && chipA > 0 ? "rgba(58,245,132,0.1)" : "rgba(255,255,255,0.03)", position: "relative" }}>
                   <div style={{ textAlign: "center", fontFamily: F.mono, fontWeight: 700, fontSize: 24, color: k === 4 ? C.text : C.muted, paddingTop: 12 }}>{d}</div>
                   {k === 4 && chipA > 0 ? (
                     <div style={{ position: "absolute", left: 6, right: 6, top: 70, height: 120, borderRadius: 14, background: answer > 0.5 ? C.accent : C.surface3, color: answer > 0.5 ? C.accentInk : C.text, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", fontWeight: 800, fontSize: 28, opacity: Math.min(1, chipA * 2), transform: `scale(${mix(0.5, 1, Math.min(1, chipA))})` }}>
@@ -266,7 +266,7 @@ export const Thread: React.FC<SceneProps> = ({ t, tl }) => {
                 </div>
               ) : null}
               <Card x={nd.x} y={LY - 240} w={280} h={190} s={s} tone={C.paper}>
-                <div style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 24, letterSpacing: "0.1em", color: "#0E7A55" }}>{nd.label}</div>
+                <div style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 24, letterSpacing: "0.1em", color: "#1D7A42" }}>{nd.label}</div>
                 <div style={{ fontWeight: 800, fontSize: 36, lineHeight: 1.08, letterSpacing: "-0.025em", color: C.ink, marginTop: 10 }}>{nd.value}</div>
               </Card>
             </React.Fragment>

@@ -52,7 +52,7 @@ export const Clock: React.FC<SceneProps> = ({ t, tl }) => {
           <div style={{ position: "absolute", inset: 0, background: `rgba(7,8,10,${0.15 + 0.35 * Math.min(1, watch)})` }} />
         </div>
         <div style={{ position: "absolute", left: 100, top: 330, opacity: Math.min(1, wallet * 1.5), transform: `scale(${mix(0.6, 1, Math.min(1, wallet))})`, transformOrigin: "0 50%" }}>
-          <Tag text="SUA CARTEIRA" tone="accent" size={28} style={{ background: "rgba(5,38,27,0.92)" }} />
+          <Tag text="SUA CARTEIRA" tone="accent" size={28} style={{ background: "rgba(9,38,20,0.92)" }} />
         </div>
         {/* cronômetro */}
         {watch > 0 ? (

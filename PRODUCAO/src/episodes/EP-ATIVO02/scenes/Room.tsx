@@ -75,7 +75,7 @@ export const Room: React.FC<SceneProps> = ({ t, tl }) => {
             <svg width={566} height={856} style={{ position: "absolute", inset: 0 }}>
               {/* quarto acende em vermelho quando a mesa tenta entrar */}
               <rect x={Q.x} y={Q.y} width={Q.w} height={Q.h} fill={`rgba(255,107,94,${0.18 * roomRed})`} />
-              <rect x={NOOK.x} y={NOOK.y} width={NOOK.w * wall} height={NOOK.h} fill={`rgba(53,224,161,${0.16 * Math.min(1, yes)})`} />
+              <rect x={NOOK.x} y={NOOK.y} width={NOOK.w * wall} height={NOOK.h} fill={`rgba(58,245,132,${0.16 * Math.min(1, yes)})`} />
               {wallStroke({ x: 40, y: 150, w: 486, h: 630 }, plan)}
               {wallStroke(Q, plan)}
               {wallStroke(BAN, plan)}
@@ -114,7 +114,7 @@ export const Room: React.FC<SceneProps> = ({ t, tl }) => {
             </div>
             {yes > 0 ? (
               <div style={{ position: "absolute", left: 0, right: 0, top: 800, display: "flex", justifyContent: "center", opacity: Math.min(1, yes * 1.5), transform: `scale(${mix(0.6, 1, Math.min(1.05, yes))})` }}>
-                <div style={{ display: "flex", alignItems: "center", gap: 12, padding: "8px 20px 8px 8px", borderRadius: 30, background: "rgba(18,58,45,0.95)", border: "2px solid rgba(53,224,161,0.5)" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 12, padding: "8px 20px 8px 8px", borderRadius: 30, background: "rgba(14,58,31,0.95)", border: "2px solid rgba(58,245,132,0.5)" }}>
                   <Mark ok size={42} />
                   <span style={{ fontWeight: 800, fontSize: 30, color: C.text }}>ambiente dividido</span>
                 </div>

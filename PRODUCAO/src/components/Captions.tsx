@@ -1,5 +1,5 @@
 import React from "react";
-import { C, F } from "../theme";
+import { C, F, brandAlpha } from "../theme";
 import { ease, mix, prog } from "../lib/anim";
 import type { CaptionChunk } from "../episodes/types";
 
@@ -64,7 +64,7 @@ export const Captions: React.FC<{ t: number; chunks: CaptionChunk[]; y?: number;
                   bottom: size * 0.02,
                   height: size * 0.3,
                   borderRadius: size * 0.1,
-                  background: "rgba(53,224,161,0.2)",
+                  background: brandAlpha(0.2),
                   scale: `${mark} 1`,
                   transformOrigin: "left center",
                 }}

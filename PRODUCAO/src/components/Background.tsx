@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill } from "remotion";
-import { C } from "../theme";
+import { C, brandAlpha } from "../theme";
 
 /**
  * Fundo grafite com linhas de "planta baixa" em deriva lenta, brilho ambiente e vinheta.
@@ -10,7 +10,7 @@ export const Background: React.FC<{ t: number; mood: number }> = ({ t, mood }) =
   const drift = (t * 7) % 360;
   const glow =
     mood >= 0
-      ? `rgba(53,224,161,${0.07 + 0.12 * mood})`
+      ? brandAlpha(0.07 + 0.12 * mood)
       : `rgba(255,107,94,${0.05 + 0.13 * -mood})`;
   return (
     <AbsoluteFill style={{ backgroundColor: C.bg0 }}>

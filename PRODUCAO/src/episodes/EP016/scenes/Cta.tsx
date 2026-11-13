@@ -103,7 +103,7 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
           const lit = Math.min(1, tiles[1]);
           return (
             <div style={{ position: "absolute", left: cardX, top: cardY, width: CARD.w, height: CARD.h, transformOrigin: "0 0", transform: `translateY(${(1 - enter) * 120}px) scale(${cardS})`, opacity: Math.min(1, enter * 1.5) * (1 - out) * mix(1, 0.8, tilesUp) }}>
-              <div style={{ position: "absolute", inset: 0, borderRadius: mix(44, 110, fold), background: C.surface, border: `${mix(1, 3, fold)}px solid ${fold > 0.5 && lit > 0.5 ? "rgba(53,224,161,0.5)" : C.line}`, boxShadow: "0 50px 110px rgba(0,0,0,0.55)", overflow: "hidden" }}>
+              <div style={{ position: "absolute", inset: 0, borderRadius: mix(44, 110, fold), background: C.surface, border: `${mix(1, 3, fold)}px solid ${fold > 0.5 && lit > 0.5 ? "rgba(58,245,132,0.5)" : C.line}`, boxShadow: "0 50px 110px rgba(0,0,0,0.55)", overflow: "hidden" }}>
                 <div style={{ opacity: 1 - prog(fold, 0.2, 0.5, ease.linear) }}>
                   <div style={{ height: 150, display: "flex", alignItems: "center", gap: 24, padding: "0 36px", background: C.surface2, borderBottom: `1px solid ${C.lineSoft}` }}>
                     <Avatar size={92} label={LEAD.ini} bg={LEAD.bg} />
@@ -145,7 +145,7 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
         </div>
 
         {/* campo de comentário genérico — sem perfil, sem usuário, sem curtidas */}
-        <div style={{ position: "absolute", left: 110, right: 110, top: mix(1260, 960, Math.min(1, box)), height: 120, boxSizing: "border-box", borderRadius: 60, background: C.surface2, border: `2px solid ${typed > 0 ? "rgba(53,224,161,0.55)" : C.line}`, display: "flex", alignItems: "center", gap: 18, padding: "0 20px 0 40px", opacity: Math.min(1, box * 1.5) * mix(1, 0.55, prog(t, c.cta_direct, 0.5, ease.out)), boxShadow: "0 30px 70px rgba(0,0,0,0.5)" }}>
+        <div style={{ position: "absolute", left: 110, right: 110, top: mix(1260, 960, Math.min(1, box)), height: 120, boxSizing: "border-box", borderRadius: 60, background: C.surface2, border: `2px solid ${typed > 0 ? "rgba(58,245,132,0.55)" : C.line}`, display: "flex", alignItems: "center", gap: 18, padding: "0 20px 0 40px", opacity: Math.min(1, box * 1.5) * mix(1, 0.55, prog(t, c.cta_direct, 0.5, ease.out)), boxShadow: "0 30px 70px rgba(0,0,0,0.5)" }}>
           <div style={{ flex: 1, fontWeight: 800, fontSize: 46, letterSpacing: "0.02em", color: C.text, display: "flex", alignItems: "center" }}>
             {fly < 0.05 && typed > 0 ? (
               <>
@@ -175,7 +175,7 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
           : null}
         {fly > 0 ? (
           <div style={{ position: "absolute", left: 0, right: 0, top: mix(980, 600, fly), display: "flex", justifyContent: "center" }}>
-            <div style={{ padding: "20px 56px", borderRadius: 40, background: `rgba(53,224,161,${fly})`, color: fly > 0.5 ? C.accentInk : C.text, fontWeight: 800, fontSize: mix(46, 132, fly), letterSpacing: "-0.02em", boxShadow: `0 30px 90px rgba(53,224,161,${0.3 * fly * (0.7 + 0.3 * glow)})` }}>
+            <div style={{ padding: "20px 56px", borderRadius: 40, background: `rgba(58,245,132,${fly})`, color: fly > 0.5 ? C.accentInk : C.text, fontWeight: 800, fontSize: mix(46, 132, fly), letterSpacing: "-0.02em", boxShadow: `0 30px 90px rgba(58,245,132,${0.3 * fly * (0.7 + 0.3 * glow)})` }}>
               “{KEYWORD}”
             </div>
           </div>

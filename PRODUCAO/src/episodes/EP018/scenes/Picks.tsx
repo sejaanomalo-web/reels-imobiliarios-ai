@@ -66,7 +66,7 @@ export const Picks: React.FC<SceneProps> = ({ t, tl }) => {
           const pk = isPick ? Math.min(1, picked) : 0;
           const dim = !isPick ? prog(t, tapAt + 0.1, 0.4, ease.out) : 0;
           return (
-            <div key={o.name} style={{ position: "absolute", left: X[i], top: TOP, width: 290, height: 430, boxSizing: "border-box", borderRadius: 32, overflow: "hidden", background: C.surface, border: `${pk > 0.5 ? 4 : 1}px solid ${pk > 0.5 ? C.accent : C.line}`, opacity: Math.min(1, cards[i] * 1.5) * mix(1, 0.45, dim), transform: `translateY(${(1 - Math.min(1, cards[i])) * 140 - pk * 24}px) scale(${mix(0.85, 1, Math.min(1, cards[i])) * (1 + 0.05 * pk)})`, boxShadow: pk > 0 ? `0 40px 90px rgba(0,0,0,0.55), 0 0 ${90 * pk}px rgba(53,224,161,0.3)` : "0 40px 90px rgba(0,0,0,0.55)" }}>
+            <div key={o.name} style={{ position: "absolute", left: X[i], top: TOP, width: 290, height: 430, boxSizing: "border-box", borderRadius: 32, overflow: "hidden", background: C.surface, border: `${pk > 0.5 ? 4 : 1}px solid ${pk > 0.5 ? C.accent : C.line}`, opacity: Math.min(1, cards[i] * 1.5) * mix(1, 0.45, dim), transform: `translateY(${(1 - Math.min(1, cards[i])) * 140 - pk * 24}px) scale(${mix(0.85, 1, Math.min(1, cards[i])) * (1 + 0.05 * pk)})`, boxShadow: pk > 0 ? `0 40px 90px rgba(0,0,0,0.55), 0 0 ${90 * pk}px rgba(58,245,132,0.3)` : "0 40px 90px rgba(0,0,0,0.55)" }}>
               <div style={{ height: 180, background: C.surface2, display: "flex", alignItems: "flex-end", justifyContent: "center" }}>
                 <House w={210} h={160} />
               </div>
@@ -91,7 +91,7 @@ export const Picks: React.FC<SceneProps> = ({ t, tl }) => {
         ) : null}
         {adv > 0 ? (
           <div style={{ position: "absolute", left: X[PICK], top: TOP - 70, width: 290, display: "flex", justifyContent: "center", opacity: Math.min(1, adv * 1.5), transform: `scale(${mix(0.6, 1, Math.min(1.08, adv))})` }}>
-            <Tag text="AVANÇAR ✓" tone="accent" size={26} style={{ background: "rgba(7,40,29,0.95)" }} />
+            <Tag text="AVANÇAR ✓" tone="accent" size={26} style={{ background: "rgba(9,40,22,0.95)" }} />
           </div>
         ) : null}
       </Camera>

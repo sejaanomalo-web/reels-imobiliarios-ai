@@ -80,7 +80,7 @@ export const Compass: React.FC<SceneProps> = ({ t, tl }) => {
                   return <line key={i} x1={CX + Math.cos(a) * 60} y1={CY + Math.sin(a) * 60} x2={CX + Math.cos(a) * (R - 10)} y2={CY + Math.sin(a) * (R - 10)} stroke={PATHS[i].color} strokeWidth={6} strokeLinecap="round" opacity={0.6} />;
                 })}
                 {/* conversa entre conteúdos, rotina e prioridades */}
-                {CHIPS.map((k, i) => {
+                {CHIPS.map((k) => {
                   const a = prog(t, c[k.cue] - 0.1, 0.5, ease.out);
                   return <line key={k.k} x1={CX} y1={CY + R} x2={k.x + 140} y2={k.y + 60} stroke={C.accent} strokeWidth={4} strokeDasharray={talk > 0 ? "12 10" : `${400 * a} 500`} strokeDashoffset={talk > 0 ? -t * 60 : 0} opacity={a} />;
                 })}
@@ -100,7 +100,7 @@ export const Compass: React.FC<SceneProps> = ({ t, tl }) => {
               })}
               {prio > 0 ? (
                 <div style={{ position: "absolute", left: 0, right: 0, top: CY - R - 110, display: "flex", justifyContent: "center", opacity: Math.min(1, prio * 1.5), transform: `scale(${mix(0.6, 1, Math.min(1.08, prio))})` }}>
-                  <div style={{ padding: "12px 30px", borderRadius: 26, background: C.accent, color: C.ink, fontWeight: 800, fontSize: 44, letterSpacing: "-0.01em", boxShadow: "0 0 60px rgba(53,224,161,0.4)" }}>PRIORIDADE</div>
+                  <div style={{ padding: "12px 30px", borderRadius: 26, background: C.accent, color: C.ink, fontWeight: 800, fontSize: 44, letterSpacing: "-0.01em", boxShadow: "0 0 60px rgba(58,245,132,0.4)" }}>PRIORIDADE</div>
                 </div>
               ) : null}
               {CHIPS.map((k) => {

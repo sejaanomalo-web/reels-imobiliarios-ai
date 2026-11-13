@@ -51,7 +51,7 @@ export const Criterio: React.FC<SceneProps> = ({ t, tl }) => {
         <div style={{ position: "absolute", left: 70, top: 270, width: 940, height: 190, boxSizing: "border-box", borderRadius: 38, background: C.surface2, border: `1px solid ${C.line}`, padding: "22px 30px", opacity: Math.min(1, prio * 1.5), transform: `translateY(${(1 - Math.min(1, prio)) * -60}px)`, boxShadow: "0 30px 80px rgba(0,0,0,0.5)" }}>
           <div style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 22, letterSpacing: "0.1em", color: C.muted }}>PRIORIDADES DO {LEAD.name.toUpperCase()}</div>
           {PRIO.map((p, i) => (
-            <div key={p.label} style={{ position: "absolute", left: p.x - 70 + 30, top: 82, padding: "14px 28px", borderRadius: 30, background: links[i] > 0.5 ? "rgba(53,224,161,0.16)" : C.surface3, border: `2px solid ${links[i] > 0.5 ? C.accent : "transparent"}`, fontWeight: 800, fontSize: 40, color: C.text }}>
+            <div key={p.label} style={{ position: "absolute", left: p.x - 70 + 30, top: 82, padding: "14px 28px", borderRadius: 30, background: links[i] > 0.5 ? "rgba(58,245,132,0.16)" : C.surface3, border: `2px solid ${links[i] > 0.5 ? C.accent : "transparent"}`, fontWeight: 800, fontSize: 40, color: C.text }}>
               {p.label}
             </div>
           ))}
@@ -64,7 +64,7 @@ export const Criterio: React.FC<SceneProps> = ({ t, tl }) => {
         </svg>
         {/* as duas fichas */}
         {CARDS.map((k, i) => (
-          <div key={k.name} style={{ position: "absolute", left: k.x, top: 590, width: 450, height: 420, boxSizing: "border-box", borderRadius: 36, overflow: "hidden", background: C.surface, border: `2px solid ${facts[i] > 0.5 ? "rgba(53,224,161,0.55)" : C.line}`, opacity: Math.min(1, cards[i] * 1.5), transform: `translateY(${(1 - Math.min(1, cards[i])) * 120}px)`, boxShadow: "0 40px 90px rgba(0,0,0,0.5)" }}>
+          <div key={k.name} style={{ position: "absolute", left: k.x, top: 590, width: 450, height: 420, boxSizing: "border-box", borderRadius: 36, overflow: "hidden", background: C.surface, border: `2px solid ${facts[i] > 0.5 ? "rgba(58,245,132,0.55)" : C.line}`, opacity: Math.min(1, cards[i] * 1.5), transform: `translateY(${(1 - Math.min(1, cards[i])) * 120}px)`, boxShadow: "0 40px 90px rgba(0,0,0,0.5)" }}>
             <div style={{ height: 200, background: C.surface2, display: "flex", alignItems: "flex-end", justifyContent: "center" }}>
               <House w={240} h={170} />
             </div>
@@ -97,7 +97,7 @@ export const Criterio: React.FC<SceneProps> = ({ t, tl }) => {
         {/* CRITÉRIO */}
         {crit > 0 ? (
           <div style={{ position: "absolute", left: 0, right: 0, top: 1040, display: "flex", justifyContent: "center" }}>
-            <div style={{ padding: "18px 56px", borderRadius: 34, border: `6px solid ${C.accent}`, background: "rgba(7,40,29,0.95)", fontWeight: 800, fontSize: 120, letterSpacing: "-0.03em", color: C.accent, transform: `rotate(-3deg) scale(${mix(2, 1, Math.min(1, crit))})`, opacity: Math.min(1, crit * 2), boxShadow: "0 30px 90px rgba(0,0,0,0.6), 0 0 90px rgba(53,224,161,0.3)" }}>
+            <div style={{ padding: "18px 56px", borderRadius: 34, border: `6px solid ${C.accent}`, background: "rgba(9,40,22,0.95)", fontWeight: 800, fontSize: 120, letterSpacing: "-0.03em", color: C.accent, transform: `rotate(-3deg) scale(${mix(2, 1, Math.min(1, crit))})`, opacity: Math.min(1, crit * 2), boxShadow: "0 30px 90px rgba(0,0,0,0.6), 0 0 90px rgba(58,245,132,0.3)" }}>
               CRITÉRIO
             </div>
           </div>

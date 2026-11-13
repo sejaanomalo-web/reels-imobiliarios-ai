@@ -16,7 +16,7 @@ import { Compass } from "./scenes/Compass";
 export const timeline = timelineJson as Timeline;
 
 /** ATIVO · Episódio 01 — "Para quem sua operação realmente trabalha?". Roteiro do cliente (ROTEIROS/ATIVO_EP01.md),
- *  voz original aprovada em 1,0×; CTA de relacionamento por comentário (QUAL É O SEU FOCO?). Sem logo: arquivo oficial não está no repositório. */
+ *  voz original aprovada em 1,0×; CTA de relacionamento por comentário (QUAL É O SEU FOCO?). Sem logo (produção original sem logo: o arquivo só chegou depois; logo oficial hoje em PRODUCAO/public/brand/ativo_logo.png). */
 export const ATIVO01: React.FC<{ withAudio?: boolean }> = ({ withAudio = true }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();

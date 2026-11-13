@@ -78,7 +78,7 @@ export const S8Close: React.FC<SceneProps> = ({ t, tl }) => {
         </div>
         <div style={{ position: "absolute", left: 960 - 300 * prog(t, c.k_ativo + 0.6, 2.4, ease.inOut), top: 590, width: 600 * prog(t, c.k_ativo + 0.6, 2.4, ease.inOut), height: 4, borderRadius: 2, background: NEON, opacity: 0.7 * (1 - prog(t, c.k_esc - 0.2, 0.4, ease.in)) }} />
         <div style={{ position: "absolute", left: 0, right: 0, top: 650, display: "flex", justifyContent: "center", gap: 40, alignItems: "center" }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 20, padding: "30px 54px", borderRadius: 60, background: NEON, color: C.accentInk, fontWeight: 800, fontSize: 44, letterSpacing: "-0.01em", opacity: Math.min(1, b1 * 1.5), transform: `scale(${mix(0.7, 1, Math.min(1.04, b1)) * (1 + 0.025 * pulse)})`, boxShadow: `0 0 ${40 + 30 * pulse}px rgba(53,224,161,${0.35 + 0.15 * pulse})` }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 20, padding: "30px 54px", borderRadius: 60, background: NEON, color: C.accentInk, fontWeight: 800, fontSize: 44, letterSpacing: "-0.01em", opacity: Math.min(1, b1 * 1.5), transform: `scale(${mix(0.7, 1, Math.min(1.04, b1)) * (1 + 0.025 * pulse)})`, boxShadow: `0 0 ${40 + 30 * pulse}px rgba(58,245,132,${0.35 + 0.15 * pulse})` }}>
             <IconCal size={48} color={C.accentInk} />
             AGENDAR UMA DEMONSTRAÇÃO
           </div>

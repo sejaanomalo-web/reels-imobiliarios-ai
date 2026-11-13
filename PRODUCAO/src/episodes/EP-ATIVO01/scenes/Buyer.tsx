@@ -101,7 +101,7 @@ export const Buyer: React.FC<SceneProps> = ({ t, tl }) => {
         })}
         {out > 0 ? (
           <div style={{ position: "absolute", left: 700, top: 820, opacity: out, transform: `translateX(${(1 - out) * 40}px)` }}>
-            <Tag text="FORA DA SUA DIVULGAÇÃO" tone="accent" size={22} style={{ background: "rgba(5,38,27,0.95)" }} />
+            <Tag text="FORA DA SUA DIVULGAÇÃO" tone="accent" size={22} style={{ background: "rgba(9,38,20,0.95)" }} />
           </div>
         ) : null}
         {value > 0 ? (

@@ -106,7 +106,7 @@ export const Week: React.FC<SceneProps> = ({ t, tl }) => {
               const a = sp(t, c.ins_reg + 0.3 + i * 0.25, { damping: 14, stiffness: 180 });
               const moved = !x.done ? carry : 0;
               return (
-                <div key={x.k} style={{ position: "absolute", left: 220, top: mix(560 + i * 150, 1150, moved), width: 760, height: 120, boxSizing: "border-box", borderRadius: 24, background: C.surface, border: `2px solid ${x.done ? "rgba(53,224,161,0.4)" : moved > 0.5 ? C.accent : "rgba(255,107,94,0.45)"}`, display: "flex", alignItems: "center", gap: 18, padding: "0 24px", opacity: Math.min(1, a * 1.5), transform: `translateX(${(1 - Math.min(1, a)) * 60}px)`, boxShadow: "0 20px 50px rgba(0,0,0,0.45)" }}>
+                <div key={x.k} style={{ position: "absolute", left: 220, top: mix(560 + i * 150, 1150, moved), width: 760, height: 120, boxSizing: "border-box", borderRadius: 24, background: C.surface, border: `2px solid ${x.done ? "rgba(58,245,132,0.4)" : moved > 0.5 ? C.accent : "rgba(255,107,94,0.45)"}`, display: "flex", alignItems: "center", gap: 18, padding: "0 24px", opacity: Math.min(1, a * 1.5), transform: `translateX(${(1 - Math.min(1, a)) * 60}px)`, boxShadow: "0 20px 50px rgba(0,0,0,0.45)" }}>
                   {x.done ? <Mark ok size={50} /> : <div style={{ width: 50, height: 50, borderRadius: 25, border: `3px dashed ${C.warn}` }} />}
                   <span style={{ flex: 1, fontWeight: 800, fontSize: 30, color: C.text }}>{x.k}</span>
                   <span style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 20, color: x.done ? C.accent : C.warn }}>{x.done ? "CONCLUÍDA" : moved > 0.5 ? "REVISAR" : "PENDENTE"}</span>

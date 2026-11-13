@@ -40,10 +40,10 @@ export const Compose: React.FC<SceneProps> = ({ t, tl }) => {
             <MapArt w={1040} h={640} />
           </div>
           <svg width={940} height={560} style={{ position: "absolute", inset: 0 }}>
-            <path d="M520 120 L760 90 L840 260 L700 380 L500 330 Z" fill={`rgba(53,224,161,${0.22 * region * pulse})`} stroke={C.accent} strokeWidth={4} strokeDasharray="12 10" opacity={region} />
+            <path d="M520 120 L760 90 L840 260 L700 380 L500 330 Z" fill={`rgba(58,245,132,${0.22 * region * pulse})`} stroke={C.accent} strokeWidth={4} strokeDasharray="12 10" opacity={region} />
           </svg>
           <div style={{ position: "absolute", left: 560, top: 400, opacity: region }}>
-            <Tag text="REGIÃO QUE ELE MENCIONOU" tone="accent" size={22} style={{ background: "rgba(5,38,27,0.85)" }} />
+            <Tag text="REGIÃO QUE ELE MENCIONOU" tone="accent" size={22} style={{ background: "rgba(9,38,20,0.85)" }} />
           </div>
           <div style={{ position: "absolute", left: 640, top: 150, opacity: Math.min(1, pin * 3), transform: `translateY(${(1 - Math.min(1, pin)) * -90}px)`, filter: "drop-shadow(0 10px 10px rgba(0,0,0,0.5))" }}>
             <Pin size={64} />

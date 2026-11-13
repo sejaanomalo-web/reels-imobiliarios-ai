@@ -44,7 +44,7 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
             { t: c.cta_link + 0.5, s: 1.6, y: 20, rx: 0, ry: 0, e: ease.in },
           ]}
         >
-          <div style={{ position: "absolute", left: P.x, top: P.y, width: P.w, height: P.h, boxSizing: "border-box", borderRadius: 40, background: C.surface, border: `3px solid ${C.accent}`, boxShadow: "0 50px 120px rgba(0,0,0,0.6), 0 0 120px rgba(53,224,161,0.12)", overflow: "hidden" }}>
+          <div style={{ position: "absolute", left: P.x, top: P.y, width: P.w, height: P.h, boxSizing: "border-box", borderRadius: 40, background: C.surface, border: `3px solid ${C.accent}`, boxShadow: "0 50px 120px rgba(0,0,0,0.6), 0 0 120px rgba(58,245,132,0.12)", overflow: "hidden" }}>
             <div style={{ height: 120, display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0 36px", background: C.surface2, borderBottom: `1px solid ${C.lineSoft}` }}>
               <span style={{ fontWeight: 800, fontSize: 42, color: C.text, letterSpacing: "-0.02em" }}>Próximos passos</span>
               <span style={{ fontFamily: F.mono, fontWeight: 500, fontSize: 20, color: C.muted, border: `1px solid ${C.line}`, borderRadius: 14, padding: "8px 14px" }}>interface ilustrativa</span>
@@ -67,8 +67,8 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
                       height: ROW - 30,
                       boxSizing: "border-box",
                       borderRadius: 28,
-                      background: tk.accent ? "#123A2D" : C.surface2,
-                      border: `2px solid ${tk.accent ? "rgba(53,224,161,0.55)" : C.line}`,
+                      background: tk.accent ? "#0E3A1F" : C.surface2,
+                      border: `2px solid ${tk.accent ? "rgba(58,245,132,0.55)" : C.line}`,
                       display: "flex",
                       alignItems: "center",
                       gap: 24,
@@ -80,7 +80,7 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
                     <div style={{ width: 54, height: 54, borderRadius: 16, border: `3px solid ${tk.accent ? C.accent : C.muted}`, flexShrink: 0 }} />
                     <div style={{ flex: 1, minWidth: 0 }}>
                       <div style={{ fontWeight: 800, fontSize: 38, color: C.text, letterSpacing: "-0.02em", whiteSpace: "nowrap" }}>{tk.title}</div>
-                      <div style={{ fontWeight: 600, fontSize: 26, color: tk.accent ? "#BFF3DF" : C.muted, marginTop: 4 }}>{tk.sub}</div>
+                      <div style={{ fontWeight: 600, fontSize: 26, color: tk.accent ? "#CEFCE0" : C.muted, marginTop: 4 }}>{tk.sub}</div>
                     </div>
                     <div style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 26, padding: "10px 14px", borderRadius: 14, background: tk.accent ? C.accent : C.surface3, color: tk.accent ? C.accentInk : C.text, whiteSpace: "nowrap" }}>{tk.when}</div>
                   </div>
@@ -106,7 +106,7 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
             const r = ((ring + k * 0.7) % 1.4) / 1.4;
             return <div key={k} style={{ position: "absolute", left: 140 - r * 70, top: 712 - r * 70, width: 800 + r * 140, height: 216 + r * 140, borderRadius: 160, border: `3px solid ${C.accent}`, opacity: (1 - r) * 0.4 * Math.min(1, end) }} />;
           })}
-          <div style={{ position: "absolute", left: 140, top: 712, width: 800, height: 216, borderRadius: 108, background: C.accent, display: "flex", alignItems: "center", justifyContent: "center", gap: 26, opacity: Math.min(1, end * 2), transform: `scale(${mix(0.4, 1, end) * (1 + 0.025 * Math.sin((t - c.cta_link) * 5))})`, boxShadow: "0 30px 90px rgba(53,224,161,0.35), 0 30px 60px rgba(0,0,0,0.5)" }}>
+          <div style={{ position: "absolute", left: 140, top: 712, width: 800, height: 216, borderRadius: 108, background: C.accent, display: "flex", alignItems: "center", justifyContent: "center", gap: 26, opacity: Math.min(1, end * 2), transform: `scale(${mix(0.4, 1, end) * (1 + 0.025 * Math.sin((t - c.cta_link) * 5))})`, boxShadow: "0 30px 90px rgba(58,245,132,0.35), 0 30px 60px rgba(0,0,0,0.5)" }}>
             <IconLink size={92} color={C.accentInk} stroke={2.3} />
             <span style={{ fontWeight: 800, fontSize: 98, letterSpacing: "-0.04em", color: C.accentInk, whiteSpace: "nowrap" }}>LINK NA BIO</span>
           </div>

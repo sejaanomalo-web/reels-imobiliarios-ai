@@ -55,13 +55,13 @@ export const Tracks: React.FC<SceneProps> = ({ t, tl }) => {
           return (
             <div key={tr.k} style={{ position: "absolute", left: 70, top: TY[i], width: 940, height: 220, opacity: Math.max(ghost * 0.45, Math.min(1, p * 1.5)) }}>
               <div style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 24, letterSpacing: "0.08em", color: C.accent }}>{tr.k}</div>
-              <div style={{ position: "absolute", left: 0, right: 0, top: 120, height: 0, borderTop: "4px dashed rgba(53,224,161,0.35)" }} />
+              <div style={{ position: "absolute", left: 0, right: 0, top: 120, height: 0, borderTop: "4px dashed rgba(58,245,132,0.35)" }} />
               {/* trilha */}
-              <div style={{ position: "absolute", left: 0, top: 120, height: 6, width: `${line * 100}%`, borderRadius: 3, background: C.accent, boxShadow: "0 0 18px rgba(53,224,161,0.5)" }} />
+              <div style={{ position: "absolute", left: 0, top: 120, height: 6, width: `${line * 100}%`, borderRadius: 3, background: C.accent, boxShadow: "0 0 18px rgba(58,245,132,0.5)" }} />
               {tr.steps.map((s, k) => {
                 const sp2 = sp(t, c[tr.cue] + 0.1 + k * 0.18, { damping: 12, stiffness: 200 });
                 return (
-                  <div key={s} style={{ position: "absolute", left: 40 + k * 300, top: 52, width: 250, height: 70, boxSizing: "border-box", borderRadius: 18, background: C.surface, border: "2px solid rgba(53,224,161,0.45)", display: "flex", alignItems: "center", gap: 10, padding: "0 14px", opacity: Math.min(1, sp2 * 1.5), transform: `translateY(${(1 - Math.min(1, sp2)) * 30}px)` }}>
+                  <div key={s} style={{ position: "absolute", left: 40 + k * 300, top: 52, width: 250, height: 70, boxSizing: "border-box", borderRadius: 18, background: C.surface, border: "2px solid rgba(58,245,132,0.45)", display: "flex", alignItems: "center", gap: 10, padding: "0 14px", opacity: Math.min(1, sp2 * 1.5), transform: `translateY(${(1 - Math.min(1, sp2)) * 30}px)` }}>
                     <Mark ok size={30} />
                     <span style={{ fontWeight: 800, fontSize: 26, color: C.text, whiteSpace: "nowrap" }}>{s}</span>
                   </div>

@@ -52,7 +52,7 @@ export const Pins: React.FC<SceneProps> = ({ t, tl }) => {
           </div>
           <div style={{ padding: "24px 32px", borderRadius: 34, borderBottomLeftRadius: 10, background: C.surface2, border: `1px solid ${C.line}`, fontWeight: 800, fontSize: 46, color: C.text, boxShadow: "0 24px 60px rgba(0,0,0,0.45)" }}>
             Um restaurante{" "}
-            <span style={{ color: mix(0, 1, quiet) > 0.5 ? C.accent : C.text, background: `rgba(53,224,161,${0.15 * quiet})`, borderRadius: 10, padding: "0 6px" }}>tranquilo</span>?
+            <span style={{ color: mix(0, 1, quiet) > 0.5 ? C.accent : C.text, background: `rgba(58,245,132,${0.15 * quiet})`, borderRadius: 10, padding: "0 6px" }}>tranquilo</span>?
           </div>
         </div>
 

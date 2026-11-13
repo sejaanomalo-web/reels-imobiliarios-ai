@@ -183,11 +183,11 @@ export const Insight: React.FC<SceneProps> = ({ t, tl }) => {
             height: 152,
             borderRadius: 28,
             overflow: "hidden",
-            border: `2px solid rgba(53,224,161,${0.7 * (1 - forgot)})`,
+            border: `2px solid rgba(58,245,132,${0.7 * (1 - forgot)})`,
             opacity: Math.min(1, opp * 1.5) * mix(1, 0.22, forgot) * (1 - prog(t, c.cta_dock - 0.2, 0.3, ease.in)),
             transform: `translateY(${(1 - opp) * -40 + forgot * 46}px) rotate(${forgot * 7}deg) scale(${mix(1, 0.9, forgot)})`,
             filter: `grayscale(${forgot}) blur(${forgot * 4}px)`,
-            boxShadow: `0 0 ${70 * (1 - forgot)}px rgba(53,224,161,0.35)`,
+            boxShadow: `0 0 ${70 * (1 - forgot)}px rgba(58,245,132,0.35)`,
           }}
         >
           <Building w={294} h={152} id="opp" hue={1} lit={mix(0.85, 0.05, forgot)} />

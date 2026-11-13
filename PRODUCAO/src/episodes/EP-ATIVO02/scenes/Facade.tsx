@@ -60,7 +60,7 @@ export const Facade: React.FC<SceneProps> = ({ t, tl }) => {
                 const on = prog(t, c.k_dist - 0.1 + i * 0.16, 0.35, ease.out);
                 return (
                   <g key={r.k}>
-                    <rect x={r.x} y={r.y} width={r.w} height={r.h} fill={`rgba(53,224,161,${0.05 + 0.13 * on})`} stroke={on > 0.5 ? C.accent : "#7C8796"} strokeWidth={on > 0.5 ? 4 : 3} />
+                    <rect x={r.x} y={r.y} width={r.w} height={r.h} fill={`rgba(58,245,132,${0.05 + 0.13 * on})`} stroke={on > 0.5 ? C.accent : "#7C8796"} strokeWidth={on > 0.5 ? 4 : 3} />
                   </g>
                 );
               })}
@@ -111,7 +111,7 @@ export const Facade: React.FC<SceneProps> = ({ t, tl }) => {
             ) : null}
             {ok > 0 ? (
               <div style={{ position: "absolute", left: 0, right: 0, top: 795, display: "flex", justifyContent: "center", opacity: Math.min(1, ok * 1.5), transform: `scale(${mix(0.6, 1, Math.min(1.05, ok))})` }}>
-                <div style={{ display: "flex", alignItems: "center", gap: 12, padding: "8px 20px 8px 8px", borderRadius: 30, background: "rgba(18,58,45,0.95)", border: "2px solid rgba(53,224,161,0.5)" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 12, padding: "8px 20px 8px 8px", borderRadius: 30, background: "rgba(14,58,31,0.95)", border: "2px solid rgba(58,245,132,0.5)" }}>
                   <Mark ok size={42} />
                   <span style={{ fontWeight: 800, fontSize: 30, color: C.text }}>a imagem comprova</span>
                 </div>

@@ -106,7 +106,7 @@ export const Portfolio: React.FC<SceneProps> = ({ t, tl }) => {
         </svg>
         {/* para quem faz sentido */}
         <svg width={1080} height={1920} style={{ position: "absolute", inset: 0, pointerEvents: "none" }}>
-          {PROFILES.map((p, i) => (
+          {PROFILES.map((p) => (
             <path key={p.k} d={`M${BX} ${BY + 70} C ${BX} ${BY + 150}, ${p.x + 140} ${BY + 120}, ${p.x + 140} ${BY + 210}`} fill="none" stroke={p.fit && fit > 0.5 ? col : C.dim} strokeWidth={p.fit && fit > 0.5 ? 6 : 3} strokeDasharray={`${300 * lines} 400`} opacity={p.fit ? 1 : mix(1, 0.4, Math.min(1, fit))} />
           ))}
         </svg>

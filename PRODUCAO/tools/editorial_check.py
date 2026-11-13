@@ -1,0 +1,103 @@
+"""Checagem editorial/visual semiautomática de um episódio (guia editorial ATIVO, 13/11/2026).
+
+Uso:  python3 tools/editorial_check.py EP-ATIVO02        (ou vários IDs; sem ID = todos com episode.json)
+Saída: ERRO (bloqueia) / AVISO (revisar) por item; código de saída 1 se houver ERRO.
+
+O que verifica:
+  1. CTA e destino definidos (campo `cta` no episode.json ou chamada reconhecível na última cena).
+  2. Promessas não comprovadas na fala ou no texto de tela: "garantido", "triplicar", "dobrar suas vendas", "em X dias",
+     "100%", depoimento.
+  3. Fonte pequena para público 40+ (fontSize abaixo do mínimo do formato).
+  4. Verde divergente da marca (#35E0A1, rgba(53,224,161,…), #00FA44) no código do episódio.
+  5. Interface de sistema desenhada sem o rótulo "ilustrativa".
+  6. Texto posicionado fora da área segura do Instagram (9:16: top > 1570 px).
+Não substitui a revisão humana; aponta onde olhar.
+"""
+import glob
+import json
+import os
+import re
+import sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CLAIMS = [
+    (r"garantid[oa]s?", "promessa de garantia"),
+    (r"tripli\w+|dobr(ar|e|a)\s+(suas?|as)\s+vendas", "promessa de multiplicar resultado"),
+    (r"(vend\w*|result\w*|fatur\w*|lucr\w*)[^.]{0,40}\bem\s+\d+\s+dias|\bem\s+\d+\s+dias[^.]{0,40}(vend\w*|result\w*|fatur\w*|lucr\w*)", "prazo de resultado"),
+    (r"\b100\s?%", "percentual absoluto"),
+    (r"depoimento", "depoimento (precisa ser real e autorizado)"),
+]
+CTA_HINTS = r"comente|comenta|link da bio|agend|whatsapp|salve|conta nos coment|toque no link|direct"
+OLD_GREEN = r"#35e0a1|53\s*,\s*224\s*,\s*161|#00fa44"
+
+
+def check(ep_id: str) -> int:
+    ep_path = os.path.join(ROOT, "episodes", ep_id, "episode.json")
+    src_dir = os.path.join(ROOT, "src", "episodes", ep_id)
+    ep = json.load(open(ep_path))
+    vertical = ep.get("height", 1920) > ep.get("width", 1080)
+    min_font = 24 if vertical else 22
+    errs, warns = [], []
+
+    segs = ep.get("segments", [])
+    speech = " ".join(s.get("text", "") for s in segs)
+    # 1. CTA
+    last_scene = segs[-1]["scene"] if segs else ""
+    last_text = " ".join(s["text"] for s in segs if s.get("scene") == last_scene).lower()
+    if not ep.get("cta") and not re.search(CTA_HINTS, last_text):
+        errs.append("CTA/destino não definido (sem campo `cta` e sem chamada reconhecível na última cena)")
+    elif not ep.get("cta"):
+        warns.append("CTA só reconhecido na fala — registrar `cta` (tipo e destino) no episode.json")
+
+    files = sorted(glob.glob(os.path.join(src_dir, "**", "*.tsx"), recursive=True)) if os.path.isdir(src_dir) else []
+    code = {f: open(f).read() for f in files}
+    screen_text = " ".join(re.findall(r">([^<>{}]{3,})<", " ".join(code.values())))
+    # 2. promessas
+    for pat, why in CLAIMS:
+        for where, txt in (("fala", speech), ("tela", screen_text)):
+            m = re.search(pat, txt, flags=re.I)
+            if m:
+                errs.append(f"{why} na {where}: “…{txt[max(0, m.start() - 30): m.end() + 30].strip()}…”")
+    # 3–6. código
+    ui_like = False
+    labeled = False
+    for f, src in code.items():
+        rel = os.path.relpath(f, ROOT)
+        for i, line in enumerate(src.splitlines(), 1):
+            for n in re.findall(r"fontSize:\s*(\d+)", line):
+                if int(n) < min_font:
+                    warns.append(f"fonte {n}px < {min_font}px para 40+ — {rel}:{i}")
+            if re.search(OLD_GREEN, line, flags=re.I):
+                errs.append(f"verde fora da marca (use BRAND/brandAlpha) — {rel}:{i}")
+            if vertical:
+                for n in re.findall(r"\btop:\s*(\d+)", line):
+                    if int(n) > 1570 and ("fontSize" in line or "fontWeight" in line):
+                        warns.append(f"texto em top {n}px (abaixo da área segura 1570px) — {rel}:{i}")
+        if re.search(r"AppWindow|Kanban|CRM|Painel|Dashboard|INTERFACE", src):
+            ui_like = True
+        if re.search(r"ILUSTRATIV|Illus\b|<Illus", src, flags=re.I):
+            labeled = True
+    if ui_like and not labeled:
+        warns.append("há interface de sistema desenhada sem rótulo 'interface ilustrativa'")
+
+    print(f"\n== {ep_id} ({'9:16' if vertical else '16:9'}) — {len(errs)} erro(s), {len(warns)} aviso(s)")
+    for e in errs:
+        print("  ERRO  ", e)
+    # avisos de fonte podem ser muitos: agrupar
+    font = [w for w in warns if w.startswith("fonte")]
+    other = [w for w in warns if not w.startswith("fonte")]
+    for w in other:
+        print("  AVISO ", w)
+    if font:
+        print(f"  AVISO  {len(font)} ocorrência(s) de fonte pequena; primeiras:")
+        for w in font[:6]:
+            print("         ", w)
+    return 1 if errs else 0
+
+
+if __name__ == "__main__":
+    ids = sys.argv[1:] or sorted(os.path.basename(os.path.dirname(p)) for p in glob.glob(os.path.join(ROOT, "episodes", "*", "episode.json")))
+    rc = 0
+    for i in ids:
+        rc |= check(i)
+    sys.exit(rc)

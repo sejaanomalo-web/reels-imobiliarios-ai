@@ -94,7 +94,7 @@ export const Team: React.FC<SceneProps> = ({ t, tl }) => {
           {/* conversa de dois */}
           {talk > 0 && eight < 1 ? (
             <div style={{ position: "absolute", left: 400, top: 650, width: 280, display: "flex", justifyContent: "center", opacity: Math.min(1, talk * 1.5) * (1 - eight) }}>
-              <div style={{ padding: "14px 20px", borderRadius: 24, background: "#123A2D", border: "2px solid rgba(53,224,161,0.5)", fontWeight: 800, fontSize: 26, color: C.text, textAlign: "center" }}>imóvel · lead · visita ✓</div>
+              <div style={{ padding: "14px 20px", borderRadius: 24, background: "#0E3A1F", border: "2px solid rgba(58,245,132,0.5)", fontWeight: 800, fontSize: 26, color: C.text, textAlign: "center" }}>imóvel · lead · visita ✓</div>
             </div>
           ) : null}
           {two > 0.5 && eight < 0.6

@@ -50,7 +50,7 @@ export const Followup: React.FC<SceneProps> = ({ t, tl }) => {
           <div style={{ padding: "30px 36px" }}>
             <div style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 22, letterSpacing: "0.1em", color: C.muted }}>REGISTRO · ÁUDIO DE 3:00 + RESUMO</div>
             {/* o resumo cai dentro da ficha */}
-            <div style={{ marginTop: 18, borderRadius: 28, background: C.surface2, border: `2px solid ${landed > 0.5 ? "rgba(53,224,161,0.5)" : C.line}`, padding: "10px 28px 26px", transform: `translateY(${(1 - drop) * -260}px) scale(${mix(0.85, 1, drop)})`, opacity: Math.min(1, drop * 2), position: "relative", overflow: "hidden" }}>
+            <div style={{ marginTop: 18, borderRadius: 28, background: C.surface2, border: `2px solid ${landed > 0.5 ? "rgba(58,245,132,0.5)" : C.line}`, padding: "10px 28px 26px", transform: `translateY(${(1 - drop) * -260}px) scale(${mix(0.85, 1, drop)})`, opacity: Math.min(1, drop * 2), position: "relative", overflow: "hidden" }}>
               {LINES.map((l, i) => {
                 const chk = sp(t, c.ins_remember + 0.25 + i * 0.4, { damping: 12, stiffness: 200 });
                 return (
@@ -65,7 +65,7 @@ export const Followup: React.FC<SceneProps> = ({ t, tl }) => {
                   </div>
                 );
               })}
-              {scan > 0 && scan < 1 ? <div style={{ position: "absolute", left: 0, right: 0, top: `${scan * 100}%`, height: 6, background: "rgba(53,224,161,0.7)", boxShadow: "0 0 24px rgba(53,224,161,0.6)" }} /> : null}
+              {scan > 0 && scan < 1 ? <div style={{ position: "absolute", left: 0, right: 0, top: `${scan * 100}%`, height: 6, background: "rgba(58,245,132,0.7)", boxShadow: "0 0 24px rgba(58,245,132,0.6)" }} /> : null}
             </div>
             {ok > 0 ? (
               <div style={{ marginTop: 26, display: "flex", justifyContent: "flex-end", opacity: Math.min(1, ok * 1.5), transform: `scale(${mix(0.6, 1, Math.min(1.06, ok))})`, transformOrigin: "100% 50%" }}>

@@ -14,7 +14,7 @@ export const EP020Cover: React.FC = () => (
         { t: "VISITA CONFIRMADA", i: <IconCal size={60} /> },
         { t: "AJUSTAR BUSCA", i: <IconSliders size={60} /> },
       ].map((k) => (
-        <div key={k.t} style={{ width: 415, height: 260, boxSizing: "border-box", borderRadius: 36, background: C.surface, border: `3px solid ${C.accent}`, padding: "30px 30px", display: "flex", flexDirection: "column", justifyContent: "space-between", boxShadow: "0 0 80px rgba(53,224,161,0.2)" }}>
+        <div key={k.t} style={{ width: 415, height: 260, boxSizing: "border-box", borderRadius: 36, background: C.surface, border: `3px solid ${C.accent}`, padding: "30px 30px", display: "flex", flexDirection: "column", justifyContent: "space-between", boxShadow: "0 0 80px rgba(58,245,132,0.2)" }}>
           {k.i}
           <span style={{ fontWeight: 800, fontSize: 48, lineHeight: 1.0, color: C.text }}>{k.t}</span>
         </div>

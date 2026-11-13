@@ -76,7 +76,7 @@ export const Table: React.FC<SceneProps> = ({ t, tl }) => {
           const isGap = !r.ok;
           const helped = isGap ? Math.min(1, help[i === 1 ? 0 : 1]) : 0;
           return (
-            <div key={r.lead} style={{ position: "absolute", left: X0, top: y, width: 960, height: RH, boxSizing: "border-box", borderRadius: 26, background: C.surface, border: `2px solid ${isGap && seq > 0.5 && helped < 0.5 ? `rgba(255,107,94,${0.4 + 0.5 * pulse})` : helped > 0.5 ? "rgba(53,224,161,0.55)" : C.line}`, opacity: Math.min(1, rowIn * 1.5) * mix(1, isGap ? 1 : 0.55, clear), transform: `translateX(${(1 - Math.min(1, rowIn)) * 80}px)`, boxShadow: "0 20px 50px rgba(0,0,0,0.45)" }}>
+            <div key={r.lead} style={{ position: "absolute", left: X0, top: y, width: 960, height: RH, boxSizing: "border-box", borderRadius: 26, background: C.surface, border: `2px solid ${isGap && seq > 0.5 && helped < 0.5 ? `rgba(255,107,94,${0.4 + 0.5 * pulse})` : helped > 0.5 ? "rgba(58,245,132,0.55)" : C.line}`, opacity: Math.min(1, rowIn * 1.5) * mix(1, isGap ? 1 : 0.55, clear), transform: `translateX(${(1 - Math.min(1, rowIn)) * 80}px)`, boxShadow: "0 20px 50px rgba(0,0,0,0.45)" }}>
               <div style={{ position: "absolute", left: 18, top: 0, bottom: 0, display: "flex", alignItems: "center", gap: 12 }}>
                 <Avatar size={52} label={r.who} bg={r.bg} />
                 <span style={{ fontWeight: 800, fontSize: 28, color: C.text }}>{r.lead}</span>

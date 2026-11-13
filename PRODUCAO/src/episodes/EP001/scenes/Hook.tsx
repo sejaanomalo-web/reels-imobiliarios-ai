@@ -42,7 +42,7 @@ const Row: React.FC<{ y: number; i: number; featured?: boolean; fade?: number }>
         padding: "0 26px",
         boxSizing: "border-box",
         opacity: fade,
-        background: featured ? "rgba(53,224,161,0.13)" : "transparent",
+        background: featured ? "rgba(58,245,132,0.13)" : "transparent",
         borderLeft: featured ? `6px solid ${C.accent}` : "6px solid transparent",
         borderBottom: `1px solid ${C.lineSoft}`,
       }}
@@ -210,7 +210,7 @@ export const PhoneFrame: React.FC<{ children: React.ReactNode; style?: React.CSS
       height: PHONE.h,
       borderRadius: 86,
       background: "linear-gradient(145deg,#59616E,#262B33 38%,#101216)",
-      boxShadow: "0 60px 120px rgba(0,0,0,0.7), 0 0 0 2px rgba(255,255,255,0.10), 0 0 180px rgba(53,224,161,0.16)",
+      boxShadow: "0 60px 120px rgba(0,0,0,0.7), 0 0 0 2px rgba(255,255,255,0.10), 0 0 180px rgba(58,245,132,0.16)",
       ...style,
     }}
   >

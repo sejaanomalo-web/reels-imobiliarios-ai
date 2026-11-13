@@ -34,8 +34,8 @@ const NOISE = [
 ];
 
 const CardBox: React.FC<{ c: Card; lit?: number; warm?: number; gray?: number }> = ({ c, lit = 0, warm = 0, gray = 0 }) => (
-  <div style={{ width: CW, height: CH, boxSizing: "border-box", borderRadius: 26, background: "rgba(14,20,18,0.96)", border: `2px solid ${warm > 0.3 ? `rgba(232,184,106,${0.4 + 0.5 * warm})` : lit > 0.5 ? "rgba(53,224,161,0.7)" : "rgba(255,255,255,0.12)"}`, boxShadow: `0 30px 70px rgba(0,0,0,0.55)${lit > 0.5 ? ", 0 0 40px rgba(53,224,161,0.25)" : ""}`, display: "flex", alignItems: "center", gap: 22, padding: "0 28px", filter: gray > 0 ? `grayscale(${gray}) brightness(${mix(1, 0.6, gray)})` : undefined }}>
-    <div style={{ width: 70, height: 70, borderRadius: 35, flexShrink: 0, background: "rgba(53,224,161,0.12)", color: NEON, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 34 }}>{c.icon}</div>
+  <div style={{ width: CW, height: CH, boxSizing: "border-box", borderRadius: 26, background: "rgba(14,20,18,0.96)", border: `2px solid ${warm > 0.3 ? `rgba(232,184,106,${0.4 + 0.5 * warm})` : lit > 0.5 ? "rgba(58,245,132,0.7)" : "rgba(255,255,255,0.12)"}`, boxShadow: `0 30px 70px rgba(0,0,0,0.55)${lit > 0.5 ? ", 0 0 40px rgba(58,245,132,0.25)" : ""}`, display: "flex", alignItems: "center", gap: 22, padding: "0 28px", filter: gray > 0 ? `grayscale(${gray}) brightness(${mix(1, 0.6, gray)})` : undefined }}>
+    <div style={{ width: 70, height: 70, borderRadius: 35, flexShrink: 0, background: "rgba(58,245,132,0.12)", color: NEON, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 34 }}>{c.icon}</div>
     <div style={{ minWidth: 0 }}>
       <div style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 20, letterSpacing: "0.12em", color: NEON }}>{c.k}</div>
       <div style={{ fontFamily: F.sans, fontWeight: 800, fontSize: 38, color: C.text, letterSpacing: "-0.02em", whiteSpace: "nowrap" }}>{c.title}</div>
