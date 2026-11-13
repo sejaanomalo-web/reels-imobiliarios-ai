@@ -73,7 +73,8 @@ export const S2Board: React.FC<SceneProps> = ({ t, tl }) => {
           { t: c.r_porque - 0.3, s: 1.16, x: 0, y: 0 },
           { t: c.r_tela + 0.4, s: 1.08, e: ease.inOut },
           { t: c.r_3d, s: 0.88, x: 30, y: 20, e: ease.inOut },
-          { t: c.d_porque, s: 0.92, x: 40, y: 0, e: ease.inOut },
+          { t: c.d_ver, s: 0.95, x: 90, y: -20, e: ease.inOut },
+          { t: c.d_porque, s: 0.99, x: 40, y: 10, e: ease.inOut },
           { t: c.d_tras + 0.3, s: 0.94, x: 330, y: -10, e: ease.inOut },
           { t: c.v_foi + 0.6, s: 1.0, x: 0, y: 0, e: ease.inOut },
           { t: c.v_chato, s: 1.03, x: 0, y: -10, e: ease.inOut },
@@ -82,7 +83,7 @@ export const S2Board: React.FC<SceneProps> = ({ t, tl }) => {
       >
         {/* "uma única tela" que se desfaz */}
         {screen > 0 && split < 1 ? (
-          <div style={{ position: "absolute", left: 960 - 380, top: 540 - 230, width: 760, height: 460, boxSizing: "border-box", borderRadius: 30, border: "3px solid rgba(255,255,255,0.25)", background: "rgba(12,16,15,0.85)", opacity: Math.min(1, screen * 1.5) * (1 - split), transform: `scale(${mix(0.85, 1, Math.min(1, screen)) * mix(1, 1.6, split)})`, display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div style={{ position: "absolute", left: 960 - 380, top: 540 - 230, width: 760, height: 460, boxSizing: "border-box", borderRadius: 30, border: "3px solid rgba(255,255,255,0.25)", background: "rgba(12,16,15,0.85)", opacity: Math.min(1, screen * 1.5) * (1 - split), transform: `scale(${mix(0.85, 1, Math.min(1, screen)) * mix(1, 1.6, split) * (1 + 0.04 * Math.sin(t * 2))}) rotate(${Math.sin(t * 1.3) * 1.5}deg)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
             <span style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 34, letterSpacing: "0.14em", color: C.muted }}>UMA TELA</span>
           </div>
         ) : null}
@@ -105,17 +106,19 @@ export const S2Board: React.FC<SceneProps> = ({ t, tl }) => {
           const inn = sp(t, c[k.cue] - 0.25, { damping: 14, stiffness: 150 });
           if (inn <= 0) return null;
           const isPaula = i === 0;
-          const bob = Math.sin(t * 1.1 + i * 1.7) * 8 * (1 - sweep);
+          const pain = prog(t, c.d_e - 0.3, 1.0, ease.inOut) * (1 - sweep);
+          const bob = Math.sin(t * 1.1 + i * 1.7) * (8 + 14 * pain) * (1 - sweep);
+          const drift = pain * ((t - c.d_e) * 26 * (i % 2 ? 1 : -0.6));
           // dor: esteira para a direita (todos menos a Paula)
           const cx = isPaula ? 0 : conv * 600;
           const cy = isPaula ? 0 : conv * (i % 2 ? -40 : 40);
           // virada: o traço passa e o cartão vai para o lugar
           const snap = prog(t, c.v_foi + 0.1 + ((k.gx + 200) / 1920) * 1.0 + (k.gy > 500 ? 0.15 : 0), 0.6, ease.inOut);
-          const x0 = k.x + k.fx * (1 - Math.min(1, inn)) + cx;
+          const x0 = k.x + k.fx * (1 - Math.min(1, inn)) + cx + (isPaula ? 0 : drift);
           const y0 = k.y + k.fy * (1 - Math.min(1, inn)) + cy + bob;
           const x = mix(x0, k.gx, snap);
           const y = mix(y0, k.gy, snap);
-          const rot = mix(k.rot, 0, snap);
+          const rot = mix(k.rot + Math.sin(t * 0.9 + i) * 2.5 * (1 - snap), 0, snap);
           let op = Math.min(1, inn * 1.5);
           let gray = 0;
           let warm = 0;
@@ -152,10 +155,10 @@ export const S2Board: React.FC<SceneProps> = ({ t, tl }) => {
 
       {/* dor: escurece e afirma */}
       <div style={{ position: "absolute", inset: 0, background: `rgba(2,4,3,${0.42 * scrim})`, pointerEvents: "none" }} />
-      <div style={{ position: "absolute", left: 0, right: 0, top: 420, textAlign: "center", fontWeight: 800, fontSize: 96, letterSpacing: "-0.035em", color: C.text, opacity: tA, transform: `translateY(${(1 - tA) * 30}px)` }}>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 420, textAlign: "center", fontWeight: 800, fontSize: 96, letterSpacing: "-0.035em", color: C.text, opacity: tA, transform: `translateY(${(1 - tA) * 30}px) scale(${1 + 0.035 * prog(t, c.d_e, 5, ease.linear)})` }}>
         NÃO É FALTA DE OPORTUNIDADE.
       </div>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 360, textAlign: "center", fontWeight: 800, fontSize: 96, lineHeight: 1.04, letterSpacing: "-0.035em", color: C.text, opacity: tB, transform: `translateY(${(1 - tB) * 30}px)` }}>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 360, textAlign: "center", fontWeight: 800, fontSize: 96, lineHeight: 1.04, letterSpacing: "-0.035em", color: C.text, opacity: tB, transform: `translateY(${(1 - tB) * 30}px) scale(${1 + 0.035 * prog(t, c.d_ver, 4.5, ease.linear)})` }}>
         É PERDER O CONTROLE
         <br />
         <span style={{ color: NEON }}>DAS QUE JÁ EXISTEM.</span>
