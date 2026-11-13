@@ -14,5 +14,11 @@
 
 ## Avisos que pedem decisão
 1. Fontes de 16–22 px em rótulos secundários (mono) de vários episódios: abaixo do mínimo 40+ do guia. Não corrigi em episódios aprovados; vale nas próximas produções.
-2. **Story 05**: a narração do roteiro ("Depois **apresentamos** o sistema… Agende uma **demonstração**") contradiz o processo real definido pelo cliente hoje (call de diagnóstico → desenvolvimento). Voz não gravada até decisão.
+2. **Story 05** — DECIDIDO pelo cliente (13/11/2026): manter o texto do roteiro como está ("apresentamos o sistema… Agende uma demonstração"). Narração da landing (v3) também mantida, sem regravar.
 3. Guia editorial pede 3–8 palavras na tela; o vídeo da landing usa transcrição completa por pedido do cliente — registrado como exceção.
+
+## Decisões do cliente (13/11/2026, fim do dia)
+- Story 05: manter texto do roteiro.
+- Landing v3: manter narração atual.
+- Vozes dos 5 Stories: gerar quando a cota Gemini renovar (agendado para 14/11 ~05:15 Brasília) e avisar o cliente.
+- Pendências jurídicas (autorização dos corretores): fora de prioridade agora; até haver autorização, Stories seguem anonimizados como prévia interna.

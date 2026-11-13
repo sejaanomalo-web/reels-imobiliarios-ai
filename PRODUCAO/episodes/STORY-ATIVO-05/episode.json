@@ -85,5 +85,6 @@
  "series": {},
  "sfx": [],
  "music": {},
- "pendencia": "CONFLITO com a decisão do cliente de 13/11/2026 (processo: call de diagnóstico → desenvolvimento; evitar \"apresentamos\"/\"demonstração\"). Texto mantido como está no roteiro aprovado até o cliente decidir; NÃO gravar a voz antes disso."
+ "pendencia": null,
+ "decisao_cliente": "13/11/2026: manter o texto do roteiro como está (\"apresentamos o sistema… Agende uma demonstração\")."
 }
