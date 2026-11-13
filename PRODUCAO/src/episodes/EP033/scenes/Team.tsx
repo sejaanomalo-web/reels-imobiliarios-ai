@@ -69,8 +69,8 @@ export const Team: React.FC<SceneProps> = ({ t, tl }) => {
           { t: c.hook_more + 0.3, s: 1.0, y: 0, e: ease.inOut },
           { t: c.hook_noone + 0.6, s: 1.06, y: 0, r: -1.5, e: ease.inOut },
           { t: c.sit_talk + 0.4, s: 1.1, y: 0, r: 0, e: ease.inOut },
-          { t: c.sit_eight + 0.5, s: 0.96, y: -20, e: ease.inOut },
-          { t: c.sit_owners + 0.6, s: 1.0, y: -10, e: ease.inOut },
+          { t: c.sit_eight + 0.5, s: 0.94, y: -20, x: -40, e: ease.inOut },
+          { t: c.sit_owners + 0.6, s: 1.06, y: 10, x: 40, e: ease.inOut },
           { t: c.ten_explain + 0.3, s: 1.08, y: -40, e: ease.inOut },
           { t: c.ins_before + 0.3, s: 0.94, y: 0, e: ease.in },
         ]}
@@ -86,7 +86,8 @@ export const Team: React.FC<SceneProps> = ({ t, tl }) => {
                 const k = i * 8 + j;
                 const p = Math.max(0, Math.min(1, wires * 1.4 - (k % 7) * 0.06));
                 const bend = ((k % 5) - 2) * 120;
-                return <path key={k} d={`M${a.x} ${a.y} Q ${(a.x + b.x) / 2 + bend} ${(a.y + b.y) / 2 - bend}, ${b.x} ${b.y}`} fill="none" stroke={[C.warn, C.cold, "#C3C8D0"][k % 3]} strokeWidth={3} opacity={0.55} strokeDasharray={`${900 * p} 1000`} />;
+                const flowing = p >= 1;
+                return <path key={k} d={`M${a.x} ${a.y} Q ${(a.x + b.x) / 2 + bend} ${(a.y + b.y) / 2 - bend}, ${b.x} ${b.y}`} fill="none" stroke={[C.warn, C.cold, "#C3C8D0"][k % 3]} strokeWidth={3} opacity={0.6} strokeDasharray={flowing ? "18 14" : `${900 * p} 1000`} strokeDashoffset={flowing ? -t * (60 + (k % 4) * 25) * (k % 2 ? 1 : -1) : 0} />;
               }),
             )}
           </svg>
@@ -96,6 +97,25 @@ export const Team: React.FC<SceneProps> = ({ t, tl }) => {
               <div style={{ padding: "14px 20px", borderRadius: 24, background: "#123A2D", border: "2px solid rgba(53,224,161,0.5)", fontWeight: 800, fontSize: 26, color: C.text, textAlign: "center" }}>imóvel · lead · visita ✓</div>
             </div>
           ) : null}
+          {two > 0.5 && eight < 0.6
+            ? [0, 1, 2].map((k) => {
+                const ph = ((t * 0.9 + k / 3) % 1);
+                const dir = k % 2 ? 1 : -1;
+                const x = dir > 0 ? mix(400, 680, ph) : mix(680, 400, ph);
+                return <div key={k} style={{ position: "absolute", left: x - 14, top: 830 + Math.sin(ph * Math.PI) * -60, width: 28, height: 20, borderRadius: 6, background: C.accent, opacity: Math.sin(ph * Math.PI) * (1 - eight) }} />;
+              })
+            : null}
+          {/* post-its e mensagens que não acompanham o ritmo */}
+          {eight > 0.3 && ten < 1
+            ? Array.from({ length: 9 }).map((_, k) => {
+                const sp0 = 0.35 + (k % 4) * 0.12;
+                const ph = ((t - c.sit_eight) * sp0 + k * 0.17) % 1.4;
+                const y0 = 470 + (k * 97) % 560;
+                return (
+                  <div key={k} style={{ position: "absolute", left: mix(-120, 1140, ph / 1.4), top: y0 + Math.sin(t * 2 + k) * 20, width: k % 3 ? 90 : 70, height: k % 3 ? 60 : 70, borderRadius: k % 3 ? 14 : 6, background: k % 3 ? "rgba(143,180,227,0.85)" : "#E8D27A", opacity: 0.75 * Math.min(1, (eight - 0.3) * 2) * (1 - ten), transform: `rotate(${(k % 5 - 2) * 8 + Math.sin(t * 3 + k) * 6}deg)`, boxShadow: "0 10px 24px rgba(0,0,0,0.4)" }} />
+                );
+              })
+            : null}
           {/* mesas do escritório */}
           {eight > 0
             ? Array.from({ length: 8 }).map((_, i) => {
@@ -110,7 +130,7 @@ export const Team: React.FC<SceneProps> = ({ t, tl }) => {
             if (v <= 0.01) return null;
             const big = i === 0 ? mix(mix(120, 96, Math.min(1, out)), 130, ten) : 96;
             return (
-              <div key={i} style={{ position: "absolute", left: p.x - big / 2, top: p.y - big / 2, opacity: v * (ten > 0 && i !== 0 ? mix(1, 0.5, ten) : 1), transform: `scale(${i === 0 ? 1 : mix(0.4, 1, Math.min(1, out))})` }}>
+              <div key={i} style={{ position: "absolute", left: p.x - big / 2, top: p.y - big / 2 + Math.sin(t * 2.2 + i * 1.3) * 7, opacity: v * (ten > 0 && i !== 0 ? mix(1, 0.5, ten) : 1), transform: `scale(${i === 0 ? 1 : mix(0.4, 1, Math.min(1, out))})` }}>
                 <Avatar size={big} label={INITIALS[i]} bg={TEAM[i]} ring={i === 0 && ten > 0.5 ? C.accent : undefined} />
               </div>
             );

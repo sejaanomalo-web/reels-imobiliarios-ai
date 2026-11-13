@@ -69,6 +69,12 @@
 > - **Configuração usada:** preset original (Gemini `gemini-3.8-flash-tts`, Puck, direção original), **1,0×**, tomada única sem edição; padrão visual aprovado da ATIVO **sem o símbolo** (não está no repositório); CTA de comentário **SISTEMA** → **Direct**, transição "Essa clareza depende de cada lead ter seu histórico registrado."
 > - **Aprendizado:** gancho + situação num quadro e tensão + insight num painel de colunas (linhas vazias que o gestor depois apoia) mantém progressão sem cortes; câmera com aproximação ≤ 1,04 em tabelas largas — acima disso corta as bordas.
 >
+> ### Registro do EP033 (13/11/2026)
+>
+> - **Configuração usada:** preset original (Gemini, Puck, direção original), **1,0×**, tomada A sem edição; padrão visual aprovado da ATIVO **sem o símbolo** (fora do repositório); CTA de comentário **SISTEMA** → **Direct**, transição "Com o processo documentado, fica mais fácil escolher a ferramenta que se adapta a ele."
+> - **Aprendizados:** (1) cenas adiantadas com linha do tempo provisória precisam de nova revisão com a voz real — o fim do insight encolheu e um texto ficaria 0,2 s na tela; (2) diagramas de linhas finas e avatares parados medem pouco movimento (1,36) mesmo "bonitos": dar fluxo aos fios, respiração aos avatares e objetos atravessando a cena resolveu (1,78) sem acelerar; (3) quando não há pausa antes da CTA, o whoosh de entrada precisa ser baixo (≤ −27 dB) e colado à palavra.
+> - **Pendente de decisão do cliente:** avaliação de formato (híbrido com rosto real; texto ≥ ~34 px para o público 40+).
+>
 > - As seções "Padrão v2" abaixo ficam **só como histórico**. Os itens de voz delas (aceleração, encurtamento de pausas, time-stretch, direção energética) estão **revogados**. Os itens visuais valem apenas na forma suavizada descrita acima.
 
 Registro do que **efetivamente** melhorou os Reels, para aplicar automaticamente nos próximos episódios. Cada item diz como foi medido, para o próximo ajuste poder ser comparado. O Claude Code deve ler este arquivo junto com o `CLAUDE.md` antes de produzir qualquer episódio.
@@ -156,3 +162,4 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-12 | EP030 | Padrão aprovado (ATIVO, sem kit de marca) 1,0× + CTA de comentário (SISTEMA → Direct). Tomada C sem edição, 158 palavras/min, 46,8 s, movimento 1,78, maior trecho parado 1,1 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-12 | EP031 | Padrão aprovado (ATIVO, sem símbolo) 1,0× + CTA de comentário (SISTEMA → Direct). Tomada B a partir da 2ª leitura do gancho (corte só no início), 151 palavras/min, 45,4 s, movimento 2,17, maior trecho parado 0,6 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-12 | EP032 | Padrão aprovado (ATIVO, sem símbolo) 1,0× + CTA de comentário (SISTEMA → Direct). Tomada única limpa, 161 palavras/min, 38,5 s, movimento 1,80, maior trecho parado 1,0 s | Pedido do cliente; aguardando avaliação |
+| 2026-11-13 | EP033 | Padrão aprovado (ATIVO, sem símbolo) 1,0× + CTA de comentário (SISTEMA → Direct). Tomada A sem edição, 161 palavras/min, 43,1 s, movimento 1,78, maior trecho parado 0,7 s | Pedido do cliente; aguardando avaliação |

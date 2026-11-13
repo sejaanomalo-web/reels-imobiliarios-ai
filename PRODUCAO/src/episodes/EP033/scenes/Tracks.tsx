@@ -23,9 +23,9 @@ export const Tracks: React.FC<SceneProps> = ({ t, tl }) => {
   const c = tl.cues;
   const head = sp(t, c.ins_before, { damping: 15, stiffness: 160 });
   const doc = sp(t, c.ins_doc - 0.05, { damping: 13, stiffness: 180 });
-  const frame = prog(t, c.ins_tool - 0.2, 0.9, ease.inOut);
-  const fitTag = sp(t, c.ins_proc + 0.2, { damping: 12, stiffness: 190 });
-  const exit = prog(t, c.cta_doc - 0.15, 0.45, ease.in);
+  const frame = prog(t, c.ins_after + 0.2, 0.9, ease.inOut);
+  const fitTag = sp(t, c.ins_after + 0.75, { damping: 12, stiffness: 190 });
+  const exit = prog(t, c.cta_doc + 0.05, 0.4, ease.in);
   // moldura da ferramenta: começa larga e torta, se ajusta ao processo
   const fx = mix(10, 50, frame);
   const fy = mix(300, 400, frame);

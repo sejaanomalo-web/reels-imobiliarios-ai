@@ -38,7 +38,7 @@ export const EP033: React.FC<{ withAudio?: boolean }> = ({ withAudio = true }) =
       <Sequence name="01–03 Equipe (gancho, situação, tensão)" layout="none" {...win(0, c.ins_before + 0.35)}>
         <Team t={t} tl={tl} />
       </Sequence>
-      <Sequence name="04 Insight — três trilhas" layout="none" {...win(c.ins_before - 0.15, c.cta_doc + 0.35)}>
+      <Sequence name="04 Insight — três trilhas" layout="none" {...win(c.ins_before - 0.15, c.cta_doc + 0.5)}>
         <Tracks t={t} tl={tl} />
       </Sequence>
       <Sequence name="05 CTA comentário" layout="none" {...win(c.cta_doc - 0.1, tl.duration)}>

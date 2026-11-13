@@ -1,0 +1,74 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.61,
+    "palavras_nao_reconhecidas": [
+      "Contratar"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.88,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.27,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 5.5,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.58,
+    "palavras_nao_reconhecidas": [
+      "documente"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.08,
+    "palavras_nao_reconhecidas": [
+      "adapte"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 3.91,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 4.57,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.96,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 41.04,
+    "asr_match": 0.964,
+    "aligned_words": "106/110",
+    "words_per_min": 161,
+    "heard": "Cratar mais corretores não resolve um processo que ninguém entende. Com duas pessoas, as informações talvez caibam na conversa do escritório. Com oito, começam as dúvidas sobre imóveis, leads, visitas e responsáveis. Quando o trabalho depende de alguém explicar tudo de memória, o crescimento amplia a desorganização que já existia. Antes de aumentar a operação, documenta as etapas de atendimento, atualização de imóveis e passagem de oportunidades. Depois adapta a ferramenta ao processo. Com o processo documentado, fica mais fácil escolher a ferramenta que se adapta a ele. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 41.04,
+      "wpm": 161
+    },
+    "final": {
+      "seconds": 41.04,
+      "wpm": 161
+    }
+  }
+]

@@ -352,16 +352,16 @@
    "gain": -21
   },
   {
-   "cue": "ins_proc",
-   "offset": 0.7,
+   "cue": "ins_after",
+   "offset": 1.0,
    "sound": "pin",
-   "gain": -22
+   "gain": -24
   },
   {
    "cue": "cta_doc",
-   "offset": -0.45,
+   "offset": -0.15,
    "sound": "whoosh_up",
-   "gain": -24,
+   "gain": -27,
    "dur": 0.45
   },
   {
