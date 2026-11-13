@@ -90,6 +90,11 @@
 > - **Configuração usada:** composição `LP-ATIVO` (1920×1080), narração corrida do briefing completa, preset aprovado 1,0×, tomada única; trilha original por blocos A–H em `tools/build_music_lp.py` (ligada ao mix por `music.file`); marca e telas provisórias (`kit.tsx`).
 > - **Aprendizados:** (1) para 16:9 a câmera e o fundo precisam de origem própria (960×540) — os componentes 9:16 não servem; (2) trilha amarrada às palavras (cues) permite silêncios e impactos exatos sem editar à mão; (3) cenas de texto sobre fundo escurecido viram "quadro parado" — manter os elementos de trás se mexendo; (4) legendas para player web precisam de blocos curtos, não frases inteiras; (5) ferramentas com ID fixo "EP…" podem sobrescrever outro episódio — conferir `git status` depois de cada montagem.
 >
+> ### Registro do vídeo da landing ATIVO v2 (13/11/2026)
+>
+> - **Exceção à decisão de 1,0×:** só para o vídeo da landing, o cliente pediu voz **1,2×** (ffmpeg atempo, tom preservado) e no máximo 90 s. A série de Reels continua a 1,0×.
+> - **Aprendizados (feedback do cliente + referência validada):** (1) o texto grande precisa ser a **transcrição da fala**, não um resumo — frase na tela que diverge da voz é lida como erro; (2) transcrição em blocos de 2–4 palavras, palavra a palavra, destaque nas palavras-chave, faixa fixa; (3) gancho precisa de cena concreta de perda (hora, nome, consequência) — conceito abstrato prende menos; (4) telas do produto com ação interna convencem mais que ilustração; (5) dinamismo medido: v1 1,23 → v2 2,39 de movimento médio.
+>
 > - As seções "Padrão v2" abaixo ficam **só como histórico**. Os itens de voz delas (aceleração, encurtamento de pausas, time-stretch, direção energética) estão **revogados**. Os itens visuais valem apenas na forma suavizada descrita acima.
 
 Registro do que **efetivamente** melhorou os Reels, para aplicar automaticamente nos próximos episódios. Cada item diz como foi medido, para o próximo ajuste poder ser comparado. O Claude Code deve ler este arquivo junto com o `CLAUDE.md` antes de produzir qualquer episódio.
@@ -181,3 +186,4 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-13 | ATIVO EP01 | Roteiro novo do cliente, CTA de relacionamento do próprio roteiro. Tomada C sem edição, 160 palavras/min, 76,9 s, movimento 1,45, maior trecho parado 0,9 s, sem logo | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | ATIVO EP02 | Roteiro do cliente + CTA de comentário SISTEMA (no lugar de "Salve este Reel"). Tomada C sem edição, 169 palavras/min, 83,9 s, movimento 1,83, maior trecho parado 1,1 s, sem logo | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 | Vídeo principal da landing: 118 s, 1920×1080, trilha original por blocos, marca e telas provisórias, legendas web | Pedido do cliente; aguardando avaliação |
+| 2026-11-13 | LANDING 16:9 v2 | Transcrição dinâmica, voz 1,2× (exceção pedida), 86,5 s, elementos maiores, movimento 2,39 | Feedback do cliente: mais dinâmica, texto = fala, gancho mais forte |

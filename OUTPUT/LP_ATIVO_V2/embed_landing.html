@@ -1,11 +1,11 @@
 <!-- Primeira dobra da landing ATIVO: vídeo principal + CTAs.
      Arquivos: LP_ATIVO_V2_16x9_FINAL.mp4 (ou a versão web), LP_ATIVO_V2_poster.png, LP_ATIVO_V2_legendas.vtt.
-     Autoplay só funciona mudo; por isso a legenda vem ligada por padrão e há botão de som. -->
+     Autoplay só funciona mudo; a transcrição já está na imagem; a legenda do player fica disponível para acessibilidade. -->
 <section class="hero-video">
   <video id="ativo-video" playsinline muted autoplay preload="metadata"
          poster="LP_ATIVO_V2_poster.png" width="1920" height="1080" style="width:100%;height:auto;border-radius:16px">
     <source src="LP_ATIVO_V2_16x9_web.mp4" type="video/mp4">
-    <track kind="captions" src="LP_ATIVO_V2_legendas.vtt" srclang="pt-BR" label="Português" default>
+    <track kind="captions" src="LP_ATIVO_V2_legendas.vtt" srclang="pt-BR" label="Português">
   </video>
   <button type="button" onclick="const v=document.getElementById('ativo-video');v.muted=false;v.currentTime=0;v.play();this.remove()">
     Ativar som
