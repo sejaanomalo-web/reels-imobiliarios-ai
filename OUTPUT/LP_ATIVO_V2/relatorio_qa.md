@@ -1,35 +1,30 @@
-# Vídeo da landing ATIVO v2 (16:9) — relatório de QA
+# Vídeo da landing ATIVO — versão final (16:9) — relatório de QA
 
-**Status: renderizado e validado tecnicamente.** Revisão por quadros e métricas; eu não consigo ouvir — a voz a 1,2× e a trilha precisam de escuta humana.
+**Status: renderizado e validado tecnicamente; pronto para implementar.** Revisão por quadros e métricas; eu não consigo ouvir — vale uma escuta antes de publicar.
 
-## O que mudou da v1 para a v2 (pedido do cliente em 13/11)
+## Ajustes desta rodada (pedido do cliente em 13/11, após aprovar a v2)
 
 | Pedido | Feito |
 |---|---|
-| Texto coerente com a fala, como transcrição dinâmica | O texto grande agora é **exatamente** o que a voz diz: blocos de 2–4 palavras, cada palavra entra no instante em que é falada, palavras-chave em verde, faixa fixa embaixo. Saíram todas as frases-resumo que divergiam da voz (ex.: "NÃO É FALTA DE OPORTUNIDADE" enquanto a voz dizia "falta de cliente") |
-| Mais dinâmica | Movimento médio 2,39 (v1: 1,23); maior trecho parado 0,5 s (v1: 3,2 s); 19% de quadros parados (v1: 54%) |
-| Elementos e textos maiores | Transcrição a 86 px; cartões +15–20%; janela das funcionalidades de 1150 → 1700 px de largura; botões do CTA de 44 → 58 px |
-| Gancho mais forte | Começa já em movimento (sem preto): campos rígidos batendo e apertando o CORRETOR, ✕ vermelho com tremor em "errado", tudo se desmonta e a rotina passa a orbitar o corretor. **O texto do gancho é o mesmo** — ver ponto 1 abaixo |
-| 1,2× mais rápido | Voz acelerada 1,2× com tom preservado (196 palavras/min) |
-| 1 a 1,5 min | **86,5 s** (cortes de 4 frases, listados no roteiro) |
+| Só as 3 primeiras situações na representação da rotina | Ficaram Paula · Retornar hoje / Visita — 14:30 / Valor atualizado; saíram Novo lead, Proposta enviada e Retomar em 3 dias. A fala dessas três continua (só a transcrição mostra), com notificações genéricas mantendo o movimento |
+| Centralizar verticalmente | Cartões e a "tela única" centrados no quadro (faixa de ~385–555 px), acima da transcrição |
+| Velocidade −0,2 (regra: 1,5×→1,3×) | 1,2× → **1,0×** (gravação original, sem aceleração). Duração passou a **1min43** (103,2 s) |
+| Logo oficial nos momentos de marca | Arquivo enviado, com o fundo preto convertido em transparência (sem redesenho): revelação da esquerda para a direita em "o Sistema ATIVO", sob o foco de luz no diferencial, no fecho do CTA (com brilho final), no canto da janela do sistema e no pôster. Na transcrição o "ATIVO" continua texto (é fala) |
+| Verde idêntico à identidade #3AF584 | Todo o verde de interface, destaques da transcrição, botões, brilhos e trilhas de luz usam #3AF584; registrado em `MARCA/brand.json` e em `PRODUCAO/src/theme.ts`. A logo mantém as cores do próprio arquivo |
 
 ## Checagem
 
-- Render 11/11: 1920×1080 · H.264 · yuv420p · 30 fps · AAC · 86,5 s · −15,03 LUFS · −1,94 dBTP · sem pretos · sem silêncio.
-- Sincronia vídeo × narração: 0 ms. Reconhecimento da fala: 98,7% na voz isolada, 98,4% na mixagem (a trilha não encobre palavras). "com IA" conferido no Whisper.
-- Desvios da voz em relação ao texto (vêm da gravação da v1): "quando **a** informação **ficar**", "com **a** ajuda", "com **o** nosso time".
+- Render 11/11: 1920×1080 · H.264 · yuv420p · 30 fps · AAC · 103,2 s · −15,03 LUFS · −1,97 dBTP · sem pretos · sem silêncio.
+- Sincronia 0 ms; reconhecimento da fala 98,9% (voz) / 97,6% (mix).
+- Movimento médio 2,01, maior trecho parado 0,7 s.
+- Correções nesta rodada: o traço de luz que atravessava a logo oficial na virada foi removido (a seta da logo já cumpre esse papel); os cartões escurecem mais quando a logo entra, para nenhum texto aparecer sob as letras.
 
-## Pontos de atenção
+## Pendências conhecidas
 
-1. **O gancho ainda é abstrato no texto.** A referência prende porque abre com uma cena concreta de perda. Proposta para gravar amanhã (cota da voz renova ~5h de Brasília), substituindo só as duas primeiras frases — o resto do vídeo fica igual:
-   > "Terça, sete da noite. A Paula pede um retorno sobre o apartamento. Você anota… em algum lugar. Sexta, ela fecha com outro corretor. Não faltou cliente. Faltou um sistema que acompanhasse a sua rotina."
-   Visual: relógio 19:00 + mensagem da Paula → post-it perdido → "sexta-feira" em vermelho + selo "fechou com outro corretor" → corte para o corretor com a rotina orbitando. Duração final estimada: ~89 s.
-2. **1,2× contraria a decisão anterior do projeto** (narração sempre a 1,0×, sem aceleração). Apliquei porque você pediu explicitamente para este vídeo; registrei no guia como exceção da landing, não da série de Reels.
-3. **Telas ilustrativas e marca provisória** continuam (sem telas reais nem logo no repositório). É o maior ganho pendente em relação à referência.
-4. **Autoplay mudo**: com a transcrição grande na tela, o vídeo funciona sem som. No HTML a legenda do player ficou desligada por padrão (seria duplicada); o `.vtt` continua disponível para acessibilidade.
+1. Duração 1min43 — acima do 1min30 pedido antes; consequência direta da volta a 1,0×. Se quiser ≤ 1min35, a alternativa é 1,1×.
+2. Telas do sistema seguem ilustrativas (marcadas "INTERFACE ILUSTRATIVA").
+3. Gancho: o texto é o original; a proposta de cena concreta (Paula, terça 19h → sexta fechou com outro) segue disponível para gravar.
 
-## Regenerar
+## Implementação na landing
 
-```bash
-cd PRODUCAO && python3 tools/build_narration.py LP-ATIVO-V2 --source ../OUTPUT/LP_ATIVO_V2/audio/narracao_cortada_1p2x.wav && python3 tools/build_music_lp.py LP-ATIVO-V2 && python3 tools/build_audio.py LP-ATIVO-V2 && bash tools/render_episode.sh LP-ATIVO-V2
-```
+`embed_landing.html` traz o player (vídeo mudo em autoplay + botão "Ativar som"), pôster e os dois CTAs com os links do briefing. Use `LP_ATIVO_V2_16x9_web.mp4` (~12 MB) no site; o master `LP_ATIVO_V2_16x9_FINAL.mp4` fica como arquivo-fonte.

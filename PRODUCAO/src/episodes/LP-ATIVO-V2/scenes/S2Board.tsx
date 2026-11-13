@@ -123,7 +123,7 @@ export const S2Board: React.FC<SceneProps> = ({ t, tl }) => {
           op *= 1 - scrim * 0.3;
           // saída: IMÓVEL cresce e vira a interface; os outros somem
           const isImovel = k.k === "IMÓVEL";
-          op *= (isImovel ? 1 - prog(grow, 0.6, 0.4, ease.linear) : 1 - grow) * (1 - 0.7 * Math.min(1, mark) * (isImovel ? grow < 0.05 ? 1 : 0 : 1));
+          op *= (isImovel ? 1 - prog(grow, 0.6, 0.4, ease.linear) : 1 - grow) * (1 - 0.92 * Math.min(1, mark) * (isImovel ? grow < 0.05 ? 1 : 0 : 1));
           const sc = isImovel ? mix(1, 2.6, grow) : 1;
           return (
             <div key={k.k} style={{ position: "absolute", left: x, top: y, opacity: Math.min(1, op), filter: haze > 0.02 ? `blur(${haze * 7}px)` : undefined, transform: `rotate(${rot}deg) scale(${sc})`, transformOrigin: "50% 50%", zIndex: isImovel ? 5 : 1 }}>
