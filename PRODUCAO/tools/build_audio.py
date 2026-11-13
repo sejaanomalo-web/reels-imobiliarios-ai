@@ -411,6 +411,16 @@ if dcfg:
         k += 1
     drums = drums / (np.abs(drums).max() + 1e-9) * db(dcfg.get("gain", -24) + 9)
     music = music + drums
+# trilha externa já sintetizada (episode.json → music.file, ex.: tools/build_music_lp.py): substitui pad/bateria acima
+if mcfg.get("file"):
+    with wave.open(os.path.join(ROOT, "public", EP, mcfg["file"]), "rb") as w_:
+        assert w_.getframerate() == SR
+        raw = np.frombuffer(w_.readframes(w_.getnframes()), dtype=np.int16).astype(np.float64) / 32767
+        raw = raw.reshape(-1, w_.getnchannels())
+    if raw.shape[1] == 1:
+        raw = np.repeat(raw, 2, axis=1)
+    raw = np.pad(raw, ((0, max(0, N - len(raw))), (0, 0)))[:N]
+    music = raw / (np.abs(raw).max() + 1e-9) * db(mcfg.get("gain", -27) + 9)
 # respiros: a trilha some por um instante para destacar uma revelação
 for dr in mcfg.get("drops", []):
     a0 = _at(dr["at"]); d0 = dr["dur"]

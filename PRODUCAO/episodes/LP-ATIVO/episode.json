@@ -269,10 +269,582 @@
   "s30",
   "s31"
  ],
- "cues": {},
+ "cues": {
+  "g_se": {
+   "seg": "s1",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_crm": {
+   "seg": "s1",
+   "word": "CRM",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_talvez": {
+   "seg": "s1",
+   "word": "talvez",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_errado": {
+   "seg": "s1",
+   "word": "errado",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_sys": {
+   "seg": "s2",
+   "word": "O",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_rotina": {
+   "seg": "s2",
+   "word": "rotina",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_porque": {
+   "seg": "s3",
+   "word": "Porque",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_tela": {
+   "seg": "s3",
+   "word": "tela",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_ret": {
+   "seg": "s4",
+   "word": "Tem",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_vis": {
+   "seg": "s5",
+   "word": "Visita",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_imo": {
+   "seg": "s6",
+   "word": "Proprietário",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_lead": {
+   "seg": "s7",
+   "word": "Lead",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_neg": {
+   "seg": "s8",
+   "word": "Negociação",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_fu": {
+   "seg": "s9",
+   "word": "E",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_3d": {
+   "seg": "s9",
+   "word": "três",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_e": {
+   "seg": "s10",
+   "word": "E",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_prob": {
+   "seg": "s10",
+   "word": "problema",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_nem": {
+   "seg": "s11",
+   "word": "Nem",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_ver": {
+   "seg": "s12",
+   "word": "É",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_clar": {
+   "seg": "s12",
+   "word": "clareza",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_porque": {
+   "seg": "s13",
+   "word": "Porque",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_esp": {
+   "seg": "s13",
+   "word": "espalhada",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_op": {
+   "seg": "s13",
+   "word": "oportunidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_tras": {
+   "seg": "s13",
+   "word": "ficar",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_foi": {
+   "seg": "s14",
+   "word": "Foi",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_ativo": {
+   "seg": "s14",
+   "word": "ATIVO",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_lugar": {
+   "seg": "s15",
+   "word": "Um",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_acomp": {
+   "seg": "s15",
+   "word": "acompanhar",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_sem": {
+   "seg": "s15",
+   "word": "sem",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_chato": {
+   "seg": "s15",
+   "word": "chato",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_imo": {
+   "seg": "s16",
+   "word": "Você",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_crm": {
+   "seg": "s17",
+   "word": "Centralizar",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_neg": {
+   "seg": "s17",
+   "word": "negociação",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_lead": {
+   "seg": "s18",
+   "word": "Receber",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_camp": {
+   "seg": "s18",
+   "word": "campanhas",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_ia": {
+   "seg": "s19",
+   "word": "E",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_assist": {
+   "seg": "s19",
+   "word": "Assistente",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_na": {
+   "seg": "s20",
+   "word": "Na",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_mem": {
+   "seg": "s20",
+   "word": "memória",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_clar": {
+   "seg": "s20",
+   "word": "clareza",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_quem": {
+   "seg": "s20",
+   "word": "quem",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_qual": {
+   "seg": "s20",
+   "word": "qual",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_merece": {
+   "seg": "s20",
+   "word": "merece",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_agora": {
+   "seg": "s20",
+   "word": "agora",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_mas": {
+   "seg": "s21",
+   "word": "Mas",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_aqui": {
+   "seg": "s21",
+   "word": "aqui",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_nao": {
+   "seg": "s22",
+   "word": "a",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_pronto": {
+   "seg": "s22",
+   "word": "pronto",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_prim": {
+   "seg": "s23",
+   "word": "Primeiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_diag": {
+   "seg": "s23",
+   "word": "diagnóstico",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_q1": {
+   "seg": "s24",
+   "word": "Como",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_q2": {
+   "seg": "s25",
+   "word": "Como",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_q3": {
+   "seg": "s26",
+   "word": "Como",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_q4": {
+   "seg": "s27",
+   "word": "E",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_rot": {
+   "seg": "s27",
+   "word": "rotina",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_a": {
+   "seg": "s28",
+   "word": "A",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_ent": {
+   "seg": "s28",
+   "word": "entendemos",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_sol": {
+   "seg": "s28",
+   "word": "solução",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_pers": {
+   "seg": "s28",
+   "word": "personalizada",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_trab": {
+   "seg": "s28",
+   "word": "trabalhar",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_se": {
+   "seg": "s29",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_ativo": {
+   "seg": "s29",
+   "word": "ATIVO",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_simples": {
+   "seg": "s29",
+   "word": "simples",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_esc": {
+   "seg": "s30",
+   "word": "Escolha",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_demo": {
+   "seg": "s30",
+   "word": "demonstração",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_fale": {
+   "seg": "s30",
+   "word": "fale",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_wpp": {
+   "seg": "s30",
+   "word": "WhatsApp",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_gente": {
+   "seg": "s31",
+   "word": "A",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_end": {
+   "seg": "s31",
+   "word": "você",
+   "edge": "end",
+   "offset": 0
+  },
+  "g_errado_end": {
+   "seg": "s1",
+   "word": "errado",
+   "edge": "end",
+   "offset": 0
+  },
+  "x_pronto_end": {
+   "seg": "s22",
+   "word": "pronto",
+   "edge": "end",
+   "offset": 0
+  },
+  "d_tras_end": {
+   "seg": "s13",
+   "word": "trás",
+   "edge": "end",
+   "offset": 0
+  }
+ },
  "series": {},
- "sfx": [],
- "music": {},
+ "sfx": [
+  {
+   "cue": "g_se",
+   "offset": -0.35,
+   "sound": "tick",
+   "gain": -28
+  },
+  {
+   "cue": "g_sys",
+   "offset": -0.4,
+   "sound": "whoosh_up",
+   "gain": -27,
+   "dur": 0.6
+  },
+  {
+   "cue": "r_ret",
+   "offset": -0.3,
+   "sound": "click",
+   "gain": -29
+  },
+  {
+   "cue": "r_vis",
+   "offset": -0.3,
+   "sound": "click",
+   "gain": -29
+  },
+  {
+   "cue": "r_imo",
+   "offset": -0.3,
+   "sound": "click",
+   "gain": -29
+  },
+  {
+   "cue": "r_lead",
+   "offset": -0.3,
+   "sound": "click",
+   "gain": -29
+  },
+  {
+   "cue": "r_neg",
+   "offset": -0.3,
+   "sound": "click",
+   "gain": -29
+  },
+  {
+   "cue": "r_fu",
+   "offset": -0.3,
+   "sound": "click",
+   "gain": -29
+  },
+  {
+   "cue": "f_crm",
+   "offset": -0.35,
+   "sound": "swish",
+   "gain": -28
+  },
+  {
+   "cue": "f_lead",
+   "offset": -0.35,
+   "sound": "swish",
+   "gain": -28
+  },
+  {
+   "cue": "f_ia",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -28
+  },
+  {
+   "cue": "f_assist",
+   "offset": -0.9,
+   "sound": "typing",
+   "gain": -34
+  },
+  {
+   "cue": "c_qual",
+   "offset": -0.3,
+   "sound": "pin",
+   "gain": -29
+  },
+  {
+   "cue": "c_merece",
+   "offset": -0.3,
+   "sound": "pin",
+   "gain": -29
+  },
+  {
+   "cue": "c_agora",
+   "offset": 0.55,
+   "sound": "pin",
+   "gain": -28
+  },
+  {
+   "cue": "p_a",
+   "offset": -0.25,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "p_ent",
+   "offset": -0.3,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "p_sol",
+   "offset": -0.3,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "k_esc",
+   "offset": -0.3,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "k_fale",
+   "offset": -0.25,
+   "sound": "click",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "file": "music.wav",
+  "gain": -27,
+  "duck": -6.5,
+  "bpm": 100,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     38
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.4,
+    "label": "(ignorado: trilha externa)"
+   }
+  ]
+ },
  "sceneLead": {
   "rotina": 0.3,
   "dor": 0.3,
