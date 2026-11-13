@@ -16,26 +16,24 @@ import { Cam, Mark, NEON, Trail } from "../kit";
  */
 type Card = { k: string; title: string; sub: string; cue: string; x: number; y: number; fx: number; fy: number; rot: number; gx: number; gy: number; icon: string };
 const CARDS: Card[] = [
-  { k: "RETORNO", title: "Paula", sub: "Retornar hoje", cue: "r_ret", x: 70, y: 80, fx: -650, fy: 0, rot: -3, gx: 150, gy: 190, icon: "☎" },
-  { k: "VISITA", title: "Visita — 14:30", sub: "Confirmar com o cliente", cue: "r_vis", x: 700, y: 30, fx: 0, fy: -500, rot: 2, gx: 700, gy: 190, icon: "◷" },
-  { k: "IMÓVEL", title: "Valor atualizado", sub: "Proprietário avisou", cue: "r_imo", x: 1330, y: 100, fx: 650, fy: 0, rot: 3, gx: 1250, gy: 190, icon: "⌂" },
-  { k: "CAMPANHA", title: "Novo lead recebido", sub: "Anúncio · casa 3 quartos", cue: "r_lead", x: 120, y: 470, fx: -650, fy: 200, rot: 2, gx: 150, gy: 400, icon: "✦" },
-  { k: "NEGOCIAÇÃO", title: "Proposta enviada", sub: "Aguardando resposta", cue: "r_neg", x: 720, y: 380, fx: 0, fy: 500, rot: -2, gx: 700, gy: 400, icon: "⇄" },
-  { k: "FOLLOW-UP", title: "Retomar em 3 dias", sub: "Lembrete", cue: "r_fu", x: 1290, y: 530, fx: 650, fy: 200, rot: -3, gx: 1250, gy: 400, icon: "↻" },
+  { k: "RETORNO", title: "Paula", sub: "Retornar hoje", cue: "r_ret", x: 110, y: 400, fx: -700, fy: 0, rot: -3, gx: 150, gy: 385, icon: "☎" },
+  { k: "VISITA", title: "Visita — 14:30", sub: "Confirmar com o cliente", cue: "r_vis", x: 700, y: 330, fx: 0, fy: -600, rot: 2, gx: 700, gy: 385, icon: "◷" },
+  { k: "IMÓVEL", title: "Valor atualizado", sub: "Proprietário avisou", cue: "r_imo", x: 1290, y: 420, fx: 700, fy: 0, rot: 3, gx: 1250, gy: 385, icon: "⌂" },
 ];
 const CW = 520;
 const CH = 170;
 const NOISE = [
-  { k: "+3 mensagens", x: 560, y: 300, at: "r_lead" },
-  { k: "Ligação perdida", x: 1220, y: 380, at: "r_neg" },
-  { k: "Lembrete: 16:00", x: 60, y: 360, at: "r_neg" },
-  { k: "Nova mensagem", x: 1560, y: 330, at: "r_fu" },
-  { k: "Documento pendente", x: 560, y: 690, at: "r_fu" },
+  { k: "+3 mensagens", x: 560, y: 220, at: "r_lead" },
+  { k: "Ligação perdida", x: 1230, y: 250, at: "r_lead" },
+  { k: "Lembrete: 16:00", x: 120, y: 640, at: "r_neg" },
+  { k: "Nova mensagem", x: 1500, y: 650, at: "r_neg" },
+  { k: "Documento pendente", x: 760, y: 660, at: "r_fu" },
+  { k: "E-mail não lido", x: 200, y: 230, at: "r_fu" },
 ];
 
 const CardBox: React.FC<{ c: Card; lit?: number; warm?: number; gray?: number }> = ({ c, lit = 0, warm = 0, gray = 0 }) => (
-  <div style={{ width: CW, height: CH, boxSizing: "border-box", borderRadius: 26, background: "rgba(14,20,18,0.96)", border: `2px solid ${warm > 0.3 ? `rgba(232,184,106,${0.4 + 0.5 * warm})` : lit > 0.5 ? "rgba(53,224,161,0.7)" : "rgba(255,255,255,0.12)"}`, boxShadow: `0 30px 70px rgba(0,0,0,0.55)${lit > 0.5 ? ", 0 0 40px rgba(53,224,161,0.25)" : ""}`, display: "flex", alignItems: "center", gap: 22, padding: "0 28px", filter: gray > 0 ? `grayscale(${gray}) brightness(${mix(1, 0.6, gray)})` : undefined }}>
-    <div style={{ width: 84, height: 84, borderRadius: 42, flexShrink: 0, background: "rgba(53,224,161,0.12)", color: NEON, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 42 }}>{c.icon}</div>
+  <div style={{ width: CW, height: CH, boxSizing: "border-box", borderRadius: 26, background: "rgba(14,20,18,0.96)", border: `2px solid ${warm > 0.3 ? `rgba(232,184,106,${0.4 + 0.5 * warm})` : lit > 0.5 ? "rgba(58,245,132,0.7)" : "rgba(255,255,255,0.12)"}`, boxShadow: `0 30px 70px rgba(0,0,0,0.55)${lit > 0.5 ? ", 0 0 40px rgba(58,245,132,0.25)" : ""}`, display: "flex", alignItems: "center", gap: 22, padding: "0 28px", filter: gray > 0 ? `grayscale(${gray}) brightness(${mix(1, 0.6, gray)})` : undefined }}>
+    <div style={{ width: 84, height: 84, borderRadius: 42, flexShrink: 0, background: "rgba(58,245,132,0.12)", color: NEON, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 42 }}>{c.icon}</div>
     <div style={{ minWidth: 0 }}>
       <div style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 24, letterSpacing: "0.12em", color: NEON }}>{c.k}</div>
       <div style={{ fontFamily: F.sans, fontWeight: 800, fontSize: 44, color: C.text, letterSpacing: "-0.02em", whiteSpace: "nowrap" }}>{c.title}</div>
@@ -78,7 +76,7 @@ export const S2Board: React.FC<SceneProps> = ({ t, tl }) => {
       >
         {/* "uma única tela" que se desfaz */}
         {screen > 0 && split < 1 ? (
-          <div style={{ position: "absolute", left: 960 - 380, top: 400 - 230, width: 760, height: 460, boxSizing: "border-box", borderRadius: 30, border: "3px solid rgba(255,255,255,0.25)", background: "rgba(12,16,15,0.85)", opacity: Math.min(1, screen * 1.5) * (1 - split), transform: `scale(${mix(0.85, 1, Math.min(1, screen)) * mix(1, 1.6, split) * (1 + 0.04 * Math.sin(t * 2))}) rotate(${Math.sin(t * 1.3) * 1.5}deg)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div style={{ position: "absolute", left: 960 - 380, top: 470 - 230, width: 760, height: 460, boxSizing: "border-box", borderRadius: 30, border: "3px solid rgba(255,255,255,0.25)", background: "rgba(12,16,15,0.85)", opacity: Math.min(1, screen * 1.5) * (1 - split), transform: `scale(${mix(0.85, 1, Math.min(1, screen)) * mix(1, 1.6, split) * (1 + 0.04 * Math.sin(t * 2))}) rotate(${Math.sin(t * 1.3) * 1.5}deg)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
             <div style={{ width: 120, height: 8, borderRadius: 4, background: "rgba(255,255,255,0.2)" }} />
           </div>
         ) : null}
@@ -135,8 +133,8 @@ export const S2Board: React.FC<SceneProps> = ({ t, tl }) => {
         })}
         {/* marca */}
         {mark > 0 ? (
-          <div style={{ position: "absolute", left: 0, right: 0, top: 250, display: "flex", justifyContent: "center", opacity: Math.min(1, mark * 1.5) * (1 - grow), transform: `scale(${mix(1.5, 1.25, Math.min(1, mark))})`, zIndex: 20 }}>
-            <Mark size={130} glow={1} sub />
+          <div style={{ position: "absolute", left: 0, right: 0, top: 360, display: "flex", justifyContent: "center", opacity: Math.min(1, mark * 1.5) * (1 - grow), transform: `scale(${mix(1.15, 1, Math.min(1, mark))})`, zIndex: 20 }}>
+            <Mark size={150} glow={1} reveal={prog(t, c.v_ativo - 0.25, 0.55, ease.out)} />
           </div>
         ) : null}
       </Cam>
@@ -145,7 +143,7 @@ export const S2Board: React.FC<SceneProps> = ({ t, tl }) => {
       <div style={{ position: "absolute", inset: 0, background: `rgba(2,4,3,${0.25 * scrim})`, pointerEvents: "none" }} />
       {/* virada: traço de luz que organiza + texto */}
       <Trail d="M -80 760 C 400 760, 700 520, 1000 520 S 1500 300, 2000 260" p={sweep} len={2400} width={12} fade={prog(t, c.v_foi + 1.6, 0.8, ease.in)} />
-      <Trail d="M 2000 760 C 1500 760, 1200 460, 960 330" p={prog(t, c.v_ativo - 0.75, 0.75, ease.inOut)} len={1300} width={8} fade={prog(t, c.v_ativo + 0.2, 0.6, ease.in)} tail={0.6} />
+
     </div>
   );
 };

@@ -74,7 +74,7 @@ export const S1Hook: React.FC<SceneProps> = ({ t, tl }) => {
             );
           })}
           {/* o corretor apertado → livre */}
-          <div style={{ position: "absolute", left: CX, top: CY, transform: `translate(-50%, -50%) scale(${mix(1, 0.72, squeeze) * mix(1, 1.7, Math.min(1.1, free))}) scaleX(${mix(1, 0.82, squeeze * (1 - brk))})`, padding: "20px 44px", borderRadius: 50, background: brk > 0.2 ? NEON : "#1E2623", border: `3px solid ${xmark > 0.3 && brk < 0.2 ? C.warn : "rgba(255,255,255,0.3)"}`, fontFamily: F.mono, fontWeight: 700, fontSize: 44, letterSpacing: "0.1em", color: brk > 0.2 ? C.accentInk : C.text, boxShadow: brk > 0.2 ? "0 0 70px rgba(53,224,161,0.5)" : "none", zIndex: 5 }}>
+          <div style={{ position: "absolute", left: CX, top: CY, transform: `translate(-50%, -50%) scale(${mix(1, 0.72, squeeze) * mix(1, 1.7, Math.min(1.1, free))}) scaleX(${mix(1, 0.82, squeeze * (1 - brk))})`, padding: "20px 44px", borderRadius: 50, background: brk > 0.2 ? NEON : "#1E2623", border: `3px solid ${xmark > 0.3 && brk < 0.2 ? C.warn : "rgba(255,255,255,0.3)"}`, fontFamily: F.mono, fontWeight: 700, fontSize: 44, letterSpacing: "0.1em", color: brk > 0.2 ? C.accentInk : C.text, boxShadow: brk > 0.2 ? "0 0 70px rgba(58,245,132,0.5)" : "none", zIndex: 5 }}>
             CORRETOR
           </div>
           {/* ✕ vermelho em "errado" */}
@@ -90,7 +90,7 @@ export const S1Hook: React.FC<SceneProps> = ({ t, tl }) => {
                 const a = (i / ORBIT.length) * Math.PI * 2 + t * 0.9;
                 const r = mix(120, 360, orbit);
                 return (
-                  <div key={o.k} style={{ position: "absolute", left: CX + Math.cos(a) * r * 1.35, top: CY + Math.sin(a) * r * 0.75, transform: "translate(-50%, -50%)", opacity: orbit, display: "flex", alignItems: "center", gap: 12, padding: "14px 26px", borderRadius: 30, background: "rgba(16,24,21,0.95)", border: "2px solid rgba(53,224,161,0.5)", fontWeight: 800, fontSize: 34, color: C.text, whiteSpace: "nowrap" }}>
+                  <div key={o.k} style={{ position: "absolute", left: CX + Math.cos(a) * r * 1.35, top: CY + Math.sin(a) * r * 0.75, transform: "translate(-50%, -50%)", opacity: orbit, display: "flex", alignItems: "center", gap: 12, padding: "14px 26px", borderRadius: 30, background: "rgba(16,24,21,0.95)", border: "2px solid rgba(58,245,132,0.5)", fontWeight: 800, fontSize: 34, color: C.text, whiteSpace: "nowrap" }}>
                     <span style={{ color: NEON, fontSize: 34 }}>{o.i}</span>
                     {o.k}
                   </div>

@@ -10,7 +10,7 @@ export const C = {
   text: "#F4F5F7",
   muted: "#9198A3",
   dim: "#5A606B",
-  accent: "#35E0A1",
+  accent: "#3AF584",
   accentInk: "#05261B",
   warn: "#FF6B5E",
   cold: "#8FB4E3",

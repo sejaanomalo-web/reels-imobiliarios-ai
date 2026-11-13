@@ -11,8 +11,8 @@ import { ease, mix, prog } from "../../lib/anim";
  * nenhum dos dois imita o símbolo oficial. Para trocar: salve o SVG/PNG aprovado em PRODUCAO/public/brand/ e aponte
  * LOGO_FILE para ele (ex.: "brand/ativo_logo.svg"); NEON recebe o verde oficial quando ele for informado.
  */
-export const LOGO_FILE: string | null = null;
-export const NEON = C.accent; // provisório (MARCA/brand.json) até o verde neon oficial ser informado
+export const LOGO_FILE: string | null = "brand/ativo_logo.png"; // logo oficial (MARCA/logo), fundo removido
+export const NEON = "#3AF584"; // verde oficial da identidade ATIVO
 export const W = 1920;
 export const H = 1080;
 export const DEEP = "#03100B"; // verde extremamente escuro
@@ -64,7 +64,7 @@ export const Bg: React.FC<{ t: number; glow: number; warm?: number }> = ({ t, gl
           <rect width={W} height={H} fill="url(#lpgrid)" />
         </svg>
       </AbsoluteFill>
-      <AbsoluteFill style={{ background: `radial-gradient(900px 600px at ${50 + Math.sin(t * 0.13) * 8}% ${48 + Math.cos(t * 0.11) * 6}%, rgba(53,224,161,${0.05 + 0.13 * glow}) 0%, transparent 70%)` }} />
+      <AbsoluteFill style={{ background: `radial-gradient(900px 600px at ${50 + Math.sin(t * 0.13) * 8}% ${48 + Math.cos(t * 0.11) * 6}%, rgba(58,245,132,${0.05 + 0.13 * glow}) 0%, transparent 70%)` }} />
       {warm > 0 ? <AbsoluteFill style={{ background: `radial-gradient(1000px 700px at 30% 40%, rgba(255,107,94,${0.08 * warm}) 0%, transparent 70%)` }} /> : null}
       <AbsoluteFill style={{ background: "radial-gradient(1400px 900px at 50% 50%, transparent 55%, rgba(0,0,0,0.65) 100%)" }} />
     </AbsoluteFill>
@@ -82,16 +82,23 @@ export const Grain16: React.FC<{ frame: number }> = ({ frame }) => (
   </AbsoluteFill>
 );
 
-/** Marca: logo oficial quando existir; até lá, marcador tipográfico provisório (não é a logo). */
-export const Mark: React.FC<{ size: number; glow?: number; sub?: boolean }> = ({ size, glow = 0, sub = false }) =>
-  LOGO_FILE ? (
-    <Img src={staticFile(LOGO_FILE)} style={{ height: size, filter: glow > 0 ? `drop-shadow(0 0 ${30 * glow}px rgba(53,224,161,${0.6 * glow}))` : undefined }} />
-  ) : (
-    <div style={{ display: "inline-flex", flexDirection: "column", alignItems: "center", fontFamily: F.sans, lineHeight: 1 }}>
-      {sub ? <span style={{ fontFamily: F.mono, fontWeight: 700, fontSize: size * 0.18, letterSpacing: "0.3em", color: C.muted, marginBottom: size * 0.1 }}>SISTEMA</span> : null}
-      <span style={{ fontWeight: 800, fontSize: size, letterSpacing: "0.08em", color: C.text, textShadow: glow > 0 ? `0 0 ${40 * glow}px rgba(53,224,161,${0.45 * glow})` : undefined }}>ATIVO</span>
+/** Marca: logo oficial ATIVO (arquivo aprovado). `size` = altura das letras; `reveal` 0→1 revela da esquerda para a direita;
+ *  `shine` 0→1 passa um brilho sobre a logo. */
+export const LOGO_RATIO = 975 / 294;
+export const Mark: React.FC<{ size: number; glow?: number; sub?: boolean; reveal?: number; shine?: number }> = ({ size, glow = 0, reveal = 1, shine = -1 }) => {
+  const h = size * 1.45;
+  const w = h * LOGO_RATIO;
+  return LOGO_FILE ? (
+    <div style={{ position: "relative", width: w, height: h, clipPath: reveal < 1 ? `inset(-20% ${(1 - reveal) * 100}% -20% -5%)` : undefined }}>
+      <Img src={staticFile(LOGO_FILE)} style={{ width: w, height: h, filter: glow > 0 ? `drop-shadow(0 0 ${24 * glow}px rgba(58,245,132,${0.55 * glow}))` : undefined }} />
+      {shine >= 0 && shine <= 1 ? (
+        <div style={{ position: "absolute", inset: 0, WebkitMaskImage: `url(${staticFile(LOGO_FILE)})`, maskImage: `url(${staticFile(LOGO_FILE)})`, WebkitMaskSize: "100% 100%", maskSize: "100% 100%", background: `linear-gradient(100deg, transparent ${shine * 140 - 30}%, rgba(255,255,255,0.95) ${shine * 140 - 15}%, transparent ${shine * 140}%)` }} />
+      ) : null}
     </div>
+  ) : (
+    <span style={{ fontFamily: F.sans, fontWeight: 800, fontSize: size, letterSpacing: "0.08em", color: C.text }}>ATIVO</span>
   );
+};
 
 /**
  * Traço de luz verde que percorre uma curva (substitui provisoriamente o movimento da seta oficial; sem ponta de seta).
@@ -142,7 +149,7 @@ export const AppWindow: React.FC<{ x: number; y: number; w: number; h: number; t
   return (
     <div style={{ position: "absolute", left: x, top: y, width: w, height: h, borderRadius: 28, overflow: "hidden", background: "#0C1210", border: "1px solid rgba(255,255,255,0.10)", boxShadow: "0 60px 140px rgba(0,0,0,0.65)", fontFamily: F.sans, ...style }}>
       <div style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: 230, background: "#08100D", borderRight: "1px solid rgba(255,255,255,0.06)", padding: "28px 18px", boxSizing: "border-box" }}>
-        <div style={{ fontWeight: 800, fontSize: 26, letterSpacing: "0.08em", color: C.text, marginBottom: 34, paddingLeft: 12 }}>ATIVO</div>
+        <div style={{ marginBottom: 34, paddingLeft: 6 }}>{LOGO_FILE ? <Img src={staticFile(LOGO_FILE)} style={{ height: 44 }} /> : null}</div>
         {MENU.map((m, i) => (
           <div key={m} style={{ padding: "14px 14px", borderRadius: 14, marginBottom: 6, fontWeight: 700, fontSize: 28, color: i === active ? C.accentInk : C.muted, background: i === active ? NEON : "transparent" }}>{m}</div>
         ))}
@@ -212,7 +219,7 @@ export const KCap: React.FC<{ t: number; words: CW_[]; y?: number; size?: number
         const key = KEYS.has(norm(w.text));
         const speaking = t >= w.start && t < w.end + 0.05;
         return (
-          <span key={i} style={{ display: "inline-block", opacity: p, transform: `translateY(${(1 - p) * size * 0.35}px) scale(${mix(1.25, 1, p) * (speaking && key ? 1.04 : 1)})`, color: key ? NEON : C.text, textShadow: key ? "0 0 30px rgba(53,224,161,0.35)" : "0 4px 24px rgba(0,0,0,0.6)" }}>
+          <span key={i} style={{ display: "inline-block", opacity: p, transform: `translateY(${(1 - p) * size * 0.35}px) scale(${mix(1.25, 1, p) * (speaking && key ? 1.04 : 1)})`, color: key ? NEON : C.text, textShadow: key ? "0 0 30px rgba(58,245,132,0.35)" : "0 4px 24px rgba(0,0,0,0.6)" }}>
             {w.text}
           </span>
         );

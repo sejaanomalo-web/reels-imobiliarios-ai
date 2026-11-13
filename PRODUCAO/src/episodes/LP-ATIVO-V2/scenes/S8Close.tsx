@@ -35,8 +35,7 @@ export const S8Close: React.FC<SceneProps> = ({ t, tl }) => {
   const b1 = sp(t, c.k_esc - 0.15, { damping: 13, stiffness: 170 });
   const b2 = sp(t, c.k_fale - 0.1, { damping: 13, stiffness: 170 });
   const pulse = c.k_gente < t ? 0.5 + 0.5 * Math.sin((t - c.k_gente) * 4) : 0;
-  const rise = prog(t, c.k_end - 1.05, 1.2, ease.inOut);
-  const glow = prog(t, c.k_end, 0.6, ease.out);
+    const glow = prog(t, c.k_end, 0.6, ease.out);
 
   return (
     <div style={{ position: "absolute", inset: 0, fontFamily: F.sans }}>
@@ -58,10 +57,10 @@ export const S8Close: React.FC<SceneProps> = ({ t, tl }) => {
 
         {/* 09 — CTA */}
         <div style={{ position: "absolute", left: 0, right: 0, top: 110, display: "flex", justifyContent: "center", opacity: Math.min(1, mk * 1.5), transform: `translateY(${(1 - Math.min(1, mk)) * 30}px) scale(${1 + glow * 0.04})` }}>
-          <Mark size={170} glow={0.4 + glow * 0.8} />
+          <Mark size={150} glow={0.4 + glow * 0.8} reveal={prog(t, c.k_se + 0.05, 0.7, ease.out)} shine={prog(t, c.k_end - 0.2, 1.1, ease.inOut)} />
         </div>
         <div style={{ position: "absolute", left: 0, right: 0, top: 410, display: "flex", flexDirection: "column", justifyContent: "center", gap: 34, alignItems: "center" }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 20, padding: "38px 70px", borderRadius: 70, background: NEON, color: C.accentInk, fontWeight: 800, fontSize: 58, letterSpacing: "-0.01em", opacity: Math.min(1, b1 * 1.5), transform: `scale(${mix(0.7, 1, Math.min(1.04, b1)) * (1 + 0.025 * pulse)})`, boxShadow: `0 0 ${40 + 30 * pulse}px rgba(53,224,161,${0.35 + 0.15 * pulse})` }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 20, padding: "38px 70px", borderRadius: 70, background: NEON, color: C.accentInk, fontWeight: 800, fontSize: 58, letterSpacing: "-0.01em", opacity: Math.min(1, b1 * 1.5), transform: `scale(${mix(0.7, 1, Math.min(1.04, b1)) * (1 + 0.025 * pulse)})`, boxShadow: `0 0 ${40 + 30 * pulse}px rgba(58,245,132,${0.35 + 0.15 * pulse})` }}>
             <IconCal size={62} color={C.accentInk} />
             AGENDAR UMA DEMONSTRAÇÃO
           </div>
@@ -73,7 +72,6 @@ export const S8Close: React.FC<SceneProps> = ({ t, tl }) => {
       </Cam>
       <Trail d="M 0 600 C 400 600, 600 420, 960 420 S 1500 300, 1960 250" p={trail1} len={2200} width={8} fade={prog(t, c.p_sol + 0.6, 0.6, ease.in)} tail={0.7} />
       {/* traço ascendente que atravessa a marca e resolve com a trilha */}
-      <Trail d="M 560 1000 C 760 700, 860 380, 960 190 S 1100 -60, 1180 -140" p={rise} len={1500} width={12} fade={prog(t, c.k_end + 0.6, 0.9, ease.in)} tail={0.5} />
     </div>
   );
 };
