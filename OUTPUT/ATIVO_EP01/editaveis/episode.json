@@ -1,0 +1,640 @@
+{
+ "id": "EP-ATIVO01",
+ "title": "Para quem sua operação realmente trabalha?",
+ "fps": 30,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "outputDir": "ATIVO_EP01",
+ "deliverables": {
+  "final": "ATIVO_EP01_FINAL.mp4",
+  "narration": "ATIVO_EP01_NARRACAO.wav",
+  "subtitles": "ATIVO_EP01_legendas.srt",
+  "cover": "ATIVO_EP01_capa.png"
+ },
+ "cta": {
+  "type": "comentario_relacionamento",
+  "question": "QUAL É O SEU FOCO?",
+  "source": "roteiro do cliente (ATIVO_Episodio_01.md) — sem palavra-chave SISTEMA"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Dois corretores podem trabalhar na mesma cidade, anunciar imóveis parecidos e, ainda assim, precisar de estratégias completamente diferentes.",
+   "caption": "*Dois corretores* | podem trabalhar | na *mesma cidade,* | anunciar imóveis | *parecidos* | e, ainda assim, | precisar de estratégias | *completamente diferentes.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "O problema começa quando eles tentam fazer exatamente a mesma coisa.",
+   "caption": "O *problema* começa | quando eles tentam fazer | exatamente | a *mesma coisa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "comprador",
+   "text": "Imagine o primeiro.",
+   "caption": "Imagine | o *primeiro.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "comprador",
+   "text": "Ele trabalha a partir do comprador.",
+   "caption": "Ele trabalha | a partir do *comprador.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "comprador",
+   "text": "Conversa, descobre o que aquela família precisa e procura a opção adequada, mesmo quando ela não está entre os imóveis que já divulga.",
+   "caption": "Conversa, | descobre o que | aquela família *precisa* | e *procura* | a opção *adequada,* | mesmo quando ela | *não está* | entre os imóveis | que já divulga.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "comprador",
+   "text": "O valor dele está na curadoria e no relacionamento.",
+   "caption": "O valor dele | está na *curadoria* | e no *relacionamento.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "carteira",
+   "text": "O segundo conhece profundamente uma carteira específica.",
+   "caption": "O *segundo* | conhece profundamente | uma *carteira* específica.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "carteira",
+   "text": "Sabe explicar a planta, a localização, as restrições e para quem cada imóvel faz sentido.",
+   "caption": "Sabe explicar | a *planta,* | a *localização,* | as *restrições* | e para quem | cada imóvel | faz *sentido.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "carteira",
+   "text": "Nesse caso, a comunicação começa no produto e encontra o público compatível.",
+   "caption": "Nesse caso, | a comunicação | começa no *produto* | e encontra | o *público compatível.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "proprietario",
+   "text": "Existe ainda quem concentre seu trabalho na captação: conquistar a confiança do proprietário, avaliar a apresentação do imóvel e construir uma carteira que outros compradores queiram conhecer.",
+   "caption": "Existe ainda | quem concentre | seu trabalho | na *captação:* | conquistar a *confiança* | do proprietário, | avaliar a *apresentação* | do imóvel | e *construir* uma carteira | que outros compradores | queiram conhecer.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "proprietario",
+   "text": "Não é superior nem inferior.",
+   "caption": "Não é *superior* | nem *inferior.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "proprietario",
+   "text": "É outra porta de entrada para o negócio.",
+   "caption": "É outra | *porta de entrada* | para o negócio.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "insight",
+   "text": "O erro não está em usar mais de um caminho.",
+   "caption": "O *erro* | não está em usar | mais de *um caminho.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "insight",
+   "text": "Está em não saber qual deles sustenta a sua operação hoje.",
+   "caption": "Está em *não saber* | qual deles | *sustenta* | a sua operação hoje.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s15",
+   "scene": "insight",
+   "text": "Quando isso fica claro, seus conteúdos, sua rotina e suas prioridades começam a conversar entre si.",
+   "caption": "Quando isso | fica *claro,* | seus *conteúdos,* | sua *rotina* | e suas *prioridades* | começam a *conversar* | entre si.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s16",
+   "scene": "cta",
+   "text": "E você: hoje trabalha mais para encontrar compradores, vender sua carteira ou captar bons imóveis?",
+   "caption": "E *você:* | hoje trabalha mais | para encontrar *compradores,* | vender sua *carteira* | ou *captar* | bons imóveis?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s17",
+   "scene": "cta",
+   "text": "Conta nos comentários.",
+   "caption": "Conta nos *comentários.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "comprador": 0.3,
+  "carteira": 0.3,
+  "proprietario": 0.3,
+  "insight": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_two": {
+   "seg": "s1",
+   "word": "corretores",
+   "edge": "start",
+   "offset": -0.1
+  },
+  "h_city": {
+   "seg": "s1",
+   "word": "cidade",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "h_ads": {
+   "seg": "s1",
+   "word": "parecidos",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "h_paths": {
+   "seg": "s1",
+   "word": "estratégias",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "h_diff": {
+   "seg": "s1",
+   "word": "diferentes",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "h_prob": {
+   "seg": "s2",
+   "word": "problema",
+   "edge": "start",
+   "offset": -0.1
+  },
+  "h_same": {
+   "seg": "s2",
+   "word": "mesma",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "b_first": {
+   "seg": "s3",
+   "word": "imagine",
+   "edge": "start",
+   "offset": -0.1
+  },
+  "b_buyer": {
+   "seg": "s4",
+   "word": "comprador",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "b_talk": {
+   "seg": "s5",
+   "word": "conversa",
+   "edge": "start",
+   "offset": -0.1
+  },
+  "b_need": {
+   "seg": "s5",
+   "word": "precisa",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "b_search": {
+   "seg": "s5",
+   "word": "procura",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "b_right": {
+   "seg": "s5",
+   "word": "adequada",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "b_notin": {
+   "seg": "s5",
+   "word": "não",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "b_value": {
+   "seg": "s6",
+   "word": "curadoria",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "b_rel": {
+   "seg": "s6",
+   "word": "relacionamento",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "p_second": {
+   "seg": "s7",
+   "word": "segundo",
+   "edge": "start",
+   "offset": -0.1
+  },
+  "p_wallet": {
+   "seg": "s7",
+   "word": "carteira",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "p_plan": {
+   "seg": "s8",
+   "word": "planta",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "p_loc": {
+   "seg": "s8",
+   "word": "localização",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "p_rest": {
+   "seg": "s8",
+   "word": "restrições",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "p_sense": {
+   "seg": "s8",
+   "word": "sentido",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "p_product": {
+   "seg": "s9",
+   "word": "produto",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "p_public": {
+   "seg": "s9",
+   "word": "público",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "o_start": {
+   "seg": "s10",
+   "word": "existe",
+   "edge": "start",
+   "offset": -0.1
+  },
+  "o_cap": {
+   "seg": "s10",
+   "word": "captação",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "o_trust": {
+   "seg": "s10",
+   "word": "confiança",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "o_present": {
+   "seg": "s10",
+   "word": "apresentação",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "o_build": {
+   "seg": "s10",
+   "word": "construir",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "o_know": {
+   "seg": "s10",
+   "word": "conhecer",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "o_equal": {
+   "seg": "s11",
+   "word": "superior",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "o_door": {
+   "seg": "s12",
+   "word": "porta",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "i_err": {
+   "seg": "s13",
+   "word": "erro",
+   "edge": "start",
+   "offset": -0.1
+  },
+  "i_path": {
+   "seg": "s13",
+   "word": "caminho",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "i_notknow": {
+   "seg": "s14",
+   "word": "saber",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "i_sust": {
+   "seg": "s14",
+   "word": "sustenta",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "i_clear": {
+   "seg": "s15",
+   "word": "claro",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "i_content": {
+   "seg": "s15",
+   "word": "conteúdos",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "i_rout": {
+   "seg": "s15",
+   "word": "rotina",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "i_prio": {
+   "seg": "s15",
+   "word": "prioridades",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "i_talk": {
+   "seg": "s15",
+   "word": "conversar",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "c_you": {
+   "seg": "s16",
+   "word": "você",
+   "edge": "start",
+   "offset": -0.1
+  },
+  "c_buy": {
+   "seg": "s16",
+   "word": "compradores",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "c_wallet": {
+   "seg": "s16",
+   "word": "carteira",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "c_cap": {
+   "seg": "s16",
+   "word": "captar",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "c_comment": {
+   "seg": "s17",
+   "word": "comentários",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "c_end": {
+   "seg": "s17",
+   "word": "comentários",
+   "edge": "end"
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_two",
+   "offset": -0.2,
+   "sound": "whoosh_up",
+   "gain": -27,
+   "dur": 0.4
+  },
+  {
+   "cue": "h_diff",
+   "offset": 0.9,
+   "sound": "shimmer",
+   "gain": -24
+  },
+  {
+   "cue": "h_same",
+   "offset": 0.9,
+   "sound": "thump",
+   "gain": -22,
+   "pitch": -4
+  },
+  {
+   "cue": "b_first",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -25
+  },
+  {
+   "cue": "b_right",
+   "offset": 0.7,
+   "sound": "pop",
+   "gain": -24,
+   "pitch": 5
+  },
+  {
+   "cue": "b_rel",
+   "offset": 1.0,
+   "sound": "chord",
+   "gain": -23
+  },
+  {
+   "cue": "p_second",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -25
+  },
+  {
+   "cue": "p_public",
+   "offset": 1.0,
+   "sound": "pop",
+   "gain": -24,
+   "pitch": 3
+  },
+  {
+   "cue": "o_start",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -25
+  },
+  {
+   "cue": "o_know",
+   "offset": 0.9,
+   "sound": "pin",
+   "gain": -23
+  },
+  {
+   "cue": "o_door",
+   "offset": 1.0,
+   "sound": "shimmer",
+   "gain": -24
+  },
+  {
+   "cue": "i_err",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -25,
+   "dur": 0.45
+  },
+  {
+   "cue": "i_sust",
+   "offset": 1.0,
+   "sound": "bell",
+   "gain": -22,
+   "note": 76
+  },
+  {
+   "cue": "i_talk",
+   "offset": 1.0,
+   "sound": "chord",
+   "gain": -21
+  },
+  {
+   "cue": "c_comment",
+   "offset": 0.9,
+   "sound": "notif",
+   "gain": -21,
+   "pitch": 2
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 92,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     50,
+     53,
+     57
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Dm — mesmo mercado"
+   },
+   {
+    "at": "cue:b_first",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — comprador"
+   },
+   {
+    "at": "cue:p_second",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "C — carteira"
+   },
+   {
+    "at": "cue:o_start",
+    "notes": [
+     22,
+     34,
+     50,
+     53,
+     58
+    ],
+    "root": 34,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "Bb — proprietário"
+   },
+   {
+    "at": "cue:i_err",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — o erro"
+   },
+   {
+    "at": "cue:i_clear",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "F — clareza"
+   },
+   {
+    "at": "cue:c_you",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 48,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — e você?"
+   }
+  ]
+ }
+}

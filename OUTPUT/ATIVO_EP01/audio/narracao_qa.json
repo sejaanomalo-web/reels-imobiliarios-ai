@@ -1,0 +1,106 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 7.82,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.35,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 0.87,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 1.63,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 7.07,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 3.45,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 5.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 9.95,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 1.57,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 1.77,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 2.17,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s14",
+    "seconds": 2.98,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s15",
+    "seconds": 5.75,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s16",
+    "seconds": 5.65,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s17",
+    "seconds": 1.09,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 74.6,
+    "asr_match": 1.0,
+    "aligned_words": "199/199",
+    "words_per_min": 160,
+    "heard": "Dois corretores podem trabalhar na mesma cidade, anunciar imóveis parecidos e ainda assim precisar de estratégias completamente diferentes. O problema começa quando eles tentam fazer exatamente a mesma coisa. Imagine o primeiro, ele trabalha a partir do comprador. Conversa, descobre o que aquela família precisa e procura a opção adequada, mesmo quando ela não está entre os imóveis que já divulga. O valor dele está na curadoria e no relacionamento. O segundo, conhece profundamente uma carteira específica. Sabe explicar a planta, a localização, as restrições e para quem cada imóvel faz sentido. Nesse caso, a comunicação começa no produto e encontra o público compatível. Existe ainda quem concentre seu trabalho na captação, conquistar a confiança do proprietário, avaliar a apresentação do imóvel e construir uma carteira que outros compradores queiram conhecer. Não é superior nem inferior. É outra porta de entrada para o negócio. O erro não está em usar mais de um caminho. Está em não saber qual deles sustenta a sua operação hoje. Quando isso fica claro, seus conteúdos, sua rotina e suas prioridades começam a conversar entre si. E você, hoje trabalha mais para encontrar compradores, vender sua carteira ou captar bons imóveis? Conta nos comentários."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 74.6,
+      "wpm": 160
+    },
+    "final": {
+      "seconds": 74.6,
+      "wpm": 160
+    }
+  }
+]

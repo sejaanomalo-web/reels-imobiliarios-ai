@@ -75,6 +75,11 @@
 > - **Aprendizados:** (1) cenas adiantadas com linha do tempo provisória precisam de nova revisão com a voz real — o fim do insight encolheu e um texto ficaria 0,2 s na tela; (2) diagramas de linhas finas e avatares parados medem pouco movimento (1,36) mesmo "bonitos": dar fluxo aos fios, respiração aos avatares e objetos atravessando a cena resolveu (1,78) sem acelerar; (3) quando não há pausa antes da CTA, o whoosh de entrada precisa ser baixo (≤ −27 dB) e colado à palavra.
 > - **Pendente de decisão do cliente:** avaliação de formato (híbrido com rosto real; texto ≥ ~34 px para o público 40+).
 >
+> ### Registro do ATIVO Episódio 01 (13/11/2026)
+>
+> - **Configuração usada:** roteiro novo enviado pelo cliente (`ROTEIROS/ATIVO_EP01.md`), narrado integralmente; preset original 1,0×, tomada C sem edição; composição `EP-ATIVO01`, saída `OUTPUT/ATIVO_EP01/`. **CTA do próprio roteiro** (relacionamento: "Conta nos comentários" / QUAL É O SEU FOCO?) — não a CTA SISTEMA. Sem logo (arquivo ausente).
+> - **Aprendizados:** (1) gancho com mapa estático mede ~0,5 de movimento — a cidade precisa estar viva desde o quadro 0 (tráfego, pinos pulsando, câmera descendo); (2) carimbo que entra depois da fala e sai no corte nunca é lido: o impacto visual deve cair junto da palavra; (3) zoom de câmera ≥1,15 com rotação empurra cartões da margem esquerda para fora; (4) roteiro de 199 palavras = 77 s na voz oficial — acima do ideal para Reels; sinalizar ao cliente antes de produzir os próximos.
+>
 > - As seções "Padrão v2" abaixo ficam **só como histórico**. Os itens de voz delas (aceleração, encurtamento de pausas, time-stretch, direção energética) estão **revogados**. Os itens visuais valem apenas na forma suavizada descrita acima.
 
 Registro do que **efetivamente** melhorou os Reels, para aplicar automaticamente nos próximos episódios. Cada item diz como foi medido, para o próximo ajuste poder ser comparado. O Claude Code deve ler este arquivo junto com o `CLAUDE.md` antes de produzir qualquer episódio.
@@ -163,3 +168,4 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-12 | EP031 | Padrão aprovado (ATIVO, sem símbolo) 1,0× + CTA de comentário (SISTEMA → Direct). Tomada B a partir da 2ª leitura do gancho (corte só no início), 151 palavras/min, 45,4 s, movimento 2,17, maior trecho parado 0,6 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-12 | EP032 | Padrão aprovado (ATIVO, sem símbolo) 1,0× + CTA de comentário (SISTEMA → Direct). Tomada única limpa, 161 palavras/min, 38,5 s, movimento 1,80, maior trecho parado 1,0 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | EP033 | Padrão aprovado (ATIVO, sem símbolo) 1,0× + CTA de comentário (SISTEMA → Direct). Tomada A sem edição, 161 palavras/min, 43,1 s, movimento 1,78, maior trecho parado 0,7 s | Pedido do cliente; aguardando avaliação |
+| 2026-11-13 | ATIVO EP01 | Roteiro novo do cliente, CTA de relacionamento do próprio roteiro. Tomada C sem edição, 160 palavras/min, 76,9 s, movimento 1,45, maior trecho parado 0,9 s, sem logo | Pedido do cliente; aguardando avaliação |

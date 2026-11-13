@@ -28,6 +28,8 @@ import { EP032, timeline as ep032 } from "./episodes/EP032/Episode";
 import { EP032Cover } from "./episodes/EP032/Cover";
 import { EP033, timeline as ep033 } from "./episodes/EP033/Episode";
 import { EP033Cover } from "./episodes/EP033/Cover";
+import { ATIVO01, timeline as ativo01 } from "./episodes/EP-ATIVO01/Episode";
+import { ATIVO01Cover } from "./episodes/EP-ATIVO01/Cover";
 import { VIDEO } from "./theme";
 
 export const RemotionRoot: React.FC = () => (
@@ -197,6 +199,18 @@ export const RemotionRoot: React.FC = () => (
         defaultProps={{ withAudio: true }}
       />
       <Still id="EP033-Capa" component={EP033Cover} width={VIDEO.width} height={VIDEO.height} />
+    </Folder>
+    <Folder name="ATIVO-EP01">
+      <Composition
+        id="EP-ATIVO01"
+        component={ATIVO01}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativo01.fps}
+        durationInFrames={ativo01.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO01-Capa" component={ATIVO01Cover} width={VIDEO.width} height={VIDEO.height} />
     </Folder>
   </>
 );
