@@ -1,0 +1,158 @@
+[
+ {
+  "t": 0.5,
+  "sound": "typing",
+  "gain": -26,
+  "cue": "hook_type"
+ },
+ {
+  "t": 2.98,
+  "sound": "swish",
+  "gain": -24,
+  "cue": "hook_send"
+ },
+ {
+  "t": 4.55,
+  "sound": "fade_down",
+  "gain": -22,
+  "cue": "hook_silence"
+ },
+ {
+  "t": 4.66,
+  "sound": "pop",
+  "gain": -22,
+  "cue": "sit_new"
+ },
+ {
+  "t": 6.71,
+  "sound": "typing",
+  "gain": -28,
+  "cue": "sit_type"
+ },
+ {
+  "t": 7.79,
+  "sound": "pin",
+  "gain": -21,
+  "cue": "sit_region"
+ },
+ {
+  "t": 10.37,
+  "sound": "swish",
+  "gain": -22,
+  "cue": "sit_sent"
+ },
+ {
+  "t": 10.52,
+  "sound": "pop",
+  "gain": -21,
+  "cue": "sit_sent"
+ },
+ {
+  "t": 10.85,
+  "sound": "whoosh_up",
+  "gain": -24,
+  "cue": "ten_split"
+ },
+ {
+  "t": 13.25,
+  "sound": "hollow",
+  "gain": -21,
+  "cue": "ten_ctx"
+ },
+ {
+  "t": 16.93,
+  "sound": "bell",
+  "gain": -21,
+  "cue": "ten_update"
+ },
+ {
+  "t": 18.95,
+  "sound": "tick",
+  "gain": -27
+ },
+ {
+  "t": 19.17,
+  "sound": "tick",
+  "gain": -27
+ },
+ {
+  "t": 19.39,
+  "sound": "tick",
+  "gain": -27
+ },
+ {
+  "t": 19.61,
+  "sound": "tick",
+  "gain": -27
+ },
+ {
+  "t": 19.83,
+  "sound": "tick",
+  "gain": -27
+ },
+ {
+  "t": 20.05,
+  "sound": "tick",
+  "gain": -27
+ },
+ {
+  "t": 20.4,
+  "sound": "thump",
+  "gain": -20,
+  "cue": "ins_block"
+ },
+ {
+  "t": 22.68,
+  "sound": "pop",
+  "gain": -24,
+  "cue": "ins_ctx"
+ },
+ {
+  "t": 24.77,
+  "sound": "click",
+  "gain": -22,
+  "cue": "ins_optout"
+ },
+ {
+  "t": 25.14,
+  "sound": "whoosh_up",
+  "gain": -24,
+  "cue": "cta_card"
+ },
+ {
+  "t": 31.84,
+  "sound": "pop",
+  "gain": -23,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 32.14,
+  "sound": "pop",
+  "gain": -23,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 32.44,
+  "sound": "pop",
+  "gain": -23,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 33.409,
+  "sound": "typing",
+  "gain": -27,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 34.34,
+  "sound": "chord",
+  "gain": -19,
+  "cue": "cta_word"
+ },
+ {
+  "t": 36.43,
+  "sound": "notif",
+  "gain": -20,
+  "cue": "cta_end"
+ }
+]

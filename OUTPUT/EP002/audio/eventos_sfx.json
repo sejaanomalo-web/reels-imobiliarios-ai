@@ -1,0 +1,318 @@
+[
+ {
+  "t": 0.68,
+  "sound": "pop",
+  "gain": -19,
+  "cue": "hook_say"
+ },
+ {
+  "t": 1.34,
+  "sound": "swish",
+  "gain": -20,
+  "cue": "hook_quote"
+ },
+ {
+  "t": 1.38,
+  "sound": "thump",
+  "gain": -13,
+  "cue": "hook_quote"
+ },
+ {
+  "t": 3.09,
+  "sound": "whoosh_up",
+  "gain": -21,
+  "cue": "hook_box"
+ },
+ {
+  "t": 3.99,
+  "sound": "whoosh_dive",
+  "gain": -17,
+  "cue": "hook_drop"
+ },
+ {
+  "t": 4.4,
+  "sound": "thump",
+  "gain": -15,
+  "cue": "hook_drop"
+ },
+ {
+  "t": 5.19,
+  "sound": "hollow",
+  "gain": -17,
+  "cue": "hook_shut"
+ },
+ {
+  "t": 5.44,
+  "sound": "whoosh_up",
+  "gain": -19,
+  "cue": "sit_rewind"
+ },
+ {
+  "t": 6.38,
+  "sound": "swish",
+  "gain": -19,
+  "cue": "sit_split"
+ },
+ {
+  "t": 6.46,
+  "sound": "pop",
+  "gain": -21,
+  "cue": "sit_split"
+ },
+ {
+  "t": 6.54,
+  "sound": "pop",
+  "gain": -21,
+  "cue": "sit_split"
+ },
+ {
+  "t": 6.62,
+  "sound": "pop",
+  "gain": -21,
+  "cue": "sit_split"
+ },
+ {
+  "t": 7.71,
+  "sound": "pin",
+  "gain": -17,
+  "cue": "sit_map"
+ },
+ {
+  "t": 8.63,
+  "sound": "typing",
+  "gain": -24,
+  "cue": "sit_calc"
+ },
+ {
+  "t": 11.05,
+  "sound": "thump",
+  "gain": -18,
+  "cue": "sit_sign"
+ },
+ {
+  "t": 13.94,
+  "sound": "hollow",
+  "gain": -17,
+  "cue": "sit_unknown"
+ },
+ {
+  "t": 15.04,
+  "sound": "click",
+  "gain": -19,
+  "cue": "ten_start"
+ },
+ {
+  "t": 15.82,
+  "sound": "swish",
+  "gain": -22.0
+ },
+ {
+  "t": 15.82,
+  "sound": "pop",
+  "gain": -24
+ },
+ {
+  "t": 16.151,
+  "sound": "swish",
+  "gain": -22.2
+ },
+ {
+  "t": 16.151,
+  "sound": "pop",
+  "gain": -24
+ },
+ {
+  "t": 16.416,
+  "sound": "swish",
+  "gain": -22.4
+ },
+ {
+  "t": 16.416,
+  "sound": "pop",
+  "gain": -24
+ },
+ {
+  "t": 16.661,
+  "sound": "swish",
+  "gain": -22.6
+ },
+ {
+  "t": 16.661,
+  "sound": "pop",
+  "gain": -24
+ },
+ {
+  "t": 16.894,
+  "sound": "swish",
+  "gain": -22.8
+ },
+ {
+  "t": 16.894,
+  "sound": "pop",
+  "gain": -24
+ },
+ {
+  "t": 17.118,
+  "sound": "swish",
+  "gain": -23.0
+ },
+ {
+  "t": 17.118,
+  "sound": "pop",
+  "gain": -24
+ },
+ {
+  "t": 17.336,
+  "sound": "swish",
+  "gain": -23.2
+ },
+ {
+  "t": 17.336,
+  "sound": "pop",
+  "gain": -24
+ },
+ {
+  "t": 17.548,
+  "sound": "swish",
+  "gain": -23.4
+ },
+ {
+  "t": 17.548,
+  "sound": "pop",
+  "gain": -24
+ },
+ {
+  "t": 17.756,
+  "sound": "swish",
+  "gain": -23.6
+ },
+ {
+  "t": 17.756,
+  "sound": "pop",
+  "gain": -24
+ },
+ {
+  "t": 17.96,
+  "sound": "swish",
+  "gain": -23.8
+ },
+ {
+  "t": 17.96,
+  "sound": "pop",
+  "gain": -24
+ },
+ {
+  "t": 19.48,
+  "sound": "scramble",
+  "gain": -25,
+  "cue": "ten_vague"
+ },
+ {
+  "t": 21.06,
+  "sound": "hollow",
+  "gain": -16,
+  "cue": "ten_unknown"
+ },
+ {
+  "t": 22.16,
+  "sound": "whoosh_fold",
+  "gain": -16,
+  "cue": "ins_clear"
+ },
+ {
+  "t": 23.25,
+  "sound": "swish",
+  "gain": -21,
+  "cue": "ins_judge"
+ },
+ {
+  "t": 24.07,
+  "sound": "bell",
+  "gain": -18,
+  "cue": "ins_question"
+ },
+ {
+  "t": 27.78,
+  "sound": "pop",
+  "gain": -20,
+  "cue": "ins_answer"
+ },
+ {
+  "t": 28.33,
+  "sound": "bell",
+  "gain": -20,
+  "cue": "ins_answer"
+ },
+ {
+  "t": 29.46,
+  "sound": "swish",
+  "gain": -20,
+  "cue": "ins_timeline"
+ },
+ {
+  "t": 31.03,
+  "sound": "bell",
+  "gain": -18,
+  "cue": "ins_return"
+ },
+ {
+  "t": 31.81,
+  "sound": "whoosh_up",
+  "gain": -18,
+  "cue": "cta_dock"
+ },
+ {
+  "t": 32.23,
+  "sound": "click",
+  "gain": -19,
+  "cue": "cta_dock"
+ },
+ {
+  "t": 32.76,
+  "sound": "pop",
+  "gain": -21,
+  "cue": "cta_stages"
+ },
+ {
+  "t": 33.08,
+  "sound": "pop",
+  "gain": -21,
+  "cue": "cta_stages"
+ },
+ {
+  "t": 33.4,
+  "sound": "pop",
+  "gain": -20,
+  "cue": "cta_stages"
+ },
+ {
+  "t": 34.82,
+  "sound": "bell",
+  "gain": -20,
+  "cue": "cta_memory"
+ },
+ {
+  "t": 35.38,
+  "sound": "swish",
+  "gain": -20,
+  "cue": "cta_pull"
+ },
+ {
+  "t": 38.02,
+  "sound": "whoosh_up",
+  "gain": -18,
+  "cue": "cta_link"
+ },
+ {
+  "t": 38.24,
+  "sound": "chord",
+  "gain": -16,
+  "cue": "cta_link"
+ },
+ {
+  "t": 39.2,
+  "sound": "click",
+  "gain": -20,
+  "cue": "cta_end"
+ }
+]

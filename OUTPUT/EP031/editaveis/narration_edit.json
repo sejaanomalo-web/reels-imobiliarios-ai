@@ -1,0 +1,11 @@
+{
+ "tipo": "remoção do início (trecho intruso + primeira leitura do gancho)",
+ "motivo": "as 3 tomadas leram a direção do preset em voz alta e repetiram o gancho; na tomada B a segunda leitura do gancho está correta e segue sem emenda até o fim",
+ "arquivo_bruto": "OUTPUT/EP031/audio/tomada_B_bruta_leu_direcao.wav",
+ "inicio_mantido_s": 11.6,
+ "removido_s": 11.6,
+ "cortes_no_meio_da_fala": 0,
+ "sem_aceleracao": true,
+ "sem_time_stretch": true,
+ "sem_alteracao_de_timbre": true
+}

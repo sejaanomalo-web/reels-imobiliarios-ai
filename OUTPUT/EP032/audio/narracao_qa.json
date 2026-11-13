@@ -1,0 +1,75 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 1.66,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.21,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.26,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.78,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.67,
+    "palavras_nao_reconhecidas": [
+      "observe"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.06,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.8,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.71,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 36.45,
+    "asr_match": 0.975,
+    "aligned_words": "97/99",
+    "words_per_min": 163,
+    "heard": "Sua equipe tem muitos leads, mas você sabe quais receberam retorno? Na reunião, todo mundo diz que está atendendo, só que a atividade e avanço comercial não são a mesma coisa. Para acompanhar o processo, observa três coisas. Primeiro contato, último movimento e próximo passo definido. Não é vigiar o corretor a cada minuto. É ter clareza para apoiar oportunidades que ficaram sem sequência e corrigir gargalos reais. Essa clareza depende de cada lead ter seu histórico registrado. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 36.45,
+      "wpm": 163
+    },
+    "final": {
+      "seconds": 36.45,
+      "wpm": 163
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "t": 0.22,
+  "sound": "whoosh_up",
+  "gain": -27,
+  "cue": "h_two"
+ },
+ {
+  "t": 8.17,
+  "sound": "shimmer",
+  "gain": -24,
+  "cue": "h_diff"
+ },
+ {
+  "t": 11.88,
+  "sound": "swish",
+  "gain": -25,
+  "cue": "b_first"
+ },
+ {
+  "t": 12.01,
+  "sound": "thump",
+  "gain": -22,
+  "cue": "h_same"
+ },
+ {
+  "t": 20.05,
+  "sound": "pop",
+  "gain": -24,
+  "cue": "b_right"
+ },
+ {
+  "t": 26.04,
+  "sound": "swish",
+  "gain": -25,
+  "cue": "p_second"
+ },
+ {
+  "t": 26.11,
+  "sound": "chord",
+  "gain": -23,
+  "cue": "b_rel"
+ },
+ {
+  "t": 40.03,
+  "sound": "pop",
+  "gain": -24,
+  "cue": "p_public"
+ },
+ {
+  "t": 40.04,
+  "sound": "swish",
+  "gain": -25,
+  "cue": "o_start"
+ },
+ {
+  "t": 50.97,
+  "sound": "pin",
+  "gain": -23,
+  "cue": "o_know"
+ },
+ {
+  "t": 54.27,
+  "sound": "shimmer",
+  "gain": -24,
+  "cue": "o_door"
+ },
+ {
+  "t": 54.92,
+  "sound": "whoosh_fold",
+  "gain": -25,
+  "cue": "i_err"
+ },
+ {
+  "t": 59.95,
+  "sound": "bell",
+  "gain": -22,
+  "cue": "i_sust"
+ },
+ {
+  "t": 66.83,
+  "sound": "chord",
+  "gain": -21,
+  "cue": "i_talk"
+ },
+ {
+  "t": 74.73,
+  "sound": "notif",
+  "gain": -21,
+  "cue": "c_comment"
+ }
+]

@@ -1,0 +1,330 @@
+{
+ "id": "STORY-ATIVO-01",
+ "title": "Por que são diferentes?",
+ "fps": 30,
+ "duration": 14.967,
+ "durationInFrames": 449,
+ "narrationEnd": 13.35,
+ "voice": "PROVISÓRIO-SEM-VOZ",
+ "scenes": [
+  {
+   "id": "abre",
+   "start": 0.0,
+   "end": 5.865
+  },
+  {
+   "id": "vira",
+   "start": 5.865,
+   "end": 14.967
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "abre",
+   "text": "Três projetos imobiliários.",
+   "start": 0.3,
+   "end": 2.04
+  },
+  {
+   "id": "s2",
+   "scene": "abre",
+   "text": "Três formas de apresentar e organizar o trabalho.",
+   "start": 2.39,
+   "end": 5.765
+  },
+  {
+   "id": "s3",
+   "scene": "vira",
+   "text": "E sabe o que eles têm em comum?",
+   "start": 6.115,
+   "end": 8.5
+  },
+  {
+   "id": "s4",
+   "scene": "vira",
+   "text": "Nenhum precisou começar por um modelo igual para todo mundo.",
+   "start": 8.85,
+   "end": 13.0
+  }
+ ],
+ "cues": {
+  "a_tres": 0.3,
+  "a_formas": 2.75,
+  "a_org": 4.355,
+  "a_sabe": 6.31,
+  "a_comum": 8.085,
+  "a_nenhum": 8.85,
+  "a_modelo": 10.98,
+  "a_todo": 12.225
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.3,
+   "end": 1.24,
+   "words": [
+    {
+     "text": "Três",
+     "start": 0.3,
+     "end": 0.64,
+     "emph": true
+    },
+    {
+     "text": "projetos",
+     "start": 0.66,
+     "end": 1.22,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.24,
+   "end": 2.39,
+   "words": [
+    {
+     "text": "imobiliários.",
+     "start": 1.24,
+     "end": 2.02,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 2.39,
+   "end": 3.22,
+   "words": [
+    {
+     "text": "Três",
+     "start": 2.39,
+     "end": 2.73,
+     "emph": false
+    },
+    {
+     "text": "formas",
+     "start": 2.75,
+     "end": 3.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.22,
+   "end": 4.16,
+   "words": [
+    {
+     "text": "de",
+     "start": 3.22,
+     "end": 3.45,
+     "emph": false
+    },
+    {
+     "text": "apresentar",
+     "start": 3.47,
+     "end": 4.14,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.16,
+   "end": 4.99,
+   "words": [
+    {
+     "text": "e",
+     "start": 4.16,
+     "end": 4.335,
+     "emph": false
+    },
+    {
+     "text": "organizar",
+     "start": 4.355,
+     "end": 4.97,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.99,
+   "end": 6.115,
+   "words": [
+    {
+     "text": "o",
+     "start": 4.99,
+     "end": 5.165,
+     "emph": false
+    },
+    {
+     "text": "trabalho.",
+     "start": 5.185,
+     "end": 5.745,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 6.115,
+   "end": 6.67,
+   "words": [
+    {
+     "text": "E",
+     "start": 6.115,
+     "end": 6.29,
+     "emph": false
+    },
+    {
+     "text": "sabe",
+     "start": 6.31,
+     "end": 6.65,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 6.67,
+   "end": 7.835,
+   "words": [
+    {
+     "text": "o",
+     "start": 6.67,
+     "end": 6.845,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 6.865,
+     "end": 7.15,
+     "emph": false
+    },
+    {
+     "text": "eles",
+     "start": 7.17,
+     "end": 7.51,
+     "emph": false
+    },
+    {
+     "text": "têm",
+     "start": 7.53,
+     "end": 7.815,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 7.835,
+   "end": 8.85,
+   "words": [
+    {
+     "text": "em",
+     "start": 7.835,
+     "end": 8.065,
+     "emph": true
+    },
+    {
+     "text": "comum?",
+     "start": 8.085,
+     "end": 8.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 8.85,
+   "end": 9.9,
+   "words": [
+    {
+     "text": "Nenhum",
+     "start": 8.85,
+     "end": 9.3,
+     "emph": false
+    },
+    {
+     "text": "precisou",
+     "start": 9.32,
+     "end": 9.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 9.9,
+   "end": 10.73,
+   "words": [
+    {
+     "text": "começar",
+     "start": 9.9,
+     "end": 10.405,
+     "emph": false
+    },
+    {
+     "text": "por",
+     "start": 10.425,
+     "end": 10.71,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 10.73,
+   "end": 11.865,
+   "words": [
+    {
+     "text": "um",
+     "start": 10.73,
+     "end": 10.96,
+     "emph": false
+    },
+    {
+     "text": "modelo",
+     "start": 10.98,
+     "end": 11.43,
+     "emph": true
+    },
+    {
+     "text": "igual",
+     "start": 11.45,
+     "end": 11.845,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 11.865,
+   "end": 12.98,
+   "words": [
+    {
+     "text": "para",
+     "start": 11.865,
+     "end": 12.205,
+     "emph": false
+    },
+    {
+     "text": "todo",
+     "start": 12.225,
+     "end": 12.565,
+     "emph": false
+    },
+    {
+     "text": "mundo.",
+     "start": 12.585,
+     "end": 12.98,
+     "emph": false
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

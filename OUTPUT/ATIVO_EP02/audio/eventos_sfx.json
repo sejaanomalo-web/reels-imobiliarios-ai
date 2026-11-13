@@ -1,0 +1,92 @@
+[
+ {
+  "t": 0.14,
+  "sound": "whoosh_up",
+  "gain": -27,
+  "cue": "h_videos"
+ },
+ {
+  "t": 7.19,
+  "sound": "click",
+  "gain": -22,
+  "cue": "h_buyer"
+ },
+ {
+  "t": 10.47,
+  "sound": "thump",
+  "gain": -24,
+  "cue": "h_cont"
+ },
+ {
+  "t": 10.84,
+  "sound": "swish",
+  "gain": -25,
+  "cue": "r_first"
+ },
+ {
+  "t": 18.07,
+  "sound": "pop",
+  "gain": -24,
+  "cue": "r_div"
+ },
+ {
+  "t": 18.09,
+  "sound": "swish",
+  "gain": -25,
+  "cue": "k_second"
+ },
+ {
+  "t": 27.64,
+  "sound": "swish",
+  "gain": -25,
+  "cue": "l_third"
+ },
+ {
+  "t": 27.75,
+  "sound": "pin",
+  "gain": -24,
+  "cue": "k_prove"
+ },
+ {
+  "t": 35.19,
+  "sound": "swish",
+  "gain": -25,
+  "cue": "o_fourth"
+ },
+ {
+  "t": 46.07,
+  "sound": "swish",
+  "gain": -25,
+  "cue": "m_fifth"
+ },
+ {
+  "t": 46.1,
+  "sound": "thump",
+  "gain": -25,
+  "cue": "o_noffer"
+ },
+ {
+  "t": 59.44,
+  "sound": "shimmer",
+  "gain": -24,
+  "cue": "m_att"
+ },
+ {
+  "t": 59.56,
+  "sound": "whoosh_fold",
+  "gain": -25,
+  "cue": "i_before"
+ },
+ {
+  "t": 72.95,
+  "sound": "chord",
+  "gain": -22,
+  "cue": "i_next"
+ },
+ {
+  "t": 79.76,
+  "sound": "notif",
+  "gain": -21,
+  "cue": "cta_word"
+ }
+]

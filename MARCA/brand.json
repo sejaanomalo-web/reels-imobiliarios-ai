@@ -1,0 +1,24 @@
+{
+  "approved": true,
+  "status": "Identidade ATIVO informada pelo cliente em 13/11/2026: logo oficial + verde #3AF584",
+  "profile_name": "ATIVO — Inteligência Imobiliária",
+  "product_name": null,
+  "product_descriptor": "sistema imobiliário personalizado",
+  "accent_color": "#3AF584",
+  "accent_note": "Verde oficial da identidade ATIVO (#3AF584), informado pelo cliente em 13/11/2026.",
+  "fonts": {
+    "sans": "Manrope",
+    "mono": "JetBrains Mono"
+  },
+  "cta": "link da bio → agendar demonstração",
+  "forbidden": [
+    "URL inventada",
+    "preço",
+    "resultado garantido",
+    "depoimento",
+    "logo de terceiros"
+  ],
+  "profile_name_informado": "ATIVO — Inteligência Imobiliária (braço especializado da ANÔMALO), informado pelo cliente em 12/11/2026",
+  "identidade_visual_ativo": "Logo oficial: palavra ATIVO em traço fino branco com seta verde ascendente com brilho. Não redesenhar; usar o arquivo. Verde de interface: #3AF584.",
+  "logo_oficial": "MARCA/logo/ativo_logo_original.webp (enviado pelo cliente); versão com transparência: MARCA/logo/ativo_logo_transparente.png e PRODUCAO/public/brand/ativo_logo.png"
+}

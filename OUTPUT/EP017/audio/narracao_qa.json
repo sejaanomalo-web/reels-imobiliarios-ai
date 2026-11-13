@@ -1,0 +1,77 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.18,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.29,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.13,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.64,
+    "palavras_nao_reconhecidas": [
+      "pergunte"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 3.91,
+    "palavras_nao_reconhecidas": [
+      "Registre"
+    ]
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.85,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.87,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.67,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 41.01,
+    "asr_match": 0.973,
+    "aligned_words": "109/112",
+    "words_per_min": 164,
+    "heard": "Às vezes a visita que não virou proposta trouxe a informação mais valiosa da semana. O cliente gostou da planta, mas achou a rua movimentada. Ou adorou a localização e percebeu que precisa de mais espaço. O erro é registrar apenas que ele não gostou. Você perde o critério que pode orientar a próxima indicação. Depois da visita, pergunta o que funcionou e o que não funcionou. Registra esses critérios para selecionar a próxima opção com mais precisão. Essas pistas só ajudam se ficarem registradas na jornada de cada cliente. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 41.01,
+      "wpm": 164
+    },
+    "final": {
+      "seconds": 41.01,
+      "wpm": 164
+    }
+  }
+]

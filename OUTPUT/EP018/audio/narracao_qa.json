@@ -1,0 +1,80 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.5,
+    "palavras_nao_reconhecidas": [
+      "Vinte",
+      "vinte"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.34,
+    "palavras_nao_reconhecidas": [
+      "vinte"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.11,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.94,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.09,
+    "palavras_nao_reconhecidas": [
+      "dez"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.27,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 2.92,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 4.81,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.79,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.67,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 43.13,
+    "asr_match": 0.954,
+    "aligned_words": "103/108",
+    "words_per_min": 150,
+    "heard": "2 links enviados não são 20 argumentos de venda. Imagine pedir um restaurante tranquilo e receber uma lista com 20 endereços sem explicação. É assim que um comprador pode se sentir. Uma recomendação útil explica a relação entre o imóvel e a prioridade do cliente. Não precisa de 1 adjetivos, precisa de critério. Apresente poucas opções e diga por que escolheu cada uma. Depois, pergunte qual delas faz mais sentido para avançar. Escolher com critério fica mais fácil quando as prioridades de cada cliente estão registradas. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 43.13,
+      "wpm": 150
+    },
+    "final": {
+      "seconds": 43.13,
+      "wpm": 150
+    }
+  }
+]

@@ -1,0 +1,13 @@
+# EP018 — Shotlist (tempos reais)
+
+Padrão original: câmera virtual suave (deriva 0,5), legenda original guiada pela fala, trilha discreta sem bateria, efeitos fora das sílabas.
+
+| Cena | Tempo | Fala | Visual | Movimento / transição | Som |
+|---|---|---|---|---|---|
+| 01 Gancho | 0,00–4,06 | Vinte links enviados não são vinte argumentos de venda. | Esteira veloz de miniaturas "link 01…20" (desfocadas pela velocidade); contador gigante sobe até **20 LINKS**; em "não são" a esteira trava com tranco; surge **≠ 20 ARGUMENTOS** | Câmera inclinada que se endireita na trava | ticks da esteira (baixos), batida na trava, som oco |
+| 02 Situação | 4,06–12,94 | Imagine pedir um restaurante tranquilo e receber uma lista com vinte endereços sem explicação. É assim que um comprador pode se sentir. | Balão do pedido "Um restaurante tranquilo?" (tranquilo destacado); mapa ilustrativo recebe 20 pins em chuva; carimbo "sem explicação"; em "comprador" cada pin vira miniatura de imóvel — o mesmo excesso como catálogo de 20 imóveis; ícone vira COMPRADOR | Da conversa para o mapa; morph pin → ficha | whoosh, pop no "tranquilo", pin no fim de "explicação", embaralhar no catálogo |
+| 03 Tensão | 12,94–22,03 | Uma recomendação útil explica a relação entre o imóvel e a prioridade do cliente. Não precisa de dez adjetivos. Precisa de critério. | Prioridades do Paulo C. (fictício): Escola perto · 2 vagas; linhas ligam cada prioridade à ficha que a atende (✓ escola a 5 min a pé · ✓ 2 vagas na garagem); dez adjetivos flutuam e despencam; carimbo **CRITÉRIO** | Câmera visita cada ligação; volta ao centro no carimbo | cliques nas ligações, fade nos adjetivos, impacto no carimbo |
+| 04 Insight | 22,03–29,42 | Apresente poucas opções e diga por que escolheu cada uma. Depois pergunte qual delas faz mais sentido para avançar. | 17 fichas fantasma recolhem e ficam 3 em destaque ("20 → 3 opções, cada uma com um porquê"); o POR QUÊ entra em cada uma no tempo da fala; balão "Qual delas faz mais sentido para avançar?"; toque claro escolhe a Opção 3 → AVANÇAR ✓ | Push no toque | pops no porquê, pop no "qual", acorde no "avançar" |
+| 05 CTA de comentário | 29,42–45,17 | Escolher com critério fica mais fácil quando as prioridades de cada cliente estão registradas. Quer conhecer…? Comente SISTEMA que eu te envio os detalhes pelo Direct. | Prioridades do cliente (interface ilustrativa) com ✓ REGISTRADO; o painel dobra no módulo LEADS; IMÓVEIS e ATENDIMENTOS no tempo das palavras; campo de comentário genérico digita SISTEMA; fecho **COMENTE "SISTEMA"** + **Receba os detalhes no Direct.** | Dobra → módulo; subida da palavra; push lento até o fim | whoosh, 3 pops, digitação, acorde, notificação curta |
+
+Legenda da fala final (s10) oculta na tela; o SRT mantém tudo.

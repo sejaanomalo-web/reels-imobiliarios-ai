@@ -1,0 +1,230 @@
+[
+  {
+    "file": "ref_01.mp4",
+    "duration": 43.3,
+    "width": 720,
+    "height": 1280,
+    "fps": "30/1",
+    "vcodec": "h264",
+    "acodec": "aac",
+    "audio_sr": "44100",
+    "scene_cuts": 0,
+    "cut_times": [],
+    "avg_shot_s": 43.3,
+    "lufs": -14.19,
+    "true_peak": -4.19,
+    "lra": 1.3,
+    "silences_over_350ms": 0,
+    "words": 157,
+    "words_per_min": 218,
+    "transcript_chunks_25s": [
+      "O cloud destruiu o YouTube de vez agora. Você pode criar vídeos completos para o YouTube usando apenas uma frase. O mais interessante é que a ferramenta é de código aberto. Ela se chama Open Montage e já teria ultrapassado 78 mil estrelas no GitHub. Mas olha só o que ela consegue fazer. Eu simplesmente escrevo o assunto do vídeo. A partir daí a ferramenta cria o roteiro, gera a narração, procure imagens e vídeos para ilustrar o conteúdo e monta a edição. Ou seja, em vez de passar horas procurando imagens,",
+      "procurando imagens, gravando áudio e editando tudo manualmente, eu consigo automatizar boa parte desse processo. E olha só esse canal que usa esse tipo de ferramenta para produzir seus vídeos. Tudo isso sem precisar aparecer na câmera ou contratar um editor. Quer receber a skin gratuita e aprender a configurar? Comenta YouTube aqui embaixo e me segue que eu te mando o link na DM."
+    ]
+  },
+  {
+    "file": "ref_02.mp4",
+    "duration": 56.17,
+    "width": 720,
+    "height": 1280,
+    "fps": "30/1",
+    "vcodec": "h264",
+    "acodec": "aac",
+    "audio_sr": "44100",
+    "scene_cuts": 1,
+    "cut_times": [
+      23.97
+    ],
+    "avg_shot_s": 28.08,
+    "lufs": -14.18,
+    "true_peak": -3.85,
+    "lra": 1.5,
+    "silences_over_350ms": 0,
+    "words": 199,
+    "words_per_min": 213,
+    "transcript_chunks_25s": [
+      "O Fable 5.2 foi lançado a apenas uma hora, e isso promete levar o Cloud para outro nível. Mas será que ele é tudo isso mesmo? Olha só o que estão mostrando. Em um dos exemplos, a IA transformou uma ideia simples de matemática em um curta metragem animado com trilha sonora. Em outro, criou uma animação mostrando milhões de anos da evolução humana e possíveis cenários para os próximos 30 anos. E teve até um experimento em que pediram para a IA criar um alto retrato. Mas a parte mais interessante são as melhores",
+      "são as melhorias anunciadas. O modelo promete ser mais rápido, trabalhar por mais tempo em tarefas complexas e oferecer um raciocínio mais avançado. Só que eu queria ver isso funcionando na prática. Então enviei um comando bem simples. Cri uma rua Cyberpunk Interativa em 3D, ambientada em toque. E olha só o resultado. Uma cena com iluminação, movimentos de câmera e elementos interativos criada a partir de um único pedido. E sabe o que eu fiz? Transformei esse processo numa skill personalizada para facilitar",
+      "para facilitar a criação de projetos como esse. Quer receber essa skill? Comenta Fable aqui embaixo que eu te mando."
+    ]
+  },
+  {
+    "file": "ref_03.mp4",
+    "duration": 64.6,
+    "width": 720,
+    "height": 1280,
+    "fps": "30/1",
+    "vcodec": "h264",
+    "acodec": "aac",
+    "audio_sr": "44100",
+    "scene_cuts": 5,
+    "cut_times": [
+      11.77,
+      21.33,
+      29.03,
+      32.9,
+      47.53
+    ],
+    "avg_shot_s": 10.77,
+    "lufs": -14.13,
+    "true_peak": -3.5,
+    "lra": 1.4,
+    "silences_over_350ms": 0,
+    "words": 241,
+    "words_per_min": 224,
+    "transcript_chunks_25s": [
+      "Coisas que eu criaria no cloud se tivesse um fim de semana livre e quisesse sair na frente de 95% das pessoas que dizem entender de inteligência artificial. Parte 2. Essa aqui foi uma das automações que mais mudou minha rotina. Eu criei um agente que funciona como um verdadeiro motor de conteúdo. E olha só o que ele faz. Todos os dias pesquiso o que está viralizando no meu nicho e cruza essas informações com os resultados do meu Instagram. Depois eu escolho um tema e ele cria roteiros de Reels, carro CES, postes para o link",
+      "postes para o LinkedIn e até artigos para o meu blog. Tudo seguindo meu jeito de falar, mas não para por aí. Ele também cria as artes dos carrocéis com minha identidade visual sem precisar abrir o canva. Quando eu gravo um vídeo, ele faz os cortes, adiciona legendas, títulos e animações. Inclusive, esse vídeo que você está assistindo foi editado usando esse sistema. Depois da minha aprovação, ele agende os conteúdos para o Instagram, TikTok, YouTube e Threads e ainda acompanha os resultados, organiza tudo num painel e prepara",
+      "painel e prepara minha newsletter semanal. Eu venho aprimorando esse processo há mais de dois meses e ele já me ajudou a conquistar mais de 160 mil seguidores. Quer criar seu próprio motor de conteúdo com seu estilo e sua identidade visual? Comenta motor aqui embaixo que eu te mando passo a passo."
+    ]
+  },
+  {
+    "file": "ref_04.mp4",
+    "duration": 58.46,
+    "width": 720,
+    "height": 1280,
+    "fps": "30/1",
+    "vcodec": "h264",
+    "acodec": "aac",
+    "audio_sr": "44100",
+    "scene_cuts": 0,
+    "cut_times": [],
+    "avg_shot_s": 58.46,
+    "lufs": -14.16,
+    "true_peak": -3.6,
+    "lra": 1.4,
+    "silences_over_350ms": 0,
+    "words": 200,
+    "words_per_min": 205,
+    "transcript_chunks_25s": [
+      "Você sabia que dá para usar o cloud para testar uma ideia de negócio com até 100 compradores simulados antes de investir seu dinheiro? E olha só como funciona. Existe um projeto chamado Founders' Kill, que reúne 11 skills gratuitas para o cloud. Uma delas funciona como um conselho de empresários, inspirado nas ideias de Alex Formoszi, Peter Thiel e Steve Jobs. Outra funciona como seu diretor financeiro, calculando custos, faturamento e margem de lucro. Mas a parte mais interessante vem agora. Você consegue simular",
+      "consegue simular compradores com diferentes rendas, hábitos e necessidades. Por exemplo, eu apresentei uma ideia de lavagem automotiva do omicílio por 100 reais. De 20 clientes simulados, apenas 3 disseram que comprariam. E sabe qual foi uma das objeções? Eu não quero um desconhecido entrando na minha garagem. Ou seja, os números até pareciam bons, mas os compradores apontaram um problema que eu não tinha considerado. E é melhor descobrir isso antes de investir em uma van e nos equipamentos. Claro, são clientes simulados.",
+      "de clientes simulados. Depois, preciso validar a ideia com pessoas reais. Quer receber as 11 skills e aprender a usar? Comenta \"Skill\" aqui embaixo que eu te mando passo a passo."
+    ]
+  },
+  {
+    "file": "ref_05.mp4",
+    "duration": 74.02,
+    "width": 720,
+    "height": 1280,
+    "fps": "30/1",
+    "vcodec": "h264",
+    "acodec": "aac",
+    "audio_sr": "44100",
+    "scene_cuts": 0,
+    "cut_times": [],
+    "avg_shot_s": 74.02,
+    "lufs": -14.12,
+    "true_peak": -3.53,
+    "lra": 17.9,
+    "silences_over_350ms": 35,
+    "words": 168,
+    "words_per_min": 136,
+    "transcript_chunks_25s": [
+      "com qual velocidade o seu cérebro consegue raciocinar. Eu vou te fazer um desafio de apenas 25 segundos. Na tela tem uma tabela com os números de 1 a 25 todos embaralhados. Seu objetivo é encontrar cada número na ordem certa começando pelo 1 e terminando no 25. Preparado? 3, 2, 1, já!",
+      "Tempo, até qual número você conseguiu chegar? Comenta aqui embaixo. Esse exercício se chama tabela de chutes. Ele é usado para exercitar a atenção e a velocidade com que você",
+      "velocidade com que você encontra informações visuais. E olha só que interessante, a ideia é treinar seu olhar para localizar os números sem ficar procurando aleatoriamente pela tela, com a prática você pode melhorar seu desempenho nesse tipo de tarefa. Agora faz o seguinte, salve esse vídeo e tenta novamente na semana que vem para comparar seu resultado. E quer aprender a criar vídeos explicativos animados como esse usando inteligência artificial? Comenta a máquina aqui embaixo e me segue que eu te mando na DM."
+    ]
+  },
+  {
+    "file": "ref_06.mp4",
+    "duration": 51.45,
+    "width": 720,
+    "height": 1280,
+    "fps": "30/1",
+    "vcodec": "h264",
+    "acodec": "aac",
+    "audio_sr": "44100",
+    "scene_cuts": 0,
+    "cut_times": [],
+    "avg_shot_s": 51.45,
+    "lufs": -14.2,
+    "true_peak": -4.18,
+    "lra": 1.2,
+    "silences_over_350ms": 0,
+    "words": 183,
+    "words_per_min": 213,
+    "transcript_chunks_25s": [
+      "Alguém disponibilizou gratuitamente uma SQL do Cloud para colocar sites na primeira página do Google. E olha só, essa ferramenta já passou de 27 mil estrelas no GitHub. Sabe por quê? Porque ele automatiza várias tarefas de SEO que uma agência poderia cobrar até 5 mil reais para fazer. E olha como funciona. Primeiro, o Cloud analisa as páginas do seu site e identifica problemas que podem estar prejudicando o seu posicionamento no Google. Depois, encontra conteúdos que já aparecem nos resultados de busca",
+      "resultados de busca, mas ainda não estão nas primeiras posições. A partir daí ele sugere melhorias nos títulos, textos, palavras-chave e na estrutura das páginas. Mas a parte mais interessante é que você pode repetir esse processo todos os dias. Assim, em vez de ficar analisando tudo manualmente, você usa a inteligência artificial para acelerar boa parte do trabalho. E o melhor, essa skill foi disponibilizada gratuitamente. Quer receber e aprender a usar no seu site? Me segue e comenta a site aqui embaixo que eu te mando o link na descrição.",
+      "O que eu te mando link na"
+    ]
+  },
+  {
+    "file": "ref_07.mp4",
+    "duration": 61.9,
+    "width": 720,
+    "height": 1280,
+    "fps": "30/1",
+    "vcodec": "h264",
+    "acodec": "aac",
+    "audio_sr": "44100",
+    "scene_cuts": 0,
+    "cut_times": [],
+    "avg_shot_s": 61.9,
+    "lufs": -14.2,
+    "true_peak": -3.98,
+    "lra": 1.6,
+    "silences_over_350ms": 1,
+    "words": 214,
+    "words_per_min": 207,
+    "transcript_chunks_25s": [
+      "Agora o Cloud pode assistir a vídeos do YouTube para você e aprender qualquer habilidade. Depois de 3.265 horas usando o Cloud, esta é, de longe, a maneira mais fácil de deixar sua inteligência artificial mais inteligente. Veja como configurá-lo em 30 segundos. Basta colar este link no Cloud e pedir para ele instalar a skill. Agora ele poderá assistir a qualquer vídeo como um ser humano. Depois envia qualquer vídeo do YouTube e diga \"assista este vídeo, aprenda",
+      "Clica este vídeo, aprenda o que ele ensina e transforme o conhecimento em uma skill que eu posso usar para sempre. Você assistiria um desses vídeos e provavelmente já teria esquecido o conteúdo no próximo dia, mas o Cloud pode assistir literalmente a dezenas deles de uma a sua vez e manter todas essas informações na memória. Você pode enviar os melhores treinamentos de vendas do YouTube, e o Cloud começará a escrever seguindo aquele método. Você pode enviar os vídeos sobre ofertas do Hormozi, e ele começará a reescrever suas ofertas seguindo o mesmo estilo.",
+      "seguindo o mesmo estilo. O YouTube é apenas o começo. Ele também pode ouvir podcasts exatamente da mesma maneira. Comente YouTube e eu enviarei as que o completa e o prompt exato para você começar a fazer isso hoje."
+    ]
+  },
+  {
+    "file": "ref_08.mp4",
+    "duration": 53.96,
+    "width": 720,
+    "height": 1280,
+    "fps": "30/1",
+    "vcodec": "h264",
+    "acodec": "aac",
+    "audio_sr": "44100",
+    "scene_cuts": 2,
+    "cut_times": [
+      26.1,
+      32.57
+    ],
+    "avg_shot_s": 17.99,
+    "lufs": -14.12,
+    "true_peak": -3.98,
+    "lra": 1.2,
+    "silences_over_350ms": 0,
+    "words": 182,
+    "words_per_min": 202,
+    "transcript_chunks_25s": [
+      "Você pode vender essa automação para uma clínica ontológica por até R$ 3.000. E olha só como ela funciona. São 11 horas e 47 da noite e uma paciente manda um áudio no WhatsApp da clínica. Só que o consultório já está fechado. Normalmente ela ficaria sem resposta e provavelmente procuraria outro dentista. Mas essa clínica tem um agente de inteligência artificial atendendo 24 horas. Primeiro ele transcreve o áudio, entende o que a paciente precisa e identifica que ela está procurando um atendimento urgente.",
+      "atendimento urgente. Depois, consulta a agenda da dentista e oferece dois horários disponíveis. A paciente escolhe 9 horas e 30 minutos. O agente confirma a consulta, registra os dados e envia a localização da clínica. Tudo isso em apenas 41 segundos. E sabe o que é mais interessante? Quando a dentista acorda, já tem 3 novas pacientes agendadas durante a madrugada. E um dia antes de cada consulta, a IA ainda envia um lembrete para reduzir as faltas. Quer aprender a criar esse agente? Comenta",
+      "Comenta a agenda aqui embaixo que eu te mando o fluxo completo."
+    ]
+  },
+  {
+    "file": "ref_09.mp4",
+    "duration": 55.33,
+    "width": 720,
+    "height": 1280,
+    "fps": "30/1",
+    "vcodec": "h264",
+    "acodec": "aac",
+    "audio_sr": "44100",
+    "scene_cuts": 1,
+    "cut_times": [
+      22.9
+    ],
+    "avg_shot_s": 27.67,
+    "lufs": -14.09,
+    "true_peak": -3.82,
+    "lra": 1.1,
+    "silences_over_350ms": 0,
+    "words": 180,
+    "words_per_min": 195,
+    "transcript_chunks_25s": [
+      "Um desenvolvedor criou um projeto tão impressionante que até o CEO da Anthropic ficou surpreso. E olha só o que eu encontrei no GitHub. Esse repositório já passou de 250 mil estrelas e reúne uma quantidade absurda de ferramentas para o Cloud Coach. São 64 agentes de inteligência artificial, 261 skills e 84 comandos e hooks. Basicamente, em vez de usar o Cloud como um único assistente, eu consigo transformar ele numa equipe inteira de desenvolvimento.",
+      "cada gente fica responsável por uma tarefa, como programar, testar, revisar código ou automatizar processos. E tem uma coisa ainda mais interessante. Segundo o criador, ele também venceu um hackathon da UnTropic. E enquanto tem gente cobrando para ensinar esse tipo de configuração, ele disponibilizou o projeto gratuitamente. Para instalar, eu só preciso executar um comando no Cloud Coach. Quer receber esse repositório? Comenta GitHub aqui embaixo que eu te mando o link na DM. E me segue, porque todos os dias eu compartilho os melhores",
+      "hoje em dia, eu compartilho os melhores prompts, skills e ferramentas de inteligência artificial aqui no meu perfil."
+    ]
+  }
+]

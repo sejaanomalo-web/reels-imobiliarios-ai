@@ -1,0 +1,13 @@
+# EP032 — Shotlist (tempos reais)
+
+Padrão aprovado: câmera virtual suave (deriva 0,5), legenda original guiada pela fala, trilha discreta sem bateria, efeitos fora das sílabas. Sem logo: o símbolo da ATIVO não está no repositório (ver relatório).
+
+| Cena | Tempo | Fala | Visual | Movimento / transição | Som |
+|---|---|---|---|---|---|
+| 01 Gancho | 0,00–4,43 | Sua equipe tem muitos leads. Mas você sabe quais receberam retorno? | Quadro de oportunidades já com 8 leads no 1º quadro, enchendo até 20 (contador "LEADS DA EQUIPE"); cada lead tem ✓ de retorno ou um círculo vazio; em "retorno?" os vazios pulsam em vermelho + "quais receberam **retorno?**" | Câmera inclinada que se endireita sobre o quadro | som oco na pergunta |
+| 02 Situação | 4,43–10,11 | Na reunião, todo mundo diz que está atendendo. Só que atividade e avanço comercial não são a mesma coisa. | REUNIÃO DE EQUIPE: falas genéricas ("ESTOU VENDO", "TÔ ATENDENDO", "ESTÁ ANDANDO") saem de três corretores sobre o quadro esmaecido e se dissolvem; **ATIVIDADE (mensagens, ligações) ≠ AVANÇO (próxima etapa)** | Recuo para a reunião, aproximação no ≠ | whoosh antes de "Na", fade no "mesma coisa" |
+| 03 Tensão | 10,11–17,26 | Para acompanhar o processo, observe três coisas: primeiro contato, último movimento e próximo passo definido. | "OBSERVE 3 COISAS": tabela com 4 leads fictícios; as colunas 1º CONTATO / ÚLTIMO MOVIMENTO / PRÓXIMO PASSO entram e se preenchem no tempo de cada termo; dois leads ficam "— sem próximo passo" (pulsando) | Leve deslocamento coluna a coluna | swish antes da frase, pop no próximo passo |
+| 04 Insight | 17,26–24,96 | Não é vigiar o corretor a cada minuto. É ter clareza para apoiar oportunidades que ficaram sem sequência e corrigir gargalos reais. | Olho "vigiar a cada minuto" riscado; "CLAREZA PARA APOIAR": as linhas OK esmaecem, as sem sequência ganham selo GESTOR APOIA e um próximo passo definido; "gargalo real: documentação parada → corrigir" (qualitativo, sem métrica inventada) | Mesmo painel; câmera desce até o gargalo | bloqueio no "vigiar", acorde no gargalo |
+| 05 CTA de comentário | 24,96–38,50 | Essa clareza depende de cada lead ter seu histórico registrado. Quer conhecer…? Comente SISTEMA que eu te envio os detalhes pelo Direct. | Histórico do lead (interface ilustrativa): primeiro contato · último movimento · próximo passo — REGISTRADO; dobra no módulo LEADS; IMÓVEIS e ATENDIMENTOS no tempo das palavras; campo de comentário genérico digita SISTEMA; fecho **COMENTE "SISTEMA"** + **Receba os detalhes no Direct.** | Dobra → módulo; subida da palavra; push lento até o fim | whoosh (antes da fala), 3 pops, digitação, acorde, notificação curta |
+
+Legenda da fala final (s10) oculta na tela; o SRT mantém tudo.

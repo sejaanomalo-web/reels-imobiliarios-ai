@@ -1,0 +1,64 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 1.26,
+    "palavras_nao_reconhecidas": [
+      "lead"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 1.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 1.71,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 5.06,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 6.7,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.31,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.89,
+    "palavras_nao_reconhecidas": [
+      "esse"
+    ]
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.77,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 37.05,
+    "asr_match": 0.961,
+    "aligned_words": "99/103",
+    "words_per_min": 167,
+    "heard": "O Lid não sumiu, o histórico é que sumiu. Um comprador pediu um apartamento de dois quartos. Você enviou opções, conversou sobre a localização e deixou a conversa aberta. A semana encheu de visitas. Quando apareceu o imóvel perfeito, você lembrava do apartamento, mas não do nome de quem procurava. Um contato útil precisa de três registros. O que procura em que etapa está e qual é o próximo retorno. Sem isso, até uma boa oportunidade pode ficar esquecida. Quer acompanhar essa história com um sistema feito para sua rotina? Conheça nosso sistema imobiliário personalizado no link da Bio e agende uma demonstração."
+  }
+]

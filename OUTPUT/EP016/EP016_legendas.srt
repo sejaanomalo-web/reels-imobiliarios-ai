@@ -1,0 +1,91 @@
+1
+00:00:00,120 --> 00:00:01,940
+Se um cliente parou de responder,
+
+2
+00:00:01,960 --> 00:00:03,620
+não comece com aquele clássico:
+
+3
+00:00:03,640 --> 00:00:04,700
+“alguma novidade?”
+
+4
+00:00:04,760 --> 00:00:06,740
+Você pode retomar com algo específico:
+
+5
+00:00:06,760 --> 00:00:07,860
+“vi uma opção na região
+
+6
+00:00:07,880 --> 00:00:08,820
+que você mencionou.
+
+7
+00:00:08,840 --> 00:00:10,550
+Ainda faz sentido procurar por ali?”
+
+8
+00:00:10,760 --> 00:00:12,740
+A primeira mensagem cobra uma decisão
+
+9
+00:00:12,760 --> 00:00:13,540
+sem contexto.
+
+10
+00:00:13,560 --> 00:00:15,620
+A segunda lembra a necessidade da pessoa
+
+11
+00:00:15,640 --> 00:00:17,820
+e permite que ela atualize a busca.
+
+12
+00:00:17,960 --> 00:00:19,700
+Não envie ofertas aleatórias
+
+13
+00:00:19,720 --> 00:00:20,660
+para toda a base.
+
+14
+00:00:20,760 --> 00:00:22,660
+Retome somente quando existir contexto,
+
+15
+00:00:22,680 --> 00:00:23,940
+e respeite quem não quiser
+
+16
+00:00:23,960 --> 00:00:25,010
+mais receber contato.
+
+17
+00:00:25,240 --> 00:00:27,700
+Retomar com contexto exige ter o histórico
+
+18
+00:00:27,720 --> 00:00:28,910
+de cada cliente à mão.
+
+19
+00:00:29,000 --> 00:00:30,820
+Quer conhecer um sistema personalizado
+
+20
+00:00:30,840 --> 00:00:32,500
+para organizar seus imóveis, leads
+
+21
+00:00:32,520 --> 00:00:33,370
+e atendimentos?
+
+22
+00:00:33,509 --> 00:00:35,220
+Comente SISTEMA que eu te envio
+
+23
+00:00:35,240 --> 00:00:36,530
+os detalhes pelo Direct.

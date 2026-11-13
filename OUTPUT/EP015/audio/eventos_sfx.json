@@ -1,0 +1,227 @@
+[
+ {
+  "t": 0.04,
+  "sound": "notif",
+  "gain": -18,
+  "cue": "hook_bubble"
+ },
+ {
+  "t": 1.45,
+  "sound": "pop",
+  "gain": -18,
+  "cue": "hook_dot"
+ },
+ {
+  "t": 1.5,
+  "sound": "whoosh_up",
+  "gain": -21,
+  "cue": "hook_dot"
+ },
+ {
+  "t": 3.08,
+  "sound": "impact",
+  "gain": -13,
+  "cue": "hook_q"
+ },
+ {
+  "t": 3.77,
+  "sound": "whip",
+  "gain": -17,
+  "cue": "hook_clear"
+ },
+ {
+  "t": 4.02,
+  "sound": "swish",
+  "gain": -20,
+  "cue": "sit_line"
+ },
+ {
+  "t": 4.7,
+  "sound": "pop",
+  "gain": -20,
+  "cue": "sit_opt"
+ },
+ {
+  "t": 5.42,
+  "sound": "pop",
+  "gain": -20,
+  "cue": "sit_doubt"
+ },
+ {
+  "t": 5.64,
+  "sound": "tick",
+  "gain": -23,
+  "cue": "sit_doubt"
+ },
+ {
+  "t": 6.52,
+  "sound": "pop",
+  "gain": -20,
+  "cue": "sit_anal"
+ },
+ {
+  "t": 7.26,
+  "sound": "whoosh_dive",
+  "gain": -19,
+  "cue": "sit_leave"
+ },
+ {
+  "t": 8.57,
+  "sound": "hollow",
+  "gain": -19,
+  "cue": "sit_after"
+ },
+ {
+  "t": 9.93,
+  "sound": "hollow",
+  "gain": -18,
+  "cue": "sit_loose"
+ },
+ {
+  "t": 10.76,
+  "sound": "whip",
+  "gain": -18,
+  "cue": "ten_ask"
+ },
+ {
+  "t": 11.61,
+  "sound": "click",
+  "gain": -19,
+  "cue": "ten_q"
+ },
+ {
+  "t": 11.67,
+  "sound": "bell",
+  "gain": -20,
+  "cue": "ten_q"
+ },
+ {
+  "t": 12.98,
+  "sound": "swish",
+  "gain": -20,
+  "cue": "ten_a"
+ },
+ {
+  "t": 13.23,
+  "sound": "pop",
+  "gain": -20,
+  "cue": "ten_a"
+ },
+ {
+  "t": 14.34,
+  "sound": "swish",
+  "gain": -20,
+  "cue": "ten_b"
+ },
+ {
+  "t": 14.59,
+  "sound": "pop",
+  "gain": -20,
+  "cue": "ten_b"
+ },
+ {
+  "t": 14.97,
+  "sound": "notif",
+  "gain": -19,
+  "cue": "ten_respect"
+ },
+ {
+  "t": 15.72,
+  "sound": "bell",
+  "gain": -17,
+  "cue": "ten_ok"
+ },
+ {
+  "t": 16.97,
+  "sound": "block",
+  "gain": -18,
+  "cue": "ins_d"
+ },
+ {
+  "t": 17.37,
+  "sound": "block",
+  "gain": -18,
+  "cue": "ins_s"
+ },
+ {
+  "t": 17.77,
+  "sound": "block",
+  "gain": -18,
+  "cue": "ins_e"
+ },
+ {
+  "t": 17.97,
+  "sound": "bell",
+  "gain": -20,
+  "cue": "ins_e"
+ },
+ {
+  "t": 18.86,
+  "sound": "whoosh_fold",
+  "gain": -18,
+  "cue": "ins_small"
+ },
+ {
+  "t": 19.53,
+  "sound": "whip",
+  "gain": -18,
+  "cue": "ins_diff"
+ },
+ {
+  "t": 20.49,
+  "sound": "hollow",
+  "gain": -18,
+  "cue": "ins_closed"
+ },
+ {
+  "t": 21.69,
+  "sound": "shimmer",
+  "gain": -18,
+  "cue": "ins_follow"
+ },
+ {
+  "t": 22.34,
+  "sound": "whoosh_up",
+  "gain": -18,
+  "cue": "cta_board"
+ },
+ {
+  "t": 22.89,
+  "sound": "pop",
+  "gain": -19
+ },
+ {
+  "t": 23.5,
+  "sound": "pop",
+  "gain": -19
+ },
+ {
+  "t": 24.11,
+  "sound": "pop",
+  "gain": -19
+ },
+ {
+  "t": 24.16,
+  "sound": "click",
+  "gain": -19,
+  "cue": "cta_org"
+ },
+ {
+  "t": 26.0,
+  "sound": "whip",
+  "gain": -17,
+  "cue": "cta_link"
+ },
+ {
+  "t": 26.18,
+  "sound": "chord",
+  "gain": -15,
+  "cue": "cta_link"
+ },
+ {
+  "t": 27.025,
+  "sound": "impact",
+  "gain": -19,
+  "cue": "cta_end"
+ }
+]

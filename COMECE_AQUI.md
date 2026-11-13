@@ -1,55 +1,46 @@
 # Kit de produção em escala — Reels de tecnologia imobiliária
 
-Este pacote contém uma configuração de trabalho pronta para colar no Claude Code. **Não contém vídeos MP4 de terceiros nem modelos de voz baixados.** Contém o manifesto com os nove links do Instagram, o Prompt Mestre, um roteiro piloto e instruções de escolha de voz.
+Este pacote contém uma configuração de trabalho pronta para colar no Claude Code. Contém o Prompt Mestre (`CLAUDE.md`), o livro com 60 roteiros, os nove Reels de referência em MP4 (material de terceiros, só para estudo — manter o repositório privado), o projeto de produção e as entregas do EP001. Modelos de voz não são versionados: `npm run models` baixa.
 
 ## O que vai sempre junto com cada vídeo
 
-1. **Prompt Mestre fixo:** `PROMPT_MESTRE_CLAUDE_CODE.md`
-2. **Roteiro variável:** `ROTEIRO_PILOTO_01.md` ou um novo `EP###.md`
-3. **Referências constantes:** `REFERENCIAS_9_REELS.md` + arquivos `.mp4` acessíveis no repositório
-4. **Voz oficial:** preset travado depois da audição em `voice/voice_preset.json`
+1. **Prompt Mestre fixo:** `CLAUDE.md`
+2. **Roteiro variável:** `ROTEIROS/EP###.md`, extraído do livro
+3. **Referências constantes:** `MODELS/REFERENCIAS_9_REELS.md` + `MODELS/ref_01…09.mp4`
+4. **Voz oficial:** preset travado depois da audição em `VOZ/voice_preset.json`
 5. **Capturas do sistema:** reais, autorizadas e sem dados pessoais
 
-## Organização recomendada do repositório Claude Code
+## Organização do repositório
 
 ```text
-reels-imobiliarios/
-├── CLAUDE.md                 # copiar ou apontar para o Prompt Mestre
-├── references/
+reels-imobiliarios-ai/
+├── CLAUDE.md                  # Prompt Mestre (lido automaticamente pelo Claude Code)
+├── ROTEIROS/
+│   ├── LIVRO_60_ROTEIROS.docx # fonte dos 60 roteiros
+│   └── EP001.md               # roteiro extraído do livro
+├── MODELS/
 │   ├── REFERENCIAS_9_REELS.md
-│   ├── ref_01.mp4 ... ref_09.mp4  # APENAS quando disponibilizados licitamente
-├── scripts/
-│   ├── EPISODIO_ATUAL.md     # roteiro ativo
-│   └── EP001.md              # roteiro anterior
-├── voice/
-│   ├── voice_preset.json     # escolhido após audição
-│   └── audio_ref_autorizado.wav  # só se houver consentimento
-├── brand/
-│   └── brand.json            # depois que marca for aprovada
-├── assets/
-│   ├── real_product/
-│   ├── authorized/
-│   └── generated/
-├── analysis/
-├── src/                      # código Remotion
-├── output/
-│   └── EP001/
-└── package.json
+│   └── ref_01.mp4 … ref_09.mp4   # referências de terceiros: só para estudo
+├── VOZ/
+│   ├── voice_preset.json      # voz travada (hoje: provisória, não aprovada)
+│   └── VOZES_E_TESTES.md
+├── MARCA/brand.json           # identidade provisória
+├── ANALISE/                   # relatório das referências, tokens de estilo, comparação de vozes
+├── PRODUCAO/                  # projeto Remotion + ferramentas (ver PRODUCAO/LEIAME.md)
+│   ├── episodes/EP001/episode.json   # texto, legendas, marcas de sincronia e sons do episódio
+│   ├── src/                   # cenas, componentes, tema
+│   └── tools/                 # narração, áudio, render, validação
+└── OUTPUT/
+    ├── VOICE_AUDITIONS/       # audições de voz para aprovar
+    └── EP001/                 # vídeo final, capa, narração, legendas, relatórios, stems
 ```
 
-## Primeiro uso (passo a passo)
+## Como produzir um episódio
 
-1. Criar o repositório com essa estrutura. Copiar o Prompt Mestre para `CLAUDE.md` ou apontar o Claude Code para ele.
-2. Copiar o manifesto de referências para `references/` e anexar os MP4 realmente disponíveis. Links não são substitutos de vídeos carregáveis.
-3. Copiar o roteiro piloto para `scripts/EPISODIO_ATUAL.md`.
-4. Pedir ao Claude Code **primeiro as audições de voz**. Comparar e aprovar a mesma voz para toda a série.
-5. Salvar o preset selecionado e renderizar o episódio piloto.
-6. Assistir ao piloto, corrigir os detalhes e congelar tokens visuais/voz antes de produzir em lote.
-7. Para o EP002 em diante, trocar apenas o roteiro, as cenas específicas e os assets novos. Manter Prompt Mestre, referências e preset.
-
-## Primeiro comando para o Claude Code
-
-> Leia o `CLAUDE.md`, `references/REFERENCIAS_9_REELS.md`, `scripts/EPISODIO_ATUAL.md` e `voice/voice_preset.json` se existir. Execute a metodologia do Prompt Mestre. Neste primeiro episódio, priorize análise das referências disponíveis e audições de voz, depois produza uma versão piloto verificável. Não alegue análise de Reels sem os MP4 acessíveis e não afirme ter renderizado um vídeo antes da existência e validação do arquivo.
+1. Ouvir `OUTPUT/VOICE_AUDITIONS/` e aprovar uma voz em `VOZ/voice_preset.json` (uma vez).
+2. Pedir ao Claude Code: "Crie o Reel NN" — ele extrai o roteiro do livro, cria `PRODUCAO/episodes/EPNNN/` e as cenas.
+3. `cd PRODUCAO && npm install && npm run models && npm run ep -- EP001` regenera narração, áudio, vídeo e validação.
+4. Assistir no celular antes de publicar: a revisão automática é por quadros e métricas, não por escuta.
 
 ## Restrições de custo e licença
 

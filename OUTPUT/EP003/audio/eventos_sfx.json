@@ -1,0 +1,283 @@
+[
+ {
+  "t": 0.02,
+  "sound": "notif",
+  "gain": -17
+ },
+ {
+  "t": 0.02,
+  "sound": "ring",
+  "gain": -27
+ },
+ {
+  "t": 0.307,
+  "sound": "notif",
+  "gain": -17
+ },
+ {
+  "t": 0.307,
+  "sound": "ring",
+  "gain": -27
+ },
+ {
+  "t": 0.556,
+  "sound": "notif",
+  "gain": -17
+ },
+ {
+  "t": 0.556,
+  "sound": "ring",
+  "gain": -27
+ },
+ {
+  "t": 0.792,
+  "sound": "notif",
+  "gain": -17
+ },
+ {
+  "t": 0.792,
+  "sound": "ring",
+  "gain": -27
+ },
+ {
+  "t": 1.02,
+  "sound": "notif",
+  "gain": -17
+ },
+ {
+  "t": 1.02,
+  "sound": "ring",
+  "gain": -27
+ },
+ {
+  "t": 1.14,
+  "sound": "impact",
+  "gain": -14,
+  "cue": "hook_same"
+ },
+ {
+  "t": 1.5,
+  "sound": "whip",
+  "gain": -17,
+  "cue": "hook_who"
+ },
+ {
+  "t": 2.2,
+  "sound": "impact",
+  "gain": -11,
+  "cue": "hook_first"
+ },
+ {
+  "t": 2.48,
+  "sound": "whip",
+  "gain": -19,
+  "cue": "sit_c1"
+ },
+ {
+  "t": 2.8,
+  "sound": "notif",
+  "gain": -21,
+  "cue": "sit_c1"
+ },
+ {
+  "t": 3.68,
+  "sound": "whip",
+  "gain": -19,
+  "cue": "sit_c2"
+ },
+ {
+  "t": 4.0,
+  "sound": "notif",
+  "gain": -21,
+  "cue": "sit_c2"
+ },
+ {
+  "t": 4.84,
+  "sound": "whip",
+  "gain": -19,
+  "cue": "sit_c3"
+ },
+ {
+  "t": 5.16,
+  "sound": "notif",
+  "gain": -21,
+  "cue": "sit_c3"
+ },
+ {
+  "t": 6.28,
+  "sound": "swish",
+  "gain": -18,
+  "cue": "sit_split"
+ },
+ {
+  "t": 6.38,
+  "sound": "click",
+  "gain": -20,
+  "cue": "sit_split"
+ },
+ {
+  "t": 7.74,
+  "sound": "alert",
+  "gain": -18,
+  "cue": "sit_urgent"
+ },
+ {
+  "t": 8.36,
+  "sound": "impact",
+  "gain": -14,
+  "cue": "ten_err"
+ },
+ {
+  "t": 9.29,
+  "sound": "tick",
+  "gain": -21
+ },
+ {
+  "t": 9.52,
+  "sound": "tick",
+  "gain": -21
+ },
+ {
+  "t": 9.75,
+  "sound": "tick",
+  "gain": -21
+ },
+ {
+  "t": 9.98,
+  "sound": "tick",
+  "gain": -21
+ },
+ {
+  "t": 10.21,
+  "sound": "tick",
+  "gain": -21
+ },
+ {
+  "t": 10.33,
+  "sound": "whoosh_dive",
+  "gain": -18,
+  "cue": "ten_fall"
+ },
+ {
+  "t": 10.75,
+  "sound": "thump",
+  "gain": -17,
+  "cue": "ten_fall"
+ },
+ {
+  "t": 11.54,
+  "sound": "hollow",
+  "gain": -20,
+  "cue": "ten_tag1"
+ },
+ {
+  "t": 12.26,
+  "sound": "hollow",
+  "gain": -20,
+  "cue": "ten_tag2"
+ },
+ {
+  "t": 12.74,
+  "sound": "hollow",
+  "gain": -19,
+  "cue": "ten_tag3"
+ },
+ {
+  "t": 13.76,
+  "sound": "shuffle",
+  "gain": -17,
+  "cue": "ins_sort"
+ },
+ {
+  "t": 14.81,
+  "sound": "pop",
+  "gain": -20,
+  "cue": "ins_etapa"
+ },
+ {
+  "t": 15.21,
+  "sound": "pop",
+  "gain": -20,
+  "cue": "ins_prazo"
+ },
+ {
+  "t": 15.6,
+  "sound": "whip",
+  "gain": -19,
+  "cue": "ins_first"
+ },
+ {
+  "t": 16.78,
+  "sound": "bell",
+  "gain": -17,
+  "cue": "ins_done"
+ },
+ {
+  "t": 17.1,
+  "sound": "whip",
+  "gain": -19,
+  "cue": "ins_then"
+ },
+ {
+  "t": 18.66,
+  "sound": "block",
+  "gain": -20
+ },
+ {
+  "t": 18.969,
+  "sound": "block",
+  "gain": -20
+ },
+ {
+  "t": 19.236,
+  "sound": "block",
+  "gain": -20
+ },
+ {
+  "t": 19.49,
+  "sound": "block",
+  "gain": -20
+ },
+ {
+  "t": 19.64,
+  "sound": "thump",
+  "gain": -17,
+  "cue": "ins_deliver"
+ },
+ {
+  "t": 19.72,
+  "sound": "bell",
+  "gain": -19,
+  "cue": "ins_deliver"
+ },
+ {
+  "t": 19.96,
+  "sound": "whoosh_up",
+  "gain": -17,
+  "cue": "cta_flow"
+ },
+ {
+  "t": 21.54,
+  "sound": "shimmer",
+  "gain": -19,
+  "cue": "cta_single"
+ },
+ {
+  "t": 24.0,
+  "sound": "whip",
+  "gain": -17,
+  "cue": "cta_link"
+ },
+ {
+  "t": 24.18,
+  "sound": "chord",
+  "gain": -15,
+  "cue": "cta_link"
+ },
+ {
+  "t": 24.87,
+  "sound": "impact",
+  "gain": -19,
+  "cue": "cta_end"
+ }
+]

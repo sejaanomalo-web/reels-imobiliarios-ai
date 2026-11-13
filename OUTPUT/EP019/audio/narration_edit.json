@@ -1,0 +1,15 @@
+{
+ "tipo": "remoção de trecho intruso",
+ "motivo": "o modelo leu em voz alta parte da direção do preset ('Ritmo ágil, sem correria, com pausas curtas entre as ideias. Nunca locutor de comercial.') entre o gancho e a situação",
+ "arquivo_bruto": "OUTPUT/EP019/audio/tomada_A_bruta_leu_direcao.wav",
+ "corte_s": [
+  5.5,
+  11.5
+ ],
+ "removido_s": 6.0,
+ "pausa_resultante_s": 0.54,
+ "crossfade_s": 0.02,
+ "sem_aceleracao": true,
+ "sem_time_stretch": true,
+ "sem_alteracao_de_timbre": true
+}

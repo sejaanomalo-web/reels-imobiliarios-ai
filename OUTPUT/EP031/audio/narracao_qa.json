@@ -1,0 +1,76 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 1.81,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.28,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 1.63,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.24,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.43,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.77,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.32,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 7.31,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.92,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.87,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 43.32,
+    "asr_match": 1.0,
+    "aligned_words": "109/109",
+    "words_per_min": 151,
+    "heard": "O cliente pediu informações uma vez, recebeu resposta de dois corretores diferentes. Um oferece visita na quinta, outro fala de condições diferentes na sexta. O comprador não sabe com quem seguir e a equipe também não. O problema não é ter dois profissionais interessados. É não existir uma regra clara de atribuição e acompanhamento daquela oportunidade. Defina quem assume o primeiro contato, quando uma oportunidade pode ser transferida e como registrar isso sem perder contexto. Esse fluxo funciona melhor quando cada oportunidade tem dono e histórico registrados. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 43.32,
+      "wpm": 151
+    },
+    "final": {
+      "seconds": 43.32,
+      "wpm": 151
+    }
+  }
+]

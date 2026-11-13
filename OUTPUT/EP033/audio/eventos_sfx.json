@@ -1,0 +1,98 @@
+[
+ {
+  "t": 1.5,
+  "sound": "shuffle",
+  "gain": -26,
+  "cue": "hook_more"
+ },
+ {
+  "t": 3.78,
+  "sound": "whoosh_up",
+  "gain": -25,
+  "cue": "sit_two"
+ },
+ {
+  "t": 4.03,
+  "sound": "hollow",
+  "gain": -23,
+  "cue": "hook_noone"
+ },
+ {
+  "t": 8.04,
+  "sound": "whoosh_up",
+  "gain": -25,
+  "cue": "sit_eight"
+ },
+ {
+  "t": 13.53,
+  "sound": "pop",
+  "gain": -23,
+  "cue": "sit_owners"
+ },
+ {
+  "t": 18.77,
+  "sound": "fade_down",
+  "gain": -23,
+  "cue": "ten_mess"
+ },
+ {
+  "t": 18.9,
+  "sound": "whoosh_fold",
+  "gain": -24,
+  "cue": "ins_before"
+ },
+ {
+  "t": 25.83,
+  "sound": "chord",
+  "gain": -21,
+  "cue": "ins_t3"
+ },
+ {
+  "t": 27.26,
+  "sound": "pin",
+  "gain": -24,
+  "cue": "ins_after"
+ },
+ {
+  "t": 28.43,
+  "sound": "whoosh_up",
+  "gain": -27,
+  "cue": "cta_doc"
+ },
+ {
+  "t": 36.0,
+  "sound": "pop",
+  "gain": -23,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 36.3,
+  "sound": "pop",
+  "gain": -23,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 36.6,
+  "sound": "pop",
+  "gain": -23,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 37.7,
+  "sound": "typing",
+  "gain": -27,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 38.66,
+  "sound": "chord",
+  "gain": -19,
+  "cue": "cta_word"
+ },
+ {
+  "t": 40.86,
+  "sound": "notif",
+  "gain": -20,
+  "cue": "cta_end"
+ }
+]

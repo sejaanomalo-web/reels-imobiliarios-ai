@@ -1,0 +1,26 @@
+[
+  {
+    "voice": "pm_alex",
+    "seconds": 14.15,
+    "gen_seconds": 3.9,
+    "words_per_min": 178,
+    "asr_match": 1.0,
+    "asr_text": "Corretor, deixa eu te fazer uma pergunta. Você sabe quantos interessados ficaram sem retorno esta semana? Um contato não é só uma mensagem no WhatsApp. É uma conversa com contexto, prazo e próximo passo. E é isso que a gente precisa organizar."
+  },
+  {
+    "voice": "pm_santa",
+    "seconds": 14.26,
+    "gen_seconds": 3.2,
+    "words_per_min": 177,
+    "asr_match": 1.0,
+    "asr_text": "Corretor, deixa eu te fazer uma pergunta. Você sabe quantos interessados ficaram sem retorno esta semana? Um contato não é só uma mensagem no WhatsApp. É uma conversa com contexto, prazo e próximo passo. E é isso que a gente precisa organizar."
+  },
+  {
+    "voice": "pf_dora",
+    "seconds": 13.89,
+    "gen_seconds": 2.9,
+    "words_per_min": 181,
+    "asr_match": 1.0,
+    "asr_text": "Corretor, deixa eu te fazer uma pergunta. Você sabe quantos interessados ficaram sem retorno esta semana? Um contato não é só uma mensagem no WhatsApp. É uma conversa com contexto, prazo e próximo passo. E é isso que a gente precisa organizar."
+  }
+]

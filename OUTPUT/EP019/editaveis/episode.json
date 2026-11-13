@@ -1,0 +1,532 @@
+{
+ "id": "EP019",
+ "title": "Áudio longo pode esconder uma decisão",
+ "fps": 30,
+ "leadIn": 0.12,
+ "tail": 1.9,
+ "deliverables": {
+  "final": "EP019_FINAL.mp4",
+  "narration": "EP019_NARRACAO.wav"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "original_bio_cta": "Se sua rotina tem muitos atendimentos assim, conheça nosso sistema personalizado no link da bio.",
+  "transition_adapted": "Se a sua rotina tem muitos atendimentos assim, vale ter esse histórico organizado.",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct."
+ },
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Você mandou um áudio de três minutos.",
+   "caption": "Você mandou | um *áudio* | de *três minutos.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "O cliente ouviu metade e ficou sem saber o próximo passo.",
+   "caption": "O cliente | ouviu *metade* | e ficou sem saber | o *próximo passo.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "situacao",
+   "text": "Áudio é ótimo para transmitir proximidade, mas detalhes como endereço, horário e documentação ficam difíceis de consultar depois.",
+   "caption": "Áudio é ótimo | para transmitir | *proximidade,* | mas detalhes como | *endereço,* | *horário* | e *documentação* | ficam *difíceis* | de consultar depois.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "tensao",
+   "text": "Depois de um áudio importante, envie um resumo curto: imóvel, combinado e próximo passo.",
+   "caption": "Depois de | um áudio importante, | envie um *resumo curto:* | *imóvel,* | *combinado* | e *próximo passo.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "tensao",
+   "text": "Duas ou três linhas podem resolver.",
+   "caption": "Duas ou *três linhas* | podem *resolver.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "insight",
+   "text": "E registre a mesma informação no acompanhamento do cliente.",
+   "caption": "E *registre* | a mesma informação | no *acompanhamento* | do cliente.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "insight",
+   "text": "Assim, você não depende de alguém lembrar exatamente o que ouviu.",
+   "caption": "Assim, | você *não depende* | de alguém *lembrar* | exatamente | o que ouviu.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "cta",
+   "text": "Se a sua rotina tem muitos atendimentos assim, vale ter esse histórico organizado.",
+   "caption": "Se a sua rotina | tem muitos *atendimentos* | assim, | vale ter esse | *histórico organizado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "situacao": 0.3,
+  "tensao": 0.3,
+  "insight": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [
+  "s10"
+ ],
+ "cues": {
+  "hook_audio": {
+   "seg": "s1",
+   "word": "áudio",
+   "edge": "start",
+   "offset": -0.1
+  },
+  "hook_three": {
+   "seg": "s1",
+   "word": "minutos",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "hook_client": {
+   "seg": "s2",
+   "word": "cliente",
+   "edge": "start",
+   "offset": -0.1
+  },
+  "hook_half": {
+   "seg": "s2",
+   "word": "metade",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "hook_next": {
+   "seg": "s2",
+   "word": "próximo",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "sit_audio": {
+   "seg": "s3",
+   "word": "áudio",
+   "edge": "start",
+   "offset": -0.1
+  },
+  "sit_close": {
+   "seg": "s3",
+   "word": "proximidade",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "sit_details": {
+   "seg": "s3",
+   "word": "detalhes",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "sit_addr": {
+   "seg": "s3",
+   "word": "endereço",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "sit_time": {
+   "seg": "s3",
+   "word": "horário",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "sit_docs": {
+   "seg": "s3",
+   "word": "documentação",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "sit_hard": {
+   "seg": "s3",
+   "word": "difíceis",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "sit_later": {
+   "seg": "s3",
+   "word": "depois",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "ten_after": {
+   "seg": "s4",
+   "word": "depois",
+   "edge": "start",
+   "offset": -0.1
+  },
+  "ten_summary": {
+   "seg": "s4",
+   "word": "resumo",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "ten_prop": {
+   "seg": "s4",
+   "word": "imóvel",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "ten_deal": {
+   "seg": "s4",
+   "word": "combinado",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "ten_next": {
+   "seg": "s4",
+   "word": "próximo",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "ten_lines": {
+   "seg": "s5",
+   "word": "linhas",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "ten_solve": {
+   "seg": "s5",
+   "word": "resolver",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "ins_reg": {
+   "seg": "s6",
+   "word": "registre",
+   "edge": "start",
+   "offset": -0.1
+  },
+  "ins_follow": {
+   "seg": "s6",
+   "word": "acompanhamento",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "ins_dep": {
+   "seg": "s7",
+   "word": "depende",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "ins_remember": {
+   "seg": "s7",
+   "word": "lembrar",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "ins_heard": {
+   "seg": "s7",
+   "word": "ouviu",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "cta_routine": {
+   "seg": "s8",
+   "word": "rotina",
+   "edge": "start",
+   "offset": -0.15
+  },
+  "cta_hist": {
+   "seg": "s8",
+   "word": "histórico",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "cta_sys": {
+   "seg": "s9",
+   "word": "quer",
+   "edge": "start",
+   "offset": -0.1
+  },
+  "cta_tiles": {
+   "seg": "s9",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "cta_comment": {
+   "seg": "s10",
+   "word": "comente",
+   "edge": "start",
+   "offset": -0.1
+  },
+  "cta_word": {
+   "seg": "s10",
+   "word": "sistema",
+   "edge": "start",
+   "offset": -0.05
+  },
+  "cta_direct": {
+   "seg": "s10",
+   "word": "direct",
+   "edge": "start",
+   "offset": -0.15
+  },
+  "cta_end": {
+   "seg": "s10",
+   "word": "direct",
+   "edge": "end"
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "hook_audio",
+   "offset": -0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "hook_half",
+   "offset": 0.5,
+   "sound": "fade_down",
+   "gain": -23,
+   "dur": 0.8
+  },
+  {
+   "cue": "hook_next",
+   "offset": 0.75,
+   "sound": "hollow",
+   "gain": -23,
+   "pitch": -2
+  },
+  {
+   "cue": "sit_close",
+   "offset": 0.7,
+   "sound": "shimmer",
+   "gain": -25
+  },
+  {
+   "cue": "sit_hard",
+   "offset": 0.45,
+   "sound": "whoosh_dive",
+   "gain": -25,
+   "dur": 0.6
+  },
+  {
+   "cue": "ten_after",
+   "sound": "whoosh_fold",
+   "gain": -24,
+   "dur": 0.5
+  },
+  {
+   "cue": "ten_prop",
+   "offset": 0.45,
+   "sound": "tick",
+   "gain": -24
+  },
+  {
+   "cue": "ten_deal",
+   "offset": 0.55,
+   "sound": "tick",
+   "gain": -24
+  },
+  {
+   "cue": "ten_solve",
+   "offset": 0.6,
+   "sound": "chord",
+   "gain": -21
+  },
+  {
+   "cue": "ins_reg",
+   "sound": "swish",
+   "gain": -24
+  },
+  {
+   "cue": "ins_follow",
+   "offset": 0.75,
+   "sound": "pop",
+   "gain": -22,
+   "pitch": 3
+  },
+  {
+   "cue": "ins_heard",
+   "offset": 0.4,
+   "sound": "bell",
+   "gain": -22,
+   "note": 76
+  },
+  {
+   "cue": "cta_routine",
+   "sound": "whoosh_up",
+   "gain": -24,
+   "dur": 0.5
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": 0.25,
+   "sound": "pop",
+   "gain": -23,
+   "pitch": 0
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": 0.55,
+   "sound": "pop",
+   "gain": -23,
+   "pitch": 4
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": 0.85,
+   "sound": "pop",
+   "gain": -23,
+   "pitch": 7
+  },
+  {
+   "cue": "cta_comment",
+   "sound": "typing",
+   "gain": -27
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.35,
+   "sound": "chord",
+   "gain": -19
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.1,
+   "sound": "notif",
+   "gain": -20,
+   "pitch": 2
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 90,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.4,
+    "label": "Am — o áudio longo"
+   },
+   {
+    "at": "cue:sit_audio",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "F — proximidade"
+   },
+   {
+    "at": "cue:sit_hard",
+    "notes": [
+     28,
+     40,
+     52,
+     55,
+     59
+    ],
+    "root": 40,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Em — difícil de achar"
+   },
+   {
+    "at": "cue:ten_after",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 48,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "C — o resumo"
+   },
+   {
+    "at": "cue:ins_reg",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — registrar"
+   },
+   {
+    "at": "cue:cta_routine",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "F — rotina"
+   },
+   {
+    "at": "cue:cta_word",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 48,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — comente"
+   }
+  ]
+ }
+}

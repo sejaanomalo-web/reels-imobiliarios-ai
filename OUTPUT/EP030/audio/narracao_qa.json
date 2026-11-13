@@ -1,0 +1,82 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.62,
+    "palavras_nao_reconhecidas": [
+      "quinze"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 8.87,
+    "palavras_nao_reconhecidas": [
+      "receberam"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.81,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.23,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.32,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 2.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 2.66,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.92,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.8,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.74,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 44.72,
+    "asr_match": 0.966,
+    "aligned_words": "114/118",
+    "words_per_min": 158,
+    "heard": "Quer ter mais clareza sobre sua carteira? Experimente essa revisão semanal de 15 minutos. Abra seus imóveis ativos e separe três grupos. Os que receberão interesse, os que precisam de atualização e os que estão sem próximo passo definido. No segundo grupo, confira preço, status, fotos e informações. No terceiro, decida qual ação faz sentido e quem será responsável. O objetivo não é cobrar uma venda toda semana, é impedir que a carteira vire um arquivo esquecido. Registre as decisões e revise na próxima reunião. Essa revisão fica mais fácil quando a carteira inteira está organizada. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 44.72,
+      "wpm": 158
+    },
+    "final": {
+      "seconds": 44.72,
+      "wpm": 158
+    }
+  }
+]

@@ -1,0 +1,140 @@
+[
+ {
+  "t": 1.31,
+  "sound": "thump",
+  "gain": -21,
+  "cue": "hook_door"
+ },
+ {
+  "t": 2.12,
+  "sound": "block",
+  "gain": -23,
+  "cue": "hook_no"
+ },
+ {
+  "t": 4.58,
+  "sound": "shimmer",
+  "gain": -23,
+  "cue": "hook_value"
+ },
+ {
+  "t": 5.86,
+  "sound": "whoosh_up",
+  "gain": -25,
+  "cue": "sit_a"
+ },
+ {
+  "t": 7.27,
+  "sound": "pop",
+  "gain": -22,
+  "cue": "sit_plan"
+ },
+ {
+  "t": 8.62,
+  "sound": "hollow",
+  "gain": -22,
+  "cue": "sit_street"
+ },
+ {
+  "t": 10.75,
+  "sound": "pin",
+  "gain": -21,
+  "cue": "sit_loc"
+ },
+ {
+  "t": 13.08,
+  "sound": "hollow",
+  "gain": -22,
+  "cue": "sit_space"
+ },
+ {
+  "t": 13.54,
+  "sound": "swish",
+  "gain": -24,
+  "cue": "ten_error"
+ },
+ {
+  "t": 15.78,
+  "sound": "fade_down",
+  "gain": -23,
+  "cue": "ten_disliked"
+ },
+ {
+  "t": 17.48,
+  "sound": "bell",
+  "gain": -22,
+  "cue": "ten_criteria"
+ },
+ {
+  "t": 19.78,
+  "sound": "whoosh_up",
+  "gain": -25,
+  "cue": "ins_after"
+ },
+ {
+  "t": 22.28,
+  "sound": "pop",
+  "gain": -22,
+  "cue": "ins_worked"
+ },
+ {
+  "t": 23.62,
+  "sound": "pop",
+  "gain": -22,
+  "cue": "ins_not"
+ },
+ {
+  "t": 26.17,
+  "sound": "shuffle",
+  "gain": -25,
+  "cue": "ins_select"
+ },
+ {
+  "t": 28.01,
+  "sound": "chord",
+  "gain": -21,
+  "cue": "ins_precise"
+ },
+ {
+  "t": 28.5,
+  "sound": "whoosh_up",
+  "gain": -24,
+  "cue": "cta_journey"
+ },
+ {
+  "t": 36.08,
+  "sound": "pop",
+  "gain": -23,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 36.38,
+  "sound": "pop",
+  "gain": -23,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 36.68,
+  "sound": "pop",
+  "gain": -23,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 37.919,
+  "sound": "typing",
+  "gain": -27,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 38.82,
+  "sound": "chord",
+  "gain": -19,
+  "cue": "cta_word"
+ },
+ {
+  "t": 40.79,
+  "sound": "notif",
+  "gain": -20,
+  "cue": "cta_end"
+ }
+]
