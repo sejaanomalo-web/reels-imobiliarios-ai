@@ -12,7 +12,7 @@ import { Cam, Mark, NEON, Trail } from "../kit";
  */
 const QS = [
   { k: "Como organiza seus imóveis?", cue: "x_q1", x: 80, y: 100 },
-  { k: "O que faria diferença na sua rotina?", cue: "x_q4", x: 880, y: 600 },
+  { k: "O que faria diferença na sua rotina?", cue: "x_q4", x: 880, y: 720 },
 ];
 
 const Box: React.FC<{ hit: number }> = ({ hit }) => (
@@ -66,7 +66,7 @@ export const S7Diff: React.FC<SceneProps> = ({ t, tl }) => {
             <span style={{ fontWeight: 800, fontSize: 96, letterSpacing: "-0.04em", color: C.text }}>VOCÊ</span>
           </div>
         </div>
-        <div style={{ position: "absolute", left: 0, right: 0, top: 640, textAlign: "center", fontFamily: F.mono, fontWeight: 700, fontSize: 40, letterSpacing: "0.22em", color: NEON, opacity: diag }}>DIAGNÓSTICO</div>
+        <div style={{ position: "absolute", left: 0, right: 0, top: 625, textAlign: "center", fontFamily: F.mono, fontWeight: 700, fontSize: 40, letterSpacing: "0.22em", color: NEON, opacity: diag }}>DIAGNÓSTICO</div>
         {/* perguntas ditas */}
         <svg width={1920} height={1080} style={{ position: "absolute", inset: 0 }}>
           {QS.map((q) => {

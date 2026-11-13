@@ -65,13 +65,13 @@ export const S5Value: React.FC<SceneProps> = ({ t, tl }) => {
         drift={0.6}
         keys={[
           { t: c.f_imo, s: 1.0, x: 0, y: 0 },
-          { t: c.f_imo + 1.6, s: 1.08, x: 120, y: 30, e: ease.inOut },
+          { t: c.f_imo + 1.6, s: 1.08, x: 120, y: -45, e: ease.inOut },
           { t: c.f_crm, s: 1.0, x: 0, y: 0, e: ease.inOut },
-          { t: c.f_crm + 1.3, s: 1.1, x: 260, y: 40, e: ease.inOut },
+          { t: c.f_crm + 1.3, s: 1.1, x: 240, y: -55, e: ease.inOut },
           { t: c.f_lead, s: 1.0, x: 0, y: 0, e: ease.inOut },
           { t: c.f_lead + 1.4, s: 1.06, x: 40, y: 10, e: ease.inOut },
           { t: c.f_ia, s: 1.0, x: 0, y: 0, e: ease.inOut },
-          { t: c.f_ia + 2.2, s: 1.1, x: 60, y: 60, e: ease.inOut },
+          { t: c.f_ia + 2.2, s: 1.1, x: 60, y: -50, e: ease.inOut },
           { t: c.c_na, s: 1.02, x: 0, y: 0, e: ease.inOut },
         ]}
       >
