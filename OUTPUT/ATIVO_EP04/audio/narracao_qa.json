@@ -1,0 +1,93 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.01,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 6.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.84,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.3,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.67,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.35,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 5.77,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.21,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 9.06,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 3.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 6.0,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 2.91,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 4.67,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s14",
+    "seconds": 2.73,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 67.92,
+    "asr_match": 0.994,
+    "aligned_words": "178/179",
+    "words_per_min": 158,
+    "heard": "É fácil dizer que o mercado esfriou, mais difícil é responder uma pergunta. O que aconteceu de fato com a sua atividade comercial nas últimas semanas? Primeiro, quantas conversas novas você iniciou por iniciativa própria? Atendimento é essencial, mas esperar o telefone tocar não é um plano de prospecção. Segundo, o que você aprendeu com as negociações que não avançaram? Foi preço? Imóvel incompatível, prazo, documentação. Terceiro, sua divulgação está falando com um público específico ou tentando agradar todo mundo ao mesmo tempo? Quarto, quando você muda de estratégia, sabe por quê? Se a cada semana troca o público, o imóvel e a abordagem sem observar o que aconteceu antes, não consegue distinguir um ajuste necessário de uma reação por ansiedade. Fatores externos existem e nem tudo depende do corretor, mas melhorar, começa por separar o que você não controla do que pode organizar, testar e acompanhar. Use essas quatro perguntas na próxima revisão da sua rotina. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 67.92,
+      "wpm": 158
+    },
+    "final": {
+      "seconds": 67.92,
+      "wpm": 158
+    }
+  }
+]

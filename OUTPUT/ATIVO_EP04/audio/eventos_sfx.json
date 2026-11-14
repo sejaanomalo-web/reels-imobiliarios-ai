@@ -1,0 +1,122 @@
+[
+ {
+  "t": 3.69,
+  "sound": "whoosh_up",
+  "gain": -27,
+  "cue": "h_perg"
+ },
+ {
+  "t": 6.59,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "h_ativ"
+ },
+ {
+  "t": 9.18,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "a_prim"
+ },
+ {
+  "t": 13.02,
+  "sound": "tick",
+  "gain": -23,
+  "cue": "a_inic"
+ },
+ {
+  "t": 15.59,
+  "sound": "ring",
+  "gain": -31,
+  "cue": "a_esp"
+ },
+ {
+  "t": 17.98,
+  "sound": "impact",
+  "gain": -27,
+  "cue": "a_prosp"
+ },
+ {
+  "t": 18.38,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "b_seg"
+ },
+ {
+  "t": 23.22,
+  "sound": "tick",
+  "gain": -24,
+  "cue": "b_preco"
+ },
+ {
+  "t": 26.14,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "b_ter"
+ },
+ {
+  "t": 31.77,
+  "sound": "thump",
+  "gain": -26,
+  "cue": "b_todo"
+ },
+ {
+  "t": 32.54,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "d_quar"
+ },
+ {
+  "t": 40.52,
+  "sound": "whoosh_up",
+  "gain": -28,
+  "cue": "d_obs"
+ },
+ {
+  "t": 45.7,
+  "sound": "block",
+  "gain": -26,
+  "cue": "d_ans"
+ },
+ {
+  "t": 45.82,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "i_fat"
+ },
+ {
+  "t": 53.99,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "i_org"
+ },
+ {
+  "t": 56.14,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "i_use"
+ },
+ {
+  "t": 61.16,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "cta_sys"
+ },
+ {
+  "t": 64.569,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 65.95,
+  "sound": "typing",
+  "gain": -30,
+  "cue": "cta_word"
+ },
+ {
+  "t": 67.95,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "cta_end"
+ }
+]
