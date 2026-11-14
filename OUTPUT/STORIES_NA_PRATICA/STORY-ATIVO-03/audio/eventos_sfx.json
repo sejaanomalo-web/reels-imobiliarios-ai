@@ -1,0 +1,44 @@
+[
+ {
+  "t": 1.16,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "i_ident"
+ },
+ {
+  "t": 2.75,
+  "sound": "whoosh_up",
+  "gain": -27,
+  "cue": "i_painel"
+ },
+ {
+  "t": 5.22,
+  "sound": "click",
+  "gain": -24,
+  "cue": "i_imoveis"
+ },
+ {
+  "t": 6.61,
+  "sound": "click",
+  "gain": -24,
+  "cue": "i_contatos"
+ },
+ {
+  "t": 7.59,
+  "sound": "click",
+  "gain": -24,
+  "cue": "i_ferr"
+ },
+ {
+  "t": 11.67,
+  "sound": "whoosh_dive",
+  "gain": -27,
+  "cue": "i_marca"
+ },
+ {
+  "t": 12.17,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "i_marca"
+ }
+]

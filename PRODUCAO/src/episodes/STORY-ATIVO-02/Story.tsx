@@ -10,7 +10,7 @@ import { C, F } from "../../theme";
 import type { Timeline } from "../types";
 import timelineJson from "./timeline.json";
 import { caseOf, publishable } from "../STORY-ATIVO/cases";
-import { capCam, Capture, Frame, Mark, PreviewMark, Title } from "../STORY-ATIVO/kit";
+import { capCam, Capture, Drift, Frame, Mark, PreviewMark, Title } from "../STORY-ATIVO/kit";
 
 export const timeline = timelineJson as Timeline;
 
@@ -75,7 +75,8 @@ export const Story02: React.FC<{ withAudio?: boolean }> = ({ withAudio = false }
   return (
     <AbsoluteFill style={{ backgroundColor: C.bg0, fontFamily: F.sans }}>
       <Background t={t} mood={0.15 + 0.3 * duo} />
-      <Title text="PAINEL PARA ORGANIZAR" hl="ORGANIZAR" p={sp(t, 0.25, { damping: 13, stiffness: 170 })} out={prog(t, c.b_comprador - 0.4, 0.3, ease.in)} />
+      <Drift t={t} amt={0.8}>
+        <Title text="PAINEL PARA ORGANIZAR" hl="ORGANIZAR" p={sp(t, 0.25, { damping: 13, stiffness: 170 })} out={prog(t, c.b_comprador - 0.4, 0.3, ease.in)} />
       <Title text="SITE PARA APRESENTAR" hl="APRESENTAR" p={sp(t, c.b_comprador - 0.05, { damping: 13, stiffness: 170 })} out={prog(t, c.b_duas - 0.35, 0.3, ease.in)} />
       <div style={{ position: "absolute", inset: 0, perspective: 2200 }}>
         {showP ? (
@@ -100,6 +101,7 @@ export const Story02: React.FC<{ withAudio?: boolean }> = ({ withAudio = false }
           </Frame>
         ) : null}
       </div>
+      </Drift>
       <Sequence name="Legendas" layout="none">
         <Captions t={t} chunks={tl.captions} />
       </Sequence>

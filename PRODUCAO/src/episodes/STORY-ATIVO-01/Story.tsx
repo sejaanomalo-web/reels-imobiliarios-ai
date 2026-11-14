@@ -9,6 +9,7 @@ import { BRAND, C, F, brandAlpha } from "../../theme";
 import type { Timeline } from "../types";
 import timelineJson from "./timeline.json";
 import { caseLabel, caseOf, CaseAsset, previewable, publishable } from "../STORY-ATIVO/cases";
+import { Drift, PreviewMark } from "../STORY-ATIVO/kit";
 
 export const timeline = timelineJson as Timeline;
 
@@ -45,7 +46,6 @@ export const Story01: React.FC<{ withAudio?: boolean }> = ({ withAudio = false }
   const t = frame / fps;
   const tl = timeline;
   const c = tl.cues;
-  const preview = tl.voice.startsWith("PROVIS") || CARDS.some((k) => !publishable(caseOf(k.key)));
 
   const t1 = sp(t, c.a_tres - 0.1, { damping: 13, stiffness: 170 });
   const t2 = sp(t, c.a_formas - 0.1, { damping: 13, stiffness: 170 });
@@ -59,7 +59,8 @@ export const Story01: React.FC<{ withAudio?: boolean }> = ({ withAudio = false }
   return (
     <AbsoluteFill style={{ backgroundColor: C.bg0, fontFamily: F.sans }}>
       <Background t={t} mood={0.15 + 0.35 * gather} />
-      {/* títulos (a fala está na legenda; aqui só as 2–4 palavras-chave do roteiro) */}
+      <Drift t={t} amt={0.8}>
+        {/* títulos (a fala está na legenda; aqui só as 2–4 palavras-chave do roteiro) */}
       <div style={{ position: "absolute", left: 0, right: 0, top: 300, textAlign: "center", fontWeight: 800, letterSpacing: "-0.04em", lineHeight: 1 }}>
         <div style={{ position: "absolute", left: 0, right: 0, fontSize: 120, color: C.text, opacity: Math.min(1, t1 * 1.5) * (1 - prog(t, c.a_formas - 0.25, 0.25, ease.in)), transform: `scale(${mix(1.3, 1, Math.min(1, t1))})` }}>
           <span style={{ color: BRAND.hex }}>3</span> PROJETOS
@@ -97,12 +98,11 @@ export const Story01: React.FC<{ withAudio?: boolean }> = ({ withAudio = false }
       <div style={{ position: "absolute", left: 0, right: 0, top: 1150, display: "flex", justifyContent: "center", opacity: Math.min(1, logo * 1.5), clipPath: `inset(-20% ${(1 - prog(t, c.a_todo - 0.2, 0.6, ease.out)) * 100}% -20% -5%)` }}>
         <Img src={staticFile(BRAND.logo)} style={{ height: 140, filter: `drop-shadow(0 0 20px ${brandAlpha(0.5)})` }} />
       </div>
+      </Drift>
       <Sequence name="Legendas" layout="none">
         <Captions t={t} chunks={tl.captions} />
       </Sequence>
-      {preview ? (
-        <div style={{ position: "absolute", left: 0, right: 0, top: 120, textAlign: "center", fontFamily: F.mono, fontWeight: 700, fontSize: 26, letterSpacing: "0.14em", color: C.warn }}>PRÉVIA INTERNA · SEM VOZ · SEM AUTORIZAÇÃO · NÃO PUBLICAR</div>
-      ) : null}
+      <PreviewMark noVoice={tl.voice.startsWith("PROVIS")} noAuth={CARDS.some((k) => !publishable(caseOf(k.key)))} />
       <Grain frame={frame} />
       {withAudio ? <Audio src={staticFile(`${tl.id}/mix.wav`)} /> : null}
     </AbsoluteFill>

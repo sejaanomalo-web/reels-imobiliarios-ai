@@ -122,3 +122,17 @@ export const PreviewMark: React.FC<{ noVoice: boolean; noAuth: boolean }> = ({ n
       {["PRÉVIA INTERNA", noVoice ? "SEM VOZ" : null, noAuth ? "SEM AUTORIZAÇÃO" : null, "NÃO PUBLICAR"].filter(Boolean).join(" · ")}
     </div>
   ) : null;
+
+/** Câmera viva: deriva lenta e limitada do palco (nunca congela; não move legenda nem marca d'água). */
+export const Drift: React.FC<{ t: number; amt?: number; children: React.ReactNode }> = ({ t, amt = 1, children }) => (
+  <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      transform: `translate(${Math.sin(t * 0.45) * 14 * amt}px, ${Math.cos(t * 0.38) * 10 * amt}px) scale(${1.03 + 0.03 * amt * Math.sin(t * 0.6)}) rotate(${Math.sin(t * 0.3) * 0.4 * amt}deg)`,
+      transformOrigin: "50% 45%",
+    }}
+  >
+    {children}
+  </div>
+);

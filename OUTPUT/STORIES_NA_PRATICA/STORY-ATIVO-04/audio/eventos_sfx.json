@@ -1,0 +1,38 @@
+[
+ {
+  "t": 0.12,
+  "sound": "whip",
+  "gain": -25,
+  "cue": "n_projeto"
+ },
+ {
+  "t": 3.3,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "n_busca"
+ },
+ {
+  "t": 5.02,
+  "sound": "tick",
+  "gain": -22,
+  "cue": "n_cidade"
+ },
+ {
+  "t": 5.63,
+  "sound": "tick",
+  "gain": -22,
+  "cue": "n_tipo"
+ },
+ {
+  "t": 6.75,
+  "sound": "tick",
+  "gain": -22,
+  "cue": "n_quartos"
+ },
+ {
+  "t": 7.76,
+  "sound": "click",
+  "gain": -22,
+  "cue": "n_pesq"
+ }
+]

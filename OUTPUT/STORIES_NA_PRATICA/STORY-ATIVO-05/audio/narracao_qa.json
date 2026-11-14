@@ -1,0 +1,53 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 1.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.37,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.07,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.19,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 0.66,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 1.11,
+    "palavras_nao_reconhecidas": [
+      "Agende"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 13.64,
+    "asr_match": 0.955,
+    "aligned_words": "32/33",
+    "words_per_min": 145,
+    "heard": "Percebeu a diferença? Na ativo, não começamos te entregando mais um CRM pronto. Primeiro entendemos como você trabalha. Depois apresentamos o sistema que faz sentido para a sua rotina. Quer conhecer? Agente uma demonstração."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 13.64,
+      "wpm": 145
+    },
+    "final": {
+      "seconds": 13.64,
+      "wpm": 145
+    }
+  }
+]

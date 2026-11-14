@@ -1,0 +1,50 @@
+[
+ {
+  "t": 0.28,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "f_perc"
+ },
+ {
+  "t": 1.68,
+  "sound": "thump",
+  "gain": -24,
+  "cue": "f_ativo"
+ },
+ {
+  "t": 1.93,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "f_ativo"
+ },
+ {
+  "t": 4.29,
+  "sound": "block",
+  "gain": -25,
+  "cue": "f_crm"
+ },
+ {
+  "t": 6.94,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "f_voce"
+ },
+ {
+  "t": 8.0,
+  "sound": "whoosh_up",
+  "gain": -27,
+  "cue": "f_depois"
+ },
+ {
+  "t": 11.37,
+  "sound": "pop",
+  "gain": -24,
+  "cue": "f_quer"
+ },
+ {
+  "t": 12.38,
+  "sound": "chord",
+  "gain": -27,
+  "cue": "f_agende"
+ }
+]

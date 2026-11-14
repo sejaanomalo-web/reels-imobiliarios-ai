@@ -1,0 +1,32 @@
+[
+ {
+  "t": 3.09,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "b_carteira"
+ },
+ {
+  "t": 3.93,
+  "sound": "whip",
+  "gain": -25,
+  "cue": "b_comprador"
+ },
+ {
+  "t": 6.13,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "b_duas"
+ },
+ {
+  "t": 6.15,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "b_site"
+ },
+ {
+  "t": 8.08,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "b_funcao"
+ }
+]

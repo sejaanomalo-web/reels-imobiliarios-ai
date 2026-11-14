@@ -9,7 +9,7 @@ import { BRAND, C, F, brandAlpha } from "../../theme";
 import type { Timeline } from "../types";
 import timelineJson from "./timeline.json";
 import { caseOf, publishable } from "../STORY-ATIVO/cases";
-import { Capture, Frame, PreviewMark } from "../STORY-ATIVO/kit";
+import { Capture, Drift, Frame, PreviewMark } from "../STORY-ATIVO/kit";
 
 export const timeline = timelineJson as Timeline;
 
@@ -56,7 +56,8 @@ export const Story05: React.FC<{ withAudio?: boolean }> = ({ withAudio = false }
   return (
     <AbsoluteFill style={{ backgroundColor: C.bg0, fontFamily: F.sans }}>
       <Background t={t} mood={0.15 + 0.4 * glow * (1 - clear) + 0.3 * cta} />
-      {/* 1 — três projetos em cascata */}
+      <Drift t={t} amt={1.0}>
+        {/* 1 — três projetos em cascata */}
       {black < 1
         ? CS.map((cs, i) => {
             const a = card(i);
@@ -142,6 +143,7 @@ export const Story05: React.FC<{ withAudio?: boolean }> = ({ withAudio = false }
           ) : null}
         </>
       ) : null}
+      </Drift>
       <Sequence name="Legendas" layout="none">
         <Captions t={t} chunks={tl.captions} />
       </Sequence>

@@ -1,0 +1,31 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.14,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.42,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 8.36,
+    "asr_match": 1.0,
+    "aligned_words": "22/22",
+    "words_per_min": 158,
+    "heard": "Nesse outro projeto, a prioridade é facilitar a busca. O comprador consegue escolher cidade, tipo de imóvel e quartos antes de pesquisar."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 8.36,
+      "wpm": 158
+    },
+    "final": {
+      "seconds": 8.36,
+      "wpm": 158
+    }
+  }
+]
