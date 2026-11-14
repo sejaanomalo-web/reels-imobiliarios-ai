@@ -5,6 +5,7 @@ Saída: ERRO (bloqueia) / AVISO (revisar) por item; código de saída 1 se houve
 
 O que verifica:
   1. CTA e destino definidos (campo `cta` no episode.json ou chamada reconhecível na última cena).
+     Reels (9:16, exceto STORY-*): CTA obrigatória de comentário SISTEMA → Direct (14/11/2026).
   2. Promessas não comprovadas na fala ou no texto de tela: "garantido", "triplicar", "dobrar suas vendas", "em X dias",
      "100%", depoimento.
   3. Fonte pequena para público 40+ (fontSize abaixo do mínimo do formato).
@@ -29,6 +30,8 @@ CLAIMS = [
 ]
 CTA_HINTS = r"comente|comenta|link da bio|agend|whatsapp|salve|conta nos coment|toque no link|direct"
 OLD_GREEN = r"#35e0a1|53\s*,\s*224\s*,\s*161|#00fa44"
+# Reels entregues antes da regra "CTA sempre SISTEMA" (14/11/2026) — não reprocessar
+LEGACY_CTA = {"EP001", "EP002", "EP003", "EP015", "EP015V2", "EP-ATIVO01", "EP-ATIVO03"}
 
 
 def check(ep_id: str) -> int:
@@ -48,6 +51,12 @@ def check(ep_id: str) -> int:
         errs.append("CTA/destino não definido (sem campo `cta` e sem chamada reconhecível na última cena)")
     elif not ep.get("cta"):
         warns.append("CTA só reconhecido na fala — registrar `cta` (tipo e destino) no episode.json")
+    # 1b. Reels: CTA SEMPRE comentário SISTEMA → Direct (cliente, 14/11/2026). Episódios entregues antes ficam isentos.
+    is_reel = vertical and not ep_id.startswith("STORY")
+    if is_reel and ep_id not in LEGACY_CTA:
+        cta = ep.get("cta") or {}
+        if cta.get("type") != "comentario" or str(cta.get("keyword", "")).upper() != "SISTEMA" or not re.search(r"coment\w*\s+sistema", last_text):
+            errs.append("Reel sem a CTA obrigatória de comentário SISTEMA → Direct (cta.type=comentario, keyword=SISTEMA, fala final 'Comente SISTEMA…')")
 
     files = sorted(glob.glob(os.path.join(src_dir, "**", "*.tsx"), recursive=True)) if os.path.isdir(src_dir) else []
     code = {f: open(f).read() for f in files}

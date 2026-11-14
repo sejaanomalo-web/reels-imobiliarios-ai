@@ -41,6 +41,8 @@ Ritmo emocional: curiosidade → identificação → consequência → insight �
 
 ## 5. CTAs conforme função — não padronizar indiscriminadamente
 
+> **Atualização do cliente (14/11/2026):** nos **Reels**, a CTA final é sempre o comentário **SISTEMA → Direct**. A função do episódio (salvar, compartilhar, comentar) entra como frase de transição antes dela. Stories e landing mantêm os destinos da tabela abaixo.
+
 | Função | Exemplo original | Destino |
 |---|---|---|
 | Identificação | “Já aconteceu numa visita sua? Conta aqui.” | Comentários |
