@@ -472,7 +472,7 @@
   },
   {
    "cue": "h_ativ",
-   "offset": -0.25,
+   "offset": 0.65,
    "sound": "pop",
    "gain": -25,
    "pitch": 2
