@@ -274,7 +274,7 @@ export const RemotionRoot: React.FC = () => (
       <Still id="LP-ATIVO-V3-Capa" component={LandingPosterV3} width={1920} height={1080} />
     </Folder>
     <Folder name="STORIES-NA-PRATICA">
-      {/* Prévia interna: sem voz (linha do tempo estimada) e sem capturas autorizadas — não publicar. */}
+      {/* Voz oficial gravada em 14/11/2026. Sem autorização dos corretores, os Stories saem com marca d'água de prévia interna. */}
       <Composition
         id="STORY-ATIVO-01"
         component={Story01}
@@ -282,7 +282,7 @@ export const RemotionRoot: React.FC = () => (
         height={VIDEO.height}
         fps={story01.fps}
         durationInFrames={story01.durationInFrames}
-        defaultProps={{ withAudio: false }}
+        defaultProps={{ withAudio: true }}
       />
       <Composition
         id="STORY-ATIVO-02"
@@ -291,7 +291,7 @@ export const RemotionRoot: React.FC = () => (
         height={VIDEO.height}
         fps={story02.fps}
         durationInFrames={story02.durationInFrames}
-        defaultProps={{ withAudio: false }}
+        defaultProps={{ withAudio: true }}
       />
       <Composition
         id="STORY-ATIVO-03"
@@ -300,7 +300,7 @@ export const RemotionRoot: React.FC = () => (
         height={VIDEO.height}
         fps={story03.fps}
         durationInFrames={story03.durationInFrames}
-        defaultProps={{ withAudio: false }}
+        defaultProps={{ withAudio: true }}
       />
       <Composition
         id="STORY-ATIVO-04"
@@ -309,7 +309,7 @@ export const RemotionRoot: React.FC = () => (
         height={VIDEO.height}
         fps={story04.fps}
         durationInFrames={story04.durationInFrames}
-        defaultProps={{ withAudio: false }}
+        defaultProps={{ withAudio: true }}
       />
       <Composition
         id="STORY-ATIVO-05"
@@ -318,7 +318,7 @@ export const RemotionRoot: React.FC = () => (
         height={VIDEO.height}
         fps={story05.fps}
         durationInFrames={story05.durationInFrames}
-        defaultProps={{ withAudio: false }}
+        defaultProps={{ withAudio: true }}
       />
     </Folder>
   </>

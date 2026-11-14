@@ -11,7 +11,9 @@
   "final": "STORY-ATIVO-03_FINAL.mp4",
   "narration": "STORY-ATIVO-03_NARRACAO.wav",
   "subtitles": "STORY-ATIVO-03_legendas.srt",
-  "cover": "STORY-ATIVO-03_capa.png"
+  "cover": "STORY-ATIVO-03_capa.png",
+  "coverCue": "i_imoveis",
+  "coverOffset": 0.7
  },
  "fonte": "STORIES/ROTEIRO_5_STORIES_NA_PRATICA_ATIVO.md",
  "funcao": "C4 diferenciação visual",
@@ -107,6 +109,102 @@
   }
  },
  "series": {},
- "sfx": [],
- "music": {}
+ "sfx": [
+  {
+   "cue": "i_ident",
+   "offset": -0.1,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "i_painel",
+   "offset": -0.35,
+   "sound": "whoosh_up",
+   "gain": -27,
+   "dur": 0.6
+  },
+  {
+   "cue": "i_imoveis",
+   "offset": 0.2,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "i_contatos",
+   "offset": 0.15,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 2
+  },
+  {
+   "cue": "i_ferr",
+   "offset": 0.25,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 4
+  },
+  {
+   "cue": "i_marca",
+   "offset": -0.15,
+   "sound": "whoosh_dive",
+   "gain": -27
+  },
+  {
+   "cue": "i_marca",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 96,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — identidade"
+   },
+   {
+    "at": "cue:i_painel",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — painel"
+   },
+   {
+    "at": "cue:i_org",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sua marca"
+   }
+  ]
+ }
 }

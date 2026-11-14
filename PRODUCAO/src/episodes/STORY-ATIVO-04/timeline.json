@@ -2,20 +2,20 @@
  "id": "STORY-ATIVO-04",
  "title": "Busca de imóveis sob outra perspectiva",
  "fps": 30,
- "duration": 12.167,
- "durationInFrames": 365,
- "narrationEnd": 10.56,
- "voice": "PROVISÓRIO-SEM-VOZ",
+ "duration": 10.266666666666667,
+ "durationInFrames": 308,
+ "narrationEnd": 8.661,
+ "voice": "Puck",
  "scenes": [
   {
    "id": "busca",
    "start": 0.0,
-   "end": 4.24
+   "end": 3.55
   },
   {
    "id": "filtros",
-   "start": 4.24,
-   "end": 12.167
+   "start": 3.55,
+   "end": 10.267
   }
  ],
  "segments": [
@@ -24,225 +24,225 @@
    "scene": "busca",
    "text": "Nesse outro projeto, a prioridade é facilitar a busca.",
    "start": 0.3,
-   "end": 4.14
+   "end": 3.44
   },
   {
    "id": "s2",
    "scene": "filtros",
    "text": "O comprador consegue escolher cidade, tipo de imóvel e quartos antes de pesquisar.",
-   "start": 4.49,
-   "end": 10.21
+   "start": 3.66,
+   "end": 8.08
   }
  ],
  "cues": {
-  "n_projeto": 1.13,
-  "n_busca": 3.725,
-  "n_comprador": 4.685,
-  "n_cidade": 6.48,
-  "n_tipo": 7.11,
-  "n_quartos": 8.385,
-  "n_pesq": 9.575
+  "n_projeto": 1.02,
+  "n_busca": 3.1,
+  "n_comprador": 3.82,
+  "n_cidade": 5.02,
+  "n_tipo": 5.58,
+  "n_quartos": 6.7,
+  "n_pesq": 7.66
  },
  "series": {},
  "captions": [
   {
    "seg": "s1",
    "start": 0.3,
-   "end": 1.815,
+   "end": 1.58,
    "words": [
     {
      "text": "Nesse",
      "start": 0.3,
-     "end": 0.695,
+     "end": 0.38,
      "emph": false
     },
     {
      "text": "outro",
-     "start": 0.715,
-     "end": 1.11,
+     "start": 0.78,
+     "end": 1.02,
      "emph": false
     },
     {
      "text": "projeto,",
-     "start": 1.13,
-     "end": 1.635,
+     "start": 1.02,
+     "end": 1.58,
      "emph": false
     }
    ]
   },
   {
    "seg": "s1",
-   "start": 1.815,
-   "end": 2.7,
+   "start": 1.58,
+   "end": 2.22,
    "words": [
     {
      "text": "a",
-     "start": 1.815,
-     "end": 1.99,
+     "start": 1.58,
+     "end": 1.74,
      "emph": false
     },
     {
      "text": "prioridade",
-     "start": 2.01,
-     "end": 2.68,
+     "start": 1.74,
+     "end": 2.22,
      "emph": false
     }
    ]
   },
   {
    "seg": "s1",
-   "start": 2.7,
-   "end": 3.53,
+   "start": 2.22,
+   "end": 3.02,
    "words": [
     {
      "text": "é",
-     "start": 2.7,
-     "end": 2.875,
+     "start": 2.22,
+     "end": 2.46,
      "emph": false
     },
     {
      "text": "facilitar",
-     "start": 2.895,
-     "end": 3.51,
+     "start": 2.46,
+     "end": 3.02,
      "emph": false
     }
    ]
   },
   {
    "seg": "s1",
-   "start": 3.53,
-   "end": 4.49,
+   "start": 3.02,
+   "end": 3.66,
    "words": [
     {
      "text": "a",
-     "start": 3.53,
-     "end": 3.705,
+     "start": 3.02,
+     "end": 3.1,
      "emph": false
     },
     {
      "text": "busca.",
-     "start": 3.725,
-     "end": 4.12,
+     "start": 3.1,
+     "end": 3.44,
      "emph": true
     }
    ]
   },
   {
    "seg": "s2",
-   "start": 4.49,
-   "end": 5.32,
+   "start": 3.66,
+   "end": 4.3,
    "words": [
     {
      "text": "O",
-     "start": 4.49,
-     "end": 4.665,
+     "start": 3.66,
+     "end": 3.82,
      "emph": false
     },
     {
      "text": "comprador",
-     "start": 4.685,
-     "end": 5.3,
+     "start": 3.82,
+     "end": 4.3,
      "emph": false
     }
    ]
   },
   {
    "seg": "s2",
-   "start": 5.32,
-   "end": 6.48,
+   "start": 4.3,
+   "end": 5.02,
    "words": [
     {
      "text": "consegue",
-     "start": 5.32,
-     "end": 5.88,
+     "start": 4.3,
+     "end": 4.62,
      "emph": false
     },
     {
      "text": "escolher",
-     "start": 5.9,
-     "end": 6.46,
+     "start": 4.62,
+     "end": 5.02,
      "emph": false
     }
    ]
   },
   {
    "seg": "s2",
-   "start": 6.48,
-   "end": 7.11,
+   "start": 5.02,
+   "end": 5.58,
    "words": [
     {
      "text": "cidade,",
-     "start": 6.48,
-     "end": 6.93,
+     "start": 5.02,
+     "end": 5.58,
      "emph": true
     }
    ]
   },
   {
    "seg": "s2",
-   "start": 7.11,
-   "end": 8.19,
+   "start": 5.58,
+   "end": 6.54,
    "words": [
     {
      "text": "tipo",
-     "start": 7.11,
-     "end": 7.45,
+     "start": 5.58,
+     "end": 5.9,
      "emph": true
     },
     {
      "text": "de",
-     "start": 7.47,
-     "end": 7.7,
+     "start": 5.9,
+     "end": 6.06,
      "emph": true
     },
     {
      "text": "imóvel",
-     "start": 7.72,
-     "end": 8.17,
+     "start": 6.06,
+     "end": 6.54,
      "emph": true
     }
    ]
   },
   {
    "seg": "s2",
-   "start": 8.19,
-   "end": 8.91,
+   "start": 6.54,
+   "end": 7.26,
    "words": [
     {
      "text": "e",
-     "start": 8.19,
-     "end": 8.365,
+     "start": 6.54,
+     "end": 6.7,
      "emph": false
     },
     {
      "text": "quartos",
-     "start": 8.385,
-     "end": 8.89,
+     "start": 6.7,
+     "end": 7.26,
      "emph": true
     }
    ]
   },
   {
    "seg": "s2",
-   "start": 8.91,
-   "end": 10.19,
+   "start": 7.26,
+   "end": 8.58,
    "words": [
     {
      "text": "antes",
-     "start": 8.91,
-     "end": 9.305,
+     "start": 7.26,
+     "end": 7.5,
      "emph": false
     },
     {
      "text": "de",
-     "start": 9.325,
-     "end": 9.555,
+     "start": 7.5,
+     "end": 7.66,
      "emph": false
     },
     {
      "text": "pesquisar.",
-     "start": 9.575,
-     "end": 10.19,
+     "start": 7.66,
+     "end": 8.08,
      "emph": false
     }
    ]

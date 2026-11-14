@@ -2,25 +2,25 @@
  "id": "STORY-ATIVO-05",
  "title": "A diferença é começar por você",
  "fps": 30,
- "duration": 18.867,
- "durationInFrames": 566,
- "narrationEnd": 17.245,
- "voice": "PROVISÓRIO-SEM-VOZ",
+ "duration": 15.566666666666666,
+ "durationInFrames": 467,
+ "narrationEnd": 13.941,
+ "voice": "Puck",
  "scenes": [
   {
    "id": "vira",
    "start": 0.0,
-   "end": 6.25
+   "end": 5.305
   },
   {
    "id": "voce",
-   "start": 6.25,
-   "end": 13.78
+   "start": 5.305,
+   "end": 11.255
   },
   {
    "id": "cta",
-   "start": 13.78,
-   "end": 18.867
+   "start": 11.255,
+   "end": 15.567
   }
  ],
  "segments": [
@@ -28,365 +28,365 @@
    "id": "s1",
    "scene": "vira",
    "text": "Percebeu a diferença?",
-   "start": 0.3,
-   "end": 1.71
+   "start": 0.38,
+   "end": 1.6
   },
   {
    "id": "s2",
    "scene": "vira",
    "text": "Na ATIVO, não começamos te entregando mais um CRM pronto.",
-   "start": 2.06,
-   "end": 6.15
+   "start": 1.74,
+   "end": 5.11
   },
   {
    "id": "s3",
    "scene": "voce",
    "text": "Primeiro entendemos como você trabalha.",
-   "start": 6.5,
-   "end": 9.07
+   "start": 5.5,
+   "end": 7.57
   },
   {
    "id": "s4",
    "scene": "voce",
    "text": "Depois apresentamos o sistema que faz sentido para sua rotina.",
-   "start": 9.42,
-   "end": 13.68
+   "start": 7.9,
+   "end": 11.09
   },
   {
    "id": "s5",
    "scene": "cta",
    "text": "Quer conhecer?",
-   "start": 14.03,
-   "end": 14.97
+   "start": 11.42,
+   "end": 12.08
   },
   {
    "id": "s6",
    "scene": "cta",
    "text": "Agende uma demonstração.",
-   "start": 15.32,
-   "end": 16.895
+   "start": 12.38,
+   "end": 13.49
   }
  ],
  "cues": {
-  "f_perc": 0.3,
-  "f_ativo": 2.31,
-  "f_nao": 2.885,
-  "f_crm": 5.375,
-  "f_prim": 6.5,
-  "f_voce": 8.13,
-  "f_depois": 9.42,
-  "f_rotina": 13.21,
-  "f_quer": 14.03,
-  "f_agende": 15.32
+  "f_perc": 0.38,
+  "f_ativo": 1.98,
+  "f_nao": 2.54,
+  "f_crm": 4.14,
+  "f_prim": 5.5,
+  "f_voce": 6.94,
+  "f_depois": 7.9,
+  "f_rotina": 10.78,
+  "f_quer": 11.42,
+  "f_agende": 12.38
  },
  "series": {},
  "captions": [
   {
    "seg": "s1",
-   "start": 0.3,
-   "end": 0.88,
+   "start": 0.38,
+   "end": 0.81,
    "words": [
     {
      "text": "Percebeu",
-     "start": 0.3,
-     "end": 0.86,
+     "start": 0.38,
+     "end": 0.46,
      "emph": true
     }
    ]
   },
   {
    "seg": "s1",
-   "start": 0.88,
-   "end": 2.06,
+   "start": 1.1,
+   "end": 1.74,
    "words": [
     {
      "text": "a",
-     "start": 0.88,
-     "end": 1.055,
+     "start": 1.1,
+     "end": 1.18,
      "emph": false
     },
     {
      "text": "diferença?",
-     "start": 1.075,
-     "end": 1.69,
+     "start": 1.18,
+     "end": 1.6,
      "emph": false
     }
    ]
   },
   {
    "seg": "s2",
-   "start": 2.06,
-   "end": 2.885,
+   "start": 1.74,
+   "end": 2.54,
    "words": [
     {
      "text": "Na",
-     "start": 2.06,
-     "end": 2.29,
+     "start": 1.74,
+     "end": 1.98,
      "emph": false
     },
     {
      "text": "ATIVO,",
-     "start": 2.31,
-     "end": 2.705,
+     "start": 1.98,
+     "end": 2.54,
      "emph": false
     }
    ]
   },
   {
    "seg": "s2",
-   "start": 2.885,
-   "end": 3.825,
+   "start": 2.54,
+   "end": 3.18,
    "words": [
     {
      "text": "não",
-     "start": 2.885,
-     "end": 3.17,
+     "start": 2.54,
+     "end": 2.7,
      "emph": false
     },
     {
      "text": "começamos",
-     "start": 3.19,
-     "end": 3.805,
+     "start": 2.7,
+     "end": 3.18,
      "emph": false
     }
    ]
   },
   {
    "seg": "s2",
-   "start": 3.825,
-   "end": 4.765,
+   "start": 3.18,
+   "end": 3.82,
    "words": [
     {
      "text": "te",
-     "start": 3.825,
-     "end": 4.055,
+     "start": 3.18,
+     "end": 3.34,
      "emph": false
     },
     {
      "text": "entregando",
-     "start": 4.075,
-     "end": 4.745,
+     "start": 3.34,
+     "end": 3.82,
      "emph": false
     }
    ]
   },
   {
    "seg": "s2",
-   "start": 4.765,
-   "end": 6.5,
+   "start": 3.82,
+   "end": 5.5,
    "words": [
     {
      "text": "mais",
-     "start": 4.765,
-     "end": 5.105,
+     "start": 3.82,
+     "end": 3.98,
      "emph": false
     },
     {
      "text": "um",
-     "start": 5.125,
-     "end": 5.355,
+     "start": 3.98,
+     "end": 4.14,
      "emph": false
     },
     {
      "text": "CRM",
-     "start": 5.375,
-     "end": 5.66,
+     "start": 4.14,
+     "end": 4.86,
      "emph": true
     },
     {
      "text": "pronto.",
-     "start": 5.68,
-     "end": 6.13,
+     "start": 4.86,
+     "end": 5.11,
      "emph": true
     }
    ]
   },
   {
    "seg": "s3",
-   "start": 6.5,
-   "end": 7.08,
+   "start": 5.5,
+   "end": 5.9,
    "words": [
     {
      "text": "Primeiro",
-     "start": 6.5,
-     "end": 7.06,
+     "start": 5.5,
+     "end": 5.9,
      "emph": false
     }
    ]
   },
   {
    "seg": "s3",
-   "start": 7.08,
-   "end": 7.77,
+   "start": 5.9,
+   "end": 6.62,
    "words": [
     {
      "text": "entendemos",
-     "start": 7.08,
-     "end": 7.75,
+     "start": 5.9,
+     "end": 6.48,
      "emph": false
     }
    ]
   },
   {
    "seg": "s3",
-   "start": 7.77,
-   "end": 9.42,
+   "start": 6.62,
+   "end": 7.9,
    "words": [
     {
      "text": "como",
-     "start": 7.77,
-     "end": 8.11,
+     "start": 6.62,
+     "end": 6.94,
      "emph": false
     },
     {
      "text": "você",
-     "start": 8.13,
-     "end": 8.47,
+     "start": 6.94,
+     "end": 7.18,
      "emph": true
     },
     {
      "text": "trabalha.",
-     "start": 8.49,
-     "end": 9.05,
+     "start": 7.18,
+     "end": 7.57,
      "emph": false
     }
    ]
   },
   {
    "seg": "s4",
-   "start": 9.42,
-   "end": 10.69,
+   "start": 7.9,
+   "end": 9.02,
    "words": [
     {
      "text": "Depois",
-     "start": 9.42,
-     "end": 9.87,
+     "start": 7.9,
+     "end": 8.38,
      "emph": false
     },
     {
      "text": "apresentamos",
-     "start": 9.89,
-     "end": 10.67,
+     "start": 8.38,
+     "end": 9.02,
      "emph": false
     }
    ]
   },
   {
    "seg": "s4",
-   "start": 10.69,
-   "end": 11.41,
+   "start": 9.02,
+   "end": 9.5,
    "words": [
     {
      "text": "o",
-     "start": 10.69,
-     "end": 10.865,
+     "start": 9.02,
+     "end": 9.18,
      "emph": false
     },
     {
      "text": "sistema",
-     "start": 10.885,
-     "end": 11.39,
+     "start": 9.18,
+     "end": 9.5,
      "emph": false
     }
    ]
   },
   {
    "seg": "s4",
-   "start": 11.41,
-   "end": 12.545,
+   "start": 9.5,
+   "end": 10.38,
    "words": [
     {
      "text": "que",
-     "start": 11.41,
-     "end": 11.695,
+     "start": 9.5,
+     "end": 9.66,
      "emph": false
     },
     {
      "text": "faz",
-     "start": 11.715,
-     "end": 12.0,
+     "start": 9.66,
+     "end": 9.98,
      "emph": false
     },
     {
      "text": "sentido",
-     "start": 12.02,
-     "end": 12.525,
+     "start": 9.98,
+     "end": 10.38,
      "emph": false
     }
    ]
   },
   {
    "seg": "s4",
-   "start": 12.545,
-   "end": 14.03,
+   "start": 10.38,
+   "end": 11.42,
    "words": [
     {
      "text": "para",
-     "start": 12.545,
-     "end": 12.885,
+     "start": 10.38,
+     "end": 10.62,
      "emph": false
     },
     {
      "text": "sua",
-     "start": 12.905,
-     "end": 13.19,
+     "start": 10.62,
+     "end": 10.78,
      "emph": false
     },
     {
      "text": "rotina.",
-     "start": 13.21,
-     "end": 13.66,
+     "start": 10.78,
+     "end": 11.09,
      "emph": true
     }
    ]
   },
   {
    "seg": "s5",
-   "start": 14.03,
-   "end": 15.32,
+   "start": 11.42,
+   "end": 12.38,
    "words": [
     {
      "text": "Quer",
-     "start": 14.03,
-     "end": 14.37,
+     "start": 11.42,
+     "end": 11.49,
      "emph": false
     },
     {
      "text": "conhecer?",
-     "start": 14.39,
-     "end": 14.95,
+     "start": 11.74,
+     "end": 12.08,
      "emph": true
     }
    ]
   },
   {
    "seg": "s6",
-   "start": 15.32,
-   "end": 15.79,
+   "start": 12.38,
+   "end": 12.86,
    "words": [
     {
      "text": "Agende",
-     "start": 15.32,
-     "end": 15.77,
+     "start": 12.38,
+     "end": 12.86,
      "emph": true
     }
    ]
   },
   {
    "seg": "s6",
-   "start": 15.79,
-   "end": 16.875,
+   "start": 12.86,
+   "end": 13.99,
    "words": [
     {
      "text": "uma",
-     "start": 15.79,
-     "end": 16.075,
+     "start": 12.86,
+     "end": 13.02,
      "emph": false
     },
     {
      "text": "demonstração.",
-     "start": 16.095,
-     "end": 16.875,
+     "start": 13.02,
+     "end": 13.49,
      "emph": false
     }
    ]

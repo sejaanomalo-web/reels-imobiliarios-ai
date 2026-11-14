@@ -11,7 +11,9 @@
   "final": "STORY-ATIVO-05_FINAL.mp4",
   "narration": "STORY-ATIVO-05_NARRACAO.wav",
   "subtitles": "STORY-ATIVO-05_legendas.srt",
-  "cover": "STORY-ATIVO-05_capa.png"
+  "cover": "STORY-ATIVO-05_capa.png",
+  "coverCue": "f_agende",
+  "coverOffset": 0.7
  },
  "fonte": "STORIES/ROTEIRO_5_STORIES_NA_PRATICA_ATIVO.md",
  "funcao": "C5 conversão",
@@ -144,8 +146,124 @@
   }
  },
  "series": {},
- "sfx": [],
- "music": {},
+ "sfx": [
+  {
+   "cue": "f_perc",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "f_ativo",
+   "offset": -0.3,
+   "sound": "thump",
+   "gain": -24,
+   "pitch": -3
+  },
+  {
+   "cue": "f_ativo",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "f_crm",
+   "offset": 0.15,
+   "sound": "block",
+   "gain": -25
+  },
+  {
+   "cue": "f_voce",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 5
+  },
+  {
+   "cue": "f_depois",
+   "offset": 0.1,
+   "sound": "whoosh_up",
+   "gain": -27,
+   "dur": 0.5
+  },
+  {
+   "cue": "f_quer",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -24,
+   "pitch": 3
+  },
+  {
+   "cue": "f_agende",
+   "offset": 0.0,
+   "sound": "chord",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 96,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     50,
+     53,
+     57
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Dm — percebeu"
+   },
+   {
+    "at": "cue:f_ativo",
+    "notes": [
+     22,
+     34,
+     50,
+     53,
+     58
+    ],
+    "root": 34,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "Bb — ATIVO"
+   },
+   {
+    "at": "cue:f_prim",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — você"
+   },
+   {
+    "at": "cue:f_quer",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — agendar"
+   }
+  ]
+ },
  "pendencia": null,
  "decisao_cliente": "13/11/2026: manter o texto do roteiro como está (\"apresentamos o sistema… Agende uma demonstração\")."
 }
