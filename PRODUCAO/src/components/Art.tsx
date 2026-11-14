@@ -1,5 +1,5 @@
 import React from "react";
-import { C } from "../theme";
+import { BRAND, C } from "../theme";
 
 /** Ilustrações e ícones vetoriais originais (sem assets de terceiros). */
 
@@ -58,7 +58,7 @@ export const MapArt: React.FC<{ w: number; h: number }> = ({ w, h }) => (
     <path d="M-10 70L610 30M-10 180L610 150M120 -10L170 250M380 -10L420 250" stroke="#2C343E" strokeWidth="18" />
     <path d="M-10 124L610 96" stroke="#39424E" strokeWidth="26" />
     <path d="M250 -10L300 250" stroke="#39424E" strokeWidth="22" />
-    <rect x="440" y="110" width="120" height="70" rx="12" fill="#1F3A30" transform="rotate(-3 500 145)" />
+    <rect x="440" y="110" width="120" height="70" rx="12" fill={BRAND.deep} transform="rotate(-3 500 145)" />
     <path d="M-10 124L610 96" stroke="#4A5562" strokeWidth="2" strokeDasharray="14 14" />
     <rect x="30" y="16" width="64" height="30" rx="5" fill="#222932" />
     <rect x="196" y="194" width="50" height="34" rx="5" fill="#222932" />

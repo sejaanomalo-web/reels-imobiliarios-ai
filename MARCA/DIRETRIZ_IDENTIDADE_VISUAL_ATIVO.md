@@ -9,6 +9,10 @@
 3. **Tipografia existente:** Manrope para a linguagem principal; JetBrains Mono para dados discretos. Preservar as fontes e respectivas licenças.
 4. **Fundos e texto:** grafite/preto escuro `#07080A` e tons escuros do projeto, branco `#F4F5F7`; usar `#3AF584` com parcimônia para ênfase, seta, linha, indicador ou CTA.
 
+## Regra de uso (14/11/2026)
+
+Nos vídeos novos, o verde é **exatamente `#3AF584`** — inclusive quando o roteiro diz só "verde" ou "verde luminoso". Tons derivados permitidos apenas como apoio: `#092614` (texto sobre o verde) e `#0E3A1F` (fundo escuro esverdeado). `PRODUCAO/tools/editorial_check.py` bloqueia qualquer outro verde e `render_episode.sh` não renderiza com erro. Vídeos já entregues não são reprocessados.
+
 ## Erro corrigido
 
 `#35E0A1` e `rgba(53,224,161,...)` são resquícios de verde-água/menta usados em parte do pipeline. Eles não devem ser a cor de identidade dos novos vídeos. Não confundir `#00FA44` (amostragem estimada de PNG sugerida anteriormente) com o HEX oficial: **priorizar `#3AF584`**.

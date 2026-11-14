@@ -5,6 +5,8 @@ EP=${1:-EP001}
 cd "$(dirname "$0")/.."
 OUT=../OUTPUT/$(python3 -c "import json;print(json.load(open('episodes/$EP/episode.json')).get('outputDir','$EP'))")
 mkdir -p "$OUT" out
+# checagem editorial/cor/CTA antes de renderizar: erro = não renderiza
+python3 tools/editorial_check.py "$EP" || { echo "editorial_check falhou: corrija antes de renderizar"; exit 1; }
 rm -rf build && npx remotion bundle --out-dir build >/dev/null
 npx remotion render build "$EP" "out/$EP.mp4" --concurrency=4 --log=error
 # +faststart para tocar imediatamente em celular/web

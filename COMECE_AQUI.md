@@ -22,9 +22,9 @@ reels-imobiliarios-ai/
 │   ├── REFERENCIAS_9_REELS.md
 │   └── ref_01.mp4 … ref_09.mp4   # referências de terceiros: só para estudo
 ├── VOZ/
-│   ├── voice_preset.json      # voz travada (hoje: provisória, não aprovada)
+│   ├── voice_preset.json      # voz oficial aprovada (Gemini, Puck, 1,0×)
 │   └── VOZES_E_TESTES.md
-├── MARCA/brand.json           # identidade provisória
+├── MARCA/brand.json           # identidade ATIVO aprovada: logo oficial + verde exato #3AF584
 ├── ANALISE/                   # relatório das referências, tokens de estilo, comparação de vozes
 ├── PRODUCAO/                  # projeto Remotion + ferramentas (ver PRODUCAO/LEIAME.md)
 │   ├── episodes/EP001/episode.json   # texto, legendas, marcas de sincronia e sons do episódio

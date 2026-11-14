@@ -9,7 +9,8 @@ O que verifica:
   2. Promessas não comprovadas na fala ou no texto de tela: "garantido", "triplicar", "dobrar suas vendas", "em X dias",
      "100%", depoimento.
   3. Fonte pequena para público 40+ (fontSize abaixo do mínimo do formato).
-  4. Verde divergente da marca (#35E0A1, rgba(53,224,161,…), #00FA44) no código do episódio.
+  4. Verde divergente da marca: qualquer cor esverdeada diferente de #3AF584 (derivados aceitos: #092614 e #0E3A1F),
+     no código do episódio e nos componentes compartilhados (regra de 14/11/2026; episódios entregues antes ficam isentos).
   5. Interface de sistema desenhada sem o rótulo "ilustrativa" (capturas reais via STORY-ATIVO/cases são isentas).
   6. Texto posicionado fora da área segura do Instagram (9:16: top > 1570 px).
 Não substitui a revisão humana; aponta onde olhar.
@@ -31,6 +32,9 @@ CLAIMS = [
 CTA_HINTS = r"comente|comenta|link da bio|agend|whatsapp|salve|conta nos coment|toque no link|direct"
 OLD_GREEN = r"#35e0a1|53\s*,\s*224\s*,\s*161|#00fa44"
 # Reels entregues antes da regra "CTA sempre SISTEMA" (14/11/2026) — não reprocessar
+# Episódios entregues antes da regra "verde exato #3AF584" (14/11/2026) — tons derivados antigos ficam como estão
+LEGACY_COLOR = {"EP001", "EP002", "EP015", "EP015V2"}
+GREEN_OK = {(58, 245, 132), (9, 38, 20), (14, 58, 31)}
 LEGACY_CTA = {"EP001", "EP002", "EP003", "EP015", "EP015V2", "EP-ATIVO01", "EP-ATIVO03"}
 
 
@@ -59,6 +63,16 @@ def check(ep_id: str) -> int:
             errs.append("Reel sem a CTA obrigatória de comentário SISTEMA → Direct (cta.type=comentario, keyword=SISTEMA, fala final 'Comente SISTEMA…')")
 
     files = sorted(glob.glob(os.path.join(src_dir, "**", "*.tsx"), recursive=True)) if os.path.isdir(src_dir) else []
+    # 4b. verde exato: nenhuma cor esverdeada além de #3AF584 e dos derivados aceitos
+    if ep_id not in LEGACY_COLOR:
+        shared = sorted(glob.glob(os.path.join(ROOT, "src", "components", "*.tsx")))
+        for f in files + [g for g in shared if g not in files] + sorted(glob.glob(os.path.join(src_dir, "**", "*.ts"), recursive=True)):
+            for i, line in enumerate(open(f).read().splitlines(), 1):
+                cols = [tuple(int(h[k:k + 2], 16) for k in (0, 2, 4)) for h in re.findall(r"#([0-9A-Fa-f]{6})\b", line)]
+                cols += [tuple(map(int, m)) for m in re.findall(r"rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)", line)]
+                for r_, g_, b_ in cols:
+                    if g_ > r_ + 40 and g_ > b_ + 20 and (r_, g_, b_) not in GREEN_OK:
+                        errs.append(f"verde fora do exato #3AF584 (#{r_:02X}{g_:02X}{b_:02X}) — use BRAND/brandAlpha — {os.path.relpath(f, ROOT)}:{i}")
     code = {f: open(f).read() for f in files}
     screen_text = " ".join(re.findall(r">([^<>{}]{3,})<", " ".join(code.values())))
     # 2. promessas
