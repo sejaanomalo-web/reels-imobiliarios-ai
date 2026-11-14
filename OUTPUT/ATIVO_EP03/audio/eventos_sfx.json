@@ -1,0 +1,116 @@
+[
+ {
+  "t": 3.13,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "h_inv"
+ },
+ {
+  "t": 4.03,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "h_mas"
+ },
+ {
+  "t": 7.98,
+  "sound": "thump",
+  "gain": -24,
+  "cue": "h_duas"
+ },
+ {
+  "t": 11.76,
+  "sound": "block",
+  "gain": -26,
+  "cue": "p_neg"
+ },
+ {
+  "t": 16.09,
+  "sound": "notif",
+  "gain": -29,
+  "cue": "p_msg"
+ },
+ {
+  "t": 19.0,
+  "sound": "notif",
+  "gain": -30,
+  "cue": "p_ag"
+ },
+ {
+  "t": 22.59,
+  "sound": "alert",
+  "gain": -29,
+  "cue": "p_cob"
+ },
+ {
+  "t": 22.62,
+  "sound": "whoosh_up",
+  "gain": -27,
+  "cue": "q_so"
+ },
+ {
+  "t": 28.94,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "q_sig"
+ },
+ {
+  "t": 36.78,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "m_antes"
+ },
+ {
+  "t": 41.39,
+  "sound": "tick",
+  "gain": -22,
+  "cue": "m_hist"
+ },
+ {
+  "t": 44.04,
+  "sound": "tick",
+  "gain": -22,
+  "cue": "m_imovel"
+ },
+ {
+  "t": 45.98,
+  "sound": "tick",
+  "gain": -22,
+  "cue": "m_perg"
+ },
+ {
+  "t": 52.67,
+  "sound": "block",
+  "gain": -26,
+  "cue": "m_inv"
+ },
+ {
+  "t": 53.42,
+  "sound": "whoosh_up",
+  "gain": -27,
+  "cue": "i_conf"
+ },
+ {
+  "t": 64.88,
+  "sound": "chord",
+  "gain": -28,
+  "cue": "i_impro"
+ },
+ {
+  "t": 64.94,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "c_comp"
+ },
+ {
+  "t": 67.94,
+  "sound": "whoosh_up",
+  "gain": -27,
+  "cue": "c_serio"
+ },
+ {
+  "t": 69.54,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "c_dias"
+ }
+]
