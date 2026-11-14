@@ -93,6 +93,11 @@
 > - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP02.md`) palavra por palavra, exceto o fecho: "Salve este Reel e" saiu e entrou a CTA de comentário SISTEMA → Direct (pedido do cliente). Preset original 1,0×, tomada C sem edição; composição `EP-ATIVO02`, saída `OUTPUT/ATIVO_EP02/`. Sem logo.
 > - **Aprendizados:** (1) um objeto-âncora repetido (o celular "gravando" cada abertura + régua ABERTURA n/5) organiza listas de 5 itens sem virar slide; (2) o conteúdo do celular deve entrar com o cabeçalho, senão sobra tela vazia de 1–3 s por abertura; (3) linha SVG com `strokeLinecap="round"` e comprimento 0 desenha um ponto — esconder até começar; (4) 229 palavras = 84 s mesmo a 169 palavras/min: o limite de duração precisa estar no roteiro, não na edição.
 >
+> ### Registro do ATIVO Episódio 03 (14/11/2026)
+>
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP03.md`) palavra por palavra; **CTA do próprio roteiro** (compartilhamento); preset original 1,0×, tomada B sem edição; composição `EP-ATIVO03`, saída `OUTPUT/ATIVO_EP03/`. Primeiro Reel da série com **logo oficial** (só no fecho) e diagnóstico editorial registrado no `episode.json`.
+> - **Aprendizados:** (1) tomada que omite uma negação ("não avança") inverte o sentido — conferir negações na transcrição antes de escolher; (2) Parakeet e Whisper divergem em artigos ("um"/"o"): cruzar os dois antes de descartar tomada; (3) frases motivacionais entrando desde 0,5 s tiram o gancho do "só despertador" nos 3 primeiros segundos; (4) pilha bagunçada que depois se alinha numa agenda dá a virada "desacelera e organiza" sem corte.
+>
 > ### Registro do vídeo da landing ATIVO 16:9 (13/11/2026)
 >
 > - **Configuração usada:** composição `LP-ATIVO` (1920×1080), narração corrida do briefing completa, preset aprovado 1,0×, tomada única; trilha original por blocos A–H em `tools/build_music_lp.py` (ligada ao mix por `music.file`); marca e telas provisórias (`kit.tsx`).
@@ -193,6 +198,7 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-13 | EP033 | Padrão aprovado (ATIVO, sem símbolo) 1,0× + CTA de comentário (SISTEMA → Direct). Tomada A sem edição, 161 palavras/min, 43,1 s, movimento 1,78, maior trecho parado 0,7 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | ATIVO EP01 | Roteiro novo do cliente, CTA de relacionamento do próprio roteiro. Tomada C sem edição, 160 palavras/min, 76,9 s, movimento 1,45, maior trecho parado 0,9 s, sem logo | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | ATIVO EP02 | Roteiro do cliente + CTA de comentário SISTEMA (no lugar de "Salve este Reel"). Tomada C sem edição, 169 palavras/min, 83,9 s, movimento 1,83, maior trecho parado 1,1 s, sem logo | Pedido do cliente; aguardando avaliação |
+| 2026-11-14 | ATIVO EP03 | Roteiro do cliente + CTA de compartilhamento do roteiro; logo oficial no fecho. Tomada B sem edição, 168 palavras/min, 72,3 s, movimento 1,79, maior trecho parado 2,0 s (fecho) | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 | Vídeo principal da landing: 118 s, 1920×1080, trilha original por blocos, marca e telas provisórias, legendas web | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 v2 | Transcrição dinâmica, voz 1,2× (exceção pedida), 86,5 s, elementos maiores, movimento 2,39 | Feedback do cliente: mais dinâmica, texto = fala, gancho mais forte |
 | 2026-11-13 | LANDING 16:9 FINAL | Logo oficial (revelação) + verde #3AF584, 3 situações centralizadas, voz 1,0×, 103 s, movimento 2,0 | Aprovado para implementação pelo cliente, com estes ajustes |
