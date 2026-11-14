@@ -36,6 +36,8 @@ import { ATIVO03, timeline as ativo03 } from "./episodes/EP-ATIVO03/Episode";
 import { ATIVO03Cover } from "./episodes/EP-ATIVO03/Cover";
 import { ATIVO04, timeline as ativo04 } from "./episodes/EP-ATIVO04/Episode";
 import { ATIVO04Cover } from "./episodes/EP-ATIVO04/Cover";
+import { ATIVO05, timeline as ativo05 } from "./episodes/EP-ATIVO05/Episode";
+import { ATIVO05Cover } from "./episodes/EP-ATIVO05/Cover";
 import { LandingAtivo, timeline as lpAtivo } from "./episodes/LP-ATIVO/Landing";
 import { LandingPoster } from "./episodes/LP-ATIVO/Poster";
 import { LandingAtivoV2, timeline as lpAtivoV2 } from "./episodes/LP-ATIVO-V2/Landing";
@@ -260,6 +262,16 @@ export const RemotionRoot: React.FC = () => (
         defaultProps={{ withAudio: true }}
       />
       <Still id="EP-ATIVO04-Capa" component={ATIVO04Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO05"
+        component={ATIVO05}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativo05.fps}
+        durationInFrames={ativo05.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO05-Capa" component={ATIVO05Cover} width={VIDEO.width} height={VIDEO.height} />
     </Folder>
     <Folder name="LP-ATIVO-16x9">
       <Composition

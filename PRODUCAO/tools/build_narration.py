@@ -102,7 +102,11 @@ def caption_words(seg):
         emph = False
         for tok in chunk.split():
             if tok.startswith("*"): emph = True
+            # palavra com hífen ("bem-intencionada") = 1 token na legenda e 2+ palavras no alinhamento:
+            # o token inteiro fica na 1ª palavra e as seguintes entram vazias (mesma posição na tela)
+            n = max(1, len(re.findall(WORD_RE, tok)))
             out.append(dict(text=tok.strip("*"), chunk=c_i, emph=emph))
+            out.extend(dict(text="", chunk=c_i, emph=emph) for _ in range(n - 1))
             if tok.endswith("*"): emph = False
     return out
 
@@ -356,8 +360,13 @@ for s in segs:
     ws = [w for w in words_all if w["seg"] == s["id"]]
     for c in sorted(set(w["chunk"] for w in ws)):
         cw = [w for w in ws if w["chunk"] == c]
-        caps.append(dict(seg=s["id"], start=cw[0]["start"], end=cw[-1]["end"],
-                         words=[dict(text=w["text"], start=w["start"], end=w["end"], emph=w["emph"]) for w in cw]))
+        wl = []
+        for w in cw:  # continuação de palavra com hífen: estende a anterior em vez de virar palavra vazia
+            if w["text"] == "" and wl:
+                wl[-1]["end"] = w["end"]
+            else:
+                wl.append(dict(text=w["text"], start=w["start"], end=w["end"], emph=w["emph"]))
+        caps.append(dict(seg=s["id"], start=cw[0]["start"], end=cw[-1]["end"], words=wl))
 for a, b in zip(caps, caps[1:]):
     a["end"] = round(min(max(a["end"], b["start"]), a["end"] + 0.5) if b["start"] - a["end"] < 0.5 else a["end"] + 0.35, 3)
 caps[-1]["end"] = round(caps[-1]["end"] + 0.5, 3)
