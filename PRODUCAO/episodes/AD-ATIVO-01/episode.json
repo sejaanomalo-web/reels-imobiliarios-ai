@@ -4,7 +4,7 @@
  "fps": 30,
  "width": 1080,
  "height": 1920,
- "leadIn": 0.05,
+ "leadIn": 0.3,
  "tail": 1.8,
  "outputDir": "ADS/AD-ATIVO-01",
  "deliverables": {
@@ -277,68 +277,765 @@
    "word": "ATIVO",
    "edge": "end",
    "offset": 0
+  },
+  "k00": {
+   "seg": "s1",
+   "word": "Talvez",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k01": {
+   "seg": "s1",
+   "word": "do",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k02": {
+   "seg": "s1",
+   "word": "esteja",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k03": {
+   "seg": "s1",
+   "word": "que",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k04": {
+   "seg": "s1",
+   "word": "de",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k05": {
+   "seg": "s2",
+   "word": "A",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k06": {
+   "seg": "s2",
+   "word": "sobre",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k07": {
+   "seg": "s2",
+   "word": "pediu",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k08": {
+   "seg": "s2",
+   "word": "ficou",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k09": {
+   "seg": "s2",
+   "word": "com",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k10": {
+   "seg": "s2",
+   "word": "e",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k11": {
+   "seg": "s2",
+   "word": "outras",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k12": {
+   "seg": "s3",
+   "word": "A",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k13": {
+   "seg": "s3",
+   "word": "foi",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k14": {
+   "seg": "s3",
+   "word": "você",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k15": {
+   "seg": "s3",
+   "word": "sua",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k16": {
+   "seg": "s3",
+   "word": "e",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k17": {
+   "seg": "s3",
+   "word": "ficou",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k18": {
+   "seg": "s4",
+   "word": "O",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k19": {
+   "seg": "s4",
+   "word": "quando",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k20": {
+   "seg": "s4",
+   "word": "várias",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k21": {
+   "seg": "s4",
+   "word": "fica",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k22": {
+   "seg": "s4",
+   "word": "quem",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k23": {
+   "seg": "s4",
+   "word": "e",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k24": {
+   "seg": "s4",
+   "word": "de",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k25": {
+   "seg": "s5",
+   "word": "É",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k26": {
+   "seg": "s5",
+   "word": "essa",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k27": {
+   "seg": "s5",
+   "word": "que",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k28": {
+   "seg": "s5",
+   "word": "organiza",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k29": {
+   "seg": "s6",
+   "word": "Seus",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k30": {
+   "seg": "s6",
+   "word": "interessados",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k31": {
+   "seg": "s6",
+   "word": "e",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k32": {
+   "seg": "s6",
+   "word": "podem",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k33": {
+   "seg": "s6",
+   "word": "centralizados",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k34": {
+   "seg": "s6",
+   "word": "em",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k35": {
+   "seg": "s6",
+   "word": "pensado",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k36": {
+   "seg": "s6",
+   "word": "a",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k37": {
+   "seg": "s7",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k38": {
+   "seg": "s7",
+   "word": "como",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k39": {
+   "seg": "s8",
+   "word": "Clique",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k40": {
+   "seg": "s8",
+   "word": "e",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k41": {
+   "seg": "s8",
+   "word": "a",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
+  },
+  "k42": {
+   "seg": "s8",
+   "word": "da",
+   "edge": "start",
+   "offset": 0,
+   "occ": 1
   }
  },
- "series": {},
+ "series": {
+  "notifs": {
+   "type": "between",
+   "fromCue": "s_cheg",
+   "toCue": "s_dez",
+   "toOffset": 0.45,
+   "count": 10
+  },
+  "days": {
+   "type": "between",
+   "fromCue": "c_rot",
+   "fromOffset": -0.2,
+   "toCue": "c_tras",
+   "count": 5
+  }
+ },
  "sfx": [
   {
-   "cue": "h_esq",
-   "offset": 0.6,
-   "sound": "pop",
-   "gain": -26,
+   "cue": "k01",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": -1
+  },
+  {
+   "cue": "k02",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": 0
+  },
+  {
+   "cue": "k03",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": 1
+  },
+  {
+   "cue": "k04",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
    "pitch": 2
   },
   {
-   "cue": "s_cheg",
-   "offset": 0.0,
+   "cue": "k05",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": -2
+  },
+  {
+   "cue": "k06",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": -1
+  },
+  {
+   "cue": "k07",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": 0
+  },
+  {
+   "cue": "k08",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": 1
+  },
+  {
+   "cue": "k09",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": 2
+  },
+  {
+   "cue": "k10",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": -2
+  },
+  {
+   "cue": "k11",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": -1
+  },
+  {
+   "cue": "k12",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": 0
+  },
+  {
+   "cue": "k13",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": 1
+  },
+  {
+   "cue": "k14",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": 2
+  },
+  {
+   "cue": "k15",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": -2
+  },
+  {
+   "cue": "k16",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": -1
+  },
+  {
+   "cue": "k17",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": 0
+  },
+  {
+   "cue": "k18",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": 1
+  },
+  {
+   "cue": "k19",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": 2
+  },
+  {
+   "cue": "k20",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": -2
+  },
+  {
+   "cue": "k21",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": -1
+  },
+  {
+   "cue": "k22",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": 0
+  },
+  {
+   "cue": "k23",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": 1
+  },
+  {
+   "cue": "k24",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": 2
+  },
+  {
+   "cue": "k25",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": -2
+  },
+  {
+   "cue": "k26",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": -1
+  },
+  {
+   "cue": "k27",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": 0
+  },
+  {
+   "cue": "k28",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": 1
+  },
+  {
+   "cue": "k29",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": 2
+  },
+  {
+   "cue": "k30",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": -2
+  },
+  {
+   "cue": "k31",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": -1
+  },
+  {
+   "cue": "k32",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": 0
+  },
+  {
+   "cue": "k33",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": 1
+  },
+  {
+   "cue": "k34",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": 2
+  },
+  {
+   "cue": "k35",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": -2
+  },
+  {
+   "cue": "k36",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": -1
+  },
+  {
+   "cue": "k37",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": 0
+  },
+  {
+   "cue": "k38",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": 1
+  },
+  {
+   "cue": "k39",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": 2
+  },
+  {
+   "cue": "k40",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": -2
+  },
+  {
+   "cue": "k41",
+   "offset": -0.07,
+   "sound": "swish",
+   "gain": -34,
+   "pitch": -1
+  },
+  {
+   "cue": "k42",
+   "offset": -0.07,
+   "sound": "tick",
+   "gain": -31,
+   "pitch": 0
+  },
+  {
+   "cue": "k00",
+   "offset": -0.3,
+   "sound": "impact",
+   "gain": -24,
+   "pitch": -2
+  },
+  {
+   "cue": "h_conversa",
+   "offset": -0.15,
+   "sound": "whoosh_dive",
+   "gain": -28,
+   "dur": 0.4
+  },
+  {
+   "cue": "h_esq",
+   "offset": 0.45,
+   "sound": "impact",
+   "gain": -27,
+   "pitch": 1
+  },
+  {
+   "cue": "s_perg",
+   "offset": -0.12,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "s_info",
+   "offset": -0.12,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 4
+  },
+  {
+   "cue": "s_fam",
+   "offset": -0.12,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 6
+  },
+  {
+   "series": "notifs",
    "sound": "notif",
-   "gain": -31
+   "gain": -33,
+   "gainSlope": 0.3,
+   "panSpread": 0.6
   },
   {
    "cue": "s_dez",
-   "offset": 0.5,
-   "sound": "notif",
-   "gain": -31,
-   "pitch": 3
+   "offset": 0.55,
+   "sound": "impact",
+   "gain": -25
   },
   {
    "cue": "c_desc",
-   "offset": 0.5,
-   "sound": "shuffle",
+   "offset": -0.14,
+   "sound": "whip",
+   "gain": -27
+  },
+  {
+   "series": "days",
+   "sound": "tick",
    "gain": -30
   },
   {
    "cue": "c_tras",
-   "offset": 0.45,
-   "sound": "fade_down",
-   "gain": -30,
-   "dur": 1.4
-  },
-  {
-   "cue": "a_just",
-   "offset": -0.45,
-   "sound": "whoosh_up",
-   "gain": -27,
+   "offset": 0.05,
+   "sound": "whoosh_dive",
+   "gain": -28,
    "dur": 0.6
   },
   {
+   "cue": "c_varias",
+   "offset": -0.12,
+   "sound": "shuffle",
+   "gain": -30
+  },
+  {
+   "cue": "c_visita",
+   "offset": 0.35,
+   "sound": "block",
+   "gain": -26
+  },
+  {
+   "cue": "c_ret",
+   "offset": 0.35,
+   "sound": "block",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "a_just",
+   "offset": -0.12,
+   "sound": "whoosh_up",
+   "gain": -26,
+   "dur": 0.4
+  },
+  {
    "cue": "a_ativo",
-   "offset": 0.55,
+   "offset": 0.4,
+   "sound": "impact",
+   "gain": -25,
+   "pitch": -3
+  },
+  {
+   "cue": "a_ativo",
+   "offset": 0.5,
    "sound": "shimmer",
    "gain": -28
   },
   {
+   "cue": "a_imo",
+   "offset": -0.12,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 3
+  },
+  {
+   "cue": "a_int",
+   "offset": -0.12,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 5
+  },
+  {
+   "cue": "a_atend",
+   "offset": -0.12,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 7
+  },
+  {
    "cue": "a_cent",
-   "offset": 0.7,
+   "offset": 0.1,
    "sound": "chord",
    "gain": -29
   },
   {
    "cue": "cta_clique",
-   "offset": -0.25,
-   "sound": "pop",
+   "offset": -0.15,
+   "sound": "impact",
    "gain": -25,
-   "pitch": 3
+   "pitch": 2
   },
   {
    "cue": "cta_end",
@@ -348,9 +1045,9 @@
   }
  ],
  "music": {
-  "gain": -30,
-  "duck": -5.5,
-  "bpm": 96,
+  "gain": -29,
+  "duck": -6,
+  "bpm": 112,
   "prog": [
    {
     "at": 0,
@@ -363,8 +1060,8 @@
     ],
     "root": 45,
     "dens": 2,
-    "bright": 0.4,
-    "label": "Am — a conversa esquecida"
+    "bright": 0.45,
+    "label": "Am — venda esquecida"
    },
    {
     "at": "cue:c_prob",
@@ -377,7 +1074,7 @@
     ],
     "root": 38,
     "dens": 2,
-    "bright": 0.4,
+    "bright": 0.45,
     "label": "Dm — problema"
    },
    {
@@ -391,7 +1088,7 @@
     ],
     "root": 41,
     "dens": 2,
-    "bright": 0.55,
+    "bright": 0.6,
     "label": "F — ATIVO"
    },
    {
@@ -406,9 +1103,50 @@
     ],
     "root": 36,
     "dens": 2,
-    "bright": 0.6,
+    "bright": 0.65,
     "label": "Cadd9 — clique"
    }
+  ],
+  "drums": {
+   "gain": -25,
+   "sections": [
+    {
+     "at": 0,
+     "kick": 1,
+     "hat": 1
+    },
+    {
+     "at": "cue:s_cheg",
+     "kick": 1,
+     "hat": 2
+    },
+    {
+     "at": "cue:c_varias",
+     "kick": 1,
+     "hat": 1
+    },
+    {
+     "at": "cue:a_just",
+     "kick": 1,
+     "hat": 2
+    },
+    {
+     "at": "cue:cta_end",
+     "kick": 0,
+     "hat": 0
+    }
+   ]
+  },
+  "drops": [
+   {
+    "at": "cue:c_ret",
+    "dur": 1.2
+   }
   ]
+ },
+ "voiceSpeed": {
+  "factor": 1.1,
+  "metodo": "ffmpeg atempo (tom preservado) sobre a tomada A aprovada",
+  "autorizacao": "pedido do cliente para criativos de anúncio, 15/11/2026"
  }
 }

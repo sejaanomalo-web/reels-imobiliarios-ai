@@ -1,60 +1,453 @@
 [
  {
-  "t": 3.93,
-  "sound": "pop",
-  "gain": -26,
+  "t": 0.0,
+  "sound": "impact",
+  "gain": -24,
+  "cue": "k00"
+ },
+ {
+  "t": 1.11,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k01"
+ },
+ {
+  "t": 2.07,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k02"
+ },
+ {
+  "t": 2.55,
+  "sound": "whoosh_dive",
+  "gain": -28,
+  "cue": "h_conversa"
+ },
+ {
+  "t": 2.95,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k03"
+ },
+ {
+  "t": 3.67,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k04"
+ },
+ {
+  "t": 3.71,
+  "sound": "impact",
+  "gain": -27,
   "cue": "h_esq"
  },
  {
-  "t": 10.69,
-  "sound": "notif",
-  "gain": -31,
-  "cue": "s_cheg"
+  "t": 4.55,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k05"
  },
  {
-  "t": 12.31,
-  "sound": "notif",
+  "t": 4.98,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "s_perg"
+ },
+ {
+  "t": 5.51,
+  "sound": "tick",
   "gain": -31,
+  "cue": "k06"
+ },
+ {
+  "t": 6.55,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k07"
+ },
+ {
+  "t": 7.14,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "s_info"
+ },
+ {
+  "t": 7.91,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k08"
+ },
+ {
+  "t": 8.79,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k09"
+ },
+ {
+  "t": 8.9,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "s_fam"
+ },
+ {
+  "t": 9.51,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k10"
+ },
+ {
+  "t": 9.98,
+  "sound": "notif",
+  "gain": -33.0
+ },
+ {
+  "t": 10.146,
+  "sound": "notif",
+  "gain": -32.7
+ },
+ {
+  "t": 10.311,
+  "sound": "notif",
+  "gain": -32.4
+ },
+ {
+  "t": 10.39,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k11"
+ },
+ {
+  "t": 10.477,
+  "sound": "notif",
+  "gain": -32.1
+ },
+ {
+  "t": 10.642,
+  "sound": "notif",
+  "gain": -31.8
+ },
+ {
+  "t": 10.808,
+  "sound": "notif",
+  "gain": -31.5
+ },
+ {
+  "t": 10.973,
+  "sound": "notif",
+  "gain": -31.2
+ },
+ {
+  "t": 11.139,
+  "sound": "notif",
+  "gain": -30.9
+ },
+ {
+  "t": 11.304,
+  "sound": "notif",
+  "gain": -30.6
+ },
+ {
+  "t": 11.47,
+  "sound": "notif",
+  "gain": -30.3
+ },
+ {
+  "t": 11.57,
+  "sound": "impact",
+  "gain": -25,
   "cue": "s_dez"
  },
  {
-  "t": 14.07,
-  "sound": "shuffle",
-  "gain": -30,
+  "t": 11.75,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k12"
+ },
+ {
+  "t": 12.31,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k13"
+ },
+ {
+  "t": 12.4,
+  "sound": "whip",
+  "gain": -27,
   "cue": "c_desc"
  },
  {
-  "t": 17.7,
-  "sound": "fade_down",
-  "gain": -30,
+  "t": 13.11,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k14"
+ },
+ {
+  "t": 13.75,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k15"
+ },
+ {
+  "t": 13.78,
+  "sound": "tick",
+  "gain": -30
+ },
+ {
+  "t": 14.31,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k16"
+ },
+ {
+  "t": 14.33,
+  "sound": "tick",
+  "gain": -30
+ },
+ {
+  "t": 14.88,
+  "sound": "tick",
+  "gain": -30
+ },
+ {
+  "t": 15.43,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k17"
+ },
+ {
+  "t": 15.43,
+  "sound": "tick",
+  "gain": -30
+ },
+ {
+  "t": 15.98,
+  "sound": "tick",
+  "gain": -30
+ },
+ {
+  "t": 16.03,
+  "sound": "whoosh_dive",
+  "gain": -28,
   "cue": "c_tras"
  },
  {
-  "t": 24.4,
+  "t": 16.47,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k18"
+ },
+ {
+  "t": 17.03,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k23"
+ },
+ {
+  "t": 17.43,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k19"
+ },
+ {
+  "t": 18.18,
+  "sound": "shuffle",
+  "gain": -30,
+  "cue": "c_varias"
+ },
+ {
+  "t": 18.23,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k20"
+ },
+ {
+  "t": 19.03,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k21"
+ },
+ {
+  "t": 19.91,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k22"
+ },
+ {
+  "t": 20.89,
+  "sound": "block",
+  "gain": -26,
+  "cue": "c_visita"
+ },
+ {
+  "t": 21.67,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k24"
+ },
+ {
+  "t": 22.17,
+  "sound": "block",
+  "gain": -26,
+  "cue": "c_ret"
+ },
+ {
+  "t": 22.55,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k25"
+ },
+ {
+  "t": 22.74,
   "sound": "whoosh_up",
-  "gain": -27,
+  "gain": -26,
   "cue": "a_just"
  },
  {
-  "t": 27.48,
+  "t": 23.43,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k26"
+ },
+ {
+  "t": 24.07,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k27"
+ },
+ {
+  "t": 25.18,
+  "sound": "impact",
+  "gain": -25,
+  "cue": "a_ativo"
+ },
+ {
+  "t": 25.19,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k28"
+ },
+ {
+  "t": 25.28,
   "sound": "shimmer",
   "gain": -28,
   "cue": "a_ativo"
  },
  {
-  "t": 32.43,
+  "t": 26.39,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k29"
+ },
+ {
+  "t": 26.66,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "a_imo"
+ },
+ {
+  "t": 27.3,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "a_int"
+ },
+ {
+  "t": 27.35,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k30"
+ },
+ {
+  "t": 27.83,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k31"
+ },
+ {
+  "t": 27.94,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "a_atend"
+ },
+ {
+  "t": 28.55,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k32"
+ },
+ {
+  "t": 29.03,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k33"
+ },
+ {
+  "t": 29.2,
   "sound": "chord",
   "gain": -29,
   "cue": "a_cent"
  },
  {
-  "t": 36.314,
-  "sound": "pop",
+  "t": 29.67,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k34"
+ },
+ {
+  "t": 30.39,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k35"
+ },
+ {
+  "t": 30.998,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k36"
+ },
+ {
+  "t": 31.91,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k37"
+ },
+ {
+  "t": 32.55,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k38"
+ },
+ {
+  "t": 33.339,
+  "sound": "impact",
   "gain": -25,
   "cue": "cta_clique"
  },
  {
-  "t": 39.44,
+  "t": 33.419,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k39"
+ },
+ {
+  "t": 34.23,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k40"
+ },
+ {
+  "t": 34.79,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k41"
+ },
+ {
+  "t": 35.19,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k42"
+ },
+ {
+  "t": 36.16,
   "sound": "click",
   "gain": -24,
   "cue": "cta_end"

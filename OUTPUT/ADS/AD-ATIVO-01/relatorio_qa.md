@@ -1,4 +1,14 @@
-# QA — Criativo Meta Ads 01 · "A venda esquecida" (15/11/2026)
+# QA — Criativo Meta Ads 01 · "A venda esquecida" — v2 (15/11/2026)
+
+## v2 — edição para parar o scroll (pedido do cliente: "muito mais dinâmico, textos de acordo com a fala, SFX, voz 1,1×")
+- Voz: mesma tomada A aprovada, **1,1×** (atempo, tom preservado) — 36 s de fala, 185 palavras/min; `leadIn` 0,3 s para o impacto do quadro 0.
+- Texto na tela = transcrição palavra a palavra (blocos do roteiro), vermelho no problema, verde na solução; some antes do botão.
+- Quadro 0: carimbo SEM RESPOSTA + contador de dias rodando (1 → 12). Cortes com zoom de impacto a cada bloco, tremida e flash nos impactos (+10, VISITA?/RETORNO?, logo, botão), corte seco para o preto antes da solução.
+- Áudio: 78 eventos (troca de bloco, pops, notificações, impactos, bateria leve, respiro). Mixagem × voz: 110/110 palavras.
+- Validação: 11/11 (38,10 s · −15,0 LUFS · TP −1,69 dBTP) · editorial_check 0/0 · **movimento 3,15** · 7% parados · maior trecho parado 0,3 s.
+
+## v1 (substituída)
+
 
 **Fonte:** `ROTEIROS/ADS/AD-ATIVO-01.md` (cliente), narrado palavra por palavra. **Objetivo:** clique no botão do anúncio → formulário / landing page.
 **CTA:** "Quer conhecer como isso funciona? Clique no botão e descubra a solução da ATIVO." — tela CLIQUE NO BOTÃO + seta para baixo (onde a Meta coloca o botão). Funciona com qualquer texto de botão escolhido no Gerenciador.

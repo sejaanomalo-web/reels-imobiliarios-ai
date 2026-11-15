@@ -1,8 +1,8 @@
 {
  "file": "AD-ATIVO-01_FINAL.mp4",
- "size_mb": 17.3,
- "duration": 41.45,
- "video_bitrate_kbps": 3078,
+ "size_mb": 18.71,
+ "duration": 38.1,
+ "video_bitrate_kbps": 3667,
  "color_space": "bt709",
  "audio_sample_rate": "48000",
  "audio_channels": 2,
@@ -35,7 +35,7 @@
   {
    "check": "Duração = timeline (±0,1 s)",
    "ok": true,
-   "value": "41.45 s (timeline 41.43 s)"
+   "value": "38.10 s (timeline 38.10 s)"
   },
   {
    "check": "Decodificação sem erros",
@@ -45,12 +45,12 @@
   {
    "check": "Loudness entre -16 e -14 LUFS",
    "ok": true,
-   "value": "-15.01 LUFS"
+   "value": "-15.02 LUFS"
   },
   {
    "check": "True peak ≤ -1 dBTP",
    "ok": true,
-   "value": "-1.57 dBTP"
+   "value": "-1.69 dBTP"
   },
   {
    "check": "Sem trechos pretos ≥ 0,2 s",

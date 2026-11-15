@@ -112,7 +112,14 @@
 > - **Gancho:** situação concreta já no quadro 0, título na tela desde o 1º quadro (assistem sem som), sem abertura de marca; logo só na solução/CTA.
 > - **Movimento:** anúncio pede mais energia que o orgânico — meta ≥ 1,3 e nenhum trecho parado > 1 s, inclusive na CTA (objeto principal sempre balançando/flutuando, ondas no botão).
 > - **Saída:** `OUTPUT/ADS/AD-###/`, composição na pasta ADS-META do Root. Duração alvo 20–40 s.
-> - **AD-ATIVO-01 (15/11):** 41,4 s, movimento 0,95 → 1,40 após dar vida ao celular e à CTA; mix 110/110.
+> - **AD-ATIVO-01 v1 (15/11):** 41,4 s, 1,0×, movimento 1,40 — **reprovado pelo cliente: "precisa ser muito mais dinâmico".**
+> - **Padrão de edição de anúncio (v2, pedido do cliente 15/11/2026) — usar em todos os AD-*:**
+>   - Voz **1,1×** (`ffmpeg atempo=1.1` sobre a tomada aprovada; tom preservado; `voiceSpeed` no episode.json). Sem nova geração.
+>   - **Texto na tela = a fala** (`AD-ATIVO-01/scenes/KText.tsx`): blocos dos "|" do roteiro, palavra a palavra, 84 px caixa alta, faixa y ≈ 935–1240; palavras `*marcadas*` em vermelho no problema e verde na solução; some antes do botão da CTA.
+>   - **Palco recortado** y 270–910 com câmera própria de **cortes** (zoom de impacto a cada bloco/beat, transição de 0,14 s com motion blur), **tremida** e **flash** nos impactos, corte seco para o preto antes da solução.
+>   - **Quadro 0 forte**: carimbo/elemento grande já visível (ex.: SEM RESPOSTA + contador de dias rodando) — a fala começa em 0,3 s (`leadIn`) para o impacto sonoro não cobrir a 1ª palavra.
+>   - **SFX em toda troca** (cues `k00…` gerados dos blocos: swish/tick −31 a −34 dB, 70 ms antes) + impactos nos beats + séries (notificações, dias) + bateria leve (`music.drums`, bpm 112) com `drops` no respiro antes da solução. Conferir voz × mixagem: v2 com 78 eventos manteve 110/110 palavras.
+>   - Medido no AD-ATIVO-01 v2: 38,1 s, **movimento 3,15** (v1 1,40), 7% quadros parados, maior trecho parado 0,3 s.
 >
 > ### Registro do ATIVO Episódio 05 (15/11/2026)
 >
@@ -223,6 +230,7 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-14 | ATIVO EP04 | Roteiro do cliente + CTA SISTEMA obrigatória (salvar → transição); logo oficial. Tomada única sem edição, 158 palavras/min, 70,3 s, movimento 1,53, maior trecho parado 1,1 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-15 | ATIVO EP05 | Roteiro do cliente + CTA SISTEMA (compartilhar → transição); verde exato verificado no render. Tomada A sem edição, 157 palavras/min, 82,7 s, movimento 1,40, maior trecho parado 0,8 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-15 | AD-ATIVO-01 | Criativo Meta Ads "A venda esquecida": CTA para o botão, área útil y 270–1250, legenda y 1185. Tomada A, 41,4 s, movimento 1,40, maior trecho parado 0,7 s | Pedido do cliente; aguardando avaliação |
+| 2026-11-15 | AD-ATIVO-01 v2 | Edição para parar o scroll: 1,1×, transcrição dinâmica, cortes/tremida/flash, SFX em cada troca, bateria. 38,1 s, movimento 3,15, maior trecho parado 0,3 s, mix 110/110 | Pedido do cliente (v1 reprovada por pouca dinâmica); aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 | Vídeo principal da landing: 118 s, 1920×1080, trilha original por blocos, marca e telas provisórias, legendas web | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 v2 | Transcrição dinâmica, voz 1,2× (exceção pedida), 86,5 s, elementos maiores, movimento 2,39 | Feedback do cliente: mais dinâmica, texto = fala, gancho mais forte |
 | 2026-11-13 | LANDING 16:9 FINAL | Logo oficial (revelação) + verde #3AF584, 3 situações centralizadas, voz 1,0×, 103 s, movimento 2,0 | Aprovado para implementação pelo cliente, com estes ajustes |
