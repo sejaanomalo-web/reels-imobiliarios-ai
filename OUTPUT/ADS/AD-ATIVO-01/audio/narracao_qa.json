@@ -1,0 +1,67 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.16,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 7.7,
+    "palavras_nao_reconhecidas": [
+      "dez"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.77,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 6.17,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.86,
+    "palavras_nao_reconhecidas": [
+      "pra"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 5.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 1.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 2.58,
+    "palavras_nao_reconhecidas": [
+      "Clique"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 39.56,
+    "asr_match": 0.973,
+    "aligned_words": "108/111",
+    "words_per_min": 168,
+    "heard": "Talvez a venda do seu próximo imóvel esteja numa conversa que você esqueceu de responder. A pessoa perguntou sobre o apartamento, pediu mais informações, ficou de conversar com a família, e aí chegaram outras 10 mensagens. A conversa foi descendo, você seguiu sua rotina e aquele interessado ficou para trás. O problema é que quando você atende várias pessoas, fica difícil lembrar quem pediu visita e quem precisa de retorno. É justamente essa parte que o sistema ativo organiza para você. Seus imóveis, interessados e atendimentos podem ficar centralizados em um sistema pensado para a sua rotina. Quer conhecer como isso funciona? Clica no botão e descubra a solução da ativo."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 39.56,
+      "wpm": 168
+    },
+    "final": {
+      "seconds": 39.56,
+      "wpm": 168
+    }
+  }
+]

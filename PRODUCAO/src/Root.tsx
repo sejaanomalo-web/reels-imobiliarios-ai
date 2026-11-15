@@ -38,6 +38,7 @@ import { ATIVO04, timeline as ativo04 } from "./episodes/EP-ATIVO04/Episode";
 import { ATIVO04Cover } from "./episodes/EP-ATIVO04/Cover";
 import { ATIVO05, timeline as ativo05 } from "./episodes/EP-ATIVO05/Episode";
 import { ATIVO05Cover } from "./episodes/EP-ATIVO05/Cover";
+import { AD01, timeline as ad01 } from "./episodes/AD-ATIVO-01/Episode";
 import { LandingAtivo, timeline as lpAtivo } from "./episodes/LP-ATIVO/Landing";
 import { LandingPoster } from "./episodes/LP-ATIVO/Poster";
 import { LandingAtivoV2, timeline as lpAtivoV2 } from "./episodes/LP-ATIVO-V2/Landing";
@@ -308,6 +309,18 @@ export const RemotionRoot: React.FC = () => (
         defaultProps={{ withAudio: true }}
       />
       <Still id="LP-ATIVO-V3-Capa" component={LandingPosterV3} width={1920} height={1080} />
+    </Folder>
+    <Folder name="ADS-META">
+      {/* Criativos de anúncio 9:16: área útil y 270–1250; CTA para o botão do anúncio. */}
+      <Composition
+        id="AD-ATIVO-01"
+        component={AD01}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ad01.fps}
+        durationInFrames={ad01.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
     </Folder>
     <Folder name="STORIES-NA-PRATICA">
       {/* Voz oficial gravada em 14/11/2026. Sem autorização dos corretores, os Stories saem com marca d'água de prévia interna. */}

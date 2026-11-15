@@ -1,0 +1,1098 @@
+{
+ "id": "AD-ATIVO-01",
+ "title": "A venda esquecida",
+ "fps": 30,
+ "duration": 41.43333333333333,
+ "durationInFrames": 1243,
+ "narrationEnd": 39.611,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.52
+  },
+  {
+   "id": "situacao",
+   "start": 4.52,
+   "end": 12.58
+  },
+  {
+   "id": "consequencia",
+   "start": 12.58,
+   "end": 24.295
+  },
+  {
+   "id": "ativo",
+   "start": 24.295,
+   "end": 34.75
+  },
+  {
+   "id": "cta",
+   "start": 34.75,
+   "end": 41.433
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Talvez a venda do seu próximo imóvel esteja numa conversa que você esqueceu de responder.",
+   "start": 0.05,
+   "end": 4.21
+  },
+  {
+   "id": "s2",
+   "scene": "situacao",
+   "text": "A pessoa perguntou sobre o apartamento, pediu mais informações, ficou de conversar com a família... e aí chegaram outras dez mensagens.",
+   "start": 4.77,
+   "end": 12.47
+  },
+  {
+   "id": "s3",
+   "scene": "consequencia",
+   "text": "A conversa foi descendo, você seguiu sua rotina e aquele interessado ficou para trás.",
+   "start": 12.69,
+   "end": 17.46
+  },
+  {
+   "id": "s4",
+   "scene": "consequencia",
+   "text": "O problema é que, quando você atende várias pessoas, fica difícil lembrar quem pediu visita e quem precisa de retorno.",
+   "start": 17.89,
+   "end": 24.06
+  },
+  {
+   "id": "s5",
+   "scene": "ativo",
+   "text": "É justamente essa parte que o sistema ATIVO organiza pra você.",
+   "start": 24.53,
+   "end": 28.39
+  },
+  {
+   "id": "s6",
+   "scene": "ativo",
+   "text": "Seus imóveis, interessados e atendimentos podem ficar centralizados em um sistema pensado para a sua rotina.",
+   "start": 28.85,
+   "end": 34.57
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Quer conhecer como isso funciona?",
+   "start": 34.93,
+   "end": 36.29
+  },
+  {
+   "id": "s8",
+   "scene": "cta",
+   "text": "Clique no botão e descubra a solução da ATIVO.",
+   "start": 36.564,
+   "end": 39.14
+  }
+ ],
+ "cues": {
+  "h_venda": 0.69,
+  "h_conversa": 2.77,
+  "h_esq": 3.33,
+  "s_perg": 5.33,
+  "s_info": 7.65,
+  "s_fam": 9.65,
+  "s_cheg": 10.69,
+  "s_dez": 11.81,
+  "c_desc": 13.57,
+  "c_rot": 15.09,
+  "c_tras": 17.25,
+  "c_prob": 18.21,
+  "c_varias": 19.81,
+  "c_visita": 22.37,
+  "c_ret": 23.73,
+  "a_just": 24.85,
+  "a_ativo": 26.93,
+  "a_org": 27.57,
+  "a_imo": 29.17,
+  "a_int": 29.89,
+  "a_atend": 30.61,
+  "a_cent": 31.73,
+  "a_rot": 34.21,
+  "cta_q": 34.93,
+  "cta_func": 35.97,
+  "cta_clique": 36.564,
+  "cta_botao": 37.09,
+  "cta_ativo": 38.77,
+  "cta_end": 39.14
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.05,
+   "end": 1.01,
+   "words": [
+    {
+     "text": "Talvez",
+     "start": 0.05,
+     "end": 0.13,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 0.53,
+     "end": 0.69,
+     "emph": false
+    },
+    {
+     "text": "venda",
+     "start": 0.69,
+     "end": 1.01,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.01,
+   "end": 2.05,
+   "words": [
+    {
+     "text": "do",
+     "start": 1.01,
+     "end": 1.09,
+     "emph": false
+    },
+    {
+     "text": "seu",
+     "start": 1.09,
+     "end": 1.25,
+     "emph": false
+    },
+    {
+     "text": "próximo",
+     "start": 1.25,
+     "end": 1.57,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 1.57,
+     "end": 2.05,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.05,
+   "end": 3.01,
+   "words": [
+    {
+     "text": "esteja",
+     "start": 2.05,
+     "end": 2.45,
+     "emph": false
+    },
+    {
+     "text": "numa",
+     "start": 2.45,
+     "end": 2.77,
+     "emph": false
+    },
+    {
+     "text": "conversa",
+     "start": 2.77,
+     "end": 3.01,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.01,
+   "end": 3.81,
+   "words": [
+    {
+     "text": "que",
+     "start": 3.01,
+     "end": 3.17,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 3.17,
+     "end": 3.33,
+     "emph": false
+    },
+    {
+     "text": "esqueceu",
+     "start": 3.33,
+     "end": 3.81,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.81,
+   "end": 4.56,
+   "words": [
+    {
+     "text": "de",
+     "start": 3.81,
+     "end": 3.89,
+     "emph": false
+    },
+    {
+     "text": "responder.",
+     "start": 3.89,
+     "end": 4.21,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.77,
+   "end": 5.81,
+   "words": [
+    {
+     "text": "A",
+     "start": 4.77,
+     "end": 4.93,
+     "emph": false
+    },
+    {
+     "text": "pessoa",
+     "start": 4.93,
+     "end": 5.33,
+     "emph": false
+    },
+    {
+     "text": "perguntou",
+     "start": 5.33,
+     "end": 5.81,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.81,
+   "end": 7.01,
+   "words": [
+    {
+     "text": "sobre",
+     "start": 5.81,
+     "end": 6.05,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 6.05,
+     "end": 6.21,
+     "emph": false
+    },
+    {
+     "text": "apartamento,",
+     "start": 6.21,
+     "end": 7.01,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.01,
+   "end": 8.53,
+   "words": [
+    {
+     "text": "pediu",
+     "start": 7.01,
+     "end": 7.41,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 7.41,
+     "end": 7.65,
+     "emph": false
+    },
+    {
+     "text": "informações,",
+     "start": 7.65,
+     "end": 8.53,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.53,
+   "end": 9.41,
+   "words": [
+    {
+     "text": "ficou",
+     "start": 8.53,
+     "end": 8.85,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 8.85,
+     "end": 9.01,
+     "emph": false
+    },
+    {
+     "text": "conversar",
+     "start": 9.01,
+     "end": 9.41,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.41,
+   "end": 10.29,
+   "words": [
+    {
+     "text": "com",
+     "start": 9.41,
+     "end": 9.57,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 9.57,
+     "end": 9.65,
+     "emph": false
+    },
+    {
+     "text": "família...",
+     "start": 9.65,
+     "end": 10.29,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.29,
+   "end": 11.17,
+   "words": [
+    {
+     "text": "e",
+     "start": 10.29,
+     "end": 10.45,
+     "emph": false
+    },
+    {
+     "text": "aí",
+     "start": 10.45,
+     "end": 10.69,
+     "emph": false
+    },
+    {
+     "text": "chegaram",
+     "start": 10.69,
+     "end": 11.17,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 11.17,
+   "end": 12.69,
+   "words": [
+    {
+     "text": "outras",
+     "start": 11.17,
+     "end": 11.597,
+     "emph": false
+    },
+    {
+     "text": "dez",
+     "start": 11.597,
+     "end": 11.81,
+     "emph": true
+    },
+    {
+     "text": "mensagens.",
+     "start": 11.81,
+     "end": 12.47,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.69,
+   "end": 13.33,
+   "words": [
+    {
+     "text": "A",
+     "start": 12.69,
+     "end": 12.85,
+     "emph": false
+    },
+    {
+     "text": "conversa",
+     "start": 12.85,
+     "end": 13.33,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.33,
+   "end": 14.21,
+   "words": [
+    {
+     "text": "foi",
+     "start": 13.33,
+     "end": 13.57,
+     "emph": false
+    },
+    {
+     "text": "descendo,",
+     "start": 13.57,
+     "end": 14.21,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.21,
+   "end": 14.85,
+   "words": [
+    {
+     "text": "você",
+     "start": 14.21,
+     "end": 14.45,
+     "emph": false
+    },
+    {
+     "text": "seguiu",
+     "start": 14.45,
+     "end": 14.85,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.85,
+   "end": 15.57,
+   "words": [
+    {
+     "text": "sua",
+     "start": 14.85,
+     "end": 15.09,
+     "emph": false
+    },
+    {
+     "text": "rotina",
+     "start": 15.09,
+     "end": 15.57,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.57,
+   "end": 16.77,
+   "words": [
+    {
+     "text": "e",
+     "start": 15.57,
+     "end": 15.81,
+     "emph": false
+    },
+    {
+     "text": "aquele",
+     "start": 15.81,
+     "end": 16.21,
+     "emph": false
+    },
+    {
+     "text": "interessado",
+     "start": 16.21,
+     "end": 16.77,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 16.77,
+   "end": 17.89,
+   "words": [
+    {
+     "text": "ficou",
+     "start": 16.77,
+     "end": 17.09,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 17.09,
+     "end": 17.25,
+     "emph": true
+    },
+    {
+     "text": "trás.",
+     "start": 17.25,
+     "end": 17.46,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.89,
+   "end": 18.93,
+   "words": [
+    {
+     "text": "O",
+     "start": 17.89,
+     "end": 17.97,
+     "emph": false
+    },
+    {
+     "text": "problema",
+     "start": 18.21,
+     "end": 18.53,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 18.53,
+     "end": 18.69,
+     "emph": false
+    },
+    {
+     "text": "que,",
+     "start": 18.69,
+     "end": 18.93,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.93,
+   "end": 19.81,
+   "words": [
+    {
+     "text": "quando",
+     "start": 18.93,
+     "end": 19.17,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 19.17,
+     "end": 19.33,
+     "emph": false
+    },
+    {
+     "text": "atende",
+     "start": 19.33,
+     "end": 19.81,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 19.81,
+   "end": 20.69,
+   "words": [
+    {
+     "text": "várias",
+     "start": 19.81,
+     "end": 20.21,
+     "emph": true
+    },
+    {
+     "text": "pessoas,",
+     "start": 20.21,
+     "end": 20.69,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 20.69,
+   "end": 21.73,
+   "words": [
+    {
+     "text": "fica",
+     "start": 20.69,
+     "end": 20.93,
+     "emph": false
+    },
+    {
+     "text": "difícil",
+     "start": 20.93,
+     "end": 21.33,
+     "emph": false
+    },
+    {
+     "text": "lembrar",
+     "start": 21.33,
+     "end": 21.73,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 21.73,
+   "end": 22.77,
+   "words": [
+    {
+     "text": "quem",
+     "start": 21.73,
+     "end": 21.97,
+     "emph": false
+    },
+    {
+     "text": "pediu",
+     "start": 21.97,
+     "end": 22.37,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 22.37,
+     "end": 22.77,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 22.77,
+   "end": 23.57,
+   "words": [
+    {
+     "text": "e",
+     "start": 22.77,
+     "end": 22.93,
+     "emph": false
+    },
+    {
+     "text": "quem",
+     "start": 22.93,
+     "end": 23.25,
+     "emph": false
+    },
+    {
+     "text": "precisa",
+     "start": 23.25,
+     "end": 23.57,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 23.57,
+   "end": 24.53,
+   "words": [
+    {
+     "text": "de",
+     "start": 23.57,
+     "end": 23.73,
+     "emph": false
+    },
+    {
+     "text": "retorno.",
+     "start": 23.73,
+     "end": 24.06,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.53,
+   "end": 25.49,
+   "words": [
+    {
+     "text": "É",
+     "start": 24.53,
+     "end": 24.85,
+     "emph": false
+    },
+    {
+     "text": "justamente",
+     "start": 24.85,
+     "end": 25.49,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 25.49,
+   "end": 26.21,
+   "words": [
+    {
+     "text": "essa",
+     "start": 25.49,
+     "end": 25.97,
+     "emph": false
+    },
+    {
+     "text": "parte",
+     "start": 25.97,
+     "end": 26.21,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 26.21,
+   "end": 27.57,
+   "words": [
+    {
+     "text": "que",
+     "start": 26.21,
+     "end": 26.45,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 26.45,
+     "end": 26.61,
+     "emph": false
+    },
+    {
+     "text": "sistema",
+     "start": 26.61,
+     "end": 26.93,
+     "emph": false
+    },
+    {
+     "text": "ATIVO",
+     "start": 26.93,
+     "end": 27.57,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 27.57,
+   "end": 28.85,
+   "words": [
+    {
+     "text": "organiza",
+     "start": 27.57,
+     "end": 28.035,
+     "emph": true
+    },
+    {
+     "text": "pra",
+     "start": 28.035,
+     "end": 28.21,
+     "emph": false
+    },
+    {
+     "text": "você.",
+     "start": 28.21,
+     "end": 28.39,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.85,
+   "end": 29.89,
+   "words": [
+    {
+     "text": "Seus",
+     "start": 28.85,
+     "end": 29.17,
+     "emph": false
+    },
+    {
+     "text": "imóveis,",
+     "start": 29.17,
+     "end": 29.89,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 29.89,
+   "end": 30.45,
+   "words": [
+    {
+     "text": "interessados",
+     "start": 29.89,
+     "end": 30.45,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 30.45,
+   "end": 31.25,
+   "words": [
+    {
+     "text": "e",
+     "start": 30.45,
+     "end": 30.61,
+     "emph": false
+    },
+    {
+     "text": "atendimentos",
+     "start": 30.61,
+     "end": 31.25,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 31.25,
+   "end": 31.73,
+   "words": [
+    {
+     "text": "podem",
+     "start": 31.25,
+     "end": 31.49,
+     "emph": false
+    },
+    {
+     "text": "ficar",
+     "start": 31.49,
+     "end": 31.73,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 31.73,
+   "end": 32.45,
+   "words": [
+    {
+     "text": "centralizados",
+     "start": 31.73,
+     "end": 32.45,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 32.45,
+   "end": 33.17,
+   "words": [
+    {
+     "text": "em",
+     "start": 32.45,
+     "end": 32.61,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 32.61,
+     "end": 32.77,
+     "emph": false
+    },
+    {
+     "text": "sistema",
+     "start": 32.77,
+     "end": 33.17,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 33.17,
+   "end": 33.89,
+   "words": [
+    {
+     "text": "pensado",
+     "start": 33.17,
+     "end": 33.73,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 33.73,
+     "end": 33.89,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 33.89,
+   "end": 34.93,
+   "words": [
+    {
+     "text": "a",
+     "start": 33.89,
+     "end": 33.97,
+     "emph": false
+    },
+    {
+     "text": "sua",
+     "start": 33.97,
+     "end": 34.21,
+     "emph": false
+    },
+    {
+     "text": "rotina.",
+     "start": 34.21,
+     "end": 34.57,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 34.93,
+   "end": 35.65,
+   "words": [
+    {
+     "text": "Quer",
+     "start": 34.93,
+     "end": 35.01,
+     "emph": false
+    },
+    {
+     "text": "conhecer",
+     "start": 35.25,
+     "end": 35.65,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 35.65,
+   "end": 36.564,
+   "words": [
+    {
+     "text": "como",
+     "start": 35.65,
+     "end": 35.81,
+     "emph": false
+    },
+    {
+     "text": "isso",
+     "start": 35.81,
+     "end": 35.97,
+     "emph": false
+    },
+    {
+     "text": "funciona?",
+     "start": 35.97,
+     "end": 36.29,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 36.564,
+   "end": 37.41,
+   "words": [
+    {
+     "text": "Clique",
+     "start": 36.564,
+     "end": 36.64,
+     "emph": true
+    },
+    {
+     "text": "no",
+     "start": 37.01,
+     "end": 37.09,
+     "emph": true
+    },
+    {
+     "text": "botão",
+     "start": 37.09,
+     "end": 37.41,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 37.41,
+   "end": 38.05,
+   "words": [
+    {
+     "text": "e",
+     "start": 37.41,
+     "end": 37.49,
+     "emph": false
+    },
+    {
+     "text": "descubra",
+     "start": 37.49,
+     "end": 38.05,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 38.05,
+   "end": 38.53,
+   "words": [
+    {
+     "text": "a",
+     "start": 38.05,
+     "end": 38.13,
+     "emph": false
+    },
+    {
+     "text": "solução",
+     "start": 38.13,
+     "end": 38.53,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 38.53,
+   "end": 39.64,
+   "words": [
+    {
+     "text": "da",
+     "start": 38.53,
+     "end": 38.77,
+     "emph": false
+    },
+    {
+     "text": "ATIVO.",
+     "start": 38.77,
+     "end": 39.14,
+     "emph": false
+    }
+   ]
+  }
+ ],
+ "hideCaptions": [
+  "s8"
+ ]
+}

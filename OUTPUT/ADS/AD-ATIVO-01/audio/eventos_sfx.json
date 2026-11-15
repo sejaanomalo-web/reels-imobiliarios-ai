@@ -1,0 +1,62 @@
+[
+ {
+  "t": 3.93,
+  "sound": "pop",
+  "gain": -26,
+  "cue": "h_esq"
+ },
+ {
+  "t": 10.69,
+  "sound": "notif",
+  "gain": -31,
+  "cue": "s_cheg"
+ },
+ {
+  "t": 12.31,
+  "sound": "notif",
+  "gain": -31,
+  "cue": "s_dez"
+ },
+ {
+  "t": 14.07,
+  "sound": "shuffle",
+  "gain": -30,
+  "cue": "c_desc"
+ },
+ {
+  "t": 17.7,
+  "sound": "fade_down",
+  "gain": -30,
+  "cue": "c_tras"
+ },
+ {
+  "t": 24.4,
+  "sound": "whoosh_up",
+  "gain": -27,
+  "cue": "a_just"
+ },
+ {
+  "t": 27.48,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "a_ativo"
+ },
+ {
+  "t": 32.43,
+  "sound": "chord",
+  "gain": -29,
+  "cue": "a_cent"
+ },
+ {
+  "t": 36.314,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_clique"
+ },
+ {
+  "t": 39.44,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_end"
+ }
+]

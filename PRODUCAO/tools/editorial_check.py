@@ -5,7 +5,8 @@ Saída: ERRO (bloqueia) / AVISO (revisar) por item; código de saída 1 se houve
 
 O que verifica:
   1. CTA e destino definidos (campo `cta` no episode.json ou chamada reconhecível na última cena).
-     Reels (9:16, exceto STORY-*): CTA obrigatória de comentário SISTEMA → Direct (14/11/2026).
+     Reels (9:16, exceto STORY-*/AD-*): CTA obrigatória de comentário SISTEMA → Direct (14/11/2026).
+     Anúncios (AD-*): CTA para o botão do anúncio (cta.type=botao_meta); texto principal acima de y=1250.
   2. Promessas não comprovadas na fala ou no texto de tela: "garantido", "triplicar", "dobrar suas vendas", "em X dias",
      "100%", depoimento.
   3. Fonte pequena para público 40+ (fontSize abaixo do mínimo do formato).
@@ -56,7 +57,13 @@ def check(ep_id: str) -> int:
     elif not ep.get("cta"):
         warns.append("CTA só reconhecido na fala — registrar `cta` (tipo e destino) no episode.json")
     # 1b. Reels: CTA SEMPRE comentário SISTEMA → Direct (cliente, 14/11/2026). Episódios entregues antes ficam isentos.
-    is_reel = vertical and not ep_id.startswith("STORY")
+    # 1c. Criativos de anúncio (AD-*): CTA para o BOTÃO do anúncio (formulário/landing), não comentário; texto acima da faixa do botão
+    is_ad = ep_id.startswith("AD-")
+    if is_ad:
+        cta = ep.get("cta") or {}
+        if cta.get("type") != "botao_meta" or not re.search(r"bot[aã]o|clique|toque", last_text):
+            errs.append("Anúncio sem CTA para o botão (cta.type=botao_meta e fala final com 'clique/toque no botão')")
+    is_reel = vertical and not ep_id.startswith("STORY") and not is_ad
     if is_reel and ep_id not in LEGACY_CTA:
         cta = ep.get("cta") or {}
         if cta.get("type") != "comentario" or str(cta.get("keyword", "")).upper() != "SISTEMA" or not re.search(r"coment\w*\s+sistema", last_text):
@@ -93,9 +100,10 @@ def check(ep_id: str) -> int:
             if re.search(OLD_GREEN, line, flags=re.I):
                 errs.append(f"verde fora da marca (use BRAND/brandAlpha) — {rel}:{i}")
             if vertical:
+                limit = 1250 if ep_id.startswith("AD-") else 1570  # anúncio: botão/legenda da Meta cobrem ~35% de baixo
                 for n in re.findall(r"\btop:\s*(\d+)", line):
-                    if int(n) > 1570 and ("fontSize" in line or "fontWeight" in line):
-                        warns.append(f"texto em top {n}px (abaixo da área segura 1570px) — {rel}:{i}")
+                    if int(n) > limit and ("fontSize" in line or "fontWeight" in line):
+                        warns.append(f"texto em top {n}px (abaixo da área segura {limit}px) — {rel}:{i}")
         # captura REAL do sistema (STORY-ATIVO/cases + <Capture>) não é interface desenhada: não leva "ilustrativa"
         real_capture = re.search(r"<Capture\b", src) and re.search(r"STORY-ATIVO/cases", src)
         if re.search(r"AppWindow|Kanban|CRM|Painel|Dashboard|INTERFACE", src) and not real_capture:

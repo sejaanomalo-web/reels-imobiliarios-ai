@@ -1,0 +1,414 @@
+{
+ "id": "AD-ATIVO-01",
+ "title": "A venda esquecida",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.05,
+ "tail": 1.8,
+ "outputDir": "ADS/AD-ATIVO-01",
+ "deliverables": {
+  "final": "AD-ATIVO-01_FINAL.mp4",
+  "narration": "AD-ATIVO-01_NARRACAO.wav",
+  "subtitles": "AD-ATIVO-01_legendas.srt",
+  "cover": "AD-ATIVO-01_capa.png",
+  "coverCue": "h_esq",
+  "coverOffset": 0.6
+ },
+ "fonte": "ROTEIROS/ADS/AD-ATIVO-01.md (cliente, 15/11/2026)",
+ "formato": "Meta Ads — Reels/Stories 9:16; área útil y 270–1250 (botão e legenda do anúncio cobrem o resto)",
+ "diagnostico": {
+  "publico_situacao": "corretor que atende muitas conversas ao mesmo tempo e deixa interessados sem retorno",
+  "motivacao": "não perder oportunidades por falta de acompanhamento",
+  "crenca_questionada": "'se o cliente quiser, ele volta'",
+  "hipotese": "a suspeita de que uma venda pode estar escondida numa conversa antiga prende o corretor",
+  "funcao": "C1 identificação (anúncio, público frio)",
+  "promessa": "organizar imóveis, interessados e atendimentos num sistema pensado para a rotina dele",
+  "evidencias": "interface ilustrativa (rotulada); sem números, depoimentos ou funções não comprovadas",
+  "cta": "botão do anúncio → formulário / landing page"
+ },
+ "cta": {
+  "type": "botao_meta",
+  "destino": "botão do anúncio (formulário ou landing page, definido no Gerenciador de Anúncios)",
+  "texto": "Quer conhecer como isso funciona? Clique no botão e descubra a solução da ATIVO.",
+  "tela": "CLIQUE NO BOTÃO ↓"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Talvez a venda do seu próximo imóvel esteja numa conversa que você esqueceu de responder.",
+   "caption": "Talvez a *venda* | do seu próximo imóvel | esteja numa conversa | que você *esqueceu* | de responder.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "situacao",
+   "text": "A pessoa perguntou sobre o apartamento, pediu mais informações, ficou de conversar com a família... e aí chegaram outras dez mensagens.",
+   "caption": "A pessoa *perguntou* | sobre o apartamento, | pediu mais *informações,* | ficou de conversar | com a *família...* | e aí chegaram | outras *dez mensagens.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "consequencia",
+   "text": "A conversa foi descendo, você seguiu sua rotina e aquele interessado ficou para trás.",
+   "caption": "A conversa | foi *descendo,* | você seguiu | sua rotina | e aquele interessado | ficou *para trás.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "consequencia",
+   "text": "O problema é que, quando você atende várias pessoas, fica difícil lembrar quem pediu visita e quem precisa de retorno.",
+   "caption": "O problema é que, | quando você atende | *várias pessoas,* | fica difícil lembrar | quem pediu *visita* | e quem precisa | de *retorno.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "ativo",
+   "text": "É justamente essa parte que o sistema ATIVO organiza pra você.",
+   "caption": "É justamente | essa parte | que o sistema *ATIVO* | *organiza* pra você.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "ativo",
+   "text": "Seus imóveis, interessados e atendimentos podem ficar centralizados em um sistema pensado para a sua rotina.",
+   "caption": "Seus *imóveis,* | *interessados* | e *atendimentos* | podem ficar | *centralizados* | em um sistema | pensado para | a sua rotina.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Quer conhecer como isso funciona?",
+   "caption": "Quer conhecer | como isso *funciona?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "cta",
+   "text": "Clique no botão e descubra a solução da ATIVO.",
+   "caption": "*Clique no botão* | e descubra | a solução | da ATIVO.",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "situacao": 0.25,
+  "consequencia": 0.3,
+  "ativo": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [
+  "s8"
+ ],
+ "cues": {
+  "h_venda": {
+   "seg": "s1",
+   "word": "venda",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_conversa": {
+   "seg": "s1",
+   "word": "conversa",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_esq": {
+   "seg": "s1",
+   "word": "esqueceu",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_perg": {
+   "seg": "s2",
+   "word": "perguntou",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_info": {
+   "seg": "s2",
+   "word": "informações",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_fam": {
+   "seg": "s2",
+   "word": "família",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_cheg": {
+   "seg": "s2",
+   "word": "chegaram",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_dez": {
+   "seg": "s2",
+   "word": "mensagens",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_desc": {
+   "seg": "s3",
+   "word": "descendo",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_rot": {
+   "seg": "s3",
+   "word": "rotina",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_tras": {
+   "seg": "s3",
+   "word": "trás",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_prob": {
+   "seg": "s4",
+   "word": "problema",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_varias": {
+   "seg": "s4",
+   "word": "várias",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_visita": {
+   "seg": "s4",
+   "word": "visita",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_ret": {
+   "seg": "s4",
+   "word": "retorno",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_just": {
+   "seg": "s5",
+   "word": "justamente",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_ativo": {
+   "seg": "s5",
+   "word": "ATIVO",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_org": {
+   "seg": "s5",
+   "word": "organiza",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_imo": {
+   "seg": "s6",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_int": {
+   "seg": "s6",
+   "word": "interessados",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_atend": {
+   "seg": "s6",
+   "word": "atendimentos",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_cent": {
+   "seg": "s6",
+   "word": "centralizados",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_rot": {
+   "seg": "s6",
+   "word": "rotina",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_q": {
+   "seg": "s7",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_func": {
+   "seg": "s7",
+   "word": "funciona",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_clique": {
+   "seg": "s8",
+   "word": "Clique",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_botao": {
+   "seg": "s8",
+   "word": "botão",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_ativo": {
+   "seg": "s8",
+   "word": "ATIVO",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s8",
+   "word": "ATIVO",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_esq",
+   "offset": 0.6,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 2
+  },
+  {
+   "cue": "s_cheg",
+   "offset": 0.0,
+   "sound": "notif",
+   "gain": -31
+  },
+  {
+   "cue": "s_dez",
+   "offset": 0.5,
+   "sound": "notif",
+   "gain": -31,
+   "pitch": 3
+  },
+  {
+   "cue": "c_desc",
+   "offset": 0.5,
+   "sound": "shuffle",
+   "gain": -30
+  },
+  {
+   "cue": "c_tras",
+   "offset": 0.45,
+   "sound": "fade_down",
+   "gain": -30,
+   "dur": 1.4
+  },
+  {
+   "cue": "a_just",
+   "offset": -0.45,
+   "sound": "whoosh_up",
+   "gain": -27,
+   "dur": 0.6
+  },
+  {
+   "cue": "a_ativo",
+   "offset": 0.55,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "a_cent",
+   "offset": 0.7,
+   "sound": "chord",
+   "gain": -29
+  },
+  {
+   "cue": "cta_clique",
+   "offset": -0.25,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.3,
+   "sound": "click",
+   "gain": -24
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 96,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Am — a conversa esquecida"
+   },
+   {
+    "at": "cue:c_prob",
+    "notes": [
+     26,
+     38,
+     50,
+     53,
+     57
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Dm — problema"
+   },
+   {
+    "at": "cue:a_just",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "F — ATIVO"
+   },
+   {
+    "at": "cue:cta_q",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — clique"
+   }
+  ]
+ }
+}

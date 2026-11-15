@@ -105,6 +105,15 @@
 > - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP04.md`); **primeiro episódio sob a regra "CTA sempre SISTEMA"** — a CTA de salvamento virou transição. Preset original 1,0×, tomada única sem edição; logo oficial no fecho; composição `EP-ATIVO04`, saída `OUTPUT/ATIVO_EP04/`.
 > - **Aprendizados:** (1) o "pop" de entrada de um título caiu sobre um artigo ("com **a** sua") — a comparação voz × mixagem pegou; efeito de título entra depois da palavra-chave, não antes; (2) régua "PERGUNTA n DE 4" segura lista de perguntas sem virar slide; (3) título e conteúdo da pergunta devem entrar logo após "Primeiro:/Segundo:", não na palavra-chave seguinte — senão sobra ~1 s só com a régua; (4) o gerador de tomadas (scratchpad) precisa aplicar `pronunciation` antes da síntese (aqui a voz já falou "sistema" corretamente sem isso).
 >
+> ### Criativos de anúncio Meta Ads (AD-*) — padrão a partir de 15/11/2026
+>
+> - **Objetivo:** clique no botão do anúncio → formulário/landing. **CTA = botão** (`cta.type: "botao_meta"`, fala "Clique no botão…", tela CLIQUE NO BOTÃO + seta para baixo). A regra "CTA SISTEMA" vale só para Reels orgânicos; `editorial_check` aplica a regra certa pelo prefixo `AD-`.
+> - **Área útil:** conteúdo e texto entre y 270 e y 1250 (botão/legenda da Meta cobrem ~35% de baixo; fontes de terceiros — conferir no preview do Gerenciador). Legenda queimada em y≈1185 (`<Captions y={1185} size={58} />`); a última frase pode ficar só na tipografia (`hideCaptions`). Títulos **fora** da câmera virtual.
+> - **Gancho:** situação concreta já no quadro 0, título na tela desde o 1º quadro (assistem sem som), sem abertura de marca; logo só na solução/CTA.
+> - **Movimento:** anúncio pede mais energia que o orgânico — meta ≥ 1,3 e nenhum trecho parado > 1 s, inclusive na CTA (objeto principal sempre balançando/flutuando, ondas no botão).
+> - **Saída:** `OUTPUT/ADS/AD-###/`, composição na pasta ADS-META do Root. Duração alvo 20–40 s.
+> - **AD-ATIVO-01 (15/11):** 41,4 s, movimento 0,95 → 1,40 após dar vida ao celular e à CTA; mix 110/110.
+>
 > ### Registro do ATIVO Episódio 05 (15/11/2026)
 >
 > - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP05.md`); CTA SISTEMA (compartilhamento → transição adaptada); verde exato `#3AF584` (checado no render); preset original 1,0×, tomada A sem edição; composição `EP-ATIVO05`, saída `OUTPUT/ATIVO_EP05/`. Cenas preparadas na véspera com linha do tempo provisória (`tools/provisional_timeline.py`) e voz gerada na renovação da cota (`tools/gen_take.py`).
@@ -213,6 +222,7 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-14 | ATIVO EP03 | Roteiro do cliente + CTA de compartilhamento do roteiro; logo oficial no fecho. Tomada B sem edição, 168 palavras/min, 72,3 s, movimento 1,79, maior trecho parado 2,0 s (fecho) | Pedido do cliente; aguardando avaliação |
 | 2026-11-14 | ATIVO EP04 | Roteiro do cliente + CTA SISTEMA obrigatória (salvar → transição); logo oficial. Tomada única sem edição, 158 palavras/min, 70,3 s, movimento 1,53, maior trecho parado 1,1 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-15 | ATIVO EP05 | Roteiro do cliente + CTA SISTEMA (compartilhar → transição); verde exato verificado no render. Tomada A sem edição, 157 palavras/min, 82,7 s, movimento 1,40, maior trecho parado 0,8 s | Pedido do cliente; aguardando avaliação |
+| 2026-11-15 | AD-ATIVO-01 | Criativo Meta Ads "A venda esquecida": CTA para o botão, área útil y 270–1250, legenda y 1185. Tomada A, 41,4 s, movimento 1,40, maior trecho parado 0,7 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 | Vídeo principal da landing: 118 s, 1920×1080, trilha original por blocos, marca e telas provisórias, legendas web | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 v2 | Transcrição dinâmica, voz 1,2× (exceção pedida), 86,5 s, elementos maiores, movimento 2,39 | Feedback do cliente: mais dinâmica, texto = fala, gancho mais forte |
 | 2026-11-13 | LANDING 16:9 FINAL | Logo oficial (revelação) + verde #3AF584, 3 situações centralizadas, voz 1,0×, 103 s, movimento 2,0 | Aprovado para implementação pelo cliente, com estes ajustes |
