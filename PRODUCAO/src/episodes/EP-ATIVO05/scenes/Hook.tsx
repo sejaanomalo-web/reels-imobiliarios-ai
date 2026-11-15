@@ -30,8 +30,9 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
         drift={0.5}
         t={t}
         keys={[
-          { t: 0, s: 1.1, y: 30 },
-          { t: c.h_juntos + 0.5, s: 1.0, y: 0, e: ease.out },
+          { t: 0, s: 1.18, x: -60, y: 40, r: -1.5 },
+          { t: c.h_juntos + 0.5, s: 1.0, x: 0, y: 0, r: 0, e: ease.out },
+          { t: c.h_prop + 0.4, s: 1.04, x: 30, y: 10, e: ease.inOut },
           { t: c.h_proposta, s: 1.03, y: 0, e: ease.inOut },
           { t: c.h_comb + 0.5, s: 1.07, y: 20, r: -1, e: ease.inOut },
           { t: c.p_apr, s: 1.08, y: 20, r: -1, e: ease.linear },
@@ -46,14 +47,24 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
             </>
           ) : null}
         </svg>
-        <div style={{ position: "absolute", left: 115, top: 690 + (1 - Math.min(1, a)) * 300, opacity: Math.min(1, a * 1.5) }}>
+        {/* pulsos de informação correndo pela linha enquanto a parceria está "ok" */}
+        {link > 0.9 && fail < 0.3
+          ? [0, 1, 2, 3].map((k) => {
+              const u = (t * 0.55 + k / 4) % 1;
+              const left = k % 2 === 0;
+              const x = left ? mix(230, 540, u) : mix(850, 540, u);
+              const y = 760 - Math.sin(u * Math.PI * 0.9) * 55 - u * 5;
+              return <div key={k} style={{ position: "absolute", left: x - 11, top: y - 11, width: 22, height: 22, borderRadius: 11, background: BRAND.hex, boxShadow: `0 0 20px ${brandAlpha(0.8)}`, opacity: Math.sin(u * Math.PI) }} />;
+            })
+          : null}
+        <div style={{ position: "absolute", left: 115, top: 690 + (1 - Math.min(1, a)) * 300 + Math.sin(t * 2.1) * 8, opacity: Math.min(1, a * 1.5) }}>
           <Broker ini="A" bg="#4E6A8C" label="Corretor A" role={roleA > 0.5 ? "COMPRADOR" : " "} ring={link > 0.9 && fail < 0.3} />
         </div>
-        <div style={{ position: "absolute", left: 735, top: 690 + (1 - Math.min(1, b)) * 300, opacity: Math.min(1, b * 1.5) }}>
+        <div style={{ position: "absolute", left: 735, top: 690 + (1 - Math.min(1, b)) * 300 + Math.sin(t * 2.1 + 2) * 8, opacity: Math.min(1, b * 1.5) }}>
           <Broker ini="B" bg="#8C6A4E" label="Corretor B" role={roleB > 0.5 ? "PROPRIETÁRIO" : " "} ring={link > 0.9 && fail < 0.3} />
         </div>
         {/* imóvel */}
-        <div style={{ position: "absolute", left: 540 - 75, top: 610, width: 150, height: 150, borderRadius: 40, background: C.surface2, border: `3px solid ${link > 0.5 && fail < 0.3 ? BRAND.hex : C.line}`, display: "flex", alignItems: "center", justifyContent: "center", opacity: Math.min(1, b * 1.5), transform: `scale(${mix(0.6, 1, Math.min(1, b))})` }}>
+        <div style={{ position: "absolute", left: 540 - 75, top: 610, width: 150, height: 150, borderRadius: 40, background: C.surface2, border: `3px solid ${link > 0.5 && fail < 0.3 ? BRAND.hex : C.line}`, display: "flex", alignItems: "center", justifyContent: "center", opacity: Math.min(1, b * 1.5), transform: `scale(${mix(0.6, 1, Math.min(1, b)) * (1 + 0.04 * Math.sin(t * 3))})` }}>
           <House size={90} />
         </div>
         <div style={{ position: "absolute", left: 0, right: 0, top: 380, textAlign: "center", fontWeight: 800, fontSize: 84, letterSpacing: "-0.045em", lineHeight: 1.02, color: C.text, opacity: Math.min(1, sp(t, 0.3, { damping: 14, stiffness: 160 }) * 1.5) * (1 - fail) }}>

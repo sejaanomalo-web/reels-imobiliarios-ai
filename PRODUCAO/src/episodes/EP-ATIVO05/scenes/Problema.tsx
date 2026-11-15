@@ -42,7 +42,7 @@ export const Problema: React.FC<SceneProps> = ({ t, tl }) => {
           const p = rows[i];
           const blink = later > 0.3 ? 0.55 + 0.45 * Math.sin(t * 7 + i) : 1;
           return (
-            <Card key={k} tone={later > 0.3 ? "warn" : "plain"} style={{ left: 110, top: 470 + i * 160, width: 860, height: 130, padding: "0 30px 0 70px", display: "flex", alignItems: "center", justifyContent: "space-between", opacity: Math.min(1, p * 1.5), transform: `translateX(${(1 - Math.min(1, p)) * 300 + (i % 2 ? shake : -shake)}px)` }}>
+            <Card key={k} tone={later > 0.3 ? "warn" : "plain"} style={{ left: 110, top: 470 + i * 160, width: 860, height: 130, padding: "0 30px 0 70px", display: "flex", alignItems: "center", justifyContent: "space-between", opacity: Math.min(1, p * 1.5), transform: `translateX(${(1 - Math.min(1, p)) * 300 + (i % 2 ? shake : -shake) + Math.sin(t * 1.8 + i * 1.3) * 6}px)` }}>
               <div style={{ position: "absolute", left: 20, top: 52, width: 26, height: 26, borderRadius: 13, background: conflict > 0.3 ? C.warn : BRAND.hex }} />
               <span style={{ fontWeight: 800, fontSize: 38, letterSpacing: "-0.02em", color: C.text }}>{k}</span>
               <div style={{ display: "flex", alignItems: "center", gap: 12, opacity: blink }}>

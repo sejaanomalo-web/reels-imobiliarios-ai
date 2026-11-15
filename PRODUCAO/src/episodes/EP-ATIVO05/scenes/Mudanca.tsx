@@ -47,16 +47,16 @@ export const Mudanca: React.FC<SceneProps> = ({ t, tl }) => {
       >
         {/* ordem: COMISSÃO → PROCESSO */}
         <div style={{ position: "absolute", left: 0, right: 0, top: mix(560, 300, docUp), display: "flex", justifyContent: "center", gap: 30, alignItems: "center", opacity: Math.min(1, com * 1.5), transform: `scale(${mix(1, 0.8, docUp)})` }}>
-          <div style={{ order: swap > 0.5 ? 2 : 1, padding: "26px 40px", borderRadius: 26, background: C.surface, border: `3px solid ${swap > 0.5 ? C.line : C.warn}`, fontWeight: 800, fontSize: 56, color: swap > 0.5 ? C.dim : C.text, transform: `translateY(${Math.sin(swap * Math.PI) * 60}px)` }}>
+          <div style={{ order: swap > 0.5 ? 2 : 1, padding: "26px 40px", borderRadius: 26, background: C.surface, border: `3px solid ${swap > 0.5 ? C.line : C.warn}`, fontWeight: 800, fontSize: 56, color: swap > 0.5 ? C.dim : C.text, transform: `translateY(${Math.sin(swap * Math.PI) * 60 + Math.sin(t * 2.3) * 7}px) rotate(${Math.sin(t * 1.7) * 1.5}deg)` }}>
             {swap > 0.5 ? "2 · " : "1 · "}COMISSÃO
           </div>
-          <div style={{ order: swap > 0.5 ? 1 : 2, padding: "26px 40px", borderRadius: 26, background: swap > 0.5 ? brandAlpha(0.12) : C.surface, border: `3px solid ${swap > 0.5 ? BRAND.hex : C.line}`, fontWeight: 800, fontSize: 56, color: swap > 0.5 ? C.text : C.dim, opacity: Math.max(0.4, Math.min(1, prog(t, c.m_proc - 0.4, 0.4, ease.out) * 1.5)), transform: `translateY(${-Math.sin(swap * Math.PI) * 60}px)` }}>
+          <div style={{ order: swap > 0.5 ? 1 : 2, padding: "26px 40px", borderRadius: 26, background: swap > 0.5 ? brandAlpha(0.12) : C.surface, border: `3px solid ${swap > 0.5 ? BRAND.hex : C.line}`, fontWeight: 800, fontSize: 56, color: swap > 0.5 ? C.text : C.dim, opacity: Math.max(0.4, Math.min(1, prog(t, c.m_proc - 0.4, 0.4, ease.out) * 1.5)), transform: `translateY(${-Math.sin(swap * Math.PI) * 60 + Math.sin(t * 2.3 + 2) * 7}px) rotate(${Math.sin(t * 1.7 + 1) * 1.5}deg)` }}>
             {swap > 0.5 ? "1 · " : "2 · "}PROCESSO
           </div>
         </div>
         {/* documento abstrato */}
         {doc > 0.001 ? (
-          <Card tone="accent" style={{ left: 110, top: 480 + (1 - Math.min(1, doc)) * 400, width: 860, padding: "30px 40px", opacity: Math.min(1, doc * 1.5) }}>
+          <Card tone="accent" style={{ left: 110, top: 480 + (1 - Math.min(1, doc)) * 400, width: 860, padding: "30px 40px", opacity: Math.min(1, doc * 1.5), transform: `translateY(${Math.sin(t * 1.4) * 6}px) rotate(${Math.sin(t * 0.9) * 0.6}deg)` }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
               <span style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 28, letterSpacing: "0.12em", color: C.muted }}>COMBINADO DA PARCERIA</span>
               <Tag text="ILUSTRATIVO" tone="muted" size={24} />

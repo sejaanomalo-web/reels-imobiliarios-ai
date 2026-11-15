@@ -1,0 +1,122 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.12,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.56,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.29,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 1.26,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 1.5,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 1.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 2.58,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 5.5,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.27,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 3.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 6.43,
+    "palavras_nao_reconhecidas": [
+      "Alinhe"
+    ]
+  },
+  {
+    "seg": "s12",
+    "seconds": 9.11,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 3.9,
+    "palavras_nao_reconhecidas": [
+      "surgir"
+    ]
+  },
+  {
+    "seg": "s14",
+    "seconds": 3.03,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s15",
+    "seconds": 5.53,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s16",
+    "seconds": 2.23,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s17",
+    "seconds": 4.76,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s18",
+    "seconds": 4.43,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s19",
+    "seconds": 2.65,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 80.4,
+    "asr_match": 0.981,
+    "aligned_words": "207/211",
+    "words_per_min": 157,
+    "heard": "Dois corretores combinam de trabalhar juntos um imóvel. Um traz o comprador, o outro conhece o proprietário. Parece simples. Até chegar a primeira proposta e ninguém lembrar exatamente do que foi combinado. Quem apresenta o imóvel? Quem conduz a negociação? Quem atualiza o proprietário? Como será tratada a participação de cada profissional? Quando essas perguntas ficam para depois, até uma parceria bem intencionada pode terminar em conflito. Em vez de começar pela divisão da comissão, comece definindo o processo. Confirme a autorização para divulgar ou negociar aquele imóvel. Alinha as responsabilidades e registre por escrito o que foi acordado, respeitando as regras profissionais aplicáveis. Durante o atendimento, mantenha uma fonte de informação atualizada. Estatus do imóvel, visitas agendadas, retorno do interessado e próximo movimento. Se surgiu uma mudança, os dois precisam saber antes de falar com o cliente. Parceria forte não é aquela em que todo mundo promete muito, é aquela em que cada pessoa sabe o que precisa fazer, o que pode comunicar e como prestar contas. Colaboração e profissionalismo combinam. Essa clareza fica mais fácil quando o status de cada imóvel e de cada atendimento está registrado. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 80.4,
+      "wpm": 157
+    },
+    "final": {
+      "seconds": 80.4,
+      "wpm": 157
+    }
+  }
+]
