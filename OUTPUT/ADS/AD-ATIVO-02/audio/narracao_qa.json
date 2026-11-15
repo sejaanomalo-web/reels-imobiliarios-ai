@@ -1,0 +1,81 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 1.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 0.47,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 1.16,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 1.71,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 6.15,
+    "palavras_nao_reconhecidas": [
+      "construtora"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.73,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 2.98,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 5.2,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 3.06,
+    "palavras_nao_reconhecidas": [
+      "Clique",
+      "para"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 36.31,
+    "asr_match": 0.961,
+    "aligned_words": "112/117",
+    "words_per_min": 193,
+    "heard": "E aquele cliente que manda me manda as fotos e a metragem daquele apartamento? E você, claro, só um minutinho. Só que esse minutinho vira uma busca. A foto tá na galeria, a metragem naquele PDF da construção e o valor em alguma conversa do WhatsApp. Enquanto o cliente espera, você está tentando juntar informações de um imóvel que já faz parte da sua carteira. E se tudo isso estivesse organizado em um único lugar? Com a ativo, você pode ter seus imóveis cadastrados, com fotos, valores e informações organizadas, e ainda apresentar tudo em um site próprio, sem precisar procurar cada detalhe pelo celular. Clica no botão e conheça como ativo pode funcionar pra você."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 36.31,
+      "wpm": 193
+    },
+    "final": {
+      "seconds": 36.31,
+      "wpm": 193
+    }
+  }
+]

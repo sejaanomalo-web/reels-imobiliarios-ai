@@ -120,6 +120,9 @@
 >   - **Quadro 0 forte**: carimbo/elemento grande já visível (ex.: SEM RESPOSTA + contador de dias rodando) — a fala começa em 0,3 s (`leadIn`) para o impacto sonoro não cobrir a 1ª palavra.
 >   - **SFX em toda troca** (cues `k00…` gerados dos blocos: swish/tick −31 a −34 dB, 70 ms antes) + impactos nos beats + séries (notificações, dias) + bateria leve (`music.drums`, bpm 112) com `drops` no respiro antes da solução. Conferir voz × mixagem: v2 com 78 eventos manteve 110/110 palavras.
 >   - Medido no AD-ATIVO-01 v2: 38,1 s, **movimento 3,15** (v1 1,40), 7% quadros parados, maior trecho parado 0,3 s.
+>   - **Cortes de verdade:** usar `buildCuts` (`AD-ATIVO-01/scenes/cuts.ts`): `cut: true` segura o enquadramento anterior (com 2,5% de avanço) e salta em 0,14 s. Sem isso a "câmera de cortes" desliza desde o ponto anterior (erro do AD-01 v2 corrigido em 15/11).
+>   - Elementos de palco (carimbos, títulos internos) a ≥ 120 px da borda do palco: zoom de corte de 1,2× empurra o que está perto da borda para fora.
+>   - **AD-ATIVO-02 "Só um minutinho" (15/11):** cronômetro do "minutinho" como fio condutor (corre durante a busca e congela no "único lugar"); 38,4 s, movimento 3,33, maior trecho parado 0,5 s, mix 117/117.
 >
 > ### Registro do ATIVO Episódio 05 (15/11/2026)
 >
@@ -231,6 +234,7 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-15 | ATIVO EP05 | Roteiro do cliente + CTA SISTEMA (compartilhar → transição); verde exato verificado no render. Tomada A sem edição, 157 palavras/min, 82,7 s, movimento 1,40, maior trecho parado 0,8 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-15 | AD-ATIVO-01 | Criativo Meta Ads "A venda esquecida": CTA para o botão, área útil y 270–1250, legenda y 1185. Tomada A, 41,4 s, movimento 1,40, maior trecho parado 0,7 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-15 | AD-ATIVO-01 v2 | Edição para parar o scroll: 1,1×, transcrição dinâmica, cortes/tremida/flash, SFX em cada troca, bateria. 38,1 s, movimento 3,15, maior trecho parado 0,3 s, mix 110/110 | Pedido do cliente (v1 reprovada por pouca dinâmica); aguardando avaliação |
+| 2026-11-15 | AD-ATIVO-02 | Criativo "Só um minutinho" no padrão de anúncio v2 + cortes secos (`buildCuts`, também aplicado ao AD-01). 38,4 s, movimento 3,33, maior trecho parado 0,5 s, mix 117/117 | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 | Vídeo principal da landing: 118 s, 1920×1080, trilha original por blocos, marca e telas provisórias, legendas web | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 v2 | Transcrição dinâmica, voz 1,2× (exceção pedida), 86,5 s, elementos maiores, movimento 2,39 | Feedback do cliente: mais dinâmica, texto = fala, gancho mais forte |
 | 2026-11-13 | LANDING 16:9 FINAL | Logo oficial (revelação) + verde #3AF584, 3 situações centralizadas, voz 1,0×, 103 s, movimento 2,0 | Aprovado para implementação pelo cliente, com estes ajustes |

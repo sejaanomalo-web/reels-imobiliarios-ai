@@ -4,6 +4,7 @@ import { BRAND, C, F, brandAlpha } from "../../../theme";
 import { clamp01, ease, mix, prog, rnd, sp } from "../../../lib/anim";
 import { camAt, CamKey } from "../../../components/Camera";
 import type { SceneProps } from "../../types";
+import { AdKey, buildCuts } from "./cuts";
 
 /**
  * ANÚNCIO 01 v2 — "A venda esquecida", edição para PARAR O SCROLL (pedido do cliente, 15/11/2026).
@@ -37,8 +38,8 @@ export const Edit: React.FC<SceneProps> = ({ t, tl }) => {
   const black = prog(t, c.c_ret + 0.75, 0.1, ease.out) * (1 - prog(t, c.a_just - 0.12, 0.12, ease.out));
 
   // ---------- câmera do palco (cortes) ----------
-  const cut = (at: number, k: Omit<CamKey, "t">): CamKey[] => [{ t: at - 0.14, ...k, e: ease.out }];
-  const keys: CamKey[] = [
+  const cut = (at: number, k: Omit<AdKey, "t" | "cut">): AdKey[] => [{ t: at, ...k, cut: true }];
+  const keys: CamKey[] = buildCuts([
     { t: 0, s: 1.75, x: 0, y: 165, r: -3 },
     { t: c.h_conversa - 0.2, s: 1.6, x: 0, y: 160, r: -1.5, e: ease.linear },
     ...cut(c.h_conversa, { s: 1.0, x: 0, y: 0, r: 0 }),
@@ -65,7 +66,7 @@ export const Edit: React.FC<SceneProps> = ({ t, tl }) => {
     { t: c.cta_q, s: 1.03, e: ease.linear },
     ...cut(c.cta_clique, { s: 0.95, y: 0 }),
     { t: tl.duration, s: 1.0, e: ease.linear },
-  ].sort((a, b) => a.t - b.t);
+  ]);
   const cam = camAt(t, keys);
   const prev = camAt(t - 1 / 30, keys);
   const speed = Math.hypot((cam.x - prev.x) * cam.s, (cam.y - prev.y) * cam.s) * 30 + Math.abs(Math.log(cam.s / prev.s)) * 30 * 700;

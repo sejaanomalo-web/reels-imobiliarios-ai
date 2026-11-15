@@ -1,0 +1,474 @@
+[
+ {
+  "t": 0.0,
+  "sound": "notif",
+  "gain": -24,
+  "cue": "k00"
+ },
+ {
+  "t": 0.02,
+  "sound": "impact",
+  "gain": -27,
+  "cue": "k00"
+ },
+ {
+  "t": 1.03,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k01"
+ },
+ {
+  "t": 1.59,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k02"
+ },
+ {
+  "t": 2.07,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k03"
+ },
+ {
+  "t": 2.39,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k04"
+ },
+ {
+  "t": 3.11,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k05"
+ },
+ {
+  "t": 4.15,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k06"
+ },
+ {
+  "t": 4.74,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "h_claro"
+ },
+ {
+  "t": 4.79,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k07"
+ },
+ {
+  "t": 5.27,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k08"
+ },
+ {
+  "t": 6.15,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k09"
+ },
+ {
+  "t": 6.21,
+  "sound": "tick",
+  "gain": -26,
+  "cue": "h_min"
+ },
+ {
+  "t": 6.22,
+  "sound": "tick",
+  "gain": -34
+ },
+ {
+  "t": 7.11,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k10"
+ },
+ {
+  "t": 7.266,
+  "sound": "tick",
+  "gain": -34
+ },
+ {
+  "t": 8.01,
+  "sound": "impact",
+  "gain": -26,
+  "cue": "p_busca"
+ },
+ {
+  "t": 8.15,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k11"
+ },
+ {
+  "t": 8.26,
+  "sound": "whip",
+  "gain": -27,
+  "cue": "p_foto"
+ },
+ {
+  "t": 8.312,
+  "sound": "tick",
+  "gain": -34
+ },
+ {
+  "t": 8.59,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k12"
+ },
+ {
+  "t": 9.358,
+  "sound": "tick",
+  "gain": -34
+ },
+ {
+  "t": 9.59,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k13"
+ },
+ {
+  "t": 9.7,
+  "sound": "whip",
+  "gain": -27,
+  "cue": "p_metr"
+ },
+ {
+  "t": 10.31,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k14"
+ },
+ {
+  "t": 10.405,
+  "sound": "tick",
+  "gain": -34
+ },
+ {
+  "t": 11.19,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k15"
+ },
+ {
+  "t": 11.451,
+  "sound": "tick",
+  "gain": -34
+ },
+ {
+  "t": 11.99,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k16"
+ },
+ {
+  "t": 12.18,
+  "sound": "whip",
+  "gain": -27,
+  "cue": "p_valor"
+ },
+ {
+  "t": 12.497,
+  "sound": "tick",
+  "gain": -34
+ },
+ {
+  "t": 12.71,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k17"
+ },
+ {
+  "t": 13.543,
+  "sound": "tick",
+  "gain": -34
+ },
+ {
+  "t": 13.83,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k18"
+ },
+ {
+  "t": 14.38,
+  "sound": "scramble",
+  "gain": -31,
+  "cue": "p_wpp"
+ },
+ {
+  "t": 14.589,
+  "sound": "tick",
+  "gain": -34
+ },
+ {
+  "t": 14.63,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k19"
+ },
+ {
+  "t": 15.635,
+  "sound": "tick",
+  "gain": -34
+ },
+ {
+  "t": 15.83,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k20"
+ },
+ {
+  "t": 16.44,
+  "sound": "shuffle",
+  "gain": -30,
+  "cue": "q_junt"
+ },
+ {
+  "t": 16.47,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k21"
+ },
+ {
+  "t": 16.682,
+  "sound": "tick",
+  "gain": -34
+ },
+ {
+  "t": 17.27,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k22"
+ },
+ {
+  "t": 17.728,
+  "sound": "tick",
+  "gain": -34
+ },
+ {
+  "t": 17.91,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k23"
+ },
+ {
+  "t": 18.71,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k24"
+ },
+ {
+  "t": 18.774,
+  "sound": "tick",
+  "gain": -34
+ },
+ {
+  "t": 19.55,
+  "sound": "block",
+  "gain": -27,
+  "cue": "q_cart"
+ },
+ {
+  "t": 19.75,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k25"
+ },
+ {
+  "t": 19.82,
+  "sound": "tick",
+  "gain": -34
+ },
+ {
+  "t": 20.87,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k26"
+ },
+ {
+  "t": 21.99,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k27"
+ },
+ {
+  "t": 22.5,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "q_unico"
+ },
+ {
+  "t": 23.06,
+  "sound": "whoosh_up",
+  "gain": -26,
+  "cue": "a_com"
+ },
+ {
+  "t": 23.11,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k28"
+ },
+ {
+  "t": 23.98,
+  "sound": "impact",
+  "gain": -25,
+  "cue": "a_ativo"
+ },
+ {
+  "t": 24.07,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k29"
+ },
+ {
+  "t": 24.08,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "a_ativo"
+ },
+ {
+  "t": 24.55,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k30"
+ },
+ {
+  "t": 25.91,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k31"
+ },
+ {
+  "t": 26.04,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "a_fotos"
+ },
+ {
+  "t": 26.52,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "a_val"
+ },
+ {
+  "t": 26.55,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k32"
+ },
+ {
+  "t": 26.95,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k33"
+ },
+ {
+  "t": 27.08,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "a_info"
+ },
+ {
+  "t": 27.67,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k34"
+ },
+ {
+  "t": 28.31,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k35"
+ },
+ {
+  "t": 29.27,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k36"
+ },
+ {
+  "t": 29.62,
+  "sound": "whoosh_up",
+  "gain": -27,
+  "cue": "a_site"
+ },
+ {
+  "t": 29.67,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k37"
+ },
+ {
+  "t": 30.47,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k38"
+ },
+ {
+  "t": 31.51,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k39"
+ },
+ {
+  "t": 32.23,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k40"
+ },
+ {
+  "t": 32.95,
+  "sound": "impact",
+  "gain": -25,
+  "cue": "cta_clique"
+ },
+ {
+  "t": 32.99,
+  "sound": "chord",
+  "gain": -29,
+  "cue": "a_cel"
+ },
+ {
+  "t": 33.03,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k41"
+ },
+ {
+  "t": 33.91,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k42"
+ },
+ {
+  "t": 34.47,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k43"
+ },
+ {
+  "t": 35.19,
+  "sound": "tick",
+  "gain": -31,
+  "cue": "k44"
+ },
+ {
+  "t": 35.818,
+  "sound": "swish",
+  "gain": -34,
+  "cue": "k45"
+ },
+ {
+  "t": 36.46,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_end"
+ }
+]
