@@ -1,0 +1,794 @@
+{
+ "id": "EP-ATIVO08",
+ "title": "Quando o mesmo imóvel é anunciado por outros corretores",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "outputDir": "ATIVO_EP08",
+ "deliverables": {
+  "final": "ATIVO_EP08_FINAL.mp4",
+  "narration": "ATIVO_EP08_NARRACAO.wav",
+  "subtitles": "ATIVO_EP08_legendas.srt",
+  "cover": "ATIVO_EP08_capa.png"
+ },
+ "fonte": "ROTEIROS/ATIVO_EP08.md (ATIVO_Roteiro_08.docx, cliente, 16/11/2026)",
+ "diagnostico": {
+  "publico_situacao": "corretor autônomo ou vinculado que divulga um imóvel também anunciado por outros profissionais",
+  "motivacao": "diferenciação legítima quando o produto é igual",
+  "crenca_questionada": "vence quem descreve o imóvel com os melhores adjetivos",
+  "hipotese": "reconhecer que o imóvel não é o único elemento da escolha provoca reflexão sobre a atuação consultiva",
+  "funcao": "C2 mudança de percepção / geração de demanda",
+  "promessa": "trocar adjetivos por critérios verificáveis, transparência e ajuda na decisão",
+  "evidencias": "dois atendimentos fictícios do mesmo imóvel ilustrativo, sem preço numérico; o roteiro não promete exclusividade nem venda",
+  "cta": "comentário SISTEMA → Direct (regra 14/11/2026); 'Siga a ATIVO' virou transição"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "original_cta": "Siga a ATIVO para acompanhar ideias práticas sobre a profissão imobiliária. (tela: SIGA A ATIVO)",
+  "transition_adapted": "E orientar com clareza começa por ter cada informação organizada.",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Imagine um comprador vendo o mesmo apartamento anunciado por dois corretores diferentes.",
+   "caption": "Imagine um comprador | vendo o *mesmo apartamento* | anunciado por | *dois corretores* | diferentes.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "As fotos são parecidas, o preço é o mesmo e o imóvel não mudou.",
+   "caption": "As *fotos* | são parecidas, | o *preço* é o mesmo | e o imóvel | *não mudou.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "hook",
+   "text": "Então por que ele escolheria conversar mais com um deles?",
+   "caption": "Então *por que* | ele escolheria | *conversar mais* | com um deles?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "a",
+   "text": "No primeiro atendimento, ele recebe uma lista de qualidades: sala ampla, boa localização, excelente oportunidade.",
+   "caption": "No *primeiro* | atendimento, | ele recebe | uma *lista de qualidades:* | sala ampla, | boa localização, | excelente oportunidade.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "a",
+   "text": "Tudo soa positivo.",
+   "caption": "Tudo soa | *positivo.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "a",
+   "text": "Mas nada ajuda a pessoa a descobrir se aquele endereço combina com sua rotina.",
+   "caption": "Mas *nada ajuda* | a pessoa | a descobrir | se aquele endereço | combina | com sua *rotina.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "b",
+   "text": "No segundo, o profissional explica pontos verificáveis: a distribuição dos cômodos, as regras do condomínio, o que precisa ser conferido antes da proposta e quais características podem ser uma limitação para aquele comprador.",
+   "caption": "No *segundo,* | o profissional | explica pontos | *verificáveis:* | a distribuição | dos cômodos, | as *regras* | do condomínio, | o que precisa | ser *conferido* | antes da proposta | e quais características | podem ser | uma *limitação* | para aquele comprador.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "b",
+   "text": "Até as dúvidas desconfortáveis entram na conversa.",
+   "caption": "Até as dúvidas | *desconfortáveis* | entram na conversa.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "dif",
+   "text": "Os dois apresentaram o mesmo produto.",
+   "caption": "Os dois | apresentaram | o *mesmo produto.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "dif",
+   "text": "Mas um descreveu.",
+   "caption": "Mas um | *descreveu.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "dif",
+   "text": "O outro ajudou a avaliar.",
+   "caption": "O outro | ajudou a *avaliar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "dif",
+   "text": "Esse é um dos motivos pelos quais conhecimento de mercado e transparência importam: eles reduzem dúvidas e dão mais autonomia para decidir.",
+   "caption": "Esse é um | dos motivos | pelos quais | *conhecimento* | de mercado | e *transparência* | importam: | eles *reduzem dúvidas* | e dão mais | *autonomia* | para decidir.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "insight",
+   "text": "Outro corretor pode anunciar um imóvel semelhante e oferecer um bom atendimento também.",
+   "caption": "Outro corretor | pode anunciar | um imóvel *semelhante* | e oferecer | um *bom atendimento* | também.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "insight",
+   "text": "O que está nas suas mãos é a qualidade da sua orientação.",
+   "caption": "O que está | nas suas *mãos* | é a qualidade | da sua *orientação.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s15",
+   "scene": "insight",
+   "text": "Seja reconhecido por tornar a decisão mais clara, não por repetir adjetivos.",
+   "caption": "Seja reconhecido | por tornar | a decisão | *mais clara,* | não por repetir | *adjetivos.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s16",
+   "scene": "insight",
+   "text": "E orientar com clareza começa por ter cada informação organizada.",
+   "caption": "E orientar | com clareza | começa por ter | cada informação | *organizada.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s17",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s18",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "a": 0.3,
+  "b": 0.3,
+  "dif": 0.35,
+  "insight": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_imag": {
+   "seg": "s1",
+   "word": "Imagine",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_mesmo": {
+   "seg": "s1",
+   "word": "mesmo",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_dois": {
+   "seg": "s1",
+   "word": "dois",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_fotos": {
+   "seg": "s2",
+   "word": "fotos",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_preco": {
+   "seg": "s2",
+   "word": "preço",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_imovel": {
+   "seg": "s2",
+   "word": "imóvel",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_por": {
+   "seg": "s3",
+   "word": "por",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_conv": {
+   "seg": "s3",
+   "word": "conversar",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_deles": {
+   "seg": "s3",
+   "word": "deles",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_prim": {
+   "seg": "s4",
+   "word": "primeiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_lista": {
+   "seg": "s4",
+   "word": "lista",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_sala": {
+   "seg": "s4",
+   "word": "sala",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_loc": {
+   "seg": "s4",
+   "word": "localização",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_exc": {
+   "seg": "s4",
+   "word": "excelente",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_tudo": {
+   "seg": "s5",
+   "word": "Tudo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_pos": {
+   "seg": "s5",
+   "word": "positivo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_mas": {
+   "seg": "s6",
+   "word": "Mas",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_end": {
+   "seg": "s6",
+   "word": "endereço",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_rot": {
+   "seg": "s6",
+   "word": "rotina",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_seg": {
+   "seg": "s7",
+   "word": "segundo",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_verif": {
+   "seg": "s7",
+   "word": "verificáveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_dist": {
+   "seg": "s7",
+   "word": "distribuição",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_regras": {
+   "seg": "s7",
+   "word": "regras",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_conf": {
+   "seg": "s7",
+   "word": "conferido",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_carac": {
+   "seg": "s7",
+   "word": "características",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_lim": {
+   "seg": "s7",
+   "word": "limitação",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_ate": {
+   "seg": "s8",
+   "word": "Até",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_desc": {
+   "seg": "s8",
+   "word": "desconfortáveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_dois": {
+   "seg": "s9",
+   "word": "dois",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_prod": {
+   "seg": "s9",
+   "word": "produto",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_mas": {
+   "seg": "s10",
+   "word": "Mas",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_desc": {
+   "seg": "s10",
+   "word": "descreveu",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_outro": {
+   "seg": "s11",
+   "word": "outro",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_aval": {
+   "seg": "s11",
+   "word": "avaliar",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_esse": {
+   "seg": "s12",
+   "word": "Esse",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_conh": {
+   "seg": "s12",
+   "word": "conhecimento",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_transp": {
+   "seg": "s12",
+   "word": "transparência",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_reduz": {
+   "seg": "s12",
+   "word": "reduzem",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_auto": {
+   "seg": "s12",
+   "word": "autonomia",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_outro": {
+   "seg": "s13",
+   "word": "Outro",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_bom": {
+   "seg": "s13",
+   "word": "bom",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_maos": {
+   "seg": "s14",
+   "word": "mãos",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_orient": {
+   "seg": "s14",
+   "word": "orientação",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_seja": {
+   "seg": "s15",
+   "word": "Seja",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_clara": {
+   "seg": "s15",
+   "word": "clara",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_adj": {
+   "seg": "s15",
+   "word": "adjetivos",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_e": {
+   "seg": "s16",
+   "word": "E",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_org": {
+   "seg": "s16",
+   "word": "organizada",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s17",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s17",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s17",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s18",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s18",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s18",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s18",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_imag",
+   "offset": 0.2,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 2
+  },
+  {
+   "cue": "h_dois",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 5
+  },
+  {
+   "cue": "h_imovel",
+   "offset": 0.4,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "h_conv",
+   "offset": 0.2,
+   "sound": "whoosh_up",
+   "gain": -28,
+   "dur": 0.5
+  },
+  {
+   "cue": "a_prim",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "a_sala",
+   "offset": 0.15,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 0
+  },
+  {
+   "cue": "a_loc",
+   "offset": 0.15,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_exc",
+   "offset": 0.15,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 4
+  },
+  {
+   "cue": "a_pos",
+   "offset": 0.3,
+   "sound": "shimmer",
+   "gain": -31
+  },
+  {
+   "cue": "a_mas",
+   "offset": -0.05,
+   "sound": "fade_down",
+   "gain": -29,
+   "dur": 0.9
+  },
+  {
+   "cue": "b_seg",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "b_dist",
+   "offset": 0.3,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "b_regras",
+   "offset": 0.3,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 2
+  },
+  {
+   "cue": "b_conf",
+   "offset": 0.4,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 4
+  },
+  {
+   "cue": "b_lim",
+   "offset": 0.4,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "b_desc",
+   "offset": 0.4,
+   "sound": "thump",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "d_dois",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "d_desc",
+   "offset": 0.1,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "d_aval",
+   "offset": 0.2,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "d_reduz",
+   "offset": 0.2,
+   "sound": "click",
+   "gain": -26
+  },
+  {
+   "cue": "i_outro",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -27
+  },
+  {
+   "cue": "i_maos",
+   "offset": 0.2,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "i_adj",
+   "offset": 0.3,
+   "sound": "block",
+   "gain": -29
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 92,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — dois anúncios iguais"
+   },
+   {
+    "at": "cue:a_prim",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "F — adjetivos"
+   },
+   {
+    "at": "cue:a_mas",
+    "notes": [
+     26,
+     38,
+     50,
+     53,
+     57
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Dm — nada ajuda"
+   },
+   {
+    "at": "cue:b_seg",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "C — critérios"
+   },
+   {
+    "at": "cue:d_dois",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — a diferença"
+   },
+   {
+    "at": "cue:i_outro",
+    "notes": [
+     28,
+     40,
+     47,
+     52,
+     55
+    ],
+    "root": 40,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "Em — insight"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}

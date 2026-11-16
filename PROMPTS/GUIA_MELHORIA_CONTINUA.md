@@ -117,6 +117,14 @@
 > - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP07.md`), já voltado ao corretor; CTA "Salve este vídeo…" → transição "Revise estes passos…" + CTA SISTEMA; Reel orgânico 1,0×; tomada C + **uma frase emendada da tomada B** (correção de "Se me interessado"); verde exato; composição `EP-ATIVO07`, saída `OUTPUT/ATIVO_EP07/`.
 > - **Aprendizados:** (1) **`Camera` recebe a posição da câmera, não do conteúdo:** `x`/`y` positivos movem o conteúdo para a esquerda/para cima. Conferir o sinal no 1º quadro de revisão. (2) Emenda de frase entre tomadas é aceitável quando o corte cai numa pausa de início de cena: crossfade de 12 ms, ganho por RMS e conferência do tom da mesma frase nas duas tomadas. Isso evita gastar geração da cota. (3) Quando a cena mostra a fala inteira num balão digitado palavra a palavra, ocultar a legenda desses segmentos (`hideCaptions`) para não duplicar texto. (4) Preço de anúncio ilustrativo = mascarado (`R$ ••••••`), nunca um número.
 
+> ### Registro do ATIVO Episódio 08 (16/11/2026)
+>
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP08.md`); CTA "Siga a ATIVO" → transição "E orientar com clareza começa por ter cada informação organizada." (frase-ponte proposta, pendente de aprovação) + CTA SISTEMA; 1,0×; tomada única; composição `EP-ATIVO08`, saída `OUTPUT/ATIVO_EP08/`.
+> - **Aprendizados:**
+>   1. Quando o roteiro lista itens que só aparecem segundos depois, as molduras dos painéis devem entrar já na frase de abertura e ser preenchidas no tempo da fala. Sem isso, a cena fica quase 3 s vazia.
+>   2. Na última geração do dia, palavras em que Parakeet e Whisper divergem vão para o relatório com minutagem, para o cliente ouvir. Regravar só a frase no dia seguinte.
+>   3. CTA de "seguir o perfil" também vira transição. A ponte "orientação → organização" liga o tema ao sistema sem prometer resultado.
+
 > ### Criativos de anúncio Meta Ads (AD-*) — padrão a partir de 15/11/2026
 >
 > - **Objetivo:** clique no botão do anúncio → formulário/landing. **CTA = botão** (`cta.type: "botao_meta"`, fala "Clique no botão…", tela CLIQUE NO BOTÃO + seta para baixo). A regra "CTA SISTEMA" vale só para Reels orgânicos; `editorial_check` aplica a regra certa pelo prefixo `AD-`.
@@ -249,6 +257,7 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-15 | AD-ATIVO-02 | Criativo "Só um minutinho" no padrão de anúncio v2 + cortes secos (`buildCuts`, também aplicado ao AD-01). 38,4 s, movimento 3,33, maior trecho parado 0,5 s, mix 117/117 | Pedido do cliente; aguardando avaliação |
 | 2026-11-16 | ATIVO EP06 | v1 para gestores (77,8 s) → **v2 para corretor** a pedido do cliente: texto adaptado (você/colega/seus clientes), tomada B, 165 palavras/min, 76,1 s, movimento 1,72, maior trecho parado 0,7 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-16 | ATIVO EP07 | Roteiro do cliente + CTA SISTEMA (salvar → transição). Tomada C + frase s12 da B (emenda), 179 palavras/min, 81,1 s, movimento 1,78, maior trecho parado 0,9 s, mix × roteiro 0,97 | Pedido do cliente; aguardando avaliação |
+| 2026-11-16 | ATIVO EP08 | Roteiro do cliente + CTA SISTEMA (seguir → transição-ponte). Tomada única, 179 palavras/min, 73,5 s, movimento 1,87, maior trecho parado 0,8 s, mix × roteiro 0,96; 3 palavras para conferência auditiva | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 | Vídeo principal da landing: 118 s, 1920×1080, trilha original por blocos, marca e telas provisórias, legendas web | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 v2 | Transcrição dinâmica, voz 1,2× (exceção pedida), 86,5 s, elementos maiores, movimento 2,39 | Feedback do cliente: mais dinâmica, texto = fala, gancho mais forte |
 | 2026-11-13 | LANDING 16:9 FINAL | Logo oficial (revelação) + verde #3AF584, 3 situações centralizadas, voz 1,0×, 103 s, movimento 2,0 | Aprovado para implementação pelo cliente, com estes ajustes |

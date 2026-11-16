@@ -1,0 +1,115 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.37,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.65,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 6.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 0.97,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.42,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 11.18,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 2.57,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 1.71,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 0.97,
+    "palavras_nao_reconhecidas": [
+      "descreveu"
+    ]
+  },
+  {
+    "seg": "s11",
+    "seconds": 1.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 6.92,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 3.75,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s14",
+    "seconds": 2.68,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s15",
+    "seconds": 3.75,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s16",
+    "seconds": 3.11,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s17",
+    "seconds": 4.15,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s18",
+    "seconds": 2.52,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 71.2,
+    "asr_match": 0.991,
+    "aligned_words": "211/213",
+    "words_per_min": 179,
+    "heard": "Imagine um comprador vendo o mesmo apartamento anunciado por dois corretores diferentes. As fotos são parecidas, o preço é o mesmo e o imóvel não mudou. Então por que ele escolheria conversar mais com um deles? No primeiro atendimento, ele recebe uma lista de qualidades. Sala ampla, boa localização, excelente oportunidade. Tudo soa positivo. Mas nada ajuda a pessoa a descobrir se aquele endereço combina com sua rotina. No segundo, o profissional explica pontos verificáveis, a distribuição dos cômodos, as regras do condomínio, o que precisa ser conferido antes da proposta e quais características podem ser uma limitação para aquele comprador. Até as dúvidas desconfortáveis entram na conversa. Os dois apresentaram o mesmo produto, mas um escreveu, o outro ajudou a avaliar. Esse é um dos motivos pelos quais conhecimento de mercado e transparência importam. Eles reduzem dúvidas e dão mais autonomia para decidir. Outro corretor pode anunciar um imóvel semelhante e oferecer um bom atendimento também. O que está nas suas mãos é a qualidade da sua orientação. Seja reconhecido por tornar a decisão mais clara, não por repetir adjetivos. E orientar com clareza começa por ter cada informação organizada. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 71.2,
+      "wpm": 179
+    },
+    "final": {
+      "seconds": 71.2,
+      "wpm": 179
+    }
+  }
+]
