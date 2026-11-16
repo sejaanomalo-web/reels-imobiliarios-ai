@@ -146,6 +146,15 @@
 >   3. Congelamento intencional de vídeo (efeito pedido no roteiro) mede como quadro parado: manter o cartão por cima respirando.
 >   4. Câmera com y negativo + zoom no início de cena empurra grades para cima da legenda — conferir o quadro da 1ª frase da cena.
 
+> ### Registro do ATIVO Episódio 10 (16/11/2026)
+>
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP10.md`); CTA "Salve este Reel e envie…" → transição "Para acompanhar cada comprador nessa jornada, vale ter as informações organizadas." (pendente de aprovação) + CTA SISTEMA; 1,0×; tomada B sem edição; composição `EP-ATIVO10`, saída `OUTPUT/ATIVO_EP10/`. Programa habitacional citado só na fala; na tela, "PROGRAMAS HABITACIONAIS" e fonte oficial genérica, sem valores, regras nem marca.
+> - **Aprendizados:**
+>   1. **Medir o tom antes de emendar:** a frase da tomada A estava ~2 semitons acima da B (132 × 118 Hz, mediana de F0 por autocorrelação). Emenda descartada; a troca "do"/"de" ficou como ponto para ouvir. Regra prática: diferença > 1 semitom = não emendar.
+>   2. Feed em tela cheia atrás da legenda prejudica a leitura: faixa escura em degradê atrás da legenda enquanto o feed está nítido.
+>   3. Camada de fundo "esmaecida" (18%) atrás de uma cena nova vira ruído de texto fantasma: apagar por completo.
+>   4. `editorial_check` pega verde em ilustração (vaso de planta `#3F6B4E`): objetos ilustrativos usam neutros.
+
 > ### Criativos de anúncio Meta Ads (AD-*) — padrão a partir de 15/11/2026
 >
 > - **Objetivo:** clique no botão do anúncio → formulário/landing. **CTA = botão** (`cta.type: "botao_meta"`, fala "Clique no botão…", tela CLIQUE NO BOTÃO + seta para baixo). A regra "CTA SISTEMA" vale só para Reels orgânicos; `editorial_check` aplica a regra certa pelo prefixo `AD-`.
