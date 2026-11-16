@@ -163,6 +163,16 @@
 >   2. Visor de câmera "gravando" com conteúdo parado mede pouco movimento (gancho 0,6): dar movimento de câmera na mão (translação/rotação lenta) ao conteúdo de dentro.
 >   3. Cabeçalho da CTA herdada: conferir o comprimento — título longo quebra em duas linhas e cobre o subtítulo.
 
+> ### Registro do ATIVO Caso Real 03 (16/11/2026)
+>
+> - **Configuração usada:** roteiro "CASE REAL" do cliente (`ROTEIROS/ATIVO_CASE03.md`), ID `EP-ATIVO-CASE03`; "Salva este vídeo" removido e a frase prática ficou como transição + CTA SISTEMA; 1,0×; tomada B sem edição; saída `OUTPUT/ATIVO_CASE03/`.
+> - **Aprendizados:**
+>   1. **Conferir cada número do roteiro de caso real na fonte antes de gravar:** o roteiro dizia R$ 800, a fonte diz R$ 900. Narrado o valor da fonte, com a correção registrada no `episode.json` (`correcao_factual`) e enviada para aprovação.
+>   2. Nome próprio: comparar a pronúncia entre as tomadas pelo Parakeet (o mais estável com nomes) e escolher a mais próxima.
+>   3. "Parakeet do arquivo inteiro" pode inventar troca de sentido ("há uns 50 anos"): confirmar por trecho com os dois reconhecedores antes de descartar.
+>   4. Escada/linha do tempo com rótulo por degrau sobrepõe: usar um rótulo único que troca no ritmo da fala.
+>   5. Câmera que visita cada cartão (±35 px, zoom 1,04) sobe o movimento sem cortar as bordas; ±90 px corta.
+
 > ### Criativos de anúncio Meta Ads (AD-*) — padrão a partir de 15/11/2026
 >
 > - **Objetivo:** clique no botão do anúncio → formulário/landing. **CTA = botão** (`cta.type: "botao_meta"`, fala "Clique no botão…", tela CLIQUE NO BOTÃO + seta para baixo). A regra "CTA SISTEMA" vale só para Reels orgânicos; `editorial_check` aplica a regra certa pelo prefixo `AD-`.
@@ -300,6 +310,7 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-16 | ATIVO CASE01 | Caso real (Kelsie Blevins) com fatos conferidos, sem imagens dela; CTA SISTEMA (salvar → transição). Tomada A sem edição, 182 palavras/min, 71,4 s, movimento 1,69, maior trecho parado 0,8 s, mix × roteiro 0,962 | Pedido do cliente; aguardando avaliação |
 | 2026-11-16 | ATIVO EP10 | Roteiro do cliente + CTA SISTEMA (salvar/compartilhar → transição); programa habitacional só na fala, sem valores. Tomada B sem edição, 164 palavras/min, 83,9 s, movimento 2,34, maior trecho parado 0,6 s, mix × roteiro 0,973; emenda descartada por tom | Pedido do cliente; aguardando avaliação |
 | 2026-11-16 | ATIVO CASE02 | Caso real (Jason Ballo) com fatos conferidos e estilo dos vídeos a confirmar; sem imagens dele; CTA SISTEMA (comentar → transição). Tomada A sem edição, 170 palavras/min, 64,0 s, movimento 1,49, maior trecho parado 0,9 s, mix × roteiro 0,930 (imperativos coloquiais) | Pedido do cliente; aguardando avaliação |
+| 2026-11-16 | ATIVO CASE03 | Caso real (Mônica Poplawski) com fatos conferidos; valor corrigido para R$ 900 conforme fonte (pendente de aprovação); sem imagens dela; CTA SISTEMA. Tomada B sem edição, 168 palavras/min, 65,0 s, movimento 1,49, maior trecho parado 0,7 s, mix × roteiro 0,949 | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 | Vídeo principal da landing: 118 s, 1920×1080, trilha original por blocos, marca e telas provisórias, legendas web | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 v2 | Transcrição dinâmica, voz 1,2× (exceção pedida), 86,5 s, elementos maiores, movimento 2,39 | Feedback do cliente: mais dinâmica, texto = fala, gancho mais forte |
 | 2026-11-13 | LANDING 16:9 FINAL | Logo oficial (revelação) + verde #3AF584, 3 situações centralizadas, voz 1,0×, 103 s, movimento 2,0 | Aprovado para implementação pelo cliente, com estes ajustes |
