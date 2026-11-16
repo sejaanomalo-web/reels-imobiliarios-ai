@@ -1,0 +1,790 @@
+{
+ "id": "EP-ATIVO09",
+ "title": "Autoridade imobiliária não é uma foto ao lado de um carro",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "outputDir": "ATIVO_EP09",
+ "deliverables": {
+  "final": "ATIVO_EP09_FINAL.mp4",
+  "narration": "ATIVO_EP09_NARRACAO.wav",
+  "subtitles": "ATIVO_EP09_legendas.srt",
+  "cover": "ATIVO_EP09_capa.png"
+ },
+ "fonte": "ROTEIROS/ATIVO_EP09.md (ATIVO_Roteiro_09.docx, cliente, 16/11/2026)",
+ "diagnostico": {
+  "publico_situacao": "corretor iniciante ou em reposicionamento que sente que precisa parecer bem-sucedido para ser confiável",
+  "motivacao": "ser lembrado e consultado sem simular estilo de vida ou resultados",
+  "crenca_questionada": "autoridade = sinais de status (carro, troféu, número de vendas)",
+  "hipotese": "demonstrar como pensa e trabalha é alternativa realista ao status",
+  "funcao": "C3 apresentação de solução / captura de demanda",
+  "promessa": "três provas de competência que viram conteúdo: mercado, análise de imóvel, processo",
+  "evidencias": "mapa, planta e linha de processo ilustrativos; sem dados locais, classificações ou procedimento jurídico universal",
+  "cta": "comentário SISTEMA → Direct (regra 14/11/2026); 'Siga a ATIVO' virou transição"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "original_cta": "Siga a ATIVO para desenvolver uma atuação imobiliária mais estratégica.",
+  "transition_adapted": "Uma atuação mais estratégica também começa pela sua organização.",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Se você está começando como corretor, não precisa fingir que já vendeu dezenas de imóveis para parecer confiável.",
+   "caption": "Se você está *começando* | como corretor, | não precisa *fingir* | que já vendeu | *dezenas de imóveis* | para parecer | confiável.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Existe uma forma mais interessante de construir autoridade: mostrar como você pensa.",
+   "caption": "Existe uma forma | mais interessante | de construir *autoridade:* | mostrar | como você *pensa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "mercado",
+   "text": "Primeiro, explique critérios do mercado em que atua.",
+   "caption": "*Primeiro,* | explique *critérios* | do mercado | em que atua.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "mercado",
+   "text": "Em vez de dizer que um bairro é “o melhor”, mostre o que vale pesquisar: mobilidade, serviços próximos, perfil das ruas e diferença entre regiões.",
+   "caption": "Em vez de dizer | que um bairro | é “o *melhor*”, | mostre o que vale | *pesquisar:* | *mobilidade,* | *serviços* próximos, | *perfil* das ruas | e diferença | entre *regiões.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "mercado",
+   "text": "Use fontes e observações que você realmente conferiu.",
+   "caption": "Use *fontes* | e observações | que você realmente | *conferiu.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "analise",
+   "text": "Segundo, analise imóveis com equilíbrio.",
+   "caption": "*Segundo,* | analise imóveis | com *equilíbrio.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "analise",
+   "text": "Mostre para quem a planta pode funcionar e para quem talvez não funcione.",
+   "caption": "Mostre para quem | a planta | pode *funcionar* | e para quem | talvez *não funcione.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "analise",
+   "text": "Um apartamento com pouca manutenção pode interessar a uma pessoa e ser ruim para uma família que precisa de três quartos.",
+   "caption": "Um apartamento | com *pouca manutenção* | pode interessar | a uma pessoa | e ser *ruim* | para uma família | que precisa | de *três quartos.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "processo",
+   "text": "Terceiro, esclareça etapas da compra.",
+   "caption": "*Terceiro,* | esclareça | *etapas* da compra.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "processo",
+   "text": "O que o interessado deve conferir antes de visitar?",
+   "caption": "O que o interessado | deve *conferir* | antes de *visitar?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "processo",
+   "text": "Que documentos costumam exigir atenção?",
+   "caption": "Que *documentos* | costumam | exigir atenção?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "processo",
+   "text": "Em que momento entram as verificações?",
+   "caption": "Em que momento | entram as | *verificações?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "processo",
+   "text": "Quando houver regras específicas, oriente a procurar fontes oficiais e profissionais responsáveis.",
+   "caption": "Quando houver | regras *específicas,* | oriente a procurar | *fontes oficiais* | e profissionais | *responsáveis.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "insight",
+   "text": "Pense nisso: seu próximo conteúdo não precisa anunciar que você entende do assunto.",
+   "caption": "Pense nisso: | seu próximo *conteúdo* | não precisa | *anunciar* | que você entende | do assunto.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s15",
+   "scene": "insight",
+   "text": "Ele pode demonstrar esse conhecimento, de um jeito que realmente ajude alguém.",
+   "caption": "Ele pode | *demonstrar* | esse conhecimento, | de um jeito | que realmente | *ajude alguém.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s16",
+   "scene": "insight",
+   "text": "Autoridade é percebida no valor do que você explica.",
+   "caption": "*Autoridade* | é percebida | no *valor* | do que você explica.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s17",
+   "scene": "insight",
+   "text": "Uma atuação mais estratégica também começa pela sua organização.",
+   "caption": "Uma atuação | mais *estratégica* | também começa | pela sua *organização.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s18",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s19",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "mercado": 0.3,
+  "analise": 0.35,
+  "processo": 0.35,
+  "insight": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_comec": {
+   "seg": "s1",
+   "word": "começando",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_fingir": {
+   "seg": "s1",
+   "word": "fingir",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_dezenas": {
+   "seg": "s1",
+   "word": "dezenas",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_conf": {
+   "seg": "s1",
+   "word": "confiável",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_existe": {
+   "seg": "s2",
+   "word": "Existe",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_autor": {
+   "seg": "s2",
+   "word": "autoridade",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_mostrar": {
+   "seg": "s2",
+   "word": "mostrar",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_pensa": {
+   "seg": "s2",
+   "word": "pensa",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_prim": {
+   "seg": "s3",
+   "word": "Primeiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_crit": {
+   "seg": "s3",
+   "word": "critérios",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_vez": {
+   "seg": "s4",
+   "word": "vez",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_melhor": {
+   "seg": "s4",
+   "word": "melhor",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_pesq": {
+   "seg": "s4",
+   "word": "pesquisar",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_mob": {
+   "seg": "s4",
+   "word": "mobilidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_serv": {
+   "seg": "s4",
+   "word": "serviços",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_ruas": {
+   "seg": "s4",
+   "word": "ruas",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_reg": {
+   "seg": "s4",
+   "word": "regiões",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_use": {
+   "seg": "s5",
+   "word": "Use",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_fontes": {
+   "seg": "s5",
+   "word": "fontes",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_conf": {
+   "seg": "s5",
+   "word": "conferiu",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_seg": {
+   "seg": "s6",
+   "word": "Segundo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_equil": {
+   "seg": "s6",
+   "word": "equilíbrio",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_mostre": {
+   "seg": "s7",
+   "word": "Mostre",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_func": {
+   "seg": "s7",
+   "word": "funcionar",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_talvez": {
+   "seg": "s7",
+   "word": "talvez",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_apto": {
+   "seg": "s8",
+   "word": "apartamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_pessoa": {
+   "seg": "s8",
+   "word": "pessoa",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_ruim": {
+   "seg": "s8",
+   "word": "ruim",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_familia": {
+   "seg": "s8",
+   "word": "família",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_tres": {
+   "seg": "s8",
+   "word": "três",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_terc": {
+   "seg": "s9",
+   "word": "Terceiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_etapas": {
+   "seg": "s9",
+   "word": "etapas",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_visitar": {
+   "seg": "s10",
+   "word": "visitar",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_doc": {
+   "seg": "s11",
+   "word": "documentos",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_verif": {
+   "seg": "s12",
+   "word": "verificações",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_regras": {
+   "seg": "s13",
+   "word": "regras",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_oficiais": {
+   "seg": "s13",
+   "word": "oficiais",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_prof": {
+   "seg": "s13",
+   "word": "profissionais",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_pense": {
+   "seg": "s14",
+   "word": "Pense",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_anunc": {
+   "seg": "s14",
+   "word": "anunciar",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_demons": {
+   "seg": "s15",
+   "word": "demonstrar",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_ajude": {
+   "seg": "s15",
+   "word": "ajude",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_autor": {
+   "seg": "s16",
+   "word": "Autoridade",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_valor": {
+   "seg": "s16",
+   "word": "valor",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_atuac": {
+   "seg": "s17",
+   "word": "atuação",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_org": {
+   "seg": "s17",
+   "word": "organização",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s18",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s18",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s18",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s19",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s19",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s19",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s19",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_fingir",
+   "offset": 0.1,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "h_dezenas",
+   "offset": 0.2,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 3
+  },
+  {
+   "cue": "h_existe",
+   "offset": -0.1,
+   "sound": "fade_down",
+   "gain": -30,
+   "dur": 0.8
+  },
+  {
+   "cue": "h_pensa",
+   "offset": 0.1,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "m_prim",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "m_melhor",
+   "offset": 0.1,
+   "sound": "block",
+   "gain": -29
+  },
+  {
+   "cue": "m_mob",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "m_serv",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 2
+  },
+  {
+   "cue": "m_ruas",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 4
+  },
+  {
+   "cue": "m_reg",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "m_fontes",
+   "offset": 0.3,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "a_seg",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "a_func",
+   "offset": 0.2,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 4
+  },
+  {
+   "cue": "a_talvez",
+   "offset": 0.3,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": -2
+  },
+  {
+   "cue": "a_ruim",
+   "offset": 0.1,
+   "sound": "thump",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "p_terc",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "p_visitar",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -25
+  },
+  {
+   "cue": "p_doc",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -25,
+   "pitch": 2
+  },
+  {
+   "cue": "p_verif",
+   "offset": 0.2,
+   "sound": "click",
+   "gain": -25,
+   "pitch": 4
+  },
+  {
+   "cue": "p_oficiais",
+   "offset": 0.2,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "i_pense",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "i_demons",
+   "offset": 0.2,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 2
+  },
+  {
+   "cue": "i_autor",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 96,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     50,
+     53,
+     57
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Dm — status fingido"
+   },
+   {
+    "at": "cue:h_existe",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — mostrar como pensa"
+   },
+   {
+    "at": "cue:m_prim",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "C — mercado"
+   },
+   {
+    "at": "cue:a_seg",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "Am — análise"
+   },
+   {
+    "at": "cue:p_terc",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — processo"
+   },
+   {
+    "at": "cue:i_pense",
+    "notes": [
+     22,
+     34,
+     50,
+     53,
+     58
+    ],
+    "root": 34,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "Bb — insight"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}
