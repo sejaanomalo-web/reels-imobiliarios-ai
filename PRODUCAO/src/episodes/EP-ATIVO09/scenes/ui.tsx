@@ -13,14 +13,23 @@ export const STEPS = [
 ];
 
 /** Mapa fictício (quadras e ruas, sem nomes reais). */
-export const MapArt: React.FC<{ w: number; h: number; p?: number }> = ({ w, h, p = 1 }) => (
+export const MapArt: React.FC<{ w: number; h: number; p?: number; t?: number }> = ({ w, h, p = 1, t }) => (
   <svg width={w} height={h} viewBox="0 0 400 300" style={{ display: "block" }}>
     <rect width="400" height="300" fill="#10141A" />
     {[[20, 20, 110, 80], [150, 20, 90, 80], [270, 20, 110, 120], [20, 130, 110, 150], [150, 130, 90, 60], [150, 220, 90, 60], [270, 170, 110, 110]].map(([x, y, ww, hh], i) => (
       <rect key={i} x={x} y={y} width={ww} height={hh} rx="8" fill={i === 2 || i === 4 ? "#18241C" : "#1B2027"} opacity={0.4 + 0.6 * p} />
     ))}
     <path d="M0 112 H400 M140 0 V300 M260 0 V300 M0 205 H140" stroke="#2C333D" strokeWidth="8" strokeDasharray="600" strokeDashoffset={600 * (1 - p)} />
-    <path d="M0 112 H400" stroke={BRAND.hex} strokeWidth="3" strokeDasharray="10 10" opacity={0.6 * p} />
+    <path d="M0 112 H400" stroke={BRAND.hex} strokeWidth="3" strokeDasharray="10 10" strokeDashoffset={t === undefined ? 0 : -t * 14} opacity={0.6 * p} />
+    {t === undefined
+      ? null
+      : [
+          { x: ((t * 46) % 440) - 20, y: 109 },
+          { x: 420 - ((t * 34 + 180) % 440), y: 115 },
+          { x: 137, y: ((t * 38 + 90) % 340) - 20 },
+          { x: 263, y: 320 - ((t * 30) % 340) },
+          { x: ((t * 26 + 40) % 160) - 20, y: 205 },
+        ].map((d, i) => <rect key={`c${i}`} x={d.x - 6} y={d.y - 4} width={i < 2 || i === 4 ? 14 : 8} height={i < 2 || i === 4 ? 8 : 14} rx="3" fill="#C9D1DB" opacity={0.85 * p} />)}
   </svg>
 );
 

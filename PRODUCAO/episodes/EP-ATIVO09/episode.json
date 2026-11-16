@@ -65,7 +65,7 @@
    "id": "s4",
    "scene": "mercado",
    "text": "Em vez de dizer que um bairro é “o melhor”, mostre o que vale pesquisar: mobilidade, serviços próximos, perfil das ruas e diferença entre regiões.",
-   "caption": "Em vez de dizer | que um bairro | é “o *melhor*”, | mostre o que vale | *pesquisar:* | *mobilidade,* | *serviços* próximos, | *perfil* das ruas | e diferença | entre *regiões.*",
+   "caption": "Em vez de dizer | que um bairro | é “o *melhor”,* | mostre o que vale | *pesquisar:* | *mobilidade,* | *serviços* próximos, | *perfil* das ruas | e diferença | entre *regiões.*",
    "pauseAfter": 0.3
   },
   {
@@ -396,6 +396,12 @@
   "p_regras": {
    "seg": "s13",
    "word": "regras",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_oriente": {
+   "seg": "s13",
+   "word": "oriente",
    "edge": "start",
    "offset": 0
   },

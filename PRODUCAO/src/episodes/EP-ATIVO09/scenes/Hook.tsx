@@ -13,8 +13,8 @@ import { CarArt, Label, MapArt, Plan, Tag, TrophyArt } from "./ui";
  */
 export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
   const c = tl.cues;
-  const car = sp(t, 0.0, { damping: 14, stiffness: 140 });
-  const trophy = sp(t, Math.min(0.5, c.h_comec), { damping: 11, stiffness: 200 });
+  const car = 0.55 + 0.45 * sp(t, 0.0, { damping: 14, stiffness: 140 });
+  const trophy = sp(t, Math.min(0.15, c.h_comec), { damping: 11, stiffness: 200 });
   const count = prog(t, c.h_dezenas - 0.2, 1.0, ease.out);
   const badge = sp(t, c.h_dezenas - 0.3, { damping: 11, stiffness: 210 });
   const fake = sp(t, c.h_fingir - 0.05, { damping: 9, stiffness: 240 });

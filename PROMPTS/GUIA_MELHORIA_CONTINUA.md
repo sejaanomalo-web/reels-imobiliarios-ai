@@ -125,6 +125,17 @@
 >   2. Na última geração do dia, palavras em que Parakeet e Whisper divergem vão para o relatório com minutagem, para o cliente ouvir. Regravar só a frase no dia seguinte.
 >   3. CTA de "seguir o perfil" também vira transição. A ponte "orientação → organização" liga o tema ao sistema sem prometer resultado.
 
+> ### Registro do ATIVO Episódio 09 (16/11/2026)
+>
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP09.md`); CTA "Siga a ATIVO" → transição "Uma atuação mais estratégica também começa pela sua organização." (pendente de aprovação) + CTA SISTEMA; 1,0×; tomada B sem emenda (A leu a direção); composição `EP-ATIVO09`, saída `OUTPUT/ATIVO_EP09/`.
+> - **Aprendizados:**
+>   1. A transcrição do Parakeet no **arquivo inteiro** (saída do `gen_take.py`) erra finais de verbo ("vender", "conferir", "te envia"). Antes de descartar a tomada ou gastar a 3ª geração, conferir **por trecho** com os dois reconhecedores: aqui os três "erros" sumiram.
+>   2. Cenas aprovadas na linha do tempo provisória medem pouco movimento com a voz real (1,23). Mapa com tráfego, pulso na linha de etapas, cartões flutuando e câmera com um passo a cada cue levaram a 1,66 sem acelerar nada. Medir o movimento **antes** do render final.
+>   3. Cartão/caixa que entra com a moldura e só é preenchido segundos depois precisa de um conteúdo de espera coerente ("quem?", rascunho com cursor, "ORIENTE A PROCURAR").
+>   4. Carimbo de fecho de cena entra junto da última palavra-chave, não 0,6 s depois: senão cai no corte e nunca é visto.
+>   5. `*palavra*` seguida de aspas/pontuação deixa o asterisco na legenda — escrever `*palavra”,*`.
+>   6. Sessão nova na nuvem: rodar `npm install` e `bash tools/setup_models.sh` antes de tudo (≈3 min).
+
 > ### Criativos de anúncio Meta Ads (AD-*) — padrão a partir de 15/11/2026
 >
 > - **Objetivo:** clique no botão do anúncio → formulário/landing. **CTA = botão** (`cta.type: "botao_meta"`, fala "Clique no botão…", tela CLIQUE NO BOTÃO + seta para baixo). A regra "CTA SISTEMA" vale só para Reels orgânicos; `editorial_check` aplica a regra certa pelo prefixo `AD-`.
@@ -258,6 +269,7 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-16 | ATIVO EP06 | v1 para gestores (77,8 s) → **v2 para corretor** a pedido do cliente: texto adaptado (você/colega/seus clientes), tomada B, 165 palavras/min, 76,1 s, movimento 1,72, maior trecho parado 0,7 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-16 | ATIVO EP07 | Roteiro do cliente + CTA SISTEMA (salvar → transição). Tomada C + frase s12 da B (emenda), 179 palavras/min, 81,1 s, movimento 1,78, maior trecho parado 0,9 s, mix × roteiro 0,97 | Pedido do cliente; aguardando avaliação |
 | 2026-11-16 | ATIVO EP08 | Roteiro do cliente + CTA SISTEMA (seguir → transição-ponte). Tomada única, 179 palavras/min, 73,5 s, movimento 1,87, maior trecho parado 0,8 s, mix × roteiro 0,96; 3 palavras para conferência auditiva | Pedido do cliente; aguardando avaliação |
+| 2026-11-16 | ATIVO EP09 | Roteiro do cliente + CTA SISTEMA (seguir → transição-ponte). Tomada B sem emenda, 152 palavras/min, 85,9 s, movimento 1,66, maior trecho parado 0,8 s, mix × roteiro 0,965; 3 palavras para conferência auditiva | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 | Vídeo principal da landing: 118 s, 1920×1080, trilha original por blocos, marca e telas provisórias, legendas web | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 v2 | Transcrição dinâmica, voz 1,2× (exceção pedida), 86,5 s, elementos maiores, movimento 2,39 | Feedback do cliente: mais dinâmica, texto = fala, gancho mais forte |
 | 2026-11-13 | LANDING 16:9 FINAL | Logo oficial (revelação) + verde #3AF584, 3 situações centralizadas, voz 1,0×, 103 s, movimento 2,0 | Aprovado para implementação pelo cliente, com estes ajustes |

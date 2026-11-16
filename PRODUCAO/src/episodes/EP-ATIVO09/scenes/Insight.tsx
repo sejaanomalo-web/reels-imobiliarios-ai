@@ -32,19 +32,32 @@ export const Insight: React.FC<SceneProps> = ({ t, tl }) => {
         t={t}
         keys={[
           { t: c.i_pense - 0.35, s: 0.95, y: 0 },
-          { t: c.i_anunc + 0.6, s: 1.06, y: -20, e: ease.inOut },
-          { t: c.i_ajude + 0.5, s: 1.0, y: 0, e: ease.inOut },
-          { t: c.i_atuac, s: 1.0, y: 20, e: ease.inOut },
-          { t: ctaAt, s: 1.03, y: 30, e: ease.linear },
+          { t: c.i_pense + 1.3, s: 1.02, y: -30, e: ease.inOut },
+          { t: c.i_anunc + 0.6, s: 1.09, y: -40, e: ease.inOut },
+          { t: c.i_demons + 0.5, s: 1.0, y: 20, e: ease.inOut },
+          { t: c.i_ajude + 0.5, s: 1.06, y: 70, e: ease.inOut },
+          { t: c.i_autor + 0.2, s: 0.97, y: 0, e: ease.inOut },
+          { t: c.i_valor + 0.6, s: 1.02, y: -20, e: ease.inOut },
+          { t: c.i_atuac + 0.4, s: 1.0, y: 30, e: ease.inOut },
+          { t: c.i_org + 0.3, s: 1.03, y: 50, e: ease.inOut },
+          { t: ctaAt, s: 1.03, y: 40, e: ease.linear },
         ]}
       >
         {/* o post */}
         {tri < 1 ? (
-          <div style={{ position: "absolute", left: 170, top: 330, width: 740, height: 860, boxSizing: "border-box", borderRadius: 40, background: C.surface, border: `2px solid ${flip > 0.5 ? brandAlpha(0.5) : C.line}`, padding: 30, boxShadow: "0 40px 100px rgba(0,0,0,0.6)", opacity: 1 - tri, transform: `scale(${mix(1, 0.7, tri)}) rotateY(${Math.sin(flip * Math.PI) * 14}deg)` }}>
+          <div style={{ position: "absolute", left: 170, top: 330, width: 740, height: 860, boxSizing: "border-box", borderRadius: 40, background: C.surface, border: `2px solid ${flip > 0.5 ? brandAlpha(0.5) : C.line}`, padding: 30, boxShadow: "0 40px 100px rgba(0,0,0,0.6)", opacity: 1 - tri, transform: `translateY(${Math.sin(t * 1.6) * 9}px) rotate(${Math.sin(t * 1.1) * 0.9}deg) scale(${mix(1, 0.7, tri)}) rotateY(${Math.sin(flip * Math.PI) * 14}deg)` }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
               <Label size={26} color={C.text}>SEU PRÓXIMO CONTEÚDO</Label>
               <Tag text="ILUSTRATIVO" tone="muted" size={20} />
             </div>
+            {brag < 0.999 && flip < 0.5 ? (
+              <div style={{ position: "absolute", left: 30, right: 30, top: 150, opacity: 1 - Math.min(1, brag * 2) }}>
+                {[0.86, 0.62, 0.74].map((w, i) => (
+                  <div key={i} style={{ height: i ? 30 : 54, width: `${w * 100 * prog(t, c.i_pense + 0.15 + i * 0.5, 0.5, ease.out)}%`, borderRadius: 12, background: C.line, marginBottom: 26, opacity: 0.7 + 0.3 * Math.sin(t * 3 + i) }} />
+                ))}
+                <div style={{ width: 8, height: 60, borderRadius: 4, background: C.text, opacity: Math.sin(t * 7) > 0 ? 0.9 : 0.15 }} />
+              </div>
+            ) : null}
             {flip < 0.5 ? (
               <div style={{ marginTop: 160, textAlign: "center", opacity: Math.min(1, brag * 1.5), transform: `scale(${mix(0.5, 1, Math.min(1.08, brag))})`, position: "relative" }}>
                 <div style={{ fontWeight: 800, fontSize: 82, lineHeight: 1.02, letterSpacing: "-0.04em", color: strike > 0.5 ? C.muted : C.text }}>EU ENTENDO DO ASSUNTO!</div>
@@ -55,7 +68,7 @@ export const Insight: React.FC<SceneProps> = ({ t, tl }) => {
               <div style={{ marginTop: 30, display: "flex", flexDirection: "column", gap: 20 }}>
                 <Label size={26} color={C.accent}>DEMONSTRAR</Label>
                 <div style={{ display: "flex", gap: 20 }}>
-                  <div style={{ borderRadius: 20, overflow: "hidden" }}><MapArt w={330} h={250} /></div>
+                  <div style={{ borderRadius: 20, overflow: "hidden" }}><MapArt w={330} h={250} t={t} /></div>
                   <div style={{ width: 300, height: 250, borderRadius: 20, background: C.bg1, display: "flex", alignItems: "center", justifyContent: "center" }}><Plan size={250} /></div>
                 </div>
                 {["Antes de visitar", "Documentos", "Verificações"].map((k, i) => (

@@ -37,11 +37,15 @@ export const Mercado: React.FC<SceneProps> = ({ t, tl }) => {
         t={t}
         keys={[
           { t: c.m_prim - 0.35, s: 0.95, y: 0 },
-          { t: c.m_melhor + 0.3, s: 1.06, y: -20, e: ease.inOut },
-          { t: c.m_mob, s: 1.0, y: 0, e: ease.inOut },
-          { t: c.m_reg + 0.5, s: 1.04, y: 10, e: ease.inOut },
-          { t: c.m_use + 0.4, s: 0.98, y: 60, e: ease.inOut },
-          { t: c.a_seg, s: 1.0, y: 60, e: ease.linear },
+          { t: c.m_crit + 0.6, s: 1.02, y: -10, e: ease.inOut },
+          { t: c.m_vez + 0.3, s: 1.05, x: 60, y: -60, e: ease.inOut },
+          { t: c.m_melhor + 0.3, s: 1.08, x: 0, y: -20, e: ease.inOut },
+          { t: c.m_mob, s: 1.0, x: 20, y: 0, e: ease.inOut },
+          { t: c.m_serv + 0.3, s: 1.04, x: 50, y: -30, e: ease.inOut },
+          { t: c.m_ruas + 0.3, s: 1.03, x: -10, y: 40, e: ease.inOut },
+          { t: c.m_reg + 0.5, s: 1.04, x: 25, y: 70, e: ease.inOut },
+          { t: c.m_use + 0.4, s: 0.98, x: 0, y: 60, e: ease.inOut },
+          { t: c.a_seg, s: 1.03, y: 70, e: ease.linear },
         ]}
       >
         <div style={{ position: "absolute", left: 0, right: 0, top: 290, display: "flex", justifyContent: "center", gap: 14, opacity: prog(t, c.m_prim - 0.05, 0.3, ease.out) }}>
@@ -49,8 +53,21 @@ export const Mercado: React.FC<SceneProps> = ({ t, tl }) => {
           <Tag text="MAPA ILUSTRATIVO" tone="muted" size={22} />
         </div>
         <div style={{ position: "absolute", left: 90, top: 380, width: 900, height: 675, borderRadius: 40, overflow: "hidden", border: `2px solid ${C.line}`, boxShadow: "0 40px 100px rgba(0,0,0,0.6)" }}>
-          <MapArt w={900} h={675} p={map} />
+          <MapArt w={900} h={675} p={map} t={t} />
         </div>
+        {/* "um bairro": pino genérico sobre uma quadra */}
+        {(() => {
+          const pin = sp(t, c.m_vez + 0.3, { damping: 10, stiffness: 200 });
+          const off = prog(t, c.m_pesq - 0.3, 0.3, ease.in);
+          if (pin <= 0.001 || off >= 1) return null;
+          const ring = (t * 0.9) % 1;
+          return (
+            <div style={{ position: "absolute", left: 821, top: 560, opacity: Math.min(1, pin * 1.5) * (1 - off) }}>
+              <div style={{ position: "absolute", left: -60 - ring * 50, top: -60 - ring * 50, width: 120 + ring * 100, height: 120 + ring * 100, borderRadius: "50%", border: `4px solid ${C.text}`, opacity: 0.5 * (1 - ring) }} />
+              <div style={{ position: "absolute", left: -22, top: -22 - (1 - Math.min(1, pin)) * 160, width: 44, height: 44, borderRadius: 22, background: C.text, boxShadow: "0 10px 30px rgba(0,0,0,0.6)" }} />
+            </div>
+          );
+        })()}
         {/* "o melhor bairro" */}
         {best > 0.001 && strike < 1 ? (
           <div style={{ position: "absolute", left: 0, right: 0, top: 640, display: "flex", justifyContent: "center", opacity: Math.min(1, best * 1.5) * (1 - prog(t, c.m_pesq, 0.4, ease.in)), transform: `scale(${mix(0.4, 1, Math.min(1.1, best))})`, zIndex: 5 }}>
