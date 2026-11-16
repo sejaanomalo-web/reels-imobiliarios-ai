@@ -7,7 +7,7 @@ import { Avatar, Card, Tag, TEAM } from "./ui";
 
 /**
  * CENA 2 — O CAMINHO DO CONTATO (EXEMPLO ILUSTRATIVO). "Acompanhe uma oportunidade fictícia. Ela chega por um anúncio." → ficha do
- * lead entra pelo anúncio. "Alguém responde, mas ninguém define quem será responsável pelo próximo retorno." → corretor A responde;
+ * lead entra pelo anúncio. (versão corretor: "Você responde…"; "um colega abre a conversa…") "Alguém responde, mas ninguém define quem será responsável pelo próximo retorno." → corretor A responde;
  * RESPONSÁVEL e PRÓXIMO PASSO ficam em branco (alerta). "No dia seguinte, outro corretor abre a conversa sem saber o que já foi
  * explicado." → corretor B repete a pergunta; os dois balões batem.
  */
@@ -59,14 +59,20 @@ export const Contato: React.FC<SceneProps> = ({ t, tl }) => {
         {/* corretor A responde */}
         {a > 0.001 ? (
           <div style={{ position: "absolute", left: 90, top: 820, display: "flex", alignItems: "flex-end", gap: 14, opacity: Math.min(1, a * 1.5), transform: `translateX(${(1 - Math.min(1, a)) * -200}px)` }}>
-            <Avatar ini={TEAM[0].ini} bg={TEAM[0].bg} size={84} />
+            <div style={{ textAlign: "center" }}>
+              <Avatar ini={TEAM[0].ini} bg={TEAM[0].bg} size={84} />
+              <div style={{ marginTop: 6, fontFamily: F.mono, fontWeight: 700, fontSize: 24, color: C.text }}>VOCÊ</div>
+            </div>
             <div style={{ padding: "18px 22px", borderRadius: 24, borderBottomLeftRadius: 6, background: C.surface3, fontWeight: 700, fontSize: 32, color: C.text, maxWidth: 520 }}>Oi! Qual imóvel te interessou?</div>
           </div>
         ) : null}
         {/* corretor B repete */}
         {b > 0.001 ? (
           <div style={{ position: "absolute", right: 90, top: 1010, display: "flex", flexDirection: "row-reverse", alignItems: "flex-end", gap: 14, opacity: Math.min(1, b * 1.5), transform: `translateX(${(1 - Math.min(1, b)) * 200}px)` }}>
-            <Avatar ini={TEAM[1].ini} bg={TEAM[1].bg} size={84} />
+            <div style={{ textAlign: "center" }}>
+              <Avatar ini={TEAM[1].ini} bg={TEAM[1].bg} size={84} />
+              <div style={{ marginTop: 6, fontFamily: F.mono, fontWeight: 700, fontSize: 24, color: C.text }}>COLEGA</div>
+            </div>
             <div style={{ padding: "18px 22px", borderRadius: 24, borderBottomRightRadius: 6, background: C.surface3, border: `3px solid ${clash > 0.5 ? C.warn : "transparent"}`, fontWeight: 700, fontSize: 32, color: C.text, maxWidth: 520 }}>Oi! Qual imóvel te interessou?</div>
           </div>
         ) : null}

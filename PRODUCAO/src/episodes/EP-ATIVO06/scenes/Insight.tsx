@@ -6,7 +6,7 @@ import type { SceneProps } from "../../types";
 import { Avatar, Node, STAGES, Tag, TEAM } from "./ui";
 
 /**
- * CENA 5 — INSIGHT. "Uma boa gestão não precisa acompanhar cada mensagem da equipe." → uma nuvem de mensagens se dissolve.
+ * CENA 5 — INSIGHT (versão corretor). "Um bom corretor não precisa lembrar cada mensagem." → uma nuvem de mensagens se dissolve.
  * "Precisa enxergar responsabilidades, etapas e pendências para agir quando algo sai do fluxo." → o fluxo do gancho volta a
  * funcionar, agora com um responsável em cada etapa e as pendências à vista; um ponto sai do fluxo, é sinalizado e volta.
  */
@@ -43,7 +43,7 @@ export const Insight: React.FC<SceneProps> = ({ t, tl }) => {
             </>
           ) : (
             <>
-              NÃO É LER <span style={{ color: C.warn }}>CADA MENSAGEM</span>
+              NÃO É LEMBRAR <span style={{ color: C.warn }}>CADA MENSAGEM</span>
             </>
           )}
         </div>

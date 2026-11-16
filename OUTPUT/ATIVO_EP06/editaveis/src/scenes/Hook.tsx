@@ -6,7 +6,7 @@ import type { SceneProps } from "../../types";
 import { Node, STAGES, Tag } from "./ui";
 
 /**
- * CENA 1 — GANCHO. "Sua imobiliária recebe contatos, agenda visitas, cadastra imóveis e tem uma equipe ocupada." → fluxo
+ * CENA 1 — GANCHO (versão corretor). "Você atende contatos, agenda visitas, cadastra imóveis e passa o dia ocupado." → fluxo
  * ENTRADA → ATENDIMENTO → VISITA → NEGOCIAÇÃO já vivo no quadro 0 (pontos correndo), e as atividades acendem na fala.
  * "Mesmo assim, algumas oportunidades param no caminho." → um ponto trava entre ATENDIMENTO e VISITA e o elo fica vermelho.
  * "…É onde a operação está perdendo continuidade." → lupa no elo quebrado: ONDE ESTÁ O GARGALO? Sem números.
@@ -48,11 +48,11 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
         <div style={{ position: "absolute", left: 80, right: 80, top: 300, textAlign: "center", fontWeight: 800, fontSize: 78, lineHeight: 1.02, letterSpacing: "-0.045em", color: C.text, opacity: Math.min(1, nodes[0] * 1.5) * (1 - Math.min(1, q * 1.5)) }}>
           {work > 0.5 ? (
             <>
-              TODO MUNDO <span style={{ color: BRAND.hex }}>TRABALHANDO</span>
+              VOCÊ <span style={{ color: BRAND.hex }}>TRABALHANDO</span>
             </>
           ) : (
             <>
-              OPERAÇÃO <span style={{ color: BRAND.hex }}>OCUPADA</span>
+              DIA <span style={{ color: BRAND.hex }}>CHEIO</span>
             </>
           )}
         </div>
@@ -76,7 +76,7 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
           </div>
         ))}
         {/* atividades (à direita) */}
-        {["CONTATOS", "VISITAS", "IMÓVEIS", "EQUIPE OCUPADA"].map((a, i) => (
+        {["CONTATOS", "VISITAS", "IMÓVEIS", "DIA OCUPADO"].map((a, i) => (
           <div key={a} style={{ position: "absolute", left: NX + 510, top: NY[i] + 30, opacity: Math.min(1, acts[i] * 1.5), transform: `translateX(${(1 - Math.min(1, acts[i])) * 80}px) scale(${mix(0.6, 1, Math.min(1.08, acts[i]))})` }}>
             <Tag text={`✓ ${a}`} tone="accent" size={26} />
           </div>

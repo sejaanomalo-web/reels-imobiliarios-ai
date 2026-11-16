@@ -1,6 +1,6 @@
 {
  "id": "EP-ATIVO06",
- "title": "Sua imobiliária tem um gargalo. Mas onde ele está?",
+ "title": "Seu atendimento tem um gargalo. Mas onde ele está?",
  "fps": 30,
  "width": 1080,
  "height": 1920,
@@ -13,14 +13,14 @@
   "subtitles": "ATIVO_EP06_legendas.srt",
   "cover": "ATIVO_EP06_capa.png"
  },
- "fonte": "ROTEIROS/ATIVO_EP06.md (ATIVO_Roteiro_06.docx, cliente, 16/11/2026)",
+ "fonte": "ROTEIROS/ATIVO_EP06.md (ATIVO_Roteiro_06.docx, cliente, 16/11/2026) — versão adaptada ao corretor a pedido do cliente (16/11/2026)",
  "diagnostico": {
-  "publico_situacao": "gestor comercial / dono de imobiliária com equipe ocupada e oportunidades que param no caminho",
+  "publico_situacao": "corretor que trabalha numa imobiliária/equipe: dia cheio, atendimentos e imóveis divididos com colegas, oportunidades que param no caminho",
   "motivacao": "descobrir por que uma operação ocupada não avança com consistência",
-  "crenca_questionada": "falta de venda se resolve com mais contatos / equipe trabalhando = operação funcionando",
-  "hipotese": "o contraste entre atividade visível e falhas de transferência entre etapas gera reconhecimento",
+  "crenca_questionada": "'estou ocupado, então meu atendimento está funcionando' / 'eu lembro de tudo'",
+  "hipotese": "o corretor se reconhece na passagem do cliente e do imóvel entre ele e os colegas — é ali que o atendimento perde o fio",
   "funcao": "C3 apresentação de solução / captura de demanda",
-  "promessa": "um método de investigação: refazer o percurso de uma negociação recente com 5 perguntas",
+  "promessa": "refazer o percurso de uma negociação recente com 5 perguntas para achar onde o próprio atendimento perde continuidade",
   "evidencias": "exemplo ilustrativo (lead e imóvel fictícios, rotulados); sem números nem dashboard apresentado como produto real",
   "cta": "comentário SISTEMA → Direct (do próprio roteiro)"
  },
@@ -28,8 +28,8 @@
   "type": "comentario",
   "keyword": "SISTEMA",
   "channel": "Direct",
-  "base_text": "Se você quer conhecer um sistema personalizado para organizar imóveis, leads e atendimentos, comente SISTEMA que enviamos os detalhes pelo Direct.",
-  "source": "CTA do roteiro do cliente (já SISTEMA)"
+  "base_text": "Se você quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos, comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "CTA do roteiro, adaptada ao texto-base ('eu te envio') na versão para corretor"
  },
  "pronunciation": {
   "SISTEMA": "sistema"
@@ -41,8 +41,8 @@
   {
    "id": "s1",
    "scene": "hook",
-   "text": "Sua imobiliária recebe contatos, agenda visitas, cadastra imóveis e tem uma equipe ocupada.",
-   "caption": "Sua imobiliária | recebe *contatos,* | agenda *visitas,* | cadastra *imóveis* | e tem uma equipe | *ocupada.*",
+   "text": "Você atende contatos, agenda visitas, cadastra imóveis e passa o dia ocupado.",
+   "caption": "Você atende *contatos,* | agenda *visitas,* | cadastra *imóveis* | e passa o dia | *ocupado.*",
    "pauseAfter": 0.3
   },
   {
@@ -55,15 +55,15 @@
   {
    "id": "s3",
    "scene": "hook",
-   "text": "A pergunta não é se as pessoas estão trabalhando.",
-   "caption": "A pergunta | não é se as pessoas | estão *trabalhando.*",
+   "text": "A pergunta não é se você está trabalhando.",
+   "caption": "A pergunta | não é se você | está *trabalhando.*",
    "pauseAfter": 0.3
   },
   {
    "id": "s4",
    "scene": "hook",
-   "text": "É onde a operação está perdendo continuidade.",
-   "caption": "É *onde* a operação | está perdendo | *continuidade.*",
+   "text": "É onde o seu atendimento está perdendo continuidade.",
+   "caption": "É *onde* | o seu atendimento | está perdendo | *continuidade.*",
    "pauseAfter": 0.3
   },
   {
@@ -83,15 +83,15 @@
   {
    "id": "s7",
    "scene": "contato",
-   "text": "Alguém responde, mas ninguém define quem será responsável pelo próximo retorno.",
-   "caption": "Alguém *responde,* | mas ninguém define | quem será *responsável* | pelo próximo *retorno.*",
+   "text": "Você responde, mas ninguém define quem será responsável pelo próximo retorno.",
+   "caption": "Você *responde,* | mas ninguém define | quem será *responsável* | pelo próximo *retorno.*",
    "pauseAfter": 0.3
   },
   {
    "id": "s8",
    "scene": "contato",
-   "text": "No dia seguinte, outro corretor abre a conversa sem saber o que já foi explicado.",
-   "caption": "No dia seguinte, | *outro corretor* | abre a conversa | sem saber | o que já foi *explicado.*",
+   "text": "No dia seguinte, um colega abre a conversa sem saber o que você já explicou.",
+   "caption": "No dia seguinte, | *um colega* | abre a conversa | sem saber | o que você já *explicou.*",
    "pauseAfter": 0.3
   },
   {
@@ -104,15 +104,15 @@
   {
    "id": "s10",
    "scene": "imovel",
-   "text": "Um corretor informa que está disponível.",
-   "caption": "Um corretor informa | que está *disponível.*",
+   "text": "Você informa ao cliente que está disponível.",
+   "caption": "Você informa ao cliente | que está *disponível.*",
    "pauseAfter": 0.3
   },
   {
    "id": "s11",
    "scene": "imovel",
-   "text": "Outro descobre que a condição mudou.",
-   "caption": "Outro descobre | que a *condição mudou.*",
+   "text": "Um colega descobre que a condição mudou.",
+   "caption": "Um colega descobre | que a *condição mudou.*",
    "pauseAfter": 0.3
   },
   {
@@ -132,8 +132,8 @@
   {
    "id": "s14",
    "scene": "investigacao",
-   "text": "Para encontrar o gargalo, escolha uma negociação recente e refaça seu percurso.",
-   "caption": "Para encontrar | o *gargalo,* | escolha uma negociação | *recente* | e *refaça* | seu percurso.",
+   "text": "Para encontrar o seu gargalo, escolha uma negociação recente e refaça seu percurso.",
+   "caption": "Para encontrar | o seu *gargalo,* | escolha uma negociação | *recente* | e *refaça* | seu percurso.",
    "pauseAfter": 0.3
   },
   {
@@ -181,29 +181,29 @@
   {
    "id": "s21",
    "scene": "insight",
-   "text": "Uma boa gestão não precisa acompanhar cada mensagem da equipe.",
-   "caption": "Uma boa gestão | não precisa acompanhar | *cada mensagem* | da equipe.",
+   "text": "Um bom corretor não precisa lembrar cada mensagem.",
+   "caption": "Um bom corretor | não precisa lembrar | *cada mensagem.*",
    "pauseAfter": 0.3
   },
   {
    "id": "s22",
    "scene": "insight",
-   "text": "Precisa enxergar responsabilidades, etapas e pendências para agir quando algo sai do fluxo.",
-   "caption": "Precisa *enxergar* | *responsabilidades,* | *etapas* | e *pendências* | para agir | quando algo | *sai do fluxo.*",
+   "text": "Precisa enxergar seus clientes, as etapas e as pendências para agir quando algo sai do fluxo.",
+   "caption": "Precisa *enxergar* | seus *clientes,* | as *etapas* | e as *pendências* | para agir | quando algo | *sai do fluxo.*",
    "pauseAfter": 0.3
   },
   {
    "id": "s23",
    "scene": "cta",
-   "text": "Se você quer conhecer um sistema personalizado para organizar imóveis, leads e atendimentos,",
-   "caption": "Se você quer conhecer | um sistema *personalizado* | para organizar | *imóveis, leads* | e *atendimentos,*",
+   "text": "Se você quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos,",
+   "caption": "Se você quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos,*",
    "pauseAfter": 0.3
   },
   {
    "id": "s24",
    "scene": "cta",
-   "text": "comente SISTEMA que enviamos os detalhes pelo Direct.",
-   "caption": "comente *SISTEMA* | que enviamos | os detalhes | pelo *Direct.*",
+   "text": "comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
    "pauseAfter": 0.3
   }
  ],
@@ -236,13 +236,13 @@
   },
   "h_equipe": {
    "seg": "s1",
-   "word": "equipe",
+   "word": "dia",
    "edge": "start",
    "offset": 0
   },
   "h_ocup": {
    "seg": "s1",
-   "word": "ocupada",
+   "word": "ocupado",
    "edge": "start",
    "offset": 0
   },
@@ -332,7 +332,7 @@
   },
   "c_outro": {
    "seg": "s8",
-   "word": "outro",
+   "word": "colega",
    "edge": "start",
    "offset": 0
   },
@@ -344,7 +344,7 @@
   },
   "c_expl": {
    "seg": "s8",
-   "word": "explicado",
+   "word": "explicou",
    "edge": "start",
    "offset": 0
   },
@@ -362,7 +362,7 @@
   },
   "i_outro": {
    "seg": "s11",
-   "word": "Outro",
+   "word": "colega",
    "edge": "start",
    "offset": 0
   },
@@ -464,7 +464,7 @@
   },
   "g_boa": {
    "seg": "s21",
-   "word": "boa",
+   "word": "bom",
    "edge": "start",
    "offset": 0
   },
@@ -482,7 +482,7 @@
   },
   "g_resp": {
    "seg": "s22",
-   "word": "responsabilidades",
+   "word": "clientes",
    "edge": "start",
    "offset": 0
   },
@@ -809,5 +809,9 @@
     "label": "Cadd9 — sistema"
    }
   ]
+ },
+ "versao": {
+  "atual": "corretor (16/11/2026, pedido do cliente: 'conteúdos para corretores')",
+  "anterior": "gestores (texto original do roteiro) — commit dd15674"
  }
 }

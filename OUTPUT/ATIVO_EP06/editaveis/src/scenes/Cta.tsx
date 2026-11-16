@@ -8,8 +8,8 @@ import type { SceneProps } from "../../types";
 import { IconChat, IconPlane, IconUser, Mark, PROTOCOL, Tag } from "./ui";
 
 /**
- * CENA 6 — CTA SISTEMA (do próprio roteiro): "Se você quer conhecer um sistema personalizado para organizar imóveis, leads e
- * atendimentos, comente SISTEMA que enviamos os detalhes pelo Direct." → a lista RESPONSÁVEIS / ETAPAS / PENDÊNCIAS (ILUSTRATIVO)
+ * CENA 6 — CTA SISTEMA (do próprio roteiro): "Se você quer conhecer um sistema personalizado para organizar seus imóveis, leads e
+ * atendimentos, comente SISTEMA que eu te envio os detalhes pelo Direct." → a lista CLIENTES / ETAPAS / PENDÊNCIAS (ILUSTRATIVO)
  * dobra no módulo IMÓVEIS; campo de comentário genérico digita SISTEMA; COMENTE "SISTEMA" + logo oficial. Base: fecho EP02/04/05.
  */
 const CARD = { x: 110, y: 300, w: 860, h: 860 };
@@ -98,8 +98,8 @@ export const Cta: React.FC<SceneProps> = ({ t, tl }) => {
                   <div style={{ height: 150, display: "flex", alignItems: "center", gap: 24, padding: "0 36px", background: C.surface2, borderBottom: `1px solid ${C.lineSoft}` }}>
                     <svg width={64} height={64} viewBox="0 0 24 24" fill="none"><path d="M6 3.5h12v17l-6-4-6 4z" fill={C.accent} /></svg>
                     <div style={{ flex: 1 }}>
-                      <div style={{ fontWeight: 800, fontSize: 44, color: C.text }}>O que a gestão enxerga</div>
-                      <div style={{ fontWeight: 600, fontSize: 26, color: C.muted }}>responsáveis, etapas e pendências</div>
+                      <div style={{ fontWeight: 800, fontSize: 44, color: C.text }}>O que você enxerga</div>
+                      <div style={{ fontWeight: 600, fontSize: 26, color: C.muted }}>clientes, etapas e pendências</div>
                     </div>
                     <Tag text="ILUSTRATIVO" tone="muted" size={20} />
                   </div>

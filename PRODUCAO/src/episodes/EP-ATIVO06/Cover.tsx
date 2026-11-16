@@ -10,7 +10,7 @@ export const ATIVO06Cover: React.FC = () => (
   <AbsoluteFill style={{ backgroundColor: C.bg0, fontFamily: F.sans }}>
     <Background t={0} mood={0.1} />
     <div style={{ position: "absolute", left: 80, right: 80, top: 330, textAlign: "center", fontWeight: 800, fontSize: 100, lineHeight: 1.0, letterSpacing: "-0.045em", color: C.text }}>
-      Sua imobiliária tem um <span style={{ color: C.warn }}>gargalo</span>.
+      Seu atendimento tem um <span style={{ color: C.warn }}>gargalo</span>.
       <div style={{ fontSize: 64, marginTop: 24 }}>Mas onde ele está?</div>
     </div>
     <div style={{ position: "absolute", left: 290, top: 850, display: "flex", flexDirection: "column", gap: 30 }}>

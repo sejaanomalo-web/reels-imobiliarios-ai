@@ -14,7 +14,7 @@ export const TEAM = [
   { ini: "D", bg: "#6A5A8C" },
 ];
 export const PROTOCOL = [
-  { k: "RESPONSÁVEIS", sub: "quem cuida de cada etapa" },
+  { k: "CLIENTES", sub: "quem está em cada etapa" },
   { k: "ETAPAS", sub: "onde cada oportunidade está" },
   { k: "PENDÊNCIAS", sub: "o que precisa de ação" },
 ];

@@ -16,7 +16,7 @@ import { Cta } from "./scenes/Cta";
 
 export const timeline = timelineJson as Timeline;
 
-/** ATIVO · Episódio 06 — "Sua imobiliária tem um gargalo. Mas onde ele está?" (ROTEIROS/ATIVO_EP06.md). Reel orgânico: voz oficial
+/** ATIVO · Episódio 06 — "Seu atendimento tem um gargalo. Mas onde ele está?" (ROTEIROS/ATIVO_EP06.md; versão corretor, 16/11/2026). Reel orgânico: voz oficial
  *  1,0×, CTA SISTEMA do próprio roteiro, verde exato #3AF584, logo oficial no fecho. */
 export const ATIVO06: React.FC<{ withAudio?: boolean }> = ({ withAudio = true }) => {
   const frame = useCurrentFrame();
@@ -45,7 +45,7 @@ export const ATIVO06: React.FC<{ withAudio?: boolean }> = ({ withAudio = true })
       <Sequence name="4 A investigação — 5 perguntas" layout="none" {...win(c.v_garg - 0.45, c.g_boa + 0.1)}>
         <Investigacao t={t} tl={tl} />
       </Sequence>
-      <Sequence name="5 Insight — enxergar o fluxo" layout="none" {...win(c.g_boa - 0.45, c.cta_se + 0.1)}>
+      <Sequence name="5 Insight — enxergar clientes, etapas e pendências" layout="none" {...win(c.g_boa - 0.45, c.cta_se + 0.1)}>
         <Insight t={t} tl={tl} />
       </Sequence>
       <Sequence name="6 CTA SISTEMA" layout="none" {...win(c.cta_se - 0.4, tl.duration)}>

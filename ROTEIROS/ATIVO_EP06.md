@@ -1,4 +1,8 @@
-<!-- Extraído de ATIVO_Roteiro_06.docx enviado pelo cliente em 16/11/2026. Narrado palavra por palavra; a CTA SISTEMA já vem no roteiro. -->
+<!-- Extraído de ATIVO_Roteiro_06.docx enviado pelo cliente em 16/11/2026. A CTA SISTEMA já vem no roteiro.
+VERSÃO PRODUZIDA (16/11/2026, pedido do cliente: "conteúdos para corretores"): texto adaptado ao ponto de vista do corretor que trabalha na imobiliária —
+"Você atende contatos… passa o dia ocupado" · "A pergunta não é se você está trabalhando. É onde o seu atendimento…" · "Você responde…" · "um colega abre a conversa sem saber o que você já explicou" ·
+"Você informa ao cliente…" · "Um colega descobre…" · "Para encontrar o seu gargalo…" · "Um bom corretor não precisa lembrar cada mensagem. Precisa enxergar seus clientes, as etapas e as pendências…" ·
+CTA "…organizar seus imóveis, leads e atendimentos, comente SISTEMA que eu te envio os detalhes pelo Direct." Texto exato em PRODUCAO/episodes/EP-ATIVO06/episode.json. -->
 ATIVO | INTELIGÊNCIA IMOBILIÁRIA
 Preset de produção: Reels 9:16; voz original aprovada 1.0x; fundo escuro, branco e verde luminoso; motion design com cenas funcionais; logo oficial discreta.
 EPISÓDIO 06 — SUA IMOBILIÁRIA TEM UM GARGALO. MAS ONDE ELE ESTÁ?
