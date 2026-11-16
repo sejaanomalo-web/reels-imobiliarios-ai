@@ -39,7 +39,7 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
           <Viewfinder w={VF.w} h={VF.h} t={t} label="IMAGEM ILUSTRATIVA">
             {/* fachada para impressionar */}
             <div style={{ position: "absolute", inset: 0, clipPath: `inset(0 ${wipe * 100}% 0 0)` }}>
-              <div style={{ position: "absolute", left: -60, top: -230, transform: `scale(${1 + 0.06 * Math.min(1, t / 4)})` }}>
+              <div style={{ position: "absolute", left: -60, top: -230, transform: `translate(${Math.sin(t * 0.9) * 45}px, ${Math.cos(t * 0.7) * 18}px) scale(${1.04 + 0.08 * Math.min(1, t / 4)}) rotate(${Math.sin(t * 1.3) * 1.2}deg)` }}>
                 <HouseArt w={iw + 120} hue={4} lit={1} />
               </div>
               {Array.from({ length: 9 }).map((_, i) => {
@@ -58,7 +58,7 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
             </div>
             {/* como quem vai comprar */}
             <div style={{ position: "absolute", inset: 0, clipPath: `inset(0 0 0 ${(1 - wipe) * 100}%)`, background: "#1C2028" }}>
-              <div style={{ position: "absolute", left: -10, top: 70 }}><RoomArt w={iw + 20} doors={doors} light={wipe} path={0} t={t} /></div>
+              <div style={{ position: "absolute", left: -10 + Math.sin(t * 1.1) * 18, top: 70 + Math.cos(t * 0.9) * 10 }}><RoomArt w={iw + 20} doors={doors} light={wipe} path={0} t={t} /></div>
               <Spot x={170} y={330} p={spots[0]} t={t} label="ARMÁRIO" />
               <Spot x={600} y={250} p={spots[1]} t={t} label="LUZ" />
               <Spot x={420} y={560} p={spots[2]} t={t} label="ACABAMENTO" />

@@ -11,7 +11,7 @@ import { People, Question, RoomArt, Spot, Tag, Viewfinder } from "./ui";
  * adjetivos flutuando estouram; cada pergunta acende e marca o cômodo (fita de medir sobre o sofá — sem medida —, feixe de luz, ponto de
  * atenção). "Até uma limitação, quando é verdadeira e contextualizada, ajuda a filtrar o comprador certo." → LIMITAÇÃO REAL + CONTEXTO → filtro.
  */
-const VF = { x: 110, y: 400, w: 860, h: 620 };
+const VF = { x: 110, y: 440, w: 860, h: 590 };
 const ADJ = ["LINDO!", "INCRÍVEL!", "IMPERDÍVEL!", "MARAVILHOSO!"];
 const Q = ["Cabe o móvel?", "Como entra a luz?", "Qual detalhe merece atenção?"];
 
@@ -47,7 +47,7 @@ export const Prende: React.FC<SceneProps> = ({ t, tl }) => {
       >
         <div style={{ position: "absolute", left: VF.x, top: VF.y }}>
           <Viewfinder w={VF.w} h={VF.h} t={t} rec={false} label="VÍDEO ILUSTRATIVO">
-            <div style={{ position: "absolute", left: -10, top: -30 }}><RoomArt w={iw + 20} doors={1} light={qs[1]} t={t} /></div>
+            <div style={{ position: "absolute", left: -10 + Math.sin(t * 0.8) * 24, top: -30 + Math.cos(t * 1.1) * 10 }}><RoomArt w={iw + 20} doors={1} light={qs[1]} t={t} /></div>
             {/* fita sobre o sofá */}
             {tape > 0.001 ? (
               <div style={{ position: "absolute", left: 340, top: 300, width: 200 * tape, height: 22, background: "#E5C07B", borderRadius: 4, boxShadow: "0 4px 10px rgba(0,0,0,0.5)" }}>

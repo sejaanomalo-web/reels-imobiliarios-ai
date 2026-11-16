@@ -68,7 +68,7 @@ export const Diferenca: React.FC<SceneProps> = ({ t, tl }) => {
 
         {/* o cômodo */}
         <div style={{ position: "absolute", left: R.x, top: R.y, width: R.w, borderRadius: 30, overflow: "hidden", border: `3px solid ${circ > 0.5 ? brandAlpha(0.5) : C.line}`, opacity: Math.min(1, room * 1.5), transform: `translateY(${(1 - Math.min(1, room)) * 80}px)`, boxShadow: "0 40px 100px rgba(0,0,0,0.6)" }}>
-          <RoomArt w={R.w} doors={doors} light={1 - recede * 0.5} path={circ} t={t} />
+          <div style={{ transform: `translate(${Math.sin(t * 1.1) * 10}px, ${Math.cos(t * 0.9) * 7}px) scale(1.03)` }}><RoomArt w={R.w} doors={doors} light={1 - recede * 0.5} path={circ} t={t} /></div>
           <div style={{ position: "absolute", right: 14, top: 14 }}><Tag text="IMÓVEL ILUSTRATIVO" tone="muted" size={20} style={{ background: "rgba(7,8,10,0.75)" }} /></div>
           {/* o que todo mundo mostra */}
           {["SALA BONITA", "VISTA DA VARANDA"].map((k, i) => {
