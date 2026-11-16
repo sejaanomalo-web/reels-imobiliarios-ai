@@ -105,6 +105,11 @@
 > - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP04.md`); **primeiro episódio sob a regra "CTA sempre SISTEMA"** — a CTA de salvamento virou transição. Preset original 1,0×, tomada única sem edição; logo oficial no fecho; composição `EP-ATIVO04`, saída `OUTPUT/ATIVO_EP04/`.
 > - **Aprendizados:** (1) o "pop" de entrada de um título caiu sobre um artigo ("com **a** sua") — a comparação voz × mixagem pegou; efeito de título entra depois da palavra-chave, não antes; (2) régua "PERGUNTA n DE 4" segura lista de perguntas sem virar slide; (3) título e conteúdo da pergunta devem entrar logo após "Primeiro:/Segundo:", não na palavra-chave seguinte — senão sobra ~1 s só com a régua; (4) o gerador de tomadas (scratchpad) precisa aplicar `pronunciation` antes da síntese (aqui a voz já falou "sistema" corretamente sem isso).
 >
+> ### Registro do ATIVO Episódio 06 (16/11/2026)
+>
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP06.md`), público gestor; CTA SISTEMA do próprio roteiro; Reel orgânico 1,0×, tomada A sem edição; verde exato; composição `EP-ATIVO06`, saída `OUTPUT/ATIVO_EP06/`.
+> - **Aprendizados:** (1) fio condutor = o mesmo diagrama (fluxo de etapas) quebrado no gancho e consertado no insight — fecha a história sem precisar de cena nova; (2) na comparação voz × mixagem, palavra "sumida" na fronteira de 20 s é artefato da janela do reconhecedor — conferir o trecho inteiro antes de mover efeitos; (3) zoom > 1,15 com título dentro da câmera corta o título na borda: limitar a 1,1 nas cenas com título.
+>
 > ### Criativos de anúncio Meta Ads (AD-*) — padrão a partir de 15/11/2026
 >
 > - **Objetivo:** clique no botão do anúncio → formulário/landing. **CTA = botão** (`cta.type: "botao_meta"`, fala "Clique no botão…", tela CLIQUE NO BOTÃO + seta para baixo). A regra "CTA SISTEMA" vale só para Reels orgânicos; `editorial_check` aplica a regra certa pelo prefixo `AD-`.
@@ -235,6 +240,7 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-15 | AD-ATIVO-01 | Criativo Meta Ads "A venda esquecida": CTA para o botão, área útil y 270–1250, legenda y 1185. Tomada A, 41,4 s, movimento 1,40, maior trecho parado 0,7 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-15 | AD-ATIVO-01 v2 | Edição para parar o scroll: 1,1×, transcrição dinâmica, cortes/tremida/flash, SFX em cada troca, bateria. 38,1 s, movimento 3,15, maior trecho parado 0,3 s, mix 110/110 | Pedido do cliente (v1 reprovada por pouca dinâmica); aguardando avaliação |
 | 2026-11-15 | AD-ATIVO-02 | Criativo "Só um minutinho" no padrão de anúncio v2 + cortes secos (`buildCuts`, também aplicado ao AD-01). 38,4 s, movimento 3,33, maior trecho parado 0,5 s, mix 117/117 | Pedido do cliente; aguardando avaliação |
+| 2026-11-16 | ATIVO EP06 | Roteiro do cliente (gestores) com CTA SISTEMA própria; orgânico 1,0×, tomada A sem edição, 157 palavras/min, 77,8 s, movimento 1,74, maior trecho parado 0,6 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 | Vídeo principal da landing: 118 s, 1920×1080, trilha original por blocos, marca e telas provisórias, legendas web | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 v2 | Transcrição dinâmica, voz 1,2× (exceção pedida), 86,5 s, elementos maiores, movimento 2,39 | Feedback do cliente: mais dinâmica, texto = fala, gancho mais forte |
 | 2026-11-13 | LANDING 16:9 FINAL | Logo oficial (revelação) + verde #3AF584, 3 situações centralizadas, voz 1,0×, 103 s, movimento 2,0 | Aprovado para implementação pelo cliente, com estes ajustes |
