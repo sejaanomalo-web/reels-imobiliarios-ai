@@ -1,0 +1,724 @@
+{
+ "id": "EP-ATIVO-CASE01",
+ "title": "Kelsie Blevins: atenção antes da venda",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "outputDir": "ATIVO_CASE01",
+ "deliverables": {
+  "final": "ATIVO_CASE01_FINAL.mp4",
+  "narration": "ATIVO_CASE01_NARRACAO.wav",
+  "subtitles": "ATIVO_CASE01_legendas.srt",
+  "cover": "ATIVO_CASE01_capa.png"
+ },
+ "fonte": "ROTEIROS/ATIVO_CASE01.md (ATIVO_Reel_01_KELSIE_BLEVINS_ATENCAO.md, cliente, 16/11/2026)",
+ "diagnostico": {
+  "publico_situacao": "corretor que grava vídeos de imóveis e quer audiência própria",
+  "motivacao": "ser lembrado e procurado pelo cliente, não só ter visualizações",
+  "crenca_questionada": "vídeo de imóvel bonito basta para segurar atenção e gerar conversa",
+  "hipotese": "caso real: conteúdo que responde dúvida → mostra o trabalho → convida para conversar constrói confiança",
+  "funcao": "C2 mudança de percepção (caso real)",
+  "promessa": "antes de gravar, escolher a dúvida real do comprador",
+  "evidencias": "caso público conferido (Zillow, TikTok, BAM/Broke Agent Media); sem imagens dela, sem números de vendas/seguidores; telas e imóveis ilustrativos",
+  "cta": "comentário SISTEMA → Direct (regra 14/11/2026); 'Salva este vídeo' virou transição"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "original_cta": "Na sua próxima gravação, escolha uma dúvida real do comprador antes de escolher a primeira imagem. Salva este vídeo para lembrar disso.",
+  "original_cta_kept": "Na sua próxima gravação, escolha uma dúvida real do comprador antes de escolher a primeira imagem.",
+  "transition_adapted": "E quando a dúvida virar conversa, cada contato precisa estar organizado.",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Ela construiu uma audiência enorme mostrando imóveis.",
+   "caption": "Ela construiu | uma *audiência enorme* | mostrando *imóveis.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Mas o detalhe mais inteligente não está nas casas.",
+   "caption": "Mas o detalhe | mais *inteligente* | *não está* | nas casas.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "hook",
+   "text": "Está no jeito de chamar atenção.",
+   "caption": "Está no *jeito* | de chamar *atenção.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "contraste",
+   "text": "Kelsie Blevins atua no mercado imobiliário da Carolina do Norte, nos Estados Unidos.",
+   "caption": "*Kelsie Blevins* | atua no mercado | imobiliário | da *Carolina do Norte,* | nos Estados Unidos.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "contraste",
+   "text": "Em vez de usar o perfil só como catálogo de anúncios, ela publica conteúdos que ajudam as pessoas a entender o processo de compra e venda.",
+   "caption": "Em vez de usar | o perfil só como | *catálogo* de anúncios, | ela publica conteúdos | que *ajudam* as pessoas | a entender o *processo* | de compra e venda.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "contraste",
+   "text": "Isso faz o público ter motivos para acompanhar o trabalho dela mesmo antes de procurar um imóvel.",
+   "caption": "Isso faz o público | ter *motivos* | para acompanhar | o trabalho dela | mesmo *antes* | de procurar um imóvel.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "logica",
+   "text": "Repara na lógica: primeiro, responde uma dúvida real.",
+   "caption": "Repara na *lógica:* | primeiro, | responde | uma *dúvida real.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "logica",
+   "text": "Depois, mostra como trabalha e o que observa em cada imóvel.",
+   "caption": "Depois, | *mostra* como trabalha | e o que *observa* | em cada imóvel.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "logica",
+   "text": "Só então convida a pessoa para conversar.",
+   "caption": "Só então | convida a pessoa | para *conversar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "logica",
+   "text": "O vídeo deixa de ser uma vitrine qualquer e começa a construir confiança.",
+   "caption": "O vídeo deixa de ser | uma *vitrine* qualquer | e começa a construir | *confiança.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "licao",
+   "text": "O ponto não é copiar o jeito dela de gravar, nem perseguir milhões de views.",
+   "caption": "O ponto | *não é copiar* | o jeito dela de gravar, | nem perseguir | *milhões de views.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "licao",
+   "text": "É fazer cada vídeo responder: por que alguém que procura um imóvel deveria continuar assistindo?",
+   "caption": "É fazer | cada vídeo *responder:* | por que alguém | que procura um imóvel | deveria *continuar assistindo?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "licao",
+   "text": "Se essa resposta não está clara, uma fachada bonita não segura a atenção.",
+   "caption": "Se essa resposta | *não está clara,* | uma *fachada bonita* | não segura | a atenção.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "aplicacao",
+   "text": "Na sua próxima gravação, escolha uma dúvida real do comprador antes de escolher a primeira imagem.",
+   "caption": "Na sua | *próxima gravação,* | escolha uma | *dúvida real* | do comprador | *antes* de escolher | a primeira imagem.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s15",
+   "scene": "aplicacao",
+   "text": "E quando a dúvida virar conversa, cada contato precisa estar organizado.",
+   "caption": "E quando a dúvida | virar *conversa,* | cada contato | precisa estar | *organizado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s16",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s17",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "contraste": 0.3,
+  "logica": 0.3,
+  "licao": 0.35,
+  "aplicacao": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_aud": {
+   "seg": "s1",
+   "word": "audiência",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_most": {
+   "seg": "s1",
+   "word": "mostrando",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_mas": {
+   "seg": "s2",
+   "word": "Mas",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_casas": {
+   "seg": "s2",
+   "word": "casas",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_jeito": {
+   "seg": "s3",
+   "word": "jeito",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_aten": {
+   "seg": "s3",
+   "word": "atenção",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_kel": {
+   "seg": "s4",
+   "word": "Kelsie",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_car": {
+   "seg": "s4",
+   "word": "Carolina",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_eua": {
+   "seg": "s4",
+   "word": "Estados",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_vez": {
+   "seg": "s5",
+   "word": "vez",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_cat": {
+   "seg": "s5",
+   "word": "catálogo",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_publ": {
+   "seg": "s5",
+   "word": "publica",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_proc": {
+   "seg": "s5",
+   "word": "processo",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_isso": {
+   "seg": "s6",
+   "word": "Isso",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_motiv": {
+   "seg": "s6",
+   "word": "motivos",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_antes": {
+   "seg": "s6",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_rep": {
+   "seg": "s7",
+   "word": "Repara",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_duv": {
+   "seg": "s7",
+   "word": "dúvida",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_dep": {
+   "seg": "s8",
+   "word": "Depois",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_obs": {
+   "seg": "s8",
+   "word": "observa",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_so": {
+   "seg": "s9",
+   "word": "Só",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_conv": {
+   "seg": "s9",
+   "word": "conversar",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_video": {
+   "seg": "s10",
+   "word": "vídeo",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_vit": {
+   "seg": "s10",
+   "word": "vitrine",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_conf": {
+   "seg": "s10",
+   "word": "confiança",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_ponto": {
+   "seg": "s11",
+   "word": "ponto",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_copiar": {
+   "seg": "s11",
+   "word": "copiar",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_views": {
+   "seg": "s11",
+   "word": "views",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_fazer": {
+   "seg": "s12",
+   "word": "fazer",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_porque": {
+   "seg": "s12",
+   "word": "por",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_cont": {
+   "seg": "s12",
+   "word": "continuar",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_se": {
+   "seg": "s13",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_fach": {
+   "seg": "s13",
+   "word": "fachada",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_segura": {
+   "seg": "s13",
+   "word": "segura",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_prox": {
+   "seg": "s14",
+   "word": "próxima",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_duv": {
+   "seg": "s14",
+   "word": "dúvida",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_antes": {
+   "seg": "s14",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_img": {
+   "seg": "s14",
+   "word": "imagem",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_quando": {
+   "seg": "s15",
+   "word": "quando",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_conv": {
+   "seg": "s15",
+   "word": "conversa",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_cont": {
+   "seg": "s15",
+   "word": "contato",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_org": {
+   "seg": "s15",
+   "word": "organizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s16",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s16",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s16",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s17",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s17",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s17",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s17",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_aud",
+   "offset": 0.2,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "h_mas",
+   "offset": -0.1,
+   "sound": "fade_down",
+   "gain": -30,
+   "dur": 0.8
+  },
+  {
+   "cue": "h_aten",
+   "offset": 0.45,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "c_kel",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "c_car",
+   "offset": 0.3,
+   "sound": "click",
+   "gain": -26
+  },
+  {
+   "cue": "c_publ",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "c_proc",
+   "offset": 0.2,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "c_isso",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 2
+  },
+  {
+   "cue": "l_rep",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "l_duv",
+   "offset": 0.1,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "l_obs",
+   "offset": 0.1,
+   "sound": "block",
+   "gain": -28,
+   "pitch": 3
+  },
+  {
+   "cue": "l_conv",
+   "offset": 0.1,
+   "sound": "block",
+   "gain": -28,
+   "pitch": 6
+  },
+  {
+   "cue": "l_conf",
+   "offset": 0.3,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "k_ponto",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "k_views",
+   "offset": 0.4,
+   "sound": "thump",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "k_porque",
+   "offset": -0.15,
+   "sound": "click",
+   "gain": -26
+  },
+  {
+   "cue": "k_segura",
+   "offset": 0.3,
+   "sound": "fade_down",
+   "gain": -30,
+   "dur": 0.7
+  },
+  {
+   "cue": "a_prox",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "a_duv",
+   "offset": 0.2,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "a_img",
+   "offset": 0.3,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "a_org",
+   "offset": 0.3,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 96,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     28,
+     40,
+     52,
+     55,
+     59
+    ],
+    "root": 40,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Em — audiência"
+   },
+   {
+    "at": "cue:c_kel",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "C — o caso"
+   },
+   {
+    "at": "cue:l_rep",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — a lógica"
+   },
+   {
+    "at": "cue:k_ponto",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — a lição"
+   },
+   {
+    "at": "cue:a_prox",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — aplicação"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}

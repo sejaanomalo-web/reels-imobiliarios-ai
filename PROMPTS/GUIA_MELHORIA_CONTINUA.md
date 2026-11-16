@@ -136,6 +136,16 @@
 >   5. `*palavra*` seguida de aspas/pontuação deixa o asterisco na legenda — escrever `*palavra”,*`.
 >   6. Sessão nova na nuvem: rodar `npm install` e `bash tools/setup_models.sh` antes de tudo (≈3 min).
 
+> ### Registro do ATIVO Caso Real 01 (16/11/2026)
+>
+> - **Configuração usada:** roteiro "CASE REAL" do cliente (`ROTEIROS/ATIVO_CASE01.md`), ID `EP-ATIVO-CASE01` (não colidir com `EP-ATIVO01`); CTA "Salva este vídeo" → transição (pendente de aprovação) + CTA SISTEMA; a frase prática da CTA original ficou; 1,0×; tomada A sem edição; saída `OUTPUT/ATIVO_CASE01/`.
+> - **Casos reais (padrão para os próximos):** conferir cada afirmação sobre a pessoa na web antes de produzir e listar fontes no relatório; nunca usar imagem, vídeo, perfil, logo ou números dela sem licença — só ilustração rotulada e ficha "CASO REAL · FONTE: PERFIS PÚBLICOS" com nome e local; número de seguidores/vendas fora do vídeo. Uso do nome de terceiro = decisão do cliente, registrada no relatório.
+> - **Aprendizados:**
+>   1. Nome estrangeiro: escolher a tomada em que os dois reconhecedores acertam o nome (A "Kelsey Blevins" × B "Blavins").
+>   2. A voz do roteiro de caso saiu mais rápida (182 palavras/min): estimativa por palavras superestimou a duração em ~15%.
+>   3. Congelamento intencional de vídeo (efeito pedido no roteiro) mede como quadro parado: manter o cartão por cima respirando.
+>   4. Câmera com y negativo + zoom no início de cena empurra grades para cima da legenda — conferir o quadro da 1ª frase da cena.
+
 > ### Criativos de anúncio Meta Ads (AD-*) — padrão a partir de 15/11/2026
 >
 > - **Objetivo:** clique no botão do anúncio → formulário/landing. **CTA = botão** (`cta.type: "botao_meta"`, fala "Clique no botão…", tela CLIQUE NO BOTÃO + seta para baixo). A regra "CTA SISTEMA" vale só para Reels orgânicos; `editorial_check` aplica a regra certa pelo prefixo `AD-`.
@@ -270,6 +280,7 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-16 | ATIVO EP07 | Roteiro do cliente + CTA SISTEMA (salvar → transição). Tomada C + frase s12 da B (emenda), 179 palavras/min, 81,1 s, movimento 1,78, maior trecho parado 0,9 s, mix × roteiro 0,97 | Pedido do cliente; aguardando avaliação |
 | 2026-11-16 | ATIVO EP08 | Roteiro do cliente + CTA SISTEMA (seguir → transição-ponte). Tomada única, 179 palavras/min, 73,5 s, movimento 1,87, maior trecho parado 0,8 s, mix × roteiro 0,96; 3 palavras para conferência auditiva | Pedido do cliente; aguardando avaliação |
 | 2026-11-16 | ATIVO EP09 | Roteiro do cliente + CTA SISTEMA (seguir → transição-ponte). Tomada B sem emenda, 152 palavras/min, 85,9 s, movimento 1,66, maior trecho parado 0,8 s, mix × roteiro 0,965; 3 palavras para conferência auditiva | Pedido do cliente; aguardando avaliação |
+| 2026-11-16 | ATIVO CASE01 | Caso real (Kelsie Blevins) com fatos conferidos, sem imagens dela; CTA SISTEMA (salvar → transição). Tomada A sem edição, 182 palavras/min, 71,4 s, movimento 1,69, maior trecho parado 0,8 s, mix × roteiro 0,962 | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 | Vídeo principal da landing: 118 s, 1920×1080, trilha original por blocos, marca e telas provisórias, legendas web | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 v2 | Transcrição dinâmica, voz 1,2× (exceção pedida), 86,5 s, elementos maiores, movimento 2,39 | Feedback do cliente: mais dinâmica, texto = fala, gancho mais forte |
 | 2026-11-13 | LANDING 16:9 FINAL | Logo oficial (revelação) + verde #3AF584, 3 situações centralizadas, voz 1,0×, 103 s, movimento 2,0 | Aprovado para implementação pelo cliente, com estes ajustes |
