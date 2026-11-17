@@ -1,0 +1,105 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.96,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.05,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.04,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 6.14,
+    "palavras_nao_reconhecidas": [
+      "financia"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.14,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 1.93,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 5.13,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.2,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 1.27,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.08,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 6.91,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 2.84,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 4.61,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s14",
+    "seconds": 4.0,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s15",
+    "seconds": 4.04,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s16",
+    "seconds": 2.36,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 64.68,
+    "asr_match": 0.979,
+    "aligned_words": "189/192",
+    "words_per_min": 178,
+    "heard": "Juro mais baixo sempre significa imóvel mais barato? A resposta depende de uma coisa que muita apresentação esquece. Imagina um momento de crédito mais caro. Parte dos compradores financiar menos, alguns adiam planos e certos vendedores podem ficar mais abertos à negociação. Mas isso muda conforme a região, o tipo de imóvel e a necessidade de cada lado. Agora imagina crédito mais acessível. Mais pessoas podem começar a procurar, e em alguns segmentos, essa procura aumenta a concorrência pelos imóveis. Não quer dizer que todo preço sobe ou que toda negociação fica pior. Quer dizer que o contexto mudou. É por isso que uma boa orientação não começa com compra agora ou espera cair. Começa perguntando Vai financiar? Qual o prazo? Qual margem de negociação? E quais custos já foram verificados? Uma conversa responsável vale mais que uma previsão confiante. Antes de usar juros como argumento de venda, confira os dados do momento e o perfil do comprador. E pra lembrar o que cada comprador respondeu, ajuda a ter cada atendimento registrado. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 64.68,
+      "wpm": 178
+    },
+    "final": {
+      "seconds": 64.68,
+      "wpm": 178
+    }
+  }
+]
