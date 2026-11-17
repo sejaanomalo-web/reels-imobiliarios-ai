@@ -1,0 +1,703 @@
+{
+ "id": "EP-ATIVO-REEL07",
+ "title": "O proprietário não quer apenas mais um anúncio",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "outputDir": "ATIVO_REEL07",
+ "deliverables": {
+  "final": "ATIVO_REEL07_FINAL.mp4",
+  "narration": "ATIVO_REEL07_NARRACAO.wav",
+  "subtitles": "ATIVO_REEL07_legendas.srt",
+  "cover": "ATIVO_REEL07_capa.png"
+ },
+ "fonte": "ROTEIROS/ATIVO_REEL07.md (ATIVO_Reel_07_CAPTACAO_COM_PLANO.md, cliente, 17/11/2026)",
+ "diagnostico": {
+  "publico_situacao": "corretor indo captar imóvel de um proprietário",
+  "motivacao": "ganhar confiança do proprietário e justificar uma proposta de trabalho",
+  "crenca_questionada": "captar é prometer divulgação e elogiar o imóvel",
+  "hipotese": "dois profissionais no mesmo sobrado: anúncio × plano",
+  "funcao": "C2 mudança de percepção (comparação)",
+  "promessa": "levar menos adjetivos e mais clareza (dados a conferir, referências, apresentação, materiais, retornos, próximos passos)",
+  "evidencias": "exemplo ilustrativo; sem preços, contrato de exclusividade ou resultado garantido; dados marcados A CONFERIR",
+  "cta": "comentário SISTEMA → Direct (regra 14/11/2026); 'Compartilha' virou transição; 'leve menos adjetivos' mantida"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "original_cta": "Na sua próxima captação, leve menos adjetivos e mais clareza. Compartilha com alguém que trabalha com proprietários.",
+  "original_cta_kept": "Na sua próxima captação, leve menos adjetivos e mais clareza.",
+  "transition_adapted": "E para mostrar seu processo ao proprietário, ajuda ter cada etapa da captação organizada.",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Dois profissionais chegam para captar o mesmo sobrado.",
+   "caption": "*Dois profissionais* | chegam para captar | o mesmo *sobrado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Um oferece anúncio.",
+   "caption": "Um oferece | *anúncio.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "hook",
+   "text": "O outro chega com um plano.",
+   "caption": "O outro chega | com um *plano.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "prim",
+   "text": "Na primeira conversa, o profissional elogia a casa, tira algumas fotos e promete divulgar.",
+   "caption": "Na *primeira* conversa, | o profissional | *elogia* a casa, | tira algumas *fotos* | e promete *divulgar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "prim",
+   "text": "Mas não explica para quem o imóvel é indicado, como vai apresentar os ambientes nem quais informações ainda precisa confirmar.",
+   "caption": "Mas *não explica* | para quem | o imóvel é indicado, | como vai apresentar | os ambientes | nem quais informações | ainda precisa | *confirmar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "prim",
+   "text": "O proprietário escuta uma proposta genérica.",
+   "caption": "O proprietário | escuta uma | *proposta genérica.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "seg",
+   "text": "Na segunda, o profissional começa verificando os dados do imóvel, pesquisando referências de mercado e organizando uma apresentação adequada.",
+   "caption": "Na *segunda,* | o profissional | começa *verificando* | os dados do imóvel, | *pesquisando* referências | de mercado | e *organizando* | uma apresentação | adequada.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "seg",
+   "text": "Explica quais materiais pretende produzir, como fará os retornos e quais próximos passos precisam ser combinados.",
+   "caption": "Explica quais | *materiais* | pretende produzir, | como fará | os *retornos* | e quais | *próximos passos* | precisam ser combinados.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "porque",
+   "text": "O proprietário não consegue garantir o resultado da venda.",
+   "caption": "O proprietário | *não consegue garantir* | o resultado | da venda.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "porque",
+   "text": "Mas consegue avaliar a clareza do processo e a preparação de quem vai representá-lo.",
+   "caption": "Mas consegue *avaliar* | a *clareza* do processo | e a *preparação* | de quem vai | representá-lo.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "porque",
+   "text": "É isso que diferencia um simples pedido de captação de uma proposta profissional.",
+   "caption": "É isso que diferencia | um simples *pedido* | de captação | de uma | *proposta profissional.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "aplic",
+   "text": "Na sua próxima captação, leve menos adjetivos e mais clareza.",
+   "caption": "Na sua | *próxima captação,* | leve menos *adjetivos* | e mais *clareza.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "aplic",
+   "text": "E para mostrar seu processo ao proprietário, ajuda ter cada etapa da captação organizada.",
+   "caption": "E para mostrar | seu *processo* | ao proprietário, | ajuda ter | cada etapa | da captação | *organizada.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s15",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "prim": 0.3,
+  "seg": 0.35,
+  "porque": 0.35,
+  "aplic": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_dois": {
+   "seg": "s1",
+   "word": "Dois",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_captar": {
+   "seg": "s1",
+   "word": "captar",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_sobrado": {
+   "seg": "s1",
+   "word": "sobrado",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_anuncio": {
+   "seg": "s2",
+   "word": "anúncio",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_outro": {
+   "seg": "s3",
+   "word": "outro",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_plano": {
+   "seg": "s3",
+   "word": "plano",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_prim": {
+   "seg": "s4",
+   "word": "primeira",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_elogia": {
+   "seg": "s4",
+   "word": "elogia",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_fotos": {
+   "seg": "s4",
+   "word": "fotos",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_divulgar": {
+   "seg": "s4",
+   "word": "divulgar",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_nao": {
+   "seg": "s5",
+   "word": "explica",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_quem": {
+   "seg": "s5",
+   "word": "quem",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_apres": {
+   "seg": "s5",
+   "word": "apresentar",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_info": {
+   "seg": "s5",
+   "word": "informações",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_conf": {
+   "seg": "s5",
+   "word": "confirmar",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_prop": {
+   "seg": "s6",
+   "word": "proprietário",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_gen": {
+   "seg": "s6",
+   "word": "genérica",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_seg": {
+   "seg": "s7",
+   "word": "segunda",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_verif": {
+   "seg": "s7",
+   "word": "verificando",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_pesq": {
+   "seg": "s7",
+   "word": "pesquisando",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_org": {
+   "seg": "s7",
+   "word": "organizando",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_adeq": {
+   "seg": "s7",
+   "word": "adequada",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_mat": {
+   "seg": "s8",
+   "word": "materiais",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_ret": {
+   "seg": "s8",
+   "word": "retornos",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_passos": {
+   "seg": "s8",
+   "word": "passos",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_comb": {
+   "seg": "s8",
+   "word": "combinados",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_prop": {
+   "seg": "s9",
+   "word": "proprietário",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_garant": {
+   "seg": "s9",
+   "word": "garantir",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_venda": {
+   "seg": "s9",
+   "word": "venda",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_aval": {
+   "seg": "s10",
+   "word": "avaliar",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_clar": {
+   "seg": "s10",
+   "word": "clareza",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_prep": {
+   "seg": "s10",
+   "word": "preparação",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_dif": {
+   "seg": "s11",
+   "word": "diferencia",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_pedido": {
+   "seg": "s11",
+   "word": "pedido",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_prop2": {
+   "seg": "s11",
+   "word": "proposta",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_prox": {
+   "seg": "s12",
+   "word": "próxima",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_adj": {
+   "seg": "s12",
+   "word": "adjetivos",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_clar": {
+   "seg": "s12",
+   "word": "clareza",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_proc": {
+   "seg": "s13",
+   "word": "processo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_etapa": {
+   "seg": "s13",
+   "word": "etapa",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_org": {
+   "seg": "s13",
+   "word": "organizada",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s14",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s14",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s14",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s15",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s15",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s15",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s15",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_anuncio",
+   "offset": 0.3,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "h_plano",
+   "offset": 0.3,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 4
+  },
+  {
+   "cue": "p_prim",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "p_fotos",
+   "offset": 0.2,
+   "sound": "click",
+   "gain": -25
+  },
+  {
+   "cue": "p_divulgar",
+   "offset": 0.3,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "p_gen",
+   "offset": 0.3,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "g_seg",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "g_verif",
+   "offset": 0.15,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "g_pesq",
+   "offset": 0.15,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 2
+  },
+  {
+   "cue": "g_org",
+   "offset": 0.15,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 4
+  },
+  {
+   "cue": "g_mat",
+   "offset": 0.15,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "g_ret",
+   "offset": 0.15,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 8
+  },
+  {
+   "cue": "g_passos",
+   "offset": 0.15,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 10
+  },
+  {
+   "cue": "q_prop",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "q_garant",
+   "offset": 0.4,
+   "sound": "block",
+   "gain": -29
+  },
+  {
+   "cue": "q_clar",
+   "offset": 0.2,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "q_prep",
+   "offset": 0.2,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "q_prop2",
+   "offset": 0.3,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "a_prox",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "a_adj",
+   "offset": 0.3,
+   "sound": "fade_down",
+   "gain": -31,
+   "dur": 0.6
+  },
+  {
+   "cue": "a_org",
+   "offset": 0.3,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 96,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "C — dois profissionais"
+   },
+   {
+    "at": "cue:p_prim",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Am — proposta genérica"
+   },
+   {
+    "at": "cue:g_seg",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "F — plano visível"
+   },
+   {
+    "at": "cue:q_prop",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "G — por quê"
+   },
+   {
+    "at": "cue:a_prox",
+    "notes": [
+     26,
+     38,
+     50,
+     53,
+     57
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "Dm — aplicação"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}
