@@ -1,16 +1,16 @@
 import React from "react";
 import { AbsoluteFill } from "remotion";
-import { C, brandAlpha } from "../theme";
+import { ACCENT_V1, C, accentAlpha, type Accent } from "../theme";
 
 /**
  * Fundo grafite com linhas de "planta baixa" em deriva lenta, brilho ambiente e vinheta.
  * `mood` 0 = neutro, valores negativos = tensão (quente), positivos = clareza (menta).
  */
-export const Background: React.FC<{ t: number; mood: number }> = ({ t, mood }) => {
+export const Background: React.FC<{ t: number; mood: number; accent?: Accent }> = ({ t, mood, accent = ACCENT_V1 }) => {
   const drift = (t * 7) % 360;
   const glow =
     mood >= 0
-      ? brandAlpha(0.07 + 0.12 * mood)
+      ? accentAlpha(accent, 0.07 + 0.12 * mood)
       : `rgba(255,107,94,${0.05 + 0.13 * -mood})`;
   return (
     <AbsoluteFill style={{ backgroundColor: C.bg0 }}>

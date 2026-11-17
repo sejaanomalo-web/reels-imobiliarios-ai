@@ -37,6 +37,10 @@ OLD_GREEN = r"#35e0a1|53\s*,\s*224\s*,\s*161|#00fa44"
 LEGACY_COLOR = {"EP001", "EP002", "EP015", "EP015V2"}
 GREEN_OK = {(58, 245, 132), (9, 38, 20), (14, 58, 31)}
 LEGACY_CTA = {"EP001", "EP002", "EP003", "EP015", "EP015V2", "EP-ATIVO01", "EP-ATIVO03"}
+# Lote "30 Reels — novembro 2026" (ATIVO-NOV26-*): verde atualizado #02FB3F + derivados (ink #01290B, deep #063A16).
+# Nesse lote o verde antigo #3AF584 é proibido nos arquivos do episódio (use ACCENT_NOV26/accentAlpha).
+NOV26_PREFIX = "ATIVO-NOV26"
+GREEN_OK_NOV26 = {(2, 251, 63), (1, 41, 11), (6, 58, 22)}
 
 
 def check(ep_id: str) -> int:
@@ -77,9 +81,14 @@ def check(ep_id: str) -> int:
             for i, line in enumerate(open(f).read().splitlines(), 1):
                 cols = [tuple(int(h[k:k + 2], 16) for k in (0, 2, 4)) for h in re.findall(r"#([0-9A-Fa-f]{6})\b", line)]
                 cols += [tuple(map(int, m)) for m in re.findall(r"rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)", line)]
+                nov26 = ep_id.startswith(NOV26_PREFIX)
+                ok_set = GREEN_OK_NOV26 if nov26 and f in files else GREEN_OK | (GREEN_OK_NOV26 if nov26 else set())
                 for r_, g_, b_ in cols:
-                    if g_ > r_ + 40 and g_ > b_ + 20 and (r_, g_, b_) not in GREEN_OK:
-                        errs.append(f"verde fora do exato #3AF584 (#{r_:02X}{g_:02X}{b_:02X}) — use BRAND/brandAlpha — {os.path.relpath(f, ROOT)}:{i}")
+                    if g_ > r_ + 40 and g_ > b_ + 20 and (r_, g_, b_) not in ok_set:
+                        alvo = "#02FB3F (ACCENT_NOV26/accentAlpha)" if nov26 else "#3AF584 (BRAND/brandAlpha)"
+                        errs.append(f"verde fora do exato {alvo} (#{r_:02X}{g_:02X}{b_:02X}) — {os.path.relpath(f, ROOT)}:{i}")
+            if ep_id.startswith(NOV26_PREFIX) and f in files and re.search(r"\bBRAND\.(hex|ink|deep|rgb)\b|brandAlpha\(|C\.accent", open(f).read()):
+                errs.append(f"lote NOV26 usando o verde antigo (BRAND/brandAlpha/C.accent) — use ACCENT_NOV26/accentAlpha — {os.path.relpath(f, ROOT)}")
     code = {f: open(f).read() for f in files}
     screen_text = " ".join(re.findall(r">([^<>{}]{3,})<", " ".join(code.values())))
     # 2. promessas

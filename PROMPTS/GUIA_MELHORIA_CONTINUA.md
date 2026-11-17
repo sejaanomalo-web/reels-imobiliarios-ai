@@ -260,6 +260,11 @@
 >   1. **Vazamento da instrução de estilo virou recorrente** (Reels 12 e 15, sempre na 2ª/3ª geração do mesmo texto): além de ler a instrução, a voz inventou uma frase. Checar os primeiros 15 s de toda tomada e comparar a duração com a outra tomada (B saiu 14 s mais longa).
 >   2. Em tema regulado (imposto), a ressalva profissional da CTA original fica — só a parte de engajamento ("Salva e manda") vira transição.
 
+> ### Lote "30 Reels — novembro 2026" (ATIVO-NOV26-*, a partir de 17/11/2026)
+>
+> - **Verde do lote #02FB3F** (`ACCENT_NOV26`, kit `src/episodes/NOV26/kit.tsx`, `Background`/`Captions` com `accent`); episódios anteriores intactos. Regras operacionais e estado persistente em `PRODUCAO/lotes/NOV26/` (LEIAME.md, estado.json).
+> - **NOV26_01:** fato do Copom conferido na web antes de gravar; número falado por extenso, dígitos só na tela. A tomada A abria com um "Ó," inventado: a frase de abertura veio da B (emenda). Para conferir a sílaba de abertura, transcreva-a isolada com silêncio em volta, porque o Whisper inventa interjeição no início do arquivo.
+
 > ### Criativos de anúncio Meta Ads (AD-*) — padrão a partir de 15/11/2026
 >
 > - **Objetivo:** clique no botão do anúncio → formulário/landing. **CTA = botão** (`cta.type: "botao_meta"`, fala "Clique no botão…", tela CLIQUE NO BOTÃO + seta para baixo). A regra "CTA SISTEMA" vale só para Reels orgânicos; `editorial_check` aplica a regra certa pelo prefixo `AD-`.
@@ -393,6 +398,7 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-16 | ATIVO EP06 | v1 para gestores (77,8 s) → **v2 para corretor** a pedido do cliente: texto adaptado (você/colega/seus clientes), tomada B, 165 palavras/min, 76,1 s, movimento 1,72, maior trecho parado 0,7 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-16 | ATIVO EP07 | Roteiro do cliente + CTA SISTEMA (salvar → transição). Tomada C + frase s12 da B (emenda), 179 palavras/min, 81,1 s, movimento 1,78, maior trecho parado 0,9 s, mix × roteiro 0,97 | Pedido do cliente; aguardando avaliação |
 | 2026-11-16 | ATIVO EP08 | Roteiro do cliente + CTA SISTEMA (seguir → transição-ponte). Tomada única, 179 palavras/min, 73,5 s, movimento 1,87, maior trecho parado 0,8 s, mix × roteiro 0,96; 3 palavras para conferência auditiva | Pedido do cliente; aguardando avaliação |
+| 2026-11-17 | ATIVO_NOV26_01 | Lote nov/2026 (verde #02FB3F): Selic 13,75% conferida; CTA SISTEMA (salve → transição). Tomada A + abertura da B, 160 palavras/min, 55,6 s, movimento 1,49 | Pedido do cliente; aguardando avaliação |
 | 2026-11-16 | ATIVO EP09 | Roteiro do cliente + CTA SISTEMA (seguir → transição-ponte). Tomada B sem emenda, 152 palavras/min, 85,9 s, movimento 1,66, maior trecho parado 0,8 s, mix × roteiro 0,965; 3 palavras para conferência auditiva | Pedido do cliente; aguardando avaliação |
 | 2026-11-16 | ATIVO CASE01 | Caso real (Kelsie Blevins) com fatos conferidos, sem imagens dela; CTA SISTEMA (salvar → transição). Tomada A sem edição, 182 palavras/min, 71,4 s, movimento 1,69, maior trecho parado 0,8 s, mix × roteiro 0,962 | Pedido do cliente; aguardando avaliação |
 | 2026-11-16 | ATIVO EP10 | Roteiro do cliente + CTA SISTEMA (salvar/compartilhar → transição); programa habitacional só na fala, sem valores. Tomada B sem edição, 164 palavras/min, 83,9 s, movimento 2,34, maior trecho parado 0,6 s, mix × roteiro 0,973; emenda descartada por tom | Pedido do cliente; aguardando avaliação |

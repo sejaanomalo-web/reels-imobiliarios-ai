@@ -14,6 +14,13 @@ export const BRAND = {
 };
 export const brandAlpha = (a: number) => `rgba(${BRAND.rgb[0]},${BRAND.rgb[1]},${BRAND.rgb[2]},${a})`;
 
+/** Paleta de acento por lote. Episódios anteriores seguem com BRAND (#3AF584) e não são alterados. */
+export type Accent = { hex: string; rgb: readonly [number, number, number]; ink: string; deep: string };
+export const ACCENT_V1: Accent = { hex: BRAND.hex, rgb: BRAND.rgb, ink: BRAND.ink, deep: BRAND.deep };
+/** Lote "30 Reels — novembro 2026": verde atualizado pelo cliente (17/11/2026). Derivados: ink (texto sobre o verde) e deep (fundo). */
+export const ACCENT_NOV26: Accent = { hex: "#02FB3F", rgb: [2, 251, 63], ink: "#01290B", deep: "#063A16" };
+export const accentAlpha = (acc: Accent, a: number) => `rgba(${acc.rgb[0]},${acc.rgb[1]},${acc.rgb[2]},${a})`;
+
 export const C = {
   bg0: "#07080A",
   bg1: "#12151A",

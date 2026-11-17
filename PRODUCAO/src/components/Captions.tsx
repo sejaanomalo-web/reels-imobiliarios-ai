@@ -1,5 +1,5 @@
 import React from "react";
-import { C, F, brandAlpha } from "../theme";
+import { ACCENT_V1, C, F, accentAlpha, type Accent } from "../theme";
 import { ease, mix, prog } from "../lib/anim";
 import type { CaptionChunk } from "../episodes/types";
 
@@ -7,11 +7,12 @@ import type { CaptionChunk } from "../episodes/types";
  * Legendas guiadas pela fala: um bloco curto por vez, palavra a palavra no tempo real da narração.
  * Palavras-chave recebem a cor de acento e um marcador que "pinta" por baixo.
  */
-export const Captions: React.FC<{ t: number; chunks: CaptionChunk[]; y?: number; size?: number }> = ({
+export const Captions: React.FC<{ t: number; chunks: CaptionChunk[]; y?: number; size?: number; accent?: Accent }> = ({
   t,
   chunks,
   y = 1392,
   size = 68,
+  accent = ACCENT_V1,
 }) => {
   const chunk = chunks.find((c) => t >= c.start - 0.02 && t < c.end);
   if (!chunk) return null;
@@ -51,7 +52,7 @@ export const Captions: React.FC<{ t: number; chunks: CaptionChunk[]; y?: number;
               opacity: a,
               translate: `0px ${(1 - a) * 18}px`,
               filter: `blur(${(1 - a) * 6}px)`,
-              color: w.emph ? C.accent : C.text,
+              color: w.emph ? accent.hex : C.text,
               whiteSpace: "nowrap",
             }}
           >
@@ -64,7 +65,7 @@ export const Captions: React.FC<{ t: number; chunks: CaptionChunk[]; y?: number;
                   bottom: size * 0.02,
                   height: size * 0.3,
                   borderRadius: size * 0.1,
-                  background: brandAlpha(0.2),
+                  background: accentAlpha(accent, 0.2),
                   scale: `${mark} 1`,
                   transformOrigin: "left center",
                 }}
