@@ -1,0 +1,158 @@
+[
+ {
+  "t": 1.26,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "h_venda"
+ },
+ {
+  "t": 1.8,
+  "sound": "shimmer",
+  "gain": -30,
+  "cue": "h_comem"
+ },
+ {
+  "t": 3.4,
+  "sound": "shuffle",
+  "gain": -31,
+  "cue": "h_sem"
+ },
+ {
+  "t": 5.42,
+  "sound": "thump",
+  "gain": -29,
+  "cue": "h_ponto"
+ },
+ {
+  "t": 6.44,
+  "sound": "block",
+  "gain": -29,
+  "cue": "h_como"
+ },
+ {
+  "t": 7.74,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "d_na"
+ },
+ {
+  "t": 14.22,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "d_desl"
+ },
+ {
+  "t": 15.18,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "d_div"
+ },
+ {
+  "t": 16.22,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "d_cont"
+ },
+ {
+  "t": 17.98,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "d_vis"
+ },
+ {
+  "t": 21.28,
+  "sound": "alert",
+  "gain": -31,
+  "cue": "d_press"
+ },
+ {
+  "t": 22.62,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "r_pensa"
+ },
+ {
+  "t": 28.38,
+  "sound": "thump",
+  "gain": -28,
+  "cue": "r_ent"
+ },
+ {
+  "t": 33.82,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "r_caixa"
+ },
+ {
+  "t": 36.06,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "r_novas"
+ },
+ {
+  "t": 37.5,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "x_um"
+ },
+ {
+  "t": 39.18,
+  "sound": "click",
+  "gain": -27,
+  "cue": "x_sep"
+ },
+ {
+  "t": 41.02,
+  "sound": "click",
+  "gain": -27,
+  "cue": "x_acomp"
+ },
+ {
+  "t": 43.18,
+  "sound": "click",
+  "gain": -27,
+  "cue": "x_mant"
+ },
+ {
+  "t": 50.7,
+  "sound": "fade_down",
+  "gain": -30,
+  "cue": "x_urg"
+ },
+ {
+  "t": 51.58,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "f_e"
+ },
+ {
+  "t": 57.28,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "f_org"
+ },
+ {
+  "t": 59.96,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "cta_sys"
+ },
+ {
+  "t": 63.471,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 64.91,
+  "sound": "typing",
+  "gain": -30,
+  "cue": "cta_word"
+ },
+ {
+  "t": 67.11,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "cta_end"
+ }
+]

@@ -1,0 +1,681 @@
+{
+ "id": "EP-ATIVO-REEL11",
+ "title": "A venda aconteceu, mas o caixa não respirou",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "outputDir": "ATIVO_REEL11",
+ "deliverables": {
+  "final": "ATIVO_REEL11_FINAL.mp4",
+  "narration": "ATIVO_REEL11_NARRACAO.wav",
+  "subtitles": "ATIVO_REEL11_legendas.srt",
+  "cover": "ATIVO_REEL11_capa.png"
+ },
+ "fonte": "ROTEIROS/ATIVO_REEL11.md (ATIVO_Reel_11_CICLO_COMISSAO_E_CAIXA.md, cliente, 17/11/2026)",
+ "diagnostico": {
+  "publico_situacao": "corretor com receita irregular entre comissões",
+  "motivacao": "planejar custos e manter prospecção entre comissões",
+  "crenca_questionada": "uma venda grande resolve o caixa",
+  "hipotese": "metáfora do reservatório: entrada pontual × saída contínua",
+  "funcao": "C2 metáfora visual",
+  "promessa": "3 frentes: compromissos financeiros, negociações por etapa, rotina mínima de prospecção",
+  "evidencias": "sem valores, percentuais ou a estatística '90% desistem'; sem promessa de renda recorrente; 'não resolve todos os riscos' explícito",
+  "cta": "comentário SISTEMA → Direct; 'Salva' → transição"
+ },
+ "cta": {
+  "original_cta": "Salva esse vídeo para revisar seu planejamento no fechamento do mês.",
+  "transition_adapted": "E para acompanhar negociações e prospecção sem depender da memória, ajuda ter tudo organizado num só lugar.",
+  "note": "transição liga ao que o sistema organiza (negociações/atendimentos/prospecção), não a finanças",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Você fecha uma venda, comemora... e algumas semanas depois sente que voltou ao ponto de partida.",
+   "caption": "Você fecha uma *venda,* | *comemora...* | e algumas semanas depois | sente que voltou | ao *ponto de partida.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Como isso acontece?",
+   "caption": "Como isso *acontece?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "desc",
+   "text": "Na corretagem, a entrada de receita pode ser irregular.",
+   "caption": "Na corretagem, | a entrada de receita | pode ser *irregular.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "desc",
+   "text": "Enquanto uma comissão não entra, continuam existindo deslocamentos, divulgação, contas e tempo dedicado a visitas.",
+   "caption": "Enquanto uma comissão | *não entra,* | continuam existindo | *deslocamentos,* | *divulgação,* | *contas* | e tempo dedicado | a *visitas.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "desc",
+   "text": "Se cada negócio começa do zero, a pressão do mês seguinte aumenta.",
+   "caption": "Se cada negócio | começa *do zero,* | a *pressão* | do mês seguinte | aumenta.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "res",
+   "text": "Pensa num reservatório.",
+   "caption": "Pensa num *reservatório.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "res",
+   "text": "Se você só retira água e nunca planeja a reposição, uma entrada grande não garante tranquilidade depois.",
+   "caption": "Se você só *retira* água | e nunca planeja | a *reposição,* | uma *entrada grande* | não garante | tranquilidade depois.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "res",
+   "text": "Com a operação é parecido: precisa cuidar do caixa e também das atividades que mantêm novas oportunidades chegando.",
+   "caption": "Com a operação | é parecido: | precisa cuidar | do *caixa* | e também | das *atividades* | que mantêm | *novas oportunidades* | chegando.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "hab",
+   "text": "Um começo possível é separar compromissos financeiros, acompanhar negociações por etapa e manter uma rotina mínima de prospecção.",
+   "caption": "Um começo possível | é *separar* | compromissos financeiros, | *acompanhar* negociações | por etapa | e *manter* | uma rotina mínima | de prospecção.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "hab",
+   "text": "Não resolve todos os riscos da profissão, mas evita tomar cada decisão só pela urgência do dia.",
+   "caption": "Não resolve | *todos os riscos* | da profissão, | mas evita | tomar cada decisão | só pela *urgência do dia.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "fim",
+   "text": "E para acompanhar negociações e prospecção sem depender da memória, ajuda ter tudo organizado num só lugar.",
+   "caption": "E para acompanhar | *negociações* | e *prospecção* | sem depender | da memória, | ajuda ter tudo | *organizado* | num só lugar.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "desc": 0.3,
+  "res": 0.35,
+  "hab": 0.35,
+  "fim": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_voce": {
+   "seg": "s1",
+   "word": "Você",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_venda": {
+   "seg": "s1",
+   "word": "venda",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_comem": {
+   "seg": "s1",
+   "word": "comemora",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_sem": {
+   "seg": "s1",
+   "word": "semanas",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_volt": {
+   "seg": "s1",
+   "word": "voltou",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_ponto": {
+   "seg": "s1",
+   "word": "ponto",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_como": {
+   "seg": "s2",
+   "word": "Como",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_na": {
+   "seg": "s3",
+   "word": "Na",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_irreg": {
+   "seg": "s3",
+   "word": "irregular",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_enq": {
+   "seg": "s4",
+   "word": "Enquanto",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_nao": {
+   "seg": "s4",
+   "word": "não",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_desl": {
+   "seg": "s4",
+   "word": "deslocamentos",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_div": {
+   "seg": "s4",
+   "word": "divulgação",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_cont": {
+   "seg": "s4",
+   "word": "contas",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_vis": {
+   "seg": "s4",
+   "word": "visitas",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_se": {
+   "seg": "s5",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_zero": {
+   "seg": "s5",
+   "word": "zero",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_press": {
+   "seg": "s5",
+   "word": "pressão",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_pensa": {
+   "seg": "s6",
+   "word": "Pensa",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_res": {
+   "seg": "s6",
+   "word": "reservatório",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_ret": {
+   "seg": "s7",
+   "word": "retira",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_repo": {
+   "seg": "s7",
+   "word": "reposição",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_ent": {
+   "seg": "s7",
+   "word": "entrada",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_tranq": {
+   "seg": "s7",
+   "word": "tranquilidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_com": {
+   "seg": "s8",
+   "word": "Com",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_caixa": {
+   "seg": "s8",
+   "word": "caixa",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_ativ": {
+   "seg": "s8",
+   "word": "atividades",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_novas": {
+   "seg": "s8",
+   "word": "novas",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_um": {
+   "seg": "s9",
+   "word": "Um",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_sep": {
+   "seg": "s9",
+   "word": "separar",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_acomp": {
+   "seg": "s9",
+   "word": "acompanhar",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_mant": {
+   "seg": "s9",
+   "word": "manter",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_prosp": {
+   "seg": "s9",
+   "word": "prospecção",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_nao": {
+   "seg": "s10",
+   "word": "Não",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_riscos": {
+   "seg": "s10",
+   "word": "riscos",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_evita": {
+   "seg": "s10",
+   "word": "evita",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_urg": {
+   "seg": "s10",
+   "word": "urgência",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_e": {
+   "seg": "s11",
+   "word": "E",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_neg": {
+   "seg": "s11",
+   "word": "negociações",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_prosp": {
+   "seg": "s11",
+   "word": "prospecção",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_org": {
+   "seg": "s11",
+   "word": "organizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s12",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s12",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s12",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s13",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s13",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s13",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s13",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_venda",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "h_comem",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -30
+  },
+  {
+   "cue": "h_sem",
+   "offset": 0.0,
+   "sound": "shuffle",
+   "gain": -31
+  },
+  {
+   "cue": "h_ponto",
+   "offset": 0.1,
+   "sound": "thump",
+   "gain": -29,
+   "pitch": -2
+  },
+  {
+   "cue": "h_como",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -29
+  },
+  {
+   "cue": "d_na",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "d_desl",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -27
+  },
+  {
+   "cue": "d_div",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 2
+  },
+  {
+   "cue": "d_cont",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 4
+  },
+  {
+   "cue": "d_vis",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "d_press",
+   "offset": 0.2,
+   "sound": "alert",
+   "gain": -31
+  },
+  {
+   "cue": "r_pensa",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "r_ent",
+   "offset": 0.1,
+   "sound": "thump",
+   "gain": -28
+  },
+  {
+   "cue": "r_caixa",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -28
+  },
+  {
+   "cue": "r_novas",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 4
+  },
+  {
+   "cue": "x_um",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "x_sep",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "x_acomp",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "x_mant",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "x_urg",
+   "offset": 0.1,
+   "sound": "fade_down",
+   "gain": -30,
+   "dur": 1.2
+  },
+  {
+   "cue": "f_e",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "f_org",
+   "offset": 0.2,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 96,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "C — venda"
+   },
+   {
+    "at": "cue:h_sem",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Am — ponto de partida"
+   },
+   {
+    "at": "cue:r_pensa",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — reservatório"
+   },
+   {
+    "at": "cue:x_um",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — hábito"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}
