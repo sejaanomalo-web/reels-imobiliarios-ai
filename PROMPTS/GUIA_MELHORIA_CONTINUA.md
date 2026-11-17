@@ -189,6 +189,14 @@
 >   2. Lista 1–3 com uma ilustração por item mede pouco movimento (1,32) se a câmera só tem 3–4 chaves por cena: uma chave por cue da fala (±20–40 px, zoom 1,02–1,06) levou a 1,79 sem cortar bordas.
 >   3. A lista final da transição (conversas com marcador) fica parada: os pontos "atuais" pulsam.
 
+> ### Registro do ATIVO Reel 06 (17/11/2026)
+>
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL06.md`), ID `EP-ATIVO-REEL06`, humor irônico; CTA "salva para revisar" → transição (1ª metade da frase original mantida) + CTA SISTEMA; 1,0×; conta 1; tomada A (escolhida pela duração-alvo); saída `OUTPUT/ATIVO_REEL06/`.
+> - **Aprendizados:**
+>   1. Com duas tomadas limpas, usar a duração-alvo do roteiro como desempate.
+>   2. Câmera com `y` positivo sobe o conteúdo e cola listas no título de fora da câmera: em cenas com título fixo + lista no topo, manter `y ≤ 0`.
+>   3. Marca de terceiro citada na fala (WhatsApp) vira rótulo genérico na tela (CONVERSA).
+
 > ### Criativos de anúncio Meta Ads (AD-*) — padrão a partir de 15/11/2026
 >
 > - **Objetivo:** clique no botão do anúncio → formulário/landing. **CTA = botão** (`cta.type: "botao_meta"`, fala "Clique no botão…", tela CLIQUE NO BOTÃO + seta para baixo). A regra "CTA SISTEMA" vale só para Reels orgânicos; `editorial_check` aplica a regra certa pelo prefixo `AD-`.
@@ -329,6 +337,7 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-16 | ATIVO CASE03 | Caso real (Mônica Poplawski) com fatos conferidos; valor corrigido para R$ 900 conforme fonte (pendente de aprovação); sem imagens dela; CTA SISTEMA. Tomada B sem edição, 168 palavras/min, 65,0 s, movimento 1,49, maior trecho parado 0,7 s, mix × roteiro 0,949 | Pedido do cliente; aguardando avaliação |
 | 2026-11-17 | ATIVO REEL04 | Comparação de dois atendimentos (situação ilustrativa, sem valores); CTA SISTEMA ('Depois me conta' → transição). Conta 1, tomada B sem edição, 160 palavras/min, 68,9 s, movimento 1,52, maior trecho parado 0,8 s, mix × roteiro 0,938 | Pedido do cliente; aguardando avaliação |
 | 2026-11-17 | ATIVO REEL05 | Lista contraintuitiva (3 atitudes), situações ilustrativas; CTA SISTEMA ('Deixa nos comentários' → transição). Conta 1, tomada B sem edição, 161 palavras/min, 58,9 s, movimento 1,79, maior trecho parado 0,8 s, mix × roteiro 0,977 | Pedido do cliente; aguardando avaliação |
+| 2026-11-17 | ATIVO REEL06 | Manual irônico (humor), arquivos genéricos; CTA SISTEMA ('salva' → transição). Conta 1, tomada A sem edição, 168 palavras/min, 57,1 s, movimento 1,57, maior trecho parado 0,8 s, mix × roteiro 0,964 | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 | Vídeo principal da landing: 118 s, 1920×1080, trilha original por blocos, marca e telas provisórias, legendas web | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 v2 | Transcrição dinâmica, voz 1,2× (exceção pedida), 86,5 s, elementos maiores, movimento 2,39 | Feedback do cliente: mais dinâmica, texto = fala, gancho mais forte |
 | 2026-11-13 | LANDING 16:9 FINAL | Logo oficial (revelação) + verde #3AF584, 3 situações centralizadas, voz 1,0×, 103 s, movimento 2,0 | Aprovado para implementação pelo cliente, com estes ajustes |

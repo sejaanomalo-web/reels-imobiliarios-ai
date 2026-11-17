@@ -1,0 +1,112 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.87,
+    "palavras_nao_reconhecidas": [
+      "quebra"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 0.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 0.95,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.17,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 2.05,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.21,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 3.55,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 1.74,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 3.77,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.71,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 1.21,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 4.23,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 2.46,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s14",
+    "seconds": 4.56,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s15",
+    "seconds": 4.62,
+    "palavras_nao_reconhecidas": [
+      "comece"
+    ]
+  },
+  {
+    "seg": "s16",
+    "seconds": 4.59,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s17",
+    "seconds": 2.63,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 54.72,
+    "asr_match": 0.977,
+    "aligned_words": "149/153",
+    "words_per_min": 168,
+    "heard": "Quer fazer sua carteira imobiliária virar um quebra-cabeça? É simples. Siga este manual. Guarde as fotos dos imóveis, misturadas as fotos pessoais. Deixe a metragem em um PDF antigo e anote o valor numa conversa que você nunca mais encontra. Pronto! A cada novo interessado começa uma investigação. Agora faça o mesmo com os leads. Uma parte no WhatsApp, outra no bloco de notas, outra só na cabeça. E quando a visita mudar de horário, não atualize ninguém. O caos fica completo. Brincadeira à parte, isso acontece porque cada informação nasce num lugar diferente. O primeiro passo não é comprar uma ferramenta enorme. É decidir onde cada dado entra, quem atualiza e como você encontra depois. Se você reconheceu pelo menos um desses hábitos, começa revisando onde cada informação entra. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 54.72,
+      "wpm": 168
+    },
+    "final": {
+      "seconds": 54.72,
+      "wpm": 168
+    }
+  }
+]
