@@ -70,6 +70,8 @@ import { ATIVOREEL10, timeline as ativoreel10 } from "./episodes/EP-ATIVO-REEL10
 import { ATIVOREEL10Cover } from "./episodes/EP-ATIVO-REEL10/Cover";
 import { ATIVOREEL11, timeline as ativoreel11 } from "./episodes/EP-ATIVO-REEL11/Episode";
 import { ATIVOREEL11Cover } from "./episodes/EP-ATIVO-REEL11/Cover";
+import { ATIVOREEL12, timeline as ativoreel12 } from "./episodes/EP-ATIVO-REEL12/Episode";
+import { ATIVOREEL12Cover } from "./episodes/EP-ATIVO-REEL12/Cover";
 import { AD01, timeline as ad01 } from "./episodes/AD-ATIVO-01/Episode";
 import { AD02, timeline as ad02 } from "./episodes/AD-ATIVO-02/Episode";
 import { LandingAtivo, timeline as lpAtivo } from "./episodes/LP-ATIVO/Landing";
@@ -466,6 +468,16 @@ export const RemotionRoot: React.FC = () => (
         defaultProps={{ withAudio: true }}
       />
       <Still id="EP-ATIVO-REEL11-Capa" component={ATIVOREEL11Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO-REEL12"
+        component={ATIVOREEL12}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativoreel12.fps}
+        durationInFrames={ativoreel12.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO-REEL12-Capa" component={ATIVOREEL12Cover} width={VIDEO.width} height={VIDEO.height} />
     </Folder>
     <Folder name="LP-ATIVO-16x9">
       <Composition

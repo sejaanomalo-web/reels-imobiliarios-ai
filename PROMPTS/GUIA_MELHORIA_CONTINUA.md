@@ -232,6 +232,13 @@
 >   1. Roteiro de finanças pessoais: a transição para o sistema deve passar pelo que ele organiza (negociações, retornos, prospecção) — nunca sugerir controle financeiro que o produto não tem.
 >   2. Chave intermediária de câmera entre cues virou padrão: aplicar já na primeira montagem das cenas de lista/quadro poupa 2–3 renders de ajuste de movimento.
 
+> ### Registro do ATIVO Reel 12 (17/11/2026)
+>
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL12.md`), ID `EP-ATIVO-REEL12`; pergunta + "Escreve nos comentários" → transição + CTA SISTEMA; 1,0×; contas 2 e 1 (3 tomadas); tomada B sem edição; saída `OUTPUT/ATIVO_REEL12/`.
+> - **Aprendizados:**
+>   1. **A voz pode ler a instrução de estilo em voz alta** (tomada C: "como colegas corretores… nunca locutor de comercial"). Sempre conferir os primeiros 10 s da transcrição antes de qualquer outra análise.
+>   2. "de + imóveis" elide para "d'imóveis" e soa "de móveis" — evitar "de imóveis" depois de palavra terminada em consoante em roteiros novos (preferir "muitos imóveis", "vários imóveis") ou avisar o cliente antes de gerar.
+
 > ### Criativos de anúncio Meta Ads (AD-*) — padrão a partir de 15/11/2026
 >
 > - **Objetivo:** clique no botão do anúncio → formulário/landing. **CTA = botão** (`cta.type: "botao_meta"`, fala "Clique no botão…", tela CLIQUE NO BOTÃO + seta para baixo). A regra "CTA SISTEMA" vale só para Reels orgânicos; `editorial_check` aplica a regra certa pelo prefixo `AD-`.
@@ -378,6 +385,7 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-17 | ATIVO REEL09 | Começo na corretagem: público, chamada, registro e retomada (sem automação); CTA SISTEMA padrão. Conta 2, tomada B sem edição, 149 palavras/min, 66,5 s, movimento 1,41, maior trecho parado 0,7 s, mix × roteiro 0,981 | Pedido do cliente; aguardando avaliação |
 | 2026-11-17 | ATIVO REEL10 | Juros: dois cenários hipotéticos + quatro perguntas (atemporal, sem taxas); CTA SISTEMA ('Compartilha' → transição). Conta 2, tomada B sem edição, 178 palavras/min, 67,0 s, movimento 1,63, maior trecho parado 1,0 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-17 | ATIVO REEL11 | Comissão e caixa: metáfora do reservatório, 3 frentes (sem valores nem estatística); CTA SISTEMA ('Salva' → transição). Conta 2, tomada A sem edição, 149 palavras/min, 69,4 s (~2 s acima), movimento 1,60, maior trecho parado 0,9 s | Pedido do cliente; aguardando avaliação |
+| 2026-11-17 | ATIVO REEL12 | Primeiro imóvel: avalanche × um passo por vez (cena ilustrativa, sem aprovação de crédito); CTA SISTEMA (pergunta → transição). 3 tomadas (C leu a instrução de estilo), tomada B sem edição, 163 palavras/min, 63,3 s, movimento 1,67, maior trecho parado 0,9 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 | Vídeo principal da landing: 118 s, 1920×1080, trilha original por blocos, marca e telas provisórias, legendas web | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 v2 | Transcrição dinâmica, voz 1,2× (exceção pedida), 86,5 s, elementos maiores, movimento 2,39 | Feedback do cliente: mais dinâmica, texto = fala, gancho mais forte |
 | 2026-11-13 | LANDING 16:9 FINAL | Logo oficial (revelação) + verde #3AF584, 3 situações centralizadas, voz 1,0×, 103 s, movimento 2,0 | Aprovado para implementação pelo cliente, com estes ajustes |
