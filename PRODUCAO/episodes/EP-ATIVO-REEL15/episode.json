@@ -1,0 +1,671 @@
+{
+ "id": "EP-ATIVO-REEL15",
+ "title": "O jeito mais rápido de complicar seus impostos",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "outputDir": "ATIVO_REEL15",
+ "deliverables": {
+  "final": "ATIVO_REEL15_FINAL.mp4",
+  "narration": "ATIVO_REEL15_NARRACAO.wav",
+  "subtitles": "ATIVO_REEL15_legendas.srt",
+  "cover": "ATIVO_REEL15_capa.png"
+ },
+ "fonte": "ROTEIROS/ATIVO_REEL15.md (ATIVO_Reel_15_HUMOR_IMPOSTO_COMISSAO.md, cliente, 17/11/2026)",
+ "diagnostico": {
+  "publico_situacao": "corretor que deixa documentos de comissão e parceria para depois",
+  "motivacao": "evitar improviso documental e consultar profissional habilitado",
+  "crenca_questionada": "papelada se resolve depois / dica viral resolve imposto",
+  "hipotese": "manual irônico do improviso + virada séria",
+  "funcao": "C2 humor irônico",
+  "promessa": "organize, consulte o contador, confirme",
+  "evidencias": "sem alíquotas, percentuais, simulações ou orientação tributária individual; ressalva do contador falada e na tela; app de conversa genérico (sem marca)",
+  "cta": "comentário SISTEMA → Direct; 'Salva e manda' → transição"
+ },
+ "cta": {
+  "original_cta": "Salva e manda para um colega que vive deixando papelada para depois. E confirme questões tributárias com seu contador.",
+  "original_cta_kept": "E confirme questões tributárias com seu contador.",
+  "transition_adapted": "No dia a dia, ajuda ter cada negociação registrada.",
+  "note": "ressalva tributária mantida por proteção editorial; 'Salva e manda' → transição; o sistema não é apresentado como ferramenta fiscal",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Quer transformar a comissão de um imóvel numa novela tributária?",
+   "caption": "Quer transformar | a *comissão* | de um imóvel | numa *novela tributária?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Então deixa todos os documentos para resolver depois.",
+   "caption": "Então deixa | todos os documentos | para resolver *depois.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "iro",
+   "text": "Fechou parceria? Ótimo.",
+   "caption": "Fechou *parceria?* | Ótimo.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "iro",
+   "text": "Não registre quem fez o quê.",
+   "caption": "*Não registre* | quem fez o quê.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "iro",
+   "text": "Recebeu comissão? Melhor ainda: misture os comprovantes com os seus arquivos pessoais.",
+   "caption": "Recebeu comissão? | Melhor ainda: | *misture* os comprovantes | com os seus | *arquivos pessoais.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "iro",
+   "text": "E, quando alguém pedir documentação, tenta lembrar tudo pela conversa do WhatsApp.",
+   "caption": "E, quando alguém | pedir documentação, | tenta *lembrar tudo* | pela conversa | do WhatsApp.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "iro",
+   "text": "Perfeito para criar confusão.",
+   "caption": "Perfeito | para criar *confusão.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "real",
+   "text": "Agora falando sério: forma de recebimento, divisão de comissões, emissão de documentos e possíveis tributos dependem da situação de cada profissional e das regras aplicáveis.",
+   "caption": "Agora *falando sério:* | forma de *recebimento,* | *divisão* de comissões, | *emissão* de documentos | e possíveis *tributos* | dependem da situação | de cada profissional | e das regras aplicáveis.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "real",
+   "text": "Não é assunto para resolver com uma dica viral de trinta segundos.",
+   "caption": "Não é assunto | para resolver | com uma *dica viral* | de trinta segundos.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "cuid",
+   "text": "Uma atitude simples é manter contratos, comprovantes e informações organizadas, e levar as dúvidas a um contador que conheça sua atividade.",
+   "caption": "Uma atitude simples | é manter *contratos,* | *comprovantes* | e *informações* organizadas, | e levar as dúvidas | a um *contador* | que conheça | sua atividade.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "cuid",
+   "text": "Boa gestão também significa saber quando não improvisar.",
+   "caption": "Boa gestão | também significa | saber quando | *não improvisar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "fim",
+   "text": "E confirme questões tributárias com seu contador.",
+   "caption": "E *confirme* | questões tributárias | com seu *contador.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "fim",
+   "text": "No dia a dia, ajuda ter cada negociação registrada.",
+   "caption": "No dia a dia, | ajuda ter | cada negociação | *registrada.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s15",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "iro": 0.3,
+  "real": 0.45,
+  "cuid": 0.35,
+  "fim": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_quer": {
+   "seg": "s1",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_com": {
+   "seg": "s1",
+   "word": "comissão",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_nov": {
+   "seg": "s1",
+   "word": "novela",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_ent": {
+   "seg": "s2",
+   "word": "Então",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_doc": {
+   "seg": "s2",
+   "word": "documentos",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_dep": {
+   "seg": "s2",
+   "word": "depois",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_fech": {
+   "seg": "s3",
+   "word": "Fechou",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_otimo": {
+   "seg": "s3",
+   "word": "Ótimo",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_nao": {
+   "seg": "s4",
+   "word": "Não",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_quem": {
+   "seg": "s4",
+   "word": "quem",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_rec": {
+   "seg": "s5",
+   "word": "Recebeu",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_mist": {
+   "seg": "s5",
+   "word": "misture",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_pess": {
+   "seg": "s5",
+   "word": "pessoais",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_quando": {
+   "seg": "s6",
+   "word": "quando",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_lemb": {
+   "seg": "s6",
+   "word": "lembrar",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_conv": {
+   "seg": "s6",
+   "word": "conversa",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_perf": {
+   "seg": "s7",
+   "word": "Perfeito",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_conf": {
+   "seg": "s7",
+   "word": "confusão",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_serio": {
+   "seg": "s8",
+   "word": "sério",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_receb": {
+   "seg": "s8",
+   "word": "recebimento",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_div": {
+   "seg": "s8",
+   "word": "divisão",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_emis": {
+   "seg": "s8",
+   "word": "emissão",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_trib": {
+   "seg": "s8",
+   "word": "tributos",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_dep": {
+   "seg": "s8",
+   "word": "dependem",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_regras": {
+   "seg": "s8",
+   "word": "regras",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_nao": {
+   "seg": "s9",
+   "word": "Não",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_dica": {
+   "seg": "s9",
+   "word": "dica",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_trinta": {
+   "seg": "s9",
+   "word": "trinta",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_uma": {
+   "seg": "s10",
+   "word": "Uma",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_contr": {
+   "seg": "s10",
+   "word": "contratos",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_compr": {
+   "seg": "s10",
+   "word": "comprovantes",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_info": {
+   "seg": "s10",
+   "word": "informações",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_levar": {
+   "seg": "s10",
+   "word": "levar",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_conta": {
+   "seg": "s10",
+   "word": "contador",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_boa": {
+   "seg": "s11",
+   "word": "Boa",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_impro": {
+   "seg": "s11",
+   "word": "improvisar",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_conf": {
+   "seg": "s12",
+   "word": "confirme",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_cont": {
+   "seg": "s12",
+   "word": "contador",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_dia": {
+   "seg": "s13",
+   "word": "No",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_reg": {
+   "seg": "s13",
+   "word": "registrada",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s14",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s14",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s14",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s15",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s15",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s15",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s15",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_nov",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "h_dep",
+   "offset": 0.1,
+   "sound": "block",
+   "gain": -29
+  },
+  {
+   "cue": "i_fech",
+   "offset": -0.2,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "i_nao",
+   "offset": 0.1,
+   "sound": "thump",
+   "gain": -29
+  },
+  {
+   "cue": "i_mist",
+   "offset": 0.0,
+   "sound": "shuffle",
+   "gain": -30
+  },
+  {
+   "cue": "i_conv",
+   "offset": 0.0,
+   "sound": "notif",
+   "gain": -30
+  },
+  {
+   "cue": "i_conf",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "r_serio",
+   "offset": -0.2,
+   "sound": "fade_down",
+   "gain": -31,
+   "dur": 0.8
+  },
+  {
+   "cue": "r_receb",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -26
+  },
+  {
+   "cue": "r_div",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -26,
+   "pitch": 2
+  },
+  {
+   "cue": "r_emis",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "r_trib",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -26,
+   "pitch": 6
+  },
+  {
+   "cue": "r_dica",
+   "offset": 0.2,
+   "sound": "block",
+   "gain": -29
+  },
+  {
+   "cue": "c_contr",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "c_compr",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "c_info",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -26,
+   "pitch": 6
+  },
+  {
+   "cue": "c_conta",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 4
+  },
+  {
+   "cue": "x_conf",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "x_reg",
+   "offset": 0.2,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 96,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     53
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "Dm — tom irônico"
+   },
+   {
+    "at": "cue:r_serio",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 1,
+    "bright": 0.4,
+    "label": "C — falando sério"
+   },
+   {
+    "at": "cue:c_uma",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "F — o cuidado"
+   },
+   {
+    "at": "cue:x_conf",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — confirme"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}
