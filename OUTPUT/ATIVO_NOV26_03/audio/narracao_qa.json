@@ -1,0 +1,81 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.56,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.74,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.97,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.9,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.5,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 2.59,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 8.91,
+    "palavras_nao_reconhecidas": [
+      "acompanhe",
+      "por"
+    ]
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.5,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.3,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.56,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 47.63,
+    "asr_match": 0.966,
+    "aligned_words": "129/133",
+    "words_per_min": 168,
+    "heard": "Você sabia que o dinheiro da poupança tem relação com a oferta de financiamento imobiliário? Pensa no sistema de crédito como um reservatório. Uma parte dos recursos usados nos financiamentos vem da poupança, seguindo regras específicas. Quando há mais saques do que depósitos, esse reservatório fica sob pressão. Em outubro, a poupança voltou a registrar a saída líquida de recursos. Mas isso não significa que o banco parou de financiar. Existem outras fontes e decisões envolvidas. Para o corretor, a aplicação é simples. Acompanha as condições reais de crédito e saiba explicar porque a aprovação, taxa e prazo não são iguais para todo mundo. Traduza a notícia para o cliente, sem complicação. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 47.63,
+      "wpm": 168
+    },
+    "final": {
+      "seconds": 47.63,
+      "wpm": 168
+    }
+  }
+]
