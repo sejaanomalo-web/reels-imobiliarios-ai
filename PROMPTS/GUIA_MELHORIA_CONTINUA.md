@@ -173,6 +173,14 @@
 >   4. Escada/linha do tempo com rótulo por degrau sobrepõe: usar um rótulo único que troca no ritmo da fala.
 >   5. Câmera que visita cada cartão (±35 px, zoom 1,04) sobe o movimento sem cortar as bordas; ±90 px corta.
 
+> ### Registro do ATIVO Reel 04 (17/11/2026)
+>
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL04.md`), ID `EP-ATIVO-REEL04` (série "ATIVO_Reel_0N": 01–03 saíram como `EP-ATIVO-CASE0N`); CTA "testa essas três perguntas" mantida e "Depois me conta" → transição + CTA SISTEMA; 1,0×; conta 1; tomada B sem edição; saída `OUTPUT/ATIVO_REEL04/`.
+> - **Aprendizados:**
+>   1. Conferir o "te envio" da CTA nos dois reconhecedores antes de escolher a tomada — é a frase que não pode sair errada; foi o critério de desempate aqui.
+>   2. Cena escura com elementos parados no 1º segundo mede > 1 s parado mesmo com câmera em ease-out: animar algo da própria história desde o quadro 0 (caminhos tracejados fluindo, molduras pulsando).
+>   3. Pilha de cartões que só entra na palavra "dez" deixa ~3 s vazios: começar a pilha logo depois do pedido e terminar na última palavra da lista.
+
 > ### Criativos de anúncio Meta Ads (AD-*) — padrão a partir de 15/11/2026
 >
 > - **Objetivo:** clique no botão do anúncio → formulário/landing. **CTA = botão** (`cta.type: "botao_meta"`, fala "Clique no botão…", tela CLIQUE NO BOTÃO + seta para baixo). A regra "CTA SISTEMA" vale só para Reels orgânicos; `editorial_check` aplica a regra certa pelo prefixo `AD-`.
@@ -311,6 +319,7 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-16 | ATIVO EP10 | Roteiro do cliente + CTA SISTEMA (salvar/compartilhar → transição); programa habitacional só na fala, sem valores. Tomada B sem edição, 164 palavras/min, 83,9 s, movimento 2,34, maior trecho parado 0,6 s, mix × roteiro 0,973; emenda descartada por tom | Pedido do cliente; aguardando avaliação |
 | 2026-11-16 | ATIVO CASE02 | Caso real (Jason Ballo) com fatos conferidos e estilo dos vídeos a confirmar; sem imagens dele; CTA SISTEMA (comentar → transição). Tomada A sem edição, 170 palavras/min, 64,0 s, movimento 1,49, maior trecho parado 0,9 s, mix × roteiro 0,930 (imperativos coloquiais) | Pedido do cliente; aguardando avaliação |
 | 2026-11-16 | ATIVO CASE03 | Caso real (Mônica Poplawski) com fatos conferidos; valor corrigido para R$ 900 conforme fonte (pendente de aprovação); sem imagens dela; CTA SISTEMA. Tomada B sem edição, 168 palavras/min, 65,0 s, movimento 1,49, maior trecho parado 0,7 s, mix × roteiro 0,949 | Pedido do cliente; aguardando avaliação |
+| 2026-11-17 | ATIVO REEL04 | Comparação de dois atendimentos (situação ilustrativa, sem valores); CTA SISTEMA ('Depois me conta' → transição). Conta 1, tomada B sem edição, 160 palavras/min, 68,9 s, movimento 1,52, maior trecho parado 0,8 s, mix × roteiro 0,938 | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 | Vídeo principal da landing: 118 s, 1920×1080, trilha original por blocos, marca e telas provisórias, legendas web | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 v2 | Transcrição dinâmica, voz 1,2× (exceção pedida), 86,5 s, elementos maiores, movimento 2,39 | Feedback do cliente: mais dinâmica, texto = fala, gancho mais forte |
 | 2026-11-13 | LANDING 16:9 FINAL | Logo oficial (revelação) + verde #3AF584, 3 situações centralizadas, voz 1,0×, 103 s, movimento 2,0 | Aprovado para implementação pelo cliente, com estes ajustes |
