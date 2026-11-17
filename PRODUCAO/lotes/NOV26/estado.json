@@ -27,12 +27,12 @@
    "id": "ATIVO_NOV26_02",
    "composition": "ATIVO-NOV26-02",
    "title": "Caixa estuda reajustar taxas",
-   "status": "pendente",
-   "video": null,
-   "validacao": null,
-   "voz": null,
+   "status": "entregue",
+   "video": "OUTPUT/ATIVO_NOV26_02/ATIVO_NOV26_02_FINAL.mp4",
+   "validacao": "11/11 · −14,98 LUFS · TP −1,29 · 48,98 s · editorial 0/0 · movimento 1,72",
+   "voz": "conta 1, 2 gerações (B; A leu a instrução de estilo)",
    "commit": null,
-   "notas": ""
+   "notas": "reconferir status da Caixa antes de publicar; aprovar transição 'confirme antes de prometer'"
   },
   {
    "n": 3,
@@ -373,7 +373,7 @@
  ],
  "cota_voz": {
   "data": "2026-11-17",
-  "conta1_usadas_estimadas": 5,
+  "conta1_usadas_estimadas": 7,
   "conta2": "esgotada (Reel 14)",
   "renova": "~08:00 UTC"
  }
