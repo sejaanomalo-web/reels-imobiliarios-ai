@@ -97,3 +97,9 @@ Ver `../PROMPTS/GUIA_MELHORIA_CONTINUA.md`. Peças:
 - Ninguém ouve o áudio no pipeline: a conferência é por transcrição e por medição de volume. Ouvir antes de publicar.
 - `EP=EP002 tools/stills.sh <pasta> <segundos…>` gera quadros avulsos para revisão visual.
 - Licença do Remotion para uso comercial: ver `OUTPUT/EP001/licencas_e_creditos.md`.
+
+## Legenda pronta para Instagram (nova etapa editorial obrigatória)
+
+Para cada episódio, depois do roteiro final e da capa, o agente Claude Code deve ler `../PROMPTS/GUIA_LEGENDAS_INSTAGRAM_ATIVO.md` e os quatro exemplos em `../PROMPTS/EXEMPLOS_LEGENDAS/`, escrever uma legenda ORIGINAL e salvar `OUTPUT/<outputDir>/legenda_instagram.txt` (caminho relativo à raiz do repositório). Arquivo em UTF-8 pronto para copiar/colar, sem negrito ou Markdown, com primeira linha fixa `📲 Comente "SISTEMA" e conheça uma solução personalizada para organizar seus imóveis, leads e atendimentos.`, conclusão útil e exatamente 5 hashtags minúsculas.
+
+**Importante:** esse é um passo de criação de texto a ser executado pelo agente Claude Code depois do pipeline técnico. O script `npm run ep` apenas gera narração, áudio, vídeo e capa; não tem um modelo editorial embutido e **não gera sozinho** o `.txt`. Ao pedir para o Claude Code produzir o vídeo, incluir a legenda na mesma entrega. Se o vídeo já existir, gerar apenas a legenda sem refazer o render ou a voz. Consulte `episode.json` para respeitar `outputDir` quando não for `EP###`.
