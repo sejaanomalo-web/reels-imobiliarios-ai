@@ -7,7 +7,8 @@
   "verde": "#02FB3F (só este lote; episódios anteriores intactos)",
   "trilha": "discreta, sem bateria",
   "cta": "ver PRODUCAO/lotes/NOV26/LEIAME.md",
-  "sfx": "um pouco mais dinâmicos (cliente 19/11/2026, a partir do NOV26_06): ~+2 dB por evento e mais eventos (whoosh/swish em toda troca de cena, tick/pop/click em cada item); voz sempre na frente"
+  "sfx": "um pouco mais dinâmicos (cliente 19/11/2026, a partir do NOV26_06): ~+2 dB por evento e mais eventos (whoosh/swish em toda troca de cena, tick/pop/click em cada item); voz sempre na frente",
+  "publicacao_instagram": "A partir de 19/11/2026: todo MP4 em PUBLICACAO/ na main é publicado no @ativo.br (Action enfileirar.yml → Supabase). Só subir post pronto e aprovado; uma pasta por post (1 MP4, 1 capa, 1 *legenda*.txt ≤2200 chars); ordem do push = ordem de publicação; nunca mover/renomear/apagar post já enviado; correção = pasta nova com o próximo número; git pull --rebase antes de cada push."
  },
  "estados": "pendente → em_producao → voz_ok → renderizado → validado(entregue) | bloqueado(motivo)",
  "episodios": [
@@ -240,12 +241,12 @@
    "id": "ATIVO_NOV26_17",
    "composition": "ATIVO-NOV26-17",
    "title": "Cascavel está construindo moradias",
-   "status": "pendente",
+   "status": "pausado",
    "video": null,
    "validacao": null,
    "voz": null,
    "commit": null,
-   "notas": ""
+   "notas": "PAUSADO a pedido do cliente (19/11 ~19:20 UTC). Narração (tomada B, conta 1) e cenas prontas; render em OUTPUT/ATIVO_NOV26_17 com movimento 1,27 (não aceito ainda); falta: ajuste de movimento, legenda, QA, publicação. NÃO está em PUBLICACAO/."
   },
   {
    "n": 18,
@@ -407,7 +408,8 @@
  "cota_voz": {
   "data": "2026-11-19",
   "conta2_usadas": 21,
-  "conta1_usadas": 18,
+  "conta2": "esgotada às ~19:00 UTC (quota exceeded na 22ª)",
+  "conta1_usadas": 19,
   "renova": "~08:00 UTC"
  }
 }

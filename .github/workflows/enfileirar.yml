@@ -1,0 +1,42 @@
+name: Enfileirar posts no Instagram
+
+on:
+  push:
+    branches: [main]
+    paths: ['PUBLICACAO/**/*.mp4']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: enfileirar
+  cancel-in-progress: false
+
+jobs:
+  enfileirar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !*.mp4
+          sparse-checkout-cone-mode: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install python-docx pillow
+
+      - run: python .github/scripts/enfileirar.py
+        env:
+          BEFORE: ${{ github.event.before }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          IG_PERFIL: ${{ vars.IG_PERFIL }}
+          IG_BRANCH: ${{ github.ref_name }}
+

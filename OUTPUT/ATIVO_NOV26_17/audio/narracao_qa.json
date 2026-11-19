@@ -1,0 +1,89 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.7,
+    "palavras_nao_reconhecidas": [
+      "cento",
+      "vinte",
+      "três"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.13,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.28,
+    "palavras_nao_reconhecidas": [
+      "quatro"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 5.26,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.14,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 6.54,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 5.31,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 5.19,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 1.86,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.65,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.74,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 52.17,
+    "asr_match": 0.96,
+    "aligned_words": "131/138",
+    "words_per_min": 159,
+    "heard": "Cascavel entregou 123 casas populares em novembro, mas o número mais interessante está no que vem depois. Segundo a prefeitura, há mais de 4 mil moradias em obras ou em fases de projeto e protocolo. Isso mostra uma movimentação habitacional importante na cidade com diferentes etapas e finalidades. Agora pensa no corretor, que anuncia crescimento urbano só porque viu uma lista de casas. O efeito real depende de infraestrutura, bairros, mobilidade e como os projetos serão implementados. Para quem atua em Cascavel, acompanhar planejamento e fontes oficiais ajuda a entender a cidade, sem transformar a habitação social em estoque disponível para venda e sem prometer valorização. Leia a cidade, não só o anúncio. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 53.68,
+      "wpm": 154
+    },
+    "pausas_moldadas": {
+      "n": 16,
+      "max_s": 0.54
+    },
+    "pausas_encurtadas_s": 1.51,
+    "final": {
+      "seconds": 52.17,
+      "wpm": 159
+    }
+  }
+]

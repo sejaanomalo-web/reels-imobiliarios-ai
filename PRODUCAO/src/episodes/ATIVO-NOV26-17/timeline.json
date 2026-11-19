@@ -1,0 +1,1394 @@
+{
+ "id": "ATIVO-NOV26-17",
+ "title": "Cascavel está construindo moradias",
+ "fps": 30,
+ "duration": 54.5,
+ "durationInFrames": 1635,
+ "narrationEnd": 52.289,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 7.525
+  },
+  {
+   "id": "t1",
+   "start": 7.525,
+   "end": 18.67
+  },
+  {
+   "id": "t2",
+   "start": 18.67,
+   "end": 30.87
+  },
+  {
+   "id": "t3",
+   "start": 30.87,
+   "end": 44.05
+  },
+  {
+   "id": "cta",
+   "start": 44.05,
+   "end": 54.5
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Cascavel entregou cento e vinte e três casas populares em novembro.",
+   "start": 0.2,
+   "end": 3.9
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Mas o número mais interessante está no que vem depois.",
+   "start": 4.28,
+   "end": 7.41
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "Segundo a prefeitura, há mais de quatro mil moradias em obras ou em fases de projeto e protocolo.",
+   "start": 7.64,
+   "end": 12.92
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "Isso mostra uma movimentação habitacional importante na cidade, com diferentes etapas e finalidades.",
+   "start": 13.24,
+   "end": 18.5
+  },
+  {
+   "id": "s5",
+   "scene": "t2",
+   "text": "Agora pensa no corretor que anuncia crescimento urbano só porque viu uma lista de casas.",
+   "start": 18.84,
+   "end": 23.98
+  },
+  {
+   "id": "s6",
+   "scene": "t2",
+   "text": "O efeito real depende de infraestrutura, bairros, mobilidade e como os projetos serão implementados.",
+   "start": 24.2,
+   "end": 30.74
+  },
+  {
+   "id": "s7",
+   "scene": "t3",
+   "text": "Para quem atua em Cascavel, acompanhar planejamento e fontes oficiais ajuda a entender a cidade.",
+   "start": 31.0,
+   "end": 36.31
+  },
+  {
+   "id": "s8",
+   "scene": "t3",
+   "text": "Sem transformar habitação social em estoque disponível para venda, e sem prometer valorização.",
+   "start": 36.6,
+   "end": 41.79
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "Leia a cidade, não só o anúncio.",
+   "start": 42.04,
+   "end": 43.9
+  },
+  {
+   "id": "s10",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "start": 44.2,
+   "end": 48.85
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "start": 49.139,
+   "end": 51.88
+  }
+ ],
+ "cues": {
+  "h_casc": 0.2,
+  "h_123": 1.747,
+  "h_casas": 2.6,
+  "h_nov": 3.56,
+  "h_mas": 4.28,
+  "h_depois": 6.92,
+  "a_pref": 8.12,
+  "a_4mil": 9.18,
+  "a_obras": 10.6,
+  "a_proj": 11.88,
+  "a_prot": 12.44,
+  "a_mov": 14.04,
+  "a_etapas": 17.24,
+  "a_fin": 17.88,
+  "b_pensa": 19.16,
+  "b_anuncia": 20.44,
+  "b_cresc": 21.0,
+  "b_lista": 23.24,
+  "b_efeito": 24.44,
+  "b_infra": 25.8,
+  "b_bairros": 26.84,
+  "b_mob": 27.64,
+  "b_impl": 30.04,
+  "c_atua": 31.4,
+  "c_plan": 33.24,
+  "c_fontes": 34.12,
+  "c_cidade": 36.04,
+  "c_sem": 36.6,
+  "c_estoque": 38.6,
+  "c_valor": 41.24,
+  "x_leia": 42.04,
+  "x_anuncio": 43.64,
+  "cta_quer": 44.2,
+  "cta_sys": 45.16,
+  "cta_tiles": 47.08,
+  "cta_comment": 49.139,
+  "cta_word": 49.64,
+  "cta_direct": 51.56,
+  "cta_end": 51.88
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 1.747,
+   "words": [
+    {
+     "text": "Cascavel",
+     "start": 0.2,
+     "end": 0.28,
+     "emph": true
+    },
+    {
+     "text": "entregou",
+     "start": 1.32,
+     "end": 1.747,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.747,
+   "end": 2.6,
+   "words": [
+    {
+     "text": "cento",
+     "start": 1.747,
+     "end": 2.013,
+     "emph": true
+    },
+    {
+     "text": "e",
+     "start": 2.013,
+     "end": 2.067,
+     "emph": true
+    },
+    {
+     "text": "vinte",
+     "start": 2.067,
+     "end": 2.333,
+     "emph": true
+    },
+    {
+     "text": "e",
+     "start": 2.333,
+     "end": 2.387,
+     "emph": true
+    },
+    {
+     "text": "três",
+     "start": 2.387,
+     "end": 2.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.6,
+   "end": 3.4,
+   "words": [
+    {
+     "text": "casas",
+     "start": 2.6,
+     "end": 3.0,
+     "emph": false
+    },
+    {
+     "text": "populares",
+     "start": 3.0,
+     "end": 3.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.4,
+   "end": 4.28,
+   "words": [
+    {
+     "text": "em",
+     "start": 3.4,
+     "end": 3.56,
+     "emph": false
+    },
+    {
+     "text": "novembro.",
+     "start": 3.56,
+     "end": 3.9,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.28,
+   "end": 5.16,
+   "words": [
+    {
+     "text": "Mas",
+     "start": 4.28,
+     "end": 4.52,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 4.52,
+     "end": 4.68,
+     "emph": false
+    },
+    {
+     "text": "número",
+     "start": 4.68,
+     "end": 5.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.16,
+   "end": 6.04,
+   "words": [
+    {
+     "text": "mais",
+     "start": 5.16,
+     "end": 5.48,
+     "emph": false
+    },
+    {
+     "text": "interessante",
+     "start": 5.48,
+     "end": 6.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.04,
+   "end": 6.6,
+   "words": [
+    {
+     "text": "está",
+     "start": 6.04,
+     "end": 6.28,
+     "emph": false
+    },
+    {
+     "text": "no",
+     "start": 6.28,
+     "end": 6.44,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 6.44,
+     "end": 6.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.6,
+   "end": 7.64,
+   "words": [
+    {
+     "text": "vem",
+     "start": 6.6,
+     "end": 6.92,
+     "emph": true
+    },
+    {
+     "text": "depois.",
+     "start": 6.92,
+     "end": 7.41,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 7.64,
+   "end": 8.76,
+   "words": [
+    {
+     "text": "Segundo",
+     "start": 7.64,
+     "end": 7.96,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 7.96,
+     "end": 8.12,
+     "emph": false
+    },
+    {
+     "text": "prefeitura,",
+     "start": 8.12,
+     "end": 8.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.76,
+   "end": 9.8,
+   "words": [
+    {
+     "text": "há",
+     "start": 8.76,
+     "end": 8.92,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 8.92,
+     "end": 9.08,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 9.08,
+     "end": 9.18,
+     "emph": true
+    },
+    {
+     "text": "quatro",
+     "start": 9.18,
+     "end": 9.48,
+     "emph": true
+    },
+    {
+     "text": "mil",
+     "start": 9.48,
+     "end": 9.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.8,
+   "end": 10.44,
+   "words": [
+    {
+     "text": "moradias",
+     "start": 9.8,
+     "end": 10.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.44,
+   "end": 11.08,
+   "words": [
+    {
+     "text": "em",
+     "start": 10.44,
+     "end": 10.6,
+     "emph": false
+    },
+    {
+     "text": "obras",
+     "start": 10.6,
+     "end": 11.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.08,
+   "end": 11.72,
+   "words": [
+    {
+     "text": "ou",
+     "start": 11.08,
+     "end": 11.24,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 11.24,
+     "end": 11.4,
+     "emph": false
+    },
+    {
+     "text": "fases",
+     "start": 11.4,
+     "end": 11.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.72,
+   "end": 12.28,
+   "words": [
+    {
+     "text": "de",
+     "start": 11.72,
+     "end": 11.88,
+     "emph": false
+    },
+    {
+     "text": "projeto",
+     "start": 11.88,
+     "end": 12.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.28,
+   "end": 13.24,
+   "words": [
+    {
+     "text": "e",
+     "start": 12.28,
+     "end": 12.44,
+     "emph": false
+    },
+    {
+     "text": "protocolo.",
+     "start": 12.44,
+     "end": 12.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.24,
+   "end": 13.88,
+   "words": [
+    {
+     "text": "Isso",
+     "start": 13.24,
+     "end": 13.48,
+     "emph": false
+    },
+    {
+     "text": "mostra",
+     "start": 13.48,
+     "end": 13.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.88,
+   "end": 14.6,
+   "words": [
+    {
+     "text": "uma",
+     "start": 13.88,
+     "end": 14.04,
+     "emph": false
+    },
+    {
+     "text": "movimentação",
+     "start": 14.04,
+     "end": 14.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.6,
+   "end": 15.8,
+   "words": [
+    {
+     "text": "habitacional",
+     "start": 14.6,
+     "end": 15.32,
+     "emph": false
+    },
+    {
+     "text": "importante",
+     "start": 15.32,
+     "end": 15.43,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.8,
+   "end": 16.52,
+   "words": [
+    {
+     "text": "na",
+     "start": 15.8,
+     "end": 15.96,
+     "emph": false
+    },
+    {
+     "text": "cidade,",
+     "start": 15.96,
+     "end": 16.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.52,
+   "end": 17.24,
+   "words": [
+    {
+     "text": "com",
+     "start": 16.52,
+     "end": 16.76,
+     "emph": false
+    },
+    {
+     "text": "diferentes",
+     "start": 16.76,
+     "end": 17.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.24,
+   "end": 18.84,
+   "words": [
+    {
+     "text": "etapas",
+     "start": 17.24,
+     "end": 17.72,
+     "emph": true
+    },
+    {
+     "text": "e",
+     "start": 17.72,
+     "end": 17.88,
+     "emph": true
+    },
+    {
+     "text": "finalidades.",
+     "start": 17.88,
+     "end": 18.5,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.84,
+   "end": 19.56,
+   "words": [
+    {
+     "text": "Agora",
+     "start": 18.84,
+     "end": 19.16,
+     "emph": false
+    },
+    {
+     "text": "pensa",
+     "start": 19.16,
+     "end": 19.25,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.56,
+   "end": 20.28,
+   "words": [
+    {
+     "text": "no",
+     "start": 19.56,
+     "end": 19.72,
+     "emph": false
+    },
+    {
+     "text": "corretor",
+     "start": 19.72,
+     "end": 20.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.28,
+   "end": 21.0,
+   "words": [
+    {
+     "text": "que",
+     "start": 20.28,
+     "end": 20.44,
+     "emph": false
+    },
+    {
+     "text": "anuncia",
+     "start": 20.44,
+     "end": 21.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.0,
+   "end": 22.12,
+   "words": [
+    {
+     "text": "crescimento",
+     "start": 21.0,
+     "end": 21.56,
+     "emph": true
+    },
+    {
+     "text": "urbano",
+     "start": 21.56,
+     "end": 21.89,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.12,
+   "end": 23.08,
+   "words": [
+    {
+     "text": "só",
+     "start": 22.12,
+     "end": 22.36,
+     "emph": false
+    },
+    {
+     "text": "porque",
+     "start": 22.36,
+     "end": 22.76,
+     "emph": false
+    },
+    {
+     "text": "viu",
+     "start": 22.76,
+     "end": 23.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.08,
+   "end": 24.2,
+   "words": [
+    {
+     "text": "uma",
+     "start": 23.08,
+     "end": 23.24,
+     "emph": false
+    },
+    {
+     "text": "lista",
+     "start": 23.24,
+     "end": 23.56,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 23.56,
+     "end": 23.64,
+     "emph": true
+    },
+    {
+     "text": "casas.",
+     "start": 23.64,
+     "end": 23.98,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.2,
+   "end": 25.16,
+   "words": [
+    {
+     "text": "O",
+     "start": 24.2,
+     "end": 24.44,
+     "emph": false
+    },
+    {
+     "text": "efeito",
+     "start": 24.44,
+     "end": 24.76,
+     "emph": false
+    },
+    {
+     "text": "real",
+     "start": 24.76,
+     "end": 25.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.16,
+   "end": 25.8,
+   "words": [
+    {
+     "text": "depende",
+     "start": 25.16,
+     "end": 25.64,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 25.64,
+     "end": 25.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.8,
+   "end": 26.84,
+   "words": [
+    {
+     "text": "infraestrutura,",
+     "start": 25.8,
+     "end": 26.65,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.84,
+   "end": 27.64,
+   "words": [
+    {
+     "text": "bairros,",
+     "start": 26.84,
+     "end": 27.42,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.64,
+   "end": 28.52,
+   "words": [
+    {
+     "text": "mobilidade",
+     "start": 27.64,
+     "end": 28.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.52,
+   "end": 29.72,
+   "words": [
+    {
+     "text": "e",
+     "start": 28.52,
+     "end": 28.59,
+     "emph": false
+    },
+    {
+     "text": "como",
+     "start": 28.76,
+     "end": 29.08,
+     "emph": false
+    },
+    {
+     "text": "os",
+     "start": 29.08,
+     "end": 29.24,
+     "emph": false
+    },
+    {
+     "text": "projetos",
+     "start": 29.24,
+     "end": 29.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 29.72,
+   "end": 31.0,
+   "words": [
+    {
+     "text": "serão",
+     "start": 29.72,
+     "end": 30.04,
+     "emph": false
+    },
+    {
+     "text": "implementados.",
+     "start": 30.04,
+     "end": 30.74,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.0,
+   "end": 31.72,
+   "words": [
+    {
+     "text": "Para",
+     "start": 31.0,
+     "end": 31.16,
+     "emph": false
+    },
+    {
+     "text": "quem",
+     "start": 31.16,
+     "end": 31.4,
+     "emph": false
+    },
+    {
+     "text": "atua",
+     "start": 31.4,
+     "end": 31.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.72,
+   "end": 32.68,
+   "words": [
+    {
+     "text": "em",
+     "start": 31.72,
+     "end": 31.8,
+     "emph": false
+    },
+    {
+     "text": "Cascavel,",
+     "start": 31.8,
+     "end": 32.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.68,
+   "end": 33.24,
+   "words": [
+    {
+     "text": "acompanhar",
+     "start": 32.68,
+     "end": 33.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.24,
+   "end": 33.96,
+   "words": [
+    {
+     "text": "planejamento",
+     "start": 33.24,
+     "end": 33.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.96,
+   "end": 35.08,
+   "words": [
+    {
+     "text": "e",
+     "start": 33.96,
+     "end": 34.12,
+     "emph": false
+    },
+    {
+     "text": "fontes",
+     "start": 34.12,
+     "end": 34.52,
+     "emph": true
+    },
+    {
+     "text": "oficiais",
+     "start": 34.52,
+     "end": 35.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 35.08,
+   "end": 35.96,
+   "words": [
+    {
+     "text": "ajuda",
+     "start": 35.08,
+     "end": 35.48,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 35.48,
+     "end": 35.56,
+     "emph": false
+    },
+    {
+     "text": "entender",
+     "start": 35.56,
+     "end": 35.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 35.96,
+   "end": 36.6,
+   "words": [
+    {
+     "text": "a",
+     "start": 35.96,
+     "end": 36.04,
+     "emph": false
+    },
+    {
+     "text": "cidade.",
+     "start": 36.04,
+     "end": 36.31,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 36.6,
+   "end": 37.56,
+   "words": [
+    {
+     "text": "Sem",
+     "start": 36.6,
+     "end": 36.92,
+     "emph": false
+    },
+    {
+     "text": "transformar",
+     "start": 36.92,
+     "end": 37.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 37.56,
+   "end": 38.44,
+   "words": [
+    {
+     "text": "habitação",
+     "start": 37.56,
+     "end": 38.12,
+     "emph": true
+    },
+    {
+     "text": "social",
+     "start": 38.12,
+     "end": 38.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 38.44,
+   "end": 39.64,
+   "words": [
+    {
+     "text": "em",
+     "start": 38.44,
+     "end": 38.6,
+     "emph": false
+    },
+    {
+     "text": "estoque",
+     "start": 38.6,
+     "end": 39.08,
+     "emph": false
+    },
+    {
+     "text": "disponível",
+     "start": 39.08,
+     "end": 39.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 39.64,
+   "end": 40.2,
+   "words": [
+    {
+     "text": "para",
+     "start": 39.64,
+     "end": 39.8,
+     "emph": false
+    },
+    {
+     "text": "venda,",
+     "start": 39.8,
+     "end": 40.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 40.2,
+   "end": 41.24,
+   "words": [
+    {
+     "text": "e",
+     "start": 40.2,
+     "end": 40.44,
+     "emph": false
+    },
+    {
+     "text": "sem",
+     "start": 40.44,
+     "end": 40.68,
+     "emph": false
+    },
+    {
+     "text": "prometer",
+     "start": 40.68,
+     "end": 41.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 41.24,
+   "end": 42.04,
+   "words": [
+    {
+     "text": "valorização.",
+     "start": 41.24,
+     "end": 41.79,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 42.04,
+   "end": 43.16,
+   "words": [
+    {
+     "text": "Leia",
+     "start": 42.04,
+     "end": 42.52,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 42.52,
+     "end": 42.6,
+     "emph": true
+    },
+    {
+     "text": "cidade,",
+     "start": 42.6,
+     "end": 42.95,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 43.16,
+   "end": 44.2,
+   "words": [
+    {
+     "text": "não",
+     "start": 43.16,
+     "end": 43.32,
+     "emph": false
+    },
+    {
+     "text": "só",
+     "start": 43.32,
+     "end": 43.48,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 43.48,
+     "end": 43.64,
+     "emph": false
+    },
+    {
+     "text": "anúncio.",
+     "start": 43.64,
+     "end": 43.9,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 44.2,
+   "end": 45.0,
+   "words": [
+    {
+     "text": "Quer",
+     "start": 44.2,
+     "end": 44.27,
+     "emph": false
+    },
+    {
+     "text": "conhecer",
+     "start": 44.52,
+     "end": 45.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 45.0,
+   "end": 46.2,
+   "words": [
+    {
+     "text": "um",
+     "start": 45.0,
+     "end": 45.16,
+     "emph": false
+    },
+    {
+     "text": "sistema",
+     "start": 45.16,
+     "end": 45.48,
+     "emph": false
+    },
+    {
+     "text": "personalizado",
+     "start": 45.48,
+     "end": 46.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 46.2,
+   "end": 46.84,
+   "words": [
+    {
+     "text": "para",
+     "start": 46.2,
+     "end": 46.36,
+     "emph": false
+    },
+    {
+     "text": "organizar",
+     "start": 46.36,
+     "end": 46.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 46.84,
+   "end": 48.12,
+   "words": [
+    {
+     "text": "seus",
+     "start": 46.84,
+     "end": 47.08,
+     "emph": false
+    },
+    {
+     "text": "imóveis,",
+     "start": 47.08,
+     "end": 47.64,
+     "emph": true
+    },
+    {
+     "text": "leads",
+     "start": 47.64,
+     "end": 48.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 48.12,
+   "end": 49.139,
+   "words": [
+    {
+     "text": "e",
+     "start": 48.12,
+     "end": 48.28,
+     "emph": false
+    },
+    {
+     "text": "atendimentos?",
+     "start": 48.28,
+     "end": 48.85,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 49.139,
+   "end": 50.12,
+   "words": [
+    {
+     "text": "Comente",
+     "start": 49.139,
+     "end": 49.64,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 49.64,
+     "end": 50.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 50.12,
+   "end": 50.84,
+   "words": [
+    {
+     "text": "que",
+     "start": 50.12,
+     "end": 50.28,
+     "emph": false
+    },
+    {
+     "text": "eu",
+     "start": 50.28,
+     "end": 50.36,
+     "emph": false
+    },
+    {
+     "text": "te",
+     "start": 50.36,
+     "end": 50.52,
+     "emph": false
+    },
+    {
+     "text": "envio",
+     "start": 50.52,
+     "end": 50.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 50.84,
+   "end": 51.32,
+   "words": [
+    {
+     "text": "os",
+     "start": 50.84,
+     "end": 51.0,
+     "emph": false
+    },
+    {
+     "text": "detalhes",
+     "start": 51.0,
+     "end": 51.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 51.32,
+   "end": 52.38,
+   "words": [
+    {
+     "text": "pelo",
+     "start": 51.32,
+     "end": 51.56,
+     "emph": false
+    },
+    {
+     "text": "Direct.",
+     "start": 51.56,
+     "end": 51.88,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

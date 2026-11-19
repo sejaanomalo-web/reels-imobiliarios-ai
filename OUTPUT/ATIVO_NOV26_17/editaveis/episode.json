@@ -1,0 +1,652 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "lote": "NOV26",
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-NOV26-17",
+ "title": "Cascavel está construindo moradias",
+ "outputDir": "ATIVO_NOV26_17",
+ "deliverables": {
+  "final": "ATIVO_NOV26_17_FINAL.mp4",
+  "narration": "ATIVO_NOV26_17_NARRACAO.wav",
+  "subtitles": "ATIVO_NOV26_17_legendas.srt",
+  "cover": "ATIVO_NOV26_17_capa.png"
+ },
+ "fonte": "ROTEIROS/LOTE_NOV2026/ATIVO_NOV26_17.md (lote ATIVO_30_ROTEIROS_NOV2026.docx, cliente, 17/11/2026)",
+ "apuracao": {
+  "fato": "Prefeitura de Cascavel entregou em 12/11/2026 o Conjunto Habitacional Favo de Mel: 123 casas, região norte (famílias do Jardim Melissa), programa Pró-Moradia; segundo a prefeitura, mais de 4 mil moradias de interesse social estão em obras ou em fase de projeto. O número exato 4.258 do roteiro não foi confirmado (página oficial inacessível nesta sessão) — na tela: '+ DE 4 MIL'",
+  "verificado_em": "2026-11-19",
+  "fontes": [
+   "https://prefa.cascavel.pr.gov.br/cidadao/noticia/dignidade-prefeitura-realiza-sonho-de-familias-e-entrega-123-casas-do-conjunto-habitacional-favo-de-mel (roteiro; host fora da rede liberada nesta sessão)",
+   "https://sot.inf.br/noticia/61717/cascavel-entrega-conjunto-habitacional-favo-de-mel-com-123-moradias-na-regiao-norte",
+   "https://taroba.com.br/noticias/cidade/conjunto-favo-de-mel-novas-moradias-sao-entregues-na-regiao-norte"
+  ],
+  "cuidados": "123 entregues e +4 mil em etapas são categorias diferentes; habitação social não é estoque à venda; sem prometer valorização; escola/ônibus/serviços apenas 'a verificar' (sem afirmar obra prevista); mapa ESTILIZADO e post ILUSTRATIVOS"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de Cascavel que usa notícia de casas populares para anunciar valorização",
+  "motivacao": "ler a cidade com responsabilidade e credibilidade local",
+  "crenca_questionada": "lista de casas = crescimento urbano / valorização garantida",
+  "hipotese": "123 entregues (Favo de Mel) → mais de 4 mil em etapas (categorias diferentes) → rua com elementos 'a verificar' → mapa REGIÃO/INFRAESTRUTURA/ETAPA/FONTE",
+  "funcao": "reportagem local + educação",
+  "promessa": "acompanhar planejamento e fontes oficiais, sem vender habitação social nem prometer valorização",
+  "evidencias": "Prefeitura de Cascavel: entrega do Conjunto Favo de Mel (123 casas, região norte, 12/11/2026); mais de 4 mil moradias em obras ou projeto",
+  "cta": "comentário SISTEMA → Direct; pergunta do roteiro → transição com o texto de tela LEIA A CIDADE, NÃO SÓ O ANÚNCIO"
+ },
+ "cta": {
+  "original_cta": "Qual transformação urbana de Cascavel merece mais atenção? Comente.",
+  "transition_adapted": "Leia a cidade, não só o anúncio.",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Cascavel entregou cento e vinte e três casas populares em novembro.",
+   "caption": "*Cascavel* entregou | *cento e vinte e três* | casas populares | em novembro.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Mas o número mais interessante está no que vem depois.",
+   "caption": "Mas o número | mais interessante | está no que | *vem depois.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "Segundo a prefeitura, há mais de quatro mil moradias em obras ou em fases de projeto e protocolo.",
+   "caption": "Segundo a prefeitura, | há *mais de quatro mil* | moradias | em *obras* | ou em fases | de *projeto* | e *protocolo.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "Isso mostra uma movimentação habitacional importante na cidade, com diferentes etapas e finalidades.",
+   "caption": "Isso mostra | uma *movimentação* | habitacional importante | na cidade, | com diferentes | *etapas e finalidades.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t2",
+   "text": "Agora pensa no corretor que anuncia crescimento urbano só porque viu uma lista de casas.",
+   "caption": "Agora pensa | no corretor | que anuncia | *crescimento urbano* | só porque viu | uma *lista de casas.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t2",
+   "text": "O efeito real depende de infraestrutura, bairros, mobilidade e como os projetos serão implementados.",
+   "caption": "O efeito real | depende de | *infraestrutura,* | *bairros,* | *mobilidade* | e como os projetos | serão *implementados.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t3",
+   "text": "Para quem atua em Cascavel, acompanhar planejamento e fontes oficiais ajuda a entender a cidade.",
+   "caption": "Para quem atua | em Cascavel, | acompanhar | *planejamento* | e *fontes oficiais* | ajuda a entender | a cidade.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t3",
+   "text": "Sem transformar habitação social em estoque disponível para venda, e sem prometer valorização.",
+   "caption": "Sem transformar | *habitação social* | em estoque disponível | para venda, | e sem prometer | *valorização.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "Leia a cidade, não só o anúncio.",
+   "caption": "*Leia a cidade,* | não só o anúncio.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): respeitar pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_casc": {
+   "seg": "s1",
+   "word": "Cascavel",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_123": {
+   "seg": "s1",
+   "word": "cento",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_casas": {
+   "seg": "s1",
+   "word": "casas",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_nov": {
+   "seg": "s1",
+   "word": "novembro",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_mas": {
+   "seg": "s2",
+   "word": "Mas",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_depois": {
+   "seg": "s2",
+   "word": "depois",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_pref": {
+   "seg": "s3",
+   "word": "prefeitura",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_4mil": {
+   "seg": "s3",
+   "word": "quatro",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_obras": {
+   "seg": "s3",
+   "word": "obras",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_proj": {
+   "seg": "s3",
+   "word": "projeto",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_prot": {
+   "seg": "s3",
+   "word": "protocolo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_mov": {
+   "seg": "s4",
+   "word": "movimentação",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_etapas": {
+   "seg": "s4",
+   "word": "etapas",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_fin": {
+   "seg": "s4",
+   "word": "finalidades",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_pensa": {
+   "seg": "s5",
+   "word": "pensa",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_anuncia": {
+   "seg": "s5",
+   "word": "anuncia",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_cresc": {
+   "seg": "s5",
+   "word": "crescimento",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_lista": {
+   "seg": "s5",
+   "word": "lista",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_efeito": {
+   "seg": "s6",
+   "word": "efeito",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_infra": {
+   "seg": "s6",
+   "word": "infraestrutura",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_bairros": {
+   "seg": "s6",
+   "word": "bairros",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_mob": {
+   "seg": "s6",
+   "word": "mobilidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_impl": {
+   "seg": "s6",
+   "word": "implementados",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_atua": {
+   "seg": "s7",
+   "word": "atua",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_plan": {
+   "seg": "s7",
+   "word": "planejamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_fontes": {
+   "seg": "s7",
+   "word": "fontes",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_cidade": {
+   "seg": "s7",
+   "word": "cidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_sem": {
+   "seg": "s8",
+   "word": "Sem",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_estoque": {
+   "seg": "s8",
+   "word": "estoque",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_valor": {
+   "seg": "s8",
+   "word": "valorização",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_leia": {
+   "seg": "s9",
+   "word": "Leia",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_anuncio": {
+   "seg": "s9",
+   "word": "anúncio",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s10",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s10",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s10",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s11",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s11",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s11",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s11",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_casc",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -26
+  },
+  {
+   "cue": "h_123",
+   "offset": 0.05,
+   "sound": "block",
+   "gain": -25
+  },
+  {
+   "cue": "h_casas",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "h_mas",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "h_depois",
+   "offset": 0.05,
+   "sound": "whoosh_up",
+   "gain": -26
+  },
+  {
+   "cue": "a_pref",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -24
+  },
+  {
+   "cue": "a_4mil",
+   "offset": 0.05,
+   "sound": "block",
+   "gain": -25
+  },
+  {
+   "cue": "a_obras",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "a_proj",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 3
+  },
+  {
+   "cue": "a_prot",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 6
+  },
+  {
+   "cue": "a_etapas",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "b_pensa",
+   "offset": -0.3,
+   "sound": "whoosh_up",
+   "gain": -24
+  },
+  {
+   "cue": "b_anuncia",
+   "offset": 0.05,
+   "sound": "notif",
+   "gain": -26
+  },
+  {
+   "cue": "b_lista",
+   "offset": 0.05,
+   "sound": "shuffle",
+   "gain": -27
+  },
+  {
+   "cue": "b_efeito",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -26
+  },
+  {
+   "cue": "b_infra",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -24
+  },
+  {
+   "cue": "b_bairros",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -24,
+   "pitch": 3
+  },
+  {
+   "cue": "b_mob",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -24,
+   "pitch": 6
+  },
+  {
+   "cue": "b_impl",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "c_atua",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -24
+  },
+  {
+   "cue": "c_plan",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "c_fontes",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 3
+  },
+  {
+   "cue": "c_cidade",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 6
+  },
+  {
+   "cue": "c_estoque",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -29
+  },
+  {
+   "cue": "c_valor",
+   "offset": 0.05,
+   "sound": "hollow",
+   "gain": -30
+  },
+  {
+   "cue": "x_leia",
+   "offset": 0.05,
+   "sound": "shimmer",
+   "gain": -27
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — Cascavel"
+   },
+   {
+    "at": "cue:a_pref",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — etapas"
+   },
+   {
+    "at": "cue:b_pensa",
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     53
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Dm — quantidade não basta"
+   },
+   {
+    "at": "cue:c_atua",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — ler a cidade"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}
