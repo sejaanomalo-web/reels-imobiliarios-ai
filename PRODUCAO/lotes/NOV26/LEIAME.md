@@ -25,3 +25,8 @@
   - 2 tomadas por episódio;
   - cota de 10 gerações/dia por chave (`GEMINI_API_KEY`, `GEMINI_API_KEY_2`; escolher com `GEMINI_KEY_VAR`);
   - sem cota: marcar `bloqueado` no estado, avisar o usuário e retomar após ~08:00 UTC.
+
+## Entrega para publicação (pedido do cliente, 19/11/2026)
+- Cada episódio entregue precisa de **vídeo + capa + legenda** (`OUTPUT/ATIVO_NOV26_##/legenda_instagram.txt`, padrão `PROMPTS/GUIA_LEGENDAS_INSTAGRAM_ATIVO.md`: 1ª linha fixa da CTA SISTEMA, sem Markdown, 5 hashtags minúsculas). Conferir com `python3 tools/legenda_check.py ATIVO_NOV26_##`.
+- Depois, montar a pasta de publicação: `python3 tools/publicar_lote.py NOV26 <n>` → `PUBLICACAO/NOV26/REELS_01_AO_10/01/` (grupos de 10: `REELS_11_AO_20`, `REELS_21_AO_30`). Cada pasta: `ATIVO_NOV26_##.mp4`, `ATIVO_NOV26_##_capa.png`, `ATIVO_NOV26_##_legenda.docx` (um parágrafo por linha, sem negrito, para copiar e colar no Instagram) e o mesmo texto em `.txt`.
+- O script só copia arquivos já validados e recusa entrega incompleta. Não renderiza nem gera voz.

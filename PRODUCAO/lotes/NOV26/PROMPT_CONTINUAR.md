@@ -70,6 +70,8 @@ Continue a produção do lote **"30 Reels da ATIVO — novembro 2026"** neste re
 9. **Mixagem × roteiro com Whisper** em janelas de 20 s. Palavra "sumida" na borda da janela é artefato: confira o trecho inteiro.
 10. **Entrega:**
     - `OUTPUT/ATIVO_NOV26_##/relatorio_qa.md` no padrão do 03;
+    - **legenda** `OUTPUT/ATIVO_NOV26_##/legenda_instagram.txt` (leia `PROMPTS/GUIA_LEGENDAS_INSTAGRAM_ATIVO.md` e os 4 exemplos de `PROMPTS/EXEMPLOS_LEGENDAS/`; confira com `python3 tools/legenda_check.py ATIVO_NOV26_##`);
+    - **pasta de publicação**: `python3 tools/publicar_lote.py NOV26 <n>` → `PUBLICACAO/NOV26/REELS_01_AO_10/##/` (vídeo, capa, legenda .docx e .txt);
     - `estado.json` com o episódio `entregue`, vídeo, validação, voz e notas;
     - linha no histórico do guia;
     - commit e push;
