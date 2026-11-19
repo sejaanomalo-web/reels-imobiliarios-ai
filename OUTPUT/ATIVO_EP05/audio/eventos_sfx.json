@@ -1,0 +1,104 @@
+[
+ {
+  "t": 2.83,
+  "sound": "pop",
+  "gain": -26,
+  "cue": "h_juntos"
+ },
+ {
+  "t": 9.2,
+  "sound": "block",
+  "gain": -26,
+  "cue": "h_proposta"
+ },
+ {
+  "t": 11.91,
+  "sound": "thump",
+  "gain": -26,
+  "cue": "h_comb"
+ },
+ {
+  "t": 11.98,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "p_apr"
+ },
+ {
+  "t": 26.16,
+  "sound": "alert",
+  "gain": -30,
+  "cue": "p_conf"
+ },
+ {
+  "t": 26.17,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "m_vez"
+ },
+ {
+  "t": 32.63,
+  "sound": "tick",
+  "gain": -23,
+  "cue": "m_aut"
+ },
+ {
+  "t": 36.22,
+  "sound": "tick",
+  "gain": -23,
+  "cue": "m_resp"
+ },
+ {
+  "t": 36.88,
+  "sound": "tick",
+  "gain": -23,
+  "cue": "m_reg"
+ },
+ {
+  "t": 41.18,
+  "sound": "whoosh_up",
+  "gain": -27,
+  "cue": "e_dur"
+ },
+ {
+  "t": 52.43,
+  "sound": "notif",
+  "gain": -30,
+  "cue": "e_mud"
+ },
+ {
+  "t": 55.98,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "i_forte"
+ },
+ {
+  "t": 67.25,
+  "sound": "chord",
+  "gain": -28,
+  "cue": "i_combinam"
+ },
+ {
+  "t": 73.88,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "cta_sys"
+ },
+ {
+  "t": 77.18,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 78.59,
+  "sound": "typing",
+  "gain": -30,
+  "cue": "cta_word"
+ },
+ {
+  "t": 80.48,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "cta_end"
+ }
+]

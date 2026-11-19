@@ -1,0 +1,36 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.44,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 1.99,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.23,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 8.8,
+    "asr_match": 1.0,
+    "aligned_words": "25/25",
+    "words_per_min": 170,
+    "heard": "Nesse projeto, o corretor acompanha a própria carteira num painel. E o comprador encontra os imóveis no site. Duas experiências cada uma com sua função."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 8.8,
+      "wpm": 170
+    },
+    "final": {
+      "seconds": 8.8,
+      "wpm": 170
+    }
+  }
+]

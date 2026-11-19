@@ -1,0 +1,678 @@
+{
+ "id": "EP-ATIVO05",
+ "title": "Parceria imobiliária não começa com uma promessa de comissão",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "outputDir": "ATIVO_EP05",
+ "deliverables": {
+  "final": "ATIVO_EP05_FINAL.mp4",
+  "narration": "ATIVO_EP05_NARRACAO.wav",
+  "subtitles": "ATIVO_EP05_legendas.srt",
+  "cover": "ATIVO_EP05_capa.png"
+ },
+ "fonte": "ROTEIROS/ATIVO_EP05.md (ATIVO_Roteiro_05.docx, cliente, 14/11/2026)",
+ "diagnostico": {
+  "publico_situacao": "corretores autônomos que dividem captação e comprador; a primeira proposta chega e ninguém lembra o que foi combinado",
+  "motivacao": "fazer parcerias confiáveis sem desgastar o relacionamento profissional",
+  "crenca_questionada": "parceria se resolve combinando a comissão e confiando no colega",
+  "hipotese": "a insegurança em parcerias é familiar; um protocolo simples (autorização, papéis, registro, fonte atualizada) transforma desconfiança em colaboração",
+  "funcao": "C3 apresentação de solução / captura de demanda",
+  "promessa": "um roteiro prático de parceria: processo antes da comissão, autorização, papéis por escrito, informação atualizada e aviso antes de falar com o cliente",
+  "evidencias": "conhecimento prático; documento abstrato não jurídico; interfaces ilustrativas sem funcionalidades reais do produto; sem cláusulas legais",
+  "cta": "comentário SISTEMA → Direct (regra do cliente para Reels, 14/11/2026); a CTA de compartilhamento do roteiro saiu"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "original_cta": "Envie este vídeo para um corretor com quem você gostaria de trabalhar. (tela: CTA de compartilhamento)",
+  "transition_adapted": "Essa clareza fica mais fácil quando o status de cada imóvel e de cada atendimento está registrado.",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026: Reels sempre com CTA de comentário SISTEMA"
+ },
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Dois corretores combinam de trabalhar juntos um imóvel.",
+   "caption": "Dois corretores | combinam de trabalhar | *juntos* | um imóvel.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Um traz o comprador, o outro conhece o proprietário.",
+   "caption": "Um traz | o *comprador,* | o outro conhece | o *proprietário.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "hook",
+   "text": "Parece simples, até chegar a primeira proposta e ninguém lembrar exatamente do que foi combinado.",
+   "caption": "Parece simples, | até chegar | a primeira *proposta* | e ninguém lembrar | exatamente | do que foi *combinado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "problema",
+   "text": "Quem apresenta o imóvel?",
+   "caption": "Quem *apresenta* | o imóvel?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "problema",
+   "text": "Quem conduz a negociação?",
+   "caption": "Quem *conduz* | a negociação?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "problema",
+   "text": "Quem atualiza o proprietário?",
+   "caption": "Quem *atualiza* | o proprietário?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "problema",
+   "text": "Como será tratada a participação de cada profissional?",
+   "caption": "Como será tratada | a *participação* | de cada profissional?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "problema",
+   "text": "Quando essas perguntas ficam para depois, até uma parceria bem-intencionada pode terminar em conflito.",
+   "caption": "Quando essas perguntas | ficam *para depois,* | até uma parceria | bem-intencionada | pode terminar | em *conflito.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "mudanca",
+   "text": "Em vez de começar pela divisão da comissão, comece definindo o processo.",
+   "caption": "Em vez de começar | pela divisão | da *comissão,* | comece definindo | o *processo.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "mudanca",
+   "text": "Confirme a autorização para divulgar ou negociar aquele imóvel.",
+   "caption": "Confirme a *autorização* | para divulgar | ou negociar | aquele imóvel.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "mudanca",
+   "text": "Alinhe as responsabilidades e registre por escrito o que foi acordado, respeitando as regras profissionais aplicáveis.",
+   "caption": "Alinhe as *responsabilidades* | e *registre por escrito* | o que foi acordado, | respeitando as regras | profissionais | aplicáveis.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "execucao",
+   "text": "Durante o atendimento, mantenha uma fonte de informação atualizada: status do imóvel, visitas agendadas, retorno do interessado e próximo movimento.",
+   "caption": "Durante o atendimento, | mantenha uma fonte | de informação *atualizada:* | *status* do imóvel, | *visitas* agendadas, | *retorno* do interessado | e *próximo movimento.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "execucao",
+   "text": "Se surgir uma mudança, os dois precisam saber antes de falar com o cliente.",
+   "caption": "Se surgir | uma *mudança,* | os dois precisam saber | *antes* de falar | com o cliente.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "insight",
+   "text": "Parceria forte não é aquela em que todo mundo promete muito.",
+   "caption": "Parceria forte | não é aquela | em que todo mundo | *promete muito.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s15",
+   "scene": "insight",
+   "text": "É aquela em que cada pessoa sabe o que precisa fazer, o que pode comunicar e como prestar contas.",
+   "caption": "É aquela | em que cada pessoa *sabe* | o que precisa *fazer,* | o que pode *comunicar* | e como *prestar contas.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s16",
+   "scene": "insight",
+   "text": "Colaboração e profissionalismo combinam.",
+   "caption": "*Colaboração* | e *profissionalismo* | combinam.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s17",
+   "scene": "insight",
+   "text": "Essa clareza fica mais fácil quando o status de cada imóvel e de cada atendimento está registrado.",
+   "caption": "Essa *clareza* | fica mais fácil | quando o status | de cada imóvel | e de cada atendimento | está *registrado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s18",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s19",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "problema": 0.3,
+  "mudanca": 0.3,
+  "execucao": 0.3,
+  "insight": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_dois": {
+   "seg": "s1",
+   "word": "corretores",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_juntos": {
+   "seg": "s1",
+   "word": "juntos",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_comp": {
+   "seg": "s2",
+   "word": "comprador",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_prop": {
+   "seg": "s2",
+   "word": "proprietário",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_simples": {
+   "seg": "s3",
+   "word": "simples",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_proposta": {
+   "seg": "s3",
+   "word": "proposta",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_ninguem": {
+   "seg": "s3",
+   "word": "ninguém",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_comb": {
+   "seg": "s3",
+   "word": "combinado",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_apr": {
+   "seg": "s4",
+   "word": "apresenta",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_cond": {
+   "seg": "s5",
+   "word": "conduz",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_atu": {
+   "seg": "s6",
+   "word": "atualiza",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_part": {
+   "seg": "s7",
+   "word": "participação",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_depois": {
+   "seg": "s8",
+   "word": "depois",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_parc": {
+   "seg": "s8",
+   "word": "parceria",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_conf": {
+   "seg": "s8",
+   "word": "conflito",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_vez": {
+   "seg": "s9",
+   "word": "vez",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_com": {
+   "seg": "s9",
+   "word": "comissão",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_proc": {
+   "seg": "s9",
+   "word": "processo",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_aut": {
+   "seg": "s10",
+   "word": "autorização",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_resp": {
+   "seg": "s11",
+   "word": "responsabilidades",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_reg": {
+   "seg": "s11",
+   "word": "registre",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_regras": {
+   "seg": "s11",
+   "word": "regras",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_dur": {
+   "seg": "s12",
+   "word": "Durante",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_fonte": {
+   "seg": "s12",
+   "word": "fonte",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_status": {
+   "seg": "s12",
+   "word": "status",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_vis": {
+   "seg": "s12",
+   "word": "visitas",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_ret": {
+   "seg": "s12",
+   "word": "retorno",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_prox": {
+   "seg": "s12",
+   "word": "próximo",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_mud": {
+   "seg": "s13",
+   "word": "mudança",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_dois": {
+   "seg": "s13",
+   "word": "dois",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_antes": {
+   "seg": "s13",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_cli": {
+   "seg": "s13",
+   "word": "cliente",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_forte": {
+   "seg": "s14",
+   "word": "forte",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_prom": {
+   "seg": "s14",
+   "word": "promete",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_sabe": {
+   "seg": "s15",
+   "word": "sabe",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_fazer": {
+   "seg": "s15",
+   "word": "fazer",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_com": {
+   "seg": "s15",
+   "word": "comunicar",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_contas": {
+   "seg": "s15",
+   "word": "contas",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_colab": {
+   "seg": "s16",
+   "word": "Colaboração",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_combinam": {
+   "seg": "s16",
+   "word": "combinam",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_clar": {
+   "seg": "s17",
+   "word": "clareza",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_reg": {
+   "seg": "s17",
+   "word": "registrado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s18",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s18",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s19",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s19",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s19",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s19",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_juntos",
+   "offset": 0.55,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 2
+  },
+  {
+   "cue": "h_proposta",
+   "offset": 0.6,
+   "sound": "block",
+   "gain": -26
+  },
+  {
+   "cue": "h_comb",
+   "offset": 0.75,
+   "sound": "thump",
+   "gain": -26,
+   "pitch": -3
+  },
+  {
+   "cue": "p_apr",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "p_conf",
+   "offset": 0.6,
+   "sound": "alert",
+   "gain": -30
+  },
+  {
+   "cue": "m_vez",
+   "offset": -0.35,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "m_aut",
+   "offset": 0.75,
+   "sound": "tick",
+   "gain": -23
+  },
+  {
+   "cue": "m_resp",
+   "offset": 0.9,
+   "sound": "tick",
+   "gain": -23,
+   "pitch": 2
+  },
+  {
+   "cue": "m_reg",
+   "offset": 0.6,
+   "sound": "tick",
+   "gain": -23,
+   "pitch": 4
+  },
+  {
+   "cue": "e_dur",
+   "offset": -0.3,
+   "sound": "whoosh_up",
+   "gain": -27,
+   "dur": 0.5
+  },
+  {
+   "cue": "e_mud",
+   "offset": 0.55,
+   "sound": "notif",
+   "gain": -30
+  },
+  {
+   "cue": "i_forte",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "i_combinam",
+   "offset": 0.65,
+   "sound": "chord",
+   "gain": -28
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 94,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     50,
+     53,
+     57
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Dm — parceria"
+   },
+   {
+    "at": "cue:p_apr",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Am — lacunas"
+   },
+   {
+    "at": "cue:m_vez",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — processo"
+   },
+   {
+    "at": "cue:e_dur",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "C — execução"
+   },
+   {
+    "at": "cue:i_forte",
+    "notes": [
+     22,
+     34,
+     50,
+     53,
+     58
+    ],
+    "root": 34,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "Bb — insight"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}

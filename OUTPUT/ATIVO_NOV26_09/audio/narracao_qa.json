@@ -1,0 +1,98 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.08,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.52,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.75,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 5.12,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.14,
+    "palavras_nao_reconhecidas": [
+      "Raio",
+      "FipeZAP"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.36,
+    "palavras_nao_reconhecidas": [
+      "anúncios"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 1.28,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.99,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.84,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.39,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.51,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 4.64,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 2.73,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 50.09,
+    "asr_match": 0.968,
+    "aligned_words": "138/142",
+    "words_per_min": 170,
+    "heard": "Um proprietário pede para anunciar acima do mercado, porque quer ter margem para negociar. O problema é o que acontece antes da proposta. Imagine um apartamento que aparece na busca ao lado de outros semelhantes. O preço maior pode afastar quem está filtrando por orçamento antes mesmo da primeira conversa. A pesquisa Rio X Fip Zap mostrou descontos médios maiores nas transações em que houve negociação. Mas isso não prova que inflar anúncio seja uma boa estratégia. É uma conclusão diferente. Ao captar, mostre comparáveis e combine um plano de preço com o proprietário. Se ele optar por testar um valor, defina quando revisar. Medir interesse é melhor do que esperar no escuro. Na captação leve preço e plano de revisão. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 51.5,
+      "wpm": 165
+    },
+    "pausas_moldadas": {
+      "n": 15,
+      "max_s": 0.46
+    },
+    "pausas_encurtadas_s": 1.41,
+    "final": {
+      "seconds": 50.09,
+      "wpm": 170
+    }
+  }
+]

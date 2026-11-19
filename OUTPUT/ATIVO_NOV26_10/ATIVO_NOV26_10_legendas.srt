@@ -1,0 +1,115 @@
+1
+00:00:00,120 --> 00:00:01,620
+O anúncio de um apartamento
+
+2
+00:00:01,640 --> 00:00:03,330
+ficou mais caro no índice.
+
+3
+00:00:03,400 --> 00:00:05,140
+Mas na negociação o comprador
+
+4
+00:00:05,160 --> 00:00:06,330
+conseguiu desconto.
+
+5
+00:00:06,440 --> 00:00:08,580
+Os dois fatos podem ser verdadeiros.
+
+6
+00:00:08,600 --> 00:00:10,660
+O FipeZAP de venda acompanha
+
+7
+00:00:10,680 --> 00:00:12,420
+preços anunciados em portais.
+
+8
+00:00:12,440 --> 00:00:14,420
+Já uma pesquisa sobre transações
+
+9
+00:00:14,440 --> 00:00:15,940
+identifica o que os entrevistados
+
+10
+00:00:15,960 --> 00:00:17,040
+relatam ter pago.
+
+11
+00:00:17,240 --> 00:00:20,050
+São bases, métodos e perguntas diferentes.
+
+12
+00:00:20,120 --> 00:00:21,380
+Se o corretor usa só
+
+13
+00:00:21,400 --> 00:00:23,220
+a valorização anunciada para dizer
+
+14
+00:00:23,240 --> 00:00:25,380
+ao proprietário quanto o imóvel vale,
+
+15
+00:00:25,400 --> 00:00:27,460
+pode ignorar estado de conservação,
+
+16
+00:00:27,480 --> 00:00:29,780
+liquidez e negociações semelhantes
+
+17
+00:00:29,800 --> 00:00:30,680
+naquela região.
+
+18
+00:00:30,840 --> 00:00:32,990
+A notícia ajuda a entender o cenário.
+
+19
+00:00:33,080 --> 00:00:35,780
+A avaliação precisa conectar dados locais
+
+20
+00:00:35,800 --> 00:00:37,650
+e características verificadas.
+
+21
+00:00:37,720 --> 00:00:39,940
+Para o cliente, transparência no método
+
+22
+00:00:39,960 --> 00:00:41,880
+vale mais do que uma estatística bonita.
+
+23
+00:00:41,960 --> 00:00:44,050
+Preço anunciado não é preço de venda:
+
+24
+00:00:44,200 --> 00:00:45,850
+dado é ponto de partida.
+
+25
+00:00:45,960 --> 00:00:47,940
+Quer conhecer um sistema personalizado
+
+26
+00:00:47,960 --> 00:00:49,780
+para organizar seus imóveis, leads
+
+27
+00:00:49,800 --> 00:00:50,660
+e atendimentos?
+
+28
+00:00:50,680 --> 00:00:52,660
+Comente SISTEMA que eu te envio
+
+29
+00:00:52,680 --> 00:00:53,880
+os detalhes pelo Direct.

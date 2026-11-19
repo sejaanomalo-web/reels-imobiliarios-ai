@@ -1,0 +1,158 @@
+[
+ {
+  "t": 1.66,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "h_apt"
+ },
+ {
+  "t": 6.22,
+  "sound": "shimmer",
+  "gain": -30,
+  "cue": "h_prox"
+ },
+ {
+  "t": 7.18,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "e_na"
+ },
+ {
+  "t": 9.86,
+  "sound": "shuffle",
+  "gain": -30,
+  "cue": "e_aval"
+ },
+ {
+  "t": 11.32,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "e_dez"
+ },
+ {
+  "t": 12.68,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "e_sig"
+ },
+ {
+  "t": 13.32,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "e_doc"
+ },
+ {
+  "t": 14.12,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "e_tax"
+ },
+ {
+  "t": 14.76,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "e_praz"
+ },
+ {
+  "t": 17.68,
+  "sound": "fade_down",
+  "gain": -30,
+  "cue": "e_nao"
+ },
+ {
+  "t": 20.54,
+  "sound": "thump",
+  "gain": -29,
+  "cue": "e_com"
+ },
+ {
+  "t": 20.86,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "c_no"
+ },
+ {
+  "t": 25.02,
+  "sound": "tick",
+  "gain": -26,
+  "cue": "c_duv"
+ },
+ {
+  "t": 26.86,
+  "sound": "notif",
+  "gain": -30,
+  "cue": "c_fin"
+ },
+ {
+  "t": 29.98,
+  "sound": "click",
+  "gain": -26,
+  "cue": "c_verif"
+ },
+ {
+  "t": 34.06,
+  "sound": "click",
+  "gain": -26,
+  "cue": "c_opc"
+ },
+ {
+  "t": 36.62,
+  "sound": "click",
+  "gain": -26,
+  "cue": "c_vis"
+ },
+ {
+  "t": 37.18,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "l_dif"
+ },
+ {
+  "t": 41.42,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "l_certa"
+ },
+ {
+  "t": 45.18,
+  "sound": "tick",
+  "gain": -26,
+  "cue": "l_seq"
+ },
+ {
+  "t": 48.14,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "f_e"
+ },
+ {
+  "t": 52.64,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "f_org"
+ },
+ {
+  "t": 54.36,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "cta_sys"
+ },
+ {
+  "t": 57.609,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 58.99,
+  "sound": "typing",
+  "gain": -30,
+  "cue": "cta_word"
+ },
+ {
+  "t": 61.0,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "cta_end"
+ }
+]

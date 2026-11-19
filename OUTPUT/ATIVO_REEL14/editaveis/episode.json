@@ -1,0 +1,708 @@
+{
+ "id": "EP-ATIVO-REEL14",
+ "title": "Saber tudo sobre o imóvel pode não ser suficiente",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "outputDir": "ATIVO_REEL14",
+ "deliverables": {
+  "final": "ATIVO_REEL14_FINAL.mp4",
+  "narration": "ATIVO_REEL14_NARRACAO.wav",
+  "subtitles": "ATIVO_REEL14_legendas.srt",
+  "cover": "ATIVO_REEL14_capa.png"
+ },
+ "fonte": "ROTEIROS/ATIVO_REEL14.md (ATIVO_Reel_14_ESCUTA_ANTES_DA_FICHA.md, cliente, 17/11/2026)",
+ "diagnostico": {
+  "publico_situacao": "corretor que apresenta o imóvel listando a ficha técnica",
+  "motivacao": "atendimento mais relevante, menos informação sem utilidade",
+  "crenca_questionada": "saber tudo do imóvel basta",
+  "hipotese": "duas abordagens ilustrativas: ficha primeiro × pergunta primeiro",
+  "funcao": "C2 paradoxo",
+  "promessa": "pergunta 'o que mudou na rotina?' antes da ficha",
+  "evidencias": "CENA ILUSTRATIVA; casal sem rosto/identidade; sem afirmar venda; ficha técnica não é descartada",
+  "cta": "comentário SISTEMA → Direct; 'Compartilha' → transição curta"
+ },
+ "cta": {
+  "original_cta": "Na próxima visita, testa começar por essa pergunta e observa como a conversa muda. Compartilha com sua equipe.",
+  "original_cta_kept": "Na próxima visita, testa começar por essa pergunta e observa como a conversa muda.",
+  "transition_adapted": "E registra o que cada família contou.",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Um profissional sabia cada detalhe do apartamento.",
+   "caption": "Um profissional | sabia *cada detalhe* | do apartamento.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "O outro fez uma pergunta.",
+   "caption": "O outro | fez uma *pergunta.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "hook",
+   "text": "A segunda abordagem mudou toda a conversa.",
+   "caption": "A segunda abordagem | *mudou* | toda a conversa.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "fic",
+   "text": "Imagina um casal procurando dois quartos.",
+   "caption": "Imagina um *casal* | procurando | *dois quartos.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "fic",
+   "text": "No primeiro atendimento, o profissional começa a listar metragem, porcelanato, salão de festas e academia.",
+   "caption": "No primeiro atendimento, | o profissional | começa a listar | *metragem,* | *porcelanato,* | *salão de festas* | e *academia.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "fic",
+   "text": "Está tudo correto.",
+   "caption": "Está tudo *correto.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "fic",
+   "text": "Mas ainda não sabe por que aquela família está procurando outro lugar.",
+   "caption": "Mas ainda *não sabe* | por que | aquela família | está procurando | *outro lugar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "perg",
+   "text": "No segundo, a pergunta vem antes: o que mudou na rotina de vocês?",
+   "caption": "No segundo, | a pergunta | vem *antes:* | o que *mudou* | na rotina de vocês?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "perg",
+   "text": "A resposta pode ser trabalho remoto, chegada de um filho ou necessidade de ficar mais perto da família.",
+   "caption": "A resposta pode ser | *trabalho remoto,* | *chegada de um filho* | ou necessidade | de ficar | *mais perto* | da família.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "perg",
+   "text": "Só agora faz sentido destacar o que realmente atende a esse momento.",
+   "caption": "Só agora | faz sentido | *destacar* | o que realmente atende | a esse *momento.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "pri",
+   "text": "Conhecer o imóvel é obrigatório.",
+   "caption": "Conhecer o imóvel | é *obrigatório.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "pri",
+   "text": "Mas saber selecionar quais informações importam para aquele comprador é o que transforma uma apresentação em orientação.",
+   "caption": "Mas saber *selecionar* | quais informações | importam | para aquele comprador | é o que transforma | uma *apresentação* | em *orientação.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "pri",
+   "text": "Não substitua a ficha técnica; use a ficha depois de entender a pergunta.",
+   "caption": "Não substitua | a *ficha técnica;* | use a ficha | *depois* | de entender | a pergunta.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "fim",
+   "text": "Na próxima visita, testa começar por essa pergunta e observa como a conversa muda.",
+   "caption": "Na próxima visita, | testa começar | por essa *pergunta* | e observa | como a conversa *muda.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s15",
+   "scene": "fim",
+   "text": "E registra o que cada família contou.",
+   "caption": "E *registra* | o que cada família | *contou.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s16",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s17",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "fic": 0.3,
+  "perg": 0.45,
+  "pri": 0.35,
+  "fim": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_um": {
+   "seg": "s1",
+   "word": "Um",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_det": {
+   "seg": "s1",
+   "word": "detalhe",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_outro": {
+   "seg": "s2",
+   "word": "outro",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_perg": {
+   "seg": "s2",
+   "word": "pergunta",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_seg": {
+   "seg": "s3",
+   "word": "segunda",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_mudou": {
+   "seg": "s3",
+   "word": "mudou",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_imag": {
+   "seg": "s4",
+   "word": "Imagina",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_casal": {
+   "seg": "s4",
+   "word": "casal",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_dois": {
+   "seg": "s4",
+   "word": "dois",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_no": {
+   "seg": "s5",
+   "word": "No",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_listar": {
+   "seg": "s5",
+   "word": "listar",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_metr": {
+   "seg": "s5",
+   "word": "metragem",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_porc": {
+   "seg": "s5",
+   "word": "porcelanato",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_salao": {
+   "seg": "s5",
+   "word": "salão",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_acad": {
+   "seg": "s5",
+   "word": "academia",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_corr": {
+   "seg": "s6",
+   "word": "correto",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_mas": {
+   "seg": "s7",
+   "word": "Mas",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_nao": {
+   "seg": "s7",
+   "word": "não",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_lugar": {
+   "seg": "s7",
+   "word": "lugar",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_no": {
+   "seg": "s8",
+   "word": "No",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_perg": {
+   "seg": "s8",
+   "word": "pergunta",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_antes": {
+   "seg": "s8",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_mudou": {
+   "seg": "s8",
+   "word": "mudou",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_resp": {
+   "seg": "s9",
+   "word": "resposta",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_trab": {
+   "seg": "s9",
+   "word": "trabalho",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_filho": {
+   "seg": "s9",
+   "word": "chegada",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_perto": {
+   "seg": "s9",
+   "word": "perto",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_so": {
+   "seg": "s10",
+   "word": "Só",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_dest": {
+   "seg": "s10",
+   "word": "destacar",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_mom": {
+   "seg": "s10",
+   "word": "momento",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_conh": {
+   "seg": "s11",
+   "word": "Conhecer",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_obr": {
+   "seg": "s11",
+   "word": "obrigatório",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_sel": {
+   "seg": "s12",
+   "word": "selecionar",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_apres": {
+   "seg": "s12",
+   "word": "apresentação",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_orient": {
+   "seg": "s12",
+   "word": "orientação",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_nao": {
+   "seg": "s13",
+   "word": "Não",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_ficha": {
+   "seg": "s13",
+   "word": "ficha",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_depois": {
+   "seg": "s13",
+   "word": "depois",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_na": {
+   "seg": "s14",
+   "word": "Na",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_perg": {
+   "seg": "s14",
+   "word": "pergunta",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_muda": {
+   "seg": "s14",
+   "word": "muda",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_e": {
+   "seg": "s15",
+   "word": "E",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_reg": {
+   "seg": "s15",
+   "word": "registra",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_cont": {
+   "seg": "s15",
+   "word": "contou",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s16",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s16",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s16",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s17",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s17",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s17",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s17",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_det",
+   "offset": 0.0,
+   "sound": "shuffle",
+   "gain": -31
+  },
+  {
+   "cue": "h_perg",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "h_mudou",
+   "offset": 0.1,
+   "sound": "shimmer",
+   "gain": -30
+  },
+  {
+   "cue": "f_imag",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "f_metr",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27
+  },
+  {
+   "cue": "f_porc",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 2
+  },
+  {
+   "cue": "f_salao",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 4
+  },
+  {
+   "cue": "f_acad",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "f_mas",
+   "offset": 0.1,
+   "sound": "block",
+   "gain": -29
+  },
+  {
+   "cue": "q_no",
+   "offset": -0.3,
+   "sound": "fade_down",
+   "gain": -31,
+   "dur": 0.8
+  },
+  {
+   "cue": "q_mudou",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "q_trab",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "q_filho",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "q_perto",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "p_conh",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "p_orient",
+   "offset": 0.1,
+   "sound": "thump",
+   "gain": -29
+  },
+  {
+   "cue": "p_depois",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 4
+  },
+  {
+   "cue": "x_na",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "x_reg",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 96,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "C — dois profissionais"
+   },
+   {
+    "at": "cue:f_imag",
+    "notes": [
+     28,
+     40,
+     47,
+     52,
+     55
+    ],
+    "root": 40,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Em — a ficha"
+   },
+   {
+    "at": "cue:q_no",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "F — a pergunta"
+   },
+   {
+    "at": "cue:p_conh",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — o princípio"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}

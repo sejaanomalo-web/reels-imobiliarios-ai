@@ -1,0 +1,796 @@
+{
+ "id": "EP-ATIVO07",
+ "title": "Um lead de anúncio ainda não conhece você",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "outputDir": "ATIVO_EP07",
+ "deliverables": {
+  "final": "ATIVO_EP07_FINAL.mp4",
+  "narration": "ATIVO_EP07_NARRACAO.wav",
+  "subtitles": "ATIVO_EP07_legendas.srt",
+  "cover": "ATIVO_EP07_capa.png"
+ },
+ "fonte": "ROTEIROS/ATIVO_EP07.md (ATIVO_Roteiro_07.docx, cliente, 16/11/2026)",
+ "diagnostico": {
+  "publico_situacao": "corretor que recebe contatos de tráfego pago e portais e responde todos do mesmo jeito",
+  "motivacao": "ganhar credibilidade no primeiro atendimento sem virar interrogatório",
+  "crenca_questionada": "lead de anúncio = lead de indicação; mandar tudo de uma vez é atender bem",
+  "hipotese": "distinguir confiança prévia de interesse por um anúncio melhora a primeira resposta",
+  "funcao": "C3 apresentação de solução / captura de demanda",
+  "promessa": "uma primeira resposta em 3 passos (reconhece o pedido, entrega um dado, oferece um próximo passo) e como avançar uma questão por vez",
+  "evidencias": "conversa fictícia e imóvel ilustrativo (sem endereço nem preço); a porcentagem sem fonte da referência não é reproduzida",
+  "cta": "comentário SISTEMA → Direct (regra 14/11/2026); 'Salve este vídeo' virou transição"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "original_cta": "Salve este vídeo para revisar antes de atender seu próximo lead de anúncio. (tela: SALVE ESTE REEL)",
+  "transition_adapted": "Revise estes passos antes de atender seu próximo lead de anúncio.",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Quando um comprador chega por indicação, alguém já contou alguma coisa sobre você.",
+   "caption": "Quando um comprador | chega por *indicação,* | alguém já contou | alguma coisa | sobre *você.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Quando ele chega por um anúncio, talvez tudo o que conheça seja uma foto e um preço.",
+   "caption": "Quando ele chega | por um *anúncio,* | talvez tudo | o que conheça | seja uma *foto* | e um *preço.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "hook",
+   "text": "Tratar os dois contatos do mesmo jeito pode ser um erro.",
+   "caption": "Tratar os dois | contatos | do *mesmo jeito* | pode ser um *erro.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "resposta",
+   "text": "Imagine que alguém pede informações de um apartamento.",
+   "caption": "Imagine que alguém | pede *informações* | de um apartamento.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "resposta",
+   "text": "Você responde com cinco mensagens prontas, um PDF enorme e um convite para visitar antes de perguntar o que chamou atenção.",
+   "caption": "Você responde | com *cinco mensagens* | prontas, | um *PDF enorme* | e um *convite* | para visitar | antes de perguntar | o que chamou atenção.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "resposta",
+   "text": "A pessoa ainda está tentando entender se aquele imóvel faz sentido.",
+   "caption": "A pessoa ainda | está tentando *entender* | se aquele imóvel | faz *sentido.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "ponte",
+   "text": "Uma alternativa é começar conectando o pedido à resposta.",
+   "caption": "Uma alternativa | é começar | *conectando* | o pedido | à *resposta.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "ponte",
+   "text": "Algo como: “Vi que você perguntou sobre o apartamento da região central.",
+   "caption": "Algo como: | “Vi que você *perguntou* | sobre o apartamento | da região central.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "ponte",
+   "text": "Ele tem dois quartos e uma vaga.",
+   "caption": "Ele tem *dois quartos* | e uma *vaga.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "ponte",
+   "text": "Você quer primeiro entender o valor e as condições ou comparar com outras opções?”",
+   "caption": "Você quer primeiro | entender o *valor* | e as condições | ou *comparar* | com outras opções?”",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "ponte",
+   "text": "Use apenas dados confirmados do imóvel anunciado.",
+   "caption": "Use apenas | dados *confirmados* | do imóvel anunciado.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "confianca",
+   "text": "Se o interessado responder, avance uma questão por vez.",
+   "caption": "Se o interessado | responder, | avance | *uma questão* | por vez.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "confianca",
+   "text": "Se ele pedir documentação, explique o que você pode verificar.",
+   "caption": "Se ele pedir | *documentação,* | explique o que | você pode *verificar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "confianca",
+   "text": "Se quiser visitar, combine horários.",
+   "caption": "Se quiser *visitar,* | combine horários.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s15",
+   "scene": "confianca",
+   "text": "Se estiver só pesquisando, respeite o momento.",
+   "caption": "Se estiver | só *pesquisando,* | respeite | o *momento.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s16",
+   "scene": "confianca",
+   "text": "O objetivo é transformar um clique em uma conversa compreensível.",
+   "caption": "O objetivo | é transformar | um *clique* | em uma *conversa* | compreensível.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s17",
+   "scene": "insight",
+   "text": "O primeiro contato não precisa provar que você é o melhor corretor da cidade.",
+   "caption": "O primeiro contato | não precisa provar | que você é | o *melhor corretor* | da cidade.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s18",
+   "scene": "insight",
+   "text": "Precisa mostrar que você ouviu a pergunta, sabe responder e não vai pressionar a pessoa sem necessidade.",
+   "caption": "Precisa mostrar | que você *ouviu* | a pergunta, | sabe *responder* | e não vai | *pressionar* | a pessoa | sem necessidade.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s19",
+   "scene": "insight",
+   "text": "Revise estes passos antes de atender seu próximo lead de anúncio.",
+   "caption": "Revise estes passos | antes de atender | seu próximo | *lead de anúncio.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s20",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s21",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "resposta": 0.3,
+  "ponte": 0.3,
+  "confianca": 0.3,
+  "insight": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [
+  "s8",
+  "s9",
+  "s10"
+ ],
+ "cues": {
+  "h_ind": {
+   "seg": "s1",
+   "word": "indicação",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_cont": {
+   "seg": "s1",
+   "word": "contou",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_voce": {
+   "seg": "s1",
+   "word": "você",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_anun": {
+   "seg": "s2",
+   "word": "anúncio",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_foto": {
+   "seg": "s2",
+   "word": "foto",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_preco": {
+   "seg": "s2",
+   "word": "preço",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_trat": {
+   "seg": "s3",
+   "word": "Tratar",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_mesmo": {
+   "seg": "s3",
+   "word": "mesmo",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_erro": {
+   "seg": "s3",
+   "word": "erro",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_imag": {
+   "seg": "s4",
+   "word": "Imagine",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_info": {
+   "seg": "s4",
+   "word": "informações",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_resp": {
+   "seg": "s5",
+   "word": "responde",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_cinco": {
+   "seg": "s5",
+   "word": "cinco",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_pdf": {
+   "seg": "s5",
+   "word": "PDF",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_conv": {
+   "seg": "s5",
+   "word": "convite",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_antes": {
+   "seg": "s5",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_pessoa": {
+   "seg": "s6",
+   "word": "pessoa",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_sent": {
+   "seg": "s6",
+   "word": "sentido",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_alt": {
+   "seg": "s7",
+   "word": "alternativa",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_conec": {
+   "seg": "s7",
+   "word": "conectando",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_algo": {
+   "seg": "s8",
+   "word": "Algo",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_vi": {
+   "seg": "s8",
+   "word": "Vi",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_perg": {
+   "seg": "s8",
+   "word": "perguntou",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_ele": {
+   "seg": "s9",
+   "word": "Ele",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_quartos": {
+   "seg": "s9",
+   "word": "quartos",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_quer": {
+   "seg": "s10",
+   "word": "quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_valor": {
+   "seg": "s10",
+   "word": "valor",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_comp": {
+   "seg": "s10",
+   "word": "comparar",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_use": {
+   "seg": "s11",
+   "word": "Use",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_conf": {
+   "seg": "s11",
+   "word": "confirmados",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_se": {
+   "seg": "s12",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_uma": {
+   "seg": "s12",
+   "word": "uma",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_doc": {
+   "seg": "s13",
+   "word": "documentação",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_verif": {
+   "seg": "s13",
+   "word": "verificar",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_vis": {
+   "seg": "s14",
+   "word": "visitar",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_hor": {
+   "seg": "s14",
+   "word": "horários",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_pesq": {
+   "seg": "s15",
+   "word": "pesquisando",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_mom": {
+   "seg": "s15",
+   "word": "momento",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_obj": {
+   "seg": "s16",
+   "word": "objetivo",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_clique": {
+   "seg": "s16",
+   "word": "clique",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_convers": {
+   "seg": "s16",
+   "word": "conversa",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_prim": {
+   "seg": "s17",
+   "word": "primeiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_melhor": {
+   "seg": "s17",
+   "word": "melhor",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_ouviu": {
+   "seg": "s18",
+   "word": "ouviu",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_resp": {
+   "seg": "s18",
+   "word": "responder",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_press": {
+   "seg": "s18",
+   "word": "pressionar",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_rev": {
+   "seg": "s19",
+   "word": "Revise",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_lead": {
+   "seg": "s19",
+   "word": "lead",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s20",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s20",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s21",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s21",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s21",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s21",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {
+  "canned": {
+   "type": "between",
+   "fromCue": "r_cinco",
+   "fromOffset": 0.4,
+   "toCue": "r_pdf",
+   "toOffset": 0.2,
+   "count": 5
+  }
+ },
+ "sfx": [
+  {
+   "cue": "h_ind",
+   "offset": 0.6,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 2
+  },
+  {
+   "cue": "h_anun",
+   "offset": 0.5,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 5
+  },
+  {
+   "cue": "h_erro",
+   "offset": 0.35,
+   "sound": "thump",
+   "gain": -26,
+   "pitch": -3
+  },
+  {
+   "cue": "r_imag",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "series": "canned",
+   "sound": "notif",
+   "gain": -33,
+   "gainSlope": 0.4
+  },
+  {
+   "cue": "r_pdf",
+   "offset": 0.4,
+   "sound": "block",
+   "gain": -27
+  },
+  {
+   "cue": "r_sent",
+   "offset": 0.5,
+   "sound": "fade_down",
+   "gain": -30,
+   "dur": 1.0
+  },
+  {
+   "cue": "b_alt",
+   "offset": -0.3,
+   "sound": "whoosh_up",
+   "gain": -27,
+   "dur": 0.5
+  },
+  {
+   "cue": "b_perg",
+   "offset": 0.5,
+   "sound": "tick",
+   "gain": -24
+  },
+  {
+   "cue": "b_quartos",
+   "offset": 0.55,
+   "sound": "tick",
+   "gain": -24,
+   "pitch": 3
+  },
+  {
+   "cue": "b_comp",
+   "offset": 0.6,
+   "sound": "tick",
+   "gain": -24,
+   "pitch": 6
+  },
+  {
+   "cue": "b_conf",
+   "offset": 0.7,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "f_se",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "f_doc",
+   "offset": 0.8,
+   "sound": "click",
+   "gain": -25
+  },
+  {
+   "cue": "f_vis",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -25,
+   "pitch": 2
+  },
+  {
+   "cue": "f_pesq",
+   "offset": 0.8,
+   "sound": "click",
+   "gain": -25,
+   "pitch": 4
+  },
+  {
+   "cue": "f_convers",
+   "offset": 0.6,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "i_prim",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "i_ouviu",
+   "offset": 0.45,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "i_resp",
+   "offset": 0.6,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "i_press",
+   "offset": 0.75,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 94,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "F — indicação × anúncio"
+   },
+   {
+    "at": "cue:r_imag",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Am — resposta que não ajuda"
+   },
+   {
+    "at": "cue:b_alt",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "C — a ponte"
+   },
+   {
+    "at": "cue:f_se",
+    "notes": [
+     26,
+     38,
+     50,
+     53,
+     57
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "Dm — confiança"
+   },
+   {
+    "at": "cue:i_prim",
+    "notes": [
+     22,
+     34,
+     50,
+     53,
+     58
+    ],
+    "root": 34,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "Bb — insight"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}

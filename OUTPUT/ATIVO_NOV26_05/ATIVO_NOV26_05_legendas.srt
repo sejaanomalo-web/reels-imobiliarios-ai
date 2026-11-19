@@ -1,0 +1,111 @@
+1
+00:00:00,120 --> 00:00:01,140
+Um cliente mandou:
+
+2
+00:00:01,160 --> 00:00:02,900
+“Meu financiamento foi aprovado!*”
+
+3
+00:00:02,920 --> 00:00:04,660
+O corretor já comemorou a venda.
+
+4
+00:00:04,680 --> 00:00:06,260
+Só que faltava quase tudo.
+
+5
+00:00:06,280 --> 00:00:07,700
+Numa situação hipotética,
+
+6
+00:00:07,720 --> 00:00:09,620
+a análise inicial parece positiva.
+
+7
+00:00:09,640 --> 00:00:11,700
+O comprador escolhe o imóvel e acha que
+
+8
+00:00:11,720 --> 00:00:13,700
+a próxima etapa é receber as chaves.
+
+9
+00:00:13,720 --> 00:00:16,160
+Mas ainda podem existir avaliação do bem,
+
+10
+00:00:16,200 --> 00:00:18,100
+conferência de documentos e condições
+
+11
+00:00:18,120 --> 00:00:18,740
+a cumprir.
+
+12
+00:00:18,760 --> 00:00:20,500
+Se o corretor fala “está tudo certo*”
+
+13
+00:00:20,520 --> 00:00:22,420
+antes da hora, cria uma expectativa
+
+14
+00:00:22,440 --> 00:00:23,380
+que não controla.
+
+15
+00:00:23,400 --> 00:00:24,580
+Quando aparece uma pendência,
+
+16
+00:00:24,600 --> 00:00:26,500
+a confiança no atendimento sofre.
+
+17
+00:00:26,520 --> 00:00:28,500
+Uma orientação melhor é dizer exatamente
+
+18
+00:00:28,520 --> 00:00:30,100
+em que fase a operação está,
+
+19
+00:00:30,120 --> 00:00:31,860
+quais verificações ainda faltam
+
+20
+00:00:31,880 --> 00:00:33,540
+e quando será possível confirmar
+
+21
+00:00:33,560 --> 00:00:34,420
+o próximo passo.
+
+22
+00:00:34,440 --> 00:00:36,610
+Aprovação inicial não é fechamento:
+
+23
+00:00:36,680 --> 00:00:37,940
+explique o próximo passo.
+
+24
+00:00:37,960 --> 00:00:39,860
+Quer conhecer um sistema personalizado
+
+25
+00:00:39,880 --> 00:00:41,780
+para organizar seus imóveis, leads
+
+26
+00:00:41,800 --> 00:00:42,698
+e atendimentos?
+
+27
+00:00:42,718 --> 00:00:44,340
+Comente SISTEMA que eu te envio
+
+28
+00:00:44,360 --> 00:00:45,841
+os detalhes pelo Direct.

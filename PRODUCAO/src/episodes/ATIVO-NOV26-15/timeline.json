@@ -1,0 +1,1378 @@
+{
+ "id": "ATIVO-NOV26-15",
+ "title": "FGTS e imóveis usados",
+ "fps": 30,
+ "duration": 53.53333333333333,
+ "durationInFrames": 1606,
+ "narrationEnd": 51.317,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 7.635
+  },
+  {
+   "id": "t1",
+   "start": 7.635,
+   "end": 17.82
+  },
+  {
+   "id": "t2",
+   "start": 17.82,
+   "end": 28.38
+  },
+  {
+   "id": "t3",
+   "start": 28.38,
+   "end": 43.425
+  },
+  {
+   "id": "cta",
+   "start": 43.425,
+   "end": 53.533
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Imóvel usado pode ser financiado com recursos do FGTS?",
+   "start": 0.2,
+   "end": 3.77
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Antes de responder, precisa saber de qual operação o cliente está falando.",
+   "start": 4.04,
+   "end": 7.47
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "Uma atualização do orçamento habitacional reacendeu o tema dos imóveis usados.",
+   "start": 7.8,
+   "end": 11.89
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "Só que limite de recursos, regras do programa e condições do comprador são três coisas diferentes.",
+   "start": 12.12,
+   "end": 17.68
+  },
+  {
+   "id": "s5",
+   "scene": "t2",
+   "text": "O cliente pode ter saldo de FGTS e ainda precisar cumprir requisitos para utilizá-lo.",
+   "start": 17.96,
+   "end": 22.76
+  },
+  {
+   "id": "s6",
+   "scene": "t2",
+   "text": "Também há limites de valor, modalidade de financiamento e situação do imóvel que precisam ser conferidos.",
+   "start": 22.76,
+   "end": 28.24
+  },
+  {
+   "id": "s7",
+   "scene": "t3",
+   "text": "O melhor conteúdo não é uma promessa de que todo usado agora pode entrar.",
+   "start": 28.52,
+   "end": 32.37
+  },
+  {
+   "id": "s8",
+   "scene": "t3",
+   "text": "É um roteiro de verificação: banco, regras atualizadas, enquadramento e documentação.",
+   "start": 32.6,
+   "end": 37.98
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "Assim você orienta sem criar expectativa falsa.",
+   "start": 38.2,
+   "end": 40.77
+  },
+  {
+   "id": "s10",
+   "scene": "t3",
+   "text": "Na revenda, verifique antes de anunciar.",
+   "start": 41.08,
+   "end": 43.29
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "start": 43.56,
+   "end": 48.09
+  },
+  {
+   "id": "s12",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "start": 48.339,
+   "end": 50.89
+  }
+ ],
+ "cues": {
+  "h_usado": 0.84,
+  "h_fgts": 3.08,
+  "h_antes": 4.04,
+  "h_oper": 6.2,
+  "h_cli": 6.76,
+  "a_atual": 8.12,
+  "a_orc": 8.84,
+  "a_usados": 11.56,
+  "a_lim": 12.6,
+  "a_regras": 13.88,
+  "a_cond": 15.08,
+  "a_tres": 16.68,
+  "b_saldo": 18.92,
+  "b_req": 21.4,
+  "b_util": 22.206,
+  "b_limv": 23.24,
+  "b_mod": 24.2,
+  "b_sit": 25.88,
+  "b_conf": 27.72,
+  "c_melhor": 28.68,
+  "c_prom": 30.04,
+  "c_todo": 30.84,
+  "c_rot": 32.92,
+  "c_banco": 34.36,
+  "c_regras": 34.92,
+  "c_enq": 36.12,
+  "c_doc": 37.32,
+  "c_exp": 39.96,
+  "x_rev": 41.32,
+  "x_verif": 41.88,
+  "cta_quer": 43.56,
+  "cta_sys": 44.52,
+  "cta_tiles": 46.36,
+  "cta_comment": 48.339,
+  "cta_word": 48.84,
+  "cta_direct": 50.52,
+  "cta_end": 50.89
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 1.32,
+   "words": [
+    {
+     "text": "Imóvel",
+     "start": 0.2,
+     "end": 0.84,
+     "emph": false
+    },
+    {
+     "text": "usado",
+     "start": 0.84,
+     "end": 1.19,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.32,
+   "end": 2.36,
+   "words": [
+    {
+     "text": "pode",
+     "start": 1.32,
+     "end": 1.64,
+     "emph": false
+    },
+    {
+     "text": "ser",
+     "start": 1.64,
+     "end": 1.8,
+     "emph": false
+    },
+    {
+     "text": "financiado",
+     "start": 1.8,
+     "end": 2.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.36,
+   "end": 2.92,
+   "words": [
+    {
+     "text": "com",
+     "start": 2.36,
+     "end": 2.52,
+     "emph": false
+    },
+    {
+     "text": "recursos",
+     "start": 2.52,
+     "end": 2.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.92,
+   "end": 4.04,
+   "words": [
+    {
+     "text": "do",
+     "start": 2.92,
+     "end": 3.08,
+     "emph": false
+    },
+    {
+     "text": "FGTS?",
+     "start": 3.08,
+     "end": 3.77,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.04,
+   "end": 5.08,
+   "words": [
+    {
+     "text": "Antes",
+     "start": 4.04,
+     "end": 4.28,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 4.28,
+     "end": 4.44,
+     "emph": false
+    },
+    {
+     "text": "responder,",
+     "start": 4.44,
+     "end": 4.94,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.08,
+   "end": 5.8,
+   "words": [
+    {
+     "text": "precisa",
+     "start": 5.08,
+     "end": 5.48,
+     "emph": false
+    },
+    {
+     "text": "saber",
+     "start": 5.48,
+     "end": 5.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.8,
+   "end": 6.68,
+   "words": [
+    {
+     "text": "de",
+     "start": 5.8,
+     "end": 5.96,
+     "emph": false
+    },
+    {
+     "text": "qual",
+     "start": 5.96,
+     "end": 6.2,
+     "emph": true
+    },
+    {
+     "text": "operação",
+     "start": 6.2,
+     "end": 6.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.68,
+   "end": 7.08,
+   "words": [
+    {
+     "text": "o",
+     "start": 6.68,
+     "end": 6.76,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 6.76,
+     "end": 7.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.08,
+   "end": 7.8,
+   "words": [
+    {
+     "text": "está",
+     "start": 7.08,
+     "end": 7.24,
+     "emph": false
+    },
+    {
+     "text": "falando.",
+     "start": 7.24,
+     "end": 7.47,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 7.8,
+   "end": 8.68,
+   "words": [
+    {
+     "text": "Uma",
+     "start": 7.8,
+     "end": 7.87,
+     "emph": false
+    },
+    {
+     "text": "atualização",
+     "start": 8.12,
+     "end": 8.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.68,
+   "end": 10.063,
+   "words": [
+    {
+     "text": "do",
+     "start": 8.68,
+     "end": 8.84,
+     "emph": false
+    },
+    {
+     "text": "orçamento",
+     "start": 8.84,
+     "end": 9.24,
+     "emph": false
+    },
+    {
+     "text": "habitacional",
+     "start": 9.24,
+     "end": 9.86,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.063,
+   "end": 11.0,
+   "words": [
+    {
+     "text": "reacendeu",
+     "start": 10.063,
+     "end": 10.68,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 10.68,
+     "end": 10.76,
+     "emph": false
+    },
+    {
+     "text": "tema",
+     "start": 10.76,
+     "end": 11.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.0,
+   "end": 12.12,
+   "words": [
+    {
+     "text": "dos",
+     "start": 11.0,
+     "end": 11.16,
+     "emph": false
+    },
+    {
+     "text": "imóveis",
+     "start": 11.16,
+     "end": 11.56,
+     "emph": false
+    },
+    {
+     "text": "usados.",
+     "start": 11.56,
+     "end": 11.89,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.12,
+   "end": 12.6,
+   "words": [
+    {
+     "text": "Só",
+     "start": 12.12,
+     "end": 12.36,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 12.36,
+     "end": 12.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.6,
+   "end": 13.88,
+   "words": [
+    {
+     "text": "limite",
+     "start": 12.6,
+     "end": 13.0,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 13.0,
+     "end": 13.16,
+     "emph": true
+    },
+    {
+     "text": "recursos,",
+     "start": 13.16,
+     "end": 13.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.88,
+   "end": 14.92,
+   "words": [
+    {
+     "text": "regras",
+     "start": 13.88,
+     "end": 14.28,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 14.28,
+     "end": 14.44,
+     "emph": true
+    },
+    {
+     "text": "programa",
+     "start": 14.44,
+     "end": 14.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.92,
+   "end": 16.44,
+   "words": [
+    {
+     "text": "e",
+     "start": 14.92,
+     "end": 15.08,
+     "emph": false
+    },
+    {
+     "text": "condições",
+     "start": 15.08,
+     "end": 15.56,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 15.56,
+     "end": 15.72,
+     "emph": true
+    },
+    {
+     "text": "comprador",
+     "start": 15.72,
+     "end": 16.26,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.44,
+   "end": 17.24,
+   "words": [
+    {
+     "text": "são",
+     "start": 16.44,
+     "end": 16.68,
+     "emph": false
+    },
+    {
+     "text": "três",
+     "start": 16.68,
+     "end": 16.92,
+     "emph": true
+    },
+    {
+     "text": "coisas",
+     "start": 16.92,
+     "end": 17.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.24,
+   "end": 17.96,
+   "words": [
+    {
+     "text": "diferentes.",
+     "start": 17.24,
+     "end": 17.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.96,
+   "end": 18.44,
+   "words": [
+    {
+     "text": "O",
+     "start": 17.96,
+     "end": 18.12,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 18.12,
+     "end": 18.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.44,
+   "end": 20.2,
+   "words": [
+    {
+     "text": "pode",
+     "start": 18.44,
+     "end": 18.76,
+     "emph": false
+    },
+    {
+     "text": "ter",
+     "start": 18.76,
+     "end": 18.92,
+     "emph": false
+    },
+    {
+     "text": "saldo",
+     "start": 18.92,
+     "end": 19.32,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 19.32,
+     "end": 19.48,
+     "emph": false
+    },
+    {
+     "text": "FGTS",
+     "start": 19.48,
+     "end": 20.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.2,
+   "end": 21.0,
+   "words": [
+    {
+     "text": "e",
+     "start": 20.2,
+     "end": 20.44,
+     "emph": false
+    },
+    {
+     "text": "ainda",
+     "start": 20.44,
+     "end": 20.68,
+     "emph": false
+    },
+    {
+     "text": "precisar",
+     "start": 20.68,
+     "end": 21.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.0,
+   "end": 21.96,
+   "words": [
+    {
+     "text": "cumprir",
+     "start": 21.0,
+     "end": 21.4,
+     "emph": false
+    },
+    {
+     "text": "requisitos",
+     "start": 21.4,
+     "end": 21.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.96,
+   "end": 22.76,
+   "words": [
+    {
+     "text": "para",
+     "start": 21.96,
+     "end": 22.206,
+     "emph": false
+    },
+    {
+     "text": "utilizá-lo.",
+     "start": 22.206,
+     "end": 22.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.76,
+   "end": 23.24,
+   "words": [
+    {
+     "text": "Também",
+     "start": 22.76,
+     "end": 23.08,
+     "emph": false
+    },
+    {
+     "text": "há",
+     "start": 23.08,
+     "end": 23.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.24,
+   "end": 24.2,
+   "words": [
+    {
+     "text": "limites",
+     "start": 23.24,
+     "end": 23.56,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 23.56,
+     "end": 23.72,
+     "emph": true
+    },
+    {
+     "text": "valor,",
+     "start": 23.72,
+     "end": 24.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.2,
+   "end": 24.84,
+   "words": [
+    {
+     "text": "modalidade",
+     "start": 24.2,
+     "end": 24.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.84,
+   "end": 25.64,
+   "words": [
+    {
+     "text": "de",
+     "start": 24.84,
+     "end": 25.0,
+     "emph": false
+    },
+    {
+     "text": "financiamento",
+     "start": 25.0,
+     "end": 25.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.64,
+   "end": 26.92,
+   "words": [
+    {
+     "text": "e",
+     "start": 25.64,
+     "end": 25.88,
+     "emph": false
+    },
+    {
+     "text": "situação",
+     "start": 25.88,
+     "end": 26.28,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 26.28,
+     "end": 26.44,
+     "emph": true
+    },
+    {
+     "text": "imóvel",
+     "start": 26.44,
+     "end": 26.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.92,
+   "end": 27.56,
+   "words": [
+    {
+     "text": "que",
+     "start": 26.92,
+     "end": 27.16,
+     "emph": false
+    },
+    {
+     "text": "precisam",
+     "start": 27.16,
+     "end": 27.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.56,
+   "end": 28.52,
+   "words": [
+    {
+     "text": "ser",
+     "start": 27.56,
+     "end": 27.72,
+     "emph": false
+    },
+    {
+     "text": "conferidos.",
+     "start": 27.72,
+     "end": 28.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.52,
+   "end": 29.56,
+   "words": [
+    {
+     "text": "O",
+     "start": 28.52,
+     "end": 28.68,
+     "emph": false
+    },
+    {
+     "text": "melhor",
+     "start": 28.68,
+     "end": 29.0,
+     "emph": false
+    },
+    {
+     "text": "conteúdo",
+     "start": 29.0,
+     "end": 29.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.56,
+   "end": 30.44,
+   "words": [
+    {
+     "text": "não",
+     "start": 29.56,
+     "end": 29.72,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 29.72,
+     "end": 29.88,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 29.88,
+     "end": 30.04,
+     "emph": false
+    },
+    {
+     "text": "promessa",
+     "start": 30.04,
+     "end": 30.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.44,
+   "end": 31.64,
+   "words": [
+    {
+     "text": "de",
+     "start": 30.44,
+     "end": 30.6,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 30.6,
+     "end": 30.7,
+     "emph": false
+    },
+    {
+     "text": "todo",
+     "start": 30.84,
+     "end": 31.16,
+     "emph": false
+    },
+    {
+     "text": "usado",
+     "start": 31.16,
+     "end": 31.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.64,
+   "end": 32.6,
+   "words": [
+    {
+     "text": "agora",
+     "start": 31.64,
+     "end": 31.88,
+     "emph": false
+    },
+    {
+     "text": "pode",
+     "start": 31.88,
+     "end": 32.12,
+     "emph": false
+    },
+    {
+     "text": "entrar.",
+     "start": 32.12,
+     "end": 32.37,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 32.6,
+   "end": 34.36,
+   "words": [
+    {
+     "text": "É",
+     "start": 32.6,
+     "end": 32.76,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 32.76,
+     "end": 32.92,
+     "emph": false
+    },
+    {
+     "text": "roteiro",
+     "start": 32.92,
+     "end": 33.32,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 33.32,
+     "end": 33.48,
+     "emph": true
+    },
+    {
+     "text": "verificação:",
+     "start": 33.48,
+     "end": 34.02,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 34.36,
+   "end": 34.92,
+   "words": [
+    {
+     "text": "banco,",
+     "start": 34.36,
+     "end": 34.75,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 34.92,
+   "end": 36.12,
+   "words": [
+    {
+     "text": "regras",
+     "start": 34.92,
+     "end": 35.32,
+     "emph": true
+    },
+    {
+     "text": "atualizadas,",
+     "start": 35.32,
+     "end": 35.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 36.12,
+   "end": 37.08,
+   "words": [
+    {
+     "text": "enquadramento",
+     "start": 36.12,
+     "end": 36.93,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 37.08,
+   "end": 38.2,
+   "words": [
+    {
+     "text": "e",
+     "start": 37.08,
+     "end": 37.32,
+     "emph": false
+    },
+    {
+     "text": "documentação.",
+     "start": 37.32,
+     "end": 37.98,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 38.2,
+   "end": 39.32,
+   "words": [
+    {
+     "text": "Assim",
+     "start": 38.2,
+     "end": 38.27,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 38.52,
+     "end": 38.76,
+     "emph": false
+    },
+    {
+     "text": "orienta",
+     "start": 38.76,
+     "end": 39.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 39.32,
+   "end": 39.96,
+   "words": [
+    {
+     "text": "sem",
+     "start": 39.32,
+     "end": 39.56,
+     "emph": false
+    },
+    {
+     "text": "criar",
+     "start": 39.56,
+     "end": 39.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 39.96,
+   "end": 41.08,
+   "words": [
+    {
+     "text": "expectativa",
+     "start": 39.96,
+     "end": 40.52,
+     "emph": true
+    },
+    {
+     "text": "falsa.",
+     "start": 40.52,
+     "end": 40.77,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 41.08,
+   "end": 41.88,
+   "words": [
+    {
+     "text": "Na",
+     "start": 41.08,
+     "end": 41.32,
+     "emph": false
+    },
+    {
+     "text": "revenda,",
+     "start": 41.32,
+     "end": 41.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 41.88,
+   "end": 42.52,
+   "words": [
+    {
+     "text": "verifique",
+     "start": 41.88,
+     "end": 42.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 42.52,
+   "end": 43.56,
+   "words": [
+    {
+     "text": "antes",
+     "start": 42.52,
+     "end": 42.68,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 42.68,
+     "end": 42.92,
+     "emph": false
+    },
+    {
+     "text": "anunciar.",
+     "start": 42.92,
+     "end": 43.29,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 43.56,
+   "end": 44.36,
+   "words": [
+    {
+     "text": "Quer",
+     "start": 43.56,
+     "end": 43.63,
+     "emph": false
+    },
+    {
+     "text": "conhecer",
+     "start": 43.88,
+     "end": 44.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 44.36,
+   "end": 45.48,
+   "words": [
+    {
+     "text": "um",
+     "start": 44.36,
+     "end": 44.52,
+     "emph": false
+    },
+    {
+     "text": "sistema",
+     "start": 44.52,
+     "end": 44.84,
+     "emph": false
+    },
+    {
+     "text": "personalizado",
+     "start": 44.84,
+     "end": 45.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 45.48,
+   "end": 46.12,
+   "words": [
+    {
+     "text": "para",
+     "start": 45.48,
+     "end": 45.72,
+     "emph": false
+    },
+    {
+     "text": "organizar",
+     "start": 45.72,
+     "end": 46.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 46.12,
+   "end": 47.4,
+   "words": [
+    {
+     "text": "seus",
+     "start": 46.12,
+     "end": 46.36,
+     "emph": false
+    },
+    {
+     "text": "imóveis,",
+     "start": 46.36,
+     "end": 46.92,
+     "emph": true
+    },
+    {
+     "text": "leads",
+     "start": 46.92,
+     "end": 47.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 47.4,
+   "end": 48.339,
+   "words": [
+    {
+     "text": "e",
+     "start": 47.4,
+     "end": 47.48,
+     "emph": false
+    },
+    {
+     "text": "atendimentos?",
+     "start": 47.48,
+     "end": 48.09,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 48.339,
+   "end": 49.24,
+   "words": [
+    {
+     "text": "Comente",
+     "start": 48.339,
+     "end": 48.84,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 48.84,
+     "end": 49.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 49.24,
+   "end": 49.88,
+   "words": [
+    {
+     "text": "que",
+     "start": 49.24,
+     "end": 49.32,
+     "emph": false
+    },
+    {
+     "text": "eu",
+     "start": 49.32,
+     "end": 49.4,
+     "emph": false
+    },
+    {
+     "text": "te",
+     "start": 49.4,
+     "end": 49.56,
+     "emph": false
+    },
+    {
+     "text": "envio",
+     "start": 49.56,
+     "end": 49.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 49.88,
+   "end": 50.28,
+   "words": [
+    {
+     "text": "os",
+     "start": 49.88,
+     "end": 49.96,
+     "emph": false
+    },
+    {
+     "text": "detalhes",
+     "start": 49.96,
+     "end": 50.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 50.28,
+   "end": 51.39,
+   "words": [
+    {
+     "text": "pelo",
+     "start": 50.28,
+     "end": 50.52,
+     "emph": false
+    },
+    {
+     "text": "Direct.",
+     "start": 50.52,
+     "end": 50.89,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

@@ -1,0 +1,661 @@
+{
+ "id": "EP-ATIVO-REEL08",
+ "title": "A comissão caiu: e a próxima carteira?",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "outputDir": "ATIVO_REEL08",
+ "deliverables": {
+  "final": "ATIVO_REEL08_FINAL.mp4",
+  "narration": "ATIVO_REEL08_NARRACAO.wav",
+  "subtitles": "ATIVO_REEL08_legendas.srt",
+  "cover": "ATIVO_REEL08_capa.png"
+ },
+ "fonte": "ROTEIROS/ATIVO_REEL08.md (ATIVO_Reel_08_COMISSAO_ESTRUTURA.md, cliente, 17/11/2026)",
+ "diagnostico": {
+  "publico_situacao": "corretor que acabou de fechar uma venda",
+  "motivacao": "não começar cada mês do zero, sem histórico, contatos ou organização",
+  "crenca_questionada": "o resultado da venda é só a comissão",
+  "hipotese": "cenário hipotético em duas trilhas: comemora e esquece × comemora e registra",
+  "funcao": "C2 mudança de percepção (contraste)",
+  "promessa": "revisar o que cada venda ensinou: origem, interessados, carteira, prospecção",
+  "evidencias": "cenário hipotético rotulado; valor da comissão mascarado; sem projeção financeira, carro ou promessa de rentabilidade; 'não é máquina que vende sozinha' explícito",
+  "cta": "comentário SISTEMA → Direct (regra 14/11/2026); pergunta + 'Salva' viraram transição"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "original_cta": "Qual processo você costuma revisar depois de fechar uma venda? Salva este vídeo e faz essa pergunta no próximo fechamento.",
+  "transition_adapted": "No próximo fechamento, reserve um momento para revisar o que essa venda ensinou.",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A comissão caiu na conta.",
+   "caption": "A *comissão* | caiu na conta.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Agora vem uma decisão que quase nunca aparece nas fotos de conquista.",
+   "caption": "Agora vem | uma *decisão* | que quase nunca aparece | nas *fotos de conquista.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "prim",
+   "text": "Num cenário hipotético, um profissional comemora a venda e volta à rotina sem revisar o que aconteceu: de onde veio o cliente, quais imóveis despertaram interesse e quem ainda ficou em negociação.",
+   "caption": "Num cenário *hipotético,* | um profissional | *comemora* a venda | e volta à rotina | *sem revisar* | o que aconteceu: | de onde veio | o *cliente,* | quais imóveis | despertaram *interesse* | e quem ainda ficou | em *negociação.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "prim",
+   "text": "No mês seguinte, precisa reconstruir tudo de memória.",
+   "caption": "No *mês seguinte,* | precisa reconstruir | tudo *de memória.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "outro",
+   "text": "O segundo também comemora.",
+   "caption": "O *segundo* | também comemora.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "outro",
+   "text": "Mas registra a origem da oportunidade, atualiza os interessados, organiza a carteira e reserva um tempo para prospecção.",
+   "caption": "Mas *registra* | a origem | da oportunidade, | *atualiza* | os interessados, | *organiza* a carteira | e *reserva* um tempo | para prospecção.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "outro",
+   "text": "Não é uma máquina que vende sozinha.",
+   "caption": "Não é uma máquina | que *vende sozinha.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "outro",
+   "text": "É uma operação que preserva o aprendizado de cada atendimento.",
+   "caption": "É uma *operação* | que preserva | o *aprendizado* | de cada atendimento.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "ideia",
+   "text": "O resultado de uma venda não está só na comissão recebida.",
+   "caption": "O resultado | de uma venda | *não está só* | na comissão recebida.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "ideia",
+   "text": "Também pode estar na base de contatos, no conhecimento do público e na estrutura que você constrói para trabalhar melhor na próxima negociação.",
+   "caption": "Também pode estar | na *base de contatos,* | no *conhecimento* | do público | e na *estrutura* | que você constrói | para trabalhar melhor | na próxima negociação.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "ideia",
+   "text": "No próximo fechamento, reserve um momento para revisar o que essa venda ensinou.",
+   "caption": "No próximo | *fechamento,* | reserve um momento | para *revisar* | o que essa venda | *ensinou.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "prim": 0.3,
+  "outro": 0.35,
+  "ideia": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_com": {
+   "seg": "s1",
+   "word": "comissão",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_conta": {
+   "seg": "s1",
+   "word": "conta",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_agora": {
+   "seg": "s2",
+   "word": "Agora",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_dec": {
+   "seg": "s2",
+   "word": "decisão",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_fotos": {
+   "seg": "s2",
+   "word": "fotos",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_conq": {
+   "seg": "s2",
+   "word": "conquista",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_hip": {
+   "seg": "s3",
+   "word": "hipotético",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_comem": {
+   "seg": "s3",
+   "word": "comemora",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_rotina": {
+   "seg": "s3",
+   "word": "rotina",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_sem": {
+   "seg": "s3",
+   "word": "sem",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_cliente": {
+   "seg": "s3",
+   "word": "cliente",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_inter": {
+   "seg": "s3",
+   "word": "interesse",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_neg": {
+   "seg": "s3",
+   "word": "negociação",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_mes": {
+   "seg": "s4",
+   "word": "mês",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_recon": {
+   "seg": "s4",
+   "word": "reconstruir",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_mem": {
+   "seg": "s4",
+   "word": "memória",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_seg": {
+   "seg": "s5",
+   "word": "segundo",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_comem": {
+   "seg": "s5",
+   "word": "comemora",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_reg": {
+   "seg": "s6",
+   "word": "registra",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_atual": {
+   "seg": "s6",
+   "word": "atualiza",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_org": {
+   "seg": "s6",
+   "word": "organiza",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_res": {
+   "seg": "s6",
+   "word": "reserva",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_prosp": {
+   "seg": "s6",
+   "word": "prospecção",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_maq": {
+   "seg": "s7",
+   "word": "máquina",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_sozinha": {
+   "seg": "s7",
+   "word": "sozinha",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_oper": {
+   "seg": "s8",
+   "word": "operação",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_aprend": {
+   "seg": "s8",
+   "word": "aprendizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_res": {
+   "seg": "s9",
+   "word": "resultado",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_nao": {
+   "seg": "s9",
+   "word": "está",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_com": {
+   "seg": "s9",
+   "word": "comissão",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_base": {
+   "seg": "s10",
+   "word": "base",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_conh": {
+   "seg": "s10",
+   "word": "conhecimento",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_estr": {
+   "seg": "s10",
+   "word": "estrutura",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_prox": {
+   "seg": "s10",
+   "word": "próxima",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_fech": {
+   "seg": "s11",
+   "word": "fechamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_revis": {
+   "seg": "s11",
+   "word": "revisar",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_ens": {
+   "seg": "s11",
+   "word": "ensinou",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s12",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s12",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s12",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s13",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s13",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s13",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s13",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  },
+  "p_num": {
+   "seg": "s3",
+   "word": "Num",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_no": {
+   "seg": "s11",
+   "word": "No",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_mom": {
+   "seg": "s11",
+   "word": "momento",
+   "edge": "start",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_com",
+   "offset": -0.3,
+   "sound": "notif",
+   "gain": -29
+  },
+  {
+   "cue": "h_dec",
+   "offset": 0.3,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "p_hip",
+   "offset": -0.4,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "p_cliente",
+   "offset": 0.3,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "p_inter",
+   "offset": 0.3,
+   "sound": "tick",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "p_neg",
+   "offset": 0.4,
+   "sound": "tick",
+   "gain": -26,
+   "pitch": 6
+  },
+  {
+   "cue": "p_mes",
+   "offset": -0.1,
+   "sound": "scramble",
+   "gain": -31
+  },
+  {
+   "cue": "p_mem",
+   "offset": 0.3,
+   "sound": "thump",
+   "gain": -29,
+   "pitch": -2
+  },
+  {
+   "cue": "o_seg",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "o_reg",
+   "offset": 0.15,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "o_atual",
+   "offset": 0.15,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 2
+  },
+  {
+   "cue": "o_org",
+   "offset": 0.15,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 4
+  },
+  {
+   "cue": "o_res",
+   "offset": 0.15,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "o_maq",
+   "offset": 0.4,
+   "sound": "block",
+   "gain": -29
+  },
+  {
+   "cue": "o_aprend",
+   "offset": 0.3,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "i_res",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "i_base",
+   "offset": 0.15,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "i_conh",
+   "offset": 0.15,
+   "sound": "tick",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "i_estr",
+   "offset": 0.15,
+   "sound": "tick",
+   "gain": -26,
+   "pitch": 6
+  },
+  {
+   "cue": "i_ens",
+   "offset": 0.3,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 96,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "C — a comissão"
+   },
+   {
+    "at": "cue:p_hip",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Am — sem histórico"
+   },
+   {
+    "at": "cue:o_seg",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "F — cada atendimento ensina"
+   },
+   {
+    "at": "cue:i_res",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — continuidade"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}

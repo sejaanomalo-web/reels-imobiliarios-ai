@@ -1,0 +1,152 @@
+[
+ {
+  "t": 1.52,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "h_aud"
+ },
+ {
+  "t": 3.62,
+  "sound": "fade_down",
+  "gain": -30,
+  "cue": "h_mas"
+ },
+ {
+  "t": 8.023,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "c_kel"
+ },
+ {
+  "t": 8.17,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "h_aten"
+ },
+ {
+  "t": 11.06,
+  "sound": "click",
+  "gain": -26,
+  "cue": "c_car"
+ },
+ {
+  "t": 15.98,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "c_publ"
+ },
+ {
+  "t": 18.96,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "c_proc"
+ },
+ {
+  "t": 20.3,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "c_isso"
+ },
+ {
+  "t": 24.86,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "l_rep"
+ },
+ {
+  "t": 27.82,
+  "sound": "block",
+  "gain": -28,
+  "cue": "l_duv"
+ },
+ {
+  "t": 31.1,
+  "sound": "block",
+  "gain": -28,
+  "cue": "l_obs"
+ },
+ {
+  "t": 34.3,
+  "sound": "block",
+  "gain": -28,
+  "cue": "l_conv"
+ },
+ {
+  "t": 38.1,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "l_conf"
+ },
+ {
+  "t": 38.38,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "k_ponto"
+ },
+ {
+  "t": 42.36,
+  "sound": "thump",
+  "gain": -28,
+  "cue": "k_views"
+ },
+ {
+  "t": 44.13,
+  "sound": "click",
+  "gain": -26,
+  "cue": "k_porque"
+ },
+ {
+  "t": 51.14,
+  "sound": "fade_down",
+  "gain": -30,
+  "cue": "k_segura"
+ },
+ {
+  "t": 52.06,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "a_prox"
+ },
+ {
+  "t": 54.08,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "a_duv"
+ },
+ {
+  "t": 56.9,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "a_img"
+ },
+ {
+  "t": 61.06,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "a_org"
+ },
+ {
+  "t": 62.76,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "cta_sys"
+ },
+ {
+  "t": 65.799,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 67.15,
+  "sound": "typing",
+  "gain": -30,
+  "cue": "cta_word"
+ },
+ {
+  "t": 69.1,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "cta_end"
+ }
+]

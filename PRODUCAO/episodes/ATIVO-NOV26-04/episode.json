@@ -1,0 +1,612 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "lote": "NOV26",
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-NOV26-04",
+ "title": "Juros altos, crédito bilionário",
+ "outputDir": "ATIVO_NOV26_04",
+ "deliverables": {
+  "final": "ATIVO_NOV26_04_FINAL.mp4",
+  "narration": "ATIVO_NOV26_04_NARRACAO.wav",
+  "subtitles": "ATIVO_NOV26_04_legendas.srt",
+  "cover": "ATIVO_NOV26_04_capa.png"
+ },
+ "fonte": "ROTEIROS/LOTE_NOV2026/ATIVO_NOV26_04.md (lote ATIVO_30_ROTEIROS_NOV2026.docx, cliente, 17/11/2026)",
+ "apuracao": {
+  "fato": "Caixa: R$ 72,5 bilhões em contratações imobiliárias no 3º tri/2026, considerando recursos próprios e do FGTS (≈ R$ 45,8 bi FGTS + R$ 26,7 bi SBPE); +7,6% sobre o 3º tri/2025; carteira R$ 1,043 tri (+15,5% em 12 meses). Divulgado no balanço de 12/11/2026.",
+  "verificado_em": "2026-11-19",
+  "fontes": [
+   "https://economia.uol.com.br/noticias/estadao-conteudo/2026/11/12/caixa-carteira-imobiliaria-sobe-155-em-1-ano-para-r-r-1043-trilhao-no-no-3-trimestre.htm (roteiro; bloqueado na sessão)",
+   "https://www.dgabc.com.br/Noticia/4368531/caixa-carteira-imobiliaria-sobe-15-5-em-1-ano-para-r-r-1-043-trilhao-no-no-3-trimestre (mesma matéria Estadão, via busca)",
+   "https://portas.com.br/noticias/caixa-amplia-credito-imobiliario-terceiro-trimestre/"
+  ],
+  "cuidados": "crédito contratado ≠ número de vendas (nota do roteiro, também na tela); sem taxa inventada; 'taxas elevadas' sem número"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que repete que o mercado travou por causa dos juros",
+  "motivacao": "ler o recorte da notícia antes de concluir",
+  "crenca_questionada": "juro alto = ninguém compra",
+  "hipotese": "paradoxo: crédito caro e bilhões contratados; mercado não é interruptor",
+  "funcao": "educação de mercado / paradoxo com números",
+  "promessa": "segmentar o atendimento por modalidade, condições e produto",
+  "evidencias": "balanço Caixa 3º tri/2026 (verificado)",
+  "cta": "comentário SISTEMA → Direct; CTA do roteiro mantida como frase de transição"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "original_cta": "Antes de repetir que o mercado travou, olhe o recorte da notícia.",
+  "transition_adapted": "Antes de repetir que o mercado travou, olhe o recorte da notícia.",
+  "note": "CTA do roteiro já era uma frase de aplicação (não pedia salvar/compartilhar): mantida literal",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Se o crédito imobiliário está caro, como a Caixa contratou dezenas de bilhões de reais em financiamentos num único trimestre?",
+   "caption": "Se o *crédito* imobiliário | está *caro,* | como a Caixa | contratou | *dezenas de bilhões* | de reais | em financiamentos | num único *trimestre?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "t1",
+   "text": "No terceiro trimestre de dois mil e vinte e seis, foram setenta e dois vírgula cinco bilhões de reais em contratações, considerando recursos da Caixa e do FGTS.",
+   "caption": "No *terceiro trimestre* | de dois mil | e vinte e seis, | foram *setenta e dois* | *vírgula cinco bilhões* | de reais | em contratações, | considerando recursos | da *Caixa* e do *FGTS.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "É um volume grande, mesmo com taxas elevadas.",
+   "caption": "É um volume *grande,* | mesmo com | *taxas elevadas.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t2",
+   "text": "O erro é imaginar o mercado como um interruptor: juro alto, ninguém compra; juro baixo, todo mundo compra.",
+   "caption": "O erro | é imaginar o mercado | como um *interruptor:* | juro alto, | *ninguém compra;* | juro baixo, | *todo mundo compra.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t2",
+   "text": "Na prática, existem faixas de renda, modalidades, necessidades e condições muito diferentes.",
+   "caption": "Na prática, | existem *faixas de renda,* | *modalidades,* | *necessidades* | e *condições* | muito diferentes.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t3",
+   "text": "Para o corretor, olhar o número agregado é só o começo.",
+   "caption": "Para o corretor, | olhar o número | *agregado* | é só o *começo.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t3",
+   "text": "O que importa é saber qual modalidade atende o cliente, quais condições estão disponíveis e qual produto faz sentido para ele.",
+   "caption": "O que importa | é saber qual *modalidade* | atende o cliente, | quais *condições* | estão disponíveis | e qual *produto* | faz sentido | para ele.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t3",
+   "text": "Antes de repetir que o mercado travou, olhe o recorte da notícia.",
+   "caption": "Antes de repetir | que o mercado *travou,* | olhe o *recorte* | da notícia.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_cred": {
+   "seg": "s1",
+   "word": "crédito",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_caro": {
+   "seg": "s1",
+   "word": "caro",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_caixa": {
+   "seg": "s1",
+   "word": "Caixa",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_bil": {
+   "seg": "s1",
+   "word": "bilhões",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_tri": {
+   "seg": "s1",
+   "word": "trimestre",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_terc": {
+   "seg": "s2",
+   "word": "terceiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_dois": {
+   "seg": "s2",
+   "word": "dois",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_set": {
+   "seg": "s2",
+   "word": "setenta",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_cinco": {
+   "seg": "s2",
+   "word": "cinco",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_cont": {
+   "seg": "s2",
+   "word": "contratações",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_caixa": {
+   "seg": "s2",
+   "word": "Caixa",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_fgts": {
+   "seg": "s2",
+   "word": "FGTS",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_vol": {
+   "seg": "s3",
+   "word": "volume",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_tax": {
+   "seg": "s3",
+   "word": "taxas",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_erro": {
+   "seg": "s4",
+   "word": "erro",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_int": {
+   "seg": "s4",
+   "word": "interruptor",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_alto": {
+   "seg": "s4",
+   "word": "alto",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_ning": {
+   "seg": "s4",
+   "word": "ninguém",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_baixo": {
+   "seg": "s4",
+   "word": "baixo",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_todo": {
+   "seg": "s4",
+   "word": "todo",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_prat": {
+   "seg": "s5",
+   "word": "prática",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_faixas": {
+   "seg": "s5",
+   "word": "faixas",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_modal": {
+   "seg": "s5",
+   "word": "modalidades",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_nec": {
+   "seg": "s5",
+   "word": "necessidades",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_cond": {
+   "seg": "s5",
+   "word": "condições",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_para": {
+   "seg": "s6",
+   "word": "Para",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_agreg": {
+   "seg": "s6",
+   "word": "agregado",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_comeco": {
+   "seg": "s6",
+   "word": "começo",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_mod": {
+   "seg": "s7",
+   "word": "modalidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_cond": {
+   "seg": "s7",
+   "word": "condições",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_prod": {
+   "seg": "s7",
+   "word": "produto",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_antes": {
+   "seg": "s8",
+   "word": "Antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_trav": {
+   "seg": "s8",
+   "word": "travou",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_rec": {
+   "seg": "s8",
+   "word": "recorte",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s9",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s9",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s9",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s10",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s10",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s10",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s10",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_caro",
+   "offset": 0.1,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "h_bil",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 2
+  },
+  {
+   "cue": "a_terc",
+   "offset": -0.3,
+   "sound": "whoosh_up",
+   "gain": -27,
+   "dur": 0.5
+  },
+  {
+   "cue": "a_set",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27
+  },
+  {
+   "cue": "a_cinco",
+   "offset": 0.3,
+   "sound": "thump",
+   "gain": -28
+  },
+  {
+   "cue": "a_fgts",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 4
+  },
+  {
+   "cue": "b_int",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -25
+  },
+  {
+   "cue": "b_ning",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -25,
+   "pitch": -3
+  },
+  {
+   "cue": "b_todo",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "b_prat",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "b_faixas",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -27
+  },
+  {
+   "cue": "b_modal",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "b_nec",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "b_cond",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 9
+  },
+  {
+   "cue": "c_agreg",
+   "offset": 0.1,
+   "sound": "swish",
+   "gain": -27
+  },
+  {
+   "cue": "c_mod",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "c_cond",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "c_prod",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "x_rec",
+   "offset": 0.1,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — paradoxo"
+   },
+   {
+    "at": "cue:a_terc",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "C — o número"
+   },
+   {
+    "at": "cue:b_erro",
+    "notes": [
+     28,
+     40,
+     47,
+     52,
+     55
+    ],
+    "root": 40,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Em — interruptor"
+   },
+   {
+    "at": "cue:c_para",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — segmentação"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}

@@ -1,0 +1,89 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.8,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 1.76,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 1.6,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.08,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 5.04,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.64,
+    "palavras_nao_reconhecidas": [
+      "está"
+    ]
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.12,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 7.92,
+    "palavras_nao_reconhecidas": [
+      "está"
+    ]
+  },
+  {
+    "seg": "s10",
+    "seconds": 3.52,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 4.76,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 2.92,
+    "palavras_nao_reconhecidas": [
+      "Comente",
+      "Direct"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 45.52,
+    "asr_match": 0.967,
+    "aligned_words": "131/135",
+    "words_per_min": 178,
+    "heard": "Um cliente mandou, meu financiamento foi aprovado. O corretor já comemorou a venda. Só que faltava quase tudo. Numa situação hipotética, a análise inicial parece positiva. O comprador escolhe o imóvel e acha que a próxima etapa é receber as chaves, mas ainda podem existir avaliação do bem, conferência de documentos e condições a cumprir. Se o corretor fala tá tudo certo antes da hora, cria uma expectativa que não controla. Quando aparece uma pendência, a confiança no atendimento sofre. Uma orientação melhor é dizer exatamente em que fase a operação tá, quais verificações ainda faltam e quando será possível confirmar o próximo passo. A aprovação inicial não é fechamento. Explique o próximo passo. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema que eu te envio os detalhes pelo Dirate."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 51.8,
+      "wpm": 156
+    },
+    "pausas_encurtadas_s": 6.28,
+    "final": {
+      "seconds": 45.52,
+      "wpm": 178
+    }
+  }
+]

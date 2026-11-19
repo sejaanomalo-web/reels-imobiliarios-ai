@@ -2,20 +2,20 @@
  "id": "STORY-ATIVO-01",
  "title": "Por que são diferentes?",
  "fps": 30,
- "duration": 14.967,
- "durationInFrames": 449,
- "narrationEnd": 13.35,
- "voice": "PROVISÓRIO-SEM-VOZ",
+ "duration": 11.033333333333333,
+ "durationInFrames": 331,
+ "narrationEnd": 9.421,
+ "voice": "Puck",
  "scenes": [
   {
    "id": "abre",
    "start": 0.0,
-   "end": 5.865
+   "end": 4.7
   },
   {
    "id": "vira",
-   "start": 5.865,
-   "end": 14.967
+   "start": 4.7,
+   "end": 11.033
   }
  ],
  "segments": [
@@ -23,304 +23,304 @@
    "id": "s1",
    "scene": "abre",
    "text": "Três projetos imobiliários.",
-   "start": 0.3,
-   "end": 2.04
+   "start": 0.38,
+   "end": 2.24
   },
   {
    "id": "s2",
    "scene": "abre",
    "text": "Três formas de apresentar e organizar o trabalho.",
-   "start": 2.39,
-   "end": 5.765
+   "start": 2.38,
+   "end": 4.7
   },
   {
    "id": "s3",
    "scene": "vira",
    "text": "E sabe o que eles têm em comum?",
-   "start": 6.115,
-   "end": 8.5
+   "start": 4.7,
+   "end": 5.92
   },
   {
    "id": "s4",
    "scene": "vira",
    "text": "Nenhum precisou começar por um modelo igual para todo mundo.",
-   "start": 8.85,
-   "end": 13.0
+   "start": 6.3,
+   "end": 8.93
   }
  ],
  "cues": {
-  "a_tres": 0.3,
-  "a_formas": 2.75,
-  "a_org": 4.355,
-  "a_sabe": 6.31,
-  "a_comum": 8.085,
-  "a_nenhum": 8.85,
-  "a_modelo": 10.98,
-  "a_todo": 12.225
+  "a_tres": 0.38,
+  "a_formas": 2.7,
+  "a_org": 3.82,
+  "a_sabe": 4.94,
+  "a_comum": 5.74,
+  "a_nenhum": 6.3,
+  "a_modelo": 7.9,
+  "a_todo": 8.62
  },
  "series": {},
  "captions": [
   {
    "seg": "s1",
-   "start": 0.3,
-   "end": 1.24,
+   "start": 0.38,
+   "end": 1.42,
    "words": [
     {
      "text": "Três",
-     "start": 0.3,
-     "end": 0.64,
+     "start": 0.38,
+     "end": 0.46,
      "emph": true
     },
     {
      "text": "projetos",
-     "start": 0.66,
-     "end": 1.22,
+     "start": 0.86,
+     "end": 1.42,
      "emph": true
     }
    ]
   },
   {
    "seg": "s1",
-   "start": 1.24,
-   "end": 2.39,
+   "start": 1.42,
+   "end": 2.38,
    "words": [
     {
      "text": "imobiliários.",
-     "start": 1.24,
-     "end": 2.02,
+     "start": 1.42,
+     "end": 2.24,
      "emph": false
     }
    ]
   },
   {
    "seg": "s2",
-   "start": 2.39,
-   "end": 3.22,
+   "start": 2.38,
+   "end": 3.02,
    "words": [
     {
      "text": "Três",
-     "start": 2.39,
-     "end": 2.73,
+     "start": 2.38,
+     "end": 2.7,
      "emph": false
     },
     {
      "text": "formas",
-     "start": 2.75,
-     "end": 3.2,
+     "start": 2.7,
+     "end": 3.02,
      "emph": false
     }
    ]
   },
   {
    "seg": "s2",
-   "start": 3.22,
-   "end": 4.16,
+   "start": 3.02,
+   "end": 3.74,
    "words": [
     {
      "text": "de",
-     "start": 3.22,
-     "end": 3.45,
+     "start": 3.02,
+     "end": 3.18,
      "emph": false
     },
     {
      "text": "apresentar",
-     "start": 3.47,
-     "end": 4.14,
+     "start": 3.18,
+     "end": 3.74,
      "emph": true
     }
    ]
   },
   {
    "seg": "s2",
-   "start": 4.16,
-   "end": 4.99,
+   "start": 3.74,
+   "end": 4.3,
    "words": [
     {
      "text": "e",
-     "start": 4.16,
-     "end": 4.335,
+     "start": 3.74,
+     "end": 3.82,
      "emph": false
     },
     {
      "text": "organizar",
-     "start": 4.355,
-     "end": 4.97,
+     "start": 3.82,
+     "end": 4.3,
      "emph": true
     }
    ]
   },
   {
    "seg": "s2",
-   "start": 4.99,
-   "end": 6.115,
+   "start": 4.3,
+   "end": 4.7,
    "words": [
     {
      "text": "o",
-     "start": 4.99,
-     "end": 5.165,
+     "start": 4.3,
+     "end": 4.38,
      "emph": false
     },
     {
      "text": "trabalho.",
-     "start": 5.185,
-     "end": 5.745,
+     "start": 4.38,
+     "end": 4.7,
      "emph": false
     }
    ]
   },
   {
    "seg": "s3",
-   "start": 6.115,
-   "end": 6.67,
+   "start": 4.7,
+   "end": 5.18,
    "words": [
     {
      "text": "E",
-     "start": 6.115,
-     "end": 6.29,
+     "start": 4.7,
+     "end": 4.94,
      "emph": false
     },
     {
      "text": "sabe",
-     "start": 6.31,
-     "end": 6.65,
+     "start": 4.94,
+     "end": 5.18,
      "emph": false
     }
    ]
   },
   {
    "seg": "s3",
-   "start": 6.67,
-   "end": 7.835,
+   "start": 5.18,
+   "end": 5.66,
    "words": [
     {
      "text": "o",
-     "start": 6.67,
-     "end": 6.845,
+     "start": 5.18,
+     "end": 5.26,
      "emph": false
     },
     {
      "text": "que",
-     "start": 6.865,
-     "end": 7.15,
+     "start": 5.26,
+     "end": 5.34,
      "emph": false
     },
     {
      "text": "eles",
-     "start": 7.17,
-     "end": 7.51,
+     "start": 5.34,
+     "end": 5.5,
      "emph": false
     },
     {
      "text": "têm",
-     "start": 7.53,
-     "end": 7.815,
+     "start": 5.5,
+     "end": 5.66,
      "emph": false
     }
    ]
   },
   {
    "seg": "s3",
-   "start": 7.835,
-   "end": 8.85,
+   "start": 5.66,
+   "end": 6.3,
    "words": [
     {
      "text": "em",
-     "start": 7.835,
-     "end": 8.065,
+     "start": 5.66,
+     "end": 5.74,
      "emph": true
     },
     {
      "text": "comum?",
-     "start": 8.085,
-     "end": 8.48,
+     "start": 5.74,
+     "end": 5.92,
      "emph": true
     }
    ]
   },
   {
    "seg": "s4",
-   "start": 8.85,
-   "end": 9.9,
+   "start": 6.3,
+   "end": 7.26,
    "words": [
     {
      "text": "Nenhum",
-     "start": 8.85,
-     "end": 9.3,
+     "start": 6.3,
+     "end": 6.86,
      "emph": false
     },
     {
      "text": "precisou",
-     "start": 9.32,
-     "end": 9.88,
+     "start": 6.86,
+     "end": 7.26,
      "emph": false
     }
    ]
   },
   {
    "seg": "s4",
-   "start": 9.9,
-   "end": 10.73,
+   "start": 7.26,
+   "end": 7.82,
    "words": [
     {
      "text": "começar",
-     "start": 9.9,
-     "end": 10.405,
+     "start": 7.26,
+     "end": 7.66,
      "emph": false
     },
     {
      "text": "por",
-     "start": 10.425,
-     "end": 10.71,
+     "start": 7.66,
+     "end": 7.82,
      "emph": false
     }
    ]
   },
   {
    "seg": "s4",
-   "start": 10.73,
-   "end": 11.865,
+   "start": 7.82,
+   "end": 8.46,
    "words": [
     {
      "text": "um",
-     "start": 10.73,
-     "end": 10.96,
+     "start": 7.82,
+     "end": 7.9,
      "emph": false
     },
     {
      "text": "modelo",
-     "start": 10.98,
-     "end": 11.43,
+     "start": 7.9,
+     "end": 8.14,
      "emph": true
     },
     {
      "text": "igual",
-     "start": 11.45,
-     "end": 11.845,
+     "start": 8.14,
+     "end": 8.46,
      "emph": true
     }
    ]
   },
   {
    "seg": "s4",
-   "start": 11.865,
-   "end": 12.98,
+   "start": 8.46,
+   "end": 9.43,
    "words": [
     {
      "text": "para",
-     "start": 11.865,
-     "end": 12.205,
+     "start": 8.46,
+     "end": 8.62,
      "emph": false
     },
     {
      "text": "todo",
-     "start": 12.225,
-     "end": 12.565,
+     "start": 8.62,
+     "end": 8.86,
      "emph": false
     },
     {
      "text": "mundo.",
-     "start": 12.585,
-     "end": 12.98,
+     "start": 8.86,
+     "end": 8.93,
      "emph": false
     }
    ]

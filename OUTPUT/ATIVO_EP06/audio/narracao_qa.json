@@ -1,0 +1,148 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.97,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.19,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 1.86,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.68,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 2.03,
+    "palavras_nao_reconhecidas": [
+      "Acompanhe"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 1.24,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.13,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.45,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 1.37,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 1.84,
+    "palavras_nao_reconhecidas": [
+      "ao"
+    ]
+  },
+  {
+    "seg": "s11",
+    "seconds": 1.69,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 2.94,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 4.78,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s14",
+    "seconds": 4.75,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s15",
+    "seconds": 0.73,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s16",
+    "seconds": 0.66,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s17",
+    "seconds": 1.44,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s18",
+    "seconds": 1.91,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s19",
+    "seconds": 1.55,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s20",
+    "seconds": 2.92,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s21",
+    "seconds": 2.64,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s22",
+    "seconds": 5.42,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s23",
+    "seconds": 4.75,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s24",
+    "seconds": 2.94,
+    "palavras_nao_reconhecidas": [
+      "comente",
+      "envio"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 73.76,
+    "asr_match": 0.98,
+    "aligned_words": "199/203",
+    "words_per_min": 165,
+    "heard": "Você atende contatos, agenda visitas, cadastra imóveis e passa o dia ocupado. Mesmo assim, algumas oportunidades param no caminho. A pergunta não é se você está trabalhando, é onde o seu atendimento está perdendo continuidade. Acompanha uma oportunidade fictícia. Ela chega por um anúncio, você responde, mas ninguém define quem será responsável pelo próximo retorno. No dia seguinte, um colega abre a conversa sem saber o que você já explicou. Agora, siga o imóvel. Você informa o cliente que está disponível. Um colega descobre que a condição mudou. A carteira foi atualizada em um lugar, mas não no outro. O problema não é apenas informação antiga, é a ausência de um ponto claro de atualização. Para encontrar o seu gargalo, escolha uma negociação recente e refaça seu percurso. Quem recebeu? Quem assumiu? Onde ficaram as informações? Quando aconteceu o último movimento? O que dependia de outra pessoa? Uma resposta vaga já indica onde vale investigar. Um bom corretor não precisa lembrar cada mensagem. Precisa enxergar seus clientes, as etapas e as pendências para agir quando algo sai do fluxo. Se você quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos, comenta Sistema, que eu te envia os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 73.76,
+      "wpm": 165
+    },
+    "final": {
+      "seconds": 73.76,
+      "wpm": 165
+    }
+  }
+]

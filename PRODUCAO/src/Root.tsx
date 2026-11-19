@@ -32,6 +32,54 @@ import { ATIVO01, timeline as ativo01 } from "./episodes/EP-ATIVO01/Episode";
 import { ATIVO01Cover } from "./episodes/EP-ATIVO01/Cover";
 import { ATIVO02, timeline as ativo02 } from "./episodes/EP-ATIVO02/Episode";
 import { ATIVO02Cover } from "./episodes/EP-ATIVO02/Cover";
+import { ATIVO03, timeline as ativo03 } from "./episodes/EP-ATIVO03/Episode";
+import { ATIVO03Cover } from "./episodes/EP-ATIVO03/Cover";
+import { ATIVO04, timeline as ativo04 } from "./episodes/EP-ATIVO04/Episode";
+import { ATIVO04Cover } from "./episodes/EP-ATIVO04/Cover";
+import { ATIVO05, timeline as ativo05 } from "./episodes/EP-ATIVO05/Episode";
+import { ATIVO05Cover } from "./episodes/EP-ATIVO05/Cover";
+import { ATIVO06, timeline as ativo06 } from "./episodes/EP-ATIVO06/Episode";
+import { ATIVO06Cover } from "./episodes/EP-ATIVO06/Cover";
+import { ATIVO07, timeline as ativo07 } from "./episodes/EP-ATIVO07/Episode";
+import { ATIVO07Cover } from "./episodes/EP-ATIVO07/Cover";
+import { ATIVO08, timeline as ativo08 } from "./episodes/EP-ATIVO08/Episode";
+import { ATIVO08Cover } from "./episodes/EP-ATIVO08/Cover";
+import { ATIVO09, timeline as ativo09 } from "./episodes/EP-ATIVO09/Episode";
+import { ATIVO09Cover } from "./episodes/EP-ATIVO09/Cover";
+import { ATIVOCASE01, timeline as ativocase01 } from "./episodes/EP-ATIVO-CASE01/Episode";
+import { ATIVOCASE01Cover } from "./episodes/EP-ATIVO-CASE01/Cover";
+import { ATIVO10, timeline as ativo10 } from "./episodes/EP-ATIVO10/Episode";
+import { ATIVO10Cover } from "./episodes/EP-ATIVO10/Cover";
+import { ATIVOCASE02, timeline as ativocase02 } from "./episodes/EP-ATIVO-CASE02/Episode";
+import { ATIVOCASE02Cover } from "./episodes/EP-ATIVO-CASE02/Cover";
+import { ATIVOCASE03, timeline as ativocase03 } from "./episodes/EP-ATIVO-CASE03/Episode";
+import { ATIVOCASE03Cover } from "./episodes/EP-ATIVO-CASE03/Cover";
+import { ATIVOREEL04, timeline as ativoreel04 } from "./episodes/EP-ATIVO-REEL04/Episode";
+import { ATIVOREEL04Cover } from "./episodes/EP-ATIVO-REEL04/Cover";
+import { ATIVOREEL05, timeline as ativoreel05 } from "./episodes/EP-ATIVO-REEL05/Episode";
+import { ATIVOREEL05Cover } from "./episodes/EP-ATIVO-REEL05/Cover";
+import { ATIVOREEL06, timeline as ativoreel06 } from "./episodes/EP-ATIVO-REEL06/Episode";
+import { ATIVOREEL06Cover } from "./episodes/EP-ATIVO-REEL06/Cover";
+import { ATIVOREEL07, timeline as ativoreel07 } from "./episodes/EP-ATIVO-REEL07/Episode";
+import { ATIVOREEL07Cover } from "./episodes/EP-ATIVO-REEL07/Cover";
+import { ATIVOREEL08, timeline as ativoreel08 } from "./episodes/EP-ATIVO-REEL08/Episode";
+import { ATIVOREEL08Cover } from "./episodes/EP-ATIVO-REEL08/Cover";
+import { ATIVOREEL09, timeline as ativoreel09 } from "./episodes/EP-ATIVO-REEL09/Episode";
+import { ATIVOREEL09Cover } from "./episodes/EP-ATIVO-REEL09/Cover";
+import { ATIVOREEL10, timeline as ativoreel10 } from "./episodes/EP-ATIVO-REEL10/Episode";
+import { ATIVOREEL10Cover } from "./episodes/EP-ATIVO-REEL10/Cover";
+import { ATIVOREEL11, timeline as ativoreel11 } from "./episodes/EP-ATIVO-REEL11/Episode";
+import { ATIVOREEL11Cover } from "./episodes/EP-ATIVO-REEL11/Cover";
+import { ATIVOREEL12, timeline as ativoreel12 } from "./episodes/EP-ATIVO-REEL12/Episode";
+import { ATIVOREEL12Cover } from "./episodes/EP-ATIVO-REEL12/Cover";
+import { ATIVOREEL13, timeline as ativoreel13 } from "./episodes/EP-ATIVO-REEL13/Episode";
+import { ATIVOREEL13Cover } from "./episodes/EP-ATIVO-REEL13/Cover";
+import { ATIVOREEL14, timeline as ativoreel14 } from "./episodes/EP-ATIVO-REEL14/Episode";
+import { ATIVOREEL14Cover } from "./episodes/EP-ATIVO-REEL14/Cover";
+import { ATIVOREEL15, timeline as ativoreel15 } from "./episodes/EP-ATIVO-REEL15/Episode";
+import { ATIVOREEL15Cover } from "./episodes/EP-ATIVO-REEL15/Cover";
+import { AD01, timeline as ad01 } from "./episodes/AD-ATIVO-01/Episode";
+import { AD02, timeline as ad02 } from "./episodes/AD-ATIVO-02/Episode";
 import { LandingAtivo, timeline as lpAtivo } from "./episodes/LP-ATIVO/Landing";
 import { LandingPoster } from "./episodes/LP-ATIVO/Poster";
 import { LandingAtivoV2, timeline as lpAtivoV2 } from "./episodes/LP-ATIVO-V2/Landing";
@@ -39,7 +87,43 @@ import { LandingPoster as LandingPosterV2 } from "./episodes/LP-ATIVO-V2/Poster"
 import { LandingAtivoV3, timeline as lpAtivoV3 } from "./episodes/LP-ATIVO-V3/Landing";
 import { LandingPoster as LandingPosterV3 } from "./episodes/LP-ATIVO-V3/Poster";
 import { Story01, timeline as story01 } from "./episodes/STORY-ATIVO-01/Story";
+import { Story02, timeline as story02 } from "./episodes/STORY-ATIVO-02/Story";
+import { Story03, timeline as story03 } from "./episodes/STORY-ATIVO-03/Story";
+import { Story04, timeline as story04 } from "./episodes/STORY-ATIVO-04/Story";
+import { Story05, timeline as story05 } from "./episodes/STORY-ATIVO-05/Story";
 import { VIDEO } from "./theme";
+import { NOV26_01, timeline as nov26_01 } from "./episodes/ATIVO-NOV26-01/Episode";
+import { NOV26_01Cover } from "./episodes/ATIVO-NOV26-01/Cover";
+import { NOV26_02, timeline as nov26_02 } from "./episodes/ATIVO-NOV26-02/Episode";
+import { NOV26_02Cover } from "./episodes/ATIVO-NOV26-02/Cover";
+import { NOV26_03, timeline as nov26_03 } from "./episodes/ATIVO-NOV26-03/Episode";
+import { NOV26_03Cover } from "./episodes/ATIVO-NOV26-03/Cover";
+import { NOV26_04, timeline as nov26_04 } from "./episodes/ATIVO-NOV26-04/Episode";
+import { NOV26_04Cover } from "./episodes/ATIVO-NOV26-04/Cover";
+import { NOV26_05, timeline as nov26_05 } from "./episodes/ATIVO-NOV26-05/Episode";
+import { NOV26_05Cover } from "./episodes/ATIVO-NOV26-05/Cover";
+import { NOV26_06, timeline as nov26_06 } from "./episodes/ATIVO-NOV26-06/Episode";
+import { NOV26_06Cover } from "./episodes/ATIVO-NOV26-06/Cover";
+import { NOV26_07, timeline as nov26_07 } from "./episodes/ATIVO-NOV26-07/Episode";
+import { NOV26_07Cover } from "./episodes/ATIVO-NOV26-07/Cover";
+import { NOV26_08, timeline as nov26_08 } from "./episodes/ATIVO-NOV26-08/Episode";
+import { NOV26_08Cover } from "./episodes/ATIVO-NOV26-08/Cover";
+import { NOV26_09, timeline as nov26_09 } from "./episodes/ATIVO-NOV26-09/Episode";
+import { NOV26_09Cover } from "./episodes/ATIVO-NOV26-09/Cover";
+import { NOV26_10, timeline as nov26_10 } from "./episodes/ATIVO-NOV26-10/Episode";
+import { NOV26_10Cover } from "./episodes/ATIVO-NOV26-10/Cover";
+import { NOV26_11, timeline as nov26_11 } from "./episodes/ATIVO-NOV26-11/Episode";
+import { NOV26_11Cover } from "./episodes/ATIVO-NOV26-11/Cover";
+import { NOV26_12, timeline as nov26_12 } from "./episodes/ATIVO-NOV26-12/Episode";
+import { NOV26_12Cover } from "./episodes/ATIVO-NOV26-12/Cover";
+import { NOV26_13, timeline as nov26_13 } from "./episodes/ATIVO-NOV26-13/Episode";
+import { NOV26_13Cover } from "./episodes/ATIVO-NOV26-13/Cover";
+import { NOV26_14, timeline as nov26_14 } from "./episodes/ATIVO-NOV26-14/Episode";
+import { NOV26_14Cover } from "./episodes/ATIVO-NOV26-14/Cover";
+import { NOV26_15, timeline as nov26_15 } from "./episodes/ATIVO-NOV26-15/Episode";
+import { NOV26_15Cover } from "./episodes/ATIVO-NOV26-15/Cover";
+import { NOV26_16, timeline as nov26_16 } from "./episodes/ATIVO-NOV26-16/Episode";
+import { NOV26_16Cover } from "./episodes/ATIVO-NOV26-16/Cover";
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -232,6 +316,236 @@ export const RemotionRoot: React.FC = () => (
         defaultProps={{ withAudio: true }}
       />
       <Still id="EP-ATIVO02-Capa" component={ATIVO02Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO03"
+        component={ATIVO03}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativo03.fps}
+        durationInFrames={ativo03.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO03-Capa" component={ATIVO03Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO04"
+        component={ATIVO04}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativo04.fps}
+        durationInFrames={ativo04.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO04-Capa" component={ATIVO04Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO05"
+        component={ATIVO05}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativo05.fps}
+        durationInFrames={ativo05.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO05-Capa" component={ATIVO05Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO06"
+        component={ATIVO06}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativo06.fps}
+        durationInFrames={ativo06.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO06-Capa" component={ATIVO06Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO07"
+        component={ATIVO07}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativo07.fps}
+        durationInFrames={ativo07.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO07-Capa" component={ATIVO07Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO08"
+        component={ATIVO08}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativo08.fps}
+        durationInFrames={ativo08.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO08-Capa" component={ATIVO08Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO09"
+        component={ATIVO09}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativo09.fps}
+        durationInFrames={ativo09.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO09-Capa" component={ATIVO09Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO-CASE01"
+        component={ATIVOCASE01}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativocase01.fps}
+        durationInFrames={ativocase01.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO-CASE01-Capa" component={ATIVOCASE01Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO10"
+        component={ATIVO10}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativo10.fps}
+        durationInFrames={ativo10.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO10-Capa" component={ATIVO10Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO-CASE02"
+        component={ATIVOCASE02}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativocase02.fps}
+        durationInFrames={ativocase02.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO-CASE02-Capa" component={ATIVOCASE02Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO-CASE03"
+        component={ATIVOCASE03}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativocase03.fps}
+        durationInFrames={ativocase03.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO-CASE03-Capa" component={ATIVOCASE03Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO-REEL04"
+        component={ATIVOREEL04}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativoreel04.fps}
+        durationInFrames={ativoreel04.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO-REEL04-Capa" component={ATIVOREEL04Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO-REEL05"
+        component={ATIVOREEL05}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativoreel05.fps}
+        durationInFrames={ativoreel05.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO-REEL05-Capa" component={ATIVOREEL05Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO-REEL06"
+        component={ATIVOREEL06}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativoreel06.fps}
+        durationInFrames={ativoreel06.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO-REEL06-Capa" component={ATIVOREEL06Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO-REEL07"
+        component={ATIVOREEL07}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativoreel07.fps}
+        durationInFrames={ativoreel07.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO-REEL07-Capa" component={ATIVOREEL07Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO-REEL08"
+        component={ATIVOREEL08}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativoreel08.fps}
+        durationInFrames={ativoreel08.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO-REEL08-Capa" component={ATIVOREEL08Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO-REEL09"
+        component={ATIVOREEL09}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativoreel09.fps}
+        durationInFrames={ativoreel09.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO-REEL09-Capa" component={ATIVOREEL09Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO-REEL10"
+        component={ATIVOREEL10}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativoreel10.fps}
+        durationInFrames={ativoreel10.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO-REEL10-Capa" component={ATIVOREEL10Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO-REEL11"
+        component={ATIVOREEL11}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativoreel11.fps}
+        durationInFrames={ativoreel11.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO-REEL11-Capa" component={ATIVOREEL11Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO-REEL12"
+        component={ATIVOREEL12}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativoreel12.fps}
+        durationInFrames={ativoreel12.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO-REEL12-Capa" component={ATIVOREEL12Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO-REEL13"
+        component={ATIVOREEL13}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativoreel13.fps}
+        durationInFrames={ativoreel13.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO-REEL13-Capa" component={ATIVOREEL13Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO-REEL14"
+        component={ATIVOREEL14}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativoreel14.fps}
+        durationInFrames={ativoreel14.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO-REEL14-Capa" component={ATIVOREEL14Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition
+        id="EP-ATIVO-REEL15"
+        component={ATIVOREEL15}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ativoreel15.fps}
+        durationInFrames={ativoreel15.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Still id="EP-ATIVO-REEL15-Capa" component={ATIVOREEL15Cover} width={VIDEO.width} height={VIDEO.height} />
     </Folder>
     <Folder name="LP-ATIVO-16x9">
       <Composition
@@ -269,8 +583,29 @@ export const RemotionRoot: React.FC = () => (
       />
       <Still id="LP-ATIVO-V3-Capa" component={LandingPosterV3} width={1920} height={1080} />
     </Folder>
+    <Folder name="ADS-META">
+      {/* Criativos de anúncio 9:16: área útil y 270–1250; CTA para o botão do anúncio. */}
+      <Composition
+        id="AD-ATIVO-01"
+        component={AD01}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ad01.fps}
+        durationInFrames={ad01.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Composition
+        id="AD-ATIVO-02"
+        component={AD02}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={ad02.fps}
+        durationInFrames={ad02.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+    </Folder>
     <Folder name="STORIES-NA-PRATICA">
-      {/* Prévia interna: sem voz (linha do tempo estimada) e sem capturas autorizadas — não publicar. */}
+      {/* Voz oficial gravada em 14/11/2026. Sem autorização dos corretores, os Stories saem com marca d'água de prévia interna. */}
       <Composition
         id="STORY-ATIVO-01"
         component={Story01}
@@ -278,8 +613,78 @@ export const RemotionRoot: React.FC = () => (
         height={VIDEO.height}
         fps={story01.fps}
         durationInFrames={story01.durationInFrames}
-        defaultProps={{ withAudio: false }}
+        defaultProps={{ withAudio: true }}
       />
+      <Composition
+        id="STORY-ATIVO-02"
+        component={Story02}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={story02.fps}
+        durationInFrames={story02.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Composition
+        id="STORY-ATIVO-03"
+        component={Story03}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={story03.fps}
+        durationInFrames={story03.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Composition
+        id="STORY-ATIVO-04"
+        component={Story04}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={story04.fps}
+        durationInFrames={story04.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+      <Composition
+        id="STORY-ATIVO-05"
+        component={Story05}
+        width={VIDEO.width}
+        height={VIDEO.height}
+        fps={story05.fps}
+        durationInFrames={story05.durationInFrames}
+        defaultProps={{ withAudio: true }}
+      />
+    </Folder>
+    <Folder name="ATIVO-NOV26">
+      <Composition id="ATIVO-NOV26-01" component={NOV26_01} width={VIDEO.width} height={VIDEO.height} fps={nov26_01.fps} durationInFrames={nov26_01.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-01-Capa" component={NOV26_01Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-NOV26-02" component={NOV26_02} width={VIDEO.width} height={VIDEO.height} fps={nov26_02.fps} durationInFrames={nov26_02.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-02-Capa" component={NOV26_02Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-NOV26-03" component={NOV26_03} width={VIDEO.width} height={VIDEO.height} fps={nov26_03.fps} durationInFrames={nov26_03.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-03-Capa" component={NOV26_03Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-NOV26-04" component={NOV26_04} width={VIDEO.width} height={VIDEO.height} fps={nov26_04.fps} durationInFrames={nov26_04.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-04-Capa" component={NOV26_04Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-NOV26-05" component={NOV26_05} width={VIDEO.width} height={VIDEO.height} fps={nov26_05.fps} durationInFrames={nov26_05.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-05-Capa" component={NOV26_05Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-NOV26-06" component={NOV26_06} width={VIDEO.width} height={VIDEO.height} fps={nov26_06.fps} durationInFrames={nov26_06.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-06-Capa" component={NOV26_06Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-NOV26-07" component={NOV26_07} width={VIDEO.width} height={VIDEO.height} fps={nov26_07.fps} durationInFrames={nov26_07.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-07-Capa" component={NOV26_07Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-NOV26-08" component={NOV26_08} width={VIDEO.width} height={VIDEO.height} fps={nov26_08.fps} durationInFrames={nov26_08.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-08-Capa" component={NOV26_08Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-NOV26-09" component={NOV26_09} width={VIDEO.width} height={VIDEO.height} fps={nov26_09.fps} durationInFrames={nov26_09.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-09-Capa" component={NOV26_09Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-NOV26-10" component={NOV26_10} width={VIDEO.width} height={VIDEO.height} fps={nov26_10.fps} durationInFrames={nov26_10.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-10-Capa" component={NOV26_10Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-NOV26-11" component={NOV26_11} width={VIDEO.width} height={VIDEO.height} fps={nov26_11.fps} durationInFrames={nov26_11.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-11-Capa" component={NOV26_11Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-NOV26-12" component={NOV26_12} width={VIDEO.width} height={VIDEO.height} fps={nov26_12.fps} durationInFrames={nov26_12.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-12-Capa" component={NOV26_12Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-NOV26-13" component={NOV26_13} width={VIDEO.width} height={VIDEO.height} fps={nov26_13.fps} durationInFrames={nov26_13.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-13-Capa" component={NOV26_13Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-NOV26-14" component={NOV26_14} width={VIDEO.width} height={VIDEO.height} fps={nov26_14.fps} durationInFrames={nov26_14.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-14-Capa" component={NOV26_14Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-NOV26-15" component={NOV26_15} width={VIDEO.width} height={VIDEO.height} fps={nov26_15.fps} durationInFrames={nov26_15.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-15-Capa" component={NOV26_15Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-NOV26-16" component={NOV26_16} width={VIDEO.width} height={VIDEO.height} fps={nov26_16.fps} durationInFrames={nov26_16.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-16-Capa" component={NOV26_16Cover} width={VIDEO.width} height={VIDEO.height} />
     </Folder>
   </>
 );

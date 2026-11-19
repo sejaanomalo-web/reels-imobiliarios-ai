@@ -1,0 +1,646 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "lote": "NOV26",
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "FipeZAP": "Fipe Zap"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-NOV26-09",
+ "title": "Anunciar acima para depois negociar",
+ "outputDir": "ATIVO_NOV26_09",
+ "deliverables": {
+  "final": "ATIVO_NOV26_09_FINAL.mp4",
+  "narration": "ATIVO_NOV26_09_NARRACAO.wav",
+  "subtitles": "ATIVO_NOV26_09_legendas.srt",
+  "cover": "ATIVO_NOV26_09_capa.png"
+ },
+ "fonte": "ROTEIROS/LOTE_NOV2026/ATIVO_NOV26_09.md (lote ATIVO_30_ROTEIROS_NOV2026.docx, cliente, 17/11/2026)",
+ "apuracao": {
+  "fato": "Raio-X FipeZAP 3º tri 2026: nas transações fechadas com desconto, o abatimento médio foi de 13% (11% no 3º tri 2025); 67% das transações tiveram desconto; 758 respondentes, coleta 5/10–3/11/2026",
+  "verificado_em": "2026-11-19",
+  "fontes": [
+   "https://portas.com.br/noticias/intencao-de-compra-cai-enquanto-descontos-na-compra-de-imoveis-crescem-aponta-fipezap/ (roteiro)",
+   "https://paraibabusiness.com.br/descontos-na-compra-de-imoveis-avancam-enquanto-intencao-de-compra-recua-no-brasil/",
+   "https://www.infomoney.com.br/?p=3103082"
+  ],
+  "cuidados": "na tela: DESCONTO MÉDIO · SÓ NAS VENDAS COM DESCONTO · RAIO-X FIPEZAP; alerta 'correlação não prova estratégia'; não prescrever desconto; busca, portal, anúncios e ficha ILUSTRATIVOS, sem marcas reais nem valores"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que aceita anunciar acima do mercado para 'ter margem'",
+  "motivacao": "não perder compradores no filtro e manter o proprietário no plano",
+  "crenca_questionada": "anunciar acima dá margem e não custa nada",
+  "hipotese": "pedido do proprietário → busca ilustrativa com filtro de orçamento → dado de desconto (13% só nas vendas com desconto) com alerta causal → ficha de captação com data de revisão",
+  "funcao": "educação / captação e preço",
+  "promessa": "combinar preço com comparáveis e data de revisão",
+  "evidencias": "Raio-X FipeZAP 3º tri 2026: desconto médio 13% (11% um ano antes), só nas transações com desconto",
+  "cta": "comentário SISTEMA → Direct; 'Comente' → transição com o texto de tela PREÇO + PLANO DE REVISÃO"
+ },
+ "cta": {
+  "original_cta": "Qual é a objeção de proprietário mais comum para você? Comente.",
+  "transition_adapted": "Na captação, leve preço e plano de revisão.",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Um proprietário pede para anunciar acima do mercado, porque quer “ter margem para negociar”.",
+   "caption": "Um *proprietário* | pede para anunciar | *acima do mercado,* | porque quer | “ter margem | para negociar”.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "O problema é o que acontece antes da proposta.",
+   "caption": "O *problema* | é o que acontece | *antes da proposta.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "Imagine um apartamento que aparece na busca ao lado de outros semelhantes.",
+   "caption": "Imagine | um apartamento | que aparece na *busca* | ao lado de outros | *semelhantes.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "O preço maior pode afastar quem está filtrando por orçamento, antes mesmo da primeira conversa.",
+   "caption": "O *preço maior* | pode *afastar* | quem está filtrando | por *orçamento,* | antes mesmo | da primeira *conversa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t2",
+   "text": "A pesquisa Raio-X FipeZAP mostrou descontos médios maiores nas transações em que houve negociação.",
+   "caption": "A pesquisa | *Raio-X FipeZAP* | mostrou *descontos médios* | maiores | nas transações | em que houve | *negociação.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t2",
+   "text": "Mas isso não prova que inflar anúncios seja uma boa estratégia.",
+   "caption": "Mas isso | *não prova* | que *inflar anúncios* | seja uma | boa estratégia.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t2",
+   "text": "É uma conclusão diferente.",
+   "caption": "É uma conclusão | *diferente.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t3",
+   "text": "Ao captar, mostre comparáveis e combine um plano de preço com o proprietário.",
+   "caption": "Ao captar, | mostre *comparáveis* | e combine | um *plano de preço* | com o proprietário.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "Se ele optar por testar um valor, defina quando revisar.",
+   "caption": "Se ele optar | por *testar* um valor, | defina | quando *revisar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "t3",
+   "text": "Medir interesse é melhor do que esperar no escuro.",
+   "caption": "*Medir interesse* | é melhor | do que esperar | *no escuro.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "t3",
+   "text": "Na captação, leve preço e plano de revisão.",
+   "caption": "Na captação, | leve *preço* | e *plano de revisão.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): respeitar pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_prop": {
+   "seg": "s1",
+   "word": "proprietário",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_acima": {
+   "seg": "s1",
+   "word": "acima",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_margem": {
+   "seg": "s1",
+   "word": "margem",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_prob": {
+   "seg": "s2",
+   "word": "problema",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_antes": {
+   "seg": "s2",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_proposta": {
+   "seg": "s2",
+   "word": "proposta",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_imag": {
+   "seg": "s3",
+   "word": "Imagine",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_busca": {
+   "seg": "s3",
+   "word": "busca",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_semel": {
+   "seg": "s3",
+   "word": "semelhantes",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_preco": {
+   "seg": "s4",
+   "word": "preço",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_afastar": {
+   "seg": "s4",
+   "word": "afastar",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_filtr": {
+   "seg": "s4",
+   "word": "filtrando",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_conv": {
+   "seg": "s4",
+   "word": "conversa",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_pesq": {
+   "seg": "s5",
+   "word": "pesquisa",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_desc": {
+   "seg": "s5",
+   "word": "descontos",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_neg": {
+   "seg": "s5",
+   "word": "negociação",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_mas": {
+   "seg": "s6",
+   "word": "Mas",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_prova": {
+   "seg": "s6",
+   "word": "prova",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_inflar": {
+   "seg": "s6",
+   "word": "inflar",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_concl": {
+   "seg": "s7",
+   "word": "conclusão",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_captar": {
+   "seg": "s8",
+   "word": "captar",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_comp": {
+   "seg": "s8",
+   "word": "comparáveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_plano": {
+   "seg": "s8",
+   "word": "plano",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_testar": {
+   "seg": "s9",
+   "word": "testar",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_revisar": {
+   "seg": "s9",
+   "word": "revisar",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_medir": {
+   "seg": "s10",
+   "word": "Medir",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_escuro": {
+   "seg": "s10",
+   "word": "escuro",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_capt": {
+   "seg": "s11",
+   "word": "captação",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_rev": {
+   "seg": "s11",
+   "word": "revisão",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s12",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s12",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s12",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s13",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s13",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s13",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s13",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_prop",
+   "offset": 0.0,
+   "sound": "notif",
+   "gain": -26
+  },
+  {
+   "cue": "h_acima",
+   "offset": 0.05,
+   "sound": "whoosh_up",
+   "gain": -26
+  },
+  {
+   "cue": "h_margem",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "h_prob",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -25
+  },
+  {
+   "cue": "h_proposta",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -29
+  },
+  {
+   "cue": "a_imag",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -24
+  },
+  {
+   "cue": "a_busca",
+   "offset": 0.05,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "a_semel",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "a_preco",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "a_afastar",
+   "offset": 0.05,
+   "sound": "whip",
+   "gain": -26
+  },
+  {
+   "cue": "a_filtr",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -25
+  },
+  {
+   "cue": "a_conv",
+   "offset": 0.05,
+   "sound": "hollow",
+   "gain": -29
+  },
+  {
+   "cue": "b_pesq",
+   "offset": -0.3,
+   "sound": "whoosh_up",
+   "gain": -24
+  },
+  {
+   "cue": "b_desc",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "b_neg",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 4
+  },
+  {
+   "cue": "b_mas",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -25
+  },
+  {
+   "cue": "b_inflar",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -28
+  },
+  {
+   "cue": "b_concl",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "c_captar",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -24
+  },
+  {
+   "cue": "c_comp",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "c_plano",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 3
+  },
+  {
+   "cue": "c_testar",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "c_revisar",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 6
+  },
+  {
+   "cue": "c_medir",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26
+  },
+  {
+   "cue": "c_escuro",
+   "offset": 0.05,
+   "sound": "shimmer",
+   "gain": -27
+  },
+  {
+   "cue": "x_rev",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — margem"
+   },
+   {
+    "at": "cue:a_imag",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — filtro"
+   },
+   {
+    "at": "cue:b_pesq",
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     53
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Dm — dado ≠ estratégia"
+   },
+   {
+    "at": "cue:c_captar",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — plano"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}

@@ -1,0 +1,120 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 6.1,
+    "palavras_nao_reconhecidas": [
+      "vendeu"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.71,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.0,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 9.89,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.0,
+    "palavras_nao_reconhecidas": [
+      "conferiu"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.64,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 3.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 6.11,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.75,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.07,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 2.04,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 5.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s14",
+    "seconds": 4.46,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s15",
+    "seconds": 3.68,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s16",
+    "seconds": 2.59,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s17",
+    "seconds": 3.4,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s18",
+    "seconds": 4.84,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s19",
+    "seconds": 2.73,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 83.56,
+    "asr_match": 0.988,
+    "aligned_words": "209/212",
+    "words_per_min": 152,
+    "heard": "Se você está começando como corretor, não precisa fingir que já vender dezenas de imóveis para parecer confiável. Existe uma forma mais interessante de construir autoridade. Mostrar como você pensa. Primeiro, explique critérios do mercado em que atua. Em vez de dizer que um bairro é o melhor, mostre o que vale pesquisar. Mobilidade, serviços próximos, perfil das ruas e diferença entre regiões. Use fontes e observações que você realmente conferir. Segundo, analise imóveis com equilíbrio. Mostre para quem a planta pode funcionar e para quem talvez não funcione. Um apartamento com pouca manutenção pode interessar uma pessoa e ser ruim para uma família que precisa de três quartos. Terceiro, esclareça etapas da compra. O que o interessado deve conferir antes de visitar? Que documentos costumam exigir atenção? Em que momento entram as verificações? Quando houver regras específicas, oriente a procurar fontes oficiais e profissionais responsáveis. Pense nisso. Seu próximo conteúdo não precisa anunciar que você entende do assunto. Ele pode demonstrar esse conhecimento, de um jeito que realmente ajude alguém. Autoridade é percebida no valor do que você explica. Uma atuação mais estratégica também começa pela sua organização. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 83.56,
+      "wpm": 152
+    },
+    "final": {
+      "seconds": 83.56,
+      "wpm": 152
+    }
+  }
+]

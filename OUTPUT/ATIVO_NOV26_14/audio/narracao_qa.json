@@ -1,0 +1,92 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.15,
+    "palavras_nao_reconhecidas": [
+      "cinco"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 1.96,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 0.35,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.94,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.09,
+    "palavras_nao_reconhecidas": [
+      "quatro"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.91,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 5.31,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 9.24,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.16,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.88,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 4.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 2.58,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 52.71,
+    "asr_match": 0.969,
+    "aligned_words": "141/144",
+    "words_per_min": 164,
+    "heard": "Saiu a notícia de mais de 5 mil moradias aptas para contratação no Minha Casa Minha Vida. Isso quer dizer que já estão prontas para vender? Não. Aptas para contratação é uma etapa administrativa. O anúncio do Ministério das Cidades de 4 de novembro trata de propostas de empreendimentos que avançaram nesse processo. Imagine um interessado que vê a notícia e pergunta se já pode escolher a unidade e receber as chaves. Se o corretor confunde a aprovação administrativa com o imóvel disponível, transmite uma informação errada. Antes de publicar sobre empreendimento ou programa, confirme onde fica, em que fase está, quem pode se candidatar e qual canal oficial recebe os interessados. Informação habitacional exige contexto. Antes de anunciar novidade, confira a fase do projeto. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 55.8,
+      "wpm": 155
+    },
+    "pausas_moldadas": {
+      "n": 20,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 3.09,
+    "final": {
+      "seconds": 52.71,
+      "wpm": 164
+    }
+  }
+]

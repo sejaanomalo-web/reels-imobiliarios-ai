@@ -1,0 +1,36 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.25,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.57,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 12.4,
+    "asr_match": 1.0,
+    "aligned_words": "28/28",
+    "words_per_min": 135,
+    "heard": "Aqui a identidade é diferente. O painel da corretora apresenta os imóveis, a visão dos contatos e ferramentas da rotina. Porque organização também pode respeitar a sua marca."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 12.4,
+      "wpm": 135
+    },
+    "final": {
+      "seconds": 12.4,
+      "wpm": 135
+    }
+  }
+]

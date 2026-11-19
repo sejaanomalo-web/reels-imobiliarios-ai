@@ -1,0 +1,1764 @@
+{
+ "id": "EP-ATIVO-REEL07",
+ "title": "O proprietário não quer apenas mais um anúncio",
+ "fps": 30,
+ "duration": 66.96666666666667,
+ "durationInFrames": 2009,
+ "narrationEnd": 64.761,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.33
+  },
+  {
+   "id": "prim",
+   "start": 6.33,
+   "end": 20.955
+  },
+  {
+   "id": "seg",
+   "start": 20.955,
+   "end": 34.44
+  },
+  {
+   "id": "porque",
+   "start": 34.44,
+   "end": 46.91
+  },
+  {
+   "id": "aplic",
+   "start": 46.91,
+   "end": 56.365
+  },
+  {
+   "id": "cta",
+   "start": 56.365,
+   "end": 66.967
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Dois profissionais chegam para captar o mesmo sobrado.",
+   "start": 0.2,
+   "end": 2.98
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Um oferece anúncio.",
+   "start": 3.24,
+   "end": 4.52
+  },
+  {
+   "id": "s3",
+   "scene": "hook",
+   "text": "O outro chega com um plano.",
+   "start": 4.68,
+   "end": 6.14
+  },
+  {
+   "id": "s4",
+   "scene": "prim",
+   "text": "Na primeira conversa, o profissional elogia a casa, tira algumas fotos e promete divulgar.",
+   "start": 6.52,
+   "end": 11.3
+  },
+  {
+   "id": "s5",
+   "scene": "prim",
+   "text": "Mas não explica para quem o imóvel é indicado, como vai apresentar os ambientes nem quais informações ainda precisa confirmar.",
+   "start": 11.64,
+   "end": 17.98
+  },
+  {
+   "id": "s6",
+   "scene": "prim",
+   "text": "O proprietário escuta uma proposta genérica.",
+   "start": 18.36,
+   "end": 20.75
+  },
+  {
+   "id": "s7",
+   "scene": "seg",
+   "text": "Na segunda, o profissional começa verificando os dados do imóvel, pesquisando referências de mercado e organizando uma apresentação adequada.",
+   "start": 21.16,
+   "end": 27.99
+  },
+  {
+   "id": "s8",
+   "scene": "seg",
+   "text": "Explica quais materiais pretende produzir, como fará os retornos e quais próximos passos precisam ser combinados.",
+   "start": 28.28,
+   "end": 34.28
+  },
+  {
+   "id": "s9",
+   "scene": "porque",
+   "text": "O proprietário não consegue garantir o resultado da venda.",
+   "start": 34.6,
+   "end": 37.67
+  },
+  {
+   "id": "s10",
+   "scene": "porque",
+   "text": "Mas consegue avaliar a clareza do processo e a preparação de quem vai representá-lo.",
+   "start": 37.88,
+   "end": 42.36
+  },
+  {
+   "id": "s11",
+   "scene": "porque",
+   "text": "É isso que diferencia um simples pedido de captação de uma proposta profissional.",
+   "start": 42.36,
+   "end": 46.66
+  },
+  {
+   "id": "s12",
+   "scene": "aplic",
+   "text": "Na sua próxima captação, leve menos adjetivos e mais clareza.",
+   "start": 47.16,
+   "end": 51.14
+  },
+  {
+   "id": "s13",
+   "scene": "aplic",
+   "text": "E para mostrar seu processo ao proprietário, ajuda ter cada etapa da captação organizada.",
+   "start": 51.56,
+   "end": 56.21
+  },
+  {
+   "id": "s14",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "start": 56.52,
+   "end": 61.06
+  },
+  {
+   "id": "s15",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "start": 61.429,
+   "end": 64.3
+  }
+ ],
+ "cues": {
+  "h_dois": 0.2,
+  "h_captar": 1.72,
+  "h_sobrado": 2.52,
+  "h_anuncio": 4.04,
+  "h_outro": 4.84,
+  "h_plano": 5.8,
+  "p_prim": 6.76,
+  "p_elogia": 8.547,
+  "p_fotos": 9.96,
+  "p_divulgar": 10.92,
+  "p_nao": 12.04,
+  "p_quem": 12.6,
+  "p_apres": 14.6,
+  "p_info": 16.28,
+  "p_conf": 17.56,
+  "p_prop": 18.52,
+  "p_gen": 20.28,
+  "g_seg": 21.48,
+  "g_verif": 23.0,
+  "g_pesq": 24.44,
+  "g_org": 26.2,
+  "g_adeq": 27.48,
+  "g_mat": 29.16,
+  "g_ret": 31.24,
+  "g_passos": 32.76,
+  "g_comb": 33.8,
+  "q_prop": 34.84,
+  "q_garant": 36.2,
+  "q_venda": 37.4,
+  "q_aval": 38.52,
+  "q_clar": 39.0,
+  "q_prep": 40.2,
+  "q_dif": 43.08,
+  "q_pedido": 44.28,
+  "q_prop2": 45.8,
+  "a_prox": 47.72,
+  "a_adj": 49.56,
+  "a_clar": 50.68,
+  "a_proc": 52.6,
+  "a_etapa": 54.76,
+  "a_org": 55.72,
+  "cta_quer": 56.52,
+  "cta_sys": 57.48,
+  "cta_tiles": 59.32,
+  "cta_comment": 61.429,
+  "cta_word": 61.96,
+  "cta_direct": 63.96,
+  "cta_end": 64.3
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 1.16,
+   "words": [
+    {
+     "text": "Dois",
+     "start": 0.2,
+     "end": 0.6,
+     "emph": true
+    },
+    {
+     "text": "profissionais",
+     "start": 0.6,
+     "end": 1.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.16,
+   "end": 2.2,
+   "words": [
+    {
+     "text": "chegam",
+     "start": 1.16,
+     "end": 1.56,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 1.56,
+     "end": 1.72,
+     "emph": false
+    },
+    {
+     "text": "captar",
+     "start": 1.72,
+     "end": 2.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.2,
+   "end": 3.24,
+   "words": [
+    {
+     "text": "o",
+     "start": 2.2,
+     "end": 2.28,
+     "emph": false
+    },
+    {
+     "text": "mesmo",
+     "start": 2.28,
+     "end": 2.52,
+     "emph": false
+    },
+    {
+     "text": "sobrado.",
+     "start": 2.52,
+     "end": 2.98,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.24,
+   "end": 4.04,
+   "words": [
+    {
+     "text": "Um",
+     "start": 3.24,
+     "end": 3.48,
+     "emph": false
+    },
+    {
+     "text": "oferece",
+     "start": 3.48,
+     "end": 4.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.04,
+   "end": 4.68,
+   "words": [
+    {
+     "text": "anúncio.",
+     "start": 4.04,
+     "end": 4.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 4.68,
+   "end": 5.48,
+   "words": [
+    {
+     "text": "O",
+     "start": 4.68,
+     "end": 4.84,
+     "emph": false
+    },
+    {
+     "text": "outro",
+     "start": 4.84,
+     "end": 5.16,
+     "emph": false
+    },
+    {
+     "text": "chega",
+     "start": 5.16,
+     "end": 5.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 5.48,
+   "end": 6.52,
+   "words": [
+    {
+     "text": "com",
+     "start": 5.48,
+     "end": 5.64,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 5.64,
+     "end": 5.8,
+     "emph": false
+    },
+    {
+     "text": "plano.",
+     "start": 5.8,
+     "end": 6.14,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 6.52,
+   "end": 7.72,
+   "words": [
+    {
+     "text": "Na",
+     "start": 6.52,
+     "end": 6.76,
+     "emph": false
+    },
+    {
+     "text": "primeira",
+     "start": 6.76,
+     "end": 7.08,
+     "emph": true
+    },
+    {
+     "text": "conversa,",
+     "start": 7.08,
+     "end": 7.59,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 7.72,
+   "end": 8.22,
+   "words": [
+    {
+     "text": "o",
+     "start": 7.72,
+     "end": 7.8,
+     "emph": false
+    },
+    {
+     "text": "profissional",
+     "start": 7.8,
+     "end": 7.87,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 8.547,
+   "end": 9.4,
+   "words": [
+    {
+     "text": "elogia",
+     "start": 8.547,
+     "end": 8.92,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 8.92,
+     "end": 9.0,
+     "emph": false
+    },
+    {
+     "text": "casa,",
+     "start": 9.0,
+     "end": 9.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 9.4,
+   "end": 10.28,
+   "words": [
+    {
+     "text": "tira",
+     "start": 9.4,
+     "end": 9.72,
+     "emph": false
+    },
+    {
+     "text": "algumas",
+     "start": 9.72,
+     "end": 9.96,
+     "emph": false
+    },
+    {
+     "text": "fotos",
+     "start": 9.96,
+     "end": 10.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 10.28,
+   "end": 11.64,
+   "words": [
+    {
+     "text": "e",
+     "start": 10.28,
+     "end": 10.44,
+     "emph": false
+    },
+    {
+     "text": "promete",
+     "start": 10.44,
+     "end": 10.92,
+     "emph": false
+    },
+    {
+     "text": "divulgar.",
+     "start": 10.92,
+     "end": 11.3,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 11.64,
+   "end": 12.44,
+   "words": [
+    {
+     "text": "Mas",
+     "start": 11.64,
+     "end": 11.88,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 11.88,
+     "end": 12.04,
+     "emph": true
+    },
+    {
+     "text": "explica",
+     "start": 12.04,
+     "end": 12.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 12.44,
+   "end": 12.84,
+   "words": [
+    {
+     "text": "para",
+     "start": 12.44,
+     "end": 12.6,
+     "emph": false
+    },
+    {
+     "text": "quem",
+     "start": 12.6,
+     "end": 12.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 12.84,
+   "end": 14.12,
+   "words": [
+    {
+     "text": "o",
+     "start": 12.84,
+     "end": 12.92,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 12.92,
+     "end": 13.32,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 13.32,
+     "end": 13.48,
+     "emph": false
+    },
+    {
+     "text": "indicado,",
+     "start": 13.48,
+     "end": 13.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 14.12,
+   "end": 15.08,
+   "words": [
+    {
+     "text": "como",
+     "start": 14.12,
+     "end": 14.36,
+     "emph": false
+    },
+    {
+     "text": "vai",
+     "start": 14.36,
+     "end": 14.6,
+     "emph": false
+    },
+    {
+     "text": "apresentar",
+     "start": 14.6,
+     "end": 15.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 15.08,
+   "end": 15.64,
+   "words": [
+    {
+     "text": "os",
+     "start": 15.08,
+     "end": 15.16,
+     "emph": false
+    },
+    {
+     "text": "ambientes",
+     "start": 15.16,
+     "end": 15.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 15.64,
+   "end": 16.84,
+   "words": [
+    {
+     "text": "nem",
+     "start": 15.64,
+     "end": 15.88,
+     "emph": false
+    },
+    {
+     "text": "quais",
+     "start": 15.88,
+     "end": 16.28,
+     "emph": false
+    },
+    {
+     "text": "informações",
+     "start": 16.28,
+     "end": 16.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 16.84,
+   "end": 17.56,
+   "words": [
+    {
+     "text": "ainda",
+     "start": 16.84,
+     "end": 17.16,
+     "emph": false
+    },
+    {
+     "text": "precisa",
+     "start": 17.16,
+     "end": 17.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.56,
+   "end": 18.36,
+   "words": [
+    {
+     "text": "confirmar.",
+     "start": 17.56,
+     "end": 17.98,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 18.36,
+   "end": 19.16,
+   "words": [
+    {
+     "text": "O",
+     "start": 18.36,
+     "end": 18.52,
+     "emph": false
+    },
+    {
+     "text": "proprietário",
+     "start": 18.52,
+     "end": 19.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 19.16,
+   "end": 19.8,
+   "words": [
+    {
+     "text": "escuta",
+     "start": 19.16,
+     "end": 19.64,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 19.64,
+     "end": 19.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 19.8,
+   "end": 21.16,
+   "words": [
+    {
+     "text": "proposta",
+     "start": 19.8,
+     "end": 20.28,
+     "emph": true
+    },
+    {
+     "text": "genérica.",
+     "start": 20.28,
+     "end": 20.75,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 21.16,
+   "end": 22.04,
+   "words": [
+    {
+     "text": "Na",
+     "start": 21.16,
+     "end": 21.48,
+     "emph": false
+    },
+    {
+     "text": "segunda,",
+     "start": 21.48,
+     "end": 22.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 22.04,
+   "end": 22.6,
+   "words": [
+    {
+     "text": "o",
+     "start": 22.04,
+     "end": 22.12,
+     "emph": false
+    },
+    {
+     "text": "profissional",
+     "start": 22.12,
+     "end": 22.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 22.6,
+   "end": 23.48,
+   "words": [
+    {
+     "text": "começa",
+     "start": 22.6,
+     "end": 23.0,
+     "emph": false
+    },
+    {
+     "text": "verificando",
+     "start": 23.0,
+     "end": 23.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 23.48,
+   "end": 24.44,
+   "words": [
+    {
+     "text": "os",
+     "start": 23.48,
+     "end": 23.56,
+     "emph": false
+    },
+    {
+     "text": "dados",
+     "start": 23.56,
+     "end": 23.8,
+     "emph": false
+    },
+    {
+     "text": "do",
+     "start": 23.8,
+     "end": 23.96,
+     "emph": false
+    },
+    {
+     "text": "imóvel,",
+     "start": 23.96,
+     "end": 24.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 24.44,
+   "end": 25.48,
+   "words": [
+    {
+     "text": "pesquisando",
+     "start": 24.44,
+     "end": 24.92,
+     "emph": true
+    },
+    {
+     "text": "referências",
+     "start": 24.92,
+     "end": 25.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 25.48,
+   "end": 26.04,
+   "words": [
+    {
+     "text": "de",
+     "start": 25.48,
+     "end": 25.56,
+     "emph": false
+    },
+    {
+     "text": "mercado",
+     "start": 25.56,
+     "end": 26.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.04,
+   "end": 26.76,
+   "words": [
+    {
+     "text": "e",
+     "start": 26.04,
+     "end": 26.2,
+     "emph": false
+    },
+    {
+     "text": "organizando",
+     "start": 26.2,
+     "end": 26.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.76,
+   "end": 27.48,
+   "words": [
+    {
+     "text": "uma",
+     "start": 26.76,
+     "end": 26.92,
+     "emph": false
+    },
+    {
+     "text": "apresentação",
+     "start": 26.92,
+     "end": 27.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.48,
+   "end": 28.28,
+   "words": [
+    {
+     "text": "adequada.",
+     "start": 27.48,
+     "end": 27.99,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 28.28,
+   "end": 29.16,
+   "words": [
+    {
+     "text": "Explica",
+     "start": 28.28,
+     "end": 28.84,
+     "emph": false
+    },
+    {
+     "text": "quais",
+     "start": 28.84,
+     "end": 29.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 29.16,
+   "end": 29.56,
+   "words": [
+    {
+     "text": "materiais",
+     "start": 29.16,
+     "end": 29.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 29.56,
+   "end": 30.6,
+   "words": [
+    {
+     "text": "pretende",
+     "start": 29.56,
+     "end": 30.04,
+     "emph": false
+    },
+    {
+     "text": "produzir,",
+     "start": 30.04,
+     "end": 30.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 30.6,
+   "end": 31.16,
+   "words": [
+    {
+     "text": "como",
+     "start": 30.6,
+     "end": 30.84,
+     "emph": false
+    },
+    {
+     "text": "fará",
+     "start": 30.84,
+     "end": 31.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 31.16,
+   "end": 31.88,
+   "words": [
+    {
+     "text": "os",
+     "start": 31.16,
+     "end": 31.24,
+     "emph": false
+    },
+    {
+     "text": "retornos",
+     "start": 31.24,
+     "end": 31.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 31.88,
+   "end": 32.36,
+   "words": [
+    {
+     "text": "e",
+     "start": 31.88,
+     "end": 32.04,
+     "emph": false
+    },
+    {
+     "text": "quais",
+     "start": 32.04,
+     "end": 32.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 32.36,
+   "end": 33.16,
+   "words": [
+    {
+     "text": "próximos",
+     "start": 32.36,
+     "end": 32.76,
+     "emph": true
+    },
+    {
+     "text": "passos",
+     "start": 32.76,
+     "end": 33.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 33.16,
+   "end": 34.6,
+   "words": [
+    {
+     "text": "precisam",
+     "start": 33.16,
+     "end": 33.64,
+     "emph": false
+    },
+    {
+     "text": "ser",
+     "start": 33.64,
+     "end": 33.8,
+     "emph": false
+    },
+    {
+     "text": "combinados.",
+     "start": 33.8,
+     "end": 34.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 34.6,
+   "end": 35.56,
+   "words": [
+    {
+     "text": "O",
+     "start": 34.6,
+     "end": 34.84,
+     "emph": false
+    },
+    {
+     "text": "proprietário",
+     "start": 34.84,
+     "end": 35.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 35.56,
+   "end": 36.6,
+   "words": [
+    {
+     "text": "não",
+     "start": 35.56,
+     "end": 35.72,
+     "emph": true
+    },
+    {
+     "text": "consegue",
+     "start": 35.72,
+     "end": 36.2,
+     "emph": true
+    },
+    {
+     "text": "garantir",
+     "start": 36.2,
+     "end": 36.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 36.6,
+   "end": 37.24,
+   "words": [
+    {
+     "text": "o",
+     "start": 36.6,
+     "end": 36.76,
+     "emph": false
+    },
+    {
+     "text": "resultado",
+     "start": 36.76,
+     "end": 37.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 37.24,
+   "end": 37.88,
+   "words": [
+    {
+     "text": "da",
+     "start": 37.24,
+     "end": 37.4,
+     "emph": false
+    },
+    {
+     "text": "venda.",
+     "start": 37.4,
+     "end": 37.67,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 37.88,
+   "end": 38.92,
+   "words": [
+    {
+     "text": "Mas",
+     "start": 37.88,
+     "end": 38.12,
+     "emph": false
+    },
+    {
+     "text": "consegue",
+     "start": 38.12,
+     "end": 38.52,
+     "emph": false
+    },
+    {
+     "text": "avaliar",
+     "start": 38.52,
+     "end": 38.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 38.92,
+   "end": 39.96,
+   "words": [
+    {
+     "text": "a",
+     "start": 38.92,
+     "end": 39.0,
+     "emph": false
+    },
+    {
+     "text": "clareza",
+     "start": 39.0,
+     "end": 39.48,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 39.48,
+     "end": 39.56,
+     "emph": false
+    },
+    {
+     "text": "processo",
+     "start": 39.56,
+     "end": 39.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 39.96,
+   "end": 40.68,
+   "words": [
+    {
+     "text": "e",
+     "start": 39.96,
+     "end": 40.12,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 40.12,
+     "end": 40.2,
+     "emph": false
+    },
+    {
+     "text": "preparação",
+     "start": 40.2,
+     "end": 40.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 40.68,
+   "end": 41.336,
+   "words": [
+    {
+     "text": "de",
+     "start": 40.68,
+     "end": 40.84,
+     "emph": false
+    },
+    {
+     "text": "quem",
+     "start": 40.84,
+     "end": 41.08,
+     "emph": false
+    },
+    {
+     "text": "vai",
+     "start": 41.08,
+     "end": 41.336,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 41.336,
+   "end": 42.36,
+   "words": [
+    {
+     "text": "representá-lo.",
+     "start": 41.336,
+     "end": 42.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 42.36,
+   "end": 43.8,
+   "words": [
+    {
+     "text": "É",
+     "start": 42.36,
+     "end": 42.68,
+     "emph": false
+    },
+    {
+     "text": "isso",
+     "start": 42.68,
+     "end": 42.92,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 42.92,
+     "end": 43.08,
+     "emph": false
+    },
+    {
+     "text": "diferencia",
+     "start": 43.08,
+     "end": 43.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 43.8,
+   "end": 44.6,
+   "words": [
+    {
+     "text": "um",
+     "start": 43.8,
+     "end": 43.96,
+     "emph": false
+    },
+    {
+     "text": "simples",
+     "start": 43.96,
+     "end": 44.28,
+     "emph": false
+    },
+    {
+     "text": "pedido",
+     "start": 44.28,
+     "end": 44.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 44.6,
+   "end": 45.4,
+   "words": [
+    {
+     "text": "de",
+     "start": 44.6,
+     "end": 44.68,
+     "emph": false
+    },
+    {
+     "text": "captação",
+     "start": 44.68,
+     "end": 45.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 45.4,
+   "end": 45.8,
+   "words": [
+    {
+     "text": "de",
+     "start": 45.4,
+     "end": 45.64,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 45.64,
+     "end": 45.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 45.8,
+   "end": 47.01,
+   "words": [
+    {
+     "text": "proposta",
+     "start": 45.8,
+     "end": 46.28,
+     "emph": true
+    },
+    {
+     "text": "profissional.",
+     "start": 46.28,
+     "end": 46.66,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 47.16,
+   "end": 47.72,
+   "words": [
+    {
+     "text": "Na",
+     "start": 47.16,
+     "end": 47.23,
+     "emph": false
+    },
+    {
+     "text": "sua",
+     "start": 47.48,
+     "end": 47.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 47.72,
+   "end": 48.76,
+   "words": [
+    {
+     "text": "próxima",
+     "start": 47.72,
+     "end": 48.04,
+     "emph": true
+    },
+    {
+     "text": "captação,",
+     "start": 48.04,
+     "end": 48.63,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 48.76,
+   "end": 50.28,
+   "words": [
+    {
+     "text": "leve",
+     "start": 48.76,
+     "end": 48.83,
+     "emph": false
+    },
+    {
+     "text": "menos",
+     "start": 49.24,
+     "end": 49.56,
+     "emph": false
+    },
+    {
+     "text": "adjetivos",
+     "start": 49.56,
+     "end": 50.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 50.28,
+   "end": 51.56,
+   "words": [
+    {
+     "text": "e",
+     "start": 50.28,
+     "end": 50.44,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 50.44,
+     "end": 50.68,
+     "emph": false
+    },
+    {
+     "text": "clareza.",
+     "start": 50.68,
+     "end": 51.14,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 51.56,
+   "end": 52.44,
+   "words": [
+    {
+     "text": "E",
+     "start": 51.56,
+     "end": 51.63,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 51.8,
+     "end": 52.04,
+     "emph": false
+    },
+    {
+     "text": "mostrar",
+     "start": 52.04,
+     "end": 52.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 52.44,
+   "end": 52.92,
+   "words": [
+    {
+     "text": "seu",
+     "start": 52.44,
+     "end": 52.6,
+     "emph": false
+    },
+    {
+     "text": "processo",
+     "start": 52.6,
+     "end": 52.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 52.92,
+   "end": 53.8,
+   "words": [
+    {
+     "text": "ao",
+     "start": 52.92,
+     "end": 53.16,
+     "emph": false
+    },
+    {
+     "text": "proprietário,",
+     "start": 53.16,
+     "end": 53.65,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 53.8,
+   "end": 54.52,
+   "words": [
+    {
+     "text": "ajuda",
+     "start": 53.8,
+     "end": 54.25,
+     "emph": false
+    },
+    {
+     "text": "ter",
+     "start": 54.25,
+     "end": 54.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 54.52,
+   "end": 55.08,
+   "words": [
+    {
+     "text": "cada",
+     "start": 54.52,
+     "end": 54.76,
+     "emph": false
+    },
+    {
+     "text": "etapa",
+     "start": 54.76,
+     "end": 55.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 55.08,
+   "end": 55.72,
+   "words": [
+    {
+     "text": "da",
+     "start": 55.08,
+     "end": 55.16,
+     "emph": false
+    },
+    {
+     "text": "captação",
+     "start": 55.16,
+     "end": 55.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 55.72,
+   "end": 56.52,
+   "words": [
+    {
+     "text": "organizada.",
+     "start": 55.72,
+     "end": 56.21,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 56.52,
+   "end": 57.32,
+   "words": [
+    {
+     "text": "Quer",
+     "start": 56.52,
+     "end": 56.59,
+     "emph": false
+    },
+    {
+     "text": "conhecer",
+     "start": 56.84,
+     "end": 57.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 57.32,
+   "end": 58.44,
+   "words": [
+    {
+     "text": "um",
+     "start": 57.32,
+     "end": 57.48,
+     "emph": false
+    },
+    {
+     "text": "sistema",
+     "start": 57.48,
+     "end": 57.8,
+     "emph": false
+    },
+    {
+     "text": "personalizado",
+     "start": 57.8,
+     "end": 58.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 58.44,
+   "end": 59.08,
+   "words": [
+    {
+     "text": "para",
+     "start": 58.44,
+     "end": 58.68,
+     "emph": false
+    },
+    {
+     "text": "organizar",
+     "start": 58.68,
+     "end": 59.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 59.08,
+   "end": 60.36,
+   "words": [
+    {
+     "text": "seus",
+     "start": 59.08,
+     "end": 59.32,
+     "emph": false
+    },
+    {
+     "text": "imóveis,",
+     "start": 59.32,
+     "end": 59.88,
+     "emph": true
+    },
+    {
+     "text": "leads",
+     "start": 59.88,
+     "end": 60.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 60.36,
+   "end": 61.429,
+   "words": [
+    {
+     "text": "e",
+     "start": 60.36,
+     "end": 60.52,
+     "emph": false
+    },
+    {
+     "text": "atendimentos?",
+     "start": 60.52,
+     "end": 61.06,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s15",
+   "start": 61.429,
+   "end": 62.52,
+   "words": [
+    {
+     "text": "Comente",
+     "start": 61.429,
+     "end": 61.96,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 61.96,
+     "end": 62.38,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s15",
+   "start": 62.52,
+   "end": 63.24,
+   "words": [
+    {
+     "text": "que",
+     "start": 62.52,
+     "end": 62.68,
+     "emph": false
+    },
+    {
+     "text": "eu",
+     "start": 62.68,
+     "end": 62.76,
+     "emph": false
+    },
+    {
+     "text": "te",
+     "start": 62.76,
+     "end": 62.92,
+     "emph": false
+    },
+    {
+     "text": "envio",
+     "start": 62.92,
+     "end": 63.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s15",
+   "start": 63.24,
+   "end": 63.72,
+   "words": [
+    {
+     "text": "os",
+     "start": 63.24,
+     "end": 63.32,
+     "emph": false
+    },
+    {
+     "text": "detalhes",
+     "start": 63.32,
+     "end": 63.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s15",
+   "start": 63.72,
+   "end": 64.8,
+   "words": [
+    {
+     "text": "pelo",
+     "start": 63.72,
+     "end": 63.96,
+     "emph": false
+    },
+    {
+     "text": "Direct.",
+     "start": 63.96,
+     "end": 64.3,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

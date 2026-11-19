@@ -1,0 +1,1844 @@
+{
+ "id": "EP-ATIVO-REEL04",
+ "title": "Dois atendimentos, a mesma busca",
+ "fps": 30,
+ "duration": 68.9,
+ "durationInFrames": 2067,
+ "narrationEnd": 66.681,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 8.3
+  },
+  {
+   "id": "curto",
+   "start": 8.3,
+   "end": 21.395
+  },
+  {
+   "id": "outro",
+   "start": 21.395,
+   "end": 35.8
+  },
+  {
+   "id": "aprend",
+   "start": 35.8,
+   "end": 49.505
+  },
+  {
+   "id": "aplic",
+   "start": 49.505,
+   "end": 57.82
+  },
+  {
+   "id": "cta",
+   "start": 57.82,
+   "end": 68.9
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Mesma família, mesmo desejo de comprar apartamento.",
+   "start": 0.2,
+   "end": 3.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Dois atendimentos diferentes.",
+   "start": 3.48,
+   "end": 5.0
+  },
+  {
+   "id": "s3",
+   "scene": "hook",
+   "text": "Um começa pelas fotos.",
+   "start": 5.16,
+   "end": 6.29
+  },
+  {
+   "id": "s4",
+   "scene": "hook",
+   "text": "O outro começa pelas perguntas.",
+   "start": 6.52,
+   "end": 8.16
+  },
+  {
+   "id": "s5",
+   "scene": "curto",
+   "text": "Imagina a primeira situação.",
+   "start": 8.44,
+   "end": 9.73
+  },
+  {
+   "id": "s6",
+   "scene": "curto",
+   "text": "A pessoa pede um apartamento e recebe logo dez opções parecidas, com valores, plantas e links.",
+   "start": 10.04,
+   "end": 15.33
+  },
+  {
+   "id": "s7",
+   "scene": "curto",
+   "text": "Ela até agradece, mas continua sem saber o que realmente cabe na rotina e no orçamento.",
+   "start": 15.64,
+   "end": 19.77
+  },
+  {
+   "id": "s8",
+   "scene": "curto",
+   "text": "A conversa esfria.",
+   "start": 20.12,
+   "end": 21.15
+  },
+  {
+   "id": "s9",
+   "scene": "outro",
+   "text": "No segundo atendimento, vêm três perguntas antes da lista: qual é o objetivo da mudança?",
+   "start": 21.64,
+   "end": 26.32
+  },
+  {
+   "id": "s10",
+   "scene": "outro",
+   "text": "O que é indispensável?",
+   "start": 26.6,
+   "end": 27.8
+  },
+  {
+   "id": "s11",
+   "scene": "outro",
+   "text": "E o orçamento já foi validado com quem pode orientar sobre crédito, quando necessário?",
+   "start": 27.96,
+   "end": 32.29
+  },
+  {
+   "id": "s12",
+   "scene": "outro",
+   "text": "A partir daí, as opções começam a fazer sentido.",
+   "start": 32.76,
+   "end": 35.56
+  },
+  {
+   "id": "s13",
+   "scene": "aprend",
+   "text": "Percebe a diferença?",
+   "start": 36.04,
+   "end": 37.03
+  },
+  {
+   "id": "s14",
+   "scene": "aprend",
+   "text": "Não é mostrar menos por preguiça.",
+   "start": 37.4,
+   "end": 39.21
+  },
+  {
+   "id": "s15",
+   "scene": "aprend",
+   "text": "É mostrar o que conversa com a realidade da pessoa.",
+   "start": 39.56,
+   "end": 42.23
+  },
+  {
+   "id": "s16",
+   "scene": "aprend",
+   "text": "Qualificação não é interrogatório.",
+   "start": 42.68,
+   "end": 44.62
+  },
+  {
+   "id": "s17",
+   "scene": "aprend",
+   "text": "É evitar que comprador e profissional percam tempo com possibilidades incompatíveis.",
+   "start": 44.92,
+   "end": 49.21
+  },
+  {
+   "id": "s18",
+   "scene": "aplic",
+   "text": "Antes de mandar a próxima lista, testa essas três perguntas.",
+   "start": 49.8,
+   "end": 53.28
+  },
+  {
+   "id": "s19",
+   "scene": "aplic",
+   "text": "E deixa as respostas de cada comprador registradas para a próxima conversa.",
+   "start": 53.56,
+   "end": 57.34
+  },
+  {
+   "id": "s20",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "start": 58.12,
+   "end": 63.1
+  },
+  {
+   "id": "s21",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "start": 63.459,
+   "end": 66.2
+  }
+ ],
+ "cues": {
+  "h_fam": 0.84,
+  "h_apto": 2.76,
+  "h_dois": 3.48,
+  "h_fotos": 6.04,
+  "h_outro": 6.68,
+  "h_perg": 7.64,
+  "c_imagina": 8.44,
+  "c_pede": 10.44,
+  "c_dez": 12.2,
+  "c_parec": 12.84,
+  "c_valores": 13.8,
+  "c_links": 15.0,
+  "c_agrad": 16.12,
+  "c_sem": 17.4,
+  "c_rotina": 18.76,
+  "c_orc": 19.4,
+  "c_conv": 20.28,
+  "c_esfria": 20.84,
+  "o_seg": 21.88,
+  "o_tres": 23.32,
+  "o_obj": 25.48,
+  "o_indisp": 27.08,
+  "o_orc": 28.28,
+  "o_valid": 29.24,
+  "o_cred": 31.08,
+  "o_partir": 33.0,
+  "o_sentido": 35.24,
+  "a_perc": 36.04,
+  "a_menos": 38.28,
+  "a_real": 41.24,
+  "a_qual": 42.68,
+  "a_interr": 43.96,
+  "a_evitar": 45.16,
+  "a_tempo": 47.4,
+  "a_incomp": 48.44,
+  "p_antes": 49.8,
+  "p_lista": 51.16,
+  "p_tres": 52.52,
+  "p_deixa": 53.667,
+  "p_resp": 54.28,
+  "p_reg": 55.64,
+  "cta_quer": 58.12,
+  "cta_sys": 59.24,
+  "cta_tiles": 61.32,
+  "cta_comment": 63.459,
+  "cta_word": 63.96,
+  "cta_direct": 65.88,
+  "cta_end": 66.2
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 1.4,
+   "words": [
+    {
+     "text": "Mesma",
+     "start": 0.2,
+     "end": 0.28,
+     "emph": false
+    },
+    {
+     "text": "família,",
+     "start": 0.84,
+     "end": 1.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.4,
+   "end": 2.2,
+   "words": [
+    {
+     "text": "mesmo",
+     "start": 1.4,
+     "end": 1.8,
+     "emph": false
+    },
+    {
+     "text": "desejo",
+     "start": 1.8,
+     "end": 2.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.2,
+   "end": 3.48,
+   "words": [
+    {
+     "text": "de",
+     "start": 2.2,
+     "end": 2.36,
+     "emph": false
+    },
+    {
+     "text": "comprar",
+     "start": 2.36,
+     "end": 2.76,
+     "emph": false
+    },
+    {
+     "text": "apartamento.",
+     "start": 2.76,
+     "end": 3.3,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.48,
+   "end": 4.44,
+   "words": [
+    {
+     "text": "Dois",
+     "start": 3.48,
+     "end": 3.8,
+     "emph": true
+    },
+    {
+     "text": "atendimentos",
+     "start": 3.8,
+     "end": 4.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.44,
+   "end": 5.16,
+   "words": [
+    {
+     "text": "diferentes.",
+     "start": 4.44,
+     "end": 5.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 5.16,
+   "end": 5.72,
+   "words": [
+    {
+     "text": "Um",
+     "start": 5.16,
+     "end": 5.4,
+     "emph": false
+    },
+    {
+     "text": "começa",
+     "start": 5.4,
+     "end": 5.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 5.72,
+   "end": 6.52,
+   "words": [
+    {
+     "text": "pelas",
+     "start": 5.72,
+     "end": 6.04,
+     "emph": false
+    },
+    {
+     "text": "fotos.",
+     "start": 6.04,
+     "end": 6.29,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 6.52,
+   "end": 7.4,
+   "words": [
+    {
+     "text": "O",
+     "start": 6.52,
+     "end": 6.68,
+     "emph": false
+    },
+    {
+     "text": "outro",
+     "start": 6.68,
+     "end": 7.0,
+     "emph": false
+    },
+    {
+     "text": "começa",
+     "start": 7.0,
+     "end": 7.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 7.4,
+   "end": 8.44,
+   "words": [
+    {
+     "text": "pelas",
+     "start": 7.4,
+     "end": 7.64,
+     "emph": false
+    },
+    {
+     "text": "perguntas.",
+     "start": 7.64,
+     "end": 8.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 8.44,
+   "end": 9.0,
+   "words": [
+    {
+     "text": "Imagina",
+     "start": 8.44,
+     "end": 8.51,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 9.0,
+   "end": 10.04,
+   "words": [
+    {
+     "text": "a",
+     "start": 9.0,
+     "end": 9.08,
+     "emph": false
+    },
+    {
+     "text": "primeira",
+     "start": 9.08,
+     "end": 9.4,
+     "emph": true
+    },
+    {
+     "text": "situação.",
+     "start": 9.4,
+     "end": 9.73,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 10.04,
+   "end": 10.76,
+   "words": [
+    {
+     "text": "A",
+     "start": 10.04,
+     "end": 10.12,
+     "emph": false
+    },
+    {
+     "text": "pessoa",
+     "start": 10.12,
+     "end": 10.44,
+     "emph": false
+    },
+    {
+     "text": "pede",
+     "start": 10.44,
+     "end": 10.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 10.76,
+   "end": 11.4,
+   "words": [
+    {
+     "text": "um",
+     "start": 10.76,
+     "end": 10.92,
+     "emph": false
+    },
+    {
+     "text": "apartamento",
+     "start": 10.92,
+     "end": 11.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 11.4,
+   "end": 12.2,
+   "words": [
+    {
+     "text": "e",
+     "start": 11.4,
+     "end": 11.48,
+     "emph": false
+    },
+    {
+     "text": "recebe",
+     "start": 11.48,
+     "end": 11.88,
+     "emph": false
+    },
+    {
+     "text": "logo",
+     "start": 11.88,
+     "end": 12.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 12.2,
+   "end": 12.84,
+   "words": [
+    {
+     "text": "dez",
+     "start": 12.2,
+     "end": 12.44,
+     "emph": true
+    },
+    {
+     "text": "opções",
+     "start": 12.44,
+     "end": 12.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 12.84,
+   "end": 13.56,
+   "words": [
+    {
+     "text": "parecidas,",
+     "start": 12.84,
+     "end": 13.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 13.56,
+   "end": 14.44,
+   "words": [
+    {
+     "text": "com",
+     "start": 13.56,
+     "end": 13.8,
+     "emph": false
+    },
+    {
+     "text": "valores,",
+     "start": 13.8,
+     "end": 14.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 14.44,
+   "end": 15.64,
+   "words": [
+    {
+     "text": "plantas",
+     "start": 14.44,
+     "end": 14.92,
+     "emph": false
+    },
+    {
+     "text": "e",
+     "start": 14.92,
+     "end": 15.0,
+     "emph": false
+    },
+    {
+     "text": "links.",
+     "start": 15.0,
+     "end": 15.33,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 15.64,
+   "end": 16.68,
+   "words": [
+    {
+     "text": "Ela",
+     "start": 15.64,
+     "end": 15.88,
+     "emph": false
+    },
+    {
+     "text": "até",
+     "start": 15.88,
+     "end": 16.12,
+     "emph": false
+    },
+    {
+     "text": "agradece,",
+     "start": 16.12,
+     "end": 16.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 16.68,
+   "end": 17.4,
+   "words": [
+    {
+     "text": "mas",
+     "start": 16.68,
+     "end": 16.92,
+     "emph": false
+    },
+    {
+     "text": "continua",
+     "start": 16.92,
+     "end": 17.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 17.4,
+   "end": 17.8,
+   "words": [
+    {
+     "text": "sem",
+     "start": 17.4,
+     "end": 17.56,
+     "emph": true
+    },
+    {
+     "text": "saber",
+     "start": 17.56,
+     "end": 17.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 17.8,
+   "end": 18.68,
+   "words": [
+    {
+     "text": "o",
+     "start": 17.8,
+     "end": 17.88,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 17.88,
+     "end": 18.04,
+     "emph": false
+    },
+    {
+     "text": "realmente",
+     "start": 18.04,
+     "end": 18.36,
+     "emph": false
+    },
+    {
+     "text": "cabe",
+     "start": 18.36,
+     "end": 18.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 18.68,
+   "end": 19.16,
+   "words": [
+    {
+     "text": "na",
+     "start": 18.68,
+     "end": 18.76,
+     "emph": false
+    },
+    {
+     "text": "rotina",
+     "start": 18.76,
+     "end": 19.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 19.16,
+   "end": 20.12,
+   "words": [
+    {
+     "text": "e",
+     "start": 19.16,
+     "end": 19.24,
+     "emph": false
+    },
+    {
+     "text": "no",
+     "start": 19.24,
+     "end": 19.4,
+     "emph": false
+    },
+    {
+     "text": "orçamento.",
+     "start": 19.4,
+     "end": 19.77,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 20.12,
+   "end": 20.84,
+   "words": [
+    {
+     "text": "A",
+     "start": 20.12,
+     "end": 20.28,
+     "emph": false
+    },
+    {
+     "text": "conversa",
+     "start": 20.28,
+     "end": 20.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 20.84,
+   "end": 21.64,
+   "words": [
+    {
+     "text": "esfria.",
+     "start": 20.84,
+     "end": 21.15,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 21.64,
+   "end": 23.0,
+   "words": [
+    {
+     "text": "No",
+     "start": 21.64,
+     "end": 21.88,
+     "emph": false
+    },
+    {
+     "text": "segundo",
+     "start": 21.88,
+     "end": 22.36,
+     "emph": true
+    },
+    {
+     "text": "atendimento,",
+     "start": 22.36,
+     "end": 23.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 23.0,
+   "end": 23.96,
+   "words": [
+    {
+     "text": "vêm",
+     "start": 23.0,
+     "end": 23.32,
+     "emph": false
+    },
+    {
+     "text": "três",
+     "start": 23.32,
+     "end": 23.56,
+     "emph": true
+    },
+    {
+     "text": "perguntas",
+     "start": 23.56,
+     "end": 23.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 23.96,
+   "end": 24.92,
+   "words": [
+    {
+     "text": "antes",
+     "start": 23.96,
+     "end": 24.2,
+     "emph": false
+    },
+    {
+     "text": "da",
+     "start": 24.2,
+     "end": 24.36,
+     "emph": false
+    },
+    {
+     "text": "lista:",
+     "start": 24.36,
+     "end": 24.53,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 24.92,
+   "end": 25.88,
+   "words": [
+    {
+     "text": "qual",
+     "start": 24.92,
+     "end": 24.99,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 25.24,
+     "end": 25.32,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 25.32,
+     "end": 25.48,
+     "emph": false
+    },
+    {
+     "text": "objetivo",
+     "start": 25.48,
+     "end": 25.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 25.88,
+   "end": 26.6,
+   "words": [
+    {
+     "text": "da",
+     "start": 25.88,
+     "end": 26.04,
+     "emph": false
+    },
+    {
+     "text": "mudança?",
+     "start": 26.04,
+     "end": 26.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 26.6,
+   "end": 27.08,
+   "words": [
+    {
+     "text": "O",
+     "start": 26.6,
+     "end": 26.76,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 26.76,
+     "end": 26.92,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 26.92,
+     "end": 27.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 27.08,
+   "end": 27.96,
+   "words": [
+    {
+     "text": "indispensável?",
+     "start": 27.08,
+     "end": 27.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 27.96,
+   "end": 28.92,
+   "words": [
+    {
+     "text": "E",
+     "start": 27.96,
+     "end": 28.12,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 28.12,
+     "end": 28.28,
+     "emph": false
+    },
+    {
+     "text": "orçamento",
+     "start": 28.28,
+     "end": 28.7,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 28.92,
+   "end": 29.72,
+   "words": [
+    {
+     "text": "já",
+     "start": 28.92,
+     "end": 29.08,
+     "emph": false
+    },
+    {
+     "text": "foi",
+     "start": 29.08,
+     "end": 29.24,
+     "emph": false
+    },
+    {
+     "text": "validado",
+     "start": 29.24,
+     "end": 29.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 29.72,
+   "end": 30.84,
+   "words": [
+    {
+     "text": "com",
+     "start": 29.72,
+     "end": 29.88,
+     "emph": false
+    },
+    {
+     "text": "quem",
+     "start": 29.88,
+     "end": 30.12,
+     "emph": false
+    },
+    {
+     "text": "pode",
+     "start": 30.12,
+     "end": 30.36,
+     "emph": false
+    },
+    {
+     "text": "orientar",
+     "start": 30.36,
+     "end": 30.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 30.84,
+   "end": 31.56,
+   "words": [
+    {
+     "text": "sobre",
+     "start": 30.84,
+     "end": 31.08,
+     "emph": false
+    },
+    {
+     "text": "crédito,",
+     "start": 31.08,
+     "end": 31.42,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 31.56,
+   "end": 32.76,
+   "words": [
+    {
+     "text": "quando",
+     "start": 31.56,
+     "end": 31.88,
+     "emph": false
+    },
+    {
+     "text": "necessário?",
+     "start": 31.88,
+     "end": 32.29,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 32.76,
+   "end": 33.72,
+   "words": [
+    {
+     "text": "A",
+     "start": 32.76,
+     "end": 33.0,
+     "emph": false
+    },
+    {
+     "text": "partir",
+     "start": 33.0,
+     "end": 33.32,
+     "emph": false
+    },
+    {
+     "text": "daí,",
+     "start": 33.32,
+     "end": 33.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 33.72,
+   "end": 34.76,
+   "words": [
+    {
+     "text": "as",
+     "start": 33.72,
+     "end": 33.96,
+     "emph": false
+    },
+    {
+     "text": "opções",
+     "start": 33.96,
+     "end": 34.36,
+     "emph": false
+    },
+    {
+     "text": "começam",
+     "start": 34.36,
+     "end": 34.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 34.76,
+   "end": 36.04,
+   "words": [
+    {
+     "text": "a",
+     "start": 34.76,
+     "end": 34.92,
+     "emph": false
+    },
+    {
+     "text": "fazer",
+     "start": 34.92,
+     "end": 35.24,
+     "emph": false
+    },
+    {
+     "text": "sentido.",
+     "start": 35.24,
+     "end": 35.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 36.04,
+   "end": 36.6,
+   "words": [
+    {
+     "text": "Percebe",
+     "start": 36.04,
+     "end": 36.11,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 36.6,
+   "end": 37.4,
+   "words": [
+    {
+     "text": "a",
+     "start": 36.6,
+     "end": 36.68,
+     "emph": false
+    },
+    {
+     "text": "diferença?",
+     "start": 36.68,
+     "end": 37.03,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 37.4,
+   "end": 38.6,
+   "words": [
+    {
+     "text": "Não",
+     "start": 37.4,
+     "end": 37.47,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 37.64,
+     "end": 37.8,
+     "emph": false
+    },
+    {
+     "text": "mostrar",
+     "start": 37.8,
+     "end": 38.28,
+     "emph": false
+    },
+    {
+     "text": "menos",
+     "start": 38.28,
+     "end": 38.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 38.6,
+   "end": 39.56,
+   "words": [
+    {
+     "text": "por",
+     "start": 38.6,
+     "end": 38.76,
+     "emph": false
+    },
+    {
+     "text": "preguiça.",
+     "start": 38.76,
+     "end": 39.21,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s15",
+   "start": 39.56,
+   "end": 40.12,
+   "words": [
+    {
+     "text": "É",
+     "start": 39.56,
+     "end": 39.63,
+     "emph": false
+    },
+    {
+     "text": "mostrar",
+     "start": 39.8,
+     "end": 40.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s15",
+   "start": 40.12,
+   "end": 40.92,
+   "words": [
+    {
+     "text": "o",
+     "start": 40.12,
+     "end": 40.2,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 40.2,
+     "end": 40.44,
+     "emph": false
+    },
+    {
+     "text": "conversa",
+     "start": 40.44,
+     "end": 40.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s15",
+   "start": 40.92,
+   "end": 41.8,
+   "words": [
+    {
+     "text": "com",
+     "start": 40.92,
+     "end": 41.08,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 41.08,
+     "end": 41.24,
+     "emph": false
+    },
+    {
+     "text": "realidade",
+     "start": 41.24,
+     "end": 41.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s15",
+   "start": 41.8,
+   "end": 42.68,
+   "words": [
+    {
+     "text": "da",
+     "start": 41.8,
+     "end": 41.96,
+     "emph": false
+    },
+    {
+     "text": "pessoa.",
+     "start": 41.96,
+     "end": 42.23,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s16",
+   "start": 42.68,
+   "end": 43.56,
+   "words": [
+    {
+     "text": "Qualificação",
+     "start": 42.68,
+     "end": 43.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s16",
+   "start": 43.56,
+   "end": 43.96,
+   "words": [
+    {
+     "text": "não",
+     "start": 43.56,
+     "end": 43.72,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 43.72,
+     "end": 43.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s16",
+   "start": 43.96,
+   "end": 44.92,
+   "words": [
+    {
+     "text": "interrogatório.",
+     "start": 43.96,
+     "end": 44.62,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s17",
+   "start": 44.92,
+   "end": 45.56,
+   "words": [
+    {
+     "text": "É",
+     "start": 44.92,
+     "end": 45.16,
+     "emph": false
+    },
+    {
+     "text": "evitar",
+     "start": 45.16,
+     "end": 45.35,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s17",
+   "start": 45.56,
+   "end": 46.28,
+   "words": [
+    {
+     "text": "que",
+     "start": 45.56,
+     "end": 45.88,
+     "emph": false
+    },
+    {
+     "text": "comprador",
+     "start": 45.88,
+     "end": 46.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s17",
+   "start": 46.28,
+   "end": 46.84,
+   "words": [
+    {
+     "text": "e",
+     "start": 46.28,
+     "end": 46.44,
+     "emph": false
+    },
+    {
+     "text": "profissional",
+     "start": 46.44,
+     "end": 46.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s17",
+   "start": 46.84,
+   "end": 47.64,
+   "words": [
+    {
+     "text": "percam",
+     "start": 46.84,
+     "end": 47.4,
+     "emph": true
+    },
+    {
+     "text": "tempo",
+     "start": 47.4,
+     "end": 47.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s17",
+   "start": 47.64,
+   "end": 48.44,
+   "words": [
+    {
+     "text": "com",
+     "start": 47.64,
+     "end": 47.8,
+     "emph": false
+    },
+    {
+     "text": "possibilidades",
+     "start": 47.8,
+     "end": 48.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s17",
+   "start": 48.44,
+   "end": 49.56,
+   "words": [
+    {
+     "text": "incompatíveis.",
+     "start": 48.44,
+     "end": 49.21,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s18",
+   "start": 49.8,
+   "end": 50.68,
+   "words": [
+    {
+     "text": "Antes",
+     "start": 49.8,
+     "end": 49.88,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 50.2,
+     "end": 50.36,
+     "emph": false
+    },
+    {
+     "text": "mandar",
+     "start": 50.36,
+     "end": 50.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s18",
+   "start": 50.68,
+   "end": 51.64,
+   "words": [
+    {
+     "text": "a",
+     "start": 50.68,
+     "end": 50.76,
+     "emph": false
+    },
+    {
+     "text": "próxima",
+     "start": 50.76,
+     "end": 51.16,
+     "emph": true
+    },
+    {
+     "text": "lista,",
+     "start": 51.16,
+     "end": 51.39,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s18",
+   "start": 51.64,
+   "end": 52.52,
+   "words": [
+    {
+     "text": "testa",
+     "start": 51.64,
+     "end": 52.12,
+     "emph": false
+    },
+    {
+     "text": "essas",
+     "start": 52.12,
+     "end": 52.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s18",
+   "start": 52.52,
+   "end": 53.56,
+   "words": [
+    {
+     "text": "três",
+     "start": 52.52,
+     "end": 52.84,
+     "emph": true
+    },
+    {
+     "text": "perguntas.",
+     "start": 52.84,
+     "end": 53.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s19",
+   "start": 53.56,
+   "end": 54.2,
+   "words": [
+    {
+     "text": "E",
+     "start": 53.56,
+     "end": 53.667,
+     "emph": false
+    },
+    {
+     "text": "deixa",
+     "start": 53.667,
+     "end": 53.74,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s19",
+   "start": 54.2,
+   "end": 54.76,
+   "words": [
+    {
+     "text": "as",
+     "start": 54.2,
+     "end": 54.28,
+     "emph": false
+    },
+    {
+     "text": "respostas",
+     "start": 54.28,
+     "end": 54.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s19",
+   "start": 54.76,
+   "end": 55.64,
+   "words": [
+    {
+     "text": "de",
+     "start": 54.76,
+     "end": 54.84,
+     "emph": false
+    },
+    {
+     "text": "cada",
+     "start": 54.84,
+     "end": 55.08,
+     "emph": false
+    },
+    {
+     "text": "comprador",
+     "start": 55.08,
+     "end": 55.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s19",
+   "start": 55.64,
+   "end": 56.36,
+   "words": [
+    {
+     "text": "registradas",
+     "start": 55.64,
+     "end": 56.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s19",
+   "start": 56.36,
+   "end": 57.69,
+   "words": [
+    {
+     "text": "para",
+     "start": 56.36,
+     "end": 56.52,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 56.52,
+     "end": 56.6,
+     "emph": false
+    },
+    {
+     "text": "próxima",
+     "start": 56.6,
+     "end": 57.0,
+     "emph": false
+    },
+    {
+     "text": "conversa.",
+     "start": 57.0,
+     "end": 57.34,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s20",
+   "start": 58.12,
+   "end": 59.0,
+   "words": [
+    {
+     "text": "Quer",
+     "start": 58.12,
+     "end": 58.2,
+     "emph": false
+    },
+    {
+     "text": "conhecer",
+     "start": 58.52,
+     "end": 59.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s20",
+   "start": 59.0,
+   "end": 60.36,
+   "words": [
+    {
+     "text": "um",
+     "start": 59.0,
+     "end": 59.24,
+     "emph": false
+    },
+    {
+     "text": "sistema",
+     "start": 59.24,
+     "end": 59.56,
+     "emph": false
+    },
+    {
+     "text": "personalizado",
+     "start": 59.56,
+     "end": 60.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s20",
+   "start": 60.36,
+   "end": 61.0,
+   "words": [
+    {
+     "text": "para",
+     "start": 60.36,
+     "end": 60.52,
+     "emph": false
+    },
+    {
+     "text": "organizar",
+     "start": 60.52,
+     "end": 61.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s20",
+   "start": 61.0,
+   "end": 62.44,
+   "words": [
+    {
+     "text": "seus",
+     "start": 61.0,
+     "end": 61.32,
+     "emph": false
+    },
+    {
+     "text": "imóveis,",
+     "start": 61.32,
+     "end": 61.96,
+     "emph": true
+    },
+    {
+     "text": "leads",
+     "start": 61.96,
+     "end": 62.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s20",
+   "start": 62.44,
+   "end": 63.459,
+   "words": [
+    {
+     "text": "e",
+     "start": 62.44,
+     "end": 62.6,
+     "emph": false
+    },
+    {
+     "text": "atendimentos?",
+     "start": 62.6,
+     "end": 63.1,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s21",
+   "start": 63.459,
+   "end": 64.44,
+   "words": [
+    {
+     "text": "Comente",
+     "start": 63.459,
+     "end": 63.96,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 63.96,
+     "end": 64.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s21",
+   "start": 64.44,
+   "end": 65.16,
+   "words": [
+    {
+     "text": "que",
+     "start": 64.44,
+     "end": 64.6,
+     "emph": false
+    },
+    {
+     "text": "eu",
+     "start": 64.6,
+     "end": 64.68,
+     "emph": false
+    },
+    {
+     "text": "te",
+     "start": 64.68,
+     "end": 64.84,
+     "emph": false
+    },
+    {
+     "text": "envio",
+     "start": 64.84,
+     "end": 65.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s21",
+   "start": 65.16,
+   "end": 65.64,
+   "words": [
+    {
+     "text": "os",
+     "start": 65.16,
+     "end": 65.24,
+     "emph": false
+    },
+    {
+     "text": "detalhes",
+     "start": 65.24,
+     "end": 65.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s21",
+   "start": 65.64,
+   "end": 66.7,
+   "words": [
+    {
+     "text": "pelo",
+     "start": 65.64,
+     "end": 65.88,
+     "emph": false
+    },
+    {
+     "text": "Direct.",
+     "start": 65.88,
+     "end": 66.2,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

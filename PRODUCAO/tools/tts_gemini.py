@@ -1,4 +1,5 @@
-"""Síntese de voz pela API do Gemini (modelos *-tts). A chave vem só da variável GEMINI_API_KEY."""
+"""Síntese de voz pela API do Gemini (modelos *-tts). A chave vem só de variável de ambiente: GEMINI_API_KEY, ou a variável
+nomeada em GEMINI_KEY_VAR (ex.: GEMINI_KEY_VAR=GEMINI_API_KEY_2). Nunca gravar a chave em arquivo ou log."""
 import os, json, base64, time, urllib.request, urllib.error
 import numpy as np
 
@@ -7,9 +8,10 @@ API = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateC
 
 def synth_gemini(text, voice, model="gemini-3.8-flash-tts", style=None, retries=3):
     """Retorna (amostras float32, sample_rate). `style` é uma direção de interpretação, não é lida."""
-    key = os.environ.get("GEMINI_API_KEY")
+    var = os.environ.get("GEMINI_KEY_VAR", "GEMINI_API_KEY")
+    key = os.environ.get(var)
     if not key:
-        raise RuntimeError("Defina GEMINI_API_KEY no ambiente para usar a voz do Gemini.")
+        raise RuntimeError(f"Defina {var} no ambiente para usar a voz do Gemini.")
     # Rótulos explícitos: sem eles o modelo lê a direção em voz alta (testado em 3.8-flash-tts).
     prompt = f"# DIREÇÃO (não ler em voz alta)\n{style.strip()}\n\n# TEXTO A SER FALADO\n{text}" if style else text
     body = json.dumps({

@@ -1,0 +1,41 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 1.86,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.32,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 1.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.63,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 9.12,
+    "asr_match": 1.0,
+    "aligned_words": "29/29",
+    "words_per_min": 191,
+    "heard": "Três projetos imobiliários, três formas de apresentar e organizar o trabalho. E sabe o que eles têm em comum? Nenhum precisou começar por um modelo igual para todo mundo."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 9.12,
+      "wpm": 191
+    },
+    "final": {
+      "seconds": 9.12,
+      "wpm": 191
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.77,
+    "palavras_nao_reconhecidas": [
+      "cinquenta",
+      "novecentos"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.5,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.31,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 6.73,
+    "palavras_nao_reconhecidas": [
+      "Poplawski"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 2.24,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.37,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 3.08,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 6.73,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 3.38,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 3.55,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 7.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 3.23,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 4.23,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s14",
+    "seconds": 2.7,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 62.68,
+    "asr_match": 0.963,
+    "aligned_words": "169/175",
+    "words_per_min": 168,
+    "heard": "Ela começou na corretagem aos 50 anos, trabalhando com aluguéis de 900 reais. Hoje é referência em imóveis de alto padrão. O que mudou primeiro não foi o preço das casas. Mônica Poplowski já tinha experiência diante das câmeras, mas precisou aprender o mercado imobiliário, começando por locações pequenas. Ela própria conta que a evolução foi gradual. Primeiro vem o repertório, depois a segurança para atender públicos e imóveis diferentes. Em imóveis de alto padrão, uma apresentação bonita não basta. É preciso estudar materiais, circulação, arquitetura, contexto e perguntas que aquele comprador provavelmente fará. A confiança aparece quando o profissional explica sem improvisar. Talvez você ainda não trabalhe com um imóvel que deseja vender daqui a alguns anos, mas já pode construir o hábito necessário para chegar lá, estudar melhor cada produto e apresentar somente o que consegue sustentar com a informação. Escolhe uma imóvel da sua carteira para estudar com mais profundidade hoje. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 62.68,
+      "wpm": 168
+    },
+    "final": {
+      "seconds": 62.68,
+      "wpm": 168
+    }
+  }
+]

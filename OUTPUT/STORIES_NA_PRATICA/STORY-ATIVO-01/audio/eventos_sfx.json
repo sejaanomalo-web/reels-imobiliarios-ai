@@ -1,0 +1,26 @@
+[
+ {
+  "t": 0.58,
+  "sound": "whoosh_up",
+  "gain": -27,
+  "cue": "a_tres"
+ },
+ {
+  "t": 2.6,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "a_formas"
+ },
+ {
+  "t": 5.54,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "a_comum"
+ },
+ {
+  "t": 8.42,
+  "sound": "shimmer",
+  "gain": -27,
+  "cue": "a_todo"
+ }
+]

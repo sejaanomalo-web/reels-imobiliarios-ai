@@ -1,0 +1,766 @@
+{
+ "id": "EP-ATIVO-REEL10",
+ "title": "Juro alto ou baixo: onde está a negociação?",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "outputDir": "ATIVO_REEL10",
+ "deliverables": {
+  "final": "ATIVO_REEL10_FINAL.mp4",
+  "narration": "ATIVO_REEL10_NARRACAO.wav",
+  "subtitles": "ATIVO_REEL10_legendas.srt",
+  "cover": "ATIVO_REEL10_capa.png"
+ },
+ "fonte": "ROTEIROS/ATIVO_REEL10.md (ATIVO_Reel_10_JUROS_NEGOCIACAO_CONTEXTOS.md, cliente, 17/11/2026)",
+ "diagnostico": {
+  "publico_situacao": "corretor que usa juros/crédito como argumento",
+  "motivacao": "conversas mais qualificadas com compradores e proprietários",
+  "crenca_questionada": "juro mais baixo = imóvel mais barato",
+  "hipotese": "dois cenários hipotéticos (crédito caro × acessível) + quatro perguntas",
+  "funcao": "C2 contraintuitivo",
+  "promessa": "contexto antes do palpite: financiamento, prazo, margem, custos",
+  "evidencias": "atemporal: sem Selic, taxas, Copom, percentuais ou previsão de preço; CENÁRIO HIPOTÉTICO nos dois quadros; sem aconselhamento financeiro",
+  "cta": "comentário SISTEMA → Direct; 'Compartilha' → transição"
+ },
+ "cta": {
+  "original_cta": "Antes de usar juros como argumento de venda, confira os dados do momento e o perfil do comprador. Compartilha com quem atende financiamento.",
+  "original_cta_kept": "Antes de usar juros como argumento de venda, confira os dados do momento e o perfil do comprador.",
+  "transition_adapted": "E para lembrar o que cada comprador respondeu, ajuda ter cada atendimento registrado.",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Juro mais baixo sempre significa imóvel mais barato?",
+   "caption": "*Juro* mais baixo | sempre significa | imóvel *mais barato?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "A resposta depende de uma coisa que muita apresentação esquece.",
+   "caption": "A resposta *depende* | de uma coisa | que muita apresentação | *esquece.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "a",
+   "text": "Imagina um momento de crédito mais caro.",
+   "caption": "Imagina um momento | de *crédito mais caro.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "a",
+   "text": "Parte dos compradores financia menos, alguns adiam planos e certos vendedores podem ficar mais abertos à negociação.",
+   "caption": "Parte dos compradores | *financia menos,* | alguns *adiam* planos | e certos *vendedores* | podem ficar | mais *abertos* | à negociação.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "a",
+   "text": "Mas isso muda conforme a região, o tipo de imóvel e a necessidade de cada lado.",
+   "caption": "Mas isso *muda* | conforme a *região,* | o *tipo de imóvel* | e a *necessidade* | de cada lado.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "b",
+   "text": "Agora imagina crédito mais acessível.",
+   "caption": "Agora imagina | crédito *mais acessível.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "b",
+   "text": "Mais pessoas podem começar a procurar, e em alguns segmentos essa procura aumenta a concorrência pelos imóveis.",
+   "caption": "Mais pessoas | podem começar | a *procurar,* | e em alguns segmentos | essa procura | aumenta a *concorrência* | pelos imóveis.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "b",
+   "text": "Não quer dizer que todo preço sobe ou que toda negociação fica pior.",
+   "caption": "Não quer dizer | que *todo preço sobe* | ou que toda negociação | *fica pior.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "b",
+   "text": "Quer dizer que o contexto mudou.",
+   "caption": "Quer dizer | que o *contexto mudou.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "ap",
+   "text": "É por isso que uma boa orientação não começa com “compra agora” ou “espera cair”.",
+   "caption": "É por isso | que uma boa *orientação* | não começa com | *“compra agora”* | ou *“espera cair”.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "ap",
+   "text": "Começa perguntando: vai financiar? Qual prazo? Qual margem de negociação? E quais custos já foram verificados?",
+   "caption": "Começa perguntando: | vai *financiar?* | Qual *prazo?* | Qual *margem* | de negociação? | E quais *custos* | já foram verificados?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "ap",
+   "text": "Uma conversa responsável vale mais que uma previsão confiante.",
+   "caption": "Uma conversa *responsável* | vale mais | que uma *previsão confiante.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "fim",
+   "text": "Antes de usar juros como argumento de venda, confira os dados do momento e o perfil do comprador.",
+   "caption": "Antes de usar juros | como *argumento* de venda, | confira os *dados do momento* | e o *perfil* do comprador.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "fim",
+   "text": "E para lembrar o que cada comprador respondeu, ajuda ter cada atendimento registrado.",
+   "caption": "E para lembrar | o que cada comprador | *respondeu,* | ajuda ter | cada atendimento | *registrado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s15",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s16",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "a": 0.3,
+  "b": 0.35,
+  "ap": 0.35,
+  "fim": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_juro": {
+   "seg": "s1",
+   "word": "Juro",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_barato": {
+   "seg": "s1",
+   "word": "barato",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_resp": {
+   "seg": "s2",
+   "word": "resposta",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_dep": {
+   "seg": "s2",
+   "word": "depende",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_esq": {
+   "seg": "s2",
+   "word": "esquece",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_imag": {
+   "seg": "s3",
+   "word": "Imagina",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_caro": {
+   "seg": "s3",
+   "word": "caro",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_parte": {
+   "seg": "s4",
+   "word": "Parte",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_fin": {
+   "seg": "s4",
+   "word": "financia",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_adiam": {
+   "seg": "s4",
+   "word": "adiam",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_vend": {
+   "seg": "s4",
+   "word": "vendedores",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_abert": {
+   "seg": "s4",
+   "word": "abertos",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_mas": {
+   "seg": "s5",
+   "word": "Mas",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_reg": {
+   "seg": "s5",
+   "word": "região",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_tipo": {
+   "seg": "s5",
+   "word": "tipo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_nec": {
+   "seg": "s5",
+   "word": "necessidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_agora": {
+   "seg": "s6",
+   "word": "Agora",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_aces": {
+   "seg": "s6",
+   "word": "acessível",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_mais": {
+   "seg": "s7",
+   "word": "Mais",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_proc": {
+   "seg": "s7",
+   "word": "procurar",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_seg": {
+   "seg": "s7",
+   "word": "segmentos",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_conc": {
+   "seg": "s7",
+   "word": "concorrência",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_nao": {
+   "seg": "s8",
+   "word": "Não",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_preco": {
+   "seg": "s8",
+   "word": "preço",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_pior": {
+   "seg": "s8",
+   "word": "pior",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_ctx": {
+   "seg": "s9",
+   "word": "contexto",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_por": {
+   "seg": "s10",
+   "word": "por",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_orient": {
+   "seg": "s10",
+   "word": "orientação",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_compra": {
+   "seg": "s10",
+   "word": "compra",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_espera": {
+   "seg": "s10",
+   "word": "espera",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_perg": {
+   "seg": "s11",
+   "word": "perguntando",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_fin": {
+   "seg": "s11",
+   "word": "financiar",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_prazo": {
+   "seg": "s11",
+   "word": "prazo",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_marg": {
+   "seg": "s11",
+   "word": "margem",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_custos": {
+   "seg": "s11",
+   "word": "custos",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_conv": {
+   "seg": "s12",
+   "word": "conversa",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_prev": {
+   "seg": "s12",
+   "word": "previsão",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_antes": {
+   "seg": "s13",
+   "word": "Antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_arg": {
+   "seg": "s13",
+   "word": "argumento",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_dados": {
+   "seg": "s13",
+   "word": "dados",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_perfil": {
+   "seg": "s13",
+   "word": "perfil",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_e": {
+   "seg": "s14",
+   "word": "E",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_resp": {
+   "seg": "s14",
+   "word": "respondeu",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_reg": {
+   "seg": "s14",
+   "word": "registrado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s15",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s15",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s15",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s16",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s16",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s16",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s16",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_barato",
+   "offset": 0.2,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "h_dep",
+   "offset": 0.1,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "a_imag",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "a_fin",
+   "offset": 0.1,
+   "sound": "thump",
+   "gain": -29
+  },
+  {
+   "cue": "a_adiam",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "a_abert",
+   "offset": 0.1,
+   "sound": "thump",
+   "gain": -29,
+   "pitch": -2
+  },
+  {
+   "cue": "a_reg",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "a_tipo",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "a_nec",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -26,
+   "pitch": 6
+  },
+  {
+   "cue": "b_agora",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "b_proc",
+   "offset": 0.0,
+   "sound": "shuffle",
+   "gain": -30
+  },
+  {
+   "cue": "b_conc",
+   "offset": 0.1,
+   "sound": "notif",
+   "gain": -30
+  },
+  {
+   "cue": "b_preco",
+   "offset": 0.2,
+   "sound": "block",
+   "gain": -29
+  },
+  {
+   "cue": "b_pior",
+   "offset": 0.2,
+   "sound": "block",
+   "gain": -29,
+   "pitch": -2
+  },
+  {
+   "cue": "b_ctx",
+   "offset": 0.1,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "p_por",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "p_compra",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -28
+  },
+  {
+   "cue": "p_espera",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "p_fin",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "p_prazo",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "p_marg",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -26,
+   "pitch": 6
+  },
+  {
+   "cue": "p_custos",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -26,
+   "pitch": 9
+  },
+  {
+   "cue": "p_conv",
+   "offset": 0.2,
+   "sound": "fade_down",
+   "gain": -30,
+   "dur": 1.2
+  },
+  {
+   "cue": "f_antes",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "f_dados",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "f_perfil",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "f_reg",
+   "offset": 0.2,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 96,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — a pergunta"
+   },
+   {
+    "at": "cue:a_imag",
+    "notes": [
+     28,
+     40,
+     47,
+     52,
+     55
+    ],
+    "root": 40,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Em — crédito caro"
+   },
+   {
+    "at": "cue:b_agora",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "F — crédito acessível"
+   },
+   {
+    "at": "cue:p_por",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "C — contexto"
+   },
+   {
+    "at": "cue:f_antes",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — antes do argumento"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}

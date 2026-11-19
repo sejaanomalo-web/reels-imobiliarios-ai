@@ -1,0 +1,606 @@
+{
+ "id": "EP-ATIVO-REEL13",
+ "title": "Por que alguns leads se perdem no meio do caminho",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "outputDir": "ATIVO_REEL13",
+ "deliverables": {
+  "final": "ATIVO_REEL13_FINAL.mp4",
+  "narration": "ATIVO_REEL13_NARRACAO.wav",
+  "subtitles": "ATIVO_REEL13_legendas.srt",
+  "cover": "ATIVO_REEL13_capa.png"
+ },
+ "fonte": "ROTEIROS/ATIVO_REEL13.md (ATIVO_Reel_13_FUNIL_QUATRO_ETAPAS.md, cliente, 17/11/2026)",
+ "diagnostico": {
+  "publico_situacao": "corretor que recebe leads mas perde o acompanhamento",
+  "motivacao": "visibilidade da jornada do contato até o próximo passo",
+  "crenca_questionada": "receber o lead é o trabalho todo / existe máquina que vende sozinha",
+  "hipotese": "framework de 4 etapas: atrair, receber, acompanhar, próximo passo",
+  "funcao": "C3 framework",
+  "promessa": "etapas visíveis e mais fáceis de acompanhar",
+  "evidencias": "sem captura real (não há autorizada no repositório); painel ILUSTRATIVO; 'não existe botão que substitui entender a pessoa' explícito",
+  "cta": "comentário SISTEMA → Direct"
+ },
+ "cta": {
+  "original_cta": "Quer conhecer um sistema que ajude a organizar essa jornada? Comente SISTEMA e veja as possibilidades da ATIVO.",
+  "transition_adapted": null,
+  "note": "CTA do roteiro já era SISTEMA; substituída pela redação padrão (Direct) sem transição extra",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Receber um lead é uma etapa.",
+   "caption": "*Receber* um lead | é uma etapa.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Fazer esse contato avançar sem se perder pelo caminho é outra completamente diferente.",
+   "caption": "Fazer esse contato | *avançar* | sem se perder | pelo caminho | é outra | *completamente diferente.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "ini",
+   "text": "Pensa na jornada de um interessado em apartamento.",
+   "caption": "Pensa na *jornada* | de um interessado | em apartamento.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "ini",
+   "text": "Primeiro, ele vê um conteúdo que responde algo importante.",
+   "caption": "Primeiro, | ele vê um *conteúdo* | que responde | algo importante.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "ini",
+   "text": "Depois, pede informações por um canal claro.",
+   "caption": "Depois, | pede informações | por um *canal claro.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "ini",
+   "text": "Até aqui, o trabalho foi chamar atenção e começar uma conversa.",
+   "caption": "Até aqui, | o trabalho foi | chamar *atenção* | e começar | uma *conversa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "meio",
+   "text": "Agora vem a parte que costuma ficar invisível.",
+   "caption": "Agora vem a parte | que costuma ficar | *invisível.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "meio",
+   "text": "É preciso registrar o que ele procura, lembrar o que já foi explicado e acompanhar o momento da decisão.",
+   "caption": "É preciso *registrar* | o que ele procura, | *lembrar* | o que já foi explicado | e *acompanhar* | o momento da decisão.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "meio",
+   "text": "Quem está comparando não precisa da mesma mensagem de quem pediu uma visita para amanhã.",
+   "caption": "Quem está *comparando* | não precisa | da mesma mensagem | de quem pediu | uma *visita* | para amanhã.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "prox",
+   "text": "A quarta etapa é propor a ação certa: esclarecer uma dúvida, enviar uma opção compatível ou combinar a visita.",
+   "caption": "A quarta etapa | é propor | a *ação certa:* | *esclarecer* uma dúvida, | *enviar* | uma opção compatível | ou *combinar* a visita.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "prox",
+   "text": "Não existe botão que substitui entender a pessoa.",
+   "caption": "Não existe *botão* | que substitui | *entender a pessoa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "prox",
+   "text": "O sistema serve para deixar essas etapas visíveis e mais fáceis de acompanhar.",
+   "caption": "O sistema serve | para deixar | essas etapas *visíveis* | e mais fáceis | de acompanhar.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "ini": 0.3,
+  "meio": 0.35,
+  "prox": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_rec": {
+   "seg": "s1",
+   "word": "Receber",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_etapa": {
+   "seg": "s1",
+   "word": "etapa",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_faz": {
+   "seg": "s2",
+   "word": "Fazer",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_av": {
+   "seg": "s2",
+   "word": "avançar",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_perder": {
+   "seg": "s2",
+   "word": "perder",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_cam": {
+   "seg": "s2",
+   "word": "caminho",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_compl": {
+   "seg": "s2",
+   "word": "completamente",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_pensa": {
+   "seg": "s3",
+   "word": "Pensa",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_jorn": {
+   "seg": "s3",
+   "word": "jornada",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_prim": {
+   "seg": "s4",
+   "word": "Primeiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_cont": {
+   "seg": "s4",
+   "word": "conteúdo",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_dep": {
+   "seg": "s5",
+   "word": "Depois",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_canal": {
+   "seg": "s5",
+   "word": "canal",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_ate": {
+   "seg": "s6",
+   "word": "Até",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_aten": {
+   "seg": "s6",
+   "word": "atenção",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_conv": {
+   "seg": "s6",
+   "word": "conversa",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_agora": {
+   "seg": "s7",
+   "word": "Agora",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_invis": {
+   "seg": "s7",
+   "word": "invisível",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_reg": {
+   "seg": "s8",
+   "word": "registrar",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_lemb": {
+   "seg": "s8",
+   "word": "lembrar",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_acomp": {
+   "seg": "s8",
+   "word": "acompanhar",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_dec": {
+   "seg": "s8",
+   "word": "decisão",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_comp": {
+   "seg": "s9",
+   "word": "comparando",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_vis": {
+   "seg": "s9",
+   "word": "visita",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_quarta": {
+   "seg": "s10",
+   "word": "quarta",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_acao": {
+   "seg": "s10",
+   "word": "ação",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_escl": {
+   "seg": "s10",
+   "word": "esclarecer",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_env": {
+   "seg": "s10",
+   "word": "enviar",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_comb": {
+   "seg": "s10",
+   "word": "combinar",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_nao": {
+   "seg": "s11",
+   "word": "Não",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_bot": {
+   "seg": "s11",
+   "word": "botão",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_ent": {
+   "seg": "s11",
+   "word": "entender",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_sis": {
+   "seg": "s12",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_vis": {
+   "seg": "s12",
+   "word": "visíveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s13",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s13",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s13",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s14",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s14",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s14",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s14",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_rec",
+   "offset": 0.0,
+   "sound": "notif",
+   "gain": -29
+  },
+  {
+   "cue": "h_perder",
+   "offset": 0.1,
+   "sound": "thump",
+   "gain": -29,
+   "pitch": -2
+  },
+  {
+   "cue": "i_pensa",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "i_cont",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "i_canal",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "m_agora",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "m_reg",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "m_lemb",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "m_acomp",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "m_comp",
+   "offset": 0.0,
+   "sound": "shuffle",
+   "gain": -31
+  },
+  {
+   "cue": "p_quarta",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "p_escl",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "p_env",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "p_comb",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "p_bot",
+   "offset": 0.1,
+   "sound": "block",
+   "gain": -29
+  },
+  {
+   "cue": "p_vis",
+   "offset": 0.1,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 96,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — o lead"
+   },
+   {
+    "at": "cue:i_pensa",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — o início"
+   },
+   {
+    "at": "cue:m_agora",
+    "notes": [
+     28,
+     40,
+     47,
+     52,
+     55
+    ],
+    "root": 40,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Em — o meio invisível"
+   },
+   {
+    "at": "cue:p_quarta",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — próximo passo"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}

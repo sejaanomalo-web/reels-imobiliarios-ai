@@ -1,0 +1,689 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "lote": "NOV26",
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-NOV26-11",
+ "title": "Pequeno pode custar mais por metro",
+ "outputDir": "ATIVO_NOV26_11",
+ "deliverables": {
+  "final": "ATIVO_NOV26_11_FINAL.mp4",
+  "narration": "ATIVO_NOV26_11_NARRACAO.wav",
+  "subtitles": "ATIVO_NOV26_11_legendas.srt",
+  "cover": "ATIVO_NOV26_11_capa.png"
+ },
+ "fonte": "ROTEIROS/LOTE_NOV2026/ATIVO_NOV26_11.md (lote ATIVO_30_ROTEIROS_NOV2026.docx, cliente, 17/11/2026)",
+ "apuracao": {
+  "fato": "Índice FipeZAP (preços anunciados): imóveis de 1 dormitório têm o maior preço médio por m² entre as tipologias, na venda e na locação (ex.: locação set/2026 ≈ R$ 72,68/m²); é recorte de preços anunciados, não regra",
+  "verificado_em": "2026-11-19",
+  "fontes": [
+   "https://www.infomoney.com.br/minhas-financas/aluguel-sobe-9-em-12-meses-quase-o-dobro-da-inflacao-aponta-fipezap/ (roteiro)",
+   "https://diariodocomercio.com.br/economia/aluguel-sobe-dobro-inflacao-2026/",
+   "https://www.infomoney.com.br/?p=3395604"
+  ],
+  "cuidados": "sem valores na tela (só barras relativas); 'em alguns recortes'; plantas, investidor e cartões ILUSTRATIVOS; não atribuir dado de aluguel a venda nem vice-versa"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que recomenda imóvel pelo preço por metro quadrado",
+  "motivacao": "recomendar pelo objetivo do cliente e pelo custo total",
+  "crenca_questionada": "menor = mais barato por m² / m² decide sozinho",
+  "hipotese": "planta pequena × grande com R$/m² relativo → fatores que mudam a relação → balança investimento × moradia com cartões de custo e rotina → checklist finalidade/custos/funcionalidade",
+  "funcao": "educação / comparação de imóveis",
+  "promessa": "perguntar a finalidade e comparar custo total, funcionalidade e alternativas",
+  "evidencias": "Índice FipeZAP: 1 dormitório com maior preço médio anunciado por m² (venda e locação) — recorte, sem valores na tela",
+  "cta": "comentário SISTEMA → Direct; 'Siga a ATIVO' → transição de ação (finalidade antes do metro)"
+ },
+ "cta": {
+  "original_cta": "Siga a ATIVO para mais comparações que ajudam na rotina imobiliária.",
+  "transition_adapted": "Comece pela finalidade; o metro vem depois.",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Por que um apartamento de um quarto pode ter metro quadrado mais caro do que um de três?",
+   "caption": "Por que | um apartamento | de *um quarto* | pode ter | metro quadrado | *mais caro* | do que um de *três?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Porque o tamanho não conta a história inteira.",
+   "caption": "Porque o *tamanho* | não conta | a *história inteira.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "Em alguns recortes do mercado, unidades menores têm preço por metro quadrado maior.",
+   "caption": "Em alguns *recortes* | do mercado, | unidades *menores* | têm preço | por metro quadrado | *maior.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "Localização, padrão, oferta e o perfil de quem compra podem mudar essa relação.",
+   "caption": "*Localização,* | *padrão,* | *oferta* | e o *perfil* | de quem compra | podem mudar | essa relação.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t2",
+   "text": "Agora imagine um investidor comparando só preço por metro.",
+   "caption": "Agora imagine | um *investidor* | comparando só | *preço por metro.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t2",
+   "text": "Ele pode ignorar condomínio, vacância, mobília e custo de manutenção.",
+   "caption": "Ele pode ignorar | *condomínio,* | *vacância,* | *mobília* | e custo | de *manutenção.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t2",
+   "text": "E o comprador que vai morar pode ter prioridades completamente diferentes.",
+   "caption": "E o comprador | que vai *morar* | pode ter | *prioridades* | completamente | diferentes.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t3",
+   "text": "Antes de recomendar, pergunte para que o imóvel será usado.",
+   "caption": "Antes de recomendar, | pergunte | *para que* | o imóvel | será usado.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "Depois, compare custo total, funcionalidade e alternativas reais da região.",
+   "caption": "Depois, compare | *custo total,* | *funcionalidade* | e *alternativas reais* | da região.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "t3",
+   "text": "Metro quadrado ajuda, mas não decide sozinho.",
+   "caption": "Metro quadrado | *ajuda,* | mas não decide | *sozinho.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "t3",
+   "text": "Comece pela finalidade; o metro vem depois.",
+   "caption": "Comece | pela *finalidade;* | o metro | vem *depois.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): respeitar pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_porque": {
+   "seg": "s1",
+   "word": "Por",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_um": {
+   "seg": "s1",
+   "word": "quarto",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_caro": {
+   "seg": "s1",
+   "word": "caro",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_tres": {
+   "seg": "s1",
+   "word": "três",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_tam": {
+   "seg": "s2",
+   "word": "tamanho",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_hist": {
+   "seg": "s2",
+   "word": "história",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_rec": {
+   "seg": "s3",
+   "word": "recortes",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_menores": {
+   "seg": "s3",
+   "word": "menores",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_maior": {
+   "seg": "s3",
+   "word": "maior",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_loc": {
+   "seg": "s4",
+   "word": "Localização",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_pad": {
+   "seg": "s4",
+   "word": "padrão",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_oferta": {
+   "seg": "s4",
+   "word": "oferta",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_perfil": {
+   "seg": "s4",
+   "word": "perfil",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_rel": {
+   "seg": "s4",
+   "word": "relação",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_imag": {
+   "seg": "s5",
+   "word": "imagine",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_inv": {
+   "seg": "s5",
+   "word": "investidor",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_metro": {
+   "seg": "s5",
+   "word": "metro",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_cond": {
+   "seg": "s6",
+   "word": "condomínio",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_vac": {
+   "seg": "s6",
+   "word": "vacância",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_mob": {
+   "seg": "s6",
+   "word": "mobília",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_man": {
+   "seg": "s6",
+   "word": "manutenção",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_morar": {
+   "seg": "s7",
+   "word": "morar",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_prio": {
+   "seg": "s7",
+   "word": "prioridades",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_antes": {
+   "seg": "s8",
+   "word": "Antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_usado": {
+   "seg": "s8",
+   "word": "usado",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_custo": {
+   "seg": "s9",
+   "word": "custo",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_func": {
+   "seg": "s9",
+   "word": "funcionalidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_alt": {
+   "seg": "s9",
+   "word": "alternativas",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_ajuda": {
+   "seg": "s10",
+   "word": "ajuda",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_soz": {
+   "seg": "s10",
+   "word": "sozinho",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_fin": {
+   "seg": "s11",
+   "word": "finalidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_dep": {
+   "seg": "s11",
+   "word": "depois",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s12",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s12",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s12",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s13",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s13",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s13",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s13",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_um",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "h_caro",
+   "offset": 0.05,
+   "sound": "whoosh_up",
+   "gain": -26
+  },
+  {
+   "cue": "h_tres",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": -3
+  },
+  {
+   "cue": "h_tam",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "h_hist",
+   "offset": 0.05,
+   "sound": "block",
+   "gain": -26
+  },
+  {
+   "cue": "a_rec",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -24
+  },
+  {
+   "cue": "a_menores",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "a_maior",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 4
+  },
+  {
+   "cue": "a_loc",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "a_pad",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 2
+  },
+  {
+   "cue": "a_oferta",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 4
+  },
+  {
+   "cue": "a_perfil",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 6
+  },
+  {
+   "cue": "a_rel",
+   "offset": 0.05,
+   "sound": "shuffle",
+   "gain": -28
+  },
+  {
+   "cue": "b_imag",
+   "offset": -0.3,
+   "sound": "whoosh_up",
+   "gain": -24
+  },
+  {
+   "cue": "b_inv",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "b_cond",
+   "offset": 0.05,
+   "sound": "thump",
+   "gain": -26
+  },
+  {
+   "cue": "b_vac",
+   "offset": 0.05,
+   "sound": "thump",
+   "gain": -26,
+   "pitch": 2
+  },
+  {
+   "cue": "b_mob",
+   "offset": 0.05,
+   "sound": "thump",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "b_man",
+   "offset": 0.05,
+   "sound": "thump",
+   "gain": -26,
+   "pitch": 6
+  },
+  {
+   "cue": "b_morar",
+   "offset": 0.05,
+   "sound": "whip",
+   "gain": -26
+  },
+  {
+   "cue": "b_prio",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "c_antes",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -24
+  },
+  {
+   "cue": "c_usado",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "c_custo",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 2
+  },
+  {
+   "cue": "c_func",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 4
+  },
+  {
+   "cue": "c_alt",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 6
+  },
+  {
+   "cue": "c_soz",
+   "offset": 0.05,
+   "sound": "hollow",
+   "gain": -30
+  },
+  {
+   "cue": "x_fin",
+   "offset": 0.05,
+   "sound": "shimmer",
+   "gain": -27
+  },
+  {
+   "cue": "x_dep",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — por quê?"
+   },
+   {
+    "at": "cue:a_rec",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — recortes"
+   },
+   {
+    "at": "cue:b_imag",
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     53
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Dm — objetivo"
+   },
+   {
+    "at": "cue:c_antes",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — finalidade"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}

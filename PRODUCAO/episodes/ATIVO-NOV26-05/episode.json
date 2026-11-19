@@ -1,0 +1,591 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "lote": "NOV26",
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-NOV26-05",
+ "title": "Aprovado não é contrato assinado",
+ "outputDir": "ATIVO_NOV26_05",
+ "deliverables": {
+  "final": "ATIVO_NOV26_05_FINAL.mp4",
+  "narration": "ATIVO_NOV26_05_NARRACAO.wav",
+  "subtitles": "ATIVO_NOV26_05_legendas.srt",
+  "cover": "ATIVO_NOV26_05_capa.png"
+ },
+ "fonte": "ROTEIROS/LOTE_NOV2026/ATIVO_NOV26_05.md (lote ATIVO_30_ROTEIROS_NOV2026.docx, cliente, 17/11/2026)",
+ "apuracao": {
+  "fato": "Fluxo típico de financiamento: análise de crédito → avaliação do imóvel (vistoria) → análise documental/jurídica → assinatura do contrato → registro em cartório; nomes e ordem variam por instituição e modalidade",
+  "verificado_em": "2026-11-19",
+  "fontes": [
+   "https://www.caixa.gov.br/voce/habitacao/Paginas/default.aspx (roteiro)",
+   "https://neon.com.br/aprenda/financas-pessoais/comprar-uma-casa-pela-caixa/",
+   "https://www.tenda.com/blog/trilha-da-conquista/tudo-sobre-financiamento-habitacional-caixa/"
+  ],
+  "cuidados": "EXEMPLO HIPOTÉTICO; sem afirmar fraude nem culpar o comprador; sem prazo ou taxa; 'a ordem e os nomes variam por banco' na tela"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que comemora a aprovação inicial do financiamento como venda",
+  "motivacao": "evitar expectativa irreal e quebra de confiança",
+  "crenca_questionada": "aprovado = vendido",
+  "hipotese": "história hipotética em checklist: aprovação inicial → avaliação, documentos, contrato, registro",
+  "funcao": "educação / checklist",
+  "promessa": "dizer a fase, o que falta e quando confirmar",
+  "evidencias": "fluxo geral de financiamento; ordem e nomes variam por banco (nota do roteiro, na tela)",
+  "cta": "comentário SISTEMA → Direct; 'Envie este vídeo' → transição com o texto de tela"
+ },
+ "cta": {
+  "original_cta": "Envie este vídeo para alguém que confunde pré-aprovação com venda concluída.",
+  "transition_adapted": "Aprovação inicial não é fechamento: explique o próximo passo.",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Um cliente mandou: “Meu financiamento foi aprovado!”",
+   "caption": "Um cliente mandou: | “Meu financiamento | foi *aprovado!*”",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "O corretor já comemorou a venda.",
+   "caption": "O corretor | já *comemorou* | a venda.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "hook",
+   "text": "Só que faltava quase tudo.",
+   "caption": "Só que faltava | *quase tudo.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "Numa situação hipotética, a análise inicial parece positiva.",
+   "caption": "Numa situação | *hipotética,* | a análise *inicial* | parece positiva.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t1",
+   "text": "O comprador escolhe o imóvel e acha que a próxima etapa é receber as chaves.",
+   "caption": "O comprador | escolhe o imóvel | e acha que | a próxima etapa | é receber as *chaves.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t1",
+   "text": "Mas ainda podem existir avaliação do bem, conferência de documentos e condições a cumprir.",
+   "caption": "Mas ainda | podem existir | *avaliação* do bem, | conferência | de *documentos* | e *condições* | a cumprir.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t2",
+   "text": "Se o corretor fala “está tudo certo” antes da hora, cria uma expectativa que não controla.",
+   "caption": "Se o corretor fala | “está *tudo certo*” | antes da hora, | cria uma *expectativa* | que não controla.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t2",
+   "text": "Quando aparece uma pendência, a confiança no atendimento sofre.",
+   "caption": "Quando aparece | uma *pendência,* | a *confiança* | no atendimento | sofre.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "Uma orientação melhor é dizer exatamente em que fase a operação está, quais verificações ainda faltam e quando será possível confirmar o próximo passo.",
+   "caption": "Uma orientação melhor | é dizer exatamente | em que *fase* | a operação está, | quais *verificações* | ainda faltam | e quando será possível | confirmar | o *próximo passo.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "t3",
+   "text": "Aprovação inicial não é fechamento: explique o próximo passo.",
+   "caption": "Aprovação inicial | *não é fechamento:* | explique | o próximo passo.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_cli": {
+   "seg": "s1",
+   "word": "cliente",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_aprov": {
+   "seg": "s1",
+   "word": "aprovado",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_corr": {
+   "seg": "s2",
+   "word": "corretor",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_comem": {
+   "seg": "s2",
+   "word": "comemorou",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_so": {
+   "seg": "s3",
+   "word": "Só",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_quase": {
+   "seg": "s3",
+   "word": "quase",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_hip": {
+   "seg": "s4",
+   "word": "hipotética",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_ini": {
+   "seg": "s4",
+   "word": "inicial",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_pos": {
+   "seg": "s4",
+   "word": "positiva",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_comp": {
+   "seg": "s5",
+   "word": "comprador",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_acha": {
+   "seg": "s5",
+   "word": "acha",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_chaves": {
+   "seg": "s5",
+   "word": "chaves",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_mas": {
+   "seg": "s6",
+   "word": "Mas",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_aval": {
+   "seg": "s6",
+   "word": "avaliação",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_doc": {
+   "seg": "s6",
+   "word": "documentos",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_cond": {
+   "seg": "s6",
+   "word": "condições",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_se": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_certo": {
+   "seg": "s7",
+   "word": "certo",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_exp": {
+   "seg": "s7",
+   "word": "expectativa",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_quando": {
+   "seg": "s8",
+   "word": "Quando",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_pend": {
+   "seg": "s8",
+   "word": "pendência",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_conf": {
+   "seg": "s8",
+   "word": "confiança",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_uma": {
+   "seg": "s9",
+   "word": "Uma",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_fase": {
+   "seg": "s9",
+   "word": "fase",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_verif": {
+   "seg": "s9",
+   "word": "verificações",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_quando": {
+   "seg": "s9",
+   "word": "quando",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_prox": {
+   "seg": "s9",
+   "word": "próximo",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_aprov": {
+   "seg": "s10",
+   "word": "Aprovação",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_fech": {
+   "seg": "s10",
+   "word": "fechamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_expl": {
+   "seg": "s10",
+   "word": "explique",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s11",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s11",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s11",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s12",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s12",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s12",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s12",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_cli",
+   "offset": 0.0,
+   "sound": "notif",
+   "gain": -28
+  },
+  {
+   "cue": "h_comem",
+   "offset": 0.1,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "h_quase",
+   "offset": 0.1,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "a_hip",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "a_ini",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "a_chaves",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -28
+  },
+  {
+   "cue": "a_aval",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -27
+  },
+  {
+   "cue": "a_doc",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "a_cond",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "b_certo",
+   "offset": 0.2,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "b_pend",
+   "offset": 0.1,
+   "sound": "alert",
+   "gain": -31
+  },
+  {
+   "cue": "b_conf",
+   "offset": 0.2,
+   "sound": "fade_down",
+   "gain": -30,
+   "dur": 1.0
+  },
+  {
+   "cue": "c_uma",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "c_fase",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -26
+  },
+  {
+   "cue": "c_verif",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "c_prox",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -26,
+   "pitch": 6
+  },
+  {
+   "cue": "x_expl",
+   "offset": 0.1,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "C — aprovado!"
+   },
+   {
+    "at": "cue:h_so",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Am — faltava tudo"
+   },
+   {
+    "at": "cue:b_se",
+    "notes": [
+     28,
+     40,
+     47,
+     52,
+     55
+    ],
+    "root": 40,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Em — expectativa"
+   },
+   {
+    "at": "cue:c_uma",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — próximo passo"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ },
+ "voice": {
+  "tightenPauses": {
+   "min": 0.06,
+   "max": 0.09
+  },
+  "nota": "regra do cliente 19/11/2026: quase sem pausas; sem time-stretch (sem targetWpm)"
+ }
+}

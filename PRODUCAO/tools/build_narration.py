@@ -102,7 +102,11 @@ def caption_words(seg):
         emph = False
         for tok in chunk.split():
             if tok.startswith("*"): emph = True
+            # palavra com hífen ("bem-intencionada") = 1 token na legenda e 2+ palavras no alinhamento:
+            # o token inteiro fica na 1ª palavra e as seguintes entram vazias (mesma posição na tela)
+            n = max(1, len(re.findall(WORD_RE, tok)))
             out.append(dict(text=tok.strip("*"), chunk=c_i, emph=emph))
+            out.extend(dict(text="", chunk=c_i, emph=emph) for _ in range(n - 1))
             if tok.endswith("*"): emph = False
     return out
 
@@ -165,8 +169,10 @@ def source_audio():
     external = PROVIDER in ("arquivo", "file", "external")
     if "--source" in sys.argv:  # adota um arquivo já gerado (ex.: uma audição aprovada) como narração oficial
         import shutil
-        shutil.copyfile(sys.argv[sys.argv.index("--source") + 1], SRC)
-        json.dump(meta, open(SRC_META, "w"), ensure_ascii=False, indent=1)
+        src_arg = sys.argv[sys.argv.index("--source") + 1]
+        if not (os.path.exists(SRC) and os.path.samefile(src_arg, SRC)):  # regerar a partir da própria fonte congelada
+            shutil.copyfile(src_arg, SRC)
+            json.dump(meta, open(SRC_META, "w"), ensure_ascii=False, indent=1)
     elif external:
         assert os.path.exists(SRC), f"provider '{PROVIDER}' exige {SRC}"
     elif "--regen" in sys.argv or not os.path.exists(SRC) or have != meta:
@@ -234,6 +240,38 @@ def tighten_pauses(x, sr, lo, hi):
     return y, (len(x) - len(y)) / sr
 
 
+def shape_pauses(x, sr, keep_under, ratio, cap):
+    """Regra do cliente 19/11/2026 (tarde): respeita respiração e suspense. Pausas ≤ keep_under ficam intactas; as maiores
+    viram keep_under + (excesso × ratio), com teto cap. Mantém o desenho natural da fala sem arrastar. Emendas com fade de 12 ms."""
+    hop = int(sr * 0.01); n = len(x) // hop
+    rms = np.sqrt(np.mean(x[: n * hop].reshape(n, hop) ** 2, axis=1) + 1e-12)
+    quiet = rms < rms.max() * 10 ** (-38 / 20)
+    cuts, run, kept = [], 0, []
+    for i, q in enumerate(list(quiet) + [False]):
+        if q:
+            run += 1
+        else:
+            d = run * 0.01
+            if d > keep_under:
+                tgt = min(cap, keep_under + (d - keep_under) * ratio)
+                a, b = (i - run) * hop, i * hop
+                keep = int(tgt * sr)
+                cuts.append((a + keep // 2, b - (keep - keep // 2)))
+                kept.append(round(tgt, 2))
+            run = 0
+    PROCESSING["pausas_moldadas"] = dict(n=len(kept), max_s=max(kept) if kept else 0)
+    if not cuts:
+        return x, 0.0
+    f = int(0.012 * sr); ramp = np.linspace(1, 0, f)
+    out, prev = [], 0
+    for a, b in cuts:
+        seg = x[prev:a].copy(); seg[-f:] *= ramp
+        out.append(seg); prev = b
+    tail = x[prev:].copy(); tail[:f] *= ramp[::-1]; out.append(tail)
+    y = np.concatenate(out)
+    return y, (len(x) - len(y)) / sr
+
+
 def stretch(x, sr, tempo):
     """Time-stretch com preservação de altura e formantes (rubberband via FFmpeg)."""
     import subprocess, tempfile
@@ -259,7 +297,11 @@ def build_whole():
     nw = sum(len(re.findall(WORD_RE, s["text"])) for s in ep["segments"])
     vcfg = ep.get("voice", {})
     PROCESSING["original"] = dict(seconds=round(len(x) / sr, 2), wpm=round(nw / (len(x) / sr) * 60))
-    if "tightenPauses" in vcfg:
+    if "shapePauses" in vcfg:
+        sp_ = vcfg["shapePauses"]
+        x, saved = shape_pauses(x, sr, sp_.get("keepUnder", 0.22), sp_.get("ratio", 0.6), sp_.get("max", 0.6))
+        PROCESSING["pausas_encurtadas_s"] = round(saved, 2)
+    elif "tightenPauses" in vcfg:
         x, saved = tighten_pauses(x, sr, vcfg["tightenPauses"]["min"], vcfg["tightenPauses"]["max"])
         PROCESSING["pausas_encurtadas_s"] = round(saved, 2)
     if "targetWpm" in vcfg:
@@ -356,8 +398,13 @@ for s in segs:
     ws = [w for w in words_all if w["seg"] == s["id"]]
     for c in sorted(set(w["chunk"] for w in ws)):
         cw = [w for w in ws if w["chunk"] == c]
-        caps.append(dict(seg=s["id"], start=cw[0]["start"], end=cw[-1]["end"],
-                         words=[dict(text=w["text"], start=w["start"], end=w["end"], emph=w["emph"]) for w in cw]))
+        wl = []
+        for w in cw:  # continuação de palavra com hífen: estende a anterior em vez de virar palavra vazia
+            if w["text"] == "" and wl:
+                wl[-1]["end"] = w["end"]
+            else:
+                wl.append(dict(text=w["text"], start=w["start"], end=w["end"], emph=w["emph"]))
+        caps.append(dict(seg=s["id"], start=cw[0]["start"], end=cw[-1]["end"], words=wl))
 for a, b in zip(caps, caps[1:]):
     a["end"] = round(min(max(a["end"], b["start"]), a["end"] + 0.5) if b["start"] - a["end"] < 0.5 else a["end"] + 0.35, 3)
 caps[-1]["end"] = round(caps[-1]["end"] + 0.5, 3)

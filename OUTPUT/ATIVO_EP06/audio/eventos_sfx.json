@@ -1,0 +1,152 @@
+[
+ {
+  "t": 1.61,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "h_cont"
+ },
+ {
+  "t": 2.81,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "h_vis"
+ },
+ {
+  "t": 3.93,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "h_imo"
+ },
+ {
+  "t": 7.5,
+  "sound": "block",
+  "gain": -26,
+  "cue": "h_param"
+ },
+ {
+  "t": 10.4,
+  "sound": "whoosh_up",
+  "gain": -27,
+  "cue": "h_onde"
+ },
+ {
+  "t": 13.02,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "c_acomp"
+ },
+ {
+  "t": 17.18,
+  "sound": "pop",
+  "gain": -26,
+  "cue": "c_anun"
+ },
+ {
+  "t": 20.63,
+  "sound": "alert",
+  "gain": -31,
+  "cue": "c_respo"
+ },
+ {
+  "t": 23.2,
+  "sound": "notif",
+  "gain": -30,
+  "cue": "c_outro"
+ },
+ {
+  "t": 25.66,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "i_siga"
+ },
+ {
+  "t": 31.37,
+  "sound": "block",
+  "gain": -27,
+  "cue": "i_mudou"
+ },
+ {
+  "t": 40.7,
+  "sound": "whoosh_up",
+  "gain": -27,
+  "cue": "v_garg"
+ },
+ {
+  "t": 45.95,
+  "sound": "tick",
+  "gain": -24,
+  "cue": "v_q1"
+ },
+ {
+  "t": 46.99,
+  "sound": "tick",
+  "gain": -24,
+  "cue": "v_q2"
+ },
+ {
+  "t": 48.87,
+  "sound": "tick",
+  "gain": -24,
+  "cue": "v_q3"
+ },
+ {
+  "t": 50.89,
+  "sound": "tick",
+  "gain": -24,
+  "cue": "v_q4"
+ },
+ {
+  "t": 52.03,
+  "sound": "tick",
+  "gain": -24,
+  "cue": "v_q5"
+ },
+ {
+  "t": 54.23,
+  "sound": "thump",
+  "gain": -26,
+  "cue": "v_vaga"
+ },
+ {
+  "t": 56.46,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "g_boa"
+ },
+ {
+  "t": 60.46,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "g_enx"
+ },
+ {
+  "t": 64.76,
+  "sound": "pop",
+  "gain": -26,
+  "cue": "g_sai"
+ },
+ {
+  "t": 67.08,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "cta_sys"
+ },
+ {
+  "t": 70.3,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 71.71,
+  "sound": "typing",
+  "gain": -30,
+  "cue": "cta_word"
+ },
+ {
+  "t": 73.89,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "cta_end"
+ }
+]

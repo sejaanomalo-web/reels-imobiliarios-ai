@@ -1,0 +1,643 @@
+{
+ "id": "ATIVO-NOV26-01",
+ "title": "Selic parada, financiamento caro",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "outputDir": "ATIVO_NOV26_01",
+ "lote": "NOV26",
+ "accent": "#02FB3F",
+ "deliverables": {
+  "final": "ATIVO_NOV26_01_FINAL.mp4",
+  "narration": "ATIVO_NOV26_01_NARRACAO.wav",
+  "subtitles": "ATIVO_NOV26_01_legendas.srt",
+  "cover": "ATIVO_NOV26_01_capa.png"
+ },
+ "fonte": "ROTEIROS/LOTE_NOV2026/ATIVO_NOV26_01.md (lote ATIVO_30_ROTEIROS_NOV2026.docx, cliente, 17/11/2026)",
+ "apuracao": {
+  "fato": "Copom manteve a Selic em 13,75% a.a. em 04/11/2026 (unânime)",
+  "verificado_em": "2026-11-17",
+  "fontes": [
+   "https://www.bcb.gov.br/publicacoes/atascopom/04112026",
+   "https://www.oliberal.com/economia/bc-copom-interrompe-ciclo-de-calibracao-e-mantem-taxa-selic-em-13-75-ao-ano-1.1190560"
+  ],
+  "cuidados": "não equiparar Selic a juros do financiamento; sem taxa, parcela ou valor inventado; sem aconselhamento financeiro individual"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que atende comprador financiado e ouve 'a Selic parou, então o financiamento vai cair'",
+  "motivacao": "responder com segurança sem prometer taxa",
+  "crenca_questionada": "Selic = taxa do financiamento",
+  "hipotese": "separar referência básica de condição do contrato evita promessa errada",
+  "funcao": "educação de mercado / notícia traduzida",
+  "promessa": "explicar por que a simulação muda por perfil e o que fazer antes de responder",
+  "evidencias": "decisão do Copom (fato verificado); perfis e imóvel ilustrativos sem números",
+  "cta": "comentário SISTEMA → Direct (regra 14/11/2026); 'Salve este vídeo…' virou transição"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "original_cta": "Salve este vídeo para lembrar: juros básicos e financiamento não são a mesma coisa.",
+  "transition_adapted": "Lembre: juros básicos e financiamento não são a mesma coisa.",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A Selic ficou em treze vírgula setenta e cinco por cento.",
+   "caption": "A *Selic* ficou em | *treze vírgula* | *setenta e cinco* | *por cento.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Então por que financiar um imóvel ainda pesa tanto no bolso?",
+   "caption": "Então por que | *financiar* um imóvel | ainda pesa tanto | no *bolso?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "Porque a Selic é uma referência importante, mas não é a taxa do contrato imobiliário.",
+   "caption": "Porque a Selic | é uma *referência* | importante, | mas *não é* a taxa | do contrato | imobiliário.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "O banco também considera custo do dinheiro, riscos, prazo e condições daquela operação.",
+   "caption": "O banco também | considera | *custo do dinheiro,* | *riscos,* *prazo* | e *condições* | daquela operação.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t2",
+   "text": "Imagina dois compradores olhando o mesmo apartamento.",
+   "caption": "Imagina | *dois compradores* | olhando o *mesmo* | apartamento.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t2",
+   "text": "Um tem entrada maior e renda estável.",
+   "caption": "Um tem | *entrada maior* | e *renda estável.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t2",
+   "text": "Outro precisa financiar uma parcela maior.",
+   "caption": "Outro precisa | financiar | uma *parcela maior.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t2",
+   "text": "A simulação pode mudar bastante, mesmo no mesmo dia.",
+   "caption": "A *simulação* | pode mudar | bastante, | mesmo no | *mesmo dia.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "Por isso, quando o cliente perguntar se agora é uma boa hora para comprar, não responda só olhando a notícia do Copom.",
+   "caption": "Por isso, | quando o cliente | perguntar | se agora é | uma *boa hora* | para comprar, | não responda | só olhando | a notícia | do *Copom.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "t3",
+   "text": "Entenda o orçamento, faça simulação atualizada e compare alternativas.",
+   "caption": "Entenda | o *orçamento,* | faça simulação | *atualizada* | e *compare* | alternativas.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "t3",
+   "text": "Lembre: juros básicos e financiamento não são a mesma coisa.",
+   "caption": "Lembre: | *juros básicos* | e *financiamento* | não são | a mesma coisa.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_selic": {
+   "seg": "s1",
+   "word": "Selic",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_treze": {
+   "seg": "s1",
+   "word": "treze",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_cento": {
+   "seg": "s1",
+   "word": "cento",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_entao": {
+   "seg": "s2",
+   "word": "Então",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_fin": {
+   "seg": "s2",
+   "word": "financiar",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_bolso": {
+   "seg": "s2",
+   "word": "bolso",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_porque": {
+   "seg": "s3",
+   "word": "Porque",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_ref": {
+   "seg": "s3",
+   "word": "referência",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_nao": {
+   "seg": "s3",
+   "word": "não",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_contrato": {
+   "seg": "s3",
+   "word": "contrato",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_banco": {
+   "seg": "s4",
+   "word": "banco",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_custo": {
+   "seg": "s4",
+   "word": "custo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_riscos": {
+   "seg": "s4",
+   "word": "riscos",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_prazo": {
+   "seg": "s4",
+   "word": "prazo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_cond": {
+   "seg": "s4",
+   "word": "condições",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_imag": {
+   "seg": "s5",
+   "word": "Imagina",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_dois": {
+   "seg": "s5",
+   "word": "dois",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_mesmo": {
+   "seg": "s5",
+   "word": "mesmo",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_um": {
+   "seg": "s6",
+   "word": "Um",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_entrada": {
+   "seg": "s6",
+   "word": "entrada",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_renda": {
+   "seg": "s6",
+   "word": "renda",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_outro": {
+   "seg": "s7",
+   "word": "Outro",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_parcela": {
+   "seg": "s7",
+   "word": "parcela",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_sim": {
+   "seg": "s8",
+   "word": "simulação",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_dia": {
+   "seg": "s8",
+   "word": "dia",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_isso": {
+   "seg": "s9",
+   "word": "isso",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_hora": {
+   "seg": "s9",
+   "word": "hora",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_nao": {
+   "seg": "s9",
+   "word": "não",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_copom": {
+   "seg": "s9",
+   "word": "Copom",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_entenda": {
+   "seg": "s10",
+   "word": "Entenda",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_orc": {
+   "seg": "s10",
+   "word": "orçamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_sim": {
+   "seg": "s10",
+   "word": "simulação",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_compare": {
+   "seg": "s10",
+   "word": "compare",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_lembre": {
+   "seg": "s11",
+   "word": "Lembre",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_juros": {
+   "seg": "s11",
+   "word": "juros",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_fin": {
+   "seg": "s11",
+   "word": "financiamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s12",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s12",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s12",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s13",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s13",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s13",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s13",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_selic",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 2
+  },
+  {
+   "cue": "h_treze",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "h_bolso",
+   "offset": 0.2,
+   "sound": "thump",
+   "gain": -27,
+   "pitch": -3
+  },
+  {
+   "cue": "a_porque",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "a_nao",
+   "offset": 0.1,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "a_custo",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "a_riscos",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 2
+  },
+  {
+   "cue": "a_prazo",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 4
+  },
+  {
+   "cue": "a_cond",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "b_imag",
+   "offset": -0.3,
+   "sound": "whoosh_up",
+   "gain": -27,
+   "dur": 0.5
+  },
+  {
+   "cue": "b_entrada",
+   "offset": 0.2,
+   "sound": "click",
+   "gain": -26
+  },
+  {
+   "cue": "b_parcela",
+   "offset": 0.2,
+   "sound": "click",
+   "gain": -26,
+   "pitch": -2
+  },
+  {
+   "cue": "b_sim",
+   "offset": 0.2,
+   "sound": "shimmer",
+   "gain": -30
+  },
+  {
+   "cue": "c_isso",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "c_copom",
+   "offset": 0.1,
+   "sound": "fade_down",
+   "gain": -30,
+   "dur": 0.8
+  },
+  {
+   "cue": "c_orc",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "c_sim",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 2
+  },
+  {
+   "cue": "c_compare",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 4
+  },
+  {
+   "cue": "c_juros",
+   "offset": 0.1,
+   "sound": "block",
+   "gain": -29
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 92,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     50,
+     53,
+     57
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Dm — Selic parada, crédito caro"
+   },
+   {
+    "at": "cue:a_porque",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "F — referência ≠ contrato"
+   },
+   {
+    "at": "cue:b_imag",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — dois compradores"
+   },
+   {
+    "at": "cue:c_isso",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "C — cenário"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}

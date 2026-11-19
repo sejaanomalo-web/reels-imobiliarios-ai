@@ -1,0 +1,19 @@
+1
+00:00:00,380 --> 00:00:02,520
+Nesse projeto, o corretor acompanha
+
+2
+00:00:02,540 --> 00:00:04,020
+a própria carteira num painel.
+
+3
+00:00:04,140 --> 00:00:06,330
+E o comprador encontra os imóveis no site.
+
+4
+00:00:06,380 --> 00:00:07,400
+Duas experiências,
+
+5
+00:00:07,420 --> 00:00:08,810
+cada uma com sua função.

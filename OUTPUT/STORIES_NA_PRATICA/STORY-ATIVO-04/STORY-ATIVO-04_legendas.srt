@@ -1,0 +1,19 @@
+1
+00:00:00,300 --> 00:00:01,560
+Nesse outro projeto,
+
+2
+00:00:01,580 --> 00:00:03,640
+a prioridade é facilitar a busca.
+
+3
+00:00:03,660 --> 00:00:05,560
+O comprador consegue escolher cidade,
+
+4
+00:00:05,580 --> 00:00:07,240
+tipo de imóvel e quartos
+
+5
+00:00:07,260 --> 00:00:08,280
+antes de pesquisar.

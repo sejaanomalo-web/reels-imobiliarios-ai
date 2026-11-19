@@ -8,7 +8,8 @@ import { ease, mix, prog, sp } from "../../lib/anim";
 import { BRAND, C, F, brandAlpha } from "../../theme";
 import type { Timeline } from "../types";
 import timelineJson from "./timeline.json";
-import { caseLabel, caseOf, CaseAsset, publishable } from "../STORY-ATIVO/cases";
+import { caseLabel, caseOf, CaseAsset, previewable, publishable } from "../STORY-ATIVO/cases";
+import { Drift, PreviewMark } from "../STORY-ATIVO/kit";
 
 export const timeline = timelineJson as Timeline;
 
@@ -26,8 +27,8 @@ const CARDS: { key: CaseAsset["key"]; x: number; rot: number }[] = [
 ];
 
 const Shot: React.FC<{ c: CaseAsset; t: number; i: number }> = ({ c, t, i }) =>
-  publishable(c) ? (
-    <Img src={staticFile(c.file)} style={{ position: "absolute", width: "190%", left: `${-30 - Math.sin(t * 0.3 + i) * 12}%`, top: `${-8 - t * 1.2}%` }} />
+  previewable(c) ? (
+    <Img src={staticFile(c.file)} style={{ position: "absolute", height: "100%", top: 0, left: -Math.min(780, 120 + i * 230 + t * 22) }} />
   ) : (
     <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, background: `repeating-linear-gradient(135deg, #12161B 0 22px, #161B21 22px 44px)` }}>
       <div style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 26, letterSpacing: "0.1em", color: C.muted, textAlign: "center", lineHeight: 1.3 }}>
@@ -45,7 +46,6 @@ export const Story01: React.FC<{ withAudio?: boolean }> = ({ withAudio = false }
   const t = frame / fps;
   const tl = timeline;
   const c = tl.cues;
-  const preview = tl.voice.startsWith("PROVIS") || CARDS.some((k) => !publishable(caseOf(k.key)));
 
   const t1 = sp(t, c.a_tres - 0.1, { damping: 13, stiffness: 170 });
   const t2 = sp(t, c.a_formas - 0.1, { damping: 13, stiffness: 170 });
@@ -59,7 +59,8 @@ export const Story01: React.FC<{ withAudio?: boolean }> = ({ withAudio = false }
   return (
     <AbsoluteFill style={{ backgroundColor: C.bg0, fontFamily: F.sans }}>
       <Background t={t} mood={0.15 + 0.35 * gather} />
-      {/* títulos (a fala está na legenda; aqui só as 2–4 palavras-chave do roteiro) */}
+      <Drift t={t} amt={0.8}>
+        {/* títulos (a fala está na legenda; aqui só as 2–4 palavras-chave do roteiro) */}
       <div style={{ position: "absolute", left: 0, right: 0, top: 300, textAlign: "center", fontWeight: 800, letterSpacing: "-0.04em", lineHeight: 1 }}>
         <div style={{ position: "absolute", left: 0, right: 0, fontSize: 120, color: C.text, opacity: Math.min(1, t1 * 1.5) * (1 - prog(t, c.a_formas - 0.25, 0.25, ease.in)), transform: `scale(${mix(1.3, 1, Math.min(1, t1))})` }}>
           <span style={{ color: BRAND.hex }}>3</span> PROJETOS
@@ -97,12 +98,11 @@ export const Story01: React.FC<{ withAudio?: boolean }> = ({ withAudio = false }
       <div style={{ position: "absolute", left: 0, right: 0, top: 1150, display: "flex", justifyContent: "center", opacity: Math.min(1, logo * 1.5), clipPath: `inset(-20% ${(1 - prog(t, c.a_todo - 0.2, 0.6, ease.out)) * 100}% -20% -5%)` }}>
         <Img src={staticFile(BRAND.logo)} style={{ height: 140, filter: `drop-shadow(0 0 20px ${brandAlpha(0.5)})` }} />
       </div>
+      </Drift>
       <Sequence name="Legendas" layout="none">
         <Captions t={t} chunks={tl.captions} />
       </Sequence>
-      {preview ? (
-        <div style={{ position: "absolute", left: 0, right: 0, top: 120, textAlign: "center", fontFamily: F.mono, fontWeight: 700, fontSize: 26, letterSpacing: "0.14em", color: C.warn }}>PRÉVIA INTERNA · SEM VOZ / CAPTURAS · NÃO PUBLICAR</div>
-      ) : null}
+      <PreviewMark noVoice={tl.voice.startsWith("PROVIS")} noAuth={CARDS.some((k) => !publishable(caseOf(k.key)))} />
       <Grain frame={frame} />
       {withAudio ? <Audio src={staticFile(`${tl.id}/mix.wav`)} /> : null}
     </AbsoluteFill>
