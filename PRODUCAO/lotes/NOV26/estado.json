@@ -3,7 +3,7 @@
  "fonte": "ROTEIROS/LOTE_NOV2026/ATIVO_30_ROTEIROS_NOV2026.docx (cliente, 17/11/2026)",
  "regras": {
   "sequencial": true,
-  "voz": "gemini-3.8-flash-tts / Puck / pt-BR / 1,0× (VOZ/voice_preset.json)",
+  "voz": "gemini-3.8-flash-tts / Puck / pt-BR / 1,0× · direção calorosa e contínua + voice.tightenPauses ≤0,09 s (regra do cliente 19/11/2026)",
   "verde": "#02FB3F (só este lote; episódios anteriores intactos)",
   "trilha": "discreta, sem bateria",
   "cta": "ver PRODUCAO/lotes/NOV26/LEIAME.md"
@@ -71,12 +71,14 @@
    "id": "ATIVO_NOV26_05",
    "composition": "ATIVO-NOV26-05",
    "title": "Aprovado não é contrato assinado",
-   "status": "pendente",
-   "video": null,
-   "validacao": null,
-   "voz": null,
+   "status": "entregue",
+   "video": "OUTPUT/ATIVO_NOV26_05/ATIVO_NOV26_05_FINAL.mp4",
+   "validacao": "11/11 · −14,97 LUFS · 49,17 s · editorial 0/0 · movimento 1,49 · fala 82%, 178 palavras/min",
+   "voz": "regra 19/11 (direção nova + pausas ≤0,09 s, 1,0×); 5 gerações (conta 2: A–D; conta 1: E usada)",
    "commit": null,
-   "notas": ""
+   "notas": "aprovar transição; ouvir \"Direct\" final",
+   "legenda": "OUTPUT/ATIVO_NOV26_05/legenda_instagram.txt",
+   "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/05/"
   },
   {
    "n": 6,
@@ -381,9 +383,8 @@
  ],
  "cota_voz": {
   "data": "2026-11-19",
-  "conta2_usadas": 3,
-  "conta1_usadas": 0,
-  "renova": "~08:00 UTC",
-  "observacao": "limite real por chave incerto (conta 2 fez 12 gerações em 17/11 sem recusa)"
+  "conta2_usadas": 7,
+  "conta1_usadas": 1,
+  "renova": "~08:00 UTC"
  }
 }

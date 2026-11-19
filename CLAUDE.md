@@ -2,6 +2,8 @@
 
 > **NOVO — LEGENDAS INSTAGRAM ATIVO (18/11/2026):** para TODO episódio entregue, leia obrigatoriamente `PROMPTS/GUIA_LEGENDAS_INSTAGRAM_ATIVO.md` e os exemplos de `PROMPTS/EXEMPLOS_LEGENDAS/`. Além do vídeo e da capa, gere `OUTPUT/<outputDir>/legenda_instagram.txt` em UTF-8, com texto pronto para copiar/colar no Instagram. Primeira linha fixa: `📲 Comente "SISTEMA" e conheça uma solução personalizada para organizar seus imóveis, leads e atendimentos.` Nunca usar **negrito**, Markdown ou HTML na legenda; encerrar com exatamente 5 hashtags em minúsculas. Não transcrever o vídeo; criar texto complementar específico. Esta é uma ETAPA EDITORIAL DO AGENTE CLAUDE CODE, inclusive ao retomar episódios já renderizados; `npm run ep` sozinho NÃO cria a legenda. Respeite o diretório real indicado pelo `episode.json`.
 
+> **REGRA DE VOZ — 19/11/2026 (ordem do cliente):** voz calorosa e contagiante, ritmo dinâmico, quase sem pausas de respiração. Mesma voz/modelo (Puck, `gemini-3.8-flash-tts`) e **1,0× sem time-stretch**; nova `direction` em `VOZ/voice_preset.json` e `"voice": {"tightenPauses": {"min": 0.06, "max": 0.09}}` em todo `episode.json` novo. Detalhes e medições: topo de `PROMPTS/GUIA_MELHORIA_CONTINUA.md`.
+
 > **Mapa do repositório (estado real):**
 > `ROTEIROS/` livro com os 60 roteiros + `EP###.md` extraídos · `MODELS/` 9 Reels de referência (`ref_01…09.mp4`) e manifesto ·
 > `VOZ/` preset de voz e casting · `MARCA/` identidade ATIVO aprovada (logo + `#3AF584`) · `ANALISE/` relatórios de referência, voz e tokens ·

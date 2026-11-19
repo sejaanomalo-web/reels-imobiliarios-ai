@@ -1,34 +1,46 @@
 {
-  "approved": true,
-  "status": "APROVADA pelo cliente em 2026-11-10 (escolheu a audição audicao_gemini_Puck_EP001.wav)",
-  "provider": "gemini",
-  "model_id": "gemini-3.8-flash-tts",
-  "model_version": "API generativelanguage v1beta, consultada em 2026-11-10",
-  "language": "pt-BR",
-  "voice_id": "Puck",
-  "voice_reference_path": null,
-  "voice_reference_authorized": false,
-  "direction": "Tom de conversa entre colegas corretores de imóveis: brasileiro, próximo, seguro e natural. Ritmo ágil, sem correria, com pausas curtas entre as ideias. Nunca locutor de comercial.",
-  "style": "conversacional, brasileiro, seguro e espontaneo",
-  "speed": 1.0,
-  "seed": null,
-  "pronunciation_overrides": {},
-  "license": "Áudio gerado pela API do Gemini com a chave do cliente; uso sujeito aos termos da Gemini API (verificar plano e uso comercial)",
-  "license_reviewed": false,
-  "approval_date": "2026-11-10",
-  "alternatives_auditioned": {
-    "gemini-3.8-flash-tts": [
-      "Puck",
-      "Orus",
-      "Zubenelgenubi",
-      "Charon",
-      "Achird"
-    ],
-    "kokoro-82M (local, sem custo, mais sintética)": [
-      "pm_alex",
-      "pm_santa",
-      "pf_dora"
-    ]
+ "approved": true,
+ "status": "APROVADA pelo cliente em 2026-11-10 (escolheu a audição audicao_gemini_Puck_EP001.wav)",
+ "provider": "gemini",
+ "model_id": "gemini-3.8-flash-tts",
+ "model_version": "API generativelanguage v1beta, consultada em 2026-11-10",
+ "language": "pt-BR",
+ "voice_id": "Puck",
+ "voice_reference_path": null,
+ "voice_reference_authorized": false,
+ "direction": "Narração calorosa e contagiante, de quem conversa com um colega corretor de imóveis: brasileiro, próximo, confiante e com sorriso na voz. Ritmo dinâmico e contínuo, emendando as frases com pouquíssimas pausas de respiração. Nunca locutor de comercial.",
+ "style": "caloroso, contagiante, dinâmico, conversacional, brasileiro",
+ "speed": 1.0,
+ "seed": null,
+ "pronunciation_overrides": {},
+ "license": "Áudio gerado pela API do Gemini com a chave do cliente; uso sujeito aos termos da Gemini API (verificar plano e uso comercial)",
+ "license_reviewed": false,
+ "approval_date": "2026-11-10",
+ "alternatives_auditioned": {
+  "gemini-3.8-flash-tts": [
+   "Puck",
+   "Orus",
+   "Zubenelgenubi",
+   "Charon",
+   "Achird"
+  ],
+  "kokoro-82M (local, sem custo, mais sintética)": [
+   "pm_alex",
+   "pm_santa",
+   "pf_dora"
+  ]
+ },
+ "notes": "Voz oficial da série: Gemini gemini-3.8-flash-tts, voz Puck, com a direção acima. Aprovada a partir da audição OUTPUT/VOICE_AUDITIONS/audicao_gemini_Puck_EP001.wav. A fala varia a cada geração (mesma voz, entonação diferente): a narração de cada episódio fica congelada em PRODUCAO/episodes/<EP>/narration_source.wav e só é refeita com --regen. license_reviewed continua false: termos de uso comercial da Gemini API e plano da chave não verificados. Kokoro (pm_alex) reprovada pelo cliente por soar robótica.",
+ "direction_historico": {
+  "2026-11-10_a_2026-11-19": "Tom de conversa entre colegas corretores de imóveis: brasileiro, próximo, seguro e natural. Ritmo ágil, sem correria, com pausas curtas entre as ideias. Nunca locutor de comercial."
+ },
+ "pausas": {
+  "tightenPauses": {
+   "min": 0.06,
+   "max": 0.09
   },
-  "notes": "Voz oficial da série: Gemini gemini-3.8-flash-tts, voz Puck, com a direção acima. Aprovada a partir da audição OUTPUT/VOICE_AUDITIONS/audicao_gemini_Puck_EP001.wav. A fala varia a cada geração (mesma voz, entonação diferente): a narração de cada episódio fica congelada em PRODUCAO/episodes/<EP>/narration_source.wav e só é refeita com --regen. license_reviewed continua false: termos de uso comercial da Gemini API e plano da chave não verificados. Kokoro (pm_alex) reprovada pelo cliente por soar robótica."
+  "aplicar_em": "episode.json → voice.tightenPauses (Reels e Stories a partir de ATIVO_NOV26_05)",
+  "origem": "ordem do cliente em 19/11/2026 a partir da referência 02_2.mp4 (87% de fala ativa, 4 pausas em 38 s); só corta silêncio, sem time-stretch"
+ },
+ "decisao_2026_11_19": "Cliente (19/11/2026, REGRA): fala mais dinâmica, voz mais calorosa e contagiante, quase sem pausas de respiração. Mantidos: Gemini gemini-3.8-flash-tts, voz Puck, 1,0× (sem aceleração/time-stretch). Alterados: direção de interpretação e pausas máximas de 0,14 s."
 }

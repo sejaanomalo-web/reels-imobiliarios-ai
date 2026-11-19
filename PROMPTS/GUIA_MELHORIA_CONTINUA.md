@@ -10,6 +10,16 @@
 > - **Processo comercial real:** call de diagnóstico → definição → desenvolvimento do sistema personalizado. Não dizer que o sistema é "apresentado/demonstrado" antes de existir.
 > - **Exceção registrada:** vídeo da landing (`LP-ATIVO-V3`): 1,1× e transcrição completa na tela por pedido do cliente (13/11/2026). Não generalizar para Reels/Stories, que seguem 1,0× e destaque de 3–8 palavras.
 
+> ## ⚠️ REGRA DO CLIENTE — 19/11/2026, a partir do ATIVO_NOV26_05 (prevalece sobre a decisão de 11/11 nos itens abaixo)
+>
+> Ordem do cliente ("REGRA e ORDEM"), a partir do vídeo de referência `02_2.mp4`: fala mais dinâmica, voz mais calorosa e contagiante, quase sem pausas de respiração, para aumentar retenção e conexão.
+>
+> - **Medição da referência:** 38,1 s; 87% do tempo com fala; 4 pausas ≥ 0,12 s (0,9 s no total); ~186 palavras/min. Nosso padrão de 11/11 (NOV26_04): 74% de fala, 29 pausas (10,6 s), 163 palavras/min. **Velocidade de articulação parecida (~190–200/min): a diferença estava nas pausas.**
+> - **Muda:** (1) direção de interpretação em `VOZ/voice_preset.json` → "Narração calorosa e contagiante… Ritmo dinâmico e contínuo, emendando as frases com pouquíssimas pausas de respiração. Nunca locutor de comercial." (a anterior fica em `direction_historico`); (2) todo `episode.json` novo leva `"voice": {"tightenPauses": {"min": 0.06, "max": 0.09}}` — corta só silêncio (nenhuma pausa maior que 0,09 s).
+> - **Não muda:** Gemini `gemini-3.8-flash-tts`, voz Puck, **1,0×**: sem `targetWpm`, sem `maxStretch`, sem time-stretch, sem acelerar. Ads (`AD-*`) seguem a regra própria (1,1×).
+> - **Resultado no NOV26_05:** 82% de fala, 10 pausas curtas (1,5 s), 178 palavras/min, sem alterar timbre nem velocidade.
+> - A direção nova também pode ser lida em voz alta pelo modelo: continuar conferindo os primeiros segundos de toda tomada.
+
 > ## ⚠️ DECISÃO VIGENTE — 11/11/2026, a partir do EP015 (prevalece sobre tudo abaixo)
 >
 > **Narração em velocidade normal (1,0×) com a identidade vocal original aprovada.**
@@ -419,6 +429,7 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-17 | ATIVO REEL14 | Pergunta antes da ficha (cena ilustrativa, casal sem identidade); CTA SISTEMA ('Compartilha' → transição curta). Conta 2, tomada B sem edição, 161 palavras/min, 68,1 s (~6 s acima), movimento 1,58, maior trecho parado 0,7 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-17 | ATIVO REEL15 | Humor: manual do improviso fiscal + virada séria (sem alíquotas, ressalva do contador mantida); CTA SISTEMA ('Salva e manda' → transição). Conta 1, tomada A sem edição (B leu a instrução de estilo), 161 palavras/min, 61,6 s, movimento 2,28, maior trecho parado 0,9 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-19 | ATIVO_NOV26_04 | Paradoxo: R$ 72,5 bi Caixa+FGTS no 3º tri com juros altos (conferido); mercado não é interruptor; CTA do roteiro mantida literal + SISTEMA. 3 tomadas (A leu a instrução; B 'uma Caixa'; emenda recusada por tom), C sem edição, 163 palavras/min, 58,3 s, movimento 1,46; legenda + pasta de publicação | Pedido do cliente; aguardando avaliação |
+| 2026-11-19 | ATIVO_NOV26_05 | Aprovado ≠ assinado (checklist hipotético); 1º com a regra de voz 19/11 (direção calorosa + pausas ≤0,09 s, 1,0×): 82% de fala, 178 palavras/min. 5 gerações (C 'retber', D 'Numa orientação'), E sem edição; 49,2 s, movimento 1,49 | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 | Vídeo principal da landing: 118 s, 1920×1080, trilha original por blocos, marca e telas provisórias, legendas web | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 v2 | Transcrição dinâmica, voz 1,2× (exceção pedida), 86,5 s, elementos maiores, movimento 2,39 | Feedback do cliente: mais dinâmica, texto = fala, gancho mais forte |
 | 2026-11-13 | LANDING 16:9 FINAL | Logo oficial (revelação) + verde #3AF584, 3 situações centralizadas, voz 1,0×, 103 s, movimento 2,0 | Aprovado para implementação pelo cliente, com estes ajustes |

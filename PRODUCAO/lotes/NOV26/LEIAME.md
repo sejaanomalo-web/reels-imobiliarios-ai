@@ -30,3 +30,7 @@
 - Cada episódio entregue precisa de **vídeo + capa + legenda** (`OUTPUT/ATIVO_NOV26_##/legenda_instagram.txt`, padrão `PROMPTS/GUIA_LEGENDAS_INSTAGRAM_ATIVO.md`: 1ª linha fixa da CTA SISTEMA, sem Markdown, 5 hashtags minúsculas). Conferir com `python3 tools/legenda_check.py ATIVO_NOV26_##`.
 - Depois, montar a pasta de publicação: `python3 tools/publicar_lote.py NOV26 <n>` → `PUBLICACAO/NOV26/REELS_01_AO_10/01/` (grupos de 10: `REELS_11_AO_20`, `REELS_21_AO_30`). Cada pasta: `ATIVO_NOV26_##.mp4`, `ATIVO_NOV26_##_capa.png`, `ATIVO_NOV26_##_legenda.docx` (um parágrafo por linha, sem negrito, para copiar e colar no Instagram) e o mesmo texto em `.txt`.
 - O script só copia arquivos já validados e recusa entrega incompleta. Não renderiza nem gera voz.
+
+## Voz — regra do cliente de 19/11/2026 (a partir do NOV26_05)
+- Direção nova no preset (calorosa, contagiante, ritmo contínuo) e `"voice": {"tightenPauses": {"min": 0.06, "max": 0.09}}` em todo `episode.json` (o gerador já inclui). Continua 1,0×, sem `targetWpm`/time-stretch.
+- Alvo medido: ≥ 80% do tempo com fala e nenhuma pausa > 0,1 s entre frases. Se a tomada vier lenta demais, gerar outra; não acelerar.
