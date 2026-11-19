@@ -226,12 +226,14 @@
    "id": "ATIVO_NOV26_16",
    "composition": "ATIVO-NOV26-16",
    "title": "Compra Assistida: o que realmente é",
-   "status": "pendente",
-   "video": null,
-   "validacao": null,
-   "voz": null,
+   "status": "entregue",
+   "video": "OUTPUT/ATIVO_NOV26_16/ATIVO_NOV26_16_FINAL.mp4",
+   "validacao": "11/11 · −14,97 LUFS · 52,95 s · editorial 0/0 · movimento 1,47 · 170 palavras/min",
+   "voz": "direção nova + shapePauses; 2 gerações (conta 2: A; conta 1: B usada sem edição)",
    "commit": null,
-   "notas": ""
+   "notas": "aprovar transição; ouvir \"Imagina\"",
+   "legenda": "OUTPUT/ATIVO_NOV26_16/legenda_instagram.txt",
+   "publicacao": "PUBLICACAO/NOV26/REELS_11_AO_20/16/"
   },
   {
    "n": 17,
@@ -404,8 +406,8 @@
  ],
  "cota_voz": {
   "data": "2026-11-19",
-  "conta2_usadas": 20,
-  "conta1_usadas": 17,
+  "conta2_usadas": 21,
+  "conta1_usadas": 18,
   "renova": "~08:00 UTC"
  }
 }

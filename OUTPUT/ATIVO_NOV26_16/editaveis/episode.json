@@ -1,0 +1,639 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "lote": "NOV26",
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-NOV26-16",
+ "title": "Compra Assistida: o que realmente é",
+ "outputDir": "ATIVO_NOV26_16",
+ "deliverables": {
+  "final": "ATIVO_NOV26_16_FINAL.mp4",
+  "narration": "ATIVO_NOV26_16_NARRACAO.wav",
+  "subtitles": "ATIVO_NOV26_16_legendas.srt",
+  "cover": "ATIVO_NOV26_16_capa.png"
+ },
+ "fonte": "ROTEIROS/LOTE_NOV2026/ATIVO_NOV26_16.md (lote ATIVO_30_ROTEIROS_NOV2026.docx, cliente, 17/11/2026)",
+ "apuracao": {
+  "fato": "Portaria MCID nº 1.519 (assinada 05/11/2026, publicada 06/11) institui metas e procedimentos da modalidade Compra Assistida do MCMV (recursos do FAR, imóveis novos ou usados em área urbana) para famílias de localidades com situação de emergência/calamidade reconhecida pela Defesa Civil nacional e famílias removidas por obras federais; a nº 1.520 trata da definição e vinculação das famílias. Município adere e a Caixa avalia o enquadramento",
+  "verificado_em": "2026-11-19",
+  "fontes": [
+   "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/habitacao/programa-minha-casa-minha-vida/compra-assistida-nacional (roteiro; host fora da rede liberada nesta sessão)",
+   "https://atlaspublico.com.br/noticias/ministerio-das-cidades-define-regras-de-compra-assistida-do-99433",
+   "https://portas.com.br/noticias/mcmv-governo-define-regras-para-compra-de-imoveis-apos-desastres-e-obras-federais/"
+  ],
+  "cuidados": "na tela: PORTARIA MCID Nº 1.519 · NOV/2026; SITUAÇÕES ESPECÍFICAS; NÃO É BENEFÍCIO UNIVERSAL; sem valores de subsídio, prazos ou promessa; não apresentar como venda comum nem crédito para todos; mapa ESQUEMÁTICO, story e documento ILUSTRATIVOS"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que divulga regra nova do MCMV como benefício para todos",
+  "motivacao": "não gerar expectativa falsa e orientar com contexto",
+  "crenca_questionada": "Compra Assistida = subsídio para qualquer comprador",
+  "hipotese": "modalidade com nome atraente → mapa esquemático de situações específicas (calamidade reconhecida, obras federais) → story exagerado com selo NÃO FAÇA → documento vira QUEM/ONDE/COMO",
+  "funcao": "notícia + educação / leitura de norma",
+  "promessa": "ler quem participa, onde se aplica e como é o encaminhamento",
+  "evidencias": "Portaria MCID nº 1.519 (05/11/2026) e nº 1.520: Compra Assistida (FAR) para famílias de áreas com emergência/calamidade reconhecida pela Defesa Civil e removidas por obras federais",
+  "cta": "comentário SISTEMA → Direct; 'Salve e consulte a portaria' → transição com a ideia CONTEXTO É ORIENTAÇÃO"
+ },
+ "cta": {
+  "original_cta": "Salve este vídeo e consulte a portaria antes de comentar o programa.",
+  "transition_adapted": "Antes de comentar o programa, consulte a portaria.",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Existe uma modalidade do Minha Casa Minha Vida chamada Compra Assistida.",
+   "caption": "Existe uma *modalidade* | do Minha Casa | Minha Vida | chamada *Compra Assistida.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Mas ela não foi criada para qualquer comprador escolher um imóvel com subsídio.",
+   "caption": "Mas ela não foi criada | para *qualquer comprador* | escolher um imóvel | com subsídio.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "A regulamentação divulgada em novembro trata de situações específicas, como localidades com reconhecimento federal de emergência ou calamidade e áreas atingidas por determinadas obras públicas.",
+   "caption": "A regulamentação | divulgada em novembro | trata de | *situações específicas,* | como localidades | com reconhecimento federal | de *emergência* | ou *calamidade* | e áreas atingidas | por determinadas | *obras públicas.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t2",
+   "text": "Imagine um corretor divulgando “novo benefício para todo mundo”.",
+   "caption": "Imagine um corretor | divulgando | “novo benefício | para todo mundo”.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t2",
+   "text": "A pessoa chama, faz planos e só depois descobre que a situação dela não se enquadra.",
+   "caption": "A pessoa chama, | faz *planos* | e só depois descobre | que a situação dela | *não se enquadra.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t2",
+   "text": "O problema não é a curiosidade.",
+   "caption": "O problema | não é a curiosidade.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t2",
+   "text": "É a falta de contexto.",
+   "caption": "É a *falta de contexto.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t3",
+   "text": "Quando uma regra nova aparece, leia quem pode participar, onde se aplica e como funciona o encaminhamento.",
+   "caption": "Quando uma regra nova | aparece, | leia *quem* pode participar, | *onde* se aplica | e *como* funciona | o encaminhamento.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "Explicar o limite da notícia também é prestar um bom serviço.",
+   "caption": "Explicar | o *limite da notícia* | também é prestar | um *bom serviço.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "t3",
+   "text": "Antes de comentar o programa, consulte a portaria.",
+   "caption": "Antes de comentar | o programa, | consulte a *portaria.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): respeitar pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_exist": {
+   "seg": "s1",
+   "word": "Existe",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_mod": {
+   "seg": "s1",
+   "word": "modalidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_compra": {
+   "seg": "s1",
+   "word": "Compra",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_mas": {
+   "seg": "s2",
+   "word": "Mas",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_qualq": {
+   "seg": "s2",
+   "word": "qualquer",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_subs": {
+   "seg": "s2",
+   "word": "subsídio",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_reg": {
+   "seg": "s3",
+   "word": "regulamentação",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_nov": {
+   "seg": "s3",
+   "word": "novembro",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_espec": {
+   "seg": "s3",
+   "word": "específicas",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_local": {
+   "seg": "s3",
+   "word": "localidades",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_emerg": {
+   "seg": "s3",
+   "word": "emergência",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_calam": {
+   "seg": "s3",
+   "word": "calamidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_obras": {
+   "seg": "s3",
+   "word": "obras",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_imag": {
+   "seg": "s4",
+   "word": "Imagine",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_benef": {
+   "seg": "s4",
+   "word": "benefício",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_todo": {
+   "seg": "s4",
+   "word": "todo",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_chama": {
+   "seg": "s5",
+   "word": "chama",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_planos": {
+   "seg": "s5",
+   "word": "planos",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_descobre": {
+   "seg": "s5",
+   "word": "descobre",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_enq": {
+   "seg": "s5",
+   "word": "enquadra",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_curio": {
+   "seg": "s6",
+   "word": "curiosidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_falta": {
+   "seg": "s7",
+   "word": "falta",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_ctx": {
+   "seg": "s7",
+   "word": "contexto",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_regra": {
+   "seg": "s8",
+   "word": "regra",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_quem": {
+   "seg": "s8",
+   "word": "quem",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_onde": {
+   "seg": "s8",
+   "word": "onde",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_como": {
+   "seg": "s8",
+   "word": "como",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_enc": {
+   "seg": "s8",
+   "word": "encaminhamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_limite": {
+   "seg": "s9",
+   "word": "limite",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_serv": {
+   "seg": "s9",
+   "word": "serviço",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_coment": {
+   "seg": "s10",
+   "word": "comentar",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_port": {
+   "seg": "s10",
+   "word": "portaria",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s11",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s11",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s11",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s12",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s12",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s12",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s12",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_mod",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "h_compra",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "h_mas",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -25
+  },
+  {
+   "cue": "h_qualq",
+   "offset": 0.05,
+   "sound": "whip",
+   "gain": -26
+  },
+  {
+   "cue": "a_reg",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -24
+  },
+  {
+   "cue": "a_espec",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26
+  },
+  {
+   "cue": "a_emerg",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -29
+  },
+  {
+   "cue": "a_calam",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -29,
+   "pitch": 3
+  },
+  {
+   "cue": "a_obras",
+   "offset": 0.05,
+   "sound": "thump",
+   "gain": -26
+  },
+  {
+   "cue": "b_imag",
+   "offset": -0.3,
+   "sound": "whoosh_up",
+   "gain": -24
+  },
+  {
+   "cue": "b_benef",
+   "offset": 0.05,
+   "sound": "notif",
+   "gain": -26
+  },
+  {
+   "cue": "b_chama",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "b_planos",
+   "offset": 0.05,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "b_enq",
+   "offset": 0.05,
+   "sound": "fade_down",
+   "gain": -28,
+   "dur": 0.7
+  },
+  {
+   "cue": "b_curio",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "b_falta",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -25
+  },
+  {
+   "cue": "c_regra",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -24
+  },
+  {
+   "cue": "c_quem",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "c_onde",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 3
+  },
+  {
+   "cue": "c_como",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 6
+  },
+  {
+   "cue": "c_limite",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "c_serv",
+   "offset": 0.05,
+   "sound": "shimmer",
+   "gain": -27
+  },
+  {
+   "cue": "x_port",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — compra assistida"
+   },
+   {
+    "at": "cue:a_reg",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — situações específicas"
+   },
+   {
+    "at": "cue:b_imag",
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     53
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Dm — generalização"
+   },
+   {
+    "at": "cue:c_regra",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — contexto"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}

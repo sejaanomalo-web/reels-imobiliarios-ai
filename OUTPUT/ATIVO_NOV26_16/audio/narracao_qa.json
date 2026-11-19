@@ -1,0 +1,93 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.05,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.65,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 10.72,
+    "palavras_nao_reconhecidas": [
+      "áreas",
+      "atingidas"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.4,
+    "palavras_nao_reconhecidas": [
+      "Imagine"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.78,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 1.6,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 1.28,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 5.9,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.89,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 4.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 2.6,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 50.59,
+    "asr_match": 0.975,
+    "aligned_words": "139/143",
+    "words_per_min": 170,
+    "heard": "Existe uma modalidade do Minha Casa Minha Vida, chamada Compra Assistida, mas ela não foi criada para qualquer comprador escolher um imóvel com subsídio. A regulamentação divulgada em novembro trata de situações específicas, como localidades com reconhecimento federal de emergência ou calamidade e áreatingidas por determinadas obras públicas. Imagina um corretor divulgando novo benefício para todo mundo. A pessoa chama, faz planos e só depois descobre que a situação dela não se enquadra. O problema não é a curiosidade, é a falta de contexto. Quando uma regra nova aparece, leia quem pode participar, onde se aplica e como funciona o encaminhamento. Explicar o limite da notícia também é prestar um bom serviço. Antes de comentar o programa, consulte a portaria. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 51.44,
+      "wpm": 167
+    },
+    "pausas_moldadas": {
+      "n": 16,
+      "max_s": 0.37
+    },
+    "pausas_encurtadas_s": 0.85,
+    "final": {
+      "seconds": 50.59,
+      "wpm": 170
+    }
+  }
+]
