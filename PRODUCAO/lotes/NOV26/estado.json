@@ -273,7 +273,7 @@
       "video": "OUTPUT/ATIVO_NOV26_19/ATIVO_NOV26_19_FINAL.mp4",
       "validacao": "11/11 · −14,96 LUFS · 53,42 s · editorial 0/0 · movimento 1,34 · 169 palavras/min",
       "voz": "direção nova + shapePauses; 5 gerações (conta 1): A 'é lugar', B 'Pensa' embolado, C vazou direção, D+E geradas por engano (import do build_narration); D usada sem edição",
-      "commit": null,
+      "commit": "779f223",
       "notas": "aprovar transição; ouvir \"studio\" (sai 'estúdio'), \"FipeZAP\", \"Pro corretor\"",
       "legenda": "OUTPUT/ATIVO_NOV26_19/legenda_instagram.txt",
       "publicacao": "PUBLICACAO/NOV26/REELS_11_AO_20/19/"
