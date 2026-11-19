@@ -22,7 +22,8 @@
 - **Pontos para ouvir:** "studio" (sai como "estúdio"); "FipeZAP"; "Pro corretor" (coloquial); "compara com um imóvel maior" (o "um" fica fraco).
 
 ## Validação
-- `editorial_check` 0 erros / 0 avisos.
+- `validate.py` 11/11: 1080×1920 · H.264 · yuv420p · 30 fps · AAC · 53,42 s · −14,96 LUFS · TP −1,61 dBTP.
+- `editorial_check` 0 erros / 0 avisos. Movimento 1,34 · maior trecho parado 1,2 s. SFX: 33 eventos, stem −39,7 LUFS.
 - Quadros revisados (16 + 9). Corrigidos:
   - valor da barra encostando no rótulo "1 QUARTO";
   - cartão STUDIO e planilha invadindo o título;
