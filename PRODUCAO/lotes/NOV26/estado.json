@@ -269,24 +269,24 @@
       "id": "ATIVO_NOV26_19",
       "composition": "ATIVO-NOV26-19",
       "title": "Um quarto, aluguel por metro mais alto",
-      "status": "pendente",
+      "status": "em_producao",
       "video": null,
       "validacao": null,
       "voz": null,
       "commit": null,
-      "notas": ""
+      "notas": "em produção"
     },
     {
       "n": 20,
       "id": "ATIVO_NOV26_20",
       "composition": "ATIVO-NOV26-20",
       "title": "Mais oferta em Curitiba, mesma pergunta",
-      "status": "pendente",
+      "status": "bloqueado",
       "video": null,
       "validacao": null,
       "voz": null,
       "commit": null,
-      "notas": ""
+      "notas": "BLOQUEADO por cota de voz (19/11 ~22:20 UTC): conta 1 'You exceeded your current quota' na tomada B; conta 2 esgotada desde ~19:00 UTC. episode.json pronto (apuração Portas/FipeZap feita). Tomada A guardada em OUTPUT/ATIVO_NOV26_20/audio/tomada_A.wav (possível 'olha' no lugar de 'olhe'; resto ok). Retomar após renovação (~08:00 UTC): gerar tomada B, escolher, cenas, render, publicar."
     },
     {
       "n": 21,
@@ -413,7 +413,8 @@
     "data": "2026-11-19",
     "conta2_usadas": 21,
     "conta2": "esgotada às ~19:00 UTC (quota exceeded na 22ª)",
-    "conta1_usadas": 21,
-    "renova": "~08:00 UTC"
+    "conta1_usadas": 27,
+    "renova": "~08:00 UTC",
+    "conta1": "esgotada às ~22:20 UTC (quota exceeded na tomada B do 20)"
   }
 }

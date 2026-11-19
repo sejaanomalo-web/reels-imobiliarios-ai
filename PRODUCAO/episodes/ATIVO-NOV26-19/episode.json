@@ -1,0 +1,689 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "lote": "NOV26",
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "FipeZAP": "Fipe Zap"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-NOV26-19",
+ "title": "Um quarto, aluguel por metro mais alto",
+ "outputDir": "ATIVO_NOV26_19",
+ "deliverables": {
+  "final": "ATIVO_NOV26_19_FINAL.mp4",
+  "narration": "ATIVO_NOV26_19_NARRACAO.wav",
+  "subtitles": "ATIVO_NOV26_19_legendas.srt",
+  "cover": "ATIVO_NOV26_19_capa.png"
+ },
+ "fonte": "ROTEIROS/LOTE_NOV2026/ATIVO_NOV26_19.md (lote ATIVO_30_ROTEIROS_NOV2026.docx, cliente, 17/11/2026)",
+ "apuracao": {
+  "fato": "Índice FipeZAP de Locação Residencial, outubro/2026 (preços anunciados para novos contratos): 1 dormitório R$ 72,76/m² (maior preço médio), 3 dormitórios R$ 47,52/m². Médias agregadas; sem garantia de retorno; preço pedido ≠ renda realizada",
+  "verificado_em": "2026-11-19",
+  "fontes": [
+   "https://www.infomoney.com.br/minhas-financas/aluguel-sobe-9-em-12-meses-quase-o-dobro-da-inflacao-aponta-fipezap/ (roteiro; citado via busca, host inacessível nesta sessão)",
+   "https://jornaldebrasilia.com.br/noticias/economia/aluguel-continua-a-subir-acima-da-inflacao/",
+   "https://brasilemfolhas.com.br/2026/11/aluguel-residencial-sobe-9-em-um-ano/"
+  ],
+  "cuidados": "sem calcular retorno com números inventados; studio e imóvel maior ILUSTRATIVOS; sem afirmar que uma tipologia rende mais; planilha com campos vazios"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que atende investidor escolhendo tipologia só pelo aluguel por m²",
+  "motivacao": "orientar investimento com conta completa",
+  "crenca_questionada": "maior aluguel por m² = melhor investimento",
+  "hipotese": "réguas 1Q R$72,76 × 3Q R$47,52 (preço anunciado) → valor por m² ≠ lucro → studio × imóvel maior com despesas/vacância/manutenção → planilha sem números inventados",
+  "funcao": "educação a partir de dado",
+  "promessa": "ajudar a calcular com dados, sem tipologia vencedora universal",
+  "evidencias": "FipeZAP locação out/2026: 1 dormitório R$ 72,76/m²; 3 dormitórios R$ 47,52/m² (preços anunciados)",
+  "cta": "comentário SISTEMA → Direct; pergunta do roteiro → transição com o texto de tela MOSTRE A CONTA COMPLETA"
+ },
+ "cta": {
+  "original_cta": "Você já recebeu cliente escolhendo investimento só pelo aluguel por metro?",
+  "transition_adapted": "Mostre a conta completa.",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Um apartamento de um quarto teve aluguel anunciado de quase setenta e três reais por metro quadrado na média pesquisada.",
+   "caption": "Um apartamento | de *um quarto* | teve aluguel anunciado | de quase | *setenta e três reais* | por metro quadrado | na média pesquisada.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "O de três quartos ficou perto de quarenta e oito.",
+   "caption": "O de *três quartos* | ficou perto | de *quarenta e oito.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "É o que mostrou o FipeZAP de locação de outubro.",
+   "caption": "É o que mostrou | o *FipeZAP* de locação | de outubro.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "Só que preço por metro quadrado não é a mesma coisa que dinheiro sobrando para o proprietário.",
+   "caption": "Só que | *preço por metro quadrado* | não é a mesma coisa | que *dinheiro sobrando* | para o proprietário.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t2",
+   "text": "Pensa num studio que aluga rápido, mas tem condomínio alto e troca frequente de moradores.",
+   "caption": "Pensa num *studio* | que *aluga rápido,* | mas tem | *condomínio alto* | e *troca frequente* | de moradores.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t2",
+   "text": "Agora compara com um imóvel maior, aluguel total diferente e outra dinâmica de vacância.",
+   "caption": "Agora compara | com um *imóvel maior,* | aluguel total diferente | e outra dinâmica | de *vacância.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t3",
+   "text": "O investidor precisa olhar valor de aquisição, custos, vacância e demanda local.",
+   "caption": "O investidor | precisa olhar | *valor de aquisição,* | *custos,* | *vacância* | e *demanda local.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t3",
+   "text": "Para o corretor, a oportunidade está em ajudar a calcular com dados, não em vender uma tipologia como vencedora universal.",
+   "caption": "Para o corretor, | a oportunidade está | em ajudar | a *calcular com dados,* | não em vender | uma tipologia | como *vencedora universal.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "Mostre a conta completa.",
+   "caption": "*Mostre* | a *conta completa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): respeitar pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_apto": {
+   "seg": "s1",
+   "word": "apartamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_1q": {
+   "seg": "s1",
+   "word": "um",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_73": {
+   "seg": "s1",
+   "word": "setenta",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_m2": {
+   "seg": "s1",
+   "word": "metro",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_media": {
+   "seg": "s1",
+   "word": "média",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_3q": {
+   "seg": "s2",
+   "word": "três",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_48": {
+   "seg": "s2",
+   "word": "quarenta",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_mostrou": {
+   "seg": "s3",
+   "word": "mostrou",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_fipe": {
+   "seg": "s3",
+   "word": "FipeZAP",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_out": {
+   "seg": "s3",
+   "word": "outubro",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_so": {
+   "seg": "s4",
+   "word": "Só",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_preco": {
+   "seg": "s4",
+   "word": "preço",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_mesma": {
+   "seg": "s4",
+   "word": "mesma",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_din": {
+   "seg": "s4",
+   "word": "dinheiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_prop": {
+   "seg": "s4",
+   "word": "proprietário",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_pensa": {
+   "seg": "s5",
+   "word": "Pensa",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_studio": {
+   "seg": "s5",
+   "word": "studio",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_rapido": {
+   "seg": "s5",
+   "word": "rápido",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_cond": {
+   "seg": "s5",
+   "word": "condomínio",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_troca": {
+   "seg": "s5",
+   "word": "troca",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_agora": {
+   "seg": "s6",
+   "word": "Agora",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_maior": {
+   "seg": "s6",
+   "word": "maior",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_total": {
+   "seg": "s6",
+   "word": "total",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_vac": {
+   "seg": "s6",
+   "word": "vacância",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_inv": {
+   "seg": "s7",
+   "word": "investidor",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_aq": {
+   "seg": "s7",
+   "word": "aquisição",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_custos": {
+   "seg": "s7",
+   "word": "custos",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_vac": {
+   "seg": "s7",
+   "word": "vacância",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_dem": {
+   "seg": "s7",
+   "word": "demanda",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_corr": {
+   "seg": "s8",
+   "word": "corretor",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_calc": {
+   "seg": "s8",
+   "word": "calcular",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_vender": {
+   "seg": "s8",
+   "word": "vender",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_univ": {
+   "seg": "s8",
+   "word": "universal",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_mostre": {
+   "seg": "s9",
+   "word": "Mostre",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_conta": {
+   "seg": "s9",
+   "word": "conta",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s10",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s10",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s10",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s11",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s11",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s11",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s11",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_apto",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "h_1q",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "h_73",
+   "offset": 0.05,
+   "sound": "whoosh_up",
+   "gain": -25
+  },
+  {
+   "cue": "h_media",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "h_3q",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": -3
+  },
+  {
+   "cue": "h_48",
+   "offset": 0.05,
+   "sound": "block",
+   "gain": -25
+  },
+  {
+   "cue": "a_mostrou",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -24
+  },
+  {
+   "cue": "a_fipe",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "a_so",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -25
+  },
+  {
+   "cue": "a_preco",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "a_din",
+   "offset": 0.05,
+   "sound": "hollow",
+   "gain": -29
+  },
+  {
+   "cue": "a_prop",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -30
+  },
+  {
+   "cue": "b_pensa",
+   "offset": -0.3,
+   "sound": "whoosh_up",
+   "gain": -24
+  },
+  {
+   "cue": "b_studio",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "b_rapido",
+   "offset": 0.05,
+   "sound": "swish",
+   "gain": -25
+  },
+  {
+   "cue": "b_cond",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "b_troca",
+   "offset": 0.05,
+   "sound": "shuffle",
+   "gain": -27
+  },
+  {
+   "cue": "b_agora",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -25
+  },
+  {
+   "cue": "b_maior",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": -3
+  },
+  {
+   "cue": "b_total",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 3
+  },
+  {
+   "cue": "b_vac",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -24
+  },
+  {
+   "cue": "c_inv",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -24
+  },
+  {
+   "cue": "c_aq",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "c_custos",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 3
+  },
+  {
+   "cue": "c_vac",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 6
+  },
+  {
+   "cue": "c_dem",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 9
+  },
+  {
+   "cue": "c_calc",
+   "offset": 0.05,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "c_univ",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -30
+  },
+  {
+   "cue": "x_mostre",
+   "offset": 0.05,
+   "sound": "shimmer",
+   "gain": -27
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — 1Q × 3Q"
+   },
+   {
+    "at": "cue:a_mostrou",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — m² ≠ lucro"
+   },
+   {
+    "at": "cue:b_pensa",
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     53
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Dm — variáveis"
+   },
+   {
+    "at": "cue:c_inv",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — conta completa"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}

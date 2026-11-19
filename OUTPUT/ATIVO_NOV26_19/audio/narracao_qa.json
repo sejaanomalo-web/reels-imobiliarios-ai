@@ -1,0 +1,93 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 6.58,
+    "palavras_nao_reconhecidas": [
+      "setenta",
+      "três",
+      "reais"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.48,
+    "palavras_nao_reconhecidas": [
+      "três",
+      "quarenta",
+      "oito"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.58,
+    "palavras_nao_reconhecidas": [
+      "FipeZAP"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.73,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.56,
+    "palavras_nao_reconhecidas": [
+      "studio"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 5.35,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 5.0,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 6.76,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 1.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.65,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 3.08,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 51.07,
+    "asr_match": 0.933,
+    "aligned_words": "133/144",
+    "words_per_min": 169,
+    "heard": "Um apartamento de um quarto teve aluguel anunciado de quase R$ 73,00 por metro quadrado na média pesquisada. O de 3 quartos ficou perto de 48. É o que mostrou o FIP Zap de locação de outubro. Só que preço por metro quadrado não é a mesma coisa que dinheiro sobrando para o proprietário. Pensa num estúdio que aluga rápido, mas tem condomínio alto e troca frequente de moradores. Agora compara com o imóvel maior, aluguel total diferente e outra dinâmica de vacância. O investidor precisa olhar valor de aquisição, custos, vacância e demanda local. Para o corretor, a oportunidade está em ajudar a calcular com dados, não em vender uma tipologia como vencedora universal. Mostre a conta completa. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 52.24,
+      "wpm": 165
+    },
+    "pausas_moldadas": {
+      "n": 14,
+      "max_s": 0.44
+    },
+    "pausas_encurtadas_s": 1.17,
+    "final": {
+      "seconds": 51.07,
+      "wpm": 169
+    }
+  }
+]
