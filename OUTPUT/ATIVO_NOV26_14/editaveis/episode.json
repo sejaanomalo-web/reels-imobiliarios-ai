@@ -1,0 +1,640 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "lote": "NOV26",
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-NOV26-14",
+ "title": "Cinco mil moradias aptas: e agora?",
+ "outputDir": "ATIVO_NOV26_14",
+ "deliverables": {
+  "final": "ATIVO_NOV26_14_FINAL.mp4",
+  "narration": "ATIVO_NOV26_14_NARRACAO.wav",
+  "subtitles": "ATIVO_NOV26_14_legendas.srt",
+  "cover": "ATIVO_NOV26_14_capa.png"
+ },
+ "fonte": "ROTEIROS/LOTE_NOV2026/ATIVO_NOV26_14.md (lote ATIVO_30_ROTEIROS_NOV2026.docx, cliente, 17/11/2026)",
+ "apuracao": {
+  "fato": "Ministério das Cidades (DOU de 04/11/2026): lista torna 5.353 unidades habitacionais do MCMV aptas para contratação, em 12 estados; antes da contratação, construtoras e municípios precisam confirmar que aceitam as regras do programa. Não é disponibilidade comercial",
+  "verificado_em": "2026-11-19",
+  "fontes": [
+   "https://www.gov.br/cidades/pt-br/assuntos/noticias-1/noticia-mcid-n-2371 (roteiro; página não acessível nesta sessão — host fora da rede liberada)",
+   "https://atualmt.com.br/2026/11/04/minha-casa-minha-vida-5-353-novas-moradias-aptas-para-contratacao",
+   "https://conesulnoticias.com.br/minha-casa-minha-vida-5-353-novas-moradias-aptas-para-contratacao/"
+  ],
+  "cuidados": "na tela: MINISTÉRIO DAS CIDADES · DOU 04/11/2026; APTO NÃO É ENTREGUE; etapas ILUSTRATIVAS (nomes simplificados); sem sugerir venda, unidade disponível, prazo ou enquadramento; manchete, celular e conversa ILUSTRATIVOS"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que repassa notícia de moradias 'aptas' como se fossem unidades à venda",
+  "motivacao": "não transmitir informação errada e manter credibilidade",
+  "crenca_questionada": "apto para contratação = pronto para vender",
+  "hipotese": "manchete → linha do tempo de etapas com 'apta para contratação' marcada → interessado pergunta 'já posso?' → checklist local/etapa/critérios/canal",
+  "funcao": "notícia + educação / informação habitacional",
+  "promessa": "confirmar local, fase, critérios e canal oficial antes de publicar",
+  "evidencias": "Ministério das Cidades, DOU de 04/11/2026: 5.353 unidades aptas para contratação em 12 estados; construtoras e município ainda precisam confirmar adesão",
+  "cta": "comentário SISTEMA → Direct; 'Compartilhe' → transição com o texto de tela CONFIRA A FASE DO PROJETO"
+ },
+ "cta": {
+  "original_cta": "Compartilhe com quem costuma anunciar novidade antes de conferir o estágio.",
+  "transition_adapted": "Antes de anunciar novidade, confira a fase do projeto.",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Saiu a notícia de mais de cinco mil moradias aptas para contratação no Minha Casa Minha Vida.",
+   "caption": "Saiu a notícia | de mais de | *cinco mil moradias* | *aptas* para contratação | no Minha Casa | Minha Vida.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Isso quer dizer que já estão prontas para vender?",
+   "caption": "Isso quer dizer | que já estão | *prontas para vender?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "Não.",
+   "caption": "*Não.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "“Aptas para contratação” é uma etapa administrativa.",
+   "caption": "“Aptas | para contratação” | é uma *etapa* | *administrativa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t1",
+   "text": "O anúncio do Ministério das Cidades, de quatro de novembro, trata de propostas de empreendimentos que avançaram nesse processo.",
+   "caption": "O anúncio | do *Ministério das Cidades,* | de *quatro de novembro,* | trata de propostas | de empreendimentos | que *avançaram* | nesse processo.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t2",
+   "text": "Imagine um interessado que vê a notícia e pergunta se já pode escolher unidade e receber as chaves.",
+   "caption": "Imagine | um interessado | que vê a notícia | e pergunta | se já pode | escolher *unidade* | e receber | as *chaves.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t2",
+   "text": "Se o corretor confunde aprovação administrativa com imóvel disponível, transmite uma informação errada.",
+   "caption": "Se o corretor | *confunde* | aprovação administrativa | com imóvel *disponível,* | transmite | uma informação *errada.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t3",
+   "text": "Antes de publicar sobre empreendimento ou programa, confirme onde fica, em que fase está, quem pode se candidatar e qual canal oficial recebe os interessados.",
+   "caption": "Antes de publicar | sobre empreendimento | ou programa, | confirme *onde fica,* | em que *fase* está, | quem pode | se *candidatar* | e qual *canal oficial* | recebe os interessados.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "Informação habitacional exige contexto.",
+   "caption": "Informação habitacional | exige *contexto.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "t3",
+   "text": "Antes de anunciar novidade, confira a fase do projeto.",
+   "caption": "Antes de anunciar | novidade, | confira | a *fase do projeto.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): respeitar pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_saiu": {
+   "seg": "s1",
+   "word": "Saiu",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_cinco": {
+   "seg": "s1",
+   "word": "cinco",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_aptas": {
+   "seg": "s1",
+   "word": "aptas",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_mcmv": {
+   "seg": "s1",
+   "word": "Minha",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_prontas": {
+   "seg": "s2",
+   "word": "prontas",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_vender": {
+   "seg": "s2",
+   "word": "vender",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_nao": {
+   "seg": "s3",
+   "word": "Não",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_aptas": {
+   "seg": "s4",
+   "word": "Aptas",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_etapa": {
+   "seg": "s4",
+   "word": "etapa",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_admin": {
+   "seg": "s4",
+   "word": "administrativa",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_min": {
+   "seg": "s5",
+   "word": "Ministério",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_quatro": {
+   "seg": "s5",
+   "word": "quatro",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_prop": {
+   "seg": "s5",
+   "word": "propostas",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_avanc": {
+   "seg": "s5",
+   "word": "avançaram",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_imag": {
+   "seg": "s6",
+   "word": "Imagine",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_noticia": {
+   "seg": "s6",
+   "word": "notícia",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_pergunta": {
+   "seg": "s6",
+   "word": "pergunta",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_unidade": {
+   "seg": "s6",
+   "word": "unidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_chaves": {
+   "seg": "s6",
+   "word": "chaves",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_conf": {
+   "seg": "s7",
+   "word": "confunde",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_disp": {
+   "seg": "s7",
+   "word": "disponível",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_errada": {
+   "seg": "s7",
+   "word": "errada",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_antes": {
+   "seg": "s8",
+   "word": "Antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_onde": {
+   "seg": "s8",
+   "word": "onde",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_fase": {
+   "seg": "s8",
+   "word": "fase",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_cand": {
+   "seg": "s8",
+   "word": "candidatar",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_canal": {
+   "seg": "s8",
+   "word": "canal",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_ctx": {
+   "seg": "s9",
+   "word": "contexto",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_anunc": {
+   "seg": "s10",
+   "word": "anunciar",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_fase": {
+   "seg": "s10",
+   "word": "fase",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s11",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s11",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s11",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s12",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s12",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s12",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s12",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_saiu",
+   "offset": 0.0,
+   "sound": "notif",
+   "gain": -25
+  },
+  {
+   "cue": "h_cinco",
+   "offset": 0.05,
+   "sound": "block",
+   "gain": -25
+  },
+  {
+   "cue": "h_aptas",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "h_prontas",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "h_vender",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -29
+  },
+  {
+   "cue": "a_nao",
+   "offset": -0.25,
+   "sound": "swish",
+   "gain": -24
+  },
+  {
+   "cue": "a_aptas",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "a_etapa",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "a_min",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26
+  },
+  {
+   "cue": "a_quatro",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "a_avanc",
+   "offset": 0.05,
+   "sound": "whoosh_up",
+   "gain": -27
+  },
+  {
+   "cue": "b_imag",
+   "offset": -0.3,
+   "sound": "whoosh_up",
+   "gain": -24
+  },
+  {
+   "cue": "b_noticia",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -25
+  },
+  {
+   "cue": "b_pergunta",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "b_chaves",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 4
+  },
+  {
+   "cue": "b_conf",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -28
+  },
+  {
+   "cue": "b_disp",
+   "offset": 0.05,
+   "sound": "block",
+   "gain": -26
+  },
+  {
+   "cue": "b_errada",
+   "offset": 0.05,
+   "sound": "hollow",
+   "gain": -30
+  },
+  {
+   "cue": "c_antes",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -24
+  },
+  {
+   "cue": "c_onde",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "c_fase",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 2
+  },
+  {
+   "cue": "c_cand",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 4
+  },
+  {
+   "cue": "c_canal",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 6
+  },
+  {
+   "cue": "c_ctx",
+   "offset": 0.05,
+   "sound": "shimmer",
+   "gain": -27
+  },
+  {
+   "cue": "x_fase",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — notícia"
+   },
+   {
+    "at": "cue:a_nao",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — etapa"
+   },
+   {
+    "at": "cue:b_imag",
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     53
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Dm — confusão"
+   },
+   {
+    "at": "cue:c_antes",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — conferir"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}
