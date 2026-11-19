@@ -1,0 +1,96 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 6.61,
+    "palavras_nao_reconhecidas": [
+      "sete",
+      "dez"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.05,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.9,
+    "palavras_nao_reconhecidas": [
+      "considera",
+      "Secovi"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.84,
+    "palavras_nao_reconhecidas": [
+      "sete",
+      "dez"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 1.92,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 9.17,
+    "palavras_nao_reconhecidas": [
+      "entrada"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.82,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 4.48,
+    "palavras_nao_reconhecidas": [
+      "só"
+    ]
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.42,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.23,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.49,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 52.16,
+    "asr_match": 0.938,
+    "aligned_words": "135/144",
+    "words_per_min": 166,
+    "heard": "Em São Paulo, 7 de cada 10 imóveis novos vendidos num período recente foram do Minha Casa Minha Vida. Você percebe o tamanho desse mercado? O dado é da capital paulista e considere imóveis novos no período analisado pelo Secov. Não significa 7 em 10 vendas de todo o Brasil, nem inclui automaticamente os usados. O que isso ensina para o corretor? Que o comprador de primeira moradia pode precisar de alguém que explique entra, análise de crédito, custos adicionais e etapas da aquisição, sem prometer enquadramento. Se você atua nesse segmento, transforme as dúvidas que recebe no atendimento em conteúdo. Em vez de mostrar sua planta e fachada, ajude a pessoa a entender como começar. Cada dúvida respondida prepara o comprador. Quer conhecer um sistema personalizado para organizar seus imóveis? Leads e atendimentos? Comenta Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 53.24,
+      "wpm": 162
+    },
+    "pausas_moldadas": {
+      "n": 16,
+      "max_s": 0.47
+    },
+    "pausas_encurtadas_s": 1.08,
+    "final": {
+      "seconds": 52.16,
+      "wpm": 166
+    }
+  }
+]
