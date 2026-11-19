@@ -1,0 +1,95 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.4,
+    "palavras_nao_reconhecidas": [
+      "caiu",
+      "trinta",
+      "cinco",
+      "por",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.0,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 0.21,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 5.84,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 2.93,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 1.4,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 5.44,
+    "palavras_nao_reconhecidas": [
+      "está"
+    ]
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 5.28,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.42,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.0,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 4.16,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 2.8,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 45.04,
+    "asr_match": 0.961,
+    "aligned_words": "137/144",
+    "words_per_min": 192,
+    "heard": "A intenção de comprar imóvel cai para 35% numa pesquisa recente. Isso quer dizer que acabou o comprador? Não. A pesquisa ouviu usuários de portais imobiliários. E mede uma intenção declarada, não o desaparecimento da demanda. É uma fotografia de um grupo específico, num período específico. Agora, imagina seu atendimento. Um interessado tá só pesquisando, outro precisa mudar em três meses. E um terceiro já tem entrada separada. Tratar os três como se fossem comprar amanhã só aumenta o ruído. Em vez de insistir com todo mundo da mesma maneira, descubra motivo, prazo e próximos passos. O trabalho do corretor é fazer a conversa evoluir com clareza, não adivinhar o futuro do mercado. Qualifique a conversa antes de insistir. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente Sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 50.08,
+      "wpm": 173
+    },
+    "pausas_encurtadas_s": 5.04,
+    "final": {
+      "seconds": 45.04,
+      "wpm": 192
+    }
+  }
+]

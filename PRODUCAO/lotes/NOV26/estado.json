@@ -6,7 +6,8 @@
   "voz": "gemini-3.8-flash-tts / Puck / pt-BR / 1,0× · direção calorosa e contínua + voice.tightenPauses ≤0,09 s (regra do cliente 19/11/2026)",
   "verde": "#02FB3F (só este lote; episódios anteriores intactos)",
   "trilha": "discreta, sem bateria",
-  "cta": "ver PRODUCAO/lotes/NOV26/LEIAME.md"
+  "cta": "ver PRODUCAO/lotes/NOV26/LEIAME.md",
+  "sfx": "um pouco mais dinâmicos (cliente 19/11/2026, a partir do NOV26_06): ~+2 dB por evento e mais eventos (whoosh/swish em toda troca de cena, tick/pop/click em cada item); voz sempre na frente"
  },
  "estados": "pendente → em_producao → voz_ok → renderizado → validado(entregue) | bloqueado(motivo)",
  "episodios": [
@@ -85,12 +86,14 @@
    "id": "ATIVO_NOV26_06",
    "composition": "ATIVO-NOV26-06",
    "title": "Menos intenção de compra, mais critério",
-   "status": "pendente",
-   "video": null,
-   "validacao": null,
-   "voz": null,
+   "status": "entregue",
+   "video": "OUTPUT/ATIVO_NOV26_06/ATIVO_NOV26_06_FINAL.mp4",
+   "validacao": "11/11 · −14,91 LUFS · 47,38 s · editorial 0/0 · movimento 1,95 · 192 palavras/min",
+   "voz": "regra 19/11; 7 gerações (conta 2: A–D; conta 1: E–G, G usada sem edição)",
    "commit": null,
-   "notas": ""
+   "notas": "aprovar transição; ouvir \"o ruído\" e \"Um/O interessado\"; SFX mais dinâmicos (30 eventos)",
+   "legenda": "OUTPUT/ATIVO_NOV26_06/legenda_instagram.txt",
+   "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/06/"
   },
   {
    "n": 7,
@@ -383,8 +386,8 @@
  ],
  "cota_voz": {
   "data": "2026-11-19",
-  "conta2_usadas": 7,
-  "conta1_usadas": 1,
+  "conta2_usadas": 11,
+  "conta1_usadas": 4,
   "renova": "~08:00 UTC"
  }
 }

@@ -34,3 +34,10 @@
 ## Voz — regra do cliente de 19/11/2026 (a partir do NOV26_05)
 - Direção nova no preset (calorosa, contagiante, ritmo contínuo) e `"voice": {"tightenPauses": {"min": 0.06, "max": 0.09}}` em todo `episode.json` (o gerador já inclui). Continua 1,0×, sem `targetWpm`/time-stretch.
 - Alvo medido: ≥ 80% do tempo com fala e nenhuma pausa > 0,1 s entre frases. Se a tomada vier lenta demais, gerar outra; não acelerar.
+
+- Padrão **aprovado pelo cliente em 19/11** ("gostei, siga com este padrão").
+
+## SFX — um pouco mais dinâmicos (cliente, 19/11/2026, a partir do NOV26_06)
+
+- ~+2 dB por evento (principais entre −24 e −26 dB) e mais eventos: whoosh/swish em toda troca de cena, tick/pop/click em cada item que entra (NOV26_06: 30 eventos; NOV26_05: 21).
+- Voz sempre na frente: `mixcmp.py` da mixagem não pode ficar pior que o da narração isolada.

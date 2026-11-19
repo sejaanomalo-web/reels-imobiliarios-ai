@@ -19,6 +19,8 @@
 > - **Não muda:** Gemini `gemini-3.8-flash-tts`, voz Puck, **1,0×**: sem `targetWpm`, sem `maxStretch`, sem time-stretch, sem acelerar. Ads (`AD-*`) seguem a regra própria (1,1×).
 > - **Resultado no NOV26_05:** 82% de fala, 10 pausas curtas (1,5 s), 178 palavras/min, sem alterar timbre nem velocidade.
 > - A direção nova também pode ser lida em voz alta pelo modelo: continuar conferindo os primeiros segundos de toda tomada.
+> - **Aprovada pelo cliente em 19/11/2026** ("gostei, siga com este padrão"), com um ajuste: **SFX um pouco mais dinâmicos** a partir do NOV26_06 — ~+2 dB por evento (principais entre −24 e −26 dB) e mais eventos (whoosh/swish em toda troca de cena, tick/pop/click em cada item que entra; NOV26_06: 30 eventos × 21 no 05). Voz sempre na frente: conferir que a transcrição da mixagem não piora em relação à narração isolada.
+> - **Vazamento recorrente:** frases com "não o …" / "nunca …" puxam o fim da direção ("Nunca locutor de comercial") — no NOV26_06, 3 de 7 tomadas leram a instrução no meio do texto. Conferir a tomada inteira, não só o começo.
 
 > ## ⚠️ DECISÃO VIGENTE — 11/11/2026, a partir do EP015 (prevalece sobre tudo abaixo)
 >
@@ -430,6 +432,7 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-17 | ATIVO REEL15 | Humor: manual do improviso fiscal + virada séria (sem alíquotas, ressalva do contador mantida); CTA SISTEMA ('Salva e manda' → transição). Conta 1, tomada A sem edição (B leu a instrução de estilo), 161 palavras/min, 61,6 s, movimento 2,28, maior trecho parado 0,9 s | Pedido do cliente; aguardando avaliação |
 | 2026-11-19 | ATIVO_NOV26_04 | Paradoxo: R$ 72,5 bi Caixa+FGTS no 3º tri com juros altos (conferido); mercado não é interruptor; CTA do roteiro mantida literal + SISTEMA. 3 tomadas (A leu a instrução; B 'uma Caixa'; emenda recusada por tom), C sem edição, 163 palavras/min, 58,3 s, movimento 1,46; legenda + pasta de publicação | Pedido do cliente; aguardando avaliação |
 | 2026-11-19 | ATIVO_NOV26_05 | Aprovado ≠ assinado (checklist hipotético); 1º com a regra de voz 19/11 (direção calorosa + pausas ≤0,09 s, 1,0×): 82% de fala, 178 palavras/min. 5 gerações (C 'retber', D 'Numa orientação'), E sem edição; 49,2 s, movimento 1,49 | Pedido do cliente; aguardando avaliação |
+| 2026-11-19 | ATIVO_NOV26_06 | Intenção de compra 38%→35% (Raio-X FipeZAP 3º tri 2026, 758 respondentes, eixo em zero) → 3 leads com relógios de decisão → quadro motivo/prazo/próximo passo; 1º com SFX mais dinâmicos (30 eventos, ~+2 dB). 7 gerações (3 vazamentos de "locutor de comercial"), G sem edição; 47,4 s, 192 palavras/min, movimento 1,95 | Voz aprovada pelo cliente; SFX pedido 19/11 |
 | 2026-11-13 | LANDING 16:9 | Vídeo principal da landing: 118 s, 1920×1080, trilha original por blocos, marca e telas provisórias, legendas web | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 v2 | Transcrição dinâmica, voz 1,2× (exceção pedida), 86,5 s, elementos maiores, movimento 2,39 | Feedback do cliente: mais dinâmica, texto = fala, gancho mais forte |
 | 2026-11-13 | LANDING 16:9 FINAL | Logo oficial (revelação) + verde #3AF584, 3 situações centralizadas, voz 1,0×, 103 s, movimento 2,0 | Aprovado para implementação pelo cliente, com estes ajustes |
