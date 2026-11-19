@@ -1,0 +1,111 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 6.05,
+    "palavras_nao_reconhecidas": [
+      "Setenta",
+      "três",
+      "por",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.73,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.23,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 1.87,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.77,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.98,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 2.97,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 5.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 3.91,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 1.96,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 1.66,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 3.4,
+    "palavras_nao_reconhecidas": [
+      "contra",
+      "argumentar"
+    ]
+  },
+  {
+    "seg": "s14",
+    "seconds": 4.39,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s15",
+    "seconds": 2.67,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 55.34,
+    "asr_match": 0.962,
+    "aligned_words": "140/148",
+    "words_per_min": 160,
+    "heard": "73% dos entrevistados numa pesquisa consideraram imóveis caros ou muito caros. A resposta não pode ser só, mas é uma oportunidade. Se o cliente acha caro, repetir adjetivos não resolve. Ele quer saber com o que está comparando. Área, localização, estado de conservação e custos recorrentes mudam a leitura do mesmo preço. Um apartamento pode custar mais porque entrega mobilidade. Outro pode ter metragem maior, mas exigir reforma. O corretor que domina essas diferenças ajuda a comparar, inclusive quando uma opção não compensa. Na próxima objeção de preço, peça para entender a referência do comprador. Depois apresente fatos que você verificou. O objetivo não é vencer a discussão, é tornar a escolha mais clara. Ouviu, está caro? Pergunte antes de contra-argumentar. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 56.11,
+      "wpm": 158
+    },
+    "pausas_moldadas": {
+      "n": 14,
+      "max_s": 0.42
+    },
+    "pausas_encurtadas_s": 0.76,
+    "final": {
+      "seconds": 55.34,
+      "wpm": 160
+    }
+  }
+]

@@ -27,7 +27,7 @@ Continue a produção do lote **"30 Reels da ATIVO — novembro 2026"** neste re
   - Antes de gerar, confira com `env | grep -o '^GEMINI[A-Z_0-9]*'` quais variáveis existem nesta sessão.
   - Cada chave tem cerca de 10 gerações por dia; cada tomada conta 1. Faça 2 tomadas por episódio.
   - **Se der erro de chave ou de cota:** pare, marque o episódio como `bloqueado` no `estado.json` com o motivo, faça commit, avise o usuário e aguarde. Nunca troque de voz.
-- **Voz dinâmica (regra do cliente, 19/11/2026):** a direção do preset mudou (calorosa, contagiante, quase sem pausas) e todo `episode.json` leva `"voice": {"tightenPauses": {"min": 0.06, "max": 0.09}}`. Continua 1,0× e sem time-stretch. Ver o topo de `PROMPTS/GUIA_MELHORIA_CONTINUA.md`.
+- **Voz (regra do cliente, 19/11/2026, atualizada à tarde — a partir do NOV26_08):** calorosa e contagiante, ritmo dinâmico **mas humano, respeitando pausas de respiração e de suspense** (nem embolado, nem arrastado). Todo `episode.json` leva `"voice": {"shapePauses": {"keepUnder": 0.22, "ratio": 0.6, "max": 0.6}}` (o gerador já inclui; substitui o `tightenPauses` 0,09 s de NOV26_05–07). Continua 1,0×, sem `targetWpm`/time-stretch. Ver o topo de `PROMPTS/GUIA_MELHORIA_CONTINUA.md`.
 - **Verde do lote:** `#02FB3F`, só via `A` / `aa()` do kit (ou `ACCENT_NOV26` / `accentAlpha`). `Background` e `Captions` recebem `accent={A}`. Proibido usar `BRAND.hex`, `brandAlpha` ou `C.accent` nos arquivos do lote: o `editorial_check` bloqueia. A logo é só o arquivo oficial (`BRAND.logo`).
 - **CTA:**
   - A fala termina sempre com a CTA SISTEMA: "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct."

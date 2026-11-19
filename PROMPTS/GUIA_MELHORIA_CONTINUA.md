@@ -10,6 +10,15 @@
 > - **Processo comercial real:** call de diagnóstico → definição → desenvolvimento do sistema personalizado. Não dizer que o sistema é "apresentado/demonstrado" antes de existir.
 > - **Exceção registrada:** vídeo da landing (`LP-ATIVO-V3`): 1,1× e transcrição completa na tela por pedido do cliente (13/11/2026). Não generalizar para Reels/Stories, que seguem 1,0× e destaque de 3–8 palavras.
 
+> ## ⚠️ REGRA DO CLIENTE — 19/11/2026 (tarde), a partir do ATIVO_NOV26_08 — PAUSAS NATURAIS (prevalece sobre o item de pausas abaixo)
+>
+> Ordem do cliente ("ISSO É UMA REGRA"): respeitar as pausas de respiração e de suspense da narração, para a fala não ficar embolada, sem enrolar; narração de pessoa real, transmitindo as emoções do vídeo.
+>
+> - **Pausas:** `"voice": {"shapePauses": {"keepUnder": 0.22, "ratio": 0.6, "max": 0.6}}` — pausas até 0,22 s ficam intactas (respiração, vírgula); as maiores viram 0,22 s + 60% do excesso, com teto de 0,6 s (suspense sem arrastar). Substitui o `tightenPauses` 0,09 s de NOV26_05–07, que achatava toda pausa e embolava a fala. Só corta silêncio: 1,0×, sem time-stretch.
+> - **Direção do preset:** "…Ritmo dinâmico, mas humano: respira entre as ideias e faz uma breve pausa de suspense antes das revelações, sem arrastar. Nunca locutor de comercial." (anteriores em `direction_historico`).
+> - **Mantidos:** voz Puck, `gemini-3.8-flash-tts`, calor e sorriso na voz, SFX um pouco mais dinâmicos.
+> - **Medição NOV26_08** (mesma tomada, só o tratamento de pausas): 27 pausas internas (~6 s), maior 0,42 s, 160 palavras/min. Com a regra anterior seria 173 palavras/min e ~0 s de pausa; o padrão de 11/11 (NOV26_04) tinha ~9,6 s de pausa.
+
 > ## ⚠️ REGRA DO CLIENTE — 19/11/2026, a partir do ATIVO_NOV26_05 (prevalece sobre a decisão de 11/11 nos itens abaixo)
 >
 > Ordem do cliente ("REGRA e ORDEM"), a partir do vídeo de referência `02_2.mp4`: fala mais dinâmica, voz mais calorosa e contagiante, quase sem pausas de respiração, para aumentar retenção e conexão.
@@ -434,6 +443,7 @@ Meta para os próximos: 200–240 palavras/min, pausas ≤ 10%, maior pausa ≤ 
 | 2026-11-19 | ATIVO_NOV26_05 | Aprovado ≠ assinado (checklist hipotético); 1º com a regra de voz 19/11 (direção calorosa + pausas ≤0,09 s, 1,0×): 82% de fala, 178 palavras/min. 5 gerações (C 'retber', D 'Numa orientação'), E sem edição; 49,2 s, movimento 1,49 | Pedido do cliente; aguardando avaliação |
 | 2026-11-19 | ATIVO_NOV26_06 | Intenção de compra 38%→35% (Raio-X FipeZAP 3º tri 2026, 758 respondentes, eixo em zero) → 3 leads com relógios de decisão → quadro motivo/prazo/próximo passo; 1º com SFX mais dinâmicos (30 eventos, ~+2 dB). 7 gerações (3 vazamentos de "locutor de comercial"), G sem edição; 47,4 s, 192 palavras/min, movimento 1,95 | Voz aprovada pelo cliente; SFX pedido 19/11 |
 | 2026-11-19 | ATIVO_NOV26_07 | 67% com desconto (amostra Raio-X FipeZAP, "não representa todas as vendas") → dois proprietários hipotéticos → ficha de contexto (comparáveis, tempo, condição, capacidade). Pronúncia `FipeZAP → Fipe Zap` no texto da voz. 4 gerações, D sem edição; 49,6 s, 183 palavras/min, movimento 1,75 | SFX dinâmicos mantidos |
+| 2026-11-19 | ATIVO_NOV26_08 | 73% acham caro (percepção, Raio-X FipeZAP) → CARO + adjetivos que somem → critérios → comparador sem valores → pergunta no chat. **1º com pausas naturais (shapePauses: ≤0,22 s intactas, teto 0,6 s)** por regra do cliente: 27 pausas, 160 palavras/min. B + frase do A (0,04 st); 57,7 s, movimento 1,57 | Regra do cliente 19/11 (tarde) |
 | 2026-11-13 | LANDING 16:9 | Vídeo principal da landing: 118 s, 1920×1080, trilha original por blocos, marca e telas provisórias, legendas web | Pedido do cliente; aguardando avaliação |
 | 2026-11-13 | LANDING 16:9 v2 | Transcrição dinâmica, voz 1,2× (exceção pedida), 86,5 s, elementos maiores, movimento 2,39 | Feedback do cliente: mais dinâmica, texto = fala, gancho mais forte |
 | 2026-11-13 | LANDING 16:9 FINAL | Logo oficial (revelação) + verde #3AF584, 3 situações centralizadas, voz 1,0×, 103 s, movimento 2,0 | Aprovado para implementação pelo cliente, com estes ajustes |

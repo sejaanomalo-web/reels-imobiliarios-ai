@@ -32,7 +32,7 @@
 - O script só copia arquivos já validados e recusa entrega incompleta. Não renderiza nem gera voz.
 
 ## Voz — regra do cliente de 19/11/2026 (a partir do NOV26_05)
-- Direção nova no preset (calorosa, contagiante, ritmo contínuo) e `"voice": {"tightenPauses": {"min": 0.06, "max": 0.09}}` em todo `episode.json` (o gerador já inclui). Continua 1,0×, sem `targetWpm`/time-stretch.
+- **Voz (regra do cliente, 19/11/2026, atualizada à tarde — a partir do NOV26_08):** calorosa e contagiante, ritmo dinâmico **mas humano, respeitando pausas de respiração e de suspense** (nem embolado, nem arrastado). Todo `episode.json` leva `"voice": {"shapePauses": {"keepUnder": 0.22, "ratio": 0.6, "max": 0.6}}` (o gerador já inclui; substitui o `tightenPauses` 0,09 s de NOV26_05–07). Continua 1,0×, sem `targetWpm`/time-stretch. Ver o topo de `PROMPTS/GUIA_MELHORIA_CONTINUA.md`.
 - Alvo medido: ≥ 80% do tempo com fala e nenhuma pausa > 0,1 s entre frases. Se a tomada vier lenta demais, gerar outra; não acelerar.
 
 - Padrão **aprovado pelo cliente em 19/11** ("gostei, siga com este padrão").

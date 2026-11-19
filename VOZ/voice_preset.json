@@ -8,7 +8,7 @@
  "voice_id": "Puck",
  "voice_reference_path": null,
  "voice_reference_authorized": false,
- "direction": "Narração calorosa e contagiante, de quem conversa com um colega corretor de imóveis: brasileiro, próximo, confiante e com sorriso na voz. Ritmo dinâmico e contínuo, emendando as frases com pouquíssimas pausas de respiração. Nunca locutor de comercial.",
+ "direction": "Narração calorosa e contagiante, de quem conversa com um colega corretor de imóveis: brasileiro, próximo, confiante e com sorriso na voz. Ritmo dinâmico, mas humano: respira entre as ideias e faz uma breve pausa de suspense antes das revelações, sem arrastar. Nunca locutor de comercial.",
  "style": "caloroso, contagiante, dinâmico, conversacional, brasileiro",
  "speed": 1.0,
  "seed": null,
@@ -31,16 +31,25 @@
   ]
  },
  "notes": "Voz oficial da série: Gemini gemini-3.8-flash-tts, voz Puck, com a direção acima. Aprovada a partir da audição OUTPUT/VOICE_AUDITIONS/audicao_gemini_Puck_EP001.wav. A fala varia a cada geração (mesma voz, entonação diferente): a narração de cada episódio fica congelada em PRODUCAO/episodes/<EP>/narration_source.wav e só é refeita com --regen. license_reviewed continua false: termos de uso comercial da Gemini API e plano da chave não verificados. Kokoro (pm_alex) reprovada pelo cliente por soar robótica.",
- "direction_historico": {
-  "2026-11-10_a_2026-11-19": "Tom de conversa entre colegas corretores de imóveis: brasileiro, próximo, seguro e natural. Ritmo ágil, sem correria, com pausas curtas entre as ideias. Nunca locutor de comercial."
- },
- "pausas": {
-  "tightenPauses": {
-   "min": 0.06,
-   "max": 0.09
+ "direction_historico": [
+  {
+   "2026-11-10_a_2026-11-19": "Tom de conversa entre colegas corretores de imóveis: brasileiro, próximo, seguro e natural. Ritmo ágil, sem correria, com pausas curtas entre as ideias. Nunca locutor de comercial."
   },
-  "aplicar_em": "episode.json → voice.tightenPauses (Reels e Stories a partir de ATIVO_NOV26_05)",
-  "origem": "ordem do cliente em 19/11/2026 a partir da referência 02_2.mp4 (87% de fala ativa, 4 pausas em 38 s); só corta silêncio, sem time-stretch"
+  {
+   "ate": "2026-11-19 (NOV26_05–07)",
+   "direction": "Narração calorosa e contagiante, de quem conversa com um colega corretor de imóveis: brasileiro, próximo, confiante e com sorriso na voz. Ritmo dinâmico e contínuo, emendando as frases com pouquíssimas pausas de respiração. Nunca locutor de comercial."
+  }
+ ],
+ "pausas": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "aplicar_em": "episode.json → voice.shapePauses (a partir do ATIVO_NOV26_08)",
+  "regra": "pausas ≤0,22 s intactas (respiração, vírgula); maiores viram 0,22 + 60% do excesso, teto 0,6 s (suspense sem arrastar). Só corta silêncio; 1,0×, sem time-stretch",
+  "substitui": "tightenPauses {min 0.06, max 0.09} de NOV26_05–07 (deixava a fala embolada)"
  },
- "decisao_2026_11_19": "Cliente (19/11/2026, REGRA): fala mais dinâmica, voz mais calorosa e contagiante, quase sem pausas de respiração. Mantidos: Gemini gemini-3.8-flash-tts, voz Puck, 1,0× (sem aceleração/time-stretch). Alterados: direção de interpretação e pausas máximas de 0,14 s."
+ "decisao_2026_11_19": "Cliente (19/11/2026, REGRA): fala mais dinâmica, voz mais calorosa e contagiante, quase sem pausas de respiração. Mantidos: Gemini gemini-3.8-flash-tts, voz Puck, 1,0× (sem aceleração/time-stretch). Alterados: direção de interpretação e pausas máximas de 0,14 s.",
+ "decisao_2026_11_19_tarde": "Cliente (19/11/2026, REGRA): respeitar pausas de respiração e de suspense para a fala não ficar embolada, sem enrolar; narração de pessoa real, com emoção. Mantidos: Puck, gemini-3.8-flash-tts, 1,0×, voz calorosa. Alterados: direção (respira e faz suspense) e pausas (shapePauses no lugar de tightenPauses)."
 }

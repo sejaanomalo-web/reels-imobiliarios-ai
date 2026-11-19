@@ -1,0 +1,7 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.8-flash-tts",
+ "voice": "Puck",
+ "direction": "Narração calorosa e contagiante, de quem conversa com um colega corretor de imóveis: brasileiro, próximo, confiante e com sorriso na voz. Ritmo dinâmico e contínuo, emendando as frases com pouquíssimas pausas de respiração. Nunca locutor de comercial.",
+ "text_sha": "6f55e6ca9ba83257a0a68e36b18fe75cc876c5b3"
+}

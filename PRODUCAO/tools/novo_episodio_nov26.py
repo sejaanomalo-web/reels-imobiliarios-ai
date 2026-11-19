@@ -1,4 +1,4 @@
-"""Gera episode.json de um episódio NOV26 (uso: importar build(n, ...) a partir de PRODUCAO/; ver ATIVO-NOV26-05). Inclui a CTA SISTEMA e voice.tightenPauses (regra 19/11/2026)."""
+"""Gera episode.json de um episódio NOV26 (uso: importar build(n, ...) a partir de PRODUCAO/; ver ATIVO-NOV26-05). Inclui a CTA SISTEMA e voice.shapePauses (regra 19/11/2026, tarde: pausas naturais de respiração e suspense)."""
 import json,re,os
 W=r"[\wáàâãéêíóôõúüçÁÀÂÃÉÊÍÓÔÕÚÜÇ]+"
 CTA=[("cta","Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?","Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*"),
@@ -23,7 +23,7 @@ def build(n,title,S,L,sfx,prog,cta,diag,apur,lead,cta_in_script=False):
     ep.update(id=f"ATIVO-NOV26-{N}",title=title,outputDir=f"ATIVO_NOV26_{N}",
       deliverables=dict(final=f"ATIVO_NOV26_{N}_FINAL.mp4",narration=f"ATIVO_NOV26_{N}_NARRACAO.wav",subtitles=f"ATIVO_NOV26_{N}_legendas.srt",cover=f"ATIVO_NOV26_{N}_capa.png"),
       fonte=f"ROTEIROS/LOTE_NOV2026/ATIVO_NOV26_{N}.md (lote ATIVO_30_ROTEIROS_NOV2026.docx, cliente, 17/11/2026)",apuracao=apur,diagnostico=diag,cta=cta,
-      segments=segs,voice={"tightenPauses":{"min":0.06,"max":0.09},"nota":"regra do cliente 19/11/2026: quase sem pausas; sem time-stretch"},sceneLead=lead,hideCaptions=[],cues=C,series={},sfx=sfx,music=dict(gain=-30,duck=-5.5,bpm=88,prog=prog))
+      segments=segs,voice={"shapePauses":{"keepUnder":0.22,"ratio":0.6,"max":0.6},"nota":"regra do cliente 19/11/2026 (tarde): respeitar pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"},sceneLead=lead,hideCaptions=[],cues=C,series={},sfx=sfx,music=dict(gain=-30,duck=-5.5,bpm=88,prog=prog))
     os.makedirs(f'episodes/ATIVO-NOV26-{N}',exist_ok=True)
     json.dump(ep,open(f'episodes/ATIVO-NOV26-{N}/episode.json','w'),ensure_ascii=False,indent=1)
     st=json.load(open('lotes/NOV26/estado.json'))

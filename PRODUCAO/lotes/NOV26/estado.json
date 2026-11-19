@@ -3,7 +3,7 @@
  "fonte": "ROTEIROS/LOTE_NOV2026/ATIVO_30_ROTEIROS_NOV2026.docx (cliente, 17/11/2026)",
  "regras": {
   "sequencial": true,
-  "voz": "gemini-3.8-flash-tts / Puck / pt-BR / 1,0× · direção calorosa e contínua + voice.tightenPauses ≤0,09 s (regra do cliente 19/11/2026)",
+  "voz": "gemini-3.8-flash-tts / Puck / pt-BR / 1,0× · direção calorosa, dinâmica e humana + voice.shapePauses (pausas ≤0,22 s intactas; maiores 0,22+60% do excesso, teto 0,6 s) — regra do cliente 19/11/2026 (tarde), a partir do NOV26_08",
   "verde": "#02FB3F (só este lote; episódios anteriores intactos)",
   "trilha": "discreta, sem bateria",
   "cta": "ver PRODUCAO/lotes/NOV26/LEIAME.md",
@@ -114,12 +114,14 @@
    "id": "ATIVO_NOV26_08",
    "composition": "ATIVO-NOV26-08",
    "title": "O comprador acha caro: e agora?",
-   "status": "pendente",
-   "video": null,
-   "validacao": null,
-   "voz": null,
+   "status": "entregue",
+   "video": "OUTPUT/ATIVO_NOV26_08/ATIVO_NOV26_08_FINAL.mp4",
+   "validacao": "11/11 · −14,88 LUFS · 57,69 s · editorial 0/0 · movimento 1,57 · 160 palavras/min",
+   "voz": "1º com pausas naturais (shapePauses); 2 gerações (conta 2: A; conta 1: B) — B com a frase do s5 trocada pela da A (0,04 st)",
    "commit": null,
-   "notas": ""
+   "notas": "aprovar transição; ouvir \"exigir\"; avaliar o novo ritmo com pausas",
+   "legenda": "OUTPUT/ATIVO_NOV26_08/legenda_instagram.txt",
+   "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/08/"
   },
   {
    "n": 9,
@@ -388,8 +390,8 @@
  ],
  "cota_voz": {
   "data": "2026-11-19",
-  "conta2_usadas": 12,
-  "conta1_usadas": 9,
+  "conta2_usadas": 13,
+  "conta1_usadas": 10,
   "renova": "~08:00 UTC"
  }
 }
