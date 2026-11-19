@@ -1,0 +1,88 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 7.74,
+    "palavras_nao_reconhecidas": [
+      "está"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 8.98,
+    "palavras_nao_reconhecidas": [
+      "dois",
+      "mil",
+      "vinte",
+      "seis",
+      "setenta",
+      "dois",
+      "vírgula",
+      "cinco"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.64,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 6.12,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.74,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.8,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 6.81,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 4.05,
+    "palavras_nao_reconhecidas": [
+      "olhe"
+    ]
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.54,
+    "palavras_nao_reconhecidas": [
+      "leads"
+    ]
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.62,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 55.92,
+    "asr_match": 0.929,
+    "aligned_words": "137/152",
+    "words_per_min": 163,
+    "heard": "Se o crédito imobiliário tá caro, como a Caixa contratou dezenas de bilhões de reais em financiamentos num único trimestre? No terceiro trimestre de 2026 foram 72,5 bilhões de reais em contratações, considerando recursos da Caixa e do FGTS. É um volume grande, mesmo com taxas elevadas. O erro é imaginar o mercado como um interruptor. Juro alto, ninguém compra. Juro baixo, todo mundo compra. Na prática, existem faixas de renda, modalidades, necessidades e condições muito diferentes. Para o corretor, olhar o número agregado é só o começo. O que importa é saber qual modalidade atende o cliente, quais condições estão disponíveis e qual produto faz sentido para ele. Antes de repetir que o mercado travou, olha o recorte da notícia. Quer conhecer um sistema personalizado para organizar seus imóveis, elites e atendimentos? Comenta Sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 55.92,
+      "wpm": 163
+    },
+    "final": {
+      "seconds": 55.92,
+      "wpm": 163
+    }
+  }
+]

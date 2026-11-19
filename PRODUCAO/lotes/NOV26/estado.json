@@ -20,7 +20,9 @@
    "validacao": "11/11 · −14,99 LUFS · TP −1,56 · 55,57 s · editorial 0/0 · movimento 1,49",
    "voz": "conta 1, 2 gerações (A + 1ª frase da B)",
    "commit": null,
-   "notas": "ouvir 0:00 ('Ó'?); aprovar transição 'Lembre: juros básicos…'"
+   "notas": "ouvir 0:00 ('Ó'?); aprovar transição 'Lembre: juros básicos…'",
+   "legenda": "OUTPUT/ATIVO_NOV26_01/legenda_instagram.txt",
+   "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/01/"
   },
   {
    "n": 2,
@@ -32,7 +34,9 @@
    "validacao": "11/11 · −14,98 LUFS · TP −1,29 · 48,98 s · editorial 0/0 · movimento 1,72",
    "voz": "conta 1, 2 gerações (B; A leu a instrução de estilo)",
    "commit": null,
-   "notas": "reconferir status da Caixa antes de publicar; aprovar transição 'confirme antes de prometer'"
+   "notas": "reconferir status da Caixa antes de publicar; aprovar transição 'confirme antes de prometer'",
+   "legenda": "OUTPUT/ATIVO_NOV26_02/legenda_instagram.txt",
+   "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/02/"
   },
   {
    "n": 3,
@@ -44,19 +48,23 @@
    "validacao": "11/11 · −15,07 LUFS · TP −1,64 · 49,98 s · editorial 0/0 · movimento 1,40",
    "voz": "conta 1, 2 gerações (B + frase s4 da A)",
    "commit": null,
-   "notas": "aprovar transição 'Traduza a notícia…'"
+   "notas": "aprovar transição 'Traduza a notícia…'",
+   "legenda": "OUTPUT/ATIVO_NOV26_03/legenda_instagram.txt",
+   "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/03/"
   },
   {
    "n": 4,
    "id": "ATIVO_NOV26_04",
    "composition": "ATIVO-NOV26-04",
    "title": "Juros altos, crédito bilionário",
-   "status": "bloqueado",
-   "video": null,
-   "validacao": null,
-   "voz": null,
+   "status": "entregue",
+   "video": "OUTPUT/ATIVO_NOV26_04/ATIVO_NOV26_04_FINAL.mp4",
+   "validacao": "11/11 · −15,00 LUFS · TP −1,66 · 58,28 s · editorial 0/0 · movimento 1,46",
+   "voz": "conta 2, 3 gerações (C; A leu a instrução de estilo; B disse \"uma Caixa\"; emenda A→B recusada por 1,6 semitom)",
    "commit": null,
-   "notas": "aguardando cota de voz (renova ~08:00 UTC 18/11)"
+   "notas": "aprovar CTA mantida literal; 3ª leitura da instrução de estilo pela voz",
+   "legenda": "OUTPUT/ATIVO_NOV26_04/legenda_instagram.txt",
+   "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/04/"
   },
   {
    "n": 5,
@@ -372,10 +380,10 @@
   }
  ],
  "cota_voz": {
-  "data": "2026-11-17",
-  "conta1_usadas_estimadas": 9,
-  "conta2": "esgotada (Reel 14)",
+  "data": "2026-11-19",
+  "conta2_usadas": 3,
+  "conta1_usadas": 0,
   "renova": "~08:00 UTC",
-  "observacao": "conta 1 com ~1 geração restante hoje; NOV26_04 aguarda a renovação (~08:00 UTC de 18/11)"
+  "observacao": "limite real por chave incerto (conta 2 fez 12 gerações em 17/11 sem recusa)"
  }
 }
