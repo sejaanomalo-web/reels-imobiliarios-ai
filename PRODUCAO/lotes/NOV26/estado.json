@@ -142,12 +142,14 @@
    "id": "ATIVO_NOV26_10",
    "composition": "ATIVO-NOV26-10",
    "title": "Preço anunciado não é preço fechado",
-   "status": "pendente",
-   "video": null,
-   "validacao": null,
-   "voz": null,
+   "status": "entregue",
+   "video": "OUTPUT/ATIVO_NOV26_10/ATIVO_NOV26_10_FINAL.mp4",
+   "validacao": "11/11 · −14,94 LUFS · 56,34 s · editorial 0/0 · movimento 1,36 · 157 palavras/min",
+   "voz": "direção nova + shapePauses; 2 gerações (conta 2: A usada sem edição; conta 1: B)",
    "commit": null,
-   "notas": ""
+   "notas": "aprovar transição; ouvir \"Fipe Zap\"",
+   "legenda": "OUTPUT/ATIVO_NOV26_10/legenda_instagram.txt",
+   "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/10/"
   },
   {
    "n": 11,
@@ -392,8 +394,8 @@
  ],
  "cota_voz": {
   "data": "2026-11-19",
-  "conta2_usadas": 14,
-  "conta1_usadas": 11,
+  "conta2_usadas": 15,
+  "conta1_usadas": 12,
   "renova": "~08:00 UTC"
  }
 }

@@ -1,0 +1,194 @@
+[
+ {
+  "t": 0.36,
+  "sound": "notif",
+  "gain": -26,
+  "cue": "h_anun"
+ },
+ {
+  "t": 2.25,
+  "sound": "whoosh_up",
+  "gain": -26,
+  "cue": "h_caro"
+ },
+ {
+  "t": 3.85,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "h_neg"
+ },
+ {
+  "t": 5.77,
+  "sound": "fade_down",
+  "gain": -28,
+  "cue": "h_desc"
+ },
+ {
+  "t": 6.65,
+  "sound": "click",
+  "gain": -24,
+  "cue": "h_dois"
+ },
+ {
+  "t": 7.85,
+  "sound": "shimmer",
+  "gain": -27,
+  "cue": "h_verd"
+ },
+ {
+  "t": 9.5,
+  "sound": "swish",
+  "gain": -24,
+  "cue": "a_fipe"
+ },
+ {
+  "t": 11.13,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "a_anunc"
+ },
+ {
+  "t": 11.85,
+  "sound": "pop",
+  "gain": -26,
+  "cue": "a_portais"
+ },
+ {
+  "t": 12.92,
+  "sound": "whip",
+  "gain": -26,
+  "cue": "a_pesq"
+ },
+ {
+  "t": 16.73,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "a_pago"
+ },
+ {
+  "t": 17.61,
+  "sound": "click",
+  "gain": -24,
+  "cue": "a_bases"
+ },
+ {
+  "t": 18.25,
+  "sound": "click",
+  "gain": -24,
+  "cue": "a_metodos"
+ },
+ {
+  "t": 18.97,
+  "sound": "click",
+  "gain": -24,
+  "cue": "a_perg"
+ },
+ {
+  "t": 19.82,
+  "sound": "whoosh_up",
+  "gain": -24,
+  "cue": "b_se"
+ },
+ {
+  "t": 21.53,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "b_valor"
+ },
+ {
+  "t": 25.69,
+  "sound": "block",
+  "gain": -26,
+  "cue": "b_ign"
+ },
+ {
+  "t": 26.25,
+  "sound": "alert",
+  "gain": -30,
+  "cue": "b_estado"
+ },
+ {
+  "t": 27.53,
+  "sound": "alert",
+  "gain": -30,
+  "cue": "b_liq"
+ },
+ {
+  "t": 28.57,
+  "sound": "alert",
+  "gain": -30,
+  "cue": "b_negs"
+ },
+ {
+  "t": 30.25,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "b_reg"
+ },
+ {
+  "t": 30.7,
+  "sound": "whoosh_fold",
+  "gain": -24,
+  "cue": "c_not"
+ },
+ {
+  "t": 33.29,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "c_aval"
+ },
+ {
+  "t": 35.37,
+  "sound": "click",
+  "gain": -24,
+  "cue": "c_locais"
+ },
+ {
+  "t": 36.89,
+  "sound": "click",
+  "gain": -24,
+  "cue": "c_verif"
+ },
+ {
+  "t": 38.73,
+  "sound": "shimmer",
+  "gain": -27,
+  "cue": "c_transp"
+ },
+ {
+  "t": 41.45,
+  "sound": "hollow",
+  "gain": -30,
+  "cue": "c_bonita"
+ },
+ {
+  "t": 44.89,
+  "sound": "pin",
+  "gain": -26,
+  "cue": "x_ponto"
+ },
+ {
+  "t": 47.32,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "cta_sys"
+ },
+ {
+  "t": 50.38,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 51.87,
+  "sound": "typing",
+  "gain": -30,
+  "cue": "cta_word"
+ },
+ {
+  "t": 54.03,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "cta_end"
+ }
+]
