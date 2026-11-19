@@ -255,12 +255,14 @@
       "id": "ATIVO_NOV26_18",
       "composition": "ATIVO-NOV26-18",
       "title": "Aluguel sobe mais que inflação",
-      "status": "pendente",
-      "video": null,
-      "validacao": null,
-      "voz": null,
+      "status": "entregue",
+      "video": "OUTPUT/ATIVO_NOV26_18/ATIVO_NOV26_18_FINAL.mp4",
+      "validacao": "11/11 · −14,99 LUFS · 54,08 s · editorial 0/0 · movimento 1,32 · 161 palavras/min",
+      "voz": "direção nova + shapePauses; 2 gerações (conta 1): B descartada ('subirão'), A usada sem edição",
       "commit": null,
-      "notas": ""
+      "notas": "aprovar transição; ouvir \"FipeZAP\" e \"Pro corretor\"",
+      "legenda": "OUTPUT/ATIVO_NOV26_18/legenda_instagram.txt",
+      "publicacao": "PUBLICACAO/NOV26/REELS_11_AO_20/18/"
     },
     {
       "n": 19,
@@ -411,7 +413,7 @@
     "data": "2026-11-19",
     "conta2_usadas": 21,
     "conta2": "esgotada às ~19:00 UTC (quota exceeded na 22ª)",
-    "conta1_usadas": 19,
+    "conta1_usadas": 21,
     "renova": "~08:00 UTC"
   }
 }
