@@ -41,7 +41,7 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
   const out = prog(t, c.a_pref - 0.4, 0.35, ease.in);
   return (
     <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: 1 - out }}>
-      <Camera drift={4} t={t} keys={[{ t: 0, s: 1.1, y: -20 }, { t: 1.0, s: 1.16, x: -10, y: -20, e: ease.out }, { t: c.h_casas, s: 1.12, x: 15, y: -15, e: ease.linear }, { t: c.h_depois + 0.3, s: 1.05, x: 0, y: -35, e: ease.inOut }, { t: c.a_pref, s: 1.09, y: -40, e: ease.inOut }]}>
+      <Camera drift={4} t={t} keys={[{ t: 0, s: 1.08, x: 12, y: -10 }, { t: 1.0, s: 1.18, x: -14, y: -24, e: ease.out }, { t: c.h_casas, s: 1.12, x: 15, y: -15, e: ease.linear }, { t: c.h_depois + 0.3, s: 1.05, x: 0, y: -35, e: ease.inOut }, { t: c.a_pref, s: 1.09, y: -40, e: ease.inOut }]}>
         <div style={{ position: "absolute", left: 210, top: 430 }}>
           <CityMap p={map} t={t}>
             {pin > 0.001 ? <div style={{ position: "absolute", left: 200, top: 70, display: "flex", flexDirection: "column", alignItems: "center", opacity: fade(pin), transform: `translateY(${(1 - Math.min(1, pin)) * -60 + Math.sin(t * 4) * 4}px)` }}><span style={{ fontSize: 56 }}>📍</span><Tag text="FAVO DE MEL · REGIÃO NORTE" tone="accent" size={24} /></div> : null}
@@ -121,7 +121,7 @@ export const Take2: React.FC<SceneProps> = ({ t, tl }) => {
         <div style={{ position: "absolute", left: 90, right: 90, top: 790, height: 14, borderRadius: 7, background: `repeating-linear-gradient(90deg, ${C.surface3} 0 50px, ${C.dim} 50px 70px)`, opacity: fade(ef), transform: `translateX(${-((t * 60) % 70)}px)` }} />
         <div style={{ position: "absolute", left: 90, right: 90, top: 830, display: "flex", gap: 16 }}>
           {VERIFY.map((x, i) => (
-            <div key={x.k} style={{ flex: 1, height: 170, boxSizing: "border-box", borderRadius: 24, background: vs[i] > 0.5 ? WARN_BG : C.surface, border: `2px dashed ${vs[i] > 0.5 ? "rgba(255,107,94,0.7)" : C.dim}`, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 8, opacity: fade(ef) * mix(0.45, 1, Math.min(1, vs[i] * 2)), transform: `scale(${mix(0.85, 1, Math.min(1.05, vs[i]))}) translateY(${Math.sin(t * 2 + i) * 5}px)` }}>
+            <div key={x.k} style={{ flex: 1, height: 170, boxSizing: "border-box", borderRadius: 24, background: vs[i] > 0.5 ? WARN_BG : C.surface, border: `2px dashed ${vs[i] > 0.5 ? "rgba(255,107,94,0.7)" : C.dim}`, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 8, opacity: fade(ef) * mix(0.45, 1, Math.min(1, vs[i] * 2)), transform: `scale(${mix(0.85, 1, Math.min(1.05, vs[i])) * (1 + 0.04 * Math.sin(t * 3 + i))}) translateY(${Math.sin(t * 2 + i) * 12}px) rotate(${Math.sin(t * 1.6 + i) * 2}deg)` }}>
               <span style={{ fontSize: 46 }}>{x.ic}</span>
               <span style={{ fontWeight: 800, fontSize: 24, color: C.text }}>{x.k}</span>
               <span style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 24, color: C.warn, opacity: fade(vs[i]) }}>A VERIFICAR</span>
@@ -149,18 +149,18 @@ export const Take3: React.FC<SceneProps> = ({ t, tl }) => {
   return (
     <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: fade(enter) * (1 - out) }}>
       <Camera drift={4} t={t} keys={[{ t: c.c_atua - 0.35, s: 1.06, y: 0 }, { t: c.c_atua + 0.9, s: 1.12, x: 0, y: -10, e: ease.out }, { t: c.c_fontes, s: 1.07, x: -12, y: -15, e: ease.linear }, { t: c.c_estoque + 0.3, s: 1.07, x: 12, y: -25, e: ease.linear }, { t: c.c_valor + 0.3, s: 1.05, x: 0, y: -40, e: ease.inOut }, { t: c.x_anuncio, s: 1.09, x: 0, y: -45, e: ease.inOut }, { t: c.cta_quer, s: 1.06, y: -40, e: ease.linear }]}>
-        <div style={{ position: "absolute", left: 270, top: 420 }}>
-          <CityMap p={map} t={t} w={540}>
+        <div style={{ position: "absolute", left: 240, top: 420 }}>
+          <CityMap p={map} t={t} w={600}>
             {READ.map((x, i) => (chips[i] > 0.001 ? (
-              <div key={x.k} style={{ position: "absolute", left: [30, 280, 40, 270][i], top: [40, 70, 220, 250][i], opacity: fade(chips[i]), transform: `scale(${mix(0.5, 1, Math.min(1.08, chips[i]))}) translateY(${Math.sin(t * 2 + i) * 5}px)` }}>
+              <div key={x.k} style={{ position: "absolute", left: [30, 280, 40, 270][i], top: [40, 70, 220, 250][i], opacity: fade(chips[i]), transform: `scale(${mix(0.5, 1, Math.min(1.08, chips[i])) * (1 + 0.05 * Math.sin(t * 2.6 + i))}) translateY(${Math.sin(t * 2 + i) * 14}px) translateX(${Math.cos(t * 1.7 + i) * 8}px)` }}>
                 <div style={{ display: "flex", alignItems: "center", gap: 8, padding: "10px 14px", borderRadius: 16, background: C.surface, border: `2px solid ${A.hex}` }}><span style={{ fontSize: 30 }}>{x.ic}</span><span style={{ fontWeight: 800, fontSize: 24, color: C.text }}>{x.k}</span></div>
               </div>
             ) : null))}
           </CityMap>
         </div>
         <div style={{ position: "absolute", left: 90, right: 90, top: 840, display: "flex", flexDirection: "column", alignItems: "center", gap: 14, opacity: 1 - fade(fin) }}>
-          {no1 > 0.001 ? <div style={{ opacity: fade(no1), transform: `scale(${mix(0.5, 1, Math.min(1.08, no1))})` }}><Tag text="✕ HABITAÇÃO SOCIAL ≠ ESTOQUE À VENDA" tone="warn" size={28} /></div> : null}
-          {no2 > 0.001 ? <div style={{ opacity: fade(no2), transform: `scale(${mix(0.5, 1, Math.min(1.08, no2))})` }}><Tag text="✕ PROMETER VALORIZAÇÃO" tone="warn" size={28} /></div> : null}
+          {no1 > 0.001 ? <div style={{ opacity: fade(no1), transform: `scale(${mix(0.5, 1, Math.min(1.08, no1))}) translateX(${Math.sin(t * 2.4) * 10}px)` }}><Tag text="✕ HABITAÇÃO SOCIAL ≠ ESTOQUE À VENDA" tone="warn" size={28} /></div> : null}
+          {no2 > 0.001 ? <div style={{ opacity: fade(no2), transform: `scale(${mix(0.5, 1, Math.min(1.08, no2))}) translateX(${Math.sin(t * 2.4 + 1.5) * 10}px)` }}><Tag text="✕ PROMETER VALORIZAÇÃO" tone="warn" size={28} /></div> : null}
         </div>
         {fin > 0.001 ? <div style={{ position: "absolute", left: 80, right: 80, top: 880, textAlign: "center", fontWeight: 800, fontSize: 52, lineHeight: 1.05, color: C.text, opacity: fade(fin), transform: `scale(${mix(1.2, 1, Math.min(1, fin))})` }}>Leia a cidade,<br /><span style={{ color: A.hex }}>não só o anúncio</span></div> : null}
       </Camera>
