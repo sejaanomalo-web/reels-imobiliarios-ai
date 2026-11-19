@@ -156,12 +156,14 @@
    "id": "ATIVO_NOV26_11",
    "composition": "ATIVO-NOV26-11",
    "title": "Pequeno pode custar mais por metro",
-   "status": "pendente",
-   "video": null,
-   "validacao": null,
-   "voz": null,
+   "status": "entregue",
+   "video": "OUTPUT/ATIVO_NOV26_11/ATIVO_NOV26_11_FINAL.mp4",
+   "validacao": "11/11 · −15,00 LUFS · 50,37 s · editorial 0/0 · movimento 1,88 · 172 palavras/min",
+   "voz": "direção nova + shapePauses; 2 gerações (conta 2: A; conta 1: B usada sem edição)",
    "commit": null,
-   "notas": ""
+   "notas": "aprovar transição; ouvir \"imagine\"",
+   "legenda": "OUTPUT/ATIVO_NOV26_11/legenda_instagram.txt",
+   "publicacao": "PUBLICACAO/NOV26/REELS_11_AO_20/11/"
   },
   {
    "n": 12,
@@ -394,8 +396,8 @@
  ],
  "cota_voz": {
   "data": "2026-11-19",
-  "conta2_usadas": 15,
-  "conta1_usadas": 12,
+  "conta2_usadas": 16,
+  "conta1_usadas": 13,
   "renova": "~08:00 UTC"
  }
 }
