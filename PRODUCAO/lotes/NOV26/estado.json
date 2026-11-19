@@ -146,7 +146,7 @@
    "video": "OUTPUT/ATIVO_NOV26_10/ATIVO_NOV26_10_FINAL.mp4",
    "validacao": "11/11 · −14,94 LUFS · 56,34 s · editorial 0/0 · movimento 1,36 · 157 palavras/min",
    "voz": "direção nova + shapePauses; 2 gerações (conta 2: A usada sem edição; conta 1: B)",
-   "commit": null,
+   "commit": "54056d0",
    "notas": "aprovar transição; ouvir \"Fipe Zap\"",
    "legenda": "OUTPUT/ATIVO_NOV26_10/legenda_instagram.txt",
    "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/10/"
