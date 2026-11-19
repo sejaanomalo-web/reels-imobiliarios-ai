@@ -1,0 +1,90 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.27,
+    "palavras_nao_reconhecidas": [
+      "Sessenta",
+      "sete",
+      "por",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.64,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.2,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.18,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 5.27,
+    "palavras_nao_reconhecidas": [
+      "Raio",
+      "FipeZAP"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 5.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 6.94,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 3.2,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.61,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 4.16,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 2.31,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 47.31,
+    "asr_match": 0.958,
+    "aligned_words": "137/144",
+    "words_per_min": 183,
+    "heard": "67% das compras observadas numa pesquisa tiveram algum desconto. E tem corretor que ainda trata a negociação como ofensa. Imagina dois proprietários vendendo apartamentos parecidos. Um recebe proposta abaixo do anúncio e recusa antes de conversar. O outro pede que o corretor apresente dados e explique as condições. No levantamento Rai X Fip Zap, boa parte das transações relatadas terminou abaixo do valor pedido. Isso não significa que todo imóvel precisa ter desconto igual, nem que o proprietário deva aceitar qualquer oferta. O papel do corretor é contextualizar preço de imóveis comparáveis, tempo de exposição, condição do bem e capacidade real da proposta. Negociar bem é organizar argumentos, não forçar uma resposta. Na próxima conversa difícil sobre preço, leve contexto. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 53.48,
+      "wpm": 162
+    },
+    "pausas_encurtadas_s": 6.17,
+    "final": {
+      "seconds": 47.31,
+      "wpm": 183
+    }
+  }
+]
