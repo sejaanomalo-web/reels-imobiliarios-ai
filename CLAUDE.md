@@ -1,5 +1,7 @@
 # CLAUDE.md — Prompt Mestre do projeto
 
+> **NOVO — LEGENDAS INSTAGRAM ATIVO (18/11/2026):** para TODO episódio entregue, leia obrigatoriamente `PROMPTS/GUIA_LEGENDAS_INSTAGRAM_ATIVO.md` e os exemplos de `PROMPTS/EXEMPLOS_LEGENDAS/`. Além do vídeo e da capa, gere `OUTPUT/<outputDir>/legenda_instagram.txt` em UTF-8, com texto pronto para copiar/colar no Instagram. Primeira linha fixa: `📲 Comente "SISTEMA" e conheça uma solução personalizada para organizar seus imóveis, leads e atendimentos.` Nunca usar **negrito**, Markdown ou HTML na legenda; encerrar com exatamente 5 hashtags em minúsculas. Não transcrever o vídeo; criar texto complementar específico. Esta é uma ETAPA EDITORIAL DO AGENTE CLAUDE CODE, inclusive ao retomar episódios já renderizados; `npm run ep` sozinho NÃO cria a legenda. Respeite o diretório real indicado pelo `episode.json`.
+
 > **Mapa do repositório (estado real):**
 > `ROTEIROS/` livro com os 60 roteiros + `EP###.md` extraídos · `MODELS/` 9 Reels de referência (`ref_01…09.mp4`) e manifesto ·
 > `VOZ/` preset de voz e casting · `MARCA/` identidade ATIVO aprovada (logo + `#3AF584`) · `ANALISE/` relatórios de referência, voz e tokens ·
@@ -166,6 +168,7 @@ Para `EP001`, fornecer:
 - `OUTPUT/EP001/EP001_narracao.wav` — voz aprovada isolada.
 - `OUTPUT/EP001/EP001_legendas.srt` — legendas sincronizadas.
 - `OUTPUT/EP001/EP001_capa.png` — frame/capa 1080x1920 sem recorte crítico.
+- `OUTPUT/EP001/legenda_instagram.txt` — legenda editorial em UTF-8 pronta para publicar, conforme `PROMPTS/GUIA_LEGENDAS_INSTAGRAM_ATIVO.md` (sem Markdown, CTA fixa, 5 hashtags).
 - `OUTPUT/EP001/EP001_roteiro_final.md` — texto efetivamente narrado e timestamps reais.
 - `OUTPUT/EP001/relatorio_qa.md` — checklist de revisão e bloqueios.
 - `OUTPUT/EP001/licencas_e_creditos.md` — procedência dos recursos.
@@ -180,6 +183,7 @@ Para `EP001`, fornecer:
 **ETAPA E**: criar storyboard, assets e motion, respeitando a duração real da fala.
 **ETAPA F**: adicionar legendas, trilha, efeitos e transições.
 **ETAPA G**: renderizar, validar, corrigir e entregar arquivos e código.
+**ETAPA H**: gerar e conferir `OUTPUT/<outputDir>/legenda_instagram.txt` com base no vídeo final e nos modelos aprovados; não encerrar a entrega sem a legenda ou reportar explicitamente a pendência.
 
 No relatório final, separar claramente o que foi executado do que ficou pendente e por quê. 
 
