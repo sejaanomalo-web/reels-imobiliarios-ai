@@ -80,7 +80,7 @@ export const Take1: React.FC<SceneProps> = ({ t, tl }) => {
   return (
     <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: fade(enter) * (1 - out) }}>
       <Camera drift={8} t={t} keys={[{ t: c.a_hist - 0.35, s: 1.05, y: 0 }, { t: c.a_hist + 0.8, s: 1.08, x: -4, y: -8, e: ease.out }, { t: c.a_regiao, s: 1.06, x: 4, y: -14, e: ease.linear }, { t: c.a_isol, s: 1.09, x: 0, y: -20, e: ease.out }, { t: c.b_conexao, s: 1.06, y: -24, e: ease.linear }]}>
-        {hip > 0.001 ? <div style={{ position: "absolute", left: 0, right: 0, top: 450, display: "flex", justifyContent: "center", opacity: fade(hip) }}><Tag text="EXEMPLO HIPOTÉTICO" tone="muted" size={26} /></div> : null}
+        {hip > 0.001 ? <div style={{ position: "absolute", left: 0, right: 0, top: 1090, display: "flex", justifyContent: "center", opacity: fade(hip) * (1 - fade(iso)) }}><Tag text="EXEMPLO HIPOTÉTICO" tone="muted" size={26} /></div> : null}
         <div style={{ position: "absolute", left: 90, right: 90, top: 530, display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
           <Agent label="CORRETOR A" color={A.hex} t={t} k={0}>
             {capt > 0.001 ? <div style={{ width: 290, boxSizing: "border-box", borderRadius: 20, background: aa(0.08), border: `2px solid ${A.hex}`, padding: 14, display: "flex", alignItems: "center", gap: 10, opacity: fade(capt), transform: `scale(${mix(0.6, 1, Math.min(1.05, capt))})` }}><IconHome size={52} color={A.hex} /><span style={{ fontWeight: 800, fontSize: 26, color: C.text }}>BOA CAPTAÇÃO</span></div> : null}
@@ -166,7 +166,7 @@ export const Take3: React.FC<SceneProps> = ({ t, tl }) => {
           </div>
         ))}
         {link > 0.2 ? <div style={{ position: "absolute", left: 0, right: 0, top: 940, display: "flex", justifyContent: "center", opacity: fade(link) * (1 - fade(fin)) }}><Tag text="CONEXÕES COM PERMISSÃO · ILUSTRATIVO" tone="muted" size={24} /></div> : null}
-        {no > 0.001 ? <div style={{ position: "absolute", left: 0, right: 0, top: 460, display: "flex", justifyContent: "center", opacity: fade(no) * (1 - fade(org)) }}><div style={{ padding: "10px 20px", borderRadius: 16, background: WARN_BG, border: "2px solid rgba(255,107,94,0.6)", transform: `scale(${mix(1.8, 1, Math.min(1, no))}) rotate(-3deg)` }}><span style={{ fontWeight: 800, fontSize: 28, color: C.warn }}>✕ CARTEIRA ABERTA PARA QUALQUER PESSOA</span></div></div> : null}
+        {no > 0.001 ? <div style={{ position: "absolute", left: 0, right: 0, top: 1010, display: "flex", justifyContent: "center", opacity: fade(no) * (1 - fade(org)) }}><div style={{ padding: "10px 20px", borderRadius: 16, background: WARN_BG, border: "2px solid rgba(255,107,94,0.6)", transform: `scale(${mix(1.8, 1, Math.min(1, no))}) rotate(-3deg)` }}><span style={{ fontWeight: 800, fontSize: 28, color: C.warn }}>✕ CARTEIRA ABERTA PARA QUALQUER PESSOA</span></div></div> : null}
         <div style={{ position: "absolute", left: 0, right: 0, top: 1010, display: "flex", justifyContent: "center", gap: 14, opacity: 1 - fade(fin) }}>
           {org > 0.001 ? <div style={{ opacity: fade(org), transform: `scale(${mix(0.5, 1, Math.min(1.08, org))}) translateY(${fl(t, 1, 6)}px)` }}><Tag text="✓ ORGANIZAÇÃO" tone="accent" size={28} /></div> : null}
           {conf > 0.001 ? <div style={{ opacity: fade(conf), transform: `scale(${mix(0.5, 1, Math.min(1.08, conf))}) translateY(${fl(t, 3, 6)}px)` }}><Tag text="✓ CONFIANÇA" tone="accent" size={28} /></div> : null}
