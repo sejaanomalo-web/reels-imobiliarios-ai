@@ -315,7 +315,7 @@
       "video": "OUTPUT/ATIVO_NOV26_22/ATIVO_NOV26_22_FINAL.mp4",
       "validacao": "11/11 · −15,06 LUFS · 56,88 s · editorial 0/0 · movimento 1,46 · 153 palavras/min",
       "voz": "direção nova + shapePauses; A (conta 1) usada sem edição; B (conta 2) descartada ('Olha,' acrescentado)",
-      "commit": null,
+      "commit": "588c681",
       "notas": "aprovar transição; ouvir \"enxergar margem\" e \"Não venda\"",
       "legenda": "OUTPUT/ATIVO_NOV26_22/legenda_instagram.txt",
       "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/22/"
