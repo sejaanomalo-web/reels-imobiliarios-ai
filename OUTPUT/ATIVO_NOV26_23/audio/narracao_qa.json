@@ -1,0 +1,92 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.69,
+    "palavras_nao_reconhecidas": [
+      "Friday"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.8,
+    "palavras_nao_reconhecidas": [
+      "cinquenta",
+      "por",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.01,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.66,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.89,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.77,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 7.18,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 7.14,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.59,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 1.79,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 4.7,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 3.06,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 52.72,
+    "asr_match": 0.977,
+    "aligned_words": "130/134",
+    "words_per_min": 153,
+    "heard": "A Black Frida chegou ao mercado imobiliário, mas uma etiqueta de 50% de desconto não responde a pergunta mais importante. Desconto em relação a qual preço. Em novembro, incorporadoras fizeram campanhas com condições especiais. O corretor precisa separar preço original, preço promocional e condições para ter acesso à oferta. Também não adianta comparar só a parcela da chamada. Entrada, evolução da obra, correção monetária, taxas e cronograma podem mudar o custo total de acordo com o contrato. O vídeo que ajuda o comprador é aquele que ensina a conferir proposta e documentos, não o que repete a maior porcentagem do banner. Promoção boa precisa resistir à comparação. Compare propostas completas. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente Sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 54.56,
+      "wpm": 147
+    },
+    "pausas_moldadas": {
+      "n": 14,
+      "max_s": 0.59
+    },
+    "pausas_encurtadas_s": 1.84,
+    "final": {
+      "seconds": 52.72,
+      "wpm": 153
+    }
+  }
+]

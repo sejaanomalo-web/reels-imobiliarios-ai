@@ -325,24 +325,26 @@
       "id": "ATIVO_NOV26_23",
       "composition": "ATIVO-NOV26-23",
       "title": "Black Friday no imóvel: é desconto real?",
-      "status": "em_producao",
-      "video": null,
-      "validacao": null,
-      "voz": null,
+      "status": "entregue",
+      "video": "OUTPUT/ATIVO_NOV26_23/ATIVO_NOV26_23_FINAL.mp4",
+      "validacao": "11/11 · −15,00 LUFS · 55,08 s · editorial 0/0 · movimento 1,53 · 153 palavras/min",
+      "voz": "direção nova + shapePauses; A (conta 1) descartada ('não é adianta'); B (conta 2) usada sem edição",
       "commit": null,
-      "notas": "em produção"
+      "notas": "aprovar transição; ouvir \"Também não adianta\"",
+      "legenda": "OUTPUT/ATIVO_NOV26_23/legenda_instagram.txt",
+      "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/23/"
     },
     {
       "n": 24,
       "id": "ATIVO_NOV26_24",
       "composition": "ATIVO-NOV26-24",
       "title": "Por que a incorporadora pisa no freio?",
-      "status": "pendente",
+      "status": "bloqueado",
       "video": null,
       "validacao": null,
       "voz": null,
       "commit": null,
-      "notas": ""
+      "notas": "BLOQUEADO por cota de voz (20/11 ~01:15 UTC): conta 1 'quota exceeded' na tomada A; conta 2 'quota exceeded' na tomada C. episode.json pronto (apuração Portas/Exame/Safra). Tomada B (conta 2) vazou a direção no início; versão cortada (sem o vazamento) em OUTPUT/ATIVO_NOV26_24/audio/tomada_B_cortada.wav — dúvida: 'Manchete' soa 'Manchate' nos dois ASR. Retomar com nova tomada após renovação."
     },
     {
       "n": 25,
@@ -420,7 +422,7 @@
   "cota_voz": {
     "data": "2026-11-20",
     "conta1_usadas": 4,
-    "conta2_usadas": 5,
+    "conta2_usadas": 6,
     "nota": "cota renovada antes de 00:10 UTC (teste de 1 geração em cada conta deu 200 OK)",
     "dia_anterior": {
       "data": "2026-11-19",
@@ -429,6 +431,8 @@
       "conta1_usadas": 27,
       "renova": "~08:00 UTC",
       "conta1": "esgotada às ~22:20 UTC (quota exceeded na tomada B do 20)"
-    }
+    },
+    "conta1": "quota exceeded às ~01:10 UTC (5 gerações no dia)",
+    "conta2": "quota exceeded às ~01:15 UTC (6 gerações no dia)"
   }
 }
