@@ -413,7 +413,7 @@
       "video": "OUTPUT/ATIVO_NOV26_29/ATIVO_NOV26_29_FINAL.mp4",
       "validacao": "11/11 · −14,99 LUFS · 54,78 s · editorial 0/0 · movimento 1,68 · 166 palavras/min",
       "voz": "direção nova + shapePauses; A (conta 1) com palavras fora do roteiro no início; B (conta 2) usada sem edição (ASR 145/145)",
-      "commit": null,
+      "commit": "c8be951",
       "notas": "aprovar transição; ouvir a citação entre aspas",
       "legenda": "OUTPUT/ATIVO_NOV26_29/legenda_instagram.txt",
       "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/29/"
@@ -427,7 +427,7 @@
       "video": "OUTPUT/ATIVO_NOV26_30/ATIVO_NOV26_30_FINAL.mp4",
       "validacao": "11/11 · −14,91 LUFS · 54,85 s · editorial 0/0 · movimento 1,40 · 159 palavras/min",
       "voz": "direção nova + shapePauses; A (conta 1) 'espalhar a informação'; B (conta 2) usada sem edição",
-      "commit": null,
+      "commit": "c8be951",
       "notas": "CTA do roteiro já é SISTEMA (sem transição); ouvir \"Secovi\"",
       "legenda": "OUTPUT/ATIVO_NOV26_30/legenda_instagram.txt",
       "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/30/"
