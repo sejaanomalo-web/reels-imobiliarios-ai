@@ -367,12 +367,14 @@
       "id": "ATIVO_NOV26_26",
       "composition": "ATIVO-NOV26-26",
       "title": "44% dos leads fora do expediente",
-      "status": "em_producao",
-      "video": null,
-      "validacao": null,
-      "voz": null,
+      "status": "entregue",
+      "video": "OUTPUT/ATIVO_NOV26_26/ATIVO_NOV26_26_FINAL.mp4",
+      "validacao": "11/11 · -15.03 LUFS · 52.18 s · editorial 0/0 · movimento 1,44 · 177 palavras/min",
+      "voz": "direção nova + shapePauses; A (conta 1) descartada ('manda', 'respeit'); B (conta 2) usada sem edição",
       "commit": null,
-      "notas": "em produção"
+      "notas": "aprovar transição; ouvir ritmo (177 palavras/min) e \"Secovi\"",
+      "legenda": "OUTPUT/ATIVO_NOV26_26/legenda_instagram.txt",
+      "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/26/"
     },
     {
       "n": 27,
@@ -403,31 +405,31 @@
       "id": "ATIVO_NOV26_29",
       "composition": "ATIVO-NOV26-29",
       "title": "O comprador quer resposta, não cinco PDFs",
-      "status": "pendente",
+      "status": "em_producao",
       "video": null,
       "validacao": null,
       "voz": null,
       "commit": null,
-      "notas": ""
+      "notas": "em produção"
     },
     {
       "n": 30,
       "id": "ATIVO_NOV26_30",
       "composition": "ATIVO-NOV26-30",
       "title": "O corretor digital de verdade",
-      "status": "pendente",
+      "status": "em_producao",
       "video": null,
       "validacao": null,
       "voz": null,
       "commit": null,
-      "notas": ""
+      "notas": "em produção"
     }
   ],
   "cota_voz": {
     "data": "2026-11-20 (tarde)",
     "nota": "cota voltou ~11:00 UTC",
-    "conta1_usadas_desde_11h": 5,
-    "conta2_usadas_desde_11h": 5,
+    "conta1_usadas_desde_11h": 8,
+    "conta2_usadas_desde_11h": 8,
     "historico": {
       "data": "2026-11-20",
       "conta1_usadas": 4,

@@ -20,7 +20,8 @@
 - **Pontos para ouvir:** "Secovi" (o "i" final sai fraco); ritmo geral.
 
 ## Validação
-- `editorial_check` 0 erros / 0 avisos.
+- `validate.py` 11/11: 1080×1920 · H.264 · yuv420p · 30 fps · AAC · 52,18 s · −15,03 LUFS · TP −1,65 dBTP.
+- `editorial_check` 0 erros / 0 avisos. Movimento 1,44 · maior trecho parado 0,6 s. SFX: 27 eventos, stem −39,4 LUFS.
 - Quadros revisados (14 + 4). Corrigidos:
   - ~5 s quase vazios no início do Take 01: relógio e "??%" entram antes da contagem;
   - celular do gancho e fluxo do Take 03 baixados para longe do título.

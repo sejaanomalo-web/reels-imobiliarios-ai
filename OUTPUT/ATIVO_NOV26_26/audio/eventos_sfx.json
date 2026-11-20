@@ -1,0 +1,164 @@
+[
+ {
+  "t": 0.36,
+  "sound": "notif",
+  "gain": -26,
+  "cue": "h_inter"
+ },
+ {
+  "t": 1.962,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "h_dez"
+ },
+ {
+  "t": 2.68,
+  "sound": "whoosh_fold",
+  "gain": -26,
+  "cue": "h_quando"
+ },
+ {
+  "t": 4.41,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "h_seg"
+ },
+ {
+  "t": 6.41,
+  "sound": "hollow",
+  "gain": -29,
+  "cue": "h_outra"
+ },
+ {
+  "t": 7.6,
+  "sound": "swish",
+  "gain": -24,
+  "cue": "a_hip"
+ },
+ {
+  "t": 10.33,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "a_estim"
+ },
+ {
+  "t": 13.352,
+  "sound": "pin",
+  "gain": -26,
+  "cue": "a_qa"
+ },
+ {
+  "t": 14.134,
+  "sound": "whoosh_up",
+  "gain": -25,
+  "cue": "a_44"
+ },
+ {
+  "t": 16.89,
+  "sound": "notif",
+  "gain": -27,
+  "cue": "a_fora"
+ },
+ {
+  "t": 17.9,
+  "sound": "whoosh_up",
+  "gain": -24,
+  "cue": "b_isso"
+ },
+ {
+  "t": 20.826,
+  "sound": "hollow",
+  "gain": -29,
+  "cue": "b_24"
+ },
+ {
+  "t": 21.776,
+  "sound": "block",
+  "gain": -25,
+  "cue": "b_signif"
+ },
+ {
+  "t": 26.25,
+  "sound": "click",
+  "gain": -24,
+  "cue": "b_receb"
+ },
+ {
+  "t": 27.13,
+  "sound": "click",
+  "gain": -24,
+  "cue": "b_prazo"
+ },
+ {
+  "t": 28.17,
+  "sound": "click",
+  "gain": -24,
+  "cue": "b_prox"
+ },
+ {
+  "t": 29.02,
+  "sound": "whoosh_fold",
+  "gain": -24,
+  "cue": "c_msg"
+ },
+ {
+  "t": 30.01,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "c_conf"
+ },
+ {
+  "t": 31.21,
+  "sound": "click",
+  "gain": -24,
+  "cue": "c_proc"
+ },
+ {
+  "t": 34.33,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "c_auto"
+ },
+ {
+  "t": 37.37,
+  "sound": "swish",
+  "gain": -25,
+  "cue": "c_passar"
+ },
+ {
+  "t": 38.73,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "c_resp"
+ },
+ {
+  "t": 39.61,
+  "sound": "shimmer",
+  "gain": -27,
+  "cue": "x_lead"
+ },
+ {
+  "t": 43.48,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "cta_sys"
+ },
+ {
+  "t": 46.46,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 47.95,
+  "sound": "typing",
+  "gain": -30,
+  "cue": "cta_word"
+ },
+ {
+  "t": 49.87,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "cta_end"
+ }
+]

@@ -59,8 +59,8 @@ export const Take1: React.FC<SceneProps> = ({ t, tl }) => {
   const out = prog(t, c.b_deb - 0.4, 0.35, ease.in);
   return (
     <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: fade(enter) * (1 - out) }}>
-      <Camera drift={8} t={t} keys={[{ t: c.a_porque - 0.35, s: 1.05, y: 0 }, { t: c.a_porque + 0.8, s: 1.08, x: -6, y: -8, e: ease.out }, { t: c.a_pref, s: 1.06, x: 8, y: -14, e: ease.linear }, { t: c.a_risc, s: 1.08, x: -6, y: -20, e: ease.linear }, { t: c.b_deb, s: 1.06, y: -26, e: ease.linear }]}>
-        <div style={{ position: "absolute", left: 100, top: 480, width: 400, boxSizing: "border-box", borderRadius: 26, background: C.surface, border: `2px solid ${A.hex}`, padding: "18px 20px", display: "flex", flexDirection: "column", gap: 12, opacity: fade(split), transform: `translateY(${(1 - Math.min(1, split)) * 50 + fl(t, 0)}px) rotate(${Math.sin(t * 1.2) * 1.5}deg)` }}>
+      <Camera drift={8} t={t} keys={[{ t: c.a_porque - 0.35, s: 1.05, y: 0 }, { t: c.a_porque + 0.8, s: 1.07, x: -3, y: -8, e: ease.out }, { t: c.a_pref, s: 1.05, x: 3, y: -14, e: ease.linear }, { t: c.a_risc, s: 1.07, x: -3, y: -20, e: ease.linear }, { t: c.b_deb, s: 1.06, y: -26, e: ease.linear }]}>
+        <div style={{ position: "absolute", left: 120, top: 490, width: 390, boxSizing: "border-box", borderRadius: 26, background: C.surface, border: `2px solid ${A.hex}`, padding: "18px 20px", display: "flex", flexDirection: "column", gap: 12, opacity: fade(split), transform: `translateY(${(1 - Math.min(1, split)) * 50 + fl(t, 0)}px) rotate(${Math.sin(t * 1.2) * 1.5}deg)` }}>
           <span style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 24, color: A.hex }}>🔎 BUSCAR</span>
           {FILT.map((f, i) => (
             <div key={f.k} style={{ height: 70, borderRadius: 16, background: fs[i] > 0.5 ? aa(0.1) : C.surface2, display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0 16px", opacity: mix(0.35, 1, Math.min(1, fs[i] * 2)), transform: `translateX(${(1 - Math.min(1, fs[i])) * 30 + Math.sin(t * 2.2 + i) * 6}px)` }}>
@@ -69,7 +69,7 @@ export const Take1: React.FC<SceneProps> = ({ t, tl }) => {
             </div>
           ))}
         </div>
-        <div style={{ position: "absolute", left: 540, top: 480, width: 440, boxSizing: "border-box", borderRadius: 26, background: C.surface, border: `2px solid ${C.text}`, padding: "18px 20px", display: "flex", flexDirection: "column", gap: 12, opacity: fade(split), transform: `translateY(${(1 - Math.min(1, split)) * 50 + fl(t, 2)}px) rotate(${Math.sin(t * 1.2 + 1) * 1.5}deg)` }}>
+        <div style={{ position: "absolute", left: 540, top: 490, width: 420, boxSizing: "border-box", borderRadius: 26, background: C.surface, border: `2px solid ${C.text}`, padding: "18px 20px", display: "flex", flexDirection: "column", gap: 12, opacity: fade(split), transform: `translateY(${(1 - Math.min(1, split)) * 50 + fl(t, 2)}px) rotate(${Math.sin(t * 1.2 + 1) * 1.5}deg)` }}>
           <span style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 24, color: C.text }}>🧭 ORIENTAR</span>
           <div style={{ display: "flex", alignItems: "center", gap: 10, opacity: fade(who) }}><Person size={56} t={t} color={C.text} /><span style={{ fontWeight: 800, fontSize: 26, color: C.muted }}>CLIENTE</span></div>
           {DOUBT.map((d, i) => ds[i] > 0.001 ? <div key={d.k} style={{ opacity: fade(ds[i]), transform: `translateY(${(1 - Math.min(1, ds[i])) * 20 + Math.sin(t * 2.4 + i) * 5}px)` }}><Msg side="in" tone="warn" size={26}>{d.k}</Msg></div> : null)}
@@ -127,15 +127,15 @@ export const Take3: React.FC<SceneProps> = ({ t, tl }) => {
   const rows = [0, 1, 2, 3, 4].map((i) => ((i * 3 + Math.floor(t * 2)) % 5));
   return (
     <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: fade(enter) * (1 - out) }}>
-      <Camera drift={8} t={t} keys={[{ t: c.c_corr - 0.35, s: 1.05, y: 0 }, { t: c.c_corr + 0.9, s: 1.08, x: 6, y: -8, e: ease.out }, { t: c.c_ferr, s: 1.06, x: -6, y: -14, e: ease.linear }, { t: c.c_rel, s: 1.08, x: 6, y: -20, e: ease.linear }, { t: c.x_prof + 0.3, s: 1.05, y: -26, e: ease.linear }, { t: c.cta_quer, s: 1.08, y: -30, e: ease.linear }]}>
-        <div style={{ position: "absolute", left: 100, top: 490, width: 400, height: 470, boxSizing: "border-box", borderRadius: 26, background: C.surface, border: `2px solid ${C.surface3}`, padding: "16px 18px", opacity: fade(sp1) * (1 - 0.5 * fade(fin)), transform: `translateY(${(1 - Math.min(1, sp1)) * 50 + fl(t, 0)}px)` }}>
+      <Camera drift={8} t={t} keys={[{ t: c.c_corr - 0.35, s: 1.05, y: 0 }, { t: c.c_corr + 0.9, s: 1.07, x: 3, y: -8, e: ease.out }, { t: c.c_ferr, s: 1.05, x: -3, y: -14, e: ease.linear }, { t: c.c_rel, s: 1.07, x: 3, y: -20, e: ease.linear }, { t: c.x_prof + 0.3, s: 1.05, y: -26, e: ease.linear }, { t: c.cta_quer, s: 1.08, y: -30, e: ease.linear }]}>
+        <div style={{ position: "absolute", left: 120, top: 490, width: 390, height: 470, boxSizing: "border-box", borderRadius: 26, background: C.surface, border: `2px solid ${C.surface3}`, padding: "16px 18px", opacity: fade(sp1) * (1 - 0.5 * fade(fin)), transform: `translateY(${(1 - Math.min(1, sp1)) * 50 + fl(t, 0)}px)` }}>
           <span style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 24, color: C.muted }}>⚙️ FERRAMENTA</span>
           <div style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 12 }}>
             {rows.map((r, i) => <div key={i} style={{ height: 50, borderRadius: 12, background: C.surface2, display: "flex", alignItems: "center", gap: 10, padding: "0 12px", transform: `translateX(${Math.sin(t * 6 + i) * 6 * Math.min(1, fast)}px)` }}><div style={{ width: 22, height: 22, borderRadius: 6, background: r < 2 ? A.hex : C.surface3 }} /><div style={{ flex: 1, height: 10, borderRadius: 5, background: C.surface3, width: `${50 + r * 10}%` }} /></div>)}
           </div>
           {tool > 0.001 ? <div style={{ marginTop: 12, opacity: fade(tool) }}><Tag text="⏱ GANHA TEMPO" tone="accent" size={24} /></div> : null}
         </div>
-        <div style={{ position: "absolute", left: 540, top: 490, width: 440, height: 470, boxSizing: "border-box", borderRadius: 26, background: aa(0.06), border: `2px solid ${A.hex}`, padding: "16px 18px", opacity: fade(sp1) * (1 - 0.5 * fade(fin)), transform: `translateY(${(1 - Math.min(1, sp1)) * 50 + fl(t, 2)}px)` }}>
+        <div style={{ position: "absolute", left: 540, top: 490, width: 420, height: 470, boxSizing: "border-box", borderRadius: 26, background: aa(0.06), border: `2px solid ${A.hex}`, padding: "16px 18px", opacity: fade(sp1) * (1 - 0.5 * fade(fin)), transform: `translateY(${(1 - Math.min(1, sp1)) * 50 + fl(t, 2)}px)` }}>
           <span style={{ fontFamily: F.mono, fontWeight: 700, fontSize: 24, color: A.hex }}>🤝 PROFISSIONAL</span>
           <div style={{ display: "flex", justifyContent: "space-around", marginTop: 14 }}><Person size={64} t={t} color={A.hex} /><Person size={64} t={t + 1} color={C.text} /></div>
           <div style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 14 }}>

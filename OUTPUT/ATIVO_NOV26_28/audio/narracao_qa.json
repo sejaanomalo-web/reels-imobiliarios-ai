@@ -1,0 +1,95 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.85,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.27,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 1.63,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.88,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.82,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.7,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.78,
+    "palavras_nao_reconhecidas": [
+      "discutiram"
+    ]
+  },
+  {
+    "seg": "s8",
+    "seconds": 7.87,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 3.13,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 1.47,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 4.41,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 2.83,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 53.31,
+    "asr_match": 0.977,
+    "aligned_words": "125/128",
+    "words_per_min": 144,
+    "heard": "Dois corretores atendem compradores diferentes. Um tem o imóvel certo, o outro tem o cliente certo. Eles vão competir ou conversar? Numa história hipotética, o corretor A consegue uma boa captação. O corretor B conhece alguém procurando exatamente aquela região. Se cada um guardar suas informações isoladas, a aproximação pode nem acontecer. No Conexão Imobiliária, lideranças do setor discutirão cooperação entre imobiliárias, mas parceria séria exige autorização, combinado claro sobre responsabilidades, remuneração e proteção das informações do cliente. A lição não é compartilhar sua carteira com qualquer pessoa. É perceber que organização e confiança também fazem parte de uma boa rede de negócios. Coopera com critério. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 55.36,
+      "wpm": 139
+    },
+    "pausas_moldadas": {
+      "n": 25,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.05,
+    "final": {
+      "seconds": 53.31,
+      "wpm": 144
+    }
+  }
+]
