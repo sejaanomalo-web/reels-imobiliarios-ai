@@ -371,7 +371,7 @@
       "video": "OUTPUT/ATIVO_NOV26_26/ATIVO_NOV26_26_FINAL.mp4",
       "validacao": "11/11 · -15.03 LUFS · 52.18 s · editorial 0/0 · movimento 1,44 · 177 palavras/min",
       "voz": "direção nova + shapePauses; A (conta 1) descartada ('manda', 'respeit'); B (conta 2) usada sem edição",
-      "commit": null,
+      "commit": "6d3e053",
       "notas": "aprovar transição; ouvir ritmo (177 palavras/min) e \"Secovi\"",
       "legenda": "OUTPUT/ATIVO_NOV26_26/legenda_instagram.txt",
       "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/26/"
