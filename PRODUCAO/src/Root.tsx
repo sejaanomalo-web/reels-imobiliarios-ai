@@ -132,6 +132,8 @@ import { NOV26_19, timeline as nov26_19 } from "./episodes/ATIVO-NOV26-19/Episod
 import { NOV26_19Cover } from "./episodes/ATIVO-NOV26-19/Cover";
 import { NOV26_20, timeline as nov26_20 } from "./episodes/ATIVO-NOV26-20/Episode";
 import { NOV26_20Cover } from "./episodes/ATIVO-NOV26-20/Cover";
+import { NOV26_21, timeline as nov26_21 } from "./episodes/ATIVO-NOV26-21/Episode";
+import { NOV26_21Cover } from "./episodes/ATIVO-NOV26-21/Cover";
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -701,6 +703,8 @@ export const RemotionRoot: React.FC = () => (
       <Still id="ATIVO-NOV26-19-Capa" component={NOV26_19Cover} width={VIDEO.width} height={VIDEO.height} />
       <Composition id="ATIVO-NOV26-20" component={NOV26_20} width={VIDEO.width} height={VIDEO.height} fps={nov26_20.fps} durationInFrames={nov26_20.durationInFrames} defaultProps={{ withAudio: true }} />
       <Still id="ATIVO-NOV26-20-Capa" component={NOV26_20Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-NOV26-21" component={NOV26_21} width={VIDEO.width} height={VIDEO.height} fps={nov26_21.fps} durationInFrames={nov26_21.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-NOV26-21-Capa" component={NOV26_21Cover} width={VIDEO.width} height={VIDEO.height} />
     </Folder>
   </>
 );

@@ -17,7 +17,8 @@
 - **Pontos para ouvir:** "olha imóveis comparáveis" (o modelo usa "olha" no lugar de "olhe" nas duas tomadas, como o "Imagina"); "Dado local decide"; "atendimentos" no CTA.
 
 ## Validação
-- `editorial_check` 0 erros / 0 avisos.
+- `validate.py` 11/11: 1080×1920 · H.264 · yuv420p · 30 fps · AAC · 49,88 s · −15,02 LUFS · TP −1,68 dBTP.
+- `editorial_check` 0 erros / 0 avisos. Movimento 1,28 → **1,53** (re-render com mais deriva de câmera e flutuação) · maior trecho parado 1,0 s. SFX: 31 eventos, stem −39,4 LUFS.
 - Quadros revisados (15 + 5). Corrigidos:
   - tag "PARA ALUGAR" sobre o título;
   - lógica das janelas dos prédios (quase todas acendiam juntas);

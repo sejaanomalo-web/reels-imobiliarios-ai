@@ -41,10 +41,10 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
   const out = prog(t, c.a_rep - 0.4, 0.35, ease.in);
   return (
     <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: 1 - out }}>
-      <Camera drift={4} t={t} keys={[{ t: 0, s: 1.08, x: 10, y: -8 }, { t: 1.0, s: 1.15, x: -10, y: -18, e: ease.out }, { t: c.h_cai, s: 1.1, x: 12, y: -22, e: ease.linear }, { t: c.h_compl + 0.3, s: 1.06, x: 0, y: -30, e: ease.linear }, { t: c.a_rep, s: 1.08, y: -34, e: ease.linear }]}>
+      <Camera drift={6} t={t} keys={[{ t: 0, s: 1.08, x: 10, y: -8 }, { t: 1.0, s: 1.15, x: -10, y: -18, e: ease.out }, { t: c.h_cai, s: 1.1, x: 12, y: -22, e: ease.linear }, { t: c.h_compl + 0.3, s: 1.06, x: 0, y: -30, e: ease.linear }, { t: c.a_rep, s: 1.08, y: -34, e: ease.linear }]}>
         <div style={{ position: "absolute", left: 150, right: 150, top: 470, display: "flex", justifyContent: "space-between", alignItems: "flex-end", opacity: fade(tw) }}>
-          <div style={{ transform: `translateY(${(1 - Math.min(1, tw)) * 80 + fl(t, 0, 6)}px)` }}><Tower w={330} floors={7} cols={4} lit={lit * 0.55} t={t} k={0} color={C.dim} /></div>
-          <div style={{ transform: `translateY(${(1 - Math.min(1, tw)) * 80 + fl(t, 2, 6)}px)` }}><Tower w={330} floors={5} cols={4} lit={lit * 0.45} t={t} k={1} color={C.dim} /></div>
+          <div style={{ transform: `translateY(${(1 - Math.min(1, tw)) * 80 + fl(t, 0, 14)}px) rotate(${Math.sin(t * 1.3) * 2}deg)` }}><Tower w={330} floors={7} cols={4} lit={lit * 0.55} t={t} k={0} color={C.dim} /></div>
+          <div style={{ transform: `translateY(${(1 - Math.min(1, tw)) * 80 + fl(t, 2, 14)}px) rotate(${Math.sin(t * 1.3 + 1.5) * 2}deg)` }}><Tower w={330} floors={5} cols={4} lit={lit * 0.45} t={t} k={1} color={C.dim} /></div>
         </div>
         {lit > 0.05 ? <div style={{ position: "absolute", left: 0, right: 0, top: 960, display: "flex", justifyContent: "center", opacity: fade(lit) * (1 - fade(q)) }}><Tag text="■ PARA ALUGAR" tone="accent" size={26} /></div> : null}
         {q > 0.001 ? (
@@ -80,8 +80,8 @@ export const Take1: React.FC<SceneProps> = ({ t, tl }) => {
   const d = vis.map((q, i) => `${i ? "L" : "M"}${q[0]},${q[1]}`).join(" ");
   return (
     <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: fade(enter) * (1 - out) }}>
-      <Camera drift={4} t={t} keys={[{ t: c.a_rep - 0.35, s: 1.06, y: 0 }, { t: c.a_rep + 0.8, s: 1.1, x: -12, y: -10, e: ease.out }, { t: c.a_mod, s: 1.07, x: 12, y: -16, e: ease.linear }, { t: c.a_queda + 0.3, s: 1.09, x: -6, y: -26, e: ease.linear }, { t: c.b_imag, s: 1.06, y: -32, e: ease.linear }]}>
-        <div style={{ position: "absolute", left: 130, top: 450, width: W, height: H + 80, boxSizing: "border-box", borderRadius: 30, background: C.surface, border: `2px solid ${C.surface3}`, padding: 0, opacity: fade(enter), transform: `translateY(${fl(t, 0, 7)}px) rotate(${Math.sin(t * 1.1) * 1}deg)` }}>
+      <Camera drift={6} t={t} keys={[{ t: c.a_rep - 0.35, s: 1.06, y: 0 }, { t: c.a_rep + 0.8, s: 1.1, x: -12, y: -10, e: ease.out }, { t: c.a_mod, s: 1.07, x: 12, y: -16, e: ease.linear }, { t: c.a_queda + 0.3, s: 1.09, x: -6, y: -26, e: ease.linear }, { t: c.b_imag, s: 1.06, y: -32, e: ease.linear }]}>
+        <div style={{ position: "absolute", left: 130, top: 450, width: W, height: H + 80, boxSizing: "border-box", borderRadius: 30, background: C.surface, border: `2px solid ${C.surface3}`, padding: 0, opacity: fade(enter), transform: `translateY(${fl(t, 0, 14)}px) rotate(${Math.sin(t * 1.1) * 2}deg) scale(${1 + 0.02 * Math.sin(t * 1.9)})` }}>
           <svg width={W} height={H} style={{ position: "absolute", left: 0, top: 30 }}>
             <line x1={30} x2={W - 30} y1={base} y2={base} stroke={zero > 0.5 ? C.text : C.surface3} strokeWidth={zero > 0.5 ? 4 : 2} />
             {RATE.map((r, i) => {
@@ -127,14 +127,14 @@ export const Take2: React.FC<SceneProps> = ({ t, tl }) => {
   );
   return (
     <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: fade(enter) * (1 - out) }}>
-      <Camera drift={4} t={t} keys={[{ t: c.b_imag - 0.35, s: 1.06, y: 0 }, { t: c.b_imag + 0.8, s: 1.1, x: 12, y: -8, e: ease.out }, { t: c.b_outro, s: 1.07, x: -12, y: -14, e: ease.linear }, { t: c.b_precos + 0.3, s: 1.09, x: 0, y: -26, e: ease.linear }, { t: c.c_aval, s: 1.06, y: -32, e: ease.linear }]}>
+      <Camera drift={6} t={t} keys={[{ t: c.b_imag - 0.35, s: 1.06, y: 0 }, { t: c.b_imag + 0.8, s: 1.1, x: 12, y: -8, e: ease.out }, { t: c.b_outro, s: 1.07, x: -12, y: -14, e: ease.linear }, { t: c.b_precos + 0.3, s: 1.09, x: 0, y: -26, e: ease.linear }, { t: c.c_aval, s: 1.06, y: -32, e: ease.linear }]}>
         <div style={{ position: "absolute", left: 110, right: 110, top: 450, display: "flex", justifyContent: "space-between" }}>
           {panel(b1, "BAIRRO 1", 14, 0)}
           {panel(b2, "BAIRRO 2", 2, 1)}
         </div>
         <div style={{ position: "absolute", left: 110, right: 110, top: 830, display: "flex", flexDirection: "column", gap: 12 }}>
           {ROWS.map((r, i) => (
-            <div key={r.k} style={{ display: "flex", alignItems: "center", height: 64, borderRadius: 16, background: rs[i] > 0.5 ? aa(0.06) : "transparent", opacity: fade(rs[i]), transform: `translateX(${(1 - Math.min(1, rs[i])) * 50 + Math.sin(t * 2 + i) * 6}px)` }}>
+            <div key={r.k} style={{ display: "flex", alignItems: "center", height: 64, borderRadius: 16, background: rs[i] > 0.5 ? aa(0.06) : "transparent", opacity: fade(rs[i]), transform: `translateX(${(1 - Math.min(1, rs[i])) * 50 + Math.sin(t * 2 + i) * 14}px) scale(${1 + 0.03 * Math.sin(t * 2.6 + i)})` }}>
               <span style={{ width: 280, paddingLeft: 18, fontWeight: 800, fontSize: 30, color: C.text }}>{r.k}</span>
               <span style={{ flex: 1, textAlign: "center", fontWeight: 800, fontSize: r.d[0].length > 2 ? 26 : 40, color: A.hex }}>{r.d[0]}</span>
               <span style={{ flex: 1, textAlign: "center", fontWeight: 800, fontSize: r.d[1].length > 2 ? 26 : 40, color: C.muted }}>{r.d[1]}</span>
@@ -163,7 +163,7 @@ export const Take3: React.FC<SceneProps> = ({ t, tl }) => {
   const zoom = mix(0.7, 1, Math.min(1, card));
   return (
     <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: fade(enter) * (1 - out) }}>
-      <Camera drift={4} t={t} keys={[{ t: c.c_aval - 0.35, s: 1.04, y: 0 }, { t: c.c_aval + 0.9, s: 1.09, x: 0, y: -8, e: ease.out }, { t: c.c_vel, s: 1.08, x: -10, y: -16, e: ease.linear }, { t: c.c_subst + 0.3, s: 1.09, x: 10, y: -26, e: ease.linear }, { t: c.x_decide + 0.3, s: 1.05, y: -36, e: ease.linear }, { t: c.cta_quer, s: 1.08, y: -40, e: ease.linear }]}>
+      <Camera drift={6} t={t} keys={[{ t: c.c_aval - 0.35, s: 1.04, y: 0 }, { t: c.c_aval + 0.9, s: 1.09, x: 0, y: -8, e: ease.out }, { t: c.c_vel, s: 1.08, x: -10, y: -16, e: ease.linear }, { t: c.c_subst + 0.3, s: 1.09, x: 10, y: -26, e: ease.linear }, { t: c.x_decide + 0.3, s: 1.05, y: -36, e: ease.linear }, { t: c.cta_quer, s: 1.08, y: -40, e: ease.linear }]}>
         <div style={{ position: "absolute", left: 140, right: 140, top: 500, boxSizing: "border-box", borderRadius: 30, background: C.surface, border: `2px solid ${A.hex}`, padding: 24, opacity: fade(card) * (1 - 0.5 * fade(fin)), transform: `scale(${zoom * mix(1, 0.92, Math.min(1, fin))}) translateY(${fl(t, 0, 7)}px) rotate(${Math.sin(t * 1.1) * 1}deg)` }}>
           <div style={{ display: "flex", alignItems: "center", gap: 14, marginBottom: 14 }}>
             <span style={{ fontSize: 44, transform: `translateY(${Math.abs(Math.sin(t * 3)) * -6}px)` }}>📍</span>
@@ -171,7 +171,7 @@ export const Take3: React.FC<SceneProps> = ({ t, tl }) => {
             <Tag text="ILUSTRATIVO" tone="muted" size={24} />
           </div>
           {FIELDS.map((f, i) => (
-            <div key={f.k} style={{ display: "flex", alignItems: "center", gap: 14, height: 80, borderTop: `2px solid ${C.surface3}`, opacity: mix(0.3, 1, Math.min(1, fs[i] * 2)), transform: `translateX(${(1 - Math.min(1, fs[i])) * 40 + Math.sin(t * 2 + i) * 4}px)` }}>
+            <div key={f.k} style={{ display: "flex", alignItems: "center", gap: 14, height: 80, borderTop: `2px solid ${C.surface3}`, opacity: mix(0.3, 1, Math.min(1, fs[i] * 2)), transform: `translateX(${(1 - Math.min(1, fs[i])) * 40 + Math.sin(t * 2 + i) * 12}px)` }}>
               <span style={{ fontSize: 36 }}>{f.ic}</span>
               <span style={{ flex: 1, fontWeight: 800, fontSize: 28, color: C.text }}>{f.k}</span>
               <span style={{ fontWeight: 800, fontSize: 40, color: A.hex, opacity: fade(fs[i]), transform: `scale(${mix(0.4, 1, Math.min(1.1, fs[i]))})` }}>✓</span>
