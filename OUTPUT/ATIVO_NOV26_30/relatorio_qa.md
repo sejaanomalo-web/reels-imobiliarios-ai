@@ -16,7 +16,8 @@
 - **Pontos para ouvir:** "Secovi" (o "i" final sai fraco); "Comenta SISTEMA".
 
 ## Validação
-- `editorial_check` 0 erros / 0 avisos. Corrigido o aviso de fonte de 20 px no selo "?".
+- `validate.py` 11/11: 1080×1920 · H.264 · yuv420p · 30 fps · AAC · 54,85 s · −14,91 LUFS · TP −1,69 dBTP.
+- `editorial_check` 0 erros / 0 avisos. Movimento 1,40 · maior trecho parado 1,1 s. SFX: 26 eventos, stem −40,0 LUFS. Quadros: fluxo do Take 02 baixado para longe do título. Corrigido o aviso de fonte de 20 px no selo "?".
 - **Legenda Instagram:** `OUTPUT/ATIVO_NOV26_30/legenda_instagram.txt`, `legenda_check` ✓. Pasta: `PUBLICACAO/NOV26/REELS_21_AO_30/30/`.
 
 ## Cenas

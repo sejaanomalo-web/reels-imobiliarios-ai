@@ -16,7 +16,8 @@
 - **Pontos para ouvir:** a citação entre aspas ("Sim, a vaga é coberta…"), para conferir se a entonação de citação ficou natural.
 
 ## Validação
-- `editorial_check` 0 erros / 0 avisos.
+- `validate.py` 11/11: 1080×1920 · H.264 · yuv420p · 30 fps · AAC · 54,78 s · −14,99 LUFS · TP −1,61 dBTP.
+- `editorial_check` 0 erros / 0 avisos. Movimento 1,68 · maior trecho parado 0,6 s. SFX: 26 eventos, stem −38,6 LUFS. Quadros: corrigido asterisco solto na legenda (“*Sim…”) — ênfase colada às aspas removida dos segmentos citados; selo +N MENSAGENS tirado de cima da pergunta.
 - **Legenda Instagram:** `OUTPUT/ATIVO_NOV26_29/legenda_instagram.txt`, `legenda_check` ✓ ("garantir" trocado por "cuidar", termo bloqueado pelo check). Pasta: `PUBLICACAO/NOV26/REELS_21_AO_30/29/`.
 
 ## Cenas
