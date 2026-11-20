@@ -226,13 +226,13 @@
      "text": "vaga",
      "start": 2.92,
      "end": 3.32,
-     "emph": true
+     "emph": false
     },
     {
-     "text": "coberta?*”",
+     "text": "coberta?”",
      "start": 3.32,
      "end": 3.67,
-     "emph": true
+     "emph": false
     }
    ]
   },
@@ -682,7 +682,7 @@
    "end": 23.24,
    "words": [
     {
-     "text": "“*Sim,",
+     "text": "“Sim,",
      "start": 21.64,
      "end": 22.04,
      "emph": false
@@ -734,19 +734,19 @@
      "text": "ficha",
      "start": 23.8,
      "end": 24.04,
-     "emph": true
+     "emph": false
     },
     {
      "text": "do",
      "start": 24.04,
      "end": 24.2,
-     "emph": true
+     "emph": false
     },
     {
      "text": "imóvel.",
      "start": 24.2,
      "end": 24.42,
-     "emph": true
+     "emph": false
     }
    ]
   },
@@ -809,19 +809,19 @@
      "text": "acesso",
      "start": 26.2,
      "end": 26.52,
-     "emph": true
+     "emph": false
     },
     {
      "text": "à",
      "start": 26.52,
      "end": 26.68,
-     "emph": true
+     "emph": false
     },
     {
-     "text": "garagem?*”",
+     "text": "garagem?”",
      "start": 26.68,
      "end": 27.0,
-     "emph": true
+     "emph": false
     }
    ]
   },

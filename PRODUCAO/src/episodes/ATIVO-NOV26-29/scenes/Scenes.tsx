@@ -42,8 +42,8 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
             ))}
           </Chat>
         </div>
-        {n >= 2 ? <div style={{ position: "absolute", right: 120, top: 520, opacity: fade(flood), transform: `scale(${1 + 0.08 * Math.sin(t * 6)})` }}><Tag text={`+${n} MENSAGENS`} tone="warn" size={26} /></div> : null}
-        <div style={{ position: "absolute", left: 0, right: 0, top: 1140, display: "flex", justifyContent: "center", opacity: fade(ph) }}><Tag text="CONVERSA FICTÍCIA" tone="muted" size={24} /></div>
+        {n >= 2 ? <div style={{ position: "absolute", left: 0, right: 0, top: 1150, display: "flex", justifyContent: "center", opacity: fade(flood), transform: `scale(${1 + 0.08 * Math.sin(t * 6)})` }}><Tag text={`+${n} MENSAGENS`} tone="warn" size={26} /></div> : null}
+        <div style={{ position: "absolute", left: 0, right: 0, top: 1150, display: "flex", justifyContent: "center", opacity: fade(ph) * (n >= 2 ? 0 : 1) }}><Tag text="CONVERSA FICTÍCIA" tone="muted" size={24} /></div>
       </Camera>
       <Title p={title} size={54}><span style={{ whiteSpace: "nowrap" }}>ELE PEDIU</span><br /><span style={{ color: A.hex, whiteSpace: "nowrap" }}>UMA RESPOSTA</span></Title>
     </div>

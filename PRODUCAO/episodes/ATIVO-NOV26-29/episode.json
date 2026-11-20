@@ -54,7 +54,7 @@
    "id": "s1",
    "scene": "hook",
    "text": "O comprador perguntou: “Esse apartamento tem vaga coberta?”",
-   "caption": "O comprador perguntou: | “Esse apartamento | tem *vaga coberta?*”",
+   "caption": "O comprador perguntou: | “Esse apartamento | tem vaga coberta?”",
    "pauseAfter": 0.3
   },
   {
@@ -89,7 +89,7 @@
    "id": "s6",
    "scene": "t2",
    "text": "Agora veja a alternativa: “Sim, a vaga é coberta, conforme a ficha do imóvel. Quer saber também como funciona o acesso à garagem?”",
-   "caption": "Agora veja | a *alternativa:* | “*Sim, a vaga é coberta,* | conforme a *ficha do imóvel.* | Quer saber também | como funciona | o *acesso à garagem?*”",
+   "caption": "Agora veja | a *alternativa:* | “Sim, a vaga é coberta, | conforme a ficha do imóvel. | Quer saber também | como funciona | o acesso à garagem?”",
    "pauseAfter": 0.3
   },
   {

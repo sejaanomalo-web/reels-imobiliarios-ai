@@ -4,7 +4,7 @@ O comprador perguntou:
 
 2
 00:00:01,960 --> 00:00:03,860
-“Esse apartamento tem vaga coberta?*”
+“Esse apartamento tem vaga coberta?”
 
 3
 00:00:03,880 --> 00:00:06,300
@@ -48,7 +48,7 @@ Agora veja a alternativa:
 
 13
 00:00:21,640 --> 00:00:23,220
-“*Sim, a vaga é coberta,
+“Sim, a vaga é coberta,
 
 14
 00:00:23,240 --> 00:00:24,620
@@ -60,7 +60,7 @@ Quer saber também como funciona
 
 16
 00:00:26,120 --> 00:00:27,200
-o acesso à garagem?*”
+o acesso à garagem?”
 
 17
 00:00:27,480 --> 00:00:29,780

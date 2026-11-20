@@ -97,7 +97,7 @@ export const Take2: React.FC<SceneProps> = ({ t, tl }) => {
   return (
     <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: fade(enter) * (1 - out) }}>
       <Camera drift={8} t={t} keys={[{ t: c.b_proc - 0.35, s: 1.05, y: 0 }, { t: c.b_proc + 0.8, s: 1.08, x: 4, y: -8, e: ease.out }, { t: c.b_reg, s: 1.06, x: -4, y: -14, e: ease.linear }, { t: c.b_some, s: 1.1, x: 0, y: -22, e: ease.out }, { t: c.c_dif, s: 1.06, y: -26, e: ease.linear }]}>
-        <div style={{ position: "absolute", left: 130, right: 130, top: 480, display: "flex", flexDirection: "column", gap: 0 }}>
+        <div style={{ position: "absolute", left: 130, right: 130, top: 520, display: "flex", flexDirection: "column", gap: 0 }}>
           {FLOW.map((f, i) => {
             const broken = i === 3 && brk > 0.3;
             return (
