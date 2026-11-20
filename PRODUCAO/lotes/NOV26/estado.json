@@ -339,36 +339,38 @@
       "id": "ATIVO_NOV26_24",
       "composition": "ATIVO-NOV26-24",
       "title": "Por que a incorporadora pisa no freio?",
-      "status": "bloqueado",
-      "video": null,
-      "validacao": null,
-      "voz": null,
+      "status": "entregue",
+      "video": "OUTPUT/ATIVO_NOV26_24/ATIVO_NOV26_24_FINAL.mp4",
+      "validacao": "11/11 · −14,96 LUFS · 52,35 s · editorial 0/0 · movimento 1,45 · 169 palavras/min",
+      "voz": "direção nova + shapePauses; 20/11 madrugada: B vazou direção (cortada, 'Manchate') e cotas estouraram; 20/11 11h UTC: tomada D (conta 1) usada sem edição",
       "commit": null,
-      "notas": "BLOQUEADO por cota de voz (20/11 ~01:15 UTC): conta 1 'quota exceeded' na tomada A; conta 2 'quota exceeded' na tomada C. episode.json pronto (apuração Portas/Exame/Safra). Tomada B (conta 2) vazou a direção no início; versão cortada (sem o vazamento) em OUTPUT/ATIVO_NOV26_24/audio/tomada_B_cortada.wav — dúvida: 'Manchete' soa 'Manchate' nos dois ASR. Retomar com nova tomada após renovação."
+      "notas": "aprovar transição e o termo 'incorporadora de alto padrão' (foco da Eztec é médio padrão); ouvir \"Eztec\"",
+      "legenda": "OUTPUT/ATIVO_NOV26_24/legenda_instagram.txt",
+      "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/24/"
     },
     {
       "n": 25,
       "id": "ATIVO_NOV26_25",
       "composition": "ATIVO-NOV26-25",
       "title": "Moradias para uma população mais velha",
-      "status": "pendente",
+      "status": "em_producao",
       "video": null,
       "validacao": null,
       "voz": null,
       "commit": null,
-      "notas": ""
+      "notas": "em produção"
     },
     {
       "n": 26,
       "id": "ATIVO_NOV26_26",
       "composition": "ATIVO-NOV26-26",
       "title": "44% dos leads fora do expediente",
-      "status": "pendente",
+      "status": "em_producao",
       "video": null,
       "validacao": null,
       "voz": null,
       "commit": null,
-      "notas": ""
+      "notas": "em produção"
     },
     {
       "n": 27,
@@ -420,19 +422,25 @@
     }
   ],
   "cota_voz": {
-    "data": "2026-11-20",
-    "conta1_usadas": 4,
-    "conta2_usadas": 6,
-    "nota": "cota renovada antes de 00:10 UTC (teste de 1 geração em cada conta deu 200 OK)",
-    "dia_anterior": {
-      "data": "2026-11-19",
-      "conta2_usadas": 21,
-      "conta2": "esgotada às ~19:00 UTC (quota exceeded na 22ª)",
-      "conta1_usadas": 27,
-      "renova": "~08:00 UTC",
-      "conta1": "esgotada às ~22:20 UTC (quota exceeded na tomada B do 20)"
-    },
-    "conta1": "quota exceeded às ~01:10 UTC (5 gerações no dia)",
-    "conta2": "quota exceeded às ~01:15 UTC (6 gerações no dia)"
+    "data": "2026-11-20 (tarde)",
+    "nota": "cota voltou ~11:00 UTC",
+    "conta1_usadas_desde_11h": 3,
+    "conta2_usadas_desde_11h": 2,
+    "historico": {
+      "data": "2026-11-20",
+      "conta1_usadas": 4,
+      "conta2_usadas": 6,
+      "nota": "cota renovada antes de 00:10 UTC (teste de 1 geração em cada conta deu 200 OK)",
+      "dia_anterior": {
+        "data": "2026-11-19",
+        "conta2_usadas": 21,
+        "conta2": "esgotada às ~19:00 UTC (quota exceeded na 22ª)",
+        "conta1_usadas": 27,
+        "renova": "~08:00 UTC",
+        "conta1": "esgotada às ~22:20 UTC (quota exceeded na tomada B do 20)"
+      },
+      "conta1": "quota exceeded às ~01:10 UTC (5 gerações no dia)",
+      "conta2": "quota exceeded às ~01:15 UTC (6 gerações no dia)"
+    }
   }
 }

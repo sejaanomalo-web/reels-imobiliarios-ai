@@ -1,0 +1,182 @@
+[
+ {
+  "t": 0.52,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "h_inc"
+ },
+ {
+  "t": 3.53,
+  "sound": "whoosh_fold",
+  "gain": -26,
+  "cue": "h_menos"
+ },
+ {
+  "t": 3.986,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "h_2027"
+ },
+ {
+  "t": 6.49,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "h_luxo"
+ },
+ {
+  "t": 7.05,
+  "sound": "hollow",
+  "gain": -29,
+  "cue": "h_acabou"
+ },
+ {
+  "t": 7.8,
+  "sound": "block",
+  "gain": -24,
+  "cue": "a_nao"
+ },
+ {
+  "t": 9.29,
+  "sound": "pin",
+  "gain": -26,
+  "cue": "a_eztec"
+ },
+ {
+  "t": 11.29,
+  "sound": "click",
+  "gain": -24,
+  "cue": "a_empresa"
+ },
+ {
+  "t": 12.01,
+  "sound": "click",
+  "gain": -24,
+  "cue": "a_seg"
+ },
+ {
+  "t": 12.97,
+  "sound": "click",
+  "gain": -24,
+  "cue": "a_cidade"
+ },
+ {
+  "t": 16.33,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "a_unid"
+ },
+ {
+  "t": 17.69,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "a_vel"
+ },
+ {
+  "t": 19.37,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "a_proj"
+ },
+ {
+  "t": 19.66,
+  "sound": "whoosh_up",
+  "gain": -24,
+  "cue": "b_imag"
+ },
+ {
+  "t": 22.57,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "b_venda"
+ },
+ {
+  "t": 23.45,
+  "sound": "shuffle",
+  "gain": -27,
+  "cue": "b_lanca"
+ },
+ {
+  "t": 26.33,
+  "sound": "alert",
+  "gain": -30,
+  "cue": "b_conc"
+ },
+ {
+  "t": 27.29,
+  "sound": "block",
+  "gain": -25,
+  "cue": "b_estoque"
+ },
+ {
+  "t": 29.05,
+  "sound": "swish",
+  "gain": -25,
+  "cue": "b_estr"
+ },
+ {
+  "t": 30.54,
+  "sound": "whoosh_fold",
+  "gain": -24,
+  "cue": "c_corr"
+ },
+ {
+  "t": 33.93,
+  "sound": "click",
+  "gain": -24,
+  "cue": "c_momento"
+ },
+ {
+  "t": 35.37,
+  "sound": "click",
+  "gain": -24,
+  "cue": "c_cond"
+ },
+ {
+  "t": 36.41,
+  "sound": "click",
+  "gain": -24,
+  "cue": "c_alt"
+ },
+ {
+  "t": 38.01,
+  "sound": "notif",
+  "gain": -27,
+  "cue": "c_manch"
+ },
+ {
+  "t": 40.17,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "c_leitura"
+ },
+ {
+  "t": 41.29,
+  "sound": "shimmer",
+  "gain": -27,
+  "cue": "x_leia"
+ },
+ {
+  "t": 43.88,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "cta_sys"
+ },
+ {
+  "t": 46.7,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 48.03,
+  "sound": "typing",
+  "gain": -30,
+  "cue": "cta_word"
+ },
+ {
+  "t": 50.08,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "cta_end"
+ }
+]

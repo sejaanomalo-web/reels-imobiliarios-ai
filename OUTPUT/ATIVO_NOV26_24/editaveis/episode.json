@@ -1,0 +1,666 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "lote": "NOV26",
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "Eztec": "Éztec"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-NOV26-24",
+ "title": "Por que a incorporadora pisa no freio?",
+ "outputDir": "ATIVO_NOV26_24",
+ "deliverables": {
+  "final": "ATIVO_NOV26_24_FINAL.mp4",
+  "narration": "ATIVO_NOV26_24_NARRACAO.wav",
+  "subtitles": "ATIVO_NOV26_24_legendas.srt",
+  "cover": "ATIVO_NOV26_24_capa.png"
+ },
+ "fonte": "ROTEIROS/LOTE_NOV2026/ATIVO_NOV26_24.md (lote ATIVO_30_ROTEIROS_NOV2026.docx, cliente, 17/11/2026)",
+ "apuracao": {
+  "fato": "Portas (nov/2026), citando Exame e relatório do Safra: a gestão da Eztec vê excesso de oferta de alto padrão em Moema, Itaim Bibi e Vila Clementino (São Paulo) e prevê menos lançamentos em 2027; novos lançamentos concentrados na região metropolitana. Ressalva: o foco principal da Eztec é médio padrão (65% do VGV em 2025); o roteiro a chama de 'incorporadora de alto padrão' (fala mantida, contexto: notícia sobre alto padrão)",
+  "verificado_em": "2026-11-20",
+  "fontes": [
+   "https://exame.com/mercado-imobiliario/moema-itaim-bibi-e-vila-clementina-os-bairros-de-sp-onde-sobram-imoveis-de-alto-padrao/ (roteiro)",
+   "https://portas.com.br/noticias/eztec-ve-excesso-de-oferta-no-alto-padrao-e-preve-menos-lancamentos-em-2027/"
+  ],
+  "cuidados": "não generalizar para o mercado todo; sem números de estoque; torres e fichas ILUSTRATIVAS; mapa ESTILIZADO de SP"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de lançamentos que lê manchete de incorporadora como fim de um segmento",
+  "motivacao": "leitura de mercado e orientação ao comprador",
+  "crenca_questionada": "incorporadora lança menos = mercado de luxo acabou",
+  "hipotese": "MENOS LANÇAMENTOS (Eztec 2027) → prateleiras ESTOQUE/LANÇAMENTO + mapa SP → linha do tempo com torres competindo → fichas de empreendimento",
+  "funcao": "leitura de mercado",
+  "promessa": "entender momento, condições e alternativas",
+  "evidencias": "Portas (citando Exame/relatório Safra): Eztec vê excesso de oferta no alto padrão em Moema, Itaim Bibi e Vila Clementino e prevê menos lançamentos em 2027",
+  "cta": "comentário SISTEMA → Direct; pergunta do roteiro → transição com o texto de tela LEIA O CONTEXTO"
+ },
+ "cta": {
+  "original_cta": "Você acompanha o estoque dos empreendimentos que anuncia?",
+  "transition_adapted": "Leia o contexto.",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Uma incorporadora de alto padrão sinalizou que vai lançar menos em dois mil e vinte e sete.",
+   "caption": "Uma incorporadora | de *alto padrão* | sinalizou que vai | *lançar menos* | em *dois mil e vinte e sete.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Isso quer dizer que o mercado de luxo acabou?",
+   "caption": "Isso quer dizer | que o *mercado de luxo* | *acabou?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "Não.",
+   "caption": "*Não.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "A notícia sobre a Eztec fala de uma decisão de uma empresa num segmento e numa cidade específicos.",
+   "caption": "A notícia | sobre a *Eztec* | fala de uma decisão | de *uma empresa* | num *segmento* | e numa *cidade* | específicos.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t1",
+   "text": "Incorporadoras precisam equilibrar unidades disponíveis, velocidade de vendas e novos projetos.",
+   "caption": "Incorporadoras | precisam *equilibrar* | *unidades disponíveis,* | *velocidade de vendas* | e *novos projetos.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t2",
+   "text": "Imagine uma construtora que tem unidades ainda à venda.",
+   "caption": "Imagine | uma construtora | que tem unidades | *ainda à venda.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t2",
+   "text": "Se ela lança muito produto parecido de uma vez, pode aumentar a concorrência com o próprio estoque.",
+   "caption": "Se ela lança | *muito produto parecido* | de uma vez, | pode aumentar | a *concorrência* | com o *próprio estoque.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t2",
+   "text": "A decisão pode ser de estratégia, não de pânico.",
+   "caption": "A decisão | pode ser | de *estratégia,* | *não de pânico.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "O corretor que vende lançamentos precisa entender o momento do empreendimento, as condições e as alternativas ao comprador.",
+   "caption": "O corretor | que vende lançamentos | precisa entender | o *momento* | do empreendimento, | as *condições* | e as *alternativas* | ao comprador.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "t3",
+   "text": "Manchete dramática não substitui leitura de mercado.",
+   "caption": "*Manchete dramática* | não substitui | *leitura de mercado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "t3",
+   "text": "Leia o contexto.",
+   "caption": "*Leia o contexto.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): respeitar pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_inc": {
+   "seg": "s1",
+   "word": "incorporadora",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_alto": {
+   "seg": "s1",
+   "word": "alto",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_menos": {
+   "seg": "s1",
+   "word": "menos",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_2027": {
+   "seg": "s1",
+   "word": "dois",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_luxo": {
+   "seg": "s2",
+   "word": "luxo",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_acabou": {
+   "seg": "s2",
+   "word": "acabou",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_nao": {
+   "seg": "s3",
+   "word": "Não",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_noticia": {
+   "seg": "s4",
+   "word": "notícia",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_eztec": {
+   "seg": "s4",
+   "word": "Eztec",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_empresa": {
+   "seg": "s4",
+   "word": "empresa",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_seg": {
+   "seg": "s4",
+   "word": "segmento",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_cidade": {
+   "seg": "s4",
+   "word": "cidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_equil": {
+   "seg": "s5",
+   "word": "equilibrar",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_unid": {
+   "seg": "s5",
+   "word": "unidades",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_vel": {
+   "seg": "s5",
+   "word": "velocidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_proj": {
+   "seg": "s5",
+   "word": "projetos",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_imag": {
+   "seg": "s6",
+   "word": "Imagine",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_venda": {
+   "seg": "s6",
+   "word": "venda",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_lanca": {
+   "seg": "s7",
+   "word": "lança",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_parec": {
+   "seg": "s7",
+   "word": "parecido",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_conc": {
+   "seg": "s7",
+   "word": "concorrência",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_estoque": {
+   "seg": "s7",
+   "word": "estoque",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_estr": {
+   "seg": "s8",
+   "word": "estratégia",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_panico": {
+   "seg": "s8",
+   "word": "pânico",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_corr": {
+   "seg": "s9",
+   "word": "corretor",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_momento": {
+   "seg": "s9",
+   "word": "momento",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_cond": {
+   "seg": "s9",
+   "word": "condições",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_alt": {
+   "seg": "s9",
+   "word": "alternativas",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_manch": {
+   "seg": "s10",
+   "word": "Manchete",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_leitura": {
+   "seg": "s10",
+   "word": "leitura",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_leia": {
+   "seg": "s11",
+   "word": "Leia",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_ctx": {
+   "seg": "s11",
+   "word": "contexto",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s12",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s12",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s12",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s13",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s13",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s13",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s13",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_inc",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "h_menos",
+   "offset": 0.05,
+   "sound": "whoosh_fold",
+   "gain": -26
+  },
+  {
+   "cue": "h_2027",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "h_luxo",
+   "offset": 0.05,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "h_acabou",
+   "offset": 0.05,
+   "sound": "hollow",
+   "gain": -29
+  },
+  {
+   "cue": "a_nao",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -24
+  },
+  {
+   "cue": "a_eztec",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26
+  },
+  {
+   "cue": "a_empresa",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "a_seg",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 3
+  },
+  {
+   "cue": "a_cidade",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 6
+  },
+  {
+   "cue": "a_unid",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "a_vel",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "a_proj",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "b_imag",
+   "offset": -0.3,
+   "sound": "whoosh_up",
+   "gain": -24
+  },
+  {
+   "cue": "b_venda",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "b_lanca",
+   "offset": 0.05,
+   "sound": "shuffle",
+   "gain": -27
+  },
+  {
+   "cue": "b_conc",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -30
+  },
+  {
+   "cue": "b_estoque",
+   "offset": 0.05,
+   "sound": "block",
+   "gain": -25
+  },
+  {
+   "cue": "b_estr",
+   "offset": 0.05,
+   "sound": "swish",
+   "gain": -25
+  },
+  {
+   "cue": "c_corr",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -24
+  },
+  {
+   "cue": "c_momento",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "c_cond",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 3
+  },
+  {
+   "cue": "c_alt",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 6
+  },
+  {
+   "cue": "c_manch",
+   "offset": 0.05,
+   "sound": "notif",
+   "gain": -27
+  },
+  {
+   "cue": "c_leitura",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "x_leia",
+   "offset": 0.05,
+   "sound": "shimmer",
+   "gain": -27
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — menos lançamentos"
+   },
+   {
+    "at": "cue:a_nao",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — uma empresa"
+   },
+   {
+    "at": "cue:b_imag",
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     53
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Dm — estoque"
+   },
+   {
+    "at": "cue:c_corr",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — contexto"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}
