@@ -1,0 +1,85 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.21,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.97,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 1.78,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.66,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.15,
+    "palavras_nao_reconhecidas": [
+      "Imagine"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 6.78,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 3.49,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 5.73,
+    "palavras_nao_reconhecidas": [
+      "estereótipos"
+    ]
+  },
+  {
+    "seg": "s9",
+    "seconds": 1.24,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.21,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 3.05,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 46.25,
+    "asr_match": 0.977,
+    "aligned_words": "127/130",
+    "words_per_min": 169,
+    "heard": "O Brasil envelhece, mas muita apresentação de imóvel ainda parece feita para um único tipo de família. Em novembro, o mercado voltou discutir empreendimentos pensados para pessoas idosas. A questão vai além de ter elevador. Pode envolver acessibilidade, serviços próximos, autonomia e custos de operação. Imagina um comprador buscando independência para os próximos anos. Mostrar uma piscina bonita pode ser menos útil do que explicar a distância de farmácia, acesso ao prédio e facilidade de manutenção. Para o corretor, a pergunta muda. Como essa pessoa quer viver? A partir daí vale verificar as características reais do imóvel e das áreas comuns, sem estereótipo sobre idade. Personalize a visita. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 47.84,
+      "wpm": 163
+    },
+    "pausas_moldadas": {
+      "n": 18,
+      "max_s": 0.56
+    },
+    "pausas_encurtadas_s": 1.59,
+    "final": {
+      "seconds": 46.25,
+      "wpm": 169
+    }
+  }
+]

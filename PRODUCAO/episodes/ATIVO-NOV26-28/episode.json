@@ -1,0 +1,640 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "lote": "NOV26",
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-NOV26-28",
+ "title": "Concorrente ou parceiro?",
+ "outputDir": "ATIVO_NOV26_28",
+ "deliverables": {
+  "final": "ATIVO_NOV26_28_FINAL.mp4",
+  "narration": "ATIVO_NOV26_28_NARRACAO.wav",
+  "subtitles": "ATIVO_NOV26_28_legendas.srt",
+  "cover": "ATIVO_NOV26_28_capa.png"
+ },
+ "fonte": "ROTEIROS/LOTE_NOV2026/ATIVO_NOV26_28.md (lote ATIVO_30_ROTEIROS_NOV2026.docx, cliente, 17/11/2026)",
+ "apuracao": {
+  "fato": "Conexão Imobiliária Secovi-SP (nov/2026): executivos do setor debateram cooperação entre imobiliárias ('Cooperar entre imobiliárias suaviza o diagnóstico das vendas'). História dos corretores A e B é HIPOTÉTICA. Sem recomendar compartilhar dados pessoais sem base legal/consentimento (LGPD)",
+  "verificado_em": "2026-11-20",
+  "fontes": [
+   "https://secovi.com.br/cooperar-entre-imobiliarias-suaviza-o-diagnostico-das-vendas-avaliam-executivos-do-setor/ (roteiro; host fora da rede desta sessão, conteúdo confirmado via busca)"
+  ],
+  "cuidados": "EXEMPLO HIPOTÉTICO; contrato ILUSTRATIVO; sem dados reais; sem prometer função de compartilhamento da ATIVO; consentimento do cliente explícito"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que vê outros corretores só como concorrentes",
+  "motivacao": "fechar mais negócios com parcerias seguras",
+  "crenca_questionada": "compartilhar = perder cliente / parceria é só confiança informal",
+  "hipotese": "PARCERIA OU DISPUTA? → muro separa imóvel e comprador (hipotético) → muro abre com COMBINADO/CONSENTIMENTO/HISTÓRICO → rede conectada por permissões",
+  "funcao": "relacionamento + processo",
+  "promessa": "cooperação com regras, consentimento e organização",
+  "evidencias": "Secovi-SP (Conexão Imobiliária, nov/2026): painel 'Cooperar entre imobiliárias suaviza o diagnóstico das vendas'",
+  "cta": "comentário SISTEMA → Direct; pedido de experiência → transição com o texto de tela COOPERAÇÃO COM CRITÉRIO"
+ },
+ "cta": {
+  "original_cta": "Você já fechou negócio em parceria com outro corretor? Conte sua experiência.",
+  "transition_adapted": "Cooperação com critério.",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Dois corretores atendem compradores diferentes.",
+   "caption": "Dois corretores | atendem | *compradores diferentes.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Um tem o imóvel certo, o outro tem o cliente certo.",
+   "caption": "Um tem | o *imóvel certo,* | o outro tem | o *cliente certo.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "hook",
+   "text": "Eles vão competir ou conversar?",
+   "caption": "Eles vão | *competir* | ou *conversar?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "Numa história hipotética, o corretor A consegue uma boa captação.",
+   "caption": "Numa história | *hipotética,* | o corretor A | consegue uma | *boa captação.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t1",
+   "text": "O corretor B conhece alguém procurando exatamente aquela região.",
+   "caption": "O corretor B | conhece alguém | procurando | *exatamente aquela região.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t1",
+   "text": "Se cada um guardar suas informações isoladas, a aproximação pode nem acontecer.",
+   "caption": "Se cada um | guardar suas informações | *isoladas,* | a aproximação | *pode nem acontecer.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t2",
+   "text": "No Conexão Imobiliária, lideranças do setor discutiram cooperação entre imobiliárias.",
+   "caption": "No Conexão Imobiliária, | lideranças do setor | discutiram | *cooperação* | entre imobiliárias.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t2",
+   "text": "Mas parceria séria exige autorização, combinado claro sobre responsabilidades, remuneração e proteção das informações do cliente.",
+   "caption": "Mas *parceria séria* | exige *autorização,* | *combinado claro* | sobre *responsabilidades,* | *remuneração* | e *proteção* | das informações | do cliente.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "A lição não é compartilhar sua carteira com qualquer pessoa.",
+   "caption": "A lição | *não é compartilhar* | sua carteira | com *qualquer pessoa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "t3",
+   "text": "É perceber que organização e confiança também fazem parte de uma boa rede de negócios.",
+   "caption": "É perceber que | *organização* | e *confiança* | também fazem parte | de uma boa | *rede de negócios.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "t3",
+   "text": "Cooperação com critério.",
+   "caption": "*Cooperação* | com *critério.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): respeitar pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_dois": {
+   "seg": "s1",
+   "word": "Dois",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_comp": {
+   "seg": "s1",
+   "word": "compradores",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_imovel": {
+   "seg": "s2",
+   "word": "imóvel",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_outro": {
+   "seg": "s2",
+   "word": "outro",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_cliente": {
+   "seg": "s2",
+   "word": "cliente",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_compet": {
+   "seg": "s3",
+   "word": "competir",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_conv": {
+   "seg": "s3",
+   "word": "conversar",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_hist": {
+   "seg": "s4",
+   "word": "história",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_hip": {
+   "seg": "s4",
+   "word": "hipotética",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_capt": {
+   "seg": "s4",
+   "word": "captação",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_b": {
+   "seg": "s5",
+   "word": "B",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_regiao": {
+   "seg": "s5",
+   "word": "região",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_guardar": {
+   "seg": "s6",
+   "word": "guardar",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_isol": {
+   "seg": "s6",
+   "word": "isoladas",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_nem": {
+   "seg": "s6",
+   "word": "nem",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_conexao": {
+   "seg": "s7",
+   "word": "Conexão",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_coop": {
+   "seg": "s7",
+   "word": "cooperação",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_mas": {
+   "seg": "s8",
+   "word": "Mas",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_aut": {
+   "seg": "s8",
+   "word": "autorização",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_comb": {
+   "seg": "s8",
+   "word": "combinado",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_resp": {
+   "seg": "s8",
+   "word": "responsabilidades",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_rem": {
+   "seg": "s8",
+   "word": "remuneração",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_prot": {
+   "seg": "s8",
+   "word": "proteção",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_licao": {
+   "seg": "s9",
+   "word": "lição",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_comp": {
+   "seg": "s9",
+   "word": "compartilhar",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_qualq": {
+   "seg": "s9",
+   "word": "qualquer",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_org": {
+   "seg": "s10",
+   "word": "organização",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_conf": {
+   "seg": "s10",
+   "word": "confiança",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_rede": {
+   "seg": "s10",
+   "word": "rede",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_coop": {
+   "seg": "s11",
+   "word": "Cooperação",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_crit": {
+   "seg": "s11",
+   "word": "critério",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s12",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s12",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s12",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s13",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s13",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s13",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s13",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_dois",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "h_imovel",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26
+  },
+  {
+   "cue": "h_cliente",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "h_compet",
+   "offset": 0.05,
+   "sound": "block",
+   "gain": -25
+  },
+  {
+   "cue": "h_conv",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "a_hist",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -24
+  },
+  {
+   "cue": "a_capt",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "a_regiao",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26
+  },
+  {
+   "cue": "a_isol",
+   "offset": 0.05,
+   "sound": "block",
+   "gain": -26
+  },
+  {
+   "cue": "a_nem",
+   "offset": 0.05,
+   "sound": "hollow",
+   "gain": -29
+  },
+  {
+   "cue": "b_conexao",
+   "offset": -0.3,
+   "sound": "whoosh_up",
+   "gain": -24
+  },
+  {
+   "cue": "b_coop",
+   "offset": 0.05,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "b_aut",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "b_comb",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 3
+  },
+  {
+   "cue": "b_resp",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 6
+  },
+  {
+   "cue": "b_rem",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 9
+  },
+  {
+   "cue": "b_prot",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 12
+  },
+  {
+   "cue": "c_licao",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -24
+  },
+  {
+   "cue": "c_qualq",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -30
+  },
+  {
+   "cue": "c_org",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "c_conf",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "c_rede",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "x_coop",
+   "offset": 0.05,
+   "sound": "shimmer",
+   "gain": -27
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — disputa?"
+   },
+   {
+    "at": "cue:a_hist",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — muro"
+   },
+   {
+    "at": "cue:b_conexao",
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     53
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Dm — regras"
+   },
+   {
+    "at": "cue:c_licao",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — critério"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}

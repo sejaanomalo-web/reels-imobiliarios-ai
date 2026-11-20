@@ -1,0 +1,131 @@
+1
+00:00:00,120 --> 00:00:01,700
+O interessado mandou mensagem
+
+2
+00:00:01,720 --> 00:00:02,660
+às dez da noite.
+
+3
+00:00:02,680 --> 00:00:03,940
+Quando o corretor respondeu
+
+4
+00:00:03,960 --> 00:00:06,180
+no dia seguinte, ele já tinha conversado
+
+5
+00:00:06,200 --> 00:00:07,010
+com outra pessoa.
+
+6
+00:00:07,080 --> 00:00:08,580
+É uma situação hipotética,
+
+7
+00:00:08,600 --> 00:00:09,780
+mas o assunto ganhou força
+
+8
+00:00:09,800 --> 00:00:10,820
+depois de uma estimativa
+
+9
+00:00:10,840 --> 00:00:12,150
+apresentada no Secovi:
+
+10
+00:00:12,280 --> 00:00:14,064
+segundo levantamentos do QuintoAndar,
+
+11
+00:00:14,084 --> 00:00:15,700
+quarenta e quatro por cento
+
+12
+00:00:15,720 --> 00:00:16,820
+dos leads aparecem
+
+13
+00:00:16,840 --> 00:00:18,030
+fora do horário comercial.
+
+14
+00:00:18,200 --> 00:00:19,860
+Isso não significa que o corretor
+
+15
+00:00:19,880 --> 00:00:20,756
+tenha que ficar acordado
+
+16
+00:00:20,776 --> 00:00:21,756
+vinte e quatro horas.
+
+17
+00:00:21,776 --> 00:00:24,180
+Significa que o cliente precisa entender
+
+18
+00:00:24,200 --> 00:00:25,980
+o que acontece depois do contato:
+
+19
+00:00:26,200 --> 00:00:27,940
+recebimento, prazo de resposta
+
+20
+00:00:27,960 --> 00:00:28,900
+e próximo passo.
+
+21
+00:00:29,080 --> 00:00:30,820
+Uma mensagem de confirmação clara
+
+22
+00:00:30,840 --> 00:00:32,900
+e um processo para não esquecer o lead
+
+23
+00:00:32,920 --> 00:00:33,700
+já ajudam.
+
+24
+00:00:33,720 --> 00:00:34,900
+Se houver automação,
+
+25
+00:00:34,920 --> 00:00:37,140
+ela deve informar corretamente o que faz
+
+26
+00:00:37,160 --> 00:00:38,100
+e passar a conversa
+
+27
+00:00:38,120 --> 00:00:39,420
+para a pessoa responsável.
+
+28
+00:00:39,560 --> 00:00:42,110
+Lead recebido precisa ter dono.
+
+29
+00:00:42,200 --> 00:00:44,100
+Quer conhecer um sistema personalizado
+
+30
+00:00:44,120 --> 00:00:45,940
+para organizar seus imóveis, leads
+
+31
+00:00:45,960 --> 00:00:46,740
+e atendimentos?
+
+32
+00:00:46,760 --> 00:00:48,500
+Comente SISTEMA que eu te envio
+
+33
+00:00:48,520 --> 00:00:49,720
+os detalhes pelo Direct.

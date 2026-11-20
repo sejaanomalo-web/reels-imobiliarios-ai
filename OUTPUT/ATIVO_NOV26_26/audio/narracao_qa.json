@@ -1,0 +1,90 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.56,
+    "palavras_nao_reconhecidas": [
+      "dez"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.13,
+    "palavras_nao_reconhecidas": [
+      "respondeu"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 10.75,
+    "palavras_nao_reconhecidas": [
+      "Secovi",
+      "QuintoAndar",
+      "quarenta",
+      "quatro",
+      "por",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.43,
+    "palavras_nao_reconhecidas": [
+      "vinte",
+      "quatro"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.92,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.44,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 5.5,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 2.35,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.76,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 49.82,
+    "asr_match": 0.924,
+    "aligned_words": "133/147",
+    "words_per_min": 177,
+    "heard": "O interessado mandou mensagem às 10 da noite. Quando o corretor responde no dia seguinte, ele já tinha conversado com outra pessoa. É uma situação hipotética, mas o assunto ganhou força depois de uma estimativa apresentada no Secov. Segundo levantamentos do quinto andar, 44% dos leads aparecem fora do horário comercial. Isso não significa que o corretor tenha que ficar acordado 24 horas. Significante o cliente precisa entender o que acontece depois do contato. Recebimento, prazo de resposta e próximo passo. Uma mensagem de confirmação clara e um processo para não esquecer o lead já ajudam. Se houver automação, ela deve informar corretamente o que faz e passar a conversa para a pessoa responsável. Lead recebido precisa ter dono. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente Sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 51.32,
+      "wpm": 172
+    },
+    "pausas_moldadas": {
+      "n": 16,
+      "max_s": 0.54
+    },
+    "pausas_encurtadas_s": 1.5,
+    "final": {
+      "seconds": 49.82,
+      "wpm": 177
+    }
+  }
+]
