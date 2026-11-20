@@ -1,0 +1,85 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.92,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.92,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 6.31,
+    "palavras_nao_reconhecidas": [
+      "Secovi"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.16,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 8.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.68,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 2.7,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 6.24,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.13,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.8,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.9,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 52.5,
+    "asr_match": 0.986,
+    "aligned_words": "137/139",
+    "words_per_min": 159,
+    "heard": "O corretor do futuro não é aquele que usa mais aplicativos. É aquele que consegue dar continuidade ao atendimento sem perder o contexto. No encontro do Secov, o setor discutiu ferramentas digitais, gestão de leads e novas jornadas de compra. Mas digitalizar não é espalhar informação em cinco lugares diferentes. Pensa no processo. O lead chega, você entende o que procura, registra as opções apresentadas, combina o próximo passo e acompanha a decisão. Se uma dessas etapas some, a tecnologia não resolveu o problema. O diferencial não é ter um sistema cheio de funções, é encontrar uma forma de trabalhar que faça sentido para você, com informações acessíveis quando precisar atender o cliente. Processo primeiro, ferramenta depois. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 53.92,
+      "wpm": 155
+    },
+    "pausas_moldadas": {
+      "n": 23,
+      "max_s": 0.56
+    },
+    "pausas_encurtadas_s": 1.42,
+    "final": {
+      "seconds": 52.5,
+      "wpm": 159
+    }
+  }
+]

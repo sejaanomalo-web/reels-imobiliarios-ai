@@ -1,0 +1,123 @@
+1
+00:00:00,200 --> 00:00:01,940
+O comprador perguntou:
+
+2
+00:00:01,960 --> 00:00:03,860
+“Esse apartamento tem vaga coberta?*”
+
+3
+00:00:03,880 --> 00:00:06,300
+E recebeu cinco mensagens prontas,
+
+4
+00:00:06,360 --> 00:00:08,460
+um PDF e um convite para visitar.
+
+5
+00:00:08,520 --> 00:00:10,020
+A informação que ele precisava
+
+6
+00:00:10,040 --> 00:00:11,180
+ainda não apareceu.
+
+7
+00:00:11,320 --> 00:00:13,700
+Esse tipo de atrito virou tema em debates
+
+8
+00:00:13,720 --> 00:00:15,220
+sobre a jornada digital do cliente
+
+9
+00:00:15,240 --> 00:00:16,400
+no mercado imobiliário.
+
+10
+00:00:16,440 --> 00:00:18,260
+Quem está pesquisando quer entender
+
+11
+00:00:18,280 --> 00:00:19,740
+a própria pergunta primeiro.
+
+12
+00:00:19,960 --> 00:00:21,480
+Agora veja a alternativa:
+
+13
+00:00:21,640 --> 00:00:23,220
+“*Sim, a vaga é coberta,
+
+14
+00:00:23,240 --> 00:00:24,620
+conforme a ficha do imóvel.
+
+15
+00:00:24,680 --> 00:00:26,100
+Quer saber também como funciona
+
+16
+00:00:26,120 --> 00:00:27,200
+o acesso à garagem?*”
+
+17
+00:00:27,480 --> 00:00:29,780
+Uma resposta clara abre espaço
+
+18
+00:00:29,800 --> 00:00:30,900
+para a próxima dúvida.
+
+19
+00:00:30,920 --> 00:00:32,340
+Não é sobre escrever menos
+
+20
+00:00:32,360 --> 00:00:33,460
+por escrever menos.
+
+21
+00:00:33,480 --> 00:00:35,860
+É sobre conectar o pedido ao atendimento,
+
+22
+00:00:35,960 --> 00:00:38,100
+verificar os dados e respeitar o momento
+
+23
+00:00:38,120 --> 00:00:38,700
+de compra.
+
+24
+00:00:38,840 --> 00:00:40,980
+Tecnologia nenhuma conserta uma conversa
+
+25
+00:00:41,000 --> 00:00:42,180
+que ignora o cliente.
+
+26
+00:00:42,280 --> 00:00:44,180
+Clareza antes da automação.
+
+27
+00:00:44,200 --> 00:00:46,100
+Quer conhecer um sistema personalizado
+
+28
+00:00:46,120 --> 00:00:48,100
+para organizar seus imóveis, leads
+
+29
+00:00:48,120 --> 00:00:49,050
+e atendimentos?
+
+30
+00:00:49,080 --> 00:00:51,060
+Comente SISTEMA que eu te envio
+
+31
+00:00:51,080 --> 00:00:52,300
+os detalhes pelo Direct.
