@@ -20,7 +20,8 @@
   - "Comenta SISTEMA".
 
 ## Validação
-- `editorial_check` 0 erros / 0 avisos.
+- `validate.py` 11/11: 1080×1920 · H.264 · yuv420p · 30 fps · AAC · 62,72 s · −14,91 LUFS · TP −1,66 dBTP.
+- `editorial_check` 0 erros / 0 avisos. Movimento 1,40 · maior trecho parado 1,1 s. SFX: 31 eventos, stem −39,4 LUFS.
 - Quadros revisados (13 + ajustes). Corrigido: cartões encostando nas bordas no Take 01 e no Take 03 (cartões mais estreitos, câmera contida).
 - **Legenda Instagram:** `OUTPUT/ATIVO_NOV26_27/legenda_instagram.txt`, `legenda_check` ✓. Pasta: `PUBLICACAO/NOV26/REELS_21_AO_30/27/`.
 

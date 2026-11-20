@@ -381,24 +381,28 @@
       "id": "ATIVO_NOV26_27",
       "composition": "ATIVO-NOV26-27",
       "title": "IA substitui corretor?",
-      "status": "em_producao",
-      "video": null,
-      "validacao": null,
-      "voz": null,
+      "status": "entregue",
+      "video": "OUTPUT/ATIVO_NOV26_27/ATIVO_NOV26_27_FINAL.mp4",
+      "validacao": "11/11 · −14,91 LUFS · 62,72 s · editorial 0/0 · movimento 1,40 · 139 palavras/min",
+      "voz": "direção nova + shapePauses; A (conta 1) 'como um apoio'; B (conta 2) usada sem edição (ritmo calmo: 63 s brutos nas duas tomadas)",
       "commit": null,
-      "notas": "em produção"
+      "notas": "aprovar transição; ouvir ritmo (139 palavras/min)",
+      "legenda": "OUTPUT/ATIVO_NOV26_27/legenda_instagram.txt",
+      "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/27/"
     },
     {
       "n": 28,
       "id": "ATIVO_NOV26_28",
       "composition": "ATIVO-NOV26-28",
       "title": "Concorrente ou parceiro?",
-      "status": "em_producao",
-      "video": null,
-      "validacao": null,
-      "voz": null,
+      "status": "entregue",
+      "video": "OUTPUT/ATIVO_NOV26_28/ATIVO_NOV26_28_FINAL.mp4",
+      "validacao": "11/11 · −14,97 LUFS · 55,64 s · editorial 0/0 · movimento 1,44 · 144 palavras/min",
+      "voz": "direção nova + shapePauses; A (conta 1) usada sem edição; B (conta 2) 'atendores', 'Coopera'",
       "commit": null,
-      "notas": "em produção"
+      "notas": "aprovar transição; ouvir \"discutiram\" e \"Comenta SISTEMA\"",
+      "legenda": "OUTPUT/ATIVO_NOV26_28/legenda_instagram.txt",
+      "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/28/"
     },
     {
       "n": 29,

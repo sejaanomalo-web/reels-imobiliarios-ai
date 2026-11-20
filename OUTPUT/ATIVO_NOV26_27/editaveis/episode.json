@@ -1,0 +1,694 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "lote": "NOV26",
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-NOV26-27",
+ "title": "IA substitui corretor?",
+ "outputDir": "ATIVO_NOV26_27",
+ "deliverables": {
+  "final": "ATIVO_NOV26_27_FINAL.mp4",
+  "narration": "ATIVO_NOV26_27_NARRACAO.wav",
+  "subtitles": "ATIVO_NOV26_27_legendas.srt",
+  "cover": "ATIVO_NOV26_27_capa.png"
+ },
+ "fonte": "ROTEIROS/LOTE_NOV2026/ATIVO_NOV26_27.md (lote ATIVO_30_ROTEIROS_NOV2026.docx, cliente, 17/11/2026)",
+ "apuracao": {
+  "fato": "Conexão Imobiliária Secovi-SP (nov/2026) teve painel (Palco Arena) sobre IA, dados e novas fontes de receita para corretores e imobiliárias; tecnologia tratada como apoio. Nenhuma capacidade específica atribuída à ATIVO; IA sujeita a erros",
+  "verificado_em": "2026-11-20",
+  "fontes": [
+   "https://secovi.com.br/evento/conexao-imobiliaria-secovi-sp-2026/ (roteiro)",
+   "https://secovi.com.br/palco-arena-debate-ia-dados-e-novas-fontes-de-receita-para-corretores-e-imobiliarias/"
+  ],
+  "cuidados": "busca, resultados e chat ILUSTRATIVOS; sem marca de IA real; sem prometer automação da ATIVO; sem robôs genéricos"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor inseguro com a IA nos portais e no atendimento",
+  "motivacao": "usar tecnologia sem perder o valor do aconselhamento",
+  "crenca_questionada": "IA vai substituir o corretor",
+  "hipotese": "IA VAI SUBSTITUIR? → busca lista centenas de opções × dúvidas sem resposta → IA marca POSSÍVEL OPÇÃO e corretor valida matrícula/dados/estado → máquina organiza / profissional conversa",
+  "funcao": "posicionamento + educação",
+  "promessa": "usar ferramentas para ganhar tempo e focar no julgamento",
+  "evidencias": "Conexão Imobiliária Secovi-SP (nov/2026): Palco Arena debateu IA, dados e novas fontes de receita para corretores",
+  "cta": "comentário SISTEMA → Direct; pergunta do roteiro → transição com o texto de tela TECNOLOGIA APOIA / PROFISSIONAL ORIENTA"
+ },
+ "cta": {
+  "original_cta": "O que você delegaria para uma ferramenta, e o que nunca delegaria?",
+  "transition_adapted": "Tecnologia apoia, profissional orienta.",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A inteligência artificial pode buscar centenas de imóveis em segundos.",
+   "caption": "A *inteligência artificial* | pode buscar | *centenas de imóveis* | em *segundos.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Então por que alguém ainda precisaria de um corretor?",
+   "caption": "Então por que alguém | ainda precisaria | de um *corretor?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "Porque encontrar opções e orientar uma decisão não são exatamente a mesma tarefa.",
+   "caption": "Porque *encontrar opções* | e *orientar uma decisão* | não são exatamente | a *mesma tarefa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "Sistemas podem filtrar preço, localização, metragem e preferências.",
+   "caption": "Sistemas podem filtrar | *preço,* | *localização,* | *metragem* | e *preferências.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t1",
+   "text": "Mas o cliente também tem dúvidas sobre rotina, documentação e riscos.",
+   "caption": "Mas o cliente | também tem *dúvidas* | sobre *rotina,* | *documentação* | e *riscos.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t2",
+   "text": "Nos debates recentes do setor, a tecnologia apareceu como apoio à seleção e ao atendimento.",
+   "caption": "Nos debates recentes | do setor, | a *tecnologia* apareceu | como *apoio* | à seleção | e ao atendimento.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t2",
+   "text": "Só que respostas automáticas também podem errar.",
+   "caption": "Só que | *respostas automáticas* | também *podem errar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t2",
+   "text": "Informações sobre o imóvel precisam ser verificadas antes de chegar ao comprador.",
+   "caption": "Informações | sobre o imóvel | precisam ser *verificadas* | antes de chegar | ao comprador.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "O corretor que se destaca não compete com a velocidade da máquina.",
+   "caption": "O corretor | que se destaca | *não compete* | com a *velocidade* | da máquina.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "t3",
+   "text": "Ele usa ferramentas para ganhar tempo e concentra a atenção no que exige julgamento, responsabilidade e relacionamento.",
+   "caption": "Ele usa *ferramentas* | para *ganhar tempo* | e concentra a atenção | no que exige | *julgamento,* | *responsabilidade* | e *relacionamento.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "t3",
+   "text": "Tecnologia apoia, profissional orienta.",
+   "caption": "*Tecnologia apoia,* | *profissional orienta.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): respeitar pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_ia": {
+   "seg": "s1",
+   "word": "inteligência",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_cent": {
+   "seg": "s1",
+   "word": "centenas",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_seg": {
+   "seg": "s1",
+   "word": "segundos",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_entao": {
+   "seg": "s2",
+   "word": "Então",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_corr": {
+   "seg": "s2",
+   "word": "corretor",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_porque": {
+   "seg": "s3",
+   "word": "Porque",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_enc": {
+   "seg": "s3",
+   "word": "encontrar",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_orient": {
+   "seg": "s3",
+   "word": "orientar",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_mesma": {
+   "seg": "s3",
+   "word": "mesma",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_sist": {
+   "seg": "s4",
+   "word": "Sistemas",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_preco": {
+   "seg": "s4",
+   "word": "preço",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_loc": {
+   "seg": "s4",
+   "word": "localização",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_metr": {
+   "seg": "s4",
+   "word": "metragem",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_pref": {
+   "seg": "s4",
+   "word": "preferências",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_mas": {
+   "seg": "s5",
+   "word": "Mas",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_duv": {
+   "seg": "s5",
+   "word": "dúvidas",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_rot": {
+   "seg": "s5",
+   "word": "rotina",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_doc": {
+   "seg": "s5",
+   "word": "documentação",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_risc": {
+   "seg": "s5",
+   "word": "riscos",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_deb": {
+   "seg": "s6",
+   "word": "debates",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_tec": {
+   "seg": "s6",
+   "word": "tecnologia",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_apoio": {
+   "seg": "s6",
+   "word": "apoio",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_so": {
+   "seg": "s7",
+   "word": "Só",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_errar": {
+   "seg": "s7",
+   "word": "errar",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_info": {
+   "seg": "s8",
+   "word": "Informações",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_verif": {
+   "seg": "s8",
+   "word": "verificadas",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_comp": {
+   "seg": "s8",
+   "word": "comprador",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_corr": {
+   "seg": "s9",
+   "word": "corretor",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_vel": {
+   "seg": "s9",
+   "word": "velocidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_ferr": {
+   "seg": "s10",
+   "word": "ferramentas",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_tempo": {
+   "seg": "s10",
+   "word": "tempo",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_julg": {
+   "seg": "s10",
+   "word": "julgamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_resp": {
+   "seg": "s10",
+   "word": "responsabilidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_rel": {
+   "seg": "s10",
+   "word": "relacionamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_tec": {
+   "seg": "s11",
+   "word": "Tecnologia",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_prof": {
+   "seg": "s11",
+   "word": "profissional",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s12",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s12",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s12",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s13",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s13",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s13",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s13",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_ia",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -27
+  },
+  {
+   "cue": "h_cent",
+   "offset": 0.05,
+   "sound": "shuffle",
+   "gain": -27
+  },
+  {
+   "cue": "h_seg",
+   "offset": 0.05,
+   "sound": "whoosh_up",
+   "gain": -25
+  },
+  {
+   "cue": "h_entao",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -25
+  },
+  {
+   "cue": "h_corr",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "a_porque",
+   "offset": -0.2,
+   "sound": "swish",
+   "gain": -24
+  },
+  {
+   "cue": "a_enc",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "a_orient",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "a_preco",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "a_loc",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "a_metr",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "a_pref",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 9
+  },
+  {
+   "cue": "a_duv",
+   "offset": 0.05,
+   "sound": "hollow",
+   "gain": -29
+  },
+  {
+   "cue": "a_doc",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "a_risc",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -30
+  },
+  {
+   "cue": "b_deb",
+   "offset": -0.3,
+   "sound": "whoosh_up",
+   "gain": -24
+  },
+  {
+   "cue": "b_apoio",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "b_errar",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -30
+  },
+  {
+   "cue": "b_verif",
+   "offset": 0.05,
+   "sound": "block",
+   "gain": -25
+  },
+  {
+   "cue": "b_comp",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "c_corr",
+   "offset": -0.3,
+   "sound": "whoosh_fold",
+   "gain": -24
+  },
+  {
+   "cue": "c_vel",
+   "offset": 0.05,
+   "sound": "whoosh_up",
+   "gain": -27
+  },
+  {
+   "cue": "c_ferr",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "c_julg",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "c_resp",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "c_rel",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "x_tec",
+   "offset": 0.05,
+   "sound": "shimmer",
+   "gain": -27
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — IA"
+   },
+   {
+    "at": "cue:a_porque",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — buscar ≠ orientar"
+   },
+   {
+    "at": "cue:b_deb",
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     53
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Dm — verificação"
+   },
+   {
+    "at": "cue:c_corr",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — profissional orienta"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ }
+}

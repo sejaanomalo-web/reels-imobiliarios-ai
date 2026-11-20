@@ -22,7 +22,8 @@
   - "Conexão Imobiliária".
 
 ## Validação
-- `editorial_check` 0 erros / 0 avisos.
+- `validate.py` 11/11: 1080×1920 · H.264 · yuv420p · 30 fps · AAC · 55,64 s · −14,97 LUFS · TP −1,75 dBTP.
+- `editorial_check` 0 erros / 0 avisos. Movimento 1,44 · maior trecho parado 0,9 s. SFX: 27 eventos, stem −39,7 LUFS.
 - Quadros revisados (14 + ajustes). Corrigidos: selo "EXEMPLO HIPOTÉTICO" encostando no muro e "✕ CARTEIRA ABERTA" sobre a rede e perto do título; os dois desceram.
 - **Legenda Instagram:** `OUTPUT/ATIVO_NOV26_28/legenda_instagram.txt`, `legenda_check` ✓. Pasta: `PUBLICACAO/NOV26/REELS_21_AO_30/28/`.
 
