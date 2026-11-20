@@ -151,6 +151,7 @@ import { NOV26_28Cover } from "./episodes/ATIVO-NOV26-28/Cover";
 import { NOV26_29, timeline as nov26_29 } from "./episodes/ATIVO-NOV26-29/Episode";
 import { NOV26_29Cover } from "./episodes/ATIVO-NOV26-29/Cover";
 import { NOV26_30, timeline as nov26_30 } from "./episodes/ATIVO-NOV26-30/Episode";
+import { DemoPalitinho, DemoDesenho, DemoPlanta, DemoTipografia } from "./demos/Estilos";
 import { NOV26_30Cover } from "./episodes/ATIVO-NOV26-30/Cover";
 
 export const RemotionRoot: React.FC = () => (
@@ -741,6 +742,10 @@ export const RemotionRoot: React.FC = () => (
       <Still id="ATIVO-NOV26-29-Capa" component={NOV26_29Cover} width={VIDEO.width} height={VIDEO.height} />
       <Composition id="ATIVO-NOV26-30" component={NOV26_30} width={VIDEO.width} height={VIDEO.height} fps={nov26_30.fps} durationInFrames={nov26_30.durationInFrames} defaultProps={{ withAudio: true }} />
       <Still id="ATIVO-NOV26-30-Capa" component={NOV26_30Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Still id="DEMO-ESTILO-1" component={DemoPalitinho} width={VIDEO.width} height={VIDEO.height} />
+      <Still id="DEMO-ESTILO-2" component={DemoDesenho} width={VIDEO.width} height={VIDEO.height} />
+      <Still id="DEMO-ESTILO-3" component={DemoPlanta} width={VIDEO.width} height={VIDEO.height} />
+      <Still id="DEMO-ESTILO-4" component={DemoTipografia} width={VIDEO.width} height={VIDEO.height} />
     </Folder>
   </>
 );
