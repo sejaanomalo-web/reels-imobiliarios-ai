@@ -287,7 +287,7 @@
       "video": "OUTPUT/ATIVO_NOV26_20/ATIVO_NOV26_20_FINAL.mp4",
       "validacao": "11/11 · −15,02 LUFS · 49,88 s · editorial 0/0 · movimento 1,53 · 168 palavras/min",
       "voz": "direção nova + shapePauses; A (conta 1, 19/11) usada sem edição; B (conta 2, 20/11) descartada ('Dado o local desse')",
-      "commit": null,
+      "commit": "a84c23d",
       "notas": "aprovar transição; ouvir \"olha imóveis\" e \"Dado local decide\"",
       "legenda": "OUTPUT/ATIVO_NOV26_20/legenda_instagram.txt",
       "publicacao": "PUBLICACAO/NOV26/REELS_11_AO_20/20/"
