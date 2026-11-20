@@ -1,0 +1,85 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.49,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.23,
+    "palavras_nao_reconhecidas": [
+      "por"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.76,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.91,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.63,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.88,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 6.46,
+    "palavras_nao_reconhecidas": [
+      "olhe"
+    ]
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.58,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 1.26,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.37,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 47.51,
+    "asr_match": 0.977,
+    "aligned_words": "130/133",
+    "words_per_min": 168,
+    "heard": "Se aparecem mais imóveis para alugar numa cidade, o aluguel necessariamente cai. Curitiba mostra porque a resposta pode ser mais complicada. Reportagens recentes apontam maior oferta de locação e uma moderação no ritmo dos reajustes em Curitiba. Isso não equivale a uma queda generalizada nos valores. Imagina dois bairros. Um recebe muitos apartamentos novos, outro quase não ganha oferta. A procura, o padrão dos imóveis e os preços podem se comportar de forma diferente nos dois lugares. Na avaliação de aluguel, olha imóveis comparáveis disponíveis hoje, tempo de anúncio e velocidade de fechamento na área. Uma notícia da cidade ajuda, mas não substitui a análise do endereço. Dado o local decide. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 49.16,
+      "wpm": 162
+    },
+    "pausas_moldadas": {
+      "n": 17,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.65,
+    "final": {
+      "seconds": 47.51,
+      "wpm": 168
+    }
+  }
+]

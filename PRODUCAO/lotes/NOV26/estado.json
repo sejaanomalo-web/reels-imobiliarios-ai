@@ -283,7 +283,7 @@
       "id": "ATIVO_NOV26_20",
       "composition": "ATIVO-NOV26-20",
       "title": "Mais oferta em Curitiba, mesma pergunta",
-      "status": "bloqueado",
+      "status": "em_producao",
       "video": null,
       "validacao": null,
       "voz": null,
@@ -412,11 +412,17 @@
     }
   ],
   "cota_voz": {
-    "data": "2026-11-19",
-    "conta2_usadas": 21,
-    "conta2": "esgotada às ~19:00 UTC (quota exceeded na 22ª)",
-    "conta1_usadas": 27,
-    "renova": "~08:00 UTC",
-    "conta1": "esgotada às ~22:20 UTC (quota exceeded na tomada B do 20)"
+    "data": "2026-11-20",
+    "conta1_usadas": 1,
+    "conta2_usadas": 1,
+    "nota": "cota renovada antes de 00:10 UTC (teste de 1 geração em cada conta deu 200 OK)",
+    "dia_anterior": {
+      "data": "2026-11-19",
+      "conta2_usadas": 21,
+      "conta2": "esgotada às ~19:00 UTC (quota exceeded na 22ª)",
+      "conta1_usadas": 27,
+      "renova": "~08:00 UTC",
+      "conta1": "esgotada às ~22:20 UTC (quota exceeded na tomada B do 20)"
+    }
   }
 }
