@@ -297,24 +297,26 @@
       "id": "ATIVO_NOV26_21",
       "composition": "ATIVO-NOV26-21",
       "title": "85% usados: onde está a oportunidade?",
-      "status": "em_producao",
-      "video": null,
-      "validacao": null,
-      "voz": null,
+      "status": "entregue",
+      "video": "OUTPUT/ATIVO_NOV26_21/ATIVO_NOV26_21_FINAL.mp4",
+      "validacao": "11/11 · −14,92 LUFS · 56,58 s · editorial 0/0 · movimento 1,49 · 162 palavras/min",
+      "voz": "direção nova + shapePauses; A (conta 1) e B (conta 2); B usada sem edição",
       "commit": null,
-      "notas": "em produção"
+      "notas": "aprovar transição; ouvir \"Secovi\" (i final fraco) e \"melhorar avaliação\"",
+      "legenda": "OUTPUT/ATIVO_NOV26_21/legenda_instagram.txt",
+      "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/21/"
     },
     {
       "n": 22,
       "id": "ATIVO_NOV26_22",
       "composition": "ATIVO-NOV26-22",
       "title": "Leilão: desconto não é lucro",
-      "status": "pendente",
+      "status": "em_producao",
       "video": null,
       "validacao": null,
       "voz": null,
       "commit": null,
-      "notas": ""
+      "notas": "em produção"
     },
     {
       "n": 23,
@@ -415,8 +417,8 @@
   ],
   "cota_voz": {
     "data": "2026-11-20",
-    "conta1_usadas": 1,
-    "conta2_usadas": 2,
+    "conta1_usadas": 3,
+    "conta2_usadas": 4,
     "nota": "cota renovada antes de 00:10 UTC (teste de 1 geração em cada conta deu 200 OK)",
     "dia_anterior": {
       "data": "2026-11-19",

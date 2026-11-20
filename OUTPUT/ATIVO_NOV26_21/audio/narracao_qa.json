@@ -1,0 +1,99 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.86,
+    "palavras_nao_reconhecidas": [
+      "oitenta",
+      "cinco",
+      "por",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 1.03,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.19,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.79,
+    "palavras_nao_reconhecidas": [
+      "Conexão",
+      "Secovi"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.24,
+    "palavras_nao_reconhecidas": [
+      "censo"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 8.91,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 2.6,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 5.96,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.68,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.29,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 4.55,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 2.77,
+    "palavras_nao_reconhecidas": [
+      "Comente",
+      "envio"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 54.24,
+    "asr_match": 0.941,
+    "aligned_words": "136/146",
+    "words_per_min": 162,
+    "heard": "Um executivo do setor afirmou que 85% do mercado imobiliário brasileiro é de usados. O número chama atenção, mas a lição não é abandonar os lançamentos. A fala foi apresentada no Coneção Imobiliária do Secov, em novembro. É uma estimativa atribuída ao palestrante. Não um senso que a gente possa aplicar automaticamente a cada cidade. Para quem trabalha com revenda, a pergunta interessante é, você conhece a origem, a documentação, a situação e o posicionamento dos imóveis que capta? Um estoque grande, sem qualidade, pode ser um problema. Antes de buscar mais volume, vale melhorar a avaliação, qualificação e atualização das informações. O corretor que entende sua carteira consegue orientar melhor o comprador e o proprietário. Carteira confiável, começa na captação. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema que eu te envia os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 56.0,
+      "wpm": 156
+    },
+    "pausas_moldadas": {
+      "n": 19,
+      "max_s": 0.51
+    },
+    "pausas_encurtadas_s": 1.76,
+    "final": {
+      "seconds": 54.24,
+      "wpm": 162
+    }
+  }
+]

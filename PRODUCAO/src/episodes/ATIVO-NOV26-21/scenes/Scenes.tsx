@@ -60,8 +60,8 @@ export const Take1: React.FC<SceneProps> = ({ t, tl }) => {
   const out = prog(t, c.b_quem - 0.4, 0.35, ease.in);
   return (
     <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: fade(enter) * (1 - out) }}>
-      <Camera drift={6} t={t} keys={[{ t: c.a_fala - 0.35, s: 1.06, y: 0 }, { t: c.a_fala + 0.8, s: 1.1, x: -12, y: -10, e: ease.out }, { t: c.a_estim, s: 1.07, x: 12, y: -16, e: ease.linear }, { t: c.a_cidade, s: 1.09, x: -6, y: -26, e: ease.linear }, { t: c.b_quem, s: 1.06, y: -32, e: ease.linear }]}>
-        <div style={{ position: "absolute", left: 120, right: 120, top: 460, boxSizing: "border-box", borderRadius: 30, background: C.surface, border: `2px solid ${C.surface3}`, padding: "28px 30px", opacity: fade(q), transform: `translateY(${(1 - Math.min(1, q)) * 50 + fl(t, 0)}px) rotate(${Math.sin(t * 1.2) * 1.5}deg)` }}>
+      <Camera drift={6} t={t} keys={[{ t: c.a_fala - 0.35, s: 1.06, y: 0 }, { t: c.a_fala + 0.8, s: 1.07, x: -8, y: -10, e: ease.out }, { t: c.a_estim, s: 1.07, x: 12, y: -16, e: ease.linear }, { t: c.a_cidade, s: 1.09, x: -6, y: -26, e: ease.linear }, { t: c.b_quem, s: 1.06, y: -32, e: ease.linear }]}>
+        <div style={{ position: "absolute", left: 140, right: 140, top: 470, boxSizing: "border-box", borderRadius: 30, background: C.surface, border: `2px solid ${C.surface3}`, padding: "28px 30px", opacity: fade(q), transform: `translateY(${(1 - Math.min(1, q)) * 50 + fl(t, 0)}px) rotate(${Math.sin(t * 1.2) * 1.5}deg)` }}>
           <div style={{ fontWeight: 800, fontSize: 86, color: A.hex, lineHeight: 0.6 }}>“</div>
           <div style={{ fontWeight: 800, fontSize: 48, color: C.text, lineHeight: 1.1, letterSpacing: "-0.02em" }}>Imóveis usados são <span style={{ color: A.hex }}>85%</span> do mercado</div>
           <div style={{ marginTop: 18, fontFamily: F.mono, fontWeight: 700, fontSize: 24, color: C.muted, lineHeight: 1.4, opacity: fade(ev) }}>SEGUNDO HEITOR KUSER (CIMI 360)<br />CONEXÃO IMOBILIÁRIA SECOVI-SP · NOV/2026</div>
@@ -101,9 +101,9 @@ export const Take2: React.FC<SceneProps> = ({ t, tl }) => {
   const shown = Math.round(mix(5, 9, grow));
   return (
     <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: fade(enter) * (1 - out) }}>
-      <Camera drift={6} t={t} keys={[{ t: c.b_quem - 0.35, s: 1.06, y: 0 }, { t: c.b_quem + 0.8, s: 1.1, x: 12, y: -8, e: ease.out }, { t: c.b_doc, s: 1.07, x: -12, y: -14, e: ease.linear }, { t: c.b_estoque, s: 1.09, x: 10, y: -22, e: ease.linear }, { t: c.c_antes, s: 1.06, y: -30, e: ease.linear }]}>
+      <Camera drift={6} t={t} keys={[{ t: c.b_quem - 0.35, s: 1.06, y: 0 }, { t: c.b_quem + 0.8, s: 1.06, x: 4, y: -8, e: ease.out }, { t: c.b_doc, s: 1.07, x: -12, y: -14, e: ease.linear }, { t: c.b_estoque, s: 1.07, x: 4, y: -22, e: ease.linear }, { t: c.c_antes, s: 1.06, y: -30, e: ease.linear }]}>
         {/* pilha caótica de anúncios */}
-        <div style={{ position: "absolute", left: 90, top: 460, width: 520, height: 560, opacity: fade(pile) }}>
+        <div style={{ position: "absolute", left: 110, top: 470, width: 500, height: 560, opacity: fade(pile) }}>
           {PILE.slice(0, shown).map((p, i) => (
             <div key={i} style={{ position: "absolute", left: p.x, top: p.y, width: 200, height: 130, boxSizing: "border-box", borderRadius: 16, background: C.surface2, border: `2px solid ${prob > 0.5 ? "rgba(255,107,94,0.6)" : C.dim}`, padding: 12, display: "flex", flexDirection: "column", gap: 8, transform: `rotate(${p.r + Math.sin(t * 2 + i) * 3}deg) translateY(${Math.sin(t * 2.4 + i) * 8}px) scale(${Math.min(1, Math.max(0, pile * 9 - i))})` }}>
               <div style={{ display: "flex", alignItems: "center", gap: 8 }}><IconHome size={30} color={C.muted} /><div style={{ flex: 1, height: 10, borderRadius: 5, background: C.surface3 }} /></div>
@@ -113,7 +113,7 @@ export const Take2: React.FC<SceneProps> = ({ t, tl }) => {
           ))}
         </div>
         {/* perguntas da captação */}
-        <div style={{ position: "absolute", left: 640, right: 70, top: 470, display: "flex", flexDirection: "column", gap: 14 }}>
+        <div style={{ position: "absolute", left: 630, right: 110, top: 480, display: "flex", flexDirection: "column", gap: 14 }}>
           {CHECK.map((x, i) => (
             <div key={x.k} style={{ height: 82, boxSizing: "border-box", borderRadius: 18, background: ch[i] > 0.5 ? aa(0.08) : C.surface, border: `2px ${ch[i] > 0.5 ? "solid" : "dashed"} ${ch[i] > 0.5 ? A.hex : C.dim}`, display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0 16px", opacity: mix(0.3, 1, Math.min(1, ch[i] * 2)), transform: `translateX(${(1 - Math.min(1, ch[i])) * 40 + Math.sin(t * 2 + i) * 8}px)` }}>
               <span style={{ fontWeight: 800, fontSize: 25, color: C.text }}>{x.k}</span>
@@ -135,7 +135,7 @@ export const Take3: React.FC<SceneProps> = ({ t, tl }) => {
   const c = tl.cues;
   const enter = sp(t, c.c_antes - 0.35, { damping: 15, stiffness: 150 });
   const vol = sp(t, c.c_volume - 0.2, { damping: 12, stiffness: 200 });
-  const card = sp(t, c.c_aval - 0.4, { damping: 13, stiffness: 170 });
+  const card = sp(t, c.c_antes - 0.1, { damping: 13, stiffness: 170 });
   const fs = FIELDS.map((x, i) => sp(t, c[x.at] - 0.15 + (i % 2) * 0.25, { damping: 11, stiffness: 220 }));
   const ppl = sp(t, c.c_comp - 0.25, { damping: 12, stiffness: 200 });
   const ppl2 = sp(t, c.c_prop - 0.25, { damping: 12, stiffness: 200 });
@@ -144,7 +144,7 @@ export const Take3: React.FC<SceneProps> = ({ t, tl }) => {
   return (
     <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: fade(enter) * (1 - out) }}>
       <Camera drift={6} t={t} keys={[{ t: c.c_antes - 0.35, s: 1.05, y: 0 }, { t: c.c_antes + 0.9, s: 1.09, x: 8, y: -8, e: ease.out }, { t: c.c_qual, s: 1.07, x: -10, y: -16, e: ease.linear }, { t: c.c_cart, s: 1.09, x: 8, y: -24, e: ease.linear }, { t: c.x_capt + 0.3, s: 1.05, y: -34, e: ease.linear }, { t: c.cta_quer, s: 1.08, y: -38, e: ease.linear }]}>
-        {vol > 0.001 ? <div style={{ position: "absolute", left: 0, right: 0, top: 440, display: "flex", justifyContent: "center", gap: 10, opacity: fade(vol) * (1 - fade(card)) }}><span style={{ textDecoration: "line-through", textDecorationColor: C.warn }}><Tag text="+ VOLUME" tone="muted" size={30} /></span></div> : null}
+        {vol > 0.001 ? <div style={{ position: "absolute", left: 0, right: 0, top: 1010, display: "flex", justifyContent: "center", gap: 10, opacity: fade(vol) * (1 - fade(ppl)), transform: `scale(${mix(0.5, 1, Math.min(1.08, vol))}) translateY(${fl(t, 3, 8)}px)` }}><Tag text="✕ SÓ MAIS VOLUME" tone="warn" size={30} /></div> : null}
         <div style={{ position: "absolute", left: 150, right: 150, top: 470, boxSizing: "border-box", borderRadius: 28, background: C.surface, border: `2px solid ${A.hex}`, padding: "18px 24px", opacity: fade(card) * (1 - 0.5 * fade(fin)), transform: `translateY(${(1 - Math.min(1, card)) * 60 + fl(t, 0, 12)}px) rotate(${Math.sin(t * 1.1) * 1.5}deg) scale(${mix(1, 0.9, Math.min(1, fin))})` }}>
           <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 8 }}><IconHome size={44} color={A.hex} /><span style={{ flex: 1, fontWeight: 800, fontSize: 30, color: C.text }}>FICHA DO IMÓVEL</span><Tag text="ILUSTRATIVO" tone="muted" size={24} /></div>
           {FIELDS.map((f, i) => (
