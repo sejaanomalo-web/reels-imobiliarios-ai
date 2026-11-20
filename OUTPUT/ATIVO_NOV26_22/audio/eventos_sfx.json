@@ -1,0 +1,188 @@
+[
+ {
+  "t": 0.36,
+  "sound": "block",
+  "gain": -25,
+  "cue": "h_leilao"
+ },
+ {
+  "t": 1.05,
+  "sound": "tick",
+  "gain": -26,
+  "cue": "h_sant"
+ },
+ {
+  "t": 2.668,
+  "sound": "shuffle",
+  "gain": -27,
+  "cue": "h_200"
+ },
+ {
+  "t": 4.52,
+  "sound": "block",
+  "gain": -25,
+  "cue": "h_mas"
+ },
+ {
+  "t": 6.17,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "h_barato"
+ },
+ {
+  "t": 7.61,
+  "sound": "hollow",
+  "gain": -29,
+  "cue": "h_conta"
+ },
+ {
+  "t": 8.38,
+  "sound": "swish",
+  "gain": -24,
+  "cue": "a_quando"
+ },
+ {
+  "t": 9.61,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "a_preco"
+ },
+ {
+  "t": 10.73,
+  "sound": "whoosh_up",
+  "gain": -26,
+  "cue": "a_abaixo"
+ },
+ {
+  "t": 13.21,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "a_margem"
+ },
+ {
+  "t": 14.68,
+  "sound": "block",
+  "gain": -25,
+  "cue": "a_so"
+ },
+ {
+  "t": 16.97,
+  "sound": "alert",
+  "gain": -30,
+  "cue": "a_comum"
+ },
+ {
+  "t": 18.81,
+  "sound": "click",
+  "gain": -24,
+  "cue": "a_lote"
+ },
+ {
+  "t": 20.04,
+  "sound": "click",
+  "gain": -24,
+  "cue": "b_edital"
+ },
+ {
+  "t": 20.81,
+  "sound": "click",
+  "gain": -24,
+  "cue": "b_matr"
+ },
+ {
+  "t": 21.69,
+  "sound": "click",
+  "gain": -24,
+  "cue": "b_ocup"
+ },
+ {
+  "t": 22.65,
+  "sound": "click",
+  "gain": -24,
+  "cue": "b_deb"
+ },
+ {
+  "t": 23.53,
+  "sound": "click",
+  "gain": -24,
+  "cue": "b_com"
+ },
+ {
+  "t": 24.41,
+  "sound": "click",
+  "gain": -24,
+  "cue": "b_imp"
+ },
+ {
+  "t": 25.85,
+  "sound": "click",
+  "gain": -24,
+  "cue": "b_pag"
+ },
+ {
+  "t": 30.97,
+  "sound": "block",
+  "gain": -26,
+  "cue": "b_jur"
+ },
+ {
+  "t": 32.78,
+  "sound": "whoosh_fold",
+  "gain": -24,
+  "cue": "c_corr"
+ },
+ {
+  "t": 35.21,
+  "sound": "hollow",
+  "gain": -29,
+  "cue": "c_desc"
+ },
+ {
+  "t": 36.25,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "c_expl"
+ },
+ {
+  "t": 39.45,
+  "sound": "tick",
+  "gain": -25,
+  "cue": "c_anal"
+ },
+ {
+  "t": 44.17,
+  "sound": "block",
+  "gain": -26,
+  "cue": "c_riscos"
+ },
+ {
+  "t": 44.81,
+  "sound": "shimmer",
+  "gain": -27,
+  "cue": "x_nao"
+ },
+ {
+  "t": 47.88,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "cta_sys"
+ },
+ {
+  "t": 51.18,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 52.59,
+  "sound": "typing",
+  "gain": -30,
+  "cue": "cta_word"
+ },
+ {
+  "t": 54.6,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "cta_end"
+ }
+]

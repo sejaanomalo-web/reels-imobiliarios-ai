@@ -16,19 +16,11 @@ const Title: React.FC<{ p: number; children: React.ReactNode; size?: number }> =
 const fade = (p: number) => Math.min(1, Math.max(0, p) * 1.5);
 const fl = (t: number, k: number, a = 10) => Math.sin(t * 1.7 + k) * a;
 
-const Gavel: React.FC<{ size: number; hit: number }> = ({ size, hit }) => (
-  <svg width={size} height={size} viewBox="0 0 100 100" style={{ transform: `rotate(${-35 + hit * 35}deg)`, transformOrigin: "80% 80%" }}>
-    <rect x={20} y={14} width={44} height={22} rx={6} fill={C.text} transform="rotate(-45 42 25)" />
-    <rect x={44} y={34} width={10} height={56} rx={4} fill={C.muted} transform="rotate(-45 49 62)" />
-  </svg>
-);
-
 export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
   const c = tl.cues;
   const title = sp(t, -0.4, { damping: 13, stiffness: 170 });
-  const pos = sp(t, c.h_leilao - 0.3, { damping: 12, stiffness: 180 });
-  const hit = Math.max(0, Math.sin(Math.min(1, prog(t, c.h_leilao, 0.35, ease.out)) * Math.PI));
-  const many = prog(t, c.h_200 - 0.3, 1.0, ease.out);
+  const pos = sp(t, -0.3, { damping: 12, stiffness: 180 });
+  const many = prog(t, -0.1, Math.max(1.2, c.h_200 + 0.4), ease.out);
   const tag = sp(t, c.h_nov - 0.2, { damping: 12, stiffness: 200 });
   const cheap = sp(t, c.h_barato - 0.2, { damping: 11, stiffness: 220 });
   const bill = prog(t, c.h_conta - 0.2, 0.9, ease.out);
@@ -37,15 +29,14 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
     <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: 1 - out }}>
       <Camera drift={6} t={t} keys={[{ t: 0, s: 1.08, x: 10, y: -8 }, { t: 1.0, s: 1.15, x: -10, y: -18, e: ease.out }, { t: c.h_nov, s: 1.1, x: 10, y: -22, e: ease.linear }, { t: c.h_conta + 0.3, s: 1.06, x: -4, y: -30, e: ease.linear }, { t: c.a_quando, s: 1.08, y: -34, e: ease.linear }]}>
         {/* grade de lotes */}
-        <div style={{ position: "absolute", left: 150, right: 150, top: 450, display: "grid", gridTemplateColumns: "repeat(6, 1fr)", gap: 12, opacity: fade(pos) * mix(1, 0.4, Math.min(1, cheap)) }}>
+        <div style={{ position: "absolute", left: 150, right: 150, top: 500, display: "grid", gridTemplateColumns: "repeat(6, 1fr)", gap: 12, opacity: fade(pos) * mix(1, 0.4, Math.min(1, cheap)) }}>
           {Array.from({ length: 24 }).map((_, i) => (
             <div key={i} style={{ height: 78, borderRadius: 12, background: C.surface, border: `2px solid ${C.surface3}`, display: "flex", alignItems: "center", justifyContent: "center", transform: `scale(${Math.min(1, Math.max(0, many * 24 - i))}) translateY(${Math.sin(t * 2.5 + i) * 5}px)` }}><IconHome size={36} color={C.muted} /></div>
           ))}
         </div>
-        <div style={{ position: "absolute", right: 120, top: 380, opacity: fade(pos) }}><Gavel size={120} hit={hit} /></div>
-        {tag > 0.001 ? <div style={{ position: "absolute", left: 0, right: 0, top: 840, display: "flex", justifyContent: "center", gap: 12, opacity: fade(tag) * (1 - fade(cheap)) }}><Tag text="195 IMÓVEIS · 20 ESTADOS" tone="muted" size={26} /><Tag text="REALIZADO EM 17/11" tone="muted" size={26} /></div> : null}
+        {tag > 0.001 ? <div style={{ position: "absolute", left: 0, right: 0, top: 900, display: "flex", justifyContent: "center", gap: 12, opacity: fade(tag) * (1 - fade(cheap)) }}><Tag text="195 IMÓVEIS · 20 ESTADOS" tone="muted" size={26} /><Tag text="REALIZADO EM 17/11" tone="muted" size={26} /></div> : null}
         {cheap > 0.001 ? (
-          <div style={{ position: "absolute", left: 0, right: 0, top: 820, display: "flex", flexDirection: "column", alignItems: "center", gap: 0 }}>
+          <div style={{ position: "absolute", left: 0, right: 0, top: 890, display: "flex", flexDirection: "column", alignItems: "center", gap: 0 }}>
             <div style={{ padding: "14px 28px", borderRadius: 20, background: aa(0.1), border: `2px solid ${A.hex}`, opacity: fade(cheap), transform: `scale(${mix(0.5, 1, Math.min(1.08, cheap))}) rotate(${Math.sin(t * 2) * 2}deg)`, zIndex: 2 }}>
               <span style={{ fontWeight: 800, fontSize: 40, color: A.hex }}>LANCE “BARATO”</span>
             </div>
@@ -117,7 +108,7 @@ export const Take2: React.FC<SceneProps> = ({ t, tl }) => {
           ) : null)}
           {stamp > 0.001 ? (
             <div style={{ position: "absolute", left: 0, top: 0, transform: `translate(-50%, -50%) rotate(-12deg) scale(${mix(2.2, 1, Math.min(1, stamp))})`, opacity: fade(stamp) }}>
-              <div style={{ whiteSpace: "nowrap", padding: "14px 22px", borderRadius: 14, border: `5px solid ${C.warn}`, background: "rgba(10,10,12,0.85)", fontWeight: 800, fontSize: 38, color: C.warn, letterSpacing: "0.04em" }}>EXAMINAR DOCUMENTOS</div>
+              <div style={{ whiteSpace: "nowrap", padding: "14px 22px", borderRadius: 14, border: `5px solid ${C.warn}`, background: "rgba(10,10,12,0.85)", fontWeight: 800, fontSize: 32, color: C.warn, letterSpacing: "0.04em" }}>EXAMINAR DOCUMENTOS</div>
             </div>
           ) : null}
         </div>
