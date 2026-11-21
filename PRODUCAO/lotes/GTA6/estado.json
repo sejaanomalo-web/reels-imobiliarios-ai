@@ -110,7 +110,8 @@
       "duracao_s": 54.3,
       "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/07",
       "produzido_em": "2026-11-21",
-      "agendar_para": "2026-11-26 22:00 BRT"
+      "agendar_para": "2026-11-26 22:00 BRT",
+      "agendado": "2026-11-26 22:00 BRT (ajustado no Supabase)"
     },
     {
       "n": 8,
@@ -119,7 +120,13 @@
       "roteiro": "ROTEIROS/GTA6/GTA6_08.md",
       "titulo": "GTA VI não é apenas Vice City",
       "tipo": "GTA PRIMEIRO • Curiosidade de mapa • ~44s de narração • FATO OFICIAL",
-      "status": "pendente"
+      "status": "publicado_fila",
+      "estilo": 3,
+      "estiloNome": "Planta técnica",
+      "duracao_s": 49.9,
+      "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/08",
+      "produzido_em": "2026-11-21",
+      "agendar_para": "2026-11-27 22:00 BRT"
     },
     {
       "n": 9,

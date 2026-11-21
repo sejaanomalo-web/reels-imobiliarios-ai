@@ -1,0 +1,83 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.96,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 6.74,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 7.77,
+    "palavras_nao_reconhecidas": [
+      "Keys",
+      "Grassrivers",
+      "Gellhorn",
+      "Kalaga"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.89,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 2.28,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 5.74,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 5.1,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 2.55,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.24,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.47,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 47.61,
+    "asr_match": 0.961,
+    "aligned_words": "134/139",
+    "words_per_min": 175,
+    "heard": "Eu acho que muita gente ainda não percebeu. GTA VI não se resume a Vice City. A cidade é a grande estrela, mas o jogo se passa em Leônida, um estado fictício muito maior em variedade de paisagens. A própria Rockstar apresenta regiões com identidades bem diferentes. Leonida Kiss, Grass Rivers, Port Gelhorn, Ambrósia e Mount Calaga. Tem cenário urbano, litoral, pântano e interior. Pra quem gosta de explorar, isso muda tudo. Não é como escolher entre dois prédios na mesma rua. É mudar completamente de estilo de vida a cada viagem. Eu começaria pelo mar, mas tenho certeza de que acabaria perdido no interior procurando uma vista melhor. Na vida real, cada região atrai um perfil diferente. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 48.84,
+      "wpm": 171
+    },
+    "pausas_moldadas": {
+      "n": 15,
+      "max_s": 0.45
+    },
+    "pausas_encurtadas_s": 1.23,
+    "final": {
+      "seconds": 47.61,
+      "wpm": 175
+    }
+  }
+]

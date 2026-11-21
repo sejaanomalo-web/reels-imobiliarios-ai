@@ -1,0 +1,580 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "leadIn": 0.12,
+  "tail": 2.2,
+  "accent": "#02FB3F",
+  "pronunciation": {
+    "SISTEMA": "sistema",
+    "GTA VI": "GTA seis",
+    "Leonida Keys": "Leonida Quís",
+    "Grassrivers": "Grás-ríverz",
+    "Port Gellhorn": "Pórt Guélhorn",
+    "Mount Kalaga": "Máunt Kalága"
+  },
+  "master": {
+    "tp": -2.0
+  },
+  "id": "ATIVO-GTA6-08",
+  "lote": "GTA6",
+  "title": "GTA VI não é apenas Vice City",
+  "outputDir": "ATIVO_GTA6_08",
+  "deliverables": {
+    "final": "ATIVO_GTA6_08_FINAL.mp4",
+    "narration": "ATIVO_GTA6_08_NARRACAO.wav",
+    "subtitles": "ATIVO_GTA6_08_legendas.srt",
+    "cover": "ATIVO_GTA6_08_capa.png"
+  },
+  "fonte": "ROTEIROS/GTA6/GTA6_08.md (ATIVO_GTA_VI_50_Roteiros_Completos.pdf, roteiro 08)",
+  "apuracao": {
+    "fato": "Site oficial de GTA VI (Rockstar, 'Only in Leonida'): o jogo se passa no estado fictício de Leonida, com as regiões Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia e Mount Kalaga, com paisagens urbanas, litorâneas, de pântano e interior. Não existe mapa oficial completo: o mapa do vídeo é ESQUEMÁTICO/ILUSTRATIVO e as posições das regiões são aproximadas",
+    "verificado_em": "2026-11-21",
+    "fontes": [
+      "https://www.rockstargames.com/VI/only-in-leonida",
+      "https://thegameswiki.com/gta6/wiki/map-and-regions",
+      "https://allthings.how/gta-6-map-locations-every-confirmed-region-in-leonida/"
+    ],
+    "cuidados": "mapa esquemático original rotulado 'ilustrativo — não é o mapa oficial'; sem captura/arte do jogo; transição é generalização de mercado sem números"
+  },
+  "diagnostico": {
+    "publico_situacao": "corretor acompanhando o hype do GTA VI",
+    "motivacao": "curiosidade de mapa (fato oficial)",
+    "crenca_questionada": "GTA VI é só Vice City",
+    "hipotese": "planta técnica: cômodo VICE CITY sozinho → zoom out revela o estado LEONIDA (mapa esquemático) → 5 regiões entram uma a uma com chamadas urbano/litoral/pântano/interior → dois prédios na mesma rua × rota cruzando o estado → rota perdida no interior procurando vista",
+    "funcao": "curiosidade de mapa (GTA primeiro)",
+    "promessa": "enxergar o jogo como um estado com estilos de vida diferentes",
+    "evidencias": "regiões apresentadas no site oficial (S1)",
+    "cta": "transição 'Na vida real, cada região atrai um perfil diferente.' → comentário SISTEMA → Direct"
+  },
+  "cta": {
+    "original_cta": "Qual região você exploraria primeiro?",
+    "transition_adapted": "Na vida real, cada região atrai um perfil diferente.",
+    "type": "comentario",
+    "keyword": "SISTEMA",
+    "channel": "Direct",
+    "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+    "source": "regra do cliente em 14/11/2026"
+  },
+  "segments": [
+    {
+      "id": "s1",
+      "scene": "hook",
+      "text": "Eu acho que muita gente ainda não percebeu: GTA VI não se resume a Vice City.",
+      "caption": "Eu acho | que muita gente | ainda *não percebeu:* | GTA VI | não se resume | a *Vice City.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s2",
+      "scene": "t1",
+      "text": "A cidade é a grande estrela, mas o jogo se passa em Leonida, um estado fictício muito maior em variedade de paisagens.",
+      "caption": "A cidade | é a grande *estrela,* | mas o jogo | se passa em *Leonida,* | um estado fictício | muito *maior* | em variedade | de paisagens.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s3",
+      "scene": "t2",
+      "text": "A própria Rockstar apresenta regiões com identidades bem diferentes: Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia e Mount Kalaga.",
+      "caption": "A própria Rockstar | apresenta *regiões* | com identidades | bem diferentes: | *Leonida Keys,* | *Grassrivers,* | *Port Gellhorn,* | *Ambrosia* | e *Mount Kalaga.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s4",
+      "scene": "t2",
+      "text": "Tem cenário urbano, litoral, pântano e interior.",
+      "caption": "Tem cenário *urbano,* | *litoral,* | *pântano* | e *interior.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s5",
+      "scene": "t3",
+      "text": "Pra quem gosta de explorar, isso muda tudo.",
+      "caption": "Pra quem gosta | de *explorar,* | isso muda *tudo.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s6",
+      "scene": "t3",
+      "text": "Não é como escolher entre dois prédios na mesma rua. É mudar completamente de estilo de vida a cada viagem.",
+      "caption": "Não é como escolher | entre *dois prédios* | na mesma rua. | É mudar | completamente | de *estilo de vida* | a cada viagem.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s7",
+      "scene": "t3",
+      "text": "Eu começaria pelo mar, mas tenho certeza de que acabaria perdido no interior procurando uma vista melhor.",
+      "caption": "Eu começaria | pelo *mar,* | mas tenho certeza | de que acabaria | *perdido* | no interior | procurando | uma *vista* melhor.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s8",
+      "scene": "t3",
+      "text": "Na vida real, cada região atrai um perfil diferente.",
+      "caption": "Na vida real, | cada *região* | atrai um *perfil* | diferente.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s9",
+      "scene": "cta",
+      "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+      "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s10",
+      "scene": "cta",
+      "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+      "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+      "pauseAfter": 0.3
+    }
+  ],
+  "voice": {
+    "shapePauses": {
+      "keepUnder": 0.22,
+      "ratio": 0.6,
+      "max": 0.6
+    },
+    "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+  },
+  "sceneLead": {
+    "t1": 0.3,
+    "t2": 0.35,
+    "t3": 0.35,
+    "cta": 0.3
+  },
+  "hideCaptions": [],
+  "cues": {
+    "h_perc": {
+      "seg": "s1",
+      "word": "percebeu",
+      "edge": "start",
+      "offset": 0
+    },
+    "h_gta": {
+      "seg": "s1",
+      "word": "GTA",
+      "edge": "start",
+      "offset": 0
+    },
+    "h_vice": {
+      "seg": "s1",
+      "word": "Vice",
+      "edge": "start",
+      "offset": 0
+    },
+    "a_estrela": {
+      "seg": "s2",
+      "word": "estrela",
+      "edge": "start",
+      "offset": 0
+    },
+    "a_leon": {
+      "seg": "s2",
+      "word": "Leonida",
+      "edge": "start",
+      "offset": 0
+    },
+    "a_ficticio": {
+      "seg": "s2",
+      "word": "fictício",
+      "edge": "start",
+      "offset": 0
+    },
+    "a_maior": {
+      "seg": "s2",
+      "word": "maior",
+      "edge": "start",
+      "offset": 0
+    },
+    "a_pais": {
+      "seg": "s2",
+      "word": "paisagens",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_reg": {
+      "seg": "s3",
+      "word": "regiões",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_keys": {
+      "seg": "s3",
+      "word": "Keys",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_grass": {
+      "seg": "s3",
+      "word": "Grassrivers",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_port": {
+      "seg": "s3",
+      "word": "Gellhorn",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_amb": {
+      "seg": "s3",
+      "word": "Ambrosia",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_kal": {
+      "seg": "s3",
+      "word": "Kalaga",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_urb": {
+      "seg": "s4",
+      "word": "urbano",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_lit": {
+      "seg": "s4",
+      "word": "litoral",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_pant": {
+      "seg": "s4",
+      "word": "pântano",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_int": {
+      "seg": "s4",
+      "word": "interior",
+      "edge": "start",
+      "offset": 0
+    },
+    "c_expl": {
+      "seg": "s5",
+      "word": "explorar",
+      "edge": "start",
+      "offset": 0
+    },
+    "c_tudo": {
+      "seg": "s5",
+      "word": "tudo",
+      "edge": "start",
+      "offset": 0
+    },
+    "c_dois": {
+      "seg": "s6",
+      "word": "dois",
+      "edge": "start",
+      "offset": 0
+    },
+    "c_estilo": {
+      "seg": "s6",
+      "word": "estilo",
+      "edge": "start",
+      "offset": 0
+    },
+    "c_viagem": {
+      "seg": "s6",
+      "word": "viagem",
+      "edge": "start",
+      "offset": 0
+    },
+    "d_mar": {
+      "seg": "s7",
+      "word": "mar",
+      "edge": "start",
+      "offset": 0
+    },
+    "d_perd": {
+      "seg": "s7",
+      "word": "perdido",
+      "edge": "start",
+      "offset": 0
+    },
+    "d_vista": {
+      "seg": "s7",
+      "word": "vista",
+      "edge": "start",
+      "offset": 0
+    },
+    "e_real": {
+      "seg": "s8",
+      "word": "real",
+      "edge": "start",
+      "offset": 0
+    },
+    "e_perfil": {
+      "seg": "s8",
+      "word": "perfil",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_quer": {
+      "seg": "s9",
+      "word": "Quer",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_sys": {
+      "seg": "s9",
+      "word": "sistema",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_tiles": {
+      "seg": "s9",
+      "word": "imóveis",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_comment": {
+      "seg": "s10",
+      "word": "Comente",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_word": {
+      "seg": "s10",
+      "word": "SISTEMA",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_direct": {
+      "seg": "s10",
+      "word": "Direct",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_end": {
+      "seg": "s10",
+      "word": "Direct",
+      "edge": "end",
+      "offset": 0
+    }
+  },
+  "series": {},
+  "sfx": [
+    {
+      "cue": "h_perc",
+      "offset": 0.0,
+      "sound": "pop",
+      "gain": -25
+    },
+    {
+      "cue": "h_vice",
+      "offset": 0.05,
+      "sound": "pin",
+      "gain": -25
+    },
+    {
+      "cue": "a_leon",
+      "offset": -0.1,
+      "sound": "whoosh_up",
+      "gain": -25
+    },
+    {
+      "cue": "a_maior",
+      "offset": 0.05,
+      "sound": "shimmer",
+      "gain": -28
+    },
+    {
+      "cue": "b_keys",
+      "offset": 0.05,
+      "sound": "tick",
+      "gain": -26
+    },
+    {
+      "cue": "b_grass",
+      "offset": 0.05,
+      "sound": "tick",
+      "gain": -26,
+      "pitch": 2
+    },
+    {
+      "cue": "b_port",
+      "offset": 0.05,
+      "sound": "tick",
+      "gain": -26,
+      "pitch": 4
+    },
+    {
+      "cue": "b_amb",
+      "offset": 0.05,
+      "sound": "tick",
+      "gain": -26,
+      "pitch": 6
+    },
+    {
+      "cue": "b_kal",
+      "offset": 0.05,
+      "sound": "tick",
+      "gain": -26,
+      "pitch": 8
+    },
+    {
+      "cue": "b_urb",
+      "offset": 0.05,
+      "sound": "pin",
+      "gain": -27
+    },
+    {
+      "cue": "b_int",
+      "offset": 0.05,
+      "sound": "pin",
+      "gain": -27,
+      "pitch": 4
+    },
+    {
+      "cue": "c_expl",
+      "offset": -0.1,
+      "sound": "whoosh_fold",
+      "gain": -25
+    },
+    {
+      "cue": "c_dois",
+      "offset": 0.05,
+      "sound": "block",
+      "gain": -27
+    },
+    {
+      "cue": "c_estilo",
+      "offset": 0.05,
+      "sound": "swish",
+      "gain": -26
+    },
+    {
+      "cue": "d_mar",
+      "offset": 0.05,
+      "sound": "swish",
+      "gain": -26
+    },
+    {
+      "cue": "d_perd",
+      "offset": 0.05,
+      "sound": "hollow",
+      "gain": -28
+    },
+    {
+      "cue": "d_vista",
+      "offset": 0.05,
+      "sound": "shimmer",
+      "gain": -28
+    },
+    {
+      "cue": "e_perfil",
+      "offset": 0.05,
+      "sound": "click",
+      "gain": -24
+    },
+    {
+      "cue": "cta_sys",
+      "offset": 0.4,
+      "sound": "whoosh_fold",
+      "gain": -27
+    },
+    {
+      "cue": "cta_comment",
+      "offset": -0.3,
+      "sound": "pop",
+      "gain": -25,
+      "pitch": 3
+    },
+    {
+      "cue": "cta_word",
+      "offset": 0.55,
+      "sound": "typing",
+      "gain": -30
+    },
+    {
+      "cue": "cta_end",
+      "offset": 0.35,
+      "sound": "shimmer",
+      "gain": -28
+    }
+  ],
+  "music": {
+    "gain": -30,
+    "duck": -5.5,
+    "bpm": 88,
+    "prog": [
+      {
+        "at": 0,
+        "notes": [
+          33,
+          45,
+          52,
+          57,
+          60
+        ],
+        "root": 45,
+        "dens": 2,
+        "bright": 0.5,
+        "label": "Am — não é só Vice City"
+      },
+      {
+        "at": "cue:a_estrela",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57
+        ],
+        "root": 41,
+        "dens": 2,
+        "bright": 0.55,
+        "label": "F — Leonida"
+      },
+      {
+        "at": "cue:b_reg",
+        "notes": [
+          31,
+          43,
+          50,
+          55,
+          59
+        ],
+        "root": 43,
+        "dens": 2,
+        "bright": 0.6,
+        "label": "G — regiões"
+      },
+      {
+        "at": "cue:c_expl",
+        "notes": [
+          26,
+          38,
+          45,
+          50,
+          53
+        ],
+        "root": 38,
+        "dens": 2,
+        "bright": 0.5,
+        "label": "Dm — explorar"
+      },
+      {
+        "at": "cue:cta_sys",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55,
+          62
+        ],
+        "root": 36,
+        "dens": 2,
+        "bright": 0.6,
+        "label": "Cadd9 — sistema"
+      }
+    ]
+  },
+  "estilo": 3,
+  "estiloNome": "Planta técnica",
+  "esteira": true
+}
