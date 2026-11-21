@@ -3,6 +3,9 @@
 **Objetivo:** a saída precisa ser copiável, lida por um apresentador e transferível ao produtor Remotion sem reinterpretar falas. Não usar somente sinopse e conceitos abstratos.
 
 ## PARTE A — Ficha estratégica (antes do roteiro)
+- Origem: modelo MP4 de `modelos/` (arquivo, status, mecanismo que será transformado) **ou** pesquisa livre.
+- Se origem MP4: qual técnica foi estudada, o que NÃO será copiado e qual a contribuição original.
+- Recomendações de estilo visual são sugestões opcionais; decisão e implementação com o usuário no Claude Code.
 - ID/slug e título:
 - Proposta da ideia em 1 frase:
 - Público e situação:

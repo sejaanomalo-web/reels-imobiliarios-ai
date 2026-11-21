@@ -11,6 +11,9 @@
 8. Indicação dos arquivos/recursos que precisam ser produzidos, comprados/licenciados ou confirmados.
 9. Status de aprovação. Se pendente, não iniciar render, publicação, TTS pago ou geração de vídeo por conta própria.
 
+## Rastreamento de modelo MP4, quando usado
+Depois de apresentar as direções criativas de um modelo, atualizar o item em `modelos/controle.json` para `aguardando_aprovacao`. Quando o roteiro for aprovado e gravado em `ROTEIROS/`, atualizar `roteiro_aprovado` e o caminho do roteiro com o verificador. Quando a produção começar, `em_producao`. **Só `concluido` com MP4 final existente e efetivamente validado.** Se usuário recusar, registrar `descartado` com motivo, sem apagar MP4. A prioridade de `modelos/` é para conteúdo novo não trabalhado; o registro impede recriar o mesmo roteiro à toa.
+
 ## Persistência — somente após roteiro aprovado
 Salvar documento em ROTEIROS/ com nome não colidente, preferencialmente ROTEIROS/VIRAL/<slug>.md ou pasta de lote aprovada. Não sobrescrever roteiro existente; conferir antes. Guardar referências e auditoria no próprio MD ou junto a ele (ex.: ANALISE/<slug>-editorial.md), se útil.
 Não editar ROTEIROS/EP###.md, ROTEIROS/GTA6/*, lote L60, OUTPUT ou PUBLICACAO sem solicitação explícita.

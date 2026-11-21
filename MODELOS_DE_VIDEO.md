@@ -1,5 +1,7 @@
 # Modelos de vídeo da ATIVO
 
+> **Não confundir:** a pasta nova `modelos/` (minúsculas) guarda MP4 enviados pelo usuário como **referências editoriais prioritárias para novos roteiros**; este arquivo e as skills existentes tratam **dos estilos visuais da produção**. A Skill Mestre analisa a referência e sugere recursos opcionais. O usuário define o estilo/edição com o Claude Code, observando as regras técnicas vigentes do projeto.
+
 Cada modelo é um estilo viral de edição para Instagram e TikTok, com manual completo (skill), kit de código e um vídeo-piloto de referência. Para produzir num modelo, peça ao Claude Code "faça no **Primeiro modelo**" (ou no segundo, terceiro…): ele lê a skill inteira antes de começar.
 
 | Modelo | Nome | Manual (skill) | Kit de código | Piloto de referência | Status |

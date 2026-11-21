@@ -1,5 +1,7 @@
 # Skill Mestre Editorial da ATIVO — Guia de Navegação
 
+**Antes de tudo:** verificar `modelos/` (em minúsculas), rodar `python3 modelos/verificar_pendentes.py` e priorizar referências MP4 pendentes segundo `modelos/PROTOCOLO_DE_ANALISE.md`. Se houver referência pendente, analisar e propor adaptação original antes da pesquisa de ideias livres. O usuário com o Claude Code define os estilos visuais finais; aqui só sugerimos aprimoramentos de roteiro/direção.
+
 Esta pasta complementa, não substitui, o CLAUDE.md do repositório. Trata **criação de novos roteiros**; as skills de estilo tratam **como transformá-los em vídeo**.
 
 - SKILL.md: índice, regras vigentes, ordem de execução, limites.

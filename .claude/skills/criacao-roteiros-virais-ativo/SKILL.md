@@ -6,6 +6,16 @@ description: Skill Mestre editorial da ATIVO/ANÔMALO para pesquisar, selecionar
 # SKILL MESTRE — Criação de Roteiros Originais ATIVO
 Versão editorial 1.0 — 21/11/2026. Proprietária: ANÔMALO. Cliente inicial: ATIVO | Inteligência Imobiliária.
 
+## PRÉ-ETAPA OBRIGATÓRIA — modelos/ antes da pesquisa livre
+**Sempre** que receber pedido de novo Reel, novo roteiro, novos conteúdos ou criação a partir de referência, antes da etapa 01:
+1. Ler `modelos/README.md` e `modelos/PROTOCOLO_DE_ANALISE.md` e executar `python3 modelos/verificar_pendentes.py` na raiz (ou `--modo video` se a solicitação for produzir vídeo).
+2. Se houver MP4 prioritário em `modelos/`, **trabalhar essa referência primeiro**; não partir diretamente para 3 ideias da pesquisa livre. Analisar vídeo local de verdade (quadros, áudio, arco e técnica, com ferramentas disponíveis), extrair mecanismos de interesse, propor 1–3 interpretações **originais** para ATIVO, avaliar qualidade da ideia e pedir aprovação. Após aprovação, seguir as etapas 01–10 na medida aplicável. Se referência não sustenta boa ideia, registrar e explicar antes de descartar.
+3. Se não houver pendência aplicável, seguir a pesquisa completa da etapa 01 e propor 3 ideias diferentes. Usuário pode explicitamente pular ou trocar a prioridade.
+4. Manter `modelos/controle.json` atualizado via verificador, **sem marcar concluído antes de render e validação real**. Roteiro aprovado não equivale a MP4 pronto.
+5. **Separar inspiração de edição:** o MP4 é referência editorial; NÃO obriga replicar estilo, transições, identidade ou animação. Esta Skill apenas sugere aprimoramentos visuais opcionais. A decisão e a execução da edição/animação ficam com o Claude Code junto do usuário, respeitando o pipeline de produção existente.
+
+`modelos/` ≠ `MODELS/` ≠ `MODELOS_DE_VIDEO.md`. Não presumir que um arquivo no GitHub esteja sincronizado localmente ou que exista direito de republicá-lo. O repositório é público: avisar sobre MP4 de terceiros.
+
 ## 0. Missão
 Você é pesquisador cultural, estrategista editorial, roteirista, diretor criativo e auditor independente. Sua missão NÃO é apenas escrever uma fala com cortes: é descobrir uma ideia que valha o tempo de um corretor, investigar por que ela desperta interesse, escolher um arco capaz de reter até uma recompensa concreta, planejar a linguagem audiovisual e entregar um roteiro executável com encerramento digno da história.
 
@@ -31,14 +41,14 @@ A viralização é incerta. Não prometer quantidade de views, retenção ou con
 10. Entrega normal: um vídeo autossuficiente, não sequência de remarketing nem discurso comercial. CTA SISTEMA é obrigatória no último momento, sem roubar a recompensa.
 
 ## 3. Leitura obrigatória por solicitação
-1. Ler este SKILL.md inteiro.
+1. Ler este SKILL.md inteiro e cumprir a PRÉ-ETAPA de `modelos/` antes de pesquisar.
 2. Ler CLAUDE.md, PROMPTS/GUIA_EDITORIAL_GANCHOS_RETENCAO_CTAS_ATIVO.md, PROMPTS/GUIA_LEGENDAS_INSTAGRAM_ATIVO.md, MARCA/brand.json e MODELOS_DE_VIDEO.md. São contexto; **a regra editorial mais recente desta Skill rege novos roteiros** caso haja CTA antiga conflitante. Preservar outras regras técnicas/visuais e contratos de produção.
 3. Ler etapas abaixo **uma a uma e NA ORDEM**, realizando cada atividade, não só mencionando títulos. Se o usuário pedir revisão de um roteiro aprovado, começar com a auditoria e retornar apenas às etapas que falharem.
 4. Ler MODELO_DE_ENTREGA.md e EXEMPLOS_E_ANTIPADROES.md antes de formatar a entrega.
 5. Antes de usar dados externos, verificar fonte original, publicação e data do evento; documentar URLs acessadas e limitações. Se navegação indisponível, declarar o bloqueio e priorizar ângulos atemporais sem inventar pesquisa.
 
 ## 4. Portas de qualidade e aprovações
-**Fase A — Descoberta (etapas 01–02):** buscar, organizar ideias distintas e selecionar opções fortes. Apresentar shortlist fundamentada ao usuário e pedir aprovação da direção criativa. Não roteirizar um lote inteiro de opções fracas. Se o usuário já aprovou tema/ideia/roteiro, respeitar e avançar, mas apontar eventuais riscos concretos.
+**Fase A — Descoberta (pré-etapa de modelos, depois etapas 01–02):** primeiro tratar MP4 pendente conforme protocolo; sem pendência, buscar, organizar ideias distintas e selecionar opções fortes. Apresentar shortlist fundamentada ao usuário e pedir aprovação da direção criativa. Não roteirizar um lote inteiro de opções fracas. Se o usuário já aprovou tema/ideia/roteiro, respeitar e avançar, mas apontar eventuais riscos concretos.
 
 **Fase B — Arquitetura (03–05):** definir recompensa final, arco, gancho e abertura audiovisual. Se a ideia não for boa sem efeitos, VOLTAR À PESQUISA; não aumentar suspense artificialmente.
 

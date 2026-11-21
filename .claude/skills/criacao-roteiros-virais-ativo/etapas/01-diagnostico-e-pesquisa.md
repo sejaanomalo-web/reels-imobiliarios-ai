@@ -3,6 +3,9 @@
 ## Objetivo
 Encontrar assuntos que mereçam atenção ANTES de escrever qualquer gancho. A pesquisa deve olhar para dentro e fora do mercado imobiliário. O corretor é a audiência, mas não necessariamente o assunto literal dos primeiros segundos.
 
+## Pré-etapa obrigatória: fila de referências
+Antes de começar a pesquisa livre, executar `python3 modelos/verificar_pendentes.py` e ler `modelos/PROTOCOLO_DE_ANALISE.md`. Com MP4 pendente: a referência escolhida pelo usuário é a fonte inicial de descoberta; estudar o arquivo local, extrair mecanismos criativos e verificar os fatos necessários antes de formular hipóteses originais. A pesquisa aberta entra apenas para apurar, ampliar a abordagem ou quando não há modelo pendente aplicável. Sem MP4 pendente, seguir todo o procedimento de pesquisa abaixo.
+
 ## Entradas
 Brief do usuário, campanha/série, restrições de recursos, público, tom, formato de saída (roteiro, ideias, lote), temas proibidos, calendário, ativos existentes e resultados conhecidos. Caso nada seja informado, usar contexto ATIVO sem inventar orçamento ou capacidade produtiva.
 

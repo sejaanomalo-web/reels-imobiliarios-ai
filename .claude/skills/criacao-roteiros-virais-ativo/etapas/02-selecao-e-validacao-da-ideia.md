@@ -6,6 +6,9 @@ Evitar o maior erro identificado no primeiro teste: uma narrativa tecnicamente c
 ## Definições
 **Tema** = assunto amplo. **Ideia** = proposição específica e interessante sobre o tema. **Gancho** = primeira apresentação da ideia. **Hipótese** = por que alguém desejaria assistir e repassar. **Payoff** = valor concreto entregue antes da CTA. Não confundir.
 
+## Quando há modelo MP4 prioritário
+Começar com o modelo selecionado pela fila, não com pesquisa livre. Depois de análise de quadros e áudio (ou declaração explícita de limitação), apresentar **1 a 3 formas originais** de aplicar o mecanismo aos corretores, com hipótese, recompensa e diferença em relação ao original. Cada forma passa pelos mesmos testes de veto abaixo. Registrar `aguardando_aprovacao` no `modelos/controle.json`; após roteiro aprovado, registrar caminho e status `roteiro_aprovado`. Se material for apenas uma imitação ou ideia sem força, sugerir descartá-lo e explicar o porquê; não forçar criação.
+
 ## Procedimento
 1. Retirar da pesquisa de 3 a 6 ideias, não meros ganchos para uma só mensagem.
 2. Registrar para cada ideia:
