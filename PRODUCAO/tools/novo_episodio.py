@@ -9,7 +9,7 @@ from novo_episodio_nov26 import W, CTA, fx  # noqa: F401  (fx reexportado)
 import esteira
 
 def build(ep_id, out, lote, fonte, title, S, L, sfx, prog, cta, diag, apur, lead, cta_in_script=False, formato=None):
-    """formato="cartoon-explicativo" (skill .claude/skills/ativo-cartoon-explicativo): NÃO registra estilo na esteira de 5
+    """formato="cartoon-explicativo" (skill .claude/skills/primeiro-modelo-cartoon-explicativo): NÃO registra estilo na esteira de 5
     estilos, cria os cues do fecho cartoon (cta_leads/cta_atend) e troca os SFX da CTA pelos do CtaCartoon."""
     base = json.load(open('episodes/ATIVO-NOV26-03/episode.json'))
     S = S + ([] if cta_in_script else CTA)

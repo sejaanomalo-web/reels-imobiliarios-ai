@@ -4,10 +4,10 @@ Decisão do cliente (21/11/2026): criar **4 estilos virais de edição**, cada u
 
 | # | Estilo | Skill | Status |
 |---|---|---|---|
-| 1 | **Cartoon explicativo** (2D chapado, raios por clima, carimbos, corte seco a cada 2–4 s, legenda karaokê no centro, fecho COMENTE "SISTEMA") | `.claude/skills/ativo-cartoon-explicativo/SKILL.md` | **ativo**: piloto `ATIVO_PILOTO_01` aprovado como base |
-| 2 | a definir | — | pendente |
-| 3 | a definir | — | pendente |
-| 4 | a definir | — | pendente |
+| 1 | **Primeiro modelo — Cartoon explicativo** (2D chapado, raios por clima, carimbos, corte seco a cada 2–4 s, legenda karaokê no centro, fecho COMENTE "SISTEMA") | `.claude/skills/primeiro-modelo-cartoon-explicativo/SKILL.md` | **ativo**: piloto `ATIVO_PILOTO_01` aprovado como base |
+| 2 | Segundo modelo — a definir | — | pendente |
+| 3 | Terceiro modelo — a definir | — | pendente |
+| 4 | Quarto modelo — a definir | — | pendente |
 
 **Regras comuns a todos:**
 - identidade ATIVO: verde `#02FB3F`, Manrope/JetBrains Mono, logo oficial;

@@ -140,7 +140,7 @@ def check(ep_id: str) -> int:
                 errs.append(f"esteira: estilo {n} exige cenas com o kit src/{KITS[n]}.tsx")
             if n == 5 and re.search(r"estilos/(palitinho|lousa|planta|tipografia)", src_all):
                 errs.append("esteira: estilo 5 (Painel) não deve usar kits dos estilos 1–4")
-    # 10. FORMATO CARTOON EXPLICATIVO (skill .claude/skills/ativo-cartoon-explicativo): kit, legenda karaokê e fecho cartoon
+    # 10. FORMATO CARTOON EXPLICATIVO (skill .claude/skills/primeiro-modelo-cartoon-explicativo): kit, legenda karaokê e fecho cartoon
     if ep.get("formato") == "cartoon-explicativo" or ep_id.startswith(("ATIVO-CARTOON", "ATIVO-PILOTO")):
         allsrc = "\n".join(open(f).read() for f in files)
         for need, why in (("estilos/cartoon", "cenas com o kit src/estilos/cartoon.tsx"), ("LegendaKaraoke", "legenda karaokê no centro"), ("CtaCartoon", "fecho CtaCartoon (COMENTE SISTEMA)"), ("Planos", "planos com corte seco (Planos/makeShots)")):

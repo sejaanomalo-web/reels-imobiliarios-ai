@@ -1,9 +1,11 @@
 ---
-name: ativo-cartoon-explicativo
-description: Estilo viral nº 1 da ATIVO — "Cartoon explicativo": Reel/TikTok vertical 1080×1920 em 2D vetorial chapado (personagens de recorte, fundo de raios por clima, vinheta, holofote, carimbos, pop elástico, corte seco a cada 2–4 s, legenda karaokê no centro, fecho COMENTE "SISTEMA"). Use sempre que o pedido for produzir, adaptar, decupar, revisar ou renderizar um vídeo "no estilo cartoon / explicativo / novo modelo / estilo dos 3 vídeos de referência", ou um roteiro do lote de roteiros virais destinado a este formato. Cobre roteiro → voz → timing → decupagem → cenas Remotion → som → render → QA → legenda do Instagram.
+name: primeiro-modelo-cartoon-explicativo
+description: PRIMEIRO MODELO de vídeo viral da ATIVO — "Primeiro modelo — Cartoon explicativo": Reel/TikTok vertical 1080×1920 em 2D vetorial chapado (personagens de recorte, fundo de raios por clima, vinheta, holofote, carimbos, pop elástico, corte seco a cada 2–4 s, legenda karaokê no centro, fecho COMENTE "SISTEMA"). Use sempre que o pedido for produzir, adaptar, decupar, revisar ou renderizar um vídeo "no estilo cartoon / explicativo / novo modelo / estilo dos 3 vídeos de referência", ou um roteiro do lote de roteiros virais destinado a este formato. Cobre roteiro → voz → timing → decupagem → cenas Remotion → som → render → QA → legenda do Instagram.
 ---
 
-# ATIVO · Estilo viral 1 — CARTOON EXPLICATIVO
+# Primeiro modelo — Cartoon explicativo
+
+*ATIVO · modelo de vídeo viral nº 1 (de 4). Registro: `MODELOS_DE_VIDEO.md`.*
 
 > **Fonte da verdade visual:** o piloto `ATIVO_PILOTO_01` ("Concorrente ou parceiro?", 21/11/2026) e o kit `PRODUCAO/src/estilos/cartoon.tsx`. Referência: `referencias/piloto_24_quadros.jpg` (um quadro por plano). A gramática vem da análise quadro a quadro das 3 referências do cliente (`referencias/analise_3_referencias_quadro_a_quadro.md`). Tudo aqui foi medido nessas referências ou já está implementado e validado no piloto. Não é palpite.
 >

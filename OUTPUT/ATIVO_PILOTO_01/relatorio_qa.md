@@ -20,4 +20,4 @@
   - efeitos sonoros do fecho;
   - movimento médio 3,31; 11/11 OK.
 - **Ainda em aberto:** a voz a 1,0× (~144 palavras/min) é mais lenta que a das referências (~180). Mantida pela regra de voz do cliente.
-- **Skill do formato:** `.claude/skills/ativo-cartoon-explicativo/SKILL.md`.
+- **Skill do formato:** `.claude/skills/primeiro-modelo-cartoon-explicativo/SKILL.md`.
