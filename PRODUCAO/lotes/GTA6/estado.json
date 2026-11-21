@@ -36,7 +36,8 @@
       "duracao_s": 50.8,
       "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/02",
       "produzido_em": "2026-11-21",
-      "agendar_para": "2026-11-22 22:00 BRT"
+      "agendar_para": "2026-11-22 22:00 BRT",
+      "agendado": "2026-11-22 22:00 BRT (ajustado no Supabase)"
     },
     {
       "n": 3,
@@ -45,7 +46,8 @@
       "roteiro": "ROTEIROS/GTA6/GTA6_03.md",
       "titulo": "Miami ou Vice City? O desafio de 5 segundos",
       "tipo": "GTA PRIMEIRO • Comparação visual • ~51s de narração • FATO + RECRIAÇÃO",
-      "status": "pendente"
+      "status": "bloqueado",
+      "motivo": "Exige foto REAL de Miami com licença (comparativo real × recriação); sem ativo licenciado a revelação \"uma era Miami\" seria falsa. Produzir quando o cliente enviar foto própria/licenciada."
     },
     {
       "n": 4,
@@ -54,7 +56,13 @@
       "roteiro": "ROTEIROS/GTA6/GTA6_04.md",
       "titulo": "Eu captaria essa casa antes de começar a missão",
       "tipo": "CORRETOR PRIMEIRO • Escolha de imóvel / humor • ~49s de narração • SÁTIRA / SIMULAÇÃO",
-      "status": "pendente"
+      "status": "publicado_fila",
+      "estilo": 4,
+      "estiloNome": "Tipografia cinética",
+      "duracao_s": 52.5,
+      "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/04",
+      "produzido_em": "2026-11-21",
+      "agendar_para": "2026-11-23 22:00 BRT"
     },
     {
       "n": 5,

@@ -1,0 +1,92 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.6,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 1.23,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 1.94,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 8.37,
+    "palavras_nao_reconhecidas": [
+      "fachada"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.04,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.56,
+    "palavras_nao_reconhecidas": [
+      "Reel"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 7.39,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 2.68,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 1.61,
+    "palavras_nao_reconhecidas": [
+      "continuar"
+    ]
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.44,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 4.85,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 3.02,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 50.14,
+    "asr_match": 0.973,
+    "aligned_words": "142/146",
+    "words_per_min": 175,
+    "heard": "Se eu trabalhasse em Vice City, essa seria a primeira casa que eu tentaria captar. Sem pensar duas vezes. Não seria a mais cara, nem a maior. Eu procuraria uma que tivesse três coisas que param qualquer pessoa no anúncio. Faixada marcante, localização reconhecível e uma história fácil de contar. Imagina o Tour. Você abre a janela e enxerga a cidade inteira com a praia há poucos minutos. Pronto, eu já consigo enxergar a primeira cena do rio. E tem uma pegadinha. Em GTA VI, eu precisaria descobrir se o proprietário é uma pessoa comum ou alguém que vai me receber com uma missão criminosa. Por isso a captação terminaria antes do primeiro encontro. Prioridade, continua vivo. Já na vida real, captação pede organização. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 52.16,
+      "wpm": 168
+    },
+    "pausas_moldadas": {
+      "n": 18,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.02,
+    "final": {
+      "seconds": 50.14,
+      "wpm": 175
+    }
+  }
+]
