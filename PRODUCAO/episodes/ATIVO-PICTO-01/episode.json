@@ -1,0 +1,712 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 3.8,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-PICTO-01",
+ "lote": "VIRAL",
+ "title": "Ninguém te avisa quando um cliente desiste",
+ "outputDir": "ATIVO_PICTO_01",
+ "deliverables": {
+  "final": "ATIVO_PICTO_01_FINAL.mp4",
+  "narration": "ATIVO_PICTO_01_NARRACAO.wav",
+  "subtitles": "ATIVO_PICTO_01_legendas.srt",
+  "cover": "ATIVO_PICTO_01_capa.png"
+ },
+ "fonte": "ROTEIROS/VIRAL/ATIVO_PICTO_01.md (roteiro original ATIVO, 21/11/2026)",
+ "apuracao": {
+  "fato": "Roteiro original e opinativo (sem estatística). 'Uma semana' é ilustração narrativa, não dado. Fala usa 'costuma recompensar' (sem promessa). Personagens são pictogramas ilustrativos; mensagens na tela são genéricas, sem marca de aplicativo.",
+  "verificado_em": "2026-11-21",
+  "fontes": [
+   "roteiro original ATIVO (ROTEIROS/VIRAL/ATIVO_PICTO_01.md)"
+  ],
+  "cuidados": "sem números de conversão; sem interface de app real; sem pessoas reais"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que perde clientes por falta de retorno e não percebe",
+  "motivacao": "dor silenciosa: o cliente não avisa que desistiu",
+  "crenca_questionada": "'perdi por preço/imóvel'",
+  "hipotese": "pictograma noir: cliente some (silêncio) → memórias que se apagam (áudio, visita) → não faltou imóvel nem preço, faltou continuidade → retorno esquecido vira 'comprei com outro' → quem acompanha (o que procura, próximo passo) → memória organizada",
+  "funcao": "reflexão + virada",
+  "promessa": "entender que continuidade (memória organizada) decide a venda",
+  "evidencias": "roteiro opinativo, sem números ou dados de mercado; prazos ('uma semana') ilustrativos",
+  "cta": "comentário SISTEMA → Direct"
+ },
+ "cta": {
+  "original_cta": "(roteiro original da ATIVO, sem CTA própria)",
+  "transition_adapted": "'memória organizada' leva ao sistema → CTA SISTEMA",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Ninguém te avisa quando um cliente desiste.",
+   "caption": "*Ninguém* te avisa | quando um cliente | *desiste.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Ele simplesmente para de responder.",
+   "caption": "Ele simplesmente | para de *responder.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "Ontem, era: me manda mais opções.",
+   "caption": "*Ontem,* era: | me manda | mais opções.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "Hoje, silêncio.",
+   "caption": "Hoje, | *silêncio.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t1",
+   "text": "E você já nem lembra qual foi a última conversa.",
+   "caption": "E você já | nem *lembra* | qual foi | a *última conversa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t1",
+   "text": "O áudio que você ia responder. A visita que ia remarcar.",
+   "caption": "O *áudio* | que você | ia responder. | A *visita* | que ia remarcar.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t2",
+   "text": "Não faltou imóvel. Não faltou preço.",
+   "caption": "Não faltou | *imóvel.* | Não faltou | *preço.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t2",
+   "text": "Faltou continuidade.",
+   "caption": "Faltou | *continuidade.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "t2",
+   "text": "Um retorno esquecido vira uma semana. E uma semana vira: já comprei com outro corretor.",
+   "caption": "Um retorno | *esquecido* | vira uma *semana.* | E uma semana | vira: | já comprei | com *outro corretor.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "t3",
+   "text": "O mercado não espera por quem esquece.",
+   "caption": "O mercado | *não espera* | por quem *esquece.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "t3",
+   "text": "Mas costuma recompensar quem acompanha: quem sabe o que cada cliente procura e qual é o próximo passo.",
+   "caption": "Mas costuma | *recompensar* | quem *acompanha:* | quem sabe | o que | cada cliente | *procura* | e qual é | o *próximo passo.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "x",
+   "text": "Venda não é sorte. É memória organizada.",
+   "caption": "Venda | não é *sorte.* | É *memória organizada.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "x": 0.35,
+  "cta": 0.35
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_ninguem": {
+   "seg": "s1",
+   "word": "Ninguém",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_desiste": {
+   "seg": "s1",
+   "word": "desiste",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_para": {
+   "seg": "s2",
+   "word": "para",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_resp": {
+   "seg": "s2",
+   "word": "responder",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_ontem": {
+   "seg": "s3",
+   "word": "Ontem",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_manda": {
+   "seg": "s3",
+   "word": "manda",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_hoje": {
+   "seg": "s4",
+   "word": "Hoje",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_sil": {
+   "seg": "s4",
+   "word": "silêncio",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_lembra": {
+   "seg": "s5",
+   "word": "lembra",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_ultima": {
+   "seg": "s5",
+   "word": "última",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_audio": {
+   "seg": "s6",
+   "word": "áudio",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_visita": {
+   "seg": "s6",
+   "word": "visita",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_imovel": {
+   "seg": "s7",
+   "word": "imóvel",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_preco": {
+   "seg": "s7",
+   "word": "preço",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_faltou": {
+   "seg": "s8",
+   "word": "Faltou",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_cont": {
+   "seg": "s8",
+   "word": "continuidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_retorno": {
+   "seg": "s9",
+   "word": "retorno",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_semana": {
+   "seg": "s9",
+   "word": "semana",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_comprei": {
+   "seg": "s9",
+   "word": "comprei",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_outro": {
+   "seg": "s9",
+   "word": "outro",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_mercado": {
+   "seg": "s10",
+   "word": "mercado",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_espera": {
+   "seg": "s10",
+   "word": "espera",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_esquece": {
+   "seg": "s10",
+   "word": "esquece",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_recomp": {
+   "seg": "s11",
+   "word": "recompensar",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_acomp": {
+   "seg": "s11",
+   "word": "acompanha",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_procura": {
+   "seg": "s11",
+   "word": "procura",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_passo": {
+   "seg": "s11",
+   "word": "passo",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_venda": {
+   "seg": "s12",
+   "word": "Venda",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_sorte": {
+   "seg": "s12",
+   "word": "sorte",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_memoria": {
+   "seg": "s12",
+   "word": "memória",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s13",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s13",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s13",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s14",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s14",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s14",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_leads": {
+   "seg": "s13",
+   "word": "leads",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s13",
+   "word": "atendimentos",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s14",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.1,
+   "sound": "shimmer",
+   "gain": -25
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 2.3,
+   "sound": "chord",
+   "gain": -27
+  },
+  {
+   "cue": "h_ninguem",
+   "offset": -0.05,
+   "sound": "thump",
+   "gain": -27
+  },
+  {
+   "cue": "h_desiste",
+   "offset": 0,
+   "sound": "hollow",
+   "gain": -29
+  },
+  {
+   "cue": "h_resp",
+   "offset": 0.1,
+   "sound": "hollow",
+   "gain": -30,
+   "pitch": -3
+  },
+  {
+   "cue": "a_ontem",
+   "offset": -0.35,
+   "sound": "whoosh_dive",
+   "gain": -26
+  },
+  {
+   "cue": "a_manda",
+   "offset": -0.25,
+   "sound": "pin",
+   "gain": -28
+  },
+  {
+   "cue": "a_hoje",
+   "offset": 0,
+   "sound": "tick",
+   "gain": -28
+  },
+  {
+   "cue": "a_sil",
+   "offset": 0,
+   "sound": "fade_down",
+   "gain": -27
+  },
+  {
+   "cue": "a_ultima",
+   "offset": 0,
+   "sound": "shimmer",
+   "gain": -31
+  },
+  {
+   "cue": "a_audio",
+   "offset": 0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_visita",
+   "offset": 0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -4
+  },
+  {
+   "cue": "b_imovel",
+   "offset": -0.1,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 2
+  },
+  {
+   "cue": "b_preco",
+   "offset": -0.1,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 4
+  },
+  {
+   "cue": "b_faltou",
+   "offset": -0.05,
+   "sound": "thump",
+   "gain": -26
+  },
+  {
+   "cue": "b_cont",
+   "offset": 0,
+   "sound": "whoosh_up",
+   "gain": -29
+  },
+  {
+   "cue": "b_retorno",
+   "offset": 0,
+   "sound": "tick",
+   "gain": -28
+  },
+  {
+   "cue": "b_semana",
+   "offset": 0,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "b_comprei",
+   "offset": 0,
+   "sound": "hollow",
+   "gain": -28
+  },
+  {
+   "cue": "b_outro",
+   "offset": 0.15,
+   "sound": "impact",
+   "gain": -30
+  },
+  {
+   "cue": "c_mercado",
+   "offset": -0.2,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "c_espera",
+   "offset": 0,
+   "sound": "tick",
+   "gain": -28
+  },
+  {
+   "cue": "c_esquece",
+   "offset": 0,
+   "sound": "fade_down",
+   "gain": -29
+  },
+  {
+   "cue": "c_recomp",
+   "offset": -0.1,
+   "sound": "chord",
+   "gain": -28
+  },
+  {
+   "cue": "c_acomp",
+   "offset": 0,
+   "sound": "whoosh_up",
+   "gain": -29
+  },
+  {
+   "cue": "c_procura",
+   "offset": 0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "c_passo",
+   "offset": 0,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 5
+  },
+  {
+   "cue": "x_venda",
+   "offset": -0.05,
+   "sound": "thump",
+   "gain": -27
+  },
+  {
+   "cue": "x_memoria",
+   "offset": 0,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -28,
+  "duck": -6,
+  "bpm": 70,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     53
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.3,
+    "label": "Dm — sumiço"
+   },
+   {
+    "at": "cue:b_imovel",
+    "notes": [
+     22,
+     34,
+     41,
+     46,
+     50
+    ],
+    "root": 34,
+    "dens": 1,
+    "bright": 0.3,
+    "label": "Bb — o que faltou"
+   },
+   {
+    "at": "cue:c_recomp",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 1,
+    "bright": 0.4,
+    "label": "F — acompanhar"
+   },
+   {
+    "at": "cue:x_memoria",
+    "notes": [
+     24,
+     36,
+     43,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "C — memória"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ },
+ "formato": "pictograma-cinematografico"
+}

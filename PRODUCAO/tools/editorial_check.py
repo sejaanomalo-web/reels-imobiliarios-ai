@@ -39,7 +39,7 @@ GREEN_OK = {(58, 245, 132), (9, 38, 20), (14, 58, 31)}
 LEGACY_CTA = {"EP001", "EP002", "EP003", "EP015", "EP015V2", "EP-ATIVO01", "EP-ATIVO03"}
 # Lote "30 Reels — novembro 2026" (ATIVO-NOV26-*): verde atualizado #02FB3F + derivados (ink #01290B, deep #063A16).
 # Nesse lote o verde antigo #3AF584 é proibido nos arquivos do episódio (use ACCENT_NOV26/accentAlpha).
-NOV26_PREFIX = ("ATIVO-NOV26", "ATIVO-L60", "ATIVO-GTA6", "ATIVO-PILOTO", "ATIVO-CARTOON")  # lotes com o verde atualizado #02FB3F (kit A/aa)
+NOV26_PREFIX = ("ATIVO-NOV26", "ATIVO-L60", "ATIVO-GTA6", "ATIVO-PILOTO", "ATIVO-CARTOON", "ATIVO-PICTO")  # lotes com o verde atualizado #02FB3F (kit A/aa)
 GREEN_OK_NOV26 = {(2, 251, 63), (1, 41, 11), (6, 58, 22)}
 
 
@@ -141,7 +141,14 @@ def check(ep_id: str) -> int:
             if n == 5 and re.search(r"estilos/(palitinho|lousa|planta|tipografia)", src_all):
                 errs.append("esteira: estilo 5 (Painel) não deve usar kits dos estilos 1–4")
     # 10. FORMATO CARTOON EXPLICATIVO (skill .claude/skills/primeiro-modelo-cartoon-explicativo): kit, legenda karaokê e fecho cartoon
-    if ep.get("formato") == "cartoon-explicativo" or ep_id.startswith(("ATIVO-CARTOON", "ATIVO-PILOTO")):
+    if ep.get("formato") == "pictograma-cinematografico" or ep_id.startswith("ATIVO-PICTO"):
+        allsrc = "\n".join(open(f).read() for f in files)
+        for need, why in (("estilos/pictograma", "cenas com o kit src/estilos/pictograma.tsx"), ("LegendaNoir", "legenda que se escreve (LegendaNoir)"), ("CtaNoir", "fecho CtaNoir (COMENTE SISTEMA + logo em partículas)"), ("FundoNoir", "fundo noir (FundoNoir)")):
+            if need not in allsrc:
+                errs.append(f"formato pictograma: falta {why}")
+        if ep.get("esteira"):
+            errs.append("formato pictograma não entra na esteira de 5 estilos (crie com novo_episodio.build(..., formato=\"pictograma-cinematografico\"))")
+    elif ep.get("formato") == "cartoon-explicativo" or ep_id.startswith(("ATIVO-CARTOON", "ATIVO-PILOTO")):
         allsrc = "\n".join(open(f).read() for f in files)
         for need, why in (("estilos/cartoon", "cenas com o kit src/estilos/cartoon.tsx"), ("LegendaKaraoke", "legenda karaokê no centro"), ("CtaCartoon", "fecho CtaCartoon (COMENTE SISTEMA)"), ("Planos", "planos com corte seco (Planos/makeShots)")):
             if need not in allsrc:
