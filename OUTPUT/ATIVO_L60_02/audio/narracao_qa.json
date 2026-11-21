@@ -1,0 +1,68 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.19,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.21,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.58,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 5.81,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 2.57,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 5.87,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.69,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 2.8,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 36.45,
+    "asr_match": 0.989,
+    "aligned_words": "94/95",
+    "words_per_min": 156,
+    "heard": "Se o mesmo apartamento aparece em quatro planilhas, qual delas está certa? Na primeira, está o valor antigo. Na segunda, uma foto nova. Na terceira, a disponibilidade. Na quarta, uma anotação importante do proprietário. Não é falta de esforço. É o resultado de atualizar a mesma informação em lugares diferentes e esquecer um deles. Defina um cadastro principal para cada imóvel. Nele devem viver preço, status, características, material e data da última conferência. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 37.41,
+      "wpm": 152
+    },
+    "pausas_moldadas": {
+      "n": 10,
+      "max_s": 0.48
+    },
+    "pausas_encurtadas_s": 0.96,
+    "final": {
+      "seconds": 36.45,
+      "wpm": 156
+    }
+  }
+]

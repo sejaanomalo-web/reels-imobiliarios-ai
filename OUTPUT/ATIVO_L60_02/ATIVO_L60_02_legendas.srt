@@ -1,0 +1,83 @@
+1
+00:00:00,120 --> 00:00:02,100
+Se o mesmo apartamento aparece em
+
+2
+00:00:02,120 --> 00:00:04,510
+quatro planilhas, qual delas está certa?
+
+3
+00:00:04,680 --> 00:00:06,380
+Na primeira está o valor antigo.
+
+4
+00:00:06,440 --> 00:00:08,090
+Na segunda, uma foto nova.
+
+5
+00:00:08,280 --> 00:00:10,330
+Na terceira, a disponibilidade.
+
+6
+00:00:10,440 --> 00:00:12,180
+Na quarta, uma anotação importante
+
+7
+00:00:12,200 --> 00:00:13,060
+do proprietário.
+
+8
+00:00:13,240 --> 00:00:14,660
+Não é falta de esforço.
+
+9
+00:00:14,680 --> 00:00:16,100
+É o resultado de atualizar
+
+10
+00:00:16,120 --> 00:00:18,020
+a mesma informação em lugares diferentes
+
+11
+00:00:18,040 --> 00:00:19,250
+e esquecer um deles.
+
+12
+00:00:19,400 --> 00:00:21,140
+Defina um cadastro principal
+
+13
+00:00:21,160 --> 00:00:22,170
+para cada imóvel.
+
+14
+00:00:22,200 --> 00:00:24,020
+Nele devem viver preço,
+
+15
+00:00:24,040 --> 00:00:25,860
+status, características,
+
+16
+00:00:25,880 --> 00:00:28,270
+material e data da última conferência.
+
+17
+00:00:28,360 --> 00:00:30,340
+Quer conhecer um sistema personalizado
+
+18
+00:00:30,360 --> 00:00:32,340
+para organizar seus imóveis, leads
+
+19
+00:00:32,360 --> 00:00:33,250
+e atendimentos?
+
+20
+00:00:33,379 --> 00:00:35,060
+Comente SISTEMA que eu te envio
+
+21
+00:00:35,080 --> 00:00:36,380
+os detalhes pelo Direct.

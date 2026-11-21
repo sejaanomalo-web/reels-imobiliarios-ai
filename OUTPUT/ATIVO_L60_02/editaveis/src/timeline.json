@@ -1,0 +1,1003 @@
+{
+ "id": "ATIVO-L60-02",
+ "title": "Um imóvel, quatro planilhas",
+ "fps": 30,
+ "duration": 38.8,
+ "durationInFrames": 1164,
+ "narrationEnd": 36.571,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.495
+  },
+  {
+   "id": "t1",
+   "start": 4.495,
+   "end": 13.05
+  },
+  {
+   "id": "t2",
+   "start": 13.05,
+   "end": 19.225
+  },
+  {
+   "id": "t3",
+   "start": 19.225,
+   "end": 28.215
+  },
+  {
+   "id": "cta",
+   "start": 28.215,
+   "end": 38.8
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Se o mesmo apartamento aparece em quatro planilhas, qual delas está certa?",
+   "start": 0.12,
+   "end": 4.31
+  },
+  {
+   "id": "s2",
+   "scene": "t1",
+   "text": "Na primeira está o valor antigo. Na segunda, uma foto nova.",
+   "start": 4.68,
+   "end": 7.89
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "Na terceira, a disponibilidade. Na quarta, uma anotação importante do proprietário.",
+   "start": 8.28,
+   "end": 12.86
+  },
+  {
+   "id": "s4",
+   "scene": "t2",
+   "text": "Não é falta de esforço. É o resultado de atualizar a mesma informação em lugares diferentes e esquecer um deles.",
+   "start": 13.24,
+   "end": 19.05
+  },
+  {
+   "id": "s5",
+   "scene": "t3",
+   "text": "Defina um cadastro principal para cada imóvel.",
+   "start": 19.4,
+   "end": 21.97
+  },
+  {
+   "id": "s6",
+   "scene": "t3",
+   "text": "Nele devem viver preço, status, características, material e data da última conferência.",
+   "start": 22.2,
+   "end": 28.07
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "start": 28.36,
+   "end": 33.05
+  },
+  {
+   "id": "s8",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "start": 33.379,
+   "end": 36.18
+  }
+ ],
+ "cues": {
+  "h_apto": 0.92,
+  "h_quatro": 2.12,
+  "h_certa": 4.2,
+  "a_prim": 4.92,
+  "a_antigo": 5.88,
+  "a_seg": 6.6,
+  "a_nova": 7.72,
+  "a_terc": 8.52,
+  "a_disp": 9.24,
+  "a_quarta": 10.6,
+  "a_prop": 12.36,
+  "b_falta": 13.64,
+  "b_esf": 14.12,
+  "b_atual": 15.56,
+  "b_lug": 17.16,
+  "b_esq": 18.2,
+  "c_def": 19.4,
+  "c_cad": 20.12,
+  "c_cada": 21.32,
+  "d_viver": 22.92,
+  "d_preco": 23.4,
+  "d_status": 24.04,
+  "d_carac": 24.76,
+  "d_mat": 25.88,
+  "d_conf": 27.64,
+  "cta_quer": 28.36,
+  "cta_sys": 29.32,
+  "cta_tiles": 31.32,
+  "cta_comment": 33.379,
+  "cta_word": 33.88,
+  "cta_direct": 35.8,
+  "cta_end": 36.18
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.92,
+   "words": [
+    {
+     "text": "Se",
+     "start": 0.12,
+     "end": 0.36,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 0.36,
+     "end": 0.6,
+     "emph": false
+    },
+    {
+     "text": "mesmo",
+     "start": 0.6,
+     "end": 0.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.92,
+   "end": 1.48,
+   "words": [
+    {
+     "text": "apartamento",
+     "start": 0.92,
+     "end": 1.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.48,
+   "end": 2.12,
+   "words": [
+    {
+     "text": "aparece",
+     "start": 1.48,
+     "end": 1.96,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 1.96,
+     "end": 2.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.12,
+   "end": 3.32,
+   "words": [
+    {
+     "text": "quatro",
+     "start": 2.12,
+     "end": 2.44,
+     "emph": true
+    },
+    {
+     "text": "planilhas,",
+     "start": 2.44,
+     "end": 3.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.32,
+   "end": 3.96,
+   "words": [
+    {
+     "text": "qual",
+     "start": 3.32,
+     "end": 3.64,
+     "emph": false
+    },
+    {
+     "text": "delas",
+     "start": 3.64,
+     "end": 3.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.96,
+   "end": 4.68,
+   "words": [
+    {
+     "text": "está",
+     "start": 3.96,
+     "end": 4.2,
+     "emph": false
+    },
+    {
+     "text": "certa?",
+     "start": 4.2,
+     "end": 4.31,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.68,
+   "end": 5.32,
+   "words": [
+    {
+     "text": "Na",
+     "start": 4.68,
+     "end": 4.92,
+     "emph": false
+    },
+    {
+     "text": "primeira",
+     "start": 4.92,
+     "end": 5.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.32,
+   "end": 6.44,
+   "words": [
+    {
+     "text": "está",
+     "start": 5.32,
+     "end": 5.48,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 5.48,
+     "end": 5.56,
+     "emph": false
+    },
+    {
+     "text": "valor",
+     "start": 5.56,
+     "end": 5.88,
+     "emph": false
+    },
+    {
+     "text": "antigo.",
+     "start": 5.88,
+     "end": 6.18,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.44,
+   "end": 7.16,
+   "words": [
+    {
+     "text": "Na",
+     "start": 6.44,
+     "end": 6.6,
+     "emph": false
+    },
+    {
+     "text": "segunda,",
+     "start": 6.6,
+     "end": 7.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.16,
+   "end": 8.28,
+   "words": [
+    {
+     "text": "uma",
+     "start": 7.16,
+     "end": 7.4,
+     "emph": false
+    },
+    {
+     "text": "foto",
+     "start": 7.4,
+     "end": 7.72,
+     "emph": false
+    },
+    {
+     "text": "nova.",
+     "start": 7.72,
+     "end": 7.89,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.28,
+   "end": 9.08,
+   "words": [
+    {
+     "text": "Na",
+     "start": 8.28,
+     "end": 8.52,
+     "emph": false
+    },
+    {
+     "text": "terceira,",
+     "start": 8.52,
+     "end": 9.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.08,
+   "end": 10.44,
+   "words": [
+    {
+     "text": "a",
+     "start": 9.08,
+     "end": 9.24,
+     "emph": false
+    },
+    {
+     "text": "disponibilidade.",
+     "start": 9.24,
+     "end": 10.13,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.44,
+   "end": 11.16,
+   "words": [
+    {
+     "text": "Na",
+     "start": 10.44,
+     "end": 10.6,
+     "emph": false
+    },
+    {
+     "text": "quarta,",
+     "start": 10.6,
+     "end": 11.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.16,
+   "end": 11.88,
+   "words": [
+    {
+     "text": "uma",
+     "start": 11.16,
+     "end": 11.32,
+     "emph": false
+    },
+    {
+     "text": "anotação",
+     "start": 11.32,
+     "end": 11.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.88,
+   "end": 12.2,
+   "words": [
+    {
+     "text": "importante",
+     "start": 11.88,
+     "end": 12.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.2,
+   "end": 13.24,
+   "words": [
+    {
+     "text": "do",
+     "start": 12.2,
+     "end": 12.36,
+     "emph": false
+    },
+    {
+     "text": "proprietário.",
+     "start": 12.36,
+     "end": 12.86,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.24,
+   "end": 13.96,
+   "words": [
+    {
+     "text": "Não",
+     "start": 13.24,
+     "end": 13.48,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 13.48,
+     "end": 13.64,
+     "emph": false
+    },
+    {
+     "text": "falta",
+     "start": 13.64,
+     "end": 13.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.96,
+   "end": 14.68,
+   "words": [
+    {
+     "text": "de",
+     "start": 13.96,
+     "end": 14.12,
+     "emph": false
+    },
+    {
+     "text": "esforço.",
+     "start": 14.12,
+     "end": 14.47,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.68,
+   "end": 15.4,
+   "words": [
+    {
+     "text": "É",
+     "start": 14.68,
+     "end": 14.92,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 14.92,
+     "end": 15.0,
+     "emph": false
+    },
+    {
+     "text": "resultado",
+     "start": 15.0,
+     "end": 15.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.4,
+   "end": 16.12,
+   "words": [
+    {
+     "text": "de",
+     "start": 15.4,
+     "end": 15.56,
+     "emph": false
+    },
+    {
+     "text": "atualizar",
+     "start": 15.56,
+     "end": 16.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.12,
+   "end": 17.0,
+   "words": [
+    {
+     "text": "a",
+     "start": 16.12,
+     "end": 16.2,
+     "emph": false
+    },
+    {
+     "text": "mesma",
+     "start": 16.2,
+     "end": 16.52,
+     "emph": false
+    },
+    {
+     "text": "informação",
+     "start": 16.52,
+     "end": 17.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.0,
+   "end": 18.04,
+   "words": [
+    {
+     "text": "em",
+     "start": 17.0,
+     "end": 17.16,
+     "emph": false
+    },
+    {
+     "text": "lugares",
+     "start": 17.16,
+     "end": 17.56,
+     "emph": false
+    },
+    {
+     "text": "diferentes",
+     "start": 17.56,
+     "end": 18.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.04,
+   "end": 18.68,
+   "words": [
+    {
+     "text": "e",
+     "start": 18.04,
+     "end": 18.2,
+     "emph": false
+    },
+    {
+     "text": "esquecer",
+     "start": 18.2,
+     "end": 18.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.68,
+   "end": 19.4,
+   "words": [
+    {
+     "text": "um",
+     "start": 18.68,
+     "end": 18.84,
+     "emph": false
+    },
+    {
+     "text": "deles.",
+     "start": 18.84,
+     "end": 19.05,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.4,
+   "end": 20.04,
+   "words": [
+    {
+     "text": "Defina",
+     "start": 19.4,
+     "end": 20.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.04,
+   "end": 21.16,
+   "words": [
+    {
+     "text": "um",
+     "start": 20.04,
+     "end": 20.12,
+     "emph": false
+    },
+    {
+     "text": "cadastro",
+     "start": 20.12,
+     "end": 20.68,
+     "emph": true
+    },
+    {
+     "text": "principal",
+     "start": 20.68,
+     "end": 21.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.16,
+   "end": 22.2,
+   "words": [
+    {
+     "text": "para",
+     "start": 21.16,
+     "end": 21.32,
+     "emph": false
+    },
+    {
+     "text": "cada",
+     "start": 21.32,
+     "end": 21.64,
+     "emph": false
+    },
+    {
+     "text": "imóvel.",
+     "start": 21.64,
+     "end": 21.97,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.2,
+   "end": 23.4,
+   "words": [
+    {
+     "text": "Nele",
+     "start": 22.2,
+     "end": 22.6,
+     "emph": false
+    },
+    {
+     "text": "devem",
+     "start": 22.6,
+     "end": 22.92,
+     "emph": false
+    },
+    {
+     "text": "viver",
+     "start": 22.92,
+     "end": 23.23,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.4,
+   "end": 24.04,
+   "words": [
+    {
+     "text": "preço,",
+     "start": 23.4,
+     "end": 23.82,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.04,
+   "end": 24.76,
+   "words": [
+    {
+     "text": "status,",
+     "start": 24.04,
+     "end": 24.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.76,
+   "end": 25.88,
+   "words": [
+    {
+     "text": "características,",
+     "start": 24.76,
+     "end": 25.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.88,
+   "end": 26.44,
+   "words": [
+    {
+     "text": "material",
+     "start": 25.88,
+     "end": 26.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.44,
+   "end": 27.08,
+   "words": [
+    {
+     "text": "e",
+     "start": 26.44,
+     "end": 26.68,
+     "emph": false
+    },
+    {
+     "text": "data",
+     "start": 26.68,
+     "end": 27.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.08,
+   "end": 28.36,
+   "words": [
+    {
+     "text": "da",
+     "start": 27.08,
+     "end": 27.24,
+     "emph": false
+    },
+    {
+     "text": "última",
+     "start": 27.24,
+     "end": 27.64,
+     "emph": true
+    },
+    {
+     "text": "conferência.",
+     "start": 27.64,
+     "end": 28.07,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.36,
+   "end": 29.16,
+   "words": [
+    {
+     "text": "Quer",
+     "start": 28.36,
+     "end": 28.43,
+     "emph": false
+    },
+    {
+     "text": "conhecer",
+     "start": 28.68,
+     "end": 29.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.16,
+   "end": 30.36,
+   "words": [
+    {
+     "text": "um",
+     "start": 29.16,
+     "end": 29.32,
+     "emph": false
+    },
+    {
+     "text": "sistema",
+     "start": 29.32,
+     "end": 29.64,
+     "emph": false
+    },
+    {
+     "text": "personalizado",
+     "start": 29.64,
+     "end": 30.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.36,
+   "end": 31.08,
+   "words": [
+    {
+     "text": "para",
+     "start": 30.36,
+     "end": 30.6,
+     "emph": false
+    },
+    {
+     "text": "organizar",
+     "start": 30.6,
+     "end": 31.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.08,
+   "end": 32.36,
+   "words": [
+    {
+     "text": "seus",
+     "start": 31.08,
+     "end": 31.32,
+     "emph": false
+    },
+    {
+     "text": "imóveis,",
+     "start": 31.32,
+     "end": 31.96,
+     "emph": true
+    },
+    {
+     "text": "leads",
+     "start": 31.96,
+     "end": 32.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.36,
+   "end": 33.379,
+   "words": [
+    {
+     "text": "e",
+     "start": 32.36,
+     "end": 32.52,
+     "emph": false
+    },
+    {
+     "text": "atendimentos?",
+     "start": 32.52,
+     "end": 33.05,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 33.379,
+   "end": 34.36,
+   "words": [
+    {
+     "text": "Comente",
+     "start": 33.379,
+     "end": 33.88,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 33.88,
+     "end": 34.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 34.36,
+   "end": 35.08,
+   "words": [
+    {
+     "text": "que",
+     "start": 34.36,
+     "end": 34.52,
+     "emph": false
+    },
+    {
+     "text": "eu",
+     "start": 34.52,
+     "end": 34.6,
+     "emph": false
+    },
+    {
+     "text": "te",
+     "start": 34.6,
+     "end": 34.68,
+     "emph": false
+    },
+    {
+     "text": "envio",
+     "start": 34.68,
+     "end": 35.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 35.08,
+   "end": 35.56,
+   "words": [
+    {
+     "text": "os",
+     "start": 35.08,
+     "end": 35.16,
+     "emph": false
+    },
+    {
+     "text": "detalhes",
+     "start": 35.16,
+     "end": 35.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 35.56,
+   "end": 36.68,
+   "words": [
+    {
+     "text": "pelo",
+     "start": 35.56,
+     "end": 35.8,
+     "emph": false
+    },
+    {
+     "text": "Direct.",
+     "start": 35.8,
+     "end": 36.18,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}
