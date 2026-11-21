@@ -25,7 +25,7 @@ export const FundoLousa: React.FC = () => (
 
 /** Traço que se desenha: p 0..1. */
 export const Traco: React.FC<{ d: string; p: number; cor?: string; w?: number; fill?: string }> = ({ d, p, cor = GIZ, w = 7, fill = "none" }) => (
-  <path d={d} pathLength={1} strokeDasharray={1} strokeDashoffset={1 - Math.min(1, Math.max(0, p))} stroke={cor} strokeWidth={w} strokeLinecap="round" strokeLinejoin="round" fill={fill} filter="url(#rough)" />
+  <path d={d} pathLength={1} strokeDasharray={1} strokeDashoffset={1 - Math.min(1, Math.max(0, p))} stroke={cor} strokeWidth={w} strokeLinecap="round" strokeLinejoin="round" fill={fill} filter="url(#rough)" opacity={p > 0.01 ? 1 : 0} />
 );
 
 /** Texto escrito a giz (aparece da esquerda para a direita). */

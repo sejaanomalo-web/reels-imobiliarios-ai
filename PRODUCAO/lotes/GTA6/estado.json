@@ -1,0 +1,467 @@
+{
+  "lote": "GTA6",
+  "descricao": "Edição especial GTA VI (PDF do cliente, 21/11/2026): 50 roteiros (30 GTA-first, 20 corretor-first). Ordem do PDF. Esteira de 5 estilos contínua. CTA natural do roteiro vira transição; fala termina na CTA SISTEMA (decisão do cliente 21/11/2026).",
+  "nomenclatura": "composition ATIVO-GTA6-NN · OUTPUT/ATIVO_GTA6_NN · PUBLICACAO/GTA6/REELS_XX_AO_YY/NN (python3 tools/publicar_lote.py GTA6 NN)",
+  "agenda": {
+    "regra": "Pedido do cliente 21/11/2026: GTA 1 por dia às 22:00 (Brasília) de 21/11 a 29/11; depois, a partir de 29/11, por dia 1 GTA (22:00) + 2 do livro L60 (slots automáticos 8h e 10h). A Action enfileira no próximo slot livre; o horário 22:00 do GTA é ajustado na fila do Supabase (ig_posts.agendado_para) logo após a Action.",
+    "ordem_de_producao": "GTA01..GTA08 (21–28/11 22h) → L60_02 (29/11 10h) → GTA09 (29/11 22h) → [L60, L60, GTA] por dia"
+  },
+  "episodios": [
+    {
+      "n": 1,
+      "id": "ATIVO_GTA6_01",
+      "composition": "ATIVO-GTA6-01",
+      "roteiro": "ROTEIROS/GTA6/GTA6_01.md",
+      "titulo": "O corretor não vai conseguir jogar em paz",
+      "tipo": "GTA PRIMEIRO • Humor de profissão • ~52s de narração • FICÇÃO / ANALOGIA",
+      "status": "publicado_fila",
+      "estilo": 2,
+      "estiloNome": "Desenho à mão",
+      "duracao_s": 53.7,
+      "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/01",
+      "produzido_em": "2026-11-21",
+      "agendar_para": "2026-11-21 22:00 BRT"
+    },
+    {
+      "n": 2,
+      "id": "ATIVO_GTA6_02",
+      "composition": "ATIVO-GTA6-02",
+      "roteiro": "ROTEIROS/GTA6/GTA6_02.md",
+      "titulo": "O magnata imobiliário escondido em GTA VI",
+      "tipo": "GTA PRIMEIRO • Curiosidade verificada • ~48s de narração • FATO OFICIAL",
+      "status": "pendente"
+    },
+    {
+      "n": 3,
+      "id": "ATIVO_GTA6_03",
+      "composition": "ATIVO-GTA6-03",
+      "roteiro": "ROTEIROS/GTA6/GTA6_03.md",
+      "titulo": "Miami ou Vice City? O desafio de 5 segundos",
+      "tipo": "GTA PRIMEIRO • Comparação visual • ~51s de narração • FATO + RECRIAÇÃO",
+      "status": "pendente"
+    },
+    {
+      "n": 4,
+      "id": "ATIVO_GTA6_04",
+      "composition": "ATIVO-GTA6-04",
+      "roteiro": "ROTEIROS/GTA6/GTA6_04.md",
+      "titulo": "Eu captaria essa casa antes de começar a missão",
+      "tipo": "CORRETOR PRIMEIRO • Escolha de imóvel / humor • ~49s de narração • SÁTIRA / SIMULAÇÃO",
+      "status": "pendente"
+    },
+    {
+      "n": 5,
+      "id": "ATIVO_GTA6_05",
+      "composition": "ATIVO-GTA6-05",
+      "roteiro": "ROTEIROS/GTA6/GTA6_05.md",
+      "titulo": "O comprador impossível de Vice City",
+      "tipo": "CORRETOR PRIMEIRO • Esquete / conflito • ~49s de narração • FICÇÃO / ESQUETE",
+      "status": "pendente"
+    },
+    {
+      "n": 6,
+      "id": "ATIVO_GTA6_06",
+      "composition": "ATIVO-GTA6-06",
+      "roteiro": "ROTEIROS/GTA6/GTA6_06.md",
+      "titulo": "O aluguel mais suspeito do GTA VI",
+      "tipo": "GTA PRIMEIRO • Curiosidade verificada • ~44s de narração • FATO OFICIAL",
+      "status": "pendente"
+    },
+    {
+      "n": 7,
+      "id": "ATIVO_GTA6_07",
+      "composition": "ATIVO-GTA6-07",
+      "roteiro": "ROTEIROS/GTA6/GTA6_07.md",
+      "titulo": "Jason e Lucia não estão atrás da mesma vida",
+      "tipo": "GTA PRIMEIRO • Personagem / perspectiva • ~47s de narração • FATO OFICIAL",
+      "status": "pendente"
+    },
+    {
+      "n": 8,
+      "id": "ATIVO_GTA6_08",
+      "composition": "ATIVO-GTA6-08",
+      "roteiro": "ROTEIROS/GTA6/GTA6_08.md",
+      "titulo": "GTA VI não é apenas Vice City",
+      "tipo": "GTA PRIMEIRO • Curiosidade de mapa • ~44s de narração • FATO OFICIAL",
+      "status": "pendente"
+    },
+    {
+      "n": 9,
+      "id": "ATIVO_GTA6_09",
+      "composition": "ATIVO-GTA6-09",
+      "roteiro": "ROTEIROS/GTA6/GTA6_09.md",
+      "titulo": "Essa cobertura vende sozinha? Não em Vice City",
+      "tipo": "CORRETOR PRIMEIRO • Desafio de argumento • ~43s de narração • ANALOGIA / DEMONSTRAÇÃO",
+      "status": "pendente"
+    },
+    {
+      "n": 10,
+      "id": "ATIVO_GTA6_10",
+      "composition": "ATIVO-GTA6-10",
+      "roteiro": "ROTEIROS/GTA6/GTA6_10.md",
+      "titulo": "O primeiro atendimento do corretor de Vice City",
+      "tipo": "CORRETOR PRIMEIRO • Esquete de atendimento • ~38s de narração • FICÇÃO / ESQUETE",
+      "status": "pendente"
+    },
+    {
+      "n": 11,
+      "id": "ATIVO_GTA6_11",
+      "composition": "ATIVO-GTA6-11",
+      "roteiro": "ROTEIROS/GTA6/GTA6_11.md",
+      "titulo": "O lugar mais estranho para morar em GTA VI",
+      "tipo": "GTA PRIMEIRO • Paisagem / história • ~45s de narração • FATO + HUMOR",
+      "status": "pendente"
+    },
+    {
+      "n": 12,
+      "id": "ATIVO_GTA6_12",
+      "composition": "ATIVO-GTA6-12",
+      "roteiro": "ROTEIROS/GTA6/GTA6_12.md",
+      "titulo": "A região de Leonida que eu evitaria como turista",
+      "tipo": "GTA PRIMEIRO • Escolha / ambiente • ~48s de narração • S1",
+      "status": "pendente"
+    },
+    {
+      "n": 13,
+      "id": "ATIVO_GTA6_13",
+      "composition": "ATIVO-GTA6-13",
+      "roteiro": "ROTEIROS/GTA6/GTA6_13.md",
+      "titulo": "Três endereços em Leonida, três vidas diferentes",
+      "tipo": "GTA PRIMEIRO • Top 3 / interatividade • ~44s de narração • AMBIENTAÇÃO OFICIAL + HIPÓTESE",
+      "status": "pendente"
+    },
+    {
+      "n": 14,
+      "id": "ATIVO_GTA6_14",
+      "composition": "ATIVO-GTA6-14",
+      "roteiro": "ROTEIROS/GTA6/GTA6_14.md",
+      "titulo": "A rua pode mudar totalmente o valor da história",
+      "tipo": "CORRETOR PRIMEIRO • Geografia / pergunta • ~45s de narração • EXPERIMENTO FICTÍCIO",
+      "status": "pendente"
+    },
+    {
+      "n": 15,
+      "id": "ATIVO_GTA6_15",
+      "composition": "ATIVO-GTA6-15",
+      "roteiro": "ROTEIROS/GTA6/GTA6_15.md",
+      "titulo": "Visita ao imóvel mais perigoso da cidade",
+      "tipo": "CORRETOR PRIMEIRO • Humor de bairro • ~40s de narração • FICÇÃO / HUMOR",
+      "status": "pendente"
+    },
+    {
+      "n": 16,
+      "id": "ATIVO_GTA6_16",
+      "composition": "ATIVO-GTA6-16",
+      "roteiro": "ROTEIROS/GTA6/GTA6_16.md",
+      "titulo": "Treze anos por uma cidade que não existe",
+      "tipo": "GTA PRIMEIRO • Lançamento / fato • ~50s de narração • FATO + OPINIÃO",
+      "status": "pendente"
+    },
+    {
+      "n": 17,
+      "id": "ATIVO_GTA6_17",
+      "composition": "ATIVO-GTA6-17",
+      "roteiro": "ROTEIROS/GTA6/GTA6_17.md",
+      "titulo": "A Rockstar transformou uma cidade em assunto mundial",
+      "tipo": "GTA PRIMEIRO • Marketing cultural • ~48s de narração • FATO + ANÁLISE",
+      "status": "pendente"
+    },
+    {
+      "n": 18,
+      "id": "ATIVO_GTA6_18",
+      "composition": "ATIVO-GTA6-18",
+      "roteiro": "ROTEIROS/GTA6/GTA6_18.md",
+      "titulo": "O segredo da sensação de morar em Vice City",
+      "tipo": "GTA PRIMEIRO • Som / experiência • ~47s de narração • FATO GERAL + DEMONSTRAÇÃO",
+      "status": "pendente"
+    },
+    {
+      "n": 19,
+      "id": "ATIVO_GTA6_19",
+      "composition": "ATIVO-GTA6-19",
+      "roteiro": "ROTEIROS/GTA6/GTA6_19.md",
+      "titulo": "O tour que eu faria em Vice City não começaria pela sala",
+      "tipo": "CORRETOR PRIMEIRO • Vídeo imobiliário / experiência • ~44s de narração • EXEMPLO CRIATIVO",
+      "status": "pendente"
+    },
+    {
+      "n": 20,
+      "id": "ATIVO_GTA6_20",
+      "composition": "ATIVO-GTA6-20",
+      "roteiro": "ROTEIROS/GTA6/GTA6_20.md",
+      "titulo": "GTA VI não esperou ninguém. O comprador também não",
+      "tipo": "CORRETOR PRIMEIRO • Humor / anticlichê • ~43s de narração • ANALOGIA / ROTINA",
+      "status": "pendente"
+    },
+    {
+      "n": 21,
+      "id": "ATIVO_GTA6_21",
+      "composition": "ATIVO-GTA6-21",
+      "roteiro": "ROTEIROS/GTA6/GTA6_21.md",
+      "titulo": "O algoritmo também existe na vida dos personagens",
+      "tipo": "GTA PRIMEIRO • Personagem / redes • ~45s de narração • FATO OFICIAL",
+      "status": "pendente"
+    },
+    {
+      "n": 22,
+      "id": "ATIVO_GTA6_22",
+      "composition": "ATIVO-GTA6-22",
+      "roteiro": "ROTEIROS/GTA6/GTA6_22.md",
+      "titulo": "Vice City virou um espelho exagerado da internet",
+      "tipo": "GTA PRIMEIRO • Cultura / realismo • ~43s de narração • ANÁLISE DE TOM",
+      "status": "pendente"
+    },
+    {
+      "n": 23,
+      "id": "ATIVO_GTA6_23",
+      "composition": "ATIVO-GTA6-23",
+      "roteiro": "ROTEIROS/GTA6/GTA6_23.md",
+      "titulo": "A casa perfeita para um NPC de Vice City",
+      "tipo": "GTA PRIMEIRO • Meme visual • ~40s de narração • FICÇÃO / ESQUETE",
+      "status": "pendente"
+    },
+    {
+      "n": 24,
+      "id": "ATIVO_GTA6_24",
+      "composition": "ATIVO-GTA6-24",
+      "roteiro": "ROTEIROS/GTA6/GTA6_24.md",
+      "titulo": "Meu cliente fala igual um NPC",
+      "tipo": "CORRETOR PRIMEIRO • Humor / personagem • ~41s de narração • FICÇÃO / COMÉDIA",
+      "status": "pendente"
+    },
+    {
+      "n": 25,
+      "id": "ATIVO_GTA6_25",
+      "composition": "ATIVO-GTA6-25",
+      "roteiro": "ROTEIROS/GTA6/GTA6_25.md",
+      "titulo": "Eu reconheceria um imóvel só pela janela",
+      "tipo": "CORRETOR PRIMEIRO • Desafio de percepção • ~43s de narração • DESAFIO INTERATIVO",
+      "status": "pendente"
+    },
+    {
+      "n": 26,
+      "id": "ATIVO_GTA6_26",
+      "composition": "ATIVO-GTA6-26",
+      "roteiro": "ROTEIROS/GTA6/GTA6_26.md",
+      "titulo": "O pior sócio para um negócio em GTA VI",
+      "tipo": "GTA PRIMEIRO • Personagem / dilema • ~46s de narração • FATO OFICIAL + SÁTIRA",
+      "status": "pendente"
+    },
+    {
+      "n": 27,
+      "id": "ATIVO_GTA6_27",
+      "composition": "ATIVO-GTA6-27",
+      "roteiro": "ROTEIROS/GTA6/GTA6_27.md",
+      "titulo": "O amigo paranoico de Jason seria péssimo corretor",
+      "tipo": "GTA PRIMEIRO • Personagem / humor • ~47s de narração • FATO OFICIAL + ESQUETE",
+      "status": "pendente"
+    },
+    {
+      "n": 28,
+      "id": "ATIVO_GTA6_28",
+      "composition": "ATIVO-GTA6-28",
+      "roteiro": "ROTEIROS/GTA6/GTA6_28.md",
+      "titulo": "A protagonista que quer outra vida",
+      "tipo": "GTA PRIMEIRO • História / contraste • ~49s de narração • FATO OFICIAL / SEM SPOILER",
+      "status": "pendente"
+    },
+    {
+      "n": 29,
+      "id": "ATIVO_GTA6_29",
+      "composition": "ATIVO-GTA6-29",
+      "roteiro": "ROTEIROS/GTA6/GTA6_29.md",
+      "titulo": "A proposta de compra mais absurda que já recebi",
+      "tipo": "CORRETOR PRIMEIRO • Esquete / negociação • ~41s de narração • FICÇÃO / HUMOR",
+      "status": "pendente"
+    },
+    {
+      "n": 30,
+      "id": "ATIVO_GTA6_30",
+      "composition": "ATIVO-GTA6-30",
+      "roteiro": "ROTEIROS/GTA6/GTA6_30.md",
+      "titulo": "O comprador quer três bairros em uma casa só",
+      "tipo": "CORRETOR PRIMEIRO • Curiosidade profissional / mapa • ~44s de narração • ESQUETE / ANALOGIA",
+      "status": "pendente"
+    },
+    {
+      "n": 31,
+      "id": "ATIVO_GTA6_31",
+      "composition": "ATIVO-GTA6-31",
+      "roteiro": "ROTEIROS/GTA6/GTA6_31.md",
+      "titulo": "A parte mais perigosa do GTA VI é o mapa",
+      "tipo": "GTA PRIMEIRO • Objeto / mapa • ~43s de narração • FATO + OPINIÃO",
+      "status": "pendente"
+    },
+    {
+      "n": 32,
+      "id": "ATIVO_GTA6_32",
+      "composition": "ATIVO-GTA6-32",
+      "roteiro": "ROTEIROS/GTA6/GTA6_32.md",
+      "titulo": "O detalhe de Vice City que quase ninguém está olhando",
+      "tipo": "GTA PRIMEIRO • Observação / detalhe • ~44s de narração • ANÁLISE VISUAL",
+      "status": "pendente"
+    },
+    {
+      "n": 33,
+      "id": "ATIVO_GTA6_33",
+      "composition": "ATIVO-GTA6-33",
+      "roteiro": "ROTEIROS/GTA6/GTA6_33.md",
+      "titulo": "Meu roteiro de 24 horas em Leonida",
+      "tipo": "GTA PRIMEIRO • Turismo / guia • ~42s de narração • HIPÓTESE DE PASSEIO",
+      "status": "pendente"
+    },
+    {
+      "n": 34,
+      "id": "ATIVO_GTA6_34",
+      "composition": "ATIVO-GTA6-34",
+      "roteiro": "ROTEIROS/GTA6/GTA6_34.md",
+      "titulo": "O bairro que eu venderia antes do apartamento",
+      "tipo": "CORRETOR PRIMEIRO • Tour / surpresa • ~47s de narração • ANALOGIA / ESTILO",
+      "status": "pendente"
+    },
+    {
+      "n": 35,
+      "id": "ATIVO_GTA6_35",
+      "composition": "ATIVO-GTA6-35",
+      "roteiro": "ROTEIROS/GTA6/GTA6_35.md",
+      "titulo": "Três casas de GTA VI, uma escolha",
+      "tipo": "CORRETOR PRIMEIRO • Desafio / contraste • ~45s de narração • EXPERIMENTO FICTÍCIO",
+      "status": "pendente"
+    },
+    {
+      "n": 36,
+      "id": "ATIVO_GTA6_36",
+      "composition": "ATIVO-GTA6-36",
+      "roteiro": "ROTEIROS/GTA6/GTA6_36.md",
+      "titulo": "O corretor vai reparar no que ninguém repara",
+      "tipo": "GTA PRIMEIRO • Meme / observação • ~45s de narração • COMÉDIA / IDENTIFICAÇÃO",
+      "status": "pendente"
+    },
+    {
+      "n": 37,
+      "id": "ATIVO_GTA6_37",
+      "composition": "ATIVO-GTA6-37",
+      "roteiro": "ROTEIROS/GTA6/GTA6_37.md",
+      "titulo": "As pessoas tiraram folga para jogar GTA VI",
+      "tipo": "GTA PRIMEIRO • Notícia / comportamento • ~47s de narração • NOTÍCIA + FICÇÃO",
+      "status": "pendente"
+    },
+    {
+      "n": 38,
+      "id": "ATIVO_GTA6_38",
+      "composition": "ATIVO-GTA6-38",
+      "roteiro": "ROTEIROS/GTA6/GTA6_38.md",
+      "titulo": "A viagem de carro mais absurda de Leonida",
+      "tipo": "GTA PRIMEIRO • Surpresa / geografia • ~42s de narração • HIPÓTESE / AMBIENTAÇÃO",
+      "status": "pendente"
+    },
+    {
+      "n": 39,
+      "id": "ATIVO_GTA6_39",
+      "composition": "ATIVO-GTA6-39",
+      "roteiro": "ROTEIROS/GTA6/GTA6_39.md",
+      "titulo": "O corretor que transformou uma visita numa missão secundária",
+      "tipo": "CORRETOR PRIMEIRO • Humor / missão • ~42s de narração • ESQUETE / ROTINA",
+      "status": "pendente"
+    },
+    {
+      "n": 40,
+      "id": "ATIVO_GTA6_40",
+      "composition": "ATIVO-GTA6-40",
+      "roteiro": "ROTEIROS/GTA6/GTA6_40.md",
+      "titulo": "O endereço mais caro nem sempre seria meu favorito",
+      "tipo": "CORRETOR PRIMEIRO • Observação / bairro • ~45s de narração • OPINIÃO / IDENTIFICAÇÃO",
+      "status": "pendente"
+    },
+    {
+      "n": 41,
+      "id": "ATIVO_GTA6_41",
+      "composition": "ATIVO-GTA6-41",
+      "roteiro": "ROTEIROS/GTA6/GTA6_41.md",
+      "titulo": "Até um time de basquete entrou em Vice City",
+      "tipo": "GTA PRIMEIRO • Branding / cultura • ~48s de narração • NOTÍCIA / CULTURA",
+      "status": "pendente"
+    },
+    {
+      "n": 42,
+      "id": "ATIVO_GTA6_42",
+      "composition": "ATIVO-GTA6-42",
+      "roteiro": "ROTEIROS/GTA6/GTA6_42.md",
+      "titulo": "O jogo que virou conversa antes de chegar",
+      "tipo": "GTA PRIMEIRO • Lançamento / números • ~47s de narração • PESQUISA DE MERCADO",
+      "status": "pendente"
+    },
+    {
+      "n": 43,
+      "id": "ATIVO_GTA6_43",
+      "composition": "ATIVO-GTA6-43",
+      "roteiro": "ROTEIROS/GTA6/GTA6_43.md",
+      "titulo": "Uma cidade inventada ganhou até álbum próprio",
+      "tipo": "GTA PRIMEIRO • Música / bastidor • ~49s de narração • FATO OFICIAL + ANÁLISE",
+      "status": "pendente"
+    },
+    {
+      "n": 44,
+      "id": "ATIVO_GTA6_44",
+      "composition": "ATIVO-GTA6-44",
+      "roteiro": "ROTEIROS/GTA6/GTA6_44.md",
+      "titulo": "Quanto custaria essa cobertura de Vice City?",
+      "tipo": "CORRETOR PRIMEIRO • Enquete / valores fictícios • ~47s de narração • SIMULAÇÃO EXPLÍCITA",
+      "status": "pendente"
+    },
+    {
+      "n": 45,
+      "id": "ATIVO_GTA6_45",
+      "composition": "ATIVO-GTA6-45",
+      "roteiro": "ROTEIROS/GTA6/GTA6_45.md",
+      "titulo": "Os três imóveis que eu não venderia em Vice City",
+      "tipo": "CORRETOR PRIMEIRO • Formato / lista reversa • ~43s de narração • FICÇÃO / RANKING",
+      "status": "pendente"
+    },
+    {
+      "n": 46,
+      "id": "ATIVO_GTA6_46",
+      "composition": "ATIVO-GTA6-46",
+      "roteiro": "ROTEIROS/GTA6/GTA6_46.md",
+      "titulo": "Eu faria uma imobiliária inteira dentro de Vice City",
+      "tipo": "GTA PRIMEIRO • Debate / imaginação • ~39s de narração • FICÇÃO + FATOS DE PERSONAGEM",
+      "status": "pendente"
+    },
+    {
+      "n": 47,
+      "id": "ATIVO_GTA6_47",
+      "composition": "ATIVO-GTA6-47",
+      "roteiro": "ROTEIROS/GTA6/GTA6_47.md",
+      "titulo": "O anúncio de imóvel mais suspeito de Leonida",
+      "tipo": "GTA PRIMEIRO • Listagem ficcional / humor • ~39s de narração • Esconder a última linha até 75% do",
+      "status": "pendente"
+    },
+    {
+      "n": 48,
+      "id": "ATIVO_GTA6_48",
+      "composition": "ATIVO-GTA6-48",
+      "roteiro": "ROTEIROS/GTA6/GTA6_48.md",
+      "titulo": "O melhor endereço de Leonida não precisa ser uma mansão",
+      "tipo": "GTA PRIMEIRO • Desafio / profissão • ~47s de narração • ANALOGIA / OPINIÃO",
+      "status": "pendente"
+    },
+    {
+      "n": 49,
+      "id": "ATIVO_GTA6_49",
+      "composition": "ATIVO-GTA6-49",
+      "roteiro": "ROTEIROS/GTA6/GTA6_49.md",
+      "titulo": "O cliente quer visitar às seis. Em Vice City isso é um risco",
+      "tipo": "CORRETOR PRIMEIRO • Humor / pôr do sol • ~47s de narração • FICÇÃO / IDEIA DE TOUR",
+      "status": "pendente"
+    },
+    {
+      "n": 50,
+      "id": "ATIVO_GTA6_50",
+      "composition": "ATIVO-GTA6-50",
+      "roteiro": "ROTEIROS/GTA6/GTA6_50.md",
+      "titulo": "Eu escolheria esta casa para fugir do GTA VI",
+      "tipo": "CORRETOR PRIMEIRO • Final de temporada / voto • ~49s de narração • OPINIÃO / HUMOR",
+      "status": "pendente"
+    }
+  ]
+}

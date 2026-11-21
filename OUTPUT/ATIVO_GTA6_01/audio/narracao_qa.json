@@ -1,0 +1,104 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.97,
+    "palavras_nao_reconhecidas": [
+      "VI"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.54,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.21,
+    "palavras_nao_reconhecidas": [
+      "pro"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.07,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.56,
+    "palavras_nao_reconhecidas": [
+      "está"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 3.13,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 1.79,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.47,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.19,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 1.42,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 4.41,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s14",
+    "seconds": 2.8,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 51.33,
+    "asr_match": 0.959,
+    "aligned_words": "139/145",
+    "words_per_min": 169,
+    "heard": "GTA 6 acabou de lançar e eu tenho certeza, o corretor não vai conseguir jogar isso em paz. Uma pessoa normal entra em Vice City, pega um carro e vai explorar. O corretor entra e a primeira coisa que vê é uma cobertura de frente para o mar. A cabeça dele já começa. Quantas vagas, qual metragem, tem churrasqueira. Daqui a pouco ele passa por uma mansão e já tá imaginando o vídeo de captação. Quando vê uma fachada bonita, diminui a velocidade do carro. Quando vê um bairro novo, pensa no potencial de valorização. Esquece completamente a missão. Ele entrou pra descansar e saiu com uma carteira de imóveis fictícia. Isso é praticamente um diagnóstico profissional. E se esse corretor é você? Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 52.96,
+      "wpm": 164
+    },
+    "pausas_moldadas": {
+      "n": 16,
+      "max_s": 0.51
+    },
+    "pausas_encurtadas_s": 1.63,
+    "final": {
+      "seconds": 51.33,
+      "wpm": 169
+    }
+  }
+]
