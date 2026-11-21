@@ -161,6 +161,8 @@ import { GTA6_02, timeline as gta6_02 } from "./episodes/ATIVO-GTA6-02/Episode";
 import { GTA6_02Cover } from "./episodes/ATIVO-GTA6-02/Cover";
 import { GTA6_04, timeline as gta6_04 } from "./episodes/ATIVO-GTA6-04/Episode";
 import { GTA6_04Cover } from "./episodes/ATIVO-GTA6-04/Cover";
+import { GTA6_05, timeline as gta6_05 } from "./episodes/ATIVO-GTA6-05/Episode";
+import { GTA6_05Cover } from "./episodes/ATIVO-GTA6-05/Cover";
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -758,6 +760,8 @@ export const RemotionRoot: React.FC = () => (
       <Still id="ATIVO-GTA6-02-Capa" component={GTA6_02Cover} width={VIDEO.width} height={VIDEO.height} />
       <Composition id="ATIVO-GTA6-04" component={GTA6_04} width={VIDEO.width} height={VIDEO.height} fps={gta6_04.fps} durationInFrames={gta6_04.durationInFrames} defaultProps={{ withAudio: true }} />
       <Still id="ATIVO-GTA6-04-Capa" component={GTA6_04Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-GTA6-05" component={GTA6_05} width={VIDEO.width} height={VIDEO.height} fps={gta6_05.fps} durationInFrames={gta6_05.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-GTA6-05-Capa" component={GTA6_05Cover} width={VIDEO.width} height={VIDEO.height} />
       <Still id="DEMO-ESTILO-1" component={DemoPalitinho} width={VIDEO.width} height={VIDEO.height} />
       <Still id="DEMO-ESTILO-2" component={DemoDesenho} width={VIDEO.width} height={VIDEO.height} />
       <Still id="DEMO-ESTILO-3" component={DemoPlanta} width={VIDEO.width} height={VIDEO.height} />

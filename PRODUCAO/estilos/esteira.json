@@ -22,7 +22,7 @@
       "kit": "src/episodes/NOV26/kit.tsx"
     }
   },
-  "proximo": 5,
+  "proximo": 1,
   "historico": [
     {
       "episodio": "ATIVO-L60-01",
@@ -46,6 +46,12 @@
       "episodio": "ATIVO-GTA6-04",
       "estilo": 4,
       "nome": "Tipografia cinética",
+      "data": "2026-11-21"
+    },
+    {
+      "episodio": "ATIVO-GTA6-05",
+      "estilo": 5,
+      "nome": "Painel",
       "data": "2026-11-21"
     }
   ]
