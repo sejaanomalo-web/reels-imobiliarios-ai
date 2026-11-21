@@ -1,0 +1,540 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-GTA6-09",
+ "lote": "GTA6",
+ "title": "Essa cobertura vende sozinha? Não em Vice City",
+ "outputDir": "ATIVO_GTA6_09",
+ "deliverables": {
+  "final": "ATIVO_GTA6_09_FINAL.mp4",
+  "narration": "ATIVO_GTA6_09_NARRACAO.wav",
+  "subtitles": "ATIVO_GTA6_09_legendas.srt",
+  "cover": "ATIVO_GTA6_09_capa.png"
+ },
+ "fonte": "ROTEIROS/GTA6/GTA6_09.md (ATIVO_GTA_VI_50_Roteiros_Completos.pdf, roteiro 09)",
+ "apuracao": {
+  "fato": "ANALOGIA/DEMONSTRAÇÃO (roteiro 09 do PDF): cobertura FICTÍCIA em Vice City (cidade fictícia de GTA VI); nenhuma afirmação sobre o jogo além de existir Vice City. Recomendação de roteiro de vídeo é opinião editorial, sem números de desempenho",
+  "verificado_em": "2026-11-21",
+  "fontes": [
+   "ROTEIROS/GTA6/ATIVO_GTA_VI_50_Roteiros_Completos.pdf (roteiro 09)"
+  ],
+  "cuidados": "sem imagem do jogo; estilo tipográfico; não prometer resultado de vendas"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que anuncia imóveis com legendas genéricas",
+  "motivacao": "desafio de argumento usando o hype do GTA VI",
+  "crenca_questionada": "imóvel bonito vende sozinho",
+  "hipotese": "tipografia: COBERTURA ABSURDA × ANÚNCIO RUIM → atributos gigantes (mar, janelas, coleção de carros) → legenda genérica 'lindo imóvel, ótima localização' → vira QUALQUER APÊ → ordem certa 1 PAISAGEM 2 PÔR DO SOL 3 VIVER 4 METRAGEM/GARAGEM → HISTÓRIA muda tudo → FICHA COMPLETA",
+  "funcao": "demonstração prática (corretor primeiro)",
+  "promessa": "estrutura de abertura de vídeo de imóvel",
+  "evidencias": "ANALOGIA/DEMONSTRAÇÃO; cobertura fictícia",
+  "cta": "transição 'Na vida real, cada imóvel merece uma ficha completa.' → comentário SISTEMA → Direct"
+ },
+ "cta": {
+  "original_cta": "Qual das duas aberturas te faria parar de rolar?",
+  "transition_adapted": "Na vida real, cada imóvel merece uma ficha completa.",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Eu vou te provar que até uma cobertura absurda pode ter um anúncio ruim.",
+   "caption": "Eu vou te *provar* | que até uma *cobertura* | absurda | pode ter | um anúncio *ruim.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "t1",
+   "text": "Imagina uma cobertura fictícia em Vice City: vista pro mar, janelas enormes e vaga para uma coleção de carros.",
+   "caption": "Imagina | uma cobertura *fictícia* | em Vice City: | vista pro *mar,* | *janelas* enormes | e vaga | para uma *coleção* | de carros.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "Agora olha a legenda: “lindo imóvel, ótima localização”.",
+   "caption": "Agora olha | a *legenda:* | “lindo *imóvel,* | ótima localização”.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t2",
+   "text": "Você acabou de transformar uma das vistas mais impressionantes de um jogo em qualquer apartamento da internet.",
+   "caption": "Você acabou | de transformar | uma das vistas | mais *impressionantes* | de um jogo | em *qualquer* apartamento | da internet.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t3",
+   "text": "Faz o contrário. Abre o vídeo com a paisagem, mostra o pôr do sol, depois conta o que a pessoa poderia viver naquele lugar.",
+   "caption": "Faz o *contrário.* | Abre o vídeo | com a *paisagem,* | mostra | o *pôr do sol,* | depois conta | o que a pessoa | poderia *viver* | naquele lugar.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t3",
+   "text": "Só no final entra metragem e garagem.",
+   "caption": "Só no *final* | entra *metragem* | e garagem.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t3",
+   "text": "Até num imóvel inventado, a história que você escolhe contar muda tudo.",
+   "caption": "Até num imóvel | inventado, | a *história* | que você escolhe contar | muda *tudo.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t3",
+   "text": "Na vida real, cada imóvel merece uma ficha completa.",
+   "caption": "Na vida real, | cada imóvel | merece | uma *ficha completa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_prov": {
+   "seg": "s1",
+   "word": "provar",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_cob": {
+   "seg": "s1",
+   "word": "cobertura",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_ruim": {
+   "seg": "s1",
+   "word": "ruim",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_fict": {
+   "seg": "s2",
+   "word": "fictícia",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_mar": {
+   "seg": "s2",
+   "word": "mar",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_jan": {
+   "seg": "s2",
+   "word": "janelas",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_col": {
+   "seg": "s2",
+   "word": "coleção",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_leg": {
+   "seg": "s3",
+   "word": "legenda",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_lindo": {
+   "seg": "s3",
+   "word": "lindo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_loc": {
+   "seg": "s3",
+   "word": "localização",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_transf": {
+   "seg": "s4",
+   "word": "transformar",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_impr": {
+   "seg": "s4",
+   "word": "impressionantes",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_qual": {
+   "seg": "s4",
+   "word": "qualquer",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_net": {
+   "seg": "s4",
+   "word": "internet",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_contr": {
+   "seg": "s5",
+   "word": "contrário",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_pais": {
+   "seg": "s5",
+   "word": "paisagem",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_por": {
+   "seg": "s5",
+   "word": "pôr",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_viver": {
+   "seg": "s5",
+   "word": "viver",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_final": {
+   "seg": "s6",
+   "word": "final",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_metr": {
+   "seg": "s6",
+   "word": "metragem",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_gar": {
+   "seg": "s6",
+   "word": "garagem",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_hist": {
+   "seg": "s7",
+   "word": "história",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_tudo": {
+   "seg": "s7",
+   "word": "tudo",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_real": {
+   "seg": "s8",
+   "word": "real",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_ficha": {
+   "seg": "s8",
+   "word": "ficha",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s9",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s9",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s9",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s10",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s10",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s10",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s10",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_prov",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "h_ruim",
+   "offset": 0.05,
+   "sound": "block",
+   "gain": -26
+  },
+  {
+   "cue": "a_mar",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "a_jan",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "a_col",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -26,
+   "pitch": 6
+  },
+  {
+   "cue": "a_leg",
+   "offset": -0.1,
+   "sound": "whoosh_fold",
+   "gain": -26
+  },
+  {
+   "cue": "a_loc",
+   "offset": 0.1,
+   "sound": "hollow",
+   "gain": -28
+  },
+  {
+   "cue": "b_qual",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -30
+  },
+  {
+   "cue": "b_net",
+   "offset": 0.05,
+   "sound": "block",
+   "gain": -27
+  },
+  {
+   "cue": "c_contr",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -25
+  },
+  {
+   "cue": "c_pais",
+   "offset": 0.05,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "c_por",
+   "offset": 0.05,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "c_viver",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -26
+  },
+  {
+   "cue": "c_metr",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "d_hist",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26
+  },
+  {
+   "cue": "e_ficha",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "Am — anúncio ruim"
+   },
+   {
+    "at": "cue:a_fict",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "F — cobertura"
+   },
+   {
+    "at": "cue:b_transf",
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     53
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Dm — qualquer apê"
+   },
+   {
+    "at": "cue:c_contr",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "G — conte a história"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ },
+ "estilo": 4,
+ "estiloNome": "Tipografia cinética",
+ "esteira": true
+}

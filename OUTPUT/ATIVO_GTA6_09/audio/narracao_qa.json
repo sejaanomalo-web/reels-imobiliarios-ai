@@ -1,0 +1,84 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.61,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 7.28,
+    "palavras_nao_reconhecidas": [
+      "pro"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.77,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 6.04,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.68,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.36,
+    "palavras_nao_reconhecidas": [
+      "entra"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 3.93,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 2.91,
+    "palavras_nao_reconhecidas": [
+      "completa"
+    ]
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.61,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.85,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 48.98,
+    "asr_match": 0.951,
+    "aligned_words": "126/132",
+    "words_per_min": 162,
+    "heard": "Eu vou te provar que até uma cobertura absurda pode ter um anúncio ruim. Imagina uma cobra fictícia em Vice City, vista para o mar, janelas enormes e vaga pra uma coleção de carros. Agora olha a legenda. Lindo imóvel, ótima localização. Você acabou de transformar uma das vistas mais impressionantes de um jogo em qualquer apartamento da internet. Faz o contrário, abre o vídeo com a paisagem, mostra o pôr do sol, depois conta o que a pessoa poderia viver naquele lugar. Só no final entre a metragem e garagem. Até num imóvel inventado, a história que você escolhe contar muda tudo. Na vida real, cada imóvel merece uma ficha. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 51.04,
+      "wpm": 155
+    },
+    "pausas_moldadas": {
+      "n": 18,
+      "max_s": 0.58
+    },
+    "pausas_encurtadas_s": 2.06,
+    "final": {
+      "seconds": 48.98,
+      "wpm": 162
+    }
+  }
+]

@@ -22,7 +22,7 @@
       "kit": "src/episodes/NOV26/kit.tsx"
     }
   },
-  "proximo": 4,
+  "proximo": 5,
   "historico": [
     {
       "episodio": "ATIVO-L60-01",
@@ -70,6 +70,12 @@
       "episodio": "ATIVO-GTA6-08",
       "estilo": 3,
       "nome": "Planta técnica",
+      "data": "2026-11-21"
+    },
+    {
+      "episodio": "ATIVO-GTA6-09",
+      "estilo": 4,
+      "nome": "Tipografia cinética",
       "data": "2026-11-21"
     }
   ]
