@@ -1,0 +1,336 @@
+{
+  "lote": "L60",
+  "descricao": "Roteiros do LIVRO_60_ROTEIROS.docx ainda não produzidos, na ordem do calendário de 60 dias (Dia 01 = EP001, Dia 02 = EP011…), pulando os já produzidos (EP001–003, 015–020, 030–033). Produção com a esteira de 5 estilos (PROMPTS/GUIA_ESTILOS_VISUAIS_ATIVO.md). CTA do livro (link da bio) → CTA SISTEMA.",
+  "nomenclatura": "episódio ATIVO-L60-NN · saída OUTPUT/ATIVO_L60_NN · publicação PUBLICACAO/L60/REELS_01_AO_10/NN · NN = ordem de produção no lote",
+  "episodios": [
+    {
+      "n": 1,
+      "id": "ATIVO_L60_01",
+      "composition": "ATIVO-L60-01",
+      "roteiro": "EP011",
+      "status": "pendente"
+    },
+    {
+      "n": 2,
+      "id": "ATIVO_L60_02",
+      "composition": "ATIVO-L60-02",
+      "roteiro": "EP021",
+      "status": "pendente"
+    },
+    {
+      "n": 3,
+      "id": "ATIVO_L60_03",
+      "composition": "ATIVO-L60-03",
+      "roteiro": "EP041",
+      "status": "pendente"
+    },
+    {
+      "n": 4,
+      "id": "ATIVO_L60_04",
+      "composition": "ATIVO-L60-04",
+      "roteiro": "EP051",
+      "status": "pendente"
+    },
+    {
+      "n": 5,
+      "id": "ATIVO_L60_05",
+      "composition": "ATIVO-L60-05",
+      "roteiro": "EP012",
+      "status": "pendente"
+    },
+    {
+      "n": 6,
+      "id": "ATIVO_L60_06",
+      "composition": "ATIVO-L60-06",
+      "roteiro": "EP022",
+      "status": "pendente"
+    },
+    {
+      "n": 7,
+      "id": "ATIVO_L60_07",
+      "composition": "ATIVO-L60-07",
+      "roteiro": "EP042",
+      "status": "pendente"
+    },
+    {
+      "n": 8,
+      "id": "ATIVO_L60_08",
+      "composition": "ATIVO-L60-08",
+      "roteiro": "EP052",
+      "status": "pendente"
+    },
+    {
+      "n": 9,
+      "id": "ATIVO_L60_09",
+      "composition": "ATIVO-L60-09",
+      "roteiro": "EP013",
+      "status": "pendente"
+    },
+    {
+      "n": 10,
+      "id": "ATIVO_L60_10",
+      "composition": "ATIVO-L60-10",
+      "roteiro": "EP023",
+      "status": "pendente"
+    },
+    {
+      "n": 11,
+      "id": "ATIVO_L60_11",
+      "composition": "ATIVO-L60-11",
+      "roteiro": "EP043",
+      "status": "pendente"
+    },
+    {
+      "n": 12,
+      "id": "ATIVO_L60_12",
+      "composition": "ATIVO-L60-12",
+      "roteiro": "EP053",
+      "status": "pendente"
+    },
+    {
+      "n": 13,
+      "id": "ATIVO_L60_13",
+      "composition": "ATIVO-L60-13",
+      "roteiro": "EP004",
+      "status": "pendente"
+    },
+    {
+      "n": 14,
+      "id": "ATIVO_L60_14",
+      "composition": "ATIVO-L60-14",
+      "roteiro": "EP014",
+      "status": "pendente"
+    },
+    {
+      "n": 15,
+      "id": "ATIVO_L60_15",
+      "composition": "ATIVO-L60-15",
+      "roteiro": "EP024",
+      "status": "pendente"
+    },
+    {
+      "n": 16,
+      "id": "ATIVO_L60_16",
+      "composition": "ATIVO-L60-16",
+      "roteiro": "EP034",
+      "status": "pendente"
+    },
+    {
+      "n": 17,
+      "id": "ATIVO_L60_17",
+      "composition": "ATIVO-L60-17",
+      "roteiro": "EP044",
+      "status": "pendente"
+    },
+    {
+      "n": 18,
+      "id": "ATIVO_L60_18",
+      "composition": "ATIVO-L60-18",
+      "roteiro": "EP054",
+      "status": "pendente"
+    },
+    {
+      "n": 19,
+      "id": "ATIVO_L60_19",
+      "composition": "ATIVO-L60-19",
+      "roteiro": "EP005",
+      "status": "pendente"
+    },
+    {
+      "n": 20,
+      "id": "ATIVO_L60_20",
+      "composition": "ATIVO-L60-20",
+      "roteiro": "EP025",
+      "status": "pendente"
+    },
+    {
+      "n": 21,
+      "id": "ATIVO_L60_21",
+      "composition": "ATIVO-L60-21",
+      "roteiro": "EP035",
+      "status": "pendente"
+    },
+    {
+      "n": 22,
+      "id": "ATIVO_L60_22",
+      "composition": "ATIVO-L60-22",
+      "roteiro": "EP045",
+      "status": "pendente"
+    },
+    {
+      "n": 23,
+      "id": "ATIVO_L60_23",
+      "composition": "ATIVO-L60-23",
+      "roteiro": "EP055",
+      "status": "pendente"
+    },
+    {
+      "n": 24,
+      "id": "ATIVO_L60_24",
+      "composition": "ATIVO-L60-24",
+      "roteiro": "EP006",
+      "status": "pendente"
+    },
+    {
+      "n": 25,
+      "id": "ATIVO_L60_25",
+      "composition": "ATIVO-L60-25",
+      "roteiro": "EP026",
+      "status": "pendente"
+    },
+    {
+      "n": 26,
+      "id": "ATIVO_L60_26",
+      "composition": "ATIVO-L60-26",
+      "roteiro": "EP036",
+      "status": "pendente"
+    },
+    {
+      "n": 27,
+      "id": "ATIVO_L60_27",
+      "composition": "ATIVO-L60-27",
+      "roteiro": "EP046",
+      "status": "pendente"
+    },
+    {
+      "n": 28,
+      "id": "ATIVO_L60_28",
+      "composition": "ATIVO-L60-28",
+      "roteiro": "EP056",
+      "status": "pendente"
+    },
+    {
+      "n": 29,
+      "id": "ATIVO_L60_29",
+      "composition": "ATIVO-L60-29",
+      "roteiro": "EP007",
+      "status": "pendente"
+    },
+    {
+      "n": 30,
+      "id": "ATIVO_L60_30",
+      "composition": "ATIVO-L60-30",
+      "roteiro": "EP027",
+      "status": "pendente"
+    },
+    {
+      "n": 31,
+      "id": "ATIVO_L60_31",
+      "composition": "ATIVO-L60-31",
+      "roteiro": "EP037",
+      "status": "pendente"
+    },
+    {
+      "n": 32,
+      "id": "ATIVO_L60_32",
+      "composition": "ATIVO-L60-32",
+      "roteiro": "EP047",
+      "status": "pendente"
+    },
+    {
+      "n": 33,
+      "id": "ATIVO_L60_33",
+      "composition": "ATIVO-L60-33",
+      "roteiro": "EP057",
+      "status": "pendente"
+    },
+    {
+      "n": 34,
+      "id": "ATIVO_L60_34",
+      "composition": "ATIVO-L60-34",
+      "roteiro": "EP008",
+      "status": "pendente"
+    },
+    {
+      "n": 35,
+      "id": "ATIVO_L60_35",
+      "composition": "ATIVO-L60-35",
+      "roteiro": "EP028",
+      "status": "pendente"
+    },
+    {
+      "n": 36,
+      "id": "ATIVO_L60_36",
+      "composition": "ATIVO-L60-36",
+      "roteiro": "EP038",
+      "status": "pendente"
+    },
+    {
+      "n": 37,
+      "id": "ATIVO_L60_37",
+      "composition": "ATIVO-L60-37",
+      "roteiro": "EP048",
+      "status": "pendente"
+    },
+    {
+      "n": 38,
+      "id": "ATIVO_L60_38",
+      "composition": "ATIVO-L60-38",
+      "roteiro": "EP058",
+      "status": "pendente"
+    },
+    {
+      "n": 39,
+      "id": "ATIVO_L60_39",
+      "composition": "ATIVO-L60-39",
+      "roteiro": "EP009",
+      "status": "pendente"
+    },
+    {
+      "n": 40,
+      "id": "ATIVO_L60_40",
+      "composition": "ATIVO-L60-40",
+      "roteiro": "EP029",
+      "status": "pendente"
+    },
+    {
+      "n": 41,
+      "id": "ATIVO_L60_41",
+      "composition": "ATIVO-L60-41",
+      "roteiro": "EP039",
+      "status": "pendente"
+    },
+    {
+      "n": 42,
+      "id": "ATIVO_L60_42",
+      "composition": "ATIVO-L60-42",
+      "roteiro": "EP049",
+      "status": "pendente"
+    },
+    {
+      "n": 43,
+      "id": "ATIVO_L60_43",
+      "composition": "ATIVO-L60-43",
+      "roteiro": "EP059",
+      "status": "pendente"
+    },
+    {
+      "n": 44,
+      "id": "ATIVO_L60_44",
+      "composition": "ATIVO-L60-44",
+      "roteiro": "EP010",
+      "status": "pendente"
+    },
+    {
+      "n": 45,
+      "id": "ATIVO_L60_45",
+      "composition": "ATIVO-L60-45",
+      "roteiro": "EP040",
+      "status": "pendente"
+    },
+    {
+      "n": 46,
+      "id": "ATIVO_L60_46",
+      "composition": "ATIVO-L60-46",
+      "roteiro": "EP050",
+      "status": "pendente"
+    },
+    {
+      "n": 47,
+      "id": "ATIVO_L60_47",
+      "composition": "ATIVO-L60-47",
+      "roteiro": "EP060",
+      "status": "pendente"
+    }
+  ]
+}

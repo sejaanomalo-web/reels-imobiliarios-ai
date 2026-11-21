@@ -1,3 +1,5 @@
+> **21/11/2026 — ESTEIRA DE 5 ESTILOS (regra do cliente):** a partir do lote L60, cada Reel segue o próximo estilo da esteira (1 Palitinho → 2 Desenho à mão → 3 Planta técnica → 4 Tipografia cinética → 5 Painel → 1…), sem pular e sem repetir, inclusive entre lotes. Kits em `PRODUCAO/src/estilos/`, fila em `PRODUCAO/estilos/esteira.json`, guia em `PROMPTS/GUIA_ESTILOS_VISUAIS_ATIVO.md`. Identidade, voz, ritmo, legenda, CTA e publicação não mudam.
+
 # Guia de melhoria contínua
 
 > ## Identidade e processo editorial — 13/11/2026 (vale para todo material novo)

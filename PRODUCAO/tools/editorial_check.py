@@ -39,7 +39,7 @@ GREEN_OK = {(58, 245, 132), (9, 38, 20), (14, 58, 31)}
 LEGACY_CTA = {"EP001", "EP002", "EP003", "EP015", "EP015V2", "EP-ATIVO01", "EP-ATIVO03"}
 # Lote "30 Reels — novembro 2026" (ATIVO-NOV26-*): verde atualizado #02FB3F + derivados (ink #01290B, deep #063A16).
 # Nesse lote o verde antigo #3AF584 é proibido nos arquivos do episódio (use ACCENT_NOV26/accentAlpha).
-NOV26_PREFIX = "ATIVO-NOV26"
+NOV26_PREFIX = ("ATIVO-NOV26", "ATIVO-L60")  # lotes com o verde atualizado #02FB3F (kit A/aa)
 GREEN_OK_NOV26 = {(2, 251, 63), (1, 41, 11), (6, 58, 22)}
 
 
@@ -122,6 +122,24 @@ def check(ep_id: str) -> int:
     if ui_like and not labeled:
         warns.append("há interface de sistema desenhada sem rótulo 'interface ilustrativa'")
 
+    # 9. ESTEIRA DE 5 ESTILOS (cliente, 21/11/2026): episódio com "esteira": true precisa de "estilo" 1–5 registrado em
+    #    estilos/esteira.json e as cenas devem usar o kit do estilo (1–4 → src/estilos/<kit>; 5 → kit Painel NOV26 sem kits novos).
+    if ep.get("esteira"):
+        KITS = {1: "estilos/palitinho", 2: "estilos/lousa", 3: "estilos/planta", 4: "estilos/tipografia"}
+        n = ep.get("estilo")
+        reg = json.load(open(os.path.join(ROOT, "estilos", "esteira.json")))
+        hist = {h["episodio"]: h["estilo"] for h in reg.get("historico", [])}
+        if n not in (1, 2, 3, 4, 5):
+            errs.append("esteira: episódio sem `estilo` 1–5 — rode tools/esteira.py registrar <EP>")
+        elif hist.get(ep_id) != n:
+            errs.append(f"esteira: estilo {n} no episode.json não confere com estilos/esteira.json ({hist.get(ep_id)})")
+        else:
+            scenes = [f for f in files if f.endswith("Scenes.tsx")]
+            src_all = "\n".join(open(f).read() for f in scenes)
+            if n in KITS and KITS[n] not in src_all:
+                errs.append(f"esteira: estilo {n} exige cenas com o kit src/{KITS[n]}.tsx")
+            if n == 5 and re.search(r"estilos/(palitinho|lousa|planta|tipografia)", src_all):
+                errs.append("esteira: estilo 5 (Painel) não deve usar kits dos estilos 1–4")
     print(f"\n== {ep_id} ({'9:16' if vertical else '16:9'}) — {len(errs)} erro(s), {len(warns)} aviso(s)")
     for e in errs:
         print("  ERRO  ", e)
