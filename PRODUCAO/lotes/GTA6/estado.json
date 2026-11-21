@@ -158,7 +158,8 @@
       "duracao_s": 45.6,
       "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/10",
       "produzido_em": "2026-11-21",
-      "agendar_para": "2026-11-29 22:00 BRT"
+      "agendar_para": "2026-11-29 22:00 BRT",
+      "agendado": "2026-11-29 22:00 BRT (ajustado no Supabase)"
     },
     {
       "n": 11,

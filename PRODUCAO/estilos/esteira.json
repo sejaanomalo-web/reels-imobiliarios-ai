@@ -22,7 +22,7 @@
       "kit": "src/episodes/NOV26/kit.tsx"
     }
   },
-  "proximo": 2,
+  "proximo": 3,
   "historico": [
     {
       "episodio": "ATIVO-L60-01",
@@ -88,6 +88,12 @@
       "episodio": "ATIVO-GTA6-10",
       "estilo": 1,
       "nome": "Palitinho",
+      "data": "2026-11-21"
+    },
+    {
+      "episodio": "ATIVO-L60-03",
+      "estilo": 2,
+      "nome": "Desenho à mão",
       "data": "2026-11-21"
     }
   ]

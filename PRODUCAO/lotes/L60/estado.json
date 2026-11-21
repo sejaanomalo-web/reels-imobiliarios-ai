@@ -32,7 +32,12 @@
       "id": "ATIVO_L60_03",
       "composition": "ATIVO-L60-03",
       "roteiro": "EP041",
-      "status": "pendente"
+      "status": "publicado_fila",
+      "estilo": 2,
+      "estiloNome": "Desenho à mão",
+      "duracao_s": 42.5,
+      "pasta": "PUBLICACAO/L60/REELS_01_AO_10/03",
+      "produzido_em": "2026-11-21"
     },
     {
       "n": 4,
