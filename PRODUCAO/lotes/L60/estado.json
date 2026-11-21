@@ -68,7 +68,9 @@
       "id": "ATIVO_L60_06",
       "composition": "ATIVO-L60-06",
       "roteiro": "EP022",
-      "status": "pendente"
+      "status": "bloqueado",
+      "motivo": "cota de voz Gemini esgotada nas duas chaves (21/11/2026, ~15h); episode.json montado (estilo 1 Palitinho registrado); falta gerar tomadas A/B",
+      "agendar_para": "2026-12-01 10:00 BRT (slot automático)"
     },
     {
       "n": 7,
@@ -357,5 +359,8 @@
       "roteiro": "EP060",
       "status": "pendente"
     }
-  ]
+  ],
+  "cota_voz": {
+    "2026-11-21": "chave 1 esgotou na GTA6_11 (tomada B); chave 2 esgotou na L60_06 (tomada A). ~24 gerações no dia."
+  }
 }

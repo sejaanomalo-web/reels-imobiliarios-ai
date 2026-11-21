@@ -22,7 +22,7 @@
       "kit": "src/episodes/NOV26/kit.tsx"
     }
   },
-  "proximo": 1,
+  "proximo": 2,
   "historico": [
     {
       "episodio": "ATIVO-L60-01",
@@ -112,6 +112,12 @@
       "episodio": "ATIVO-L60-05",
       "estilo": 5,
       "nome": "Painel",
+      "data": "2026-11-21"
+    },
+    {
+      "episodio": "ATIVO-L60-06",
+      "estilo": 1,
+      "nome": "Palitinho",
       "data": "2026-11-21"
     }
   ]

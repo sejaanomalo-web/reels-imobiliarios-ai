@@ -1,0 +1,479 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-L60-06",
+ "lote": "L60",
+ "title": "O anúncio que continuou ativo",
+ "outputDir": "ATIVO_L60_06",
+ "deliverables": {
+  "final": "ATIVO_L60_06_FINAL.mp4",
+  "narration": "ATIVO_L60_06_NARRACAO.wav",
+  "subtitles": "ATIVO_L60_06_legendas.srt",
+  "cover": "ATIVO_L60_06_capa.png"
+ },
+ "fonte": "ROTEIROS/EP022.md (LIVRO_60_ROTEIROS.docx, Dia 09 / EP022)",
+ "apuracao": {
+  "fato": "Roteiro atemporal (LIVRO_60_ROTEIROS, Dia 09 / EP022): sem números. Personagens e imóveis ILUSTRATIVOS",
+  "verificado_em": "2026-11-21",
+  "fontes": [
+   "ROTEIROS/LIVRO_60_ROTEIROS.docx (Dia 09 / EP022)"
+  ],
+  "cuidados": "bonecos ILUSTRATIVOS; sem portal de anúncios real"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis usados com anúncios ativos",
+  "motivacao": "evitar o constrangimento do imóvel vendido na hora da visita",
+  "crenca_questionada": "anúncio ativo = imóvel disponível",
+  "hipotese": "palitinho: cliente feliz agenda visita → placa DISPONÍVEL vira VENDIDO → linha do atendimento (anúncio ativo, avança, horário) colide com VENDIDO → volta à casinha com cadastro sem atualização → 3 placas QUEM/QUANDO/ONDE → catálogo menor mas confiável",
+  "funcao": "storytelling de erro evitável (série 03)",
+  "promessa": "rotina de atualização de disponibilidade",
+  "evidencias": "roteiro atemporal (livro, Dia 09 / EP022); sem números",
+  "cta": "comentário SISTEMA → Direct (CTA do livro já era do sistema)"
+ },
+ "cta": {
+  "original_cta": "Se você quer centralizar o controle dos imóveis da sua operação, agende uma demonstração do nosso sistema pelo link da bio.",
+  "transition_adapted": "(não necessária: a CTA do livro já é sobre o sistema; substituída pela CTA SISTEMA padrão)",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O pior momento para descobrir que o imóvel não está disponível é quando o cliente quer visitar.",
+   "caption": "O *pior* momento | para descobrir | que o imóvel | *não está disponível* | é quando o cliente | quer *visitar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "t1",
+   "text": "O anúncio continua ativo, o atendimento avança, a pessoa escolhe horário.",
+   "caption": "O anúncio | continua *ativo,* | o atendimento *avança,* | a pessoa | escolhe *horário.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "Só então alguém verifica que o apartamento já saiu do mercado.",
+   "caption": "Só então | alguém verifica | que o apartamento | já *saiu do mercado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t2",
+   "text": "O problema começou antes da conversa: faltou um processo claro de atualização da carteira.",
+   "caption": "O problema | começou *antes* | da conversa: | faltou um processo | claro | de *atualização* | da carteira.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t3",
+   "text": "Defina quem confirma a disponibilidade, quando o status é revisado e onde a mudança deve ser registrada.",
+   "caption": "Defina | *quem* confirma | a disponibilidade, | *quando* o status | é revisado | e *onde* a mudança | deve ser registrada.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t3",
+   "text": "Uma informação confiável vale mais que um catálogo enorme.",
+   "caption": "Uma informação | *confiável* | vale mais | que um catálogo | *enorme.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_pior": {
+   "seg": "s1",
+   "word": "pior",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_disp": {
+   "seg": "s1",
+   "word": "disponível",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_vis": {
+   "seg": "s1",
+   "word": "visitar",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_ativo": {
+   "seg": "s2",
+   "word": "ativo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_avanca": {
+   "seg": "s2",
+   "word": "avança",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_hor": {
+   "seg": "s2",
+   "word": "horário",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_entao": {
+   "seg": "s3",
+   "word": "então",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_verif": {
+   "seg": "s3",
+   "word": "verifica",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_saiu": {
+   "seg": "s3",
+   "word": "saiu",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_prob": {
+   "seg": "s4",
+   "word": "problema",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_antes": {
+   "seg": "s4",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_atual": {
+   "seg": "s4",
+   "word": "atualização",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_def": {
+   "seg": "s5",
+   "word": "Defina",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_quem": {
+   "seg": "s5",
+   "word": "quem",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_quando": {
+   "seg": "s5",
+   "word": "quando",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_onde": {
+   "seg": "s5",
+   "word": "onde",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_reg": {
+   "seg": "s5",
+   "word": "registrada",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_conf": {
+   "seg": "s6",
+   "word": "confiável",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_enorme": {
+   "seg": "s6",
+   "word": "enorme",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s8",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s8",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s8",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s8",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_pior",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "h_disp",
+   "offset": 0.1,
+   "sound": "block",
+   "gain": -26
+  },
+  {
+   "cue": "h_vis",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -25
+  },
+  {
+   "cue": "a_ativo",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "a_avanca",
+   "offset": 0.05,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "a_hor",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "a_saiu",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -29
+  },
+  {
+   "cue": "b_prob",
+   "offset": -0.1,
+   "sound": "whoosh_fold",
+   "gain": -25
+  },
+  {
+   "cue": "b_atual",
+   "offset": 0.05,
+   "sound": "hollow",
+   "gain": -28
+  },
+  {
+   "cue": "c_def",
+   "offset": -0.15,
+   "sound": "whoosh_up",
+   "gain": -25
+  },
+  {
+   "cue": "c_quem",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26
+  },
+  {
+   "cue": "c_quando",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "c_onde",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26,
+   "pitch": 6
+  },
+  {
+   "cue": "d_conf",
+   "offset": 0.05,
+   "sound": "shimmer",
+   "gain": -27
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — indisponível"
+   },
+   {
+    "at": "cue:a_ativo",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — o atendimento avança"
+   },
+   {
+    "at": "cue:b_prob",
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     53
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Dm — começou antes"
+   },
+   {
+    "at": "cue:c_def",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "G — quem, quando, onde"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ },
+ "estilo": 1,
+ "estiloNome": "Palitinho",
+ "esteira": true
+}
