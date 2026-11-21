@@ -179,6 +179,8 @@ import { L60_03, timeline as l60_03 } from "./episodes/ATIVO-L60-03/Episode";
 import { L60_03Cover } from "./episodes/ATIVO-L60-03/Cover";
 import { L60_04, timeline as l60_04 } from "./episodes/ATIVO-L60-04/Episode";
 import { L60_04Cover } from "./episodes/ATIVO-L60-04/Cover";
+import { PILOTO_01, timeline as piloto_01 } from "./episodes/ATIVO-PILOTO-01/Episode";
+import { PILOTO_01Cover } from "./episodes/ATIVO-PILOTO-01/Cover";
 import { GTA6_11, timeline as gta6_11 } from "./episodes/ATIVO-GTA6-11/Episode";
 import { GTA6_11Cover } from "./episodes/ATIVO-GTA6-11/Cover";
 import { L60_05, timeline as l60_05 } from "./episodes/ATIVO-L60-05/Episode";
@@ -798,6 +800,8 @@ export const RemotionRoot: React.FC = () => (
       <Still id="ATIVO-L60-03-Capa" component={L60_03Cover} width={VIDEO.width} height={VIDEO.height} />
       <Composition id="ATIVO-L60-04" component={L60_04} width={VIDEO.width} height={VIDEO.height} fps={l60_04.fps} durationInFrames={l60_04.durationInFrames} defaultProps={{ withAudio: true }} />
       <Still id="ATIVO-L60-04-Capa" component={L60_04Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-PILOTO-01" component={PILOTO_01} width={VIDEO.width} height={VIDEO.height} fps={piloto_01.fps} durationInFrames={piloto_01.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-PILOTO-01-Capa" component={PILOTO_01Cover} width={VIDEO.width} height={VIDEO.height} />
       <Composition id="ATIVO-GTA6-11" component={GTA6_11} width={VIDEO.width} height={VIDEO.height} fps={gta6_11.fps} durationInFrames={gta6_11.durationInFrames} defaultProps={{ withAudio: true }} />
       <Still id="ATIVO-GTA6-11-Capa" component={GTA6_11Cover} width={VIDEO.width} height={VIDEO.height} />
       <Composition id="ATIVO-L60-05" component={L60_05} width={VIDEO.width} height={VIDEO.height} fps={l60_05.fps} durationInFrames={l60_05.durationInFrames} defaultProps={{ withAudio: true }} />

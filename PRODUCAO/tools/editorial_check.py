@@ -39,7 +39,7 @@ GREEN_OK = {(58, 245, 132), (9, 38, 20), (14, 58, 31)}
 LEGACY_CTA = {"EP001", "EP002", "EP003", "EP015", "EP015V2", "EP-ATIVO01", "EP-ATIVO03"}
 # Lote "30 Reels — novembro 2026" (ATIVO-NOV26-*): verde atualizado #02FB3F + derivados (ink #01290B, deep #063A16).
 # Nesse lote o verde antigo #3AF584 é proibido nos arquivos do episódio (use ACCENT_NOV26/accentAlpha).
-NOV26_PREFIX = ("ATIVO-NOV26", "ATIVO-L60", "ATIVO-GTA6")  # lotes com o verde atualizado #02FB3F (kit A/aa)
+NOV26_PREFIX = ("ATIVO-NOV26", "ATIVO-L60", "ATIVO-GTA6", "ATIVO-PILOTO")  # lotes com o verde atualizado #02FB3F (kit A/aa)
 GREEN_OK_NOV26 = {(2, 251, 63), (1, 41, 11), (6, 58, 22)}
 
 
