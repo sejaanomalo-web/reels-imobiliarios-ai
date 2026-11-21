@@ -1,8 +1,0 @@
-{
- "provider": "gemini",
- "model": "gemini-3.1-flash-tts-preview",
- "voice": "Puck",
- "direction": "Narrador brasileiro de Reels conversando com um colega corretor de imóveis. Energia alta, confiante e animada, com personalidade e sorriso na voz — sem gritar e sem tom de locutor de propaganda. Ritmo MUITO RÁPIDO, como vídeo curto de rede social: cerca de 240 palavras por minuto, frases emendadas, quase sem pausas entre elas, mas com cada sílaba clara. Mude a entonação a cada parágrafo: 1º parágrafo (gancho): provocativo, com contraste forte entre 'pode não gerar venda' e 'próximo passo claro'. 2º: identificação, ágil, enumerando o atendimento; leve preocupação no fim. 3º: tom de quem ensina uma frase pronta; a pergunta ao cliente soa natural, gentil e segura. 4º: a virada — ênfase clara em 'data', 'assunto' e 'expectativa' e no contraste 'encerrada' versus 'acompanhada'. 5º: confiante, objetivo e convidativo.",
- "text_sha": "86cf2038bec2560fd8bfc3750b9f3fe77d4caa02",
- "draft": true
-}

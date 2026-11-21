@@ -1,7 +1,0 @@
-{
- "provider": "gemini",
- "model": "gemini-3.8-flash-tts",
- "voice": "Puck",
- "direction": "Tom de conversa entre colegas corretores de imóveis: brasileiro, próximo, seguro e natural. Ritmo ágil, sem correria, com pausas curtas entre as ideias. Nunca locutor de comercial.",
- "text_sha": "24c80a2cc5bb5b5c42ec63281cc7b611e0573cb1"
-}

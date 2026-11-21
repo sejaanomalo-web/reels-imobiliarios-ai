@@ -1,0 +1,11 @@
+
+# ---- Arquivos GERADOS (não versionar; 21/11/2026) ----
+# Regeneráveis a partir da fonte congelada PRODUCAO/episodes/<EP>/narration_source.wav + episode.json:
+#   python3 tools/build_narration.py <EP> --source episodes/<EP>/narration_source.wav   (narration.wav + NARRACAO.wav)
+#   python3 tools/build_audio.py <EP>                                                    (mix.wav + stems)
+PRODUCAO/public/*/narration.wav
+PRODUCAO/public/*/mix.wav
+OUTPUT/**/audio/*.wav
+OUTPUT/**/*_NARRACAO*.wav
+# cópia do código-fonte feita pelo render_episode.sh (a fonte de verdade é PRODUCAO/)
+OUTPUT/**/editaveis/
