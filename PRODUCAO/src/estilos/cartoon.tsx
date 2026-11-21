@@ -344,13 +344,87 @@ export const Chave: React.FC = () => (
 export const Raio: React.FC<{ s?: number }> = ({ s = 1 }) => (
   <path transform={`scale(${s})`} d="M10 -120 L-50 10 L-6 10 L-24 120 L50 -20 L4 -20 Z" fill="#FFD9D4" stroke="#D2392E" strokeWidth={10} strokeLinejoin="round" />
 );
-export const Balao: React.FC<{ texto: string; w?: number; cor?: string }> = ({ texto, w = 150, cor = "#F4F5F7" }) => (
+export const Balao: React.FC<{ texto: string; w?: number; cor?: string; size?: number; cauda?: 1 | -1 }> = ({ texto, w = 150, cor = "#F4F5F7", size = 64, cauda = 1 }) => (
   <g>
     <rect x={-w / 2} y={-70} width={w} height={110} rx={40} fill={cor} />
-    <path d="M-20 38 L-40 78 L10 38 Z" fill={cor} />
-    <text x={0} y={14} textAnchor="middle" fontFamily={F.sans} fontWeight={800} fontSize={64} fill="#111">{texto}</text>
+    <path d={cauda === 1 ? "M-20 38 L-40 78 L10 38 Z" : "M20 38 L40 78 L-10 38 Z"} fill={cor} />
+    <text x={0} y={-15 + size * 0.45} textAnchor="middle" fontFamily={F.sans} fontWeight={800} fontSize={size} fill="#111">{texto}</text>
   </g>
 );
+/** Folha de calendário (mês em destaque). Centro em (0,0). */
+export const Calendario: React.FC<{ mes: string; cor?: string }> = ({ mes, cor = "#D2392E" }) => (
+  <g>
+    <rect x={-130} y={-120} width={260} height={250} rx={24} fill="#000" opacity={0.35} transform="translate(10 14)" />
+    <rect x={-130} y={-120} width={260} height={250} rx={24} fill="#F4F5F7" />
+    <rect x={-130} y={-120} width={260} height={80} rx={24} fill={cor} />
+    <rect x={-130} y={-64} width={260} height={24} fill={cor} />
+    {[-70, 70].map((x) => <rect key={x} x={x - 9} y={-146} width={18} height={50} rx={9} fill="#2A2D33" />)}
+    <text x={0} y={-62} textAnchor="middle" fontFamily={F.sans} fontWeight={800} fontSize={40} fill="#fff">{mes}</text>
+    {Array.from({ length: 12 }, (_, i) => <rect key={i} x={-104 + (i % 4) * 56} y={-12 + Math.floor(i / 4) * 44} width={40} height={30} rx={6} fill="#C9CED6" />)}
+  </g>
+);
+/** Balança da Justiça. `incl` = inclinação (−1 esquerda pesa … 1 direita pesa). Base em (0,0). */
+export const Balanca: React.FC<{ incl?: number; s?: number; cor?: string }> = ({ incl = 0, s = 1, cor = "#E0A43A" }) => {
+  const a = incl * 14;
+  const ly = Math.sin((a * Math.PI) / 180) * 180;
+  return (
+    <g transform={`scale(${s})`}>
+      <ellipse cx={0} cy={6} rx={150} ry={20} fill="#000" opacity={0.4} />
+      <rect x={-110} y={-30} width={220} height={30} rx={10} fill={cor} />
+      <rect x={-14} y={-420} width={28} height={400} fill={cor} />
+      <rect x={4} y={-420} width={10} height={400} fill="#000" opacity={0.12} />
+      <circle cx={0} cy={-430} r={26} fill={cor} />
+      <g transform={`rotate(${a} 0 -420)`}><rect x={-190} y={-428} width={380} height={16} rx={8} fill={cor} /></g>
+      {[-1, 1].map((k) => {
+        const px = k * 180, py = -420 + k * ly;
+        return (
+          <g key={k}>
+            <path d={`M${px} ${py} L${px - 80} ${py + 150} M${px} ${py} L${px + 80} ${py + 150}`} stroke="#C9CED6" strokeWidth={4} />
+            <path d={`M${px - 100} ${py + 150} Q${px} ${py + 210} ${px + 100} ${py + 150} Z`} fill={cor} />
+          </g>
+        );
+      })}
+    </g>
+  );
+};
+/** Fumaça de "sumiço" (puff): 7 nuvens que crescem e somem em 0,6 s a partir de `at`. Centro em (0,0). */
+export const Fumaca: React.FC<{ t: number; at: number; r?: number }> = ({ t, at, r = 120 }) => {
+  if (t < at || t > at + 0.7) return null;
+  const p = (t - at) / 0.7;
+  return (
+    <g opacity={1 - p}>
+      {Array.from({ length: 7 }, (_, i) => {
+        const ang = (i / 7) * Math.PI * 2;
+        const d = r * 0.5 * (0.3 + p);
+        return <circle key={i} cx={Math.cos(ang) * d} cy={Math.sin(ang) * d - 40} r={r * (0.35 + 0.4 * p)} fill="#D9DCE2" />;
+      })}
+    </g>
+  );
+};
+/** Documento com checklist que marca cada item quando a palavra é dita. Centro em (0,0); itens [{k, at}]. */
+export const Checklist: React.FC<{ t: number; titulo: string; itens: { k: string; at: number }[]; w?: number; topo?: string }> = ({ t, titulo, itens, w = 680, topo = "#2C3E66" }) => {
+  const h = 150 + itens.length * 112;
+  return (
+    <g>
+      <rect x={-w / 2} y={-h / 2} width={w} height={h} rx={18} fill="#000" opacity={0.35} transform="translate(14 18)" />
+      <rect x={-w / 2} y={-h / 2} width={w} height={h} rx={18} fill={C.paper} />
+      <rect x={-w / 2} y={-h / 2} width={w} height={90} rx={18} fill={topo} />
+      <rect x={-w / 2} y={-h / 2 + 60} width={w} height={30} fill={topo} />
+      <text x={0} y={-h / 2 + 58} textAnchor="middle" fontFamily={F.sans} fontWeight={800} fontSize={40} fill="#fff">{titulo}</text>
+      {itens.map((q, i) => {
+        const on = t >= q.at;
+        const k = on ? pop(t, q.at) : 0;
+        return (
+          <g key={q.k} transform={`translate(${-w / 2 + 50} ${-h / 2 + 150 + i * 112})`}>
+            <rect x={0} y={-38} width={76} height={76} rx={14} fill={on ? A.hex : "none"} stroke="#111" strokeWidth={6} />
+            {on ? <g transform={`translate(38 0) scale(${0.5 + 0.5 * k})`}><path d="M-22 2 L-6 18 L24 -16" fill="none" stroke={A.ink} strokeWidth={11} strokeLinecap="round" strokeLinejoin="round" /></g> : null}
+            <text x={104} y={14} fontFamily={F.sans} fontWeight={800} fontSize={42} fill={on ? "#111" : "#9A968E"}>{q.k}</text>
+          </g>
+        );
+      })}
+    </g>
+  );
+};
 export const Avatar: React.FC<{ v: Visual; r?: number; borda?: string }> = ({ v, r = 120, borda = "#fff" }) => (
   <g>
     <circle r={r} fill="#1A1D24" stroke={borda} strokeWidth={10} />
@@ -392,7 +466,7 @@ const NEG = /^(isoladas|nem|acontecer|qualquer|pessoa|competir|não)[,.?!]*$/i;
  * Legenda karaokê no CENTRO (padrão das referências): 1–3 palavras, ainda não falada = cinza, falada = branca e "salta",
  * palavra-chave = verde da marca, palavra negativa = vermelho. Contorno escuro grosso para ler sobre qualquer cena.
  */
-export const LegendaKaraoke: React.FC<{ t: number; chunks: CaptionChunk[]; y?: number; size?: number }> = ({ t, chunks, y = 1040, size = 80 }) => {
+export const LegendaKaraoke: React.FC<{ t: number; chunks: CaptionChunk[]; y?: number; size?: number; negativas?: RegExp }> = ({ t, chunks, y = 1040, size = 80, negativas }) => {
   const chunk = chunks.find((c) => t >= c.start - 0.02 && t < c.end);
   if (!chunk) return null;
   const inS = pop(t, chunk.start - 0.02);
@@ -401,10 +475,12 @@ export const LegendaKaraoke: React.FC<{ t: number; chunks: CaptionChunk[]; y?: n
       {chunk.words.map((w, i) => {
         const dita = t >= w.start - 0.03;
         const sal = dita ? pop(t, w.start - 0.03) : 0;
-        const neg = NEG.test(w.text);
+        // negativa: lista fixa, lista do episódio, ou palavra logo depois de "não/nem" no mesmo bloco ("NÃO PROVA")
+        const prev = i > 0 ? chunk.words[i - 1].text : "";
+        const neg = NEG.test(w.text) || (negativas ? negativas.test(w.text) : false) || (/^(não|nem)$/i.test(prev) && w.emph);
         const cor = !dita ? "#8B9099" : neg && (w.emph || /^(não|nem)$/i.test(w.text)) ? RED : w.emph ? A.hex : "#FFFFFF";
         return (
-          <span key={i} style={{ display: "inline-block", color: cor, WebkitTextStroke: `${size * 0.16}px #0A0A0C`, paintOrder: "stroke fill", textShadow: "0 6px 18px rgba(0,0,0,0.7)", transform: `scale(${dita ? 1 + 0.12 * Math.sin(clamp01(sal) * Math.PI) : 1})`, whiteSpace: "nowrap" }}>{w.text}</span>
+          <span key={i} style={{ display: "inline-block", color: cor, WebkitTextStroke: `${size * 0.16}px #0A0A0C`, paintOrder: "stroke fill", textShadow: "0 6px 18px rgba(0,0,0,0.7)", transform: `scale(${dita ? 1 + 0.12 * Math.min(1, 6 / Math.max(1, w.text.length)) * Math.sin(clamp01(sal) * Math.PI) : 1})`, whiteSpace: "nowrap" }}>{w.text}</span>
         );
       })}
     </div>

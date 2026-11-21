@@ -1,0 +1,98 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.73,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 1.15,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.98,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 1.63,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.32,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 6.56,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 5.45,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 6.06,
+    "palavras_nao_reconhecidas": [
+      "lei"
+    ]
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.77,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.96,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.54,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 3.74,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 4.88,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s14",
+    "seconds": 2.91,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 60.93,
+    "asr_match": 0.984,
+    "aligned_words": "152/154",
+    "words_per_min": 152,
+    "heard": "Você mostrou o apartamento. O cliente comprou e a comissão ficou com outro corretor. Ela ainda pode ser sua? Numa história hipotética. Você leva o cliente para visitar o imóvel em março. Ele pede uns dias e some. Em junho, fecha o mesmo apartamento com outro corretor. A justiça costuma olhar para uma coisa. Quem fez a aproximação útil entre comprador e vendedor. Se o seu trabalho levou ao negócio, a comissão pode ser sua, mesmo sem você no fechamento. Se dois corretores participaram, além manda dividir em partes iguais, salvo o combinado ou diferente. Mas tem um detalhe que decide tudo. Prova. Ficha de visita assinada, data, conversa salva, histórico do cliente. Sem isso é a sua palavra contra a dele. Quem não registra, não prova. E quem não prova, não recebe. Quer conhecer um sistema personalizado para organizar seus imóveis? Leads e atendimentos? Comente Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 64.48,
+      "wpm": 143
+    },
+    "pausas_moldadas": {
+      "n": 32,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 3.55,
+    "final": {
+      "seconds": 60.93,
+      "wpm": 152
+    }
+  }
+]

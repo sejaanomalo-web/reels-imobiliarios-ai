@@ -1,0 +1,910 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-CARTOON-01",
+ "lote": "VIRAL",
+ "title": "A comissão ficou com outro corretor",
+ "outputDir": "ATIVO_CARTOON_01",
+ "deliverables": {
+  "final": "ATIVO_CARTOON_01_FINAL.mp4",
+  "narration": "ATIVO_CARTOON_01_NARRACAO.wav",
+  "subtitles": "ATIVO_CARTOON_01_legendas.srt",
+  "cover": "ATIVO_CARTOON_01_capa.png"
+ },
+ "fonte": "ROTEIROS/VIRAL/ATIVO_CARTOON_01.md (roteiro original ATIVO, 21/11/2026)",
+ "apuracao": {
+  "fato": "Art. 728 do Código Civil (Lei 10.406/2002): 'Se o negócio se concluir com a intermediação de mais de um corretor, a remuneração será paga a todos em partes iguais, salvo ajuste em contrário.' STJ (3ª Turma; AgInt 2025): caracterizada a aproximação útil, com a efetiva celebração do negócio, é devida a comissão ainda que outro profissional tenha conduzido as tratativas finais; mera aproximação sem vínculo efetivo não gera comissão; cabe ao corretor provar o nexo causal. Fala usa 'pode ser sua' / 'costuma' (não é garantia nem consultoria jurídica). História HIPOTÉTICA.",
+  "verificado_em": "2026-11-21",
+  "fontes": [
+   "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm (arts. 722–729)",
+   "https://crecies.gov.br/codigo-civil-corretagem",
+   "https://www.legjur.com/jurisprudencia/eme/767.8897.1345.1400",
+   "https://www.migalhas.com.br/depeso/434604/corretor-tem-direito-a-comissao-mesmo-sem-participar-da-venda-final",
+   "https://www.conjur.com.br/2017-nov-24/nao-cabe-corretagem-negocio-desfeito-desapropriacao/"
+  ],
+  "cuidados": "sem número de processo na tela; sem valores de comissão; personagens ilustrativos; nada de prometer ganho de causa"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor autônomo que mostra imóvel e perde a venda para outro corretor",
+  "motivacao": "medo real de perder comissão; disputa comum no mercado",
+  "crenca_questionada": "'se eu não fechei, perdi tudo'",
+  "hipotese": "cartoon: visita em março → cliente some → venda em junho com outro corretor → o que a Justiça olha (aproximação útil, art. 728) → a prova decide → registro",
+  "funcao": "dor + direito + virada (prova)",
+  "promessa": "entender quando a comissão pode ser sua e o que decide a disputa",
+  "evidencias": "CC art. 725 e 728; STJ: comissão devida quando a aproximação útil do corretor resulta no negócio, mesmo com outro profissional no fechamento, exigida prova do nexo causal",
+  "cta": "comentário SISTEMA → Direct"
+ },
+ "cta": {
+  "original_cta": "(roteiro original da ATIVO, sem CTA própria)",
+  "transition_adapted": "a última frase ('quem não prova, não recebe') leva ao registro → CTA SISTEMA",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Você mostrou o apartamento. O cliente comprou. E a comissão ficou com outro corretor.",
+   "caption": "Você *mostrou* | o apartamento. | O cliente | *comprou.* | E a *comissão* | ficou com | *outro corretor.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Ela ainda pode ser sua?",
+   "caption": "Ela ainda | pode ser *sua?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "Numa história hipotética, você leva o cliente para visitar o imóvel em março.",
+   "caption": "Numa história | *hipotética,* | você leva | o cliente | para *visitar* | o imóvel | em *março.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "Ele pede uns dias e some.",
+   "caption": "Ele pede | uns dias | e *some.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t1",
+   "text": "Em junho, fecha o mesmo apartamento com outro corretor.",
+   "caption": "Em *junho,* | fecha o *mesmo* | apartamento | com *outro corretor.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t2",
+   "text": "A Justiça costuma olhar para uma coisa: quem fez a aproximação útil entre comprador e vendedor.",
+   "caption": "A *Justiça* | costuma olhar | para uma coisa: | quem fez | a *aproximação útil* | entre comprador | e vendedor.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t2",
+   "text": "Se o seu trabalho levou ao negócio, a comissão pode ser sua, mesmo sem você no fechamento.",
+   "caption": "Se o seu | *trabalho* | levou ao negócio, | a *comissão* | pode ser *sua,* | mesmo sem você | no *fechamento.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t2",
+   "text": "Se dois corretores participaram, a lei manda dividir em partes iguais, salvo combinado diferente.",
+   "caption": "Se *dois corretores* | participaram, | a *lei* | manda *dividir* | em partes iguais, | salvo *combinado* | diferente.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "Mas tem um detalhe que decide tudo: prova.",
+   "caption": "Mas tem | um detalhe | que *decide tudo:* | *prova.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "t3",
+   "text": "Ficha de visita assinada, data, conversa salva, histórico do cliente.",
+   "caption": "Ficha de visita | *assinada,* | *data,* | conversa *salva,* | *histórico* | do cliente.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "t3",
+   "text": "Sem isso, é a sua palavra contra a dele.",
+   "caption": "Sem isso, | é a sua | *palavra* | *contra a dele.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "x",
+   "text": "Quem não registra, não prova. E quem não prova, não recebe.",
+   "caption": "Quem *não registra,* | *não prova.* | E quem | não prova, | *não recebe.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "x": 0.3,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_mostrou": {
+   "seg": "s1",
+   "word": "mostrou",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_comprou": {
+   "seg": "s1",
+   "word": "comprou",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_comissao": {
+   "seg": "s1",
+   "word": "comissão",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_outro": {
+   "seg": "s1",
+   "word": "outro",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_sua": {
+   "seg": "s2",
+   "word": "sua",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_hip": {
+   "seg": "s3",
+   "word": "hipotética",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_vis": {
+   "seg": "s3",
+   "word": "visitar",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_marco": {
+   "seg": "s3",
+   "word": "março",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_some": {
+   "seg": "s4",
+   "word": "some",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_junho": {
+   "seg": "s5",
+   "word": "junho",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_mesmo": {
+   "seg": "s5",
+   "word": "mesmo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_outro": {
+   "seg": "s5",
+   "word": "outro",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_justica": {
+   "seg": "s6",
+   "word": "Justiça",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_quem": {
+   "seg": "s6",
+   "word": "quem",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_aprox": {
+   "seg": "s6",
+   "word": "aproximação",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_trab": {
+   "seg": "s7",
+   "word": "trabalho",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_comissao": {
+   "seg": "s7",
+   "word": "comissão",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_sua": {
+   "seg": "s7",
+   "word": "sua",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_fech": {
+   "seg": "s7",
+   "word": "fechamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_dois": {
+   "seg": "s8",
+   "word": "dois",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_lei": {
+   "seg": "s8",
+   "word": "lei",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_dividir": {
+   "seg": "s8",
+   "word": "dividir",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_iguais": {
+   "seg": "s8",
+   "word": "iguais",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_salvo": {
+   "seg": "s8",
+   "word": "salvo",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_mas": {
+   "seg": "s9",
+   "word": "Mas",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_prova": {
+   "seg": "s9",
+   "word": "prova",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_ficha": {
+   "seg": "s10",
+   "word": "Ficha",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_data": {
+   "seg": "s10",
+   "word": "data",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_conversa": {
+   "seg": "s10",
+   "word": "conversa",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_hist": {
+   "seg": "s10",
+   "word": "histórico",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_sem": {
+   "seg": "s11",
+   "word": "Sem",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_palavra": {
+   "seg": "s11",
+   "word": "palavra",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_contra": {
+   "seg": "s11",
+   "word": "contra",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_quem": {
+   "seg": "s12",
+   "word": "Quem",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_prova": {
+   "seg": "s12",
+   "word": "prova",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_recebe": {
+   "seg": "s12",
+   "word": "recebe",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s13",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s13",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s13",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s14",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s14",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s14",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_leads": {
+   "seg": "s13",
+   "word": "leads",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s13",
+   "word": "atendimentos",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s14",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "cta_quer",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.75,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.85,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.2,
+   "sound": "click",
+   "gain": -23,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.28,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "h_mostrou",
+   "offset": -0.64,
+   "sound": "pop",
+   "gain": -26
+  },
+  {
+   "cue": "h_mostrou",
+   "offset": 0.3,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "h_comprou",
+   "offset": -0.9,
+   "sound": "swish",
+   "gain": -28
+  },
+  {
+   "cue": "h_comprou",
+   "offset": 0.1,
+   "sound": "impact",
+   "gain": -26
+  },
+  {
+   "cue": "h_comissao",
+   "offset": -0.3,
+   "sound": "whip",
+   "gain": -28
+  },
+  {
+   "cue": "h_comissao",
+   "offset": 0.0,
+   "sound": "whoosh_up",
+   "gain": -29
+  },
+  {
+   "cue": "h_outro",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -26
+  },
+  {
+   "cue": "h_sua",
+   "offset": -0.85,
+   "sound": "swish",
+   "gain": -28
+  },
+  {
+   "cue": "h_sua",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -25
+  },
+  {
+   "cue": "a_hip",
+   "offset": -0.8,
+   "sound": "swish",
+   "gain": -28
+  },
+  {
+   "cue": "a_hip",
+   "offset": -0.1,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": -2
+  },
+  {
+   "cue": "a_marco",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 2
+  },
+  {
+   "cue": "a_vis",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -26
+  },
+  {
+   "cue": "a_some",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -27
+  },
+  {
+   "cue": "a_some",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -30
+  },
+  {
+   "cue": "a_junho",
+   "offset": -0.25,
+   "sound": "whip",
+   "gain": -27
+  },
+  {
+   "cue": "a_junho",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -26
+  },
+  {
+   "cue": "a_mesmo",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26
+  },
+  {
+   "cue": "a_outro",
+   "offset": 0.15,
+   "sound": "impact",
+   "gain": -25
+  },
+  {
+   "cue": "b_justica",
+   "offset": -0.15,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "b_justica",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": -2
+  },
+  {
+   "cue": "b_aprox",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "b_aprox",
+   "offset": 0.15,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "b_trab",
+   "offset": -0.1,
+   "sound": "pop",
+   "gain": -26
+  },
+  {
+   "cue": "b_trab",
+   "offset": 0.4,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "b_trab",
+   "offset": 0.95,
+   "sound": "pin",
+   "gain": -26
+  },
+  {
+   "cue": "b_comissao",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "b_sua",
+   "offset": 0.1,
+   "sound": "shimmer",
+   "gain": -27
+  },
+  {
+   "cue": "b_fech",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "b_dois",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -26
+  },
+  {
+   "cue": "b_dois",
+   "offset": 0.2,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "b_lei",
+   "offset": -0.05,
+   "sound": "click",
+   "gain": -26
+  },
+  {
+   "cue": "b_dividir",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -28
+  },
+  {
+   "cue": "b_iguais",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "b_salvo",
+   "offset": 0.3,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "c_mas",
+   "offset": 0.0,
+   "sound": "whip",
+   "gain": -28
+  },
+  {
+   "cue": "c_prova",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -24
+  },
+  {
+   "cue": "c_prova",
+   "offset": 0.05,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "c_ficha",
+   "offset": 0.96,
+   "sound": "click",
+   "gain": -25
+  },
+  {
+   "cue": "c_data",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "c_conversa",
+   "offset": 0.44,
+   "sound": "click",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "c_hist",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -25,
+   "pitch": 9
+  },
+  {
+   "cue": "c_sem",
+   "offset": -0.05,
+   "sound": "block",
+   "gain": -26
+  },
+  {
+   "cue": "c_palavra",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -26
+  },
+  {
+   "cue": "c_contra",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "c_contra",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -27
+  },
+  {
+   "cue": "x_quem",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -27
+  },
+  {
+   "cue": "x_prova",
+   "offset": -0.15,
+   "sound": "impact",
+   "gain": -27,
+   "pitch": -2
+  },
+  {
+   "cue": "x_recebe",
+   "offset": -0.15,
+   "sound": "impact",
+   "gain": -25
+  },
+  {
+   "cue": "x_recebe",
+   "offset": 0.0,
+   "sound": "alert",
+   "gain": -30
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "Am — perdeu?"
+   },
+   {
+    "at": "cue:a_hip",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — história"
+   },
+   {
+    "at": "cue:b_justica",
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     53
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Dm — a lei"
+   },
+   {
+    "at": "cue:c_mas",
+    "notes": [
+     28,
+     40,
+     47,
+     52,
+     55
+    ],
+    "root": 40,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "Em — prova"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ },
+ "formato": "cartoon-explicativo"
+}
