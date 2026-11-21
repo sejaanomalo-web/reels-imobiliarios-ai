@@ -1,0 +1,516 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-GTA6-10",
+ "lote": "GTA6",
+ "title": "O primeiro atendimento do corretor de Vice City",
+ "outputDir": "ATIVO_GTA6_10",
+ "deliverables": {
+  "final": "ATIVO_GTA6_10_FINAL.mp4",
+  "narration": "ATIVO_GTA6_10_NARRACAO.wav",
+  "subtitles": "ATIVO_GTA6_10_legendas.srt",
+  "cover": "ATIVO_GTA6_10_capa.png"
+ },
+ "fonte": "ROTEIROS/GTA6/GTA6_10.md (ATIVO_GTA_VI_50_Roteiros_Completos.pdf, roteiro 10)",
+ "apuracao": {
+  "fato": "FICÇÃO/ESQUETE (roteiro 10 do PDF): nada apresentado como fato oficial. 'Nível de procurado' é referência humorística à mecânica clássica da série; estrelas desenhadas genéricas, sem a interface do jogo",
+  "verificado_em": "2026-11-21",
+  "fontes": [
+   "ROTEIROS/GTA6/ATIVO_GTA_VI_50_Roteiros_Completos.pdf (roteiro 10)"
+  ],
+  "cuidados": "bonecos ILUSTRATIVOS; sem interface, logo, carro ou personagem do jogo; perseguição desenhada a traço sem violência"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de plantão com muitos leads",
+  "motivacao": "humor de identificação + hype GTA VI",
+  "crenca_questionada": "plantão cheio = plantão produtivo",
+  "hipotese": "palitinho: corretor (verde) no plantão → 3 leads em cascata (praia, heliponto, rua segura?) → janela com perseguição passando na frente do imóvel cadastrado → resposta com estrelas de 'procurado' → mês: muitas visitas, 0 compradores fora do carro → lead organizado",
+  "funcao": "esquete de atendimento (corretor primeiro)",
+  "promessa": "rir do plantão impossível",
+  "evidencias": "FICÇÃO/ESQUETE",
+  "cta": "transição 'Na vida real, plantão cheio pede lead organizado.' → comentário SISTEMA → Direct"
+ },
+ "cta": {
+  "original_cta": "Marca quem atenderia esse plantão de domingo.",
+  "transition_adapted": "Na vida real, plantão cheio pede lead organizado.",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Eu tenho certeza de que um corretor de Vice City não aguentaria uma semana de atendimento.",
+   "caption": "Eu tenho *certeza* | de que um corretor | de Vice City | *não aguentaria* | uma semana | de atendimento.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "t1",
+   "text": "O primeiro lead pede uma casa próxima da praia.",
+   "caption": "O *primeiro* lead | pede uma casa | próxima da *praia.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "O segundo quer uma cobertura com estacionamento para helicóptero.",
+   "caption": "O *segundo* | quer uma cobertura | com estacionamento | para *helicóptero.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "O terceiro pergunta se a rua é segura.",
+   "caption": "O *terceiro* | pergunta | se a rua é *segura.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t2",
+   "text": "Aí o corretor abre a janela e vê uma perseguição passando na frente do imóvel que acabou de cadastrar.",
+   "caption": "Aí o corretor | abre a *janela* | e vê | uma *perseguição* | passando na frente | do imóvel | que acabou | de *cadastrar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t3",
+   "text": "Ele responde: “a localização é excelente, mas a movimentação varia bastante conforme o nível de procurado”.",
+   "caption": "Ele responde: | “a localização | é *excelente,* | mas a movimentação | varia bastante | conforme | o *nível* de procurado”.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t3",
+   "text": "No fechamento do mês, não faltou visita. Faltou comprador disposto a sair do carro.",
+   "caption": "No fechamento do mês, | não faltou *visita.* | Faltou *comprador* | disposto | a *sair do carro.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t3",
+   "text": "Na vida real, plantão cheio pede lead organizado.",
+   "caption": "Na vida real, | plantão cheio | pede lead *organizado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_cert": {
+   "seg": "s1",
+   "word": "certeza",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_aguent": {
+   "seg": "s1",
+   "word": "aguentaria",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_semana": {
+   "seg": "s1",
+   "word": "semana",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_prim": {
+   "seg": "s2",
+   "word": "primeiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_praia": {
+   "seg": "s2",
+   "word": "praia",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_seg": {
+   "seg": "s3",
+   "word": "segundo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_heli": {
+   "seg": "s3",
+   "word": "helicóptero",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_terc": {
+   "seg": "s4",
+   "word": "terceiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_segura": {
+   "seg": "s4",
+   "word": "segura",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_jan": {
+   "seg": "s5",
+   "word": "janela",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_pers": {
+   "seg": "s5",
+   "word": "perseguição",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_frente": {
+   "seg": "s5",
+   "word": "frente",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_cad": {
+   "seg": "s5",
+   "word": "cadastrar",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_resp": {
+   "seg": "s6",
+   "word": "responde",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_exc": {
+   "seg": "s6",
+   "word": "excelente",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_mov": {
+   "seg": "s6",
+   "word": "movimentação",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_proc": {
+   "seg": "s6",
+   "word": "procurado",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_fech": {
+   "seg": "s7",
+   "word": "fechamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_visita": {
+   "seg": "s7",
+   "word": "visita",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_comp": {
+   "seg": "s7",
+   "word": "comprador",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_carro": {
+   "seg": "s7",
+   "word": "carro",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_real": {
+   "seg": "s8",
+   "word": "real",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_org": {
+   "seg": "s8",
+   "word": "organizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s9",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s9",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s9",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s10",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s10",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s10",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s10",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_cert",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "h_aguent",
+   "offset": 0.05,
+   "sound": "block",
+   "gain": -26
+  },
+  {
+   "cue": "a_prim",
+   "offset": 0.0,
+   "sound": "notif",
+   "gain": -26
+  },
+  {
+   "cue": "a_seg",
+   "offset": 0.0,
+   "sound": "notif",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "a_heli",
+   "offset": 0.05,
+   "sound": "whoosh_up",
+   "gain": -27
+  },
+  {
+   "cue": "a_terc",
+   "offset": 0.0,
+   "sound": "notif",
+   "gain": -26,
+   "pitch": 6
+  },
+  {
+   "cue": "b_jan",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "b_pers",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -28
+  },
+  {
+   "cue": "b_frente",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -25
+  },
+  {
+   "cue": "c_exc",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26
+  },
+  {
+   "cue": "c_proc",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "d_visita",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "d_carro",
+   "offset": 0.05,
+   "sound": "hollow",
+   "gain": -28
+  },
+  {
+   "cue": "e_org",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "Am — uma semana"
+   },
+   {
+    "at": "cue:a_prim",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "F — leads"
+   },
+   {
+    "at": "cue:b_jan",
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     53
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Dm — perseguição"
+   },
+   {
+    "at": "cue:c_resp",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — nível de procurado"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ },
+ "estilo": 1,
+ "estiloNome": "Palitinho",
+ "esteira": true
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.51,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.41,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.07,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.27,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.31,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 5.99,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 5.12,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.05,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.83,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 43.3,
+    "asr_match": 0.992,
+    "aligned_words": "120/121",
+    "words_per_min": 168,
+    "heard": "Eu tenho certeza de que um corretor de Vice City não aguentaria uma semana de atendimento. O primeiro lead pede uma casa próxima da praia. O segundo quer uma cobertura com estacionamento para helicóptero. O terceiro pergunta se a rua é segura. Aí o corretor abre a janela e vê uma perseguição passando na frente do imóvel que acabou de cadastrar. Ele responde, a localização é excelente, mas a movimentação varia bastante conforme o nível de procurado. No fechamento do mês, não faltou visita. Faltou comprador disposto a sair do carro. Na vida real, plantão cheio pede lead organizado. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 44.16,
+      "wpm": 164
+    },
+    "pausas_moldadas": {
+      "n": 11,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 0.86,
+    "final": {
+      "seconds": 43.3,
+      "wpm": 168
+    }
+  }
+]

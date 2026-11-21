@@ -152,7 +152,13 @@
       "roteiro": "ROTEIROS/GTA6/GTA6_10.md",
       "titulo": "O primeiro atendimento do corretor de Vice City",
       "tipo": "CORRETOR PRIMEIRO • Esquete de atendimento • ~38s de narração • FICÇÃO / ESQUETE",
-      "status": "pendente"
+      "status": "publicado_fila",
+      "estilo": 1,
+      "estiloNome": "Palitinho",
+      "duracao_s": 45.6,
+      "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/10",
+      "produzido_em": "2026-11-21",
+      "agendar_para": "2026-11-29 22:00 BRT"
     },
     {
       "n": 11,

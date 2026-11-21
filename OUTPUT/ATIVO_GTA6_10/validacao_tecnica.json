@@ -1,0 +1,66 @@
+{
+ "file": "ATIVO_GTA6_10_FINAL.mp4",
+ "size_mb": 16.31,
+ "duration": 45.65,
+ "video_bitrate_kbps": 2597,
+ "color_space": "bt709",
+ "audio_sample_rate": "48000",
+ "audio_channels": 2,
+ "checks": [
+  {
+   "check": "Dimensões 1080x1920",
+   "ok": true,
+   "value": "1080x1920"
+  },
+  {
+   "check": "Codec de vídeo H.264",
+   "ok": true,
+   "value": "h264"
+  },
+  {
+   "check": "Pixel format yuv420p",
+   "ok": true,
+   "value": "yuv420p"
+  },
+  {
+   "check": "30 fps",
+   "ok": true,
+   "value": "30/1"
+  },
+  {
+   "check": "Áudio AAC presente",
+   "ok": true,
+   "value": "aac"
+  },
+  {
+   "check": "Duração = timeline (±0,1 s)",
+   "ok": true,
+   "value": "45.65 s (timeline 45.63 s)"
+  },
+  {
+   "check": "Decodificação sem erros",
+   "ok": true,
+   "value": "ok"
+  },
+  {
+   "check": "Loudness entre -16 e -14 LUFS",
+   "ok": true,
+   "value": "-14.95 LUFS"
+  },
+  {
+   "check": "True peak ≤ -1 dBTP",
+   "ok": true,
+   "value": "-1.68 dBTP"
+  },
+  {
+   "check": "Sem trechos pretos ≥ 0,2 s",
+   "ok": true,
+   "value": "nenhum"
+  },
+  {
+   "check": "Sem silêncio total ≥ 0,4 s",
+   "ok": true,
+   "value": "nenhum"
+  }
+ ]
+}
