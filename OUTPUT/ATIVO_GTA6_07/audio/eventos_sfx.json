@@ -1,0 +1,134 @@
+[
+ {
+  "t": 0.87,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "h_gta"
+ },
+ {
+  "t": 2.49,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "h_roubar"
+ },
+ {
+  "t": 4.97,
+  "sound": "pin",
+  "gain": -25,
+  "cue": "h_prot"
+ },
+ {
+  "t": 6.091,
+  "sound": "whoosh_fold",
+  "gain": -26,
+  "cue": "a_jason"
+ },
+ {
+  "t": 9.21,
+  "sound": "block",
+  "gain": -27,
+  "cue": "a_preso"
+ },
+ {
+  "t": 11.38,
+  "sound": "whoosh_up",
+  "gain": -26,
+  "cue": "a_lucia"
+ },
+ {
+  "t": 13.13,
+  "sound": "click",
+  "gain": -25,
+  "cue": "a_prisao"
+ },
+ {
+  "t": 14.65,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "a_sorte"
+ },
+ {
+  "t": 16.12,
+  "sound": "swish",
+  "gain": -26,
+  "cue": "b_aprox"
+ },
+ {
+  "t": 20.33,
+  "sound": "tick",
+  "gain": -26,
+  "cue": "b_simples"
+ },
+ {
+  "t": 21.21,
+  "sound": "alert",
+  "gain": -29,
+  "cue": "b_errado"
+ },
+ {
+  "t": 23.77,
+  "sound": "block",
+  "gain": -27,
+  "cue": "b_dirige"
+ },
+ {
+  "t": 26.33,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "c_vida"
+ },
+ {
+  "t": 29.85,
+  "sound": "hollow",
+  "gain": -28,
+  "cue": "c_tent"
+ },
+ {
+  "t": 31.05,
+  "sound": "alert",
+  "gain": -30,
+  "cue": "c_destr"
+ },
+ {
+  "t": 35.77,
+  "sound": "pop",
+  "gain": -26,
+  "cue": "d_caos"
+ },
+ {
+  "t": 38.165,
+  "sound": "whoosh_fold",
+  "gain": -26,
+  "cue": "d_puxa"
+ },
+ {
+  "t": 42.57,
+  "sound": "click",
+  "gain": -24,
+  "cue": "e_org"
+ },
+ {
+  "t": 44.84,
+  "sound": "whoosh_fold",
+  "gain": -27,
+  "cue": "cta_sys"
+ },
+ {
+  "t": 48.38,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 49.87,
+  "sound": "typing",
+  "gain": -30,
+  "cue": "cta_word"
+ },
+ {
+  "t": 52.03,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "cta_end"
+ }
+]

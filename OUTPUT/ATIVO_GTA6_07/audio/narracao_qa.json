@@ -1,0 +1,85 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.65,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.03,
+    "palavras_nao_reconhecidas": [
+      "Jason"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.45,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 6.1,
+    "palavras_nao_reconhecidas": [
+      "deles"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 2.57,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 7.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 6.43,
+    "palavras_nao_reconhecidas": [
+      "puxá",
+      "los"
+    ]
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.63,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 5.12,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 3.0,
+    "palavras_nao_reconhecidas": [
+      "envio"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 51.95,
+    "asr_match": 0.968,
+    "aligned_words": "137/142",
+    "words_per_min": 164,
+    "heard": "Quem acha que GTA VI é só sobre roubar carro não prestou atenção nos dois protagonistas. Jason quer uma vida mais tranquila, mas continua preso ao ambiente criminoso em que cresceu. Lúcia acabou de sair da prisão e quer mudar a própria sorte. Os dois se aproximam e a história dele se complica quando um serviço aparentemente simples dá errado. O ponto interessante não é quem dirige melhor. É ver duas pessoas buscando uma vida diferente, enquanto a cidade oferece exatamente o tipo de tentação que pode destruir esses planos. GTA VI começa com personagens que querem sair do caos e uma cidade inteira tentando puxá-los de volta. Fora do jogo, quem quer sair do caos começa pela organização. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente Sistema, que eu te envia os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 53.24,
+      "wpm": 160
+    },
+    "pausas_moldadas": {
+      "n": 12,
+      "max_s": 0.48
+    },
+    "pausas_encurtadas_s": 1.29,
+    "final": {
+      "seconds": 51.95,
+      "wpm": 164
+    }
+  }
+]
