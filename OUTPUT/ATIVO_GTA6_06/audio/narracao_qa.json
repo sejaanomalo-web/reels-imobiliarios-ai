@@ -1,0 +1,93 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.3,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.06,
+    "palavras_nao_reconhecidas": [
+      "Jason",
+      "Brian",
+      "Heder"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 1.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 8.07,
+    "palavras_nao_reconhecidas": [
+      "Brian",
+      "Jason"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 2.67,
+    "palavras_nao_reconhecidas": [
+      "Brian"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 6.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 5.75,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 1.33,
+    "palavras_nao_reconhecidas": [
+      "Vice",
+      "City"
+    ]
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.47,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.61,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.71,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 48.15,
+    "asr_match": 0.933,
+    "aligned_words": "125/135",
+    "words_per_min": 168,
+    "heard": "GTA 6 tem o pior acordo de aluguel que eu já vi num videogame. Um dos protagonistas, Jason, mora sem pagar aluguel num imóvel de Brian Header. Até aqui parece maravilhoso. Só que Brian não está fazendo caridade. A descrição oficial diz que Jason pode ficar ali desde que o ajude em cobranças locais. Brian também opera negócios no litoral de Leonida. Ou seja, a casa até pode ser sem aluguel, mas vem com uma condição que nenhum corretor sério colocaria num contrato. Conclusão. Quando a oferta de moradia parece boa demais, vale descobrir o que existe nas letras miúdas. Especialmente em Vaicere. Fora do jogo, contrato bom é contrato claro. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 49.96,
+      "wpm": 162
+    },
+    "pausas_moldadas": {
+      "n": 17,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.81,
+    "final": {
+      "seconds": 48.15,
+      "wpm": 168
+    }
+  }
+]

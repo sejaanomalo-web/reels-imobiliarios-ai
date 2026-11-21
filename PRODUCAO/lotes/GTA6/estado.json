@@ -78,7 +78,8 @@
       "duracao_s": 51.8,
       "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/05",
       "produzido_em": "2026-11-21",
-      "agendar_para": "2026-11-24 22:00 BRT"
+      "agendar_para": "2026-11-24 22:00 BRT",
+      "agendado": "2026-11-24 22:00 BRT (ajustado no Supabase)"
     },
     {
       "n": 6,
@@ -87,7 +88,13 @@
       "roteiro": "ROTEIROS/GTA6/GTA6_06.md",
       "titulo": "O aluguel mais suspeito do GTA VI",
       "tipo": "GTA PRIMEIRO • Curiosidade verificada • ~44s de narração • FATO OFICIAL",
-      "status": "pendente"
+      "status": "publicado_fila",
+      "estilo": 1,
+      "estiloNome": "Palitinho",
+      "duracao_s": 50.5,
+      "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/06",
+      "produzido_em": "2026-11-21",
+      "agendar_para": "2026-11-25 22:00 BRT"
     },
     {
       "n": 7,

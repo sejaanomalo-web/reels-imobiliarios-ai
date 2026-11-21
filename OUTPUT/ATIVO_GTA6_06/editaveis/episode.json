@@ -1,0 +1,564 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "leadIn": 0.12,
+  "tail": 2.2,
+  "accent": "#02FB3F",
+  "pronunciation": {
+    "SISTEMA": "sistema",
+    "GTA VI": "GTA seis",
+    "Jason": "Djêison",
+    "Brian Heder": "Bráian Réder",
+    "Brian": "Bráian"
+  },
+  "master": {
+    "tp": -2.0
+  },
+  "id": "ATIVO-GTA6-06",
+  "lote": "GTA6",
+  "title": "O pior contrato de aluguel de Vice City",
+  "outputDir": "ATIVO_GTA6_06",
+  "deliverables": {
+    "final": "ATIVO_GTA6_06_FINAL.mp4",
+    "narration": "ATIVO_GTA6_06_NARRACAO.wav",
+    "subtitles": "ATIVO_GTA6_06_legendas.srt",
+    "cover": "ATIVO_GTA6_06_capa.png"
+  },
+  "fonte": "ROTEIROS/GTA6/GTA6_06.md (ATIVO_GTA_VI_50_Roteiros_Completos.pdf, roteiro 06)",
+  "apuracao": {
+    "fato": "Perfil oficial de GTA VI (Rockstar, Leonida Keys/Brian): Brian Heder deixa Jason morar sem pagar aluguel em um de seus imóveis, desde que Jason o ajude com 'local shakedowns' (no roteiro: 'cobranças locais') e apareça para a sangria de Lori de vez em quando. Brian é descrito como contrabandista que ainda escoa 'produto' pelo seu estaleiro nas Keys (no roteiro: 'opera negócios no litoral de Leonida'). Jason é um dos dois protagonistas",
+    "verificado_em": "2026-11-21",
+    "fontes": [
+      "https://www.rockstargames.com/VI/leonida-keys",
+      "https://www.rockstargames.com/VI/jason",
+      "https://www.rockstargames.com/VI/brian",
+      "https://www.redbull.com/de-de/gta-6-jason-duval-infos-details"
+    ],
+    "cuidados": "personagens representados por bonecos genéricos rotulados INQUILINO/PROPRIETÁRIO (nada da arte do jogo); 'cobranças locais' é tradução suavizada de 'shakedowns' (extorsões); contrato e valores FICTÍCIOS"
+  },
+  "diagnostico": {
+    "publico_situacao": "corretor de locação acompanhando o hype do GTA VI",
+    "motivacao": "fato oficial curioso: moradia 'sem aluguel' com contrapartida suspeita",
+    "crenca_questionada": "aluguel zero é sempre vantagem",
+    "hipotese": "palitinho: casinha + ALUGUEL R$ 0 → inquilino comemora → proprietário chega: DESDE QUE… COBRANÇAS LOCAIS → contrato com CONDIÇÃO SUSPEITA e lupa nas letras miúdas → CONTRATO CLARO",
+    "funcao": "curiosidade verificada (GTA primeiro)",
+    "promessa": "ler as letras miúdas antes de aceitar oferta boa demais",
+    "evidencias": "descrição oficial dos personagens no site da Rockstar (S1)",
+    "cta": "transição 'Fora do jogo, contrato bom é contrato claro.' → comentário SISTEMA → Direct"
+  },
+  "cta": {
+    "original_cta": "Você aceitaria morar de graça nessa condição?",
+    "transition_adapted": "Fora do jogo, contrato bom é contrato claro.",
+    "type": "comentario",
+    "keyword": "SISTEMA",
+    "channel": "Direct",
+    "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+    "source": "regra do cliente em 14/11/2026"
+  },
+  "segments": [
+    {
+      "id": "s1",
+      "scene": "hook",
+      "text": "O GTA VI tem o pior acordo de aluguel que eu já vi num videogame.",
+      "caption": "O *GTA VI* | tem o *pior acordo* | de aluguel | que eu já vi | num videogame.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s2",
+      "scene": "t1",
+      "text": "Um dos protagonistas, Jason, mora sem pagar aluguel num imóvel de Brian Heder.",
+      "caption": "Um dos protagonistas, | *Jason,* | mora *sem pagar* | aluguel | num imóvel | de *Brian Heder.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s3",
+      "scene": "t1",
+      "text": "Até aqui parece maravilhoso.",
+      "caption": "Até aqui | parece *maravilhoso.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s4",
+      "scene": "t2",
+      "text": "Só que Brian não está fazendo caridade: a descrição oficial diz que Jason pode ficar ali desde que o ajude em cobranças locais.",
+      "caption": "Só que Brian | não está fazendo | *caridade:* | a descrição oficial | diz que Jason | pode ficar ali | *desde que* | o ajude | em *cobranças* locais.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s5",
+      "scene": "t2",
+      "text": "Brian também opera negócios no litoral de Leonida.",
+      "caption": "Brian também opera | *negócios* | no litoral | de *Leonida.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s6",
+      "scene": "t3",
+      "text": "Ou seja, a casa até pode ser “sem aluguel”, mas vem com uma condição que nenhum corretor sério colocaria num contrato.",
+      "caption": "Ou seja, | a casa | até pode ser | “sem aluguel”, | mas vem | com uma *condição* | que nenhum | corretor sério | colocaria | num *contrato.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s7",
+      "scene": "t3",
+      "text": "Conclusão: quando a oferta de moradia parece boa demais, vale descobrir o que existe nas letras miúdas.",
+      "caption": "*Conclusão:* | quando a oferta | de moradia | parece *boa demais,* | vale descobrir | o que existe | nas *letras miúdas.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s8",
+      "scene": "t3",
+      "text": "Especialmente em Vice City.",
+      "caption": "Especialmente | em *Vice City.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s9",
+      "scene": "t3",
+      "text": "Fora do jogo, contrato bom é contrato claro.",
+      "caption": "Fora do jogo, | contrato bom | é contrato *claro.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s10",
+      "scene": "cta",
+      "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+      "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s11",
+      "scene": "cta",
+      "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+      "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+      "pauseAfter": 0.3
+    }
+  ],
+  "voice": {
+    "shapePauses": {
+      "keepUnder": 0.22,
+      "ratio": 0.6,
+      "max": 0.6
+    },
+    "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+  },
+  "sceneLead": {
+    "t1": 0.3,
+    "t2": 0.35,
+    "t3": 0.35,
+    "cta": 0.3
+  },
+  "hideCaptions": [],
+  "cues": {
+    "h_gta": {
+      "seg": "s1",
+      "word": "GTA",
+      "edge": "start",
+      "offset": 0
+    },
+    "h_pior": {
+      "seg": "s1",
+      "word": "pior",
+      "edge": "start",
+      "offset": 0
+    },
+    "h_alug": {
+      "seg": "s1",
+      "word": "aluguel",
+      "edge": "start",
+      "offset": 0
+    },
+    "h_video": {
+      "seg": "s1",
+      "word": "videogame",
+      "edge": "start",
+      "offset": 0
+    },
+    "a_prot": {
+      "seg": "s2",
+      "word": "protagonistas",
+      "edge": "start",
+      "offset": 0
+    },
+    "a_jason": {
+      "seg": "s2",
+      "word": "Jason",
+      "edge": "start",
+      "offset": 0
+    },
+    "a_sem": {
+      "seg": "s2",
+      "word": "sem",
+      "edge": "start",
+      "offset": 0
+    },
+    "a_imov": {
+      "seg": "s2",
+      "word": "imóvel",
+      "edge": "start",
+      "offset": 0
+    },
+    "a_brian": {
+      "seg": "s2",
+      "word": "Brian",
+      "edge": "start",
+      "offset": 0
+    },
+    "a_marav": {
+      "seg": "s3",
+      "word": "maravilhoso",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_so": {
+      "seg": "s4",
+      "word": "Só",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_car": {
+      "seg": "s4",
+      "word": "caridade",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_ofic": {
+      "seg": "s4",
+      "word": "oficial",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_desde": {
+      "seg": "s4",
+      "word": "desde",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_cobr": {
+      "seg": "s4",
+      "word": "cobranças",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_neg": {
+      "seg": "s5",
+      "word": "negócios",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_lit": {
+      "seg": "s5",
+      "word": "litoral",
+      "edge": "start",
+      "offset": 0
+    },
+    "c_ouseja": {
+      "seg": "s6",
+      "word": "seja",
+      "edge": "start",
+      "offset": 0
+    },
+    "c_semal": {
+      "seg": "s6",
+      "word": "sem",
+      "edge": "start",
+      "offset": 0
+    },
+    "c_cond": {
+      "seg": "s6",
+      "word": "condição",
+      "edge": "start",
+      "offset": 0
+    },
+    "c_contr": {
+      "seg": "s6",
+      "word": "contrato",
+      "edge": "start",
+      "offset": 0
+    },
+    "d_concl": {
+      "seg": "s7",
+      "word": "Conclusão",
+      "edge": "start",
+      "offset": 0
+    },
+    "d_boa": {
+      "seg": "s7",
+      "word": "boa",
+      "edge": "start",
+      "offset": 0
+    },
+    "d_letras": {
+      "seg": "s7",
+      "word": "letras",
+      "edge": "start",
+      "offset": 0
+    },
+    "d_vice": {
+      "seg": "s8",
+      "word": "Vice",
+      "edge": "start",
+      "offset": 0
+    },
+    "e_fora": {
+      "seg": "s9",
+      "word": "Fora",
+      "edge": "start",
+      "offset": 0
+    },
+    "e_claro": {
+      "seg": "s9",
+      "word": "claro",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_quer": {
+      "seg": "s10",
+      "word": "Quer",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_sys": {
+      "seg": "s10",
+      "word": "sistema",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_tiles": {
+      "seg": "s10",
+      "word": "imóveis",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_comment": {
+      "seg": "s11",
+      "word": "Comente",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_word": {
+      "seg": "s11",
+      "word": "SISTEMA",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_direct": {
+      "seg": "s11",
+      "word": "Direct",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_end": {
+      "seg": "s11",
+      "word": "Direct",
+      "edge": "end",
+      "offset": 0
+    }
+  },
+  "series": {},
+  "sfx": [
+    {
+      "cue": "h_gta",
+      "offset": -0.05,
+      "sound": "pop",
+      "gain": -25
+    },
+    {
+      "cue": "h_pior",
+      "offset": 0.05,
+      "sound": "block",
+      "gain": -26
+    },
+    {
+      "cue": "h_alug",
+      "offset": 0.05,
+      "sound": "tick",
+      "gain": -26
+    },
+    {
+      "cue": "a_jason",
+      "offset": 0.0,
+      "sound": "swish",
+      "gain": -26
+    },
+    {
+      "cue": "a_sem",
+      "offset": 0.05,
+      "sound": "shimmer",
+      "gain": -28
+    },
+    {
+      "cue": "a_brian",
+      "offset": 0.0,
+      "sound": "pin",
+      "gain": -26
+    },
+    {
+      "cue": "a_marav",
+      "offset": 0.05,
+      "sound": "pop",
+      "gain": -25
+    },
+    {
+      "cue": "b_so",
+      "offset": -0.1,
+      "sound": "whoosh_fold",
+      "gain": -25
+    },
+    {
+      "cue": "b_desde",
+      "offset": 0.05,
+      "sound": "hollow",
+      "gain": -28
+    },
+    {
+      "cue": "b_cobr",
+      "offset": 0.05,
+      "sound": "alert",
+      "gain": -30
+    },
+    {
+      "cue": "b_lit",
+      "offset": 0.05,
+      "sound": "swish",
+      "gain": -27
+    },
+    {
+      "cue": "c_cond",
+      "offset": 0.05,
+      "sound": "block",
+      "gain": -25
+    },
+    {
+      "cue": "c_contr",
+      "offset": 0.05,
+      "sound": "click",
+      "gain": -25
+    },
+    {
+      "cue": "d_letras",
+      "offset": 0.05,
+      "sound": "tick",
+      "gain": -26
+    },
+    {
+      "cue": "d_vice",
+      "offset": 0.05,
+      "sound": "pop",
+      "gain": -26
+    },
+    {
+      "cue": "e_claro",
+      "offset": 0.05,
+      "sound": "click",
+      "gain": -24
+    },
+    {
+      "cue": "cta_sys",
+      "offset": 0.4,
+      "sound": "whoosh_fold",
+      "gain": -27
+    },
+    {
+      "cue": "cta_comment",
+      "offset": -0.3,
+      "sound": "pop",
+      "gain": -25,
+      "pitch": 3
+    },
+    {
+      "cue": "cta_word",
+      "offset": 0.55,
+      "sound": "typing",
+      "gain": -30
+    },
+    {
+      "cue": "cta_end",
+      "offset": 0.35,
+      "sound": "shimmer",
+      "gain": -28
+    }
+  ],
+  "music": {
+    "gain": -30,
+    "duck": -5.5,
+    "bpm": 88,
+    "prog": [
+      {
+        "at": 0,
+        "notes": [
+          33,
+          45,
+          52,
+          57,
+          60
+        ],
+        "root": 45,
+        "dens": 2,
+        "bright": 0.5,
+        "label": "Am — pior acordo"
+      },
+      {
+        "at": "cue:a_prot",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57
+        ],
+        "root": 41,
+        "dens": 2,
+        "bright": 0.6,
+        "label": "F — sem aluguel"
+      },
+      {
+        "at": "cue:b_so",
+        "notes": [
+          26,
+          38,
+          45,
+          50,
+          53
+        ],
+        "root": 38,
+        "dens": 2,
+        "bright": 0.45,
+        "label": "Dm — a condição"
+      },
+      {
+        "at": "cue:c_ouseja",
+        "notes": [
+          31,
+          43,
+          50,
+          55,
+          59
+        ],
+        "root": 43,
+        "dens": 2,
+        "bright": 0.55,
+        "label": "G — letras miúdas"
+      },
+      {
+        "at": "cue:cta_sys",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55,
+          62
+        ],
+        "root": 36,
+        "dens": 2,
+        "bright": 0.6,
+        "label": "Cadd9 — sistema"
+      }
+    ]
+  },
+  "estilo": 1,
+  "estiloNome": "Palitinho",
+  "esteira": true
+}
