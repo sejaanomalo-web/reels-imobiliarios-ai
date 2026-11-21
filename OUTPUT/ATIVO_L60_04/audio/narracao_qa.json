@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.35,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.58,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.02,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 6.94,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.35,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 2.72,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 33.76,
+    "asr_match": 0.989,
+    "aligned_words": "88/89",
+    "words_per_min": 158,
+    "heard": "Você pode ter um anúncio excelente e ainda assim perder a conversa depois do clique. O interessado preenche o formulário, mas ninguém assume o primeiro retorno. Ou recebe resposta e fica sem próximo passo registrado. Antes de aumentar o investimento, confira se existe responsável, rotina de acompanhamento e um registro de cada oportunidade. Marketing gera conversas possíveis. Processo comercial dá continuidade. Uma parte não substitui a outra. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 34.91,
+      "wpm": 153
+    },
+    "pausas_moldadas": {
+      "n": 11,
+      "max_s": 0.54
+    },
+    "pausas_encurtadas_s": 1.15,
+    "final": {
+      "seconds": 33.76,
+      "wpm": 158
+    }
+  }
+]

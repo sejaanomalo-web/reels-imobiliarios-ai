@@ -22,7 +22,7 @@
       "kit": "src/episodes/NOV26/kit.tsx"
     }
   },
-  "proximo": 3,
+  "proximo": 4,
   "historico": [
     {
       "episodio": "ATIVO-L60-01",
@@ -94,6 +94,12 @@
       "episodio": "ATIVO-L60-03",
       "estilo": 2,
       "nome": "Desenho à mão",
+      "data": "2026-11-21"
+    },
+    {
+      "episodio": "ATIVO-L60-04",
+      "estilo": 3,
+      "nome": "Planta técnica",
       "data": "2026-11-21"
     }
   ]

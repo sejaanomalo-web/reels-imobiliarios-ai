@@ -27,7 +27,7 @@ export const Comodo: React.FC<{ x: number; y: number; w: number; h: number; p: n
   const k = Math.min(1, Math.max(0, p));
   const tx = Math.min(1, Math.max(0, (p - 0.6) * 2.5));
   return (
-    <g>
+    <g opacity={p > 0.005 ? 1 : 0}>
       <rect x={x} y={y} width={w} height={h} fill={tone === "warn" ? "rgba(255,107,94,0.06)" : aa(0.04 * tx)} stroke={col} strokeWidth={5} pathLength={1} strokeDasharray={1} strokeDashoffset={1 - k} />
       <g opacity={tx} fontFamily={M} fontWeight={700} textAnchor="middle">
         {amb ? <text x={x + w / 2} y={y + h / 2 - titleSize * 0.95} fill={col} fontSize={24}>{amb}</text> : null}

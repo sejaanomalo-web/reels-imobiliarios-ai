@@ -44,7 +44,12 @@
       "id": "ATIVO_L60_04",
       "composition": "ATIVO-L60-04",
       "roteiro": "EP051",
-      "status": "pendente"
+      "status": "publicado_fila",
+      "estilo": 3,
+      "estiloNome": "Planta técnica",
+      "duracao_s": 36.1,
+      "pasta": "PUBLICACAO/L60/REELS_01_AO_10/04",
+      "produzido_em": "2026-11-21"
     },
     {
       "n": 5,
