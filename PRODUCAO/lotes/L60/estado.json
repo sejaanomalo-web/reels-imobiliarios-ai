@@ -8,7 +8,12 @@
       "id": "ATIVO_L60_01",
       "composition": "ATIVO-L60-01",
       "roteiro": "EP011",
-      "status": "pendente"
+      "status": "publicado_fila",
+      "estilo": 1,
+      "estiloNome": "Palitinho",
+      "duracao_s": 35.8,
+      "pasta": "PUBLICACAO/L60/REELS_01_AO_10/01",
+      "produzido_em": "2026-11-21"
     },
     {
       "n": 2,

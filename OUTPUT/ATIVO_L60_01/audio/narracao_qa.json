@@ -1,0 +1,78 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.24,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 1.57,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.76,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.97,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 1.87,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.47,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 1.4,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 4.99,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.49,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.73,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 33.47,
+    "asr_match": 0.98,
+    "aligned_words": "96/98",
+    "words_per_min": 176,
+    "heard": "Seu cliente mandou, ainda está disponível? Não responda só com um sim. Claro que você precisa confirmar a disponibilidade antes, mas se parar nessa resposta, a conversa não ganha contexto nem direção. Você pode responder, tá disponível sim. Quer que eu te envie a planta e os detalhes ou prefere conhecer primeiro as condições da visita? O objetivo não é pressionar, é oferecer um próximo passo útil e descobrir qual informação ajuda aquela pessoa a decidir. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 34.88,
+      "wpm": 169
+    },
+    "pausas_moldadas": {
+      "n": 14,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.41,
+    "final": {
+      "seconds": 33.47,
+      "wpm": 176
+    }
+  }
+]

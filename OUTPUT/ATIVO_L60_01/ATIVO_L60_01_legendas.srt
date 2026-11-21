@@ -1,0 +1,83 @@
+1
+00:00:00,120 --> 00:00:01,430
+Seu cliente mandou:
+
+2
+00:00:01,480 --> 00:00:02,560
+ainda está disponível?
+
+3
+00:00:02,760 --> 00:00:04,530
+Não responda só com um sim.
+
+4
+00:00:04,680 --> 00:00:06,340
+Claro que você precisa confirmar
+
+5
+00:00:06,360 --> 00:00:07,640
+a disponibilidade antes.
+
+6
+00:00:07,720 --> 00:00:09,460
+Mas, se parar nessa resposta,
+
+7
+00:00:09,480 --> 00:00:11,890
+a conversa não ganha contexto nem direção.
+
+8
+00:00:11,960 --> 00:00:12,894
+Você pode responder:
+
+9
+00:00:12,914 --> 00:00:13,940
+está disponível, sim.
+
+10
+00:00:13,960 --> 00:00:15,140
+Quer que eu te envie a planta
+
+11
+00:00:15,160 --> 00:00:16,980
+e os detalhes, ou prefere conhecer
+
+12
+00:00:17,000 --> 00:00:18,630
+primeiro as condições da visita?
+
+13
+00:00:18,680 --> 00:00:20,260
+O objetivo não é pressionar.
+
+14
+00:00:20,280 --> 00:00:22,260
+É oferecer um próximo passo útil
+
+15
+00:00:22,280 --> 00:00:23,620
+e descobrir qual informação
+
+16
+00:00:23,640 --> 00:00:25,470
+ajuda aquela pessoa a decidir.
+
+17
+00:00:25,640 --> 00:00:27,620
+Quer conhecer um sistema personalizado
+
+18
+00:00:27,640 --> 00:00:29,460
+para organizar seus imóveis, leads
+
+19
+00:00:29,480 --> 00:00:30,330
+e atendimentos?
+
+20
+00:00:30,448 --> 00:00:32,100
+Comente SISTEMA que eu te envio
+
+21
+00:00:32,120 --> 00:00:33,380
+os detalhes pelo Direct.

@@ -1,12 +1,34 @@
 {
   "regra": "Regra do cliente (21/11/2026): todo Reel novo segue a esteira de 5 estilos visuais, um por vez, em ordem circular contínua entre roteiros e lotes: 1 → 2 → 3 → 4 → 5 → 1 … Mesma identidade, voz, ritmo, legenda e CTA SISTEMA em todos. Guia: PROMPTS/GUIA_ESTILOS_VISUAIS_ATIVO.md.",
   "estilos": {
-    "1": {"nome": "Palitinho", "kit": "src/estilos/palitinho.tsx"},
-    "2": {"nome": "Desenho à mão", "kit": "src/estilos/lousa.tsx"},
-    "3": {"nome": "Planta técnica", "kit": "src/estilos/planta.tsx"},
-    "4": {"nome": "Tipografia cinética", "kit": "src/estilos/tipografia.tsx"},
-    "5": {"nome": "Painel", "kit": "src/episodes/NOV26/kit.tsx"}
+    "1": {
+      "nome": "Palitinho",
+      "kit": "src/estilos/palitinho.tsx"
+    },
+    "2": {
+      "nome": "Desenho à mão",
+      "kit": "src/estilos/lousa.tsx"
+    },
+    "3": {
+      "nome": "Planta técnica",
+      "kit": "src/estilos/planta.tsx"
+    },
+    "4": {
+      "nome": "Tipografia cinética",
+      "kit": "src/estilos/tipografia.tsx"
+    },
+    "5": {
+      "nome": "Painel",
+      "kit": "src/episodes/NOV26/kit.tsx"
+    }
   },
-  "proximo": 1,
-  "historico": []
+  "proximo": 2,
+  "historico": [
+    {
+      "episodio": "ATIVO-L60-01",
+      "estilo": 1,
+      "nome": "Palitinho",
+      "data": "2026-11-21"
+    }
+  ]
 }
