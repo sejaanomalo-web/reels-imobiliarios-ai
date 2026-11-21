@@ -1,9 +1,9 @@
 {
  "final_lufs": "-14.96",
  "final_true_peak": "-1.94",
- "final_lra": "2.60",
+ "final_lra": "2.50",
  "narracao_lufs": "-19.04",
- "trilha_lufs": "-36.85",
- "efeitos_lufs": "-39.58",
- "eventos": 41
+ "trilha_lufs": "-36.45",
+ "efeitos_lufs": "-39.53",
+ "eventos": 48
 }

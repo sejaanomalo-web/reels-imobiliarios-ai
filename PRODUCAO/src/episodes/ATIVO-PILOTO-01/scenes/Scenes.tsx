@@ -4,7 +4,7 @@ import { clamp01, ease, mix, prog } from "../../../lib/anim";
 import type { Timeline } from "../../types";
 import { A, aa } from "../../NOV26/kit";
 import {
-  CamCartoon, Carimbo, Casa, type Clima, Confete, Etiqueta, Figurante, Holofote, Personagem, Pop, Predio, Proibido, Raios, Selo, VIS, pop, RED,
+  Avatar, Balao, Cadeado, CamCartoon, Carimbo, Chave, Check, Escudo, Moedas, Pasta, Raio, acentosDe, gesto, Casa, type Clima, Confete, Etiqueta, Figurante, Holofote, Personagem, Pop, Predio, Proibido, Raios, Selo, VIS, pop, RED,
 } from "../../../estilos/cartoon";
 
 /**
@@ -19,78 +19,10 @@ type Shot = {
   svg?: (t: number) => React.ReactNode; html?: (t: number) => React.ReactNode; selo?: (t: number) => React.ReactNode;
 };
 
-/* ---------- objetos do episódio ---------- */
-const Pasta: React.FC<{ s?: number; label?: string; cor?: string }> = ({ s = 1, label, cor = "#E0A43A" }) => (
-  <g transform={`scale(${s})`}>
-    <path d="M-80 -60 L-30 -60 L-18 -46 L80 -46 L80 50 L-80 50 Z" fill={cor} />
-    <rect x={-80} y={-34} width={160} height={84} rx={6} fill="#F0B94E" />
-    {label ? <text x={0} y={18} textAnchor="middle" fontFamily={F.sans} fontWeight={800} fontSize={30} fill="#3A2A10">{label}</text> : null}
-  </g>
-);
-const Cadeado: React.FC<{ s?: number; cor?: string }> = ({ s = 1, cor = "#C9CED6" }) => (
-  <g transform={`scale(${s})`}>
-    <path d="M-30 -10 L-30 -40 A30 30 0 0 1 30 -40 L30 -10" fill="none" stroke={cor} strokeWidth={14} />
-    <rect x={-48} y={-14} width={96} height={78} rx={14} fill={cor} />
-    <rect x={8} y={-14} width={40} height={78} fill="#000" opacity={0.12} />
-    <circle cx={0} cy={18} r={11} fill="#222" />
-  </g>
-);
-const Chave: React.FC = () => (
-  <g fill={A.hex}>
-    <circle cx={0} cy={0} r={22} />
-    <circle cx={0} cy={0} r={9} fill="#0A0A0C" />
-    <rect x={16} y={-6} width={60} height={12} rx={4} />
-    <rect x={58} y={4} width={9} height={16} />
-    <rect x={44} y={4} width={9} height={12} />
-  </g>
-);
-const Raio: React.FC<{ s?: number }> = ({ s = 1 }) => (
-  <path transform={`scale(${s})`} d="M10 -120 L-50 10 L-6 10 L-24 120 L50 -20 L4 -20 Z" fill="#FFD9D4" stroke="#D2392E" strokeWidth={10} strokeLinejoin="round" />
-);
-const Balao: React.FC<{ texto: string; w?: number; cor?: string }> = ({ texto, w = 150, cor = "#F4F5F7" }) => (
-  <g>
-    <rect x={-w / 2} y={-70} width={w} height={110} rx={40} fill={cor} />
-    <path d="M-20 38 L-40 78 L10 38 Z" fill={cor} />
-    <text x={0} y={14} textAnchor="middle" fontFamily={F.sans} fontWeight={800} fontSize={64} fill="#111">{texto}</text>
-  </g>
-);
-const Avatar: React.FC<{ v: (typeof VIS)[string]; r?: number; borda?: string }> = ({ v, r = 120, borda = "#fff" }) => (
-  <g>
-    <circle r={r} fill="#1A1D24" stroke={borda} strokeWidth={10} />
-    <clipPath id={`av_${v.terno}_${r}`}><circle r={r - 5} /></clipPath>
-    <g clipPath={`url(#av_${v.terno}_${r})`}>
-      <path d={`M${-r * 0.8} ${r} Q${-r * 0.8} ${r * 0.3} 0 ${r * 0.3} Q${r * 0.8} ${r * 0.3} ${r * 0.8} ${r} Z`} fill={v.terno} />
-      <circle cx={0} cy={-r * 0.18} r={r * 0.42} fill={v.pele} />
-      <path d={`M${-r * 0.43} ${-r * 0.24} C${-r * 0.46} ${-r * 0.72} ${r * 0.46} ${-r * 0.72} ${r * 0.43} ${-r * 0.24} C${r * 0.3} ${-r * 0.4} ${-r * 0.3} ${-r * 0.4} ${-r * 0.43} ${-r * 0.24} Z`} fill={v.cabelo} />
-      <circle cx={-r * 0.15} cy={-r * 0.2} r={r * 0.06} fill="#111" />
-      <circle cx={r * 0.15} cy={-r * 0.2} r={r * 0.06} fill="#111" />
-    </g>
-  </g>
-);
-const Check: React.FC<{ r?: number }> = ({ r = 46 }) => (
-  <g>
-    <circle r={r} fill={A.hex} stroke="#fff" strokeWidth={7} />
-    <path d={`M${-r * 0.42} 0 L${-r * 0.1} ${r * 0.32} L${r * 0.45} ${-r * 0.32}`} fill="none" stroke={A.ink} strokeWidth={r * 0.2} strokeLinecap="round" strokeLinejoin="round" />
-  </g>
-);
-const Moedas: React.FC = () => (
-  <g>
-    {[0, 1, 2, 3].map((k) => <g key={k} transform={`translate(0 ${-k * 26})`}><ellipse rx={70} ry={22} cy={12} fill="#A8761E" /><ellipse rx={70} ry={22} fill="#E0A43A" /></g>)}
-    <circle cx={0} cy={-150} r={52} fill="#F4F5F7" stroke="#111" strokeWidth={6} />
-    <text x={0} y={-131} textAnchor="middle" fontFamily={F.sans} fontWeight={800} fontSize={56} fill="#111">%</text>
-  </g>
-);
-const Escudo: React.FC<{ s?: number }> = ({ s = 1 }) => (
-  <g transform={`scale(${s})`}>
-    <path d="M0 -150 L120 -105 Q122 40 0 140 Q-122 40 -120 -105 Z" fill={A.hex} stroke="#fff" strokeWidth={10} />
-    <path d="M0 -150 L120 -105 Q122 40 0 140 Z" fill="#000" opacity={0.12} />
-    <g transform="translate(0 -6)"><Cadeado s={1.05} cor={A.ink} /></g>
-  </g>
-);
-
 /* ---------- planos ---------- */
 export const makeShots = (tl: Timeline): Shot[] => {
   const c = tl.cues;
+  const ac = acentosDe(tl.captions);
   const w = (re: RegExp, seg: string, fb: number) => {
     for (const k of tl.captions) if (k.seg === seg) for (const x of k.words) if (re.test(x.text)) return x.start;
     return fb;
@@ -124,8 +56,8 @@ export const makeShots = (tl: Timeline): Shot[] => {
         <>
           <Holofote x={300} chao={FLOOR} w={460} p={prog(t, 0, 0.3)} />
           <Holofote x={780} chao={FLOOR} w={460} p={prog(t, tCorr - 0.3, 0.3)} />
-          <Pop t={t} at={0.15} x={300} y={FLOOR}><Personagem t={t} x={0} y={0} s={0.9} v={VIS.A} humor="feliz" braco={t > 1.1 ? 150 : 10} /></Pop>
-          <Pop t={t} at={tCorr - 0.1} x={780} y={FLOOR}><Personagem t={t} x={0} y={0} s={0.9} v={VIS.B} humor="feliz" flip seed={2} braco={8} /></Pop>
+          <Pop t={t} at={0.15} x={300} y={FLOOR}><Personagem t={t} x={0} y={0} s={0.9} v={VIS.A} acentos={ac} humor="feliz" braco={gesto(t, 1.1, 10, 150)} /></Pop>
+          <Pop t={t} at={tCorr - 0.1} x={780} y={FLOOR}><Personagem t={t} x={0} y={0} s={0.9} v={VIS.B} acentos={ac} humor="feliz" flip seed={2} braco={8} /></Pop>
         </>
       ),
       html: (t) => (
@@ -140,10 +72,10 @@ export const makeShots = (tl: Timeline): Shot[] => {
       svg: (t) => (
         <>
           <line x1={540} y1={420} x2={540} y2={FLOOR} stroke="#fff" strokeOpacity={0.25} strokeWidth={6} strokeDasharray="22 18" />
-          <Personagem t={t} x={190} y={FLOOR} s={0.72} v={VIS.A} braco={70} />
+          <Personagem t={t} x={190} y={FLOOR} s={0.72} v={VIS.A} acentos={ac} braco={70} />
           <Pop t={t} at={tAtend + 0.6} x={395} y={FLOOR}><Personagem t={t} x={0} y={0} s={0.62} v={VIS.comprador} flip seed={1} humor="feliz" /></Pop>
           <Pop t={t} at={tAtend + 0.95} x={685} y={FLOOR}><Personagem t={t} x={0} y={0} s={0.62} v={{ ...VIS.comprador, terno: "#4C7FB8", sombraTerno: "#3E6A9B", camisa: "#4C7FB8", cabeloTipo: "curto", pele: "#E8B48C" }} seed={3} humor="neutro" /></Pop>
-          <Personagem t={t} x={890} y={FLOOR} s={0.72} v={VIS.B} flip braco={70} seed={2} />
+          <Personagem t={t} x={890} y={FLOOR} s={0.72} v={VIS.B} acentos={ac} flip braco={70} seed={2} />
         </>
       ),
       html: (t) => (
@@ -158,7 +90,7 @@ export const makeShots = (tl: Timeline): Shot[] => {
       svg: (t) => (
         <>
           <Holofote x={330} chao={FLOOR + 80} w={520} />
-          <Personagem t={t} x={330} y={FLOOR + 90} s={1.05} v={VIS.A} humor="feliz" braco={t > c.h_imovel ? 140 : 20} />
+          <Personagem t={t} x={330} y={FLOOR + 90} s={1.05} v={VIS.A} acentos={ac} humor="feliz" braco={gesto(t, c.h_imovel, 20, 140)} />
           <Pop t={t} at={c.h_imovel - 0.1} x={730} y={860}><Casa w={340} /></Pop>
           <Pop t={t} at={c.h_imovel + 0.5} x={880} y={530}><Check r={54} /></Pop>
         </>
@@ -170,7 +102,7 @@ export const makeShots = (tl: Timeline): Shot[] => {
       svg: (t) => (
         <>
           <Holofote x={750} chao={FLOOR + 80} w={520} />
-          <Personagem t={t} x={750} y={FLOOR + 90} s={1.05} v={VIS.B} humor="feliz" flip seed={2} braco={t > c.h_cliente ? 140 : 20} />
+          <Personagem t={t} x={750} y={FLOOR + 90} s={1.05} v={VIS.B} acentos={ac} humor="feliz" flip seed={2} braco={gesto(t, c.h_cliente, 20, 140)} />
           <Pop t={t} at={c.h_cliente - 0.1} x={340} y={650}><Avatar v={VIS.comprador} r={170} /></Pop>
           <Pop t={t} at={c.h_cliente + 0.45} x={480} y={520}><Check r={54} /></Pop>
         </>
@@ -181,8 +113,8 @@ export const makeShots = (tl: Timeline): Shot[] => {
       id: "5a competir", a: tElesVao, b: tConvers - 0.1, clima: "conflito", vin: 0.9, hits: [c.h_compet], push: 0.03,
       svg: (t) => (
         <>
-          <Personagem t={t} x={290} y={FLOOR} s={0.92} v={VIS.A} humor={t > c.h_compet ? "bravo" : "neutro"} braco={t > c.h_compet ? 95 : 10} olhar={1} />
-          <Personagem t={t} x={790} y={FLOOR} s={0.92} v={VIS.B} humor={t > c.h_compet ? "bravo" : "neutro"} flip braco={t > c.h_compet ? 95 : 10} olhar={1} seed={2} />
+          <Personagem t={t} x={290} y={FLOOR} s={0.92} v={VIS.A} acentos={ac} humor={t > c.h_compet ? "bravo" : "neutro"} braco={gesto(t, c.h_compet, 10, 95)} olhar={1} />
+          <Personagem t={t} x={790} y={FLOOR} s={0.92} v={VIS.B} acentos={ac} humor={t > c.h_compet ? "bravo" : "neutro"} flip braco={gesto(t, c.h_compet, 10, 95)} olhar={1} seed={2} />
           <Pop t={t} at={c.h_compet} x={540} y={650}><Raio s={1.6} /></Pop>
         </>
       ),
@@ -191,8 +123,8 @@ export const makeShots = (tl: Timeline): Shot[] => {
       id: "5b ou conversar", a: tConvers - 0.1, b: tNuma, clima: "pergunta", vin: 0.85,
       svg: (t) => (
         <>
-          <Personagem t={t} x={290} y={FLOOR} s={0.92} v={VIS.A} humor="espanto" braco={30} olhar={1} />
-          <Personagem t={t} x={790} y={FLOOR} s={0.92} v={VIS.B} humor="espanto" flip braco={30} olhar={1} seed={2} />
+          <Personagem t={t} x={290} y={FLOOR} s={0.92} v={VIS.A} acentos={ac} humor="espanto" braco={30} olhar={1} />
+          <Personagem t={t} x={790} y={FLOOR} s={0.92} v={VIS.B} acentos={ac} humor="espanto" flip braco={30} olhar={1} seed={2} />
           <Pop t={t} at={tConvers} x={330} y={830}><Balao texto="?" /></Pop>
           <Pop t={t} at={tConvers + 0.25} x={750} y={830}><Balao texto="?" /></Pop>
         </>
@@ -205,7 +137,7 @@ export const makeShots = (tl: Timeline): Shot[] => {
         <>
           <Holofote x={740} chao={FLOOR} w={520} />
           <g transform={`translate(740 ${FLOOR})`}><Casa w={380} /></g>
-          <Pop t={t} at={tA - 0.1} x={300} y={FLOOR}><Personagem t={t} x={0} y={0} s={0.9} v={VIS.A} humor="feliz" braco={t > c.a_capt ? 120 : 20} item={t > c.a_capt - 0.3 ? <Chave /> : null} /></Pop>
+          <Pop t={t} at={tA - 0.1} x={300} y={FLOOR}><Personagem t={t} x={0} y={0} s={0.9} v={VIS.A} acentos={ac} humor="feliz" braco={gesto(t, c.a_capt, 20, 120)} item={t > c.a_capt - 0.3 ? <Chave /> : null} /></Pop>
           <Pop t={t} at={c.a_capt} x={900} y={1200}><Check r={56} /></Pop>
         </>
       ),
@@ -217,7 +149,7 @@ export const makeShots = (tl: Timeline): Shot[] => {
       svg: (t) => (
         <>
           <Holofote x={330} chao={FLOOR} w={480} />
-          <Personagem t={t} x={330} y={FLOOR} s={0.9} v={VIS.B} humor="feliz" seed={2} braco={t > tAlg ? 85 : 15} />
+          <Personagem t={t} x={330} y={FLOOR} s={0.9} v={VIS.B} acentos={ac} humor="feliz" seed={2} braco={gesto(t, tAlg, 15, 85)} />
           <Pop t={t} at={tAlg - 0.05} x={770} y={FLOOR}><Personagem t={t} x={0} y={0} s={0.76} v={VIS.comprador} flip seed={1} humor="neutro" /></Pop>
         </>
       ),
@@ -260,7 +192,7 @@ export const makeShots = (tl: Timeline): Shot[] => {
               <path d="M0 0 C-70 -80 -60 -170 0 -170 C60 -170 70 -80 0 0 Z" fill={A.hex} stroke="#fff" strokeWidth={7} />
               <circle cx={0} cy={-112} r={24} fill={A.ink} />
             </Pop>
-            <Personagem t={t} x={220} y={FLOOR + 60} s={0.86} v={VIS.comprador} olhar={1} humor={t > c.a_regiao ? "feliz" : "neutro"} braco={t > c.a_regiao ? 150 : 20} seed={1} />
+            <Personagem t={t} x={220} y={FLOOR + 60} s={0.86} v={VIS.comprador} olhar={1} humor={t > c.a_regiao ? "feliz" : "neutro"} braco={gesto(t, c.a_regiao, 20, 150)} seed={1} />
           </>
         );
       },
@@ -272,8 +204,8 @@ export const makeShots = (tl: Timeline): Shot[] => {
         const drop = prog(t, c.a_isol - 0.16, 0.16, ease.in);
         return (
           <>
-            <Personagem t={t} x={260} y={FLOOR} s={0.86} v={VIS.A} humor={t > c.a_isol ? "triste" : "neutro"} braco={110} item={<g transform="translate(0 40)"><Pasta s={0.9} /></g>} />
-            <Personagem t={t} x={820} y={FLOOR} s={0.86} v={VIS.B} humor={t > c.a_isol ? "triste" : "neutro"} flip braco={110} seed={2} item={<g transform="translate(0 40) scale(-1 1)"><Pasta s={0.9} cor="#7BA0C9" /></g>} />
+            <Personagem t={t} x={260} y={FLOOR} s={0.86} v={VIS.A} acentos={ac} humor={t > c.a_isol ? "triste" : "neutro"} braco={110} item={<g transform="translate(0 40)"><Pasta s={0.9} /></g>} />
+            <Personagem t={t} x={820} y={FLOOR} s={0.86} v={VIS.B} acentos={ac} humor={t > c.a_isol ? "triste" : "neutro"} flip braco={110} seed={2} item={<g transform="translate(0 40) scale(-1 1)"><Pasta s={0.9} cor="#7BA0C9" /></g>} />
             <Pop t={t} at={c.a_guardar} x={290} y={700}><Cadeado s={1.2} /></Pop>
             <Pop t={t} at={c.a_guardar + 0.3} x={790} y={700}><Cadeado s={1.2} /></Pop>
             <g transform={`translate(540 ${mix(-1700, 0, drop)})`}>
@@ -384,8 +316,8 @@ export const makeShots = (tl: Timeline): Shot[] => {
               <rect x={60} y={170} width={220} height={10} rx={5} fill="#C9C4BA" />
             </g>
             {linhas.map((q, i) => <Pop key={q.k} t={t} at={q.at} x={260 + 0} y={570 + i * 130}><Check r={44} /></Pop>)}
-            <Personagem t={t} x={180} y={FLOOR + 40} s={0.7} v={VIS.A} braco={60} humor="neutro" />
-            <Personagem t={t} x={900} y={FLOOR + 40} s={0.7} v={VIS.B} flip braco={60} seed={2} humor="neutro" />
+            <Personagem t={t} x={180} y={FLOOR + 40} s={0.7} v={VIS.A} acentos={ac} braco={60} humor="neutro" />
+            <Personagem t={t} x={900} y={FLOOR + 40} s={0.7} v={VIS.B} acentos={ac} flip braco={60} seed={2} humor="neutro" />
           </>
         );
       },
@@ -395,8 +327,8 @@ export const makeShots = (tl: Timeline): Shot[] => {
       id: "14 responsabilidades e remuneração", a: c.b_resp, b: c.b_prot, clima: "explica", vin: 0.72, punch: [{ at: c.b_rem, s: 1.05 }],
       svg: (t) => (
         <>
-          <Personagem t={t} x={220} y={FLOOR} s={0.84} v={VIS.A} braco={t > c.b_rem ? 75 : 20} humor="feliz" />
-          <Personagem t={t} x={860} y={FLOOR} s={0.84} v={VIS.B} flip braco={t > c.b_rem ? 75 : 20} seed={2} humor="feliz" />
+          <Personagem t={t} x={220} y={FLOOR} s={0.84} v={VIS.A} acentos={ac} braco={gesto(t, c.b_rem, 20, 75)} humor="feliz" />
+          <Personagem t={t} x={860} y={FLOOR} s={0.84} v={VIS.B} acentos={ac} flip braco={gesto(t, c.b_rem, 20, 75)} seed={2} humor="feliz" />
           <Pop t={t} at={c.b_rem} x={540} y={1460}><Moedas /></Pop>
         </>
       ),
@@ -429,7 +361,7 @@ export const makeShots = (tl: Timeline): Shot[] => {
         const cores = ["#6B7080", "#7D6B5E", "#5E6E80", "#806070", "#6E6E6E", "#5D6B6B"];
         return (
           <>
-            <Personagem t={t} x={230} y={FLOOR} s={0.9} v={VIS.A} braco={t > c.c_comp ? 120 : 20} humor={t > c.c_qualq ? "espanto" : "neutro"} item={t > tLic ? <g transform="translate(0 30)"><Pasta s={1} label="CARTEIRA" /></g> : null} />
+            <Personagem t={t} x={230} y={FLOOR} s={0.9} v={VIS.A} acentos={ac} braco={gesto(t, c.c_comp, 20, 120)} humor={t > c.c_qualq ? "espanto" : "neutro"} item={t > tLic ? <g transform="translate(0 30)"><Pasta s={1} label="CARTEIRA" /></g> : null} />
             {cores.map((cor, i) => (
               <Pop key={i} t={t} at={c.c_comp + 0.1 + i * 0.12} x={[620, 760, 900, 690, 830, 970][i]} y={[FLOOR - 120, FLOOR - 140, FLOOR - 120, FLOOR, FLOOR, FLOOR][i]}>
                 <Figurante x={0} y={0} s={0.72} cor={cor} t={t} seed={i} />
@@ -453,8 +385,8 @@ export const makeShots = (tl: Timeline): Shot[] => {
       id: "17 organização + confiança", a: w(/^[ée]$/i, "s10", 38.68), b: tTamb + 0.88, clima: "ganho", vin: 0.65,
       svg: (t) => (
         <>
-          <Pop t={t} at={tPerc} x={230} y={FLOOR}><Personagem t={t} x={0} y={0} s={0.78} v={VIS.A} humor="feliz" braco={40} /></Pop>
-          <Pop t={t} at={tPerc + 0.2} x={850} y={FLOOR}><Personagem t={t} x={0} y={0} s={0.78} v={VIS.B} humor="feliz" flip braco={40} seed={2} /></Pop>
+          <Pop t={t} at={tPerc} x={230} y={FLOOR}><Personagem t={t} x={0} y={0} s={0.78} v={VIS.A} acentos={ac} humor="feliz" braco={40} /></Pop>
+          <Pop t={t} at={tPerc + 0.2} x={850} y={FLOOR}><Personagem t={t} x={0} y={0} s={0.78} v={VIS.B} acentos={ac} humor="feliz" flip braco={40} seed={2} /></Pop>
           <Pop t={t} at={c.c_org - 0.05} x={300} y={640}>
             <rect x={-200} y={-200} width={400} height={400} rx={36} fill="#13161B" stroke={A.hex} strokeWidth={8} />
             {[0, 1, 2].map((k) => <g key={k} transform={`translate(-110 ${-110 + k * 90})`}><rect width={52} height={52} rx={10} fill={A.hex} /><path d="M12 26 L22 38 L42 14" stroke={A.ink} strokeWidth={8} fill="none" strokeLinecap="round" /><rect x={74} y={14} width={150} height={24} rx={12} fill="#3A404C" /></g>)}
@@ -478,8 +410,8 @@ export const makeShots = (tl: Timeline): Shot[] => {
         const draw = prog(t, c.c_rede - 0.2, 0.9, ease.out);
         return (
           <>
-          <Personagem t={t} x={300} y={FLOOR} s={0.76} v={VIS.A} humor="feliz" braco={150} />
-          <Personagem t={t} x={780} y={FLOOR} s={0.76} v={VIS.B} humor="feliz" flip braco={150} seed={2} />
+          <Personagem t={t} x={300} y={FLOOR} s={0.76} v={VIS.A} acentos={ac} humor="feliz" braco={150} />
+          <Personagem t={t} x={780} y={FLOOR} s={0.76} v={VIS.B} acentos={ac} humor="feliz" flip braco={150} seed={2} />
           <g transform={`translate(540 600) scale(${z}) translate(-540 -600)`}>
             {lines.map(([i, j], k) => {
               const [x1, y1] = nodes[i], [x2, y2] = nodes[j];
@@ -501,8 +433,8 @@ export const makeShots = (tl: Timeline): Shot[] => {
         return (
           <>
             <Holofote x={540} chao={FLOOR} w={760} cor="#FFFFFF" />
-            <Personagem t={t} x={mix(300, 400, ap)} y={FLOOR} s={0.92} v={VIS.A} humor="feliz" braco={mix(10, 78, ap)} />
-            <Personagem t={t} x={mix(780, 680, ap)} y={FLOOR} s={0.92} v={VIS.B} humor="feliz" flip braco={mix(10, 78, ap)} seed={2} />
+            <Personagem t={t} x={mix(300, 400, ap)} y={FLOOR} s={0.92} v={VIS.A} acentos={ac} humor="feliz" braco={mix(10, 78, ap)} />
+            <Personagem t={t} x={mix(780, 680, ap)} y={FLOOR} s={0.92} v={VIS.B} acentos={ac} humor="feliz" flip braco={mix(10, 78, ap)} seed={2} />
             {ap > 0.95 ? <circle cx={540} cy={FLOOR - 0.92 * 330} r={30} fill={VIS.A.pele} /> : null}
             <Confete t={t} at={tCrit + 0.05} />
           </>

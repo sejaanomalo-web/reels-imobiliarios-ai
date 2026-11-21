@@ -14,4 +14,10 @@
   - a divisão aparece como "DIVISÃO COMBINADA", sem números;
   - CTA SISTEMA com o componente padrão `Cta`.
 - **Validação técnica:** 11/11 OK (1080×1920, H.264, yuv420p, 30 fps, AAC, 55,64 s, −14,98 LUFS, −1,70 dBTP); editorial_check 0 erro / 0 aviso.
-- **Ponto fraco conhecido:** a CTA final volta ao visual "app" padrão e quebra o estilo cartoon nos últimos 10 s. Se o formato for aprovado, criar uma CTA cartoon (mantendo o SISTEMA).
+- **v2 (21/11, mesma data):**
+  - fecho trocado pelo `CtaCartoon`: cartões IMÓVEIS/LEADS/ATENDIMENTOS, COMENTE "SISTEMA" digitado, mão tocando enviar, avião de papel, Direct, SEGUIR → SEGUINDO ✓ e logo;
+  - gestos com antecipação e balanço de cabeça nas ênfases;
+  - efeitos sonoros do fecho;
+  - movimento médio 3,31; 11/11 OK.
+- **Ainda em aberto:** a voz a 1,0× (~144 palavras/min) é mais lenta que a das referências (~180). Mantida pela regra de voz do cliente.
+- **Skill do formato:** `.claude/skills/ativo-cartoon-explicativo/SKILL.md`.

@@ -1,8 +1,8 @@
 {
  "file": "ATIVO_PILOTO_01_FINAL.mp4",
- "size_mb": 29.21,
+ "size_mb": 28.49,
  "duration": 55.64,
- "video_bitrate_kbps": 3937,
+ "video_bitrate_kbps": 3834,
  "color_space": "bt709",
  "audio_sample_rate": "48000",
  "audio_channels": 2,
@@ -50,7 +50,7 @@
   {
    "check": "True peak ≤ -1 dBTP",
    "ok": true,
-   "value": "-1.70 dBTP"
+   "value": "-1.68 dBTP"
   },
   {
    "check": "Sem trechos pretos ≥ 0,2 s",
