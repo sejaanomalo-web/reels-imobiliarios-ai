@@ -1,0 +1,71 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.0,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.2,
+    "palavras_nao_reconhecidas": [
+      "Curtida",
+      "elogio"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.88,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 7.41,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.31,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.25,
+    "palavras_nao_reconhecidas": [
+      "pessoas"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.67,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 2.59,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 39.04,
+    "asr_match": 0.963,
+    "aligned_words": "104/108",
+    "words_per_min": 166,
+    "heard": "O cliente respondeu com fogo no imóvel. Isso não significa que ele vai comprar amanhã. Curti, emoji, elogios são sinais de interesse no conteúdo, mas ainda não dizem se existe prazo, condição de compra ou vontade de visitar. Para entender o estágio do contato, pergunte quando pretende se mudar, o que está buscando, e qual seria o próximo passo confortável para ele. Um cliente pode estar no começo da jornada e ainda ser valioso. Qualificação serve para acompanhar melhor, não para descartar a pessoa cedo demais. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente sistema que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 40.36,
+      "wpm": 161
+    },
+    "pausas_moldadas": {
+      "n": 14,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.32,
+    "final": {
+      "seconds": 39.04,
+      "wpm": 166
+    }
+  }
+]

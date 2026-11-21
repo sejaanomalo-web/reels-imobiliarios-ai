@@ -56,7 +56,12 @@
       "id": "ATIVO_L60_05",
       "composition": "ATIVO-L60-05",
       "roteiro": "EP012",
-      "status": "pendente"
+      "status": "publicado_fila",
+      "estilo": 5,
+      "estiloNome": "Painel",
+      "duracao_s": 41.4,
+      "pasta": "PUBLICACAO/L60/REELS_01_AO_10/05",
+      "produzido_em": "2026-11-21"
     },
     {
       "n": 6,
