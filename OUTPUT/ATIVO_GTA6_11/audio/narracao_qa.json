@@ -1,0 +1,77 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 6.43,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.18,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.47,
+    "palavras_nao_reconhecidas": [
+      "Grassrivers"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.41,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 9.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 5.85,
+    "palavras_nao_reconhecidas": [
+      "está"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 3.01,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 4.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.66,
+    "palavras_nao_reconhecidas": [
+      "Comente"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 48.93,
+    "asr_match": 0.974,
+    "aligned_words": "133/136",
+    "words_per_min": 167,
+    "heard": "Se eu tivesse de escolher o endereço mais estranho de Leonida, eu começaria pelos pântanos. Quando se fala em GTA VI, todo mundo pensa na praia de Vice City e nos prédios enormes. Só que o mapa também tem os Grass Rivers, uma região de natureza e áreas alagadas. É o completo oposto da vida noturna, do trânsito e dos outdoors da cidade. Agora imagina vender uma casa por lá. A descrição seria contato direto com a natureza. Mas eu perguntaria primeiro, direto com qual natureza? Porque uma coisa é ter vista para o verde. Outra é descobrir quem tá olhando para você de dentro da água. Na vida real, anúncio bom antecipa as perguntas. Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comenta Sistema, que eu te envio os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 51.0,
+      "wpm": 160
+    },
+    "pausas_moldadas": {
+      "n": 18,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.07,
+    "final": {
+      "seconds": 48.93,
+      "wpm": 167
+    }
+  }
+]

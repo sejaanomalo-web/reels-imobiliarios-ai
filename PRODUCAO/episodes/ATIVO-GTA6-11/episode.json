@@ -1,0 +1,510 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "leadIn": 0.12,
+  "tail": 2.2,
+  "accent": "#02FB3F",
+  "pronunciation": {
+    "SISTEMA": "sistema",
+    "GTA VI": "GTA seis",
+    "Grassrivers": "Grás-ríverz"
+  },
+  "master": {
+    "tp": -2.0
+  },
+  "id": "ATIVO-GTA6-11",
+  "lote": "GTA6",
+  "title": "O lugar mais estranho para morar em GTA VI",
+  "outputDir": "ATIVO_GTA6_11",
+  "deliverables": {
+    "final": "ATIVO_GTA6_11_FINAL.mp4",
+    "narration": "ATIVO_GTA6_11_NARRACAO.wav",
+    "subtitles": "ATIVO_GTA6_11_legendas.srt",
+    "cover": "ATIVO_GTA6_11_capa.png"
+  },
+  "fonte": "ROTEIROS/GTA6/GTA6_11.md (ATIVO_GTA_VI_50_Roteiros_Completos.pdf, roteiro 11)",
+  "apuracao": {
+    "fato": "Material oficial de GTA VI (Rockstar, Only in Leonida): Grassrivers é uma das regiões de Leonida, de pântanos/áreas alagadas e natureza selvagem; Vice City é a área urbana com praia. O 'quem está olhando de dentro da água' é humor (sem afirmar fauna específica do jogo)",
+    "verificado_em": "2026-11-21",
+    "fontes": [
+      "https://www.rockstargames.com/VI/only-in-leonida",
+      "https://thegameswiki.com/gta6/wiki/map-and-regions"
+    ],
+    "cuidados": "sem imagem/captura do jogo; estilo tipográfico; sem animal desenhado realista (só olhos estilizados)"
+  },
+  "diagnostico": {
+    "publico_situacao": "corretor acompanhando o hype do GTA VI",
+    "motivacao": "curiosidade de região + humor de anúncio",
+    "crenca_questionada": "descrição bonita basta",
+    "hipotese": "tipografia: ENDEREÇO MAIS ESTRANHO → PÂNTANOS → todo mundo pensa PRAIA/PRÉDIOS → GRASSRIVERS natureza/alagadas × noite/trânsito/outdoors riscados → anúncio 'contato direto com a natureza' → QUAL NATUREZA? → olhos na água (desenho tipográfico) → antecipe as perguntas",
+    "funcao": "paisagem/história (GTA primeiro)",
+    "promessa": "rir do anúncio vago e lembrar de antecipar dúvidas",
+    "evidencias": "Grassrivers apresentada como região de natureza/áreas alagadas no material oficial (S1)",
+    "cta": "transição 'Na vida real, anúncio bom antecipa as perguntas.' → comentário SISTEMA → Direct"
+  },
+  "cta": {
+    "original_cta": "Você moraria perto dos pântanos por uma semana?",
+    "transition_adapted": "Na vida real, anúncio bom antecipa as perguntas.",
+    "type": "comentario",
+    "keyword": "SISTEMA",
+    "channel": "Direct",
+    "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+    "source": "regra do cliente em 14/11/2026"
+  },
+  "segments": [
+    {
+      "id": "s1",
+      "scene": "hook",
+      "text": "Se eu tivesse de escolher o endereço mais estranho de Leonida, eu começaria pelos pântanos.",
+      "caption": "Se eu tivesse | de escolher | o endereço | mais *estranho* | de Leonida, | eu começaria | pelos *pântanos.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s2",
+      "scene": "t1",
+      "text": "Quando se fala em GTA VI, todo mundo pensa na praia de Vice City e nos prédios enormes.",
+      "caption": "Quando se fala | em GTA VI, | todo mundo pensa | na *praia* | de Vice City | e nos *prédios* enormes.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s3",
+      "scene": "t2",
+      "text": "Só que o mapa também tem os Grassrivers, uma região de natureza e áreas alagadas.",
+      "caption": "Só que o mapa | também tem | os *Grassrivers,* | uma região | de *natureza* | e áreas *alagadas.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s4",
+      "scene": "t2",
+      "text": "É o completo oposto da vida noturna, do trânsito e dos outdoors da cidade.",
+      "caption": "É o completo *oposto* | da vida noturna, | do trânsito | e dos *outdoors* | da cidade.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s5",
+      "scene": "t3",
+      "text": "Agora imagina vender uma casa por lá. A descrição seria “contato direto com a natureza”, mas eu perguntaria primeiro: direto com qual natureza?",
+      "caption": "Agora imagina | *vender* | uma casa por lá. | A descrição seria | “contato *direto* | com a natureza”, | mas eu perguntaria | primeiro: | direto com | *qual* natureza?",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s6",
+      "scene": "t3",
+      "text": "Porque uma coisa é ter vista para o verde. Outra é descobrir quem está olhando para você de dentro da água.",
+      "caption": "Porque uma coisa | é ter vista | para o *verde.* | Outra é descobrir | *quem* está olhando | para você | de dentro | da *água.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s7",
+      "scene": "t3",
+      "text": "Na vida real, anúncio bom antecipa as perguntas.",
+      "caption": "Na vida real, | anúncio bom | *antecipa* | as perguntas.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s8",
+      "scene": "cta",
+      "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+      "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s9",
+      "scene": "cta",
+      "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+      "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+      "pauseAfter": 0.3
+    }
+  ],
+  "voice": {
+    "shapePauses": {
+      "keepUnder": 0.22,
+      "ratio": 0.6,
+      "max": 0.6
+    },
+    "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+  },
+  "sceneLead": {
+    "t1": 0.3,
+    "t2": 0.35,
+    "t3": 0.35,
+    "cta": 0.3
+  },
+  "hideCaptions": [],
+  "cues": {
+    "h_estr": {
+      "seg": "s1",
+      "word": "estranho",
+      "edge": "start",
+      "offset": 0
+    },
+    "h_leon": {
+      "seg": "s1",
+      "word": "Leonida",
+      "edge": "start",
+      "offset": 0
+    },
+    "h_pant": {
+      "seg": "s1",
+      "word": "pântanos",
+      "edge": "start",
+      "offset": 0
+    },
+    "a_gta": {
+      "seg": "s2",
+      "word": "GTA",
+      "edge": "start",
+      "offset": 0
+    },
+    "a_praia": {
+      "seg": "s2",
+      "word": "praia",
+      "edge": "start",
+      "offset": 0
+    },
+    "a_pred": {
+      "seg": "s2",
+      "word": "prédios",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_grass": {
+      "seg": "s3",
+      "word": "Grassrivers",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_nat": {
+      "seg": "s3",
+      "word": "natureza",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_alag": {
+      "seg": "s3",
+      "word": "alagadas",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_oposto": {
+      "seg": "s4",
+      "word": "oposto",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_noite": {
+      "seg": "s4",
+      "word": "noturna",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_trans": {
+      "seg": "s4",
+      "word": "trânsito",
+      "edge": "start",
+      "offset": 0
+    },
+    "b_out": {
+      "seg": "s4",
+      "word": "outdoors",
+      "edge": "start",
+      "offset": 0
+    },
+    "c_vender": {
+      "seg": "s5",
+      "word": "vender",
+      "edge": "start",
+      "offset": 0
+    },
+    "c_desc": {
+      "seg": "s5",
+      "word": "descrição",
+      "edge": "start",
+      "offset": 0
+    },
+    "c_contato": {
+      "seg": "s5",
+      "word": "contato",
+      "edge": "start",
+      "offset": 0
+    },
+    "c_perg": {
+      "seg": "s5",
+      "word": "perguntaria",
+      "edge": "start",
+      "offset": 0
+    },
+    "c_qual": {
+      "seg": "s5",
+      "word": "qual",
+      "edge": "start",
+      "offset": 0
+    },
+    "d_verde": {
+      "seg": "s6",
+      "word": "verde",
+      "edge": "start",
+      "offset": 0
+    },
+    "d_quem": {
+      "seg": "s6",
+      "word": "quem",
+      "edge": "start",
+      "offset": 0
+    },
+    "d_agua": {
+      "seg": "s6",
+      "word": "água",
+      "edge": "start",
+      "offset": 0
+    },
+    "e_real": {
+      "seg": "s7",
+      "word": "real",
+      "edge": "start",
+      "offset": 0
+    },
+    "e_antec": {
+      "seg": "s7",
+      "word": "antecipa",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_quer": {
+      "seg": "s8",
+      "word": "Quer",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_sys": {
+      "seg": "s8",
+      "word": "sistema",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_tiles": {
+      "seg": "s8",
+      "word": "imóveis",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_comment": {
+      "seg": "s9",
+      "word": "Comente",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_word": {
+      "seg": "s9",
+      "word": "SISTEMA",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_direct": {
+      "seg": "s9",
+      "word": "Direct",
+      "edge": "start",
+      "offset": 0
+    },
+    "cta_end": {
+      "seg": "s9",
+      "word": "Direct",
+      "edge": "end",
+      "offset": 0
+    }
+  },
+  "series": {},
+  "sfx": [
+    {
+      "cue": "h_estr",
+      "offset": 0.0,
+      "sound": "pop",
+      "gain": -25
+    },
+    {
+      "cue": "h_pant",
+      "offset": 0.05,
+      "sound": "hollow",
+      "gain": -27
+    },
+    {
+      "cue": "a_praia",
+      "offset": 0.05,
+      "sound": "swish",
+      "gain": -26
+    },
+    {
+      "cue": "a_pred",
+      "offset": 0.05,
+      "sound": "tick",
+      "gain": -26
+    },
+    {
+      "cue": "b_grass",
+      "offset": 0.0,
+      "sound": "whoosh_fold",
+      "gain": -25
+    },
+    {
+      "cue": "b_alag",
+      "offset": 0.05,
+      "sound": "shimmer",
+      "gain": -28
+    },
+    {
+      "cue": "b_oposto",
+      "offset": 0.05,
+      "sound": "block",
+      "gain": -27
+    },
+    {
+      "cue": "b_out",
+      "offset": 0.05,
+      "sound": "tick",
+      "gain": -26
+    },
+    {
+      "cue": "c_vender",
+      "offset": -0.1,
+      "sound": "whoosh_up",
+      "gain": -25
+    },
+    {
+      "cue": "c_contato",
+      "offset": 0.05,
+      "sound": "pin",
+      "gain": -26
+    },
+    {
+      "cue": "c_qual",
+      "offset": 0.05,
+      "sound": "hollow",
+      "gain": -27
+    },
+    {
+      "cue": "d_quem",
+      "offset": 0.05,
+      "sound": "alert",
+      "gain": -29
+    },
+    {
+      "cue": "d_agua",
+      "offset": 0.1,
+      "sound": "pop",
+      "gain": -26
+    },
+    {
+      "cue": "e_antec",
+      "offset": 0.05,
+      "sound": "click",
+      "gain": -24
+    },
+    {
+      "cue": "cta_sys",
+      "offset": 0.4,
+      "sound": "whoosh_fold",
+      "gain": -27
+    },
+    {
+      "cue": "cta_comment",
+      "offset": -0.3,
+      "sound": "pop",
+      "gain": -25,
+      "pitch": 3
+    },
+    {
+      "cue": "cta_word",
+      "offset": 0.55,
+      "sound": "typing",
+      "gain": -30
+    },
+    {
+      "cue": "cta_end",
+      "offset": 0.35,
+      "sound": "shimmer",
+      "gain": -28
+    }
+  ],
+  "music": {
+    "gain": -30,
+    "duck": -5.5,
+    "bpm": 88,
+    "prog": [
+      {
+        "at": 0,
+        "notes": [
+          33,
+          45,
+          52,
+          57,
+          60
+        ],
+        "root": 45,
+        "dens": 2,
+        "bright": 0.45,
+        "label": "Am — pântanos"
+      },
+      {
+        "at": "cue:a_gta",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57
+        ],
+        "root": 41,
+        "dens": 2,
+        "bright": 0.55,
+        "label": "F — praia e prédios"
+      },
+      {
+        "at": "cue:b_grass",
+        "notes": [
+          26,
+          38,
+          45,
+          50,
+          53
+        ],
+        "root": 38,
+        "dens": 2,
+        "bright": 0.45,
+        "label": "Dm — Grassrivers"
+      },
+      {
+        "at": "cue:c_vender",
+        "notes": [
+          31,
+          43,
+          50,
+          55,
+          59
+        ],
+        "root": 43,
+        "dens": 2,
+        "bright": 0.55,
+        "label": "G — qual natureza?"
+      },
+      {
+        "at": "cue:cta_sys",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55,
+          62
+        ],
+        "root": 36,
+        "dens": 2,
+        "bright": 0.6,
+        "label": "Cadd9 — sistema"
+      }
+    ]
+  },
+  "estilo": 4,
+  "estiloNome": "Tipografia cinética",
+  "esteira": true
+}

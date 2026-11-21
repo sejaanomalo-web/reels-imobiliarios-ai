@@ -1,0 +1,1338 @@
+{
+ "id": "ATIVO-GTA6-11",
+ "title": "O lugar mais estranho para morar em GTA VI",
+ "fps": 30,
+ "duration": 51.266666666666666,
+ "durationInFrames": 1538,
+ "narrationEnd": 49.047,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.815
+  },
+  {
+   "id": "t1",
+   "start": 6.815,
+   "end": 12.27
+  },
+  {
+   "id": "t2",
+   "start": 12.27,
+   "end": 21.725
+  },
+  {
+   "id": "t3",
+   "start": 21.725,
+   "end": 41.025
+  },
+  {
+   "id": "cta",
+   "start": 41.025,
+   "end": 51.267
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Se eu tivesse de escolher o endereço mais estranho de Leonida, eu começaria pelos pântanos.",
+   "start": 0.2,
+   "end": 6.63
+  },
+  {
+   "id": "s2",
+   "scene": "t1",
+   "text": "Quando se fala em GTA VI, todo mundo pensa na praia de Vice City e nos prédios enormes.",
+   "start": 7.0,
+   "end": 12.18
+  },
+  {
+   "id": "s3",
+   "scene": "t2",
+   "text": "Só que o mapa também tem os Grassrivers, uma região de natureza e áreas alagadas.",
+   "start": 12.36,
+   "end": 16.83
+  },
+  {
+   "id": "s4",
+   "scene": "t2",
+   "text": "É o completo oposto da vida noturna, do trânsito e dos outdoors da cidade.",
+   "start": 17.08,
+   "end": 21.49
+  },
+  {
+   "id": "s5",
+   "scene": "t3",
+   "text": "Agora imagina vender uma casa por lá. A descrição seria “contato direto com a natureza”, mas eu perguntaria primeiro: direto com qual natureza?",
+   "start": 21.96,
+   "end": 31.3
+  },
+  {
+   "id": "s6",
+   "scene": "t3",
+   "text": "Porque uma coisa é ter vista para o verde. Outra é descobrir quem está olhando para você de dentro da água.",
+   "start": 31.64,
+   "end": 37.49
+  },
+  {
+   "id": "s7",
+   "scene": "t3",
+   "text": "Na vida real, anúncio bom antecipa as perguntas.",
+   "start": 37.88,
+   "end": 40.89
+  },
+  {
+   "id": "s8",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "start": 41.16,
+   "end": 45.64
+  },
+  {
+   "id": "s9",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "start": 45.989,
+   "end": 48.65
+  }
+ ],
+ "cues": {
+  "h_estr": 3.48,
+  "h_leon": 4.2,
+  "h_pant": 6.12,
+  "a_gta": 7.8,
+  "a_praia": 9.64,
+  "a_pred": 11.08,
+  "b_grass": 13.665,
+  "b_nat": 15.32,
+  "b_alag": 16.28,
+  "b_oposto": 17.96,
+  "b_noite": 18.76,
+  "b_trans": 19.64,
+  "b_out": 20.52,
+  "c_vender": 22.92,
+  "c_desc": 25.08,
+  "c_contato": 26.12,
+  "c_perg": 28.44,
+  "c_qual": 30.44,
+  "d_verde": 33.48,
+  "d_quem": 35.0,
+  "d_agua": 37.16,
+  "e_real": 38.28,
+  "e_antec": 39.64,
+  "cta_quer": 41.16,
+  "cta_sys": 42.04,
+  "cta_tiles": 43.8,
+  "cta_comment": 45.989,
+  "cta_word": 46.52,
+  "cta_direct": 48.28,
+  "cta_end": 48.65
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 1.88,
+   "words": [
+    {
+     "text": "Se",
+     "start": 0.2,
+     "end": 0.59,
+     "emph": false
+    },
+    {
+     "text": "eu",
+     "start": 1.16,
+     "end": 1.4,
+     "emph": false
+    },
+    {
+     "text": "tivesse",
+     "start": 1.4,
+     "end": 1.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.88,
+   "end": 2.52,
+   "words": [
+    {
+     "text": "de",
+     "start": 1.88,
+     "end": 2.04,
+     "emph": false
+    },
+    {
+     "text": "escolher",
+     "start": 2.04,
+     "end": 2.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.52,
+   "end": 3.16,
+   "words": [
+    {
+     "text": "o",
+     "start": 2.52,
+     "end": 2.68,
+     "emph": false
+    },
+    {
+     "text": "endereço",
+     "start": 2.68,
+     "end": 3.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.16,
+   "end": 4.04,
+   "words": [
+    {
+     "text": "mais",
+     "start": 3.16,
+     "end": 3.48,
+     "emph": false
+    },
+    {
+     "text": "estranho",
+     "start": 3.48,
+     "end": 3.71,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.04,
+   "end": 5.08,
+   "words": [
+    {
+     "text": "de",
+     "start": 4.04,
+     "end": 4.2,
+     "emph": false
+    },
+    {
+     "text": "Leonida,",
+     "start": 4.2,
+     "end": 4.81,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 5.08,
+   "end": 5.8,
+   "words": [
+    {
+     "text": "eu",
+     "start": 5.08,
+     "end": 5.24,
+     "emph": false
+    },
+    {
+     "text": "começaria",
+     "start": 5.24,
+     "end": 5.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 5.8,
+   "end": 7.0,
+   "words": [
+    {
+     "text": "pelos",
+     "start": 5.8,
+     "end": 6.12,
+     "emph": false
+    },
+    {
+     "text": "pântanos.",
+     "start": 6.12,
+     "end": 6.63,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.0,
+   "end": 7.64,
+   "words": [
+    {
+     "text": "Quando",
+     "start": 7.0,
+     "end": 7.24,
+     "emph": false
+    },
+    {
+     "text": "se",
+     "start": 7.24,
+     "end": 7.4,
+     "emph": false
+    },
+    {
+     "text": "fala",
+     "start": 7.4,
+     "end": 7.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.64,
+   "end": 8.76,
+   "words": [
+    {
+     "text": "em",
+     "start": 7.64,
+     "end": 7.8,
+     "emph": false
+    },
+    {
+     "text": "GTA",
+     "start": 7.8,
+     "end": 8.36,
+     "emph": false
+    },
+    {
+     "text": "VI,",
+     "start": 8.36,
+     "end": 8.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.76,
+   "end": 9.48,
+   "words": [
+    {
+     "text": "todo",
+     "start": 8.76,
+     "end": 9.0,
+     "emph": false
+    },
+    {
+     "text": "mundo",
+     "start": 9.0,
+     "end": 9.16,
+     "emph": false
+    },
+    {
+     "text": "pensa",
+     "start": 9.16,
+     "end": 9.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.48,
+   "end": 9.88,
+   "words": [
+    {
+     "text": "na",
+     "start": 9.48,
+     "end": 9.64,
+     "emph": false
+    },
+    {
+     "text": "praia",
+     "start": 9.64,
+     "end": 9.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.88,
+   "end": 10.84,
+   "words": [
+    {
+     "text": "de",
+     "start": 9.88,
+     "end": 9.96,
+     "emph": false
+    },
+    {
+     "text": "Vice",
+     "start": 9.96,
+     "end": 10.44,
+     "emph": false
+    },
+    {
+     "text": "City",
+     "start": 10.44,
+     "end": 10.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.84,
+   "end": 12.36,
+   "words": [
+    {
+     "text": "e",
+     "start": 10.84,
+     "end": 10.92,
+     "emph": false
+    },
+    {
+     "text": "nos",
+     "start": 10.92,
+     "end": 11.08,
+     "emph": false
+    },
+    {
+     "text": "prédios",
+     "start": 11.08,
+     "end": 11.72,
+     "emph": true
+    },
+    {
+     "text": "enormes.",
+     "start": 11.72,
+     "end": 12.18,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.36,
+   "end": 13.08,
+   "words": [
+    {
+     "text": "Só",
+     "start": 12.36,
+     "end": 12.43,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 12.6,
+     "end": 12.76,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 12.76,
+     "end": 12.84,
+     "emph": false
+    },
+    {
+     "text": "mapa",
+     "start": 12.84,
+     "end": 13.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.08,
+   "end": 13.48,
+   "words": [
+    {
+     "text": "também",
+     "start": 13.08,
+     "end": 13.24,
+     "emph": false
+    },
+    {
+     "text": "tem",
+     "start": 13.24,
+     "end": 13.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.48,
+   "end": 14.68,
+   "words": [
+    {
+     "text": "os",
+     "start": 13.48,
+     "end": 13.665,
+     "emph": false
+    },
+    {
+     "text": "Grassrivers,",
+     "start": 13.665,
+     "end": 14.37,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.68,
+   "end": 15.24,
+   "words": [
+    {
+     "text": "uma",
+     "start": 14.68,
+     "end": 14.84,
+     "emph": false
+    },
+    {
+     "text": "região",
+     "start": 14.84,
+     "end": 15.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.24,
+   "end": 15.8,
+   "words": [
+    {
+     "text": "de",
+     "start": 15.24,
+     "end": 15.32,
+     "emph": false
+    },
+    {
+     "text": "natureza",
+     "start": 15.32,
+     "end": 15.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.8,
+   "end": 17.08,
+   "words": [
+    {
+     "text": "e",
+     "start": 15.8,
+     "end": 15.96,
+     "emph": false
+    },
+    {
+     "text": "áreas",
+     "start": 15.96,
+     "end": 16.28,
+     "emph": false
+    },
+    {
+     "text": "alagadas.",
+     "start": 16.28,
+     "end": 16.83,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.08,
+   "end": 18.36,
+   "words": [
+    {
+     "text": "É",
+     "start": 17.08,
+     "end": 17.32,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 17.32,
+     "end": 17.48,
+     "emph": false
+    },
+    {
+     "text": "completo",
+     "start": 17.48,
+     "end": 17.96,
+     "emph": false
+    },
+    {
+     "text": "oposto",
+     "start": 17.96,
+     "end": 18.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.36,
+   "end": 19.48,
+   "words": [
+    {
+     "text": "da",
+     "start": 18.36,
+     "end": 18.52,
+     "emph": false
+    },
+    {
+     "text": "vida",
+     "start": 18.52,
+     "end": 18.76,
+     "emph": false
+    },
+    {
+     "text": "noturna,",
+     "start": 18.76,
+     "end": 19.17,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 19.48,
+   "end": 20.12,
+   "words": [
+    {
+     "text": "do",
+     "start": 19.48,
+     "end": 19.64,
+     "emph": false
+    },
+    {
+     "text": "trânsito",
+     "start": 19.64,
+     "end": 20.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 20.12,
+   "end": 21.08,
+   "words": [
+    {
+     "text": "e",
+     "start": 20.12,
+     "end": 20.28,
+     "emph": false
+    },
+    {
+     "text": "dos",
+     "start": 20.28,
+     "end": 20.52,
+     "emph": false
+    },
+    {
+     "text": "outdoors",
+     "start": 20.52,
+     "end": 21.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 21.08,
+   "end": 21.96,
+   "words": [
+    {
+     "text": "da",
+     "start": 21.08,
+     "end": 21.24,
+     "emph": false
+    },
+    {
+     "text": "cidade.",
+     "start": 21.24,
+     "end": 21.49,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.96,
+   "end": 22.92,
+   "words": [
+    {
+     "text": "Agora",
+     "start": 21.96,
+     "end": 22.36,
+     "emph": false
+    },
+    {
+     "text": "imagina",
+     "start": 22.36,
+     "end": 22.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.92,
+   "end": 23.32,
+   "words": [
+    {
+     "text": "vender",
+     "start": 22.92,
+     "end": 23.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.32,
+   "end": 24.84,
+   "words": [
+    {
+     "text": "uma",
+     "start": 23.32,
+     "end": 23.42,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 23.64,
+     "end": 24.12,
+     "emph": false
+    },
+    {
+     "text": "por",
+     "start": 24.12,
+     "end": 24.28,
+     "emph": false
+    },
+    {
+     "text": "lá.",
+     "start": 24.28,
+     "end": 24.47,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.84,
+   "end": 26.12,
+   "words": [
+    {
+     "text": "A",
+     "start": 24.84,
+     "end": 24.91,
+     "emph": false
+    },
+    {
+     "text": "descrição",
+     "start": 25.08,
+     "end": 25.56,
+     "emph": false
+    },
+    {
+     "text": "seria",
+     "start": 25.56,
+     "end": 25.95,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 26.12,
+   "end": 27.08,
+   "words": [
+    {
+     "text": "“contato",
+     "start": 26.12,
+     "end": 26.68,
+     "emph": false
+    },
+    {
+     "text": "direto",
+     "start": 26.68,
+     "end": 27.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 27.08,
+   "end": 28.04,
+   "words": [
+    {
+     "text": "com",
+     "start": 27.08,
+     "end": 27.24,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 27.24,
+     "end": 27.32,
+     "emph": false
+    },
+    {
+     "text": "natureza”,",
+     "start": 27.32,
+     "end": 27.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 28.04,
+   "end": 29.16,
+   "words": [
+    {
+     "text": "mas",
+     "start": 28.04,
+     "end": 28.28,
+     "emph": false
+    },
+    {
+     "text": "eu",
+     "start": 28.28,
+     "end": 28.44,
+     "emph": false
+    },
+    {
+     "text": "perguntaria",
+     "start": 28.44,
+     "end": 29.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 29.16,
+   "end": 29.72,
+   "words": [
+    {
+     "text": "primeiro:",
+     "start": 29.16,
+     "end": 29.39,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 29.72,
+   "end": 30.44,
+   "words": [
+    {
+     "text": "direto",
+     "start": 29.72,
+     "end": 30.28,
+     "emph": false
+    },
+    {
+     "text": "com",
+     "start": 30.28,
+     "end": 30.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 30.44,
+   "end": 31.64,
+   "words": [
+    {
+     "text": "qual",
+     "start": 30.44,
+     "end": 30.84,
+     "emph": true
+    },
+    {
+     "text": "natureza?",
+     "start": 30.84,
+     "end": 31.3,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 31.64,
+   "end": 32.52,
+   "words": [
+    {
+     "text": "Porque",
+     "start": 31.64,
+     "end": 32.04,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 32.04,
+     "end": 32.28,
+     "emph": false
+    },
+    {
+     "text": "coisa",
+     "start": 32.28,
+     "end": 32.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 32.52,
+   "end": 33.24,
+   "words": [
+    {
+     "text": "é",
+     "start": 32.52,
+     "end": 32.68,
+     "emph": false
+    },
+    {
+     "text": "ter",
+     "start": 32.68,
+     "end": 32.92,
+     "emph": false
+    },
+    {
+     "text": "vista",
+     "start": 32.92,
+     "end": 33.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 33.24,
+   "end": 34.04,
+   "words": [
+    {
+     "text": "para",
+     "start": 33.24,
+     "end": 33.4,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 33.4,
+     "end": 33.48,
+     "emph": false
+    },
+    {
+     "text": "verde.",
+     "start": 33.48,
+     "end": 33.74,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 34.04,
+   "end": 35.0,
+   "words": [
+    {
+     "text": "Outra",
+     "start": 34.04,
+     "end": 34.28,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 34.28,
+     "end": 34.52,
+     "emph": false
+    },
+    {
+     "text": "descobrir",
+     "start": 34.52,
+     "end": 34.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 35.0,
+   "end": 35.96,
+   "words": [
+    {
+     "text": "quem",
+     "start": 35.0,
+     "end": 35.24,
+     "emph": true
+    },
+    {
+     "text": "está",
+     "start": 35.24,
+     "end": 35.48,
+     "emph": false
+    },
+    {
+     "text": "olhando",
+     "start": 35.48,
+     "end": 35.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 35.96,
+   "end": 36.44,
+   "words": [
+    {
+     "text": "para",
+     "start": 35.96,
+     "end": 36.12,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 36.12,
+     "end": 36.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 36.44,
+   "end": 37.0,
+   "words": [
+    {
+     "text": "de",
+     "start": 36.44,
+     "end": 36.68,
+     "emph": false
+    },
+    {
+     "text": "dentro",
+     "start": 36.68,
+     "end": 37.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 37.0,
+   "end": 37.88,
+   "words": [
+    {
+     "text": "da",
+     "start": 37.0,
+     "end": 37.16,
+     "emph": false
+    },
+    {
+     "text": "água.",
+     "start": 37.16,
+     "end": 37.49,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 37.88,
+   "end": 38.68,
+   "words": [
+    {
+     "text": "Na",
+     "start": 37.88,
+     "end": 38.04,
+     "emph": false
+    },
+    {
+     "text": "vida",
+     "start": 38.04,
+     "end": 38.28,
+     "emph": false
+    },
+    {
+     "text": "real,",
+     "start": 38.28,
+     "end": 38.57,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 38.68,
+   "end": 39.64,
+   "words": [
+    {
+     "text": "anúncio",
+     "start": 38.68,
+     "end": 38.75,
+     "emph": false
+    },
+    {
+     "text": "bom",
+     "start": 39.32,
+     "end": 39.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 39.64,
+   "end": 40.28,
+   "words": [
+    {
+     "text": "antecipa",
+     "start": 39.64,
+     "end": 40.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 40.28,
+   "end": 41.16,
+   "words": [
+    {
+     "text": "as",
+     "start": 40.28,
+     "end": 40.44,
+     "emph": false
+    },
+    {
+     "text": "perguntas.",
+     "start": 40.44,
+     "end": 40.89,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 41.16,
+   "end": 41.96,
+   "words": [
+    {
+     "text": "Quer",
+     "start": 41.16,
+     "end": 41.24,
+     "emph": false
+    },
+    {
+     "text": "conhecer",
+     "start": 41.48,
+     "end": 41.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 41.96,
+   "end": 43.0,
+   "words": [
+    {
+     "text": "um",
+     "start": 41.96,
+     "end": 42.04,
+     "emph": false
+    },
+    {
+     "text": "sistema",
+     "start": 42.04,
+     "end": 42.36,
+     "emph": false
+    },
+    {
+     "text": "personalizado",
+     "start": 42.36,
+     "end": 43.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 43.0,
+   "end": 43.64,
+   "words": [
+    {
+     "text": "para",
+     "start": 43.0,
+     "end": 43.16,
+     "emph": false
+    },
+    {
+     "text": "organizar",
+     "start": 43.16,
+     "end": 43.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 43.64,
+   "end": 44.92,
+   "words": [
+    {
+     "text": "seus",
+     "start": 43.64,
+     "end": 43.8,
+     "emph": false
+    },
+    {
+     "text": "imóveis,",
+     "start": 43.8,
+     "end": 44.44,
+     "emph": true
+    },
+    {
+     "text": "leads",
+     "start": 44.44,
+     "end": 44.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 44.92,
+   "end": 45.989,
+   "words": [
+    {
+     "text": "e",
+     "start": 44.92,
+     "end": 45.08,
+     "emph": false
+    },
+    {
+     "text": "atendimentos?",
+     "start": 45.08,
+     "end": 45.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 45.989,
+   "end": 47.0,
+   "words": [
+    {
+     "text": "Comente",
+     "start": 45.989,
+     "end": 46.52,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 46.52,
+     "end": 47.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 47.0,
+   "end": 47.72,
+   "words": [
+    {
+     "text": "que",
+     "start": 47.0,
+     "end": 47.16,
+     "emph": false
+    },
+    {
+     "text": "eu",
+     "start": 47.16,
+     "end": 47.24,
+     "emph": false
+    },
+    {
+     "text": "te",
+     "start": 47.24,
+     "end": 47.4,
+     "emph": false
+    },
+    {
+     "text": "envio",
+     "start": 47.4,
+     "end": 47.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 47.72,
+   "end": 48.12,
+   "words": [
+    {
+     "text": "os",
+     "start": 47.72,
+     "end": 47.8,
+     "emph": false
+    },
+    {
+     "text": "detalhes",
+     "start": 47.8,
+     "end": 48.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 48.12,
+   "end": 49.15,
+   "words": [
+    {
+     "text": "pelo",
+     "start": 48.12,
+     "end": 48.28,
+     "emph": false
+    },
+    {
+     "text": "Direct.",
+     "start": 48.28,
+     "end": 48.65,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

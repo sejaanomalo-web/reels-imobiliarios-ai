@@ -168,7 +168,13 @@
       "roteiro": "ROTEIROS/GTA6/GTA6_11.md",
       "titulo": "O lugar mais estranho para morar em GTA VI",
       "tipo": "GTA PRIMEIRO • Paisagem / história • ~45s de narração • FATO + HUMOR",
-      "status": "pendente"
+      "status": "publicado_fila",
+      "estilo": 4,
+      "estiloNome": "Tipografia cinética",
+      "duracao_s": 51.3,
+      "pasta": "PUBLICACAO/GTA6/REELS_11_AO_20/11",
+      "produzido_em": "2026-11-21",
+      "agendar_para": "2026-11-30 22:00 BRT"
     },
     {
       "n": 12,
