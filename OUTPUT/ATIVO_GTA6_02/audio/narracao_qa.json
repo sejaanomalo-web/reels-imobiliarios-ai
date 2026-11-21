@@ -1,0 +1,101 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.66,
+    "palavras_nao_reconhecidas": [
+      "VI"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 1.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 1.55,
+    "palavras_nao_reconhecidas": [
+      "Boobie"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 5.03,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.09,
+    "palavras_nao_reconhecidas": [
+      "clube"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 5.43,
+    "palavras_nao_reconhecidas": [
+      "Dre",
+      "Quan",
+      "Priest"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 2.69,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 6.43,
+    "palavras_nao_reconhecidas": [
+      "poder",
+      "espalhados"
+    ]
+  },
+  {
+    "seg": "s9",
+    "seconds": 5.93,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.04,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 4.71,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 2.75,
+    "palavras_nao_reconhecidas": [
+      "envio"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 48.44,
+    "asr_match": 0.937,
+    "aligned_words": "133/142",
+    "words_per_min": 176,
+    "heard": "GTA 6 tem um personagem que fez fortuna com imóveis. E ele nem é o protagonista. O nome é Bubi Ike. A Rockstar o descreve como uma lenda de Vice City que transformou a própria trajetória em negócios. O império dele envolve imóveis, um clu noturno e um estúdio musical. E tem mais. Ele se associa a Drequant Trist numa gravadora que quer estourar na cidade. E isso muda totalmente a forma de olhar o universo do jogo. Não é só perseguição de carro. Existem personagens com negócios, interesses e poderes palhados por Vice City. E eu adorei o detalhe. Até num jogo famoso pelo caos, quem entende de patrimônio constrói um império. Agora, e os seus imóveis de verdade? Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente Sistema que eu te envia os detalhes pelo direct."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 49.32,
+      "wpm": 173
+    },
+    "pausas_moldadas": {
+      "n": 14,
+      "max_s": 0.37
+    },
+    "pausas_encurtadas_s": 0.88,
+    "final": {
+      "seconds": 48.44,
+      "wpm": 176
+    }
+  }
+]

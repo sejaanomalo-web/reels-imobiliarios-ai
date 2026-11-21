@@ -20,7 +20,8 @@
       "duracao_s": 53.7,
       "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/01",
       "produzido_em": "2026-11-21",
-      "agendar_para": "2026-11-21 22:00 BRT"
+      "agendar_para": "2026-11-21 22:00 BRT",
+      "agendado": "2026-11-21 22:00 BRT (ajustado no Supabase)"
     },
     {
       "n": 2,
@@ -29,7 +30,13 @@
       "roteiro": "ROTEIROS/GTA6/GTA6_02.md",
       "titulo": "O magnata imobiliário escondido em GTA VI",
       "tipo": "GTA PRIMEIRO • Curiosidade verificada • ~48s de narração • FATO OFICIAL",
-      "status": "pendente"
+      "status": "publicado_fila",
+      "estilo": 3,
+      "estiloNome": "Planta técnica",
+      "duracao_s": 50.8,
+      "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/02",
+      "produzido_em": "2026-11-21",
+      "agendar_para": "2026-11-22 22:00 BRT"
     },
     {
       "n": 3,
