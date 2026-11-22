@@ -73,7 +73,7 @@ export const Carimbo: React.FC<{ x: number; y: number; projeto: string; folha: s
   <g transform={`translate(${x} ${y})`} opacity={Math.min(1, Math.max(0, p) * 1.5)} fontFamily={M} fontWeight={700}>
     <rect width={420} height={150} fill="none" stroke={A.hex} strokeWidth={3} /><line x1={0} y1={50} x2={420} y2={50} stroke={A.hex} strokeWidth={2} />
     <text x={20} y={36} fill={A.hex} fontSize={24}>PROJETO: {projeto}</text>
-    <text x={20} y={92} fill={C.muted} fontSize={22}>{folha}</text>
-    <text x={20} y={128} fill={C.muted} fontSize={22}>ILUSTRATIVO · ATIVO</text>
+    <text x={20} y={92} fill={C.muted} fontSize={24}>{folha}</text>
+    <text x={20} y={128} fill={C.muted} fontSize={24}>ILUSTRATIVO · ATIVO</text>
   </g>
 );

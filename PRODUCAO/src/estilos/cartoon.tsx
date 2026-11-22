@@ -1,5 +1,5 @@
 import React from "react";
-import { C, F, accentAlpha, ACCENT_NOV26 } from "../theme";
+import { C, DS, F, accentAlpha, ACCENT_NOV26, ATMOSFERA, luzAtm, type AtmosferaNome } from "../theme";
 import { clamp01, ease, mix, prog, rnd, sp } from "../lib/anim";
 import type { CaptionChunk } from "../episodes/types";
 
@@ -7,21 +7,42 @@ import type { CaptionChunk } from "../episodes/types";
  * KIT "CARTOON EXPLICATIVO" (piloto do novo formato, 21/11/2026) — gramática estudada nas 3 referências do cliente
  * (análise quadro a quadro): 2D vetorial chapado, fundo de raios girando com cor por clima, vinheta forte, holofote,
  * sombra de contato, pop elástico, carimbo inclinado com tremor, corte seco a cada ~3 s, legenda karaokê no centro.
- * Desenho 100% original em SVG. Identidade ATIVO: verde #02FB3F (kit A), Manrope, logo oficial; sem amarelo.
+ * Desenho 100% original em SVG. NÍVEL 1 (MARCA/sistema-visual): acento ACENTO (#02FB3F) via `A`, atmosferas ATMOSFERA,
+ * texto/contorno/alerta de DS — nada de cor de identidade escrita à mão aqui. Particularidades deste modelo (Nível 2):
+ * raios girando, pop elástico, carimbos, corte seco, legenda karaokê no centro, personagens chapados de recorte.
  */
 const A = ACCENT_NOV26;
 const aa = (a: number) => accentAlpha(A, a);
 export const RED = C.warn;
 
-/** Paletas de fundo por clima (centro → borda). Sem verdes fora da marca: o "ganho" usa o deep oficial + raios do verde A. */
+/** Tokens de identidade usados pelo kit (Nível 1). */
+const BRANCO = DS.cor.texto.branco;
+const PENDENTE = DS.cor.texto.pendente;
+const CONTORNO = DS.cor.contorno;
+const ALERTA_FUNDO = DS.cor.alerta.fundo;
+
+/**
+ * Climas do cartoon = ATMOSFERAS do Nível 1 (cor) + intensidade dos raios deste modelo (Nível 2).
+ * Nomes antigos (explica, conflito, pergunta, ganho, evento, dados, sepia) seguem válidos; os nomes globais também.
+ * 22/11/2026: "pergunta" deixou o roxo (agora marinho profundo), "dados" deixou o ciano e "sepia" virou o grafite morno
+ * da memória; o verde do "ganho" ficou localizado (luz r 760, raios 0,035) para o quadro não virar um campo verde.
+ */
+/** `luz` = raio (px) do gradiente de luz: 1100 nas atmosferas comuns; 760 na solução, para o verde ficar só atrás do protagonista. */
+const clima = (k: AtmosferaNome, ray: number, luz = 1100) => ({ c0: ATMOSFERA[k].centro, c1: ATMOSFERA[k].borda, ray: luzAtm(k, ray), atm: k, luz });
 export const CLIMA = {
-  explica: { c0: "#24324A", c1: "#070A10", ray: "rgba(143,180,227,0.07)" },
-  conflito: { c0: "#5C1A17", c1: "#120405", ray: "rgba(255,107,94,0.08)" },
-  pergunta: { c0: "#33204F", c1: "#0B0612", ray: "rgba(190,160,255,0.07)" },
-  ganho: { c0: A.deep, c1: "#050607", ray: aa(0.07) },
-  evento: { c0: "#2A2A33", c1: "#060608", ray: "rgba(255,255,255,0.05)" },
-  dados: { c0: "#173A44", c1: "#04090B", ray: "rgba(143,210,227,0.05)" },
-  sepia: { c0: "#6B5638", c1: "#1A140C", ray: "rgba(255,230,190,0.06)" },
+  explica: clima("explicacao", 0.07),
+  conflito: clima("tensao", 0.08),
+  pergunta: clima("dilema", 0.06),
+  ganho: clima("solucao", 0.035, 760),
+  evento: clima("neutra", 0.05),
+  dados: clima("dados", 0.05),
+  sepia: clima("memoria", 0.06),
+  explicacao: clima("explicacao", 0.07),
+  tensao: clima("tensao", 0.08),
+  dilema: clima("dilema", 0.06),
+  solucao: clima("solucao", 0.035, 760),
+  neutra: clima("neutra", 0.05),
+  memoria: clima("memoria", 0.06),
 } as const;
 export type Clima = keyof typeof CLIMA;
 
@@ -39,7 +60,7 @@ export const Raios: React.FC<{ t: number; clima: Clima; cy?: number; vin?: numbe
   return (
     <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
       <defs>
-        <radialGradient id={`${id}_g`} cx={540} cy={cy} r={1250} gradientUnits="userSpaceOnUse">
+        <radialGradient id={`${id}_g`} cx={540} cy={cy} r={p.luz} gradientUnits="userSpaceOnUse">
           <stop offset="0" stopColor={p.c0} />
           <stop offset="1" stopColor={p.c1} />
         </radialGradient>
@@ -52,7 +73,7 @@ export const Raios: React.FC<{ t: number; clima: Clima; cy?: number; vin?: numbe
       <g transform={`rotate(${rot} 540 ${cy})`}>
         {rays.map((d, i) => <path key={i} d={d} fill={p.ray} />)}
       </g>
-      {clima === "dados" ? Array.from({ length: 24 }, (_, i) => <path key={`g${i}`} d={i < 12 ? `M${i * 96} 0 V1920` : `M0 ${(i - 12) * 170} H1080`} stroke="rgba(143,210,227,0.08)" strokeWidth={2} />) : null}
+      {p.atm === "dados" ? Array.from({ length: 24 }, (_, i) => <path key={`g${i}`} d={i < 12 ? `M${i * 96} 0 V1920` : `M0 ${(i - 12) * 170} H1080`} stroke={luzAtm("dados", 0.08)} strokeWidth={2} />) : null}
       {Array.from({ length: 26 }, (_, i) => {
         const x = rnd(i * 3.1) * 1080;
         const y = ((rnd(i * 7.7) * 1920 - t * (14 + rnd(i) * 20)) % 1920 + 1920) % 1920;
@@ -259,7 +280,7 @@ export const Carimbo: React.FC<{ t: number; at: number; x: number; y: number; te
   if (t < at) return null;
   const k = prog(t, at, 0.16, ease.in);
   const s = mix(2.3, 1, k) * (1 + 0.04 * Math.sin(clamp01((t - at - 0.16) / 0.2) * Math.PI));
-  const bg = cor === "red" ? "#D2392E" : cor === "green" ? A.hex : "#F4F5F7";
+  const bg = cor === "red" ? ALERTA_FUNDO : cor === "green" ? A.hex : BRANCO;
   const fg = cor === "green" ? A.ink : cor === "white" ? "#111" : "#fff";
   return (
     <div style={{ position: "absolute", left: x, top: y, transform: `translate(-50%, -50%) rotate(${rot}deg) scale(${s})`, opacity: Math.min(1, k * 2.5), background: bg, color: fg, border: "7px solid #fff", borderRadius: 18, padding: `${size * 0.22}px ${size * 0.42}px`, fontFamily: F.sans, fontWeight: 800, fontSize: size, lineHeight: 1, letterSpacing: "-0.02em", whiteSpace: "nowrap", textAlign: "center", boxShadow: `0 18px 40px rgba(0,0,0,0.55)${cor === "green" ? `, 0 0 50px ${aa(0.35)}` : ""}` }}>
@@ -276,7 +297,7 @@ export const Selo: React.FC<{ t: number; at: number; texto: string; cor?: "green
   const c = cor === "green" ? A.hex : cor === "red" ? RED : C.text;
   return (
     <div style={{ position: "absolute", left: 0, right: 0, top, display: "flex", justifyContent: "center" }}>
-      <div style={{ transform: `scale(${0.5 + 0.5 * s})`, opacity: Math.min(1, s * 3), fontFamily: F.sans, fontWeight: 800, fontSize: size, letterSpacing: "-0.02em", color: c, WebkitTextStroke: "10px #0A0A0C", paintOrder: "stroke fill", textShadow: "0 8px 24px rgba(0,0,0,0.6)", whiteSpace: "nowrap" }}>{texto}</div>
+      <div style={{ transform: `scale(${0.5 + 0.5 * s})`, opacity: Math.min(1, s * 3), fontFamily: F.sans, fontWeight: 800, fontSize: size, letterSpacing: "-0.02em", color: c, WebkitTextStroke: `10px ${CONTORNO}`, paintOrder: "stroke fill", textShadow: "0 8px 24px rgba(0,0,0,0.6)", whiteSpace: "nowrap" }}>{texto}</div>
     </div>
   );
 };
@@ -285,7 +306,7 @@ export const Selo: React.FC<{ t: number; at: number; texto: string; cor?: "green
 export const Etiqueta: React.FC<{ t: number; at: number; x: number; y: number; texto: string; cor?: "green" | "red" | "white" | "dark"; size?: number }> = ({ t, at, x, y, texto, cor = "dark", size = 36 }) => {
   const s = pop(t, at);
   if (s <= 0.001) return null;
-  const [bg, fg, bd] = { green: [A.hex, A.ink, "#fff"], red: ["#D2392E", "#fff", "#fff"], white: ["#F4F5F7", "#111", "#111"], dark: ["#111318", "#F4F5F7", "rgba(255,255,255,0.85)"] }[cor];
+  const [bg, fg, bd] = { green: [A.hex, A.ink, "#fff"], red: [ALERTA_FUNDO, "#fff", "#fff"], white: [BRANCO, "#111", "#111"], dark: ["#111318", BRANCO, "rgba(255,255,255,0.85)"] }[cor];
   return (
     <div style={{ position: "absolute", left: x, top: y, transform: `translate(-50%, -50%) scale(${0.5 + 0.5 * s})`, opacity: Math.min(1, s * 3), background: bg, color: fg, border: `5px solid ${bd}`, borderRadius: 999, padding: `${size * 0.28}px ${size * 0.6}px`, fontFamily: F.sans, fontWeight: 800, fontSize: size, lineHeight: 1, whiteSpace: "nowrap", boxShadow: "0 12px 28px rgba(0,0,0,0.5)" }}>{texto}</div>
   );
@@ -294,8 +315,8 @@ export const Etiqueta: React.FC<{ t: number; at: number; x: number; y: number; t
 /** Símbolo de proibido sobre um objeto. */
 export const Proibido: React.FC<{ t: number; at: number; x: number; y: number; r?: number }> = ({ t, at, x, y, r = 170 }) => (
   <Pop t={t} at={at} x={x} y={y}>
-    <circle r={r} fill="none" stroke="#D2392E" strokeWidth={r * 0.16} />
-    <line x1={-r * 0.7} y1={r * 0.7} x2={r * 0.7} y2={-r * 0.7} stroke="#D2392E" strokeWidth={r * 0.16} strokeLinecap="round" />
+    <circle r={r} fill="none" stroke={ALERTA_FUNDO} strokeWidth={r * 0.16} />
+    <line x1={-r * 0.7} y1={r * 0.7} x2={r * 0.7} y2={-r * 0.7} stroke={ALERTA_FUNDO} strokeWidth={r * 0.16} strokeLinecap="round" />
   </Pop>
 );
 
@@ -303,7 +324,7 @@ export const Proibido: React.FC<{ t: number; at: number; x: number; y: number; r
 export const Confete: React.FC<{ t: number; at: number; n?: number }> = ({ t, at, n = 60 }) => {
   if (t < at) return null;
   const d = t - at;
-  const cores = [A.hex, "#F4F5F7", "#8FB4E3", "#FF6B5E"];
+  const cores = [A.hex, BRANCO, A.hex, DS.cor.texto.secundario]; // celebração só com acento + neutros (vermelho = perda, nunca festa)
   return (
     <g>
       {Array.from({ length: n }, (_, i) => {
@@ -335,16 +356,16 @@ export const Cadeado: React.FC<{ s?: number; cor?: string }> = ({ s = 1, cor = "
 export const Chave: React.FC = () => (
   <g fill={A.hex}>
     <circle cx={0} cy={0} r={22} />
-    <circle cx={0} cy={0} r={9} fill="#0A0A0C" />
+    <circle cx={0} cy={0} r={9} fill={CONTORNO} />
     <rect x={16} y={-6} width={60} height={12} rx={4} />
     <rect x={58} y={4} width={9} height={16} />
     <rect x={44} y={4} width={9} height={12} />
   </g>
 );
 export const Raio: React.FC<{ s?: number }> = ({ s = 1 }) => (
-  <path transform={`scale(${s})`} d="M10 -120 L-50 10 L-6 10 L-24 120 L50 -20 L4 -20 Z" fill="#FFD9D4" stroke="#D2392E" strokeWidth={10} strokeLinejoin="round" />
+  <path transform={`scale(${s})`} d="M10 -120 L-50 10 L-6 10 L-24 120 L50 -20 L4 -20 Z" fill="#FFD9D4" stroke={ALERTA_FUNDO} strokeWidth={10} strokeLinejoin="round" />
 );
-export const Balao: React.FC<{ texto: string; w?: number; cor?: string; size?: number; cauda?: 1 | -1 }> = ({ texto, w = 150, cor = "#F4F5F7", size = 64, cauda = 1 }) => (
+export const Balao: React.FC<{ texto: string; w?: number; cor?: string; size?: number; cauda?: 1 | -1 }> = ({ texto, w = 150, cor = BRANCO, size = 64, cauda = 1 }) => (
   <g>
     <rect x={-w / 2} y={-70} width={w} height={110} rx={40} fill={cor} />
     <path d={cauda === 1 ? "M-20 38 L-40 78 L10 38 Z" : "M20 38 L40 78 L-10 38 Z"} fill={cor} />
@@ -352,10 +373,10 @@ export const Balao: React.FC<{ texto: string; w?: number; cor?: string; size?: n
   </g>
 );
 /** Folha de calendário (mês em destaque). Centro em (0,0). */
-export const Calendario: React.FC<{ mes: string; cor?: string }> = ({ mes, cor = "#D2392E" }) => (
+export const Calendario: React.FC<{ mes: string; cor?: string }> = ({ mes, cor = ALERTA_FUNDO }) => (
   <g>
     <rect x={-130} y={-120} width={260} height={250} rx={24} fill="#000" opacity={0.35} transform="translate(10 14)" />
-    <rect x={-130} y={-120} width={260} height={250} rx={24} fill="#F4F5F7" />
+    <rect x={-130} y={-120} width={260} height={250} rx={24} fill={BRANCO} />
     <rect x={-130} y={-120} width={260} height={80} rx={24} fill={cor} />
     <rect x={-130} y={-64} width={260} height={24} fill={cor} />
     {[-70, 70].map((x) => <rect key={x} x={x - 9} y={-146} width={18} height={50} rx={9} fill="#2A2D33" />)}
@@ -447,7 +468,7 @@ export const Check: React.FC<{ r?: number }> = ({ r = 46 }) => (
 export const Moedas: React.FC = () => (
   <g>
     {[0, 1, 2, 3].map((k) => <g key={k} transform={`translate(0 ${-k * 26})`}><ellipse rx={70} ry={22} cy={12} fill="#A8761E" /><ellipse rx={70} ry={22} fill="#E0A43A" /></g>)}
-    <circle cx={0} cy={-150} r={52} fill="#F4F5F7" stroke="#111" strokeWidth={6} />
+    <circle cx={0} cy={-150} r={52} fill={BRANCO} stroke="#111" strokeWidth={6} />
     <text x={0} y={-131} textAnchor="middle" fontFamily={F.sans} fontWeight={800} fontSize={56} fill="#111">%</text>
   </g>
 );
@@ -478,9 +499,9 @@ export const LegendaKaraoke: React.FC<{ t: number; chunks: CaptionChunk[]; y?: n
         // negativa: lista fixa, lista do episódio, ou palavra logo depois de "não/nem" no mesmo bloco ("NÃO PROVA")
         const prev = i > 0 ? chunk.words[i - 1].text : "";
         const neg = NEG.test(w.text) || (negativas ? negativas.test(w.text) : false) || (/^(não|nem)$/i.test(prev) && w.emph);
-        const cor = !dita ? "#8B9099" : neg && (w.emph || /^(não|nem)$/i.test(w.text)) ? RED : w.emph ? A.hex : "#FFFFFF";
+        const cor = !dita ? PENDENTE : neg && (w.emph || /^(não|nem)$/i.test(w.text)) ? RED : w.emph ? A.hex : BRANCO;
         return (
-          <span key={i} style={{ display: "inline-block", color: cor, WebkitTextStroke: `${size * 0.16}px #0A0A0C`, paintOrder: "stroke fill", textShadow: "0 6px 18px rgba(0,0,0,0.7)", transform: `scale(${dita ? 1 + 0.12 * Math.min(1, 6 / Math.max(1, w.text.length)) * Math.sin(clamp01(sal) * Math.PI) : 1})`, whiteSpace: "nowrap" }}>{w.text}</span>
+          <span key={i} style={{ display: "inline-block", color: cor, WebkitTextStroke: `${size * 0.16}px ${CONTORNO}`, paintOrder: "stroke fill", textShadow: "0 6px 18px rgba(0,0,0,0.7)", transform: `scale(${dita ? 1 + 0.12 * Math.min(1, 6 / Math.max(1, w.text.length)) * Math.sin(clamp01(sal) * Math.PI) : 1})`, whiteSpace: "nowrap" }}>{w.text}</span>
         );
       })}
     </div>
@@ -514,7 +535,7 @@ export const Contador: React.FC<{ t: number; at: number; de: number; ate: number
   const v = mix(de, ate, prog(t, at, dur, ease.out));
   const txt = v.toLocaleString("pt-BR", { minimumFractionDigits: casas, maximumFractionDigits: casas });
   return (
-    <div style={{ position: "absolute", left: x, top: y, transform: `translate(-50%, -50%) scale(${0.5 + 0.5 * s})`, fontFamily: F.sans, fontWeight: 800, fontSize: size, color: cor === "green" ? A.hex : cor === "red" ? RED : "#fff", WebkitTextStroke: `${size * 0.12}px #0A0A0C`, paintOrder: "stroke fill", whiteSpace: "nowrap", fontVariantNumeric: "tabular-nums" }}>
+    <div style={{ position: "absolute", left: x, top: y, transform: `translate(-50%, -50%) scale(${0.5 + 0.5 * s})`, fontFamily: F.sans, fontWeight: 800, fontSize: size, color: cor === "green" ? A.hex : cor === "red" ? RED : "#fff", WebkitTextStroke: `${size * 0.12}px ${CONTORNO}`, paintOrder: "stroke fill", whiteSpace: "nowrap", fontVariantNumeric: "tabular-nums" }}>
       {prefixo}{txt}{sufixo}
     </div>
   );
@@ -546,7 +567,7 @@ export const Mao: React.FC<{ pele?: string; manga?: string }> = ({ pele = "#E8B4
 
 const IconeCasa = () => <g><path d="M-60 0 L0 -52 L60 0 Z" fill="#B5483A" /><rect x={-44} y={0} width={88} height={60} fill="#E9E2D6" /><rect x={-12} y={22} width={24} height={38} fill="#5A3A2A" /></g>;
 const IconePessoa = () => <g><circle cx={0} cy={-22} r={30} fill="#E8B48C" /><path d="M-52 60 Q-52 10 0 10 Q52 10 52 60 Z" fill="#D7883A" /></g>;
-const IconeChat = () => <g><rect x={-62} y={-44} width={124} height={84} rx={26} fill="#F4F5F7" /><path d="M-20 38 L-36 66 L4 38 Z" fill="#F4F5F7" />{[-28, 0, 28].map((x) => <circle key={x} cx={x} cy={-2} r={9} fill="#2A2D33" />)}</g>;
+const IconeChat = () => <g><rect x={-62} y={-44} width={124} height={84} rx={26} fill={BRANCO} /><path d="M-20 38 L-36 66 L4 38 Z" fill={BRANCO} />{[-28, 0, 28].map((x) => <circle key={x} cx={x} cy={-2} r={9} fill="#2A2D33" />)}</g>;
 
 /**
  * FECHO CTA no estilo cartoon (mesmo conteúdo da CTA SISTEMA → Direct): 3 cartões IMÓVEIS / LEADS / ATENDIMENTOS entram
@@ -606,7 +627,7 @@ export const CtaCartoon: React.FC<{ t: number; tl: { captions: CaptionChunk[]; c
       </svg>
       {/* cartão COMENTE */}
       {card > 0.001 ? (
-        <div style={{ position: "absolute", left: 110, top: 420, width: 860, transform: `scale(${0.5 + 0.5 * card})`, transformOrigin: "540px 200px", opacity: Math.min(1, card * 3), background: "#F4F5F7", borderRadius: 40, border: "8px solid #0A0A0C", boxShadow: `0 30px 60px rgba(0,0,0,0.5), 0 0 60px ${aa(0.25)}`, padding: "34px 40px 40px", boxSizing: "border-box", fontFamily: F.sans }}>
+        <div style={{ position: "absolute", left: 110, top: 420, width: 860, transform: `scale(${0.5 + 0.5 * card})`, transformOrigin: "540px 200px", opacity: Math.min(1, card * 3), background: BRANCO, borderRadius: 40, border: `8px solid ${CONTORNO}`, boxShadow: `0 30px 60px rgba(0,0,0,0.5), 0 0 60px ${aa(0.25)}`, padding: "34px 40px 40px", boxSizing: "border-box", fontFamily: F.sans }}>
           <div style={{ fontWeight: 800, fontSize: 64, color: "#111", letterSpacing: "-0.02em" }}>COMENTE:</div>
           <div style={{ marginTop: 22, display: "flex", alignItems: "center", gap: 20 }}>
             <div style={{ flex: 1, height: 120, borderRadius: 60, background: "#fff", border: "5px solid #111", display: "flex", alignItems: "center", padding: "0 34px", fontWeight: 800, fontSize: 72, color: "#111", letterSpacing: "0.02em" }}>
@@ -623,7 +644,7 @@ export const CtaCartoon: React.FC<{ t: number; tl: { captions: CaptionChunk[]; c
       ) : null}
       {/* SEGUIR → SEGUINDO */}
       {seguir ? (
-        <div style={{ position: "absolute", left: 560, top: 1180, width: 400, height: 110, borderRadius: 30, background: seguindo ? "#262B33" : A.hex, border: "6px solid #0A0A0C", display: "flex", alignItems: "center", justifyContent: "center", gap: 14, fontFamily: F.sans, fontWeight: 800, fontSize: 52, color: seguindo ? "#fff" : A.ink, transform: `scale(${(0.5 + 0.5 * pop(t, tDir)) * (1 - clickSeg * 0.1)})`, opacity: Math.min(1, pop(t, tDir) * 3), boxShadow: "0 16px 30px rgba(0,0,0,0.5)" }}>
+        <div style={{ position: "absolute", left: 560, top: 1180, width: 400, height: 110, borderRadius: 30, background: seguindo ? "#262B33" : A.hex, border: `6px solid ${CONTORNO}`, display: "flex", alignItems: "center", justifyContent: "center", gap: 14, fontFamily: F.sans, fontWeight: 800, fontSize: 52, color: seguindo ? "#fff" : A.ink, transform: `scale(${(0.5 + 0.5 * pop(t, tDir)) * (1 - clickSeg * 0.1)})`, opacity: Math.min(1, pop(t, tDir) * 3), boxShadow: "0 16px 30px rgba(0,0,0,0.5)" }}>
           {seguindo ? <>SEGUINDO <span style={{ color: A.hex }}>✓</span></> : "SEGUIR"}
         </div>
       ) : null}

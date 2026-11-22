@@ -5,7 +5,34 @@ description: SEGUNDO MODELO de vídeo viral da ATIVO — "Segundo modelo — Pic
 
 # Segundo modelo — Pictograma cinematográfico
 
-*ATIVO · modelo de vídeo viral nº 2 (de 4). Registro: `MODELOS_DE_VIDEO.md`.*
+*ATIVO · modelo de vídeo nº 2. Registro: `MODELOS_DE_VIDEO.md` e `MARCA/sistema-visual/modelos.json` (id `pictograma-cinematografico`).*
+
+## Herança do Sistema Visual ATIVO
+
+**Antes de produzir, leia `MARCA/sistema-visual/README.md` (Nível 1).** Ele vale acima desta skill: em conflito, o Nível 1 vence.
+
+- **Herdado (Nível 1, sem redefinir aqui):**
+  - acento único `ACENTO` `#02FB3F` (no kit: `A`/`aa`);
+  - as atmosferas (`ATMOSFERA`): o "centro morno" do noir é a atmosfera `memoria`; o halo da virada é `solucao`;
+  - texto, contorno e alerta de `DS`;
+  - Manrope e JetBrains Mono, escala e mínimos;
+  - área segura e coluna de botões do Reels;
+  - grão, vinheta e poeira sutil;
+  - easing e ancoragem na palavra;
+  - as 7 assinaturas ATIVO;
+  - qualidade e governança.
+
+  Valores só em `MARCA/sistema-visual/tokens.json`, que o código lê por `PRODUCAO/src/theme.ts`.
+- **Particular deste modelo (Nível 2, preservar):**
+  - família de ilustração `linha` (pictograma luminoso sem rosto, ícones em traço fino);
+  - fundo noir, o mais escuro do perfil;
+  - nenhum corte seco (portal, apagar a luz com âncora, rima, dissolução, travelling);
+  - surgir do desfoque em vez de pop;
+  - títulos letra a letra;
+  - legenda que se escreve em caixa normal (y 1330, 52 px);
+  - fecho `CtaNoir` com o logo montado por partículas.
+- **Direção de cada vídeo (Nível 3):** metáfora, âncora visual, rimas, luz de cada cena, dentro dos níveis acima.
+- **Validação:** `python3 tools/sistema_visual_check.py --modelo pictograma-cinematografico` (o `editorial_check` já roda a parte do episódio e bloqueia o render). Depois, a revisão visual da folha de quadros (README §8).
 
 **Fontes da verdade:**
 - **Piloto:** `ATIVO_PICTO_01` ("Ninguém te avisa quando um cliente desiste", 21/11/2026).
@@ -50,10 +77,10 @@ O código fica em `PRODUCAO/episodes/<EP>/` e `PRODUCAO/src/episodes/<EP>/`. ID:
 ---
 
 ## 1. Regras inegociáveis
-1. **Identidade ATIVO**
-   - Acento único **`#02FB3F`** (kit `A`/`aa`), usado onde as referências usam dourado: palavra-chave, título-solução, caminho percorrido, versão "de sucesso" do personagem, ícones conquistados, glow.
-   - Derivados só `A.ink #01290B` e `A.deep #063A16`. **Nenhum outro verde**: o verde menta das referências é proibido. **Nenhum dourado ou amarelo.**
-   - Vermelho `C.warn #FF6B5E` (texto e traço) / `#D2392E` (pílula cheia) **só** para perda, erro, pendência e silêncio.
+1. **Identidade ATIVO = Sistema Visual Nível 1** (`MARCA/sistema-visual/README.md`; seção "Herança" acima). Neste modelo:
+   - Acento único **`ACENTO` `#02FB3F`** (kit `A`/`aa`), usado onde as referências usam dourado: palavra-chave, título-solução, caminho percorrido, versão "de sucesso" do personagem, ícones conquistados, glow.
+   - Derivados só `A.ink` e `A.deep`. **Nenhum outro verde**: o verde menta das referências é proibido. **Nenhum dourado ou amarelo.**
+   - Vermelho `C.warn` (texto e traço) / `DS.cor.alerta.fundo` (pílula cheia) **só** para perda, erro, pendência e silêncio.
    - Fonte Manrope 800/700; logo oficial (o fecho monta o PNG oficial; nunca redesenhar).
 2. **Voz:** Puck, `gemini-3.8-flash-tts`, **1,0×**, `shapePauses` padrão, `direction` de `VOZ/voice_preset.json`. A imagem obedece à voz.
 3. **CTA:** a fala da CTA SISTEMA é a padrão. Neste formato o visual é o **`CtaNoir`** (seção 11). Outra CTA do roteiro vira frase de transição.
@@ -156,7 +183,7 @@ O código fica em `PRODUCAO/episodes/<EP>/` e `PRODUCAO/src/episodes/<EP>/`. ID:
 ## 6. Bíblia visual
 
 ### 6.1 Fundo (`<FundoNoir t quente verde chao plano poeira/>`)
-- Preto `#050505` + **centro morno** radial `#2B2723` (raio 900, opacidade 0,95·`quente`), centrado em (540, 860).
+- Preto `DS.cor.fundo.preto` + **centro morno** radial = atmosfera `memoria` do Nível 1 (`ATMOSFERA.memoria.centro`; raio 900, opacidade 0,95·`quente`), centrado em (540, 860).
 - **Vinheta** radial de 35% (transparente) a 100% (preto 0,92); cantos quase pretos.
 - **Poeira:** 72 pontos brancos (r 0,9–3,1; opacidade 0,06–0,28, pulsando) subindo 6–20 px/s com oscilação.
 - `verde` 0–1 acrescenta um halo verde `aa(0.1)` no centro (cenas de solução e fecho).
@@ -297,8 +324,9 @@ Coordenadas locais com pés em (0,0); altura ≈ 290·s.
 
 ### 11.1 `<LegendaNoir chunks y={1330} size={52} negativas/>`
 - **Páginas** de até 2 linhas (~34 caracteres), sem atravessar frases; a página aparece **quando a 1ª palavra é dita**.
-- Cada palavra **surge** (desfoque 5 → 0, 0,16 s) em **cinza `#6F6F6F` 0,18 s antes** de ser dita, e fica branca na hora; ênfase `#02FB3F` com brilho; negativa `#FF6B5E`.
-- Caixa normal (não maiúsculas), Manrope 800, 52 px, entrelinha 1,18, sombra 0 2 14 rgba(0,0,0,.85), margens de 110 px.
+- Cada palavra **surge** (desfoque 5 → 0, 0,16 s) em `DS.cor.texto.surgindo` **0,18 s antes** de ser dita, e fica `DS.cor.texto.branco` na hora; ênfase `A.hex` com brilho; negativa `C.warn`.
+- Caixa normal (não maiúsculas), Manrope 800, 52 px, entrelinha 1,18, sombra 0 2 14 rgba(0,0,0,.85).
+- Margens: 110 px à esquerda e 130 px à direita. A direita termina em x 950 para não entrar na coluna de botões do Reels (Nível 1, 22/11/2026).
 - A página some em 0,2 s, 0,25 s depois da última palavra; entre frases a área fica vazia (respiro).
 
 ### 11.2 Fecho `<CtaNoir t tl segPergunta segComente logo rodape/>`
@@ -354,7 +382,8 @@ Coordenadas locais com pés em (0,0); altura ≈ 290·s.
 - [ ] Nenhum corte seco; cada transição conferida a 10 quadros/s (o portal nasce no ponto exato).
 - [ ] Faixa da legenda (1270–1400) livre de pílulas, balões e rostos.
 - [ ] Um protagonista por cena; o resto cinza ou apagado.
-- [ ] Só `#02FB3F` como acento; vermelho só para perda; nenhum dourado.
+- [ ] Só o `ACENTO` como acento; vermelho só para perda; nenhum dourado.
+- [ ] Sistema Visual: `python3 tools/sistema_visual_check.py --quadros <pasta_da_folha>` sem aviso, e a revisão visual do README §8 marcada.
 - [ ] Pernas e braços do pictograma separados (sem "bloco"); cabeça destacada.
 - [ ] Pílulas ≥ 24 px; nada cortado nas bordas durante travellings (confira o quadro final de cada travelling).
 
@@ -406,7 +435,7 @@ export const Cena2: React.FC<P> = ({ t, tl }) => {
 - Personagem com rosto, roupas detalhadas ou membros grudados.
 - Mais de um elemento em brilho ao mesmo tempo; verde gasto em tudo (perde o peso).
 - Legenda em maiúsculas ou no centro da tela; legenda "colada" sem respiro entre frases.
-- Dourado, amarelo ou qualquer verde diferente de `#02FB3F`.
+- Dourado, amarelo ou qualquer verde diferente do `ACENTO` (`#02FB3F`).
 - Logo ATIVO redesenhado ou feito de texto.
 - Copiar a frase-ritual, o logo ou os motivos assinatura da série de referência.
 - Caso real sem fonte na tela, sem o outro lado, ou com caricatura.

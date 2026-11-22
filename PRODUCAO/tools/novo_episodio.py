@@ -12,6 +12,13 @@ def build(ep_id, out, lote, fonte, title, S, L, sfx, prog, cta, diag, apur, lead
     """formato="cartoon-explicativo" (Primeiro modelo) ou "pictograma-cinematografico" (Segundo modelo): NÃO registra estilo na
     esteira de 5 estilos, cria os cues do fecho (cta_leads/cta_atend) e troca os SFX da CTA pelos do fecho do modelo."""
     base = json.load(open('episodes/ATIVO-NOV26-03/episode.json'))
+    # Sistema Visual ATIVO (Nível 1): todo formato fora da esteira precisa ser um modelo REGISTRADO e ativo em
+    # MARCA/sistema-visual/modelos.json (processo de MARCA/sistema-visual/NOVO_MODELO.md). Formato desconhecido não cria episódio.
+    ds_dir = os.path.join('..', 'MARCA', 'sistema-visual')
+    ds_ver = json.load(open(os.path.join(ds_dir, 'tokens.json')))['versao']
+    modelos = {m['formato'] for m in json.load(open(os.path.join(ds_dir, 'modelos.json')))['modelos'] if m.get('formato') and m['status'] == 'ativo'}
+    if formato and formato not in modelos:
+        raise SystemExit(f"formato '{formato}' não está registrado como modelo ativo em MARCA/sistema-visual/modelos.json — siga MARCA/sistema-visual/NOVO_MODELO.md")
     S = S + ([] if cta_in_script else CTA)
     segs = [dict(id=f"s{i+1}", scene=a, text=b, caption=c, pauseAfter=0.3) for i, (a, b, c) in enumerate(S)]
     for s in segs:
@@ -19,7 +26,7 @@ def build(ep_id, out, lote, fonte, title, S, L, sfx, prog, cta, diag, apur, lead
         assert not re.search(r'[“"]\*|\*[”"]', s['caption']), f"{s['id']}: ênfase (*) colada às aspas gera asterisco visível"
     k = len(segs)
     L = L + [("cta_quer", f"s{k-1}", "Quer"), ("cta_sys", f"s{k-1}", "sistema"), ("cta_tiles", f"s{k-1}", "imóveis"), ("cta_comment", f"s{k}", "Comente"), ("cta_word", f"s{k}", "SISTEMA"), ("cta_direct", f"s{k}", "Direct")]
-    if formato in ("cartoon-explicativo", "pictograma-cinematografico"):
+    if formato in modelos:  # todo modelo registrado tem o fecho-ritual com IMÓVEIS / LEADS / ATENDIMENTOS (assinatura 6)
         L = L + [("cta_leads", f"s{k-1}", "leads"), ("cta_atend", f"s{k-1}", "atendimentos")]
     C = {a: dict(seg=s, word=w, edge="start", offset=0) for a, s, w in L}; C["cta_end"] = dict(seg=f"s{k}", word="Direct", edge="end", offset=0)
     for a, v in C.items():
@@ -50,6 +57,7 @@ def build(ep_id, out, lote, fonte, title, S, L, sfx, prog, cta, diag, apur, lead
             if kk in prev: ep[kk] = prev[kk]
     if formato:
         ep["formato"] = formato
+    ep["sistemaVisual"] = ds_ver  # versão do Nível 1 com que o episódio foi criado (MARCA/sistema-visual/CHANGELOG.md)
     os.makedirs(f'episodes/{ep_id}', exist_ok=True)
     json.dump(ep, open(old, 'w'), ensure_ascii=False, indent=1)
     if formato:

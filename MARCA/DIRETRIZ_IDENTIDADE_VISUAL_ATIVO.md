@@ -1,43 +1,43 @@
-# ATIVO — Diretriz visual obrigatória para vídeos e motion
+# ATIVO — Diretriz de marca (logo e cor) para vídeos e motion
 
-**Versão:** 2026-11-13 · **Público:** corretores de imóveis, prioritariamente 40+.
+**Versão:** 2026-11-22 · **Público:** corretores de imóveis, prioritariamente 40+.
+
+> **As regras visuais completas de vídeo agora estão no Sistema Visual ATIVO: `MARCA/sistema-visual/README.md` (Nível 1).** Ele cobre cores, atmosferas, tipografia, ilustração, composição, movimento e qualidade, e os valores ficam em `tokens.json`. Esta diretriz trata do **logo** e do histórico da cor. Em conflito, o Sistema Visual vence.
 
 ## Fonte de verdade
 
-1. **Cor principal aprovada e registrada no repositório:** `#3AF584` (RGB 58, 245, 132). A fonte canônica existente é `MARCA/brand.json` (`accent_color`). O projeto Remotion deve lê-la ou sincronizar rigorosamente com ela.
-2. **Logo:** preservar os arquivos oficiais `MARCA/logo/ativo_logo_original.webp`, `MARCA/logo/ativo_logo_transparente.png` e `PRODUCAO/public/brand/ativo_logo.png`. Nunca redesenhar por aproximação.
-3. **Tipografia existente:** Manrope para a linguagem principal; JetBrains Mono para dados discretos. Preservar as fontes e respectivas licenças.
-4. **Fundos e texto:** grafite/preto escuro `#07080A` e tons escuros do projeto, branco `#F4F5F7`; usar `#3AF584` com parcimônia para ênfase, seta, linha, indicador ou CTA.
+1. **Cor de destaque dos vídeos novos: `#02FB3F`** (RGB 2, 251, 63).
+   - É o verde da seta do logo oficial: a mediana medida no PNG é `#02FF46`.
+   - É também a decisão do cliente de 17/11/2026.
+   - Valor canônico em `MARCA/sistema-visual/tokens.json` → `cor.acento`; o código lê por `PRODUCAO/src/theme.ts` (`ACENTO`).
+   - Derivados só de apoio: `#01290B` (texto sobre o verde) e `#063A16` (fundo escuro esverdeado).
+2. **Logo:** preservar os arquivos oficiais `MARCA/logo/ativo_logo_original.webp`, `MARCA/logo/ativo_logo_transparente.png` e `PRODUCAO/public/brand/ativo_logo.png`. Nunca redesenhar por aproximação nem trocar por texto. Animações podem montá-lo a partir de pontos amostrados do PNG oficial, desde que o arquivo oficial apareça por cima no final.
+3. **Tipografia:** Manrope para a linguagem principal; JetBrains Mono para dados discretos (licenças em `PRODUCAO/public/fonts/`).
+4. **Fundos e texto:**
+   - fundos: preto, grafite e azul-marinho profundo (atmosferas do Sistema Visual);
+   - texto: branco `#F4F5F7`;
+   - o verde aparece com parcimônia, para ênfase, seta, linha, indicador ou CTA.
 
-## Regra de uso (14/11/2026)
+## Histórico da cor (não usar em vídeo novo)
 
-Nos vídeos novos, o verde é **exatamente `#3AF584`** — inclusive quando o roteiro diz só "verde" ou "verde luminoso". Tons derivados permitidos apenas como apoio: `#092614` (texto sobre o verde) e `#0E3A1F` (fundo escuro esverdeado). `PRODUCAO/tools/editorial_check.py` bloqueia qualquer outro verde e `render_episode.sh` não renderiza com erro. Vídeos já entregues não são reprocessados.
-
-## Erro corrigido
-
-`#35E0A1` e `rgba(53,224,161,...)` são resquícios de verde-água/menta usados em parte do pipeline. Eles não devem ser a cor de identidade dos novos vídeos. Não confundir `#00FA44` (amostragem estimada de PNG sugerida anteriormente) com o HEX oficial: **priorizar `#3AF584`**.
-
-O glow deve usar o MESMO verde: `rgba(58,245,132,alfa)`, com opacidade controlada. No Remotion, centralizar helpers para construir transparências sem espalhar RGB literal.
+- **`#3AF584`:** verde da identidade aprovada em 13/11/2026. Com os derivados `#092614` e `#0E3A1F`, passou a ser **legado** depois de 17/11/2026. Fica só nos episódios entregues até 16/11/2026 e em peças antigas (LP, Stories) que não forem refeitas. No código: `BRAND`/`brandAlpha`.
+- **`#35E0A1`, `rgba(53,224,161,…)` e `#00FA44`:** resquícios antigos (verde-água do piloto e uma amostragem estimada). Nunca foram cores da marca.
+- `PRODUCAO/tools/editorial_check.py` e `PRODUCAO/tools/sistema_visual_check.py` bloqueiam qualquer verde fora do acento vigente, e `render_episode.sh` não renderiza com erro.
 
 ## Preservar, não substituir cegamente
 
-- `#FF6B5E` é cor de aviso/tensão e pode permanecer quando semanticamente adequada.
-- Cores de interfaces de terceiros, fotos reais, elementos demonstrativos, estados de alerta e luz do ambiente não são acentos da identidade e não devem ser alterados por busca/substituição indiscriminada.
-- `OUTPUT/` contém vídeos e entregas históricas: não reprocessar ou sobrescrever sem ordem explícita.
-- Preto, branco e cores neutras devem dominar, e não grandes blocos verdes.
+- `#FF6B5E` (alerta) e `#D2392E` (alerta cheio) são cores de tensão. Ficam onde forem semanticamente adequadas: perda, erro, proibição.
+- Cores de fotos reais, elementos demonstrativos e luz de ambiente não são acentos da identidade. Não devem ser alteradas por busca e substituição indiscriminada.
+- `OUTPUT/` e `PUBLICACAO/` contêm entregas históricas: não reprocessar nem sobrescrever sem ordem explícita.
+- Preto, branco e neutros dominam. Nada de grandes blocos verdes.
 
-## Layout e animação
+## Layout e animação (resumo; regra completa no Sistema Visual)
 
-- Prioridade: fonte legível em celular; títulos legíveis para audiência 40+; uma ideia por composição.
-- Fundo escuro, traços precisos, transições motivadas por objetos; a seta ascendente pode inspirar o movimento, mas o arquivo de logo original permanece intacto.
-- Câmera suave, motion inteligente, sem glitch, ciano, neon azul, partículas, HUD futurista ou brilho excessivo.
-- O vídeo **deve** avançar visualmente, mas jamais exigir que o corretor leia texto pequeno ou acompanhe cortes frenéticos.
-- Não alterar a voz oficial nem velocidade aprovada: consultar `VOZ/voice_preset.json` e `PROMPTS/GUIA_MELHORIA_CONTINUA.md`.
-
-## Critérios de aceitação
-
-- [ ] `MARCA/brand.json`, `PRODUCAO/src/theme.ts`, `ANALISE/style_tokens.json` alinhados em `#3AF584`.
-- [ ] Nenhum `#35E0A1` ou `rgba(53,224,161,...)` ativo como acento da ATIVO; diferenças históricas comentadas/documentadas.
-- [ ] Render de quadro comparativo com logo aprovada e elementos em `#3AF584`.
-- [ ] Preview em Story 9:16 e vídeo LP 16:9, com legibilidade, logo oficial e sem artefatos.
-- [ ] QA registrado em `/logs` com arquivos atingidos e validação de fonte/voz/cores.
+- Prioridade: fonte legível no celular, títulos legíveis para a audiência 40+ e uma ideia por composição.
+- Fundo escuro com luz localizada; traços precisos; transições motivadas por objetos. A seta ascendente pode inspirar o movimento, mas o arquivo do logo permanece intacto.
+- Movimento:
+  - câmera suave;
+  - partículas e poeira **sutis** permitidas (≤ 0,3 de opacidade, ≤ 4 px; Sistema Visual v1.0.0, 22/11/2026);
+  - **proibidos:** glitch, ciano, neon azul, HUD futurista e brilho excessivo.
+- O vídeo **deve** avançar visualmente, mas sem exigir que o corretor leia texto pequeno nem acompanhe cortes frenéticos.
+- Não alterar a voz oficial nem a velocidade aprovada: consultar `VOZ/voice_preset.json` e `PROMPTS/GUIA_MELHORIA_CONTINUA.md`.

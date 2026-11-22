@@ -5,7 +5,33 @@ description: PRIMEIRO MODELO de vídeo viral da ATIVO — "Primeiro modelo — C
 
 # Primeiro modelo — Cartoon explicativo
 
-*ATIVO · modelo de vídeo viral nº 1 (de 4). Registro: `MODELOS_DE_VIDEO.md`.*
+*ATIVO · modelo de vídeo nº 1. Registro: `MODELOS_DE_VIDEO.md` e `MARCA/sistema-visual/modelos.json` (id `cartoon-explicativo`).*
+
+## Herança do Sistema Visual ATIVO
+
+**Antes de produzir, leia `MARCA/sistema-visual/README.md` (Nível 1).** Ele vale acima desta skill: em conflito, o Nível 1 vence.
+
+- **Herdado (Nível 1, sem redefinir aqui):**
+  - acento único `ACENTO` `#02FB3F` (no kit: `A`/`aa`);
+  - as 7 atmosferas (`ATMOSFERA`);
+  - texto, contorno e alerta de `DS`;
+  - Manrope e JetBrains Mono, escala e mínimos;
+  - área segura e coluna de botões do Reels;
+  - grão e vinheta;
+  - easing e ancoragem na palavra;
+  - as 7 assinaturas ATIVO;
+  - qualidade e governança.
+
+  Valores só em `MARCA/sistema-visual/tokens.json`, que o código lê por `PRODUCAO/src/theme.ts`.
+- **Particular deste modelo (Nível 2, preservar):**
+  - família de ilustração `chapado` (personagens de recorte, objetos sem contorno);
+  - raios girando com a cor da atmosfera;
+  - pop elástico, carimbos com tremor, punch-in na palavra;
+  - corte seco a cada 2–4 s;
+  - legenda karaokê maiúscula no centro (y 1000, 80 px);
+  - fecho `CtaCartoon`.
+- **Direção de cada vídeo (Nível 3):** metáfora, objetos, elenco, escalas e clima de cada plano, dentro dos níveis acima.
+- **Validação:** `python3 tools/sistema_visual_check.py --modelo cartoon-explicativo` (o `editorial_check` já roda a parte do episódio e bloqueia o render). Depois, a revisão visual da folha de quadros (README §8).
 
 > **Fonte da verdade visual:** o piloto `ATIVO_PILOTO_01` ("Concorrente ou parceiro?", 21/11/2026) e o kit `PRODUCAO/src/estilos/cartoon.tsx`. Referência: `referencias/piloto_24_quadros.jpg` (um quadro por plano). A gramática vem da análise quadro a quadro das 3 referências do cliente (`referencias/analise_3_referencias_quadro_a_quadro.md`). Tudo aqui foi medido nessas referências ou já está implementado e validado no piloto. Não é palpite.
 >
@@ -37,12 +63,12 @@ O código fica em `PRODUCAO/episodes/<EP>/` e `PRODUCAO/src/episodes/<EP>/`.
 
 ## 1. Regras inegociáveis
 
-1. **Identidade ATIVO**
-   - Verde de destaque **somente `#02FB3F`**: kit `A`/`aa` de `src/episodes/NOV26/kit.tsx`; derivados só `A.ink #01290B` e `A.deep #063A16`. Nenhum outro verde, nem "parecido". `editorial_check` reprova.
+1. **Identidade ATIVO = Sistema Visual Nível 1** (`MARCA/sistema-visual/README.md`; seção "Herança" acima). Neste modelo:
+   - Verde de destaque **somente o `ACENTO` `#02FB3F`** (kit `A`/`aa`); derivados só `A.ink` e `A.deep`. `editorial_check` e `sistema_visual_check` reprovam qualquer outro verde.
    - Fonte **Manrope** (800 em títulos e legendas) e **JetBrains Mono** (rótulos técnicos).
    - Logo oficial `BRAND.logo`, nunca redesenhada.
-   - **Nada de amarelo como acento.** Onde as referências usam amarelo, nós usamos o verde `#02FB3F`.
-   - Cores de apoio "humanizadas" são permitidas (pele, cabelo, roupas, telhados, mapas, moedas), desde que não sejam verdes.
+   - **Nada de amarelo como acento.** Onde as referências usam amarelo, nós usamos o verde.
+   - Cores de apoio "humanizadas" (pele `DS.apoio.pele`, cabelo, roupas, telhados, mapas) só dentro das ilustrações e nunca verdes. O dourado das pastas e moedas é exceção declarada em `modelos.json`.
 2. **Voz oficial:** Gemini `gemini-3.8-flash-tts`, voz **Puck**, **1,0×**, sem time-stretch, `voice.shapePauses = {keepUnder 0.22, ratio 0.6, max 0.6}`, `direction` de `VOZ/voice_preset.json`. Nunca editar ou re-temporizar a fala: a imagem obedece à voz.
 3. **CTA de todo Reel:** "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct." Neste formato o visual da CTA é o **`CtaCartoon`** (seção 11). Se o roteiro trouxer outra CTA, ela vira frase de transição antes da CTA SISTEMA.
 4. **Integridade**
@@ -166,23 +192,25 @@ Personagem de escala `s` com pés em `FLOOR` tem o topo da cabeça em `1540 − 
 
 ### 6.2 Fundo de raios (`<Raios t clima vin />`)
 - **20 raios** alternados centrados em (540, 900), girando **3,2°/s**.
-- Gradiente radial `c0` (centro) → `c1` (borda), raio 1250 px.
+- Gradiente radial `c0` (centro) → `c1` (borda), raio 1100 px (a luz fica localizada e as bordas morrem no quase preto).
 - **26 partículas** brancas (r 1,5–4 px, opacidade 0,08–0,22) subindo 14–34 px/s com leve oscilação.
 - **Vinheta:** gradiente radial preto de 25% (transparente) a 100% (opacidade `vin`).
   - `vin` 0,55–0,65 = aberto (ganho, revelação);
   - 0,7–0,8 = explicação;
   - 0,85–0,92 = tensão (conflito, dilema, evento).
-- Climas (`CLIMA` no kit):
+- **Climas = atmosferas do Nível 1** (`CLIMA` no kit lê `ATMOSFERA` de `theme.ts`; o modelo só decide a intensidade dos raios). Os nomes antigos continuam válidos, e os globais também (`explicacao`, `tensao`, `dilema`, `solucao`, `neutra`, `memoria`):
 
-| clima | c0 (centro) | c1 (borda) | raio | Uso |
-|---|---|---|---|---|
-| `explica` | `#24324A` | `#070A10` | rgba(143,180,227,.07) | explicação, situação |
-| `conflito` | `#5C1A17` | `#120405` | rgba(255,107,94,.08) | erro, disputa, perda, proibição |
-| `pergunta` | `#33204F` | `#0B0612` | rgba(190,160,255,.07) | dilema, gancho em pergunta |
-| `ganho` | `A.deep #063A16` | `#050607` | verde `aa(.07)` | solução, payoff, CTA |
-| `evento` | `#2A2A33` | `#060608` | rgba(255,255,255,.05) | palco, painel, bastidor |
-| `dados` | `#173A44` | `#04090B` | ciano .05 + **grade** 96×170 px | números, "sala de controle" |
-| `sepia` | `#6B5638` | `#1A140C` | creme .06 | passado, história antiga |
+| clima (antigo → atmosfera) | Cor | Raios (Nível 2) | Uso |
+|---|---|---|---|
+| `explica` → `explicacao` | marinho | luz marinho, 0,07 | explicação, situação |
+| `conflito` → `tensao` | vermelho escuríssimo | luz de alerta, 0,08 | erro, disputa, perda, proibição |
+| `pergunta` → `dilema` | marinho profundo (antes era roxo) | branco, 0,06 | dilema, gancho em pergunta |
+| `ganho` → `solucao` | verde deep **localizado**: a luz do gradiente tem raio de 760 px (as outras, 1100), só atrás do protagonista; o resto do quadro fica escuro | verde ATIVO, 0,035 | solução, payoff, CTA |
+| `evento` → `neutra` | grafite | branco, 0,05 | palco, painel, bastidor |
+| `dados` → `dados` | marinho + **grade** 96×170 px (antes era ciano) | luz marinho, 0,05 | números, "sala de controle" |
+| `sepia` → `memoria` | grafite morno (antes era sépia) | creme, 0,06 | passado, história antiga |
+
+Os valores HEX estão em `MARCA/sistema-visual/tokens.json` → `atmosfera`. Nunca escreva cor de clima à mão no episódio.
 
 ### 6.3 Luz
 - **Holofote** (`<Holofote x chao w p cor/>`):
@@ -196,8 +224,12 @@ Personagem de escala `s` com pés em `FLOOR` tem o topo da cabeça em `1540 − 
 
 ### 6.4 Tipografia de tela
 - **Manrope 800 em maiúsculas** para selos, carimbos, etiquetas e legenda. Mono só para rótulos técnicos pequenos.
-- Contorno de leitura: `WebkitTextStroke` escuro `#0A0A0C` + `paintOrder: "stroke fill"` + sombra `0 6–8px 18–24px rgba(0,0,0,.6–.7)`.
-- Cores: branco `#FFFFFF` / `C.text`; palavra-chave verde `#02FB3F`; negativo `C.warn #FF6B5E` (texto) e `#D2392E` (fundo de carimbo); cinza não-falado `#8B9099`.
+- Contorno de leitura: `WebkitTextStroke` em `DS.cor.contorno` + `paintOrder: "stroke fill"` + sombra `0 6–8px 18–24px rgba(0,0,0,.6–.7)`.
+- Cores (tokens do Nível 1):
+  - texto `DS.cor.texto.branco`;
+  - palavra-chave `A.hex`;
+  - negativo `C.warn` (texto) e `DS.cor.alerta.fundo` (fundo de carimbo);
+  - palavra ainda não falada `DS.cor.texto.pendente`.
 
 ---
 
@@ -295,7 +327,7 @@ Todos são chapados e sem contorno (exceto balão e cartão, com borda branca ou
 | **Carimbo** | `Carimbo texto sub cor size rot` | ver 9.3; vermelho = dilema ou erro; verde = solução ou payoff; 54–84 px; ≤ 22 caracteres |
 | Contador | `Contador de ate prefixo sufixo` | número sobe em ~1 s (só números do roteiro apurado) |
 | Barra | `Barra h rotulo` | cresce de baixo por mola (comparações) |
-| Confete | `Confete at n` | 60 papéis 16×9 nas cores verde/branco/azul/coral, giram e caem (só no payoff) |
+| Confete | `Confete at n` | 60 papéis 16×9 em verde ATIVO, branco e cinza, que giram e caem (só no payoff; nunca vermelho, porque vermelho é perda) |
 | Flash | `Flash at` | branco 0,85 → 0 em 6 quadros (salto de tempo/lugar ou revelação grande) |
 
 **Regra do texto na tela:**
@@ -373,11 +405,11 @@ Aplicada a cada plano.
 ### 11.1 `<LegendaKaraoke chunks y={1000} size={80}/>` — o vídeo inteiro, inclusive na CTA
 - Centro em y 1000; margens laterais 80 px; Manrope 800 **maiúsculas**, 80 px, espaçamento −0,03 em, entrelinha 1,02; quebra em até 2 linhas.
 - Contorno `0,16·size` `#0A0A0C` + sombra `0 6px 18px rgba(0,0,0,.7)`.
-- Cores:
-  - palavra ainda não dita = cinza `#8B9099`;
-  - dita = branca, com salto de 12%;
-  - ênfase = `#02FB3F`;
-  - ênfase negativa ou "não/nem" = `#FF6B5E`.
+- Cores (tokens do Nível 1):
+  - palavra ainda não dita = `DS.cor.texto.pendente`;
+  - dita = `DS.cor.texto.branco`, com salto de 12%;
+  - ênfase = `A.hex` (verde ATIVO);
+  - ênfase negativa ou "não/nem" = `C.warn`.
 - O bloco aparece com pop no início do primeiro termo e some no fim do último.
 
 ### 11.2 Fecho `<CtaCartoon t tl segPergunta segComente logo seguir/>` (substitui o `Cta` do Painel neste formato)
@@ -438,8 +470,9 @@ Valores do piloto, padrão do perfil; **não** usar a regra "trilha a 50% da voz
 - [ ] Nenhum texto espelhado (balões e objetos com `flip`).
 - [ ] Máximo de 1 carimbo + 2 etiquetas simultâneos; uma frase importante por vez.
 - [ ] Toda reação cai na palavra (0–3 quadros antes).
-- [ ] Cores: só `#02FB3F` como verde; vermelho para erro; nenhum amarelo de acento.
+- [ ] Cores: só o `ACENTO` como verde; vermelho para erro; nenhum amarelo de acento; clima de cada plano é uma atmosfera do Nível 1.
 - [ ] "EXEMPLO HIPOTÉTICO" quando a história é inventada; nenhum número sem fonte.
+- [ ] Sistema Visual: `python3 tools/sistema_visual_check.py --quadros <pasta_da_folha>` sem aviso de luminância fora de flash/capa, e a revisão visual do README §8 marcada.
 
 **Depois do render:**
 - [ ] `render_episode.sh`: **11/11 OK**.
@@ -494,7 +527,7 @@ export const makeShots = (tl: Timeline): Shot[] => {
 - Legenda repetida em etiqueta, ou etiqueta repetindo a fala.
 - Texto pequeno (< 30 px) ou na zona da interface do Instagram.
 - Rostos sob a legenda.
-- Verde diferente de `#02FB3F`; amarelo de acento.
+- Verde diferente do `ACENTO`; amarelo de acento; cor de fundo fora das atmosferas do Nível 1 (roxo, ciano, sépia); campo verde ocupando a tela inteira.
 - Logo de terceiros; pessoa real desenhada; número inventado.
 - Trilha competindo com a voz; efeito em cima de sílaba; whoosh em todo corte.
 - Reaproveitar a mesma sequência de planos entre episódios. Varie metáfora, objetos e escalas a cada roteiro.

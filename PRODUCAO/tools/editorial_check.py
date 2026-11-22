@@ -155,6 +155,15 @@ def check(ep_id: str) -> int:
                 errs.append(f"formato cartoon: falta {why}")
         if ep.get("esteira"):
             errs.append("formato cartoon não entra na esteira de 5 estilos (crie com novo_episodio.build(..., formato=\"cartoon-explicativo\"))")
+    # 11. SISTEMA VISUAL ATIVO (Nível 1, MARCA/sistema-visual, 22/11/2026): paleta, fontes e formato do episódio de um
+    #     modelo registrado em modelos.json. Erro aqui bloqueia o render como qualquer outro.
+    try:
+        import sistema_visual_check as svc
+        sv_errs, sv_warns = svc.checar_episodio(ep_id)
+        errs += [f"sistema visual: {e}" for e in sv_errs]
+        warns += [f"sistema visual: {w}" for w in sv_warns]
+    except Exception as exc:  # o validador nunca pode sumir em silêncio
+        errs.append(f"sistema visual: validador indisponível ({exc})")
     print(f"\n== {ep_id} ({'9:16' if vertical else '16:9'}) — {len(errs)} erro(s), {len(warns)} aviso(s)")
     for e in errs:
         print("  ERRO  ", e)

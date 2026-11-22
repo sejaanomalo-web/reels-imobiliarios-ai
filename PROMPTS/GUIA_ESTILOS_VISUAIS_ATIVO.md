@@ -7,7 +7,8 @@
 > Referência visual aprovada: `OUTPUT/pilotos/DEMO_ESTILOS/painel_4_estilos.jpg` (mesmo trecho do NOV26_26 nos estilos 1–4).
 
 ## 0. O que NUNCA muda (100% identidade ATIVO)
-- **Cores:** grafite/preto + **um único verde** (lote atual #02FB3F via kit `A`/`aa()` de `src/episodes/NOV26/kit.tsx`); vermelho `C.warn` só para erro/alerta; nada de amarelo/âmbar (ANÔMALO) nem outros verdes.
+> **Fonte única desta seção: Sistema Visual ATIVO, Nível 1** (`MARCA/sistema-visual/README.md` + `tokens.json`). A esteira está registrada em `MARCA/sistema-visual/modelos.json` (id `esteira-5-estilos`); o `editorial_check` roda o `sistema_visual_check` em cada episódio. Os itens abaixo resumem o que o Nível 1 já obriga.
+- **Cores:** grafite/preto/marinho (atmosferas do Nível 1) + **um único verde**, o `ACENTO` #02FB3F (kit `A`/`aa()` de `src/episodes/NOV26/kit.tsx` = `ACENTO` de `theme.ts`); vermelho `C.warn` só para erro/alerta; nada de amarelo/âmbar (ANÔMALO) nem outros verdes.
 - **Tipografia:** Manrope (títulos/fala) + JetBrains Mono (rótulos técnicos). **Logo oficial** no fecho/capa.
 - **Voz:** Gemini `gemini-3.8-flash-tts`, Puck, 1,0×, direção do preset, `shapePauses` (respiração e suspense, sem embolar nem arrastar).
 - **Ritmo:** dinâmico, cortes no tempo da fala (cues por palavra), transições motivadas, câmera viva (`drift` 6–8, sem quadros parados > 1,5 s; `motion_check` ≥ ~1,3).

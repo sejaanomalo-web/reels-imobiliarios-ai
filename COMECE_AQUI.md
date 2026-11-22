@@ -31,7 +31,7 @@ reels-imobiliarios-ai/
 │   ├── lotes/                #   estado e regras de cada lote (NOV26, GTA6, L60)
 │   └── tools/                #   narração, áudio, render, validação, publicar.py
 │
-├── MARCA/  VOZ/              # identidade ATIVO (logo, verde) e voz oficial
+├── MARCA/  VOZ/              # identidade ATIVO (logo, verde) e voz oficial · MARCA/sistema-visual/ = Sistema Visual ATIVO (Nível 1, obrigatório)
 ├── PROMPTS/                  # guias editoriais, legendas, estilos, melhoria contínua
 ├── ANALISE/                  # relatórios de referência, tokens e histórico (ANALISE/historico/)
 ├── MODELS/                   # 9 Reels de referência fixos (não mexer)

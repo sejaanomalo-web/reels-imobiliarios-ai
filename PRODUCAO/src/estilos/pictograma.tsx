@@ -1,6 +1,6 @@
 import React from "react";
 import { Img } from "remotion";
-import { ACCENT_NOV26, C, F, accentAlpha } from "../theme";
+import { ACCENT_NOV26, ATMOSFERA, C, DS, F, accentAlpha } from "../theme";
 import { clamp01, ease, mix, prog, rnd, sp } from "../lib/anim";
 import type { CaptionChunk } from "../episodes/types";
 import logoPts from "./ativo_logo_pontos.json";
@@ -12,20 +12,22 @@ import logoPts from "./ativo_logo_pontos.json";
  * UMA cor de acento (nas referências, dourado → aqui o verde da marca #02FB3F); vermelho só para perda/erro;
  * SEM corte seco: câmera em travelling contínuo, portal (zoom para dentro de um ícone), apagar a luz mantendo uma âncora,
  * dissolução em partículas; títulos que entram letra a letra saindo do desfoque; legenda que se escreve palavra a palavra.
- * Desenho 100% original. Identidade ATIVO: verde #02FB3F (único acento), Manrope, logo oficial (nunca redesenhada).
+ * Desenho 100% original. NÍVEL 1 (MARCA/sistema-visual): acento ACENTO (#02FB3F) via `A`, fundo/texto/alerta de DS, centro
+ * morno = atmosfera "memoria"; logo oficial (nunca redesenhada). Particularidades deste modelo (Nível 2): noir, traço fino,
+ * pictograma luminoso, nenhum corte seco, títulos que saem do desfoque, legenda que se escreve, logo em partículas.
  */
 export const A = ACCENT_NOV26;
 export const aa = (a: number) => accentAlpha(A, a);
 export const NOIR = {
-  fundo: "#050505",
-  centro: "#2B2723", // centro morno (as referências medem ~#352F2B no centro e #020202 nos cantos)
-  branco: "#F4F4F2",
+  fundo: DS.cor.fundo.preto,
+  centro: ATMOSFERA.memoria.centro, // centro morno = atmosfera "memoria" do Nível 1 (as referências medem ~#352F2B no centro)
+  branco: DS.cor.texto.branco,
   cinza: "#6B6B6B",
   apagado: "#3A3A3A",
   linha: "rgba(244,244,242,0.78)",
   linhaFraca: "rgba(244,244,242,0.28)",
   vermelho: C.warn,
-  vermelhoFundo: "#D2392E",
+  vermelhoFundo: DS.cor.alerta.fundo,
 };
 const GLOW_BRANCO = "drop-shadow(0 0 10px rgba(255,255,255,0.55)) drop-shadow(0 0 26px rgba(255,255,255,0.22))";
 const GLOW_VERDE = `drop-shadow(0 0 10px ${aa(0.6)}) drop-shadow(0 0 28px ${aa(0.28)})`;
@@ -521,14 +523,14 @@ export const LegendaNoir: React.FC<{ t: number; chunks: CaptionChunk[]; y?: numb
   if (!pg) return null;
   const fim = prog(t, pg.end + 0.25, 0.2, ease.in);
   return (
-    <div style={{ position: "absolute", left: 110, right: 110, top: y - size * 1.2, minHeight: size * 2.4, display: "flex", flexWrap: "wrap", justifyContent: "center", alignContent: "flex-start", columnGap: size * 0.26, fontFamily: F.sans, fontWeight: 800, fontSize: size, lineHeight: 1.18, letterSpacing: "-0.01em", opacity: 1 - fim, textShadow: "0 2px 14px rgba(0,0,0,0.85)" }}>
+    <div style={{ position: "absolute", left: 110, right: 1080 - DS.tela.acoesInstagram.x0, top: y - size * 1.2, minHeight: size * 2.4, display: "flex", flexWrap: "wrap", justifyContent: "center", alignContent: "flex-start", columnGap: size * 0.26, fontFamily: F.sans, fontWeight: 800, fontSize: size, lineHeight: 1.18, letterSpacing: "-0.01em", opacity: 1 - fim, textShadow: "0 2px 14px rgba(0,0,0,0.85)" }}>
       {pg.words.map((w, i) => {
         const pre = t >= w.start - 0.18;
         if (!pre) return null;
         const dita = t >= w.start - 0.02;
         const prev = i > 0 ? pg.words[i - 1].text : "";
         const neg = (NEG.test(w.text) && w.emph) || (negativas ? negativas.test(w.text) : false) || (/^(não|nem)$/i.test(prev) && w.emph);
-        const cor = !dita ? "#6F6F6F" : neg ? NOIR.vermelho : w.emph ? A.hex : NOIR.branco;
+        const cor = !dita ? DS.cor.texto.surgindo : neg ? NOIR.vermelho : w.emph ? A.hex : NOIR.branco;
         const k = prog(t, w.start - 0.18, 0.16, ease.out);
         return <span key={i} style={{ color: cor, opacity: k, filter: k < 1 ? `blur(${(1 - k) * 5}px)` : undefined, textShadow: dita && w.emph && !neg ? `0 0 22px ${aa(0.45)}` : undefined, whiteSpace: "nowrap" }}>{w.text}</span>;
       })}

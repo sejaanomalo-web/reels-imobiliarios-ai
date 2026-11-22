@@ -18,8 +18,15 @@ Dar ao editor, apresentador ou Claude Code produtor um plano gravável/renderiz�
 6. Planejar unidade audiovisual: imagem, voz, texto na tela e som precisam reforçar o mesmo sentido. SFX não escondem locução, textos não competem com evidência.
 7. Em temas culturais, não pressupor licença para imagens ou áudio de franquias, celebridades, jogos e transmissões; fornecer alternativa viável e original se uso não estiver autorizado.
 8. Diferenciar **direção criativa** (o que deveria ser mostrado) de **asset confirmado** (arquivo real acessível e licenciado). Não rotular como "captura real do sistema" se ainda é mockup.
-9. Não presumir a estética antes da ideia: a ATIVO já tem esteira de cinco estilos e formatos cartoon e pictograma com kits existentes. A Skill Mestre propõe a linguagem ideal, mas deve respeitar a decisão do usuário sobre modelo. A escolha do modelo de edição NÃO muda a recompensa nem o texto falado sem aprovação.
-10. Para integração técnica, entregar shotlist com função, visual, transição, texto, assets e riscos. Depois da aprovação, o produtor usa seus próprios procedimentos de voz, editáveis, QA e render.
+9. **Sistema Visual ATIVO (Nível 1):** toda sugestão visual respeita `MARCA/sistema-visual/README.md`:
+   - as 7 assinaturas;
+   - as atmosferas semânticas (preto, grafite, marinho; vermelho só para perda; verde `#02FB3F` só para solução);
+   - Manrope e a legenda falada;
+   - a área segura e a coluna de botões do Reels.
+
+   Sugira a **atmosfera** de cada cena (neutra, explicação, dilema, dados, memória, tensão, solução) em vez de cores soltas. Nenhum modelo pode sugerir outra paleta.
+10. Não presumir a estética antes da ideia: a ATIVO já tem esteira de cinco estilos e formatos cartoon e pictograma com kits existentes. A Skill Mestre propõe a linguagem ideal, mas deve respeitar a decisão do usuário sobre modelo. A escolha do modelo de edição NÃO muda a recompensa nem o texto falado sem aprovação.
+11. Para integração técnica, entregar shotlist com função, visual, transição, texto, assets e riscos. Depois da aprovação, o produtor usa seus próprios procedimentos de voz, editáveis, QA e render.
 
 ## Checklist de vídeo assistido sem áudio
 - O quadro inicial cria curiosidade/contraste?

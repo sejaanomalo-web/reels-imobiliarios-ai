@@ -1,0 +1,149 @@
+{
+  "nota": "Registro dos modelos de vídeo da ATIVO (Nível 2). Todo modelo herda o Nível 1 (README.md + tokens.json). Modelo novo entra aqui pelo processo de NOVO_MODELO.md; slot 'reservado' não tem decisões criativas antecipadas. 'excecoesCor' = cores que o validador reprovaria, aceitas só com o motivo escrito. 'legado' = episódios entregues antes do Sistema Visual v1 (paleta não verificada; não são refeitos).",
+  "modelos": [
+    {
+      "numero": 1,
+      "id": "cartoon-explicativo",
+      "nome": "Primeiro modelo — Cartoon explicativo",
+      "status": "ativo",
+      "skill": ".claude/skills/primeiro-modelo-cartoon-explicativo/SKILL.md",
+      "kits": [
+        "PRODUCAO/src/estilos/cartoon.tsx"
+      ],
+      "kitPrincipal": "estilos/cartoon.tsx",
+      "formato": "cartoon-explicativo",
+      "prefixos": [
+        "ATIVO-CARTOON",
+        "ATIVO-PILOTO"
+      ],
+      "piloto": "ATIVO-PILOTO-01",
+      "familiaIlustracao": "chapado",
+      "nivel2": {
+        "narrativa": "didático e enérgico: gancho em conflito → escalada → virada → fecho curto",
+        "montagem": "corte seco a cada 2–4 s (máx. 4,5 s), entrada 'chicote' de 3 quadros, flash só em salto",
+        "atmosferas": "raios girando (20, 3,2°/s) com a cor da atmosfera + vinheta; troca só no corte",
+        "legenda": {
+          "componente": "LegendaKaraoke",
+          "y": 1000,
+          "size": 80,
+          "caixa": "maiúsculas",
+          "estilo": "contorno 0,16 + sombra; pendente → dita → ênfase"
+        },
+        "movimento": "pop elástico, carimbo com tremor, punch-in na palavra, gesto com antecipação",
+        "fecho": "CtaCartoon"
+      },
+      "componentesObrigatorios": [
+        "estilos/cartoon",
+        "LegendaKaraoke",
+        "CtaCartoon",
+        "Raios",
+        "Personagem"
+      ],
+      "excecoesCor": [
+        {
+          "hex": "#E0A43A",
+          "motivo": "material de objeto (pasta de couro, moedas) — nunca texto ou destaque"
+        },
+        {
+          "hex": "#F0B94E",
+          "motivo": "luz do material da pasta"
+        },
+        {
+          "hex": "#A8761E",
+          "motivo": "sombra do material das moedas"
+        }
+      ],
+      "legado": [
+        "ATIVO-CARTOON-01"
+      ]
+    },
+    {
+      "numero": 2,
+      "id": "pictograma-cinematografico",
+      "nome": "Segundo modelo — Pictograma cinematográfico",
+      "status": "ativo",
+      "skill": ".claude/skills/segundo-modelo-pictograma-cinematografico/SKILL.md",
+      "kits": [
+        "PRODUCAO/src/estilos/pictograma.tsx"
+      ],
+      "kitPrincipal": "estilos/pictograma.tsx",
+      "formato": "pictograma-cinematografico",
+      "prefixos": [
+        "ATIVO-PICTO"
+      ],
+      "piloto": "ATIVO-PICTO-01",
+      "familiaIlustracao": "linha",
+      "nivel2": {
+        "narrativa": "reflexivo e íntimo: identificação → realidade em frases curtas → virada → síntese citável",
+        "montagem": "nenhum corte seco; cena nova a cada 4–8 s por portal, apagar a luz com âncora, rima de forma, dissolução, travelling",
+        "atmosferas": "noir: preto + centro de luz 'memoria' (dor = mais escuro) e halo 'solucao' na virada",
+        "legenda": {
+          "componente": "LegendaNoir",
+          "y": 1330,
+          "size": 52,
+          "caixa": "frase",
+          "estilo": "sombra 0 2 14; palavra surge do desfoque 0,18 s antes"
+        },
+        "movimento": "surgir do desfoque (sem pop), câmera sempre em deriva, títulos letra a letra, partículas",
+        "fecho": "CtaNoir (logo montado por partículas)"
+      },
+      "componentesObrigatorios": [
+        "estilos/pictograma",
+        "LegendaNoir",
+        "CtaNoir",
+        "FundoNoir",
+        "Figura"
+      ],
+      "excecoesCor": [],
+      "legado": []
+    },
+    {
+      "numero": 3,
+      "id": "modelo-3",
+      "nome": "Terceiro modelo — a definir",
+      "status": "reservado",
+      "nota": "Aguardando referências e decisão do cliente. Nada criativo é antecipado aqui. Criar pelo MARCA/sistema-visual/NOVO_MODELO.md."
+    },
+    {
+      "numero": 4,
+      "id": "modelo-4",
+      "nome": "Quarto modelo — a definir",
+      "status": "reservado",
+      "nota": "Aguardando referências e decisão do cliente. Nada criativo é antecipado aqui. Criar pelo MARCA/sistema-visual/NOVO_MODELO.md."
+    },
+    {
+      "numero": null,
+      "id": "esteira-5-estilos",
+      "nome": "Esteira de 5 estilos (Palitinho, Desenho à mão, Planta técnica, Tipografia cinética, Painel)",
+      "status": "ativo",
+      "guia": "PROMPTS/GUIA_ESTILOS_VISUAIS_ATIVO.md",
+      "kits": [
+        "PRODUCAO/src/estilos/palitinho.tsx",
+        "PRODUCAO/src/estilos/lousa.tsx",
+        "PRODUCAO/src/estilos/planta.tsx",
+        "PRODUCAO/src/estilos/tipografia.tsx",
+        "PRODUCAO/src/episodes/NOV26/kit.tsx"
+      ],
+      "prefixos": [
+        "ATIVO-NOV26",
+        "ATIVO-L60",
+        "ATIVO-GTA6"
+      ],
+      "familiaIlustracao": "giz · esquema · tipografico · interface (um estilo por episódio, em ordem circular)",
+      "nivel2": {
+        "narrativa": "a do roteiro do lote; só a 'pele' visual muda entre os 5 estilos",
+        "legenda": {
+          "componente": "Captions (padrão NOV26)",
+          "caixa": "frase"
+        },
+        "fecho": "Cta (Painel)"
+      },
+      "componentesObrigatorios": [],
+      "excecoesCor": [],
+      "legado": [
+        "ATIVO-NOV26-16",
+        "ATIVO-NOV26-21"
+      ]
+    }
+  ]
+}

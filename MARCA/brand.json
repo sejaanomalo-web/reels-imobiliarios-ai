@@ -1,11 +1,11 @@
 {
   "approved": true,
-  "status": "Identidade ATIVO informada pelo cliente em 13/11/2026: logo oficial + verde #3AF584",
+  "status": "Identidade ATIVO informada pelo cliente em 13/11/2026 (logo oficial + verde #3AF584); verde atualizado para #02FB3F em 17/11/2026; Sistema Visual v1 em 22/11/2026",
   "profile_name": "ATIVO — Inteligência Imobiliária",
   "product_name": null,
   "product_descriptor": "sistema imobiliário personalizado",
-  "accent_color": "#3AF584",
-  "accent_note": "Verde oficial da identidade ATIVO (#3AF584), informado pelo cliente em 13/11/2026.",
+  "accent_color": "#02FB3F",
+  "accent_note": "Verde ATIVO de todo vídeo novo (#02FB3F = verde da seta do logo oficial; decisão do cliente de 17/11/2026). Valor canônico: MARCA/sistema-visual/tokens.json (cor.acento).",
   "fonts": {
     "sans": "Manrope",
     "mono": "JetBrains Mono"
@@ -19,6 +19,9 @@
     "logo de terceiros"
   ],
   "profile_name_informado": "ATIVO — Inteligência Imobiliária (braço especializado da ANÔMALO), informado pelo cliente em 12/11/2026",
-  "identidade_visual_ativo": "Logo oficial: palavra ATIVO em traço fino branco com seta verde ascendente com brilho. Não redesenhar; usar o arquivo. Verde de interface: #3AF584.",
-  "logo_oficial": "MARCA/logo/ativo_logo_original.webp (enviado pelo cliente); versão com transparência: MARCA/logo/ativo_logo_transparente.png e PRODUCAO/public/brand/ativo_logo.png"
+  "identidade_visual_ativo": "Logo oficial: palavra ATIVO em traço fino branco com seta verde ascendente com brilho. Não redesenhar; usar o arquivo. Verde de interface e vídeo: #02FB3F.",
+  "logo_oficial": "MARCA/logo/ativo_logo_original.webp (enviado pelo cliente); versão com transparência: MARCA/logo/ativo_logo_transparente.png e PRODUCAO/public/brand/ativo_logo.png",
+  "accent_color_legado": "#3AF584",
+  "accent_color_legado_nota": "Verde aprovado em 13/11/2026; legado desde 17/11/2026 (só episódios entregues até 16/11).",
+  "sistema_visual": "MARCA/sistema-visual/README.md (Nível 1, obrigatório para todos os modelos e vídeos)"
 }
