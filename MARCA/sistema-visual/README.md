@@ -227,4 +227,4 @@ O mostruário renderizado está em `exemplos/`. Ele é gerado pelas composiçõe
    - O validador confere se a versão de `tokens.json` é a do topo do `CHANGELOG.md` **e** se a impressão digital (`tokens.json sha256`) registrada ali bate com o arquivo. Qualquer edição sem registro reprova.
    - Como o `editorial_check.py` roda essa integridade em **todo episódio**, o render para.
    - O sistema também reprova se o bloco do `CLAUDE.md`, a skill `ativo-sistema-visual` ou o registro dos modelos sumirem.
-6. **Pontos de restauração:** cada versão ganha uma tag Git `sistema-visual-vX.Y.Z` (a primeira é `sistema-visual-v1.0.0`). Para voltar a ela: `git checkout sistema-visual-v1.0.0 -- MARCA/sistema-visual`.
+6. **Pontos de restauração:** cada versão registra no `CHANGELOG.md` o **commit da `main`** em que foi publicada. A v1.0.0 é o commit `31712be`. Para voltar a uma versão: `git checkout <commit> -- MARCA/sistema-visual`. Se o cliente criar a tag `sistema-visual-vX.Y.Z` pelo GitHub, ela também serve.
