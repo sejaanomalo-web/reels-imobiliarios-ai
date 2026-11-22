@@ -1,10 +1,16 @@
 // yt-oauth: conecta o canal do YouTube da ATIVO (OAuth 2.0 do Google, aplicativo da Web, com PKCE).
-// NÃO publica nada. Guarda o refresh token cifrado no Vault (RPC yt_salvar_conexao) e mostra o canal conectado.
+// NÃO publica nada. Guarda o refresh token cifrado no Vault (RPC yt_salvar_conexao).
 //
 // Fluxo:
 //   1. No SQL Editor: select public.yt_novo_link_conexao();   → link de uso único (15 min)
 //   2. Abrir o link → GET /functions/v1/yt-oauth/iniciar?state=…  → redireciona para o consentimento do Google
 //   3. Google → GET /functions/v1/yt-oauth/callback?code=…&state=…  (URI cadastrada no Google Cloud)
+//   4. A função grava a conexão e REDIRECIONA para https://www.sejaativo.com.br/publicador/conexao?resultado=…
+//
+// v2 (22/11/2026): o Supabase reescreve respostas text/html para text/plain (com CSP sandbox) no domínio compartilhado
+// supabase.co — é uma trava anti-phishing da plataforma; só um domínio personalizado (pago) libera HTML. Por isso a
+// página de resultado agora fica no site da ATIVO. Pela URL vão só o resultado, o nome público do canal e um código de
+// motivo — nunca token ou código de autorização.
 //
 // Secrets (Edge Functions → Secrets): YOUTUBE_CLIENT_ID e YOUTUBE_CLIENT_SECRET.
 // Deploy com verify_jwt = false: o Google redireciona o navegador sem JWT; a segurança vem do state de uso único + PKCE.
@@ -19,28 +25,26 @@ const sb = createClient(
 
 // Precisa ser IDÊNTICA à URI cadastrada em "URIs de redirecionamento autorizados" no Google Cloud.
 const REDIRECT_URI = "https://cawwccbuejmvfemgdhvl.supabase.co/functions/v1/yt-oauth/callback";
+const PAGINA_RESULTADO = "https://www.sejaativo.com.br/publicador/conexao";
 const ESCOPOS = [
   "https://www.googleapis.com/auth/youtube.upload", // enviar vídeos (Shorts)
   "https://www.googleapis.com/auth/youtube.readonly", // identificar o canal conectado e conferir uploads
 ];
 
-const pagina = (titulo: string, corpo: string, status = 200) =>
-  new Response(
-    `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${titulo}</title><style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#07080A;color:#F4F5F7;font-family:system-ui,sans-serif}
-main{max-width:560px;padding:32px}h1{font-size:24px;margin:0 0 12px}p{color:#9198A3;line-height:1.5}b{color:#F4F5F7}.ok{color:#02FB3F}.erro{color:#FF6B5E}</style></head>
-<body><main><h1>${titulo}</h1>${corpo}</main></body></html>`,
-    { status, headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" } },
-  );
-
-const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]!));
+/** Redireciona o navegador para a página de resultado no site (que renderiza o HTML). */
+const resultado = (params: Record<string, string>) => {
+  const u = new URL(PAGINA_RESULTADO);
+  for (const [k, v] of Object.entries(params)) u.searchParams.set(k, v.slice(0, 120));
+  return new Response(null, { status: 303, headers: { Location: u.toString(), "Cache-Control": "no-store" } });
+};
+const erro = (motivo: string, detalhe = "") => resultado(detalhe ? { resultado: "erro", motivo, detalhe } : { resultado: "erro", motivo });
 
 const b64url = (buf: ArrayBuffer) =>
   btoa(String.fromCharCode(...new Uint8Array(buf))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 
 async function iniciar(url: URL) {
   const clientId = Deno.env.get("YOUTUBE_CLIENT_ID");
-  if (!clientId) return pagina("Configuração pendente", `<p class="erro">O secret <b>YOUTUBE_CLIENT_ID</b> ainda não foi cadastrado no Supabase.</p>`, 500);
+  if (!clientId) return erro("configuracao");
   const state = url.searchParams.get("state") ?? "";
   const { data, error } = await sb
     .from("yt_oauth_estados")
@@ -49,7 +53,7 @@ async function iniciar(url: URL) {
     .is("usado_em", null)
     .gt("expira_em", new Date().toISOString())
     .maybeSingle();
-  if (error || !data) return pagina("Link inválido ou expirado", `<p class="erro">Gere um novo link com <b>select public.yt_novo_link_conexao();</b> e abra em até 15 minutos.</p>`, 400);
+  if (error || !data) return erro("link_invalido");
   const challenge = b64url(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(data.code_verifier)));
   const google = new URL("https://accounts.google.com/o/oauth2/v2/auth");
   google.search = new URLSearchParams({
@@ -69,10 +73,10 @@ async function iniciar(url: URL) {
 
 async function callback(url: URL) {
   const erroGoogle = url.searchParams.get("error");
-  if (erroGoogle) return pagina("Conexão não autorizada", `<p class="erro">O Google respondeu: <b>${esc(erroGoogle)}</b>. Nada foi salvo.</p>`, 400);
+  if (erroGoogle) return erro("google", erroGoogle);
   const code = url.searchParams.get("code");
   const state = url.searchParams.get("state");
-  if (!code || !state) return pagina("Callback incompleto", `<p class="erro">Faltam os parâmetros do Google. Comece pelo link gerado no Supabase.</p>`, 400);
+  if (!code || !state) return erro("callback_incompleto");
 
   // consome o state (uso único) de forma atômica
   const { data: est, error: errEst } = await sb
@@ -83,11 +87,11 @@ async function callback(url: URL) {
     .gt("expira_em", new Date().toISOString())
     .select("code_verifier, perfil")
     .maybeSingle();
-  if (errEst || !est) return pagina("Link inválido ou expirado", `<p class="erro">Este retorno não corresponde a um link válido. Gere outro e tente de novo.</p>`, 400);
+  if (errEst || !est) return erro("link_invalido");
 
   const clientId = Deno.env.get("YOUTUBE_CLIENT_ID");
   const clientSecret = Deno.env.get("YOUTUBE_CLIENT_SECRET");
-  if (!clientId || !clientSecret) return pagina("Configuração pendente", `<p class="erro">Cadastre <b>YOUTUBE_CLIENT_ID</b> e <b>YOUTUBE_CLIENT_SECRET</b> nos secrets do Supabase.</p>`, 500);
+  if (!clientId || !clientSecret) return erro("configuracao");
 
   const tokRes = await fetch("https://oauth2.googleapis.com/token", {
     method: "POST",
@@ -104,11 +108,9 @@ async function callback(url: URL) {
   const tok = await tokRes.json().catch(() => ({}));
   if (!tokRes.ok || !tok.access_token) {
     console.log(`yt-oauth: troca do code falhou (HTTP ${tokRes.status}): ${tok.error ?? ""} ${tok.error_description ?? ""}`);
-    return pagina("Falha ao trocar o código", `<p class="erro">Google: <b>${esc(String(tok.error ?? tokRes.status))}</b> ${esc(String(tok.error_description ?? ""))}</p>`, 502);
+    return erro("troca_codigo", String(tok.error ?? tokRes.status));
   }
-  if (!tok.refresh_token) {
-    return pagina("Sem refresh token", `<p class="erro">O Google não devolveu o refresh token. Remova o acesso do app em <b>myaccount.google.com/permissions</b> e gere um novo link.</p>`, 400);
-  }
+  if (!tok.refresh_token) return erro("sem_refresh_token");
 
   const chRes = await fetch("https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true", {
     headers: { Authorization: `Bearer ${tok.access_token}` },
@@ -117,7 +119,7 @@ async function callback(url: URL) {
   const canal = ch.items?.[0];
   if (!chRes.ok || !canal) {
     console.log(`yt-oauth: channels.list falhou (HTTP ${chRes.status}): ${ch.error?.message ?? "sem canal"}`);
-    return pagina("Canal não encontrado", `<p class="erro">A conta escolhida não tem canal do YouTube (ou o acesso de leitura foi negado). Gere um novo link e escolha a conta do canal da ATIVO.</p>`, 400);
+    return erro("sem_canal");
   }
 
   const { error: errSalvar } = await sb.rpc("yt_salvar_conexao", {
@@ -129,15 +131,10 @@ async function callback(url: URL) {
   });
   if (errSalvar) {
     console.log(`yt-oauth: falha ao salvar a conexão: ${errSalvar.message}`);
-    return pagina("Falha ao salvar", `<p class="erro">A autorização funcionou, mas não foi possível salvar. Nada foi publicado.</p>`, 500);
+    return erro("salvar");
   }
   console.log(`yt-oauth: canal ${canal.id} conectado ao perfil ${est.perfil}`);
-  return pagina(
-    "Canal conectado à ATIVO",
-    `<p class="ok"><b>${esc(canal.snippet?.title ?? canal.id)}</b> foi conectado.</p>
-<p>Escopos: envio de vídeos e leitura do canal. O token ficou cifrado no Supabase.</p>
-<p><b>Publicação automática: DESLIGADA.</b> Nada será enviado até ser ativado.</p><p>Pode fechar esta aba.</p>`,
-  );
+  return resultado({ resultado: "ok", canal: String(canal.snippet?.title ?? canal.id) });
 }
 
 Deno.serve(async (req) => {
@@ -146,9 +143,9 @@ Deno.serve(async (req) => {
   try {
     if (url.pathname.endsWith("/iniciar")) return await iniciar(url);
     if (url.pathname.endsWith("/callback")) return await callback(url);
-    return pagina("Não encontrado", `<p>Use o link gerado por <b>select public.yt_novo_link_conexao();</b></p>`, 404);
+    return new Response("Não encontrado. Gere o link com: select public.yt_novo_link_conexao();", { status: 404 });
   } catch (e) {
     console.log(`yt-oauth: erro inesperado: ${(e as Error).message}`);
-    return pagina("Erro inesperado", `<p class="erro">Nada foi salvo nem publicado. Tente gerar um novo link.</p>`, 500);
+    return erro("inesperado");
   }
 });

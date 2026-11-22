@@ -4,7 +4,7 @@ Projeto: `cawwccbuejmvfemgdhvl` (`https://cawwccbuejmvfemgdhvl.supabase.co`). Ne
 
 ## YouTube Shorts — conexão do canal (`functions/yt-oauth`, `migrations/20261122_yt_oauth.sql`)
 
-Só **conecta** o canal. Não publica: não há cron nem publicador, e `yt_canais.ativo` nasce `false`.
+Só **conecta** o canal. Não publica. Desde a v2 (22/11/2026), o resultado aparece em `https://www.sejaativo.com.br/publicador/conexao`, porque o Supabase não serve HTML no domínio `supabase.co`: ele reescreve para `text/plain`, e só um domínio personalizado pago libera.
 
 | Item | Valor |
 |---|---|
@@ -35,6 +35,51 @@ Segurança: `state` de uso único + PKCE (S256); tabelas `yt_*` com RLS e sem ac
 | Authorized domains | `sejaativo.com.br` |
 
 Se as práticas descritas mudarem (escopos, armazenamento, retenção), atualize as páginas no mesmo commit da mudança.
+
+## YouTube Shorts e TikTok — publicação integrada à fila atual (`yt-publicador`, `buffer-tiktok`, `migrations/20261122_pub_destinos.sql`)
+
+**A fila continua sendo `ig_posts`** (uma pasta em `PUBLICACAO/` = um post). Nada do Instagram foi alterado. O estado de cada post em cada destino fica em `pub_destinos` (`destino` youtube|tiktok, `modo` teste|producao). `pub_sincronizar()` cria as linhas pendentes a partir dos posts agendados.
+
+| | YouTube (`yt-publicador`) | TikTok (`buffer-tiktok`) |
+|---|---|---|
+| Canal | "Ativo \| Para Corretores de Imóveis" (`yt_canais`) | `@ativo.br` no Buffer (`buffer_canais`) |
+| Credencial | refresh token no Vault + secrets `YOUTUBE_CLIENT_ID`/`YOUTUBE_CLIENT_SECRET` | secret `BUFFER_API_KEY` |
+| Trava | `yt_canais.ativo = false` | `buffer_canais.ativo = false` |
+| Teste | `teste`: envia 1 post como **privado** (public é recusado) | `teste`: cria **rascunho** no Buffer (nada vai ao TikTok); se não vier `draft`, apaga na hora |
+| Sem efeito externo | `verificar`, `previa`, `status` | `validar`, `previa`, `status` |
+| Produção | `ciclo`: envia privado com `publishAt` = horário da fila (o YouTube publica sozinho) | `ciclo`: agenda no Buffer (`customScheduled`) até 8 posts à frente |
+
+**Texto:**
+- a CTA do Instagram ("Comente SISTEMA…") é trocada por `CTA_FORA_DO_INSTAGRAM` (`textos.ts`, cópia idêntica nas duas funções);
+- o título do YouTube vem do `title` do `episode.json` do episódio;
+- o TikTok é marcado como conteúdo de IA (`MARCAR_COMO_IA`), por causa da voz sintética.
+
+**Chamada** (no SQL Editor; o segredo é lido do Vault e nunca aparece):
+```sql
+select net.http_post(
+  url := 'https://cawwccbuejmvfemgdhvl.supabase.co/functions/v1/<yt-publicador|buffer-tiktok>',
+  body := '{"acao":"previa","post_id":"<id do ig_posts>"}'::jsonb,
+  headers := jsonb_build_object('Content-Type','application/json',
+             'x-cron-secret',(select decrypted_secret from vault.decrypted_secrets where name='ig_cron_secret')),
+  timeout_milliseconds := 140000);
+-- resposta: select status_code, content from net._http_response where id = <id devolvido>;
+```
+
+**Primeiros testes (só com aprovação do cliente):**
+1. YouTube: `{"acao":"teste","post_id":"<id>","privacidade":"private"}`, depois `{"acao":"status","destino_id":"<id devolvido>"}`.
+2. TikTok: `{"acao":"teste","post_id":"<id>"}` (rascunho), conferir no painel do Buffer e, se quiser, `{"acao":"apagar_teste","destino_id":"<id>"}`.
+
+**Ativar no futuro (NÃO executado; só com aprovação do cliente):**
+```sql
+update public.yt_canais set ativo = true where perfil = 'ativo';
+select cron.schedule('yt-publicador', '*/10 * * * *', $$ select net.http_post(url := 'https://cawwccbuejmvfemgdhvl.supabase.co/functions/v1/yt-publicador', body := '{"acao":"ciclo"}'::jsonb, headers := jsonb_build_object('Content-Type','application/json','x-cron-secret',(select decrypted_secret from vault.decrypted_secrets where name='ig_cron_secret' limit 1)), timeout_milliseconds := 140000) $$);
+update public.buffer_canais set ativo = true where perfil = 'ativo';
+select cron.schedule('buffer-tiktok', '17 */6 * * *', $$ select net.http_post(url := 'https://cawwccbuejmvfemgdhvl.supabase.co/functions/v1/buffer-tiktok', body := '{"acao":"ciclo"}'::jsonb, headers := jsonb_build_object('Content-Type','application/json','x-cron-secret',(select decrypted_secret from vault.decrypted_secrets where name='ig_cron_secret' limit 1)), timeout_milliseconds := 140000) $$);
+```
+
+**Limites gratuitos (medidos em 22/11/2026):**
+- **Buffer Free:** 3 canais e 10 posts agendados por canal (`organization.limits`); 1.000 requisições a cada 30 dias (headers `x-ratelimit-*`). O `ciclo` a cada 6 h gasta no máximo ~3 requisições por rodada.
+- **YouTube Data API:** cota padrão de 10.000 unidades/dia. O custo do `videos.insert` diverge na documentação (≈100 ou 1.600 unidades); confira em Google Cloud → APIs → YouTube Data API v3 → Cotas. Com 2–3 envios por dia, cabe nos dois casos.
 
 ## Outras funções (não versionadas aqui ainda)
 
