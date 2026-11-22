@@ -148,6 +148,18 @@ def checar_sistema(errs, warns):
         errs.append("CHANGELOG.md ausente ou sem versão (## x.y.z)")
     elif top.group(1) != TOKENS["versao"]:
         errs.append(f"tokens.json v{TOKENS['versao']} ≠ última versão do CHANGELOG (v{top.group(1)}): mudança no Nível 1 sem registro")
+    else:
+        # impressão digital: qualquer edição em tokens.json sem nova entrada no CHANGELOG é detectada
+        import hashlib
+        atual = hashlib.sha256(open(os.path.join(DSDIR, "tokens.json"), "rb").read()).hexdigest()
+        secao = open(ch).read()[top.start():]
+        prox = re.search(r"^##\s+\d+\.\d+\.\d+", secao[3:], flags=re.M)
+        secao = secao[: prox.start() + 3] if prox else secao
+        reg = re.search(r"tokens\.json sha256:\s*`?([0-9a-f]{64})", secao)
+        if not reg:
+            errs.append("CHANGELOG: a versão atual não registra `tokens.json sha256: <hash>` (impressão digital do Nível 1)")
+        elif reg.group(1) != atual:
+            errs.append(f"tokens.json foi alterado sem registro: sha256 atual {atual[:12]}… ≠ registrado {reg.group(1)[:12]}… (siga a governança: nova versão + CHANGELOG)")
     if TOKENS["tela"]["largura"] != 1080 or TOKENS["tela"]["altura"] != 1920 or TOKENS["tela"]["fps"] != 30:
         errs.append("tela do Nível 1 deve ser 1080×1920 a 30 fps (Reels)")
     for k, v in TOKENS["atmosfera"].items():
@@ -227,9 +239,25 @@ def modelo_do_episodio(ep_id, ep):
     return None
 
 
+_INTEGRIDADE = None
+
+
+def integridade():
+    """Erros do sistema inteiro (tokens, impressão digital, theme, CLAUDE.md, skill, registro) — calculado 1 vez."""
+    global _INTEGRIDADE
+    if _INTEGRIDADE is None:
+        e, w = [], []
+        checar_sistema(e, w)
+        registro_md = open(os.path.join(REPO, "MODELOS_DE_VIDEO.md")).read()
+        for m in REGISTRO["modelos"]:
+            checar_modelo(m, e, w, registro_md)
+        _INTEGRIDADE = e
+    return _INTEGRIDADE
+
+
 def checar_episodio(ep_id):
-    """(erros, avisos) do Nível 1 para um episódio — usado pelo editorial_check."""
-    errs, warns = [], []
+    """(erros, avisos) do Nível 1 para um episódio — usado pelo editorial_check (portanto, por todo render)."""
+    errs, warns = [f"integridade do Sistema Visual: {x}" for x in integridade()], []
     ep_path = os.path.join(PROD, "episodes", ep_id, "episode.json")
     if not os.path.exists(ep_path):
         return [f"episódio {ep_id} sem episode.json"], []

@@ -1,8 +1,10 @@
 # Sistema Visual ATIVO — histórico de versões
 
-Regra: toda mudança em `tokens.json` ou nas regras obrigatórias do `README.md` ganha uma entrada aqui, com a nova versão no topo (semver: correção `x.y.Z`, adição compatível `x.Y.0`, quebra `X.0.0`). O validador reprova se a versão de `tokens.json` não for a do topo deste arquivo.
+Regra: toda mudança em `tokens.json` ou nas regras obrigatórias do `README.md` ganha uma entrada aqui, com a nova versão no topo (semver: correção `x.y.Z`, adição compatível `x.Y.0`, quebra `X.0.0`). O validador reprova se a versão de `tokens.json` não for a do topo deste arquivo **ou** se a impressão digital (`tokens.json sha256`) registrada na versão do topo não bater com o arquivo. Mudar um token exige nova versão e novo hash (`sha256sum MARCA/sistema-visual/tokens.json`). Restaurar a v1.0.0 a qualquer momento: `git checkout sistema-visual-v1.0.0 -- MARCA/sistema-visual`.
 
 ## 1.0.0 — 2026-11-22
+
+tokens.json sha256: `69b2677a2746d06692397aac7bace41d8eb3c021d459f56f99f3941f71c05bca`
 
 Criação do Sistema Visual ATIVO (Nível 1), a partir da auditoria dos dois modelos existentes e da esteira de 5 estilos.
 
