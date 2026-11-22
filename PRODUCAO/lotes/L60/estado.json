@@ -1,7 +1,7 @@
 {
   "lote": "L60",
   "descricao": "Roteiros do LIVRO_60_ROTEIROS.docx ainda não produzidos, na ordem do calendário de 60 dias (Dia 01 = EP001, Dia 02 = EP011…), pulando os já produzidos (EP001–003, 015–020, 030–033). Produção com a esteira de 5 estilos (PROMPTS/GUIA_ESTILOS_VISUAIS_ATIVO.md). CTA do livro (link da bio) → CTA SISTEMA.",
-  "nomenclatura": "episódio ATIVO-L60-NN · saída OUTPUT/ATIVO_L60_NN · publicação PUBLICACAO/L60/REELS_01_AO_10/NN · NN = ordem de produção no lote",
+  "nomenclatura": "episódio ATIVO-L60-NN · saída OUTPUT/ATIVO_L60_NN · publicação PUBLICACAO/AAAA/MM-mes/semana-DD-DD/DD-dia/HHhMM (tools/publicar.py) · NN = ordem de produção no lote",
   "episodios": [
     {
       "n": 1,
@@ -12,7 +12,7 @@
       "estilo": 1,
       "estiloNome": "Palitinho",
       "duracao_s": 35.8,
-      "pasta": "PUBLICACAO/L60/REELS_01_AO_10/01",
+      "pasta": "PUBLICACAO/2026/11-novembro/semana-29-30/29-domingo/08h00/",
       "produzido_em": "2026-11-21"
     },
     {
@@ -24,7 +24,7 @@
       "estilo": 5,
       "estiloNome": "Painel",
       "duracao_s": 38.8,
-      "pasta": "PUBLICACAO/L60/REELS_01_AO_10/02",
+      "pasta": "PUBLICACAO/2026/11-novembro/semana-29-30/29-domingo/10h00/",
       "produzido_em": "2026-11-21"
     },
     {
@@ -36,7 +36,7 @@
       "estilo": 2,
       "estiloNome": "Desenho à mão",
       "duracao_s": 42.5,
-      "pasta": "PUBLICACAO/L60/REELS_01_AO_10/03",
+      "pasta": "PUBLICACAO/2026/11-novembro/semana-29-30/30-segunda/08h00/",
       "produzido_em": "2026-11-21"
     },
     {
@@ -48,7 +48,7 @@
       "estilo": 3,
       "estiloNome": "Planta técnica",
       "duracao_s": 36.1,
-      "pasta": "PUBLICACAO/L60/REELS_01_AO_10/04",
+      "pasta": "PUBLICACAO/2026/11-novembro/semana-29-30/30-segunda/10h00/",
       "produzido_em": "2026-11-21"
     },
     {
@@ -60,7 +60,7 @@
       "estilo": 5,
       "estiloNome": "Painel",
       "duracao_s": 41.4,
-      "pasta": "PUBLICACAO/L60/REELS_01_AO_10/05",
+      "pasta": "PUBLICACAO/2026/12-dezembro/semana-01-05/01-terca/08h00/",
       "produzido_em": "2026-11-21"
     },
     {

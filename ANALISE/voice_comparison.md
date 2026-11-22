@@ -1,6 +1,6 @@
 # Comparação de vozes — audições
 
-Arquivos em `OUTPUT/VOICE_AUDITIONS/`.
+Arquivos em `OUTPUT/testes-de-voz/`.
 
 **Limite desta avaliação:** ninguém ouviu as audições dentro do pipeline. As colunas são medições (duração, ritmo, texto reconhecido por transcrição automática). Naturalidade, sotaque, timbre e emoção — os critérios que decidem a voz — **dependem de você ouvir**. Não há notas de 1 a 5 porque seriam inventadas.
 
@@ -47,7 +47,7 @@ Precisava de grafia fonética para "lead" (lia "leád"). Continua disponível co
 ## Para trocar a voz
 
 1. Adotar outra audição desta rodada: ajustar `voice_id` em `VOZ/voice_preset.json` e rodar, em `PRODUCAO/`:
-   `python3 tools/build_narration.py EP001 --source ../OUTPUT/VOICE_AUDITIONS/audicao_gemini_<Voz>_EP001.wav && npm run audio -- EP001 && npm run render -- EP001`
+   `python3 tools/build_narration.py EP001 --source ../OUTPUT/testes-de-voz/audicao_gemini_<Voz>_EP001.wav && npm run audio -- EP001 && npm run render -- EP001`
 2. Usar um arquivo de fora (ElevenLabs exportado, locutor humano): `"provider": "arquivo"` e salvar o WAV em `PRODUCAO/episodes/EP001/narration_source.wav`. O pipeline alinha as legendas e as cenas a qualquer narração que siga o texto.
 
 ## Observação a partir do EP002

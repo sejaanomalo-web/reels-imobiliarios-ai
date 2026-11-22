@@ -1,0 +1,38 @@
+{
+ "R1": {
+  "model": "gemini-3.1-flash-tts-preview",
+  "voice": "Puck",
+  "segundos": 32.92,
+  "palavras_min": 168,
+  "pausas_total_s": 3.0,
+  "pausas_pct": 9.1,
+  "maior_pausa_s": 0.42,
+  "entonacao_desvio_semitons": 6.56,
+  "entonacao_faixa_p5_p95_semitons": 21.85,
+  "intensidade_desvio_db": 7.27,
+  "texto_reconhecido": 0.984,
+  "divergencias": [
+   "∅ → a",
+   "veja → via"
+  ],
+  "arquivo": "OUTPUT/testes-de-voz/EP015_tomada_R1.wav"
+ },
+ "R2": {
+  "model": "gemini-3.1-flash-tts-preview",
+  "voice": "Puck",
+  "segundos": 35.42,
+  "palavras_min": 156,
+  "pausas_total_s": 5.27,
+  "pausas_pct": 14.9,
+  "maior_pausa_s": 0.72,
+  "entonacao_desvio_semitons": 5.32,
+  "entonacao_faixa_p5_p95_semitons": 17.4,
+  "intensidade_desvio_db": 6.97,
+  "texto_reconhecido": 0.984,
+  "divergencias": [
+   "sexta → cesta",
+   "∅ → a"
+  ],
+  "arquivo": "OUTPUT/testes-de-voz/EP015_tomada_R2.wav"
+ }
+}

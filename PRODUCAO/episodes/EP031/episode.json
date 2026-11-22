@@ -1,523 +1,524 @@
 {
- "id": "EP031",
- "title": "Dois corretores responderam o mesmo lead",
- "fps": 30,
- "leadIn": 0.12,
- "tail": 1.9,
- "deliverables": {
-  "final": "EP031_FINAL.mp4",
-  "narration": "EP031_NARRACAO.wav"
- },
- "cta": {
-  "type": "comentario",
-  "keyword": "SISTEMA",
-  "channel": "Direct",
-  "original_bio_cta": "Quer desenhar esse fluxo para sua equipe? Conheça nosso sistema imobiliário personalizado no link da bio.",
-  "transition_adapted": "Esse fluxo funciona melhor quando cada oportunidade tem dono e histórico registrados.",
-  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct."
- },
- "pronunciation": {
-  "SISTEMA": "sistema"
- },
- "master": {
-  "tp": -2.0
- },
- "segments": [
-  {
-   "id": "s1",
-   "scene": "hook",
-   "text": "O cliente pediu informações uma vez.",
-   "caption": "O cliente | pediu *informações* | *uma vez.*",
-   "pauseAfter": 0.3
+  "id": "EP031",
+  "title": "Dois corretores responderam o mesmo lead",
+  "fps": 30,
+  "leadIn": 0.12,
+  "tail": 1.9,
+  "deliverables": {
+    "final": "EP031_FINAL.mp4",
+    "narration": "EP031_NARRACAO.wav"
   },
-  {
-   "id": "s2",
-   "scene": "hook",
-   "text": "Recebeu resposta de dois corretores diferentes.",
-   "caption": "Recebeu resposta | de *dois corretores* | *diferentes.*",
-   "pauseAfter": 0.3
+  "cta": {
+    "type": "comentario",
+    "keyword": "SISTEMA",
+    "channel": "Direct",
+    "original_bio_cta": "Quer desenhar esse fluxo para sua equipe? Conheça nosso sistema imobiliário personalizado no link da bio.",
+    "transition_adapted": "Esse fluxo funciona melhor quando cada oportunidade tem dono e histórico registrados.",
+    "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct."
   },
-  {
-   "id": "s3",
-   "scene": "situacao",
-   "text": "Um oferece visita na quinta.",
-   "caption": "Um oferece | visita na *quinta.*",
-   "pauseAfter": 0.3
+  "pronunciation": {
+    "SISTEMA": "sistema"
   },
-  {
-   "id": "s4",
-   "scene": "situacao",
-   "text": "Outro fala de condições diferentes na sexta.",
-   "caption": "*Outro* fala | de condições diferentes | na *sexta.*",
-   "pauseAfter": 0.3
+  "master": {
+    "tp": -2.0
   },
-  {
-   "id": "s5",
-   "scene": "situacao",
-   "text": "O comprador não sabe com quem seguir e a equipe também não.",
-   "caption": "O comprador | *não sabe* | com quem seguir | e a *equipe* | também não.",
-   "pauseAfter": 0.3
+  "segments": [
+    {
+      "id": "s1",
+      "scene": "hook",
+      "text": "O cliente pediu informações uma vez.",
+      "caption": "O cliente | pediu *informações* | *uma vez.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s2",
+      "scene": "hook",
+      "text": "Recebeu resposta de dois corretores diferentes.",
+      "caption": "Recebeu resposta | de *dois corretores* | *diferentes.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s3",
+      "scene": "situacao",
+      "text": "Um oferece visita na quinta.",
+      "caption": "Um oferece | visita na *quinta.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s4",
+      "scene": "situacao",
+      "text": "Outro fala de condições diferentes na sexta.",
+      "caption": "*Outro* fala | de condições diferentes | na *sexta.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s5",
+      "scene": "situacao",
+      "text": "O comprador não sabe com quem seguir e a equipe também não.",
+      "caption": "O comprador | *não sabe* | com quem seguir | e a *equipe* | também não.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s6",
+      "scene": "tensao",
+      "text": "O problema não é ter dois profissionais interessados.",
+      "caption": "O problema | *não é* ter | dois profissionais | interessados.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s7",
+      "scene": "tensao",
+      "text": "É não existir uma regra clara de atribuição e acompanhamento daquela oportunidade.",
+      "caption": "É não existir | uma *regra clara* | de *atribuição* | e *acompanhamento* | daquela oportunidade.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s8",
+      "scene": "insight",
+      "text": "Defina quem assume o primeiro contato, quando uma oportunidade pode ser transferida e como registrar isso sem perder contexto.",
+      "caption": "*Defina* | quem assume | o *primeiro contato,* | quando uma oportunidade | pode ser *transferida* | e como *registrar* isso | sem perder *contexto.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s9",
+      "scene": "cta",
+      "text": "Esse fluxo funciona melhor quando cada oportunidade tem dono e histórico registrados.",
+      "caption": "Esse fluxo | funciona melhor | quando cada oportunidade | tem *dono* | e *histórico* registrados.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s10",
+      "scene": "cta",
+      "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+      "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s11",
+      "scene": "cta",
+      "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+      "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+      "pauseAfter": 0.3
+    }
+  ],
+  "sceneLead": {
+    "situacao": 0.3,
+    "tensao": 0.3,
+    "insight": 0.35,
+    "cta": 0.3
   },
-  {
-   "id": "s6",
-   "scene": "tensao",
-   "text": "O problema não é ter dois profissionais interessados.",
-   "caption": "O problema | *não é* ter | dois profissionais | interessados.",
-   "pauseAfter": 0.3
+  "hideCaptions": [
+    "s11"
+  ],
+  "cues": {
+    "hook_info": {
+      "seg": "s1",
+      "word": "informações",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "hook_once": {
+      "seg": "s1",
+      "word": "vez",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "hook_two": {
+      "seg": "s2",
+      "word": "dois",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "hook_diff": {
+      "seg": "s2",
+      "word": "diferentes",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_one": {
+      "seg": "s3",
+      "word": "oferece",
+      "edge": "start",
+      "offset": -0.15
+    },
+    "sit_thu": {
+      "seg": "s3",
+      "word": "quinta",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_other": {
+      "seg": "s4",
+      "word": "outro",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "sit_fri": {
+      "seg": "s4",
+      "word": "sexta",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_buyer": {
+      "seg": "s5",
+      "word": "comprador",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_team": {
+      "seg": "s5",
+      "word": "equipe",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_prob": {
+      "seg": "s6",
+      "word": "problema",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ten_two": {
+      "seg": "s6",
+      "word": "dois",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_rule": {
+      "seg": "s7",
+      "word": "regra",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_assign": {
+      "seg": "s7",
+      "word": "atribuição",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_follow": {
+      "seg": "s7",
+      "word": "acompanhamento",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_def": {
+      "seg": "s8",
+      "word": "defina",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ins_first": {
+      "seg": "s8",
+      "word": "primeiro",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_transfer": {
+      "seg": "s8",
+      "word": "transferida",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_reg": {
+      "seg": "s8",
+      "word": "registrar",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_ctx": {
+      "seg": "s8",
+      "word": "contexto",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_flow": {
+      "seg": "s9",
+      "word": "esse",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_owner": {
+      "seg": "s9",
+      "word": "dono",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_hist": {
+      "seg": "s9",
+      "word": "histórico",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_sys": {
+      "seg": "s10",
+      "word": "quer",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_tiles": {
+      "seg": "s10",
+      "word": "imóveis",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_comment": {
+      "seg": "s11",
+      "word": "comente",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_word": {
+      "seg": "s11",
+      "word": "sistema",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_direct": {
+      "seg": "s11",
+      "word": "direct",
+      "edge": "start",
+      "offset": -0.15
+    },
+    "cta_end": {
+      "seg": "s11",
+      "word": "direct",
+      "edge": "end"
+    }
   },
-  {
-   "id": "s7",
-   "scene": "tensao",
-   "text": "É não existir uma regra clara de atribuição e acompanhamento daquela oportunidade.",
-   "caption": "É não existir | uma *regra clara* | de *atribuição* | e *acompanhamento* | daquela oportunidade.",
-   "pauseAfter": 0.3
+  "series": {},
+  "sfx": [
+    {
+      "cue": "hook_info",
+      "offset": 0.7,
+      "sound": "click",
+      "gain": -22
+    },
+    {
+      "cue": "hook_diff",
+      "offset": 0.75,
+      "sound": "notif",
+      "gain": -24,
+      "pitch": 0
+    },
+    {
+      "cue": "hook_diff",
+      "offset": 0.95,
+      "sound": "notif",
+      "gain": -24,
+      "pitch": 3
+    },
+    {
+      "cue": "sit_thu",
+      "offset": 0.55,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 2
+    },
+    {
+      "cue": "sit_fri",
+      "offset": 0.55,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": -1
+    },
+    {
+      "cue": "sit_team",
+      "offset": 0.95,
+      "sound": "hollow",
+      "gain": -23,
+      "pitch": -3
+    },
+    {
+      "cue": "ten_prob",
+      "offset": -0.35,
+      "sound": "swish",
+      "gain": -24
+    },
+    {
+      "cue": "ten_follow",
+      "offset": 1.2,
+      "sound": "fade_down",
+      "gain": -24,
+      "dur": 0.7
+    },
+    {
+      "cue": "ins_def",
+      "offset": -0.4,
+      "sound": "whoosh_up",
+      "gain": -25,
+      "dur": 0.4
+    },
+    {
+      "cue": "ins_first",
+      "offset": 0.85,
+      "sound": "pin",
+      "gain": -22
+    },
+    {
+      "cue": "ins_transfer",
+      "offset": 0.7,
+      "sound": "swish",
+      "gain": -23
+    },
+    {
+      "cue": "ins_ctx",
+      "offset": 0.7,
+      "sound": "chord",
+      "gain": -21
+    },
+    {
+      "cue": "cta_flow",
+      "offset": -0.45,
+      "sound": "whoosh_up",
+      "gain": -24,
+      "dur": 0.45
+    },
+    {
+      "cue": "cta_tiles",
+      "offset": 0.25,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 0
+    },
+    {
+      "cue": "cta_tiles",
+      "offset": 0.55,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 4
+    },
+    {
+      "cue": "cta_tiles",
+      "offset": 0.85,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 7
+    },
+    {
+      "cue": "cta_comment",
+      "sound": "typing",
+      "gain": -27
+    },
+    {
+      "cue": "cta_word",
+      "offset": 0.35,
+      "sound": "chord",
+      "gain": -19
+    },
+    {
+      "cue": "cta_end",
+      "offset": 0.1,
+      "sound": "notif",
+      "gain": -20,
+      "pitch": 2
+    }
+  ],
+  "music": {
+    "gain": -30,
+    "duck": -5.5,
+    "bpm": 94,
+    "prog": [
+      {
+        "at": 0,
+        "notes": [
+          26,
+          38,
+          50,
+          53,
+          57
+        ],
+        "root": 38,
+        "dens": 2,
+        "bright": 0.45,
+        "label": "Dm — um pedido"
+      },
+      {
+        "at": "cue:sit_one",
+        "notes": [
+          22,
+          34,
+          50,
+          53,
+          58
+        ],
+        "root": 34,
+        "dens": 2,
+        "bright": 0.45,
+        "label": "Bb — duas agendas"
+      },
+      {
+        "at": "cue:ten_prob",
+        "notes": [
+          21,
+          33,
+          49,
+          52,
+          57
+        ],
+        "root": 33,
+        "dens": 2,
+        "bright": 0.45,
+        "label": "A — sem regra"
+      },
+      {
+        "at": "cue:ins_def",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57
+        ],
+        "root": 41,
+        "dens": 2,
+        "bright": 0.55,
+        "label": "F — defina"
+      },
+      {
+        "at": "cue:ins_ctx",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55,
+          62
+        ],
+        "root": 48,
+        "dens": 2,
+        "bright": 0.6,
+        "label": "Cadd9 — contexto"
+      },
+      {
+        "at": "cue:cta_flow",
+        "notes": [
+          22,
+          34,
+          50,
+          53,
+          58
+        ],
+        "root": 34,
+        "dens": 2,
+        "bright": 0.55,
+        "label": "Bb — fluxo"
+      },
+      {
+        "at": "cue:cta_word",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57,
+          60
+        ],
+        "root": 41,
+        "dens": 2,
+        "bright": 0.6,
+        "label": "F — comente"
+      }
+    ]
   },
-  {
-   "id": "s8",
-   "scene": "insight",
-   "text": "Defina quem assume o primeiro contato, quando uma oportunidade pode ser transferida e como registrar isso sem perder contexto.",
-   "caption": "*Defina* | quem assume | o *primeiro contato,* | quando uma oportunidade | pode ser *transferida* | e como *registrar* isso | sem perder *contexto.*",
-   "pauseAfter": 0.3
-  },
-  {
-   "id": "s9",
-   "scene": "cta",
-   "text": "Esse fluxo funciona melhor quando cada oportunidade tem dono e histórico registrados.",
-   "caption": "Esse fluxo | funciona melhor | quando cada oportunidade | tem *dono* | e *histórico* registrados.",
-   "pauseAfter": 0.3
-  },
-  {
-   "id": "s10",
-   "scene": "cta",
-   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
-   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
-   "pauseAfter": 0.3
-  },
-  {
-   "id": "s11",
-   "scene": "cta",
-   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
-   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
-   "pauseAfter": 0.3
-  }
- ],
- "sceneLead": {
-  "situacao": 0.3,
-  "tensao": 0.3,
-  "insight": 0.35,
-  "cta": 0.3
- },
- "hideCaptions": [
-  "s11"
- ],
- "cues": {
-  "hook_info": {
-   "seg": "s1",
-   "word": "informações",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "hook_once": {
-   "seg": "s1",
-   "word": "vez",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "hook_two": {
-   "seg": "s2",
-   "word": "dois",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "hook_diff": {
-   "seg": "s2",
-   "word": "diferentes",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_one": {
-   "seg": "s3",
-   "word": "oferece",
-   "edge": "start",
-   "offset": -0.15
-  },
-  "sit_thu": {
-   "seg": "s3",
-   "word": "quinta",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_other": {
-   "seg": "s4",
-   "word": "outro",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "sit_fri": {
-   "seg": "s4",
-   "word": "sexta",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_buyer": {
-   "seg": "s5",
-   "word": "comprador",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_team": {
-   "seg": "s5",
-   "word": "equipe",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_prob": {
-   "seg": "s6",
-   "word": "problema",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "ten_two": {
-   "seg": "s6",
-   "word": "dois",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_rule": {
-   "seg": "s7",
-   "word": "regra",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_assign": {
-   "seg": "s7",
-   "word": "atribuição",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_follow": {
-   "seg": "s7",
-   "word": "acompanhamento",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_def": {
-   "seg": "s8",
-   "word": "defina",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "ins_first": {
-   "seg": "s8",
-   "word": "primeiro",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_transfer": {
-   "seg": "s8",
-   "word": "transferida",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_reg": {
-   "seg": "s8",
-   "word": "registrar",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_ctx": {
-   "seg": "s8",
-   "word": "contexto",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_flow": {
-   "seg": "s9",
-   "word": "esse",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "cta_owner": {
-   "seg": "s9",
-   "word": "dono",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_hist": {
-   "seg": "s9",
-   "word": "histórico",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_sys": {
-   "seg": "s10",
-   "word": "quer",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "cta_tiles": {
-   "seg": "s10",
-   "word": "imóveis",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_comment": {
-   "seg": "s11",
-   "word": "comente",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "cta_word": {
-   "seg": "s11",
-   "word": "sistema",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_direct": {
-   "seg": "s11",
-   "word": "direct",
-   "edge": "start",
-   "offset": -0.15
-  },
-  "cta_end": {
-   "seg": "s11",
-   "word": "direct",
-   "edge": "end"
-  }
- },
- "series": {},
- "sfx": [
-  {
-   "cue": "hook_info",
-   "offset": 0.7,
-   "sound": "click",
-   "gain": -22
-  },
-  {
-   "cue": "hook_diff",
-   "offset": 0.75,
-   "sound": "notif",
-   "gain": -24,
-   "pitch": 0
-  },
-  {
-   "cue": "hook_diff",
-   "offset": 0.95,
-   "sound": "notif",
-   "gain": -24,
-   "pitch": 3
-  },
-  {
-   "cue": "sit_thu",
-   "offset": 0.55,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 2
-  },
-  {
-   "cue": "sit_fri",
-   "offset": 0.55,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": -1
-  },
-  {
-   "cue": "sit_team",
-   "offset": 0.95,
-   "sound": "hollow",
-   "gain": -23,
-   "pitch": -3
-  },
-  {
-   "cue": "ten_prob",
-   "offset": -0.35,
-   "sound": "swish",
-   "gain": -24
-  },
-  {
-   "cue": "ten_follow",
-   "offset": 1.2,
-   "sound": "fade_down",
-   "gain": -24,
-   "dur": 0.7
-  },
-  {
-   "cue": "ins_def",
-   "offset": -0.4,
-   "sound": "whoosh_up",
-   "gain": -25,
-   "dur": 0.4
-  },
-  {
-   "cue": "ins_first",
-   "offset": 0.85,
-   "sound": "pin",
-   "gain": -22
-  },
-  {
-   "cue": "ins_transfer",
-   "offset": 0.7,
-   "sound": "swish",
-   "gain": -23
-  },
-  {
-   "cue": "ins_ctx",
-   "offset": 0.7,
-   "sound": "chord",
-   "gain": -21
-  },
-  {
-   "cue": "cta_flow",
-   "offset": -0.45,
-   "sound": "whoosh_up",
-   "gain": -24,
-   "dur": 0.45
-  },
-  {
-   "cue": "cta_tiles",
-   "offset": 0.25,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 0
-  },
-  {
-   "cue": "cta_tiles",
-   "offset": 0.55,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 4
-  },
-  {
-   "cue": "cta_tiles",
-   "offset": 0.85,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 7
-  },
-  {
-   "cue": "cta_comment",
-   "sound": "typing",
-   "gain": -27
-  },
-  {
-   "cue": "cta_word",
-   "offset": 0.35,
-   "sound": "chord",
-   "gain": -19
-  },
-  {
-   "cue": "cta_end",
-   "offset": 0.1,
-   "sound": "notif",
-   "gain": -20,
-   "pitch": 2
-  }
- ],
- "music": {
-  "gain": -30,
-  "duck": -5.5,
-  "bpm": 94,
-  "prog": [
-   {
-    "at": 0,
-    "notes": [
-     26,
-     38,
-     50,
-     53,
-     57
-    ],
-    "root": 38,
-    "dens": 2,
-    "bright": 0.45,
-    "label": "Dm — um pedido"
-   },
-   {
-    "at": "cue:sit_one",
-    "notes": [
-     22,
-     34,
-     50,
-     53,
-     58
-    ],
-    "root": 34,
-    "dens": 2,
-    "bright": 0.45,
-    "label": "Bb — duas agendas"
-   },
-   {
-    "at": "cue:ten_prob",
-    "notes": [
-     21,
-     33,
-     49,
-     52,
-     57
-    ],
-    "root": 33,
-    "dens": 2,
-    "bright": 0.45,
-    "label": "A — sem regra"
-   },
-   {
-    "at": "cue:ins_def",
-    "notes": [
-     29,
-     41,
-     48,
-     53,
-     57
-    ],
-    "root": 41,
-    "dens": 2,
-    "bright": 0.55,
-    "label": "F — defina"
-   },
-   {
-    "at": "cue:ins_ctx",
-    "notes": [
-     24,
-     36,
-     48,
-     52,
-     55,
-     62
-    ],
-    "root": 48,
-    "dens": 2,
-    "bright": 0.6,
-    "label": "Cadd9 — contexto"
-   },
-   {
-    "at": "cue:cta_flow",
-    "notes": [
-     22,
-     34,
-     50,
-     53,
-     58
-    ],
-    "root": 34,
-    "dens": 2,
-    "bright": 0.55,
-    "label": "Bb — fluxo"
-   },
-   {
-    "at": "cue:cta_word",
-    "notes": [
-     29,
-     41,
-     48,
-     53,
-     57,
-     60
-    ],
-    "root": 41,
-    "dens": 2,
-    "bright": 0.6,
-    "label": "F — comente"
-   }
-  ]
- }
+  "outputDir": "reels-anteriores/EP031"
 }

@@ -15,7 +15,7 @@ Você está no Claude Code, responsável pelo sistema audiovisual real da **ATIV
 No repositório do editor, os arquivos de referência editorial adicionados pelo proprietário devem aparecer nestes caminhos:
 - `MARCA/DIRETRIZ_IDENTIDADE_VISUAL_ATIVO.md`
 - `PROMPTS/GUIA_EDITORIAL_GANCHOS_RETENCAO_CTAS_ATIVO.md`
-- `STORIES/ROTEIRO_5_STORIES_NA_PRATICA_ATIVO.md`
+- `ROTEIROS/stories/ROTEIRO_5_STORIES_NA_PRATICA_ATIVO.md`
 - `PROMPTS/BRIEFING_SECAO_LP_NA_PRATICA_ATIVO.md`
 
 Se algum estiver ausente, trabalhe com o conteúdo enviado nesta sessão quando disponível, registre a ausência e não substitua silenciosamente por algo inventado. **Não sobrescreva esses documentos aprovados só para reformular frases.**
@@ -26,7 +26,7 @@ Se algum estiver ausente, trabalhe com o conteúdo enviado nesta sessão quando 
 2. Não descartar mudanças locais de usuário. Se houver alterações não commitadas, preservá-las e documentar; criar worktree/branch segura se necessário.
 3. Verificar a branch `claude/wizardly-newton-3y0hu5` e qualquer branch mais nova com editor funcional. Ler `CLAUDE.md`, `PROMPTS/GUIA_MELHORIA_CONTINUA.md`, `MARCA/brand.json`, `ANALISE/style_tokens.json`, `PRODUCAO/LEIAME.md`, `PRODUCAO/package.json`, `PRODUCAO/src/theme.ts`.
 4. Criar nova branch **a partir da branch efetiva de produção do editor**, sugerida `feat/ativo-identidade-editorial-stories-v2`. **Não trabalhar em `main` e não sobrescrever a branch antiga.**
-5. Antes de qualquer mudança: registrar commit-base e status em `logs/2026-11-13-ativo-atualizacao/estado-inicial.md`.
+5. Antes de qualquer mudança: registrar commit-base e status em `ANALISE/historico/2026-11-13-ativo-atualizacao/estado-inicial.md`.
 
 ## 2. IDENTIDADE VISUAL — FONTE CANÔNICA
 
@@ -82,7 +82,7 @@ Adicionar a orientação editorial na documentação e/ou template de storyboard
 
 ## 5. PRODUÇÃO DOS CINCO STORIES “NA PRÁTICA”
 
-Leia `STORIES/ROTEIRO_5_STORIES_NA_PRATICA_ATIVO.md`. Produzir **5 Stories independentes** de 1080×1920, 30fps, com padrão Remotion atual.
+Leia `ROTEIROS/stories/ROTEIRO_5_STORIES_NA_PRATICA_ATIVO.md`. Produzir **5 Stories independentes** de 1080×1920, 30fps, com padrão Remotion atual.
 
 **Narrativa:** (1) três projetos/curiosidade; (2) Bruno — painel + site; (3) Ivone — painel e identidade; (4) Antônio — site e filtros; (5) personalização da ATIVO + agendamento.
 
@@ -123,7 +123,7 @@ A nova seção “Três projetos. Três maneiras de trabalhar.” deve entrar en
 - Fazer busca final por `#35E0A1`, `rgba(53,224,161,...)`, tokens aquosos e usos ativos da marca no código. Exceções válidas devem ser justificadas por caminho/linha.
 - Verificar layout e legibilidade de 1080×1920 e, se houver mudança no vídeo horizontal, 1920×1080.
 - Validar MP4 com `ffprobe`, inspecionar frames representativos, revisar ortografia, áudio, logo e safe areas.
-- Criar em `logs/2026-11-13-ativo-atualizacao/`: `estado-inicial.md`, `auditoria-cores.md`, `alteracoes.md`, `qa.md`, `assets-e-autorizacoes.md`, `licencas.md`, `git-e-entrega.md`, capturas antes/depois. **Não registrar segredos, dados pessoais nem amostras privadas em logs públicos.**
+- Criar em `ANALISE/historico/2026-11-13-ativo-atualizacao/`: `estado-inicial.md`, `auditoria-cores.md`, `alteracoes.md`, `qa.md`, `assets-e-autorizacoes.md`, `licencas.md`, `git-e-entrega.md`, capturas antes/depois. **Não registrar segredos, dados pessoais nem amostras privadas em logs públicos.**
 
 ## 8. GIT E ENTREGA
 

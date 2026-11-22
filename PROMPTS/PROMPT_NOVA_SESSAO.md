@@ -109,7 +109,7 @@ Padrão próprio, descrito na seção "Criativos de anúncio Meta Ads" do guia:
 - 1,1×, transcrição dinâmica (`AD-ATIVO-01/scenes/KText.tsx`) e cortes secos (`buildCuts`);
 - CTA "Clique no botão…" (`cta.type: botao_meta`);
 - área útil y 270–1250;
-- saída em `OUTPUT/ADS/`.
+- saída em `OUTPUT/anuncios/`.
 
 ## 4. Estado atual (16/11/2026)
 - **Entregues, aguardando avaliação:** ATIVO EP03 (CTA de compartilhamento, mantido), EP04, EP05, EP06 (versão corretor), EP07, EP08; AD-ATIVO-01 v2, AD-ATIVO-02; Stories "Na prática" 01–05 (prévia interna com marca d'água; publicação depende da autorização dos corretores).

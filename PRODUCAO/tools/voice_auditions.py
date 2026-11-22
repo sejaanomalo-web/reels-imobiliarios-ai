@@ -6,7 +6,7 @@ from tts_common import synth, trim_silence, write_wav, transcribe, norm, ROOT
 TEXT = ("Corretor, deixa eu te fazer uma pergunta: você sabe quantos interessados ficaram sem retorno esta semana? "
         "Um contato não é só uma mensagem no WhatsApp. É uma conversa com contexto, prazo e próximo passo. "
         "E é isso que a gente precisa organizar.")
-OUT = os.path.join(os.path.dirname(ROOT), "OUTPUT", "VOICE_AUDITIONS")
+OUT = os.path.join(os.path.dirname(ROOT), "OUTPUT", "testes-de-voz")
 os.makedirs(OUT, exist_ok=True)
 rows = []
 for voice in ["pm_alex", "pm_santa", "pf_dora"]:

@@ -77,7 +77,7 @@ O código fica em `PRODUCAO/episodes/<EP>/` e `PRODUCAO/src/episodes/<EP>/`.
 | 12 | Render | `bash tools/render_episode.sh <EP>` (precisa de **11/11 OK**) | MP4 + capa + editáveis |
 | 13 | Ritmo | `python3 tools/motion_check.py ../OUTPUT/<OUT>/<OUT>_FINAL.mp4` (metas na seção 13) | — |
 | 14 | Legenda IG | `PROMPTS/GUIA_LEGENDAS_INSTAGRAM_ATIVO.md` + `tools/legenda_check.py` | `legenda_instagram.txt` |
-| 15 | Publicação | `publicar_lote.py`, commit, push, Action, ajuste do horário no Supabase (`PRODUCAO/lotes/*/LEIAME.md`) | agendado |
+| 15 | Publicação | `publicar.py <EP> --quando "AAAA-MM-DD HH:MM"` (a pasta de data/hora define o horário), commit, push, Action, conferir no Supabase | agendado |
 
 **Sem cota de voz:** monte tudo com um `narration_source.wav` provisório (TTS anterior aprovado ou silêncio medido) e marque `"vozProvisoria": true` no `episode.json`. Ao chegar a voz real, rode de novo a partir da etapa 6. Todas as animações são ancoradas em **palavras (cues)**, nunca em segundos fixos, então a cena se reajusta sozinha.
 

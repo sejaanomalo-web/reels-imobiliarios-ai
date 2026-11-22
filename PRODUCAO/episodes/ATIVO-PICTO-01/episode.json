@@ -14,7 +14,7 @@
  "id": "ATIVO-PICTO-01",
  "lote": "VIRAL",
  "title": "Ninguém te avisa quando um cliente desiste",
- "outputDir": "ATIVO_PICTO_01",
+ "outputDir": "pilotos/ATIVO_PICTO_01",
  "deliverables": {
   "final": "ATIVO_PICTO_01_FINAL.mp4",
   "narration": "ATIVO_PICTO_01_NARRACAO.wav",

@@ -97,7 +97,7 @@ O código fica em `PRODUCAO/episodes/<EP>/` e `PRODUCAO/src/episodes/<EP>/`. ID:
 | 12 | Render | `bash tools/render_episode.sh <EP>`: **11/11 OK** |
 | 13 | Movimento | `python3 tools/motion_check.py ../OUTPUT/<OUT>/<OUT>_FINAL.mp4` (metas na seção 13) |
 | 14 | Legenda IG | `PROMPTS/GUIA_LEGENDAS_INSTAGRAM_ATIVO.md` + `tools/legenda_check.py <OUT>` |
-| 15 | Publicação | `publicar_lote.py <LOTE> <n>`, commit, push na `main`, Action, conferir no Supabase |
+| 15 | Publicação | `publicar.py <EP> --quando "AAAA-MM-DD HH:MM"` (a pasta de data/hora define o horário), commit, push na `main`, Action, conferir no Supabase |
 
 **Sem cota de voz:** monte com narração provisória e marque `"vozProvisoria": true`; tudo é ancorado em palavras (cues), então a troca da voz só exige refazer a partir da etapa 6.
 

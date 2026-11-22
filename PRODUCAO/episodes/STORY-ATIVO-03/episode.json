@@ -6,7 +6,7 @@
  "height": 1920,
  "leadIn": 0.3,
  "tail": 1.6,
- "outputDir": "STORIES_NA_PRATICA/STORY-ATIVO-03",
+ "outputDir": "stories/STORY-ATIVO-03",
  "deliverables": {
   "final": "STORY-ATIVO-03_FINAL.mp4",
   "narration": "STORY-ATIVO-03_NARRACAO.wav",

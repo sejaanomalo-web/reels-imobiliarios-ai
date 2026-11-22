@@ -6,8 +6,8 @@ Cada modelo é um estilo viral de edição para Instagram e TikTok, com manual c
 
 | Modelo | Nome | Manual (skill) | Kit de código | Piloto de referência | Status |
 |---|---|---|---|---|---|
-| **Primeiro modelo** | **Cartoon explicativo** | [`.claude/skills/primeiro-modelo-cartoon-explicativo/SKILL.md`](.claude/skills/primeiro-modelo-cartoon-explicativo/SKILL.md) | `PRODUCAO/src/estilos/cartoon.tsx` | `OUTPUT/ATIVO_PILOTO_01/` ("Concorrente ou parceiro?") | ✅ pronto (21/11/2026) |
-| **Segundo modelo** | **Pictograma cinematográfico** | [`.claude/skills/segundo-modelo-pictograma-cinematografico/SKILL.md`](.claude/skills/segundo-modelo-pictograma-cinematografico/SKILL.md) | `PRODUCAO/src/estilos/pictograma.tsx` | `OUTPUT/ATIVO_PICTO_01/` ("Ninguém te avisa quando um cliente desiste") | ✅ pronto (21/11/2026) |
+| **Primeiro modelo** | **Cartoon explicativo** | [`.claude/skills/primeiro-modelo-cartoon-explicativo/SKILL.md`](.claude/skills/primeiro-modelo-cartoon-explicativo/SKILL.md) | `PRODUCAO/src/estilos/cartoon.tsx` | `OUTPUT/pilotos/ATIVO_PILOTO_01/` ("Concorrente ou parceiro?") | ✅ pronto (21/11/2026) |
+| **Segundo modelo** | **Pictograma cinematográfico** | [`.claude/skills/segundo-modelo-pictograma-cinematografico/SKILL.md`](.claude/skills/segundo-modelo-pictograma-cinematografico/SKILL.md) | `PRODUCAO/src/estilos/pictograma.tsx` | `OUTPUT/pilotos/ATIVO_PICTO_01/` ("Ninguém te avisa quando um cliente desiste") | ✅ pronto (21/11/2026) |
 | Terceiro modelo | — | — | — | — | aguardando referências |
 | Quarto modelo | — | — | — | — | — |
 

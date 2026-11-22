@@ -14,7 +14,7 @@
   },
   "id": "ATIVO-PILOTO-01",
   "title": "Concorrente ou parceiro? — piloto do formato cartoon explicativo",
-  "outputDir": "ATIVO_PILOTO_01",
+  "outputDir": "pilotos/ATIVO_PILOTO_01",
   "deliverables": {
     "final": "ATIVO_PILOTO_01_FINAL.mp4",
     "narration": "ATIVO_PILOTO_01_NARRACAO.wav",

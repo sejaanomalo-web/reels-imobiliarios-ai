@@ -1,4 +1,4 @@
-<!-- Roteiro enviado pelo cliente em 16/11/2026 (ATIVO_Reel_02_JASON_BALLO_OLHAR_COMPRADOR.md), produzido como EP-ATIVO-CASE02. CTA "Qual detalhe você sempre confere… Conta nos comentários." substituída (regra 14/11/2026) pela transição "E cada detalhe que o comprador perguntar merece ficar registrado no atendimento." + CTA SISTEMA. Fatos conferidos em 16/11/2026: ver OUTPUT/ATIVO_CASE02/relatorio_qa.md. -->
+<!-- Roteiro enviado pelo cliente em 16/11/2026 (ATIVO_Reel_02_JASON_BALLO_OLHAR_COMPRADOR.md), produzido como EP-ATIVO-CASE02. CTA "Qual detalhe você sempre confere… Conta nos comentários." substituída (regra 14/11/2026) pela transição "E cada detalhe que o comprador perguntar merece ficar registrado no atendimento." + CTA SISTEMA. Fatos conferidos em 16/11/2026: ver OUTPUT/reels-anteriores/ATIVO_CASE02/relatorio_qa.md. -->
 
 # ATIVO — EPISÓDIO 02: Jason Ballo: mostre o que o comprador quer ver
 

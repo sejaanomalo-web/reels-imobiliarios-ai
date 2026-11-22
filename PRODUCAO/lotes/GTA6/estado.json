@@ -1,7 +1,7 @@
 {
   "lote": "GTA6",
   "descricao": "Edição especial GTA VI (PDF do cliente, 21/11/2026): 50 roteiros (30 GTA-first, 20 corretor-first). Ordem do PDF. Esteira de 5 estilos contínua. CTA natural do roteiro vira transição; fala termina na CTA SISTEMA (decisão do cliente 21/11/2026).",
-  "nomenclatura": "composition ATIVO-GTA6-NN · OUTPUT/ATIVO_GTA6_NN · PUBLICACAO/GTA6/REELS_XX_AO_YY/NN (python3 tools/publicar_lote.py GTA6 NN)",
+  "nomenclatura": "composition ATIVO-GTA6-NN · OUTPUT/ATIVO_GTA6_NN · PUBLICACAO/AAAA/MM-mes/semana-DD-DD/DD-dia/22h00 (python3 tools/publicar.py ATIVO-GTA6-NN --quando \"AAAA-MM-DD 22:00\")",
   "agenda": {
     "regra": "Pedido do cliente 21/11/2026: GTA 1 por dia às 22:00 (Brasília) de 21/11 a 29/11; depois, a partir de 29/11, por dia 1 GTA (22:00) + 2 do livro L60 (slots automáticos 8h e 10h). A Action enfileira no próximo slot livre; o horário 22:00 do GTA é ajustado na fila do Supabase (ig_posts.agendado_para) logo após a Action.",
     "ordem_de_producao": "GTA03 bloqueado (foto real de Miami). Postagem 22h: 21/11 GTA01 · 22 GTA02 · 23 GTA04 · 24 GTA05 · 25 GTA06 · 26 GTA07 · 27 GTA08 · 28 GTA09 → L60_02 (29/11 10h) → GTA10 (29/11 22h) → por dia [L60, L60, GTA]"
@@ -18,7 +18,7 @@
       "estilo": 2,
       "estiloNome": "Desenho à mão",
       "duracao_s": 53.7,
-      "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/01",
+      "pasta": "PUBLICACAO/2026/11-novembro/semana-15-21/21-sabado/22h00/",
       "produzido_em": "2026-11-21",
       "agendar_para": "2026-11-21 22:00 BRT",
       "agendado": "2026-11-21 22:00 BRT (ajustado no Supabase)"
@@ -34,7 +34,7 @@
       "estilo": 3,
       "estiloNome": "Planta técnica",
       "duracao_s": 50.8,
-      "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/02",
+      "pasta": "PUBLICACAO/2026/11-novembro/semana-22-28/22-domingo/22h00/",
       "produzido_em": "2026-11-21",
       "agendar_para": "2026-11-22 22:00 BRT",
       "agendado": "2026-11-22 22:00 BRT (ajustado no Supabase)"
@@ -60,7 +60,7 @@
       "estilo": 4,
       "estiloNome": "Tipografia cinética",
       "duracao_s": 52.5,
-      "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/04",
+      "pasta": "PUBLICACAO/2026/11-novembro/semana-22-28/23-segunda/22h00/",
       "produzido_em": "2026-11-21",
       "agendar_para": "2026-11-23 22:00 BRT",
       "agendado": "2026-11-23 22:00 BRT (ajustado no Supabase)"
@@ -76,7 +76,7 @@
       "estilo": 5,
       "estiloNome": "Painel",
       "duracao_s": 51.8,
-      "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/05",
+      "pasta": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/22h00/",
       "produzido_em": "2026-11-21",
       "agendar_para": "2026-11-24 22:00 BRT",
       "agendado": "2026-11-24 22:00 BRT (ajustado no Supabase)"
@@ -92,7 +92,7 @@
       "estilo": 1,
       "estiloNome": "Palitinho",
       "duracao_s": 50.5,
-      "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/06",
+      "pasta": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/22h00/",
       "produzido_em": "2026-11-21",
       "agendar_para": "2026-11-25 22:00 BRT",
       "agendado": "2026-11-25 22:00 BRT (ajustado no Supabase)"
@@ -108,7 +108,7 @@
       "estilo": 2,
       "estiloNome": "Desenho à mão",
       "duracao_s": 54.3,
-      "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/07",
+      "pasta": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/22h00/",
       "produzido_em": "2026-11-21",
       "agendar_para": "2026-11-26 22:00 BRT",
       "agendado": "2026-11-26 22:00 BRT (ajustado no Supabase)"
@@ -124,7 +124,7 @@
       "estilo": 3,
       "estiloNome": "Planta técnica",
       "duracao_s": 49.9,
-      "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/08",
+      "pasta": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/22h00/",
       "produzido_em": "2026-11-21",
       "agendar_para": "2026-11-27 22:00 BRT",
       "agendado": "2026-11-27 22:00 BRT (ajustado no Supabase)"
@@ -140,7 +140,7 @@
       "estilo": 4,
       "estiloNome": "Tipografia cinética",
       "duracao_s": 51.3,
-      "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/09",
+      "pasta": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/22h00/",
       "produzido_em": "2026-11-21",
       "agendar_para": "2026-11-28 22:00 BRT",
       "agendado": "2026-11-28 22:00 BRT (ajustado no Supabase)"
@@ -156,7 +156,7 @@
       "estilo": 1,
       "estiloNome": "Palitinho",
       "duracao_s": 45.6,
-      "pasta": "PUBLICACAO/GTA6/REELS_01_AO_10/10",
+      "pasta": "PUBLICACAO/2026/11-novembro/semana-29-30/29-domingo/22h00/",
       "produzido_em": "2026-11-21",
       "agendar_para": "2026-11-29 22:00 BRT",
       "agendado": "2026-11-29 22:00 BRT (ajustado no Supabase)"
@@ -172,7 +172,7 @@
       "estilo": 4,
       "estiloNome": "Tipografia cinética",
       "duracao_s": 51.3,
-      "pasta": "PUBLICACAO/GTA6/REELS_11_AO_20/11",
+      "pasta": "PUBLICACAO/2026/11-novembro/semana-29-30/30-segunda/22h00/",
       "produzido_em": "2026-11-21",
       "agendar_para": "2026-11-30 22:00 BRT",
       "agendado": "2026-11-30 22:00 BRT (ajustado no Supabase)"

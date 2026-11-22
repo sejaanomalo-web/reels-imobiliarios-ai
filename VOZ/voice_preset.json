@@ -30,7 +30,7 @@
    "pf_dora"
   ]
  },
- "notes": "Voz oficial da série: Gemini gemini-3.8-flash-tts, voz Puck, com a direção acima. Aprovada a partir da audição OUTPUT/VOICE_AUDITIONS/audicao_gemini_Puck_EP001.wav. A fala varia a cada geração (mesma voz, entonação diferente): a narração de cada episódio fica congelada em PRODUCAO/episodes/<EP>/narration_source.wav e só é refeita com --regen. license_reviewed continua false: termos de uso comercial da Gemini API e plano da chave não verificados. Kokoro (pm_alex) reprovada pelo cliente por soar robótica.",
+ "notes": "Voz oficial da série: Gemini gemini-3.8-flash-tts, voz Puck, com a direção acima. Aprovada a partir da audição OUTPUT/testes-de-voz/audicao_gemini_Puck_EP001.wav. A fala varia a cada geração (mesma voz, entonação diferente): a narração de cada episódio fica congelada em PRODUCAO/episodes/<EP>/narration_source.wav e só é refeita com --regen. license_reviewed continua false: termos de uso comercial da Gemini API e plano da chave não verificados. Kokoro (pm_alex) reprovada pelo cliente por soar robótica.",
  "direction_historico": [
   {
    "2026-11-10_a_2026-11-19": "Tom de conversa entre colegas corretores de imóveis: brasileiro, próximo, seguro e natural. Ritmo ágil, sem correria, com pausas curtas entre as ideias. Nunca locutor de comercial."

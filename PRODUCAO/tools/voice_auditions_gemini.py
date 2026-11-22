@@ -25,7 +25,7 @@ d = os.path.join(MODELS, "sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8")
 pk = sherpa_onnx.OfflineRecognizer.from_transducer(encoder=d + "/encoder.int8.onnx", decoder=d + "/decoder.int8.onnx",
                                                    joiner=d + "/joiner.int8.onnx", tokens=d + "/tokens.txt",
                                                    model_type="nemo_transducer", num_threads=4)
-out = os.path.join(os.path.dirname(ROOT), "OUTPUT", "VOICE_AUDITIONS"); os.makedirs(out, exist_ok=True)
+out = os.path.join(os.path.dirname(ROOT), "OUTPUT", "testes-de-voz"); os.makedirs(out, exist_ok=True)
 rows = []
 for v in VOICES:
     t0 = time.time()

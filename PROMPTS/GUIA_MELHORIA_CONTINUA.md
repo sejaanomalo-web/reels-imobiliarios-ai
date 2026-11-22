@@ -37,7 +37,7 @@
 >
 > **Narração em velocidade normal (1,0×) com a identidade vocal original aprovada.**
 >
-> - Voz: exatamente `VOZ/voice_preset.json` — Gemini `gemini-3.8-flash-tts`, voz **Puck**, com a direção do preset ("Tom de conversa entre colegas corretores de imóveis: brasileiro, próximo, seguro e natural. Ritmo ágil, sem correria, com pausas curtas entre as ideias. Nunca locutor de comercial."). Referência de escuta: `OUTPUT/VOICE_AUDITIONS/audicao_gemini_Puck_EP001.wav`.
+> - Voz: exatamente `VOZ/voice_preset.json` — Gemini `gemini-3.8-flash-tts`, voz **Puck**, com a direção do preset ("Tom de conversa entre colegas corretores de imóveis: brasileiro, próximo, seguro e natural. Ritmo ágil, sem correria, com pausas curtas entre as ideias. Nunca locutor de comercial."). Referência de escuta: `OUTPUT/testes-de-voz/audicao_gemini_Puck_EP001.wav`.
 > - **Não** usar no `episode.json`: bloco `voice` com direção própria, `tightenPauses`, `targetWpm` ou `maxStretch`. Nenhum time-stretch, nenhuma aceleração, nenhum ajuste que altere o timbre. Ritmo esperado ≈ 150–170 palavras/min, com pausas naturais.
 > - **Não** usar modelo substituto (nem outra voz, nem a mesma voz em outro modelo) sem autorização do cliente. Se a cota do modelo aprovado acabar, esperar a cota voltar.
 > - Imagem e som: padrão equilibrado dos primeiros episódios. A câmera virtual continua, com movimentos intencionais e deriva suave (`drift={0.5}`); legenda original (`Captions`); trilha discreta sem bateria (`music.prog` com densidade ≤ 2, sem `drums` e sem `drops`); efeitos ~2 dB mais baixos que no padrão v2 e sem whips de corte rápido. O tempo de cenas, legendas e efeitos sai da narração real (marcas por palavra).
@@ -110,39 +110,39 @@
 >
 > ### Registro do ATIVO Episódio 01 (13/11/2026)
 >
-> - **Configuração usada:** roteiro novo enviado pelo cliente (`ROTEIROS/ATIVO_EP01.md`), narrado integralmente; preset original 1,0×, tomada C sem edição; composição `EP-ATIVO01`, saída `OUTPUT/ATIVO_EP01/`. **CTA do próprio roteiro** (relacionamento: "Conta nos comentários" / QUAL É O SEU FOCO?) — não a CTA SISTEMA. Sem logo (arquivo ausente).
+> - **Configuração usada:** roteiro novo enviado pelo cliente (`ROTEIROS/ATIVO_EP01.md`), narrado integralmente; preset original 1,0×, tomada C sem edição; composição `EP-ATIVO01`, saída `OUTPUT/reels-anteriores/ATIVO_EP01/`. **CTA do próprio roteiro** (relacionamento: "Conta nos comentários" / QUAL É O SEU FOCO?) — não a CTA SISTEMA. Sem logo (arquivo ausente).
 > - **Aprendizados:** (1) gancho com mapa estático mede ~0,5 de movimento — a cidade precisa estar viva desde o quadro 0 (tráfego, pinos pulsando, câmera descendo); (2) carimbo que entra depois da fala e sai no corte nunca é lido: o impacto visual deve cair junto da palavra; (3) zoom de câmera ≥1,15 com rotação empurra cartões da margem esquerda para fora; (4) roteiro de 199 palavras = 77 s na voz oficial — acima do ideal para Reels; sinalizar ao cliente antes de produzir os próximos.
 >
 > ### Registro do ATIVO Episódio 02 (13/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP02.md`) palavra por palavra, exceto o fecho: "Salve este Reel e" saiu e entrou a CTA de comentário SISTEMA → Direct (pedido do cliente). Preset original 1,0×, tomada C sem edição; composição `EP-ATIVO02`, saída `OUTPUT/ATIVO_EP02/`. Sem logo.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP02.md`) palavra por palavra, exceto o fecho: "Salve este Reel e" saiu e entrou a CTA de comentário SISTEMA → Direct (pedido do cliente). Preset original 1,0×, tomada C sem edição; composição `EP-ATIVO02`, saída `OUTPUT/reels-anteriores/ATIVO_EP02/`. Sem logo.
 > - **Aprendizados:** (1) um objeto-âncora repetido (o celular "gravando" cada abertura + régua ABERTURA n/5) organiza listas de 5 itens sem virar slide; (2) o conteúdo do celular deve entrar com o cabeçalho, senão sobra tela vazia de 1–3 s por abertura; (3) linha SVG com `strokeLinecap="round"` e comprimento 0 desenha um ponto — esconder até começar; (4) 229 palavras = 84 s mesmo a 169 palavras/min: o limite de duração precisa estar no roteiro, não na edição.
 >
 > ### Registro do ATIVO Episódio 03 (14/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP03.md`) palavra por palavra; **CTA do próprio roteiro** (compartilhamento); preset original 1,0×, tomada B sem edição; composição `EP-ATIVO03`, saída `OUTPUT/ATIVO_EP03/`. Primeiro Reel da série com **logo oficial** (só no fecho) e diagnóstico editorial registrado no `episode.json`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP03.md`) palavra por palavra; **CTA do próprio roteiro** (compartilhamento); preset original 1,0×, tomada B sem edição; composição `EP-ATIVO03`, saída `OUTPUT/reels-anteriores/ATIVO_EP03/`. Primeiro Reel da série com **logo oficial** (só no fecho) e diagnóstico editorial registrado no `episode.json`.
 > - **Aprendizados:** (1) tomada que omite uma negação ("não avança") inverte o sentido — conferir negações na transcrição antes de escolher; (2) Parakeet e Whisper divergem em artigos ("um"/"o"): cruzar os dois antes de descartar tomada; (3) frases motivacionais entrando desde 0,5 s tiram o gancho do "só despertador" nos 3 primeiros segundos; (4) pilha bagunçada que depois se alinha numa agenda dá a virada "desacelera e organiza" sem corte.
 >
 > ### Registro do ATIVO Episódio 04 (14/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP04.md`); **primeiro episódio sob a regra "CTA sempre SISTEMA"** — a CTA de salvamento virou transição. Preset original 1,0×, tomada única sem edição; logo oficial no fecho; composição `EP-ATIVO04`, saída `OUTPUT/ATIVO_EP04/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP04.md`); **primeiro episódio sob a regra "CTA sempre SISTEMA"** — a CTA de salvamento virou transição. Preset original 1,0×, tomada única sem edição; logo oficial no fecho; composição `EP-ATIVO04`, saída `OUTPUT/reels-anteriores/ATIVO_EP04/`.
 > - **Aprendizados:** (1) o "pop" de entrada de um título caiu sobre um artigo ("com **a** sua") — a comparação voz × mixagem pegou; efeito de título entra depois da palavra-chave, não antes; (2) régua "PERGUNTA n DE 4" segura lista de perguntas sem virar slide; (3) título e conteúdo da pergunta devem entrar logo após "Primeiro:/Segundo:", não na palavra-chave seguinte — senão sobra ~1 s só com a régua; (4) o gerador de tomadas (scratchpad) precisa aplicar `pronunciation` antes da síntese (aqui a voz já falou "sistema" corretamente sem isso).
 >
 > ### Registro do ATIVO Episódio 06 (16/11/2026)
 >
 > - **Público da série = corretor (decisão do cliente, 16/11/2026: "precisamos dos conteúdos para corretores").** Roteiro escrito para gestor/imobiliária é adaptado ao ponto de vista do corretor que trabalha nela ("você", "um colega", "seus clientes") antes de gravar, mantendo tema e estrutura; registrar o texto adaptado no `episode.json` e no `ROTEIROS/*.md`.
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP06.md`), público gestor; CTA SISTEMA do próprio roteiro; Reel orgânico 1,0×, tomada A sem edição; verde exato; composição `EP-ATIVO06`, saída `OUTPUT/ATIVO_EP06/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP06.md`), público gestor; CTA SISTEMA do próprio roteiro; Reel orgânico 1,0×, tomada A sem edição; verde exato; composição `EP-ATIVO06`, saída `OUTPUT/reels-anteriores/ATIVO_EP06/`.
 > - **Aprendizados:** (1) fio condutor = o mesmo diagrama (fluxo de etapas) quebrado no gancho e consertado no insight — fecha a história sem precisar de cena nova; (2) na comparação voz × mixagem, palavra "sumida" na fronteira de 20 s é artefato da janela do reconhecedor — conferir o trecho inteiro antes de mover efeitos; (3) zoom > 1,15 com título dentro da câmera corta o título na borda: limitar a 1,1 nas cenas com título.
 >
 > ### Registro do ATIVO Episódio 07 (16/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP07.md`), já voltado ao corretor; CTA "Salve este vídeo…" → transição "Revise estes passos…" + CTA SISTEMA; Reel orgânico 1,0×; tomada C + **uma frase emendada da tomada B** (correção de "Se me interessado"); verde exato; composição `EP-ATIVO07`, saída `OUTPUT/ATIVO_EP07/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP07.md`), já voltado ao corretor; CTA "Salve este vídeo…" → transição "Revise estes passos…" + CTA SISTEMA; Reel orgânico 1,0×; tomada C + **uma frase emendada da tomada B** (correção de "Se me interessado"); verde exato; composição `EP-ATIVO07`, saída `OUTPUT/reels-anteriores/ATIVO_EP07/`.
 > - **Aprendizados:** (1) **`Camera` recebe a posição da câmera, não do conteúdo:** `x`/`y` positivos movem o conteúdo para a esquerda/para cima. Conferir o sinal no 1º quadro de revisão. (2) Emenda de frase entre tomadas é aceitável quando o corte cai numa pausa de início de cena: crossfade de 12 ms, ganho por RMS e conferência do tom da mesma frase nas duas tomadas. Isso evita gastar geração da cota. (3) Quando a cena mostra a fala inteira num balão digitado palavra a palavra, ocultar a legenda desses segmentos (`hideCaptions`) para não duplicar texto. (4) Preço de anúncio ilustrativo = mascarado (`R$ ••••••`), nunca um número.
 
 > ### Registro do ATIVO Episódio 08 (16/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP08.md`); CTA "Siga a ATIVO" → transição "E orientar com clareza começa por ter cada informação organizada." (frase-ponte proposta, pendente de aprovação) + CTA SISTEMA; 1,0×; tomada única; composição `EP-ATIVO08`, saída `OUTPUT/ATIVO_EP08/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP08.md`); CTA "Siga a ATIVO" → transição "E orientar com clareza começa por ter cada informação organizada." (frase-ponte proposta, pendente de aprovação) + CTA SISTEMA; 1,0×; tomada única; composição `EP-ATIVO08`, saída `OUTPUT/reels-anteriores/ATIVO_EP08/`.
 > - **Aprendizados:**
 >   1. Quando o roteiro lista itens que só aparecem segundos depois, as molduras dos painéis devem entrar já na frase de abertura e ser preenchidas no tempo da fala. Sem isso, a cena fica quase 3 s vazia.
 >   2. Na última geração do dia, palavras em que Parakeet e Whisper divergem vão para o relatório com minutagem, para o cliente ouvir. Regravar só a frase no dia seguinte.
@@ -150,7 +150,7 @@
 
 > ### Registro do ATIVO Episódio 09 (16/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP09.md`); CTA "Siga a ATIVO" → transição "Uma atuação mais estratégica também começa pela sua organização." (pendente de aprovação) + CTA SISTEMA; 1,0×; tomada B sem emenda (A leu a direção); composição `EP-ATIVO09`, saída `OUTPUT/ATIVO_EP09/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP09.md`); CTA "Siga a ATIVO" → transição "Uma atuação mais estratégica também começa pela sua organização." (pendente de aprovação) + CTA SISTEMA; 1,0×; tomada B sem emenda (A leu a direção); composição `EP-ATIVO09`, saída `OUTPUT/reels-anteriores/ATIVO_EP09/`.
 > - **Aprendizados:**
 >   1. A transcrição do Parakeet no **arquivo inteiro** (saída do `gen_take.py`) erra finais de verbo ("vender", "conferir", "te envia"). Antes de descartar a tomada ou gastar a 3ª geração, conferir **por trecho** com os dois reconhecedores: aqui os três "erros" sumiram.
 >   2. Cenas aprovadas na linha do tempo provisória medem pouco movimento com a voz real (1,23). Mapa com tráfego, pulso na linha de etapas, cartões flutuando e câmera com um passo a cada cue levaram a 1,66 sem acelerar nada. Medir o movimento **antes** do render final.
@@ -161,7 +161,7 @@
 
 > ### Registro do ATIVO Caso Real 01 (16/11/2026)
 >
-> - **Configuração usada:** roteiro "CASE REAL" do cliente (`ROTEIROS/ATIVO_CASE01.md`), ID `EP-ATIVO-CASE01` (não colidir com `EP-ATIVO01`); CTA "Salva este vídeo" → transição (pendente de aprovação) + CTA SISTEMA; a frase prática da CTA original ficou; 1,0×; tomada A sem edição; saída `OUTPUT/ATIVO_CASE01/`.
+> - **Configuração usada:** roteiro "CASE REAL" do cliente (`ROTEIROS/ATIVO_CASE01.md`), ID `EP-ATIVO-CASE01` (não colidir com `EP-ATIVO01`); CTA "Salva este vídeo" → transição (pendente de aprovação) + CTA SISTEMA; a frase prática da CTA original ficou; 1,0×; tomada A sem edição; saída `OUTPUT/reels-anteriores/ATIVO_CASE01/`.
 > - **Casos reais (padrão para os próximos):** conferir cada afirmação sobre a pessoa na web antes de produzir e listar fontes no relatório; nunca usar imagem, vídeo, perfil, logo ou números dela sem licença — só ilustração rotulada e ficha "CASO REAL · FONTE: PERFIS PÚBLICOS" com nome e local; número de seguidores/vendas fora do vídeo. Uso do nome de terceiro = decisão do cliente, registrada no relatório.
 > - **Aprendizados:**
 >   1. Nome estrangeiro: escolher a tomada em que os dois reconhecedores acertam o nome (A "Kelsey Blevins" × B "Blavins").
@@ -171,7 +171,7 @@
 
 > ### Registro do ATIVO Episódio 10 (16/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP10.md`); CTA "Salve este Reel e envie…" → transição "Para acompanhar cada comprador nessa jornada, vale ter as informações organizadas." (pendente de aprovação) + CTA SISTEMA; 1,0×; tomada B sem edição; composição `EP-ATIVO10`, saída `OUTPUT/ATIVO_EP10/`. Programa habitacional citado só na fala; na tela, "PROGRAMAS HABITACIONAIS" e fonte oficial genérica, sem valores, regras nem marca.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP10.md`); CTA "Salve este Reel e envie…" → transição "Para acompanhar cada comprador nessa jornada, vale ter as informações organizadas." (pendente de aprovação) + CTA SISTEMA; 1,0×; tomada B sem edição; composição `EP-ATIVO10`, saída `OUTPUT/reels-anteriores/ATIVO_EP10/`. Programa habitacional citado só na fala; na tela, "PROGRAMAS HABITACIONAIS" e fonte oficial genérica, sem valores, regras nem marca.
 > - **Aprendizados:**
 >   1. **Medir o tom antes de emendar:** a frase da tomada A estava ~2 semitons acima da B (132 × 118 Hz, mediana de F0 por autocorrelação). Emenda descartada; a troca "do"/"de" ficou como ponto para ouvir. Regra prática: diferença > 1 semitom = não emendar.
 >   2. Feed em tela cheia atrás da legenda prejudica a leitura: faixa escura em degradê atrás da legenda enquanto o feed está nítido.
@@ -180,7 +180,7 @@
 
 > ### Registro do ATIVO Caso Real 02 (16/11/2026)
 >
-> - **Configuração usada:** roteiro "CASE REAL" do cliente (`ROTEIROS/ATIVO_CASE02.md`), ID `EP-ATIVO-CASE02`; CTA "Conta nos comentários" → transição (pendente de aprovação) + CTA SISTEMA; 1,0×; tomada A sem edição (B trocou "no" por "do" e embolou a CTA); saída `OUTPUT/ATIVO_CASE02/`.
+> - **Configuração usada:** roteiro "CASE REAL" do cliente (`ROTEIROS/ATIVO_CASE02.md`), ID `EP-ATIVO-CASE02`; CTA "Conta nos comentários" → transição (pendente de aprovação) + CTA SISTEMA; 1,0×; tomada A sem edição (B trocou "no" por "do" e embolou a CTA); saída `OUTPUT/reels-anteriores/ATIVO_CASE02/`.
 > - **Aprendizados:**
 >   1. Caso real: separar no relatório o que foi confirmado em fonte pública (pessoa, papel, país) do que vem só da referência do cliente (o estilo dos vídeos), e pedir conferência antes de publicar.
 >   2. Visor de câmera "gravando" com conteúdo parado mede pouco movimento (gancho 0,6): dar movimento de câmera na mão (translação/rotação lenta) ao conteúdo de dentro.
@@ -188,7 +188,7 @@
 
 > ### Registro do ATIVO Caso Real 03 (16/11/2026)
 >
-> - **Configuração usada:** roteiro "CASE REAL" do cliente (`ROTEIROS/ATIVO_CASE03.md`), ID `EP-ATIVO-CASE03`; "Salva este vídeo" removido e a frase prática ficou como transição + CTA SISTEMA; 1,0×; tomada B sem edição; saída `OUTPUT/ATIVO_CASE03/`.
+> - **Configuração usada:** roteiro "CASE REAL" do cliente (`ROTEIROS/ATIVO_CASE03.md`), ID `EP-ATIVO-CASE03`; "Salva este vídeo" removido e a frase prática ficou como transição + CTA SISTEMA; 1,0×; tomada B sem edição; saída `OUTPUT/reels-anteriores/ATIVO_CASE03/`.
 > - **Aprendizados:**
 >   1. **Conferir cada número do roteiro de caso real na fonte antes de gravar:** o roteiro dizia R$ 800, a fonte diz R$ 900. Narrado o valor da fonte, com a correção registrada no `episode.json` (`correcao_factual`) e enviada para aprovação.
 >   2. Nome próprio: comparar a pronúncia entre as tomadas pelo Parakeet (o mais estável com nomes) e escolher a mais próxima.
@@ -198,7 +198,7 @@
 
 > ### Registro do ATIVO Reel 04 (17/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL04.md`), ID `EP-ATIVO-REEL04` (série "ATIVO_Reel_0N": 01–03 saíram como `EP-ATIVO-CASE0N`); CTA "testa essas três perguntas" mantida e "Depois me conta" → transição + CTA SISTEMA; 1,0×; conta 1; tomada B sem edição; saída `OUTPUT/ATIVO_REEL04/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL04.md`), ID `EP-ATIVO-REEL04` (série "ATIVO_Reel_0N": 01–03 saíram como `EP-ATIVO-CASE0N`); CTA "testa essas três perguntas" mantida e "Depois me conta" → transição + CTA SISTEMA; 1,0×; conta 1; tomada B sem edição; saída `OUTPUT/reels-anteriores/ATIVO_REEL04/`.
 > - **Aprendizados:**
 >   1. Conferir o "te envio" da CTA nos dois reconhecedores antes de escolher a tomada — é a frase que não pode sair errada; foi o critério de desempate aqui.
 >   2. Cena escura com elementos parados no 1º segundo mede > 1 s parado mesmo com câmera em ease-out: animar algo da própria história desde o quadro 0 (caminhos tracejados fluindo, molduras pulsando).
@@ -206,7 +206,7 @@
 
 > ### Registro do ATIVO Reel 05 (17/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL05.md`), ID `EP-ATIVO-REEL05`; CTA "Deixa nos comentários" → transição + CTA SISTEMA; 1,0×; conta 1; tomada B sem edição; saída `OUTPUT/ATIVO_REEL05/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL05.md`), ID `EP-ATIVO-REEL05`; CTA "Deixa nos comentários" → transição + CTA SISTEMA; 1,0×; conta 1; tomada B sem edição; saída `OUTPUT/reels-anteriores/ATIVO_REEL05/`.
 > - **Aprendizados:**
 >   1. Texto verde sobre ilustração amarela (degraus acesos) fica ilegível: selos e conclusões abaixo da ilustração, nunca sobre ela.
 >   2. Lista 1–3 com uma ilustração por item mede pouco movimento (1,32) se a câmera só tem 3–4 chaves por cena: uma chave por cue da fala (±20–40 px, zoom 1,02–1,06) levou a 1,79 sem cortar bordas.
@@ -214,7 +214,7 @@
 
 > ### Registro do ATIVO Reel 06 (17/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL06.md`), ID `EP-ATIVO-REEL06`, humor irônico; CTA "salva para revisar" → transição (1ª metade da frase original mantida) + CTA SISTEMA; 1,0×; conta 1; tomada A (escolhida pela duração-alvo); saída `OUTPUT/ATIVO_REEL06/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL06.md`), ID `EP-ATIVO-REEL06`, humor irônico; CTA "salva para revisar" → transição (1ª metade da frase original mantida) + CTA SISTEMA; 1,0×; conta 1; tomada A (escolhida pela duração-alvo); saída `OUTPUT/reels-anteriores/ATIVO_REEL06/`.
 > - **Aprendizados:**
 >   1. Com duas tomadas limpas, usar a duração-alvo do roteiro como desempate.
 >   2. Câmera com `y` positivo sobe o conteúdo e cola listas no título de fora da câmera: em cenas com título fixo + lista no topo, manter `y ≤ 0`.
@@ -222,63 +222,63 @@
 
 > ### Registro do ATIVO Reel 07 (17/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL07.md`), ID `EP-ATIVO-REEL07`; CTA "leve menos adjetivos" mantida e "Compartilha" → transição + CTA SISTEMA; 1,0×; conta 1; tomada A sem edição; saída `OUTPUT/ATIVO_REEL07/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL07.md`), ID `EP-ATIVO-REEL07`; CTA "leve menos adjetivos" mantida e "Compartilha" → transição + CTA SISTEMA; 1,0×; conta 1; tomada A sem edição; saída `OUTPUT/reels-anteriores/ATIVO_REEL07/`.
 > - **Aprendizados:**
 >   1. Palavra proibida riscada continua proibida: "RESULTADO GARANTIDO" riscado vira print fora de contexto. Formular como pergunta + aviso ("RESULTADO DA VENDA? / NINGUÉM PODE PROMETER").
 >   2. Checklist preenchido no tempo da fala parece parado se a câmera não acompanha: uma chave por item (±20 px, zoom alternando 1,04/1,06) subiu de 1,40 para 1,68.
 
 > ### Registro do ATIVO Reel 08 (17/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL08.md`), ID `EP-ATIVO-REEL08`; pergunta + "Salva" → transição + CTA SISTEMA; 1,0×; conta 1; tomada B sem edição; saída `OUTPUT/ATIVO_REEL08/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL08.md`), ID `EP-ATIVO-REEL08`; pergunta + "Salva" → transição + CTA SISTEMA; 1,0×; conta 1; tomada B sem edição; saída `OUTPUT/reels-anteriores/ATIVO_REEL08/`.
 > - **Aprendizados:**
 >   1. Tema de dinheiro sem número: comissão sempre `R$ ••••` + "VALOR OCULTO"; o contraste entre caminhos vem de histórico/continuidade, nunca de gráfico de faturamento.
 >   2. Lacunas tracejadas no lugar das fichas que ainda vão entrar seguram a metade de baixo enquanto a fala anuncia ("sem revisar o que aconteceu:") e dão sentido à entrada.
 
 > ### Registro do ATIVO Reel 09 (17/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL09.md`), ID `EP-ATIVO-REEL09`; CTA do roteiro já era SISTEMA → redação padrão, sem transição; 1,0×; conta 2; tomada B sem edição; saída `OUTPUT/ATIVO_REEL09/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL09.md`), ID `EP-ATIVO-REEL09`; CTA do roteiro já era SISTEMA → redação padrão, sem transição; 1,0×; conta 2; tomada B sem edição; saída `OUTPUT/reels-anteriores/ATIVO_REEL09/`.
 > - **Aprendizados:**
 >   1. Cenas de quadro/lista largas (900 px) medem pouco movimento: câmera com uma chave intermediária entre cada cue (zoom +0,025, ±30 px) + elementos flutuando + uma varredura de luz no quadro levou de 1,13 a 1,41. Deslocamento lateral > ±35 px corta quadros largos — prefira zoom e y.
 >   2. Zoom forte num mapa invade o título: faixa escura em gradiente atrás do título, entrando junto com o zoom.
 
 > ### Registro do ATIVO Reel 10 (17/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL10.md`), ID `EP-ATIVO-REEL10`; 1ª frase da CTA mantida e "Compartilha" → transição + CTA SISTEMA; 1,0×; conta 2; tomada B sem edição; saída `OUTPUT/ATIVO_REEL10/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL10.md`), ID `EP-ATIVO-REEL10`; 1ª frase da CTA mantida e "Compartilha" → transição + CTA SISTEMA; 1,0×; conta 2; tomada B sem edição; saída `OUTPUT/reels-anteriores/ATIVO_REEL10/`.
 > - **Aprendizados:**
 >   1. Tema econômico sem número: indicador só qualitativo (barra "CRÉDITO … MAIS CARO" sem escala) e afirmações erradas mostradas apenas para serem riscadas na mesma fala.
 >   2. Artigo extra da voz pode mudar o sentido ("todo **o** preço" = o preço inteiro): conferir artigos em frases com "todo/toda", não só palavras trocadas.
 
 > ### Registro do ATIVO Reel 11 (17/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL11.md`), ID `EP-ATIVO-REEL11`; "Salva" → transição + CTA SISTEMA; 1,0×; conta 2; tomada A sem edição; saída `OUTPUT/ATIVO_REEL11/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL11.md`), ID `EP-ATIVO-REEL11`; "Salva" → transição + CTA SISTEMA; 1,0×; conta 2; tomada A sem edição; saída `OUTPUT/reels-anteriores/ATIVO_REEL11/`.
 > - **Aprendizados:**
 >   1. Roteiro de finanças pessoais: a transição para o sistema deve passar pelo que ele organiza (negociações, retornos, prospecção) — nunca sugerir controle financeiro que o produto não tem.
 >   2. Chave intermediária de câmera entre cues virou padrão: aplicar já na primeira montagem das cenas de lista/quadro poupa 2–3 renders de ajuste de movimento.
 
 > ### Registro do ATIVO Reel 12 (17/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL12.md`), ID `EP-ATIVO-REEL12`; pergunta + "Escreve nos comentários" → transição + CTA SISTEMA; 1,0×; contas 2 e 1 (3 tomadas); tomada B sem edição; saída `OUTPUT/ATIVO_REEL12/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL12.md`), ID `EP-ATIVO-REEL12`; pergunta + "Escreve nos comentários" → transição + CTA SISTEMA; 1,0×; contas 2 e 1 (3 tomadas); tomada B sem edição; saída `OUTPUT/reels-anteriores/ATIVO_REEL12/`.
 > - **Aprendizados:**
 >   1. **A voz pode ler a instrução de estilo em voz alta** (tomada C: "como colegas corretores… nunca locutor de comercial"). Sempre conferir os primeiros 10 s da transcrição antes de qualquer outra análise.
 >   2. "de + imóveis" elide para "d'imóveis" e soa "de móveis" — evitar "de imóveis" depois de palavra terminada em consoante em roteiros novos (preferir "muitos imóveis", "vários imóveis") ou avisar o cliente antes de gerar.
 
 > ### Registro do ATIVO Reel 13 (17/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL13.md`), ID `EP-ATIVO-REEL13`; CTA do roteiro já era SISTEMA → redação padrão, sem transição; 1,0×; conta 2; tomada B sem edição; saída `OUTPUT/ATIVO_REEL13/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL13.md`), ID `EP-ATIVO-REEL13`; CTA do roteiro já era SISTEMA → redação padrão, sem transição; 1,0×; conta 2; tomada B sem edição; saída `OUTPUT/reels-anteriores/ATIVO_REEL13/`.
 > - **Aprendizados:**
 >   1. Zoom lento sobre fundo escuro não conta como movimento para o `motion_check`: no fim do gancho, só um elemento ativo (anéis pulsando) eliminou o trecho parado de 1,2 s.
 >   2. Trilhas horizontais de etapas devem ficar a ≥ 110 px das bordas: com câmera ±15 px e zoom 1,09 a margem de 60 px cortou o nó 4.
 
 > ### Registro do ATIVO Reel 14 (17/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL14.md`), ID `EP-ATIVO-REEL14`; 1ª frase da CTA mantida e "Compartilha" → transição curta + CTA SISTEMA; 1,0×; conta 2; tomada B sem edição; saída `OUTPUT/ATIVO_REEL14/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL14.md`), ID `EP-ATIVO-REEL14`; 1ª frase da CTA mantida e "Compartilha" → transição curta + CTA SISTEMA; 1,0×; conta 2; tomada B sem edição; saída `OUTPUT/reels-anteriores/ATIVO_REEL14/`.
 > - **Aprendizados:**
 >   1. Contar palavras antes de gerar: roteiro + frase de aplicação + CTA SISTEMA passou de 175 palavras e estourou a duração-alvo (65,7 s × 50–60 s). Acima de ~150 palavras para alvo de 60 s, avisar o cliente antes.
 >   2. Palavras longas com sílaba "-ce-" ("porcelanato") são frágeis na voz: uma tomada saiu "por, sei lá, nato". Conferir cada termo técnico por janela curta.
 
 > ### Registro do ATIVO Reel 15 (17/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL15.md`), ID `EP-ATIVO-REEL15`; ressalva do contador mantida e "Salva e manda" → transição + CTA SISTEMA; 1,0×; conta 1; tomada A sem edição; saída `OUTPUT/ATIVO_REEL15/`.
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_REEL15.md`), ID `EP-ATIVO-REEL15`; ressalva do contador mantida e "Salva e manda" → transição + CTA SISTEMA; 1,0×; conta 1; tomada A sem edição; saída `OUTPUT/reels-anteriores/ATIVO_REEL15/`.
 > - **Aprendizados:**
 >   1. **Vazamento da instrução de estilo virou recorrente** (Reels 12 e 15, sempre na 2ª/3ª geração do mesmo texto): além de ler a instrução, a voz inventou uma frase. Checar os primeiros 15 s de toda tomada e comparar a duração com a outra tomada (B saiu 14 s mais longa).
 >   2. Em tema regulado (imposto), a ressalva profissional da CTA original fica — só a parte de engajamento ("Salva e manda") vira transição.
@@ -294,7 +294,7 @@
 > - **Área útil:** conteúdo e texto entre y 270 e y 1250 (botão/legenda da Meta cobrem ~35% de baixo; fontes de terceiros — conferir no preview do Gerenciador). Legenda queimada em y≈1185 (`<Captions y={1185} size={58} />`); a última frase pode ficar só na tipografia (`hideCaptions`). Títulos **fora** da câmera virtual.
 > - **Gancho:** situação concreta já no quadro 0, título na tela desde o 1º quadro (assistem sem som), sem abertura de marca; logo só na solução/CTA.
 > - **Movimento:** anúncio pede mais energia que o orgânico — meta ≥ 1,3 e nenhum trecho parado > 1 s, inclusive na CTA (objeto principal sempre balançando/flutuando, ondas no botão).
-> - **Saída:** `OUTPUT/ADS/AD-###/`, composição na pasta ADS-META do Root. Duração alvo 20–40 s.
+> - **Saída:** `OUTPUT/anuncios/AD-###/`, composição na pasta ADS-META do Root. Duração alvo 20–40 s.
 > - **AD-ATIVO-01 v1 (15/11):** 41,4 s, 1,0×, movimento 1,40 — **reprovado pelo cliente: "precisa ser muito mais dinâmico".**
 > - **Padrão de edição de anúncio (v2, pedido do cliente 15/11/2026) — usar em todos os AD-*:**
 >   - Voz **1,1×** (`ffmpeg atempo=1.1` sobre a tomada aprovada; tom preservado; `voiceSpeed` no episode.json). Sem nova geração.
@@ -309,7 +309,7 @@
 >
 > ### Registro do ATIVO Episódio 05 (15/11/2026)
 >
-> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP05.md`); CTA SISTEMA (compartilhamento → transição adaptada); verde exato `#3AF584` (checado no render); preset original 1,0×, tomada A sem edição; composição `EP-ATIVO05`, saída `OUTPUT/ATIVO_EP05/`. Cenas preparadas na véspera com linha do tempo provisória (`tools/provisional_timeline.py`) e voz gerada na renovação da cota (`tools/gen_take.py`).
+> - **Configuração usada:** roteiro do cliente (`ROTEIROS/ATIVO_EP05.md`); CTA SISTEMA (compartilhamento → transição adaptada); verde exato `#3AF584` (checado no render); preset original 1,0×, tomada A sem edição; composição `EP-ATIVO05`, saída `OUTPUT/reels-anteriores/ATIVO_EP05/`. Cenas preparadas na véspera com linha do tempo provisória (`tools/provisional_timeline.py`) e voz gerada na renovação da cota (`tools/gen_take.py`).
 > - **Aprendizados:** (1) escolher tomada por fidelidade ao texto, não por duração: a mais curta tinha "se surgiu" (erro audível confirmado pelos dois reconhecedores); (2) palavra com hífen quebrava o alinhamento legenda × voz — corrigido no `build_narration.py`; (3) cena de "rede" (dois avatares + linha) mede pouco movimento parada: pulsos correndo pela linha e avatares respirando subiram o gancho de ~0,6 para ~1,2; (4) roteiros de ~210 palavras passam de 80 s a 1,0× — avisar o cliente antes de produzir.
 >
 > ### Registro do vídeo da landing ATIVO 16:9 (13/11/2026)

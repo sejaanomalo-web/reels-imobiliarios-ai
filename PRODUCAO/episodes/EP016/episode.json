@@ -1,533 +1,534 @@
 {
- "id": "EP016",
- "title": "A mensagem para quem sumiu",
- "fps": 30,
- "leadIn": 0.12,
- "tail": 1.9,
- "deliverables": {
-  "final": "EP016_FINAL.mp4",
-  "narration": "EP016_NARRACAO.wav"
- },
- "cta": {
-  "type": "comentario",
-  "keyword": "SISTEMA",
-  "channel": "Direct",
-  "original_bio_cta": "Quer organizar histórico e retornos de maneira responsável? Conheça nosso sistema no link da bio.",
-  "transition_adapted": "Retomar com contexto exige ter o histórico de cada cliente à mão.",
-  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct."
- },
- "pronunciation": {
-  "SISTEMA": "sistema"
- },
- "segments": [
-  {
-   "id": "s1",
-   "scene": "hook",
-   "text": "Se um cliente parou de responder, não comece com aquele clássico: alguma novidade?",
-   "caption": "Se um cliente | parou de *responder,* | não comece | com aquele *clássico:* | *“alguma novidade?”*",
-   "pauseAfter": 0.3
+  "id": "EP016",
+  "title": "A mensagem para quem sumiu",
+  "fps": 30,
+  "leadIn": 0.12,
+  "tail": 1.9,
+  "deliverables": {
+    "final": "EP016_FINAL.mp4",
+    "narration": "EP016_NARRACAO.wav"
   },
-  {
-   "id": "s2",
-   "scene": "situacao",
-   "text": "Você pode retomar com algo específico:",
-   "caption": "Você pode retomar | com algo *específico:*",
-   "pauseAfter": 0.3
+  "cta": {
+    "type": "comentario",
+    "keyword": "SISTEMA",
+    "channel": "Direct",
+    "original_bio_cta": "Quer organizar histórico e retornos de maneira responsável? Conheça nosso sistema no link da bio.",
+    "transition_adapted": "Retomar com contexto exige ter o histórico de cada cliente à mão.",
+    "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct."
   },
-  {
-   "id": "s3",
-   "scene": "situacao",
-   "text": "vi uma opção na região que você mencionou.",
-   "caption": "“vi uma opção | na *região* | que você *mencionou.*",
-   "pauseAfter": 0.3
+  "pronunciation": {
+    "SISTEMA": "sistema"
   },
-  {
-   "id": "s4",
-   "scene": "situacao",
-   "text": "Ainda faz sentido procurar por ali?",
-   "caption": "Ainda faz sentido | procurar *por ali?”*",
-   "pauseAfter": 0.3
+  "segments": [
+    {
+      "id": "s1",
+      "scene": "hook",
+      "text": "Se um cliente parou de responder, não comece com aquele clássico: alguma novidade?",
+      "caption": "Se um cliente | parou de *responder,* | não comece | com aquele *clássico:* | *“alguma novidade?”*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s2",
+      "scene": "situacao",
+      "text": "Você pode retomar com algo específico:",
+      "caption": "Você pode retomar | com algo *específico:*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s3",
+      "scene": "situacao",
+      "text": "vi uma opção na região que você mencionou.",
+      "caption": "“vi uma opção | na *região* | que você *mencionou.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s4",
+      "scene": "situacao",
+      "text": "Ainda faz sentido procurar por ali?",
+      "caption": "Ainda faz sentido | procurar *por ali?”*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s5",
+      "scene": "tensao",
+      "text": "A primeira mensagem cobra uma decisão sem contexto.",
+      "caption": "A primeira mensagem | *cobra* uma decisão | *sem contexto.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s6",
+      "scene": "tensao",
+      "text": "A segunda lembra a necessidade da pessoa e permite que ela atualize a busca.",
+      "caption": "A segunda | *lembra a necessidade* | da pessoa | e permite que ela | *atualize a busca.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s7",
+      "scene": "insight",
+      "text": "Não envie ofertas aleatórias para toda a base.",
+      "caption": "Não envie | *ofertas aleatórias* | para toda a base.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s8",
+      "scene": "insight",
+      "text": "Retome somente quando existir contexto, e respeite quem não quiser mais receber contato.",
+      "caption": "Retome somente | quando existir *contexto,* | e *respeite* | quem não quiser | mais receber contato.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s9",
+      "scene": "cta",
+      "text": "Retomar com contexto exige ter o histórico de cada cliente à mão.",
+      "caption": "Retomar com contexto | exige ter | o *histórico* | de cada cliente | à mão.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s10",
+      "scene": "cta",
+      "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+      "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s11",
+      "scene": "cta",
+      "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+      "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+      "pauseAfter": 0.3
+    }
+  ],
+  "sceneLead": {
+    "situacao": 0.3,
+    "tensao": 0.3,
+    "insight": 0.35,
+    "cta": 0.3
   },
-  {
-   "id": "s5",
-   "scene": "tensao",
-   "text": "A primeira mensagem cobra uma decisão sem contexto.",
-   "caption": "A primeira mensagem | *cobra* uma decisão | *sem contexto.*",
-   "pauseAfter": 0.3
+  "hideCaptions": [
+    "s11"
+  ],
+  "cues": {
+    "hook_type": {
+      "seg": "s1",
+      "word": "cliente",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "hook_send": {
+      "seg": "s1",
+      "word": "clássico",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "hook_silence": {
+      "seg": "s1",
+      "word": "novidade",
+      "edge": "end",
+      "offset": 0.05
+    },
+    "sit_new": {
+      "seg": "s2",
+      "word": "você",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "sit_type": {
+      "seg": "s3",
+      "word": "vi",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_region": {
+      "seg": "s3",
+      "word": "região",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_q": {
+      "seg": "s4",
+      "word": "ainda",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_sent": {
+      "seg": "s4",
+      "word": "ali",
+      "edge": "end",
+      "offset": 0.02
+    },
+    "ten_split": {
+      "seg": "s5",
+      "word": "primeira",
+      "edge": "start",
+      "offset": -0.15
+    },
+    "ten_cobra": {
+      "seg": "s5",
+      "word": "cobra",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_ctx": {
+      "seg": "s5",
+      "word": "contexto",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_second": {
+      "seg": "s6",
+      "word": "segunda",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ten_need": {
+      "seg": "s6",
+      "word": "necessidade",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_update": {
+      "seg": "s6",
+      "word": "atualize",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_base": {
+      "seg": "s7",
+      "word": "não",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ins_random": {
+      "seg": "s7",
+      "word": "aleatórias",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_block": {
+      "seg": "s7",
+      "word": "base",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_ctx": {
+      "seg": "s8",
+      "word": "contexto",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ins_respect": {
+      "seg": "s8",
+      "word": "respeite",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_optout": {
+      "seg": "s8",
+      "word": "contato",
+      "edge": "start",
+      "offset": -0.15
+    },
+    "cta_card": {
+      "seg": "s9",
+      "word": "retomar",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_hist": {
+      "seg": "s9",
+      "word": "histórico",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_sys": {
+      "seg": "s10",
+      "word": "quer",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_tiles": {
+      "seg": "s10",
+      "word": "imóveis",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_comment": {
+      "seg": "s11",
+      "word": "comente",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_word": {
+      "seg": "s11",
+      "word": "sistema",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_direct": {
+      "seg": "s11",
+      "word": "direct",
+      "edge": "start",
+      "offset": -0.15
+    },
+    "cta_end": {
+      "seg": "s11",
+      "word": "direct",
+      "edge": "end"
+    }
   },
-  {
-   "id": "s6",
-   "scene": "tensao",
-   "text": "A segunda lembra a necessidade da pessoa e permite que ela atualize a busca.",
-   "caption": "A segunda | *lembra a necessidade* | da pessoa | e permite que ela | *atualize a busca.*",
-   "pauseAfter": 0.3
+  "series": {
+    "broadcast": {
+      "type": "between",
+      "fromCue": "ins_random",
+      "toCue": "ins_block",
+      "toOffset": -0.1,
+      "count": 6,
+      "power": 1.0
+    }
   },
-  {
-   "id": "s7",
-   "scene": "insight",
-   "text": "Não envie ofertas aleatórias para toda a base.",
-   "caption": "Não envie | *ofertas aleatórias* | para toda a base.",
-   "pauseAfter": 0.3
+  "sfx": [
+    {
+      "cue": "hook_type",
+      "sound": "typing",
+      "gain": -26
+    },
+    {
+      "cue": "hook_send",
+      "sound": "swish",
+      "gain": -24
+    },
+    {
+      "cue": "hook_silence",
+      "sound": "fade_down",
+      "gain": -22,
+      "dur": 1.2
+    },
+    {
+      "cue": "sit_new",
+      "sound": "pop",
+      "gain": -22,
+      "pitch": 2
+    },
+    {
+      "cue": "sit_type",
+      "sound": "typing",
+      "gain": -28
+    },
+    {
+      "cue": "sit_region",
+      "offset": 0.2,
+      "sound": "pin",
+      "gain": -21
+    },
+    {
+      "cue": "sit_sent",
+      "sound": "swish",
+      "gain": -22
+    },
+    {
+      "cue": "sit_sent",
+      "offset": 0.15,
+      "sound": "pop",
+      "gain": -21,
+      "pitch": 4
+    },
+    {
+      "cue": "ten_split",
+      "sound": "whoosh_up",
+      "gain": -24,
+      "dur": 0.45
+    },
+    {
+      "cue": "ten_ctx",
+      "offset": 0.3,
+      "sound": "hollow",
+      "gain": -21,
+      "pitch": -4
+    },
+    {
+      "cue": "ten_update",
+      "offset": 0.3,
+      "sound": "bell",
+      "gain": -21,
+      "note": 72
+    },
+    {
+      "series": "broadcast",
+      "sound": "tick",
+      "gain": -27,
+      "panSpread": 0.6
+    },
+    {
+      "cue": "ins_block",
+      "offset": 0.25,
+      "sound": "thump",
+      "gain": -20,
+      "pitch": -3
+    },
+    {
+      "cue": "ins_ctx",
+      "offset": 0.5,
+      "sound": "pop",
+      "gain": -24,
+      "pitch": 3
+    },
+    {
+      "cue": "ins_optout",
+      "offset": 0.4,
+      "sound": "click",
+      "gain": -22
+    },
+    {
+      "cue": "cta_card",
+      "sound": "whoosh_up",
+      "gain": -24,
+      "dur": 0.5
+    },
+    {
+      "cue": "cta_tiles",
+      "offset": 0.25,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 0
+    },
+    {
+      "cue": "cta_tiles",
+      "offset": 0.55,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 4
+    },
+    {
+      "cue": "cta_tiles",
+      "offset": 0.85,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 7
+    },
+    {
+      "cue": "cta_comment",
+      "sound": "typing",
+      "gain": -27
+    },
+    {
+      "cue": "cta_word",
+      "offset": 0.35,
+      "sound": "chord",
+      "gain": -19
+    },
+    {
+      "cue": "cta_end",
+      "offset": 0.1,
+      "sound": "notif",
+      "gain": -20,
+      "pitch": 2
+    }
+  ],
+  "music": {
+    "gain": -30,
+    "duck": -5.5,
+    "bpm": 96,
+    "prog": [
+      {
+        "at": 0,
+        "notes": [
+          33,
+          45,
+          52,
+          57,
+          60
+        ],
+        "root": 45,
+        "dens": 1,
+        "bright": 0.4,
+        "label": "Am — silêncio do cliente"
+      },
+      {
+        "at": "cue:sit_new",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57
+        ],
+        "root": 41,
+        "dens": 2,
+        "bright": 0.5,
+        "label": "F — mensagem com contexto"
+      },
+      {
+        "at": "cue:ten_split",
+        "notes": [
+          26,
+          38,
+          50,
+          53,
+          57
+        ],
+        "root": 38,
+        "dens": 2,
+        "bright": 0.55,
+        "label": "Dm — cobrar × ajudar"
+      },
+      {
+        "at": "cue:ins_base",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55
+        ],
+        "root": 48,
+        "dens": 2,
+        "bright": 0.5,
+        "label": "C — a regra"
+      },
+      {
+        "at": "cue:ins_respect",
+        "notes": [
+          31,
+          43,
+          50,
+          55,
+          59
+        ],
+        "root": 43,
+        "dens": 2,
+        "bright": 0.5,
+        "label": "G — respeito"
+      },
+      {
+        "at": "cue:cta_card",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57
+        ],
+        "root": 41,
+        "dens": 2,
+        "bright": 0.55,
+        "label": "F — organizar"
+      },
+      {
+        "at": "cue:cta_word",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55,
+          62
+        ],
+        "root": 48,
+        "dens": 2,
+        "bright": 0.6,
+        "label": "Cadd9 — comente"
+      }
+    ]
   },
-  {
-   "id": "s8",
-   "scene": "insight",
-   "text": "Retome somente quando existir contexto, e respeite quem não quiser mais receber contato.",
-   "caption": "Retome somente | quando existir *contexto,* | e *respeite* | quem não quiser | mais receber contato.",
-   "pauseAfter": 0.3
-  },
-  {
-   "id": "s9",
-   "scene": "cta",
-   "text": "Retomar com contexto exige ter o histórico de cada cliente à mão.",
-   "caption": "Retomar com contexto | exige ter | o *histórico* | de cada cliente | à mão.",
-   "pauseAfter": 0.3
-  },
-  {
-   "id": "s10",
-   "scene": "cta",
-   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
-   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
-   "pauseAfter": 0.3
-  },
-  {
-   "id": "s11",
-   "scene": "cta",
-   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
-   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
-   "pauseAfter": 0.3
-  }
- ],
- "sceneLead": {
-  "situacao": 0.3,
-  "tensao": 0.3,
-  "insight": 0.35,
-  "cta": 0.3
- },
- "hideCaptions": [
-  "s11"
- ],
- "cues": {
-  "hook_type": {
-   "seg": "s1",
-   "word": "cliente",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "hook_send": {
-   "seg": "s1",
-   "word": "clássico",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "hook_silence": {
-   "seg": "s1",
-   "word": "novidade",
-   "edge": "end",
-   "offset": 0.05
-  },
-  "sit_new": {
-   "seg": "s2",
-   "word": "você",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "sit_type": {
-   "seg": "s3",
-   "word": "vi",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_region": {
-   "seg": "s3",
-   "word": "região",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_q": {
-   "seg": "s4",
-   "word": "ainda",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_sent": {
-   "seg": "s4",
-   "word": "ali",
-   "edge": "end",
-   "offset": 0.02
-  },
-  "ten_split": {
-   "seg": "s5",
-   "word": "primeira",
-   "edge": "start",
-   "offset": -0.15
-  },
-  "ten_cobra": {
-   "seg": "s5",
-   "word": "cobra",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_ctx": {
-   "seg": "s5",
-   "word": "contexto",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_second": {
-   "seg": "s6",
-   "word": "segunda",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "ten_need": {
-   "seg": "s6",
-   "word": "necessidade",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_update": {
-   "seg": "s6",
-   "word": "atualize",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_base": {
-   "seg": "s7",
-   "word": "não",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "ins_random": {
-   "seg": "s7",
-   "word": "aleatórias",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_block": {
-   "seg": "s7",
-   "word": "base",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_ctx": {
-   "seg": "s8",
-   "word": "contexto",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "ins_respect": {
-   "seg": "s8",
-   "word": "respeite",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_optout": {
-   "seg": "s8",
-   "word": "contato",
-   "edge": "start",
-   "offset": -0.15
-  },
-  "cta_card": {
-   "seg": "s9",
-   "word": "retomar",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "cta_hist": {
-   "seg": "s9",
-   "word": "histórico",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_sys": {
-   "seg": "s10",
-   "word": "quer",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "cta_tiles": {
-   "seg": "s10",
-   "word": "imóveis",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_comment": {
-   "seg": "s11",
-   "word": "comente",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "cta_word": {
-   "seg": "s11",
-   "word": "sistema",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_direct": {
-   "seg": "s11",
-   "word": "direct",
-   "edge": "start",
-   "offset": -0.15
-  },
-  "cta_end": {
-   "seg": "s11",
-   "word": "direct",
-   "edge": "end"
-  }
- },
- "series": {
-  "broadcast": {
-   "type": "between",
-   "fromCue": "ins_random",
-   "toCue": "ins_block",
-   "toOffset": -0.1,
-   "count": 6,
-   "power": 1.0
-  }
- },
- "sfx": [
-  {
-   "cue": "hook_type",
-   "sound": "typing",
-   "gain": -26
-  },
-  {
-   "cue": "hook_send",
-   "sound": "swish",
-   "gain": -24
-  },
-  {
-   "cue": "hook_silence",
-   "sound": "fade_down",
-   "gain": -22,
-   "dur": 1.2
-  },
-  {
-   "cue": "sit_new",
-   "sound": "pop",
-   "gain": -22,
-   "pitch": 2
-  },
-  {
-   "cue": "sit_type",
-   "sound": "typing",
-   "gain": -28
-  },
-  {
-   "cue": "sit_region",
-   "offset": 0.2,
-   "sound": "pin",
-   "gain": -21
-  },
-  {
-   "cue": "sit_sent",
-   "sound": "swish",
-   "gain": -22
-  },
-  {
-   "cue": "sit_sent",
-   "offset": 0.15,
-   "sound": "pop",
-   "gain": -21,
-   "pitch": 4
-  },
-  {
-   "cue": "ten_split",
-   "sound": "whoosh_up",
-   "gain": -24,
-   "dur": 0.45
-  },
-  {
-   "cue": "ten_ctx",
-   "offset": 0.3,
-   "sound": "hollow",
-   "gain": -21,
-   "pitch": -4
-  },
-  {
-   "cue": "ten_update",
-   "offset": 0.3,
-   "sound": "bell",
-   "gain": -21,
-   "note": 72
-  },
-  {
-   "series": "broadcast",
-   "sound": "tick",
-   "gain": -27,
-   "panSpread": 0.6
-  },
-  {
-   "cue": "ins_block",
-   "offset": 0.25,
-   "sound": "thump",
-   "gain": -20,
-   "pitch": -3
-  },
-  {
-   "cue": "ins_ctx",
-   "offset": 0.5,
-   "sound": "pop",
-   "gain": -24,
-   "pitch": 3
-  },
-  {
-   "cue": "ins_optout",
-   "offset": 0.4,
-   "sound": "click",
-   "gain": -22
-  },
-  {
-   "cue": "cta_card",
-   "sound": "whoosh_up",
-   "gain": -24,
-   "dur": 0.5
-  },
-  {
-   "cue": "cta_tiles",
-   "offset": 0.25,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 0
-  },
-  {
-   "cue": "cta_tiles",
-   "offset": 0.55,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 4
-  },
-  {
-   "cue": "cta_tiles",
-   "offset": 0.85,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 7
-  },
-  {
-   "cue": "cta_comment",
-   "sound": "typing",
-   "gain": -27
-  },
-  {
-   "cue": "cta_word",
-   "offset": 0.35,
-   "sound": "chord",
-   "gain": -19
-  },
-  {
-   "cue": "cta_end",
-   "offset": 0.1,
-   "sound": "notif",
-   "gain": -20,
-   "pitch": 2
-  }
- ],
- "music": {
-  "gain": -30,
-  "duck": -5.5,
-  "bpm": 96,
-  "prog": [
-   {
-    "at": 0,
-    "notes": [
-     33,
-     45,
-     52,
-     57,
-     60
-    ],
-    "root": 45,
-    "dens": 1,
-    "bright": 0.4,
-    "label": "Am — silêncio do cliente"
-   },
-   {
-    "at": "cue:sit_new",
-    "notes": [
-     29,
-     41,
-     48,
-     53,
-     57
-    ],
-    "root": 41,
-    "dens": 2,
-    "bright": 0.5,
-    "label": "F — mensagem com contexto"
-   },
-   {
-    "at": "cue:ten_split",
-    "notes": [
-     26,
-     38,
-     50,
-     53,
-     57
-    ],
-    "root": 38,
-    "dens": 2,
-    "bright": 0.55,
-    "label": "Dm — cobrar × ajudar"
-   },
-   {
-    "at": "cue:ins_base",
-    "notes": [
-     24,
-     36,
-     48,
-     52,
-     55
-    ],
-    "root": 48,
-    "dens": 2,
-    "bright": 0.5,
-    "label": "C — a regra"
-   },
-   {
-    "at": "cue:ins_respect",
-    "notes": [
-     31,
-     43,
-     50,
-     55,
-     59
-    ],
-    "root": 43,
-    "dens": 2,
-    "bright": 0.5,
-    "label": "G — respeito"
-   },
-   {
-    "at": "cue:cta_card",
-    "notes": [
-     29,
-     41,
-     48,
-     53,
-     57
-    ],
-    "root": 41,
-    "dens": 2,
-    "bright": 0.55,
-    "label": "F — organizar"
-   },
-   {
-    "at": "cue:cta_word",
-    "notes": [
-     24,
-     36,
-     48,
-     52,
-     55,
-     62
-    ],
-    "root": 48,
-    "dens": 2,
-    "bright": 0.6,
-    "label": "Cadd9 — comente"
-   }
-  ]
- }
+  "outputDir": "reels-anteriores/EP016"
 }

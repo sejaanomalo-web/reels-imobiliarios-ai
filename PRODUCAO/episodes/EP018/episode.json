@@ -1,545 +1,546 @@
 {
- "id": "EP018",
- "title": "Mandar 20 imóveis não é personalizar",
- "fps": 30,
- "leadIn": 0.12,
- "tail": 1.9,
- "deliverables": {
-  "final": "EP018_FINAL.mp4",
-  "narration": "EP018_NARRACAO.wav"
- },
- "cta": {
-  "type": "comentario",
-  "keyword": "SISTEMA",
-  "channel": "Direct",
-  "original_bio_cta": "Quer registrar preferências e organizar indicações com mais precisão? Veja nosso sistema na bio.",
-  "transition_adapted": "Escolher com critério fica mais fácil quando as prioridades de cada cliente estão registradas.",
-  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct."
- },
- "pronunciation": {
-  "SISTEMA": "sistema"
- },
- "segments": [
-  {
-   "id": "s1",
-   "scene": "hook",
-   "text": "Vinte links enviados não são vinte argumentos de venda.",
-   "caption": "*Vinte links* | enviados | *não são* | vinte *argumentos* | de venda.",
-   "pauseAfter": 0.3
+  "id": "EP018",
+  "title": "Mandar 20 imóveis não é personalizar",
+  "fps": 30,
+  "leadIn": 0.12,
+  "tail": 1.9,
+  "deliverables": {
+    "final": "EP018_FINAL.mp4",
+    "narration": "EP018_NARRACAO.wav"
   },
-  {
-   "id": "s2",
-   "scene": "situacao",
-   "text": "Imagine pedir um restaurante tranquilo e receber uma lista com vinte endereços sem explicação.",
-   "caption": "Imagine pedir | um restaurante *tranquilo* | e receber uma lista | com *vinte endereços* | *sem explicação.*",
-   "pauseAfter": 0.3
+  "cta": {
+    "type": "comentario",
+    "keyword": "SISTEMA",
+    "channel": "Direct",
+    "original_bio_cta": "Quer registrar preferências e organizar indicações com mais precisão? Veja nosso sistema na bio.",
+    "transition_adapted": "Escolher com critério fica mais fácil quando as prioridades de cada cliente estão registradas.",
+    "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct."
   },
-  {
-   "id": "s3",
-   "scene": "situacao",
-   "text": "É assim que um comprador pode se sentir.",
-   "caption": "É assim | que um *comprador* | pode se sentir.",
-   "pauseAfter": 0.3
+  "pronunciation": {
+    "SISTEMA": "sistema"
   },
-  {
-   "id": "s4",
-   "scene": "tensao",
-   "text": "Uma recomendação útil explica a relação entre o imóvel e a prioridade do cliente.",
-   "caption": "Uma recomendação *útil* | explica a *relação* | entre o imóvel | e a *prioridade* | do cliente.",
-   "pauseAfter": 0.3
+  "segments": [
+    {
+      "id": "s1",
+      "scene": "hook",
+      "text": "Vinte links enviados não são vinte argumentos de venda.",
+      "caption": "*Vinte links* | enviados | *não são* | vinte *argumentos* | de venda.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s2",
+      "scene": "situacao",
+      "text": "Imagine pedir um restaurante tranquilo e receber uma lista com vinte endereços sem explicação.",
+      "caption": "Imagine pedir | um restaurante *tranquilo* | e receber uma lista | com *vinte endereços* | *sem explicação.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s3",
+      "scene": "situacao",
+      "text": "É assim que um comprador pode se sentir.",
+      "caption": "É assim | que um *comprador* | pode se sentir.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s4",
+      "scene": "tensao",
+      "text": "Uma recomendação útil explica a relação entre o imóvel e a prioridade do cliente.",
+      "caption": "Uma recomendação *útil* | explica a *relação* | entre o imóvel | e a *prioridade* | do cliente.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s5",
+      "scene": "tensao",
+      "text": "Não precisa de dez adjetivos. Precisa de critério.",
+      "caption": "Não precisa | de *dez adjetivos.* | Precisa | de *critério.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s6",
+      "scene": "insight",
+      "text": "Apresente poucas opções e diga por que escolheu cada uma.",
+      "caption": "Apresente | *poucas opções* | e diga | *por que* escolheu | cada uma.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s7",
+      "scene": "insight",
+      "text": "Depois pergunte qual delas faz mais sentido para avançar.",
+      "caption": "Depois *pergunte* | qual delas | faz mais *sentido* | para avançar.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s8",
+      "scene": "cta",
+      "text": "Escolher com critério fica mais fácil quando as prioridades de cada cliente estão registradas.",
+      "caption": "Escolher com *critério* | fica mais fácil | quando as *prioridades* | de cada cliente | estão *registradas.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s9",
+      "scene": "cta",
+      "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+      "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s10",
+      "scene": "cta",
+      "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+      "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+      "pauseAfter": 0.3
+    }
+  ],
+  "sceneLead": {
+    "situacao": 0.3,
+    "tensao": 0.3,
+    "insight": 0.35,
+    "cta": 0.3
   },
-  {
-   "id": "s5",
-   "scene": "tensao",
-   "text": "Não precisa de dez adjetivos. Precisa de critério.",
-   "caption": "Não precisa | de *dez adjetivos.* | Precisa | de *critério.*",
-   "pauseAfter": 0.3
+  "hideCaptions": [
+    "s10"
+  ],
+  "cues": {
+    "hook_links": {
+      "seg": "s1",
+      "word": "links",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "hook_not": {
+      "seg": "s1",
+      "word": "não",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "hook_args": {
+      "seg": "s1",
+      "word": "argumentos",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_ask": {
+      "seg": "s2",
+      "word": "imagine",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "sit_quiet": {
+      "seg": "s2",
+      "word": "tranquilo",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_list": {
+      "seg": "s2",
+      "word": "lista",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_twenty": {
+      "seg": "s2",
+      "word": "vinte",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_noexp": {
+      "seg": "s2",
+      "word": "explicação",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_buyer": {
+      "seg": "s3",
+      "word": "comprador",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_rec": {
+      "seg": "s4",
+      "word": "recomendação",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ten_rel": {
+      "seg": "s4",
+      "word": "relação",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_prio": {
+      "seg": "s4",
+      "word": "prioridade",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_adj": {
+      "seg": "s5",
+      "word": "adjetivos",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_crit": {
+      "seg": "s5",
+      "word": "critério",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_few": {
+      "seg": "s6",
+      "word": "poucas",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ins_why": {
+      "seg": "s6",
+      "word": "por",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_each": {
+      "seg": "s6",
+      "word": "cada",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_ask": {
+      "seg": "s7",
+      "word": "pergunte",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_which": {
+      "seg": "s7",
+      "word": "qual",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_advance": {
+      "seg": "s7",
+      "word": "avançar",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_prio": {
+      "seg": "s8",
+      "word": "escolher",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_reg": {
+      "seg": "s8",
+      "word": "registradas",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_sys": {
+      "seg": "s9",
+      "word": "quer",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_tiles": {
+      "seg": "s9",
+      "word": "imóveis",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_comment": {
+      "seg": "s10",
+      "word": "comente",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_word": {
+      "seg": "s10",
+      "word": "sistema",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_direct": {
+      "seg": "s10",
+      "word": "direct",
+      "edge": "start",
+      "offset": -0.15
+    },
+    "cta_end": {
+      "seg": "s10",
+      "word": "direct",
+      "edge": "end"
+    }
   },
-  {
-   "id": "s6",
-   "scene": "insight",
-   "text": "Apresente poucas opções e diga por que escolheu cada uma.",
-   "caption": "Apresente | *poucas opções* | e diga | *por que* escolheu | cada uma.",
-   "pauseAfter": 0.3
+  "series": {
+    "belt": {
+      "type": "between",
+      "fromCue": "hook_links",
+      "toCue": "hook_not",
+      "toOffset": -0.05,
+      "count": 5,
+      "power": 1.0
+    },
+    "pins": {
+      "type": "between",
+      "fromCue": "sit_twenty",
+      "toCue": "sit_noexp",
+      "toOffset": 0.0,
+      "count": 6,
+      "power": 1.0
+    }
   },
-  {
-   "id": "s7",
-   "scene": "insight",
-   "text": "Depois pergunte qual delas faz mais sentido para avançar.",
-   "caption": "Depois *pergunte* | qual delas | faz mais *sentido* | para avançar.",
-   "pauseAfter": 0.3
+  "sfx": [
+    {
+      "series": "belt",
+      "sound": "tick",
+      "gain": -31,
+      "panSpread": 0.7
+    },
+    {
+      "cue": "hook_not",
+      "offset": 0.3,
+      "sound": "thump",
+      "gain": -21,
+      "pitch": -4
+    },
+    {
+      "cue": "hook_args",
+      "offset": 0.5,
+      "sound": "hollow",
+      "gain": -23,
+      "pitch": -3
+    },
+    {
+      "cue": "sit_ask",
+      "sound": "whoosh_up",
+      "gain": -25,
+      "dur": 0.45
+    },
+    {
+      "cue": "sit_quiet",
+      "offset": 0.5,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 4
+    },
+    {
+      "cue": "sit_noexp",
+      "offset": 0.85,
+      "sound": "pin",
+      "gain": -24
+    },
+    {
+      "cue": "sit_buyer",
+      "offset": 0.55,
+      "sound": "shuffle",
+      "gain": -25
+    },
+    {
+      "cue": "ten_rec",
+      "sound": "swish",
+      "gain": -24
+    },
+    {
+      "cue": "ten_rel",
+      "offset": 0.5,
+      "sound": "click",
+      "gain": -22
+    },
+    {
+      "cue": "ten_prio",
+      "offset": 0.55,
+      "sound": "click",
+      "gain": -22
+    },
+    {
+      "cue": "ten_adj",
+      "offset": 0.6,
+      "sound": "fade_down",
+      "gain": -23,
+      "dur": 0.8
+    },
+    {
+      "cue": "ten_crit",
+      "offset": 0.55,
+      "sound": "impact",
+      "gain": -22
+    },
+    {
+      "cue": "ins_few",
+      "sound": "whoosh_up",
+      "gain": -25,
+      "dur": 0.45
+    },
+    {
+      "cue": "ins_why",
+      "offset": 0.45,
+      "sound": "pop",
+      "gain": -22,
+      "pitch": 3
+    },
+    {
+      "cue": "ins_which",
+      "offset": 0.3,
+      "sound": "pop",
+      "gain": -22,
+      "pitch": 6
+    },
+    {
+      "cue": "ins_advance",
+      "offset": 0.5,
+      "sound": "chord",
+      "gain": -21
+    },
+    {
+      "cue": "cta_prio",
+      "sound": "whoosh_up",
+      "gain": -24,
+      "dur": 0.5
+    },
+    {
+      "cue": "cta_tiles",
+      "offset": 0.25,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 0
+    },
+    {
+      "cue": "cta_tiles",
+      "offset": 0.55,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 4
+    },
+    {
+      "cue": "cta_tiles",
+      "offset": 0.85,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 7
+    },
+    {
+      "cue": "cta_comment",
+      "sound": "typing",
+      "gain": -27
+    },
+    {
+      "cue": "cta_word",
+      "offset": 0.35,
+      "sound": "chord",
+      "gain": -19
+    },
+    {
+      "cue": "cta_end",
+      "offset": 0.1,
+      "sound": "notif",
+      "gain": -20,
+      "pitch": 2
+    }
+  ],
+  "music": {
+    "gain": -30,
+    "duck": -5.5,
+    "bpm": 94,
+    "prog": [
+      {
+        "at": 0,
+        "notes": [
+          28,
+          40,
+          52,
+          55,
+          59
+        ],
+        "root": 40,
+        "dens": 2,
+        "bright": 0.45,
+        "label": "Em — a esteira"
+      },
+      {
+        "at": "cue:sit_ask",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55
+        ],
+        "root": 36,
+        "dens": 2,
+        "bright": 0.45,
+        "label": "C — a lista sem explicação"
+      },
+      {
+        "at": "cue:ten_rec",
+        "notes": [
+          26,
+          38,
+          50,
+          53,
+          57
+        ],
+        "root": 38,
+        "dens": 2,
+        "bright": 0.5,
+        "label": "Dm — critério"
+      },
+      {
+        "at": "cue:ins_few",
+        "notes": [
+          31,
+          43,
+          50,
+          55,
+          59
+        ],
+        "root": 43,
+        "dens": 2,
+        "bright": 0.55,
+        "label": "G — poucas opções"
+      },
+      {
+        "at": "cue:ins_advance",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55,
+          62
+        ],
+        "root": 48,
+        "dens": 2,
+        "bright": 0.6,
+        "label": "Cadd9 — avançar"
+      },
+      {
+        "at": "cue:cta_prio",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57
+        ],
+        "root": 41,
+        "dens": 2,
+        "bright": 0.55,
+        "label": "F — prioridades"
+      },
+      {
+        "at": "cue:cta_word",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55,
+          62
+        ],
+        "root": 48,
+        "dens": 2,
+        "bright": 0.6,
+        "label": "Cadd9 — comente"
+      }
+    ]
   },
-  {
-   "id": "s8",
-   "scene": "cta",
-   "text": "Escolher com critério fica mais fácil quando as prioridades de cada cliente estão registradas.",
-   "caption": "Escolher com *critério* | fica mais fácil | quando as *prioridades* | de cada cliente | estão *registradas.*",
-   "pauseAfter": 0.3
-  },
-  {
-   "id": "s9",
-   "scene": "cta",
-   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
-   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
-   "pauseAfter": 0.3
-  },
-  {
-   "id": "s10",
-   "scene": "cta",
-   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
-   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
-   "pauseAfter": 0.3
-  }
- ],
- "sceneLead": {
-  "situacao": 0.3,
-  "tensao": 0.3,
-  "insight": 0.35,
-  "cta": 0.3
- },
- "hideCaptions": [
-  "s10"
- ],
- "cues": {
-  "hook_links": {
-   "seg": "s1",
-   "word": "links",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "hook_not": {
-   "seg": "s1",
-   "word": "não",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "hook_args": {
-   "seg": "s1",
-   "word": "argumentos",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_ask": {
-   "seg": "s2",
-   "word": "imagine",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "sit_quiet": {
-   "seg": "s2",
-   "word": "tranquilo",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_list": {
-   "seg": "s2",
-   "word": "lista",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_twenty": {
-   "seg": "s2",
-   "word": "vinte",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_noexp": {
-   "seg": "s2",
-   "word": "explicação",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_buyer": {
-   "seg": "s3",
-   "word": "comprador",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_rec": {
-   "seg": "s4",
-   "word": "recomendação",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "ten_rel": {
-   "seg": "s4",
-   "word": "relação",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_prio": {
-   "seg": "s4",
-   "word": "prioridade",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_adj": {
-   "seg": "s5",
-   "word": "adjetivos",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_crit": {
-   "seg": "s5",
-   "word": "critério",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_few": {
-   "seg": "s6",
-   "word": "poucas",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "ins_why": {
-   "seg": "s6",
-   "word": "por",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_each": {
-   "seg": "s6",
-   "word": "cada",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_ask": {
-   "seg": "s7",
-   "word": "pergunte",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_which": {
-   "seg": "s7",
-   "word": "qual",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_advance": {
-   "seg": "s7",
-   "word": "avançar",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_prio": {
-   "seg": "s8",
-   "word": "escolher",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "cta_reg": {
-   "seg": "s8",
-   "word": "registradas",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_sys": {
-   "seg": "s9",
-   "word": "quer",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "cta_tiles": {
-   "seg": "s9",
-   "word": "imóveis",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_comment": {
-   "seg": "s10",
-   "word": "comente",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "cta_word": {
-   "seg": "s10",
-   "word": "sistema",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_direct": {
-   "seg": "s10",
-   "word": "direct",
-   "edge": "start",
-   "offset": -0.15
-  },
-  "cta_end": {
-   "seg": "s10",
-   "word": "direct",
-   "edge": "end"
-  }
- },
- "series": {
-  "belt": {
-   "type": "between",
-   "fromCue": "hook_links",
-   "toCue": "hook_not",
-   "toOffset": -0.05,
-   "count": 5,
-   "power": 1.0
-  },
-  "pins": {
-   "type": "between",
-   "fromCue": "sit_twenty",
-   "toCue": "sit_noexp",
-   "toOffset": 0.0,
-   "count": 6,
-   "power": 1.0
-  }
- },
- "sfx": [
-  {
-   "series": "belt",
-   "sound": "tick",
-   "gain": -31,
-   "panSpread": 0.7
-  },
-  {
-   "cue": "hook_not",
-   "offset": 0.3,
-   "sound": "thump",
-   "gain": -21,
-   "pitch": -4
-  },
-  {
-   "cue": "hook_args",
-   "offset": 0.5,
-   "sound": "hollow",
-   "gain": -23,
-   "pitch": -3
-  },
-  {
-   "cue": "sit_ask",
-   "sound": "whoosh_up",
-   "gain": -25,
-   "dur": 0.45
-  },
-  {
-   "cue": "sit_quiet",
-   "offset": 0.5,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 4
-  },
-  {
-   "cue": "sit_noexp",
-   "offset": 0.85,
-   "sound": "pin",
-   "gain": -24
-  },
-  {
-   "cue": "sit_buyer",
-   "offset": 0.55,
-   "sound": "shuffle",
-   "gain": -25
-  },
-  {
-   "cue": "ten_rec",
-   "sound": "swish",
-   "gain": -24
-  },
-  {
-   "cue": "ten_rel",
-   "offset": 0.5,
-   "sound": "click",
-   "gain": -22
-  },
-  {
-   "cue": "ten_prio",
-   "offset": 0.55,
-   "sound": "click",
-   "gain": -22
-  },
-  {
-   "cue": "ten_adj",
-   "offset": 0.6,
-   "sound": "fade_down",
-   "gain": -23,
-   "dur": 0.8
-  },
-  {
-   "cue": "ten_crit",
-   "offset": 0.55,
-   "sound": "impact",
-   "gain": -22
-  },
-  {
-   "cue": "ins_few",
-   "sound": "whoosh_up",
-   "gain": -25,
-   "dur": 0.45
-  },
-  {
-   "cue": "ins_why",
-   "offset": 0.45,
-   "sound": "pop",
-   "gain": -22,
-   "pitch": 3
-  },
-  {
-   "cue": "ins_which",
-   "offset": 0.3,
-   "sound": "pop",
-   "gain": -22,
-   "pitch": 6
-  },
-  {
-   "cue": "ins_advance",
-   "offset": 0.5,
-   "sound": "chord",
-   "gain": -21
-  },
-  {
-   "cue": "cta_prio",
-   "sound": "whoosh_up",
-   "gain": -24,
-   "dur": 0.5
-  },
-  {
-   "cue": "cta_tiles",
-   "offset": 0.25,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 0
-  },
-  {
-   "cue": "cta_tiles",
-   "offset": 0.55,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 4
-  },
-  {
-   "cue": "cta_tiles",
-   "offset": 0.85,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 7
-  },
-  {
-   "cue": "cta_comment",
-   "sound": "typing",
-   "gain": -27
-  },
-  {
-   "cue": "cta_word",
-   "offset": 0.35,
-   "sound": "chord",
-   "gain": -19
-  },
-  {
-   "cue": "cta_end",
-   "offset": 0.1,
-   "sound": "notif",
-   "gain": -20,
-   "pitch": 2
-  }
- ],
- "music": {
-  "gain": -30,
-  "duck": -5.5,
-  "bpm": 94,
-  "prog": [
-   {
-    "at": 0,
-    "notes": [
-     28,
-     40,
-     52,
-     55,
-     59
-    ],
-    "root": 40,
-    "dens": 2,
-    "bright": 0.45,
-    "label": "Em — a esteira"
-   },
-   {
-    "at": "cue:sit_ask",
-    "notes": [
-     24,
-     36,
-     48,
-     52,
-     55
-    ],
-    "root": 36,
-    "dens": 2,
-    "bright": 0.45,
-    "label": "C — a lista sem explicação"
-   },
-   {
-    "at": "cue:ten_rec",
-    "notes": [
-     26,
-     38,
-     50,
-     53,
-     57
-    ],
-    "root": 38,
-    "dens": 2,
-    "bright": 0.5,
-    "label": "Dm — critério"
-   },
-   {
-    "at": "cue:ins_few",
-    "notes": [
-     31,
-     43,
-     50,
-     55,
-     59
-    ],
-    "root": 43,
-    "dens": 2,
-    "bright": 0.55,
-    "label": "G — poucas opções"
-   },
-   {
-    "at": "cue:ins_advance",
-    "notes": [
-     24,
-     36,
-     48,
-     52,
-     55,
-     62
-    ],
-    "root": 48,
-    "dens": 2,
-    "bright": 0.6,
-    "label": "Cadd9 — avançar"
-   },
-   {
-    "at": "cue:cta_prio",
-    "notes": [
-     29,
-     41,
-     48,
-     53,
-     57
-    ],
-    "root": 41,
-    "dens": 2,
-    "bright": 0.55,
-    "label": "F — prioridades"
-   },
-   {
-    "at": "cue:cta_word",
-    "notes": [
-     24,
-     36,
-     48,
-     52,
-     55,
-     62
-    ],
-    "root": 48,
-    "dens": 2,
-    "bright": 0.6,
-    "label": "Cadd9 — comente"
-   }
-  ]
- }
+  "outputDir": "reels-anteriores/EP018"
 }

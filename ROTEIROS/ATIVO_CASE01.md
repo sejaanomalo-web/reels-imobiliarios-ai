@@ -1,4 +1,4 @@
-<!-- Roteiro enviado pelo cliente em 16/11/2026 (ATIVO_Reel_01_KELSIE_BLEVINS_ATENCAO.md), produzido como EP-ATIVO-CASE01 (o ID "EP01" já existe). CTA: "Na sua próxima gravação…" mantida como conteúdo; "Salva este vídeo para lembrar disso." substituída (regra 14/11/2026) pela transição "E quando a dúvida virar conversa, cada contato precisa estar organizado." + CTA SISTEMA. Fatos sobre Kelsie Blevins conferidos em 16/11/2026: ver OUTPUT/ATIVO_CASE01/relatorio_qa.md. -->
+<!-- Roteiro enviado pelo cliente em 16/11/2026 (ATIVO_Reel_01_KELSIE_BLEVINS_ATENCAO.md), produzido como EP-ATIVO-CASE01 (o ID "EP01" já existe). CTA: "Na sua próxima gravação…" mantida como conteúdo; "Salva este vídeo para lembrar disso." substituída (regra 14/11/2026) pela transição "E quando a dúvida virar conversa, cada contato precisa estar organizado." + CTA SISTEMA. Fatos sobre Kelsie Blevins conferidos em 16/11/2026: ver OUTPUT/reels-anteriores/ATIVO_CASE01/relatorio_qa.md. -->
 
 # ATIVO — EPISÓDIO 01: Kelsie Blevins: atenção antes da venda
 

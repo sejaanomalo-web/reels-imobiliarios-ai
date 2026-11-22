@@ -4,7 +4,7 @@
 > **1 Palitinho → 2 Desenho à mão → 3 Planta técnica → 4 Tipografia cinética → 5 Painel → 1 …**
 > Fonte de verdade da fila: `PRODUCAO/estilos/esteira.json`. Nunca escolher o estilo "no olho": use `python3 tools/esteira.py proximo`.
 > `tools/novo_episodio.py` registra o estilo automaticamente; `editorial_check.py` bloqueia episódio da esteira sem estilo ou com cenas fora do kit.
-> Referência visual aprovada: `OUTPUT/DEMO_ESTILOS/painel_4_estilos.jpg` (mesmo trecho do NOV26_26 nos estilos 1–4).
+> Referência visual aprovada: `OUTPUT/pilotos/DEMO_ESTILOS/painel_4_estilos.jpg` (mesmo trecho do NOV26_26 nos estilos 1–4).
 
 ## 0. O que NUNCA muda (100% identidade ATIVO)
 - **Cores:** grafite/preto + **um único verde** (lote atual #02FB3F via kit `A`/`aa()` de `src/episodes/NOV26/kit.tsx`); vermelho `C.warn` só para erro/alerta; nada de amarelo/âmbar (ANÔMALO) nem outros verdes.
@@ -49,7 +49,7 @@
 3. Vozes A/B (C só se ambas erram) → `build_narration.py --source`.
 4. `Scenes.tsx` **com o kit do estilo** (copiar a estrutura Hook/Take1/Take2/Take3 do episódio anterior do MESMO estilo, se existir, e trocar o conteúdo); `Episode.tsx` (mood, Sequences, `Cta`), `Cover.tsx` (capa no mesmo estilo), Root.
 5. `editorial_check` → stills/folhas de revisão → `build_audio` → `render_episode.sh` (11/11) → `motion_check`.
-6. Legenda Instagram + `legenda_check` → QA (registrar o estilo) → `publicar_lote.py` → commit/push **main** → conferir a Action (horário) → enviar arquivos ao cliente.
+6. Legenda Instagram + `legenda_check` → QA (registrar o estilo) → `publicar.py <EP> --quando "AAAA-MM-DD HH:MM"` → commit/push **main** → conferir a Action (horário) → enviar arquivos ao cliente.
 
 ## 7. Capa por estilo
 Mesma estrutura (tag no topo, título grande, subtítulo, logo em 1420), com a "pele" do estilo: palitinho (cena mínima com 2 bonecos), lousa (desenho de giz + título à mão), planta (prancha + carimbo), tipografia (palavra gigante + contorno), painel (atual).

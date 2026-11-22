@@ -6,7 +6,7 @@
  "height": 1920,
  "leadIn": 0.3,
  "tail": 1.8,
- "outputDir": "ADS/AD-ATIVO-01",
+ "outputDir": "anuncios/AD-ATIVO-01",
  "deliverables": {
   "final": "AD-ATIVO-01_FINAL.mp4",
   "narration": "AD-ATIVO-01_NARRACAO.wav",

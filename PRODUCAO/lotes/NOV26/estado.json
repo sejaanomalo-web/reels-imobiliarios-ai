@@ -8,7 +8,7 @@
     "trilha": "discreta, sem bateria",
     "cta": "ver PRODUCAO/lotes/NOV26/LEIAME.md",
     "sfx": "um pouco mais dinâmicos (cliente 19/11/2026, a partir do NOV26_06): ~+2 dB por evento e mais eventos (whoosh/swish em toda troca de cena, tick/pop/click em cada item); voz sempre na frente",
-    "publicacao_instagram": "A partir de 19/11/2026: todo MP4 em PUBLICACAO/ na main é publicado no @ativo.br (Action enfileirar.yml → Supabase). Só subir post pronto e aprovado; uma pasta por post (1 MP4, 1 capa, 1 *legenda*.txt ≤2200 chars); ordem do push = ordem de publicação; nunca mover/renomear/apagar post já enviado; correção = pasta nova com o próximo número; git pull --rebase antes de cada push."
+    "publicacao_instagram": "A partir de 19/11/2026: todo MP4 em PUBLICACAO/ na main é publicado no @ativo.br (Action enfileirar.yml → Supabase). Só subir post pronto e aprovado; uma pasta por post (1 MP4, 1 capa, 1 *legenda*.txt ≤2200 chars); ordem do push = ordem de publicação; a pasta de data/hora define o horário; mover post já enviado só junto com a atualização do Supabase; git pull --rebase antes de cada push."
   },
   "estados": "pendente → em_producao → voz_ok → renderizado → validado(entregue) | bloqueado(motivo)",
   "episodios": [
@@ -18,13 +18,13 @@
       "composition": "ATIVO-NOV26-01",
       "title": "Selic parada, financiamento caro",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_01/ATIVO_NOV26_01_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/08h00/ATIVO_NOV26_01.mp4",
       "validacao": "11/11 · −14,99 LUFS · TP −1,56 · 55,57 s · editorial 0/0 · movimento 1,49",
       "voz": "conta 1, 2 gerações (A + 1ª frase da B)",
       "commit": null,
       "notas": "ouvir 0:00 ('Ó'?); aprovar transição 'Lembre: juros básicos…'",
-      "legenda": "OUTPUT/ATIVO_NOV26_01/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/01/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/08h00/ATIVO_NOV26_01_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/08h00/"
     },
     {
       "n": 2,
@@ -32,13 +32,13 @@
       "composition": "ATIVO-NOV26-02",
       "title": "Caixa estuda reajustar taxas",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_02/ATIVO_NOV26_02_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/10h00/ATIVO_NOV26_02.mp4",
       "validacao": "11/11 · −14,98 LUFS · TP −1,29 · 48,98 s · editorial 0/0 · movimento 1,72",
       "voz": "conta 1, 2 gerações (B; A leu a instrução de estilo)",
       "commit": null,
       "notas": "reconferir status da Caixa antes de publicar; aprovar transição 'confirme antes de prometer'",
-      "legenda": "OUTPUT/ATIVO_NOV26_02/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/02/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/10h00/ATIVO_NOV26_02_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/10h00/"
     },
     {
       "n": 3,
@@ -46,13 +46,13 @@
       "composition": "ATIVO-NOV26-03",
       "title": "O dinheiro que financia os imóveis",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_03/ATIVO_NOV26_03_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/12h00/ATIVO_NOV26_03.mp4",
       "validacao": "11/11 · −15,07 LUFS · TP −1,64 · 49,98 s · editorial 0/0 · movimento 1,40",
       "voz": "conta 1, 2 gerações (B + frase s4 da A)",
       "commit": null,
       "notas": "aprovar transição 'Traduza a notícia…'",
-      "legenda": "OUTPUT/ATIVO_NOV26_03/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/03/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/12h00/ATIVO_NOV26_03_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/12h00/"
     },
     {
       "n": 4,
@@ -60,13 +60,13 @@
       "composition": "ATIVO-NOV26-04",
       "title": "Juros altos, crédito bilionário",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_04/ATIVO_NOV26_04_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/15h00/ATIVO_NOV26_04.mp4",
       "validacao": "11/11 · −15,00 LUFS · TP −1,66 · 58,28 s · editorial 0/0 · movimento 1,46",
       "voz": "conta 2, 3 gerações (C; A leu a instrução de estilo; B disse \"uma Caixa\"; emenda A→B recusada por 1,6 semitom)",
       "commit": null,
       "notas": "aprovar CTA mantida literal; 3ª leitura da instrução de estilo pela voz",
-      "legenda": "OUTPUT/ATIVO_NOV26_04/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/04/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/15h00/ATIVO_NOV26_04_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/15h00/"
     },
     {
       "n": 5,
@@ -74,13 +74,13 @@
       "composition": "ATIVO-NOV26-05",
       "title": "Aprovado não é contrato assinado",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_05/ATIVO_NOV26_05_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/18h00/ATIVO_NOV26_05.mp4",
       "validacao": "11/11 · −14,97 LUFS · 49,17 s · editorial 0/0 · movimento 1,49 · fala 82%, 178 palavras/min",
       "voz": "regra 19/11 (direção nova + pausas ≤0,09 s, 1,0×); 5 gerações (conta 2: A–D; conta 1: E usada)",
       "commit": null,
       "notas": "aprovar transição; ouvir \"Direct\" final",
-      "legenda": "OUTPUT/ATIVO_NOV26_05/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/05/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/18h00/ATIVO_NOV26_05_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/18h00/"
     },
     {
       "n": 6,
@@ -88,13 +88,13 @@
       "composition": "ATIVO-NOV26-06",
       "title": "Menos intenção de compra, mais critério",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_06/ATIVO_NOV26_06_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/21h00/ATIVO_NOV26_06.mp4",
       "validacao": "11/11 · −14,91 LUFS · 47,38 s · editorial 0/0 · movimento 1,95 · 192 palavras/min",
       "voz": "regra 19/11; 7 gerações (conta 2: A–D; conta 1: E–G, G usada sem edição)",
       "commit": "848155a",
       "notas": "aprovar transição; ouvir \"o ruído\" e \"Um/O interessado\"; SFX mais dinâmicos (30 eventos)",
-      "legenda": "OUTPUT/ATIVO_NOV26_06/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/06/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/21h00/ATIVO_NOV26_06_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/24-terca/21h00/"
     },
     {
       "n": 7,
@@ -102,13 +102,13 @@
       "composition": "ATIVO-NOV26-07",
       "title": "O desconto não é o vilão",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_07/ATIVO_NOV26_07_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/08h00/ATIVO_NOV26_07.mp4",
       "validacao": "11/11 · −15,10 LUFS · 49,64 s · editorial 0/0 · movimento 1,75 · 183 palavras/min",
       "voz": "regra 19/11; 4 gerações (conta 1: A, B, D usada sem edição; conta 2: C); pronúncia FipeZAP→Fipe Zap",
       "commit": "4ed33dd",
       "notas": "aprovar transição; ouvir \"trata a negociação\" e \"Fipe Zap\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_07/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/07/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/08h00/ATIVO_NOV26_07_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/08h00/"
     },
     {
       "n": 8,
@@ -116,13 +116,13 @@
       "composition": "ATIVO-NOV26-08",
       "title": "O comprador acha caro: e agora?",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_08/ATIVO_NOV26_08_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/10h00/ATIVO_NOV26_08.mp4",
       "validacao": "11/11 · −14,88 LUFS · 57,69 s · editorial 0/0 · movimento 1,57 · 160 palavras/min",
       "voz": "1º com pausas naturais (shapePauses); 2 gerações (conta 2: A; conta 1: B) — B com a frase do s5 trocada pela da A (0,04 st)",
       "commit": "d459619",
       "notas": "aprovar transição; ouvir \"exigir\"; avaliar o novo ritmo com pausas",
-      "legenda": "OUTPUT/ATIVO_NOV26_08/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/08/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/10h00/ATIVO_NOV26_08_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/10h00/"
     },
     {
       "n": 9,
@@ -130,13 +130,13 @@
       "composition": "ATIVO-NOV26-09",
       "title": "Anunciar acima para depois negociar",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_09/ATIVO_NOV26_09_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/12h00/ATIVO_NOV26_09.mp4",
       "validacao": "11/11 · −15,00 LUFS · 52,44 s · editorial 0/0 · movimento 1,69 · 170 palavras/min",
       "voz": "direção nova + shapePauses; 2 gerações (conta 2: A; conta 1: B usada, vazamento + repetição cortados na mesma tomada)",
       "commit": "c9e33e3",
       "notas": "aprovar transição; ouvir \"anúncios\"; direção nova vazou em 2/2 tomadas",
-      "legenda": "OUTPUT/ATIVO_NOV26_09/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/09/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/12h00/ATIVO_NOV26_09_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/12h00/"
     },
     {
       "n": 10,
@@ -144,13 +144,13 @@
       "composition": "ATIVO-NOV26-10",
       "title": "Preço anunciado não é preço fechado",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_10/ATIVO_NOV26_10_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/15h00/ATIVO_NOV26_10.mp4",
       "validacao": "11/11 · −14,94 LUFS · 56,34 s · editorial 0/0 · movimento 1,36 · 157 palavras/min",
       "voz": "direção nova + shapePauses; 2 gerações (conta 2: A usada sem edição; conta 1: B)",
       "commit": "54056d0",
       "notas": "aprovar transição; ouvir \"Fipe Zap\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_10/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_01_AO_10/10/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/15h00/ATIVO_NOV26_10_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/15h00/"
     },
     {
       "n": 11,
@@ -158,13 +158,13 @@
       "composition": "ATIVO-NOV26-11",
       "title": "Pequeno pode custar mais por metro",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_11/ATIVO_NOV26_11_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/18h00/ATIVO_NOV26_11.mp4",
       "validacao": "11/11 · −15,00 LUFS · 50,37 s · editorial 0/0 · movimento 1,88 · 172 palavras/min",
       "voz": "direção nova + shapePauses; 2 gerações (conta 2: A; conta 1: B usada sem edição)",
       "commit": "3eb030a",
       "notas": "aprovar transição; ouvir \"imagine\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_11/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_11_AO_20/11/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/18h00/ATIVO_NOV26_11_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/18h00/"
     },
     {
       "n": 12,
@@ -172,13 +172,13 @@
       "composition": "ATIVO-NOV26-12",
       "title": "Sete em dez imóveis novos em SP",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_12/ATIVO_NOV26_12_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/21h00/ATIVO_NOV26_12.mp4",
       "validacao": "11/11 · −15,03 LUFS · 54,51 s · editorial 0/0 · movimento 1,49 · 166 palavras/min",
       "voz": "direção nova + shapePauses; 2 gerações (conta 2: A; conta 1: B usada sem edição)",
       "commit": "16c2632",
       "notas": "aprovar transição; ouvir \"explique entrada\", \"só planta\", \"Secovi\", \"recebe no\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_12/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_11_AO_20/12/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/21h00/ATIVO_NOV26_12_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/25-quarta/21h00/"
     },
     {
       "n": 13,
@@ -186,13 +186,13 @@
       "composition": "ATIVO-NOV26-13",
       "title": "Minha Casa Minha Vida além do estereótipo",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_13/ATIVO_NOV26_13_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/08h00/ATIVO_NOV26_13.mp4",
       "validacao": "11/11 · −14,94 LUFS · 58,30 s · editorial 0/0 · movimento 1,41 · 160 palavras/min",
       "voz": "direção nova + shapePauses; 2 gerações (conta 2: A usada sem edição; conta 1: B)",
       "commit": "9fee74b",
       "notas": "aprovar transição",
-      "legenda": "OUTPUT/ATIVO_NOV26_13/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_11_AO_20/13/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/08h00/ATIVO_NOV26_13_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/08h00/"
     },
     {
       "n": 14,
@@ -200,13 +200,13 @@
       "composition": "ATIVO-NOV26-14",
       "title": "Cinco mil moradias aptas: e agora?",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_14/ATIVO_NOV26_14_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/10h00/ATIVO_NOV26_14.mp4",
       "validacao": "11/11 · −15,02 LUFS · 55,08 s · editorial 0/0 · movimento 1,44 · 164 palavras/min",
       "voz": "direção nova + shapePauses; 2 gerações (conta 2: A usada sem edição; conta 1: B)",
       "commit": "8b13e22",
       "notas": "aprovar transição; ouvir \"escolher a unidade\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_14/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_11_AO_20/14/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/10h00/ATIVO_NOV26_14_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/10h00/"
     },
     {
       "n": 15,
@@ -214,13 +214,13 @@
       "composition": "ATIVO-NOV26-15",
       "title": "FGTS e imóveis usados",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_15/ATIVO_NOV26_15_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/12h00/ATIVO_NOV26_15.mp4",
       "validacao": "11/11 · −14,97 LUFS · 53,55 s · editorial 0/0 · movimento 1,31 · 163 palavras/min",
       "voz": "direção nova + shapePauses; 2 gerações (conta 2: A; conta 1: B usada sem edição)",
       "commit": "304030c",
       "notas": "aprovar transição; valor do limite de usados não usado (não conferido no texto oficial)",
-      "legenda": "OUTPUT/ATIVO_NOV26_15/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_11_AO_20/15/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/12h00/ATIVO_NOV26_15_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/12h00/"
     },
     {
       "n": 16,
@@ -228,13 +228,13 @@
       "composition": "ATIVO-NOV26-16",
       "title": "Compra Assistida: o que realmente é",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_16/ATIVO_NOV26_16_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/15h00/ATIVO_NOV26_16.mp4",
       "validacao": "11/11 · −14,97 LUFS · 52,95 s · editorial 0/0 · movimento 1,47 · 170 palavras/min",
       "voz": "direção nova + shapePauses; 2 gerações (conta 2: A; conta 1: B usada sem edição)",
       "commit": "f27b8ae",
       "notas": "aprovar transição; ouvir \"Imagina\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_16/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_11_AO_20/16/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/15h00/ATIVO_NOV26_16_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/15h00/"
     },
     {
       "n": 17,
@@ -242,13 +242,13 @@
       "composition": "ATIVO-NOV26-17",
       "title": "Cascavel está construindo moradias",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_17/ATIVO_NOV26_17_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/18h00/ATIVO_NOV26_17.mp4",
       "validacao": "11/11 · −14,94 LUFS · 54,51 s · editorial 0 · movimento 1,34 · 159 palavras/min",
       "voz": "direção nova + shapePauses; tomada B (conta 1) sem edição; A barrada pela cota da conta 2",
       "commit": "c38fdf9",
       "notas": "aprovar transição; ouvir \"transformar a habitação\"; 4.258 não verificado (tela: +4 mil)",
-      "legenda": "OUTPUT/ATIVO_NOV26_17/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_11_AO_20/17/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/18h00/ATIVO_NOV26_17_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/18h00/"
     },
     {
       "n": 18,
@@ -256,13 +256,13 @@
       "composition": "ATIVO-NOV26-18",
       "title": "Aluguel sobe mais que inflação",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_18/ATIVO_NOV26_18_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/21h00/ATIVO_NOV26_18.mp4",
       "validacao": "11/11 · −14,99 LUFS · 54,08 s · editorial 0/0 · movimento 1,32 · 161 palavras/min",
       "voz": "direção nova + shapePauses; 2 gerações (conta 1): B descartada ('subirão'), A usada sem edição",
       "commit": "c3b2368",
       "notas": "aprovar transição; ouvir \"FipeZAP\" e \"Pro corretor\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_18/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_11_AO_20/18/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/21h00/ATIVO_NOV26_18_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/26-quinta/21h00/"
     },
     {
       "n": 19,
@@ -270,13 +270,13 @@
       "composition": "ATIVO-NOV26-19",
       "title": "Um quarto, aluguel por metro mais alto",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_19/ATIVO_NOV26_19_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/08h00/ATIVO_NOV26_19.mp4",
       "validacao": "11/11 · −14,96 LUFS · 53,42 s · editorial 0/0 · movimento 1,34 · 169 palavras/min",
       "voz": "direção nova + shapePauses; 5 gerações (conta 1): A 'é lugar', B 'Pensa' embolado, C vazou direção, D+E geradas por engano (import do build_narration); D usada sem edição",
       "commit": "779f223",
       "notas": "aprovar transição; ouvir \"studio\" (sai 'estúdio'), \"FipeZAP\", \"Pro corretor\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_19/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_11_AO_20/19/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/08h00/ATIVO_NOV26_19_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/08h00/"
     },
     {
       "n": 20,
@@ -284,13 +284,13 @@
       "composition": "ATIVO-NOV26-20",
       "title": "Mais oferta em Curitiba, mesma pergunta",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_20/ATIVO_NOV26_20_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/10h00/ATIVO_NOV26_20.mp4",
       "validacao": "11/11 · −15,02 LUFS · 49,88 s · editorial 0/0 · movimento 1,53 · 168 palavras/min",
       "voz": "direção nova + shapePauses; A (conta 1, 19/11) usada sem edição; B (conta 2, 20/11) descartada ('Dado o local desse')",
       "commit": "a84c23d",
       "notas": "aprovar transição; ouvir \"olha imóveis\" e \"Dado local decide\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_20/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_11_AO_20/20/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/10h00/ATIVO_NOV26_20_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/10h00/"
     },
     {
       "n": 21,
@@ -298,13 +298,13 @@
       "composition": "ATIVO-NOV26-21",
       "title": "85% usados: onde está a oportunidade?",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_21/ATIVO_NOV26_21_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/12h00/ATIVO_NOV26_21.mp4",
       "validacao": "11/11 · −14,92 LUFS · 56,58 s · editorial 0/0 · movimento 1,49 · 162 palavras/min",
       "voz": "direção nova + shapePauses; A (conta 1) e B (conta 2); B usada sem edição",
       "commit": "11c74a9",
       "notas": "aprovar transição; ouvir \"Secovi\" (i final fraco) e \"melhorar avaliação\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_21/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/21/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/12h00/ATIVO_NOV26_21_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/12h00/"
     },
     {
       "n": 22,
@@ -312,13 +312,13 @@
       "composition": "ATIVO-NOV26-22",
       "title": "Leilão: desconto não é lucro",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_22/ATIVO_NOV26_22_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/15h00/ATIVO_NOV26_22.mp4",
       "validacao": "11/11 · −15,06 LUFS · 56,88 s · editorial 0/0 · movimento 1,46 · 153 palavras/min",
       "voz": "direção nova + shapePauses; A (conta 1) usada sem edição; B (conta 2) descartada ('Olha,' acrescentado)",
       "commit": "588c681",
       "notas": "aprovar transição; ouvir \"enxergar margem\" e \"Não venda\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_22/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/22/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/15h00/ATIVO_NOV26_22_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/15h00/"
     },
     {
       "n": 23,
@@ -326,13 +326,13 @@
       "composition": "ATIVO-NOV26-23",
       "title": "Black Friday no imóvel: é desconto real?",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_23/ATIVO_NOV26_23_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/18h00/ATIVO_NOV26_23.mp4",
       "validacao": "11/11 · −15,00 LUFS · 55,08 s · editorial 0/0 · movimento 1,53 · 153 palavras/min",
       "voz": "direção nova + shapePauses; A (conta 1) descartada ('não é adianta'); B (conta 2) usada sem edição",
       "commit": "d486f4d",
       "notas": "aprovar transição; ouvir \"Também não adianta\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_23/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/23/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/18h00/ATIVO_NOV26_23_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/18h00/"
     },
     {
       "n": 24,
@@ -340,13 +340,13 @@
       "composition": "ATIVO-NOV26-24",
       "title": "Por que a incorporadora pisa no freio?",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_24/ATIVO_NOV26_24_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/21h00/ATIVO_NOV26_24.mp4",
       "validacao": "11/11 · −14,96 LUFS · 52,35 s · editorial 0/0 · movimento 1,45 · 169 palavras/min",
       "voz": "direção nova + shapePauses; 20/11 madrugada: B vazou direção (cortada, 'Manchate') e cotas estouraram; 20/11 11h UTC: tomada D (conta 1) usada sem edição",
       "commit": "52de3d0",
       "notas": "aprovar transição e o termo 'incorporadora de alto padrão' (foco da Eztec é médio padrão); ouvir \"Eztec\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_24/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/24/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/21h00/ATIVO_NOV26_24_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/27-sexta/21h00/"
     },
     {
       "n": 25,
@@ -354,13 +354,13 @@
       "composition": "ATIVO-NOV26-25",
       "title": "Moradias para uma população mais velha",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_25/ATIVO_NOV26_25_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/08h00/ATIVO_NOV26_25.mp4",
       "validacao": "11/11 · −14,88 LUFS · 48,62 s · editorial 0/0 · movimento 1,38 · 169 palavras/min",
       "voz": "direção nova + shapePauses; A (conta 1) e B (conta 2) limpas; B usada sem edição",
       "commit": "21d156a",
       "notas": "aprovar transição; ouvir \"Imagina\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_25/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/25/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/08h00/ATIVO_NOV26_25_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/08h00/"
     },
     {
       "n": 26,
@@ -368,13 +368,13 @@
       "composition": "ATIVO-NOV26-26",
       "title": "44% dos leads fora do expediente",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_26/ATIVO_NOV26_26_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/10h00/ATIVO_NOV26_26.mp4",
       "validacao": "11/11 · -15.03 LUFS · 52.18 s · editorial 0/0 · movimento 1,44 · 177 palavras/min",
       "voz": "direção nova + shapePauses; A (conta 1) descartada ('manda', 'respeit'); B (conta 2) usada sem edição",
       "commit": "6d3e053",
       "notas": "aprovar transição; ouvir ritmo (177 palavras/min) e \"Secovi\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_26/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/26/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/10h00/ATIVO_NOV26_26_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/10h00/"
     },
     {
       "n": 27,
@@ -382,13 +382,13 @@
       "composition": "ATIVO-NOV26-27",
       "title": "IA substitui corretor?",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_27/ATIVO_NOV26_27_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/12h00/ATIVO_NOV26_27.mp4",
       "validacao": "11/11 · −14,91 LUFS · 62,72 s · editorial 0/0 · movimento 1,40 · 139 palavras/min",
       "voz": "direção nova + shapePauses; A (conta 1) 'como um apoio'; B (conta 2) usada sem edição (ritmo calmo: 63 s brutos nas duas tomadas)",
       "commit": "1e1780a",
       "notas": "aprovar transição; ouvir ritmo (139 palavras/min)",
-      "legenda": "OUTPUT/ATIVO_NOV26_27/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/27/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/12h00/ATIVO_NOV26_27_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/12h00/"
     },
     {
       "n": 28,
@@ -396,13 +396,13 @@
       "composition": "ATIVO-NOV26-28",
       "title": "Concorrente ou parceiro?",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_28/ATIVO_NOV26_28_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/15h00/ATIVO_NOV26_28.mp4",
       "validacao": "11/11 · −14,97 LUFS · 55,64 s · editorial 0/0 · movimento 1,44 · 144 palavras/min",
       "voz": "direção nova + shapePauses; A (conta 1) usada sem edição; B (conta 2) 'atendores', 'Coopera'",
       "commit": "1e1780a",
       "notas": "aprovar transição; ouvir \"discutiram\" e \"Comenta SISTEMA\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_28/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/28/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/15h00/ATIVO_NOV26_28_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/15h00/"
     },
     {
       "n": 29,
@@ -410,13 +410,13 @@
       "composition": "ATIVO-NOV26-29",
       "title": "O comprador quer resposta, não cinco PDFs",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_29/ATIVO_NOV26_29_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/18h00/ATIVO_NOV26_29.mp4",
       "validacao": "11/11 · −14,99 LUFS · 54,78 s · editorial 0/0 · movimento 1,68 · 166 palavras/min",
       "voz": "direção nova + shapePauses; A (conta 1) com palavras fora do roteiro no início; B (conta 2) usada sem edição (ASR 145/145)",
       "commit": "c8be951",
       "notas": "aprovar transição; ouvir a citação entre aspas",
-      "legenda": "OUTPUT/ATIVO_NOV26_29/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/29/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/18h00/ATIVO_NOV26_29_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/18h00/"
     },
     {
       "n": 30,
@@ -424,13 +424,13 @@
       "composition": "ATIVO-NOV26-30",
       "title": "O corretor digital de verdade",
       "status": "entregue",
-      "video": "OUTPUT/ATIVO_NOV26_30/ATIVO_NOV26_30_FINAL.mp4",
+      "video": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/21h00/ATIVO_NOV26_30.mp4",
       "validacao": "11/11 · −14,91 LUFS · 54,85 s · editorial 0/0 · movimento 1,40 · 159 palavras/min",
       "voz": "direção nova + shapePauses; A (conta 1) 'espalhar a informação'; B (conta 2) usada sem edição",
       "commit": "c8be951",
       "notas": "CTA do roteiro já é SISTEMA (sem transição); ouvir \"Secovi\"",
-      "legenda": "OUTPUT/ATIVO_NOV26_30/legenda_instagram.txt",
-      "publicacao": "PUBLICACAO/NOV26/REELS_21_AO_30/30/"
+      "legenda": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/21h00/ATIVO_NOV26_30_legenda.txt",
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-22-28/28-sabado/21h00/"
     }
   ],
   "cota_voz": {

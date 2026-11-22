@@ -6,7 +6,7 @@
  "height": 1920,
  "leadIn": 0.12,
  "tail": 2.2,
- "outputDir": "ATIVO_CASE01",
+ "outputDir": "reels-anteriores/ATIVO_CASE01",
  "deliverables": {
   "final": "ATIVO_CASE01_FINAL.mp4",
   "narration": "ATIVO_CASE01_NARRACAO.wav",

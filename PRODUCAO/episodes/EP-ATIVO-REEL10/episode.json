@@ -6,7 +6,7 @@
  "height": 1920,
  "leadIn": 0.12,
  "tail": 2.2,
- "outputDir": "ATIVO_REEL10",
+ "outputDir": "reels-anteriores/ATIVO_REEL10",
  "deliverables": {
   "final": "ATIVO_REEL10_FINAL.mp4",
   "narration": "ATIVO_REEL10_NARRACAO.wav",

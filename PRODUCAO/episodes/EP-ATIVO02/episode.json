@@ -4,7 +4,7 @@
  "fps": 30,
  "leadIn": 0.12,
  "tail": 2.2,
- "outputDir": "ATIVO_EP02",
+ "outputDir": "reels-anteriores/ATIVO_EP02",
  "deliverables": {
   "final": "ATIVO_EP02_FINAL.mp4",
   "narration": "ATIVO_EP02_NARRACAO.wav",

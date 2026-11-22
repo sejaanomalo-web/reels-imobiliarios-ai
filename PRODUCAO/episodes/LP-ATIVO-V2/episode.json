@@ -7,7 +7,7 @@
  "height": 1080,
  "leadIn": 0.25,
  "tail": 2.6,
- "outputDir": "LP_ATIVO_V2",
+ "outputDir": "landing/LP_ATIVO_V2",
  "deliverables": {
   "final": "LP_ATIVO_V2_16x9_FINAL.mp4",
   "narration": "LP_ATIVO_V2_NARRACAO.wav",

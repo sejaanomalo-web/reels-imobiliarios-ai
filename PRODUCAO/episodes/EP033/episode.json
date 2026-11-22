@@ -1,513 +1,514 @@
 {
- "id": "EP033",
- "title": "Crescer a equipe pode aumentar a confusão",
- "fps": 30,
- "leadIn": 0.12,
- "tail": 1.9,
- "deliverables": {
-  "final": "EP033_FINAL.mp4",
-  "narration": "EP033_NARRACAO.wav"
- },
- "cta": {
-  "type": "comentario",
-  "keyword": "SISTEMA",
-  "channel": "Direct",
-  "original_bio_cta": "Quer estruturar essa rotina em um sistema para sua imobiliária? A demonstração está no link da bio.",
-  "transition_adapted": "Com o processo documentado, fica mais fácil escolher a ferramenta que se adapta a ele.",
-  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct."
- },
- "pronunciation": {
-  "SISTEMA": "sistema"
- },
- "master": {
-  "tp": -2.0
- },
- "segments": [
-  {
-   "id": "s1",
-   "scene": "hook",
-   "text": "Contratar mais corretores não resolve um processo que ninguém entende.",
-   "caption": "*Contratar* | mais *corretores* | não resolve | um *processo* | que *ninguém entende.*",
-   "pauseAfter": 0.3
+  "id": "EP033",
+  "title": "Crescer a equipe pode aumentar a confusão",
+  "fps": 30,
+  "leadIn": 0.12,
+  "tail": 1.9,
+  "deliverables": {
+    "final": "EP033_FINAL.mp4",
+    "narration": "EP033_NARRACAO.wav"
   },
-  {
-   "id": "s2",
-   "scene": "situacao",
-   "text": "Com duas pessoas, as informações talvez caibam na conversa do escritório.",
-   "caption": "Com *duas pessoas,* | as informações | talvez caibam | na *conversa* | do escritório.",
-   "pauseAfter": 0.3
+  "cta": {
+    "type": "comentario",
+    "keyword": "SISTEMA",
+    "channel": "Direct",
+    "original_bio_cta": "Quer estruturar essa rotina em um sistema para sua imobiliária? A demonstração está no link da bio.",
+    "transition_adapted": "Com o processo documentado, fica mais fácil escolher a ferramenta que se adapta a ele.",
+    "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct."
   },
-  {
-   "id": "s3",
-   "scene": "situacao",
-   "text": "Com oito, começam as dúvidas sobre imóveis, leads, visitas e responsáveis.",
-   "caption": "Com *oito,* | começam as *dúvidas* | sobre *imóveis,* | *leads,* *visitas* | e *responsáveis.*",
-   "pauseAfter": 0.3
+  "pronunciation": {
+    "SISTEMA": "sistema"
   },
-  {
-   "id": "s4",
-   "scene": "tensao",
-   "text": "Quando o trabalho depende de alguém explicar tudo de memória, o crescimento amplia a desorganização que já existia.",
-   "caption": "Quando o trabalho | depende de alguém | *explicar tudo* | *de memória,* | o crescimento | *amplia* | a *desorganização* | que já existia.",
-   "pauseAfter": 0.3
+  "master": {
+    "tp": -2.0
   },
-  {
-   "id": "s5",
-   "scene": "insight",
-   "text": "Antes de aumentar a operação, documente as etapas de atendimento, atualização de imóveis e passagem de oportunidades.",
-   "caption": "Antes de aumentar | a operação, | *documente* as etapas | de *atendimento,* | *atualização* de imóveis | e *passagem* | de oportunidades.",
-   "pauseAfter": 0.3
+  "segments": [
+    {
+      "id": "s1",
+      "scene": "hook",
+      "text": "Contratar mais corretores não resolve um processo que ninguém entende.",
+      "caption": "*Contratar* | mais *corretores* | não resolve | um *processo* | que *ninguém entende.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s2",
+      "scene": "situacao",
+      "text": "Com duas pessoas, as informações talvez caibam na conversa do escritório.",
+      "caption": "Com *duas pessoas,* | as informações | talvez caibam | na *conversa* | do escritório.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s3",
+      "scene": "situacao",
+      "text": "Com oito, começam as dúvidas sobre imóveis, leads, visitas e responsáveis.",
+      "caption": "Com *oito,* | começam as *dúvidas* | sobre *imóveis,* | *leads,* *visitas* | e *responsáveis.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s4",
+      "scene": "tensao",
+      "text": "Quando o trabalho depende de alguém explicar tudo de memória, o crescimento amplia a desorganização que já existia.",
+      "caption": "Quando o trabalho | depende de alguém | *explicar tudo* | *de memória,* | o crescimento | *amplia* | a *desorganização* | que já existia.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s5",
+      "scene": "insight",
+      "text": "Antes de aumentar a operação, documente as etapas de atendimento, atualização de imóveis e passagem de oportunidades.",
+      "caption": "Antes de aumentar | a operação, | *documente* as etapas | de *atendimento,* | *atualização* de imóveis | e *passagem* | de oportunidades.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s6",
+      "scene": "insight",
+      "text": "Depois adapte a ferramenta ao processo.",
+      "caption": "*Depois* | adapte a *ferramenta* | ao *processo.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s7",
+      "scene": "cta",
+      "text": "Com o processo documentado, fica mais fácil escolher a ferramenta que se adapta a ele.",
+      "caption": "Com o processo | *documentado,* | fica mais fácil | escolher a ferramenta | que se *adapta* a ele.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s8",
+      "scene": "cta",
+      "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+      "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s9",
+      "scene": "cta",
+      "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+      "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+      "pauseAfter": 0.3
+    }
+  ],
+  "sceneLead": {
+    "situacao": 0.3,
+    "tensao": 0.3,
+    "insight": 0.35,
+    "cta": 0.3
   },
-  {
-   "id": "s6",
-   "scene": "insight",
-   "text": "Depois adapte a ferramenta ao processo.",
-   "caption": "*Depois* | adapte a *ferramenta* | ao *processo.*",
-   "pauseAfter": 0.3
+  "hideCaptions": [
+    "s9"
+  ],
+  "cues": {
+    "hook_hire": {
+      "seg": "s1",
+      "word": "contratar",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "hook_more": {
+      "seg": "s1",
+      "word": "corretores",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "hook_proc": {
+      "seg": "s1",
+      "word": "processo",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "hook_noone": {
+      "seg": "s1",
+      "word": "ninguém",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_two": {
+      "seg": "s2",
+      "word": "duas",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "sit_talk": {
+      "seg": "s2",
+      "word": "conversa",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_eight": {
+      "seg": "s3",
+      "word": "oito",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "sit_doubt": {
+      "seg": "s3",
+      "word": "dúvidas",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_props": {
+      "seg": "s3",
+      "word": "imóveis",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_leads": {
+      "seg": "s3",
+      "word": "leads",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_visits": {
+      "seg": "s3",
+      "word": "visitas",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_owners": {
+      "seg": "s3",
+      "word": "responsáveis",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_work": {
+      "seg": "s4",
+      "word": "trabalho",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ten_explain": {
+      "seg": "s4",
+      "word": "explicar",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_memory": {
+      "seg": "s4",
+      "word": "memória",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_grow": {
+      "seg": "s4",
+      "word": "crescimento",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_mess": {
+      "seg": "s4",
+      "word": "desorganização",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_before": {
+      "seg": "s5",
+      "word": "antes",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ins_doc": {
+      "seg": "s5",
+      "word": "documente",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_t1": {
+      "seg": "s5",
+      "word": "atendimento",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_t2": {
+      "seg": "s5",
+      "word": "atualização",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_t3": {
+      "seg": "s5",
+      "word": "passagem",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_after": {
+      "seg": "s6",
+      "word": "depois",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ins_tool": {
+      "seg": "s6",
+      "word": "ferramenta",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_proc": {
+      "seg": "s6",
+      "word": "processo",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_doc": {
+      "seg": "s7",
+      "word": "com",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_adapt": {
+      "seg": "s7",
+      "word": "adapta",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_sys": {
+      "seg": "s8",
+      "word": "quer",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_tiles": {
+      "seg": "s8",
+      "word": "imóveis",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_comment": {
+      "seg": "s9",
+      "word": "comente",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_word": {
+      "seg": "s9",
+      "word": "sistema",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_direct": {
+      "seg": "s9",
+      "word": "direct",
+      "edge": "start",
+      "offset": -0.15
+    },
+    "cta_end": {
+      "seg": "s9",
+      "word": "direct",
+      "edge": "end"
+    }
   },
-  {
-   "id": "s7",
-   "scene": "cta",
-   "text": "Com o processo documentado, fica mais fácil escolher a ferramenta que se adapta a ele.",
-   "caption": "Com o processo | *documentado,* | fica mais fácil | escolher a ferramenta | que se *adapta* a ele.",
-   "pauseAfter": 0.3
+  "series": {},
+  "sfx": [
+    {
+      "cue": "hook_more",
+      "offset": 0.55,
+      "sound": "shuffle",
+      "gain": -26
+    },
+    {
+      "cue": "hook_noone",
+      "offset": 1.0,
+      "sound": "hollow",
+      "gain": -23,
+      "pitch": -3
+    },
+    {
+      "cue": "sit_two",
+      "offset": -0.4,
+      "sound": "whoosh_up",
+      "gain": -25,
+      "dur": 0.4
+    },
+    {
+      "cue": "sit_eight",
+      "offset": -0.3,
+      "sound": "whoosh_up",
+      "gain": -25,
+      "dur": 0.35
+    },
+    {
+      "cue": "sit_owners",
+      "offset": 0.9,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": -2
+    },
+    {
+      "cue": "ten_mess",
+      "offset": 1.1,
+      "sound": "fade_down",
+      "gain": -23,
+      "dur": 0.8
+    },
+    {
+      "cue": "ins_before",
+      "offset": -0.4,
+      "sound": "whoosh_fold",
+      "gain": -24,
+      "dur": 0.5
+    },
+    {
+      "cue": "ins_t3",
+      "offset": 1.2,
+      "sound": "chord",
+      "gain": -21
+    },
+    {
+      "cue": "ins_after",
+      "offset": 1.0,
+      "sound": "pin",
+      "gain": -24
+    },
+    {
+      "cue": "cta_doc",
+      "offset": -0.15,
+      "sound": "whoosh_up",
+      "gain": -27,
+      "dur": 0.45
+    },
+    {
+      "cue": "cta_tiles",
+      "offset": 0.25,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 0
+    },
+    {
+      "cue": "cta_tiles",
+      "offset": 0.55,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 4
+    },
+    {
+      "cue": "cta_tiles",
+      "offset": 0.85,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 7
+    },
+    {
+      "cue": "cta_comment",
+      "sound": "typing",
+      "gain": -27
+    },
+    {
+      "cue": "cta_word",
+      "offset": 0.35,
+      "sound": "chord",
+      "gain": -19
+    },
+    {
+      "cue": "cta_end",
+      "offset": 0.1,
+      "sound": "notif",
+      "gain": -20,
+      "pitch": 2
+    }
+  ],
+  "music": {
+    "gain": -30,
+    "duck": -5.5,
+    "bpm": 94,
+    "prog": [
+      {
+        "at": 0,
+        "notes": [
+          26,
+          38,
+          50,
+          53,
+          57
+        ],
+        "root": 38,
+        "dens": 2,
+        "bright": 0.4,
+        "label": "Dm — fios embaraçados"
+      },
+      {
+        "at": "cue:sit_two",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57
+        ],
+        "root": 41,
+        "dens": 2,
+        "bright": 0.5,
+        "label": "F — duas pessoas"
+      },
+      {
+        "at": "cue:sit_eight",
+        "notes": [
+          22,
+          34,
+          50,
+          53,
+          58
+        ],
+        "root": 34,
+        "dens": 2,
+        "bright": 0.45,
+        "label": "Bb — oito"
+      },
+      {
+        "at": "cue:ten_work",
+        "notes": [
+          21,
+          33,
+          49,
+          52,
+          57
+        ],
+        "root": 33,
+        "dens": 2,
+        "bright": 0.4,
+        "label": "A — de memória"
+      },
+      {
+        "at": "cue:ins_before",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55
+        ],
+        "root": 36,
+        "dens": 2,
+        "bright": 0.55,
+        "label": "C — documente"
+      },
+      {
+        "at": "cue:cta_doc",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57
+        ],
+        "root": 41,
+        "dens": 2,
+        "bright": 0.55,
+        "label": "F — ferramenta"
+      },
+      {
+        "at": "cue:cta_word",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55,
+          62
+        ],
+        "root": 48,
+        "dens": 2,
+        "bright": 0.6,
+        "label": "Cadd9 — comente"
+      }
+    ]
   },
-  {
-   "id": "s8",
-   "scene": "cta",
-   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
-   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
-   "pauseAfter": 0.3
-  },
-  {
-   "id": "s9",
-   "scene": "cta",
-   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
-   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
-   "pauseAfter": 0.3
-  }
- ],
- "sceneLead": {
-  "situacao": 0.3,
-  "tensao": 0.3,
-  "insight": 0.35,
-  "cta": 0.3
- },
- "hideCaptions": [
-  "s9"
- ],
- "cues": {
-  "hook_hire": {
-   "seg": "s1",
-   "word": "contratar",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "hook_more": {
-   "seg": "s1",
-   "word": "corretores",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "hook_proc": {
-   "seg": "s1",
-   "word": "processo",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "hook_noone": {
-   "seg": "s1",
-   "word": "ninguém",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_two": {
-   "seg": "s2",
-   "word": "duas",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "sit_talk": {
-   "seg": "s2",
-   "word": "conversa",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_eight": {
-   "seg": "s3",
-   "word": "oito",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "sit_doubt": {
-   "seg": "s3",
-   "word": "dúvidas",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_props": {
-   "seg": "s3",
-   "word": "imóveis",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_leads": {
-   "seg": "s3",
-   "word": "leads",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_visits": {
-   "seg": "s3",
-   "word": "visitas",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_owners": {
-   "seg": "s3",
-   "word": "responsáveis",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_work": {
-   "seg": "s4",
-   "word": "trabalho",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "ten_explain": {
-   "seg": "s4",
-   "word": "explicar",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_memory": {
-   "seg": "s4",
-   "word": "memória",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_grow": {
-   "seg": "s4",
-   "word": "crescimento",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_mess": {
-   "seg": "s4",
-   "word": "desorganização",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_before": {
-   "seg": "s5",
-   "word": "antes",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "ins_doc": {
-   "seg": "s5",
-   "word": "documente",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_t1": {
-   "seg": "s5",
-   "word": "atendimento",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_t2": {
-   "seg": "s5",
-   "word": "atualização",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_t3": {
-   "seg": "s5",
-   "word": "passagem",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_after": {
-   "seg": "s6",
-   "word": "depois",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "ins_tool": {
-   "seg": "s6",
-   "word": "ferramenta",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_proc": {
-   "seg": "s6",
-   "word": "processo",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_doc": {
-   "seg": "s7",
-   "word": "com",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "cta_adapt": {
-   "seg": "s7",
-   "word": "adapta",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_sys": {
-   "seg": "s8",
-   "word": "quer",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "cta_tiles": {
-   "seg": "s8",
-   "word": "imóveis",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_comment": {
-   "seg": "s9",
-   "word": "comente",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "cta_word": {
-   "seg": "s9",
-   "word": "sistema",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_direct": {
-   "seg": "s9",
-   "word": "direct",
-   "edge": "start",
-   "offset": -0.15
-  },
-  "cta_end": {
-   "seg": "s9",
-   "word": "direct",
-   "edge": "end"
-  }
- },
- "series": {},
- "sfx": [
-  {
-   "cue": "hook_more",
-   "offset": 0.55,
-   "sound": "shuffle",
-   "gain": -26
-  },
-  {
-   "cue": "hook_noone",
-   "offset": 1.0,
-   "sound": "hollow",
-   "gain": -23,
-   "pitch": -3
-  },
-  {
-   "cue": "sit_two",
-   "offset": -0.4,
-   "sound": "whoosh_up",
-   "gain": -25,
-   "dur": 0.4
-  },
-  {
-   "cue": "sit_eight",
-   "offset": -0.3,
-   "sound": "whoosh_up",
-   "gain": -25,
-   "dur": 0.35
-  },
-  {
-   "cue": "sit_owners",
-   "offset": 0.9,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": -2
-  },
-  {
-   "cue": "ten_mess",
-   "offset": 1.1,
-   "sound": "fade_down",
-   "gain": -23,
-   "dur": 0.8
-  },
-  {
-   "cue": "ins_before",
-   "offset": -0.4,
-   "sound": "whoosh_fold",
-   "gain": -24,
-   "dur": 0.5
-  },
-  {
-   "cue": "ins_t3",
-   "offset": 1.2,
-   "sound": "chord",
-   "gain": -21
-  },
-  {
-   "cue": "ins_after",
-   "offset": 1.0,
-   "sound": "pin",
-   "gain": -24
-  },
-  {
-   "cue": "cta_doc",
-   "offset": -0.15,
-   "sound": "whoosh_up",
-   "gain": -27,
-   "dur": 0.45
-  },
-  {
-   "cue": "cta_tiles",
-   "offset": 0.25,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 0
-  },
-  {
-   "cue": "cta_tiles",
-   "offset": 0.55,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 4
-  },
-  {
-   "cue": "cta_tiles",
-   "offset": 0.85,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 7
-  },
-  {
-   "cue": "cta_comment",
-   "sound": "typing",
-   "gain": -27
-  },
-  {
-   "cue": "cta_word",
-   "offset": 0.35,
-   "sound": "chord",
-   "gain": -19
-  },
-  {
-   "cue": "cta_end",
-   "offset": 0.1,
-   "sound": "notif",
-   "gain": -20,
-   "pitch": 2
-  }
- ],
- "music": {
-  "gain": -30,
-  "duck": -5.5,
-  "bpm": 94,
-  "prog": [
-   {
-    "at": 0,
-    "notes": [
-     26,
-     38,
-     50,
-     53,
-     57
-    ],
-    "root": 38,
-    "dens": 2,
-    "bright": 0.4,
-    "label": "Dm — fios embaraçados"
-   },
-   {
-    "at": "cue:sit_two",
-    "notes": [
-     29,
-     41,
-     48,
-     53,
-     57
-    ],
-    "root": 41,
-    "dens": 2,
-    "bright": 0.5,
-    "label": "F — duas pessoas"
-   },
-   {
-    "at": "cue:sit_eight",
-    "notes": [
-     22,
-     34,
-     50,
-     53,
-     58
-    ],
-    "root": 34,
-    "dens": 2,
-    "bright": 0.45,
-    "label": "Bb — oito"
-   },
-   {
-    "at": "cue:ten_work",
-    "notes": [
-     21,
-     33,
-     49,
-     52,
-     57
-    ],
-    "root": 33,
-    "dens": 2,
-    "bright": 0.4,
-    "label": "A — de memória"
-   },
-   {
-    "at": "cue:ins_before",
-    "notes": [
-     24,
-     36,
-     48,
-     52,
-     55
-    ],
-    "root": 36,
-    "dens": 2,
-    "bright": 0.55,
-    "label": "C — documente"
-   },
-   {
-    "at": "cue:cta_doc",
-    "notes": [
-     29,
-     41,
-     48,
-     53,
-     57
-    ],
-    "root": 41,
-    "dens": 2,
-    "bright": 0.55,
-    "label": "F — ferramenta"
-   },
-   {
-    "at": "cue:cta_word",
-    "notes": [
-     24,
-     36,
-     48,
-     52,
-     55,
-     62
-    ],
-    "root": 48,
-    "dens": 2,
-    "bright": 0.6,
-    "label": "Cadd9 — comente"
-   }
-  ]
- }
+  "outputDir": "reels-anteriores/EP033"
 }

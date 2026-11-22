@@ -1,6 +1,6 @@
 """Gera tomadas da narração de um episódio com direções de voz diferentes e mede cada uma.
 Uso: python3 tools/voice_takes.py EP003 nome1 nome2 ...   (direções em episodes/<EP>/voice_takes.json)
-Saída: OUTPUT/VOICE_AUDITIONS/<EP>_tomada_<nome>.wav + OUTPUT/<EP>/audio/tomadas_metricas.json"""
+Saída: OUTPUT/testes-de-voz/<EP>_tomada_<nome>.wav + OUTPUT/<EP>/audio/tomadas_metricas.json"""
 import os, sys, json, re, difflib
 sys.path.insert(0, os.path.dirname(__file__))
 from tts_common import trim_silence, write_wav, resample, ROOT, MODELS
@@ -28,7 +28,7 @@ d = os.path.join(MODELS, "sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8")
 pk = sherpa_onnx.OfflineRecognizer.from_transducer(encoder=d + "/encoder.int8.onnx", decoder=d + "/decoder.int8.onnx",
                                                    joiner=d + "/joiner.int8.onnx", tokens=d + "/tokens.txt",
                                                    model_type="nemo_transducer", num_threads=4)
-out = os.path.join(REPO, "OUTPUT", "VOICE_AUDITIONS"); os.makedirs(out, exist_ok=True)
+out = os.path.join(REPO, "OUTPUT", "testes-de-voz"); os.makedirs(out, exist_ok=True)
 mpath = os.path.join(REPO, "OUTPUT", ep.get("outputDir", EP), "audio", "tomadas_metricas.json"); os.makedirs(os.path.dirname(mpath), exist_ok=True)
 allm = json.load(open(mpath)) if os.path.exists(mpath) else {}
 for name in NAMES:

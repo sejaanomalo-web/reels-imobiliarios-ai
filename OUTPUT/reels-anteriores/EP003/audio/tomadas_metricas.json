@@ -1,0 +1,43 @@
+{
+ "B_rapida": {
+  "model": "gemini-3.8-flash-tts",
+  "voice": "Puck",
+  "segundos": 27.85,
+  "palavras_min": 198,
+  "pausas_total_s": 3.04,
+  "pausas_pct": 10.9,
+  "maior_pausa_s": 0.71,
+  "entonacao_desvio_semitons": 5.15,
+  "entonacao_faixa_p5_p95_semitons": 17.13,
+  "intensidade_desvio_db": 7.26,
+  "texto_reconhecido": 0.957,
+  "divergencias": [
+   "agendar → agenda a",
+   "∅ → o",
+   "cumpra → compra",
+   "esta → ta"
+  ],
+  "arquivo": "OUTPUT/testes-de-voz/EP003_tomada_B_rapida.wav"
+ },
+ "C_rapida_31": {
+  "model": "gemini-3.1-flash-tts-preview",
+  "voice": "Puck",
+  "segundos": 29.48,
+  "palavras_min": 187,
+  "pausas_total_s": 2.75,
+  "pausas_pct": 9.3,
+  "maior_pausa_s": 0.47,
+  "entonacao_desvio_semitons": 6.23,
+  "entonacao_faixa_p5_p95_semitons": 19.58,
+  "intensidade_desvio_db": 8.71,
+  "texto_reconhecido": 0.946,
+  "divergencias": [
+   "quer agendar → que agenda a",
+   "∅ → o",
+   "um → ∅",
+   "fluxo → ∅",
+   "corretores → corretor"
+  ],
+  "arquivo": "OUTPUT/testes-de-voz/EP003_tomada_C_rapida_31.wav"
+ }
+}

@@ -1,477 +1,478 @@
 {
- "id": "EP032",
- "title": "Você sabe quem retornou ao cliente?",
- "fps": 30,
- "leadIn": 0.12,
- "tail": 1.9,
- "deliverables": {
-  "final": "EP032_FINAL.mp4",
-  "narration": "EP032_NARRACAO.wav"
- },
- "cta": {
-  "type": "comentario",
-  "keyword": "SISTEMA",
-  "channel": "Direct",
-  "original_bio_cta": "Se sua imobiliária precisa dessa visibilidade, conheça nosso sistema personalizado pelo link da bio.",
-  "transition_adapted": "Essa clareza depende de cada lead ter seu histórico registrado.",
-  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct."
- },
- "pronunciation": {
-  "SISTEMA": "sistema"
- },
- "master": {
-  "tp": -2.0
- },
- "segments": [
-  {
-   "id": "s1",
-   "scene": "hook",
-   "text": "Sua equipe tem muitos leads.",
-   "caption": "Sua equipe | tem *muitos leads.*",
-   "pauseAfter": 0.3
+  "id": "EP032",
+  "title": "Você sabe quem retornou ao cliente?",
+  "fps": 30,
+  "leadIn": 0.12,
+  "tail": 1.9,
+  "deliverables": {
+    "final": "EP032_FINAL.mp4",
+    "narration": "EP032_NARRACAO.wav"
   },
-  {
-   "id": "s2",
-   "scene": "hook",
-   "text": "Mas você sabe quais receberam retorno?",
-   "caption": "Mas você sabe | quais receberam | *retorno?*",
-   "pauseAfter": 0.3
+  "cta": {
+    "type": "comentario",
+    "keyword": "SISTEMA",
+    "channel": "Direct",
+    "original_bio_cta": "Se sua imobiliária precisa dessa visibilidade, conheça nosso sistema personalizado pelo link da bio.",
+    "transition_adapted": "Essa clareza depende de cada lead ter seu histórico registrado.",
+    "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct."
   },
-  {
-   "id": "s3",
-   "scene": "situacao",
-   "text": "Na reunião, todo mundo diz que está atendendo.",
-   "caption": "Na *reunião,* | todo mundo diz | que está *atendendo.*",
-   "pauseAfter": 0.3
+  "pronunciation": {
+    "SISTEMA": "sistema"
   },
-  {
-   "id": "s4",
-   "scene": "situacao",
-   "text": "Só que atividade e avanço comercial não são a mesma coisa.",
-   "caption": "Só que *atividade* | e *avanço comercial* | não são | a mesma coisa.",
-   "pauseAfter": 0.3
+  "master": {
+    "tp": -2.0
   },
-  {
-   "id": "s5",
-   "scene": "tensao",
-   "text": "Para acompanhar o processo, observe três coisas: primeiro contato, último movimento e próximo passo definido.",
-   "caption": "Para acompanhar | o processo, | observe *três coisas:* | *primeiro contato,* | *último movimento* | e *próximo passo* | definido.",
-   "pauseAfter": 0.3
+  "segments": [
+    {
+      "id": "s1",
+      "scene": "hook",
+      "text": "Sua equipe tem muitos leads.",
+      "caption": "Sua equipe | tem *muitos leads.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s2",
+      "scene": "hook",
+      "text": "Mas você sabe quais receberam retorno?",
+      "caption": "Mas você sabe | quais receberam | *retorno?*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s3",
+      "scene": "situacao",
+      "text": "Na reunião, todo mundo diz que está atendendo.",
+      "caption": "Na *reunião,* | todo mundo diz | que está *atendendo.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s4",
+      "scene": "situacao",
+      "text": "Só que atividade e avanço comercial não são a mesma coisa.",
+      "caption": "Só que *atividade* | e *avanço comercial* | não são | a mesma coisa.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s5",
+      "scene": "tensao",
+      "text": "Para acompanhar o processo, observe três coisas: primeiro contato, último movimento e próximo passo definido.",
+      "caption": "Para acompanhar | o processo, | observe *três coisas:* | *primeiro contato,* | *último movimento* | e *próximo passo* | definido.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s6",
+      "scene": "insight",
+      "text": "Não é vigiar o corretor a cada minuto.",
+      "caption": "Não é *vigiar* | o corretor | a cada minuto.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s7",
+      "scene": "insight",
+      "text": "É ter clareza para apoiar oportunidades que ficaram sem sequência e corrigir gargalos reais.",
+      "caption": "É ter *clareza* | para *apoiar* | oportunidades | que ficaram *sem sequência* | e corrigir | *gargalos reais.*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s8",
+      "scene": "cta",
+      "text": "Essa clareza depende de cada lead ter seu histórico registrado.",
+      "caption": "Essa clareza | depende de cada lead | ter seu *histórico* | registrado.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s9",
+      "scene": "cta",
+      "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+      "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s10",
+      "scene": "cta",
+      "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+      "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+      "pauseAfter": 0.3
+    }
+  ],
+  "sceneLead": {
+    "situacao": 0.3,
+    "tensao": 0.3,
+    "insight": 0.35,
+    "cta": 0.3
   },
-  {
-   "id": "s6",
-   "scene": "insight",
-   "text": "Não é vigiar o corretor a cada minuto.",
-   "caption": "Não é *vigiar* | o corretor | a cada minuto.",
-   "pauseAfter": 0.3
+  "hideCaptions": [
+    "s10"
+  ],
+  "cues": {
+    "hook_team": {
+      "seg": "s1",
+      "word": "equipe",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "hook_many": {
+      "seg": "s1",
+      "word": "muitos",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "hook_know": {
+      "seg": "s2",
+      "word": "sabe",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "hook_ret": {
+      "seg": "s2",
+      "word": "retorno",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_meet": {
+      "seg": "s3",
+      "word": "reunião",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "sit_all": {
+      "seg": "s3",
+      "word": "todo",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_atend": {
+      "seg": "s3",
+      "word": "atendendo",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_act": {
+      "seg": "s4",
+      "word": "atividade",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_adv": {
+      "seg": "s4",
+      "word": "avanço",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "sit_same": {
+      "seg": "s4",
+      "word": "mesma",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_follow": {
+      "seg": "s5",
+      "word": "acompanhar",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "ten_three": {
+      "seg": "s5",
+      "word": "três",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_first": {
+      "seg": "s5",
+      "word": "primeiro",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_last": {
+      "seg": "s5",
+      "word": "último",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ten_next": {
+      "seg": "s5",
+      "word": "próximo",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_watch": {
+      "seg": "s6",
+      "word": "vigiar",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_clear": {
+      "seg": "s7",
+      "word": "clareza",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_help": {
+      "seg": "s7",
+      "word": "apoiar",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_noseq": {
+      "seg": "s7",
+      "word": "sequência",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "ins_fix": {
+      "seg": "s7",
+      "word": "gargalos",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_hist": {
+      "seg": "s8",
+      "word": "essa",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_reg": {
+      "seg": "s8",
+      "word": "registrado",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_sys": {
+      "seg": "s9",
+      "word": "quer",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_tiles": {
+      "seg": "s9",
+      "word": "imóveis",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_comment": {
+      "seg": "s10",
+      "word": "comente",
+      "edge": "start",
+      "offset": -0.1
+    },
+    "cta_word": {
+      "seg": "s10",
+      "word": "sistema",
+      "edge": "start",
+      "offset": -0.05
+    },
+    "cta_direct": {
+      "seg": "s10",
+      "word": "direct",
+      "edge": "start",
+      "offset": -0.15
+    },
+    "cta_end": {
+      "seg": "s10",
+      "word": "direct",
+      "edge": "end"
+    }
   },
-  {
-   "id": "s7",
-   "scene": "insight",
-   "text": "É ter clareza para apoiar oportunidades que ficaram sem sequência e corrigir gargalos reais.",
-   "caption": "É ter *clareza* | para *apoiar* | oportunidades | que ficaram *sem sequência* | e corrigir | *gargalos reais.*",
-   "pauseAfter": 0.3
+  "series": {},
+  "sfx": [
+    {
+      "cue": "hook_ret",
+      "offset": 0.65,
+      "sound": "hollow",
+      "gain": -23,
+      "pitch": -2
+    },
+    {
+      "cue": "sit_meet",
+      "offset": -0.4,
+      "sound": "whoosh_up",
+      "gain": -25,
+      "dur": 0.4
+    },
+    {
+      "cue": "sit_same",
+      "offset": 0.75,
+      "sound": "fade_down",
+      "gain": -24,
+      "dur": 0.7
+    },
+    {
+      "cue": "ten_follow",
+      "offset": -0.35,
+      "sound": "swish",
+      "gain": -24
+    },
+    {
+      "cue": "ten_next",
+      "offset": 1.1,
+      "sound": "pop",
+      "gain": -22,
+      "pitch": 5
+    },
+    {
+      "cue": "ins_watch",
+      "offset": 0.55,
+      "sound": "block",
+      "gain": -24
+    },
+    {
+      "cue": "ins_fix",
+      "offset": 1.0,
+      "sound": "chord",
+      "gain": -21
+    },
+    {
+      "cue": "cta_hist",
+      "offset": -0.45,
+      "sound": "whoosh_up",
+      "gain": -24,
+      "dur": 0.45
+    },
+    {
+      "cue": "cta_tiles",
+      "offset": 0.25,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 0
+    },
+    {
+      "cue": "cta_tiles",
+      "offset": 0.55,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 4
+    },
+    {
+      "cue": "cta_tiles",
+      "offset": 0.85,
+      "sound": "pop",
+      "gain": -23,
+      "pitch": 7
+    },
+    {
+      "cue": "cta_comment",
+      "sound": "typing",
+      "gain": -27
+    },
+    {
+      "cue": "cta_word",
+      "offset": 0.35,
+      "sound": "chord",
+      "gain": -19
+    },
+    {
+      "cue": "cta_end",
+      "offset": 0.1,
+      "sound": "notif",
+      "gain": -20,
+      "pitch": 2
+    }
+  ],
+  "music": {
+    "gain": -30,
+    "duck": -5.5,
+    "bpm": 92,
+    "prog": [
+      {
+        "at": 0,
+        "notes": [
+          33,
+          45,
+          52,
+          57,
+          60
+        ],
+        "root": 45,
+        "dens": 2,
+        "bright": 0.4,
+        "label": "Am — quais receberam retorno?"
+      },
+      {
+        "at": "cue:sit_meet",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57
+        ],
+        "root": 41,
+        "dens": 2,
+        "bright": 0.45,
+        "label": "F — a reunião"
+      },
+      {
+        "at": "cue:ten_follow",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55
+        ],
+        "root": 36,
+        "dens": 2,
+        "bright": 0.5,
+        "label": "C — três coisas"
+      },
+      {
+        "at": "cue:ins_watch",
+        "notes": [
+          31,
+          43,
+          50,
+          55,
+          59
+        ],
+        "root": 43,
+        "dens": 2,
+        "bright": 0.5,
+        "label": "G — não é vigiar"
+      },
+      {
+        "at": "cue:ins_fix",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55,
+          62
+        ],
+        "root": 48,
+        "dens": 2,
+        "bright": 0.6,
+        "label": "Cadd9 — gargalos reais"
+      },
+      {
+        "at": "cue:cta_hist",
+        "notes": [
+          29,
+          41,
+          48,
+          53,
+          57
+        ],
+        "root": 41,
+        "dens": 2,
+        "bright": 0.55,
+        "label": "F — histórico"
+      },
+      {
+        "at": "cue:cta_word",
+        "notes": [
+          24,
+          36,
+          48,
+          52,
+          55,
+          62
+        ],
+        "root": 48,
+        "dens": 2,
+        "bright": 0.6,
+        "label": "Cadd9 — comente"
+      }
+    ]
   },
-  {
-   "id": "s8",
-   "scene": "cta",
-   "text": "Essa clareza depende de cada lead ter seu histórico registrado.",
-   "caption": "Essa clareza | depende de cada lead | ter seu *histórico* | registrado.",
-   "pauseAfter": 0.3
-  },
-  {
-   "id": "s9",
-   "scene": "cta",
-   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
-   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
-   "pauseAfter": 0.3
-  },
-  {
-   "id": "s10",
-   "scene": "cta",
-   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
-   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
-   "pauseAfter": 0.3
-  }
- ],
- "sceneLead": {
-  "situacao": 0.3,
-  "tensao": 0.3,
-  "insight": 0.35,
-  "cta": 0.3
- },
- "hideCaptions": [
-  "s10"
- ],
- "cues": {
-  "hook_team": {
-   "seg": "s1",
-   "word": "equipe",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "hook_many": {
-   "seg": "s1",
-   "word": "muitos",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "hook_know": {
-   "seg": "s2",
-   "word": "sabe",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "hook_ret": {
-   "seg": "s2",
-   "word": "retorno",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_meet": {
-   "seg": "s3",
-   "word": "reunião",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "sit_all": {
-   "seg": "s3",
-   "word": "todo",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_atend": {
-   "seg": "s3",
-   "word": "atendendo",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_act": {
-   "seg": "s4",
-   "word": "atividade",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_adv": {
-   "seg": "s4",
-   "word": "avanço",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "sit_same": {
-   "seg": "s4",
-   "word": "mesma",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_follow": {
-   "seg": "s5",
-   "word": "acompanhar",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "ten_three": {
-   "seg": "s5",
-   "word": "três",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_first": {
-   "seg": "s5",
-   "word": "primeiro",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_last": {
-   "seg": "s5",
-   "word": "último",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ten_next": {
-   "seg": "s5",
-   "word": "próximo",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_watch": {
-   "seg": "s6",
-   "word": "vigiar",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_clear": {
-   "seg": "s7",
-   "word": "clareza",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_help": {
-   "seg": "s7",
-   "word": "apoiar",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_noseq": {
-   "seg": "s7",
-   "word": "sequência",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "ins_fix": {
-   "seg": "s7",
-   "word": "gargalos",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_hist": {
-   "seg": "s8",
-   "word": "essa",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "cta_reg": {
-   "seg": "s8",
-   "word": "registrado",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_sys": {
-   "seg": "s9",
-   "word": "quer",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "cta_tiles": {
-   "seg": "s9",
-   "word": "imóveis",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_comment": {
-   "seg": "s10",
-   "word": "comente",
-   "edge": "start",
-   "offset": -0.1
-  },
-  "cta_word": {
-   "seg": "s10",
-   "word": "sistema",
-   "edge": "start",
-   "offset": -0.05
-  },
-  "cta_direct": {
-   "seg": "s10",
-   "word": "direct",
-   "edge": "start",
-   "offset": -0.15
-  },
-  "cta_end": {
-   "seg": "s10",
-   "word": "direct",
-   "edge": "end"
-  }
- },
- "series": {},
- "sfx": [
-  {
-   "cue": "hook_ret",
-   "offset": 0.65,
-   "sound": "hollow",
-   "gain": -23,
-   "pitch": -2
-  },
-  {
-   "cue": "sit_meet",
-   "offset": -0.4,
-   "sound": "whoosh_up",
-   "gain": -25,
-   "dur": 0.4
-  },
-  {
-   "cue": "sit_same",
-   "offset": 0.75,
-   "sound": "fade_down",
-   "gain": -24,
-   "dur": 0.7
-  },
-  {
-   "cue": "ten_follow",
-   "offset": -0.35,
-   "sound": "swish",
-   "gain": -24
-  },
-  {
-   "cue": "ten_next",
-   "offset": 1.1,
-   "sound": "pop",
-   "gain": -22,
-   "pitch": 5
-  },
-  {
-   "cue": "ins_watch",
-   "offset": 0.55,
-   "sound": "block",
-   "gain": -24
-  },
-  {
-   "cue": "ins_fix",
-   "offset": 1.0,
-   "sound": "chord",
-   "gain": -21
-  },
-  {
-   "cue": "cta_hist",
-   "offset": -0.45,
-   "sound": "whoosh_up",
-   "gain": -24,
-   "dur": 0.45
-  },
-  {
-   "cue": "cta_tiles",
-   "offset": 0.25,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 0
-  },
-  {
-   "cue": "cta_tiles",
-   "offset": 0.55,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 4
-  },
-  {
-   "cue": "cta_tiles",
-   "offset": 0.85,
-   "sound": "pop",
-   "gain": -23,
-   "pitch": 7
-  },
-  {
-   "cue": "cta_comment",
-   "sound": "typing",
-   "gain": -27
-  },
-  {
-   "cue": "cta_word",
-   "offset": 0.35,
-   "sound": "chord",
-   "gain": -19
-  },
-  {
-   "cue": "cta_end",
-   "offset": 0.1,
-   "sound": "notif",
-   "gain": -20,
-   "pitch": 2
-  }
- ],
- "music": {
-  "gain": -30,
-  "duck": -5.5,
-  "bpm": 92,
-  "prog": [
-   {
-    "at": 0,
-    "notes": [
-     33,
-     45,
-     52,
-     57,
-     60
-    ],
-    "root": 45,
-    "dens": 2,
-    "bright": 0.4,
-    "label": "Am — quais receberam retorno?"
-   },
-   {
-    "at": "cue:sit_meet",
-    "notes": [
-     29,
-     41,
-     48,
-     53,
-     57
-    ],
-    "root": 41,
-    "dens": 2,
-    "bright": 0.45,
-    "label": "F — a reunião"
-   },
-   {
-    "at": "cue:ten_follow",
-    "notes": [
-     24,
-     36,
-     48,
-     52,
-     55
-    ],
-    "root": 36,
-    "dens": 2,
-    "bright": 0.5,
-    "label": "C — três coisas"
-   },
-   {
-    "at": "cue:ins_watch",
-    "notes": [
-     31,
-     43,
-     50,
-     55,
-     59
-    ],
-    "root": 43,
-    "dens": 2,
-    "bright": 0.5,
-    "label": "G — não é vigiar"
-   },
-   {
-    "at": "cue:ins_fix",
-    "notes": [
-     24,
-     36,
-     48,
-     52,
-     55,
-     62
-    ],
-    "root": 48,
-    "dens": 2,
-    "bright": 0.6,
-    "label": "Cadd9 — gargalos reais"
-   },
-   {
-    "at": "cue:cta_hist",
-    "notes": [
-     29,
-     41,
-     48,
-     53,
-     57
-    ],
-    "root": 41,
-    "dens": 2,
-    "bright": 0.55,
-    "label": "F — histórico"
-   },
-   {
-    "at": "cue:cta_word",
-    "notes": [
-     24,
-     36,
-     48,
-     52,
-     55,
-     62
-    ],
-    "root": 48,
-    "dens": 2,
-    "bright": 0.6,
-    "label": "Cadd9 — comente"
-   }
-  ]
- }
+  "outputDir": "reels-anteriores/EP032"
 }

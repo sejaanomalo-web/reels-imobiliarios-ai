@@ -1,4 +1,4 @@
-<!-- Roteiro enviado pelo cliente em 16/11/2026 (ATIVO_Reel_03_MONICA_POPLAWSKI_PREPARO.md), produzido como EP-ATIVO-CASE03. CORREÇÃO FACTUAL (pendente de aprovação): "aluguéis de oitocentos reais" → "aluguéis de novecentos reais" (InfoMoney: "comecei fazendo uma locação pequenininha, de R$ 900"). CTA: "Salva este vídeo e" removido (regra 14/11/2026); "Escolhe um imóvel da sua carteira para estudar com mais profundidade hoje." mantido como transição + CTA SISTEMA. Fontes em OUTPUT/ATIVO_CASE03/relatorio_qa.md. -->
+<!-- Roteiro enviado pelo cliente em 16/11/2026 (ATIVO_Reel_03_MONICA_POPLAWSKI_PREPARO.md), produzido como EP-ATIVO-CASE03. CORREÇÃO FACTUAL (pendente de aprovação): "aluguéis de oitocentos reais" → "aluguéis de novecentos reais" (InfoMoney: "comecei fazendo uma locação pequenininha, de R$ 900"). CTA: "Salva este vídeo e" removido (regra 14/11/2026); "Escolhe um imóvel da sua carteira para estudar com mais profundidade hoje." mantido como transição + CTA SISTEMA. Fontes em OUTPUT/reels-anteriores/ATIVO_CASE03/relatorio_qa.md. -->
 
 # ATIVO — EPISÓDIO 03: Mônica Poplawski: o preparo vem antes do alto padrão
 

@@ -28,8 +28,7 @@
 
 ## Entrega para publicação (pedido do cliente, 19/11/2026)
 - Cada episódio entregue precisa de **vídeo + capa + legenda** (`OUTPUT/ATIVO_NOV26_##/legenda_instagram.txt`, padrão `PROMPTS/GUIA_LEGENDAS_INSTAGRAM_ATIVO.md`: 1ª linha fixa da CTA SISTEMA, sem Markdown, 5 hashtags minúsculas). Conferir com `python3 tools/legenda_check.py ATIVO_NOV26_##`.
-- Depois, montar a pasta de publicação: `python3 tools/publicar_lote.py NOV26 <n>` → `PUBLICACAO/NOV26/REELS_01_AO_10/01/` (grupos de 10: `REELS_11_AO_20`, `REELS_21_AO_30`). Cada pasta: `ATIVO_NOV26_##.mp4`, `ATIVO_NOV26_##_capa.png`, `ATIVO_NOV26_##_legenda.docx` (um parágrafo por linha, sem negrito, para copiar e colar no Instagram) e o mesmo texto em `.txt`.
-- O script só copia arquivos já validados e recusa entrega incompleta. Não renderiza nem gera voz.
+- Depois, publicar: `python3 tools/publicar.py <EPISÓDIO> --quando "AAAA-MM-DD HH:MM"` → `PUBLICACAO/AAAA/MM-mes/semana-DD-DD/DD-dia/HHhMM/` (a pasta define o horário do post). Cada pasta de horário tem só `<ID>.mp4`, `<ID>_capa.jpg`, `<ID>_legenda.txt` e `bastidores/` (QA, SRT, validação). O script MOVE as entregas de `OUTPUT/` (sem duplicar), recusa entrega incompleta e legenda reprovada. Não renderiza nem gera voz.
 
 ## Voz — regra do cliente de 19/11/2026 (a partir do NOV26_05)
 - **Voz (regra do cliente, 19/11/2026, atualizada à tarde — a partir do NOV26_08):** calorosa e contagiante, ritmo dinâmico **mas humano, respeitando pausas de respiração e de suspense** (nem embolado, nem arrastado). Todo `episode.json` leva `"voice": {"shapePauses": {"keepUnder": 0.22, "ratio": 0.6, "max": 0.6}}` (o gerador já inclui; substitui o `tightenPauses` 0,09 s de NOV26_05–07). Continua 1,0×, sem `targetWpm`/time-stretch. Ver o topo de `PROMPTS/GUIA_MELHORIA_CONTINUA.md`.
