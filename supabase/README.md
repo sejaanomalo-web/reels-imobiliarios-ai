@@ -23,6 +23,19 @@ Segurança: `state` de uso único + PKCE (S256); tabelas `yt_*` com RLS e sem ac
 
 **Atenção:** com a tela de consentimento do Google em status "Teste", o refresh token vence em 7 dias. Publique o app ("Em produção") antes de conectar o canal definitivo.
 
+**Desconectar o canal:** `select public.yt_desconectar('ativo');`. Exclui o refresh token do Vault, o registro do canal e os códigos de autorização (migração `20261122_yt_desconectar.sql`). É o que garante a promessa da Política de Privacidade.
+
+**Páginas públicas do app** (exigidas pela tela de consentimento do Google; ficam no repositório `sejaanomalo-web/LP-ATIVO`, publicado em sejaativo.com.br):
+
+| Campo do Google (Branding) | Endereço |
+|---|---|
+| Application home page | `https://www.sejaativo.com.br/publicador` |
+| Application privacy policy link | `https://www.sejaativo.com.br/publicador/privacidade` |
+| Application terms of service link | `https://www.sejaativo.com.br/publicador/termos` |
+| Authorized domains | `sejaativo.com.br` |
+
+Se as práticas descritas mudarem (escopos, armazenamento, retenção), atualize as páginas no mesmo commit da mudança.
+
 ## Outras funções (não versionadas aqui ainda)
 
 `ig-publicador` (fila do Instagram, v3 de 22/11/2026) e `sentinela`.
