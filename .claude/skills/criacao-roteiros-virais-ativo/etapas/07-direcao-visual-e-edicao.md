@@ -26,6 +26,7 @@ Dar ao editor, apresentador ou Claude Code produtor um plano gravável/renderiz�
 
    Sugira a **atmosfera** de cada cena (neutra, explicação, dilema, dados, memória, tensão, solução) em vez de cores soltas. Nenhum modelo pode sugerir outra paleta.
 10. Não presumir a estética antes da ideia: a ATIVO produz em 4 modelos (Cartoon, Pictograma, Planta técnica, Maquete 3D), cada um com skill e kit; o modelo do roteiro é escolhido **por adequação** na grade do dia (tabela de compatibilidade e guardrails em `PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md` §6). A Skill Mestre **sugere** o modelo com uma frase de justificativa narrativa, mas deve respeitar a decisão do usuário sobre modelo. A escolha do modelo de edição NÃO muda a recompensa nem o texto falado sem aprovação.
+10b. **Ficha musical** (MODELO_DE_ENTREGA): curva emocional da história e as frases-âncora (virada, descoberta, insight…) para a trilha do catálogo `TRILHAS/` seguir a narrativa. Sugerir a trilha por adequação (`python3 PRODUCAO/tools/trilhas.py sugerir`), nunca por hábito; respiros e microdrops só onde há virada ou revelação. A duração da história manda: nunca cortar fala para caber na música.
 11. Para integração técnica, entregar shotlist com função, visual, transição, texto, assets e riscos. Depois da aprovação, o produtor usa seus próprios procedimentos de voz, editáveis, QA e render.
 
 ## Checklist de vídeo assistido sem áudio

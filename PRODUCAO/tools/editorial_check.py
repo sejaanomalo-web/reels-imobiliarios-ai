@@ -179,6 +179,33 @@ def check(ep_id: str) -> int:
                 errs.append(f"esteira: estilo {n} exige cenas com o kit src/{KITS[n]}.tsx")
             if n == 5 and re.search(r"estilos/(palitinho|lousa|planta|tipografia)", src_all):
                 errs.append("esteira: estilo 5 (Painel) não deve usar kits dos estilos 1–4")
+    # 9-1. SISTEMA MUSICAL (TRILHAS/README.md, 23/11/2026): trilha do catálogo, âncoras válidas e licença
+    _mus = ep.get("music") or {}
+    if _mus.get("trilha"):
+        try:
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            import trilhas as _TRK
+            _tk = _TRK.trilha(_mus["trilha"])
+            _fn = set(_TRK.catalogo()["funcoes_narrativas"])
+            for _f, _v in (_mus.get("ancoras") or {}).items():
+                if _f not in _fn:
+                    errs.append(f"trilha: âncora {_f!r} não é função narrativa ({', '.join(sorted(_fn))})")
+                elif isinstance(_v, str) and _v.startswith("cue:") and _v[4:] not in (ep.get("cues") or {}):
+                    errs.append(f"trilha: âncora {_f} aponta para cue inexistente {_v}")
+                elif _f not in _tk["funcoes"]:
+                    warns.append(f"trilha {_tk['id']}: não tem evento para '{_f}' (a âncora vira efeito/respiro)")
+            _st = _tk["licenca"]["status"]
+            if _st == "bloqueada":
+                errs.append(f"trilha {_tk['id']} está BLOQUEADA no catálogo")
+            elif not _TRK.publicavel(_tk):
+                warns.append(f"trilha {_tk['id']} com licença `{_st}`: só teste interno — publicar.py recusa (TRILHAS/README.md)")
+            if not os.path.exists(_TRK.master_path(_tk)):
+                warns.append(f"trilha {_tk['id']}: master ausente nesta sessão (TRILHAS/masters/) — build_audio vai parar")
+            _gs = (ep.get("grade") or {}).get("trilha")
+            if _gs and _gs != _tk["id"]:
+                errs.append(f"trilha: a grade escolheu {_gs}, o episódio usa {_tk['id']}")
+        except SystemExit as _e:
+            errs.append(f"trilha: {_e}")
     # 9b. TERCEIRO MODELO / ESTILO 3 — PLANTA TÉCNICA v2 (skill .claude/skills/terceiro-modelo-planta-tecnica, 23/11/2026).
     #     Fora da esteira (formato planta-tecnica / ATIVO-PLANTA): kit, fundo, mergulho e fecho CtaPlanta. Na esteira (estilo 3):
     #     kit v2 (FundoPlanta + mergulho); fecho Cta padrão ou CtaPlanta. Os episódios entregues no v1 são legado do modelo.

@@ -42,6 +42,9 @@ EM_PRODUCAO = ("producao", "pronto", "programado", "publicado")
 MAX_MODELO_DIA = 2
 MIN_MODELOS_DIA = 3
 MAX_MODELO_SEMANA = 0.40
+MAX_TRILHA_DIA = 1
+MAX_TRILHA_SEMANA = 0.25
+CATALOGO_TRILHAS = os.path.join(REPO, "TRILHAS", "trilhas.json")
 MAX_REF_MODELOS_DIA = 2
 JANELA_AGORA_DIAS = 7
 
@@ -73,7 +76,7 @@ def salvar(g: dict) -> None:
 
 def slot_vazio(h: str) -> dict:
     return {"horario": h, "territorio": "", "origem": "", "origemRef": "", "dataFato": "", "pushPull": "", "ideia": "",
-            "porQueAssistir": "", "recompensa": "", "modelo": "", "justificativaModelo": "", "justificativaHorario": "",
+            "porQueAssistir": "", "recompensa": "", "modelo": "", "justificativaModelo": "", "justificativaHorario": "", "trilha": "", "justificativaTrilha": "",
             "episodio": "", "roteiro": "", "status": "ideia", "motivo": "", "resultados": {}}
 
 
@@ -82,7 +85,7 @@ def nova(data: str) -> str:
     if os.path.exists(caminho(data)):
         raise SystemExit(f"grade {data} já existe — não sobrescrevo ({caminho(data)})")
     salvar({"data": data, "versao": 1, "status": "rascunho",
-            "justificativas": {"territorios": "", "pushPull": "", "modelos": "", "modelos_ref": ""},
+            "justificativas": {"territorios": "", "pushPull": "", "modelos": "", "modelos_ref": "", "trilhas": ""},
             "radar": [], "slots": [slot_vazio(h) for h in HORARIOS]})
     return caminho(data)
 
@@ -214,6 +217,33 @@ def validar(g: dict) -> tuple:
     if total >= 12:
         for m, n in semana.items():
             guard(n / total > MAX_MODELO_SEMANA, f"{MODELOS.get(m, m)} = {n}/{total} ({n / total:.0%}) nos últimos 7 dias (máximo {MAX_MODELO_SEMANA:.0%})", "modelos")
+    # Sistema Musical (TRILHAS/README.md): trilha por adequação + guardrails de repetição
+    ids_trilha = set()
+    if os.path.exists(CATALOGO_TRILHAS):
+        ids_trilha = {t["id"] for t in json.load(open(CATALOGO_TRILHAS, encoding="utf-8"))["trilhas"]}
+    trs = [(s.get("horario"), s.get("trilha")) for s in ativos if s.get("trilha")]
+    for h, tr in trs:
+        if ids_trilha and tr not in ids_trilha:
+            erros.append(f"{h}: trilha {tr} não existe em TRILHAS/trilhas.json")
+    for s in ativos:
+        if s.get("trilha") and not (s.get("justificativaTrilha") or "").strip() and s.get("status") in EM_PRODUCAO:
+            erros.append(f"{s.get('horario')}: em produção com trilha sem `justificativaTrilha`")
+    ct = {}
+    for _, tr in trs:
+        ct[tr] = ct.get(tr, 0) + 1
+    for tr, n in ct.items():
+        guard(n > MAX_TRILHA_DIA, f"trilha {tr} usada {n}× no dia (máximo {MAX_TRILHA_DIA})", "trilhas")
+    for i in range(1, len(trs)):
+        guard(trs[i][1] == trs[i - 1][1], f"trilha {trs[i][1]} em slots seguidos ({trs[i - 1][0]} e {trs[i][0]})", "trilhas")
+    sem_t, tot_t = {}, 0
+    for gg in _grades_janela(data):
+        for s in gg.get("slots", []):
+            if s.get("trilha") and s.get("status") not in ("descartado", "vazio"):
+                sem_t[s["trilha"]] = sem_t.get(s["trilha"], 0) + 1
+                tot_t += 1
+    if tot_t >= 12:
+        for tr, n in sem_t.items():
+            guard(n / tot_t > MAX_TRILHA_SEMANA, f"trilha {tr} = {n}/{tot_t} ({n / tot_t:.0%}) nos últimos 7 dias (máximo {MAX_TRILHA_SEMANA:.0%})", "trilhas")
     return erros, avisos
 
 
@@ -230,7 +260,7 @@ def slot_do_episodio(ep_id: str):
     return None, None
 
 
-def atribuir(data: str, horario: str, ep_id: str, formato: str) -> dict:
+def atribuir(data: str, horario: str, ep_id: str, formato: str, trilha: str = None) -> dict:
     """Liga o episódio ao slot (chamado por novo_episodio.build). Exige a pauta preenchida e o roteiro aprovado
     (status `roteiro_aprovado` = Aprovação 2 registrada). Idempotente para o mesmo episódio. Recusa se a grade
     ficar com qualquer ERRO (guardrail sem justificativa, campo faltando, horário inválido)."""
@@ -255,6 +285,12 @@ def atribuir(data: str, horario: str, ep_id: str, formato: str) -> dict:
         raise SystemExit(f"formato {formato} não é um dos 4 modelos ({', '.join(MODELOS)})")
     if s.get("modelo") and s["modelo"] != formato:
         raise SystemExit(f"grade {data} {horario} escolheu o modelo {s['modelo']}, não {formato} — ajuste a grade (com justificativa) ou o formato")
+    if trilha and s.get("trilha") and s["trilha"] != trilha:
+        raise SystemExit(f"grade {data} {horario} escolheu a trilha {s['trilha']}, não {trilha} — ajuste a grade (com justificativa) ou a trilha")
+    if trilha:
+        s["trilha"] = trilha
+        if not (s.get("justificativaTrilha") or "").strip():
+            raise SystemExit(f"grade {data} {horario}: preencha `justificativaTrilha` (por que esta trilha serve a esta história)")
     s["modelo"] = formato
     s["episodio"] = ep_id
     if s.get("status") == "roteiro_aprovado":
@@ -318,7 +354,7 @@ def main(argv):
         return 0
     if cmd == "semana":
         data = argv[2] if len(argv) > 2 else dt.date.today().isoformat()
-        cont = {"territorio": {}, "modelo": {}, "pushPull": {}, "horario": {}}
+        cont = {"territorio": {}, "modelo": {}, "trilha": {}, "pushPull": {}, "horario": {}}
         medias = {k: {} for k in cont}
         n = 0
         for g in _grades_janela(data):

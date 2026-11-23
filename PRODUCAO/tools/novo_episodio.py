@@ -9,6 +9,8 @@
 Uso (a partir de PRODUCAO/): from novo_episodio import build, fx
   build(ep_id="ATIVO-D1126-08", out="ATIVO_D1126_08", lote="D1126", fonte="ROTEIROS/…", title=..., S, L, sfx, prog, cta, diag, apur, lead,
         formato="maquete-3d", grade="2026-11-26", slot="08:00")
+- Sistema Musical: `trilha="T03"` (TRILHAS/trilhas.json) e `ancoras={"descoberta": "cue:b_out", "insight": "cue:c_corr"}` gravam music.trilha/ancoras;
+  build_audio.py passa à mixagem v2 (trilha adaptada à história, sem esticar). Sem trilha, a trilha sintetizada de sempre.
 Inclui a CTA SISTEMA (salvo cta_in_script=True), voice.shapePauses (pausas naturais) e a mesma base técnica do lote NOV26
 (verde #02FB3F via kit A/aa, mix −15 LUFS)."""
 import json, re, os, sys
@@ -17,7 +19,8 @@ from novo_episodio_nov26 import W, CTA, fx  # noqa: F401  (fx reexportado)
 import esteira
 import grade as grade_mod
 
-def build(ep_id, out, lote, fonte, title, S, L, sfx, prog, cta, diag, apur, lead, cta_in_script=False, formato=None, grade=None, slot=None):
+def build(ep_id, out, lote, fonte, title, S, L, sfx, prog, cta, diag, apur, lead, cta_in_script=False, formato=None, grade=None, slot=None,
+          trilha=None, ancoras=None):
     """formato="cartoon-explicativo" (Primeiro modelo), "pictograma-cinematografico" (Segundo), "planta-tecnica" (Terceiro) ou "maquete-3d" (Quarto),
     escolhido por adequação; grade/slot = horário da grade do dia (tools/grade.py). Cria os cues do fecho (cta_leads/cta_atend), troca os SFX da
     CTA pelos do fecho do modelo, liga o episódio ao slot e registra o modelo (tools/esteira.py). Não usa a esteira de 5 estilos (arquivada)."""
@@ -83,15 +86,34 @@ def build(ep_id, out, lote, fonte, title, S, L, sfx, prog, cta, diag, apur, lead
               fonte=fonte, apuracao=apur, diagnostico=diag, cta=cta, segments=segs,
               voice={"shapePauses": {"keepUnder": 0.22, "ratio": 0.6, "max": 0.6}, "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"},
               sceneLead=lead, hideCaptions=[], cues=C, series={}, sfx=sfx, music=dict(gain=-30, duck=-5.5, bpm=88, prog=prog))
+    # Sistema Musical (TRILHAS/README.md): trilha do catálogo + âncoras narrativas (função → cue do roteiro)
+    if trilha:
+        import trilhas as _TR
+        _t = _TR.trilha(trilha)
+        validas = set(_TR.catalogo()["funcoes_narrativas"])
+        anc = dict(ancoras or {})
+        for f, v in anc.items():
+            if f not in validas:
+                raise SystemExit(f"âncora {f!r} inválida (use {', '.join(sorted(validas))})")
+            if not (isinstance(v, (int, float)) or (isinstance(v, str) and (v.startswith("scene:") or (v.startswith("cue:") and v[4:] in C)))):
+                raise SystemExit(f"âncora {f}: {v!r} precisa ser 'cue:<nome definido em L>', 'scene:<id>' ou segundos")
+        ep["music"].update(trilha=trilha, ancoras=anc, nota="mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso")
+        if not _TR.publicavel(_t):
+            print(f"⚠ trilha {trilha} com licença `{_t['licenca']['status']}`: só teste interno — publicar.py vai recusar (TRILHAS/README.md)")
     old = old_ep
     for kk in ("estilo", "estiloNome", "esteira", "rotacao", "modelos4", "modelo", "modeloNome", "grade", "foraDaGrade"):
         if kk in prev: ep[kk] = prev[kk]
+    if not trilha and (prev.get("music") or {}).get("trilha"):  # regerar sem passar trilha mantém a escolha
+        for kk in ("trilha", "ancoras", "nota", "mix"):
+            if kk in prev["music"]:
+                ep["music"][kk] = prev["music"][kk]
+        trilha = prev["music"]["trilha"]
     if formato:
         ep["formato"] = formato
     ep["sistemaVisual"] = ds_ver  # versão do Nível 1 com que o episódio foi criado (MARCA/sistema-visual/CHANGELOG.md)
     if formato and grade and slot:  # liga ao slot ANTES de gravar: grade inválida ou roteiro não aprovado = nada é escrito
-        sl = grade_mod.atribuir(grade, slot, ep_id, formato)
-        ep["grade"] = {k: sl.get(k, "") for k in ("territorio", "origem", "origemRef", "dataFato", "pushPull", "justificativaModelo", "justificativaHorario")}
+        sl = grade_mod.atribuir(grade, slot, ep_id, formato, trilha=trilha)
+        ep["grade"] = {k: sl.get(k, "") for k in ("territorio", "origem", "origemRef", "dataFato", "pushPull", "justificativaModelo", "justificativaHorario", "trilha", "justificativaTrilha")}
         ep["grade"].update(data=grade, slot=slot, arquivo=f"PRODUCAO/grade/{grade}.json")
         ep.pop("foraDaGrade", None)
     elif formato and fora:

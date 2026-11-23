@@ -9,6 +9,7 @@ Estrutura gerada (uma pasta por vídeo; semanas de domingo a sábado, recortadas
       ATIVO_L60_06.mp4  ·  ATIVO_L60_06_capa.jpg  ·  ATIVO_L60_06_legenda.txt
       bastidores/  (relatório de QA, validação técnica, SRT e relatórios de áudio)
 
+TRILHA (Sistema Musical, 23/11/2026): episódio com music.trilha só é publicado se a trilha for `licenciada` ou `original` (TRILHAS/README.md).
 GRADE DO DIA (Esteira Editorial Diária, 23/11/2026): episódio ligado a um slot de PRODUCAO/grade/AAAA-MM-DD.json só é publicado
 na data/hora desse slot; outro horário exige --fora-da-grade "<motivo>" (fica registrado no slot). Ao mover, o slot vira `programado`.
 
@@ -73,6 +74,13 @@ def main():
             sys.exit(f"✗ grade {g['data']} com erro — corrija antes de programar (python3 PRODUCAO/tools/grade.py validar {g['data']}):\n  - " + "\n  - ".join(erros))
     elif ep.get("modelos4") and not ep.get("foraDaGrade"):
         sys.exit(f"✗ {a.alvo} é episódio novo sem grade nem `foraDaGrade` — veja PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md")
+    tr_id = (ep.get("music") or {}).get("trilha")
+    if tr_id:  # Sistema Musical: só trilha licenciada (IG + TikTok + YouTube) ou original vai ao ar
+        import trilhas
+        tr = trilhas.trilha(tr_id)
+        if not trilhas.publicavel(tr):
+            sys.exit(f"✗ {a.alvo} usa a trilha {tr_id} com licença `{tr['licenca']['status']}` — só `licenciada` (Instagram, TikTok e YouTube) "
+                     f"ou `original` pode ser publicada. Troque por uma trilha do mesmo papel ({tr['papel']}) ou registre a licença (TRILHAS/README.md)")
     src = os.path.join(ROOT, "OUTPUT", out)
     ident = os.path.basename(out)
     need = {"video": os.path.join(src, final), "capa": os.path.join(src, capa), "legenda": os.path.join(src, "legenda_instagram.txt")}

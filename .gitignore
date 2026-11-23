@@ -9,3 +9,9 @@ OUTPUT/**/audio/*.wav
 OUTPUT/**/*_NARRACAO*.wav
 # cópia do código-fonte feita pelo render_episode.sh (a fonte de verdade é PRODUCAO/)
 OUTPUT/**/editaveis/
+
+# ---- Sistema Musical (23/11/2026): áudio de terceiros/licenciado nunca entra no repositório público ----
+# trilha adaptada por episódio (regerável: TRILHAS/masters + trilhas.json + timeline) e testes de escuta
+PRODUCAO/public/*/trilha.wav
+OUTPUT/testes-de-trilha/
+TRILHAS/masters/

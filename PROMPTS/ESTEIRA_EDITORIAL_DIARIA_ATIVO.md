@@ -19,7 +19,7 @@ Cada passo vira uma linha do painel "Plano" (`PROMPTS/PLANO_DE_ETAPAS_ATIVO.md`,
 | 5 | **Fonte D — aprendizado** | resultados reais das grades anteriores (`grade.py semana`, `pub_programacao`) | — |
 | 6 | **Pauta do dia** | 6 ideias, cada uma com território, origem, PUSH/PULL, por que assistir e recompensa → `grade.py validar` | **Aprovação 1: pauta (lote)** |
 | 7 | **Skill Mestre, uma ideia por vez** | etapas 01–10 completas; ideia reprovada é **substituída** (mesmo território), nunca remendada | **Aprovação 2: roteiros (lote)** |
-| 8 | **Match horário × modelo** | horário e modelo audiovisual por adequação, com justificativa; guardrails no `grade.py validar` | (junto da Aprovação 2) |
+| 8 | **Match horário × modelo × trilha** | horário, modelo audiovisual e trilha (§6b) por adequação, com justificativa; guardrails no `grade.py validar` | (junto da Aprovação 2) |
 | 9 | **Produção** | skill do modelo + `novo_episodio.build(..., formato=…, grade="AAAA-MM-DD", slot="HH:MM")` → render → QA | — |
 | 10 | **Programação e aprendizado** | `publicar.py <EP> --quando "AAAA-MM-DD HH:MM"` (confere com a grade) → commit/push → filas IG/YT/TikTok; métricas voltam para `resultados` | publicação segue as regras vigentes |
 
@@ -126,6 +126,12 @@ Para quebrar 1–4, preencha `justificativas.modelos` com o motivo editorial; vi
 `tools/esteira.py` deixa de impor "modelo da vez". Ele registra o modelo de cada episódio (histórico) e mostra a distribuição (`esteira.py diversidade`) para servir de desempate.
 
 ---
+
+## 6b. Trilha: a música segue a história (Sistema Musical, `TRILHAS/README.md`)
+- No match horário × modelo (passo 8), cada slot ganha `trilha` + `justificativaTrilha`, escolhida por **adequação** à ficha musical do roteiro (curva emocional + âncoras), ao território e ao modelo: `python3 PRODUCAO/tools/trilhas.py sugerir --territorio <id> --modelo <formato> --data AAAA-MM-DD`. A frequência recente só desempata.
+- Guardrails (`grade.py validar`): mesma trilha no máximo **1× por dia**, nunca em **horários seguidos**, no máximo **25% em 7 dias**; quebrar exige `justificativas.trilhas`. Com só 5 faixas no catálogo, um dia de 6 vídeos precisa de justificativa ou de um slot com a trilha sintetizada; a meta é 15–20 faixas (`TRILHAS/papeis.json`).
+- Só trilha `licenciada` ou `original` vai ao ar; `referencia` é teste interno (`publicar.py` recusa).
+- Aprendizado: `grade.py semana` mostra uso e resultados por trilha, ao lado de território, modelo e horário.
 
 ## 7. Da Skill Mestre à produção
 - Cada ideia aprovada passa **individualmente** pelas etapas 01–10: pesquisa → filtro → recompensa → história causal → gancho → abertura → roteiro → direção sugerida → desfecho → CTA → auditoria.

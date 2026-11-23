@@ -1,0 +1,1101 @@
+{
+ "versao": 1,
+ "atualizado": "2026-11-23",
+ "regra": "Catálogo do Sistema Musical ATIVO (TRILHAS/README.md). Uma trilha só vai a vídeo publicado com licenca.status 'licenciada' (cobrindo Instagram, TikTok e YouTube) ou 'original'. 'referencia' = só teste interno. Áudio nunca entra no Git; aqui fica só a inteligência musical.",
+ "status_licenca": {
+  "referencia": "sem licença comprovada: só teste interno",
+  "licenciada": "licença comercial comprovada para as 3 redes (comprovante em TRILHAS/licencas/)",
+  "original": "composta para a ATIVO (código ou encomenda), direitos da ATIVO",
+  "bloqueada": "não usar"
+ },
+ "funcoes_narrativas": [
+  "virada",
+  "tensao",
+  "descoberta",
+  "insight",
+  "resolucao"
+ ],
+ "trilhas": [
+  {
+   "id": "T01",
+   "nome": "Pulso grave contínuo",
+   "papel": "cama-de-explicacao",
+   "master": {
+    "arquivo": "TRILHAS/masters/T01.mp4",
+    "sha256": "1abaf47697d49ada48f0f0887a32446851efbd13a89d983b80d04494d7b751c9",
+    "nome_recebido": "35cf088d-1123.mp4",
+    "origem": "referência musical enviada pelo cliente em 23/11/2026, áudio extraído de vídeo de terceiro com boa performance; autor e obra não identificados",
+    "util": [
+     0.0,
+     79.1
+    ]
+   },
+   "licenca": {
+    "status": "referencia",
+    "instagram": false,
+    "tiktok": false,
+    "youtube": false,
+    "comprovante": null,
+    "nota": "Sem licença comprovada. Uso só em teste interno (OUTPUT/testes-de-trilha/). publicar.py recusa episódio com esta trilha."
+   },
+   "tecnico": {
+    "duracao": 79.16,
+    "lufs_export": -23.0,
+    "lra": 1.9,
+    "true_peak": -7.2,
+    "bpm": 120.0,
+    "pulso": "estavel",
+    "sensacao": "60 (meio tempo)",
+    "compasso": "4/4 provável",
+    "compasso_conf": "baixa",
+    "tempos_por_compasso": 4,
+    "primeiro_tempo": 0.15,
+    "tom": "Dó menor?",
+    "tom_conf": "baixa",
+    "tonica_midi": 60,
+    "modo": "incerto",
+    "estereo": "moderado"
+   },
+   "voz": {
+    "ocupacao_graves_250": 0.91,
+    "ocupacao_250_1k": 0.09,
+    "ocupacao_1_4k": 0.0,
+    "espaco": "maximo",
+    "duck_extra_db": 0.0,
+    "aviso": "91% da energia abaixo de 250 Hz: some em alto-falante de celular; nunca usar como única camada sem teste de celular"
+   },
+   "grade": "tempo",
+   "secoes": [
+    {
+     "id": "entrada",
+     "ini": 0.0,
+     "fim": 6.15,
+     "tipo": "intro",
+     "valor": 3,
+     "corte": "tempo",
+     "trim": "inicio",
+     "min": 4
+    },
+    {
+     "id": "cama",
+     "ini": 6.15,
+     "fim": 50.65,
+     "tipo": "cama",
+     "valor": 1,
+     "corte": "tempo",
+     "trim": "meio",
+     "passo": 4,
+     "cauda": 0,
+     "min": 4,
+     "pode_remover": true,
+     "loop": [
+      28.15,
+      36.15
+     ],
+     "loop_costura": 0.6,
+     "loop_max": 8
+    },
+    {
+     "id": "cama2",
+     "ini": 50.65,
+     "fim": 77.15,
+     "tipo": "cama",
+     "valor": 2,
+     "corte": "tempo",
+     "trim": "meio",
+     "passo": 4,
+     "cauda": 4,
+     "min": 8,
+     "pode_remover": true,
+     "loop": [
+      52.65,
+      56.65
+     ],
+     "loop_costura": 0.3,
+     "loop_max": 8
+    },
+    {
+     "id": "final",
+     "ini": 77.15,
+     "fim": 79.1,
+     "tipo": "final",
+     "valor": 5,
+     "inteira": true,
+     "essencial": true
+    }
+   ],
+   "eventos": [
+    {
+     "t": 50.65,
+     "tipo": "virada sutil"
+    },
+    {
+     "t": 77.15,
+     "tipo": "queda"
+    },
+    {
+     "t": 78.5,
+     "tipo": "brilho final"
+    }
+   ],
+   "funcoes": {
+    "virada": "cama2"
+   },
+   "proibido_cortar": [],
+   "final": {
+    "tipo": "natural",
+    "ini": 77.15,
+    "decaimento": 0.6
+   },
+   "crossfade": 0.06,
+   "personalidade": {
+    "emocao": "tensão contida",
+    "secundarias": [
+     "mistério",
+     "gravidade"
+    ],
+    "energia": "média-baixa constante",
+    "tensao": "média",
+    "sofisticacao": "média",
+    "agressividade": "baixa",
+    "curva": "plana: sem clímax próprio",
+    "resumo": "tensão contínua de investigação / suspense hipnótico"
+   },
+   "afinidade": {
+    "territorios": {
+     "agora": "muito",
+     "e-se": "compativel",
+     "fora-da-bolha": "contextual",
+     "corretor-real": "evitar",
+     "historia": "contextual",
+     "ideia": "contextual"
+    },
+    "modelos": {
+     "cartoon-explicativo": "evitar",
+     "pictograma-cinematografico": "compativel",
+     "planta-tecnica": "muito",
+     "maquete-3d": "muito"
+    }
+   },
+   "riscos": [
+    "some no alto-falante de celular (graves)",
+    "sem clímax: eventos dependem de SFX/respiros",
+    "monotonia com uso repetido",
+    "começa cheia (provável recorte do meio da música)"
+   ],
+   "entradas": [
+    "entrada",
+    "cama"
+   ]
+  },
+  {
+   "id": "T02",
+   "nome": "Piano em ondas",
+   "papel": "arco-emocional",
+   "master": {
+    "arquivo": "TRILHAS/masters/T02.mp4",
+    "sha256": "3b1fc942be871e5f0b713f46ab76780574fbf6cdc3ab725cc3b3666fcd93158d",
+    "nome_recebido": "c51afc3f-1124.mp4",
+    "origem": "referência musical enviada pelo cliente em 23/11/2026, áudio extraído de vídeo de terceiro com boa performance; autor e obra não identificados",
+    "util": [
+     0.0,
+     82.24
+    ]
+   },
+   "licenca": {
+    "status": "referencia",
+    "instagram": false,
+    "tiktok": false,
+    "youtube": false,
+    "comprovante": null,
+    "nota": "Sem licença comprovada. Uso só em teste interno (OUTPUT/testes-de-trilha/). publicar.py recusa episódio com esta trilha."
+   },
+   "tecnico": {
+    "duracao": 82.25,
+    "lufs_export": -23.0,
+    "lra": 7.3,
+    "true_peak": -5.2,
+    "bpm": null,
+    "bpm_aprox": 68,
+    "pulso": "rubato",
+    "ciclo_ondas": 12.3,
+    "compasso": "indeterminado (3/4 ou 6/8?)",
+    "compasso_conf": "baixa",
+    "tom": "Ré menor",
+    "tom_conf": "alta",
+    "tonica_midi": 62,
+    "modo": "menor",
+    "estereo": "moderado"
+   },
+   "voz": {
+    "ocupacao_graves_250": 0.11,
+    "ocupacao_250_1k": 0.74,
+    "ocupacao_1_4k": 0.14,
+    "espaco": "baixo",
+    "duck_extra_db": -3.0,
+    "aviso": "piano na mesma região da voz: ducking mais fundo e crescer só nas pausas"
+   },
+   "grade": "vales",
+   "secoes": [
+    {
+     "id": "abertura",
+     "ini": 0.0,
+     "fim": 11.04,
+     "tipo": "intro",
+     "valor": 4,
+     "inteira": true,
+     "essencial": true
+    },
+    {
+     "id": "frase2",
+     "ini": 11.04,
+     "fim": 22.12,
+     "tipo": "a",
+     "valor": 2,
+     "inteira": true,
+     "pode_remover": true
+    },
+    {
+     "id": "frase3",
+     "ini": 22.12,
+     "fim": 34.8,
+     "tipo": "a",
+     "valor": 2,
+     "inteira": true,
+     "pode_remover": true
+    },
+    {
+     "id": "crescendo",
+     "ini": 34.8,
+     "fim": 47.65,
+     "tipo": "subida",
+     "valor": 3,
+     "inteira": true,
+     "pode_remover": true
+    },
+    {
+     "id": "climax",
+     "ini": 47.65,
+     "fim": 69.73,
+     "tipo": "climax",
+     "valor": 5,
+     "cortes_internos": [
+      56.01
+     ],
+     "trim": "meio",
+     "cauda": 1,
+     "min": 1,
+     "essencial": true
+    },
+    {
+     "id": "resolucao",
+     "ini": 69.73,
+     "fim": 80.29,
+     "tipo": "resolucao",
+     "valor": 2,
+     "inteira": true,
+     "pode_remover": true
+    },
+    {
+     "id": "final",
+     "ini": 80.29,
+     "fim": 82.24,
+     "tipo": "final",
+     "valor": 5,
+     "inteira": true,
+     "essencial": true
+    }
+   ],
+   "eventos": [
+    {
+     "t": 1.0,
+     "tipo": "acorde de abertura"
+    },
+    {
+     "t": 34.8,
+     "tipo": "crescendo"
+    },
+    {
+     "t": 47.65,
+     "tipo": "entrada do clímax"
+    },
+    {
+     "t": 52.0,
+     "tipo": "pico"
+    },
+    {
+     "t": 64.0,
+     "tipo": "pico"
+    },
+    {
+     "t": 69.73,
+     "tipo": "resolução"
+    },
+    {
+     "t": 80.5,
+     "tipo": "acorde final"
+    }
+   ],
+   "funcoes": {
+    "virada": "frase3",
+    "descoberta": "crescendo",
+    "insight": "climax",
+    "resolucao": "resolucao"
+   },
+   "proibido_cortar": [
+    [
+     47.65,
+     56.0
+    ],
+    [
+     80.29,
+     82.24
+    ]
+   ],
+   "final": {
+    "tipo": "cortado",
+    "ini": 80.29,
+    "cauda_sintetica": 1.8,
+    "decaimento": 1.2,
+    "nota": "acorde final em ~80,5 s soa até o corte do arquivo (82,24 s)"
+   },
+   "crossfade": 0.5,
+   "personalidade": {
+    "emocao": "introspecção",
+    "secundarias": [
+     "saudade",
+     "esperança contida no clímax"
+    ],
+    "energia": "baixa-média em ondas",
+    "tensao": "média",
+    "sofisticacao": "alta",
+    "agressividade": "nenhuma",
+    "curva": "ondas → crescendo → clímax → resolução quieta → acorde final",
+    "resumo": "melancolia reflexiva em ondas"
+   },
+   "afinidade": {
+    "territorios": {
+     "agora": "evitar",
+     "e-se": "contextual",
+     "fora-da-bolha": "contextual",
+     "corretor-real": "compativel",
+     "historia": "muito",
+     "ideia": "muito"
+    },
+    "modelos": {
+     "cartoon-explicativo": "evitar",
+     "pictograma-cinematografico": "muito",
+     "planta-tecnica": "contextual",
+     "maquete-3d": "compativel"
+    }
+   },
+   "riscos": [
+    "mascara a voz (250 Hz–1 kHz)",
+    "clichê de piano triste: usar com parcimônia",
+    "sem grade: só corta em frases de ~12 s nos vales",
+    "arquivo corta 1,7 s depois do acorde final: cauda sintética"
+   ],
+   "entradas": [
+    "abertura"
+   ]
+  },
+  {
+   "id": "T03",
+   "nome": "Ascensão tech",
+   "papel": "arco-de-descoberta",
+   "master": {
+    "arquivo": "TRILHAS/masters/T03.mp4",
+    "sha256": "4cf51923123367ee4a7bd3070c1604fd27ff29af6489a4ba79659bf133ad6aac",
+    "nome_recebido": "c0ef2793-1125.mp4",
+    "origem": "referência musical enviada pelo cliente em 23/11/2026, áudio extraído de vídeo de terceiro com boa performance; autor e obra não identificados",
+    "util": [
+     0.0,
+     90.6
+    ]
+   },
+   "licenca": {
+    "status": "referencia",
+    "instagram": false,
+    "tiktok": false,
+    "youtube": false,
+    "comprovante": null,
+    "nota": "Sem licença comprovada. Uso só em teste interno (OUTPUT/testes-de-trilha/). publicar.py recusa episódio com esta trilha."
+   },
+   "tecnico": {
+    "duracao": 91.56,
+    "lufs_export": -23.0,
+    "lra": 8.7,
+    "true_peak": -7.7,
+    "bpm": 120.0,
+    "pulso": "estavel",
+    "compasso": "4/4",
+    "compasso_conf": "alta",
+    "tempos_por_compasso": 4,
+    "primeiro_tempo": 0.54,
+    "frase_compassos": 8,
+    "tom": "Ré♭ maior",
+    "tom_conf": "media",
+    "tonica_midi": 61,
+    "modo": "maior",
+    "estereo": "moderado"
+   },
+   "voz": {
+    "ocupacao_graves_250": 0.87,
+    "ocupacao_250_1k": 0.1,
+    "ocupacao_1_4k": 0.02,
+    "espaco": "medio",
+    "duck_extra_db": -1.0,
+    "aviso": "seções cheias e densas: ducking por densidade"
+   },
+   "grade": "compasso",
+   "secoes": [
+    {
+     "id": "intro",
+     "ini": 0.0,
+     "fim": 4.54,
+     "tipo": "intro",
+     "valor": 3,
+     "trim": "inicio",
+     "min": 1,
+     "pode_remover": true
+    },
+    {
+     "id": "a",
+     "ini": 4.54,
+     "fim": 18.54,
+     "tipo": "a",
+     "valor": 2,
+     "trim": "meio",
+     "passo": 1,
+     "cauda": 1,
+     "min": 2,
+     "pode_remover": true,
+     "loop": [
+      4.54,
+      12.54
+     ],
+     "loop_costura": 0.48
+    },
+    {
+     "id": "parada",
+     "ini": 18.54,
+     "fim": 20.54,
+     "tipo": "parada",
+     "valor": 3,
+     "corte": "tempo",
+     "trim": "fim",
+     "min": 1,
+     "pode_remover": true
+    },
+    {
+     "id": "b",
+     "ini": 20.54,
+     "fim": 32.54,
+     "tipo": "b",
+     "valor": 3,
+     "trim": "meio",
+     "passo": 2,
+     "cauda": 0,
+     "min": 2,
+     "pode_remover": true,
+     "loop": [
+      22.54,
+      26.54
+     ],
+     "loop_costura": 0.72
+    },
+    {
+     "id": "subida",
+     "ini": 32.54,
+     "fim": 36.54,
+     "tipo": "subida",
+     "valor": 4,
+     "inteira": true,
+     "pode_remover": true
+    },
+    {
+     "id": "quebra",
+     "ini": 36.54,
+     "fim": 56.54,
+     "tipo": "quebra",
+     "valor": 3,
+     "trim": "meio",
+     "passo": 1,
+     "cauda": 2,
+     "min": 2,
+     "pode_remover": true,
+     "loop": [
+      40.54,
+      48.54
+     ],
+     "loop_costura": 0.83
+    },
+    {
+     "id": "drop",
+     "ini": 56.54,
+     "fim": 88.54,
+     "tipo": "climax",
+     "valor": 5,
+     "trim": "meio",
+     "passo": 1,
+     "cauda": 1,
+     "min": 2,
+     "essencial": true,
+     "loop": [
+      66.54,
+      82.54
+     ],
+     "loop_costura": 0.81
+    },
+    {
+     "id": "final",
+     "ini": 88.54,
+     "fim": 90.6,
+     "tipo": "final",
+     "valor": 5,
+     "inteira": true,
+     "essencial": true
+    }
+   ],
+   "eventos": [
+    {
+     "t": 4.54,
+     "tipo": "entra a batida"
+    },
+    {
+     "t": 18.54,
+     "tipo": "parada"
+    },
+    {
+     "t": 20.54,
+     "tipo": "impacto"
+    },
+    {
+     "t": 32.54,
+     "tipo": "subida"
+    },
+    {
+     "t": 36.54,
+     "tipo": "quebra"
+    },
+    {
+     "t": 45.0,
+     "tipo": "linha sobe"
+    },
+    {
+     "t": 56.54,
+     "tipo": "drop"
+    },
+    {
+     "t": 77.0,
+     "tipo": "pico"
+    },
+    {
+     "t": 88.54,
+     "tipo": "final"
+    },
+    {
+     "t": 89.9,
+     "tipo": "fim limpo"
+    }
+   ],
+   "funcoes": {
+    "virada": "b",
+    "tensao": "subida",
+    "descoberta": "quebra",
+    "insight": "drop"
+   },
+   "proibido_cortar": [
+    [
+     32.54,
+     36.54
+    ],
+    [
+     54.54,
+     56.54
+    ],
+    [
+     88.54,
+     90.6
+    ]
+   ],
+   "final": {
+    "tipo": "natural",
+    "ini": 88.54,
+    "decaimento": 0.6,
+    "nota": "golpe final ~89,75 s; depois de 90,3 s é silêncio"
+   },
+   "crossfade": 0.04,
+   "personalidade": {
+    "emocao": "confiança",
+    "secundarias": [
+     "descoberta",
+     "triunfo",
+     "expectativa na quebra"
+    ],
+    "energia": "alta",
+    "tensao": "média (quebra) → alívio (drop)",
+    "sofisticacao": "média-alta",
+    "agressividade": "média",
+    "curva": "intro → batida → parada → impactos → subida → quebra → drop → final",
+    "resumo": "ascensão otimista tecnológica"
+   },
+   "afinidade": {
+    "territorios": {
+     "agora": "contextual",
+     "e-se": "muito",
+     "fora-da-bolha": "muito",
+     "corretor-real": "contextual",
+     "historia": "compativel",
+     "ideia": "compativel"
+    },
+    "modelos": {
+     "cartoon-explicativo": "compativel",
+     "pictograma-cinematografico": "contextual",
+     "planta-tecnica": "muito",
+     "maquete-3d": "muito"
+    }
+   },
+   "riscos": [
+    "bateria (regra sonora de 11/11 mudou com o Sistema Musical)",
+    "energia alta pode vender demais",
+    "drop reconhecível se repetir muito",
+    "AGORA só com notícia positiva"
+   ],
+   "entradas": [
+    "intro",
+    "a",
+    "b"
+   ]
+  },
+  {
+   "id": "T04",
+   "nome": "Groove noir",
+   "papel": "tensao-em-movimento",
+   "master": {
+    "arquivo": "TRILHAS/masters/T04.mp4",
+    "sha256": "85a0f0bfd37c450aed5fe734a8956a6db3dfde5d70ce09e5b275a2ce94b8671e",
+    "nome_recebido": "d44fe731-1126.mp4",
+    "origem": "referência musical enviada pelo cliente em 23/11/2026, áudio extraído de vídeo de terceiro com boa performance; autor e obra não identificados",
+    "util": [
+     0.0,
+     89.6
+    ]
+   },
+   "licenca": {
+    "status": "referencia",
+    "instagram": false,
+    "tiktok": false,
+    "youtube": false,
+    "comprovante": null,
+    "nota": "Sem licença comprovada. Uso só em teste interno (OUTPUT/testes-de-trilha/). publicar.py recusa episódio com esta trilha."
+   },
+   "tecnico": {
+    "duracao": 111.55,
+    "lufs_export": -23.0,
+    "lra": 9.5,
+    "true_peak": -5.4,
+    "bpm": 110.0,
+    "pulso": "estavel (swing/tercina)",
+    "compasso": "4/4",
+    "compasso_conf": "alta",
+    "tempos_por_compasso": 4,
+    "primeiro_tempo": 0.0,
+    "frase_compassos": 4,
+    "tom": "Dó# menor",
+    "tom_conf": "alta",
+    "tonica_midi": 61,
+    "modo": "menor",
+    "estereo": "moderado",
+    "cauda_descartada": [
+     89.6,
+     111.55
+    ]
+   },
+   "voz": {
+    "ocupacao_graves_250": 0.36,
+    "ocupacao_250_1k": 0.5,
+    "ocupacao_1_4k": 0.12,
+    "espaco": "baixo em A/A', bom em B",
+    "duck_extra_db": -2.0,
+    "aviso": "melodia contínua 150–860 Hz com glissandos nas seções A/A' (possível voz cantada sem palavras: confirmar ouvindo); narrar sobre B"
+   },
+   "grade": "compasso",
+   "secoes": [
+    {
+     "id": "a",
+     "ini": 0.0,
+     "fim": 21.818,
+     "tipo": "a",
+     "valor": 3,
+     "trim": "meio",
+     "passo": 1,
+     "cauda": 2,
+     "min": 2,
+     "voz": "evitar",
+     "loop": [
+      0.0,
+      8.727
+     ],
+     "loop_costura": 0.57
+    },
+    {
+     "id": "respiro",
+     "ini": 21.818,
+     "fim": 24.0,
+     "tipo": "parada",
+     "valor": 4,
+     "corte": "tempo",
+     "trim": "fim",
+     "min": 1,
+     "pode_remover": true
+    },
+    {
+     "id": "b",
+     "ini": 24.0,
+     "fim": 54.545,
+     "tipo": "b",
+     "valor": 2,
+     "trim": "meio",
+     "passo": 1,
+     "cauda": 1,
+     "min": 2,
+     "pode_remover": true,
+     "loop": [
+      24.0,
+      32.727
+     ],
+     "loop_costura": 0.62
+    },
+    {
+     "id": "a2",
+     "ini": 54.545,
+     "fim": 85.091,
+     "tipo": "climax",
+     "valor": 4,
+     "trim": "meio",
+     "passo": 1,
+     "cauda": 1,
+     "min": 2,
+     "essencial": true,
+     "voz": "evitar",
+     "loop": [
+      58.909,
+      67.636
+     ],
+     "loop_costura": 0.6
+    },
+    {
+     "id": "final",
+     "ini": 85.091,
+     "fim": 89.6,
+     "tipo": "final",
+     "valor": 5,
+     "inteira": true,
+     "essencial": true
+    }
+   ],
+   "eventos": [
+    {
+     "t": 21.818,
+     "tipo": "respiro (1 compasso)"
+    },
+    {
+     "t": 24.0,
+     "tipo": "B entra"
+    },
+    {
+     "t": 54.545,
+     "tipo": "melodia volta"
+    },
+    {
+     "t": 88.5,
+     "tipo": "pico"
+    },
+    {
+     "t": 89.5,
+     "tipo": "parada seca"
+    }
+   ],
+   "funcoes": {
+    "virada": "b",
+    "tensao": "respiro",
+    "insight": "a2"
+   },
+   "proibido_cortar": [
+    [
+     21.818,
+     24.0
+    ],
+    [
+     85.091,
+     89.6
+    ]
+   ],
+   "final": {
+    "tipo": "seco",
+    "ini": 85.091,
+    "cauda_sintetica": 1.6
+   },
+   "crossfade": 0.04,
+   "personalidade": {
+    "emocao": "determinação",
+    "secundarias": [
+     "mistério noturno",
+     "atitude"
+    ],
+    "energia": "média-alta constante",
+    "tensao": "média",
+    "sofisticacao": "média-alta",
+    "agressividade": "média",
+    "curva": "A (melodia) → respiro → B (cama) → A' (melodia, mais cheia) → parada",
+    "resumo": "tensão urbana com atitude"
+   },
+   "afinidade": {
+    "territorios": {
+     "agora": "compativel",
+     "e-se": "compativel",
+     "fora-da-bolha": "muito",
+     "corretor-real": "muito",
+     "historia": "compativel",
+     "ideia": "contextual"
+    },
+    "modelos": {
+     "cartoon-explicativo": "contextual",
+     "pictograma-cinematografico": "muito",
+     "planta-tecnica": "compativel",
+     "maquete-3d": "compativel"
+    }
+   },
+   "riscos": [
+    "melodia na faixa da voz em A/A'",
+    "possível voz cantada (confirmar)",
+    "sem intro nem final natural (cauda sintética)",
+    "22 s finais inúteis (descartados)"
+   ],
+   "entradas": [
+    "a",
+    "b"
+   ]
+  },
+  {
+   "id": "T05",
+   "nome": "Batida constante",
+   "papel": "motor-pratico",
+   "master": {
+    "arquivo": "TRILHAS/masters/T05.mp4",
+    "sha256": "6bbcf5e14192e8d799b0f343be875b767e472fccc830f7e7c3a0e06d456d2678",
+    "nome_recebido": "c713ca38-1127.mp4",
+    "origem": "referência musical enviada pelo cliente em 23/11/2026, áudio extraído de vídeo de terceiro com boa performance; autor e obra não identificados",
+    "util": [
+     0.0,
+     90.1
+    ]
+   },
+   "licenca": {
+    "status": "referencia",
+    "instagram": false,
+    "tiktok": false,
+    "youtube": false,
+    "comprovante": null,
+    "nota": "Sem licença comprovada. Uso só em teste interno (OUTPUT/testes-de-trilha/). publicar.py recusa episódio com esta trilha."
+   },
+   "tecnico": {
+    "duracao": 100.96,
+    "lufs_export": -23.0,
+    "lra": 5.1,
+    "true_peak": -2.2,
+    "bpm": 96.06,
+    "pulso": "estavel (componente de tercina)",
+    "compasso": "4/4",
+    "compasso_conf": "média-alta",
+    "tempos_por_compasso": 4,
+    "primeiro_tempo": 0.08,
+    "frase_compassos": 4,
+    "tom": "Dó# (maior/menor empatados)",
+    "tom_conf": "baixa",
+    "tonica_midi": 61,
+    "modo": "incerto",
+    "estereo": "quase mono",
+    "cauda_descartada": [
+     90.1,
+     100.96
+    ],
+    "tom_constante_hz": 7095,
+    "aviso_tom": "tom agudo constante em ~7,1 kHz (+18,5 dB acima do entorno): confirmar de ouvido"
+   },
+   "voz": {
+    "ocupacao_graves_250": 0.74,
+    "ocupacao_250_1k": 0.12,
+    "ocupacao_1_4k": 0.11,
+    "espaco": "medio",
+    "duck_extra_db": -1.0
+   },
+   "grade": "compasso",
+   "secoes": [
+    {
+     "id": "a",
+     "ini": 0.0,
+     "fim": 42.553,
+     "tipo": "a",
+     "valor": 2,
+     "trim": "meio",
+     "passo": 1,
+     "cauda": 1,
+     "min": 2,
+     "loop": [
+      5.077,
+      10.074
+     ],
+     "loop_costura": 0.41
+    },
+    {
+     "id": "silencio",
+     "ini": 42.553,
+     "fim": 45.051,
+     "tipo": "parada",
+     "valor": 4,
+     "corte": "tempo",
+     "trim": "fim",
+     "min": 1,
+     "pode_remover": true
+    },
+    {
+     "id": "b",
+     "ini": 45.051,
+     "fim": 70.035,
+     "tipo": "b",
+     "valor": 3,
+     "trim": "meio",
+     "passo": 1,
+     "cauda": 1,
+     "min": 2,
+     "pode_remover": true,
+     "loop": [
+      57.544,
+      67.538
+     ],
+     "loop_costura": 0.56
+    },
+    {
+     "id": "c",
+     "ini": 70.035,
+     "fim": 87.523,
+     "tipo": "climax",
+     "valor": 5,
+     "trim": "meio",
+     "passo": 1,
+     "cauda": 1,
+     "min": 2,
+     "essencial": true,
+     "loop": [
+      80.03,
+      85.027
+     ],
+     "loop_costura": 0.53
+    },
+    {
+     "id": "final",
+     "ini": 87.523,
+     "fim": 90.1,
+     "tipo": "final",
+     "valor": 5,
+     "inteira": true,
+     "essencial": true
+    }
+   ],
+   "eventos": [
+    {
+     "t": 21.5,
+     "tipo": "impacto"
+    },
+    {
+     "t": 34.0,
+     "tipo": "impacto"
+    },
+    {
+     "t": 43.2,
+     "tipo": "silêncio 1,8 s"
+    },
+    {
+     "t": 45.05,
+     "tipo": "volta"
+    },
+    {
+     "t": 64.5,
+     "tipo": "impacto"
+    },
+    {
+     "t": 70.04,
+     "tipo": "melodia entra"
+    },
+    {
+     "t": 90.0,
+     "tipo": "parada seca"
+    }
+   ],
+   "funcoes": {
+    "virada": "b",
+    "tensao": "silencio",
+    "insight": "c"
+   },
+   "proibido_cortar": [
+    [
+     42.553,
+     45.051
+    ],
+    [
+     87.523,
+     90.1
+    ]
+   ],
+   "final": {
+    "tipo": "seco",
+    "ini": 87.523,
+    "cauda_sintetica": 1.6
+   },
+   "crossfade": 0.04,
+   "personalidade": {
+    "emocao": "confiança prática",
+    "secundarias": [
+     "foco",
+     "ritmo de trabalho",
+     "segurança"
+    ],
+    "energia": "média-alta constante",
+    "tensao": "baixa",
+    "sofisticacao": "média",
+    "agressividade": "média-baixa",
+    "curva": "batida → silêncio → batida → melodia (clímax) → parada",
+    "resumo": "motor prático"
+   },
+   "afinidade": {
+    "territorios": {
+     "agora": "compativel",
+     "e-se": "contextual",
+     "fora-da-bolha": "compativel",
+     "corretor-real": "muito",
+     "historia": "contextual",
+     "ideia": "compativel"
+    },
+    "modelos": {
+     "cartoon-explicativo": "muito",
+     "pictograma-cinematografico": "evitar",
+     "planta-tecnica": "compativel",
+     "maquete-3d": "compativel"
+    }
+   },
+   "riscos": [
+    "tom de 7,1 kHz constante (confirmar)",
+    "pouca variação emocional",
+    "final seco (cauda sintética)",
+    "11 s finais inúteis (descartados)"
+   ],
+   "entradas": [
+    "a",
+    "b"
+   ]
+  }
+ ],
+ "nota_loops": "loop_costura = mudança espectral na emenda ÷ a maior mudança natural nos dois pontos (≤1 = mais suave que a passagem natural de compasso); medido em 23/11/2026"
+}

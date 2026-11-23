@@ -350,6 +350,8 @@ Coordenadas locais com pés em (0,0); altura ≈ 290·s.
 
 ## 12. Som
 
+> **Sistema Musical (23/11/2026, `TRILHAS/README.md`):** com `music.trilha` no episódio (`novo_episodio.build(..., trilha=…, ancoras=…)`), a trilha sintetizada desta seção é substituída por uma faixa do catálogo **adaptada à história** (`tools/adaptar_trilha.py`) e pela mixagem v2 do `build_audio.py`; os efeitos afinados (shimmer/chord/bell) passam a soar no tom da trilha. Afinidade (catálogo): T02 arco emocional e T04 tensão em movimento (muito), T01 (compatível); evitar T05 (batida marcada contraria o noir sem corte). Só trilha `licenciada`/`original` vai ao ar. Sem `music.trilha`, vale o padrão abaixo.
+
 | Camada | Alvo | Piloto |
 |---|---|---|
 | Narração | ≈ −20 LUFS | −20,7 |

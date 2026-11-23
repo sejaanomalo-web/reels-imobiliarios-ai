@@ -142,6 +142,8 @@ description: QUARTO MODELO de vídeo da ATIVO — "Quarto modelo — Maquete 3D"
 
 ## 12. Som
 
+> **Sistema Musical (23/11/2026, `TRILHAS/README.md`):** com `music.trilha` no episódio (`novo_episodio.build(..., trilha=…, ancoras=…)`), a trilha sintetizada desta seção é substituída por uma faixa do catálogo **adaptada à história** (`tools/adaptar_trilha.py`) e pela mixagem v2 do `build_audio.py`; os efeitos afinados (shimmer/chord/bell) passam a soar no tom da trilha. Afinidade (catálogo): T01 cama de explicação e T03 arco de descoberta (muito), T02, T04 e T05 (compatível). Só trilha `licenciada`/`original` vai ao ar. Sem `music.trilha`, vale o padrão abaixo.
+
 Trilha contínua por baixo da voz (as referências não têm silêncio); padrão ATIVO de `build_audio.py`: −15 LUFS, pico ≤ −1 dBTP, voz na frente. Eventos sugeridos: brotar = `pop` grave baixo; fluxo = `swish` curto; acender = `pin`; troca de clima = `whoosh_fold` baixo; fecho = os eventos que `novo_episodio` cria para `formato="maquete-3d"`.
 
 ## 13. Metas de QA

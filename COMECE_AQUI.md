@@ -32,6 +32,7 @@ reels-imobiliarios-ai/
 │   └── tools/                #   narração, áudio, render, validação, publicar.py
 │
 ├── MARCA/  VOZ/              # identidade ATIVO (logo, verde) e voz oficial · MARCA/sistema-visual/ = Sistema Visual ATIVO (Nível 1, obrigatório)
+├── TRILHAS/                  # Sistema Musical: catálogo trilhas.json, papéis, análises e licenças (áudio NUNCA no Git: masters/ ignorado)
 ├── PROMPTS/                  # guias editoriais, legendas, estilos, melhoria contínua
 ├── ANALISE/                  # relatórios de referência, tokens e histórico (ANALISE/historico/)
 ├── MODELS/                   # 9 Reels de referência fixos (não mexer)

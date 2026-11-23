@@ -4,6 +4,12 @@ Lê episodes/<EP>/episode.json (lista `sfx` + `music`) e src/episodes/<EP>/timel
 da narração). Escreve stems em OUTPUT/<EP>/audio/ e a mixagem final em public/<EP>/mix.wav.
 
 Uso: python3 tools/build_audio.py EP001
+     python3 tools/build_audio.py <EP> --trilha T03 [--ancoras descoberta=cue:b_out,insight=cue:c_corr] --saida <pasta>   # teste: nada do episódio é sobrescrito
+
+MIXAGEM v2 — Sistema Musical ATIVO (23/11/2026): liga SÓ quando o episódio tem `music.trilha` (catálogo TRILHAS/trilhas.json) ou com
+--trilha. A trilha é adaptada à história por tools/adaptar_trilha.py (estrutura, 0% de esticamento), nivelada por loudness em relação à
+voz, com ducking em 2 bandas guiado pelas palavras da timeline (graves descem pouco, 250 Hz+ descem mais), CTA mais limpa, efeitos
+afinados no tom da trilha e portão de inteligibilidade (Whisper: mixagem × narração pura). Episódios sem `music.trilha` saem idênticos.
 """
 import os, sys, json, subprocess, wave
 import numpy as np
@@ -12,7 +18,14 @@ from scipy.signal import butter, sosfilt, fftconvolve
 sys.path.insert(0, os.path.dirname(__file__))
 from tts_common import read_wav, ROOT
 
-EP = sys.argv[1] if len(sys.argv) > 1 else "EP001"
+import argparse
+_ap = argparse.ArgumentParser()
+_ap.add_argument("ep", nargs="?", default="EP001")
+_ap.add_argument("--trilha", help="teste: força uma trilha do catálogo")
+_ap.add_argument("--ancoras", default="", help="teste: funcao=cue:nome ou funcao=segundos, separadas por vírgula")
+_ap.add_argument("--saida", help="teste: grava tudo nesta pasta e não toca nos arquivos do episódio")
+ARGS = _ap.parse_args()
+EP = ARGS.ep
 REPO = os.path.dirname(ROOT)
 SR = 48000
 rng = np.random.default_rng(7)
@@ -24,6 +37,26 @@ N = int(round(DUR * SR))
 
 def db(x):
     return 10 ** (x / 20)
+
+
+# ---------- Sistema Musical: trilha do catálogo ----------
+MCFG0 = ep.get("music", {})
+TRILHA = ARGS.trilha or MCFG0.get("trilha")
+TONAL = None
+if TRILHA:
+    import trilhas as _TR
+    _t = _TR.trilha(TRILHA)
+    _tec = _t["tecnico"]
+    # efeitos afinados: tríade da trilha; tom incerto → quintas abertas (consonantes em maior e menor)
+    _terca = {"maior": 4, "menor": 3}.get(_tec.get("modo"), 7) if _tec.get("tom_conf") != "baixa" else 7
+    TONAL = dict(tonica=int(_tec.get("tonica_midi", 62)) % 12, terca=_terca)
+
+
+def _triade(oitava_base, extra=False):
+    r = oitava_base + TONAL["tonica"]
+    if TONAL["terca"] == 7:
+        return [r, r + 7, r + 12, r + 19] if extra else [r, r + 7, r + 12, r + 19]
+    return [r, r + TONAL["terca"], r + 7, r + 12]
 
 
 def t_(dur):
@@ -160,11 +193,11 @@ def bell(note, dur=1.3, bright=0.35):
 
 
 def s_bell(note=72, **_):
-    return bell(note)
+    return bell(72 + TONAL["tonica"] if (TONAL and note == 72) else note)
 
 
 def s_shimmer(**_):
-    notes = [74, 77, 81, 86]
+    notes = _triade(72) if TONAL else [74, 77, 81, 86]
     out = np.zeros(int(1.9 * SR))
     for i, n in enumerate(notes):
         b = bell(n, 1.3, 0.2) * (0.9 - i * 0.12)
@@ -175,7 +208,7 @@ def s_shimmer(**_):
 
 def s_chord(**_):
     out = np.zeros(int(2.2 * SR))
-    for i, n in enumerate([65, 69, 72, 77]):
+    for i, n in enumerate(_triade(60) if TONAL else [65, 69, 72, 77]):
         b = bell(n, 2.0, 0.25)
         a = int(i * 0.028 * SR)
         out[a:a + len(b)] += b[: len(out) - a] * 0.6
@@ -343,7 +376,7 @@ def _at(v):
     return float(sc[name]["start"] if kind == "scene" else tl["cues"][name])
 
 
-prog = [(_at(p_["at"]), p_["notes"], p_["root"], p_["dens"], p_["bright"]) for p_ in mcfg["prog"]]
+prog = [] if TRILHA else [(_at(p_["at"]), p_["notes"], p_["root"], p_["dens"], p_["bright"]) for p_ in mcfg["prog"]]
 prog.sort(key=lambda r: r[0])
 music = np.zeros((N, 2))
 tt = np.arange(N) / SR
@@ -383,7 +416,7 @@ for i, (start, notes, root, dens, bright) in enumerate(prog):
         acc = 1.0 if k % dens == 0 else 0.55
         place(music, pl, tp, -31 + 20 * np.log10(acc) + (2 if dens == 4 else 0), pan=0.35 * (1 if k % 2 else -1))
         k += 1
-music = reverb(music, 2.4, 0.5, seed=5)
+music = reverb(music, 2.4, 0.5, seed=5) if not TRILHA else music
 music = np.stack([hp(music[:, 0], 45), hp(music[:, 1], 45)], axis=1)
 music *= np.clip(tt / 0.4, 0, 1)[:, None] * np.clip((DUR - tt) / 1.4, 0, 1)[:, None]
 music = music / (np.abs(music).max() + 1e-9) * db(mcfg.get("gain", -27) + 9)
@@ -421,6 +454,18 @@ if mcfg.get("file"):
         raw = np.repeat(raw, 2, axis=1)
     raw = np.pad(raw, ((0, max(0, N - len(raw))), (0, 0)))[:N]
     music = raw / (np.abs(raw).max() + 1e-9) * db(mcfg.get("gain", -27) + 9)
+# trilha do catálogo (Sistema Musical): adaptada à história por estrutura; nível definido na mixagem v2 abaixo
+REL_TRILHA = None
+if TRILHA:
+    import adaptar_trilha as _AT
+    _anc = {}
+    _fonte_anc = ARGS.ancoras if ARGS.ancoras else ",".join(f"{k}={v}" for k, v in (mcfg.get("ancoras") or {}).items())
+    for kv in [x for x in _fonte_anc.split(",") if x]:
+        k, v = kv.split("=", 1)
+        _anc[k] = float(tl["cues"][v[4:]]) if v.startswith("cue:") else (float(sc[v[6:]]["start"]) if v.startswith("scene:") else float(v))
+    _y, REL_TRILHA = _AT.adaptar(TRILHA, DUR, _anc)
+    music = np.pad(_y, ((0, max(0, N - len(_y))), (0, 0)))[:N]
+    _AT.salvar_wav(os.path.join(ARGS.saida, "trilha.wav") if ARGS.saida else os.path.join(ROOT, "public", EP, "trilha.wav"), music)
 # respiros: a trilha some por um instante para destacar uma revelação
 for dr in mcfg.get("drops", []):
     a0 = _at(dr["at"]); d0 = dr["dur"]
@@ -437,8 +482,58 @@ active = (envl > db(-38)).astype(float)
 k = int(0.28 * SR)
 active = np.convolve(active, np.ones(k) / k, mode="same")
 active = np.clip(active * 1.6, 0, 1)
-duck = db(mcfg.get("duck", -5.5) * active)
-music *= duck[:, None]
+if not TRILHA:
+    duck = db(mcfg.get("duck", -5.5) * active)
+    music *= duck[:, None]
+else:
+    # ---- MIXAGEM v2 ----
+    from scipy.signal import sosfiltfilt
+
+    def _lufs(x):
+        p_ = subprocess.run(["ffmpeg", "-hide_banner", "-f", "f32le", "-ar", str(SR), "-ac", str(x.shape[1] if x.ndim > 1 else 1), "-i", "-",
+                             "-af", "loudnorm=print_format=json", "-f", "null", "-"], input=np.ascontiguousarray(x, dtype=np.float32).tobytes(), capture_output=True)
+        e_ = p_.stderr.decode()
+        return float(json.loads(e_[e_.rindex("{"): e_.rindex("}") + 1])["input_i"])
+
+    V2 = dict(pausa_lu=-10.0, duck_graves_db=-3.0, duck_medios_db=-9.0, cta_extra_db=-2.0, corte_hz=250, ataque_s=0.08, retorno_s=0.30, junta_pausas_s=0.35)
+    V2.update(mcfg.get("mix", {}))
+    _t = _TR.trilha(TRILHA)
+    V2["duck_medios_db"] += float(_t.get("voz", {}).get("duck_extra_db", 0.0))
+    voz_lufs = _lufs(narr)
+    mus_lufs = _lufs(music)
+    music *= db(voz_lufs + V2["pausa_lu"] - mus_lufs)  # nível na pausa: X LU abaixo da voz
+    # envelope de fala a partir das PALAVRAS (determinístico, com antecipação)
+    pal = sorted((w["start"], w["end"]) for c_ in tl["captions"] for w in c_["words"])
+    blocos = []
+    for a_, b_ in pal:
+        if blocos and a_ - blocos[-1][1] < V2["junta_pausas_s"]:
+            blocos[-1][1] = max(blocos[-1][1], b_)
+        else:
+            blocos.append([a_, b_])
+    env = np.zeros(N)
+    for a_, b_ in blocos:
+        i0, i1 = int(max(0, a_ - V2["ataque_s"] - 0.05) * SR), int(max(0, a_ - 0.02) * SR)
+        j0, j1 = int((b_ + 0.05) * SR), int((b_ + 0.05 + V2["retorno_s"]) * SR)
+        if i1 > i0:
+            env[i0:i1] = np.maximum(env[i0:i1], np.linspace(0, 1, i1 - i0))
+        env[i1:min(N, j0)] = 1.0
+        if j1 > j0 and j0 < N:
+            env[j0:min(N, j1)] = np.maximum(env[j0:min(N, j1)], np.linspace(1, 0, j1 - j0)[:min(N, j1) - j0])
+    env = np.sin(np.clip(env, 0, 1) * np.pi / 2) ** 2
+    cta = [tl["cues"][k] for k in ("cta_quer", "cta_comment", "cta_sys") if k in tl["cues"]]
+    cta_env = np.zeros(N)
+    if cta:
+        c0_, c1_ = int((min(cta) - 0.1) * SR), int((tl["cues"].get("cta_end", tl.get("narrationEnd", DUR)) + 0.2) * SR)
+        cta_env[max(0, c0_):min(N, c1_)] = 1.0
+        cta_env = np.convolve(cta_env, np.ones(int(0.2 * SR)) / int(0.2 * SR), mode="same")
+    sos = butter(4, V2["corte_hz"], btype="low", fs=SR, output="sos")
+    graves = np.stack([sosfiltfilt(sos, music[:, k]) for k in range(2)], axis=1)
+    medios = music - graves  # soma perfeita
+    g_lo = db(V2["duck_graves_db"] * env + V2["cta_extra_db"] * cta_env)
+    g_hi = db(V2["duck_medios_db"] * env + V2["cta_extra_db"] * cta_env)
+    music = graves * g_lo[:, None] + medios * g_hi[:, None]
+    active = env
+    V2.update(voz_lufs=round(voz_lufs, 1), trilha_lufs_origem=round(mus_lufs, 1))
 sfx *= db(-2.0 * active)[:, None]
 
 voice = np.stack([narr, narr], axis=1)
@@ -455,7 +550,7 @@ def save(path, x):
         w.writeframes((x * 32767).astype(np.int16).tobytes())
 
 
-out = os.path.join(REPO, "OUTPUT", ep.get("outputDir", EP), "audio"); os.makedirs(out, exist_ok=True)
+out = ARGS.saida or os.path.join(REPO, "OUTPUT", ep.get("outputDir", EP), "audio"); os.makedirs(out, exist_ok=True)
 save(os.path.join(out, "stem_trilha.wav"), music)
 save(os.path.join(out, "stem_efeitos.wav"), sfx)
 pre = os.path.join(out, "mix_pre_master.wav")
@@ -468,7 +563,7 @@ p1 = subprocess.run(["ffmpeg", "-hide_banner", "-i", pre, "-af", f"loudnorm={tar
 m = json.loads(p1[p1.rindex("{"): p1.rindex("}") + 1])
 flt = (f"loudnorm={target}:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}:"
        f"measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true:print_format=summary")
-final = os.path.join(ROOT, "public", EP, "mix.wav")
+final = os.path.join(ARGS.saida, "mix.wav") if ARGS.saida else os.path.join(ROOT, "public", EP, "mix.wav")
 subprocess.run(["ffmpeg", "-hide_banner", "-v", "error", "-y", "-i", pre, "-af", flt, "-ar", str(SR), "-c:a", "pcm_s16le", final], check=True)
 p2 = subprocess.run(["ffmpeg", "-hide_banner", "-i", final, "-af", "loudnorm=print_format=json", "-f", "null", "-"], capture_output=True, text=True).stderr
 m2 = json.loads(p2[p2.rindex("{"): p2.rindex("}") + 1])
@@ -483,5 +578,39 @@ rep = dict(final_lufs=m2["input_i"], final_true_peak=m2["input_tp"], final_lra=m
            narracao_lufs=lufs(os.path.join(ROOT, "public", EP, "narration.wav")),
            trilha_lufs=lufs(os.path.join(out, "stem_trilha.wav")), efeitos_lufs=lufs(os.path.join(out, "stem_efeitos.wav")),
            eventos=len(events_log))
+if TRILHA:
+    rep.update(mixagem="v2", trilha=TRILHA, licenca_trilha=REL_TRILHA["licenca"], v2=V2,
+               trilha_plano=dict(modo=REL_TRILHA["modo"], ancoras=REL_TRILHA["ancoras"], cortes=[(c["saida"], c["nota"]) for c in REL_TRILHA["cortes"]],
+                                 velocidade_pct=REL_TRILHA["alteracao_velocidade_pct"]))
+    json.dump(REL_TRILHA, open(os.path.join(out, "trilha_plano.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    # portão de inteligibilidade: Whisper na narração pura × na mixagem final, segmento a segmento
+    try:
+        import difflib
+        from tts_common import transcribe, norm, MODELS
+        if not os.path.isdir(os.path.join(MODELS, "whisper-small")):
+            raise ImportError("whisper-small ausente (rode tools/setup_models.sh)")
+        mixf, _sr = read_wav(final)
+        mixm = mixf.mean(axis=1) if mixf.ndim > 1 else mixf
+        tot_n = tot_m = tot_w = 0
+        for sg in tl["segments"]:
+            a_, b_ = int(max(0, sg["start"] - 0.15) * SR), int(min(DUR, sg["end"] + 0.2) * SR)
+            alvo = norm(sg["text"])
+            for nome_, sinal in (("n", narr), ("m", mixm)):
+                txt, _, _ = transcribe(sinal[a_:b_].astype(np.float32), SR)
+                ok = sum(b.size for b in difflib.SequenceMatcher(None, alvo, norm(txt)).get_matching_blocks())
+                if nome_ == "n":
+                    tot_n += ok
+                else:
+                    tot_m += ok
+            tot_w += len(alvo)
+        intel = dict(narracao=round(tot_n / max(1, tot_w), 3), mixagem=round(tot_m / max(1, tot_w), 3), palavras=tot_w)
+        intel["queda_pontos"] = round(100 * (intel["narracao"] - intel["mixagem"]), 1)
+        intel["aprovado"] = intel["queda_pontos"] <= 3.0
+        rep["inteligibilidade"] = intel
+    except ImportError as e_:
+        rep["inteligibilidade"] = dict(aprovado=None, aviso=f"portão não executado: {e_}")
 json.dump(rep, open(os.path.join(out, "mix_relatorio.json"), "w"), indent=1)
 print(rep)
+if TRILHA and rep.get("inteligibilidade", {}).get("aprovado") is False and not os.environ.get("ATIVO_IGNORAR_INTELIGIBILIDADE"):
+    raise SystemExit(f"✗ inteligibilidade: a mixagem perdeu {rep['inteligibilidade']['queda_pontos']} pontos contra a narração pura (máx. 3) — "
+                     f"baixe a trilha (music.mix.pausa_lu / duck_medios_db) ou troque de trilha")

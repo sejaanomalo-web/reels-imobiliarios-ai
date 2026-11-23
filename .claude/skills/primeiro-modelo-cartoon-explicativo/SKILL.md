@@ -429,6 +429,8 @@ A capa (`Cover.tsx`) usa os personagens principais em `espanto` ou `bravo` num c
 
 ## 12. Som
 
+> **Sistema Musical (23/11/2026, `TRILHAS/README.md`):** com `music.trilha` no episódio (`novo_episodio.build(..., trilha=…, ancoras=…)`), a trilha sintetizada desta seção é substituída por uma faixa do catálogo **adaptada à história** (`tools/adaptar_trilha.py`) e pela mixagem v2 do `build_audio.py`; os efeitos afinados (shimmer/chord/bell) passam a soar no tom da trilha. Afinidade (catálogo): T05 motor prático (muito), T03 arco de descoberta (compatível), T04 (contextual); evitar T01 e T02. Lacuna: falta uma faixa de leveza/humor (`TRILHAS/papeis.json`). Só trilha `licenciada`/`original` vai ao ar. Sem `music.trilha`, vale o padrão abaixo.
+
 ### 12.1 Mixagem
 Valores do piloto, padrão do perfil; **não** usar a regra "trilha a 50% da voz":
 

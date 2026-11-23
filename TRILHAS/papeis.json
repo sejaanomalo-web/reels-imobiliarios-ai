@@ -1,0 +1,103 @@
+{
+ "versao": 1,
+ "nota": "Papéis musicais (arquétipos). Uma faixa nova (licenciada ou original) entra num papel; assim a referência sem licença pode ser substituída sem perder a função narrativa.",
+ "papeis": [
+  {
+   "id": "cama-de-explicacao",
+   "descricao": "base neutra de tensão para notícia e mecanismo; sem melodia na faixa da voz; quase sem clímax",
+   "referencia": "T01",
+   "territorios": [
+    "agora",
+    "e-se"
+   ],
+   "modelos": [
+    "maquete-3d",
+    "planta-tecnica"
+   ],
+   "buscar": "pulso grave/eletrônico minimalista, 100–125 BPM, sem melodia proeminente, presença em 150–400 Hz para não sumir no celular"
+  },
+  {
+   "id": "arco-emocional",
+   "descricao": "ondas que crescem até um clímax e resolvem; reflexão e história",
+   "referencia": "T02",
+   "territorios": [
+    "historia",
+    "ideia"
+   ],
+   "modelos": [
+    "pictograma-cinematografico"
+   ],
+   "buscar": "piano/cordas em tom menor, dinâmica em ondas, final com acorde; preferir arranjo com médios contidos"
+  },
+  {
+   "id": "arco-de-descoberta",
+   "descricao": "intro → build → parada → quebra → drop → final limpo; hipótese → consequência → revelação",
+   "referencia": "T03",
+   "territorios": [
+    "e-se",
+    "fora-da-bolha"
+   ],
+   "modelos": [
+    "maquete-3d",
+    "planta-tecnica",
+    "cartoon-explicativo"
+   ],
+   "buscar": "eletrônico/pop otimista 110–125 BPM em tom maior, seções claras de 8 compassos, final natural"
+  },
+  {
+   "id": "tensao-em-movimento",
+   "descricao": "groove noturno com atitude; respiro de 1 compasso; seção-cama sem melodia",
+   "referencia": "T04",
+   "territorios": [
+    "corretor-real",
+    "fora-da-bolha"
+   ],
+   "modelos": [
+    "pictograma-cinematografico"
+   ],
+   "buscar": "groove 95–115 BPM em tom menor, swing leve, seção sem lead para narrar"
+  },
+  {
+   "id": "motor-pratico",
+   "descricao": "batida constante e confiante; tutorial, rotina, PULL",
+   "referencia": "T05",
+   "territorios": [
+    "corretor-real"
+   ],
+   "modelos": [
+    "cartoon-explicativo"
+   ],
+   "buscar": "batida 90–100 BPM estável, parada/silêncio de 1 compasso, entrada de melodia no terço final"
+  }
+ ],
+ "lacunas": [
+  {
+   "id": "leveza-humor",
+   "descricao": "curiosidade leve, brincalhona, para o humor que nasce do fato",
+   "por_que": "o Cartoon explicativo e o E SE…? com humor não têm faixa MUITO COMPATÍVEL",
+   "territorios": [
+    "e-se",
+    "corretor-real"
+   ],
+   "modelos": [
+    "cartoon-explicativo"
+   ],
+   "buscar": "pizzicato/marimba/synth pluck, 100–120 BPM, tom maior, arranjo leve com pausas"
+  },
+  {
+   "id": "otimista-reflexiva",
+   "descricao": "IDEIA QUE MUDA O JOGO sem melancolia: tese firme, luz no fim",
+   "por_que": "só a T02 (melancólica) atende IDEIA",
+   "territorios": [
+    "ideia",
+    "historia"
+   ],
+   "modelos": [
+    "pictograma-cinematografico",
+    "planta-tecnica"
+   ],
+   "buscar": "pad + piano/guitarra em tom maior, crescendo contido, 70–90 BPM"
+  }
+ ],
+ "meta_biblioteca": "15–20 faixas para 6 vídeos/dia (3–4 por papel)"
+}

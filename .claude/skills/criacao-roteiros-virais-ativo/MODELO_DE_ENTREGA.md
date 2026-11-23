@@ -64,6 +64,24 @@ Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.
 DIREÇÃO VISUAL:
 [Logo oficial discreta, texto COMENTE SISTEMA, sem promessa de Direct automático.]
 
+## FICHA MUSICAL (Sistema Musical ATIVO, `TRILHAS/README.md`)
+A música participa da narrativa. No roteiro ainda não há segundos: as âncoras apontam para **frases**; depois da voz congelada, o `timeline.json` dá os tempos e `tools/adaptar_trilha.py` monta a faixa para eles.
+```
+TERRITÓRIO:
+CURVA EMOCIONAL: (ex.: curiosidade → tensão → consequência → surpresa → insight)
+MODELO VISUAL:
+TRILHA SUGERIDA: (id do catálogo + papel; `python3 PRODUCAO/tools/trilhas.py sugerir --territorio … --modelo …`)
+POR QUÊ: (uma frase: o que a curva da faixa faz pela história)
+ÂNCORAS (função → frase do roteiro → cue):
+  virada      "…"   → cue:
+  tensao      "…"   → cue:   (opcional)
+  descoberta  "…"   → cue:
+  insight     "…"   → cue:   (a mais importante: o clímax/drop da faixa cai aqui)
+  resolucao   "…"   → cue:   (opcional)
+MICRODROP: (opcional, no máximo 1–2: antes de qual frase e por quê)
+```
+A ficha **sugere**; a escolha final da trilha é da produção, registrada na grade. Trilha sem licença (`referencia`) não vai ao ar.
+
 ## PARTE C — Direção audiovisual consolidada
 Shotlist resumida: cena | função | mídia/asset | direção | legenda/SFX | licença/pendência.
 Separar material confirmado de recursos a captar; não supor imagem real de software.

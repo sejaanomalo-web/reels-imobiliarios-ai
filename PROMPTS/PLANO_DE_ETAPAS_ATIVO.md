@@ -28,7 +28,7 @@
 7. **Cenas** — `Scenes.tsx`, `Episode.tsx`, `Cover.tsx`, `Root.tsx` com o kit do modelo.
 8. **Checagens** — `editorial_check` 0 erro + TypeScript.
 9. **Prévia e revisão** — render `--scale=0.5`, folha de quadros, correções.
-10. **Som e render final** — `build_audio` (−15 LUFS), render 1080×1920, `sistema_visual_check --quadros`.
+10. **Som e render final** — com `music.trilha`: `adaptar_trilha.py <EP>` (relatório de cortes/âncoras) + `build_audio` mixagem v2 (portão Whisper); sem trilha: `build_audio` (−15 LUFS), render 1080×1920, `sistema_visual_check --quadros`.
 11. **Entregas** — capa, SRT, `legenda_instagram.txt`, relatório de QA.
 12. **Publicação** — `publicar.py <EP> --quando "<data e horário do slot>"`, commit/push, conferir fila (Instagram, YouTube, TikTok).
 
@@ -61,6 +61,6 @@ Título: `[Grade AAAA-MM-DD] n/10 · …`. Depois da etapa 7, cada vídeo ganha 
 5. **Fonte D — aprendizado** — `grade.py semana` + `pub_programacao`; sinal, não lei.
 6. **Pauta** — 6 ideias (território, origem, PUSH/PULL, por que assistir, recompensa) + `grade.py validar` 0 erro → **Aprovação 1 (lote)**.
 7. **Roteiros** — Skill Mestre etapas 01–10, uma ideia por vez (substituir no mesmo território se reprovar) → **Aprovação 2 (lote)**; slots em `roteiro_aprovado`.
-8. **Match horário × modelo** — justificativas no slot; `grade.py validar` 0 erro (guardrails).
+8. **Match horário × modelo × trilha** — justificativas no slot (`trilhas.py sugerir`); `grade.py validar` 0 erro (guardrails de modelo e de trilha).
 9. **Produção** — um plano A por vídeo; slot vazio é melhor que vídeo fraco.
 10. **Programação e aprendizado** — `publicar.py` no horário do slot; depois `grade.py resultado` com as métricas reais.

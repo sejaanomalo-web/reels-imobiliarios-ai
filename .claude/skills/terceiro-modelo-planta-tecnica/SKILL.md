@@ -138,6 +138,8 @@ O modelo não tem personagem desenhado. O protagonista é o **projeto**. Quando 
 
 ## 12. Som
 
+> **Sistema Musical (23/11/2026, `TRILHAS/README.md`):** com `music.trilha` no episódio (`novo_episodio.build(..., trilha=…, ancoras=…)`), a trilha sintetizada desta seção é substituída por uma faixa do catálogo **adaptada à história** (`tools/adaptar_trilha.py`) e pela mixagem v2 do `build_audio.py`; os efeitos afinados (shimmer/chord/bell) passam a soar no tom da trilha. Afinidade (catálogo): T01 cama de explicação e T03 arco de descoberta (muito), T04 e T05 (compatível). Só trilha `licenciada`/`original` vai ao ar. Sem `music.trilha`, vale o padrão abaixo.
+
 Trilha e SFX de `build_audio.py` (−15 LUFS, pico ≤ −1 dBTP, ~20–30 eventos). Sugestões de evento: traço de parede = `swish` baixo; pino/carimbo = `pin`/`click`; mergulho = `whoosh_fold`; acender = `pin` agudo; fecho = os eventos que `novo_episodio` cria para `formato="planta-tecnica"`. Nada de whoosh em todo corte.
 
 ## 13. Metas de QA

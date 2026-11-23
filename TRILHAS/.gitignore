@@ -1,0 +1,10 @@
+# Áudio de terceiros ou licenciado NUNCA entra neste repositório público (23/11/2026).
+masters/
+previews/
+cache/
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.mp4
