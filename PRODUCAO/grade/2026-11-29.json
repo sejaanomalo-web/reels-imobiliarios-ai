@@ -1,7 +1,7 @@
 {
   "data": "2026-11-29",
   "versao": 1,
-  "status": "roteiros_aprovados",
+  "status": "programada",
   "justificativas": {
     "territorios": "dia-piloto com 3 vídeos",
     "pushPull": "",
@@ -111,9 +111,10 @@
       "justificativaTrilha": "trilha sintetizada: as faixas do catálogo estão em `referencia` (sem licença); sugestão de catálogo registrada na ficha musical",
       "episodio": "ATIVO-D1129-12",
       "roteiro": "ROTEIROS/ESTEIRA/2026-11-29/ATIVO-D1129-12_golpe_temporada.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-29-30/29-domingo/12h00"
     },
     {
       "horario": "15:00",
@@ -153,9 +154,10 @@
       "justificativaTrilha": "trilha sintetizada: as faixas do catálogo estão em `referencia` (sem licença); sugestão de catálogo registrada na ficha musical",
       "episodio": "ATIVO-D1129-18",
       "roteiro": "ROTEIROS/ESTEIRA/2026-11-29/ATIVO-D1129-18_casas_por_catalogo.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-29-30/29-domingo/18h00"
     },
     {
       "horario": "21:00",
@@ -174,9 +176,10 @@
       "justificativaTrilha": "trilha sintetizada: as faixas do catálogo estão em `referencia` (sem licença); sugestão de catálogo registrada na ficha musical",
       "episodio": "ATIVO-D1129-21",
       "roteiro": "ROTEIROS/ESTEIRA/2026-11-29/ATIVO-D1129-21_visita_nao_e_cortesia.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-29-30/29-domingo/21h00"
     }
   ],
   "piloto": "Dia-piloto da Esteira Editorial Diária (23/11/2026): 3 vídeos para testar o processo de ponta a ponta antes de 6/dia.",
