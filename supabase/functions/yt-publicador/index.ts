@@ -3,7 +3,8 @@
 //
 // AÇÕES (v2, 23/11/2026):
 //  - "ciclo" (produção, cron a cada 10 min) só age se yt_canais.ativo = true. Envia 1 post por chamada como privado +
-//    publishAt (o YouTube publica sozinho no horário de pub_destinos.agendado_para).
+//    publishAt (o YouTube publica sozinho no horário de pub_destinos.agendado_para). Em lote (v3): janela_horas (até
+//    240) e max_envios (até 4) — usado para deixar a fila inteira agendada no YouTube Studio.
 //  - "publicar_agora" {post_id}: envia JÁ como PÚBLICO (aprovação do cliente em 23/11/2026). Registra em pub_destinos
 //    modo 'producao' — o índice único impede o mesmo vídeo 2× no canal.
 //  - "teste" envia UM post escolhido, sempre como privado (ou não listado); "public" é recusado.
@@ -168,10 +169,13 @@ async function publicarAgora(corpo: { post_id: string }) {
   }
 }
 
-/** Produção: sincroniza a fila e envia 1 post por chamada, agendado no próprio YouTube (privado + publishAt). */
-async function ciclo() {
+/** Produção: sincroniza a fila e envia posts agendados no próprio YouTube (privado + publishAt).
+ *  Padrão do cron: 1 envio por chamada, até 6 h à frente. Em lote: {"acao":"ciclo","janela_horas":240,"max_envios":3}. */
+async function ciclo(corpo: { janela_horas?: number; max_envios?: number } = {}) {
   const { data: canal } = await sb.from("yt_canais").select("ativo").eq("perfil", PERFIL).single();
   if (canal?.ativo !== true) return json({ ok: true, desativado: true, motivo: "yt_canais.ativo = false (publicação automática desligada)" });
+  const janela = Math.min(Math.max(Number(corpo.janela_horas) || 6, 1), 240);
+  const maxEnvios = Math.min(Math.max(Number(corpo.max_envios) || 1, 1), 4);
   const novos = (await sb.rpc("pub_sincronizar", { p_destino: "youtube", p_horizonte: "2 days" })).data ?? 0;
   // pendente cujo horário passou sem envio (ex.: cota do dia esgotada) vai para o próximo horário livre do fim da fila
   const reprogramados = (await sb.rpc("pub_reprogramar_atrasados", { p_destino: "youtube", p_folga: "15 minutes" })).data ?? 0;
@@ -192,31 +196,33 @@ async function ciclo() {
     .eq("destino", "youtube").eq("modo", "producao").in("status", ["pendente", "erro"])
     .lt("tentativas", MAX_TENTATIVAS)
     .gt("agendado_para", new Date(agora + 15 * 60_000).toISOString())
-    .lt("agendado_para", new Date(agora + 6 * 3600_000).toISOString())
-    .order("agendado_para").limit(1);
-  const alvo = (fila ?? [])[0] as Destino | undefined;
-  if (!alvo) return json({ ok: true, novos, reprogramados, enviado: null });
-  const post = await postDaFila(alvo.post_id);
-  if (post.status === "cancelado" || post.status === "erro") {
-    await atualizar(alvo.id, { status: "cancelado", erro: `post do Instagram está ${post.status}` });
-    return json({ ok: true, novos, enviado: null, cancelado: alvo.id });
-  }
-  const { titulo, descricao } = await metadados(post);
-  await atualizar(alvo.id, { status: "enviando", titulo, descricao, privacidade: "private" });
-  try {
-    const v = await enviar(await accessToken(), post, titulo, descricao, "private", new Date(alvo.agendado_para).toISOString());
-    await atualizar(alvo.id, { status: "processando", externo_id: v.id, url: `https://www.youtube.com/shorts/${v.id}`, erro: null });
-    return json({ ok: true, novos, enviado: v.id });
-  } catch (e) {
-    const msg = String((e as Error).message);
-    if (ERRO_DE_COTA.test(msg)) {
-      // cota do dia esgotada: não gasta tentativa; tenta de novo nas próximas chamadas (a cota zera à meia-noite do Pacífico)
-      await atualizar(alvo.id, { status: "pendente", erro: msg.slice(0, 1000) });
-      return json({ ok: false, novos, cota_esgotada: true, erro: msg }, 429);
+    .lt("agendado_para", new Date(agora + janela * 3600_000).toISOString())
+    .order("agendado_para").limit(maxEnvios);
+  const enviados: string[] = [];
+  for (const alvo of (fila ?? []) as Destino[]) {
+    const post = await postDaFila(alvo.post_id);
+    if (post.status === "cancelado" || post.status === "erro") {
+      await atualizar(alvo.id, { status: "cancelado", erro: `post do Instagram está ${post.status}` });
+      continue;
     }
-    await atualizar(alvo.id, { status: "erro", erro: msg.slice(0, 1000), tentativas: alvo.tentativas + 1 });
-    return json({ ok: false, novos, erro: msg }, 500);
+    const { titulo, descricao } = await metadados(post);
+    await atualizar(alvo.id, { status: "enviando", titulo, descricao, privacidade: "private" });
+    try {
+      const v = await enviar(await accessToken(), post, titulo, descricao, "private", new Date(alvo.agendado_para).toISOString());
+      await atualizar(alvo.id, { status: "processando", externo_id: v.id, url: `https://www.youtube.com/shorts/${v.id}`, erro: null });
+      enviados.push(v.id);
+    } catch (e) {
+      const msg = String((e as Error).message);
+      if (ERRO_DE_COTA.test(msg)) {
+        // cota do dia esgotada: não gasta tentativa; tenta de novo nas próximas chamadas (a cota zera à meia-noite do Pacífico)
+        await atualizar(alvo.id, { status: "pendente", erro: msg.slice(0, 1000) });
+        return json({ ok: false, novos, reprogramados, enviados, cota_esgotada: true, erro: msg }, 429);
+      }
+      await atualizar(alvo.id, { status: "erro", erro: msg.slice(0, 1000), tentativas: alvo.tentativas + 1 });
+      return json({ ok: false, novos, reprogramados, enviados, erro: msg }, 500);
+    }
   }
+  return json({ ok: true, novos, reprogramados, enviado: enviados[0] ?? null, enviados });
 }
 
 Deno.serve(async (req) => {
@@ -230,7 +236,7 @@ Deno.serve(async (req) => {
     if (corpo.acao === "teste") return await teste(corpo);
     if (corpo.acao === "status") return await status(corpo);
     if (corpo.acao === "publicar_agora") return await publicarAgora(corpo);
-    if (corpo.acao === "ciclo") return await ciclo();
+    if (corpo.acao === "ciclo") return await ciclo(corpo);
     return json({ ok: false, erro: "ação desconhecida: verificar | previa | teste | status | publicar_agora | ciclo" }, 400);
   } catch (e) {
     console.log(`yt-publicador: ${(e as Error).message}`);

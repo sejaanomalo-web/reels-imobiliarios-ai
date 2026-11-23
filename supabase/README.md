@@ -97,6 +97,7 @@ select cron.schedule('buffer-tiktok', '17 */2 * * *', $$ select net.http_post(ur
 **Limites gratuitos:**
 - **Buffer Free:** 3 canais e 10 posts agendados por canal (`organization.limits`); 1.000 requisições a cada 30 dias (headers `x-ratelimit-*`; 982 restantes em 23/11 08h). Com 6 posts/dia, o gasto fica em ~12–15 requisições/dia.
 - **YouTube Data API:** cota padrão de 10.000 unidades/dia (zera à meia-noite do Pacífico, ~05h BRT). Em 23/11 foram feitos 8 envios no mesmo dia sem erro de cota, logo o custo real do `videos.insert` neste projeto é **menor que 1.600** (1.600 × 8 = 12.800 estouraria). O valor exato não foi confirmado na documentação.
+- **Limite de envios do canal (medido em 23/11/2026):** o YouTube recusou o 11º envio do dia com `uploadLimitExceeded` ("The user has exceeded the number of videos they may upload"). É um teto do canal, separado da cota da API; por isso a fila inteira não pode ser enviada de uma vez. O cron mantém 1 envio por vez, até 6 h antes de cada horário (6 por dia cabem). Envio em lote manual: `{"acao":"ciclo","janela_horas":240,"max_envios":3}` com o cron `yt-publicador` pausado (`cron.alter_job(..., active := false)`) para não enviar o mesmo vídeo 2×.
 - **Refresh token do YouTube:** com a tela de consentimento do Google em "Teste", vence 7 dias depois da conexão (22/11 11h03 → ~29/11 11h). Sem passar o app para "Em produção" e reconectar, os envios param nesse dia.
 
 ## Outras funções (não versionadas aqui ainda)
