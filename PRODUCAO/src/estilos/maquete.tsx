@@ -149,6 +149,8 @@ export const Mundo: React.FC<{
         </mesh>
         {children}
       </ThreeCanvas>
+      {/* vinheta (assinatura 5) + rodapé que morre no quase preto (Nível 1: bordas e rodapé ≤ 16/255) */}
+      <div style={{ position: "absolute", inset: 0, pointerEvents: "none", background: "radial-gradient(130% 85% at 50% 42%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.7) 100%), linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 72%, rgba(0,0,0,0.88) 100%)" }} />
     </>
   );
 };
@@ -293,7 +295,7 @@ export const ConeLuz: React.FC<{ pos: V3; alt?: number; raio?: number; p?: numbe
       </mesh>
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.012, 0]}>
         <circleGeometry args={[raio * 0.95, 48]} />
-        <meshBasicMaterial color={cor} transparent opacity={0.1 * clamp01(p)} depthWrite={false} blending={THREE.AdditiveBlending} />
+        <meshBasicMaterial color={cor} transparent opacity={0.07 * clamp01(p)} depthWrite={false} blending={THREE.AdditiveBlending} />
       </mesh>
     </group>
   );

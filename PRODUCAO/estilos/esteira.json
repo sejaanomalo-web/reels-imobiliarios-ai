@@ -1,5 +1,35 @@
 {
-  "regra": "Regra do cliente (21/11/2026): todo Reel novo segue a esteira de 5 estilos visuais, um por vez, em ordem circular contínua entre roteiros e lotes: 1 → 2 → 3 → 4 → 5 → 1 … Mesma identidade, voz, ritmo, legenda e CTA SISTEMA em todos. Guia: PROMPTS/GUIA_ESTILOS_VISUAIS_ATIVO.md.",
+  "regra": "Rotação de 4 MODELOS (regra do cliente, 23/11/2026): todo Reel novo segue o modelo da vez, em ordem circular contínua entre roteiros e lotes: 1 Cartoon explicativo → 2 Pictograma cinematográfico → 3 Planta técnica → 4 Maquete 3D → 1 … Ferramenta: tools/esteira.py. Substitui a esteira de 5 estilos (21/11/2026), ARQUIVADA abaixo em 'estilos'/'historico' só para os episódios já entregues.",
+  "rotacao": {
+    "modelos": {
+      "1": {
+        "nome": "Cartoon explicativo",
+        "formato": "cartoon-explicativo",
+        "skill": ".claude/skills/primeiro-modelo-cartoon-explicativo/SKILL.md"
+      },
+      "2": {
+        "nome": "Pictograma cinematográfico",
+        "formato": "pictograma-cinematografico",
+        "skill": ".claude/skills/segundo-modelo-pictograma-cinematografico/SKILL.md"
+      },
+      "3": {
+        "nome": "Planta técnica",
+        "formato": "planta-tecnica",
+        "skill": ".claude/skills/terceiro-modelo-planta-tecnica/SKILL.md"
+      },
+      "4": {
+        "nome": "Maquete 3D",
+        "formato": "maquete-3d",
+        "skill": ".claude/skills/quarto-modelo-maquete-3d/SKILL.md"
+      }
+    },
+    "proximo": 1,
+    "historico": []
+  },
+  "esteira5Arquivada": {
+    "nota": "Esteira de 5 estilos (21/11/2026) arquivada em 23/11/2026 por decisão do cliente. 'estilos', 'proximo' e 'historico' abaixo ficam só como registro dos episódios entregues (editorial_check ainda os confere). Nenhum episódio novo entra aqui.",
+    "proximoQuandoArquivada": 2
+  },
   "estilos": {
     "1": {
       "nome": "Palitinho",
@@ -22,7 +52,6 @@
       "kit": "src/episodes/NOV26/kit.tsx"
     }
   },
-  "proximo": 2,
   "historico": [
     {
       "episodio": "ATIVO-L60-01",

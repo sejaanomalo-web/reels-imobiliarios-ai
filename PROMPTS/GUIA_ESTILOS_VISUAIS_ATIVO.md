@@ -1,3 +1,5 @@
+> **ARQUIVADO em 23/11/2026 (decisão do cliente).** A esteira de 5 estilos foi substituída pela **rotação de 4 modelos** (1 Cartoon → 2 Pictograma → 3 Planta técnica → 4 Maquete 3D; `python3 PRODUCAO/tools/esteira.py proximo`, regras no `CLAUDE.md` e em `MODELOS_DE_VIDEO.md`). Este guia fica só como referência dos episódios já entregues nos estilos Palitinho, Desenho à mão, Planta técnica v1, Tipografia cinética e Painel. **Não use para episódio novo.**
+
 # Guia — Esteira de 5 estilos visuais ATIVO (regra do cliente, 21/11/2026)
 
 > **Regra:** todo Reel novo segue a esteira **um estilo por vez, em ordem circular contínua** entre roteiros **e** entre lotes:

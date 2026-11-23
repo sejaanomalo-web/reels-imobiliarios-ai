@@ -113,10 +113,6 @@
    ],
    "piloto": "ATIVO-PLANTA-01",
    "familiaIlustracao": "esquema",
-   "esteira": {
-    "estilo": 3,
-    "nota": "também é o estilo 3 da esteira de 5 estilos (mesmo kit); na esteira o fecho padrão é o Cta comum aos 5 estilos"
-   },
    "nivel2": {
     "narrativa": "o assunto vira projeto: cada folha é uma planta; cômodo = etapa/frente, cota = medida/tempo, chamada = observação, elevação = crescimento",
     "montagem": "4–6 folhas; algo novo a cada ≤ 1,5 s; troca de folha só por mergulho no cômodo-alvo ou planta que encolhe e vira quadra (sem crossfade solto)",
@@ -148,7 +144,8 @@
     "ATIVO-GTA6-02",
     "ATIVO-GTA6-08",
     "ATIVO-L60-04"
-   ]
+   ],
+   "nota": "Herdou o kit do estilo 3 da esteira de 5 (arquivada); os episódios entregues no v1 são legado."
   },
   {
    "numero": 4,
@@ -202,7 +199,7 @@
    "numero": null,
    "id": "esteira-5-estilos",
    "nome": "Esteira de 5 estilos (Palitinho, Desenho à mão, Planta técnica, Tipografia cinética, Painel)",
-   "status": "ativo",
+   "status": "arquivado",
    "guia": "PROMPTS/GUIA_ESTILOS_VISUAIS_ATIVO.md",
    "kits": [
     "PRODUCAO/src/estilos/palitinho.tsx",
@@ -231,7 +228,7 @@
     "ATIVO-NOV26-16",
     "ATIVO-NOV26-21"
    ],
-   "nota": "O estilo 3 (Planta técnica) é também o Terceiro modelo (id planta-tecnica, skill .claude/skills/terceiro-modelo-planta-tecnica/SKILL.md, kit v2 de 23/11/2026)."
+   "nota": "ARQUIVADA em 23/11/2026 (decisão do cliente): substituída pela rotação de 4 modelos (1 Cartoon → 2 Pictograma → 3 Planta técnica → 4 Maquete 3D). Fica registrada só para validar os episódios já entregues; nenhum episódio novo entra aqui."
   }
  ]
 }

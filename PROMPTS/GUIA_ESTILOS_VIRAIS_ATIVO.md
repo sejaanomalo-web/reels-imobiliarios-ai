@@ -17,4 +17,4 @@ Decisão do cliente (21/11/2026): criar **4 estilos virais de edição**, cada u
 - legenda do Instagram;
 - QA 11/11 no render.
 
-**Relação com a esteira de 5 estilos (21/11):** os formatos virais ficam **fora** da esteira (`novo_episodio.build(..., formato="cartoon-explicativo")` não consome a vez da esteira). Se os estilos virais vão substituir, alternar com ou se somar à esteira é **decisão pendente do cliente**.
+**Rotação (23/11/2026, decisão do cliente):** os 4 modelos acima formam a rotação obrigatória de produção, em ordem circular contínua: **1 → 2 → 3 → 4 → 1 …** (`python3 PRODUCAO/tools/esteira.py proximo`; `novo_episodio.build(..., formato=<da vez>)`). A antiga esteira de 5 estilos está arquivada (só episódios entregues).

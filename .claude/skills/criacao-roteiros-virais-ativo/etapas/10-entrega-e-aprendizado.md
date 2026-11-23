@@ -20,7 +20,7 @@ Não editar ROTEIROS/EP###.md, ROTEIROS/GTA6/*, lote L60, OUTPUT ou PUBLICACAO s
 
 ## Passagem para produção (somente quando solicitada)
 - Ler CLAUDE.md, guia de melhoria contínua, produção, voz, marca e skill do modelo de vídeo escolhido.
-- Confirmar estilo: esteira de 5 estilos vigente ou skill viral específica (Cartoon, Pictograma etc.); modelos têm suas próprias condições.
+- Confirmar o modelo da vez na rotação de 4 modelos (`python3 PRODUCAO/tools/esteira.py proximo`) e ler a skill dele.
 - Respeitar voz Puck 1,0×, safe areas, marca autorizada, licenças, legendas e QA técnico; não propor novas cores.
 - Texto final aprovado tem prioridade; não reescrever CTA para modelo longo antigo. Se o pipeline rejeitar por texto legado, relatar conflito e solicitar/implementar correção autorizada da regra de checagem, sem modificar material histórico.
 - Nunca afirmar MP4 finalizado sem gerar e inspecionar; nunca editar publicação existente como efeito colateral da Skill.

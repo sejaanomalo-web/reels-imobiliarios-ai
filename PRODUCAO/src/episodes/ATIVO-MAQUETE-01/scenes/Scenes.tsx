@@ -51,7 +51,7 @@ export const camera = (t: number, c: Record<string, number>): Cam => camAt(t, [
   { t: c.cta_quer - 0.3, pos: [10.7, 7.6, 11.4], alvo: [10.7, 2.3, 0.0], fov: 38 },
   { t: c.cta_quer + 0.9, pos: [20, 9.0, 13.5], alvo: [20, 2.1, -0.8], fov: 38, e: ease.inOut },
   { t: c.cta_comment - 0.2, pos: [20, 9.2, 13.8], alvo: [20, 2.2, -0.8], fov: 38 },
-  { t: c.cta_comment + 0.5, pos: [20, 10.5, 15.5], alvo: [20, 3.9, -1.0], fov: 38, e: ease.inOut },
+  { t: c.cta_comment + 0.5, pos: [20, 10.0, 15.0], alvo: [20, 3.2, -1.0], fov: 38, e: ease.inOut },
 ]);
 
 /** Clima do capítulo atual (troca de atmosfera em 0,6 s na entrada de cada capítulo). */
@@ -105,7 +105,7 @@ export const Maquete3D: React.FC<{ t: number; tl: Timeline }> = ({ t, tl }) => {
       <Haste pos={[12.5, 0, 1.4]} alt={2.2} surge={s(c.c_aprov, 0.4)} />
       {/* fecho */}
       <ModulosSistema t={t} tl={tl} segPergunta="s10" segComente="s11" base={CTA_BASE} />
-      <ConeLuz pos={CTA_BASE} alt={6.5} raio={3.0} p={prog(t, c.cta_quer + 0.3, 0.8)} verde={prog(t, c.cta_comment, 0.6)} />
+      <ConeLuz pos={CTA_BASE} alt={6.5} raio={2.6} p={prog(t, c.cta_quer + 0.3, 0.8)} verde={prog(t, c.cta_comment, 0.6)} />
     </>
   );
 };

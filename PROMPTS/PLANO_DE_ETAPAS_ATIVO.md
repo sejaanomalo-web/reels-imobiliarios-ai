@@ -20,9 +20,9 @@
 
 ### A. Vídeo novo (Reel ATIVO) — 12 etapas
 1. **Fila de modelos e roteiro** — `modelos/verificar_pendentes.py`; roteiro aprovado (Skill Mestre).
-2. **Modelo da vez** — próximo modelo da ordem de produção; ler a skill do modelo inteira.
+2. **Modelo da vez** — `python3 PRODUCAO/tools/esteira.py proximo` (rotação 1 Cartoon → 2 Pictograma → 3 Planta → 4 Maquete); ler a skill do modelo inteira.
 3. **Apuração** — fontes, números, selos (ILUSTRATIVO/SEGUNDO…).
-4. **Episódio** — `novo_episodio.py` (cues, CTA SISTEMA, SFX do fecho).
+4. **Episódio** — `novo_episodio.build(..., formato="<da vez>")` (registra na rotação; cues, CTA SISTEMA, SFX do fecho).
 5. **Voz** — Puck 1,0×, `shapePauses`, narração congelada; conferir duração.
 6. **Decupagem** — folhas/cenas, o que acende, transições (no papel, antes do código).
 7. **Cenas** — `Scenes.tsx`, `Episode.tsx`, `Cover.tsx`, `Root.tsx` com o kit do modelo.

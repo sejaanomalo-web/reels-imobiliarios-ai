@@ -25,7 +25,7 @@ Dar ao editor, apresentador ou Claude Code produtor um plano gravável/renderiz�
    - a área segura e a coluna de botões do Reels.
 
    Sugira a **atmosfera** de cada cena (neutra, explicação, dilema, dados, memória, tensão, solução) em vez de cores soltas. Nenhum modelo pode sugerir outra paleta.
-10. Não presumir a estética antes da ideia: a ATIVO já tem esteira de cinco estilos e formatos cartoon e pictograma com kits existentes. A Skill Mestre propõe a linguagem ideal, mas deve respeitar a decisão do usuário sobre modelo. A escolha do modelo de edição NÃO muda a recompensa nem o texto falado sem aprovação.
+10. Não presumir a estética antes da ideia: a ATIVO produz na rotação de 4 modelos (Cartoon, Pictograma, Planta técnica, Maquete 3D), cada um com skill e kit; o modelo do roteiro é o da vez (`esteira.py proximo`). A Skill Mestre propõe a linguagem ideal, mas deve respeitar a decisão do usuário sobre modelo. A escolha do modelo de edição NÃO muda a recompensa nem o texto falado sem aprovação.
 11. Para integração técnica, entregar shotlist com função, visual, transição, texto, assets e riscos. Depois da aprovação, o produtor usa seus próprios procedimentos de voz, editáveis, QA e render.
 
 ## Checklist de vídeo assistido sem áudio

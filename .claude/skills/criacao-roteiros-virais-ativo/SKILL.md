@@ -26,7 +26,7 @@ A viralização é incerta. Não prometer quantidade de views, retenção ou con
 ## 1. Fronteira de responsabilidade
 - **Esta Skill** executa a pré-produção editorial: pesquisa → ideias → aprovação → roteiro → direção audiovisual → auditoria → entrega. Nunca precisa consumir crédito, renderizar MP4 ou publicar para concluir um pedido de ROTEIRO.
 - **Skills de estilo e pipeline existentes** executam a PRODUÇÃO depois da aprovação do roteiro: consultar CLAUDE.md, MODELOS_DE_VIDEO.md, PROMPTS/GUIA_ESTILOS_VISUAIS_ATIVO.md, PROMPTS/GUIA_ESTILOS_VIRAIS_ATIVO.md, PRODUCAO/LEIAME.md e a skill visual escolhida.
-- Não substituir a esteira de cinco estilos nem as skills existentes de cartoon/pictograma. Estilo visual é uma decisão de produção e não substitui hipótese editorial.
+- Não substituir a rotação de 4 modelos (Cartoon → Pictograma → Planta técnica → Maquete 3D) nem as skills dos modelos. Estilo visual é uma decisão de produção e não substitui hipótese editorial.
 - Não alterar episódios, MP4s, agendamentos, voz ou ativos aprovados, salvo pedido explícito.
 - Quando o usuário pede "crie roteiro" ou "ideias", **não renderize**. Se pede vídeo pronto, obtenha aprovação criativa e então aplique o pipeline existente, conforme permissões e custos.
 

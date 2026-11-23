@@ -1,11 +1,11 @@
 ---
 name: terceiro-modelo-planta-tecnica
-description: TERCEIRO MODELO de vídeo da ATIVO e ESTILO 3 da esteira — "Terceiro modelo — Planta técnica": Reel/TikTok vertical 1080×1920 em que o assunto vira PROJETO de arquitetura numa prancha marinho com grade (cômodo = etapa, cota = medida/tempo, chamada = observação, porta = passagem, rota = caminho, elevação = crescimento, carimbo = assinatura ILUSTRATIVA), linha de projeto branca que se desenha na hora da fala, verde ATIVO só no que "acende", mergulho no cômodo como transição e fecho com o campo SISTEMA na prancha. Use sempre que o pedido for produzir, adaptar, decupar, revisar ou renderizar um vídeo "no terceiro modelo / planta técnica / blueprint / estilo 3 da esteira / como o GTA6_02", ou um roteiro sobre processo, estrutura, organização, frentes de negócio ou crescimento. Herda o Sistema Visual ATIVO (MARCA/sistema-visual).
+description: TERCEIRO MODELO de vídeo da ATIVO (rotação 1→4) — "Terceiro modelo — Planta técnica": Reel/TikTok vertical 1080×1920 em que o assunto vira PROJETO de arquitetura numa prancha marinho com grade (cômodo = etapa, cota = medida/tempo, chamada = observação, porta = passagem, rota = caminho, elevação = crescimento, carimbo = assinatura ILUSTRATIVA), linha de projeto branca que se desenha na hora da fala, verde ATIVO só no que "acende", mergulho no cômodo como transição e fecho com o campo SISTEMA na prancha. Use sempre que o pedido for produzir, adaptar, decupar, revisar ou renderizar um vídeo "no terceiro modelo / planta técnica / blueprint / como o GTA6_02", ou um roteiro sobre processo, estrutura, organização, frentes de negócio ou crescimento. Herda o Sistema Visual ATIVO (MARCA/sistema-visual).
 ---
 
 # Terceiro modelo — Planta técnica
 
-*ATIVO · modelo de vídeo nº 3 · estilo 3 da esteira de 5 estilos. Registro: `MODELOS_DE_VIDEO.md` e `MARCA/sistema-visual/modelos.json` (id `planta-tecnica`).*
+*ATIVO · modelo de vídeo nº 3 da rotação de 4 modelos. Registro: `MODELOS_DE_VIDEO.md` e `MARCA/sistema-visual/modelos.json` (id `planta-tecnica`).*
 
 ## Herança do Sistema Visual ATIVO
 
@@ -24,7 +24,7 @@ description: TERCEIRO MODELO de vídeo da ATIVO e ESTILO 3 da esteira — "Terce
   - linha de projeto BRANCA; verde só no que acende; vermelho só em falha;
   - traço único `TRACO` (3 px); contorno externo em linha dupla;
   - cada folha = uma planta; a folha seguinte nasce do cômodo em que a câmera MERGULHA;
-  - legenda `Captions` (padrão da esteira, y 1392, 68 px, caixa de frase) e título da folha no topo (`TituloFolha`, y 285);
+  - legenda `Captions` (y 1392, 68 px, caixa de frase) e título da folha no topo (`TituloFolha`, y 285);
   - fecho `CtaPlanta` (projeto "SEU SISTEMA" + campo que digita SISTEMA + logo assinado no carimbo).
 - **Direção de cada vídeo (Nível 3):** qual planta (casa, império, mapa, corte), quais cômodos, o que acende, onde a câmera mergulha.
 - **Validação:** `python3 PRODUCAO/tools/sistema_visual_check.py --modelo planta-tecnica` (o `editorial_check` já roda a parte do episódio e bloqueia o render) + revisão visual da folha de quadros (README §8).
@@ -38,9 +38,7 @@ description: TERCEIRO MODELO de vídeo da ATIVO e ESTILO 3 da esteira — "Terce
 
 **Use quando** o assunto tem ESTRUTURA: processo em etapas, frentes de um negócio, funil, organização da carteira, "o atendimento como projeto", crescimento de patrimônio, antes × depois de uma rotina. A pergunta-teste: *dá para desenhar isso como uma planta?* Se a resposta é "só com texto", use Tipografia cinética; se é uma história com pessoas, use Palitinho ou o Primeiro modelo.
 
-**Dois caminhos de produção:**
-1. **Na esteira de 5 estilos** (padrão): quando `python3 PRODUCAO/tools/esteira.py proximo` indicar o estilo 3. O episódio é criado por `tools/novo_episodio.py` normal (registra o estilo). Fecho: o `Cta` padrão da esteira (regra do cliente de 21/11: a CTA é igual nos 5 estilos), a menos que o cliente aprove o `CtaPlanta` também na esteira.
-2. **Como modelo, fora da esteira:** `novo_episodio.build(..., formato="planta-tecnica")`. Não consome a vez da esteira. Fecho obrigatório: `CtaPlanta`. Prefixo `ATIVO-PLANTA-NN`.
+**Produção:** modelo 3 da **rotação de 4 modelos** (23/11/2026). Quando `python3 PRODUCAO/tools/esteira.py proximo` indicar o 3, crie o episódio com `novo_episodio.build(..., formato="planta-tecnica")` (prefixo livre do lote, ex.: `ATIVO-L60-NN`). Fecho obrigatório: `CtaPlanta`.
 
 **Entrega:** MP4 1080×1920 30 fps H.264 + AAC, capa PNG no estilo, SRT, `legenda_instagram.txt` (CLAUDE.md), relatório de QA.
 
@@ -59,8 +57,8 @@ description: TERCEIRO MODELO de vídeo da ATIVO e ESTILO 3 da esteira — "Terce
 
 > **Plano visível (regra do cliente, 23/11/2026):** antes de começar, crie no painel "Plano" as 12 etapas do modelo A de `PROMPTS/PLANO_DE_ETAPAS_ATIVO.md`, com o ID do episódio no título (`[<EP>] n/12 · Etapa — resultado`). Uma etapa `in_progress` por vez; `completed` ao terminar; erro vira `BLOQUEIO`.
 
-1. Roteiro aprovado (Skill Mestre) → `esteira.py proximo` (caminho 1) ou decisão de usar o modelo (caminho 2).
-2. `mkNN.py` com `tools/novo_episodio.py` (cues por palavra; no caminho 2, `formato="planta-tecnica"`, que já cria `cta_leads`/`cta_atend` e os SFX do fecho).
+1. Roteiro aprovado (Skill Mestre) → `esteira.py proximo` indica o modelo 3.
+2. `mkNN.py` com `novo_episodio.build(..., formato="planta-tecnica")` (cues por palavra; registra na rotação, cria `cta_leads`/`cta_atend` e os SFX do fecho).
 3. Voz Puck 1,0× (`build_narration.py`), `shapePauses`.
 4. **Planta no papel antes do código:** para cada folha, liste cômodos, o que acende, a palavra de cada traço e o cômodo de saída (mergulho).
 5. `src/episodes/<EP>/scenes/Scenes.tsx` com o kit (copie a estrutura de `src/episodes/ATIVO-PLANTA-01/`), `Episode.tsx`, `Cover.tsx`, registro no `Root.tsx`.
@@ -135,9 +133,8 @@ O modelo não tem personagem desenhado. O protagonista é o **projeto**. Quando 
 
 ## 11. Legenda e fecho
 
-- **Legenda:** `<Captions t chunks accent={A}/>` (padrão da esteira; não mude posição nem tamanho).
+- **Legenda:** `<Captions t chunks accent={A}/>` (não mude posição nem tamanho).
 - **Fecho `<CtaPlanta t tl segPergunta segComente/>`:** na pergunta, o contorno "PROJETO: SEU SISTEMA" se desenha com o esboço tracejado; IMÓVEIS, LEADS e ATENDIMENTOS se constroem e ACENDEM nas suas palavras; em "Comente" a prancha sobe e surge o campo (`COMENTE · FOLHA FINAL`) que digita S-I-S-T-E-M-A; o botão de envio acende; em "Direct" uma rota verde leva o envio para fora; por fim o logo oficial é assinado (revelado da esquerda para a direita). Atmosfera `solucao` a partir de "Comente".
-- **Na esteira:** o fecho padrão é o `Cta` comum aos 5 estilos (regra de 21/11). Trocar pelo `CtaPlanta` na esteira é decisão do cliente.
 
 ## 12. Som
 
@@ -161,7 +158,7 @@ Trilha e SFX de `build_audio.py` (−15 LUFS, pico ≤ −1 dBTP, ~20–30 event
   <FundoPlanta t={t} atm="dados" />
   {/* camadas de clima: tensao na falha, solucao a partir de "Comente" */}
   <Hook t={t} tl={tl} /> <Take1 t={t} tl={tl} /> … {/* cada folha some ao fim do seu mergulho */}
-  <CtaPlanta t={t} tl={tl} segPergunta="s11" segComente="s12" />   {/* ou o Cta padrão, na esteira */}
+  <CtaPlanta t={t} tl={tl} segPergunta="s11" segComente="s12" />
   <Captions t={t} chunks={tl.captions} accent={A} />
   <Grain frame={frame} />
 </AbsoluteFill>

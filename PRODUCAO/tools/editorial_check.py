@@ -124,6 +124,20 @@ def check(ep_id: str) -> int:
 
     # 9. ESTEIRA DE 5 ESTILOS (cliente, 21/11/2026): episódio com "esteira": true precisa de "estilo" 1–5 registrado em
     #    estilos/esteira.json e as cenas devem usar o kit do estilo (1–4 → src/estilos/<kit>; 5 → kit Painel NOV26 sem kits novos).
+    # 9-0. ROTAÇÃO DE 4 MODELOS (cliente, 23/11/2026; substitui a esteira de 5, arquivada): episódio novo precisa de `formato` de um
+    #      modelo e estar registrado na rotação (tools/esteira.py); episódio da esteira de 5 só passa se for um entregue (legado).
+    _reg_rot = json.load(open(os.path.join(ROOT, "estilos", "esteira.json")))
+    _legado5 = {h["episodio"] for h in _reg_rot.get("historico", [])}
+    _hist_rot = {h["episodio"]: h["modelo"] for h in _reg_rot.get("rotacao", {}).get("historico", [])}
+    if ep.get("rotacao"):
+        _n = _hist_rot.get(ep_id)
+        _fmt = {int(k): m["formato"] for k, m in _reg_rot["rotacao"]["modelos"].items()}
+        if _n is None:
+            errs.append("rotação: episódio marcado `rotacao` mas não registrado em estilos/esteira.json (tools/esteira.py registrar)")
+        elif ep.get("formato") != _fmt.get(_n):
+            errs.append(f"rotação: modelo {_n} registrado exige formato \"{_fmt.get(_n)}\" (episode.json tem \"{ep.get('formato')}\")")
+    if ep.get("esteira") and ep_id not in _legado5:
+        errs.append("esteira de 5 estilos ARQUIVADA (23/11/2026): episódio novo segue a rotação de 4 modelos — use novo_episodio.build(..., formato=<modelo da vez>)")
     if ep.get("esteira"):
         KITS = {1: "estilos/palitinho", 2: "estilos/lousa", 3: "estilos/planta", 4: "estilos/tipografia"}
         n = ep.get("estilo")

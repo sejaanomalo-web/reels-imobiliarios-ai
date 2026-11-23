@@ -10,9 +10,9 @@ Cada modelo é um estilo viral de edição para Instagram e TikTok, com manual c
 |---|---|---|---|---|---|
 | **Primeiro modelo** | **Cartoon explicativo** | [`.claude/skills/primeiro-modelo-cartoon-explicativo/SKILL.md`](.claude/skills/primeiro-modelo-cartoon-explicativo/SKILL.md) | `PRODUCAO/src/estilos/cartoon.tsx` | `OUTPUT/pilotos/ATIVO_PILOTO_01/` ("Concorrente ou parceiro?") | ✅ pronto (21/11/2026) |
 | **Segundo modelo** | **Pictograma cinematográfico** | [`.claude/skills/segundo-modelo-pictograma-cinematografico/SKILL.md`](.claude/skills/segundo-modelo-pictograma-cinematografico/SKILL.md) | `PRODUCAO/src/estilos/pictograma.tsx` | `OUTPUT/pilotos/ATIVO_PICTO_01/` ("Ninguém te avisa quando um cliente desiste") | ✅ pronto (21/11/2026) |
-| **Terceiro modelo** (= estilo 3 da esteira) | **Planta técnica** | [`.claude/skills/terceiro-modelo-planta-tecnica/SKILL.md`](.claude/skills/terceiro-modelo-planta-tecnica/SKILL.md) | `PRODUCAO/src/estilos/planta.tsx` (v2) | `OUTPUT/pilotos/ATIVO_PLANTA_01/` (roteiro do GTA6_02 refeito no v2) | ✅ pronto (23/11/2026) |
+| **Terceiro modelo** | **Planta técnica** | [`.claude/skills/terceiro-modelo-planta-tecnica/SKILL.md`](.claude/skills/terceiro-modelo-planta-tecnica/SKILL.md) | `PRODUCAO/src/estilos/planta.tsx` (v2) | `OUTPUT/pilotos/ATIVO_PLANTA_01/` (roteiro do GTA6_02 refeito no v2) | ✅ pronto (23/11/2026) |
 | **Quarto modelo** | **Maquete 3D** | [`.claude/skills/quarto-modelo-maquete-3d/SKILL.md`](.claude/skills/quarto-modelo-maquete-3d/SKILL.md) | `PRODUCAO/src/estilos/maquete.tsx` (3D: `@remotion/three`) | `OUTPUT/pilotos/ATIVO_MAQUETE_01/` (roteiro do NOV26_03 na maquete) | ✅ pronto (23/11/2026) · família "maquete" aguardando aprovação no Nível 1 |
-| 5º, 6º, … | — | — | — | — | o registro não tem limite: cada novo modelo entra em `modelos.json` |
+| 5º, 6º, … | — | — | — | — | só se o cliente pedir; entra em `modelos.json` e na rotação (`estilos/esteira.json`) |
 
 **Primeiro modelo — Cartoon explicativo**, em uma linha: 2D chapado com personagens de recorte; fundo de raios com a cor das atmosferas do Nível 1; vinheta e holofote; carimbos e pop elástico; corte seco a cada 2–4 s; legenda karaokê no centro; fecho cartoon "COMENTE: SISTEMA" → Direct. Prévia: [`referencias/piloto_24_quadros.jpg`](.claude/skills/primeiro-modelo-cartoon-explicativo/referencias/piloto_24_quadros.jpg).
 
@@ -33,7 +33,7 @@ Prévia: [`referencias/piloto_24_quadros.jpg`](.claude/skills/segundo-modelo-pic
 - folha nova nasce do cômodo em que a câmera mergulha;
 - fecho `CtaPlanta` (projeto "SEU SISTEMA" + campo que digita SISTEMA + logo assinado).
 
-É também o **estilo 3 da esteira de 5 estilos** (mesmo kit). Na esteira, o fecho padrão continua sendo o `Cta` comum aos 5 estilos. Prévia: [`referencias/piloto_24_quadros.jpg`](.claude/skills/terceiro-modelo-planta-tecnica/referencias/piloto_24_quadros.jpg) e [`referencias/antes_x_depois.jpg`](.claude/skills/terceiro-modelo-planta-tecnica/referencias/antes_x_depois.jpg).
+Prévia: [`referencias/piloto_24_quadros.jpg`](.claude/skills/terceiro-modelo-planta-tecnica/referencias/piloto_24_quadros.jpg) e [`referencias/antes_x_depois.jpg`](.claude/skills/terceiro-modelo-planta-tecnica/referencias/antes_x_depois.jpg).
 
 **Quarto modelo — Maquete 3D**, em uma linha:
 - a notícia ou o processo vira uma maquete 3D de miniaturas de argila fosca num chão escuro infinito;
@@ -50,4 +50,4 @@ Prévia: [`referencias/piloto_24_quadros.jpg`](.claude/skills/quarto-modelo-maqu
 - CTA SISTEMA;
 - apuração;
 - QA 11/11 + `sistema_visual_check` (o `editorial_check` já roda);
-- os modelos 1 e 2 ficam **fora** da esteira de 5 estilos (que também herda o Nível 1); o modelo 3 é ao mesmo tempo modelo e estilo 3 da esteira.
+- **rotação obrigatória (23/11/2026):** 1 → 2 → 3 → 4 → 1 … (`python3 PRODUCAO/tools/esteira.py proximo`); a esteira de 5 estilos está arquivada.

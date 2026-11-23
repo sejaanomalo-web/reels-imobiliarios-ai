@@ -104,5 +104,8 @@ Para cada episódio, depois do roteiro final e da capa, o agente Claude Code dev
 
 **Importante:** esse é um passo de criação de texto a ser executado pelo agente Claude Code depois do pipeline técnico. O script `npm run ep` apenas gera narração, áudio, vídeo e capa; não tem um modelo editorial embutido e **não gera sozinho** o `.txt`. Ao pedir para o Claude Code produzir o vídeo, incluir a legenda na mesma entrega. Se o vídeo já existir, gerar apenas a legenda sem refazer o render ou a voz. Consulte `episode.json` para respeitar `outputDir` quando não for `EP###`.
 
-## Esteira de 5 estilos (21/11/2026)
+## Rotação de 4 modelos (23/11/2026) — substitui a esteira de 5 estilos
+Todo Reel novo usa o modelo da vez: `python3 tools/esteira.py proximo` → `novo_episodio.build(..., formato="<da vez>")` (1 cartoon-explicativo, 2 pictograma-cinematografico, 3 planta-tecnica, 4 maquete-3d). Skills em `.claude/skills/`; kits em `src/estilos/` (cartoon, pictograma, planta, maquete). O 4º modelo é 3D (`@remotion/three`).
+
+### Esteira de 5 estilos (21/11/2026) — ARQUIVADA, só episódios entregues
 Todo Reel novo usa o próximo estilo da esteira (`tools/esteira.py proximo`) e o gerador `tools/novo_episodio.py`. Kits: `src/estilos/` (1 palitinho, 2 lousa, 3 planta, 4 tipografia) e `src/episodes/NOV26/kit.tsx` (5 painel). Guia: `../PROMPTS/GUIA_ESTILOS_VISUAIS_ATIVO.md`.

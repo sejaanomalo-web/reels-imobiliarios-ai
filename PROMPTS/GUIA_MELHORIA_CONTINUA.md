@@ -1,3 +1,4 @@
+> **23/11/2026 — ROTAÇÃO DE 4 MODELOS (regra do cliente):** a esteira de 5 estilos foi arquivada; todo Reel novo segue o modelo da vez: 1 Cartoon explicativo → 2 Pictograma cinematográfico → 3 Planta técnica → 4 Maquete 3D → 1 … (`python3 PRODUCAO/tools/esteira.py proximo`; regras no `CLAUDE.md`).
 > **21/11/2026 — ESTEIRA DE 5 ESTILOS (regra do cliente):** a partir do lote L60, cada Reel segue o próximo estilo da esteira (1 Palitinho → 2 Desenho à mão → 3 Planta técnica → 4 Tipografia cinética → 5 Painel → 1…), sem pular e sem repetir, inclusive entre lotes. Kits em `PRODUCAO/src/estilos/`, fila em `PRODUCAO/estilos/esteira.json`, guia em `PROMPTS/GUIA_ESTILOS_VISUAIS_ATIVO.md`. Identidade, voz, ritmo, legenda, CTA e publicação não mudam.
 
 # Guia de melhoria contínua
