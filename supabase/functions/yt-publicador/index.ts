@@ -1,10 +1,14 @@
 // yt-publicador: publica no YouTube Shorts os posts da fila atual da ATIVO (public.ig_posts), usando o canal conectado
 // pelo yt-oauth (refresh token cifrado no Vault). Estado por post e destino em public.pub_destinos.
 //
-// TRAVAS (22/11/2026):
-//  - "ciclo" (produção) só age se yt_canais.ativo = true. Hoje é false e NÃO existe cron chamando esta função.
+// AÇÕES (v2, 23/11/2026):
+//  - "ciclo" (produção, cron a cada 10 min) só age se yt_canais.ativo = true. Envia 1 post por chamada como privado +
+//    publishAt (o YouTube publica sozinho no horário de pub_destinos.agendado_para).
+//  - "publicar_agora" {post_id}: envia JÁ como PÚBLICO (aprovação do cliente em 23/11/2026). Registra em pub_destinos
+//    modo 'producao' — o índice único impede o mesmo vídeo 2× no canal.
 //  - "teste" envia UM post escolhido, sempre como privado (ou não listado); "public" é recusado.
 //  - "verificar", "previa" e "status" não enviam nada.
+// Erros de cota (quotaExceeded/uploadLimitExceeded) não gastam tentativa: o post volta a 'pendente'.
 // Chamada só com o header x-cron-secret (mesmo segredo do ig-publicador, validado via RPC ig_validar_segredo).
 
 import { createClient } from "npm:@supabase/supabase-js@2";
@@ -73,6 +77,8 @@ async function statusNoYoutube(at: string, id: string) {
   return j.items?.[0] ?? null;
 }
 
+const ERRO_DE_COTA = /quotaExceeded|uploadLimitExceeded|rateLimitExceeded|dailyLimitExceeded/i;
+
 async function atualizar(id: string, campos: Record<string, unknown>) {
   await sb.from("pub_destinos").update({ ...campos, atualizado_em: new Date().toISOString() }).eq("id", id);
 }
@@ -120,13 +126,46 @@ async function teste(corpo: { post_id: string; privacidade?: string }) {
 }
 
 async function status(corpo: { destino_id: string }) {
-  const { data: d } = await sb.from("pub_destinos").select("id, externo_id, modo, status").eq("id", corpo.destino_id).eq("destino", "youtube").single();
+  const { data: d } = await sb.from("pub_destinos").select("id, externo_id, modo, status, privacidade").eq("id", corpo.destino_id).eq("destino", "youtube").single();
   if (!d?.externo_id) return json({ ok: false, erro: "destino sem vídeo enviado" }, 404);
   const item = await statusNoYoutube(await accessToken(), d.externo_id);
   if (!item) return json({ ok: false, erro: "vídeo não encontrado no canal" }, 404);
   const pronto = item.status?.uploadStatus === "processed";
-  if (pronto && d.status === "processando") await atualizar(d.id, { status: d.modo === "teste" ? "publicado" : "agendado" });
-  return json({ ok: true, video_id: d.externo_id, upload: item.status?.uploadStatus, privacidade: item.status?.privacyStatus, publishAt: item.status?.publishAt ?? null, processamento: item.processingDetails?.processingStatus ?? null });
+  const publico = item.status?.privacyStatus === "public";
+  if (pronto && d.status === "processando") {
+    if (d.modo === "teste") await atualizar(d.id, { status: "publicado" });
+    else if (publico) await atualizar(d.id, { status: "publicado", publicado_em: new Date().toISOString() });
+    else await atualizar(d.id, { status: "agendado" });
+  }
+  // pedido público que o YouTube deixou privado = projeto de API sem auditoria (vídeos travados em privado)
+  const travado = d.privacidade === "public" && pronto && !publico;
+  return json({ ok: true, video_id: d.externo_id, upload: item.status?.uploadStatus, privacidade: item.status?.privacyStatus, publishAt: item.status?.publishAt ?? null, processamento: item.processingDetails?.processingStatus ?? null, rejeicao: item.status?.rejectionReason ?? null, travado_em_privado: travado });
+}
+
+/** Produção imediata: envia o post JÁ como público (sem publishAt). Uma vez por post (índice único de produção). */
+async function publicarAgora(corpo: { post_id: string }) {
+  const post = await postDaFila(corpo.post_id);
+  if (post.status === "cancelado" || post.status === "erro") return json({ ok: false, erro: `post está ${post.status} na fila do Instagram` }, 400);
+  const { titulo, descricao } = await metadados(post);
+  const { data: ja } = await sb.from("pub_destinos").select("id, status, externo_id").eq("post_id", post.id).eq("destino", "youtube").eq("modo", "producao").maybeSingle();
+  if (ja && !["pendente", "erro"].includes(ja.status)) return json({ ok: false, erro: `já existe envio de produção (${ja.status})`, destino_id: ja.id, video_id: ja.externo_id }, 409);
+  const campos = { status: "enviando", titulo, descricao, privacidade: "public", agendado_para: new Date().toISOString() };
+  let id = ja?.id as string | undefined;
+  if (id) await atualizar(id, campos);
+  else {
+    const { data: d, error } = await sb.from("pub_destinos").insert({ post_id: post.id, destino: "youtube", modo: "producao", ...campos }).select("id").single();
+    if (error || !d) throw new Error(`não foi possível registrar o envio: ${error?.message}`);
+    id = d.id;
+  }
+  try {
+    const v = await enviar(await accessToken(), post, titulo, descricao, "public");
+    await atualizar(id!, { status: "processando", externo_id: v.id, url: `https://www.youtube.com/shorts/${v.id}`, erro: null });
+    return json({ ok: true, destino_id: id, video_id: v.id, url: `https://www.youtube.com/shorts/${v.id}`, privacidade: v.status?.privacyStatus, upload: v.status?.uploadStatus, titulo });
+  } catch (e) {
+    const msg = String((e as Error).message);
+    await atualizar(id!, { status: "erro", erro: msg.slice(0, 1000), tentativas: ERRO_DE_COTA.test(msg) ? 0 : 1 });
+    throw e;
+  }
 }
 
 /** Produção: sincroniza a fila e envia 1 post por chamada, agendado no próprio YouTube (privado + publishAt). */
@@ -134,6 +173,8 @@ async function ciclo() {
   const { data: canal } = await sb.from("yt_canais").select("ativo").eq("perfil", PERFIL).single();
   if (canal?.ativo !== true) return json({ ok: true, desativado: true, motivo: "yt_canais.ativo = false (publicação automática desligada)" });
   const novos = (await sb.rpc("pub_sincronizar", { p_destino: "youtube", p_horizonte: "2 days" })).data ?? 0;
+  // pendente cujo horário passou sem envio (ex.: cota do dia esgotada) vai para o próximo horário livre do fim da fila
+  const reprogramados = (await sb.rpc("pub_reprogramar_atrasados", { p_destino: "youtube", p_folga: "15 minutes" })).data ?? 0;
   const agora = Date.now();
   // confirma os que já passaram do horário (até 2 por chamada; cada consulta custa 1 unidade de cota)
   const { data: vencidos } = await sb.from("pub_destinos").select("id, externo_id")
@@ -154,7 +195,7 @@ async function ciclo() {
     .lt("agendado_para", new Date(agora + 6 * 3600_000).toISOString())
     .order("agendado_para").limit(1);
   const alvo = (fila ?? [])[0] as Destino | undefined;
-  if (!alvo) return json({ ok: true, novos, enviado: null });
+  if (!alvo) return json({ ok: true, novos, reprogramados, enviado: null });
   const post = await postDaFila(alvo.post_id);
   if (post.status === "cancelado" || post.status === "erro") {
     await atualizar(alvo.id, { status: "cancelado", erro: `post do Instagram está ${post.status}` });
@@ -167,8 +208,14 @@ async function ciclo() {
     await atualizar(alvo.id, { status: "processando", externo_id: v.id, url: `https://www.youtube.com/shorts/${v.id}`, erro: null });
     return json({ ok: true, novos, enviado: v.id });
   } catch (e) {
-    await atualizar(alvo.id, { status: "erro", erro: String((e as Error).message).slice(0, 1000), tentativas: alvo.tentativas + 1 });
-    return json({ ok: false, novos, erro: (e as Error).message }, 500);
+    const msg = String((e as Error).message);
+    if (ERRO_DE_COTA.test(msg)) {
+      // cota do dia esgotada: não gasta tentativa; tenta de novo nas próximas chamadas (a cota zera à meia-noite do Pacífico)
+      await atualizar(alvo.id, { status: "pendente", erro: msg.slice(0, 1000) });
+      return json({ ok: false, novos, cota_esgotada: true, erro: msg }, 429);
+    }
+    await atualizar(alvo.id, { status: "erro", erro: msg.slice(0, 1000), tentativas: alvo.tentativas + 1 });
+    return json({ ok: false, novos, erro: msg }, 500);
   }
 }
 
@@ -182,8 +229,9 @@ Deno.serve(async (req) => {
     if (corpo.acao === "previa") return await previa(corpo);
     if (corpo.acao === "teste") return await teste(corpo);
     if (corpo.acao === "status") return await status(corpo);
+    if (corpo.acao === "publicar_agora") return await publicarAgora(corpo);
     if (corpo.acao === "ciclo") return await ciclo();
-    return json({ ok: false, erro: "ação desconhecida: verificar | previa | teste | status | ciclo" }, 400);
+    return json({ ok: false, erro: "ação desconhecida: verificar | previa | teste | status | publicar_agora | ciclo" }, 400);
   } catch (e) {
     console.log(`yt-publicador: ${(e as Error).message}`);
     return json({ ok: false, erro: (e as Error).message }, 500);

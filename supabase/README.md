@@ -44,10 +44,21 @@ Se as práticas descritas mudarem (escopos, armazenamento, retenção), atualize
 |---|---|---|
 | Canal | "Ativo \| Para Corretores de Imóveis" (`yt_canais`) | `@ativo.br` no Buffer (`buffer_canais`) |
 | Credencial | refresh token no Vault + secrets `YOUTUBE_CLIENT_ID`/`YOUTUBE_CLIENT_SECRET` | secret `BUFFER_API_KEY` |
-| Trava | `yt_canais.ativo = false` | `buffer_canais.ativo = false` |
+| Trava | `yt_canais.ativo` (**true desde 23/11/2026**) | `buffer_canais.ativo` (**true desde 23/11/2026**) |
+| Cron | `yt-publicador`, `*/10 * * * *` | `buffer-tiktok`, `17 */2 * * *` |
 | Teste | `teste`: envia 1 post como **privado** (public é recusado) | `teste`: cria **rascunho** no Buffer (nada vai ao TikTok); se não vier `draft`, apaga na hora |
 | Sem efeito externo | `verificar`, `previa`, `status` | `validar`, `previa`, `status` |
-| Produção | `ciclo`: envia privado com `publishAt` = horário da fila (o YouTube publica sozinho) | `ciclo`: agenda no Buffer (`customScheduled`) até 8 posts à frente |
+| Publicação imediata | `publicar_agora` {post_id}: envia **público** já | `publicar_agora` {post_id}: `shareNow` no Buffer |
+| Produção agendada | `ciclo`: envia 1 post por chamada, privado + `publishAt` (janela 15 min–6 h à frente); o YouTube publica sozinho | `ciclo`: agenda no Buffer (`customScheduled`) até 8 posts à frente, 2 por chamada |
+
+`status` também grava o resultado em `pub_destinos` (YouTube: `publicado` quando público; TikTok: `publicado` + link quando o Buffer devolve `sent`). As duas ações `publicar_agora` respeitam o índice único de produção: o mesmo vídeo não vai 2× ao mesmo destino.
+
+**Horários próprios (migração `20261123_pub_horarios.sql`):** YouTube e TikTok publicam **um vídeo por horário** nos 6 horários da ATIVO — **08h00, 10h00, 12h00, 15h00, 18h00 e 21h00 (Brasília)** — na ordem de `ig_posts.agendado_para`, mas **sem copiar o horário do Instagram**.
+- `pub_proximo_horario(t)`: próximo desses horários depois de `t`.
+- `pub_sincronizar(destino)`: post novo da fila do Instagram (status agendado) entra no **fim** da fila do destino, no próximo horário livre (`p_horizonte` não é mais usado).
+- `pub_reprogramar_atrasados(destino, folga)`: pendente que perdeu o horário sem envio (ex.: cota do dia esgotada) vai para o fim da fila; nenhum vídeo é pulado.
+- Erros de cota do YouTube (`quotaExceeded`, `uploadLimitExceeded`…) não gastam tentativa: o post volta a `pendente`.
+- O Buffer **recusa `thumbnailUrl`** em vídeo (as redes não aceitam capa personalizada): a capa do TikTok é o quadro automático.
 
 **Texto:**
 - a CTA do Instagram ("Comente SISTEMA…") é trocada por `CTA_FORA_DO_INSTAGRAM` (`textos.ts`, cópia idêntica nas duas funções);
@@ -65,21 +76,28 @@ select net.http_post(
 -- resposta: select status_code, content from net._http_response where id = <id devolvido>;
 ```
 
-**Primeiros testes (só com aprovação do cliente):**
-1. YouTube: `{"acao":"teste","post_id":"<id>","privacidade":"private"}`, depois `{"acao":"status","destino_id":"<id devolvido>"}`.
-2. TikTok: `{"acao":"teste","post_id":"<id>"}` (rascunho), conferir no painel do Buffer e, se quiser, `{"acao":"apagar_teste","destino_id":"<id>"}`.
+**Ver a programação:**
+```sql
+select d.destino, d.status, regexp_replace(p.caminho_video, '.*/', '') as video,
+       d.agendado_para at time zone 'America/Sao_Paulo' as horario_brt, d.url, d.erro
+  from pub_destinos d join ig_posts p on p.id = d.post_id
+ where d.modo = 'producao' order by d.agendado_para, d.destino;
+```
 
-**Ativar no futuro (NÃO executado; só com aprovação do cliente):**
+**Pausar** (sem apagar nada): `update public.yt_canais set ativo = false where perfil = 'ativo';` e/ou `update public.buffer_canais set ativo = false where perfil = 'ativo';`. O que já está agendado no YouTube (privado + `publishAt`) e no Buffer continua agendado lá.
+
+**Ativação (executada em 23/11/2026, com aprovação do cliente):**
 ```sql
 update public.yt_canais set ativo = true where perfil = 'ativo';
 select cron.schedule('yt-publicador', '*/10 * * * *', $$ select net.http_post(url := 'https://cawwccbuejmvfemgdhvl.supabase.co/functions/v1/yt-publicador', body := '{"acao":"ciclo"}'::jsonb, headers := jsonb_build_object('Content-Type','application/json','x-cron-secret',(select decrypted_secret from vault.decrypted_secrets where name='ig_cron_secret' limit 1)), timeout_milliseconds := 140000) $$);
 update public.buffer_canais set ativo = true where perfil = 'ativo';
-select cron.schedule('buffer-tiktok', '17 */6 * * *', $$ select net.http_post(url := 'https://cawwccbuejmvfemgdhvl.supabase.co/functions/v1/buffer-tiktok', body := '{"acao":"ciclo"}'::jsonb, headers := jsonb_build_object('Content-Type','application/json','x-cron-secret',(select decrypted_secret from vault.decrypted_secrets where name='ig_cron_secret' limit 1)), timeout_milliseconds := 140000) $$);
+select cron.schedule('buffer-tiktok', '17 */2 * * *', $$ select net.http_post(url := 'https://cawwccbuejmvfemgdhvl.supabase.co/functions/v1/buffer-tiktok', body := '{"acao":"ciclo"}'::jsonb, headers := jsonb_build_object('Content-Type','application/json','x-cron-secret',(select decrypted_secret from vault.decrypted_secrets where name='ig_cron_secret' limit 1)), timeout_milliseconds := 140000) $$);
 ```
 
-**Limites gratuitos (medidos em 22/11/2026):**
-- **Buffer Free:** 3 canais e 10 posts agendados por canal (`organization.limits`); 1.000 requisições a cada 30 dias (headers `x-ratelimit-*`). O `ciclo` a cada 6 h gasta no máximo ~3 requisições por rodada.
-- **YouTube Data API:** cota padrão de 10.000 unidades/dia. O custo do `videos.insert` diverge na documentação (≈100 ou 1.600 unidades); confira em Google Cloud → APIs → YouTube Data API v3 → Cotas. Com 2–3 envios por dia, cabe nos dois casos.
+**Limites gratuitos:**
+- **Buffer Free:** 3 canais e 10 posts agendados por canal (`organization.limits`); 1.000 requisições a cada 30 dias (headers `x-ratelimit-*`; 982 restantes em 23/11 08h). Com 6 posts/dia, o gasto fica em ~12–15 requisições/dia.
+- **YouTube Data API:** cota padrão de 10.000 unidades/dia (zera à meia-noite do Pacífico, ~05h BRT). Em 23/11 foram feitos 8 envios no mesmo dia sem erro de cota, logo o custo real do `videos.insert` neste projeto é **menor que 1.600** (1.600 × 8 = 12.800 estouraria). O valor exato não foi confirmado na documentação.
+- **Refresh token do YouTube:** com a tela de consentimento do Google em "Teste", vence 7 dias depois da conexão (22/11 11h03 → ~29/11 11h). Sem passar o app para "Em produção" e reconectar, os envios param nesse dia.
 
 ## Outras funções (não versionadas aqui ainda)
 

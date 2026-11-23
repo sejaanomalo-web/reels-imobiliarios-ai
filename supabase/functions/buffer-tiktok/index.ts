@@ -2,8 +2,11 @@
 // Buffer (plano gratuito: 3 canais, 10 posts agendados por canal, 1.000 requisições a cada 30 dias — medido em
 // 22/11/2026 nos headers x-ratelimit-*). Estado por post e destino em public.pub_destinos.
 //
-// TRAVAS (22/11/2026):
-//  - "ciclo" (produção) só age se buffer_canais.ativo = true. Hoje é false e NÃO existe cron chamando esta função.
+// AÇÕES (v3, 23/11/2026):
+//  - "ciclo" (produção, cron a cada 2 h) só age se buffer_canais.ativo = true. Agenda no Buffer (customScheduled) no
+//    horário de pub_destinos.agendado_para, até LIMITE_AGENDADOS à frente.
+//  - "publicar_agora" {post_id}: cria o post com mode "shareNow" (vai ao TikTok na hora; aprovação do cliente em
+//    23/11/2026). Registra em pub_destinos modo 'producao' — o índice único impede o mesmo vídeo 2× no canal.
 //  - "teste" cria o post como RASCUNHO no Buffer (saveToDraft): nada vai ao TikTok. Se o Buffer
 //    devolver qualquer status diferente de "draft", o post é apagado na hora.
 //  - "validar", "previa" e "status" não criam nada.
@@ -53,7 +56,8 @@ function entrada(canalId: string, post: { video_url: string; capa_url: string; l
     channelId: canalId,
     text: textoTiktok(post.legenda),
     schedulingType: "automatic",
-    assets: [{ video: { url: post.video_url, thumbnailUrl: post.capa_url } }],
+    // o Buffer recusa thumbnailUrl (as redes não aceitam capa personalizada de vídeo): a capa é o quadro automático
+    assets: [{ video: { url: post.video_url } }],
     metadata: { tiktok: { isAiGenerated: MARCAR_COMO_IA } },
     source: "ativo-supabase",
     ...extra,
@@ -111,10 +115,46 @@ async function apagarTeste(corpo: { destino_id: string }) {
 }
 
 async function status(corpo: { destino_id: string }) {
-  const { data: d } = await sb.from("pub_destinos").select("id, externo_id").eq("id", corpo.destino_id).eq("destino", "tiktok").single();
+  const { data: d } = await sb.from("pub_destinos").select("id, externo_id, modo, status").eq("id", corpo.destino_id).eq("destino", "tiktok").single();
   if (!d?.externo_id) return json({ ok: false, erro: "destino sem post no Buffer" }, 404);
   const r = await gql(CONSULTAR, { input: { id: d.externo_id } });
-  return json({ ok: true, post: r.data.post, cota: r.cota });
+  const p = r.data.post;
+  if (d.modo === "producao" && ["processando", "agendado"].includes(d.status)) {
+    if (p?.status === "sent") await atualizar(d.id, { status: "publicado", url: p.externalLink ?? null, publicado_em: p.sentAt ?? new Date().toISOString() });
+    if (p?.status === "error") await atualizar(d.id, { status: "erro", erro: p.error?.message ?? "erro no Buffer" });
+  }
+  return json({ ok: true, post: p, cota: r.cota });
+}
+
+/** Produção imediata: cria o post no Buffer com shareNow (publica no TikTok na hora). Uma vez por post. */
+async function publicarAgora(corpo: { post_id: string }) {
+  const c = await canal();
+  const post = await postDaFila(corpo.post_id);
+  if (post.status === "cancelado" || post.status === "erro") return json({ ok: false, erro: `post está ${post.status} na fila do Instagram` }, 400);
+  const { data: ja } = await sb.from("pub_destinos").select("id, status, externo_id").eq("post_id", post.id).eq("destino", "tiktok").eq("modo", "producao").maybeSingle();
+  if (ja && !["pendente", "erro"].includes(ja.status)) return json({ ok: false, erro: `já existe envio de produção (${ja.status})`, destino_id: ja.id, buffer_post_id: ja.externo_id }, 409);
+  const campos = { status: "enviando", descricao: textoTiktok(post.legenda), privacidade: "public", agendado_para: new Date().toISOString() };
+  let id = ja?.id as string | undefined;
+  if (id) await atualizar(id, campos);
+  else {
+    const { data: d, error } = await sb.from("pub_destinos").insert({ post_id: post.id, destino: "tiktok", modo: "producao", ...campos }).select("id").single();
+    if (error || !d) throw new Error(`não foi possível registrar o envio: ${error?.message}`);
+    id = d.id;
+  }
+  let r;
+  try {
+    r = await gql(CRIAR, { input: entrada(c.canal_id, post, { mode: "shareNow", saveToDraft: false, needsApproval: false }) });
+  } catch (e) {
+    await atualizar(id!, { status: "erro", erro: String((e as Error).message).slice(0, 1000), tentativas: 1 });
+    throw e;
+  }
+  const res = r.data.createPost;
+  if (res.__typename !== "PostActionSuccess") {
+    await atualizar(id!, { status: "erro", erro: `${res.__typename}: ${res.message ?? ""}`.slice(0, 1000), tentativas: 1 });
+    return json({ ok: false, erro: `${res.__typename}: ${res.message ?? ""}`, cota: r.cota }, 502);
+  }
+  await atualizar(id!, { status: "processando", externo_id: res.post.id, erro: null });
+  return json({ ok: true, destino_id: id, buffer_post_id: res.post.id, status: res.post.status, shareMode: res.post.shareMode, cota: r.cota });
 }
 
 /** Produção: mantém até LIMITE_AGENDADOS posts agendados no Buffer (customScheduled no horário da fila). */
@@ -122,6 +162,7 @@ async function ciclo() {
   const c = await canal();
   if (c.ativo !== true) return json({ ok: true, desativado: true, motivo: "buffer_canais.ativo = false (publicação automática desligada)" });
   const novos = (await sb.rpc("pub_sincronizar", { p_destino: "tiktok", p_horizonte: "5 days" })).data ?? 0;
+  const reprogramados = (await sb.rpc("pub_reprogramar_atrasados", { p_destino: "tiktok", p_folga: "20 minutes" })).data ?? 0;
   const agora = new Date();
   // confirma 1 post que já passou do horário (economia de cota)
   const { data: vencido } = await sb.from("pub_destinos").select("id, externo_id").eq("destino", "tiktok").eq("modo", "producao")
@@ -150,7 +191,7 @@ async function ciclo() {
       await atualizar(item.id, { status: "erro", erro: `${res.__typename}: ${res.message ?? ""}`.slice(0, 1000), tentativas: item.tentativas + 1 });
     }
   }
-  return json({ ok: true, novos, vagas, agendados_agora: enviados });
+  return json({ ok: true, novos, reprogramados, vagas, agendados_agora: enviados });
 }
 
 Deno.serve(async (req) => {
@@ -164,8 +205,9 @@ Deno.serve(async (req) => {
     if (corpo.acao === "teste") return await teste(corpo);
     if (corpo.acao === "apagar_teste") return await apagarTeste(corpo);
     if (corpo.acao === "status") return await status(corpo);
+    if (corpo.acao === "publicar_agora") return await publicarAgora(corpo);
     if (corpo.acao === "ciclo") return await ciclo();
-    return json({ ok: false, erro: "ação desconhecida: validar | previa | teste | apagar_teste | status | ciclo" }, 400);
+    return json({ ok: false, erro: "ação desconhecida: validar | previa | teste | apagar_teste | status | publicar_agora | ciclo" }, 400);
   } catch (e) {
     console.log(`buffer-tiktok: ${(e as Error).message}`);
     return json({ ok: false, erro: (e as Error).message }, 500);
