@@ -246,13 +246,17 @@ export const CtaPlanta: React.FC<{ t: number; tl: { captions: CaptionChunk[]; cu
   const caps = tl.captions;
   const c = tl.cues;
   const t0 = caps.find((k) => k.seg === segPergunta)?.start ?? c.cta_quer;
-  const tCom = caps.find((k) => k.seg === segComente)?.start ?? c.cta_comment;
-  const tSis = wAt(caps, segComente, /sistema/i, tCom + 0.5);
-  const tDir = wAt(caps, segComente, /direct/i, tCom + 2.3);
-  const tIm = wAt(caps, segPergunta, /im[óo]veis/i, t0 + 2.4);
-  const tLe = wAt(caps, segPergunta, /leads/i, t0 + 3);
-  const tAt = wAt(caps, segPergunta, /atendimentos/i, t0 + 3.6);
-  const tSisP = wAt(caps, segPergunta, /sistema/i, t0 + 0.8);
+  // CTA curta (Skill Mestre, 21/11/2026) quando pergunta e "comente" são o mesmo segmento: campo em "comente SISTEMA",
+  // ambientes acendem em "conheça · nosso · personalizado", rota e logo no fim da frase; sem a linha de Direct.
+  const curta = segPergunta === segComente;
+  const fimSeg = Math.max(...caps.filter((k) => k.seg === segComente).map((k) => k.end), t0 + 3.5);
+  const tCom = curta ? wAt(caps, segComente, /^comente/i, t0 + 1.1) : caps.find((k) => k.seg === segComente)?.start ?? c.cta_comment;
+  const tSis = wAt(caps, segComente, curta ? /^sistema/i : /sistema/i, tCom + 0.5);
+  const tDir = curta ? fimSeg : wAt(caps, segComente, /direct/i, tCom + 2.3);
+  const tIm = curta ? wAt(caps, segPergunta, /^conhe/i, tCom + 1.0) : wAt(caps, segPergunta, /im[óo]veis/i, t0 + 2.4);
+  const tLe = curta ? wAt(caps, segPergunta, /^nosso/i, tCom + 1.4) : wAt(caps, segPergunta, /leads/i, t0 + 3);
+  const tAt = curta ? wAt(caps, segPergunta, /^personalizado/i, tCom + 2.0) : wAt(caps, segPergunta, /atendimentos/i, t0 + 3.6);
+  const tSisP = curta ? tIm : wAt(caps, segPergunta, /sistema/i, t0 + 0.8);
   const contorno = prog(t, t0 - 0.2, 0.9, ease.out);
   const amb = [
     { k: "IMÓVEIS", amb: "AMB. 01", at: tIm, x: 140, y: 150, w: 400, h: 260 },
@@ -264,7 +268,7 @@ export const CtaPlanta: React.FC<{ t: number; tl: { captions: CaptionChunk[]; cu
   const typed = Math.round(prog(t, tSis - 0.05, 0.5, ease.linear) * 7);
   const enviado = typed >= 7;
   const rota = prog(t, tDir - 0.15, 0.8, ease.inOut);
-  const tLogo = tDir + 0.75;
+  const tLogo = tDir + (curta ? 0.3 : 0.75);
   const assina = prog(t, tLogo, 0.9, ease.out);
   const brilho = 0.5 + 0.5 * Math.sin(t * 4);
   return (
@@ -301,9 +305,11 @@ export const CtaPlanta: React.FC<{ t: number; tl: { captions: CaptionChunk[]; cu
               </div>
             </div>
           </div>
-          <div style={{ textAlign: "center", marginTop: 20, fontWeight: 700, fontSize: 34, color: C.text, opacity: prog(t, tDir - 0.25, 0.3), textShadow: SOMBRA }}>
-            detalhes pelo <span style={{ color: A.hex }}>Direct</span>
-          </div>
+          {curta ? null : (
+            <div style={{ textAlign: "center", marginTop: 20, fontWeight: 700, fontSize: 34, color: C.text, opacity: prog(t, tDir - 0.25, 0.3), textShadow: SOMBRA }}>
+              detalhes pelo <span style={{ color: A.hex }}>Direct</span>
+            </div>
+          )}
         </div>
       ) : null}
       <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>

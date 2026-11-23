@@ -1,0 +1,1657 @@
+{
+ "id": "ATIVO-D1129-21",
+ "title": "Visita não é cortesia",
+ "fps": 30,
+ "duration": 59.13333333333333,
+ "durationInFrames": 1774,
+ "narrationEnd": 55.321,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.43
+  },
+  {
+   "id": "regra",
+   "start": 5.43,
+   "end": 14.01
+  },
+  {
+   "id": "brasil",
+   "start": 14.01,
+   "end": 20.3
+  },
+  {
+   "id": "perda",
+   "start": 20.3,
+   "end": 24.07
+  },
+  {
+   "id": "prova",
+   "start": 24.07,
+   "end": 34.055
+  },
+  {
+   "id": "ficha",
+   "start": 34.055,
+   "end": 40.655
+  },
+  {
+   "id": "tese",
+   "start": 40.655,
+   "end": 50.15
+  },
+  {
+   "id": "cta",
+   "start": 50.15,
+   "end": 59.133
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Nos Estados Unidos, o corretor não pode mais mostrar uma casa sem contrato assinado com o comprador.",
+   "start": 0.2,
+   "end": 5.3
+  },
+  {
+   "id": "s2",
+   "scene": "regra",
+   "text": "A regra vale desde agosto de 2024: antes da primeira visita, até por vídeo, os dois assinam um acordo que já diz quanto o corretor recebe.",
+   "start": 5.56,
+   "end": 13.82
+  },
+  {
+   "id": "s3",
+   "scene": "brasil",
+   "text": "No Brasil, não existe essa exigência.",
+   "start": 14.2,
+   "end": 16.04
+  },
+  {
+   "id": "s4",
+   "scene": "brasil",
+   "text": "A visita costuma ser marcada na conversa, e o trabalho fica na confiança.",
+   "start": 16.28,
+   "end": 20.08
+  },
+  {
+   "id": "s5",
+   "scene": "perda",
+   "text": "Até o dia em que o comprador some e fecha direto com o dono.",
+   "start": 20.52,
+   "end": 23.86
+  },
+  {
+   "id": "s6",
+   "scene": "prova",
+   "text": "O Código Civil garante a comissão quando o negócio nasce da sua intermediação, mesmo depois.",
+   "start": 24.28,
+   "end": 29.08
+  },
+  {
+   "id": "s7",
+   "scene": "prova",
+   "text": "Mas aí a pergunta vira uma só: como provar que foi você que aproximou as partes?",
+   "start": 29.24,
+   "end": 33.91
+  },
+  {
+   "id": "s8",
+   "scene": "ficha",
+   "text": "É aí que a ficha de visita, as mensagens e a proposta viram prova.",
+   "start": 34.2,
+   "end": 38.25
+  },
+  {
+   "id": "s9",
+   "scene": "ficha",
+   "text": "Sem elas, sobra a sua palavra.",
+   "start": 38.6,
+   "end": 40.39
+  },
+  {
+   "id": "s10",
+   "scene": "tese",
+   "text": "Lá, isso virou regra.",
+   "start": 40.92,
+   "end": 42.14
+  },
+  {
+   "id": "s11",
+   "scene": "tese",
+   "text": "Aqui, depende de você.",
+   "start": 42.52,
+   "end": 43.86
+  },
+  {
+   "id": "s12",
+   "scene": "tese",
+   "text": "Visita não é cortesia: é trabalho.",
+   "start": 44.2,
+   "end": 46.22
+  },
+  {
+   "id": "s13",
+   "scene": "tese",
+   "text": "E trabalho que não foi registrado antes vira só lembrança depois.",
+   "start": 46.44,
+   "end": 50.02
+  },
+  {
+   "id": "s14",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 50.28,
+   "end": 54.84
+  }
+ ],
+ "cues": {
+  "h_eua": 0.52,
+  "h_mostrar": 2.52,
+  "h_contrato": 3.64,
+  "r_agosto": 6.76,
+  "r_visita": 9.24,
+  "r_video": 10.12,
+  "r_assinam": 11.0,
+  "r_recebe": 13.56,
+  "b_brasil": 14.44,
+  "b_visita": 16.36,
+  "b_conversa": 17.96,
+  "b_confianca": 19.64,
+  "p_some": 21.96,
+  "p_dono": 23.64,
+  "v_codigo": 24.44,
+  "v_comissao": 25.8,
+  "v_depois": 28.68,
+  "v_provar": 31.56,
+  "v_partes": 33.64,
+  "f_ficha": 35.08,
+  "f_mensagens": 36.28,
+  "f_proposta": 37.08,
+  "f_sem": 38.6,
+  "f_palavra": 40.12,
+  "t_la": 40.92,
+  "t_aqui": 42.52,
+  "t_visita": 44.2,
+  "t_trabalho": 45.88,
+  "t_registrado": 47.64,
+  "t_lembranca": 49.24,
+  "cta_quer": 50.28,
+  "cta_comment": 51.56,
+  "cta_word": 52.2,
+  "cta_tiles": 52.92,
+  "cta_sys": 53.8,
+  "cta_leads": 53.48,
+  "cta_atend": 54.2,
+  "cta_direct": 54.2,
+  "cta_end": 54.84
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 1.24,
+   "words": [
+    {
+     "text": "Nos",
+     "start": 0.2,
+     "end": 0.52,
+     "emph": false
+    },
+    {
+     "text": "Estados",
+     "start": 0.52,
+     "end": 0.84,
+     "emph": true
+    },
+    {
+     "text": "Unidos,",
+     "start": 0.84,
+     "end": 1.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.24,
+   "end": 1.96,
+   "words": [
+    {
+     "text": "o",
+     "start": 1.24,
+     "end": 1.32,
+     "emph": false
+    },
+    {
+     "text": "corretor",
+     "start": 1.32,
+     "end": 1.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.96,
+   "end": 2.52,
+   "words": [
+    {
+     "text": "não",
+     "start": 1.96,
+     "end": 2.04,
+     "emph": false
+    },
+    {
+     "text": "pode",
+     "start": 2.04,
+     "end": 2.28,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 2.28,
+     "end": 2.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.52,
+   "end": 3.32,
+   "words": [
+    {
+     "text": "mostrar",
+     "start": 2.52,
+     "end": 2.92,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 2.92,
+     "end": 3.08,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 3.08,
+     "end": 3.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.32,
+   "end": 4.12,
+   "words": [
+    {
+     "text": "sem",
+     "start": 3.32,
+     "end": 3.64,
+     "emph": false
+    },
+    {
+     "text": "contrato",
+     "start": 3.64,
+     "end": 4.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.12,
+   "end": 4.6,
+   "words": [
+    {
+     "text": "assinado",
+     "start": 4.12,
+     "end": 4.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.6,
+   "end": 5.56,
+   "words": [
+    {
+     "text": "com",
+     "start": 4.6,
+     "end": 4.76,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 4.76,
+     "end": 4.84,
+     "emph": false
+    },
+    {
+     "text": "comprador.",
+     "start": 4.84,
+     "end": 5.3,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.56,
+   "end": 6.44,
+   "words": [
+    {
+     "text": "A",
+     "start": 5.56,
+     "end": 5.72,
+     "emph": false
+    },
+    {
+     "text": "regra",
+     "start": 5.72,
+     "end": 6.12,
+     "emph": false
+    },
+    {
+     "text": "vale",
+     "start": 6.12,
+     "end": 6.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.44,
+   "end": 7.16,
+   "words": [
+    {
+     "text": "desde",
+     "start": 6.44,
+     "end": 6.76,
+     "emph": false
+    },
+    {
+     "text": "agosto",
+     "start": 6.76,
+     "end": 7.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.16,
+   "end": 8.36,
+   "words": [
+    {
+     "text": "de",
+     "start": 7.16,
+     "end": 7.56,
+     "emph": false
+    },
+    {
+     "text": "2024:",
+     "start": 7.56,
+     "end": 8.1,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.36,
+   "end": 9.24,
+   "words": [
+    {
+     "text": "antes",
+     "start": 8.36,
+     "end": 8.68,
+     "emph": false
+    },
+    {
+     "text": "da",
+     "start": 8.68,
+     "end": 8.92,
+     "emph": false
+    },
+    {
+     "text": "primeira",
+     "start": 8.92,
+     "end": 9.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.24,
+   "end": 9.72,
+   "words": [
+    {
+     "text": "visita,",
+     "start": 9.24,
+     "end": 9.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.72,
+   "end": 10.6,
+   "words": [
+    {
+     "text": "até",
+     "start": 9.72,
+     "end": 9.96,
+     "emph": false
+    },
+    {
+     "text": "por",
+     "start": 9.96,
+     "end": 10.12,
+     "emph": false
+    },
+    {
+     "text": "vídeo,",
+     "start": 10.12,
+     "end": 10.39,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.6,
+   "end": 11.56,
+   "words": [
+    {
+     "text": "os",
+     "start": 10.6,
+     "end": 10.76,
+     "emph": false
+    },
+    {
+     "text": "dois",
+     "start": 10.76,
+     "end": 11.0,
+     "emph": false
+    },
+    {
+     "text": "assinam",
+     "start": 11.0,
+     "end": 11.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 11.56,
+   "end": 12.04,
+   "words": [
+    {
+     "text": "um",
+     "start": 11.56,
+     "end": 11.72,
+     "emph": false
+    },
+    {
+     "text": "acordo",
+     "start": 11.72,
+     "end": 12.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 12.04,
+   "end": 12.68,
+   "words": [
+    {
+     "text": "que",
+     "start": 12.04,
+     "end": 12.2,
+     "emph": false
+    },
+    {
+     "text": "já",
+     "start": 12.2,
+     "end": 12.36,
+     "emph": false
+    },
+    {
+     "text": "diz",
+     "start": 12.36,
+     "end": 12.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 12.68,
+   "end": 13.56,
+   "words": [
+    {
+     "text": "quanto",
+     "start": 12.68,
+     "end": 12.92,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 12.92,
+     "end": 13.0,
+     "emph": false
+    },
+    {
+     "text": "corretor",
+     "start": 13.0,
+     "end": 13.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 13.56,
+   "end": 14.2,
+   "words": [
+    {
+     "text": "recebe.",
+     "start": 13.56,
+     "end": 13.82,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.2,
+   "end": 14.92,
+   "words": [
+    {
+     "text": "No",
+     "start": 14.2,
+     "end": 14.44,
+     "emph": false
+    },
+    {
+     "text": "Brasil,",
+     "start": 14.44,
+     "end": 14.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.92,
+   "end": 15.4,
+   "words": [
+    {
+     "text": "não",
+     "start": 14.92,
+     "end": 15.08,
+     "emph": false
+    },
+    {
+     "text": "existe",
+     "start": 15.08,
+     "end": 15.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.4,
+   "end": 16.28,
+   "words": [
+    {
+     "text": "essa",
+     "start": 15.4,
+     "end": 15.64,
+     "emph": false
+    },
+    {
+     "text": "exigência.",
+     "start": 15.64,
+     "end": 16.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.28,
+   "end": 16.84,
+   "words": [
+    {
+     "text": "A",
+     "start": 16.28,
+     "end": 16.36,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 16.36,
+     "end": 16.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.84,
+   "end": 17.8,
+   "words": [
+    {
+     "text": "costuma",
+     "start": 16.84,
+     "end": 17.24,
+     "emph": false
+    },
+    {
+     "text": "ser",
+     "start": 17.24,
+     "end": 17.4,
+     "emph": false
+    },
+    {
+     "text": "marcada",
+     "start": 17.4,
+     "end": 17.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.8,
+   "end": 18.52,
+   "words": [
+    {
+     "text": "na",
+     "start": 17.8,
+     "end": 17.96,
+     "emph": false
+    },
+    {
+     "text": "conversa,",
+     "start": 17.96,
+     "end": 18.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.52,
+   "end": 19.16,
+   "words": [
+    {
+     "text": "e",
+     "start": 18.52,
+     "end": 18.68,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 18.68,
+     "end": 18.76,
+     "emph": false
+    },
+    {
+     "text": "trabalho",
+     "start": 18.76,
+     "end": 19.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 19.16,
+   "end": 20.52,
+   "words": [
+    {
+     "text": "fica",
+     "start": 19.16,
+     "end": 19.48,
+     "emph": false
+    },
+    {
+     "text": "na",
+     "start": 19.48,
+     "end": 19.64,
+     "emph": false
+    },
+    {
+     "text": "confiança.",
+     "start": 19.64,
+     "end": 20.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.52,
+   "end": 21.16,
+   "words": [
+    {
+     "text": "Até",
+     "start": 20.52,
+     "end": 20.63,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 20.84,
+     "end": 20.92,
+     "emph": false
+    },
+    {
+     "text": "dia",
+     "start": 20.92,
+     "end": 21.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.16,
+   "end": 21.96,
+   "words": [
+    {
+     "text": "em",
+     "start": 21.16,
+     "end": 21.24,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 21.24,
+     "end": 21.4,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 21.4,
+     "end": 21.48,
+     "emph": false
+    },
+    {
+     "text": "comprador",
+     "start": 21.48,
+     "end": 21.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.96,
+   "end": 22.44,
+   "words": [
+    {
+     "text": "some",
+     "start": 21.96,
+     "end": 22.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.44,
+   "end": 23.4,
+   "words": [
+    {
+     "text": "e",
+     "start": 22.44,
+     "end": 22.6,
+     "emph": false
+    },
+    {
+     "text": "fecha",
+     "start": 22.6,
+     "end": 23.0,
+     "emph": false
+    },
+    {
+     "text": "direto",
+     "start": 23.0,
+     "end": 23.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.4,
+   "end": 24.28,
+   "words": [
+    {
+     "text": "com",
+     "start": 23.4,
+     "end": 23.56,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 23.56,
+     "end": 23.64,
+     "emph": false
+    },
+    {
+     "text": "dono.",
+     "start": 23.64,
+     "end": 23.86,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.28,
+   "end": 25.24,
+   "words": [
+    {
+     "text": "O",
+     "start": 24.28,
+     "end": 24.44,
+     "emph": false
+    },
+    {
+     "text": "Código",
+     "start": 24.44,
+     "end": 24.84,
+     "emph": false
+    },
+    {
+     "text": "Civil",
+     "start": 24.84,
+     "end": 25.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.24,
+   "end": 26.2,
+   "words": [
+    {
+     "text": "garante",
+     "start": 25.24,
+     "end": 25.72,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 25.72,
+     "end": 25.8,
+     "emph": false
+    },
+    {
+     "text": "comissão",
+     "start": 25.8,
+     "end": 26.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.2,
+   "end": 26.76,
+   "words": [
+    {
+     "text": "quando",
+     "start": 26.2,
+     "end": 26.36,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 26.36,
+     "end": 26.44,
+     "emph": false
+    },
+    {
+     "text": "negócio",
+     "start": 26.44,
+     "end": 26.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.76,
+   "end": 27.48,
+   "words": [
+    {
+     "text": "nasce",
+     "start": 26.76,
+     "end": 27.08,
+     "emph": false
+    },
+    {
+     "text": "da",
+     "start": 27.08,
+     "end": 27.24,
+     "emph": false
+    },
+    {
+     "text": "sua",
+     "start": 27.24,
+     "end": 27.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.48,
+   "end": 28.36,
+   "words": [
+    {
+     "text": "intermediação,",
+     "start": 27.48,
+     "end": 28.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.36,
+   "end": 29.24,
+   "words": [
+    {
+     "text": "mesmo",
+     "start": 28.36,
+     "end": 28.68,
+     "emph": false
+    },
+    {
+     "text": "depois.",
+     "start": 28.68,
+     "end": 29.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.24,
+   "end": 29.72,
+   "words": [
+    {
+     "text": "Mas",
+     "start": 29.24,
+     "end": 29.31,
+     "emph": false
+    },
+    {
+     "text": "aí",
+     "start": 29.48,
+     "end": 29.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.72,
+   "end": 30.12,
+   "words": [
+    {
+     "text": "a",
+     "start": 29.72,
+     "end": 29.8,
+     "emph": false
+    },
+    {
+     "text": "pergunta",
+     "start": 29.8,
+     "end": 30.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.12,
+   "end": 31.24,
+   "words": [
+    {
+     "text": "vira",
+     "start": 30.12,
+     "end": 30.44,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 30.44,
+     "end": 30.76,
+     "emph": false
+    },
+    {
+     "text": "só:",
+     "start": 30.76,
+     "end": 30.83,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.24,
+   "end": 32.04,
+   "words": [
+    {
+     "text": "como",
+     "start": 31.24,
+     "end": 31.56,
+     "emph": false
+    },
+    {
+     "text": "provar",
+     "start": 31.56,
+     "end": 32.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.04,
+   "end": 32.76,
+   "words": [
+    {
+     "text": "que",
+     "start": 32.04,
+     "end": 32.28,
+     "emph": false
+    },
+    {
+     "text": "foi",
+     "start": 32.28,
+     "end": 32.52,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 32.52,
+     "end": 32.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.76,
+   "end": 33.56,
+   "words": [
+    {
+     "text": "que",
+     "start": 32.76,
+     "end": 32.92,
+     "emph": false
+    },
+    {
+     "text": "aproximou",
+     "start": 32.92,
+     "end": 33.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.56,
+   "end": 34.2,
+   "words": [
+    {
+     "text": "as",
+     "start": 33.56,
+     "end": 33.64,
+     "emph": false
+    },
+    {
+     "text": "partes?",
+     "start": 33.64,
+     "end": 33.91,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 34.2,
+   "end": 34.92,
+   "words": [
+    {
+     "text": "É",
+     "start": 34.2,
+     "end": 34.27,
+     "emph": false
+    },
+    {
+     "text": "aí",
+     "start": 34.44,
+     "end": 34.76,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 34.76,
+     "end": 34.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 34.92,
+   "end": 36.12,
+   "words": [
+    {
+     "text": "a",
+     "start": 34.92,
+     "end": 35.08,
+     "emph": false
+    },
+    {
+     "text": "ficha",
+     "start": 35.08,
+     "end": 35.48,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 35.48,
+     "end": 35.56,
+     "emph": true
+    },
+    {
+     "text": "visita,",
+     "start": 35.56,
+     "end": 36.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 36.12,
+   "end": 36.84,
+   "words": [
+    {
+     "text": "as",
+     "start": 36.12,
+     "end": 36.28,
+     "emph": false
+    },
+    {
+     "text": "mensagens",
+     "start": 36.28,
+     "end": 36.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 36.84,
+   "end": 37.56,
+   "words": [
+    {
+     "text": "e",
+     "start": 36.84,
+     "end": 37.0,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 37.0,
+     "end": 37.08,
+     "emph": false
+    },
+    {
+     "text": "proposta",
+     "start": 37.08,
+     "end": 37.19,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 37.56,
+   "end": 38.6,
+   "words": [
+    {
+     "text": "viram",
+     "start": 37.56,
+     "end": 38.04,
+     "emph": false
+    },
+    {
+     "text": "prova.",
+     "start": 38.04,
+     "end": 38.25,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 38.6,
+   "end": 39.4,
+   "words": [
+    {
+     "text": "Sem",
+     "start": 38.6,
+     "end": 38.92,
+     "emph": false
+    },
+    {
+     "text": "elas,",
+     "start": 38.92,
+     "end": 39.27,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 39.4,
+   "end": 39.8,
+   "words": [
+    {
+     "text": "sobra",
+     "start": 39.4,
+     "end": 39.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 39.8,
+   "end": 40.74,
+   "words": [
+    {
+     "text": "a",
+     "start": 39.8,
+     "end": 39.88,
+     "emph": false
+    },
+    {
+     "text": "sua",
+     "start": 39.88,
+     "end": 40.12,
+     "emph": false
+    },
+    {
+     "text": "palavra.",
+     "start": 40.12,
+     "end": 40.39,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 40.92,
+   "end": 41.24,
+   "words": [
+    {
+     "text": "Lá,",
+     "start": 40.92,
+     "end": 41.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 41.24,
+   "end": 42.52,
+   "words": [
+    {
+     "text": "isso",
+     "start": 41.24,
+     "end": 41.48,
+     "emph": false
+    },
+    {
+     "text": "virou",
+     "start": 41.48,
+     "end": 41.88,
+     "emph": false
+    },
+    {
+     "text": "regra.",
+     "start": 41.88,
+     "end": 42.14,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 42.52,
+   "end": 42.92,
+   "words": [
+    {
+     "text": "Aqui,",
+     "start": 42.52,
+     "end": 42.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 42.92,
+   "end": 44.2,
+   "words": [
+    {
+     "text": "depende",
+     "start": 42.92,
+     "end": 43.4,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 43.4,
+     "end": 43.64,
+     "emph": false
+    },
+    {
+     "text": "você.",
+     "start": 43.64,
+     "end": 43.86,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 44.2,
+   "end": 44.68,
+   "words": [
+    {
+     "text": "Visita",
+     "start": 44.2,
+     "end": 44.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 44.68,
+   "end": 45.72,
+   "words": [
+    {
+     "text": "não",
+     "start": 44.68,
+     "end": 44.84,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 44.84,
+     "end": 45.0,
+     "emph": false
+    },
+    {
+     "text": "cortesia:",
+     "start": 45.0,
+     "end": 45.58,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 45.72,
+   "end": 46.44,
+   "words": [
+    {
+     "text": "é",
+     "start": 45.72,
+     "end": 45.88,
+     "emph": false
+    },
+    {
+     "text": "trabalho.",
+     "start": 45.88,
+     "end": 46.22,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 46.44,
+   "end": 47.08,
+   "words": [
+    {
+     "text": "E",
+     "start": 46.44,
+     "end": 46.68,
+     "emph": false
+    },
+    {
+     "text": "trabalho",
+     "start": 46.68,
+     "end": 47.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 47.08,
+   "end": 47.64,
+   "words": [
+    {
+     "text": "que",
+     "start": 47.08,
+     "end": 47.24,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 47.24,
+     "end": 47.4,
+     "emph": false
+    },
+    {
+     "text": "foi",
+     "start": 47.4,
+     "end": 47.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 47.64,
+   "end": 48.52,
+   "words": [
+    {
+     "text": "registrado",
+     "start": 47.64,
+     "end": 48.2,
+     "emph": true
+    },
+    {
+     "text": "antes",
+     "start": 48.2,
+     "end": 48.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 48.52,
+   "end": 49.24,
+   "words": [
+    {
+     "text": "vira",
+     "start": 48.52,
+     "end": 48.92,
+     "emph": false
+    },
+    {
+     "text": "só",
+     "start": 48.92,
+     "end": 49.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 49.24,
+   "end": 49.72,
+   "words": [
+    {
+     "text": "lembrança",
+     "start": 49.24,
+     "end": 49.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 49.72,
+   "end": 50.28,
+   "words": [
+    {
+     "text": "depois.",
+     "start": 49.72,
+     "end": 50.02,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 50.28,
+   "end": 51.56,
+   "words": [
+    {
+     "text": "Se",
+     "start": 50.28,
+     "end": 50.52,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 50.52,
+     "end": 50.76,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 50.76,
+     "end": 50.92,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 50.92,
+     "end": 51.42,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 51.56,
+   "end": 52.76,
+   "words": [
+    {
+     "text": "comente",
+     "start": 51.56,
+     "end": 52.2,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 52.2,
+     "end": 52.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 52.76,
+   "end": 53.8,
+   "words": [
+    {
+     "text": "e",
+     "start": 52.76,
+     "end": 52.92,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 52.92,
+     "end": 53.48,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 53.48,
+     "end": 53.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 53.8,
+   "end": 55.34,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 53.8,
+     "end": 54.2,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 54.2,
+     "end": 54.84,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

@@ -19,8 +19,12 @@ from novo_episodio_nov26 import W, CTA, fx  # noqa: F401  (fx reexportado)
 import esteira
 import grade as grade_mod
 
+CTA_CURTA_TEXTO = "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado."
+CTA_CURTA = [("cta", CTA_CURTA_TEXTO, "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*")]
+
+
 def build(ep_id, out, lote, fonte, title, S, L, sfx, prog, cta, diag, apur, lead, cta_in_script=False, formato=None, grade=None, slot=None,
-          trilha=None, ancoras=None):
+          trilha=None, ancoras=None, cta_curta=False):
     """formato="cartoon-explicativo" (Primeiro modelo), "pictograma-cinematografico" (Segundo), "planta-tecnica" (Terceiro) ou "maquete-3d" (Quarto),
     escolhido por adequação; grade/slot = horário da grade do dia (tools/grade.py). Cria os cues do fecho (cta_leads/cta_atend), troca os SFX da
     CTA pelos do fecho do modelo, liga o episódio ao slot e registra o modelo (tools/esteira.py). Não usa a esteira de 5 estilos (arquivada)."""
@@ -47,16 +51,25 @@ def build(ep_id, out, lote, fonte, title, S, L, sfx, prog, cta, diag, apur, lead
             raise SystemExit("episódio novo precisa da grade do dia: build(..., grade=\"AAAA-MM-DD\", slot=\"HH:MM\") com o slot em "
                              "`roteiro_aprovado` (python3 tools/grade.py status AAAA-MM-DD). Peça fora da grade (piloto, teste, anúncio) "
                              "só com ATIVO_FORA_DA_GRADE=\"<motivo aprovado pelo cliente>\".")
-    S = S + ([] if cta_in_script else CTA)
+    # cta_curta=True: CTA vigente da Skill Mestre para NOVOS roteiros orgânicos (21/11/2026), uma frase só; os fechos dos kits
+    # entram no modo curto (segPergunta === segComente). Sem isso, a CTA longa legada (episódios antigos não mudam).
+    S = S + ([] if cta_in_script else (CTA_CURTA if cta_curta else CTA))
     segs = [dict(id=f"s{i+1}", scene=a, text=b, caption=c, pauseAfter=0.3) for i, (a, b, c) in enumerate(S)]
     for s in segs:
         assert re.findall(W, s['text']) == re.findall(W, s['caption'].replace('*', '').replace('|', '')), s['id']
         assert not re.search(r'[“"]\*|\*[”"]', s['caption']), f"{s['id']}: ênfase (*) colada às aspas gera asterisco visível"
     k = len(segs)
-    L = L + [("cta_quer", f"s{k-1}", "Quer"), ("cta_sys", f"s{k-1}", "sistema"), ("cta_tiles", f"s{k-1}", "imóveis"), ("cta_comment", f"s{k}", "Comente"), ("cta_word", f"s{k}", "SISTEMA"), ("cta_direct", f"s{k}", "Direct")]
-    if formato in modelos:  # todo modelo registrado tem o fecho-ritual com IMÓVEIS / LEADS / ATENDIMENTOS (assinatura 6)
-        L = L + [("cta_leads", f"s{k-1}", "leads"), ("cta_atend", f"s{k-1}", "atendimentos")]
-    C = {a: dict(seg=s, word=w, edge="start", offset=0) for a, s, w in L}; C["cta_end"] = dict(seg=f"s{k}", word="Direct", edge="end", offset=0)
+    if cta_curta:  # uma frase: "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado."
+        sk = f"s{k}"
+        L = L + [("cta_quer", sk, "Se"), ("cta_comment", sk, "comente"), ("cta_word", sk, "SISTEMA"), ("cta_tiles", sk, "conheça"),
+                 ("cta_sys", sk, "sistema"), ("cta_leads", sk, "nosso"), ("cta_atend", sk, "personalizado"), ("cta_direct", sk, "personalizado")]
+        C = {a: dict(seg=s, word=w, edge="start", offset=0) for a, s, w in L}; C["cta_end"] = dict(seg=sk, word="personalizado", edge="end", offset=0)
+        C["cta_sys"]["occ"] = 2  # a busca ignora maiúsculas: o 1º "sistema" é o SISTEMA de "comente SISTEMA"
+    else:
+        L = L + [("cta_quer", f"s{k-1}", "Quer"), ("cta_sys", f"s{k-1}", "sistema"), ("cta_tiles", f"s{k-1}", "imóveis"), ("cta_comment", f"s{k}", "Comente"), ("cta_word", f"s{k}", "SISTEMA"), ("cta_direct", f"s{k}", "Direct")]
+        if formato in modelos:  # todo modelo registrado tem o fecho-ritual com IMÓVEIS / LEADS / ATENDIMENTOS (assinatura 6)
+            L = L + [("cta_leads", f"s{k-1}", "leads"), ("cta_atend", f"s{k-1}", "atendimentos")]
+        C = {a: dict(seg=s, word=w, edge="start", offset=0) for a, s, w in L}; C["cta_end"] = dict(seg=f"s{k}", word="Direct", edge="end", offset=0)
     for a, v in C.items():
         seg = next(s for s in segs if s['id'] == v['seg']); assert v['word'] in re.findall(W, seg['text']), a
     if formato == "cartoon-explicativo":
@@ -79,7 +92,11 @@ def build(ep_id, out, lote, fonte, title, S, L, sfx, prog, cta, diag, apur, lead
     else:
         sfx = sfx + [fx("cta_sys", 0.4, "whoosh_fold", -27), fx("cta_comment", -0.3, "pop", -25, pitch=3), fx("cta_word", 0.55, "typing", -30), fx("cta_end", 0.35, "shimmer", -28)]
     prog = prog + [{"at": "cue:cta_sys", "notes": [24, 36, 48, 52, 55, 62], "root": 36, "dens": 2, "bright": 0.6, "label": "Cadd9 — sistema"}]
-    cta.update(type="comentario", keyword="SISTEMA", channel="Direct", base_text=base['cta']['base_text'], source="regra do cliente em 14/11/2026")
+    if cta_curta:
+        cta.update(type="comentario", keyword="SISTEMA", channel="Direct", base_text=CTA_CURTA_TEXTO, curta=True,
+                   source="Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático")
+    else:
+        cta.update(type="comentario", keyword="SISTEMA", channel="Direct", base_text=base['cta']['base_text'], source="regra do cliente em 14/11/2026")
     ep = {x: base[x] for x in ['fps', 'width', 'height', 'leadIn', 'tail', 'accent', 'pronunciation', 'master']}
     ep.update(id=ep_id, lote=lote, title=title, outputDir=out,
               deliverables=dict(final=f"{out}_FINAL.mp4", narration=f"{out}_NARRACAO.wav", subtitles=f"{out}_legendas.srt", cover=f"{out}_capa.png"),

@@ -1,0 +1,98 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.1,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 8.26,
+    "palavras_nao_reconhecidas": [
+      "2024"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 1.84,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.8,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.8,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.67,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 4.05,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 1.79,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 1.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 1.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 2.02,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 3.58,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s14",
+    "seconds": 4.56,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 55.2,
+    "asr_match": 0.994,
+    "aligned_words": "162/163",
+    "words_per_min": 177,
+    "heard": "Nos Estados Unidos, o corretor não pode mais mostrar uma casa sem contrato assinado com o comprador. A regra vale desde agosto de 2024. Antes da primeira visita, até por vídeo, os dois assinam um acordo que já diz quanto o corretor recebe. No Brasil não existe essa exigência. A visita costuma ser marcada na conversa e o trabalho fica na confiança, até o dia em que o comprador some e fecha direto com o dono. O código civil garante a comissão quando o negócio nasce da sua intermediação, mesmo depois. Mas aí a pergunta vira uma só. Como provar que foi você que aproximou as partes? É aí que a ficha de visita, as mensagens e a proposta viram prova. Sem elas, sobra a sua palavra. Lá, isso virou regra. Aqui depende de você. Visita não é cortesia, é trabalho. E trabalho que não foi registrado antes vira só lembrança depois. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 57.48,
+      "wpm": 170
+    },
+    "pausas_moldadas": {
+      "n": 20,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.28,
+    "final": {
+      "seconds": 55.2,
+      "wpm": 177
+    }
+  }
+]

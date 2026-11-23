@@ -189,6 +189,12 @@ import { PLANTA_01, timeline as planta_01 } from "./episodes/ATIVO-PLANTA-01/Epi
 import { PLANTA_01Cover } from "./episodes/ATIVO-PLANTA-01/Cover";
 import { MAQUETE_01, timeline as maquete_01 } from "./episodes/ATIVO-MAQUETE-01/Episode";
 import { MAQUETE_01Cover } from "./episodes/ATIVO-MAQUETE-01/Cover";
+import { D1129_12, timeline as d1129_12 } from "./episodes/ATIVO-D1129-12/Episode";
+import { D1129_12Cover } from "./episodes/ATIVO-D1129-12/Cover";
+import { D1129_18, timeline as d1129_18 } from "./episodes/ATIVO-D1129-18/Episode";
+import { D1129_18Cover } from "./episodes/ATIVO-D1129-18/Cover";
+import { D1129_21, timeline as d1129_21 } from "./episodes/ATIVO-D1129-21/Episode";
+import { D1129_21Cover } from "./episodes/ATIVO-D1129-21/Cover";
 import { MostruarioTokens, MostruarioCertoErrado } from "./sistema-visual/Mostruario";
 import { GTA6_11, timeline as gta6_11 } from "./episodes/ATIVO-GTA6-11/Episode";
 import { GTA6_11Cover } from "./episodes/ATIVO-GTA6-11/Cover";
@@ -818,6 +824,12 @@ export const RemotionRoot: React.FC = () => (
       <Still id="ATIVO-PLANTA-01-Capa" component={PLANTA_01Cover} width={VIDEO.width} height={VIDEO.height} />
       <Composition id="ATIVO-MAQUETE-01" component={MAQUETE_01} width={VIDEO.width} height={VIDEO.height} fps={maquete_01.fps} durationInFrames={maquete_01.durationInFrames} defaultProps={{ withAudio: true }} />
       <Still id="ATIVO-MAQUETE-01-Capa" component={MAQUETE_01Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-D1129-12" component={D1129_12} width={VIDEO.width} height={VIDEO.height} fps={d1129_12.fps} durationInFrames={d1129_12.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-D1129-12-Capa" component={D1129_12Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-D1129-18" component={D1129_18} width={VIDEO.width} height={VIDEO.height} fps={d1129_18.fps} durationInFrames={d1129_18.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-D1129-18-Capa" component={D1129_18Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-D1129-21" component={D1129_21} width={VIDEO.width} height={VIDEO.height} fps={d1129_21.fps} durationInFrames={d1129_21.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-D1129-21-Capa" component={D1129_21Cover} width={VIDEO.width} height={VIDEO.height} />
       <Still id="ATIVO-PICTO-01-Capa" component={PICTO_01Cover} width={VIDEO.width} height={VIDEO.height} />
       {/* Sistema Visual ATIVO (Nível 1): mostruário que gera MARCA/sistema-visual/exemplos/ */}
       <Still id="ATIVO-SISTEMA-VISUAL-Tokens" component={MostruarioTokens} width={VIDEO.width} height={VIDEO.height} />

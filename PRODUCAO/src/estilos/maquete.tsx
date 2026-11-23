@@ -418,8 +418,19 @@ export type TlCta = { captions: CaptionChunk[]; cues: Record<string, number>; du
 export const temposCta = (tl: TlCta, segPergunta: string, segComente: string) => {
   const caps = tl.captions, c = tl.cues;
   const t0 = caps.find((k) => k.seg === segPergunta)?.start ?? c.cta_quer;
+  if (segPergunta === segComente) {
+    // CTA curta (Skill Mestre, 21/11/2026): "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado."
+    // O campo digita em "comente SISTEMA"; os módulos acendem em "conheça · nosso · personalizado"; o logo fecha. Sem linha de Direct.
+    const tC = wAt(caps, segComente, /^comente/i, t0 + 1.1);
+    const fim = Math.max(...caps.filter((k) => k.seg === segComente).map((k) => k.end), t0 + 3.5);
+    return {
+      t0, tCom: tC, curta: true,
+      tIm: wAt(caps, segPergunta, /^conhe/i, tC + 1.0), tLe: wAt(caps, segPergunta, /^nosso/i, tC + 1.4), tAt: wAt(caps, segPergunta, /^personalizado/i, tC + 2.0),
+      tSis: wAt(caps, segComente, /^sistema/i, tC + 0.4), tDir: fim,
+    };
+  }
   const tCom = caps.find((k) => k.seg === segComente)?.start ?? c.cta_comment;
-  return {
+  return { curta: false,
     t0, tCom,
     tIm: wAt(caps, segPergunta, /im[óo]veis/i, t0 + 2.4), tLe: wAt(caps, segPergunta, /leads/i, t0 + 3), tAt: wAt(caps, segPergunta, /atendimentos/i, t0 + 3.6),
     tSis: wAt(caps, segComente, /sistema/i, tCom + 0.5), tDir: wAt(caps, segComente, /direct/i, tCom + 2.3),
@@ -460,7 +471,7 @@ export const CtaMaquete: React.FC<{ t: number; tl: TlCta; segPergunta: string; s
   const typed = Math.round(prog(t, k.tSis - 0.05, 0.5, ease.linear) * 7);
   const enviado = typed >= 7;
   const dir = prog(t, k.tDir - 0.25, 0.3);
-  const logoP = prog(t, k.tDir + 0.7, 0.8, ease.out);
+  const logoP = prog(t, k.tDir + (k.curta ? 0.2 : 0.7), 0.8, ease.out);
   const brilho = 0.5 + 0.5 * Math.sin(t * 4);
   return (
     <div style={{ position: "absolute", inset: 0, fontFamily: F.sans }}>
@@ -476,7 +487,7 @@ export const CtaMaquete: React.FC<{ t: number; tl: TlCta; segPergunta: string; s
               <svg width={52} height={52} viewBox="-26 -26 52 52"><path d="M -17 -3 L 19 -17 L 6 19 L 0 3 Z M 0 3 L 19 -17" fill="none" stroke={enviado ? A.ink : A.hex} strokeWidth={3} strokeLinejoin="round" /></svg>
             </div>
           </div>
-          <div style={{ marginTop: 18, fontWeight: 700, fontSize: 36, color: C.text, opacity: dir, textShadow: SOMBRA }}>detalhes pelo <span style={{ color: A.hex }}>Direct</span></div>
+          {k.curta ? null : <div style={{ marginTop: 18, fontWeight: 700, fontSize: 36, color: C.text, opacity: dir, textShadow: SOMBRA }}>detalhes pelo <span style={{ color: A.hex }}>Direct</span></div>}
         </div>
       ) : null}
       {logoP > 0.001 ? (

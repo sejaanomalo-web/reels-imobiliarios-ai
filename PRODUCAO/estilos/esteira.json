@@ -24,7 +24,32 @@
         "skill": ".claude/skills/quarto-modelo-maquete-3d/SKILL.md"
       }
     },
-    "historico": [],
+    "historico": [
+      {
+        "episodio": "ATIVO-D1129-12",
+        "modelo": 4,
+        "nome": "Maquete 3D",
+        "data": "2026-11-23",
+        "grade": "2026-11-29",
+        "slot": "12:00"
+      },
+      {
+        "episodio": "ATIVO-D1129-18",
+        "modelo": 3,
+        "nome": "Planta técnica",
+        "data": "2026-11-23",
+        "grade": "2026-11-29",
+        "slot": "18:00"
+      },
+      {
+        "episodio": "ATIVO-D1129-21",
+        "modelo": 2,
+        "nome": "Pictograma cinematográfico",
+        "data": "2026-11-23",
+        "grade": "2026-11-29",
+        "slot": "21:00"
+      }
+    ],
     "rotacaoFixaArquivada": {
       "nota": "Rotação fixa 1 Cartoon → 2 Pictograma → 3 Planta → 4 Maquete, vigente de 23/11/2026 (manhã) até a decisão da esteira editorial diária (23/11/2026, tarde). Nenhum episódio foi produzido nela.",
       "proximoQuandoArquivada": 1,

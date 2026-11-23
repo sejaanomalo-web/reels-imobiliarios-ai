@@ -1,0 +1,670 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 3.8,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "2024": "dois mil e vinte e quatro"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1129-21",
+ "lote": "D1129",
+ "title": "Visita não é cortesia",
+ "outputDir": "ATIVO_D1129_21",
+ "deliverables": {
+  "final": "ATIVO_D1129_21_FINAL.mp4",
+  "narration": "ATIVO_D1129_21_NARRACAO.wav",
+  "subtitles": "ATIVO_D1129_21_legendas.srt",
+  "cover": "ATIVO_D1129_21_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-11-29/ATIVO-D1129-21_visita_nao_e_cortesia.md",
+ "apuracao": {
+  "fato": "EUA: desde 17/08/2024 (acordo da NAR), quem participa do MLS e atende comprador precisa de acordo escrito antes de mostrar o imóvel, inclusive por vídeo ao vivo, com remuneração objetiva; Brasil: Código Civil art. 727 (comissão devida quando o negócio é fruto da mediação); jurisprudência usa ficha de visita, mensagens e propostas como prova da aproximação",
+  "verificado_em": "2026-11-23",
+  "fontes": [
+   "https://www.nar.realtor/sites/default/files/2024-10/nar-settlement-faq-2024-10-29.pdf",
+   "https://www.floridarealtors.org/law-ethics/nar-settlement-faqs",
+   "https://modeloinicial.com.br/lei/CC/codigo-civil/art-727",
+   "https://www.jusbrasil.com.br/jurisprudencia/busca?q=art+727"
+  ],
+  "ressalvas": "regra da NAR/MLS, não lei federal; não é orientação jurídica (selo); a ficha não 'garante' comissão"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que faz visitas sem registro e teme perder a comissão",
+  "territorio": "ideia",
+  "funcao": "C2 + C1",
+  "crenca_questionada": "visita é cortesia que se faz na confiança",
+  "hipotese": "o registro antes é o que transforma trabalho em prova"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Nos Estados Unidos, o corretor não pode mais mostrar uma casa sem contrato assinado com o comprador.",
+   "caption": "Nos *Estados Unidos,* | o corretor | não pode mais | mostrar uma casa | sem *contrato* | assinado | com o comprador.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "regra",
+   "text": "A regra vale desde agosto de 2024: antes da primeira visita, até por vídeo, os dois assinam um acordo que já diz quanto o corretor recebe.",
+   "caption": "A regra vale | desde *agosto* | de 2024: | antes da primeira | *visita,* | até por vídeo, | os dois *assinam* | um acordo | que já diz | quanto o corretor | *recebe.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "brasil",
+   "text": "No Brasil, não existe essa exigência.",
+   "caption": "No *Brasil,* | não existe | essa exigência.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "brasil",
+   "text": "A visita costuma ser marcada na conversa, e o trabalho fica na confiança.",
+   "caption": "A visita | costuma ser marcada | na *conversa,* | e o trabalho | fica na *confiança.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "perda",
+   "text": "Até o dia em que o comprador some e fecha direto com o dono.",
+   "caption": "Até o dia | em que o comprador | *some* | e fecha direto | com o *dono.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "prova",
+   "text": "O Código Civil garante a comissão quando o negócio nasce da sua intermediação, mesmo depois.",
+   "caption": "O Código Civil | garante a *comissão* | quando o negócio | nasce da sua | *intermediação,* | mesmo depois.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "prova",
+   "text": "Mas aí a pergunta vira uma só: como provar que foi você que aproximou as partes?",
+   "caption": "Mas aí | a pergunta | vira uma só: | como *provar* | que foi você | que *aproximou* | as partes?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "ficha",
+   "text": "É aí que a ficha de visita, as mensagens e a proposta viram prova.",
+   "caption": "É aí que | a *ficha de visita,* | as *mensagens* | e a *proposta* | viram prova.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "ficha",
+   "text": "Sem elas, sobra a sua palavra.",
+   "caption": "Sem elas, | sobra | a sua *palavra.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "tese",
+   "text": "Lá, isso virou regra.",
+   "caption": "Lá, | isso virou *regra.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "tese",
+   "text": "Aqui, depende de você.",
+   "caption": "Aqui, | depende de *você.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "tese",
+   "text": "Visita não é cortesia: é trabalho.",
+   "caption": "Visita | não é *cortesia:* | é *trabalho.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "tese",
+   "text": "E trabalho que não foi registrado antes vira só lembrança depois.",
+   "caption": "E trabalho | que não foi | *registrado* antes | vira só | *lembrança* | depois.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "regra": 0.3,
+  "brasil": 0.35,
+  "perda": 0.35,
+  "prova": 0.35,
+  "ficha": 0.3,
+  "tese": 0.4,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_eua": {
+   "seg": "s1",
+   "word": "Estados",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_mostrar": {
+   "seg": "s1",
+   "word": "mostrar",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_contrato": {
+   "seg": "s1",
+   "word": "contrato",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_agosto": {
+   "seg": "s2",
+   "word": "agosto",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_visita": {
+   "seg": "s2",
+   "word": "visita",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_video": {
+   "seg": "s2",
+   "word": "vídeo",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_assinam": {
+   "seg": "s2",
+   "word": "assinam",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_recebe": {
+   "seg": "s2",
+   "word": "recebe",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_brasil": {
+   "seg": "s3",
+   "word": "Brasil",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_visita": {
+   "seg": "s4",
+   "word": "visita",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_conversa": {
+   "seg": "s4",
+   "word": "conversa",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_confianca": {
+   "seg": "s4",
+   "word": "confiança",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_some": {
+   "seg": "s5",
+   "word": "some",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_dono": {
+   "seg": "s5",
+   "word": "dono",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_codigo": {
+   "seg": "s6",
+   "word": "Código",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_comissao": {
+   "seg": "s6",
+   "word": "comissão",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_depois": {
+   "seg": "s6",
+   "word": "depois",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_provar": {
+   "seg": "s7",
+   "word": "provar",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_partes": {
+   "seg": "s7",
+   "word": "partes",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_ficha": {
+   "seg": "s8",
+   "word": "ficha",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_mensagens": {
+   "seg": "s8",
+   "word": "mensagens",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_proposta": {
+   "seg": "s8",
+   "word": "proposta",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_sem": {
+   "seg": "s9",
+   "word": "Sem",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_palavra": {
+   "seg": "s9",
+   "word": "palavra",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_la": {
+   "seg": "s10",
+   "word": "Lá",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_aqui": {
+   "seg": "s11",
+   "word": "Aqui",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_visita": {
+   "seg": "s12",
+   "word": "Visita",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_trabalho": {
+   "seg": "s12",
+   "word": "trabalho",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_registrado": {
+   "seg": "s13",
+   "word": "registrado",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_lembranca": {
+   "seg": "s13",
+   "word": "lembrança",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s14",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s14",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s14",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s14",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s14",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s14",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s14",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s14",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s14",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_contrato",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -4
+  },
+  {
+   "cue": "r_assinam",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -29
+  },
+  {
+   "cue": "r_recebe",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -29,
+   "pitch": 3
+  },
+  {
+   "cue": "b_brasil",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -30
+  },
+  {
+   "cue": "p_dono",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -28
+  },
+  {
+   "cue": "v_provar",
+   "offset": 0.0,
+   "sound": "thump",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "f_ficha",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28
+  },
+  {
+   "cue": "f_mensagens",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 3
+  },
+  {
+   "cue": "f_proposta",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 6
+  },
+  {
+   "cue": "t_trabalho",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.1,
+   "sound": "shimmer",
+   "gain": -25
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 2.3,
+   "sound": "chord",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -28,
+  "duck": -6,
+  "bpm": 70,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     28,
+     40,
+     47,
+     52,
+     55
+    ],
+    "root": 40,
+    "dens": 1,
+    "bright": 0.4,
+    "label": "Em — estranhamento"
+   },
+   {
+    "at": "cue:r_agosto",
+    "notes": [
+     24,
+     36,
+     43,
+     48,
+     52
+    ],
+    "root": 36,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "C — a regra"
+   },
+   {
+    "at": "cue:b_brasil",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.4,
+    "label": "Am — Brasil"
+   },
+   {
+    "at": "cue:p_some",
+    "notes": [
+     28,
+     40,
+     47,
+     52,
+     55
+    ],
+    "root": 40,
+    "dens": 1,
+    "bright": 0.3,
+    "label": "Em — perda"
+   },
+   {
+    "at": "cue:v_codigo",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 1,
+    "bright": 0.4,
+    "label": "F — direito × prova"
+   },
+   {
+    "at": "cue:f_ficha",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "C — prova"
+   },
+   {
+    "at": "cue:t_la",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "G — tese"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ },
+ "modelos4": true,
+ "modelo": 2,
+ "modeloNome": "Pictograma cinematográfico",
+ "grade": {
+  "territorio": "ideia",
+  "origem": "pesquisa",
+  "origemRef": "NAR settlement FAQ (17/08/2024) + prática brasileira da ficha de visita (Código Civil, art. 727 — a confirmar)",
+  "dataFato": "",
+  "pushPull": "pull",
+  "justificativaModelo": "tese autoral com virada (EUA × Brasil); o noir do pictograma sustenta a reflexão sem dados densos",
+  "justificativaHorario": "21h: conteúdo autoral e reflexivo à noite, maior recompensa",
+  "trilha": "",
+  "justificativaTrilha": "trilha sintetizada: as faixas do catálogo estão em `referencia` (sem licença); sugestão de catálogo registrada na ficha musical",
+  "data": "2026-11-29",
+  "slot": "21:00",
+  "arquivo": "PRODUCAO/grade/2026-11-29.json"
+ },
+ "formato": "pictograma-cinematografico",
+ "sistemaVisual": "1.0.0"
+}

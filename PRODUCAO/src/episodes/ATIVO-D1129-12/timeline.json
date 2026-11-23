@@ -1,0 +1,1696 @@
+{
+ "id": "ATIVO-D1129-12",
+ "title": "A casa existe. O aluguel, não.",
+ "fps": 30,
+ "duration": 57.2,
+ "durationInFrames": 1716,
+ "narrationEnd": 54.968,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.76
+  },
+  {
+   "id": "mec",
+   "start": 5.76,
+   "end": 12.77
+  },
+  {
+   "id": "pressa",
+   "start": 12.77,
+   "end": 20.51
+  },
+  {
+   "id": "consequencia",
+   "start": 20.51,
+   "end": 25.93
+  },
+  {
+   "id": "creci",
+   "start": 25.93,
+   "end": 32.775
+  },
+  {
+   "id": "defesa",
+   "start": 32.775,
+   "end": 42.365
+  },
+  {
+   "id": "desfecho",
+   "start": 42.365,
+   "end": 50.13
+  },
+  {
+   "id": "cta",
+   "start": 50.13,
+   "end": 57.2
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A casa desse anúncio existe.",
+   "start": 0.2,
+   "end": 2.41
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "As fotos são verdadeiras.",
+   "start": 2.6,
+   "end": 4.25
+  },
+  {
+   "id": "s3",
+   "scene": "hook",
+   "text": "O aluguel é golpe.",
+   "start": 4.36,
+   "end": 5.48
+  },
+  {
+   "id": "s4",
+   "scene": "mec",
+   "text": "Funciona assim: alguém copia as fotos de um imóvel anunciado de verdade, coloca um preço abaixo da região e publica nas redes.",
+   "start": 6.04,
+   "end": 12.62
+  },
+  {
+   "id": "s5",
+   "scene": "pressa",
+   "text": "Quando você chama, vem a pressa: tem outra família de olho, paga o sinal no Pix e a data é sua.",
+   "start": 12.92,
+   "end": 18.25
+  },
+  {
+   "id": "s6",
+   "scene": "pressa",
+   "text": "Sem contrato, sem videochamada.",
+   "start": 18.6,
+   "end": 20.34
+  },
+  {
+   "id": "s7",
+   "scene": "consequencia",
+   "text": "E no verão, a família chega com as malas numa casa que tem dono.",
+   "start": 20.68,
+   "end": 24.24
+  },
+  {
+   "id": "s8",
+   "scene": "consequencia",
+   "text": "E ele nunca alugou nada.",
+   "start": 24.52,
+   "end": 25.74
+  },
+  {
+   "id": "s9",
+   "scene": "creci",
+   "text": "Nesta semana, o CRECI de Santa Catarina abriu a campanha de verão contra esse golpe, com fiscalização nas cidades turísticas.",
+   "start": 26.12,
+   "end": 32.63
+  },
+  {
+   "id": "s10",
+   "scene": "defesa",
+   "text": "A defesa é conferir antes de pagar: o CRECI de quem anuncia, se o nome do anúncio bate com o da conta e o do dono, e o contrato antes de qualquer Pix.",
+   "start": 32.92,
+   "end": 42.21
+  },
+  {
+   "id": "s11",
+   "scene": "desfecho",
+   "text": "O golpista consegue copiar a foto.",
+   "start": 42.52,
+   "end": 44.44
+  },
+  {
+   "id": "s12",
+   "scene": "desfecho",
+   "text": "Não consegue copiar o que dá para conferir.",
+   "start": 44.76,
+   "end": 46.85
+  },
+  {
+   "id": "s13",
+   "scene": "desfecho",
+   "text": "E neste verão, é isso que o cliente vai procurar no corretor.",
+   "start": 47.16,
+   "end": 49.98
+  },
+  {
+   "id": "s14",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 50.28,
+   "end": 54.45
+  }
+ ],
+ "cues": {
+  "h_casa": 0.52,
+  "h_fotos": 2.76,
+  "h_golpe": 5.4,
+  "m_copia": 7.32,
+  "m_preco": 10.44,
+  "m_redes": 12.36,
+  "p_pressa": 14.28,
+  "p_sinal": 16.68,
+  "p_pix": 17.08,
+  "p_sem": 18.6,
+  "p_video": 19.64,
+  "c_verao": 21.0,
+  "c_malas": 22.76,
+  "c_dono": 24.04,
+  "c_nunca": 24.84,
+  "k_creci": 27.04,
+  "k_campanha": 28.92,
+  "k_fisc": 30.92,
+  "d_conferir": 33.72,
+  "d_creci": 35.267,
+  "d_nome": 37.08,
+  "d_contrato": 40.28,
+  "f_golpista": 42.68,
+  "f_conferir": 46.52,
+  "f_verao": 47.64,
+  "f_corretor": 49.64,
+  "cta_quer": 50.28,
+  "cta_comment": 51.48,
+  "cta_word": 52.04,
+  "cta_tiles": 52.68,
+  "cta_sys": 53.48,
+  "cta_leads": 53.16,
+  "cta_atend": 53.88,
+  "cta_direct": 53.88,
+  "cta_end": 54.45
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 0.92,
+   "words": [
+    {
+     "text": "A",
+     "start": 0.2,
+     "end": 0.28,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 0.52,
+     "end": 0.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.92,
+   "end": 1.88,
+   "words": [
+    {
+     "text": "desse",
+     "start": 0.92,
+     "end": 1.16,
+     "emph": false
+    },
+    {
+     "text": "anúncio",
+     "start": 1.16,
+     "end": 1.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.88,
+   "end": 2.6,
+   "words": [
+    {
+     "text": "existe.",
+     "start": 1.88,
+     "end": 2.41,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 2.6,
+   "end": 3.24,
+   "words": [
+    {
+     "text": "As",
+     "start": 2.6,
+     "end": 2.76,
+     "emph": false
+    },
+    {
+     "text": "fotos",
+     "start": 2.76,
+     "end": 3.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.24,
+   "end": 4.36,
+   "words": [
+    {
+     "text": "são",
+     "start": 3.24,
+     "end": 3.48,
+     "emph": false
+    },
+    {
+     "text": "verdadeiras.",
+     "start": 3.48,
+     "end": 4.25,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 4.36,
+   "end": 5.24,
+   "words": [
+    {
+     "text": "O",
+     "start": 4.36,
+     "end": 4.43,
+     "emph": false
+    },
+    {
+     "text": "aluguel",
+     "start": 4.6,
+     "end": 5.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 5.24,
+   "end": 5.83,
+   "words": [
+    {
+     "text": "é",
+     "start": 5.24,
+     "end": 5.4,
+     "emph": false
+    },
+    {
+     "text": "golpe.",
+     "start": 5.4,
+     "end": 5.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 6.04,
+   "end": 7.0,
+   "words": [
+    {
+     "text": "Funciona",
+     "start": 6.04,
+     "end": 6.6,
+     "emph": false
+    },
+    {
+     "text": "assim:",
+     "start": 6.6,
+     "end": 6.78,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 7.0,
+   "end": 7.8,
+   "words": [
+    {
+     "text": "alguém",
+     "start": 7.0,
+     "end": 7.32,
+     "emph": false
+    },
+    {
+     "text": "copia",
+     "start": 7.32,
+     "end": 7.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 7.8,
+   "end": 8.12,
+   "words": [
+    {
+     "text": "as",
+     "start": 7.8,
+     "end": 7.88,
+     "emph": false
+    },
+    {
+     "text": "fotos",
+     "start": 7.88,
+     "end": 8.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 8.12,
+   "end": 8.76,
+   "words": [
+    {
+     "text": "de",
+     "start": 8.12,
+     "end": 8.2,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 8.2,
+     "end": 8.36,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 8.36,
+     "end": 8.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 8.76,
+   "end": 9.32,
+   "words": [
+    {
+     "text": "anunciado",
+     "start": 8.76,
+     "end": 9.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 9.32,
+   "end": 9.88,
+   "words": [
+    {
+     "text": "de",
+     "start": 9.32,
+     "end": 9.4,
+     "emph": false
+    },
+    {
+     "text": "verdade,",
+     "start": 9.4,
+     "end": 9.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 9.88,
+   "end": 10.76,
+   "words": [
+    {
+     "text": "coloca",
+     "start": 9.88,
+     "end": 10.28,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 10.28,
+     "end": 10.44,
+     "emph": false
+    },
+    {
+     "text": "preço",
+     "start": 10.44,
+     "end": 10.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 10.76,
+   "end": 11.56,
+   "words": [
+    {
+     "text": "abaixo",
+     "start": 10.76,
+     "end": 11.08,
+     "emph": false
+    },
+    {
+     "text": "da",
+     "start": 11.08,
+     "end": 11.16,
+     "emph": false
+    },
+    {
+     "text": "região",
+     "start": 11.16,
+     "end": 11.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 11.56,
+   "end": 12.2,
+   "words": [
+    {
+     "text": "e",
+     "start": 11.56,
+     "end": 11.72,
+     "emph": false
+    },
+    {
+     "text": "publica",
+     "start": 11.72,
+     "end": 12.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.2,
+   "end": 12.92,
+   "words": [
+    {
+     "text": "nas",
+     "start": 12.2,
+     "end": 12.36,
+     "emph": false
+    },
+    {
+     "text": "redes.",
+     "start": 12.36,
+     "end": 12.62,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 12.92,
+   "end": 13.88,
+   "words": [
+    {
+     "text": "Quando",
+     "start": 12.92,
+     "end": 13.24,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 13.24,
+     "end": 13.4,
+     "emph": false
+    },
+    {
+     "text": "chama,",
+     "start": 13.4,
+     "end": 13.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 13.88,
+   "end": 14.76,
+   "words": [
+    {
+     "text": "vem",
+     "start": 13.88,
+     "end": 14.2,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 14.2,
+     "end": 14.28,
+     "emph": false
+    },
+    {
+     "text": "pressa:",
+     "start": 14.28,
+     "end": 14.57,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 14.76,
+   "end": 15.64,
+   "words": [
+    {
+     "text": "tem",
+     "start": 14.76,
+     "end": 15.08,
+     "emph": false
+    },
+    {
+     "text": "outra",
+     "start": 15.08,
+     "end": 15.32,
+     "emph": false
+    },
+    {
+     "text": "família",
+     "start": 15.32,
+     "end": 15.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 15.64,
+   "end": 16.28,
+   "words": [
+    {
+     "text": "de",
+     "start": 15.64,
+     "end": 15.8,
+     "emph": false
+    },
+    {
+     "text": "olho,",
+     "start": 15.8,
+     "end": 16.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 16.28,
+   "end": 17.0,
+   "words": [
+    {
+     "text": "paga",
+     "start": 16.28,
+     "end": 16.6,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 16.6,
+     "end": 16.68,
+     "emph": false
+    },
+    {
+     "text": "sinal",
+     "start": 16.68,
+     "end": 17.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.0,
+   "end": 17.48,
+   "words": [
+    {
+     "text": "no",
+     "start": 17.0,
+     "end": 17.08,
+     "emph": false
+    },
+    {
+     "text": "Pix",
+     "start": 17.08,
+     "end": 17.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.48,
+   "end": 18.027,
+   "words": [
+    {
+     "text": "e",
+     "start": 17.48,
+     "end": 17.56,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 17.56,
+     "end": 17.653,
+     "emph": false
+    },
+    {
+     "text": "data",
+     "start": 17.653,
+     "end": 18.027,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.027,
+   "end": 18.6,
+   "words": [
+    {
+     "text": "é",
+     "start": 18.027,
+     "end": 18.12,
+     "emph": false
+    },
+    {
+     "text": "sua.",
+     "start": 18.12,
+     "end": 18.25,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 18.6,
+   "end": 19.4,
+   "words": [
+    {
+     "text": "Sem",
+     "start": 18.6,
+     "end": 18.84,
+     "emph": false
+    },
+    {
+     "text": "contrato,",
+     "start": 18.84,
+     "end": 19.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 19.4,
+   "end": 20.68,
+   "words": [
+    {
+     "text": "sem",
+     "start": 19.4,
+     "end": 19.64,
+     "emph": false
+    },
+    {
+     "text": "videochamada.",
+     "start": 19.64,
+     "end": 20.34,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 20.68,
+   "end": 21.64,
+   "words": [
+    {
+     "text": "E",
+     "start": 20.68,
+     "end": 20.84,
+     "emph": false
+    },
+    {
+     "text": "no",
+     "start": 20.84,
+     "end": 21.0,
+     "emph": false
+    },
+    {
+     "text": "verão,",
+     "start": 21.0,
+     "end": 21.31,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 21.64,
+   "end": 22.2,
+   "words": [
+    {
+     "text": "a",
+     "start": 21.64,
+     "end": 21.8,
+     "emph": false
+    },
+    {
+     "text": "família",
+     "start": 21.8,
+     "end": 22.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 22.2,
+   "end": 23.24,
+   "words": [
+    {
+     "text": "chega",
+     "start": 22.2,
+     "end": 22.52,
+     "emph": false
+    },
+    {
+     "text": "com",
+     "start": 22.52,
+     "end": 22.68,
+     "emph": false
+    },
+    {
+     "text": "as",
+     "start": 22.68,
+     "end": 22.76,
+     "emph": false
+    },
+    {
+     "text": "malas",
+     "start": 22.76,
+     "end": 23.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 23.24,
+   "end": 23.72,
+   "words": [
+    {
+     "text": "numa",
+     "start": 23.24,
+     "end": 23.48,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 23.48,
+     "end": 23.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 23.72,
+   "end": 24.52,
+   "words": [
+    {
+     "text": "que",
+     "start": 23.72,
+     "end": 23.8,
+     "emph": false
+    },
+    {
+     "text": "tem",
+     "start": 23.8,
+     "end": 24.04,
+     "emph": false
+    },
+    {
+     "text": "dono.",
+     "start": 24.04,
+     "end": 24.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 24.52,
+   "end": 24.84,
+   "words": [
+    {
+     "text": "E",
+     "start": 24.52,
+     "end": 24.68,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 24.68,
+     "end": 24.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 24.84,
+   "end": 25.0,
+   "words": [
+    {
+     "text": "nunca",
+     "start": 24.84,
+     "end": 25.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 25.0,
+   "end": 26.12,
+   "words": [
+    {
+     "text": "alugou",
+     "start": 25.0,
+     "end": 25.56,
+     "emph": false
+    },
+    {
+     "text": "nada.",
+     "start": 25.56,
+     "end": 25.74,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 26.12,
+   "end": 26.92,
+   "words": [
+    {
+     "text": "Nesta",
+     "start": 26.12,
+     "end": 26.2,
+     "emph": false
+    },
+    {
+     "text": "semana,",
+     "start": 26.52,
+     "end": 26.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 26.92,
+   "end": 27.64,
+   "words": [
+    {
+     "text": "o",
+     "start": 26.92,
+     "end": 27.04,
+     "emph": false
+    },
+    {
+     "text": "CRECI",
+     "start": 27.04,
+     "end": 27.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 27.64,
+   "end": 28.52,
+   "words": [
+    {
+     "text": "de",
+     "start": 27.64,
+     "end": 27.72,
+     "emph": false
+    },
+    {
+     "text": "Santa",
+     "start": 27.72,
+     "end": 27.96,
+     "emph": false
+    },
+    {
+     "text": "Catarina",
+     "start": 27.96,
+     "end": 28.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 28.52,
+   "end": 29.24,
+   "words": [
+    {
+     "text": "abriu",
+     "start": 28.52,
+     "end": 28.84,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 28.84,
+     "end": 28.92,
+     "emph": false
+    },
+    {
+     "text": "campanha",
+     "start": 28.92,
+     "end": 29.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 29.24,
+   "end": 29.72,
+   "words": [
+    {
+     "text": "de",
+     "start": 29.24,
+     "end": 29.32,
+     "emph": false
+    },
+    {
+     "text": "verão",
+     "start": 29.32,
+     "end": 29.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 29.72,
+   "end": 30.68,
+   "words": [
+    {
+     "text": "contra",
+     "start": 29.72,
+     "end": 29.96,
+     "emph": false
+    },
+    {
+     "text": "esse",
+     "start": 29.96,
+     "end": 30.2,
+     "emph": false
+    },
+    {
+     "text": "golpe,",
+     "start": 30.2,
+     "end": 30.41,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 30.68,
+   "end": 31.56,
+   "words": [
+    {
+     "text": "com",
+     "start": 30.68,
+     "end": 30.92,
+     "emph": false
+    },
+    {
+     "text": "fiscalização",
+     "start": 30.92,
+     "end": 31.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 31.56,
+   "end": 32.12,
+   "words": [
+    {
+     "text": "nas",
+     "start": 31.56,
+     "end": 31.8,
+     "emph": false
+    },
+    {
+     "text": "cidades",
+     "start": 31.8,
+     "end": 32.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 32.12,
+   "end": 32.92,
+   "words": [
+    {
+     "text": "turísticas.",
+     "start": 32.12,
+     "end": 32.63,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 32.92,
+   "end": 33.56,
+   "words": [
+    {
+     "text": "A",
+     "start": 32.92,
+     "end": 33.08,
+     "emph": false
+    },
+    {
+     "text": "defesa",
+     "start": 33.08,
+     "end": 33.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 33.56,
+   "end": 34.28,
+   "words": [
+    {
+     "text": "é",
+     "start": 33.56,
+     "end": 33.72,
+     "emph": false
+    },
+    {
+     "text": "conferir",
+     "start": 33.72,
+     "end": 34.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 34.28,
+   "end": 35.16,
+   "words": [
+    {
+     "text": "antes",
+     "start": 34.28,
+     "end": 34.52,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 34.52,
+     "end": 34.6,
+     "emph": false
+    },
+    {
+     "text": "pagar:",
+     "start": 34.6,
+     "end": 34.9,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 35.16,
+   "end": 35.8,
+   "words": [
+    {
+     "text": "o",
+     "start": 35.16,
+     "end": 35.267,
+     "emph": false
+    },
+    {
+     "text": "CRECI",
+     "start": 35.267,
+     "end": 35.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 35.8,
+   "end": 36.84,
+   "words": [
+    {
+     "text": "de",
+     "start": 35.8,
+     "end": 35.88,
+     "emph": false
+    },
+    {
+     "text": "quem",
+     "start": 35.88,
+     "end": 36.12,
+     "emph": false
+    },
+    {
+     "text": "anuncia,",
+     "start": 36.12,
+     "end": 36.58,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 36.84,
+   "end": 37.32,
+   "words": [
+    {
+     "text": "se",
+     "start": 36.84,
+     "end": 37.0,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 37.0,
+     "end": 37.08,
+     "emph": false
+    },
+    {
+     "text": "nome",
+     "start": 37.08,
+     "end": 37.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 37.32,
+   "end": 37.8,
+   "words": [
+    {
+     "text": "do",
+     "start": 37.32,
+     "end": 37.4,
+     "emph": false
+    },
+    {
+     "text": "anúncio",
+     "start": 37.4,
+     "end": 37.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 37.8,
+   "end": 38.92,
+   "words": [
+    {
+     "text": "bate",
+     "start": 37.8,
+     "end": 38.2,
+     "emph": false
+    },
+    {
+     "text": "com",
+     "start": 38.2,
+     "end": 38.36,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 38.36,
+     "end": 38.52,
+     "emph": false
+    },
+    {
+     "text": "da",
+     "start": 38.52,
+     "end": 38.68,
+     "emph": false
+    },
+    {
+     "text": "conta",
+     "start": 38.68,
+     "end": 38.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 38.92,
+   "end": 39.96,
+   "words": [
+    {
+     "text": "e",
+     "start": 38.92,
+     "end": 39.08,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 39.08,
+     "end": 39.24,
+     "emph": false
+    },
+    {
+     "text": "do",
+     "start": 39.24,
+     "end": 39.4,
+     "emph": false
+    },
+    {
+     "text": "dono,",
+     "start": 39.4,
+     "end": 39.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 39.96,
+   "end": 40.92,
+   "words": [
+    {
+     "text": "e",
+     "start": 39.96,
+     "end": 40.12,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 40.12,
+     "end": 40.28,
+     "emph": false
+    },
+    {
+     "text": "contrato",
+     "start": 40.28,
+     "end": 40.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 40.92,
+   "end": 42.52,
+   "words": [
+    {
+     "text": "antes",
+     "start": 40.92,
+     "end": 41.24,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 41.24,
+     "end": 41.4,
+     "emph": false
+    },
+    {
+     "text": "qualquer",
+     "start": 41.4,
+     "end": 41.8,
+     "emph": false
+    },
+    {
+     "text": "Pix.",
+     "start": 41.8,
+     "end": 42.21,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 42.52,
+   "end": 43.4,
+   "words": [
+    {
+     "text": "O",
+     "start": 42.52,
+     "end": 42.68,
+     "emph": false
+    },
+    {
+     "text": "golpista",
+     "start": 42.68,
+     "end": 43.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 43.4,
+   "end": 44.12,
+   "words": [
+    {
+     "text": "consegue",
+     "start": 43.4,
+     "end": 43.8,
+     "emph": false
+    },
+    {
+     "text": "copiar",
+     "start": 43.8,
+     "end": 44.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 44.12,
+   "end": 44.76,
+   "words": [
+    {
+     "text": "a",
+     "start": 44.12,
+     "end": 44.2,
+     "emph": false
+    },
+    {
+     "text": "foto.",
+     "start": 44.2,
+     "end": 44.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 44.76,
+   "end": 45.88,
+   "words": [
+    {
+     "text": "Não",
+     "start": 44.76,
+     "end": 45.0,
+     "emph": false
+    },
+    {
+     "text": "consegue",
+     "start": 45.0,
+     "end": 45.48,
+     "emph": false
+    },
+    {
+     "text": "copiar",
+     "start": 45.48,
+     "end": 45.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 45.88,
+   "end": 46.36,
+   "words": [
+    {
+     "text": "o",
+     "start": 45.88,
+     "end": 46.04,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 46.04,
+     "end": 46.2,
+     "emph": false
+    },
+    {
+     "text": "dá",
+     "start": 46.2,
+     "end": 46.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 46.36,
+   "end": 47.16,
+   "words": [
+    {
+     "text": "para",
+     "start": 46.36,
+     "end": 46.52,
+     "emph": false
+    },
+    {
+     "text": "conferir.",
+     "start": 46.52,
+     "end": 46.85,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 47.16,
+   "end": 48.04,
+   "words": [
+    {
+     "text": "E",
+     "start": 47.16,
+     "end": 47.23,
+     "emph": false
+    },
+    {
+     "text": "neste",
+     "start": 47.4,
+     "end": 47.64,
+     "emph": false
+    },
+    {
+     "text": "verão,",
+     "start": 47.64,
+     "end": 48.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 48.04,
+   "end": 48.44,
+   "words": [
+    {
+     "text": "é",
+     "start": 48.04,
+     "end": 48.2,
+     "emph": false
+    },
+    {
+     "text": "isso",
+     "start": 48.2,
+     "end": 48.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 48.44,
+   "end": 49.0,
+   "words": [
+    {
+     "text": "que",
+     "start": 48.44,
+     "end": 48.6,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 48.6,
+     "end": 48.68,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 48.68,
+     "end": 49.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 49.0,
+   "end": 49.48,
+   "words": [
+    {
+     "text": "vai",
+     "start": 49.0,
+     "end": 49.16,
+     "emph": false
+    },
+    {
+     "text": "procurar",
+     "start": 49.16,
+     "end": 49.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 49.48,
+   "end": 50.28,
+   "words": [
+    {
+     "text": "no",
+     "start": 49.48,
+     "end": 49.64,
+     "emph": false
+    },
+    {
+     "text": "corretor.",
+     "start": 49.64,
+     "end": 49.98,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 50.28,
+   "end": 51.48,
+   "words": [
+    {
+     "text": "Se",
+     "start": 50.28,
+     "end": 50.44,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 50.44,
+     "end": 50.68,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 50.68,
+     "end": 50.84,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 50.84,
+     "end": 51.3,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 51.48,
+   "end": 52.52,
+   "words": [
+    {
+     "text": "comente",
+     "start": 51.48,
+     "end": 52.04,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 52.04,
+     "end": 52.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 52.52,
+   "end": 53.48,
+   "words": [
+    {
+     "text": "e",
+     "start": 52.52,
+     "end": 52.68,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 52.68,
+     "end": 53.16,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 53.16,
+     "end": 53.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 53.48,
+   "end": 54.95,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 53.48,
+     "end": 53.88,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 53.88,
+     "end": 54.45,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

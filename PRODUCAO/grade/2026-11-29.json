@@ -1,7 +1,7 @@
 {
   "data": "2026-11-29",
   "versao": 1,
-  "status": "pauta_aprovada",
+  "status": "roteiros_aprovados",
   "justificativas": {
     "territorios": "dia-piloto com 3 vídeos",
     "pushPull": "",
@@ -108,10 +108,10 @@
       "justificativaModelo": "notícia com mecanismo entre partes (imóvel real → fotos copiadas → anúncio falso → Pix → família na porta errada): a maquete mostra o fluxo e quem decide o quê",
       "justificativaHorario": "12h: notícia acessível no domingo, antes de quem planeja a viagem de férias; 08h já está ocupado",
       "trilha": "",
-      "justificativaTrilha": "",
-      "episodio": "",
-      "roteiro": "rascunho (aguardando aprovação 2): ATIVO-D1129-12_golpe_temporada.md",
-      "status": "roteiro",
+      "justificativaTrilha": "trilha sintetizada: as faixas do catálogo estão em `referencia` (sem licença); sugestão de catálogo registrada na ficha musical",
+      "episodio": "ATIVO-D1129-12",
+      "roteiro": "ROTEIROS/ESTEIRA/2026-11-29/ATIVO-D1129-12_golpe_temporada.md",
+      "status": "producao",
       "motivo": "",
       "resultados": {}
     },
@@ -150,10 +150,10 @@
       "justificativaModelo": "a história É um catálogo de plantas: cada página vira prancha, as peças viram cotas, o trem vira rota; a planta técnica conta isso sem esforço",
       "justificativaHorario": "18h: narrativa de alto apelo na volta para casa no domingo",
       "trilha": "",
-      "justificativaTrilha": "",
-      "episodio": "",
-      "roteiro": "rascunho (aguardando aprovação 2): ATIVO-D1129-18_casas_por_catalogo.md",
-      "status": "roteiro",
+      "justificativaTrilha": "trilha sintetizada: as faixas do catálogo estão em `referencia` (sem licença); sugestão de catálogo registrada na ficha musical",
+      "episodio": "ATIVO-D1129-18",
+      "roteiro": "ROTEIROS/ESTEIRA/2026-11-29/ATIVO-D1129-18_casas_por_catalogo.md",
+      "status": "producao",
       "motivo": "",
       "resultados": {}
     },
@@ -171,10 +171,10 @@
       "justificativaModelo": "tese autoral com virada (EUA × Brasil); o noir do pictograma sustenta a reflexão sem dados densos",
       "justificativaHorario": "21h: conteúdo autoral e reflexivo à noite, maior recompensa",
       "trilha": "",
-      "justificativaTrilha": "",
-      "episodio": "",
-      "roteiro": "rascunho (aguardando aprovação 2): ATIVO-D1129-21_visita_nao_e_cortesia.md",
-      "status": "roteiro",
+      "justificativaTrilha": "trilha sintetizada: as faixas do catálogo estão em `referencia` (sem licença); sugestão de catálogo registrada na ficha musical",
+      "episodio": "ATIVO-D1129-21",
+      "roteiro": "ROTEIROS/ESTEIRA/2026-11-29/ATIVO-D1129-21_visita_nao_e_cortesia.md",
+      "status": "producao",
       "motivo": "",
       "resultados": {}
     }

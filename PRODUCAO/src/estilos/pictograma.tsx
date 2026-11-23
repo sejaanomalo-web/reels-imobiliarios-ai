@@ -551,17 +551,24 @@ export const CtaNoir: React.FC<{ t: number; tl: { captions: CaptionChunk[]; cues
   };
   const c = tl.cues;
   const t0 = tl.captions.find((k) => k.seg === segPergunta)?.start ?? c.cta_quer;
-  const tCom = tl.captions.find((k) => k.seg === segComente)?.start ?? c.cta_comment;
-  const tSis = wAt(segComente, /sistema/i, tCom + 0.5);
-  const tDir = wAt(segComente, /direct/i, tCom + 2.3);
-  const tIm = wAt(segPergunta, /im[óo]veis/i, t0 + 2.4), tLe = wAt(segPergunta, /leads/i, t0 + 3), tAt = wAt(segPergunta, /atendimentos/i, t0 + 3.6);
-  const orb = luz(t, t0 - 0.1, tCom - 0.3, 0.6, 0.5);
-  const campo = luz(t, tCom - 0.15, tDir + 0.9, 0.45, 0.5);
+  // CTA curta (Skill Mestre, 21/11/2026) quando pergunta e "comente" são o mesmo segmento: primeiro o campo digita em
+  // "comente SISTEMA"; depois a órbita (em volta do boneco) acende em "conheça · nosso · personalizado"; o logo fecha. Sem Direct.
+  const curta = segPergunta === segComente;
+  const fimSeg = Math.max(...tl.captions.filter((k) => k.seg === segComente).map((k) => k.end), t0 + 3.5);
+  const tCom = curta ? wAt(segComente, /^comente/i, t0 + 1.1) : tl.captions.find((k) => k.seg === segComente)?.start ?? c.cta_comment;
+  const tSis = wAt(segComente, curta ? /^sistema/i : /sistema/i, tCom + 0.5);
+  const tDir = curta ? fimSeg : wAt(segComente, /direct/i, tCom + 2.3);
+  const tIm = curta ? wAt(segPergunta, /^conhe/i, tCom + 1.0) : wAt(segPergunta, /im[óo]veis/i, t0 + 2.4);
+  const tLe = curta ? wAt(segPergunta, /^nosso/i, tCom + 1.4) : wAt(segPergunta, /leads/i, t0 + 3);
+  const tAt = curta ? wAt(segPergunta, /^personalizado/i, tCom + 2.0) : wAt(segPergunta, /atendimentos/i, t0 + 3.6);
+  const orb = curta ? luz(t, tIm - 0.45, tDir + 0.5, 0.5, 0.5) : luz(t, t0 - 0.1, tCom - 0.3, 0.6, 0.5);
+  const campo = curta ? luz(t, tCom - 0.15, tIm - 0.25, 0.4, 0.45) : luz(t, tCom - 0.15, tDir + 0.9, 0.45, 0.5);
+  const orbY = curta ? 1000 : 700;
   const typed = Math.round(prog(t, tSis, 0.5, ease.linear) * 7);
-  const voo = prog(t, tDir - 0.1, 1.0, ease.inOut);
-  const tLogo = tDir + 1.1;
+  const voo = prog(t, curta ? tSis + 0.5 : tDir - 0.1, 1.0, ease.inOut);
+  const tLogo = tDir + (curta ? 0.6 : 1.1);
   const fig = luz(t, t0 - 0.2, tDir + 0.4, 0.5, 0.2);
-  const orbPos = (f: number) => { const a = (f + t * 0.09) * Math.PI * 2; return { x: 540 + Math.cos(a) * 320, y: 700 + Math.sin(a) * 95 }; };
+  const orbPos = (f: number) => { const a = (f + t * 0.09) * Math.PI * 2; return { x: 540 + Math.cos(a) * 320, y: orbY + Math.sin(a) * 95 }; };
   const itens = [
     { nome: "casa" as IconeNome, k: "IMÓVEIS", at: tIm, ...orbPos(0.42) },
     { nome: "pessoa" as IconeNome, k: "LEADS", at: tLe, ...orbPos(0.75) },
@@ -574,12 +581,12 @@ export const CtaNoir: React.FC<{ t: number; tl: { captions: CaptionChunk[]; cues
         <Figura t={t} x={540} y={1180} s={1} pose={t > tIm - 0.2 ? "bracosAbertos" : "pe"} p={fig} />
         <Dissolver t={t} at={tDir + 0.35} x={540} y={1180} n={160} />
         <g opacity={orb}>
-          <ellipse cx={540} cy={700} rx={330} ry={90} fill="none" stroke="rgba(244,244,242,0.22)" strokeWidth={2} strokeDasharray="2 10" />
+          <ellipse cx={540} cy={orbY} rx={330} ry={90} fill="none" stroke="rgba(244,244,242,0.22)" strokeWidth={2} strokeDasharray="2 10" />
           {itens.map((q) => <Icone key={q.k} t={t} nome={q.nome} x={q.x} y={q.y} r={58} tom={t >= q.at ? "verde" : "cinza"} p={surge(t, q.at - 0.3)} brilho={t >= q.at} />)}
         </g>
         {voo > 0 && voo < 1 ? <g transform={`translate(${mix(700, 1000, voo)} ${mix(860, 560, voo) - Math.sin(voo * Math.PI) * 120}) scale(2.2) rotate(-10)`} opacity={1 - voo * 0.6}><IconeTraco nome="aviao" cor={A.hex} w={2.4} /></g> : null}
       </svg>
-      {itens.map((q) => <Pilula key={q.k} t={t} at={q.at} ate={tCom - 0.3} x={q.x} y={q.y + 92} texto={q.k} tom="verde" size={24} />)}
+      {itens.map((q) => <Pilula key={q.k} t={t} at={q.at} ate={curta ? tDir + 0.5 : tCom - 0.3} x={q.x} y={q.y + 92} texto={q.k} tom="verde" size={24} />)}
       {campo > 0.001 ? (
         <div style={{ position: "absolute", left: 140, right: 140, top: 560, opacity: campo, filter: campo < 1 ? `blur(${(1 - campo) * 8}px)` : undefined, fontFamily: F.sans }}>
           <div style={{ textAlign: "center", fontWeight: 800, fontSize: 30, letterSpacing: "0.2em", color: NOIR.cinza, marginBottom: 18 }}>COMENTE</div>
@@ -592,9 +599,11 @@ export const CtaNoir: React.FC<{ t: number; tl: { captions: CaptionChunk[]; cues
               <svg width={52} height={52} viewBox="-24 -24 48 48"><IconeTraco nome="aviao" cor={typed >= 7 ? A.ink : A.hex} w={3} /></svg>
             </div>
           </div>
-          <div style={{ textAlign: "center", marginTop: 22, fontWeight: 700, fontSize: 34, color: NOIR.branco, opacity: prog(t, tDir - 0.25, 0.3) }}>
-            detalhes pelo <span style={{ color: A.hex }}>Direct</span>
-          </div>
+          {curta ? null : (
+            <div style={{ textAlign: "center", marginTop: 22, fontWeight: 700, fontSize: 34, color: NOIR.branco, opacity: prog(t, tDir - 0.25, 0.3) }}>
+              detalhes pelo <span style={{ color: A.hex }}>Direct</span>
+            </div>
+          )}
         </div>
       ) : null}
       <NuvemLogo t={t} at={tLogo} logo={logo} cy={820} w={600} dur={1.3} />

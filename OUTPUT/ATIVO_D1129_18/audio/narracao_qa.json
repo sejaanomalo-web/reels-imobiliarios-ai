@@ -1,0 +1,101 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.65,
+    "palavras_nao_reconhecidas": [
+      "setenta"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.66,
+    "palavras_nao_reconhecidas": [
+      "1908"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 6.03,
+    "palavras_nao_reconhecidas": [
+      "Sears"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 8.03,
+    "palavras_nao_reconhecidas": [
+      "escolhia"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 2.83,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.0,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 6.0,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 1.9,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 5.0,
+    "palavras_nao_reconhecidas": [
+      "trinta"
+    ]
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.13,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 2.76,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 3.17,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 4.67,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 56.2,
+    "asr_match": 0.964,
+    "aligned_words": "148/154",
+    "words_per_min": 164,
+    "heard": "Mais de 70 mil famílias uma casa sem nunca ter entrado nela. Foi nos Estados Unidos, a partir de 1908. A casa era vendida pelo Correio, pela Sears, a loja de catálogo onde se comprava de roupa a ferramenta. Você escolheu o modelo, pagava e a casa chegava de trem. Milhares de peças numeradas, cortadas na medida, com um manual para montar. Mas como alguém escolhe onde vai morar sem visitar? Porque o catálogo respondia antes. Cada página mostrava a fachada, a planta com a medida de cada cômodo e tudo o que vinha no kit. A dúvida chegava resolvida. Foram centenas de modelos por mais de 30 anos, e milhares dessas casas continuam de pé. Essas famílias não compraram no escuro. Compraram com as respostas chegando antes das perguntas. E é isso que ainda decide qual imóvel o cliente quer visitar. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 58.32,
+      "wpm": 158
+    },
+    "pausas_moldadas": {
+      "n": 20,
+      "max_s": 0.59
+    },
+    "pausas_encurtadas_s": 2.12,
+    "final": {
+      "seconds": 56.2,
+      "wpm": 164
+    }
+  }
+]

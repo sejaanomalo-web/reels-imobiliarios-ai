@@ -1,0 +1,687 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "CRECI": "Créci"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1129-12",
+ "lote": "D1129",
+ "title": "A casa existe. O aluguel, não.",
+ "outputDir": "ATIVO_D1129_12",
+ "deliverables": {
+  "final": "ATIVO_D1129_12_FINAL.mp4",
+  "narration": "ATIVO_D1129_12_NARRACAO.wav",
+  "subtitles": "ATIVO_D1129_12_legendas.srt",
+  "cover": "ATIVO_D1129_12_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-11-29/ATIVO-D1129-12_golpe_temporada.md",
+ "apuracao": {
+  "fato": "CRECI-SC lançou em 23/11/2026 a campanha 'Você precisa de um corretor de imóveis' (Operação Verão), com fiscalização em áreas turísticas",
+  "verificado_em": "2026-11-23",
+  "fontes": [
+   "https://www.rcnonline.com.br/geral/2026/11/2790347-voce-precisa-de-um-corretor-de-imoveis-creci-sc-realiza-campanha-de-verao-para-prevenir-golpes-imobiliarios.html",
+   "https://agorafloripa.com.br/em-florianopolis-creci-sc-reforca-fiscalizacao-contra-golpes-em-alugueis-de-verao",
+   "https://creci-sc.gov.br/p/noticias/fique-atento-aos-golpes-no-aluguel-de-temporada/"
+  ],
+  "ressalvas": "sem número de golpes de 2026 (o dado de 3,2 mil fraudes é do CRECI-GO/2024 e não é usado); família na porta errada = situação ilustrativa"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor (e clientes dele) às vésperas da temporada de verão",
+  "territorio": "agora",
+  "funcao": "C4 prova/confiança + C2",
+  "crenca_questionada": "golpe de aluguel = foto falsa",
+  "hipotese": "as fotos são verdadeiras; o que derruba o golpe é o que dá para conferir"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A casa desse anúncio existe.",
+   "caption": "A *casa* | desse anúncio | *existe.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "As fotos são verdadeiras.",
+   "caption": "As *fotos* | são *verdadeiras.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "hook",
+   "text": "O aluguel é golpe.",
+   "caption": "O aluguel | é *golpe.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "mec",
+   "text": "Funciona assim: alguém copia as fotos de um imóvel anunciado de verdade, coloca um preço abaixo da região e publica nas redes.",
+   "caption": "Funciona assim: | alguém *copia* | as fotos | de um imóvel | anunciado | de verdade, | coloca um *preço* | abaixo da região | e publica | nas *redes.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "pressa",
+   "text": "Quando você chama, vem a pressa: tem outra família de olho, paga o sinal no Pix e a data é sua.",
+   "caption": "Quando você chama, | vem a *pressa:* | tem outra família | de olho, | paga o *sinal* | no *Pix* | e a data | é sua.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "pressa",
+   "text": "Sem contrato, sem videochamada.",
+   "caption": "Sem *contrato,* | sem *videochamada.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "consequencia",
+   "text": "E no verão, a família chega com as malas numa casa que tem dono.",
+   "caption": "E no verão, | a família | chega com as *malas* | numa casa | que tem *dono.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "consequencia",
+   "text": "E ele nunca alugou nada.",
+   "caption": "E ele | *nunca* | alugou nada.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "creci",
+   "text": "Nesta semana, o CRECI de Santa Catarina abriu a campanha de verão contra esse golpe, com fiscalização nas cidades turísticas.",
+   "caption": "Nesta semana, | o *CRECI* | de Santa Catarina | abriu a *campanha* | de verão | contra esse golpe, | com *fiscalização* | nas cidades | turísticas.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "defesa",
+   "text": "A defesa é conferir antes de pagar: o CRECI de quem anuncia, se o nome do anúncio bate com o da conta e o do dono, e o contrato antes de qualquer Pix.",
+   "caption": "A defesa | é *conferir* | antes de pagar: | o *CRECI* | de quem anuncia, | se o *nome* | do anúncio | bate com o da conta | e o do dono, | e o *contrato* | antes de qualquer Pix.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "desfecho",
+   "text": "O golpista consegue copiar a foto.",
+   "caption": "O golpista | consegue *copiar* | a foto.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "desfecho",
+   "text": "Não consegue copiar o que dá para conferir.",
+   "caption": "Não consegue copiar | o que dá | para *conferir.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "desfecho",
+   "text": "E neste verão, é isso que o cliente vai procurar no corretor.",
+   "caption": "E neste verão, | é isso | que o cliente | vai procurar | no *corretor.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "mec": 0.3,
+  "pressa": 0.3,
+  "consequencia": 0.35,
+  "creci": 0.35,
+  "defesa": 0.3,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_casa": {
+   "seg": "s1",
+   "word": "casa",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_fotos": {
+   "seg": "s2",
+   "word": "fotos",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_golpe": {
+   "seg": "s3",
+   "word": "golpe",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_copia": {
+   "seg": "s4",
+   "word": "copia",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_preco": {
+   "seg": "s4",
+   "word": "preço",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_redes": {
+   "seg": "s4",
+   "word": "redes",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_pressa": {
+   "seg": "s5",
+   "word": "pressa",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_sinal": {
+   "seg": "s5",
+   "word": "sinal",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_pix": {
+   "seg": "s5",
+   "word": "Pix",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_sem": {
+   "seg": "s6",
+   "word": "Sem",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_video": {
+   "seg": "s6",
+   "word": "videochamada",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_verao": {
+   "seg": "s7",
+   "word": "verão",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_malas": {
+   "seg": "s7",
+   "word": "malas",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_dono": {
+   "seg": "s7",
+   "word": "dono",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_nunca": {
+   "seg": "s8",
+   "word": "nunca",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_creci": {
+   "seg": "s9",
+   "word": "CRECI",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_campanha": {
+   "seg": "s9",
+   "word": "campanha",
+   "edge": "start",
+   "offset": 0
+  },
+  "k_fisc": {
+   "seg": "s9",
+   "word": "fiscalização",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_conferir": {
+   "seg": "s10",
+   "word": "conferir",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_creci": {
+   "seg": "s10",
+   "word": "CRECI",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_nome": {
+   "seg": "s10",
+   "word": "nome",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_contrato": {
+   "seg": "s10",
+   "word": "contrato",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_golpista": {
+   "seg": "s11",
+   "word": "golpista",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_conferir": {
+   "seg": "s12",
+   "word": "conferir",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_verao": {
+   "seg": "s13",
+   "word": "verão",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_corretor": {
+   "seg": "s13",
+   "word": "corretor",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s14",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s14",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s14",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s14",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s14",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s14",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s14",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s14",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s14",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_casa",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "h_golpe",
+   "offset": 0.05,
+   "sound": "thump",
+   "gain": -27,
+   "pitch": -3
+  },
+  {
+   "cue": "m_copia",
+   "offset": 0.05,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "m_preco",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -27
+  },
+  {
+   "cue": "m_redes",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -29
+  },
+  {
+   "cue": "p_pressa",
+   "offset": 0.0,
+   "sound": "notif",
+   "gain": -29
+  },
+  {
+   "cue": "p_pix",
+   "offset": 0.0,
+   "sound": "whoosh_up",
+   "gain": -29,
+   "dur": 0.5
+  },
+  {
+   "cue": "p_sem",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -27,
+   "pitch": -2
+  },
+  {
+   "cue": "c_malas",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -30,
+   "pitch": -4
+  },
+  {
+   "cue": "c_nunca",
+   "offset": -0.1,
+   "sound": "hollow",
+   "gain": -27
+  },
+  {
+   "cue": "k_creci",
+   "offset": -0.1,
+   "sound": "impact",
+   "gain": -30,
+   "pitch": -3
+  },
+  {
+   "cue": "k_fisc",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -30
+  },
+  {
+   "cue": "d_creci",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "d_nome",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "d_contrato",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "f_conferir",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -30
+  },
+  {
+   "cue": "f_corretor",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": 2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.2,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.7,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "Am — o anúncio"
+   },
+   {
+    "at": "cue:m_copia",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "F — mecanismo"
+   },
+   {
+    "at": "cue:p_pressa",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     58
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Gm — pressa"
+   },
+   {
+    "at": "cue:c_nunca",
+    "notes": [
+     28,
+     40,
+     47,
+     52,
+     55
+    ],
+    "root": 40,
+    "dens": 1,
+    "bright": 0.3,
+    "label": "Em — consequência"
+   },
+   {
+    "at": "cue:k_creci",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "C — resposta"
+   },
+   {
+    "at": "cue:d_conferir",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57,
+     60
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "F — defesa"
+   },
+   {
+    "at": "cue:f_golpista",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ },
+ "modelos4": true,
+ "modelo": 4,
+ "modeloNome": "Maquete 3D",
+ "grade": {
+  "territorio": "agora",
+  "origem": "radar",
+  "origemRef": "radar[0]",
+  "dataFato": "2026-11-23",
+  "pushPull": "push",
+  "justificativaModelo": "notícia com mecanismo entre partes (imóvel real → fotos copiadas → anúncio falso → Pix → família na porta errada): a maquete mostra o fluxo e quem decide o quê",
+  "justificativaHorario": "12h: notícia acessível no domingo, antes de quem planeja a viagem de férias; 08h já está ocupado",
+  "trilha": "",
+  "justificativaTrilha": "trilha sintetizada: as faixas do catálogo estão em `referencia` (sem licença); sugestão de catálogo registrada na ficha musical",
+  "data": "2026-11-29",
+  "slot": "12:00",
+  "arquivo": "PRODUCAO/grade/2026-11-29.json"
+ },
+ "formato": "maquete-3d",
+ "sistemaVisual": "1.0.0"
+}

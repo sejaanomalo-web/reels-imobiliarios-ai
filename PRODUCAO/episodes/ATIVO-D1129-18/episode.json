@@ -1,0 +1,708 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "Sears": "Síars",
+  "1908": "mil novecentos e oito"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1129-18",
+ "lote": "D1129",
+ "title": "A casa que chegou de trem",
+ "outputDir": "ATIVO_D1129_18",
+ "deliverables": {
+  "final": "ATIVO_D1129_18_FINAL.mp4",
+  "narration": "ATIVO_D1129_18_NARRACAO.wav",
+  "subtitles": "ATIVO_D1129_18_legendas.srt",
+  "cover": "ATIVO_D1129_18_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-11-29/ATIVO-D1129-18_casas_por_catalogo.md",
+ "apuracao": {
+  "fato": "Sears Modern Homes (1908–1940): mais de 70 mil casas vendidas por catálogo (estimativas 70–100 mil, sem contagem oficial); kits de 10 a 30 mil peças pré-cortadas e numeradas, entregues por trem; centenas de modelos (370 a mais de 400); milhares ainda de pé (estimativa 18–22 mil); catálogo com plantas e descrição dos cômodos",
+  "verificado_em": "2026-11-23",
+  "fontes": [
+   "https://www.huduser.gov/portal/pdredge/pdr-edge-housingat250-article-072425.html",
+   "https://en.wikipedia.org/wiki/Sears_Modern_Homes",
+   "https://teachingamericanhistory.org/document/mail-order-houses/",
+   "https://archive.org/download/honorbiltmodernh00sear/honorbiltmodernh00sear.pdf"
+  ],
+  "ressalvas": "sem preços (fontes divergem) e sem '75 páginas' do manual (fonte única); desenhos originais, nenhuma página real do catálogo"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que depende da visita para vender",
+  "territorio": "historia",
+  "funcao": "C2 mudança de percepção",
+  "crenca_questionada": "só se compra imóvel depois de visitar",
+  "hipotese": "a informação que chega antes decide a visita"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Mais de setenta mil famílias compraram uma casa sem nunca ter entrado nela.",
+   "caption": "Mais de *setenta mil* | famílias | compraram uma casa | sem *nunca* | ter entrado nela.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "contexto",
+   "text": "Foi nos Estados Unidos, a partir de 1908.",
+   "caption": "Foi nos *Estados Unidos,* | a partir de *1908.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "contexto",
+   "text": "A casa era vendida pelo correio, pela Sears, a loja de catálogo onde se comprava de roupa a ferramenta.",
+   "caption": "A casa | era vendida | pelo *correio,* | pela Sears, | a loja de *catálogo* | onde se comprava | de roupa | a ferramenta.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "trem",
+   "text": "Você escolhia o modelo, pagava, e a casa chegava de trem: milhares de peças numeradas, cortadas na medida, com um manual para montar.",
+   "caption": "Você escolhia | o modelo, | pagava, | e a casa | chegava de *trem:* | milhares de *peças* | numeradas, | cortadas na medida, | com um *manual* | para montar.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "pergunta",
+   "text": "Mas como alguém escolhe onde vai morar sem visitar?",
+   "caption": "Mas como alguém | escolhe | onde vai morar | sem *visitar?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "resposta",
+   "text": "Porque o catálogo respondia antes.",
+   "caption": "Porque o catálogo | respondia *antes.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "resposta",
+   "text": "Cada página mostrava a fachada, a planta com a medida de cada cômodo e tudo o que vinha no kit.",
+   "caption": "Cada página | mostrava a *fachada,* | a *planta* | com a medida | de cada *cômodo* | e tudo o que | vinha no *kit.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "escala",
+   "text": "A dúvida chegava resolvida.",
+   "caption": "A dúvida | chegava *resolvida.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "escala",
+   "text": "Foram centenas de modelos por mais de trinta anos, e milhares dessas casas continuam de pé.",
+   "caption": "Foram *centenas* | de modelos | por mais de | trinta anos, | e *milhares* | dessas casas | continuam de pé.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "desfecho",
+   "text": "Essas famílias não compraram no escuro.",
+   "caption": "Essas famílias | não compraram | no *escuro.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "desfecho",
+   "text": "Compraram com as respostas chegando antes das perguntas.",
+   "caption": "Compraram | com as *respostas* | chegando *antes* | das perguntas.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "desfecho",
+   "text": "E é isso que ainda decide qual imóvel o cliente quer visitar.",
+   "caption": "E é isso | que ainda *decide* | qual imóvel | o cliente | quer *visitar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "contexto": 0.3,
+  "trem": 0.3,
+  "pergunta": 0.35,
+  "resposta": 0.35,
+  "escala": 0.3,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_setenta": {
+   "seg": "s1",
+   "word": "setenta",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_familias": {
+   "seg": "s1",
+   "word": "famílias",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_nunca": {
+   "seg": "s1",
+   "word": "nunca",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_eua": {
+   "seg": "s2",
+   "word": "Estados",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_1908": {
+   "seg": "s2",
+   "word": "1908",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_correio": {
+   "seg": "s3",
+   "word": "correio",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_catalogo": {
+   "seg": "s3",
+   "word": "catálogo",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_roupa": {
+   "seg": "s3",
+   "word": "roupa",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_ferramenta": {
+   "seg": "s3",
+   "word": "ferramenta",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_modelo": {
+   "seg": "s4",
+   "word": "modelo",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_trem": {
+   "seg": "s4",
+   "word": "trem",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_pecas": {
+   "seg": "s4",
+   "word": "peças",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_medida": {
+   "seg": "s4",
+   "word": "medida",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_manual": {
+   "seg": "s4",
+   "word": "manual",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_como": {
+   "seg": "s5",
+   "word": "como",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_visitar": {
+   "seg": "s5",
+   "word": "visitar",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_catalogo": {
+   "seg": "s6",
+   "word": "catálogo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_antes": {
+   "seg": "s6",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_fachada": {
+   "seg": "s7",
+   "word": "fachada",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_planta": {
+   "seg": "s7",
+   "word": "planta",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_comodo": {
+   "seg": "s7",
+   "word": "cômodo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_kit": {
+   "seg": "s7",
+   "word": "kit",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_duvida": {
+   "seg": "s8",
+   "word": "dúvida",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_centenas": {
+   "seg": "s9",
+   "word": "centenas",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_trinta": {
+   "seg": "s9",
+   "word": "trinta",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_milhares": {
+   "seg": "s9",
+   "word": "milhares",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_pe": {
+   "seg": "s9",
+   "word": "pé",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_escuro": {
+   "seg": "s10",
+   "word": "escuro",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_respostas": {
+   "seg": "s11",
+   "word": "respostas",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_antes": {
+   "seg": "s11",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_decide": {
+   "seg": "s12",
+   "word": "decide",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_visitar": {
+   "seg": "s12",
+   "word": "visitar",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s13",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s13",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s13",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s13",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s13",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s13",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s13",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s13",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s13",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_nunca",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -31
+  },
+  {
+   "cue": "x_1908",
+   "offset": -0.05,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "x_catalogo",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -31
+  },
+  {
+   "cue": "r_trem",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -30,
+   "dur": 0.6
+  },
+  {
+   "cue": "r_pecas",
+   "offset": 0.0,
+   "sound": "scramble",
+   "gain": -33,
+   "dur": 1.0
+  },
+  {
+   "cue": "r_manual",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28
+  },
+  {
+   "cue": "q_como",
+   "offset": -0.1,
+   "sound": "hollow",
+   "gain": -28
+  },
+  {
+   "cue": "a_catalogo",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -29
+  },
+  {
+   "cue": "a_fachada",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28
+  },
+  {
+   "cue": "a_planta",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 3
+  },
+  {
+   "cue": "a_comodo",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 5
+  },
+  {
+   "cue": "a_kit",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "e_centenas",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -30
+  },
+  {
+   "cue": "f_respostas",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -30
+  },
+  {
+   "cue": "f_visitar",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.85,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "G — espanto"
+   },
+   {
+    "at": "cue:x_1908",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "C — 1908"
+   },
+   {
+    "at": "cue:r_trem",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "F — trem"
+   },
+   {
+    "at": "cue:q_como",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.35,
+    "label": "Am — pergunta"
+   },
+   {
+    "at": "cue:a_catalogo",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     59
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cmaj7 — resposta"
+   },
+   {
+    "at": "cue:e_centenas",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57,
+     60
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "F — escala"
+   },
+   {
+    "at": "cue:f_escuro",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59,
+     62
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "G — insight"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ },
+ "modelos4": true,
+ "modelo": 3,
+ "modeloNome": "Planta técnica",
+ "grade": {
+  "territorio": "historia",
+  "origem": "pesquisa",
+  "origemRef": "HUD User (governo dos EUA), Wikipedia/Sears Modern Homes",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "a história É um catálogo de plantas: cada página vira prancha, as peças viram cotas, o trem vira rota; a planta técnica conta isso sem esforço",
+  "justificativaHorario": "18h: narrativa de alto apelo na volta para casa no domingo",
+  "trilha": "",
+  "justificativaTrilha": "trilha sintetizada: as faixas do catálogo estão em `referencia` (sem licença); sugestão de catálogo registrada na ficha musical",
+  "data": "2026-11-29",
+  "slot": "18:00",
+  "arquivo": "PRODUCAO/grade/2026-11-29.json"
+ },
+ "formato": "planta-tecnica",
+ "sistemaVisual": "1.0.0"
+}
