@@ -89,7 +89,7 @@ export const Portas: React.FC<P> = ({ t, tl }) => {
   const out = 1 - prog(t, c.p_dono + 0.9, 0.35);
   return (
     <div style={{ position: "absolute", inset: 0, opacity: out }}>
-      <CamNoir t={t} push={0.004} keys={[{ t: 0, s: 1.04, x: 0 }, { t: c.h_contrato, s: 1.08, x: -20, y: -20 }, { t: c.r_agosto, s: 1.0, x: 0 }, { t: c.r_recebe + 0.8, s: 1.03, x: 0, y: -10 }, { t: c.b_brasil - 0.4, s: 1.03, x: 0, y: -10 }, { t: c.b_brasil + 0.9, s: 1.0, x: -BR }, { t: c.p_some, s: 1.0, x: -BR }, { t: c.p_dono + 0.4, s: 1.0, x: -BR }]}>
+      <CamNoir t={t} push={0} keys={[{ t: 0, s: 1.04, x: 0 }, { t: c.h_contrato, s: 1.08, x: -20, y: -20 }, { t: c.r_agosto, s: 1.0, x: 0 }, { t: c.r_recebe + 0.8, s: 1.03, x: 0, y: -10 }, { t: c.b_brasil - 0.4, s: 1.03, x: 0, y: -10 }, { t: c.b_brasil + 0.9, s: 1.0, x: -BR }, { t: c.p_some, s: 1.0, x: -BR }, { t: c.p_dono + 0.4, s: 1.0, x: -BR }]}>
         <Svg w={2160}>
           <Chao />
           {/* EUA */}
