@@ -16,6 +16,8 @@ Nível inferior nunca contraria o superior. As regras globais não engessam narr
 
 ## Qual roteiro seguir
 
+**Plano visível:** criar ou alterar um modelo segue as 8 etapas do modelo B de `PROMPTS/PLANO_DE_ETAPAS_ATIVO.md`, criadas no painel "Plano" antes de começar.
+
 | Situação | Faça |
 |---|---|
 | **Produzir um vídeo** num modelo existente | Leia a skill do modelo (ela começa pela "Herança"). Use só o kit do modelo e os tokens de `PRODUCAO/src/theme.ts` (`DS`, `ACENTO`/`A`, `ATMOSFERA`, `C`, `F`). O `editorial_check.py` já roda o validador no episódio e bloqueia o render se houver erro. Antes do render final, `python3 tools/sistema_visual_check.py --quadros <pasta_da_folha>` e a revisão visual do README §8 |

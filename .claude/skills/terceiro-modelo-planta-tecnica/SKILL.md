@@ -57,6 +57,8 @@ description: TERCEIRO MODELO de vídeo da ATIVO e ESTILO 3 da esteira — "Terce
 
 ## 2. Pipeline
 
+> **Plano visível (regra do cliente, 23/11/2026):** antes de começar, crie no painel "Plano" as 12 etapas do modelo A de `PROMPTS/PLANO_DE_ETAPAS_ATIVO.md`, com o ID do episódio no título (`[<EP>] n/12 · Etapa — resultado`). Uma etapa `in_progress` por vez; `completed` ao terminar; erro vira `BLOQUEIO`.
+
 1. Roteiro aprovado (Skill Mestre) → `esteira.py proximo` (caminho 1) ou decisão de usar o modelo (caminho 2).
 2. `mkNN.py` com `tools/novo_episodio.py` (cues por palavra; no caminho 2, `formato="planta-tecnica"`, que já cria `cta_leads`/`cta_atend` e os SFX do fecho).
 3. Voz Puck 1,0× (`build_narration.py`), `shapePauses`.

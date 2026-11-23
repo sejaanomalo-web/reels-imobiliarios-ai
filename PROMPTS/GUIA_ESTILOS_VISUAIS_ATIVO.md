@@ -47,6 +47,7 @@
 - **Gramática/movimento:** o que foi aprovado no lote NOV26 (cartões, tags, gráficos, celulares, mapas), sem kits dos estilos 1–4.
 
 ## 6. Fluxo de produção (igual ao lote NOV26, com 1 passo a mais)
+0. **Plano visível:** crie no painel "Plano" as 12 etapas do modelo A de `PROMPTS/PLANO_DE_ETAPAS_ATIVO.md` com o ID do episódio no título; atualize a cada etapa.
 1. `python3 tools/esteira.py proximo` → saber o estilo do próximo roteiro.
 2. Ler roteiro, apurar, montar `mkNN.py` com `tools/novo_episodio.py` (registra o estilo).
 3. Vozes A/B (C só se ambas erram) → `build_narration.py --source`.

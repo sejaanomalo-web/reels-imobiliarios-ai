@@ -108,6 +108,8 @@ O código fica em `PRODUCAO/episodes/<EP>/` e `PRODUCAO/src/episodes/<EP>/`. ID:
 
 ## 2. Pipeline
 
+> **Plano visível (regra do cliente, 23/11/2026):** antes de começar, crie no painel "Plano" as 12 etapas do modelo A de `PROMPTS/PLANO_DE_ETAPAS_ATIVO.md`, com o ID do episódio no título (`[<EP>] n/12 · Etapa — resultado`). Uma etapa `in_progress` por vez; `completed` ao terminar; erro vira `BLOQUEIO`.
+
 | # | Etapa | Comando / arquivo |
 |---|---|---|
 | 1 | Ingestão do lote (PDF) | `ROTEIROS/<LOTE>/`, um `.md` por roteiro |
