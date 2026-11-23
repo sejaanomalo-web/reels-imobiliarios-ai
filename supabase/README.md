@@ -76,7 +76,7 @@ select net.http_post(
 -- resposta: select status_code, content from net._http_response where id = <id devolvido>;
 ```
 
-**Ver a programação:** no Table Editor, abra a visão `pub_programacao` (mesmo padrão de `ig_programacao`: horário em Brasília, plataforma, vídeo, situação, link). Ou por SQL:
+**Ver a programação:** no Table Editor, abra a visão `pub_programacao` — Instagram, YouTube e TikTok juntos (horário em Brasília, plataforma, vídeo, situação, link; só leitura). Ou por SQL:
 ```sql
 select d.destino, d.status, regexp_replace(p.caminho_video, '.*/', '') as video,
        d.agendado_para at time zone 'America/Sao_Paulo' as horario_brt, d.url, d.erro
