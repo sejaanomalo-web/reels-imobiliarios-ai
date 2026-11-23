@@ -195,7 +195,7 @@ export const holofote = (t: number, c: Record<string, number>, tl: Timeline) => 
 /** Placas (HTML projetado no topo das hastes). */
 export const placas = (t: number, c: Record<string, number>, tl: Timeline): PlacaDef[] => {
   const ate = (de: number, fim: number) => prog(t, de, 0.35) * (1 - prog(t, fim, 0.3));
-  const fimB = ini(tl, "consequencia") - 0.15;
+  const fimB = ini(tl, "consequencia") + 0.25;
   const textos = ["1 · CRECI DE QUEM ANUNCIA", "2 · ANÚNCIO = CONTA = DONO", "3 · CONTRATO ANTES DO PIX"];
   const checa = [c.d_creci, c.d_nome, c.d_contrato];
   return [
