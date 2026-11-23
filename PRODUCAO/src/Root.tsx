@@ -187,6 +187,8 @@ import { PICTO_01, timeline as picto_01 } from "./episodes/ATIVO-PICTO-01/Episod
 import { PICTO_01Cover } from "./episodes/ATIVO-PICTO-01/Cover";
 import { PLANTA_01, timeline as planta_01 } from "./episodes/ATIVO-PLANTA-01/Episode";
 import { PLANTA_01Cover } from "./episodes/ATIVO-PLANTA-01/Cover";
+import { MAQUETE_01, timeline as maquete_01 } from "./episodes/ATIVO-MAQUETE-01/Episode";
+import { MAQUETE_01Cover } from "./episodes/ATIVO-MAQUETE-01/Cover";
 import { MostruarioTokens, MostruarioCertoErrado } from "./sistema-visual/Mostruario";
 import { GTA6_11, timeline as gta6_11 } from "./episodes/ATIVO-GTA6-11/Episode";
 import { GTA6_11Cover } from "./episodes/ATIVO-GTA6-11/Cover";
@@ -814,6 +816,8 @@ export const RemotionRoot: React.FC = () => (
       <Composition id="ATIVO-PICTO-01" component={PICTO_01} width={VIDEO.width} height={VIDEO.height} fps={picto_01.fps} durationInFrames={picto_01.durationInFrames} defaultProps={{ withAudio: true }} />
       <Composition id="ATIVO-PLANTA-01" component={PLANTA_01} width={VIDEO.width} height={VIDEO.height} fps={planta_01.fps} durationInFrames={planta_01.durationInFrames} defaultProps={{ withAudio: true }} />
       <Still id="ATIVO-PLANTA-01-Capa" component={PLANTA_01Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-MAQUETE-01" component={MAQUETE_01} width={VIDEO.width} height={VIDEO.height} fps={maquete_01.fps} durationInFrames={maquete_01.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-MAQUETE-01-Capa" component={MAQUETE_01Cover} width={VIDEO.width} height={VIDEO.height} />
       <Still id="ATIVO-PICTO-01-Capa" component={PICTO_01Cover} width={VIDEO.width} height={VIDEO.height} />
       {/* Sistema Visual ATIVO (Nível 1): mostruário que gera MARCA/sistema-visual/exemplos/ */}
       <Still id="ATIVO-SISTEMA-VISUAL-Tokens" component={MostruarioTokens} width={VIDEO.width} height={VIDEO.height} />

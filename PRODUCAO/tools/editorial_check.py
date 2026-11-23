@@ -154,6 +154,18 @@ def check(ep_id: str) -> int:
                 errs.append(f"planta técnica: falta {why}")
         if not ep.get("esteira") and ep.get("estilo"):
             errs.append("formato planta-tecnica criado fora da esteira não deve ter `estilo` (use novo_episodio.build(..., formato=\"planta-tecnica\"))")
+    # 9c. QUARTO MODELO — MAQUETE 3D (skill .claude/skills/quarto-modelo-maquete-3d, 23/11/2026): kit 3D, cabeçalho com
+    #     FONTES, legenda em caixa e fecho ModulosSistema + CtaMaquete. Fora da esteira.
+    if ep.get("formato") == "maquete-3d" or ep_id.startswith("ATIVO-MAQUETE"):
+        allsrc = "\n".join(open(f).read() for f in files)
+        for need, why in (("estilos/maquete", "cenas com o kit src/estilos/maquete.tsx"), ("<Mundo", "o mundo 3D (Mundo)"), ("<Cabecalho", "cabeçalho editorial com FONTES (Cabecalho)"),
+                          ("LegendaCaixa", "legenda em caixa (LegendaCaixa)"), ("ModulosSistema", "módulos do fecho (ModulosSistema)"), ("CtaMaquete", "fecho CtaMaquete (campo SISTEMA + logo)")):
+            if need not in allsrc:
+                errs.append(f"formato maquete: falta {why}")
+        if re.search(r"fontes=\"\s*\"", allsrc):
+            errs.append("formato maquete: a linha FONTES não pode ficar vazia (assinatura 7)")
+        if ep.get("esteira"):
+            errs.append("formato maquete-3d não entra na esteira de 5 estilos (crie com novo_episodio.build(..., formato=\"maquete-3d\"))")
     # 10. FORMATO CARTOON EXPLICATIVO (skill .claude/skills/primeiro-modelo-cartoon-explicativo): kit, legenda karaokê e fecho cartoon
     if ep.get("formato") == "pictograma-cinematografico" or ep_id.startswith("ATIVO-PICTO"):
         allsrc = "\n".join(open(f).read() for f in files)

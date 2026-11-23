@@ -11,7 +11,7 @@ Cada modelo é um estilo viral de edição para Instagram e TikTok, com manual c
 | **Primeiro modelo** | **Cartoon explicativo** | [`.claude/skills/primeiro-modelo-cartoon-explicativo/SKILL.md`](.claude/skills/primeiro-modelo-cartoon-explicativo/SKILL.md) | `PRODUCAO/src/estilos/cartoon.tsx` | `OUTPUT/pilotos/ATIVO_PILOTO_01/` ("Concorrente ou parceiro?") | ✅ pronto (21/11/2026) |
 | **Segundo modelo** | **Pictograma cinematográfico** | [`.claude/skills/segundo-modelo-pictograma-cinematografico/SKILL.md`](.claude/skills/segundo-modelo-pictograma-cinematografico/SKILL.md) | `PRODUCAO/src/estilos/pictograma.tsx` | `OUTPUT/pilotos/ATIVO_PICTO_01/` ("Ninguém te avisa quando um cliente desiste") | ✅ pronto (21/11/2026) |
 | **Terceiro modelo** (= estilo 3 da esteira) | **Planta técnica** | [`.claude/skills/terceiro-modelo-planta-tecnica/SKILL.md`](.claude/skills/terceiro-modelo-planta-tecnica/SKILL.md) | `PRODUCAO/src/estilos/planta.tsx` (v2) | `OUTPUT/pilotos/ATIVO_PLANTA_01/` (roteiro do GTA6_02 refeito no v2) | ✅ pronto (23/11/2026) |
-| Quarto modelo | — | — | — | — | reservado (idem) |
+| **Quarto modelo** | **Maquete 3D** | [`.claude/skills/quarto-modelo-maquete-3d/SKILL.md`](.claude/skills/quarto-modelo-maquete-3d/SKILL.md) | `PRODUCAO/src/estilos/maquete.tsx` (3D: `@remotion/three`) | `OUTPUT/pilotos/ATIVO_MAQUETE_01/` (roteiro do NOV26_03 na maquete) | ✅ pronto (23/11/2026) · família "maquete" aguardando aprovação no Nível 1 |
 | 5º, 6º, … | — | — | — | — | o registro não tem limite: cada novo modelo entra em `modelos.json` |
 
 **Primeiro modelo — Cartoon explicativo**, em uma linha: 2D chapado com personagens de recorte; fundo de raios com a cor das atmosferas do Nível 1; vinheta e holofote; carimbos e pop elástico; corte seco a cada 2–4 s; legenda karaokê no centro; fecho cartoon "COMENTE: SISTEMA" → Direct. Prévia: [`referencias/piloto_24_quadros.jpg`](.claude/skills/primeiro-modelo-cartoon-explicativo/referencias/piloto_24_quadros.jpg).
@@ -34,6 +34,15 @@ Prévia: [`referencias/piloto_24_quadros.jpg`](.claude/skills/segundo-modelo-pic
 - fecho `CtaPlanta` (projeto "SEU SISTEMA" + campo que digita SISTEMA + logo assinado).
 
 É também o **estilo 3 da esteira de 5 estilos** (mesmo kit). Na esteira, o fecho padrão continua sendo o `Cta` comum aos 5 estilos. Prévia: [`referencias/piloto_24_quadros.jpg`](.claude/skills/terceiro-modelo-planta-tecnica/referencias/piloto_24_quadros.jpg) e [`referencias/antes_x_depois.jpg`](.claude/skills/terceiro-modelo-planta-tecnica/referencias/antes_x_depois.jpg).
+
+**Quarto modelo — Maquete 3D**, em uma linha:
+- a notícia ou o processo vira uma maquete 3D de miniaturas de argila fosca num chão escuro infinito;
+- plano-sequência: a câmera anda pelo mesmo mundo, sem corte; o clima muda por capítulo (atmosferas do Nível 1);
+- objetos brotam do chão na palavra; placas em hastes; arcos de pontos para fluxos; holofote no corretor de gravata verde;
+- cabeçalho editorial com capítulo e FONTES; legenda em caixa escura;
+- fecho com os módulos IMÓVEIS / LEADS / ATENDIMENTOS que acendem + campo SISTEMA + logo.
+
+Prévia: [`referencias/piloto_24_quadros.jpg`](.claude/skills/quarto-modelo-maquete-3d/referencias/piloto_24_quadros.jpg).
 
 **Regras comuns a todos os modelos:**
 - **Sistema Visual ATIVO (Nível 1):** `MARCA/sistema-visual/README.md`. Ele define acento `#02FB3F`, atmosferas, Manrope/JetBrains Mono, logo oficial, as 7 assinaturas, área segura e qualidade;

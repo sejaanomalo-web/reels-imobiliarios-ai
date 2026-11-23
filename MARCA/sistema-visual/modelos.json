@@ -152,10 +152,51 @@
   },
   {
    "numero": 4,
-   "id": "modelo-4",
-   "nome": "Quarto modelo — a definir",
-   "status": "reservado",
-   "nota": "Aguardando referências e decisão do cliente. Nada criativo é antecipado aqui. Criar pelo MARCA/sistema-visual/NOVO_MODELO.md."
+   "id": "maquete-3d",
+   "nome": "Quarto modelo — Maquete 3D",
+   "status": "ativo",
+   "skill": ".claude/skills/quarto-modelo-maquete-3d/SKILL.md",
+   "kits": [
+    "PRODUCAO/src/estilos/maquete.tsx"
+   ],
+   "kitPrincipal": "estilos/maquete.tsx",
+   "formato": "maquete-3d",
+   "prefixos": [
+    "ATIVO-MAQUETE"
+   ],
+   "piloto": "ATIVO-MAQUETE-01",
+   "familiaIlustracao": "maquete",
+   "familiaPendente": "família 'maquete' (3D leve de primitivas em argila fosca) proposta à governança do Nível 1 (README §10); entra em tokens.json v1.1.0 após aprovação explícita do cliente",
+   "nivel2": {
+    "narrativa": "explicador: pergunta-manchete → capítulos/passos → o que o corretor faz com isso → fecho",
+    "montagem": "plano-sequência: um só mundo, a câmera viaja entre estações (0,8–1,2 s); sem corte; algo muda a cada ≤ 1,5 s",
+    "atmosferas": "uma atmosfera do Nível 1 por capítulo na névoa, no chão e no fundo (troca em 0,6 s); solucao a partir de 'Comente'",
+    "legenda": {
+     "componente": "LegendaCaixa",
+     "y": 1440,
+     "size": 56,
+     "caixa": "frase",
+     "estilo": "caixa escura arredondada; dita branca, por vir cinza, chave verde"
+    },
+    "movimento": "objetos brotam do chão na palavra (mola); acendem em verde; fluxos de pontos; holofote no corretor; câmera contínua",
+    "fecho": "ModulosSistema (casa, boneco e balão que acendem) + CtaMaquete (campo que digita SISTEMA + logo oficial)"
+   },
+   "componentesObrigatorios": [
+    "estilos/maquete",
+    "Mundo",
+    "camAt",
+    "Casa",
+    "Boneco",
+    "Tanque",
+    "Fluxo",
+    "Placas",
+    "Cabecalho",
+    "LegendaCaixa",
+    "ModulosSistema",
+    "CtaMaquete"
+   ],
+   "excecoesCor": [],
+   "legado": []
   },
   {
    "numero": null,

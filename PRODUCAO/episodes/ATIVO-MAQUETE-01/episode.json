@@ -1,0 +1,579 @@
+{
+ "id": "ATIVO-MAQUETE-01",
+ "title": "O dinheiro que financia os imóveis",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "outputDir": "pilotos/ATIVO_MAQUETE_01",
+ "lote": "VIRAL",
+ "accent": "#02FB3F",
+ "deliverables": {
+  "final": "ATIVO_MAQUETE_01_FINAL.mp4",
+  "narration": "ATIVO_MAQUETE_01_NARRACAO.wav",
+  "subtitles": "ATIVO_MAQUETE_01_legendas.srt",
+  "cover": "ATIVO_MAQUETE_01_capa.png"
+ },
+ "fonte": "ROTEIROS/LOTE_NOV2026/ATIVO_NOV26_03.md (lote ATIVO_30_ROTEIROS_NOV2026.docx, cliente, 17/11/2026)",
+ "apuracao": {
+  "fato": "BC divulgou em 11/11/2026: poupança teve saída líquida em outubro/2026 (≈ R$ 8,88 bi); valor NÃO usado na locução nem na tela (nota do roteiro)",
+  "verificado_em": "2026-11-17",
+  "fontes": [
+   "https://www.bcb.gov.br/estatisticas/relatorios",
+   "https://diariodocomercio.com.br/financas/saques-poupanca-superam-depositos/"
+  ],
+  "cuidados": "sem percentual de participação das fontes; reservatório é metáfora; não afirmar que o crédito parou"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que ouve notícia de saque da poupança e não sabe o que dizer ao cliente",
+  "motivacao": "explicar o mercado sem alarmismo",
+  "crenca_questionada": "saída da poupança = banco parou de financiar",
+  "hipotese": "a metáfora do reservatório traduz a relação sem números",
+  "funcao": "educação de mercado / metáfora",
+  "promessa": "explicar por que aprovação, taxa e prazo variam",
+  "evidencias": "dado do BC (verificado), sem valor na tela",
+  "cta": "comentário SISTEMA → Direct; 'Siga a ATIVO' virou transição"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "original_cta": "Gostou desse tipo de explicação? Siga a ATIVO para entender o mercado sem complicação.",
+  "transition_adapted": "Traduza a notícia para o cliente, sem complicação.",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Você sabia que o dinheiro da poupança tem relação com a oferta de financiamento imobiliário?",
+   "caption": "Você sabia | que o dinheiro | da *poupança* | tem relação | com a oferta | de *financiamento* | imobiliário?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "t1",
+   "text": "Pensa no sistema de crédito como um reservatório.",
+   "caption": "Pensa no sistema | de *crédito* | como um | *reservatório.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "Uma parte dos recursos usados nos financiamentos vem da poupança, seguindo regras específicas.",
+   "caption": "Uma *parte* | dos recursos | usados nos | financiamentos | vem da *poupança,* | seguindo regras | específicas.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "Quando há mais saques do que depósitos, esse reservatório fica sob pressão.",
+   "caption": "Quando há | mais *saques* | do que *depósitos,* | esse reservatório | fica sob *pressão.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t2",
+   "text": "Em outubro, a poupança voltou a registrar saída líquida de recursos.",
+   "caption": "Em *outubro,* | a poupança | voltou a registrar | *saída líquida* | de recursos.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t2",
+   "text": "Mas isso não significa que o banco parou de financiar.",
+   "caption": "Mas isso | *não significa* | que o banco | *parou* | de financiar.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t2",
+   "text": "Existem outras fontes e decisões envolvidas.",
+   "caption": "Existem | *outras fontes* | e *decisões* | envolvidas.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t3",
+   "text": "Para o corretor, a aplicação é simples: acompanhe as condições reais de crédito e saiba explicar por que aprovação, taxa e prazo não são iguais para todo mundo.",
+   "caption": "Para o corretor, | a aplicação | é simples: | *acompanhe* | as condições reais | de crédito | e saiba *explicar* | por que | *aprovação,* *taxa* | e *prazo* | não são iguais | para todo mundo.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "Traduza a notícia para o cliente, sem complicação.",
+   "caption": "*Traduza* a notícia | para o cliente, | sem complicação.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_sabia": {
+   "seg": "s1",
+   "word": "sabia",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_poup": {
+   "seg": "s1",
+   "word": "poupança",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_rel": {
+   "seg": "s1",
+   "word": "relação",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_fin": {
+   "seg": "s1",
+   "word": "financiamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_pensa": {
+   "seg": "s2",
+   "word": "Pensa",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_cred": {
+   "seg": "s2",
+   "word": "crédito",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_res": {
+   "seg": "s2",
+   "word": "reservatório",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_parte": {
+   "seg": "s3",
+   "word": "parte",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_poup": {
+   "seg": "s3",
+   "word": "poupança",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_regras": {
+   "seg": "s3",
+   "word": "regras",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_saques": {
+   "seg": "s4",
+   "word": "saques",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_dep": {
+   "seg": "s4",
+   "word": "depósitos",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_press": {
+   "seg": "s4",
+   "word": "pressão",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_out": {
+   "seg": "s5",
+   "word": "outubro",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_saida": {
+   "seg": "s5",
+   "word": "saída",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_mas": {
+   "seg": "s6",
+   "word": "Mas",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_nao": {
+   "seg": "s6",
+   "word": "não",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_parou": {
+   "seg": "s6",
+   "word": "parou",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_exist": {
+   "seg": "s7",
+   "word": "Existem",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_outras": {
+   "seg": "s7",
+   "word": "outras",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_dec": {
+   "seg": "s7",
+   "word": "decisões",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_corr": {
+   "seg": "s8",
+   "word": "corretor",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_acomp": {
+   "seg": "s8",
+   "word": "acompanhe",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_cond": {
+   "seg": "s8",
+   "word": "condições",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_expl": {
+   "seg": "s8",
+   "word": "explicar",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_aprov": {
+   "seg": "s8",
+   "word": "aprovação",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_taxa": {
+   "seg": "s8",
+   "word": "taxa",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_prazo": {
+   "seg": "s8",
+   "word": "prazo",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_iguais": {
+   "seg": "s8",
+   "word": "iguais",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_trad": {
+   "seg": "s9",
+   "word": "Traduza",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_compl": {
+   "seg": "s9",
+   "word": "complicação",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s10",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s10",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s10",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s11",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s11",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s11",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s11",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_poup",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 2
+  },
+  {
+   "cue": "h_fin",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "a_pensa",
+   "offset": -0.3,
+   "sound": "whoosh_up",
+   "gain": -27,
+   "dur": 0.5
+  },
+  {
+   "cue": "a_res",
+   "offset": 0.2,
+   "sound": "shimmer",
+   "gain": -30
+  },
+  {
+   "cue": "a_saques",
+   "offset": 0.1,
+   "sound": "click",
+   "gain": -26,
+   "pitch": -2
+  },
+  {
+   "cue": "a_press",
+   "offset": 0.1,
+   "sound": "thump",
+   "gain": -27,
+   "pitch": -3
+  },
+  {
+   "cue": "b_out",
+   "offset": -0.2,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "b_saida",
+   "offset": 0.1,
+   "sound": "fade_down",
+   "gain": -30,
+   "dur": 0.8
+  },
+  {
+   "cue": "b_nao",
+   "offset": 0.1,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "b_outras",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "c_corr",
+   "offset": -0.3,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "c_aprov",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "c_taxa",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "c_prazo",
+   "offset": 0.1,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "c_trad",
+   "offset": 0.1,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.45,
+    "label": "F — pergunta"
+   },
+   {
+    "at": "cue:a_pensa",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "C — reservatório"
+   },
+   {
+    "at": "cue:b_out",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.4,
+    "label": "Am — saída líquida"
+   },
+   {
+    "at": "cue:c_corr",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — traduza"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ },
+ "formato": "maquete-3d",
+ "sistemaVisual": "1.0.0",
+ "piloto": {
+  "base": "ATIVO-NOV26-03",
+  "nota": "piloto do Quarto modelo: mesmo roteiro, voz congelada e timeline do ATIVO-NOV26-03, refeitos na maquete 3D"
+ }
+}

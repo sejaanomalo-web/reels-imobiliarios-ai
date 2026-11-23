@@ -9,7 +9,7 @@ from novo_episodio_nov26 import W, CTA, fx  # noqa: F401  (fx reexportado)
 import esteira
 
 def build(ep_id, out, lote, fonte, title, S, L, sfx, prog, cta, diag, apur, lead, cta_in_script=False, formato=None):
-    """formato="cartoon-explicativo" (Primeiro modelo), "pictograma-cinematografico" (Segundo) ou "planta-tecnica" (Terceiro): NÃO registra estilo na
+    """formato="cartoon-explicativo" (Primeiro modelo), "pictograma-cinematografico" (Segundo) ou "planta-tecnica" (Terceiro) ou "maquete-3d" (Quarto): NÃO registra estilo na
     esteira de 5 estilos, cria os cues do fecho (cta_leads/cta_atend) e troca os SFX da CTA pelos do fecho do modelo."""
     base = json.load(open('episodes/ATIVO-NOV26-03/episode.json'))
     # Sistema Visual ATIVO (Nível 1): todo formato fora da esteira precisa ser um modelo REGISTRADO e ativo em
@@ -44,6 +44,10 @@ def build(ep_id, out, lote, fonte, title, S, L, sfx, prog, cta, diag, apur, lead
         sfx = sfx + [fx("cta_quer", -0.1, "swish", -29), fx("cta_tiles", -0.05, "pin", -27), fx("cta_leads", -0.05, "pin", -27, pitch=3),
                      fx("cta_atend", -0.05, "pin", -27, pitch=6), fx("cta_comment", -0.15, "whoosh_fold", -28), fx("cta_word", 0.0, "typing", -29),
                      fx("cta_word", 0.6, "click", -24), fx("cta_direct", -0.1, "whoosh_up", -28), fx("cta_direct", 0.85, "shimmer", -27)]
+    elif formato == "maquete-3d":  # fecho ModulosSistema + CtaMaquete: módulos brotam, acendem, campo digita, logo
+        sfx = sfx + [fx("cta_quer", 0.1, "pop", -29, pitch=-3), fx("cta_tiles", -0.05, "pin", -27), fx("cta_leads", -0.05, "pin", -27, pitch=3),
+                     fx("cta_atend", -0.05, "pin", -27, pitch=6), fx("cta_comment", -0.2, "whoosh_fold", -28), fx("cta_word", 0.0, "typing", -29),
+                     fx("cta_word", 0.6, "click", -24), fx("cta_direct", 0.7, "shimmer", -27)]
     else:
         sfx = sfx + [fx("cta_sys", 0.4, "whoosh_fold", -27), fx("cta_comment", -0.3, "pop", -25, pitch=3), fx("cta_word", 0.55, "typing", -30), fx("cta_end", 0.35, "shimmer", -28)]
     prog = prog + [{"at": "cue:cta_sys", "notes": [24, 36, 48, 52, 55, 62], "root": 36, "dens": 2, "bright": 0.6, "label": "Cadd9 — sistema"}]
