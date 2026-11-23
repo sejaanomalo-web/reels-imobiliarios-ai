@@ -1,7 +1,7 @@
 {
   "data": "2026-11-29",
   "versao": 1,
-  "status": "rascunho",
+  "status": "pauta_aprovada",
   "justificativas": {
     "territorios": "dia-piloto com 3 vídeos",
     "pushPull": "",
@@ -110,8 +110,8 @@
       "trilha": "",
       "justificativaTrilha": "",
       "episodio": "",
-      "roteiro": "",
-      "status": "ideia",
+      "roteiro": "rascunho (aguardando aprovação 2): ATIVO-D1129-12_golpe_temporada.md",
+      "status": "roteiro",
       "motivo": "",
       "resultados": {}
     },
@@ -152,8 +152,8 @@
       "trilha": "",
       "justificativaTrilha": "",
       "episodio": "",
-      "roteiro": "",
-      "status": "ideia",
+      "roteiro": "rascunho (aguardando aprovação 2): ATIVO-D1129-18_casas_por_catalogo.md",
+      "status": "roteiro",
       "motivo": "",
       "resultados": {}
     },
@@ -173,8 +173,8 @@
       "trilha": "",
       "justificativaTrilha": "",
       "episodio": "",
-      "roteiro": "",
-      "status": "ideia",
+      "roteiro": "rascunho (aguardando aprovação 2): ATIVO-D1129-21_visita_nao_e_cortesia.md",
+      "status": "roteiro",
       "motivo": "",
       "resultados": {}
     }
