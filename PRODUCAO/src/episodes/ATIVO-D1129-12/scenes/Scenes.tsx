@@ -62,7 +62,7 @@ export const camera = (t: number, c: Record<string, number>, tl: Timeline): Cam 
   { t: c.p_video + 0.4, pos: [8.1, 6.1, 12.2], alvo: [7.9, 1.5, -0.3], fov: 42 },
   // consequência: a câmera acompanha a família de volta à casa real
   { t: c.c_malas + 0.6, pos: [2.9, 3.9, 9.8], alvo: [0.8, 1.5, 0.8], fov: 38 },
-  { t: c.c_nunca + 0.6, pos: [2.0, 3.5, 8.8], alvo: [0.6, 1.5, 0.9], fov: 37 },
+  { t: c.c_nunca + 0.6, pos: [2.4, 4.4, 10.8], alvo: [0.6, 1.4, 0.9], fov: 38 },
   // CRECI e a orla
   { t: c.k_creci + 0.5, pos: [-8.8, 6.6, 11.8], alvo: [-9.2, 1.2, -0.3], fov: 40, e: ease.inOut },
   { t: c.k_fisc + 1.0, pos: [-9.6, 7.4, 13.0], alvo: [-9.4, 1.0, 0.3], fov: 40 },
@@ -70,10 +70,10 @@ export const camera = (t: number, c: Record<string, number>, tl: Timeline): Cam 
   { t: ini(tl, "defesa") + 1.2, pos: [-1.5, 6.8, 14.4], alvo: [-1.5, 1.6, -0.7], fov: 42, e: ease.inOut },
   { t: c.d_contrato + 1.2, pos: [-1.3, 6.6, 14.0], alvo: [-1.4, 1.6, -0.7], fov: 42 },
   // desfecho: a casa sozinha, sólida; o corretor entra
-  { t: c.f_golpista + 1.4, pos: [1.0, 4.0, 9.6], alvo: [0.4, 1.6, 0.3], fov: 38 },
-  { t: c.f_corretor, pos: [1.6, 3.9, 9.6], alvo: [1.0, 1.6, 0.6], fov: 38 },
+  { t: c.f_golpista + 1.4, pos: [1.2, 5.0, 12.4], alvo: [0.6, 1.3, 0.4], fov: 38 },
+  { t: c.f_corretor, pos: [1.6, 4.9, 12.2], alvo: [1.0, 1.3, 0.6], fov: 38 },
   // fecho
-  { t: c.cta_quer - 0.3, pos: [1.6, 3.9, 9.5], alvo: [1.0, 1.6, 0.6], fov: 38 },
+  { t: c.cta_quer - 0.3, pos: [1.6, 4.9, 12.1], alvo: [1.0, 1.3, 0.6], fov: 38 },
   { t: c.cta_quer + 0.9, pos: [CTA_BASE[0], 9.0, CTA_BASE[2] + 13.5], alvo: [CTA_BASE[0], 2.1, CTA_BASE[2] - 0.8], fov: 38, e: ease.inOut },
   { t: c.cta_comment - 0.2, pos: [CTA_BASE[0], 9.2, CTA_BASE[2] + 13.8], alvo: [CTA_BASE[0], 2.2, CTA_BASE[2] - 0.8], fov: 38 },
   { t: c.cta_comment + 0.5, pos: [CTA_BASE[0], 10.0, CTA_BASE[2] + 15.0], alvo: [CTA_BASE[0], 3.2, CTA_BASE[2] - 1.0], fov: 38, e: ease.inOut },
@@ -164,7 +164,7 @@ export const Maquete3D: React.FC<{ t: number; tl: Timeline }> = ({ t, tl }) => {
       <Haste pos={[8.7, 0, 3.0]} alt={1.6} surge={s(c.p_video, 0.3) * someB} />
       {/* consequência — o dono na porta, luz acesa */}
       <Boneco pos={DONO} rot={0} surge={s(c.c_dono, 0.3) * (1 - prog(t, ini(tl, "defesa"), 0.5))} mat="grafite" />
-      <ConeLuz pos={[0, 0, 0.6]} alt={6} raio={1.6} p={prog(t, c.c_dono - 0.3, 0.5) * (1 - prog(t, c.k_creci - 1.2, 0.6))} />
+      <ConeLuz pos={[0, 0, 0.6]} alt={6} raio={1.3} p={prog(t, c.c_dono - 0.3, 0.5) * (1 - prog(t, c.k_creci - 1.2, 0.6))} />
       {/* CRECI-SC e a orla */}
       <Instituicao pos={CRECI} escala={1.15} surge={s(c.k_creci)} />
       {ORLA.map((p, i) => <Casa key={i} pos={p} escala={0.6} rot={0.1 * (i % 3) - 0.1} surge={s(c.k_creci - 0.9 + i * 0.1)} />)}
@@ -174,7 +174,7 @@ export const Maquete3D: React.FC<{ t: number; tl: Timeline }> = ({ t, tl }) => {
       {/* as três checagens (acendem em verde, uma por item) */}
       {CHECK.map((p, i) => <Haste key={i} pos={p} alt={CHECK_ALT[i]} surge={s(checa[i], 0.3) * fimCena} />)}
       {/* desfecho — a casa sólida no holofote e o corretor de gravata verde */}
-      <ConeLuz pos={[0.6, 0, 0.6]} alt={6.5} raio={1.9} p={prog(t, c.f_golpista - 0.2, 0.6) * (1 - prog(t, c.cta_quer + 0.3, 0.5))} verde={prog(t, c.f_corretor - 0.1, 0.5)} />
+      <ConeLuz pos={[0.6, 0, 0.6]} alt={6.5} raio={1.5} p={prog(t, c.f_golpista - 0.2, 0.6) * (1 - prog(t, c.cta_quer + 0.3, 0.5))} verde={prog(t, c.f_corretor - 0.1, 0.5)} />
       <Boneco pos={CORRETOR} rot={-0.45} surge={corretor} gravata acende={prog(t, c.f_corretor - 0.1, 0.5)} pose={t >= c.f_corretor - 0.1 ? "bracos" : "pe"} />
       {/* fecho */}
       <ModulosSistema t={t} tl={tl} segPergunta="s14" segComente="s14" base={CTA_BASE} />
@@ -187,9 +187,9 @@ export const Maquete3D: React.FC<{ t: number; tl: Timeline }> = ({ t, tl }) => {
 export const holofote = (t: number, c: Record<string, number>, tl: Timeline) => {
   const alvoOrla: V3 = [mix(-13.2, -6.8, prog(t, c.k_fisc - 0.6, 2.4, ease.inOut)), 0, 2.5];
   if (t >= c.cta_quer) return { pos: [CTA_BASE[0] + 0.4, 7.5, CTA_BASE[2] + 2.4] as V3, alvo: CTA_BASE, intensidade: prog(t, c.cta_quer + 0.3, 0.8) };
-  if (t >= c.f_golpista - 0.3) return { pos: [1.4, 7.5, 3.2] as V3, alvo: [0.8, 0, 0.6] as V3, intensidade: prog(t, c.f_golpista - 0.2, 0.6) };
+  if (t >= c.f_golpista - 0.3) return { pos: [1.4, 7.5, 3.2] as V3, alvo: [0.8, 0, 0.6] as V3, intensidade: 0.7 * prog(t, c.f_golpista - 0.2, 0.6) };
   if (t >= c.k_fisc - 0.8) return { pos: [alvoOrla[0] + 0.4, 7.5, alvoOrla[2] + 2.2] as V3, alvo: alvoOrla, intensidade: prog(t, c.k_fisc - 0.6, 0.4) * (1 - prog(t, ini(tl, "defesa") + 0.4, 0.5)) };
-  return { pos: [0.4, 7.5, 3.0] as V3, alvo: [0, 0, 0.6] as V3, intensidade: 0.8 * prog(t, c.c_dono - 0.3, 0.5) * (1 - prog(t, c.k_creci - 1.2, 0.6)) };
+  return { pos: [0.4, 7.5, 3.0] as V3, alvo: [0, 0, 0.6] as V3, intensidade: 0.6 * prog(t, c.c_dono - 0.3, 0.5) * (1 - prog(t, c.k_creci - 1.2, 0.6)) };
 };
 
 /** Placas (HTML projetado no topo das hastes). */
