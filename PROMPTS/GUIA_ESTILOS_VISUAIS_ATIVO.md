@@ -1,4 +1,4 @@
-> **ARQUIVADO em 23/11/2026 (decisão do cliente).** A esteira de 5 estilos foi substituída pela **rotação de 4 modelos** (1 Cartoon → 2 Pictograma → 3 Planta técnica → 4 Maquete 3D; `python3 PRODUCAO/tools/esteira.py proximo`, regras no `CLAUDE.md` e em `MODELOS_DE_VIDEO.md`). Este guia fica só como referência dos episódios já entregues nos estilos Palitinho, Desenho à mão, Planta técnica v1, Tipografia cinética e Painel. **Não use para episódio novo.**
+> **ARQUIVADO em 23/11/2026 (decisão do cliente).** A esteira de 5 estilos foi substituída pelos **4 modelos** (Cartoon, Pictograma, Planta técnica, Maquete 3D), primeiro em rotação fixa 1→4 (manhã de 23/11) e, desde a tarde de 23/11, **escolhidos por adequação na grade do dia** (`PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md`, regras no `CLAUDE.md` e em `MODELOS_DE_VIDEO.md`). Os comandos `esteira.py proximo` citados abaixo são históricos. Este guia fica só como referência dos episódios já entregues nos estilos Palitinho, Desenho à mão, Planta técnica v1, Tipografia cinética e Painel. **Não use para episódio novo.**
 
 # Guia — Esteira de 5 estilos visuais ATIVO (regra do cliente, 21/11/2026)
 

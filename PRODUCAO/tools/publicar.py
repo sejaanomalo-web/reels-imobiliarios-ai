@@ -9,6 +9,9 @@ Estrutura gerada (uma pasta por vídeo; semanas de domingo a sábado, recortadas
       ATIVO_L60_06.mp4  ·  ATIVO_L60_06_capa.jpg  ·  ATIVO_L60_06_legenda.txt
       bastidores/  (relatório de QA, validação técnica, SRT e relatórios de áudio)
 
+GRADE DO DIA (Esteira Editorial Diária, 23/11/2026): episódio ligado a um slot de PRODUCAO/grade/AAAA-MM-DD.json só é publicado
+na data/hora desse slot; outro horário exige --fora-da-grade "<motivo>" (fica registrado no slot). Ao mover, o slot vira `programado`.
+
 A data/hora da PASTA é o horário do post: o Supabase (função ig_enfileirar_post) lê o caminho e agenda exatamente ali.
 Depois: git add -A, commit e push na main → a Action "Enfileirar posts" coloca na fila. Nada é duplicado: OUTPUT/<saida>
 fica só com arquivos locais ignorados (WAVs e cópias editáveis), que podem ser apagados.
@@ -51,9 +54,25 @@ def main():
     ap.add_argument("alvo")
     ap.add_argument("--quando", required=True, help='data e hora de Brasília, "AAAA-MM-DD HH:MM"')
     ap.add_argument("--substituir", action="store_true", help="permite trocar o vídeo de uma pasta que já tem este mesmo episódio")
+    ap.add_argument("--fora-da-grade", default="", help="motivo para publicar fora do horário do slot da grade (fica registrado)")
     a = ap.parse_args()
     quando = dt.datetime.strptime(a.quando, "%Y-%m-%d %H:%M")
     out, final, capa = resolver(a.alvo)
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import grade
+    ep_json = os.path.join(ROOT, "PRODUCAO", "episodes", a.alvo, "episode.json")
+    ep = json.load(open(ep_json)) if os.path.exists(ep_json) else {}
+    g = ep.get("grade") or {}
+    if g:
+        previsto = f"{g.get('data')} {g.get('slot')}"
+        if a.quando != previsto and not a.fora_da_grade.strip():
+            sys.exit(f"✗ {a.alvo} está na grade em {previsto} — publique nesse horário ou use --fora-da-grade \"<motivo>\"")
+        gd = grade.carregar(g["data"])
+        erros, _ = grade.validar(gd)
+        if erros:
+            sys.exit(f"✗ grade {g['data']} com erro — corrija antes de programar (python3 PRODUCAO/tools/grade.py validar {g['data']}):\n  - " + "\n  - ".join(erros))
+    elif ep.get("modelos4") and not ep.get("foraDaGrade"):
+        sys.exit(f"✗ {a.alvo} é episódio novo sem grade nem `foraDaGrade` — veja PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md")
     src = os.path.join(ROOT, "OUTPUT", out)
     ident = os.path.basename(out)
     need = {"video": os.path.join(src, final), "capa": os.path.join(src, capa), "legenda": os.path.join(src, "legenda_instagram.txt")}
@@ -89,6 +108,17 @@ def main():
         for nome in os.listdir(aud):
             if nome.endswith(".json"):
                 shutil.move(os.path.join(aud, nome), os.path.join(dst, "bastidores", "audio", nome))
+    if g:
+        gd = grade.carregar(g["data"])
+        for sl in gd["slots"]:
+            if sl.get("episodio") == a.alvo:
+                sl["publicacao"] = destino_rel
+                if a.quando != f"{g.get('data')} {g.get('slot')}":
+                    sl["foraDaGrade"] = f"publicado em {a.quando}: {a.fora_da_grade.strip()}"
+                if grade.STATUS_SLOT.index(sl.get("status", "ideia")) < grade.STATUS_SLOT.index("programado"):
+                    sl["status"] = "programado"
+        grade.salvar(gd)
+        print(f"  grade {g['data']} {g.get('slot')}: slot `programado` → {destino_rel}")
     print(f"✓ {ident} → {destino_rel}/  ({quando:%d/%m/%Y %H:%M} de Brasília)")
     print("  próximo passo: git add -A && git commit && git push (main) → a Action coloca na fila nesse horário")
 

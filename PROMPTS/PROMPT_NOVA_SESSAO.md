@@ -125,4 +125,4 @@ Padrão próprio, descrito na seção "Criativos de anúncio Meta Ads" do guia:
 ## 5. Primeira tarefa desta sessão
 Finalize o ATIVO EP09 seguindo os passos 4 a 11, usando `GEMINI_KEY_VAR=GEMINI_API_KEY_2`. Depois aguarde o próximo roteiro (`ATIVO_Roteiro_10.docx`), que chegará como anexo, e siga o pipeline completo.
 
-> **[ARQUIVADO em 23/11/2026 — vale a rotação de 4 modelos do CLAUDE.md]** Esteira de 5 estilos (21/11/2026): antes de cada Reel, `python3 PRODUCAO/tools/esteira.py proximo` e siga `PROMPTS/GUIA_ESTILOS_VISUAIS_ATIVO.md` (1 Palitinho → 2 Desenho à mão → 3 Planta técnica → 4 Tipografia cinética → 5 Painel → 1…). Fila atual de roteiros: `PRODUCAO/lotes/L60/`.
+> **[ARQUIVADO em 23/11/2026 — vale a Esteira Editorial Diária do CLAUDE.md (`PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md`)]** Esteira de 5 estilos (21/11/2026): antes de cada Reel, `python3 PRODUCAO/tools/esteira.py proximo` e siga `PROMPTS/GUIA_ESTILOS_VISUAIS_ATIVO.md` (1 Palitinho → 2 Desenho à mão → 3 Planta técnica → 4 Tipografia cinética → 5 Painel → 1…). Fila atual de roteiros: `PRODUCAO/lotes/L60/`.

@@ -8,6 +8,7 @@
 3. Se não houver referência editorial pendente, executar a Skill Mestre em `.claude/skills/criacao-roteiros-virais-ativo/SKILL.md` iniciando pela pesquisa aberta.
 4. Se a solicitação for **produzir um vídeo**, verificar também roteiros de modelos já aprovados mas ainda não produzidos: `python3 modelos/verificar_pendentes.py --modo video`.
 5. Quando o usuário pedir explicitamente um assunto, outra tarefa, pular ou ignorar uma referência, respeitar o pedido. A prioridade é um padrão, não uma prisão.
+6. **Na Esteira Editorial Diária (6 vídeos/dia, `PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md`)** esta pasta é a **Fonte A**: o MP4 pendente vira o **primeiro roteiro criado** da próxima grade — não necessariamente o das 08h. Território, horário e modelo audiovisual são escolhidos depois, por adequação (pode ir às 18h ou 21h se for o melhor slot). Máximo de **2 referências por dia** (lote de modelos só com pedido explícito, registrado em `justificativas.modelos_ref` da grade). Na grade, o slot recebe `origem: "modelos"` e `origemRef: "modelos/<arquivo>.mp4"` — o `grade.py validar` recusa referência que não esteja no `controle.json`. Prioridade de análise não garante publicação: ideia fraca vira `descartado` com motivo, aqui e na grade.
 
 ## Como adicionar
 - Adicione `.mp4` diretamente em `modelos/` (ex.: `modelos/01-referencia.mp4`) ou subpastas.

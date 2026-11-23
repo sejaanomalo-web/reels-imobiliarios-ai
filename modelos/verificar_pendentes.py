@@ -126,6 +126,8 @@ def main():
         for i, item in enumerate(queue, 1):
             print(f"{i}. {item['arquivo']} | {item['status']} | prioridade {item.get('prioridade', 0)}")
         print("PROXIMA ACAO: trabalhar/retomar o primeiro modelo da lista antes de pesquisa livre.")
+        print("ESTEIRA DIARIA: este MP4 e o PRIMEIRO roteiro criado da proxima grade (nao necessariamente 08h; max. 2/dia);")
+        print("  territorio, horario e modelo por adequacao -> PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md (origem=modelos, origemRef=<arquivo>).")
     else:
         print("SEM REFERENCIAS EDITORIAIS PENDENTES PARA ESTE MODO; aplicar pesquisa livre da Skill Mestre.")
     waiting = [item for item in obj["modelos"] if item.get("status") in

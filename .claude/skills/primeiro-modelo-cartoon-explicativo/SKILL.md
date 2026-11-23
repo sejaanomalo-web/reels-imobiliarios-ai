@@ -94,7 +94,7 @@ O código fica em `PRODUCAO/episodes/<EP>/` e `PRODUCAO/src/episodes/<EP>/`.
 | 1 | Ingestão do lote | PDF → `ROTEIROS/<LOTE>/` (texto + `roteiros.json`), um `.md` por roteiro | roteiros numerados |
 | 2 | Diagnóstico editorial | `PROMPTS/GUIA_EDITORIAL_GANCHOS_RETENCAO_CTAS_ATIVO.md` | gancho, virada, apuração |
 | 3 | Segmentação | `S = [(cena, texto, legenda)]` + `L = [(cue, seg, palavra)]` (seção 4) | — |
-| 4 | Criar episódio | `novo_episodio.build(..., formato="cartoon-explicativo")` | `episodes/<EP>/episode.json` (registra o modelo 1 na rotação de 4 modelos) |
+| 4 | Criar episódio | `novo_episodio.build(..., formato="cartoon-explicativo", grade="AAAA-MM-DD", slot="HH:MM")` | `episodes/<EP>/episode.json` (liga ao slot da grade do dia e registra o modelo 1; escolha por adequação — `PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md` §6) |
 | 5 | Voz | `GEMINI_KEY_VAR=GEMINI_API_KEY[_2] python3 tools/gen_take.py <EP> A <dir>` → conferir tomada → `narration_source.wav` | WAV aprovado |
 | 6 | Timing | `python3 tools/build_narration.py <EP> --source episodes/<EP>/narration_source.wav` | `src/episodes/<EP>/timeline.json` (palavra a palavra) + SRT |
 | 7 | Decupagem | tabela de planos ANTES do código (seção 5) | `ANALISE/shotlist_<EP>.md` (opcional) |

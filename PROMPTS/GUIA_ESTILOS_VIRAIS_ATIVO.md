@@ -17,4 +17,4 @@ Decisão do cliente (21/11/2026): criar **4 estilos virais de edição**, cada u
 - legenda do Instagram;
 - QA 11/11 no render.
 
-**Rotação (23/11/2026, decisão do cliente):** os 4 modelos acima formam a rotação obrigatória de produção, em ordem circular contínua: **1 → 2 → 3 → 4 → 1 …** (`python3 PRODUCAO/tools/esteira.py proximo`; `novo_episodio.build(..., formato=<da vez>)`). A antiga esteira de 5 estilos está arquivada (só episódios entregues).
+**Escolha do modelo (23/11/2026, Esteira Editorial Diária):** os 4 modelos acima são escolhidos **por adequação** ao roteiro e ao território, na grade do dia, com uma frase de justificativa narrativa; guardrails verificáveis garantem a diversidade (≤ 2× por modelo no dia, sem repetir em slots consecutivos sem justificativa, ≥ 3 modelos com 5+ vídeos, ≤ 40% por modelo em 7 dias). Tabela de compatibilidade e regras: `PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md` §6; episódio: `novo_episodio.build(..., formato=…, grade=…, slot=…)`. A rotação fixa 1→4 e a esteira de 5 estilos estão arquivadas (só episódios entregues).

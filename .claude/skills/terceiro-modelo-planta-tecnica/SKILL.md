@@ -1,11 +1,11 @@
 ---
 name: terceiro-modelo-planta-tecnica
-description: TERCEIRO MODELO de vídeo da ATIVO (rotação 1→4) — "Terceiro modelo — Planta técnica": Reel/TikTok vertical 1080×1920 em que o assunto vira PROJETO de arquitetura numa prancha marinho com grade (cômodo = etapa, cota = medida/tempo, chamada = observação, porta = passagem, rota = caminho, elevação = crescimento, carimbo = assinatura ILUSTRATIVA), linha de projeto branca que se desenha na hora da fala, verde ATIVO só no que "acende", mergulho no cômodo como transição e fecho com o campo SISTEMA na prancha. Use sempre que o pedido for produzir, adaptar, decupar, revisar ou renderizar um vídeo "no terceiro modelo / planta técnica / blueprint / como o GTA6_02", ou um roteiro sobre processo, estrutura, organização, frentes de negócio ou crescimento. Herda o Sistema Visual ATIVO (MARCA/sistema-visual).
+description: TERCEIRO MODELO de vídeo da ATIVO (um dos 4 modelos, escolhido por adequação na grade diária) — "Terceiro modelo — Planta técnica": Reel/TikTok vertical 1080×1920 em que o assunto vira PROJETO de arquitetura numa prancha marinho com grade (cômodo = etapa, cota = medida/tempo, chamada = observação, porta = passagem, rota = caminho, elevação = crescimento, carimbo = assinatura ILUSTRATIVA), linha de projeto branca que se desenha na hora da fala, verde ATIVO só no que "acende", mergulho no cômodo como transição e fecho com o campo SISTEMA na prancha. Use sempre que o pedido for produzir, adaptar, decupar, revisar ou renderizar um vídeo "no terceiro modelo / planta técnica / blueprint / como o GTA6_02", ou um roteiro sobre processo, estrutura, organização, frentes de negócio ou crescimento. Herda o Sistema Visual ATIVO (MARCA/sistema-visual).
 ---
 
 # Terceiro modelo — Planta técnica
 
-*ATIVO · modelo de vídeo nº 3 da rotação de 4 modelos. Registro: `MODELOS_DE_VIDEO.md` e `MARCA/sistema-visual/modelos.json` (id `planta-tecnica`).*
+*ATIVO · modelo de vídeo nº 3 dos 4 modelos (escolha por adequação na grade diária). Registro: `MODELOS_DE_VIDEO.md` e `MARCA/sistema-visual/modelos.json` (id `planta-tecnica`).*
 
 ## Herança do Sistema Visual ATIVO
 
@@ -38,7 +38,7 @@ description: TERCEIRO MODELO de vídeo da ATIVO (rotação 1→4) — "Terceiro 
 
 **Use quando** o assunto tem ESTRUTURA: processo em etapas, frentes de um negócio, funil, organização da carteira, "o atendimento como projeto", crescimento de patrimônio, antes × depois de uma rotina. A pergunta-teste: *dá para desenhar isso como uma planta?* Se a resposta é "só com texto", use Tipografia cinética; se é uma história com pessoas, use Palitinho ou o Primeiro modelo.
 
-**Produção:** modelo 3 da **rotação de 4 modelos** (23/11/2026). Quando `python3 PRODUCAO/tools/esteira.py proximo` indicar o 3, crie o episódio com `novo_episodio.build(..., formato="planta-tecnica")` (prefixo livre do lote, ex.: `ATIVO-L60-NN`). Fecho obrigatório: `CtaPlanta`.
+**Produção:** modelo 3 dos **4 modelos** (Esteira Editorial Diária, 23/11/2026: o modelo é escolhido por adequação na grade do dia, com justificativa e guardrails — `PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md` §6). Quando a grade escolher a Planta, crie o episódio com `novo_episodio.build(..., formato="planta-tecnica", grade="AAAA-MM-DD", slot="HH:MM")` (prefixo livre do lote). Fecho obrigatório: `CtaPlanta`.
 
 **Entrega:** MP4 1080×1920 30 fps H.264 + AAC, capa PNG no estilo, SRT, `legenda_instagram.txt` (CLAUDE.md), relatório de QA.
 
@@ -57,8 +57,8 @@ description: TERCEIRO MODELO de vídeo da ATIVO (rotação 1→4) — "Terceiro 
 
 > **Plano visível (regra do cliente, 23/11/2026):** antes de começar, crie no painel "Plano" as 12 etapas do modelo A de `PROMPTS/PLANO_DE_ETAPAS_ATIVO.md`, com o ID do episódio no título (`[<EP>] n/12 · Etapa — resultado`). Uma etapa `in_progress` por vez; `completed` ao terminar; erro vira `BLOQUEIO`.
 
-1. Roteiro aprovado (Skill Mestre) → `esteira.py proximo` indica o modelo 3.
-2. `mkNN.py` com `novo_episodio.build(..., formato="planta-tecnica")` (cues por palavra; registra na rotação, cria `cta_leads`/`cta_atend` e os SFX do fecho).
+1. Roteiro aprovado (Skill Mestre) → a grade do dia escolheu a Planta para o slot (`python3 PRODUCAO/tools/grade.py status AAAA-MM-DD`).
+2. `mkNN.py` com `novo_episodio.build(..., formato="planta-tecnica", grade="AAAA-MM-DD", slot="HH:MM")` (cues por palavra; liga ao slot e registra o modelo, cria `cta_leads`/`cta_atend` e os SFX do fecho).
 3. Voz Puck 1,0× (`build_narration.py`), `shapePauses`.
 4. **Planta no papel antes do código:** para cada folha, liste cômodos, o que acende, a palavra de cada traço e o cômodo de saída (mergulho).
 5. `src/episodes/<EP>/scenes/Scenes.tsx` com o kit (copie a estrutura de `src/episodes/ATIVO-PLANTA-01/`), `Episode.tsx`, `Cover.tsx`, registro no `Root.tsx`.

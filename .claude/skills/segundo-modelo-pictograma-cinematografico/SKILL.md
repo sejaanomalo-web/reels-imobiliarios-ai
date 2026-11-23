@@ -114,7 +114,7 @@ O código fica em `PRODUCAO/episodes/<EP>/` e `PRODUCAO/src/episodes/<EP>/`. ID:
 |---|---|---|
 | 1 | Ingestão do lote (PDF) | `ROTEIROS/<LOTE>/`, um `.md` por roteiro |
 | 2 | Roteiro no formato | seção 4 |
-| 3 | Criar episódio | `novo_episodio.build(..., formato="pictograma-cinematografico")`: registra o modelo 2 na rotação de 4 modelos; cria `cta_leads`/`cta_atend` e os efeitos sonoros do `CtaNoir` |
+| 3 | Criar episódio | `novo_episodio.build(..., formato="pictograma-cinematografico", grade="AAAA-MM-DD", slot="HH:MM")`: liga ao slot da grade do dia e registra o modelo 2 (escolha por adequação — `PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md` §6); cria `cta_leads`/`cta_atend` e os efeitos sonoros do `CtaNoir` |
 | 4 | Ajustar `episode.json` | `"tail": 3.8` (o logo precisa de ~2 s parado); `music.gain −28`, `duck −6`, `bpm 70`; `prog` com `dens 1` e `bright 0,3–0,5` |
 | 5 | Voz | `GEMINI_KEY_VAR=GEMINI_API_KEY[_2] python3 tools/gen_take.py <EP> A <dir>`; conferir; copiar para `episodes/<EP>/narration_source.wav` |
 | 6 | Timing | `python3 tools/build_narration.py <EP> --source episodes/<EP>/narration_source.wav` |

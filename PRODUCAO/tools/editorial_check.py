@@ -124,20 +124,45 @@ def check(ep_id: str) -> int:
 
     # 9. ESTEIRA DE 5 ESTILOS (cliente, 21/11/2026): episódio com "esteira": true precisa de "estilo" 1–5 registrado em
     #    estilos/esteira.json e as cenas devem usar o kit do estilo (1–4 → src/estilos/<kit>; 5 → kit Painel NOV26 sem kits novos).
-    # 9-0. ROTAÇÃO DE 4 MODELOS (cliente, 23/11/2026; substitui a esteira de 5, arquivada): episódio novo precisa de `formato` de um
-    #      modelo e estar registrado na rotação (tools/esteira.py); episódio da esteira de 5 só passa se for um entregue (legado).
+    # 9-0. 4 MODELOS POR ADEQUAÇÃO + GRADE DO DIA (Esteira Editorial Diária, 23/11/2026; substitui a rotação fixa 1→4 e a esteira
+    #      de 5, arquivadas): episódio novo (`modelos4`) precisa estar registrado em estilos/esteira.json com o mesmo formato e
+    #      ligado a um slot da grade sem erro (tools/grade.py validar) — ou ter `foraDaGrade` com o motivo aprovado.
     _reg_rot = json.load(open(os.path.join(ROOT, "estilos", "esteira.json")))
     _legado5 = {h["episodio"] for h in _reg_rot.get("historico", [])}
-    _hist_rot = {h["episodio"]: h["modelo"] for h in _reg_rot.get("rotacao", {}).get("historico", [])}
+    _m4 = _reg_rot.get("modelos4", {})
+    _hist_rot = {h["episodio"]: h["modelo"] for h in _m4.get("historico", [])}
     if ep.get("rotacao"):
+        errs.append("rotação fixa 1→4 ARQUIVADA (23/11/2026): recrie o episode.json com novo_episodio.build(..., formato=…, grade=…, slot=…)")
+    if ep.get("modelos4"):
         _n = _hist_rot.get(ep_id)
-        _fmt = {int(k): m["formato"] for k, m in _reg_rot["rotacao"]["modelos"].items()}
+        _fmt = {int(k): m["formato"] for k, m in _m4.get("modelos", {}).items()}
         if _n is None:
-            errs.append("rotação: episódio marcado `rotacao` mas não registrado em estilos/esteira.json (tools/esteira.py registrar)")
+            errs.append("modelos: episódio marcado `modelos4` mas não registrado em estilos/esteira.json (tools/esteira.py registrar)")
         elif ep.get("formato") != _fmt.get(_n):
-            errs.append(f"rotação: modelo {_n} registrado exige formato \"{_fmt.get(_n)}\" (episode.json tem \"{ep.get('formato')}\")")
+            errs.append(f"modelos: modelo {_n} registrado exige formato \"{_fmt.get(_n)}\" (episode.json tem \"{ep.get('formato')}\")")
+        _g = ep.get("grade") or {}
+        if not _g and not (ep.get("foraDaGrade") or "").strip():
+            errs.append("grade: episódio novo sem slot da grade do dia (novo_episodio.build(..., grade=\"AAAA-MM-DD\", slot=\"HH:MM\")) "
+                        "nem `foraDaGrade` com motivo aprovado — PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md")
+        if _g:
+            try:
+                sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+                import grade as _grade
+                _gd = _grade.carregar(_g.get("data", ""))
+                _sl = next((x for x in _gd.get("slots", []) if x.get("horario") == _g.get("slot")), None)
+                if not _sl or _sl.get("episodio") != ep_id:
+                    errs.append(f"grade: {_g.get('data')} {_g.get('slot')} não aponta para {ep_id} (python3 tools/grade.py onde {ep_id})")
+                elif _sl.get("modelo") != ep.get("formato"):
+                    errs.append(f"grade: o slot escolheu o modelo {_sl.get('modelo')}, o episódio é {ep.get('formato')}")
+                if _sl and _sl.get("territorio") != _g.get("territorio"):
+                    warns.append(f"grade: território do slot ({_sl.get('territorio')}) mudou depois da criação do episódio ({_g.get('territorio')}) — regere o episode.json")
+                _ge, _ga = _grade.validar(_gd)
+                errs += [f"grade {_g.get('data')}: {e}" for e in _ge]
+                warns += [f"grade {_g.get('data')}: {a}" for a in _ga]
+            except SystemExit as _e:
+                errs.append(f"grade: {_e}")
     if ep.get("esteira") and ep_id not in _legado5:
-        errs.append("esteira de 5 estilos ARQUIVADA (23/11/2026): episódio novo segue a rotação de 4 modelos — use novo_episodio.build(..., formato=<modelo da vez>)")
+        errs.append("esteira de 5 estilos ARQUIVADA (21→23/11/2026): episódio novo usa um dos 4 modelos por adequação — novo_episodio.build(..., formato=…, grade=…, slot=…)")
     if ep.get("esteira"):
         KITS = {1: "estilos/palitinho", 2: "estilos/lousa", 3: "estilos/planta", 4: "estilos/tipografia"}
         n = ep.get("estilo")

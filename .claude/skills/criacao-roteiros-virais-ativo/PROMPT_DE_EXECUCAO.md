@@ -17,5 +17,6 @@ Antes de pesquisar, escrever ou renderizar qualquer coisa, **verifique primeiro 
 10. **Não renderize vídeo, não gere voz, não publique, não use créditos, não sobrescreva episódios e não mexa nos lotes existentes** nesta solicitação. Nosso objetivo é aprovar o melhor roteiro antes da produção.
 11. A Skill Mestre pode sugerir recursos de câmera, edição e animação como melhoria opcional, mas **a escolha final do estilo visual e a edição são definidas por mim junto do Claude Code no processo de produção**; não imponha estilo com base na referência.
 12. Escreva em português brasileiro, natural e específico. Não prometa viralização nem apresente métricas inventadas.
+13. **Se o pedido for a grade de um dia (6 vídeos):** siga `PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md` — abra a grade (`python3 PRODUCAO/tools/grade.py nova AAAA-MM-DD`), faça `modelos/` → radar 168 h → pesquisa, monte uma ideia por território com PUSH/PULL, origem, por que assistir e recompensa, rode `grade.py validar` e pare para a aprovação da pauta em lote. Depois, cada ideia aprovada passa pelas etapas 01–10 completas; pare de novo para a aprovação dos roteiros em lote.
 
 Comece agora pela varredura de `modelos/`. Se houver referência pendente, priorize-a; se não houver, execute a pesquisa da etapa 01 e avance até a shortlist para minha aprovação.

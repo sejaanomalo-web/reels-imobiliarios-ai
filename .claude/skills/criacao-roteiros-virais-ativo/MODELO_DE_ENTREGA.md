@@ -9,6 +9,8 @@
 - ID/slug e título:
 - Proposta da ideia em 1 frase:
 - Público e situação:
+- Grade do dia (Esteira Editorial Diária, `PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md`): data e horário do slot, **território** (agora · e-se · fora-da-bolha · corretor-real · historia · ideia), origem (modelos · radar · pesquisa · aprendizado), PUSH/PULL; se AGORA, data do fato (≤ 7 dias) e fonte primária:
+- Modelo audiovisual sugerido + uma frase de justificativa narrativa (decisão final na produção):
 - Função editorial (C1–C5, opcional):
 - Objetivo principal:
 - Hipótese de interesse:

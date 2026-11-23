@@ -57,7 +57,7 @@ description: QUARTO MODELO de vídeo da ATIVO — "Quarto modelo — Maquete 3D"
 
 > **Plano visível (regra do cliente, 23/11/2026):** antes de começar, crie no painel "Plano" as 12 etapas do modelo A de `PROMPTS/PLANO_DE_ETAPAS_ATIVO.md`, com o ID do episódio no título (`[<EP>] n/12 · Etapa — resultado`). Uma etapa `in_progress` por vez; `completed` ao terminar; erro vira `BLOQUEIO`.
 
-1. Roteiro aprovado (Skill Mestre) → `novo_episodio.build(..., formato="maquete-3d")` (prefixo `ATIVO-MAQUETE-NN`; cria `cta_leads`/`cta_atend` e os SFX do fecho).
+1. Roteiro aprovado (Skill Mestre) e Maquete escolhida na grade do dia (adequação, `PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md` §6) → `novo_episodio.build(..., formato="maquete-3d", grade="AAAA-MM-DD", slot="HH:MM")` (prefixo livre do lote; cria `cta_leads`/`cta_atend` e os SFX do fecho).
 2. Voz Puck 1,0× (`build_narration.py`), `shapePauses`.
 3. **Planta da maquete no papel:** estações (coordenadas em metros, +z = perto da câmera = parte de baixo da tela), objetos de cada estação, o que acende, os fluxos, as placas e o roteiro da câmera ancorado nos cues.
 4. `src/episodes/<EP>/scenes/Scenes.tsx` com o kit (copie a estrutura de `src/episodes/ATIVO-MAQUETE-01/`): `capitulos`, `camera`, `clima`, `Maquete3D`, `holofote`, `placas`.

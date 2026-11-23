@@ -47,7 +47,7 @@ Não apague nem renomeie MP4 por conta própria; se sumir da pasta, avisar em ve
 
 ## 5. Edição e animação — autoridade do Claude Code
 A análise da referência pode dizer "seria interessante destacar esse contraste com match cut" ou "uma pausa valorizaria a virada"; são **SUGESTÕES**, não instruções imutáveis.
-O usuário escolhe e ajusta o modelo de edição/estilo visual com o Claude Code, que avalia viabilidade e implementa segundo seu pipeline visual, identidade, voz e QA. A Skill Mestre **não fixa cartoon, pictograma, palitinho, tipografia ou qualquer outro estilo** com base na referência. Se usuário decidir outro modelo visual, preservar a essência editorial do roteiro.
+Na Esteira Editorial Diária (`PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md`), a análise termina com a proposta de **território** (a função editorial que a referência cumpre melhor), PUSH/PULL e recompensa; horário e modelo audiovisual são decididos na grade, por adequação. O usuário escolhe e ajusta o modelo de edição/estilo visual com o Claude Code, que avalia viabilidade e implementa segundo seu pipeline visual, identidade, voz e QA. A Skill Mestre **não fixa cartoon, pictograma, palitinho, tipografia ou qualquer outro estilo** com base na referência. Se usuário decidir outro modelo visual, preservar a essência editorial do roteiro.
 
 ## 6. Limites de análise
 - Ler um MP4 exige acesso local e ferramentas adequadas; apenas estar no GitHub não garante que o Claude "assista" a áudio e vídeo por completo.

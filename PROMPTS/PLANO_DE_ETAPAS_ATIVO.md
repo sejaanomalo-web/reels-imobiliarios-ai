@@ -19,10 +19,10 @@
 ## Modelos de plano (adapte o total, mantenha a ordem)
 
 ### A. Vídeo novo (Reel ATIVO) — 12 etapas
-1. **Fila de modelos e roteiro** — `modelos/verificar_pendentes.py`; roteiro aprovado (Skill Mestre).
-2. **Modelo da vez** — `python3 PRODUCAO/tools/esteira.py proximo` (rotação 1 Cartoon → 2 Pictograma → 3 Planta → 4 Maquete); ler a skill do modelo inteira.
+1. **Fila de modelos e roteiro** — `modelos/verificar_pendentes.py`; roteiro aprovado (Skill Mestre); slot da grade em `roteiro_aprovado`.
+2. **Modelo do slot** — o escolhido por adequação na grade do dia (`python3 PRODUCAO/tools/grade.py status AAAA-MM-DD`; regras em `PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md` §6); ler a skill do modelo inteira.
 3. **Apuração** — fontes, números, selos (ILUSTRATIVO/SEGUNDO…).
-4. **Episódio** — `novo_episodio.build(..., formato="<da vez>")` (registra na rotação; cues, CTA SISTEMA, SFX do fecho).
+4. **Episódio** — `novo_episodio.build(..., formato="<modelo>", grade="AAAA-MM-DD", slot="HH:MM")` (liga ao slot e registra o modelo; cues, CTA SISTEMA, SFX do fecho).
 5. **Voz** — Puck 1,0×, `shapePauses`, narração congelada; conferir duração.
 6. **Decupagem** — folhas/cenas, o que acende, transições (no papel, antes do código).
 7. **Cenas** — `Scenes.tsx`, `Episode.tsx`, `Cover.tsx`, `Root.tsx` com o kit do modelo.
@@ -30,7 +30,7 @@
 9. **Prévia e revisão** — render `--scale=0.5`, folha de quadros, correções.
 10. **Som e render final** — `build_audio` (−15 LUFS), render 1080×1920, `sistema_visual_check --quadros`.
 11. **Entregas** — capa, SRT, `legenda_instagram.txt`, relatório de QA.
-12. **Publicação** — `publicar.py <EP> --quando …`, commit/push, conferir fila (Instagram, YouTube, TikTok).
+12. **Publicação** — `publicar.py <EP> --quando "<data e horário do slot>"`, commit/push, conferir fila (Instagram, YouTube, TikTok).
 
 ### B. Novo modelo / skill de vídeo — 8 etapas
 1. Análise das referências (metadados, cortes, folha de quadros, detalhe, áudio).
@@ -51,3 +51,16 @@ Uma tarefa por etapa de `.claude/skills/criacao-roteiros-virais-ativo/etapas/` (
 3. Execução (publicar, programar, reprogramar), um item por vez com conferência.
 4. Verificação (status nas plataformas, `pub_programacao`).
 5. Registro (README, commit/push) e relatório.
+
+### E. Grade do dia (Esteira Editorial Diária, 6 vídeos) — 10 etapas
+Título: `[Grade AAAA-MM-DD] n/10 · …`. Depois da etapa 7, cada vídeo ganha o seu plano A com o próprio ID. Regras: `PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md`.
+1. **Abrir a grade** — `python3 PRODUCAO/tools/grade.py nova AAAA-MM-DD`.
+2. **Fonte A — `modelos/`** — `modelos/verificar_pendentes.py`; MP4 pendente = primeiro roteiro criado (máx. 2/dia).
+3. **Fonte B — radar 168 h** — pautas A/B/C com URL, data do evento e da publicação no campo `radar`.
+4. **Fonte C — pesquisa** — Skill Mestre etapa 01 (e banco L60) para os territórios sem ideia.
+5. **Fonte D — aprendizado** — `grade.py semana` + `pub_programacao`; sinal, não lei.
+6. **Pauta** — 6 ideias (território, origem, PUSH/PULL, por que assistir, recompensa) + `grade.py validar` 0 erro → **Aprovação 1 (lote)**.
+7. **Roteiros** — Skill Mestre etapas 01–10, uma ideia por vez (substituir no mesmo território se reprovar) → **Aprovação 2 (lote)**; slots em `roteiro_aprovado`.
+8. **Match horário × modelo** — justificativas no slot; `grade.py validar` 0 erro (guardrails).
+9. **Produção** — um plano A por vídeo; slot vazio é melhor que vídeo fraco.
+10. **Programação e aprendizado** — `publicar.py` no horário do slot; depois `grade.py resultado` com as métricas reais.

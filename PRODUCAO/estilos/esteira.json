@@ -1,6 +1,7 @@
 {
-  "regra": "Rotação de 4 MODELOS (regra do cliente, 23/11/2026): todo Reel novo segue o modelo da vez, em ordem circular contínua entre roteiros e lotes: 1 Cartoon explicativo → 2 Pictograma cinematográfico → 3 Planta técnica → 4 Maquete 3D → 1 … Ferramenta: tools/esteira.py. Substitui a esteira de 5 estilos (21/11/2026), ARQUIVADA abaixo em 'estilos'/'historico' só para os episódios já entregues.",
-  "rotacao": {
+  "regra": "4 MODELOS audiovisuais escolhidos por ADEQUAÇÃO narrativa + guardrails verificáveis (Esteira Editorial Diária, 23/11/2026 à tarde; PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md §6): o modelo de cada vídeo é decidido na grade do dia (PRODUCAO/grade/AAAA-MM-DD.json) com justificativa e conferido por tools/grade.py validar. Ferramenta de registro: tools/esteira.py. A rotação fixa 1→4 (23/11 manhã–tarde) ficou arquivada em modelos4.rotacaoFixaArquivada sem nenhum episódio; a esteira de 5 estilos (21/11/2026) segue ARQUIVADA abaixo em 'estilos'/'historico' só para os episódios já entregues.",
+  "modelos4": {
+    "modo": "adequacao",
     "modelos": {
       "1": {
         "nome": "Cartoon explicativo",
@@ -23,8 +24,12 @@
         "skill": ".claude/skills/quarto-modelo-maquete-3d/SKILL.md"
       }
     },
-    "proximo": 1,
-    "historico": []
+    "historico": [],
+    "rotacaoFixaArquivada": {
+      "nota": "Rotação fixa 1 Cartoon → 2 Pictograma → 3 Planta → 4 Maquete, vigente de 23/11/2026 (manhã) até a decisão da esteira editorial diária (23/11/2026, tarde). Nenhum episódio foi produzido nela.",
+      "proximoQuandoArquivada": 1,
+      "regraAnterior": "Rotação de 4 MODELOS (regra do cliente, 23/11/2026): todo Reel novo segue o modelo da vez, em ordem circular contínua entre roteiros e lotes: 1 Cartoon explicativo → 2 Pictograma cinematográfico → 3 Planta técnica → 4 Maquete 3D → 1 … Ferramenta: tools/esteira.py. Substitui a esteira de 5 estilos (21/11/2026), ARQUIVADA abaixo em 'estilos'/'historico' só para os episódios já entregues."
+    }
   },
   "esteira5Arquivada": {
     "nota": "Esteira de 5 estilos (21/11/2026) arquivada em 23/11/2026 por decisão do cliente. 'estilos', 'proximo' e 'historico' abaixo ficam só como registro dos episódios entregues (editorial_check ainda os confere). Nenhum episódio novo entra aqui.",

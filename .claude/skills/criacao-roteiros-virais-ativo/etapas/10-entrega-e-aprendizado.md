@@ -20,14 +20,14 @@ Não editar ROTEIROS/EP###.md, ROTEIROS/GTA6/*, lote L60, OUTPUT ou PUBLICACAO s
 
 ## Passagem para produção (somente quando solicitada)
 - Ler CLAUDE.md, guia de melhoria contínua, produção, voz, marca e skill do modelo de vídeo escolhido.
-- Confirmar o modelo da vez na rotação de 4 modelos (`python3 PRODUCAO/tools/esteira.py proximo`) e ler a skill dele.
+- Confirmar na grade do dia o slot, o território e o modelo escolhido por adequação (`python3 PRODUCAO/tools/grade.py status AAAA-MM-DD`; slot em `roteiro_aprovado`) e ler a skill do modelo inteira. Episódio: `novo_episodio.build(..., formato=…, grade=…, slot=…)`.
 - Respeitar voz Puck 1,0×, safe areas, marca autorizada, licenças, legendas e QA técnico; não propor novas cores.
 - Texto final aprovado tem prioridade; não reescrever CTA para modelo longo antigo. Se o pipeline rejeitar por texto legado, relatar conflito e solicitar/implementar correção autorizada da regra de checagem, sem modificar material histórico.
 - Nunca afirmar MP4 finalizado sem gerar e inspecionar; nunca editar publicação existente como efeito colateral da Skill.
 
 ## Métricas após publicação
 Se o usuário trouxer dados: data, formato, duração, alcance, plays, tempo médio assistido, curva de retenção quando disponível, compartilhamentos, salvamentos, seguidores, comentários "SISTEMA", qualidade dos contatos e contexto (impulsionamento/orgânico, audiência, dia). Não inventar dados.
-Comparar vídeos em condições semelhantes, cauteloso com diferença de duração, distribuição e tamanho de público. Compartilhamentos por alcance, conclusão proporcional, resposta por público podem ajudar mas não são previsões causais.
+Registrar no slot da grade: `python3 PRODUCAO/tools/grade.py resultado AAAA-MM-DD HH:MM chave=valor …` (a leitura semanal `grade.py semana` cruza território, modelo, horário e PUSH/PULL). Comparar vídeos em condições semelhantes, cauteloso com diferença de duração, distribuição e tamanho de público. Compartilhamentos por alcance, conclusão proporcional, resposta por público podem ajudar mas não são previsões causais.
 Para cada Reel registrar:
 - hipótese original;
 - o que funcionou/fracassou e evidência;

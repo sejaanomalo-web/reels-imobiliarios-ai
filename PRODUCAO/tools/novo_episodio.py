@@ -1,19 +1,26 @@
-"""Gera episode.json de um Reel novo (qualquer lote) e REGISTRA o modelo na ROTAÇÃO DE 4 MODELOS (tools/esteira.py, regra do
-cliente de 23/11/2026: 1 Cartoon → 2 Pictograma → 3 Planta → 4 Maquete). `formato` é obrigatório e precisa ser o modelo da vez
-(`python3 tools/esteira.py proximo`); fora da vez só com ATIVO_FORA_DA_VEZ="<motivo>". A esteira de 5 estilos está arquivada:
-sem `formato`, só regera episode.json de episódio JÁ entregue nela.
+"""Gera episode.json de um Reel novo (qualquer lote), LIGA o episódio ao slot da GRADE DO DIA e REGISTRA o modelo audiovisual
+(Esteira Editorial Diária, 23/11/2026 — PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md).
+- `formato` é obrigatório: um dos 4 modelos ("cartoon-explicativo", "pictograma-cinematografico", "planta-tecnica", "maquete-3d"),
+  escolhido por ADEQUAÇÃO (não existe mais "modelo da vez"; guardrails em tools/grade.py validar).
+- `grade="AAAA-MM-DD"` e `slot="HH:MM"` são obrigatórios para episódio novo: o slot precisa estar com o roteiro aprovado
+  (status `roteiro_aprovado`) e a grade sem erro. Peça fora da grade (piloto, teste, anúncio) só com
+  ATIVO_FORA_DA_GRADE="<motivo aprovado pelo cliente>" (fica gravado no episode.json).
+- A esteira de 5 estilos está arquivada: sem `formato`, só regera episode.json de episódio JÁ entregue nela.
 Uso (a partir de PRODUCAO/): from novo_episodio import build, fx
-  build(ep_id="ATIVO-L60-01", out="ATIVO_L60_01", lote="L60", fonte="ROTEIROS/EP011.md", title=..., S, L, sfx, prog, cta, diag, apur, lead)
+  build(ep_id="ATIVO-D1126-08", out="ATIVO_D1126_08", lote="D1126", fonte="ROTEIROS/…", title=..., S, L, sfx, prog, cta, diag, apur, lead,
+        formato="maquete-3d", grade="2026-11-26", slot="08:00")
 Inclui a CTA SISTEMA (salvo cta_in_script=True), voice.shapePauses (pausas naturais) e a mesma base técnica do lote NOV26
 (verde #02FB3F via kit A/aa, mix −15 LUFS)."""
 import json, re, os, sys
 sys.path.insert(0, os.path.dirname(__file__))
 from novo_episodio_nov26 import W, CTA, fx  # noqa: F401  (fx reexportado)
 import esteira
+import grade as grade_mod
 
-def build(ep_id, out, lote, fonte, title, S, L, sfx, prog, cta, diag, apur, lead, cta_in_script=False, formato=None):
-    """formato="cartoon-explicativo" (Primeiro modelo), "pictograma-cinematografico" (Segundo) ou "planta-tecnica" (Terceiro) ou "maquete-3d" (Quarto): NÃO registra estilo na
-    esteira de 5 estilos, cria os cues do fecho (cta_leads/cta_atend) e troca os SFX da CTA pelos do fecho do modelo."""
+def build(ep_id, out, lote, fonte, title, S, L, sfx, prog, cta, diag, apur, lead, cta_in_script=False, formato=None, grade=None, slot=None):
+    """formato="cartoon-explicativo" (Primeiro modelo), "pictograma-cinematografico" (Segundo), "planta-tecnica" (Terceiro) ou "maquete-3d" (Quarto),
+    escolhido por adequação; grade/slot = horário da grade do dia (tools/grade.py). Cria os cues do fecho (cta_leads/cta_atend), troca os SFX da
+    CTA pelos do fecho do modelo, liga o episódio ao slot e registra o modelo (tools/esteira.py). Não usa a esteira de 5 estilos (arquivada)."""
     base = json.load(open('episodes/ATIVO-NOV26-03/episode.json'))
     # Sistema Visual ATIVO (Nível 1): todo formato precisa ser um modelo REGISTRADO e ativo em
     # MARCA/sistema-visual/modelos.json (processo de MARCA/sistema-visual/NOVO_MODELO.md). Formato desconhecido não cria episódio.
@@ -22,11 +29,21 @@ def build(ep_id, out, lote, fonte, title, S, L, sfx, prog, cta, diag, apur, lead
     modelos = {m['formato'] for m in json.load(open(os.path.join(ds_dir, 'modelos.json')))['modelos'] if m.get('formato') and m['status'] == 'ativo'}
     legado5 = {h["episodio"] for h in esteira.load().get("historico", [])}
     if not formato and ep_id not in legado5:
-        d_ = esteira.load(); n_ = esteira.proximo(d_)
-        raise SystemExit(f"formato obrigatório (rotação de 4 modelos, 23/11/2026): o modelo da vez é {n_} {esteira.nome(d_, n_)} — "
-                         f"use novo_episodio.build(..., formato=\"{esteira.modelo(d_, n_)['formato']}\"). A esteira de 5 estilos está arquivada.")
+        raise SystemExit("formato obrigatório (Esteira Editorial Diária, 23/11/2026): escolha o modelo por adequação — "
+                         "\"cartoon-explicativo\", \"pictograma-cinematografico\", \"planta-tecnica\" ou \"maquete-3d\" "
+                         "(PROMPTS/ESTEIRA_EDITORIAL_DIARIA_ATIVO.md §6; desempate: python3 tools/esteira.py diversidade). A esteira de 5 estilos está arquivada.")
     if formato and formato not in modelos:
         raise SystemExit(f"formato '{formato}' não está registrado como modelo ativo em MARCA/sistema-visual/modelos.json — siga MARCA/sistema-visual/NOVO_MODELO.md")
+    old_ep = os.path.join('episodes', ep_id, 'episode.json')
+    prev = json.load(open(old_ep)) if os.path.exists(old_ep) else {}
+    fora = os.environ.get("ATIVO_FORA_DA_GRADE", "").strip() or prev.get("foraDaGrade", "")
+    if formato and not (grade and slot):
+        if prev.get("grade"):  # regerar episódio que já está na grade: mantém o mesmo slot
+            grade, slot = prev["grade"]["data"], prev["grade"]["slot"]
+        elif not fora:
+            raise SystemExit("episódio novo precisa da grade do dia: build(..., grade=\"AAAA-MM-DD\", slot=\"HH:MM\") com o slot em "
+                             "`roteiro_aprovado` (python3 tools/grade.py status AAAA-MM-DD). Peça fora da grade (piloto, teste, anúncio) "
+                             "só com ATIVO_FORA_DA_GRADE=\"<motivo aprovado pelo cliente>\".")
     S = S + ([] if cta_in_script else CTA)
     segs = [dict(id=f"s{i+1}", scene=a, text=b, caption=c, pauseAfter=0.3) for i, (a, b, c) in enumerate(S)]
     for s in segs:
@@ -66,18 +83,24 @@ def build(ep_id, out, lote, fonte, title, S, L, sfx, prog, cta, diag, apur, lead
               fonte=fonte, apuracao=apur, diagnostico=diag, cta=cta, segments=segs,
               voice={"shapePauses": {"keepUnder": 0.22, "ratio": 0.6, "max": 0.6}, "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"},
               sceneLead=lead, hideCaptions=[], cues=C, series={}, sfx=sfx, music=dict(gain=-30, duck=-5.5, bpm=88, prog=prog))
-    old = os.path.join('episodes', ep_id, 'episode.json')
-    if os.path.exists(old):
-        prev = json.load(open(old))
-        for kk in ("estilo", "estiloNome", "esteira", "rotacao", "modelo", "modeloNome"):
-            if kk in prev: ep[kk] = prev[kk]
+    old = old_ep
+    for kk in ("estilo", "estiloNome", "esteira", "rotacao", "modelos4", "modelo", "modeloNome", "grade", "foraDaGrade"):
+        if kk in prev: ep[kk] = prev[kk]
     if formato:
         ep["formato"] = formato
     ep["sistemaVisual"] = ds_ver  # versão do Nível 1 com que o episódio foi criado (MARCA/sistema-visual/CHANGELOG.md)
+    if formato and grade and slot:  # liga ao slot ANTES de gravar: grade inválida ou roteiro não aprovado = nada é escrito
+        sl = grade_mod.atribuir(grade, slot, ep_id, formato)
+        ep["grade"] = {k: sl.get(k, "") for k in ("territorio", "origem", "origemRef", "dataFato", "pushPull", "justificativaModelo", "justificativaHorario")}
+        ep["grade"].update(data=grade, slot=slot, arquivo=f"PRODUCAO/grade/{grade}.json")
+        ep.pop("foraDaGrade", None)
+    elif formato and fora:
+        ep["foraDaGrade"] = fora
     os.makedirs(f'episodes/{ep_id}', exist_ok=True)
     json.dump(ep, open(old, 'w'), ensure_ascii=False, indent=1)
     if not formato:  # episódio entregue na esteira de 5 (arquivada): só regera o episode.json, sem registrar nada
         print(sum(len(re.findall(W, s['text'])) for s in segs), "palavras · legado da esteira de 5 estilos (arquivada)")
         return
-    n = esteira.registrar(ep_id, formato)
-    print(sum(len(re.findall(W, s['text'])) for s in segs), "palavras · modelo", n, esteira.nome(esteira.load(), n), "· formato", formato)
+    n = esteira.registrar(ep_id, formato, grade=grade, slot=slot)
+    onde = f"grade {grade} {slot}" if grade else f"FORA DA GRADE: {fora}"
+    print(sum(len(re.findall(W, s['text'])) for s in segs), "palavras · modelo", n, esteira.nome(esteira.load(), n), "· formato", formato, "·", onde)
