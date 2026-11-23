@@ -147,7 +147,7 @@ export const Take1: React.FC<SceneProps> = ({ t, tl }) => {
 };
 
 /* ---------------------------------------------------------------- 3 · o trem, as peças e a pergunta ---------------------------------------------------------------- */
-const ELEV = { x: 400, y: 560, w: 280, h: 190 };
+const ELEV = { x: 360, y: 470, w: 360, h: 280 };
 const PECAS = Array.from({ length: 12 }).map((_, i) => ({ n: String(i + 1).padStart(2, "0"), x: 190 + (i % 4) * 190, y: 372 + Math.floor(i / 4) * 66 }));
 export const Take2: React.FC<SceneProps> = ({ t, tl }) => {
   const c = tl.cues;
@@ -186,7 +186,7 @@ export const Take2: React.FC<SceneProps> = ({ t, tl }) => {
                 const sai = sp(t, c.r_pecas - 0.25 + i * 0.05, { damping: 13, stiffness: 160 });
                 if (sai <= 0.001) return null;
                 const px = mix(805, q.x, sai), py = mix(240, q.y, sai);
-                const ex = ELEV.x + 20 + (i % 4) * 62, ey = ELEV.y + ELEV.h - 40 - Math.floor(i / 4) * 34;
+                const ex = ELEV.x + 40 + (i % 4) * 92, ey = ELEV.y + ELEV.h - 44 - Math.floor(i / 4) * 50;
                 const fx = mix(px, ex, monta), fy = mix(py, ey, monta);
                 return (
                   <g key={q.n} opacity={fade(sai) * (1 - clamp01((monta - 0.7) / 0.3)) * dim}>
@@ -197,9 +197,9 @@ export const Take2: React.FC<SceneProps> = ({ t, tl }) => {
               })}
             </g>
             {/* a elevação sobe com o manual… e para no meio na pergunta */}
-            <Elevacao x={ELEV.x} chao={ELEV.y + ELEV.h} w={ELEV.w} andares={2} alt={86} p={0.5 * prog(t, c.r_manual - 0.2, 1.0, ease.out)} />
+            <Elevacao x={ELEV.x} chao={ELEV.y + ELEV.h} w={ELEV.w} andares={3} alt={88} p={0.67 * prog(t, c.r_manual - 0.2, 1.0, ease.out)} />
             <g opacity={fade(prog(t, c.r_manual, 0.5)) * dim * m.outros}>
-              <CotaV x={ELEV.x - 50} y1={ELEV.y + ELEV.h} y2={ELEV.y + ELEV.h - 86} texto="" p={prog(t, c.r_manual, 0.5)} />
+              <CotaV x={ELEV.x - 50} y1={ELEV.y + ELEV.h} y2={ELEV.y + ELEV.h - 176} texto="" p={prog(t, c.r_manual, 0.5)} />
               <text x={ELEV.x + ELEV.w + 34} y={ELEV.y + ELEV.h - 34} fill={C.text} fontFamily={M} fontWeight={700} fontSize={30}>MANUAL</text>
             </g>
             <Porta x={ELEV.x + ELEV.w / 2 - 30} y={ELEV.y + ELEV.h} r={60} p={pergunta} aberta={false} />
@@ -246,11 +246,11 @@ export const Take3: React.FC<SceneProps> = ({ t, tl }) => {
               <line x1={160} y1={200} x2={920} y2={200} stroke={C.dim} strokeWidth={TRACO * 0.67} />
             </g>
             {/* fachada */}
-            <CasaElev cx={310} base={450} w={250} h={150} p={prog(t, c.a_fachada - 0.35, 0.9, ease.out)} />
-            <text x={310} y={492} textAnchor="middle" fill={C.text} fontFamily={M} fontWeight={700} fontSize={26} opacity={fade(prog(t, c.a_fachada, 0.4)) * (1 - sai)}>FACHADA</text>
+            <CasaElev cx={310} base={450} w={250} h={150} p={prog(t, c.a_antes - 0.3, 1.4, ease.out)} />
+            <text x={310} y={492} textAnchor="middle" fill={C.text} fontFamily={M} fontWeight={700} fontSize={26} opacity={fade(prog(t, c.a_fachada - 0.1, 0.4)) * (1 - sai)}>FACHADA</text>
             {/* planta baixa: cada cômodo acende com a sua medida */}
             {amb.map((q, i) => (
-              <Comodo key={q.k} x={q.x} y={q.y} w={q.w} h={q.h} p={prog(t, c.a_planta - 0.35 + i * 0.12, 0.6, ease.out)} titulo={q.k} sub={t >= c.a_comodo - 0.1 + i * 0.35 ? q.sub : undefined} titleSize={30} acende={prog(t, c.a_comodo - 0.05 + i * 0.35, 0.35)} />
+              <Comodo key={q.k} x={q.x} y={q.y} w={q.w} h={q.h} p={prog(t, c.a_antes + 0.9 + i * 0.25, 0.8, ease.out)} titulo={q.k} sub={t >= c.a_comodo - 0.1 + i * 0.35 ? q.sub : undefined} titleSize={30} acende={prog(t, c.a_comodo - 0.05 + i * 0.35, 0.35)} />
             ))}
             <Porta x={600} y={370} r={46} p={prog(t, c.a_planta, 0.4)} aberta={t >= c.a_comodo + 0.8} />
             <text x={730} y={500} textAnchor="middle" fill={C.text} fontFamily={M} fontWeight={700} fontSize={26} opacity={fade(prog(t, c.a_planta, 0.4)) * (1 - sai)}>PLANTA</text>

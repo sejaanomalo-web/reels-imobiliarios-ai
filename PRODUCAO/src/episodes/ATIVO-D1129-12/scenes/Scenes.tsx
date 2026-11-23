@@ -21,13 +21,13 @@ const R: React.FC<{ children: React.ReactNode }> = ({ children }) => <span style
 const CASA: V3 = [0, 0, 0];
 const ESC_CASA = 1.3;
 const VIZINHAS: V3[] = [[2.9, 0, -2.6], [-2.0, 0, -3.4]];
-const MURAL: V3 = [-4.9, 0, -2.4];
-const COPIA_FIM: V3 = [-4.6, 0, -1.2];
+const MURAL: V3 = [-3.9, 0, -2.9];
+const COPIA_FIM: V3 = [-3.4, 0, -1.5];
 const FAMILIA_B: V3 = [7.4, 0, 1.6];
-const CELULAR: V3 = [7.6, 0, -0.1];
-const GOLPISTA: V3 = [10.8, 0, -2.4];
-const FAMILIA_A: V3 = [0.5, 0, 2.7];
-const DONO: V3 = [0.15, 0, 1.0];
+const CELULAR: V3 = [5.9, 0, 1.0];
+const GOLPISTA: V3 = [10.2, 0, -2.6];
+const FAMILIA_A: V3 = [1.7, 0, 2.1];
+const DONO: V3 = [0.15, 0, 0.95];
 const CRECI: V3 = [-9.2, 0, -1.8];
 const ORLA: V3[] = [[-13.2, 0, 2.2], [-11.6, 0, 2.7], [-10.0, 0, 2.4], [-8.4, 0, 2.8], [-6.8, 0, 2.3]];
 const CHECK: V3[] = [[-2.5, 0, 1.6], [-1.9, 0, 2.4], [-1.3, 0, 3.2]];
@@ -51,29 +51,29 @@ export const capitulos = (c: Record<string, number>, tl: Timeline): (Capitulo & 
 
 export const camera = (t: number, c: Record<string, number>, tl: Timeline): Cam => camAt(t, [
   // gancho: plano baixo na casa de praia; abre para a esquerda quando a cópia se descola
-  { t: 0, pos: [3.4, 2.5, 8.2], alvo: [0, 1.1, 0], fov: 36 },
-  { t: c.h_golpe, pos: [1.6, 3.3, 8.8], alvo: [-0.8, 1.1, -0.2], fov: 37 },
+  { t: 0, pos: [3.4, 3.0, 8.6], alvo: [0.2, 1.9, 0], fov: 37 },
+  { t: c.h_golpe, pos: [1.4, 3.6, 9.4], alvo: [-0.9, 1.9, -0.3], fov: 38 },
   // mecanismo: segue a cópia até o mural
-  { t: c.m_copia + 1.4, pos: [-2.2, 5.0, 9.8], alvo: [-3.0, 1.0, -1.4], fov: 38 },
-  { t: c.m_redes, pos: [-2.6, 5.6, 10.2], alvo: [-3.2, 1.0, -1.5], fov: 38 },
+  { t: c.m_copia + 1.4, pos: [-1.9, 5.0, 10.0], alvo: [-2.3, 1.5, -1.4], fov: 38 },
+  { t: c.m_redes, pos: [-2.1, 5.4, 10.4], alvo: [-2.4, 1.5, -1.5], fov: 38 },
   // pressa: a família diante do celular; abre para mostrar o golpista no escuro
-  { t: c.p_pressa, pos: [7.6, 4.8, 9.6], alvo: [8.2, 1.0, -0.2], fov: 38, e: ease.inOut },
-  { t: c.p_pix + 0.4, pos: [8.4, 5.8, 10.8], alvo: [8.9, 1.0, -0.6], fov: 39 },
-  { t: c.p_video + 0.4, pos: [8.2, 5.9, 11.0], alvo: [8.6, 1.0, -0.5], fov: 39 },
+  { t: c.p_pressa, pos: [7.2, 5.0, 10.4], alvo: [7.0, 1.5, 0.6], fov: 40, e: ease.inOut },
+  { t: c.p_pix + 0.4, pos: [8.2, 6.0, 12.0], alvo: [8.0, 1.5, -0.4], fov: 42 },
+  { t: c.p_video + 0.4, pos: [8.1, 6.1, 12.2], alvo: [7.9, 1.5, -0.3], fov: 42 },
   // consequência: a câmera acompanha a família de volta à casa real
-  { t: c.c_malas + 0.6, pos: [2.8, 3.8, 9.4], alvo: [0.5, 1.0, 0.6], fov: 37 },
-  { t: c.c_nunca + 0.6, pos: [1.7, 3.1, 7.8], alvo: [0.2, 1.1, 0.6], fov: 36 },
+  { t: c.c_malas + 0.6, pos: [2.9, 3.9, 9.8], alvo: [0.8, 1.5, 0.8], fov: 38 },
+  { t: c.c_nunca + 0.6, pos: [2.0, 3.5, 8.8], alvo: [0.6, 1.5, 0.9], fov: 37 },
   // CRECI e a orla
   { t: c.k_creci + 0.5, pos: [-8.8, 6.6, 11.8], alvo: [-9.2, 1.2, -0.3], fov: 40, e: ease.inOut },
   { t: c.k_fisc + 1.0, pos: [-9.6, 7.4, 13.0], alvo: [-9.4, 1.0, 0.3], fov: 40 },
   // defesa: plano aberto com a casa, a cópia no mural e as 3 placas
-  { t: ini(tl, "defesa") + 1.2, pos: [-1.2, 6.4, 12.4], alvo: [-1.8, 1.7, -0.4], fov: 40, e: ease.inOut },
-  { t: c.d_contrato + 1.2, pos: [-1.0, 6.2, 12.0], alvo: [-1.6, 1.7, -0.4], fov: 40 },
+  { t: ini(tl, "defesa") + 1.2, pos: [-1.5, 6.8, 14.4], alvo: [-1.5, 1.6, -0.7], fov: 42, e: ease.inOut },
+  { t: c.d_contrato + 1.2, pos: [-1.3, 6.6, 14.0], alvo: [-1.4, 1.6, -0.7], fov: 42 },
   // desfecho: a casa sozinha, sólida; o corretor entra
-  { t: c.f_golpista + 1.4, pos: [1.0, 3.8, 9.0], alvo: [0.2, 1.2, 0.2], fov: 38 },
-  { t: c.f_corretor, pos: [1.8, 3.6, 8.8], alvo: [0.9, 1.2, 0.5], fov: 38 },
+  { t: c.f_golpista + 1.4, pos: [1.0, 4.0, 9.6], alvo: [0.4, 1.6, 0.3], fov: 38 },
+  { t: c.f_corretor, pos: [1.6, 3.9, 9.6], alvo: [1.0, 1.6, 0.6], fov: 38 },
   // fecho
-  { t: c.cta_quer - 0.3, pos: [1.8, 3.6, 8.7], alvo: [0.9, 1.2, 0.5], fov: 38 },
+  { t: c.cta_quer - 0.3, pos: [1.6, 3.9, 9.5], alvo: [1.0, 1.6, 0.6], fov: 38 },
   { t: c.cta_quer + 0.9, pos: [CTA_BASE[0], 9.0, CTA_BASE[2] + 13.5], alvo: [CTA_BASE[0], 2.1, CTA_BASE[2] - 0.8], fov: 38, e: ease.inOut },
   { t: c.cta_comment - 0.2, pos: [CTA_BASE[0], 9.2, CTA_BASE[2] + 13.8], alvo: [CTA_BASE[0], 2.2, CTA_BASE[2] - 0.8], fov: 38 },
   { t: c.cta_comment + 0.5, pos: [CTA_BASE[0], 10.0, CTA_BASE[2] + 15.0], alvo: [CTA_BASE[0], 3.2, CTA_BASE[2] - 1.0], fov: 38, e: ease.inOut },
@@ -124,9 +124,9 @@ export const Maquete3D: React.FC<{ t: number; tl: Timeline }> = ({ t, tl }) => {
   // família: no celular (estação B) e depois caminha de volta até a porta da casa real
   const caminha = prog(t, c.c_verao - 0.2, 2.2, ease.inOut);
   const famBase = lerp3(FAMILIA_B, FAMILIA_A, caminha);
-  const famSurge = s(c.p_pressa - 0.6, 0.3);
-  const famRot = caminha > 0.02 && caminha < 0.98 ? -2.0 : caminha >= 0.98 ? Math.PI : -0.3;
-  const malas = s(c.c_malas, 0.3);
+  const famSurge = s(c.p_pressa - 0.6, 0.3) * (1 - prog(t, c.k_creci - 0.9, 0.5));
+  const famRot = caminha > 0.02 && caminha < 0.98 ? -1.5 : caminha >= 0.98 ? -2.1 : -1.9;
+  const malas = s(c.c_malas, 0.3) * (1 - prog(t, c.k_creci - 0.9, 0.5));
   const someB = 1 - prog(t, c.c_verao + 0.6, 0.5);
   const msg = (i: number, at: number) => s(at, 0.25) * someB;
   const checa = [c.d_creci, c.d_nome, c.d_contrato];
@@ -137,15 +137,15 @@ export const Maquete3D: React.FC<{ t: number; tl: Timeline }> = ({ t, tl }) => {
       <Poeira t={t} centro={[-1, 1.5, 0]} n={36} />
       {/* estação A — a casa real (sempre sólida) e as vizinhas */}
       <Casa pos={CASA} escala={ESC_CASA} surge={sp(t, 0.0, { damping: 12, stiffness: 150 })} />
-      {VIZINHAS.map((p, i) => <Casa key={i} pos={p} escala={0.8} rot={-0.25 + i * 0.4} surge={s(c.h_casa + 0.25 + i * 0.15)} mat="grafite" />)}
-      <Haste pos={[2.1, 0, 0.9]} alt={2.6} surge={s(c.h_casa, 0.3) * (1 - prog(t, c.m_copia, 0.4))} />
+      {VIZINHAS.map((p, i) => <Casa key={i} pos={p} escala={0.8} rot={-0.25 + i * 0.4} surge={s(c.h_casa + 0.25 + i * 0.15)} />)}
+      <Haste pos={[1.9, 0, 1.7]} alt={1.5} surge={s(c.h_casa, 0.3) * (1 - prog(t, c.m_copia, 0.4))} />
       {/* a cópia escura (o anúncio falso) */}
       <Casa pos={copiaPosY} escala={ESC_CASA * 0.92} rot={0.12 * voa} surge={copiaSurge} mat="grafite" />
       <Desfaz t={t} centro={COPIA_FIM} de={c.d_creci - 0.1} ate={c.f_conferir + 0.2} />
       <Fluxo de={[CASA[0] - 1.2, 1.4, CASA[2]]} para={[COPIA_FIM[0], 1.2, COPIA_FIM[2]]} altura={1.6} p={prog(t, c.m_copia - 0.1, 1.0) * (1 - prog(t, c.m_redes + 0.6, 0.6))} anda={anda} n={14} mat="grafite" />
       {/* mural de anúncios genéricos */}
       {[-1.1, 0, 1.1].map((dx, i) => <Bloco key={i} pos={[MURAL[0] + dx, 0, MURAL[2]]} tam={[0.95, 1.5 + (i % 2) * 0.3, 0.12]} mat="grafite" surge={s(c.m_copia + 0.5 + i * 0.12)} />)}
-      <Haste pos={[-3.0, 0, -0.4]} alt={2.4} surge={s(c.m_preco, 0.3) * (1 - prog(t, c.p_pressa - 0.6, 0.4))} />
+      <Haste pos={[-1.9, 0, -0.2]} alt={2.4} surge={s(c.m_preco, 0.3) * (1 - prog(t, c.p_pressa - 0.6, 0.4))} />
       {/* estação B — a família, o celular deitado, as mensagens, o Pix e o golpista no escuro */}
       <Bloco pos={CELULAR} tam={[1.25, 0.1, 2.2]} mat="grafite" surge={s(c.p_pressa - 0.8, 0.3) * someB} />
       <Bloco pos={[CELULAR[0], 0.1, CELULAR[2]]} tam={[1.05, 0.04, 1.9]} surge={s(c.p_pressa - 0.7, 0.3) * someB} />
@@ -160,7 +160,7 @@ export const Maquete3D: React.FC<{ t: number; tl: Timeline }> = ({ t, tl }) => {
       <Boneco pos={GOLPISTA} rot={-0.9} surge={s(c.p_sinal - 0.4, 0.3) * someB} mat="grafite" />
       <Fluxo de={[FAMILIA_B[0] + 0.2, 1.3, FAMILIA_B[2]]} para={[GOLPISTA[0], 1.5, GOLPISTA[2]]} altura={1.4} p={prog(t, c.p_pix - 0.1, 0.9) * someB} anda={t * 0.6} n={14} mat="alerta" />
       <Haste pos={[9.7, 0, 1.1]} alt={2.3} surge={s(c.p_pix, 0.3) * someB} />
-      <Haste pos={[5.6, 0, 0.6]} alt={2.9} surge={s(c.p_sem, 0.3) * someB} />
+      <Haste pos={[6.7, 0, -0.9]} alt={2.9} surge={s(c.p_sem, 0.3) * someB} />
       <Haste pos={[8.7, 0, 3.0]} alt={1.6} surge={s(c.p_video, 0.3) * someB} />
       {/* consequência — o dono na porta, luz acesa */}
       <Boneco pos={DONO} rot={0} surge={s(c.c_dono, 0.3) * (1 - prog(t, ini(tl, "defesa"), 0.5))} mat="grafite" />
@@ -195,16 +195,16 @@ export const holofote = (t: number, c: Record<string, number>, tl: Timeline) => 
 /** Placas (HTML projetado no topo das hastes). */
 export const placas = (t: number, c: Record<string, number>, tl: Timeline): PlacaDef[] => {
   const ate = (de: number, fim: number) => prog(t, de, 0.35) * (1 - prog(t, fim, 0.3));
-  const fimB = c.c_verao + 0.5;
+  const fimB = ini(tl, "consequencia") - 0.15;
   const textos = ["1 · CRECI DE QUEM ANUNCIA", "2 · ANÚNCIO = CONTA = DONO", "3 · CONTRATO ANTES DO PIX"];
   const checa = [c.d_creci, c.d_nome, c.d_contrato];
   return [
-    { id: "anuncio", pos: [2.1, 2.65, 0.9], texto: "ANÚNCIO · TEMPORADA", p: ate(c.h_casa - 0.05, c.h_golpe - 0.1) },
-    { id: "fotos", pos: [2.1, 2.65, 0.9], texto: "FOTOS REAIS", tom: "acento", p: ate(c.h_golpe - 0.1, c.m_copia - 0.2) },
-    { id: "preco", pos: [-3.0, 2.45, -0.4], texto: "PREÇO ABAIXO DA REGIÃO", tom: "alerta", p: ate(c.m_preco - 0.1, c.m_redes - 0.1) },
-    { id: "redes", pos: [-3.0, 2.45, -0.4], texto: "PUBLICADO NAS REDES", p: ate(c.m_redes - 0.1, c.p_pressa - 0.7) },
+    { id: "anuncio", pos: [1.9, 1.55, 1.7], texto: "ANÚNCIO · TEMPORADA", p: ate(c.h_casa - 0.05, c.h_golpe - 0.1) },
+    { id: "fotos", pos: [1.9, 1.55, 1.7], texto: "FOTOS REAIS", tom: "acento", p: ate(c.h_golpe - 0.1, c.m_copia - 0.2) },
+    { id: "preco", pos: [-1.9, 2.45, -0.2], texto: "PREÇO ABAIXO DA REGIÃO", tom: "alerta", p: ate(c.m_preco - 0.1, c.m_redes - 0.1) },
+    { id: "redes", pos: [-1.9, 2.45, -0.2], texto: "PUBLICADO NAS REDES", p: ate(c.m_redes - 0.1, c.p_pressa - 0.7) },
     { id: "pix", pos: [9.7, 2.35, 1.1], texto: "SINAL NO PIX", tom: "alerta", p: ate(c.p_pix - 0.1, fimB) },
-    { id: "semc", pos: [5.6, 2.95, 0.6], texto: "SEM CONTRATO", tom: "alerta", p: ate(c.p_sem - 0.1, fimB) },
+    { id: "semc", pos: [6.7, 2.95, -0.9], texto: "SEM CONTRATO", tom: "alerta", p: ate(c.p_sem - 0.1, fimB) },
     { id: "semv", pos: [8.7, 1.65, 3.0], texto: "SEM VIDEOCHAMADA", tom: "alerta", p: ate(c.p_video - 0.1, fimB) },
     { id: "creci", pos: [-7.1, 2.65, -0.6], texto: "CRECI-SC · OPERAÇÃO VERÃO", tom: "acento", p: ate(c.k_campanha - 0.1, ini(tl, "defesa") + 0.2) },
     { id: "fisc", pos: [-11.8, 2.05, 0.9], texto: "FISCALIZAÇÃO", p: ate(c.k_fisc - 0.1, ini(tl, "defesa") + 0.2) },

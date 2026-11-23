@@ -81,15 +81,15 @@ export const Portas: React.FC<P> = ({ t, tl }) => {
   const abreEUA = prog(t, c.r_recebe + 0.25, 0.9, ease.inOut);
   const vai = prog(t, c.b_visita - 0.3, 1.6, ease.inOut);
   const some = prog(t, c.p_some - 0.4, 1.5, ease.inOut);
-  const xCor = mix(BR + 250, BR + 520, vai);
-  const xCompr = mix(mix(BR + 130, BR + 640, vai), BR + 860, some);
+  const xCor = mix(BR + 250, BR + 540, vai);
+  const xCompr = mix(mix(BR + 130, BR + 720, vai), BR + 850, some);
   const andaCompr = (t > c.b_visita - 0.3 && t < c.b_visita + 1.3) || (t > c.p_some - 0.4 && t < c.p_some + 1.1);
   const andaCor = t > c.b_visita - 0.3 && t < c.b_visita + 1.3;
   const apaga = prog(t, c.p_dono - 0.1, 0.8, ease.inOut);
   const out = 1 - prog(t, c.p_dono + 0.9, 0.35);
   return (
     <div style={{ position: "absolute", inset: 0, opacity: out }}>
-      <CamNoir t={t} push={0.004} keys={[{ t: 0, s: 1.04, x: 0 }, { t: c.h_contrato, s: 1.08, x: -20, y: -20 }, { t: c.r_agosto, s: 1.0, x: 0 }, { t: c.r_recebe + 0.8, s: 1.03, x: 0, y: -10 }, { t: c.b_brasil - 0.4, s: 1.03, x: 0, y: -10 }, { t: c.b_brasil + 0.9, s: 1.0, x: -BR }, { t: c.p_some, s: 1.0, x: -BR }, { t: c.p_dono + 0.4, s: 1.05, x: -BR, y: -20 }]}>
+      <CamNoir t={t} push={0.004} keys={[{ t: 0, s: 1.04, x: 0 }, { t: c.h_contrato, s: 1.08, x: -20, y: -20 }, { t: c.r_agosto, s: 1.0, x: 0 }, { t: c.r_recebe + 0.8, s: 1.03, x: 0, y: -10 }, { t: c.b_brasil - 0.4, s: 1.03, x: 0, y: -10 }, { t: c.b_brasil + 0.9, s: 1.0, x: -BR }, { t: c.p_some, s: 1.0, x: -BR }, { t: c.p_dono + 0.4, s: 1.0, x: -BR }]}>
         <Svg w={2160}>
           <Chao />
           {/* EUA */}
@@ -97,21 +97,21 @@ export const Portas: React.FC<P> = ({ t, tl }) => {
           <PortaNoir t={t} x={650} abre={abreEUA} trava={prog(t, c.h_contrato - 0.1, 0.9)} />
           <Figura t={t} x={520} y={CHAO} pose={t < c.r_agosto ? "apontando" : "pe"} item="pasta" />
           <Figura t={t} x={300} y={CHAO} s={0.95} tom="cinza" p={surge(t, 0.3)} />
-          <Papel x={410} y={700} p={surge(t, c.h_contrato - 0.1, 0.6)} ass1={prog(t, c.r_assinam - 0.1, 0.5)} ass2={prog(t, tAss2 + 0.2, 0.5)} campo={prog(t, c.r_recebe - 0.25, 0.6)} rotulo="REMUNERAÇÃO" />
+          <Papel x={300} y={720} p={surge(t, c.h_contrato - 0.1, 0.6)} ass1={prog(t, c.r_assinam - 0.1, 0.5)} ass2={prog(t, tAss2 + 0.2, 0.5)} campo={prog(t, c.r_recebe - 0.25, 0.6)} rotulo="REMUNERAÇÃO" />
           <g opacity={surge(t, c.r_video - 0.1) * (1 - prog(t, c.b_brasil, 0.4))}><Icone t={t} nome="telefone" x={180} y={640} r={46} /></g>
           {/* Brasil */}
           <Holofote x={BR + 520} chao={CHAO} w={560} p={(1 - apaga * 0.9) * prog(t, c.b_brasil - 0.2, 0.8)} />
-          <PortaNoir t={t} x={BR + 600} abre={1} />
+          <PortaNoir t={t} x={BR + 610} abre={1} />
           <Figura t={t} x={xCor} y={CHAO} pose={andaCor ? "andando" : "pe"} fase={t * 1.6} item="pasta" />
           <Figura t={t} x={xCompr} y={CHAO} s={0.95} pose={andaCompr ? "andando" : "pe"} fase={t * 1.6} tom="cinza" />
-          <Figura t={t} x={BR + 985} y={CHAO} s={0.98} tom="cinza" flip p={surge(t, c.p_some - 0.2)} />
-          {t > c.p_dono - 0.3 ? <g transform={`translate(${BR + 922} ${CHAO - 150})`} opacity={surge(t, c.p_dono - 0.3)}><circle r={20} fill="none" stroke={NOIR.vermelho} strokeWidth={3} /></g> : null}
+          <Figura t={t} x={BR + 935} y={CHAO} s={0.98} tom="cinza" flip p={surge(t, c.p_some - 0.2)} />
+          {t > c.p_dono - 0.3 ? <g transform={`translate(${BR + 892} ${CHAO - 150})`} opacity={surge(t, c.p_dono - 0.3)}><circle r={20} fill="none" stroke={NOIR.vermelho} strokeWidth={3} /></g> : null}
         </Svg>
         <Bolha t={t} at={c.b_conversa - 0.2} ate={c.b_confianca - 0.1} x={BR + 230} y={760} lado="esq" texto="Pode ser sábado?" size={30} />
-        <Bolha t={t} at={c.b_conversa + 0.15} ate={c.b_confianca + 0.15} x={BR + 860} y={680} lado="dir" texto="Combinado!" tom="cinza" size={30} />
-        <Pilula t={t} at={c.h_eua - 0.1} ate={c.b_brasil + 0.3} x={540} y={560} texto="EUA" tom="branco" size={30} />
-        <Pilula t={t} at={c.b_brasil} x={BR + 540} y={560} texto="BRASIL" tom="branco" size={30} ate={c.p_some - 0.3} />
-        <Pilula t={t} at={c.p_dono} x={BR + 880} y={840} texto="FECHOU DIRETO" tom="vermelho" cheia size={26} />
+        <Bolha t={t} at={c.b_conversa + 0.15} ate={c.b_confianca + 0.15} x={BR + 980} y={700} lado="dir" texto="Combinado!" tom="cinza" size={30} />
+        <Pilula t={t} at={c.h_eua - 0.1} ate={c.b_brasil + 0.3} x={765} y={650} texto="EUA" tom="branco" size={30} />
+        <Pilula t={t} at={c.b_brasil} x={BR + 725} y={650} texto="BRASIL" tom="branco" size={30} ate={c.p_some - 0.3} />
+        <Pilula t={t} at={c.p_dono} x={BR + 830} y={820} texto="FECHOU DIRETO" tom="vermelho" cheia size={26} />
       </CamNoir>
       {/* apagar a luz com âncora no corretor (ele fica onde a próxima cena começa) */}
       <svg width={1080} height={1920} style={{ position: "absolute", inset: 0, opacity: apaga }}>
@@ -203,7 +203,7 @@ export const Tese: React.FC<P> = ({ t, tl }) => {
   const reg = prog(t, c.t_registrado - 0.2, 1.2, ease.out);
   return (
     <div style={{ position: "absolute", inset: 0, opacity: on }}>
-      <CamNoir t={t} t0={c.t_la} push={0.005} keys={[{ t: c.t_la - 0.4, s: 1.04 }, { t: c.t_aqui, s: 1.0, e: ease.out }, { t: c.t_registrado, s: 1.04, x: -60, y: -10 }]}>
+      <CamNoir t={t} t0={c.t_la} push={0.005} keys={[{ t: c.t_la - 0.4, s: 1.04 }, { t: c.t_aqui, s: 1.0, e: ease.out }, { t: c.t_registrado, s: 1.04, x: -20, y: -10 }]}>
         <Svg>
           <Chao />
           <Holofote x={300} chao={CHAO} w={380} p={0.6 * (1 - 0.5 * prog(t, c.t_aqui, 0.6))} />
@@ -211,12 +211,12 @@ export const Tese: React.FC<P> = ({ t, tl }) => {
           <PortaNoir t={t} x={190} w={210} h={430} abre={1} p={surge(t, c.t_la - 0.3, 0.6)} />
           <PortaNoir t={t} x={670} w={210} h={430} abre={1} p={surge(t, c.t_aqui - 0.3, 0.6)} luzVerde={reg} />
           <Papel x={140} y={830} w={150} h={200} p={surge(t, c.t_la, 0.5)} />
-          <Papel x={950} y={820} w={170} h={230} p={reg} verde ass1={prog(t, c.t_lembranca - 0.6, 0.5)} rotulo="" />
-          <Figura t={t} x={850} y={CHAO} s={0.9} item="pasta" p={surge(t, c.t_aqui, 0.6)} pose={t > c.t_trabalho ? "bracosAbertos" : "pe"} tom={t > c.t_trabalho ? "verde" : "luz"} />
+          <Papel x={775} y={930} w={150} h={210} p={reg} verde ass1={prog(t, c.t_lembranca - 0.6, 0.5)} rotulo="" />
+          <Figura t={t} x={540} y={CHAO} s={0.9} item="pasta" p={surge(t, c.t_aqui, 0.6)} pose={t > c.t_trabalho ? "bracosAbertos" : "pe"} tom={t > c.t_trabalho ? "verde" : "luz"} />
         </Svg>
         <Pilula t={t} at={c.t_la} x={295} y={700} texto="LÁ · REGRA" tom="cinza" size={26} />
         <Pilula t={t} at={c.t_aqui} x={775} y={700} texto="AQUI · VOCÊ" tom="branco" size={26} />
-        <Pilula t={t} at={c.t_registrado + 0.2} x={880} y={1250} texto="REGISTRADO ANTES" tom="verde" size={26} />
+        <Pilula t={t} at={c.t_registrado + 0.2} x={775} y={1100} texto="REGISTRADO ANTES" tom="verde" size={26} />
       </CamNoir>
       <TituloNoir t={t} at={c.t_visita - 0.05} ate={c.t_trabalho - 0.35} linhas={[{ texto: "VISITA NÃO É", size: 72 }, { texto: "CORTESIA", cor: "vermelho", size: 96 }]} top={300} />
       <TituloNoir t={t} at={c.t_trabalho - 0.1} ate={c.cta_quer - 0.3} linhas={[{ texto: "VISITA É", size: 72 }, { texto: "TRABALHO", cor: "verde", size: 104 }]} top={300} />
