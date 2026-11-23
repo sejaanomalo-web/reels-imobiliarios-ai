@@ -6,7 +6,7 @@ Decisão do cliente (21/11/2026): criar **4 estilos virais de edição**, cada u
 |---|---|---|---|
 | 1 | **Primeiro modelo — Cartoon explicativo** (2D chapado, raios por clima, carimbos, corte seco a cada 2–4 s, legenda karaokê no centro, fecho COMENTE "SISTEMA") | `.claude/skills/primeiro-modelo-cartoon-explicativo/SKILL.md` | **ativo**: piloto `ATIVO_PILOTO_01` aprovado como base |
 | 2 | **Segundo modelo — Pictograma cinematográfico** (noir, pictograma luminoso, traço fino, sem corte seco, portal/partículas, legenda que se escreve, logo em partículas) | `.claude/skills/segundo-modelo-pictograma-cinematografico/SKILL.md` | **ativo**: piloto `ATIVO_PICTO_01` |
-| 3 | Terceiro modelo — a definir | — | reservado em `MARCA/sistema-visual/modelos.json` |
+| 3 | **Terceiro modelo — Planta técnica** (= estilo 3 da esteira; prancha marinho, linha branca que se desenha na fala, verde só no que acende, mergulho no cômodo, fecho `CtaPlanta`) | `.claude/skills/terceiro-modelo-planta-tecnica/SKILL.md` | **ativo**: piloto `ATIVO_PLANTA_01` (23/11/2026) |
 | 4 | Quarto modelo — a definir | — | pendente |
 
 **Regras comuns a todos:**

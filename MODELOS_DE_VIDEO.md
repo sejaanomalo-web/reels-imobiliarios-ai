@@ -10,7 +10,7 @@ Cada modelo é um estilo viral de edição para Instagram e TikTok, com manual c
 |---|---|---|---|---|---|
 | **Primeiro modelo** | **Cartoon explicativo** | [`.claude/skills/primeiro-modelo-cartoon-explicativo/SKILL.md`](.claude/skills/primeiro-modelo-cartoon-explicativo/SKILL.md) | `PRODUCAO/src/estilos/cartoon.tsx` | `OUTPUT/pilotos/ATIVO_PILOTO_01/` ("Concorrente ou parceiro?") | ✅ pronto (21/11/2026) |
 | **Segundo modelo** | **Pictograma cinematográfico** | [`.claude/skills/segundo-modelo-pictograma-cinematografico/SKILL.md`](.claude/skills/segundo-modelo-pictograma-cinematografico/SKILL.md) | `PRODUCAO/src/estilos/pictograma.tsx` | `OUTPUT/pilotos/ATIVO_PICTO_01/` ("Ninguém te avisa quando um cliente desiste") | ✅ pronto (21/11/2026) |
-| Terceiro modelo | — | — | — | — | reservado (aguardando referências; criar por `MARCA/sistema-visual/NOVO_MODELO.md`) |
+| **Terceiro modelo** (= estilo 3 da esteira) | **Planta técnica** | [`.claude/skills/terceiro-modelo-planta-tecnica/SKILL.md`](.claude/skills/terceiro-modelo-planta-tecnica/SKILL.md) | `PRODUCAO/src/estilos/planta.tsx` (v2) | `OUTPUT/pilotos/ATIVO_PLANTA_01/` (roteiro do GTA6_02 refeito no v2) | ✅ pronto (23/11/2026) |
 | Quarto modelo | — | — | — | — | reservado (idem) |
 | 5º, 6º, … | — | — | — | — | o registro não tem limite: cada novo modelo entra em `modelos.json` |
 
@@ -26,10 +26,19 @@ Cada modelo é um estilo viral de edição para Instagram e TikTok, com manual c
 
 Prévia: [`referencias/piloto_24_quadros.jpg`](.claude/skills/segundo-modelo-pictograma-cinematografico/referencias/piloto_24_quadros.jpg).
 
+**Terceiro modelo — Planta técnica**, em uma linha:
+- o assunto vira projeto numa prancha marinho com grade neutra e uma luz sobre a área de trabalho;
+- cômodo = etapa, cota = medida, chamada = observação, porta = passagem, rota = caminho, elevação = crescimento, carimbo = assinatura ILUSTRATIVA;
+- linha branca que se desenha na hora da fala; verde só no que acende; vermelho só em falha;
+- folha nova nasce do cômodo em que a câmera mergulha;
+- fecho `CtaPlanta` (projeto "SEU SISTEMA" + campo que digita SISTEMA + logo assinado).
+
+É também o **estilo 3 da esteira de 5 estilos** (mesmo kit). Na esteira, o fecho padrão continua sendo o `Cta` comum aos 5 estilos. Prévia: [`referencias/piloto_24_quadros.jpg`](.claude/skills/terceiro-modelo-planta-tecnica/referencias/piloto_24_quadros.jpg) e [`referencias/antes_x_depois.jpg`](.claude/skills/terceiro-modelo-planta-tecnica/referencias/antes_x_depois.jpg).
+
 **Regras comuns a todos os modelos:**
 - **Sistema Visual ATIVO (Nível 1):** `MARCA/sistema-visual/README.md`. Ele define acento `#02FB3F`, atmosferas, Manrope/JetBrains Mono, logo oficial, as 7 assinaturas, área segura e qualidade;
 - voz Puck 1,0×;
 - CTA SISTEMA;
 - apuração;
 - QA 11/11 + `sistema_visual_check` (o `editorial_check` já roda);
-- os modelos virais ficam **fora** da esteira de 5 estilos (que também herda o Nível 1).
+- os modelos 1 e 2 ficam **fora** da esteira de 5 estilos (que também herda o Nível 1); o modelo 3 é ao mesmo tempo modelo e estilo 3 da esteira.

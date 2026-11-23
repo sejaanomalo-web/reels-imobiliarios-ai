@@ -1,0 +1,619 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "GTA VI": "GTA seis",
+  "Boobie Ike": "Búbi Áique",
+  "Dre’Quan Priest": "Dri-Cuân Príst"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-PLANTA-01",
+ "lote": "VIRAL",
+ "title": "O magnata imobiliário escondido em GTA VI",
+ "outputDir": "pilotos/ATIVO_PLANTA_01",
+ "deliverables": {
+  "final": "ATIVO_PLANTA_01_FINAL.mp4",
+  "narration": "ATIVO_PLANTA_01_NARRACAO.wav",
+  "subtitles": "ATIVO_PLANTA_01_legendas.srt",
+  "cover": "ATIVO_PLANTA_01_capa.png"
+ },
+ "fonte": "ROTEIROS/GTA6/GTA6_02.md (ATIVO_GTA_VI_50_Roteiros_Completos.pdf, roteiro 02)",
+ "apuracao": {
+  "fato": "Boobie Ike: personagem FICTÍCIO de GTA VI. Perfil oficial da Rockstar o chama de lenda local de Vice City; negócios: imóveis, um strip club (Jack of Hearts — no roteiro, 'clube noturno') e um estúdio de gravação; sociedade com Dre'Quan Priest na gravadora Only Raw Records, que ainda busca um sucesso. Não é protagonista (protagonistas: Jason e Lucia). O mesmo perfil diz que o dinheiro do clube paga o estúdio e 'o dinheiro das drogas paga tudo' — o vídeo NÃO mostra isso e NÃO apresenta o personagem como exemplo profissional",
+  "verificado_em": "2026-11-21",
+  "fontes": [
+   "https://www.rockstargames.com/VI/boobie",
+   "https://www.rockstargames.com/VI/only-in-leonida",
+   "https://www.gtaboom.com/Boobie_Ike",
+   "https://www.gtabase.com/characters/gta-6/boobie-ike"
+  ],
+  "cuidados": "sem logo/arte/captura/personagem do jogo; nome citado só em texto; planta e mapa 100% ILUSTRATIVOS e originais; ressalva: o 'império' do personagem tem origem criminosa no próprio jogo — a fala 'quem entende de patrimônio constrói um império' é narrada do roteiro aprovado e precisa de aval do cliente"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor/curioso acompanhando o lançamento do GTA VI",
+  "motivacao": "curiosidade verificada: personagem secundário com negócios imobiliários",
+  "crenca_questionada": "GTA é só perseguição de carro",
+  "hipotese": "planta técnica: prancha 'PROJETO: IMPÉRIO' → ficha BOOBIE IKE (personagem fictício) → três cômodos revelados um a um (IMÓVEIS, CLUBE, ESTÚDIO) + anexo GRAVADORA → mapa da cidade com pinos NEGÓCIOS/INTERESSES/PODER → carimbo",
+  "funcao": "curiosidade verificada (GTA primeiro)",
+  "promessa": "um detalhe do universo do jogo que conversa com imóveis",
+  "evidencias": "perfil oficial do personagem no site da Rockstar (S1), repetido por bases de fãs",
+  "cta": "transição 'Agora, e os seus imóveis de verdade?' → comentário SISTEMA → Direct"
+ },
+ "cta": {
+  "original_cta": "Qual personagem do GTA VI merecia um tour pela própria mansão?",
+  "transition_adapted": "Agora, e os seus imóveis de verdade?",
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos? Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+  "source": "regra do cliente em 14/11/2026"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "GTA VI tem um personagem que fez fortuna com imóveis.",
+   "caption": "*GTA VI* | tem um personagem | que fez *fortuna* | com *imóveis.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "E ele nem é o protagonista.",
+   "caption": "E ele nem é | o *protagonista.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "O nome é Boobie Ike.",
+   "caption": "O nome é | *Boobie Ike.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "A Rockstar o descreve como uma lenda de Vice City que transformou a própria trajetória em negócios.",
+   "caption": "A Rockstar | o descreve | como uma *lenda* | de Vice City | que transformou | a própria trajetória | em *negócios.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "t2",
+   "text": "O império dele envolve imóveis, um clube noturno e um estúdio musical.",
+   "caption": "O *império* dele | envolve *imóveis,* | um *clube* noturno | e um *estúdio* musical.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "t2",
+   "text": "E tem mais: ele se associa a Dre’Quan Priest numa gravadora que quer estourar na cidade.",
+   "caption": "E tem mais: | ele se associa | a *Dre’Quan Priest* | numa *gravadora* | que quer estourar | na cidade.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "t3",
+   "text": "Isso muda totalmente a forma de olhar o universo do jogo.",
+   "caption": "Isso muda | totalmente | a forma de olhar | o *universo* do jogo.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "t3",
+   "text": "Não é só perseguição de carro: existem personagens com negócios, interesses e poder espalhados por Vice City.",
+   "caption": "Não é só | *perseguição* de carro: | existem personagens | com *negócios,* | *interesses* | e *poder* | espalhados | por Vice City.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "E eu adorei o detalhe: até num jogo famoso pelo caos, quem entende de patrimônio constrói um império.",
+   "caption": "E eu adorei | o detalhe: | até num jogo | famoso pelo *caos,* | quem entende | de *patrimônio* | constrói | um *império.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "t3",
+   "text": "Agora, e os seus imóveis de verdade?",
+   "caption": "Agora, | e os *seus imóveis* | de verdade?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "caption": "Quer conhecer | um sistema *personalizado* | para organizar | seus *imóveis, leads* | e *atendimentos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "caption": "Comente *SISTEMA* | que eu te envio | os detalhes | pelo *Direct.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "t1": 0.3,
+  "t2": 0.35,
+  "t3": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_gta": {
+   "seg": "s1",
+   "word": "GTA",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_fort": {
+   "seg": "s1",
+   "word": "fortuna",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_imov": {
+   "seg": "s1",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_prot": {
+   "seg": "s2",
+   "word": "protagonista",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_nome": {
+   "seg": "s3",
+   "word": "nome",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_boob": {
+   "seg": "s3",
+   "word": "Boobie",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_rock": {
+   "seg": "s4",
+   "word": "Rockstar",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_lenda": {
+   "seg": "s4",
+   "word": "lenda",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_traj": {
+   "seg": "s4",
+   "word": "trajetória",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_neg": {
+   "seg": "s4",
+   "word": "negócios",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_imp": {
+   "seg": "s5",
+   "word": "império",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_imov": {
+   "seg": "s5",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_clube": {
+   "seg": "s5",
+   "word": "clube",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_est": {
+   "seg": "s5",
+   "word": "estúdio",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_mais": {
+   "seg": "s6",
+   "word": "mais",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_assoc": {
+   "seg": "s6",
+   "word": "associa",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_grav": {
+   "seg": "s6",
+   "word": "gravadora",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_estourar": {
+   "seg": "s6",
+   "word": "estourar",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_muda": {
+   "seg": "s7",
+   "word": "muda",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_univ": {
+   "seg": "s7",
+   "word": "universo",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_pers": {
+   "seg": "s8",
+   "word": "perseguição",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_neg": {
+   "seg": "s8",
+   "word": "negócios",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_int": {
+   "seg": "s8",
+   "word": "interesses",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_poder": {
+   "seg": "s8",
+   "word": "poder",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_esp": {
+   "seg": "s8",
+   "word": "espalhados",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_adorei": {
+   "seg": "s9",
+   "word": "adorei",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_caos": {
+   "seg": "s9",
+   "word": "caos",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_patr": {
+   "seg": "s9",
+   "word": "patrimônio",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_imp": {
+   "seg": "s9",
+   "word": "império",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_agora": {
+   "seg": "s10",
+   "word": "Agora",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_seus": {
+   "seg": "s10",
+   "word": "seus",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s11",
+   "word": "Quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s11",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s11",
+   "word": "imóveis",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s12",
+   "word": "Comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s12",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s12",
+   "word": "Direct",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s12",
+   "word": "Direct",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_gta",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "h_fort",
+   "offset": 0.05,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "h_prot",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -26
+  },
+  {
+   "cue": "a_nome",
+   "offset": -0.2,
+   "sound": "whoosh_fold",
+   "gain": -25
+  },
+  {
+   "cue": "a_boob",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -25
+  },
+  {
+   "cue": "a_lenda",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "a_neg",
+   "offset": 0.05,
+   "sound": "click",
+   "gain": -25
+  },
+  {
+   "cue": "b_imov",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25
+  },
+  {
+   "cue": "b_clube",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "b_est",
+   "offset": 0.05,
+   "sound": "tick",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "b_grav",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "c_muda",
+   "offset": -0.25,
+   "sound": "whoosh_up",
+   "gain": -25
+  },
+  {
+   "cue": "c_pers",
+   "offset": 0.05,
+   "sound": "alert",
+   "gain": -30
+  },
+  {
+   "cue": "c_neg",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26
+  },
+  {
+   "cue": "c_int",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "c_poder",
+   "offset": 0.05,
+   "sound": "pin",
+   "gain": -26,
+   "pitch": 6
+  },
+  {
+   "cue": "d_caos",
+   "offset": 0.05,
+   "sound": "hollow",
+   "gain": -29
+  },
+  {
+   "cue": "d_imp",
+   "offset": 0.05,
+   "sound": "block",
+   "gain": -25
+  },
+  {
+   "cue": "e_agora",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -26
+  },
+  {
+   "cue": "cta_sys",
+   "offset": 0.4,
+   "sound": "whoosh_fold",
+   "gain": -27
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.3,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.55,
+   "sound": "typing",
+   "gain": -30
+  },
+  {
+   "cue": "cta_end",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "Am — magnata"
+   },
+   {
+    "at": "cue:a_nome",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.5,
+    "label": "F — Boobie Ike"
+   },
+   {
+    "at": "cue:b_imp",
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     53
+    ],
+    "root": 38,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "Dm — império"
+   },
+   {
+    "at": "cue:c_muda",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — universo"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ]
+ },
+ "formato": "planta-tecnica",
+ "sistemaVisual": "1.0.0",
+ "piloto": {
+  "base": "ATIVO-GTA6-02",
+  "nota": "piloto do Terceiro modelo: mesmo roteiro, voz congelada e timeline do ATIVO-GTA6-02, redesenhados no kit planta v2"
+ }
+}

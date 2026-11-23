@@ -1,0 +1,1411 @@
+{
+ "id": "ATIVO-PLANTA-01",
+ "title": "O magnata imobiliário escondido em GTA VI",
+ "fps": 30,
+ "duration": 50.766666666666666,
+ "durationInFrames": 1523,
+ "narrationEnd": 48.561,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.52
+  },
+  {
+   "id": "t1",
+   "start": 5.52,
+   "end": 12.435
+  },
+  {
+   "id": "t2",
+   "start": 12.435,
+   "end": 22.435
+  },
+  {
+   "id": "t3",
+   "start": 22.435,
+   "end": 40.46
+  },
+  {
+   "id": "cta",
+   "start": 40.46,
+   "end": 50.767
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "GTA VI tem um personagem que fez fortuna com imóveis.",
+   "start": 0.2,
+   "end": 3.86
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "E ele nem é o protagonista.",
+   "start": 4.04,
+   "end": 5.4
+  },
+  {
+   "id": "s3",
+   "scene": "t1",
+   "text": "O nome é Boobie Ike.",
+   "start": 5.64,
+   "end": 7.19
+  },
+  {
+   "id": "s4",
+   "scene": "t1",
+   "text": "A Rockstar o descreve como uma lenda de Vice City que transformou a própria trajetória em negócios.",
+   "start": 7.32,
+   "end": 12.35
+  },
+  {
+   "id": "s5",
+   "scene": "t2",
+   "text": "O império dele envolve imóveis, um clube noturno e um estúdio musical.",
+   "start": 12.52,
+   "end": 16.61
+  },
+  {
+   "id": "s6",
+   "scene": "t2",
+   "text": "E tem mais: ele se associa a Dre’Quan Priest numa gravadora que quer estourar na cidade.",
+   "start": 16.84,
+   "end": 22.27
+  },
+  {
+   "id": "s7",
+   "scene": "t3",
+   "text": "Isso muda totalmente a forma de olhar o universo do jogo.",
+   "start": 22.6,
+   "end": 25.29
+  },
+  {
+   "id": "s8",
+   "scene": "t3",
+   "text": "Não é só perseguição de carro: existem personagens com negócios, interesses e poder espalhados por Vice City.",
+   "start": 25.48,
+   "end": 31.91
+  },
+  {
+   "id": "s9",
+   "scene": "t3",
+   "text": "E eu adorei o detalhe: até num jogo famoso pelo caos, quem entende de patrimônio constrói um império.",
+   "start": 32.12,
+   "end": 38.05
+  },
+  {
+   "id": "s10",
+   "scene": "t3",
+   "text": "Agora, e os seus imóveis de verdade?",
+   "start": 38.36,
+   "end": 40.4
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Quer conhecer um sistema personalizado para organizar seus imóveis, leads e atendimentos?",
+   "start": 40.52,
+   "end": 45.23
+  },
+  {
+   "id": "s12",
+   "scene": "cta",
+   "text": "Comente SISTEMA que eu te envio os detalhes pelo Direct.",
+   "start": 45.4,
+   "end": 48.15
+  }
+ ],
+ "cues": {
+  "h_gta": 0.2,
+  "h_fort": 2.6,
+  "h_imov": 3.32,
+  "h_prot": 4.84,
+  "a_nome": 5.72,
+  "a_boob": 6.063,
+  "a_rock": 7.48,
+  "a_lenda": 8.92,
+  "a_traj": 11.24,
+  "a_neg": 11.96,
+  "b_imp": 12.68,
+  "b_imov": 13.72,
+  "b_clube": 14.577,
+  "b_est": 15.8,
+  "b_mais": 17.32,
+  "b_assoc": 18.12,
+  "b_grav": 20.2,
+  "b_estourar": 21.16,
+  "c_muda": 22.84,
+  "c_univ": 24.6,
+  "c_pers": 26.04,
+  "c_neg": 28.68,
+  "c_int": 29.56,
+  "c_poder": 30.19,
+  "c_esp": 30.54,
+  "d_adorei": 32.44,
+  "d_caos": 34.84,
+  "d_patr": 36.44,
+  "d_imp": 37.8,
+  "e_agora": 38.36,
+  "e_seus": 39.16,
+  "cta_quer": 40.52,
+  "cta_sys": 41.4,
+  "cta_tiles": 43.48,
+  "cta_comment": 45.4,
+  "cta_word": 45.96,
+  "cta_direct": 47.8,
+  "cta_end": 48.15
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 1.24,
+   "words": [
+    {
+     "text": "GTA",
+     "start": 0.2,
+     "end": 0.824,
+     "emph": true
+    },
+    {
+     "text": "VI",
+     "start": 0.824,
+     "end": 1.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.24,
+   "end": 2.12,
+   "words": [
+    {
+     "text": "tem",
+     "start": 1.24,
+     "end": 1.48,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 1.48,
+     "end": 1.56,
+     "emph": false
+    },
+    {
+     "text": "personagem",
+     "start": 1.56,
+     "end": 2.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.12,
+   "end": 3.16,
+   "words": [
+    {
+     "text": "que",
+     "start": 2.12,
+     "end": 2.28,
+     "emph": false
+    },
+    {
+     "text": "fez",
+     "start": 2.28,
+     "end": 2.6,
+     "emph": false
+    },
+    {
+     "text": "fortuna",
+     "start": 2.6,
+     "end": 2.77,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.16,
+   "end": 4.04,
+   "words": [
+    {
+     "text": "com",
+     "start": 3.16,
+     "end": 3.32,
+     "emph": false
+    },
+    {
+     "text": "imóveis.",
+     "start": 3.32,
+     "end": 3.86,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.04,
+   "end": 4.76,
+   "words": [
+    {
+     "text": "E",
+     "start": 4.04,
+     "end": 4.2,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 4.2,
+     "end": 4.36,
+     "emph": false
+    },
+    {
+     "text": "nem",
+     "start": 4.36,
+     "end": 4.6,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 4.6,
+     "end": 4.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.76,
+   "end": 5.64,
+   "words": [
+    {
+     "text": "o",
+     "start": 4.76,
+     "end": 4.84,
+     "emph": false
+    },
+    {
+     "text": "protagonista.",
+     "start": 4.84,
+     "end": 5.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 5.64,
+   "end": 6.063,
+   "words": [
+    {
+     "text": "O",
+     "start": 5.64,
+     "end": 5.72,
+     "emph": false
+    },
+    {
+     "text": "nome",
+     "start": 5.72,
+     "end": 5.96,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 5.96,
+     "end": 6.063,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 6.063,
+   "end": 7.32,
+   "words": [
+    {
+     "text": "Boobie",
+     "start": 6.063,
+     "end": 6.26,
+     "emph": true
+    },
+    {
+     "text": "Ike.",
+     "start": 6.68,
+     "end": 7.19,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 7.32,
+   "end": 8.04,
+   "words": [
+    {
+     "text": "A",
+     "start": 7.32,
+     "end": 7.48,
+     "emph": false
+    },
+    {
+     "text": "Rockstar",
+     "start": 7.48,
+     "end": 8.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 8.04,
+   "end": 8.52,
+   "words": [
+    {
+     "text": "o",
+     "start": 8.04,
+     "end": 8.12,
+     "emph": false
+    },
+    {
+     "text": "descreve",
+     "start": 8.12,
+     "end": 8.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 8.52,
+   "end": 9.24,
+   "words": [
+    {
+     "text": "como",
+     "start": 8.52,
+     "end": 8.68,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 8.68,
+     "end": 8.92,
+     "emph": false
+    },
+    {
+     "text": "lenda",
+     "start": 8.92,
+     "end": 9.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 9.24,
+   "end": 10.12,
+   "words": [
+    {
+     "text": "de",
+     "start": 9.24,
+     "end": 9.4,
+     "emph": false
+    },
+    {
+     "text": "Vice",
+     "start": 9.4,
+     "end": 9.72,
+     "emph": false
+    },
+    {
+     "text": "City",
+     "start": 9.72,
+     "end": 10.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 10.12,
+   "end": 10.84,
+   "words": [
+    {
+     "text": "que",
+     "start": 10.12,
+     "end": 10.28,
+     "emph": false
+    },
+    {
+     "text": "transformou",
+     "start": 10.28,
+     "end": 10.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 10.84,
+   "end": 11.8,
+   "words": [
+    {
+     "text": "a",
+     "start": 10.84,
+     "end": 10.92,
+     "emph": false
+    },
+    {
+     "text": "própria",
+     "start": 10.92,
+     "end": 11.24,
+     "emph": false
+    },
+    {
+     "text": "trajetória",
+     "start": 11.24,
+     "end": 11.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 11.8,
+   "end": 12.52,
+   "words": [
+    {
+     "text": "em",
+     "start": 11.8,
+     "end": 11.96,
+     "emph": false
+    },
+    {
+     "text": "negócios.",
+     "start": 11.96,
+     "end": 12.35,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 12.52,
+   "end": 13.32,
+   "words": [
+    {
+     "text": "O",
+     "start": 12.52,
+     "end": 12.68,
+     "emph": false
+    },
+    {
+     "text": "império",
+     "start": 12.68,
+     "end": 13.0,
+     "emph": true
+    },
+    {
+     "text": "dele",
+     "start": 13.0,
+     "end": 13.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 13.32,
+   "end": 14.44,
+   "words": [
+    {
+     "text": "envolve",
+     "start": 13.32,
+     "end": 13.72,
+     "emph": false
+    },
+    {
+     "text": "imóveis,",
+     "start": 13.72,
+     "end": 14.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 14.44,
+   "end": 15.48,
+   "words": [
+    {
+     "text": "um",
+     "start": 14.44,
+     "end": 14.577,
+     "emph": false
+    },
+    {
+     "text": "clube",
+     "start": 14.577,
+     "end": 14.92,
+     "emph": true
+    },
+    {
+     "text": "noturno",
+     "start": 14.92,
+     "end": 15.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 15.48,
+   "end": 16.84,
+   "words": [
+    {
+     "text": "e",
+     "start": 15.48,
+     "end": 15.64,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 15.64,
+     "end": 15.8,
+     "emph": false
+    },
+    {
+     "text": "estúdio",
+     "start": 15.8,
+     "end": 16.28,
+     "emph": true
+    },
+    {
+     "text": "musical.",
+     "start": 16.28,
+     "end": 16.61,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 16.84,
+   "end": 17.8,
+   "words": [
+    {
+     "text": "E",
+     "start": 16.84,
+     "end": 17.08,
+     "emph": false
+    },
+    {
+     "text": "tem",
+     "start": 17.08,
+     "end": 17.32,
+     "emph": false
+    },
+    {
+     "text": "mais:",
+     "start": 17.32,
+     "end": 17.65,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 17.8,
+   "end": 18.6,
+   "words": [
+    {
+     "text": "ele",
+     "start": 17.8,
+     "end": 17.96,
+     "emph": false
+    },
+    {
+     "text": "se",
+     "start": 17.96,
+     "end": 18.12,
+     "emph": false
+    },
+    {
+     "text": "associa",
+     "start": 18.12,
+     "end": 18.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 18.6,
+   "end": 19.8,
+   "words": [
+    {
+     "text": "a",
+     "start": 18.6,
+     "end": 18.697,
+     "emph": false
+    },
+    {
+     "text": "Dre’Quan",
+     "start": 18.697,
+     "end": 19.377,
+     "emph": true
+    },
+    {
+     "text": "Priest",
+     "start": 19.377,
+     "end": 19.45,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 19.96,
+   "end": 20.76,
+   "words": [
+    {
+     "text": "numa",
+     "start": 19.96,
+     "end": 20.2,
+     "emph": false
+    },
+    {
+     "text": "gravadora",
+     "start": 20.2,
+     "end": 20.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 20.76,
+   "end": 21.72,
+   "words": [
+    {
+     "text": "que",
+     "start": 20.76,
+     "end": 20.92,
+     "emph": false
+    },
+    {
+     "text": "quer",
+     "start": 20.92,
+     "end": 21.16,
+     "emph": false
+    },
+    {
+     "text": "estourar",
+     "start": 21.16,
+     "end": 21.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 21.72,
+   "end": 22.6,
+   "words": [
+    {
+     "text": "na",
+     "start": 21.72,
+     "end": 21.88,
+     "emph": false
+    },
+    {
+     "text": "cidade.",
+     "start": 21.88,
+     "end": 22.27,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 22.6,
+   "end": 23.24,
+   "words": [
+    {
+     "text": "Isso",
+     "start": 22.6,
+     "end": 22.84,
+     "emph": false
+    },
+    {
+     "text": "muda",
+     "start": 22.84,
+     "end": 23.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 23.24,
+   "end": 23.72,
+   "words": [
+    {
+     "text": "totalmente",
+     "start": 23.24,
+     "end": 23.35,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 23.72,
+   "end": 24.52,
+   "words": [
+    {
+     "text": "a",
+     "start": 23.72,
+     "end": 23.88,
+     "emph": false
+    },
+    {
+     "text": "forma",
+     "start": 23.88,
+     "end": 24.12,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 24.12,
+     "end": 24.28,
+     "emph": false
+    },
+    {
+     "text": "olhar",
+     "start": 24.28,
+     "end": 24.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 24.52,
+   "end": 25.48,
+   "words": [
+    {
+     "text": "o",
+     "start": 24.52,
+     "end": 24.6,
+     "emph": false
+    },
+    {
+     "text": "universo",
+     "start": 24.6,
+     "end": 25.0,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 25.0,
+     "end": 25.08,
+     "emph": false
+    },
+    {
+     "text": "jogo.",
+     "start": 25.08,
+     "end": 25.29,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 25.48,
+   "end": 26.04,
+   "words": [
+    {
+     "text": "Não",
+     "start": 25.48,
+     "end": 25.64,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 25.64,
+     "end": 25.8,
+     "emph": false
+    },
+    {
+     "text": "só",
+     "start": 25.8,
+     "end": 26.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 26.04,
+   "end": 27.24,
+   "words": [
+    {
+     "text": "perseguição",
+     "start": 26.04,
+     "end": 26.68,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 26.68,
+     "end": 26.76,
+     "emph": false
+    },
+    {
+     "text": "carro:",
+     "start": 26.76,
+     "end": 26.85,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 27.24,
+   "end": 28.44,
+   "words": [
+    {
+     "text": "existem",
+     "start": 27.24,
+     "end": 27.72,
+     "emph": false
+    },
+    {
+     "text": "personagens",
+     "start": 27.72,
+     "end": 28.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 28.44,
+   "end": 29.56,
+   "words": [
+    {
+     "text": "com",
+     "start": 28.44,
+     "end": 28.68,
+     "emph": false
+    },
+    {
+     "text": "negócios,",
+     "start": 28.68,
+     "end": 29.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 29.56,
+   "end": 30.12,
+   "words": [
+    {
+     "text": "interesses",
+     "start": 29.56,
+     "end": 30.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 30.12,
+   "end": 30.54,
+   "words": [
+    {
+     "text": "e",
+     "start": 30.12,
+     "end": 30.19,
+     "emph": false
+    },
+    {
+     "text": "poder",
+     "start": 30.19,
+     "end": 30.54,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 30.54,
+   "end": 31.24,
+   "words": [
+    {
+     "text": "espalhados",
+     "start": 30.54,
+     "end": 31.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 31.24,
+   "end": 32.12,
+   "words": [
+    {
+     "text": "por",
+     "start": 31.24,
+     "end": 31.4,
+     "emph": false
+    },
+    {
+     "text": "Vice",
+     "start": 31.4,
+     "end": 31.72,
+     "emph": false
+    },
+    {
+     "text": "City.",
+     "start": 31.72,
+     "end": 31.91,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 32.12,
+   "end": 32.84,
+   "words": [
+    {
+     "text": "E",
+     "start": 32.12,
+     "end": 32.28,
+     "emph": false
+    },
+    {
+     "text": "eu",
+     "start": 32.28,
+     "end": 32.44,
+     "emph": false
+    },
+    {
+     "text": "adorei",
+     "start": 32.44,
+     "end": 32.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 32.84,
+   "end": 33.48,
+   "words": [
+    {
+     "text": "o",
+     "start": 32.84,
+     "end": 32.92,
+     "emph": false
+    },
+    {
+     "text": "detalhe:",
+     "start": 32.92,
+     "end": 33.21,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 33.48,
+   "end": 34.28,
+   "words": [
+    {
+     "text": "até",
+     "start": 33.48,
+     "end": 33.72,
+     "emph": false
+    },
+    {
+     "text": "num",
+     "start": 33.72,
+     "end": 33.96,
+     "emph": false
+    },
+    {
+     "text": "jogo",
+     "start": 33.96,
+     "end": 34.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 34.28,
+   "end": 35.48,
+   "words": [
+    {
+     "text": "famoso",
+     "start": 34.28,
+     "end": 34.68,
+     "emph": false
+    },
+    {
+     "text": "pelo",
+     "start": 34.68,
+     "end": 34.84,
+     "emph": false
+    },
+    {
+     "text": "caos,",
+     "start": 34.84,
+     "end": 35.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 35.48,
+   "end": 36.2,
+   "words": [
+    {
+     "text": "quem",
+     "start": 35.48,
+     "end": 35.8,
+     "emph": false
+    },
+    {
+     "text": "entende",
+     "start": 35.8,
+     "end": 36.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 36.2,
+   "end": 37.16,
+   "words": [
+    {
+     "text": "de",
+     "start": 36.2,
+     "end": 36.31,
+     "emph": false
+    },
+    {
+     "text": "patrimônio",
+     "start": 36.44,
+     "end": 37.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 37.16,
+   "end": 37.64,
+   "words": [
+    {
+     "text": "constrói",
+     "start": 37.16,
+     "end": 37.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 37.64,
+   "end": 38.36,
+   "words": [
+    {
+     "text": "um",
+     "start": 37.64,
+     "end": 37.8,
+     "emph": false
+    },
+    {
+     "text": "império.",
+     "start": 37.8,
+     "end": 38.05,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 38.36,
+   "end": 38.76,
+   "words": [
+    {
+     "text": "Agora,",
+     "start": 38.36,
+     "end": 38.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 38.76,
+   "end": 39.96,
+   "words": [
+    {
+     "text": "e",
+     "start": 38.76,
+     "end": 39.0,
+     "emph": false
+    },
+    {
+     "text": "os",
+     "start": 39.0,
+     "end": 39.16,
+     "emph": false
+    },
+    {
+     "text": "seus",
+     "start": 39.16,
+     "end": 39.4,
+     "emph": true
+    },
+    {
+     "text": "imóveis",
+     "start": 39.4,
+     "end": 39.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 39.96,
+   "end": 40.52,
+   "words": [
+    {
+     "text": "de",
+     "start": 39.96,
+     "end": 40.04,
+     "emph": false
+    },
+    {
+     "text": "verdade?",
+     "start": 40.04,
+     "end": 40.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 40.52,
+   "end": 41.24,
+   "words": [
+    {
+     "text": "Quer",
+     "start": 40.52,
+     "end": 40.59,
+     "emph": false
+    },
+    {
+     "text": "conhecer",
+     "start": 40.84,
+     "end": 41.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 41.24,
+   "end": 42.52,
+   "words": [
+    {
+     "text": "um",
+     "start": 41.24,
+     "end": 41.4,
+     "emph": false
+    },
+    {
+     "text": "sistema",
+     "start": 41.4,
+     "end": 41.8,
+     "emph": false
+    },
+    {
+     "text": "personalizado",
+     "start": 41.8,
+     "end": 42.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 42.52,
+   "end": 43.16,
+   "words": [
+    {
+     "text": "para",
+     "start": 42.52,
+     "end": 42.68,
+     "emph": false
+    },
+    {
+     "text": "organizar",
+     "start": 42.68,
+     "end": 43.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 43.16,
+   "end": 44.6,
+   "words": [
+    {
+     "text": "seus",
+     "start": 43.16,
+     "end": 43.48,
+     "emph": false
+    },
+    {
+     "text": "imóveis,",
+     "start": 43.48,
+     "end": 44.12,
+     "emph": true
+    },
+    {
+     "text": "leads",
+     "start": 44.12,
+     "end": 44.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 44.6,
+   "end": 45.4,
+   "words": [
+    {
+     "text": "e",
+     "start": 44.6,
+     "end": 44.68,
+     "emph": false
+    },
+    {
+     "text": "atendimentos?",
+     "start": 44.68,
+     "end": 45.23,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 45.4,
+   "end": 46.44,
+   "words": [
+    {
+     "text": "Comente",
+     "start": 45.4,
+     "end": 45.96,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 45.96,
+     "end": 46.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 46.44,
+   "end": 47.16,
+   "words": [
+    {
+     "text": "que",
+     "start": 46.44,
+     "end": 46.6,
+     "emph": false
+    },
+    {
+     "text": "eu",
+     "start": 46.6,
+     "end": 46.68,
+     "emph": false
+    },
+    {
+     "text": "te",
+     "start": 46.68,
+     "end": 46.817,
+     "emph": false
+    },
+    {
+     "text": "envio",
+     "start": 46.817,
+     "end": 47.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 47.16,
+   "end": 47.56,
+   "words": [
+    {
+     "text": "os",
+     "start": 47.16,
+     "end": 47.24,
+     "emph": false
+    },
+    {
+     "text": "detalhes",
+     "start": 47.24,
+     "end": 47.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 47.56,
+   "end": 48.65,
+   "words": [
+    {
+     "text": "pelo",
+     "start": 47.56,
+     "end": 47.8,
+     "emph": false
+    },
+    {
+     "text": "Direct.",
+     "start": 47.8,
+     "end": 48.15,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

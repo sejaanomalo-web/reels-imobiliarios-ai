@@ -140,6 +140,20 @@ def check(ep_id: str) -> int:
                 errs.append(f"esteira: estilo {n} exige cenas com o kit src/{KITS[n]}.tsx")
             if n == 5 and re.search(r"estilos/(palitinho|lousa|planta|tipografia)", src_all):
                 errs.append("esteira: estilo 5 (Painel) não deve usar kits dos estilos 1–4")
+    # 9b. TERCEIRO MODELO / ESTILO 3 — PLANTA TÉCNICA v2 (skill .claude/skills/terceiro-modelo-planta-tecnica, 23/11/2026).
+    #     Fora da esteira (formato planta-tecnica / ATIVO-PLANTA): kit, fundo, mergulho e fecho CtaPlanta. Na esteira (estilo 3):
+    #     kit v2 (FundoPlanta + mergulho); fecho Cta padrão ou CtaPlanta. Os episódios entregues no v1 são legado do modelo.
+    _legado_planta = {"ATIVO-GTA6-02", "ATIVO-GTA6-08", "ATIVO-L60-04"}
+    if ep.get("formato") == "planta-tecnica" or ep_id.startswith("ATIVO-PLANTA") or (ep.get("esteira") and ep.get("estilo") == 3 and ep_id not in _legado_planta):
+        allsrc = "\n".join(open(f).read() for f in files)
+        needs = [("estilos/planta", "cenas com o kit src/estilos/planta.tsx"), ("FundoPlanta", "prancha FundoPlanta (marinho, grade neutra)"), ("mergulho", "transição de folha por mergulho (sem crossfade solto)")]
+        if not ep.get("esteira"):
+            needs.append(("CtaPlanta", "fecho CtaPlanta (projeto SEU SISTEMA + campo SISTEMA + logo)"))
+        for need, why in needs:
+            if need not in allsrc:
+                errs.append(f"planta técnica: falta {why}")
+        if not ep.get("esteira") and ep.get("estilo"):
+            errs.append("formato planta-tecnica criado fora da esteira não deve ter `estilo` (use novo_episodio.build(..., formato=\"planta-tecnica\"))")
     # 10. FORMATO CARTOON EXPLICATIVO (skill .claude/skills/primeiro-modelo-cartoon-explicativo): kit, legenda karaokê e fecho cartoon
     if ep.get("formato") == "pictograma-cinematografico" or ep_id.startswith("ATIVO-PICTO"):
         allsrc = "\n".join(open(f).read() for f in files)

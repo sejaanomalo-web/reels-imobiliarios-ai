@@ -28,11 +28,13 @@
 - **Movimento-assinatura:** **o traço se desenha na hora da fala** (`p` de 0→1 por cue), texto "escrito" letra a letra, seta que liga causa → efeito.
 - **Evitar:** encher a lousa (máx. ~3 desenhos por quadro; apague/esmaeça o anterior).
 
-## 3. PLANTA TÉCNICA — blueprint (`src/estilos/planta.tsx`)
-- **Quando brilha:** processos, fluxos, estrutura, organização ("o atendimento como um projeto").
-- **Gramática:** `FundoPlanta` (grade verde), `Prancha` (svg), **cômodo = etapa** (`Comodo`), **cota = tempo/medida** (`Cota`), **porta = passagem** (`Porta` aberta/bloqueada), **falha = chamada vermelha** (`Chamada`), **carimbo** técnico (`Carimbo`, sempre ILUSTRATIVO).
-- **Movimento-assinatura:** paredes que se traçam, cotas que se estendem, câmera que percorre a planta como um "tour".
-- **Evitar:** planta de imóvel real com medidas reais (é metáfora); texto técnico demais (mín. 24 px).
+## 3. PLANTA TÉCNICA — blueprint (`src/estilos/planta.tsx`, v2 de 23/11/2026)
+> **Este estilo é também o Terceiro modelo.** O manual completo (regras, grade, montagem, kit, QA) está em `.claude/skills/terceiro-modelo-planta-tecnica/SKILL.md`. Leia a skill antes de produzir um episódio no estilo 3.
+- **Quando brilha:** processos, fluxos, estrutura, frentes de negócio, crescimento ("o atendimento como um projeto").
+- **Gramática (v2):** `FundoPlanta` (prancha marinho, grade neutra, uma luz), `Contorno` (linha dupla), **cômodo = etapa** (`Comodo`, linha branca; verde só com `acende`), **cota = medida/tempo** (`Cota`/`CotaV`), **chamada** (`Chamada`: vermelha = falha), **porta**, **rota**, **elevação = crescimento** (`Elevacao`, nunca gráfico de barras), **carimbo** técnico (sempre ILUSTRATIVO).
+- **Movimento-assinatura:** paredes que se traçam na palavra; o cômodo acende; a folha nova nasce do cômodo em que a câmera **mergulha** (`mergulho`).
+- **Fecho na esteira:** o `Cta` comum aos 5 estilos (regra de 21/11). O `CtaPlanta` é o fecho do modelo fora da esteira.
+- **Evitar:** fundo ou grade verdes (era o v1), tudo verde, planta de imóvel real com medidas reais, moldura vazia esperando a fala, texto de 24 px em frase.
 
 ## 4. TIPOGRAFIA CINÉTICA (`src/estilos/tipografia.tsx`)
 - **Quando brilha:** mitos x verdades, números fortes, frases de efeito, manchetes, listas curtas.
