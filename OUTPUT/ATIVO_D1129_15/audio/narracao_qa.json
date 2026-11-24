@@ -1,0 +1,90 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.53,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.95,
+    "palavras_nao_reconhecidas": [
+      "Dieese"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.7,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.8,
+    "palavras_nao_reconhecidas": [
+      "2024"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 5.26,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 3.29,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 1.25,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.34,
+    "palavras_nao_reconhecidas": [
+      "pra"
+    ]
+  },
+  {
+    "seg": "s10",
+    "seconds": 1.73,
+    "palavras_nao_reconhecidas": [
+      "Férias",
+      "sim"
+    ]
+  },
+  {
+    "seg": "s11",
+    "seconds": 4.43,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 43.18,
+    "asr_match": 0.947,
+    "aligned_words": "117/123",
+    "words_per_min": 171,
+    "heard": "Todo ano tem corretor que em dezembro pendura a plaquinha. Volto em janeiro. Afinal, dezembro é mês morto. Será? O décimo terceiro deve colocar quase 400 bilhões de reais na economia este ano, segundo o Diez. E o prazo das parcelas vai até 18 de dezembro. No financiamento com o dinheiro da poupança, dezembro de 2024 foi o melhor dezembro da história. E no aluguel, a procura costuma subir no começo do ano, quando contratos vencem e as aulas voltam. Ou seja, dezembro não é o mês em que o cliente some, é um mês em que ele decide. E em janeiro, ele já sabe para quem vai ligar. Fere assim, sumiço não. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 45.6,
+      "wpm": 162
+    },
+    "pausas_moldadas": {
+      "n": 17,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.42,
+    "final": {
+      "seconds": 43.18,
+      "wpm": 171
+    }
+  }
+]

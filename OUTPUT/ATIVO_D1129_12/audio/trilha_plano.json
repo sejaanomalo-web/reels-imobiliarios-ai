@@ -1,0 +1,152 @@
+{
+ "plano": [
+  {
+   "secao": "entrada",
+   "tipo": "intro",
+   "opcao": "7/13 (aparo do início)",
+   "fonte": [
+    0.0,
+    6.15
+   ],
+   "mantido": 3.5,
+   "removido": 2.65,
+   "saida_ini": 0.0
+  },
+  {
+   "secao": "cama",
+   "tipo": "cama",
+   "opcao": "49/89 (aparo do fim)",
+   "fonte": [
+    6.15,
+    50.65
+   ],
+   "mantido": 24.5,
+   "removido": 20.0,
+   "saida_ini": 3.5
+  },
+  {
+   "secao": "cama2",
+   "tipo": "cama",
+   "opcao": "inteira",
+   "fonte": [
+    50.65,
+    77.15
+   ],
+   "mantido": 26.5,
+   "removido": 0.0,
+   "saida_ini": 28.0
+  },
+  {
+   "secao": "final",
+   "tipo": "final",
+   "opcao": "inteira",
+   "fonte": [
+    77.15,
+    79.1
+   ],
+   "mantido": 1.95,
+   "removido": 0.0,
+   "saida_ini": 54.5
+  }
+ ],
+ "pecas": [
+  {
+   "secao": "entrada",
+   "fonte": [
+    2.65,
+    6.15
+   ],
+   "saida": [
+    0.0,
+    3.5
+   ]
+  },
+  {
+   "secao": "cama",
+   "fonte": [
+    6.15,
+    30.65
+   ],
+   "saida": [
+    3.5,
+    28.0
+   ]
+  },
+  {
+   "secao": "cama2",
+   "fonte": [
+    50.65,
+    77.15
+   ],
+   "saida": [
+    28.0,
+    54.5
+   ]
+  },
+  {
+   "secao": "final",
+   "fonte": [
+    77.15,
+    79.1
+   ],
+   "saida": [
+    54.5,
+    56.45
+   ]
+  }
+ ],
+ "ancoras": [
+  {
+   "funcao": "virada",
+   "secao": "cama2",
+   "alvo": 27.04,
+   "obtido": 28.0,
+   "erro": 0.96
+  }
+ ],
+ "ancoras_ignoradas": [
+  {
+   "funcao": "insight",
+   "alvo": 42.68,
+   "motivo": "esta faixa não tem evento para essa função (use efeito/respiro)"
+  },
+  {
+   "funcao": "tensao",
+   "alvo": 14.28,
+   "motivo": "esta faixa não tem evento para essa função (use efeito/respiro)"
+  }
+ ],
+ "fim_musical": 56.45,
+ "custo": 14.59,
+ "modo": "SHORTEN",
+ "ref_costura": 1.0904,
+ "final": {
+  "tipo": "natural",
+  "fim_musical": 56.45,
+  "video": 57.2,
+  "ajuste": "cauda sintética 0.75 s (reverberação da última batida)"
+ },
+ "cortes": [
+  {
+   "saida": 28.0,
+   "sai_da_fonte": 30.65,
+   "entra_na_fonte": 50.65,
+   "crossfade_s": 0.06,
+   "razao": 1.02,
+   "nota": "natural",
+   "salto_amostra": 0.05
+  }
+ ],
+ "versao": 1,
+ "trilha": "T01",
+ "nome": "Pulso grave contínuo",
+ "licenca": "autorizada",
+ "duracao_video": 57.2,
+ "amostras": 2745600,
+ "alteracao_velocidade_pct": 0.0,
+ "alteracao_tom_semitons": 0,
+ "lufs": -23.2,
+ "true_peak": -7.2,
+ "bpm": 120.0,
+ "tom": "Dó menor?"
+}
