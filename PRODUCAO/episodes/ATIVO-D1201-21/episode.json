@@ -1,0 +1,598 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1201-21",
+ "lote": "D1201",
+ "title": "Exclusividade é compromisso",
+ "outputDir": "ATIVO_D1201_21",
+ "deliverables": {
+  "final": "ATIVO_D1201_21_FINAL.mp4",
+  "narration": "ATIVO_D1201_21_NARRACAO.wav",
+  "subtitles": "ATIVO_D1201_21_legendas.srt",
+  "cover": "ATIVO_D1201_21_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-01/ATIVO-D1201-21_exclusividade_e_compromisso.md",
+ "apuracao": {
+  "fato": "Código Civil, art. 726: concluído o negócio diretamente entre as partes, nenhuma remuneração é devida; se, por escrito, for ajustada a corretagem com exclusividade, o corretor tem direito à remuneração integral, ainda que o negócio se realize sem a sua mediação, salvo se comprovada sua inércia ou ociosidade.",
+  "verificado_em": "2026-11-24",
+  "fontes": [
+   "https://crecies.gov.br/codigo-civil-corretagem",
+   "https://www.projuris.com.br/ccc/cc-comentado-da-corretagem-art-722-ao-art-729/"
+  ],
+  "ressalvas": "'inércia' (o artigo diz 'inércia ou ociosidade'); não é orientação jurídica (selo)"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que pede exclusividade na captação",
+  "territorio": "ideia",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "exclusividade garante a comissão",
+  "hipotese": "exclusividade garante a chance de trabalhar; pede-se com plano e prestação de contas"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Muito proprietário tem medo de assinar exclusividade.",
+   "caption": "Muito proprietário | tem *medo* | de assinar | *exclusividade.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "E muito corretor pede exclusividade do jeito errado.",
+   "caption": "E muito corretor | pede exclusividade | do jeito *errado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "lei",
+   "text": "A lei protege o corretor exclusivo.",
+   "caption": "A lei *protege* | o corretor exclusivo.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "lei",
+   "text": "Pelo Código Civil, se a exclusividade está por escrito, a comissão é devida mesmo se o dono vender sozinho.",
+   "caption": "Pelo *Código Civil,* | se a exclusividade | está *por escrito,* | a comissão é *devida* | mesmo se o dono | vender *sozinho.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "condicao",
+   "text": "Mas tem uma condição no fim do artigo: salvo se ficar provada a inércia do corretor.",
+   "caption": "Mas tem uma *condição* | no fim do artigo: | salvo se ficar provada | a *inércia* | do corretor.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "virada",
+   "text": "Ou seja: a exclusividade não garante a comissão.",
+   "caption": "Ou seja: | a exclusividade | *não garante* | a comissão.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "virada",
+   "text": "Ela garante a chance de trabalhar.",
+   "caption": "Ela garante | a *chance* | de *trabalhar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "plano",
+   "text": "Por isso, peça exclusividade mostrando o plano: o que você vai fazer, em quanto tempo, e como vai prestar contas toda semana.",
+   "caption": "Por isso, | peça exclusividade | mostrando o *plano:* | o que você vai *fazer,* | em quanto *tempo,* | e como vai | prestar *contas* | toda *semana.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "desfecho",
+   "text": "Exclusividade não é posse do imóvel.",
+   "caption": "Exclusividade | não é *posse* | do imóvel.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "desfecho",
+   "text": "É compromisso de trabalho por escrito.",
+   "caption": "É *compromisso* | de trabalho | por escrito.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "lei": 0.3,
+  "condicao": 0.35,
+  "virada": 0.45,
+  "plano": 0.35,
+  "desfecho": 0.4,
+  "cta": 0.35
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_medo": {
+   "seg": "s1",
+   "word": "medo",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_exclusividade": {
+   "seg": "s1",
+   "word": "exclusividade",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_errado": {
+   "seg": "s2",
+   "word": "errado",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_protege": {
+   "seg": "s3",
+   "word": "protege",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_codigo": {
+   "seg": "s4",
+   "word": "Código",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_escrito": {
+   "seg": "s4",
+   "word": "escrito",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_devida": {
+   "seg": "s4",
+   "word": "devida",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_sozinho": {
+   "seg": "s4",
+   "word": "sozinho",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_condicao": {
+   "seg": "s5",
+   "word": "condição",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_artigo": {
+   "seg": "s5",
+   "word": "artigo",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_inercia": {
+   "seg": "s5",
+   "word": "inércia",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_ouseja": {
+   "seg": "s6",
+   "word": "Ou",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_garante": {
+   "seg": "s6",
+   "word": "garante",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_chance": {
+   "seg": "s7",
+   "word": "chance",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_trabalhar": {
+   "seg": "s7",
+   "word": "trabalhar",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_plano": {
+   "seg": "s8",
+   "word": "plano",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_fazer": {
+   "seg": "s8",
+   "word": "fazer",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_tempo": {
+   "seg": "s8",
+   "word": "tempo",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_contas": {
+   "seg": "s8",
+   "word": "contas",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_semana": {
+   "seg": "s8",
+   "word": "semana",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_posse": {
+   "seg": "s9",
+   "word": "posse",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_compromisso": {
+   "seg": "s10",
+   "word": "compromisso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s11",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s11",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s11",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s11",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s11",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s11",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s11",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s11",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s11",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_medo",
+   "offset": 0.0,
+   "sound": "thump",
+   "gain": -28,
+   "pitch": -3
+  },
+  {
+   "cue": "h_errado",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "l_protege",
+   "offset": -0.05,
+   "sound": "whoosh_fold",
+   "gain": -30
+  },
+  {
+   "cue": "l_escrito",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "l_devida",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "c_condicao",
+   "offset": -0.05,
+   "sound": "hollow",
+   "gain": -29
+  },
+  {
+   "cue": "c_inercia",
+   "offset": 0.0,
+   "sound": "thump",
+   "gain": -28,
+   "pitch": -4
+  },
+  {
+   "cue": "v_ouseja",
+   "offset": -0.05,
+   "sound": "whoosh_fold",
+   "gain": -29
+  },
+  {
+   "cue": "v_chance",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "p_plano",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27
+  },
+  {
+   "cue": "p_fazer",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 2
+  },
+  {
+   "cue": "p_tempo",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 4
+  },
+  {
+   "cue": "p_contas",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "f_posse",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -29
+  },
+  {
+   "cue": "f_compromisso",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -28
+  },
+  {
+   "cue": "f_compromisso",
+   "offset": 0.3,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.1,
+   "sound": "shimmer",
+   "gain": -25
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 2.3,
+   "sound": "chord",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:l_protege",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_ouseja",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_posse",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T03",
+  "ancoras": {
+   "virada": "cue:v_ouseja",
+   "descoberta": "cue:v_chance",
+   "insight": "cue:f_compromisso"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "pictograma-cinematografico",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "ideia",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "pull",
+  "justificativaModelo": "tese reflexiva com símbolos (chave, contrato, semanas que acendem): noir e pictograma.",
+  "justificativaHorario": "21h: reflexão de fim de dia.",
+  "trilha": "T03",
+  "justificativaTrilha": "virada e descoberta: T03 abre na virada.",
+  "data": "2026-12-01",
+  "slot": "21:00",
+  "arquivo": "PRODUCAO/grade/2026-12-01.json"
+ },
+ "modelos4": true,
+ "modelo": 2,
+ "modeloNome": "Pictograma cinematográfico"
+}

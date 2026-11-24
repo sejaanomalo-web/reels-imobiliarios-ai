@@ -1,0 +1,598 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "2018": "dois mil e dezoito"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1201-18",
+ "lote": "D1201",
+ "title": "Sete dias para desistir",
+ "outputDir": "ATIVO_D1201_18",
+ "deliverables": {
+  "final": "ATIVO_D1201_18_FINAL.mp4",
+  "narration": "ATIVO_D1201_18_NARRACAO.wav",
+  "subtitles": "ATIVO_D1201_18_legendas.srt",
+  "cover": "ATIVO_D1201_18_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-01/ATIVO-D1201-18_sete_dias_para_desistir.md",
+ "apuracao": {
+  "fato": "Lei 13.786/2018 (Lei do Distrato), §10 do art. 67-A da Lei 4.591/1964: contratos firmados em estandes de vendas e fora da sede do incorporador permitem arrependimento em 7 dias, com devolução de todos os valores pagos; parte da doutrina inclui a corretagem.",
+  "verificado_em": "2026-11-24",
+  "fontes": [
+   "https://www.irib.org.br/?p=51128",
+   "https://jus.com.br/artigos/83039/do-direito-de-arrependimento-na-aquisicao-de-unidade-imobiliaria-em-incorporacao-imobiliaria-e-em-loteamento-urbano",
+   "https://irib.org.br/noticias/detalhes/artigo-undefined-migalhas-o-direito-de-arrependimento-na-aquisicao-de-imoveis-na-planta-a-protecao-da-precipitacao-undefined-por-iuri-bontempo-costa"
+  ],
+  "ressalvas": "escopo: imóvel na planta, estande ou fora da sede; corretagem = parte dos especialistas; não é orientação jurídica (selo)"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de lançamento que vende no estande",
+  "territorio": "e-se",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "venda assinada no estande está fechada",
+  "hipotese": "o arrependimento de 7 dias torna a venda por pressão frágil"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "E se o comprador pudesse desistir do apartamento uma semana depois de assinar?",
+   "caption": "E se o comprador | pudesse *desistir* | do apartamento | uma *semana* | depois de *assinar?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "No imóvel na planta, em alguns casos, ele pode.",
+   "caption": "No imóvel *na planta,* | em alguns casos, | ele *pode.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "lei",
+   "text": "Pela Lei do Distrato, de 2018, quem compra no estande de vendas ou fora da sede da incorporadora tem 7 dias para se arrepender.",
+   "caption": "Pela *Lei do Distrato,* | de 2018, | quem compra | no *estande* de vendas | ou fora da *sede* | da incorporadora | tem *7 dias* | para se *arrepender.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "devolve",
+   "text": "E recebe de volta tudo o que pagou.",
+   "caption": "E recebe *de volta* | *tudo* o que pagou.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "devolve",
+   "text": "Para parte dos especialistas, inclusive o valor da corretagem.",
+   "caption": "Para parte | dos especialistas, | inclusive o valor | da *corretagem.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "virada",
+   "text": "Ou seja: a venda no estande só termina de verdade depois de 7 dias.",
+   "caption": "Ou seja: | a venda no estande | só *termina* de verdade | depois de *7 dias.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "pressao",
+   "text": "Por isso, pressão para fechar no impulso costuma sair cara.",
+   "caption": "Por isso, | *pressão* | para fechar | no *impulso* | costuma sair *cara.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "pressao",
+   "text": "Quem compra empurrado tem uma semana inteira para pensar.",
+   "caption": "Quem compra *empurrado* | tem uma semana inteira | para *pensar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "desfecho",
+   "text": "Venda boa é a que continua de pé no oitavo dia.",
+   "caption": "Venda *boa* | é a que continua | de pé | no *oitavo dia.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "lei": 0.3,
+  "devolve": 0.3,
+  "virada": 0.4,
+  "pressao": 0.35,
+  "desfecho": 0.4,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_desistir": {
+   "seg": "s1",
+   "word": "desistir",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_semana": {
+   "seg": "s1",
+   "word": "semana",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_assinar": {
+   "seg": "s1",
+   "word": "assinar",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_planta": {
+   "seg": "s2",
+   "word": "planta",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_pode": {
+   "seg": "s2",
+   "word": "pode",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_lei": {
+   "seg": "s3",
+   "word": "Lei",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_2018": {
+   "seg": "s3",
+   "word": "2018",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_estande": {
+   "seg": "s3",
+   "word": "estande",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_sede": {
+   "seg": "s3",
+   "word": "sede",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_7": {
+   "seg": "s3",
+   "word": "7",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_arrepender": {
+   "seg": "s3",
+   "word": "arrepender",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_volta": {
+   "seg": "s4",
+   "word": "volta",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_tudo": {
+   "seg": "s4",
+   "word": "tudo",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_especialistas": {
+   "seg": "s5",
+   "word": "especialistas",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_corretagem": {
+   "seg": "s5",
+   "word": "corretagem",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_ouseja": {
+   "seg": "s6",
+   "word": "Ou",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_termina": {
+   "seg": "s6",
+   "word": "termina",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_7": {
+   "seg": "s6",
+   "word": "7",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_pressao": {
+   "seg": "s7",
+   "word": "pressão",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_impulso": {
+   "seg": "s7",
+   "word": "impulso",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_cara": {
+   "seg": "s7",
+   "word": "cara",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_empurrado": {
+   "seg": "s8",
+   "word": "empurrado",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_pensar": {
+   "seg": "s8",
+   "word": "pensar",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_boa": {
+   "seg": "s9",
+   "word": "boa",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_oitavo": {
+   "seg": "s9",
+   "word": "oitavo",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s10",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s10",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s10",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s10",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s10",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s10",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s10",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s10",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s10",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_desistir",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28
+  },
+  {
+   "cue": "h_assinar",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "h_pode",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "l_lei",
+   "offset": -0.05,
+   "sound": "whoosh_fold",
+   "gain": -30
+  },
+  {
+   "cue": "l_estande",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -3
+  },
+  {
+   "cue": "l_7",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27
+  },
+  {
+   "cue": "l_7",
+   "offset": 0.12,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "d_volta",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -28
+  },
+  {
+   "cue": "d_corretagem",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28
+  },
+  {
+   "cue": "v_ouseja",
+   "offset": -0.05,
+   "sound": "whoosh_fold",
+   "gain": -29
+  },
+  {
+   "cue": "v_7",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -28
+  },
+  {
+   "cue": "p_pressao",
+   "offset": 0.0,
+   "sound": "thump",
+   "gain": -28,
+   "pitch": -3
+  },
+  {
+   "cue": "p_cara",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "f_oitavo",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "f_oitavo",
+   "offset": 0.3,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.2,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.7,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:l_lei",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_ouseja",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_boa",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T04",
+  "ancoras": {
+   "virada": "cue:v_ouseja",
+   "tensao": "cue:p_cara",
+   "insight": "cue:f_oitavo"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "maquete-3d",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "e-se",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "estande, contrato, 7 blocos de calendário e o dinheiro que volta num arco de pontos: partes que se relacionam no espaço.",
+  "justificativaHorario": "18h: premissa curiosa no pico.",
+  "trilha": "T04",
+  "justificativaTrilha": "pressão e prazo pedem pulso de tensão (T04, ainda não usada na semana).",
+  "data": "2026-12-01",
+  "slot": "18:00",
+  "arquivo": "PRODUCAO/grade/2026-12-01.json"
+ },
+ "modelos4": true,
+ "modelo": 4,
+ "modeloNome": "Maquete 3D"
+}

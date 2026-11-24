@@ -1,0 +1,612 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "2027": "dois mil e vinte e sete",
+  "1º": "primeiro"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1201-12",
+ "lote": "D1201",
+ "title": "A nota fiscal do aluguel",
+ "outputDir": "ATIVO_D1201_12",
+ "deliverables": {
+  "final": "ATIVO_D1201_12_FINAL.mp4",
+  "narration": "ATIVO_D1201_12_NARRACAO.wav",
+  "subtitles": "ATIVO_D1201_12_legendas.srt",
+  "cover": "ATIVO_D1201_12_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-01/ATIVO-D1201-12_nota_fiscal_do_aluguel.md",
+ "apuracao": {
+  "fato": "Ato Conjunto RFB/CGIBS nº 4/2026 (DOU 31/07/2026): NFS-e obrigatória para locação de imóveis a partir de 01/12/2026; Simples Nacional a partir de 01/01/2027. LC 214/2025: pessoa física contribuinte de IBS/CBS na locação com receita acima de R$ 240 mil no ano anterior e mais de 3 imóveis; leitura divergente sobre a emissão da nota pela pessoa física.",
+  "verificado_em": "2026-11-24",
+  "fontes": [
+   "https://conjur.com.br/2026-nov-11/aluguel-de-imoveis-com-nota-fiscal-o-que-muda-na-reforma-tributaria/",
+   "https://noviello.adv.br/nf-e-abi-nfs-e-locacao-imoveis-obrigatoriedade-01-12-2026-cronograma-reforma-tributaria/",
+   "https://juscon.com.br/nfs-e-para-aluguel-de-imoveis-sera-obrigatoria-a-partir-de-dezembro-de-2026/"
+  ],
+  "ressalvas": "risco de adiamento (layout técnico); divergência PF dita; não é orientação contábil (selo)"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que atende proprietário investidor",
+  "territorio": "agora",
+  "funcao": "C3 + C4",
+  "crenca_questionada": "aluguel nunca tem nota fiscal / todo mundo vai ter que emitir",
+  "hipotese": "depende de quem aluga; o corretor sabe a pergunta certa"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A partir de hoje, aluguel de imóvel entra na nota fiscal.",
+   "caption": "A partir de *hoje,* | aluguel de imóvel | entra na *nota fiscal.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Mas não para todo mundo.",
+   "caption": "Mas *não* | para todo mundo.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "regra",
+   "text": "Pelo calendário oficial da reforma tributária, desde 1º de dezembro a locação de imóvel tem nota fiscal de serviço eletrônica.",
+   "caption": "Pelo calendário oficial | da *reforma tributária,* | desde *1º de dezembro* | a locação de imóvel | tem nota fiscal | de serviço *eletrônica.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "empresa",
+   "text": "Empresa que aluga imóvel emite. Sem piso de receita, sem mínimo de imóveis.",
+   "caption": "*Empresa* | que aluga imóvel | *emite.* | Sem piso de receita, | sem mínimo de imóveis.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "empresa",
+   "text": "Se a empresa é do Simples Nacional, a data é outra: janeiro de 2027.",
+   "caption": "Se a empresa | é do *Simples Nacional,* | a data é outra: | janeiro de *2027.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "pf",
+   "text": "E a pessoa física?",
+   "caption": "E a *pessoa física?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "pf",
+   "text": "Pela lei da reforma, ela só entra no imposto com mais de 240 mil reais de aluguel no ano anterior e mais de três imóveis.",
+   "caption": "Pela lei da reforma, | ela só entra no imposto | com mais de *240 mil reais* | de aluguel | no ano anterior | e mais de *três imóveis.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "pf",
+   "text": "E ainda tem divergência de leitura sobre a nota.",
+   "caption": "E ainda tem | *divergência* | de leitura | sobre a nota.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "virada",
+   "text": "Ou seja: seu cliente proprietário vai te perguntar.",
+   "caption": "Ou seja: | seu cliente proprietário | vai te *perguntar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "virada",
+   "text": "E a resposta honesta é: depende de quem aluga.",
+   "caption": "E a resposta honesta é: | *depende* | de quem aluga.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "desfecho",
+   "text": "Corretor não precisa virar contador.",
+   "caption": "Corretor | não precisa | virar *contador.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "desfecho",
+   "text": "Precisa saber a pergunta certa e indicar quem responde.",
+   "caption": "Precisa saber | a *pergunta certa* | e *indicar* | quem responde.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "regra": 0.3,
+  "empresa": 0.3,
+  "pf": 0.35,
+  "virada": 0.4,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_hoje": {
+   "seg": "s1",
+   "word": "hoje",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_nota": {
+   "seg": "s1",
+   "word": "nota",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_nao": {
+   "seg": "s2",
+   "word": "não",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_calendario": {
+   "seg": "s3",
+   "word": "calendário",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_reforma": {
+   "seg": "s3",
+   "word": "reforma",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_dezembro": {
+   "seg": "s3",
+   "word": "dezembro",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_eletronica": {
+   "seg": "s3",
+   "word": "eletrônica",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_empresa": {
+   "seg": "s4",
+   "word": "Empresa",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_emite": {
+   "seg": "s4",
+   "word": "emite",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_piso": {
+   "seg": "s4",
+   "word": "piso",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_minimo": {
+   "seg": "s4",
+   "word": "mínimo",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_simples": {
+   "seg": "s5",
+   "word": "Simples",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_2027": {
+   "seg": "s5",
+   "word": "2027",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_fisica": {
+   "seg": "s6",
+   "word": "física",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_240": {
+   "seg": "s7",
+   "word": "240",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_tres": {
+   "seg": "s7",
+   "word": "três",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_divergencia": {
+   "seg": "s8",
+   "word": "divergência",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_ouseja": {
+   "seg": "s9",
+   "word": "Ou",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_perguntar": {
+   "seg": "s9",
+   "word": "perguntar",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_depende": {
+   "seg": "s10",
+   "word": "depende",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_aluga": {
+   "seg": "s10",
+   "word": "aluga",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_contador": {
+   "seg": "s11",
+   "word": "contador",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_pergunta": {
+   "seg": "s12",
+   "word": "pergunta",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_indicar": {
+   "seg": "s12",
+   "word": "indicar",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s13",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s13",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s13",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s13",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s13",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s13",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s13",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s13",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s13",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_nota",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "h_nao",
+   "offset": 0.0,
+   "sound": "thump",
+   "gain": -28,
+   "pitch": -3
+  },
+  {
+   "cue": "r_dezembro",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27
+  },
+  {
+   "cue": "e_empresa",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "e_emite",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "e_simples",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "p_fisica",
+   "offset": -0.05,
+   "sound": "whoosh_fold",
+   "gain": -30
+  },
+  {
+   "cue": "p_240",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "p_tres",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "p_divergencia",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "v_ouseja",
+   "offset": -0.05,
+   "sound": "whoosh_fold",
+   "gain": -29
+  },
+  {
+   "cue": "v_depende",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -28
+  },
+  {
+   "cue": "f_pergunta",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "f_indicar",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.85,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:r_calendario",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_ouseja",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_contador",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T01",
+  "ancoras": {
+   "virada": "cue:v_ouseja",
+   "insight": "cue:f_pergunta"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "planta-tecnica",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "agora",
+  "origem": "radar",
+  "origemRef": "",
+  "dataFato": "2026-12-01",
+  "pushPull": "push",
+  "justificativaModelo": "quem emite e quem não emite vira estrutura: cômodos EMPRESA/SIMPLES/PESSOA FÍSICA, portas e cotas de data e limite.",
+  "justificativaHorario": "12h: notícia do dia na hora do almoço.",
+  "trilha": "T01",
+  "justificativaTrilha": "explicação técnica em sequência; T01 sustenta sem competir.",
+  "data": "2026-12-01",
+  "slot": "12:00",
+  "arquivo": "PRODUCAO/grade/2026-12-01.json"
+ },
+ "modelos4": true,
+ "modelo": 3,
+ "modeloNome": "Planta técnica"
+}

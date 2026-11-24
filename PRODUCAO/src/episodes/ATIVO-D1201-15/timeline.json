@@ -1,0 +1,1187 @@
+{
+ "id": "ATIVO-D1201-15",
+ "title": "O dono na visita",
+ "fps": 30,
+ "duration": 48.8,
+ "durationInFrames": 1464,
+ "narrationEnd": 46.569,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.79
+  },
+  {
+   "id": "conta",
+   "start": 6.79,
+   "end": 11.705
+  },
+  {
+   "id": "memoria",
+   "start": 11.705,
+   "end": 16.795
+  },
+  {
+   "id": "virada",
+   "start": 16.795,
+   "end": 22.585
+  },
+  {
+   "id": "papel",
+   "start": 22.585,
+   "end": 36.44
+  },
+  {
+   "id": "desfecho",
+   "start": 36.44,
+   "end": 41.145
+  },
+  {
+   "id": "cta",
+   "start": 41.145,
+   "end": 48.8
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O proprietário quis acompanhar a visita.",
+   "start": 0.2,
+   "end": 3.26
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Em cinco minutos, ele já tinha contado do vizinho barulhento.",
+   "start": 3.56,
+   "end": 6.66
+  },
+  {
+   "id": "s3",
+   "scene": "conta",
+   "text": "E ainda falou quanto pagou, por que está vendendo e que aceita negociar.",
+   "start": 6.92,
+   "end": 11.45
+  },
+  {
+   "id": "s4",
+   "scene": "memoria",
+   "text": "Não por mal. É a casa dele.",
+   "start": 11.96,
+   "end": 13.77
+  },
+  {
+   "id": "s5",
+   "scene": "memoria",
+   "text": "Ele conhece cada defeito e cada lembrança.",
+   "start": 13.96,
+   "end": 16.59
+  },
+  {
+   "id": "s6",
+   "scene": "virada",
+   "text": "O problema é que, na visita, cada frase dele vira argumento de negociação para o comprador.",
+   "start": 17.0,
+   "end": 22.33
+  },
+  {
+   "id": "s7",
+   "scene": "papel",
+   "text": "Então combine antes: ele recebe, se apresenta, mostra o que só ele sabe, como a reforma do banheiro, e depois dá espaço.",
+   "start": 22.84,
+   "end": 31.53
+  },
+  {
+   "id": "s8",
+   "scene": "papel",
+   "text": "Preço, motivo da venda e prazo, quem responde é você.",
+   "start": 32.04,
+   "end": 36.2
+  },
+  {
+   "id": "s9",
+   "scene": "desfecho",
+   "text": "Dono presente na visita não é problema.",
+   "start": 36.68,
+   "end": 38.93
+  },
+  {
+   "id": "s10",
+   "scene": "desfecho",
+   "text": "Dono sem papel combinado é.",
+   "start": 39.16,
+   "end": 40.97
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 41.32,
+   "end": 46.12
+  }
+ ],
+ "cues": {
+  "h_proprietario": 1.08,
+  "h_visita": 2.92,
+  "h_cinco": 3.72,
+  "h_vizinho": 5.8,
+  "h_barulhento": 6.2,
+  "c_pagou": 8.04,
+  "c_vendendo": 9.48,
+  "c_negociar": 11.08,
+  "m_mal": 12.44,
+  "m_casa": 13.16,
+  "m_defeito": 15.08,
+  "m_lembranca": 16.12,
+  "v_problema": 17.32,
+  "v_frase": 19.4,
+  "v_argumento": 20.52,
+  "p_combine": 23.32,
+  "p_recebe": 24.92,
+  "p_mostra": 26.76,
+  "p_banheiro": 29.48,
+  "p_espaco": 31.16,
+  "p_preco": 32.04,
+  "p_motivo": 32.76,
+  "p_prazo": 34.2,
+  "p_voce": 35.88,
+  "f_presente": 37.16,
+  "f_problema": 38.6,
+  "f_papel": 39.88,
+  "cta_quer": 41.32,
+  "cta_comment": 42.6,
+  "cta_word": 43.32,
+  "cta_tiles": 44.12,
+  "cta_sys": 44.92,
+  "cta_leads": 44.68,
+  "cta_atend": 45.4,
+  "cta_direct": 45.4,
+  "cta_end": 46.12
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 1.88,
+   "words": [
+    {
+     "text": "O",
+     "start": 0.2,
+     "end": 0.28,
+     "emph": false
+    },
+    {
+     "text": "proprietário",
+     "start": 1.08,
+     "end": 1.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.88,
+   "end": 2.76,
+   "words": [
+    {
+     "text": "quis",
+     "start": 1.88,
+     "end": 2.28,
+     "emph": false
+    },
+    {
+     "text": "acompanhar",
+     "start": 2.28,
+     "end": 2.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.76,
+   "end": 3.56,
+   "words": [
+    {
+     "text": "a",
+     "start": 2.76,
+     "end": 2.92,
+     "emph": false
+    },
+    {
+     "text": "visita.",
+     "start": 2.92,
+     "end": 3.26,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.56,
+   "end": 4.52,
+   "words": [
+    {
+     "text": "Em",
+     "start": 3.56,
+     "end": 3.72,
+     "emph": false
+    },
+    {
+     "text": "cinco",
+     "start": 3.72,
+     "end": 4.12,
+     "emph": true
+    },
+    {
+     "text": "minutos,",
+     "start": 4.12,
+     "end": 4.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.52,
+   "end": 5.64,
+   "words": [
+    {
+     "text": "ele",
+     "start": 4.52,
+     "end": 4.76,
+     "emph": false
+    },
+    {
+     "text": "já",
+     "start": 4.76,
+     "end": 4.92,
+     "emph": false
+    },
+    {
+     "text": "tinha",
+     "start": 4.92,
+     "end": 5.24,
+     "emph": false
+    },
+    {
+     "text": "contado",
+     "start": 5.24,
+     "end": 5.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.64,
+   "end": 6.2,
+   "words": [
+    {
+     "text": "do",
+     "start": 5.64,
+     "end": 5.8,
+     "emph": false
+    },
+    {
+     "text": "vizinho",
+     "start": 5.8,
+     "end": 6.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.2,
+   "end": 6.92,
+   "words": [
+    {
+     "text": "barulhento.",
+     "start": 6.2,
+     "end": 6.66,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 6.92,
+   "end": 7.72,
+   "words": [
+    {
+     "text": "E",
+     "start": 6.92,
+     "end": 7.16,
+     "emph": false
+    },
+    {
+     "text": "ainda",
+     "start": 7.16,
+     "end": 7.4,
+     "emph": false
+    },
+    {
+     "text": "falou",
+     "start": 7.4,
+     "end": 7.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 7.72,
+   "end": 8.76,
+   "words": [
+    {
+     "text": "quanto",
+     "start": 7.72,
+     "end": 8.04,
+     "emph": false
+    },
+    {
+     "text": "pagou,",
+     "start": 8.04,
+     "end": 8.58,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.76,
+   "end": 10.04,
+   "words": [
+    {
+     "text": "por",
+     "start": 8.76,
+     "end": 8.92,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 8.92,
+     "end": 9.24,
+     "emph": false
+    },
+    {
+     "text": "está",
+     "start": 9.24,
+     "end": 9.48,
+     "emph": false
+    },
+    {
+     "text": "vendendo",
+     "start": 9.48,
+     "end": 10.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.04,
+   "end": 11.08,
+   "words": [
+    {
+     "text": "e",
+     "start": 10.04,
+     "end": 10.28,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 10.28,
+     "end": 10.52,
+     "emph": false
+    },
+    {
+     "text": "aceita",
+     "start": 10.52,
+     "end": 11.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.08,
+   "end": 11.8,
+   "words": [
+    {
+     "text": "negociar.",
+     "start": 11.08,
+     "end": 11.45,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 11.96,
+   "end": 12.92,
+   "words": [
+    {
+     "text": "Não",
+     "start": 11.96,
+     "end": 12.2,
+     "emph": false
+    },
+    {
+     "text": "por",
+     "start": 12.2,
+     "end": 12.44,
+     "emph": false
+    },
+    {
+     "text": "mal.",
+     "start": 12.44,
+     "end": 12.66,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.92,
+   "end": 13.96,
+   "words": [
+    {
+     "text": "É",
+     "start": 12.92,
+     "end": 13.08,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 13.08,
+     "end": 13.16,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 13.16,
+     "end": 13.48,
+     "emph": true
+    },
+    {
+     "text": "dele.",
+     "start": 13.48,
+     "end": 13.77,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 13.96,
+   "end": 14.76,
+   "words": [
+    {
+     "text": "Ele",
+     "start": 13.96,
+     "end": 14.2,
+     "emph": false
+    },
+    {
+     "text": "conhece",
+     "start": 14.2,
+     "end": 14.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 14.76,
+   "end": 15.64,
+   "words": [
+    {
+     "text": "cada",
+     "start": 14.76,
+     "end": 15.08,
+     "emph": false
+    },
+    {
+     "text": "defeito",
+     "start": 15.08,
+     "end": 15.49,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 15.64,
+   "end": 17.0,
+   "words": [
+    {
+     "text": "e",
+     "start": 15.64,
+     "end": 15.8,
+     "emph": false
+    },
+    {
+     "text": "cada",
+     "start": 15.8,
+     "end": 16.12,
+     "emph": false
+    },
+    {
+     "text": "lembrança.",
+     "start": 16.12,
+     "end": 16.59,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 17.0,
+   "end": 18.28,
+   "words": [
+    {
+     "text": "O",
+     "start": 17.0,
+     "end": 17.32,
+     "emph": false
+    },
+    {
+     "text": "problema",
+     "start": 17.32,
+     "end": 17.8,
+     "emph": true
+    },
+    {
+     "text": "é",
+     "start": 17.8,
+     "end": 18.04,
+     "emph": false
+    },
+    {
+     "text": "que,",
+     "start": 18.04,
+     "end": 18.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 18.28,
+   "end": 19.08,
+   "words": [
+    {
+     "text": "na",
+     "start": 18.28,
+     "end": 18.44,
+     "emph": false
+    },
+    {
+     "text": "visita,",
+     "start": 18.44,
+     "end": 18.93,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 19.08,
+   "end": 20.04,
+   "words": [
+    {
+     "text": "cada",
+     "start": 19.08,
+     "end": 19.4,
+     "emph": false
+    },
+    {
+     "text": "frase",
+     "start": 19.4,
+     "end": 19.8,
+     "emph": false
+    },
+    {
+     "text": "dele",
+     "start": 19.8,
+     "end": 20.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 20.04,
+   "end": 21.0,
+   "words": [
+    {
+     "text": "vira",
+     "start": 20.04,
+     "end": 20.52,
+     "emph": false
+    },
+    {
+     "text": "argumento",
+     "start": 20.52,
+     "end": 21.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 21.0,
+   "end": 21.64,
+   "words": [
+    {
+     "text": "de",
+     "start": 21.0,
+     "end": 21.08,
+     "emph": false
+    },
+    {
+     "text": "negociação",
+     "start": 21.08,
+     "end": 21.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 21.64,
+   "end": 22.68,
+   "words": [
+    {
+     "text": "para",
+     "start": 21.64,
+     "end": 21.8,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 21.8,
+     "end": 21.88,
+     "emph": false
+    },
+    {
+     "text": "comprador.",
+     "start": 21.88,
+     "end": 22.33,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 22.84,
+   "end": 23.32,
+   "words": [
+    {
+     "text": "Então",
+     "start": 22.84,
+     "end": 23.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 23.32,
+   "end": 24.68,
+   "words": [
+    {
+     "text": "combine",
+     "start": 23.32,
+     "end": 24.04,
+     "emph": true
+    },
+    {
+     "text": "antes:",
+     "start": 24.04,
+     "end": 24.37,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 24.68,
+   "end": 25.72,
+   "words": [
+    {
+     "text": "ele",
+     "start": 24.68,
+     "end": 24.92,
+     "emph": false
+    },
+    {
+     "text": "recebe,",
+     "start": 24.92,
+     "end": 25.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 25.72,
+   "end": 26.76,
+   "words": [
+    {
+     "text": "se",
+     "start": 25.72,
+     "end": 25.96,
+     "emph": false
+    },
+    {
+     "text": "apresenta,",
+     "start": 25.96,
+     "end": 26.55,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.76,
+   "end": 27.24,
+   "words": [
+    {
+     "text": "mostra",
+     "start": 26.76,
+     "end": 27.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.24,
+   "end": 28.44,
+   "words": [
+    {
+     "text": "o",
+     "start": 27.24,
+     "end": 27.32,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 27.32,
+     "end": 27.48,
+     "emph": false
+    },
+    {
+     "text": "só",
+     "start": 27.48,
+     "end": 27.72,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 27.72,
+     "end": 27.96,
+     "emph": false
+    },
+    {
+     "text": "sabe,",
+     "start": 27.96,
+     "end": 28.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.44,
+   "end": 29.32,
+   "words": [
+    {
+     "text": "como",
+     "start": 28.44,
+     "end": 28.824,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 28.824,
+     "end": 28.92,
+     "emph": false
+    },
+    {
+     "text": "reforma",
+     "start": 28.92,
+     "end": 29.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.32,
+   "end": 30.12,
+   "words": [
+    {
+     "text": "do",
+     "start": 29.32,
+     "end": 29.48,
+     "emph": false
+    },
+    {
+     "text": "banheiro,",
+     "start": 29.48,
+     "end": 29.79,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.12,
+   "end": 30.76,
+   "words": [
+    {
+     "text": "e",
+     "start": 30.12,
+     "end": 30.28,
+     "emph": false
+    },
+    {
+     "text": "depois",
+     "start": 30.28,
+     "end": 30.42,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.76,
+   "end": 31.88,
+   "words": [
+    {
+     "text": "dá",
+     "start": 30.76,
+     "end": 31.16,
+     "emph": false
+    },
+    {
+     "text": "espaço.",
+     "start": 31.16,
+     "end": 31.53,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 32.04,
+   "end": 32.76,
+   "words": [
+    {
+     "text": "Preço,",
+     "start": 32.04,
+     "end": 32.54,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 32.76,
+   "end": 33.96,
+   "words": [
+    {
+     "text": "motivo",
+     "start": 32.76,
+     "end": 33.32,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 33.32,
+     "end": 33.48,
+     "emph": false
+    },
+    {
+     "text": "venda",
+     "start": 33.48,
+     "end": 33.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 33.96,
+   "end": 34.84,
+   "words": [
+    {
+     "text": "e",
+     "start": 33.96,
+     "end": 34.09,
+     "emph": false
+    },
+    {
+     "text": "prazo,",
+     "start": 34.2,
+     "end": 34.63,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 34.84,
+   "end": 35.72,
+   "words": [
+    {
+     "text": "quem",
+     "start": 34.84,
+     "end": 35.16,
+     "emph": false
+    },
+    {
+     "text": "responde",
+     "start": 35.16,
+     "end": 35.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 35.72,
+   "end": 36.68,
+   "words": [
+    {
+     "text": "é",
+     "start": 35.72,
+     "end": 35.88,
+     "emph": false
+    },
+    {
+     "text": "você.",
+     "start": 35.88,
+     "end": 36.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 36.68,
+   "end": 37.56,
+   "words": [
+    {
+     "text": "Dono",
+     "start": 36.68,
+     "end": 37.16,
+     "emph": false
+    },
+    {
+     "text": "presente",
+     "start": 37.16,
+     "end": 37.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 37.56,
+   "end": 38.2,
+   "words": [
+    {
+     "text": "na",
+     "start": 37.56,
+     "end": 37.72,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 37.72,
+     "end": 38.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 38.2,
+   "end": 39.16,
+   "words": [
+    {
+     "text": "não",
+     "start": 38.2,
+     "end": 38.36,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 38.36,
+     "end": 38.6,
+     "emph": false
+    },
+    {
+     "text": "problema.",
+     "start": 38.6,
+     "end": 38.93,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 39.16,
+   "end": 39.64,
+   "words": [
+    {
+     "text": "Dono",
+     "start": 39.16,
+     "end": 39.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 39.64,
+   "end": 40.84,
+   "words": [
+    {
+     "text": "sem",
+     "start": 39.64,
+     "end": 39.88,
+     "emph": false
+    },
+    {
+     "text": "papel",
+     "start": 39.88,
+     "end": 40.2,
+     "emph": true
+    },
+    {
+     "text": "combinado",
+     "start": 40.2,
+     "end": 40.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 40.84,
+   "end": 41.32,
+   "words": [
+    {
+     "text": "é.",
+     "start": 40.84,
+     "end": 40.97,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 41.32,
+   "end": 42.6,
+   "words": [
+    {
+     "text": "Se",
+     "start": 41.32,
+     "end": 41.4,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 41.56,
+     "end": 41.8,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 41.8,
+     "end": 41.96,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 41.96,
+     "end": 42.46,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 42.6,
+   "end": 43.96,
+   "words": [
+    {
+     "text": "comente",
+     "start": 42.6,
+     "end": 43.32,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 43.32,
+     "end": 43.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 43.96,
+   "end": 44.92,
+   "words": [
+    {
+     "text": "e",
+     "start": 43.96,
+     "end": 44.12,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 44.12,
+     "end": 44.68,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 44.68,
+     "end": 44.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 44.92,
+   "end": 46.62,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 44.92,
+     "end": 45.4,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 45.4,
+     "end": 46.12,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

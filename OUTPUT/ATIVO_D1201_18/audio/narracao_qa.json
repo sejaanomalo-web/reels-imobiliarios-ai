@@ -1,0 +1,84 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.52,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.21,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 7.55,
+    "palavras_nao_reconhecidas": [
+      "Distrato",
+      "2018",
+      "estande"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 1.83,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.58,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.24,
+    "palavras_nao_reconhecidas": [
+      "estande"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 3.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 2.73,
+    "palavras_nao_reconhecidas": [
+      "empurrado"
+    ]
+  },
+  {
+    "seg": "s9",
+    "seconds": 3.02,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.41,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 42.47,
+    "asr_match": 0.958,
+    "aligned_words": "113/118",
+    "words_per_min": 167,
+    "heard": "E se o comprador pudesse desistir do apartamento uma semana depois de assinar? No imóvel na planta, em alguns casos ele pode. Pela lei do destrato de 2018, quem compra no stand de vendas ou fora da sede da incorporadora tem 7 dias para se arrepender e recebe de volta tudo o que pagou. Para parte dos especialistas, inclusive o valor da corretagem. Ou seja, a venda no stand só termina de verdade depois de 7 dias. Por isso, pressão para fechar no impulso costuma sair cara. Quem compra empurra tem uma semana inteira para pensar. Venda boa é a que continua de pé no oitavo dia. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 44.96,
+      "wpm": 157
+    },
+    "pausas_moldadas": {
+      "n": 18,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.49,
+    "final": {
+      "seconds": 42.47,
+      "wpm": 167
+    }
+  }
+]

@@ -1,0 +1,660 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1201-15",
+ "lote": "D1201",
+ "title": "O dono na visita",
+ "outputDir": "ATIVO_D1201_15",
+ "deliverables": {
+  "final": "ATIVO_D1201_15_FINAL.mp4",
+  "narration": "ATIVO_D1201_15_NARRACAO.wav",
+  "subtitles": "ATIVO_D1201_15_legendas.srt",
+  "cover": "ATIVO_D1201_15_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-01/ATIVO-D1201-15_o_dono_na_visita.md",
+ "apuracao": {
+  "fato": "Observação de prática profissional (sem estatística).",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "sem números"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor com proprietário que acompanha a visita",
+  "territorio": "corretor-real",
+  "funcao": "C1 + C3",
+  "crenca_questionada": "dono na visita atrapalha sempre",
+  "hipotese": "dono presente ajuda quando o papel é combinado antes"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O proprietário quis acompanhar a visita.",
+   "caption": "O *proprietário* | quis acompanhar | a *visita.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Em cinco minutos, ele já tinha contado do vizinho barulhento.",
+   "caption": "Em *cinco minutos,* | ele já tinha contado | do vizinho | *barulhento.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "conta",
+   "text": "E ainda falou quanto pagou, por que está vendendo e que aceita negociar.",
+   "caption": "E ainda falou | quanto *pagou,* | por que está *vendendo* | e que aceita | *negociar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "memoria",
+   "text": "Não por mal. É a casa dele.",
+   "caption": "Não por mal. | É a *casa dele.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "memoria",
+   "text": "Ele conhece cada defeito e cada lembrança.",
+   "caption": "Ele conhece | cada *defeito* | e cada *lembrança.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "virada",
+   "text": "O problema é que, na visita, cada frase dele vira argumento de negociação para o comprador.",
+   "caption": "O *problema* é que, | na visita, | cada frase dele | vira *argumento* | de negociação | para o comprador.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "papel",
+   "text": "Então combine antes: ele recebe, se apresenta, mostra o que só ele sabe, como a reforma do banheiro, e depois dá espaço.",
+   "caption": "Então | *combine antes:* | ele *recebe,* | se apresenta, | *mostra* | o que só ele sabe, | como a reforma | do banheiro, | e depois | dá *espaço.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "papel",
+   "text": "Preço, motivo da venda e prazo, quem responde é você.",
+   "caption": "*Preço,* | *motivo* da venda | e *prazo,* | quem responde | é *você.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "desfecho",
+   "text": "Dono presente na visita não é problema.",
+   "caption": "Dono *presente* | na visita | não é problema.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "desfecho",
+   "text": "Dono sem papel combinado é.",
+   "caption": "Dono | sem *papel combinado* | é.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "conta": 0.25,
+  "memoria": 0.35,
+  "virada": 0.35,
+  "papel": 0.3,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_proprietario": {
+   "seg": "s1",
+   "word": "proprietário",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_visita": {
+   "seg": "s1",
+   "word": "visita",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_cinco": {
+   "seg": "s2",
+   "word": "cinco",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_vizinho": {
+   "seg": "s2",
+   "word": "vizinho",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_barulhento": {
+   "seg": "s2",
+   "word": "barulhento",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_pagou": {
+   "seg": "s3",
+   "word": "pagou",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_vendendo": {
+   "seg": "s3",
+   "word": "vendendo",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_negociar": {
+   "seg": "s3",
+   "word": "negociar",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_mal": {
+   "seg": "s4",
+   "word": "mal",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_casa": {
+   "seg": "s4",
+   "word": "casa",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_defeito": {
+   "seg": "s5",
+   "word": "defeito",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_lembranca": {
+   "seg": "s5",
+   "word": "lembrança",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_problema": {
+   "seg": "s6",
+   "word": "problema",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_frase": {
+   "seg": "s6",
+   "word": "frase",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_argumento": {
+   "seg": "s6",
+   "word": "argumento",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_combine": {
+   "seg": "s7",
+   "word": "combine",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_recebe": {
+   "seg": "s7",
+   "word": "recebe",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_mostra": {
+   "seg": "s7",
+   "word": "mostra",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_banheiro": {
+   "seg": "s7",
+   "word": "banheiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_espaco": {
+   "seg": "s7",
+   "word": "espaço",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_preco": {
+   "seg": "s8",
+   "word": "Preço",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_motivo": {
+   "seg": "s8",
+   "word": "motivo",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_prazo": {
+   "seg": "s8",
+   "word": "prazo",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_voce": {
+   "seg": "s8",
+   "word": "você",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_presente": {
+   "seg": "s9",
+   "word": "presente",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_problema": {
+   "seg": "s9",
+   "word": "problema",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_papel": {
+   "seg": "s10",
+   "word": "papel",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s11",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s11",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s11",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s11",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s11",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s11",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s11",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s11",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s11",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_proprietario",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "h_vizinho",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "h_barulhento",
+   "offset": 0.05,
+   "sound": "thump",
+   "gain": -27
+  },
+  {
+   "cue": "c_pagou",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "c_vendendo",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 2
+  },
+  {
+   "cue": "c_negociar",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 4
+  },
+  {
+   "cue": "m_casa",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "v_problema",
+   "offset": -0.05,
+   "sound": "whip",
+   "gain": -28
+  },
+  {
+   "cue": "v_argumento",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -27
+  },
+  {
+   "cue": "p_combine",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -28
+  },
+  {
+   "cue": "p_recebe",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -26
+  },
+  {
+   "cue": "p_mostra",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "p_espaco",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -26,
+   "pitch": 6
+  },
+  {
+   "cue": "p_preco",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "p_motivo",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 2
+  },
+  {
+   "cue": "p_prazo",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 4
+  },
+  {
+   "cue": "p_voce",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "f_papel",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -27
+  },
+  {
+   "cue": "f_papel",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.75,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.85,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.2,
+   "sound": "click",
+   "gain": -23,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.28,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:c_pagou",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_problema",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_presente",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T05",
+  "ancoras": {
+   "virada": "cue:v_problema",
+   "insight": "cue:p_combine",
+   "resolucao": "cue:f_presente"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "cartoon-explicativo",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "corretor-real",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "pull",
+  "justificativaModelo": "três personagens e humor de comportamento; balões e carimbos.",
+  "justificativaHorario": "15h: tarde de visitas (PULL prático).",
+  "trilha": "T05",
+  "justificativaTrilha": "lista prática com pulso leve.",
+  "data": "2026-12-01",
+  "slot": "15:00",
+  "arquivo": "PRODUCAO/grade/2026-12-01.json"
+ },
+ "modelos4": true,
+ "modelo": 1,
+ "modeloNome": "Cartoon explicativo"
+}

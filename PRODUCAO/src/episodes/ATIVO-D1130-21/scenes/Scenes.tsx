@@ -115,8 +115,7 @@ export const Cerco: React.FC<P> = ({ t, tl }) => {
           })}
           {[0, 1, 2, 3].map((i) => <Dissolver key={i} t={t} at={c.o_todas - 0.05 + i * 0.06} x={640 + i * 70} y={CHAO - 60 - i * 70} w={90 + i * 16} h={60} n={40} dur={0.7} />)}
         </Svg>
-        <Pilula t={t} at={c.h_milhao - 0.1} ate={c.h_predio - 0.2} x={CX} y={720} texto="≈ US$ 1 MILHÃO" tom="branco" size={30} />
-        <Pilula t={t} at={c.h_nao - 0.05} ate={c.r_seattle - 0.4} x={CX} y={800} texto="NÃO" tom="vermelho" cheia size={34} />
+        <Pilula t={t} at={c.h_milhao - 0.1} ate={c.h_nao - 0.3} x={CX} y={720} texto="≈ US$ 1 MILHÃO" tom="branco" size={30} />
         <Pilula t={t} at={c.o_construtora} ate={c.x_obra - 0.2} x={300} y={520} texto="CONSTRUTORA" tom="cinza" size={26} />
         <Pilula t={t} at={c.o_comercial} ate={c.o_todas} x={780} y={760} texto="OFERTA ↑" tom="branco" size={26} />
         <Pilula t={t} at={c.o_todas - 0.05} ate={c.x_obra} x={760} y={980} texto="RECUSOU TODAS" tom="vermelho" cheia size={26} />
@@ -132,7 +131,7 @@ export const Cerco: React.FC<P> = ({ t, tl }) => {
         </defs>
         <rect width={1080} height={1920} fill="url(#ancora30_21)" />
       </svg>
-      <TituloNoir t={t} at={c.h_predio - 0.1} ate={c.r_seattle - 0.4} linhas={[{ texto: "A DONA", size: 72 }, { texto: "DISSE NÃO", cor: "vermelho", size: 96 }]} top={300} />
+      <TituloNoir t={t} at={c.h_nao - 0.05} ate={c.r_seattle - 0.4} linhas={[{ texto: "A DONA", size: 72 }, { texto: "DISSE NÃO", cor: "vermelho", size: 96 }]} top={300} />
       <TituloNoir t={t} at={c.r_seattle - 0.05} ate={c.o_construtora - 0.5} linhas={[{ texto: "SEATTLE · 2006", size: 76 }]} top={300} />
       <Pilula t={t} at={c.r_edith} ate={c.o_construtora - 0.5} x={CX} y={460} texto="EDITH MACEFIELD · 84 ANOS" tom="branco" size={28} />
     </div>
