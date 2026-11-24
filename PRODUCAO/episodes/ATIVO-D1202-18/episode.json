@@ -1,0 +1,670 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "36": "trinta e seis",
+  "1886": "mil oitocentos e oitenta e seis",
+  "160": "cento e sessenta",
+  "1922": "mil novecentos e vinte e dois"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1202-18",
+ "lote": "D1202",
+ "title": "A casa que nunca terminou",
+ "outputDir": "ATIVO_D1202_18",
+ "deliverables": {
+  "final": "ATIVO_D1202_18_FINAL.mp4",
+  "narration": "ATIVO_D1202_18_NARRACAO.wav",
+  "subtitles": "ATIVO_D1202_18_legendas.srt",
+  "cover": "ATIVO_D1202_18_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-02/ATIVO-D1202-18_a_casa_que_nunca_terminou.md",
+ "apuracao": {
+  "fato": "Winchester Mystery House: casa de fazenda de 8 cômodos comprada em 1886; reformas até a morte de Sarah Winchester (set/1922), sem arquiteto (esboços à mão); 160 cômodos; escada que sobe ao teto; porta no 2º andar que abre para o vazio; avaliada como quase sem valor (terremoto, obra inacabada, impraticável); leilão (dez/1922); atração turística (1923).",
+  "verificado_em": "2026-11-24",
+  "fontes": [
+   "https://en.wikipedia.org/wiki/Winchester_Mystery_House",
+   "https://www.nps.gov/places/winchester-house.htm",
+   "https://www.historyhit.com/facts-about-the-winchester-mystery-house/",
+   "https://thehistorygirl.com/2016/06/08/winchester-mystery-house-san-jose-ca/"
+  ],
+  "ressalvas": "36 anos (não '38 anos 24 h'); lenda dos espíritos fora"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor em captação de imóvel reformado",
+  "territorio": "historia",
+  "funcao": "C2 + C4",
+  "crenca_questionada": "o que se gastou na obra vira valor",
+  "hipotese": "comprador paga por casa que faz sentido; pergunte o que a reforma resolveu"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Uma mulher passou 36 anos reformando a mesma casa.",
+   "caption": "Uma mulher | passou *36 anos* | reformando | a *mesma casa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Quando ela morreu, a casa foi avaliada como quase sem valor.",
+   "caption": "Quando ela morreu, | a casa foi avaliada | como *quase sem valor.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "inicio",
+   "text": "Sarah Winchester comprou uma casa de fazenda de oito cômodos na Califórnia, em 1886.",
+   "caption": "*Sarah Winchester* | comprou uma casa de fazenda | de *oito cômodos* | na Califórnia, | em *1886.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "inicio",
+   "text": "E nunca parou de reformar.",
+   "caption": "E *nunca parou* | de reformar.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "obra",
+   "text": "Sem arquiteto. Ela desenhava os cômodos em pedaços de papel, e os carpinteiros construíam.",
+   "caption": "*Sem arquiteto.* | Ela desenhava os cômodos | em pedaços de *papel,* | e os carpinteiros | construíam.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "obra",
+   "text": "O que não dava certo era fechado ou derrubado.",
+   "caption": "O que não dava certo | era *fechado* | ou *derrubado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "estranho",
+   "text": "No fim, eram 160 cômodos. Uma escada que termina no teto. Uma porta no segundo andar que abre para o vazio.",
+   "caption": "No fim, | eram *160 cômodos.* | Uma *escada* | que termina no *teto.* | Uma *porta* | no segundo andar | que abre para o *vazio.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "virada",
+   "text": "Em 1922, os avaliadores olharam a obra inacabada e os estragos do terremoto.",
+   "caption": "Em *1922,* | os avaliadores olharam | a obra *inacabada* | e os estragos | do *terremoto.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "virada",
+   "text": "Para morar, ela quase não valia nada. Foi a leilão e virou atração turística.",
+   "caption": "Para morar, | ela quase | *não valia nada.* | Foi a *leilão* | e virou | atração turística.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "licao",
+   "text": "Dinheiro na obra não vira valor sozinho. Comprador paga por casa que faz sentido.",
+   "caption": "*Dinheiro* na obra | não vira valor | *sozinho.* | Comprador paga | por casa | que faz *sentido.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "desfecho",
+   "text": "Quando o dono disser quanto gastou na reforma, pergunte o que ela resolveu.",
+   "caption": "Quando o dono disser | quanto *gastou* | na reforma, | *pergunte* | o que ela *resolveu.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "inicio": 0.3,
+  "obra": 0.3,
+  "estranho": 0.35,
+  "virada": 0.45,
+  "licao": 0.4,
+  "desfecho": 0.4,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_36": {
+   "seg": "s1",
+   "word": "36",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_mesma": {
+   "seg": "s1",
+   "word": "mesma",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_morreu": {
+   "seg": "s2",
+   "word": "morreu",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_valor": {
+   "seg": "s2",
+   "word": "valor",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_sarah": {
+   "seg": "s3",
+   "word": "Sarah",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_oito": {
+   "seg": "s3",
+   "word": "oito",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_1886": {
+   "seg": "s3",
+   "word": "1886",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_nunca": {
+   "seg": "s4",
+   "word": "nunca",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_arquiteto": {
+   "seg": "s5",
+   "word": "arquiteto",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_papel": {
+   "seg": "s5",
+   "word": "papel",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_carpinteiros": {
+   "seg": "s5",
+   "word": "carpinteiros",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_fechado": {
+   "seg": "s6",
+   "word": "fechado",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_derrubado": {
+   "seg": "s6",
+   "word": "derrubado",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_160": {
+   "seg": "s7",
+   "word": "160",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_escada": {
+   "seg": "s7",
+   "word": "escada",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_teto": {
+   "seg": "s7",
+   "word": "teto",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_porta": {
+   "seg": "s7",
+   "word": "porta",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_vazio": {
+   "seg": "s7",
+   "word": "vazio",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_1922": {
+   "seg": "s8",
+   "word": "1922",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_avaliadores": {
+   "seg": "s8",
+   "word": "avaliadores",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_terremoto": {
+   "seg": "s8",
+   "word": "terremoto",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_morar": {
+   "seg": "s9",
+   "word": "morar",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_nada": {
+   "seg": "s9",
+   "word": "nada",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_leilao": {
+   "seg": "s9",
+   "word": "leilão",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_atracao": {
+   "seg": "s9",
+   "word": "atração",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_dinheiro": {
+   "seg": "s10",
+   "word": "Dinheiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_sozinho": {
+   "seg": "s10",
+   "word": "sozinho",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_sentido": {
+   "seg": "s10",
+   "word": "sentido",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_dono": {
+   "seg": "s11",
+   "word": "dono",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_gastou": {
+   "seg": "s11",
+   "word": "gastou",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_pergunte": {
+   "seg": "s11",
+   "word": "pergunte",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_resolveu": {
+   "seg": "s11",
+   "word": "resolveu",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s12",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s12",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s12",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s12",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s12",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s12",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s12",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s12",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s12",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_36",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27
+  },
+  {
+   "cue": "h_valor",
+   "offset": 0.0,
+   "sound": "thump",
+   "gain": -28,
+   "pitch": -3
+  },
+  {
+   "cue": "i_1886",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "i_nunca",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "o_arquiteto",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "o_papel",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "o_derrubado",
+   "offset": 0.0,
+   "sound": "thump",
+   "gain": -28,
+   "pitch": -4
+  },
+  {
+   "cue": "e_160",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "e_teto",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "e_vazio",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -28
+  },
+  {
+   "cue": "v_1922",
+   "offset": -0.05,
+   "sound": "whoosh_fold",
+   "gain": -29
+  },
+  {
+   "cue": "v_nada",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -27
+  },
+  {
+   "cue": "v_leilao",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "l_dinheiro",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "l_sentido",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "f_pergunte",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.85,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:i_sarah",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_1922",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:l_dinheiro",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T02",
+  "ancoras": {
+   "virada": "cue:v_1922",
+   "insight": "cue:l_dinheiro",
+   "resolucao": "cue:f_pergunte"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "planta-tecnica",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "historia",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "a casa sem projeto vira prancha: cômodos que se somam, escada para o teto, porta para o vazio, carimbo de avaliação.",
+  "justificativaHorario": "18h: narrativa de alto apelo.",
+  "trilha": "T02",
+  "justificativaTrilha": "arco emocional de uma vida inteira numa obra.",
+  "data": "2026-12-02",
+  "slot": "18:00",
+  "arquivo": "PRODUCAO/grade/2026-12-02.json"
+ },
+ "modelos4": true,
+ "modelo": 3,
+ "modeloNome": "Planta técnica"
+}

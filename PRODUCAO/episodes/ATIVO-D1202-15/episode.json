@@ -1,0 +1,642 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1202-15",
+ "lote": "D1202",
+ "title": "Cinquenta mil a mais",
+ "outputDir": "ATIVO_D1202_15",
+ "deliverables": {
+  "final": "ATIVO_D1202_15_FINAL.mp4",
+  "narration": "ATIVO_D1202_15_NARRACAO.wav",
+  "subtitles": "ATIVO_D1202_15_legendas.srt",
+  "cover": "ATIVO_D1202_15_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-02/ATIVO-D1202-15_cinquenta_mil_a_mais.md",
+ "apuracao": {
+  "fato": "Prática profissional; sem estatística. Observação qualitativa: imóvel acima do mercado fica parado e o preço tende a cair.",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "sem números; rival genérico"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor disputando captação com avaliação inflada do concorrente",
+  "territorio": "corretor-real",
+  "funcao": "C1 + C3",
+  "crenca_questionada": "quem avalia mais alto vence",
+  "hipotese": "o número alto ganha a assinatura; dados de venda + data combinada ganham a venda"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O proprietário te liga: o outro corretor disse que vende a casa por 50 mil a mais.",
+   "caption": "O proprietário | te *liga:* | o *outro corretor* | disse que vende a casa | por *50 mil a mais.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "tentacao",
+   "text": "A vontade é brigar pelo número.",
+   "caption": "A vontade | é *brigar* | pelo *número.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "tentacao",
+   "text": "Mas o preço mais alto costuma ganhar a captação, não a venda.",
+   "caption": "Mas o preço mais alto | costuma ganhar | a *captação,* | não a *venda.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "parado",
+   "text": "Imóvel acima do mercado fica parado.",
+   "caption": "Imóvel *acima* | do mercado | fica *parado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "parado",
+   "text": "Sem visita, o anúncio envelhece, o comprador desconfia, e o preço cai.",
+   "caption": "Sem visita, | o anúncio *envelhece,* | o comprador *desconfia,* | e o preço *cai.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "parado",
+   "text": "Às vezes, abaixo do que você tinha sugerido.",
+   "caption": "Às vezes, | *abaixo* | do que você | tinha sugerido.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "virada",
+   "text": "Então não discuta a avaliação. Mostre por quanto os imóveis parecidos foram vendidos.",
+   "caption": "Então | *não discuta* | a avaliação. | *Mostre* por quanto | os imóveis parecidos | foram vendidos.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "virada",
+   "text": "Vendidos, não anunciados.",
+   "caption": "*Vendidos,* | não anunciados.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "regra",
+   "text": "E combine uma regra com o dono: se em 30 dias não tiver visita, vocês revisam o preço juntos.",
+   "caption": "E combine | uma *regra* | com o dono: | se em *30 dias* | não tiver visita, | vocês *revisam* o preço | *juntos.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "desfecho",
+   "text": "O número mais alto ganha a assinatura. A data combinada ganha a venda.",
+   "caption": "O número mais alto | ganha a *assinatura.* | A *data combinada* | ganha a *venda.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "tentacao": 0.3,
+  "parado": 0.35,
+  "virada": 0.4,
+  "regra": 0.35,
+  "desfecho": 0.4,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_liga": {
+   "seg": "s1",
+   "word": "liga",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_outro": {
+   "seg": "s1",
+   "word": "outro",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_50": {
+   "seg": "s1",
+   "word": "50",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_mais": {
+   "seg": "s1",
+   "word": "mais",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_brigar": {
+   "seg": "s2",
+   "word": "brigar",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_numero": {
+   "seg": "s2",
+   "word": "número",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_captacao": {
+   "seg": "s3",
+   "word": "captação",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_venda": {
+   "seg": "s3",
+   "word": "venda",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_acima": {
+   "seg": "s4",
+   "word": "acima",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_parado": {
+   "seg": "s4",
+   "word": "parado",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_visita": {
+   "seg": "s5",
+   "word": "visita",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_envelhece": {
+   "seg": "s5",
+   "word": "envelhece",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_desconfia": {
+   "seg": "s5",
+   "word": "desconfia",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_cai": {
+   "seg": "s5",
+   "word": "cai",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_abaixo": {
+   "seg": "s6",
+   "word": "abaixo",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_entao": {
+   "seg": "s7",
+   "word": "Então",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_avaliacao": {
+   "seg": "s7",
+   "word": "avaliação",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_mostre": {
+   "seg": "s7",
+   "word": "Mostre",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_vendidos": {
+   "seg": "s8",
+   "word": "Vendidos",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_anunciados": {
+   "seg": "s8",
+   "word": "anunciados",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_regra": {
+   "seg": "s9",
+   "word": "regra",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_30": {
+   "seg": "s9",
+   "word": "30",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_revisam": {
+   "seg": "s9",
+   "word": "revisam",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_juntos": {
+   "seg": "s9",
+   "word": "juntos",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_assinatura": {
+   "seg": "s10",
+   "word": "assinatura",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_data": {
+   "seg": "s10",
+   "word": "data",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_venda": {
+   "seg": "s10",
+   "word": "venda",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s11",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s11",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s11",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s11",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s11",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s11",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s11",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s11",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s11",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_liga",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -26
+  },
+  {
+   "cue": "h_50",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -27
+  },
+  {
+   "cue": "t_brigar",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -27
+  },
+  {
+   "cue": "t_captacao",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26
+  },
+  {
+   "cue": "t_venda",
+   "offset": 0.0,
+   "sound": "thump",
+   "gain": -28,
+   "pitch": -3
+  },
+  {
+   "cue": "p_parado",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -29
+  },
+  {
+   "cue": "p_envelhece",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -3
+  },
+  {
+   "cue": "p_cai",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "p_abaixo",
+   "offset": 0.0,
+   "sound": "thump",
+   "gain": -27,
+   "pitch": -5
+  },
+  {
+   "cue": "v_entao",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "v_vendidos",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -26
+  },
+  {
+   "cue": "r_regra",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "r_30",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "r_juntos",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 6
+  },
+  {
+   "cue": "f_assinatura",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "f_data",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.75,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.85,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.2,
+   "sound": "click",
+   "gain": -23,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.28,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:t_brigar",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_entao",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_assinatura",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T04",
+  "ancoras": {
+   "tensao": "cue:p_parado",
+   "virada": "cue:v_entao",
+   "insight": "cue:v_vendidos",
+   "resolucao": "cue:f_data"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "cartoon-explicativo",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "corretor-real",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "pull",
+  "justificativaModelo": "cena com três personagens (dono, corretor, rival) e consequência visual (anúncio envelhecendo, preço caindo).",
+  "justificativaHorario": "15h: identificação e aplicação na rotina.",
+  "trilha": "T04",
+  "justificativaTrilha": "tensão de disputa e do imóvel parado; pulso em movimento.",
+  "data": "2026-12-02",
+  "slot": "15:00",
+  "arquivo": "PRODUCAO/grade/2026-12-02.json"
+ },
+ "modelos4": true,
+ "modelo": 1,
+ "modeloNome": "Cartoon explicativo"
+}

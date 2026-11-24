@@ -1,0 +1,1419 @@
+{
+ "id": "ATIVO-D1202-08",
+ "title": "O 13º e o ITBI",
+ "fps": 30,
+ "duration": 49.7,
+ "durationInFrames": 1491,
+ "narrationEnd": 47.469,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.05
+  },
+  {
+   "id": "conta",
+   "start": 4.05,
+   "end": 10.4
+  },
+  {
+   "id": "itbi",
+   "start": 10.4,
+   "end": 24.165
+  },
+  {
+   "id": "virada",
+   "start": 24.165,
+   "end": 30.9
+  },
+  {
+   "id": "pergunta",
+   "start": 30.9,
+   "end": 39.125
+  },
+  {
+   "id": "desfecho",
+   "start": 39.125,
+   "end": 42.62
+  },
+  {
+   "id": "cta",
+   "start": 42.62,
+   "end": 49.7
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A primeira parcela do décimo terceiro caiu até segunda-feira.",
+   "start": 0.12,
+   "end": 3.9
+  },
+  {
+   "id": "s2",
+   "scene": "conta",
+   "text": "E o seu cliente vai perguntar se dá para usar na entrada do imóvel.",
+   "start": 4.2,
+   "end": 7.08
+  },
+  {
+   "id": "s3",
+   "scene": "conta",
+   "text": "Às vezes dá. Mas antes, faça outra conta.",
+   "start": 7.56,
+   "end": 10.2
+  },
+  {
+   "id": "s4",
+   "scene": "itbi",
+   "text": "Comprar imóvel tem custo que não aparece no preço.",
+   "start": 10.6,
+   "end": 13.27
+  },
+  {
+   "id": "s5",
+   "scene": "itbi",
+   "text": "O ITBI, o imposto da prefeitura, é de 3% em São Paulo, no Rio e em Belo Horizonte.",
+   "start": 13.48,
+   "end": 18.94
+  },
+  {
+   "id": "s6",
+   "scene": "itbi",
+   "text": "Num imóvel de 400 mil, são 12 mil reais. E ainda tem o cartório.",
+   "start": 19.24,
+   "end": 23.97
+  },
+  {
+   "id": "s7",
+   "scene": "virada",
+   "text": "Sem o imposto pago, a escritura não sai.",
+   "start": 24.36,
+   "end": 26.81
+  },
+  {
+   "id": "s8",
+   "scene": "virada",
+   "text": "E é aí que muita compra trava, mesmo com o financiamento aprovado.",
+   "start": 27.08,
+   "end": 30.72
+  },
+  {
+   "id": "s9",
+   "scene": "pergunta",
+   "text": "Então a pergunta não é só quanto ele tem de entrada.",
+   "start": 31.08,
+   "end": 33.73
+  },
+  {
+   "id": "s10",
+   "scene": "pergunta",
+   "text": "É: você já separou o imposto e o cartório?",
+   "start": 34.04,
+   "end": 36.5
+  },
+  {
+   "id": "s11",
+   "scene": "pergunta",
+   "text": "O décimo terceiro pode começar essa reserva.",
+   "start": 36.76,
+   "end": 38.93
+  },
+  {
+   "id": "s12",
+   "scene": "desfecho",
+   "text": "Quem faz essa conta antes evita a surpresa no cartório.",
+   "start": 39.32,
+   "end": 42.4
+  },
+  {
+   "id": "s13",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 42.84,
+   "end": 46.99
+  }
+ ],
+ "cues": {
+  "h_parcela": 0.76,
+  "h_decimo": 1.4,
+  "h_segunda": 3.176,
+  "c_cliente": 4.6,
+  "c_entrada": 6.44,
+  "c_vezes": 7.88,
+  "c_conta": 9.96,
+  "i_custo": 11.72,
+  "i_preco": 13.0,
+  "i_itbi": 13.688,
+  "i_prefeitura": 15.16,
+  "i_tres": 16.12,
+  "i_paulo": 17.08,
+  "i_rio": 17.64,
+  "i_bh": 18.28,
+  "i_400": 20.2,
+  "i_12": 21.64,
+  "i_cartorio": 23.64,
+  "v_sem": 24.36,
+  "v_escritura": 25.88,
+  "v_sai": 26.6,
+  "v_trava": 28.6,
+  "v_aprovado": 30.36,
+  "p_pergunta": 31.56,
+  "p_entrada": 33.4,
+  "p_separou": 35.0,
+  "p_imposto": 35.56,
+  "p_cartorio": 36.12,
+  "p_decimo": 36.92,
+  "p_reserva": 38.68,
+  "f_quem": 39.32,
+  "f_antes": 40.52,
+  "f_surpresa": 41.48,
+  "cta_quer": 42.84,
+  "cta_comment": 43.96,
+  "cta_word": 44.6,
+  "cta_tiles": 45.32,
+  "cta_sys": 46.12,
+  "cta_leads": 45.8,
+  "cta_atend": 46.44,
+  "cta_direct": 46.44,
+  "cta_end": 46.99
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.24,
+   "words": [
+    {
+     "text": "A",
+     "start": 0.12,
+     "end": 0.36,
+     "emph": false
+    },
+    {
+     "text": "primeira",
+     "start": 0.36,
+     "end": 0.76,
+     "emph": false
+    },
+    {
+     "text": "parcela",
+     "start": 0.76,
+     "end": 1.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.24,
+   "end": 2.52,
+   "words": [
+    {
+     "text": "do",
+     "start": 1.24,
+     "end": 1.4,
+     "emph": false
+    },
+    {
+     "text": "décimo",
+     "start": 1.4,
+     "end": 1.88,
+     "emph": true
+    },
+    {
+     "text": "terceiro",
+     "start": 1.88,
+     "end": 2.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.52,
+   "end": 3.176,
+   "words": [
+    {
+     "text": "caiu",
+     "start": 2.52,
+     "end": 2.92,
+     "emph": false
+    },
+    {
+     "text": "até",
+     "start": 2.92,
+     "end": 3.176,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.176,
+   "end": 4.2,
+   "words": [
+    {
+     "text": "segunda-feira.",
+     "start": 3.176,
+     "end": 3.9,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.2,
+   "end": 4.92,
+   "words": [
+    {
+     "text": "E",
+     "start": 4.2,
+     "end": 4.36,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 4.36,
+     "end": 4.44,
+     "emph": false
+    },
+    {
+     "text": "seu",
+     "start": 4.44,
+     "end": 4.6,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 4.6,
+     "end": 4.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.92,
+   "end": 5.56,
+   "words": [
+    {
+     "text": "vai",
+     "start": 4.92,
+     "end": 5.16,
+     "emph": false
+    },
+    {
+     "text": "perguntar",
+     "start": 5.16,
+     "end": 5.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.56,
+   "end": 6.36,
+   "words": [
+    {
+     "text": "se",
+     "start": 5.56,
+     "end": 5.8,
+     "emph": false
+    },
+    {
+     "text": "dá",
+     "start": 5.8,
+     "end": 5.96,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 5.96,
+     "end": 6.12,
+     "emph": false
+    },
+    {
+     "text": "usar",
+     "start": 6.12,
+     "end": 6.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.36,
+   "end": 6.76,
+   "words": [
+    {
+     "text": "na",
+     "start": 6.36,
+     "end": 6.44,
+     "emph": false
+    },
+    {
+     "text": "entrada",
+     "start": 6.44,
+     "end": 6.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.76,
+   "end": 7.56,
+   "words": [
+    {
+     "text": "do",
+     "start": 6.76,
+     "end": 6.92,
+     "emph": false
+    },
+    {
+     "text": "imóvel.",
+     "start": 6.92,
+     "end": 7.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 7.56,
+   "end": 8.6,
+   "words": [
+    {
+     "text": "Às",
+     "start": 7.56,
+     "end": 7.88,
+     "emph": false
+    },
+    {
+     "text": "vezes",
+     "start": 7.88,
+     "end": 8.21,
+     "emph": false
+    },
+    {
+     "text": "dá.",
+     "start": 8.394,
+     "end": 8.47,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.6,
+   "end": 9.24,
+   "words": [
+    {
+     "text": "Mas",
+     "start": 8.6,
+     "end": 8.84,
+     "emph": false
+    },
+    {
+     "text": "antes,",
+     "start": 8.84,
+     "end": 9.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.24,
+   "end": 10.6,
+   "words": [
+    {
+     "text": "faça",
+     "start": 9.24,
+     "end": 9.72,
+     "emph": false
+    },
+    {
+     "text": "outra",
+     "start": 9.72,
+     "end": 9.96,
+     "emph": true
+    },
+    {
+     "text": "conta.",
+     "start": 9.96,
+     "end": 10.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 10.6,
+   "end": 11.48,
+   "words": [
+    {
+     "text": "Comprar",
+     "start": 10.6,
+     "end": 10.67,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 11.08,
+     "end": 11.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 11.48,
+   "end": 12.04,
+   "words": [
+    {
+     "text": "tem",
+     "start": 11.48,
+     "end": 11.72,
+     "emph": false
+    },
+    {
+     "text": "custo",
+     "start": 11.72,
+     "end": 12.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.04,
+   "end": 12.84,
+   "words": [
+    {
+     "text": "que",
+     "start": 12.04,
+     "end": 12.2,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 12.2,
+     "end": 12.36,
+     "emph": false
+    },
+    {
+     "text": "aparece",
+     "start": 12.36,
+     "end": 12.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.84,
+   "end": 13.48,
+   "words": [
+    {
+     "text": "no",
+     "start": 12.84,
+     "end": 13.0,
+     "emph": false
+    },
+    {
+     "text": "preço.",
+     "start": 13.0,
+     "end": 13.27,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 13.48,
+   "end": 14.52,
+   "words": [
+    {
+     "text": "O",
+     "start": 13.48,
+     "end": 13.688,
+     "emph": false
+    },
+    {
+     "text": "ITBI,",
+     "start": 13.688,
+     "end": 14.37,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 14.52,
+   "end": 15.0,
+   "words": [
+    {
+     "text": "o",
+     "start": 14.52,
+     "end": 14.68,
+     "emph": false
+    },
+    {
+     "text": "imposto",
+     "start": 14.68,
+     "end": 15.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 15.0,
+   "end": 15.8,
+   "words": [
+    {
+     "text": "da",
+     "start": 15.0,
+     "end": 15.16,
+     "emph": false
+    },
+    {
+     "text": "prefeitura,",
+     "start": 15.16,
+     "end": 15.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 15.8,
+   "end": 16.76,
+   "words": [
+    {
+     "text": "é",
+     "start": 15.8,
+     "end": 15.96,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 15.96,
+     "end": 16.12,
+     "emph": false
+    },
+    {
+     "text": "3%",
+     "start": 16.12,
+     "end": 16.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 16.76,
+   "end": 17.48,
+   "words": [
+    {
+     "text": "em",
+     "start": 16.76,
+     "end": 16.92,
+     "emph": false
+    },
+    {
+     "text": "São",
+     "start": 16.92,
+     "end": 17.08,
+     "emph": false
+    },
+    {
+     "text": "Paulo,",
+     "start": 17.08,
+     "end": 17.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.48,
+   "end": 18.04,
+   "words": [
+    {
+     "text": "no",
+     "start": 17.48,
+     "end": 17.64,
+     "emph": false
+    },
+    {
+     "text": "Rio",
+     "start": 17.64,
+     "end": 18.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.04,
+   "end": 19.24,
+   "words": [
+    {
+     "text": "e",
+     "start": 18.04,
+     "end": 18.2,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 18.2,
+     "end": 18.28,
+     "emph": false
+    },
+    {
+     "text": "Belo",
+     "start": 18.28,
+     "end": 18.52,
+     "emph": false
+    },
+    {
+     "text": "Horizonte.",
+     "start": 18.52,
+     "end": 18.94,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 19.24,
+   "end": 20.04,
+   "words": [
+    {
+     "text": "Num",
+     "start": 19.24,
+     "end": 19.31,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 19.56,
+     "end": 20.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 20.04,
+   "end": 21.4,
+   "words": [
+    {
+     "text": "de",
+     "start": 20.04,
+     "end": 20.2,
+     "emph": false
+    },
+    {
+     "text": "400",
+     "start": 20.2,
+     "end": 20.84,
+     "emph": true
+    },
+    {
+     "text": "mil,",
+     "start": 20.84,
+     "end": 21.14,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 21.4,
+   "end": 22.84,
+   "words": [
+    {
+     "text": "são",
+     "start": 21.4,
+     "end": 21.64,
+     "emph": false
+    },
+    {
+     "text": "12",
+     "start": 21.64,
+     "end": 21.96,
+     "emph": true
+    },
+    {
+     "text": "mil",
+     "start": 21.96,
+     "end": 22.28,
+     "emph": true
+    },
+    {
+     "text": "reais.",
+     "start": 22.28,
+     "end": 22.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.84,
+   "end": 23.48,
+   "words": [
+    {
+     "text": "E",
+     "start": 22.84,
+     "end": 23.0,
+     "emph": false
+    },
+    {
+     "text": "ainda",
+     "start": 23.0,
+     "end": 23.32,
+     "emph": false
+    },
+    {
+     "text": "tem",
+     "start": 23.32,
+     "end": 23.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.48,
+   "end": 24.36,
+   "words": [
+    {
+     "text": "o",
+     "start": 23.48,
+     "end": 23.64,
+     "emph": false
+    },
+    {
+     "text": "cartório.",
+     "start": 23.64,
+     "end": 23.97,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 24.36,
+   "end": 25.72,
+   "words": [
+    {
+     "text": "Sem",
+     "start": 24.36,
+     "end": 24.43,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 24.68,
+     "end": 24.84,
+     "emph": false
+    },
+    {
+     "text": "imposto",
+     "start": 24.84,
+     "end": 25.24,
+     "emph": true
+    },
+    {
+     "text": "pago,",
+     "start": 25.24,
+     "end": 25.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 25.72,
+   "end": 26.44,
+   "words": [
+    {
+     "text": "a",
+     "start": 25.72,
+     "end": 25.88,
+     "emph": false
+    },
+    {
+     "text": "escritura",
+     "start": 25.88,
+     "end": 26.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.44,
+   "end": 27.08,
+   "words": [
+    {
+     "text": "não",
+     "start": 26.44,
+     "end": 26.6,
+     "emph": true
+    },
+    {
+     "text": "sai.",
+     "start": 26.6,
+     "end": 26.81,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 27.08,
+   "end": 27.64,
+   "words": [
+    {
+     "text": "E",
+     "start": 27.08,
+     "end": 27.24,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 27.24,
+     "end": 27.4,
+     "emph": false
+    },
+    {
+     "text": "aí",
+     "start": 27.4,
+     "end": 27.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 27.64,
+   "end": 28.6,
+   "words": [
+    {
+     "text": "que",
+     "start": 27.64,
+     "end": 27.88,
+     "emph": false
+    },
+    {
+     "text": "muita",
+     "start": 27.88,
+     "end": 28.12,
+     "emph": false
+    },
+    {
+     "text": "compra",
+     "start": 28.12,
+     "end": 28.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 28.6,
+   "end": 29.24,
+   "words": [
+    {
+     "text": "trava,",
+     "start": 28.6,
+     "end": 28.99,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 29.24,
+   "end": 29.64,
+   "words": [
+    {
+     "text": "mesmo",
+     "start": 29.24,
+     "end": 29.48,
+     "emph": false
+    },
+    {
+     "text": "com",
+     "start": 29.48,
+     "end": 29.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 29.64,
+   "end": 30.36,
+   "words": [
+    {
+     "text": "o",
+     "start": 29.64,
+     "end": 29.72,
+     "emph": false
+    },
+    {
+     "text": "financiamento",
+     "start": 29.72,
+     "end": 30.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 30.36,
+   "end": 31.08,
+   "words": [
+    {
+     "text": "aprovado.",
+     "start": 30.36,
+     "end": 30.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 31.08,
+   "end": 31.88,
+   "words": [
+    {
+     "text": "Então",
+     "start": 31.08,
+     "end": 31.15,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 31.4,
+     "end": 31.56,
+     "emph": false
+    },
+    {
+     "text": "pergunta",
+     "start": 31.56,
+     "end": 31.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 31.88,
+   "end": 32.52,
+   "words": [
+    {
+     "text": "não",
+     "start": 31.88,
+     "end": 31.96,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 31.96,
+     "end": 32.12,
+     "emph": false
+    },
+    {
+     "text": "só",
+     "start": 32.12,
+     "end": 32.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 32.52,
+   "end": 33.24,
+   "words": [
+    {
+     "text": "quanto",
+     "start": 32.52,
+     "end": 32.84,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 32.84,
+     "end": 33.0,
+     "emph": false
+    },
+    {
+     "text": "tem",
+     "start": 33.0,
+     "end": 33.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 33.24,
+   "end": 34.04,
+   "words": [
+    {
+     "text": "de",
+     "start": 33.24,
+     "end": 33.4,
+     "emph": false
+    },
+    {
+     "text": "entrada.",
+     "start": 33.4,
+     "end": 33.73,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 34.04,
+   "end": 34.52,
+   "words": [
+    {
+     "text": "É:",
+     "start": 34.04,
+     "end": 34.34,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 34.52,
+   "end": 35.48,
+   "words": [
+    {
+     "text": "você",
+     "start": 34.52,
+     "end": 34.84,
+     "emph": false
+    },
+    {
+     "text": "já",
+     "start": 34.84,
+     "end": 35.0,
+     "emph": false
+    },
+    {
+     "text": "separou",
+     "start": 35.0,
+     "end": 35.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 35.48,
+   "end": 35.88,
+   "words": [
+    {
+     "text": "o",
+     "start": 35.48,
+     "end": 35.56,
+     "emph": false
+    },
+    {
+     "text": "imposto",
+     "start": 35.56,
+     "end": 35.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 35.88,
+   "end": 36.76,
+   "words": [
+    {
+     "text": "e",
+     "start": 35.88,
+     "end": 36.04,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 36.04,
+     "end": 36.12,
+     "emph": false
+    },
+    {
+     "text": "cartório?",
+     "start": 36.12,
+     "end": 36.5,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 36.76,
+   "end": 37.8,
+   "words": [
+    {
+     "text": "O",
+     "start": 36.76,
+     "end": 36.92,
+     "emph": false
+    },
+    {
+     "text": "décimo",
+     "start": 36.92,
+     "end": 37.4,
+     "emph": false
+    },
+    {
+     "text": "terceiro",
+     "start": 37.4,
+     "end": 37.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 37.8,
+   "end": 38.44,
+   "words": [
+    {
+     "text": "pode",
+     "start": 37.8,
+     "end": 38.04,
+     "emph": false
+    },
+    {
+     "text": "começar",
+     "start": 38.04,
+     "end": 38.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 38.44,
+   "end": 39.32,
+   "words": [
+    {
+     "text": "essa",
+     "start": 38.44,
+     "end": 38.68,
+     "emph": false
+    },
+    {
+     "text": "reserva.",
+     "start": 38.68,
+     "end": 38.93,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 39.32,
+   "end": 39.88,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 39.32,
+     "end": 39.64,
+     "emph": false
+    },
+    {
+     "text": "faz",
+     "start": 39.64,
+     "end": 39.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 39.88,
+   "end": 40.92,
+   "words": [
+    {
+     "text": "essa",
+     "start": 39.88,
+     "end": 40.12,
+     "emph": false
+    },
+    {
+     "text": "conta",
+     "start": 40.12,
+     "end": 40.52,
+     "emph": false
+    },
+    {
+     "text": "antes",
+     "start": 40.52,
+     "end": 40.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 40.92,
+   "end": 41.96,
+   "words": [
+    {
+     "text": "evita",
+     "start": 40.92,
+     "end": 41.4,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 41.4,
+     "end": 41.48,
+     "emph": false
+    },
+    {
+     "text": "surpresa",
+     "start": 41.48,
+     "end": 41.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 41.96,
+   "end": 42.84,
+   "words": [
+    {
+     "text": "no",
+     "start": 41.96,
+     "end": 42.12,
+     "emph": false
+    },
+    {
+     "text": "cartório.",
+     "start": 42.12,
+     "end": 42.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 42.84,
+   "end": 43.96,
+   "words": [
+    {
+     "text": "Se",
+     "start": 42.84,
+     "end": 43.0,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 43.0,
+     "end": 43.16,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 43.16,
+     "end": 43.32,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 43.32,
+     "end": 43.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 43.96,
+   "end": 45.16,
+   "words": [
+    {
+     "text": "comente",
+     "start": 43.96,
+     "end": 44.6,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 44.6,
+     "end": 45.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 45.16,
+   "end": 46.12,
+   "words": [
+    {
+     "text": "e",
+     "start": 45.16,
+     "end": 45.32,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 45.32,
+     "end": 45.8,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 45.8,
+     "end": 46.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 46.12,
+   "end": 47.49,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 46.12,
+     "end": 46.44,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 46.44,
+     "end": 46.99,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

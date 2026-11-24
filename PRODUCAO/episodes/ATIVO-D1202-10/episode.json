@@ -1,0 +1,646 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "2020": "dois mil e vinte"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1202-10",
+ "lote": "D1202",
+ "title": "E se o comprador pagasse metade?",
+ "outputDir": "ATIVO_D1202_10",
+ "deliverables": {
+  "final": "ATIVO_D1202_10_FINAL.mp4",
+  "narration": "ATIVO_D1202_10_NARRACAO.wav",
+  "subtitles": "ATIVO_D1202_10_legendas.srt",
+  "cover": "ATIVO_D1202_10_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-02/ATIVO-D1202-10_comprador_paga_metade.md",
+ "apuracao": {
+  "fato": "Alemanha: lei de divisão da comissão em vigor desde 23/12/2020 — venda de apartamento/casa unifamiliar a consumidor, corretor para os dois lados: divisão em partes iguais; antes, em Berlim, Hamburgo, Brandemburgo, Bremen e Hesse o comprador pagava tudo. Estudo (tese) da Hertie School: comissão total maior somando as duas partes.",
+  "verificado_em": "2026-11-24",
+  "fontes": [
+   "https://www.engelvoelkers.com/de/en/resources/brokerage-commission-reform-2020",
+   "https://www.iamexpat.de/housing/property-news/new-german-law-partially-relieves-house-buyers-real-estate-agent-fees",
+   "https://hertie-school.org/en/news/news/detail/content/study-legal-reform-increased-commissions-for-german-real-estate-agents-instead-of-lowering-them"
+  ],
+  "ressalvas": "1 estudo (dito); Brasil: costume, não regra legal ('quase sempre')"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que atende comprador e vendedor",
+  "territorio": "e-se",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "quem paga a comissão é quem importa",
+  "hipotese": "mudar quem paga não muda o valor; o comprador precisa enxergar o trabalho"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "E se o comprador do imóvel tivesse que pagar metade da comissão do corretor?",
+   "caption": "E se o *comprador* | do imóvel | tivesse que pagar | *metade* | da *comissão* | do corretor?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "lei",
+   "text": "Na Alemanha, isso virou lei no fim de 2020.",
+   "caption": "Na *Alemanha,* | isso virou *lei* | no fim de *2020.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "lei",
+   "text": "Na venda de apartamento ou casa para morar, quando o corretor atende os dois lados, a comissão é dividida meio a meio.",
+   "caption": "Na venda | de apartamento | ou casa para morar, | quando o corretor | atende os *dois lados,* | a comissão é dividida | *meio a meio.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "antes",
+   "text": "Antes, em cidades como Berlim e Hamburgo, era o comprador que pagava tudo.",
+   "caption": "*Antes,* | em cidades como | Berlim e Hamburgo, | era o comprador | que pagava *tudo.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "antes",
+   "text": "A lei veio para aliviar quem compra.",
+   "caption": "A lei veio | para *aliviar* | quem compra.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "virada",
+   "text": "Só que um estudo de uma universidade de Berlim encontrou outra coisa: somando as duas metades, a comissão ficou maior.",
+   "caption": "Só que | um *estudo* | de uma universidade | de Berlim | encontrou outra coisa: | somando as duas metades, | a comissão | ficou *maior.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "brasil",
+   "text": "Ou seja, mudar quem paga não mudou o valor.",
+   "caption": "Ou seja, | mudar quem paga | *não mudou* | o valor.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "brasil",
+   "text": "No Brasil, quase sempre quem paga é o vendedor. Mas quem decide a compra é o comprador.",
+   "caption": "No *Brasil,* | quase sempre | quem paga | é o *vendedor.* | Mas quem *decide* | a compra | é o *comprador.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "desfecho",
+   "text": "Então trabalhe como se os dois pagassem: mostre ao comprador a pesquisa, os documentos e a negociação que ele recebe de você.",
+   "caption": "Então trabalhe | como se *os dois* | pagassem: | mostre ao comprador | a *pesquisa,* | os *documentos* | e a *negociação* | que ele recebe | de você.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "lei": 0.3,
+  "antes": 0.3,
+  "virada": 0.4,
+  "brasil": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_comprador": {
+   "seg": "s1",
+   "word": "comprador",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_metade": {
+   "seg": "s1",
+   "word": "metade",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_comissao": {
+   "seg": "s1",
+   "word": "comissão",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_alemanha": {
+   "seg": "s2",
+   "word": "Alemanha",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_lei": {
+   "seg": "s2",
+   "word": "lei",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_2020": {
+   "seg": "s2",
+   "word": "2020",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_venda": {
+   "seg": "s3",
+   "word": "venda",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_dois": {
+   "seg": "s3",
+   "word": "dois",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_meio": {
+   "seg": "s3",
+   "word": "meio",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_antes": {
+   "seg": "s4",
+   "word": "Antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_berlim": {
+   "seg": "s4",
+   "word": "Berlim",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_tudo": {
+   "seg": "s4",
+   "word": "tudo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_aliviar": {
+   "seg": "s5",
+   "word": "aliviar",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_soque": {
+   "seg": "s6",
+   "word": "Só",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_estudo": {
+   "seg": "s6",
+   "word": "estudo",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_somando": {
+   "seg": "s6",
+   "word": "somando",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_maior": {
+   "seg": "s6",
+   "word": "maior",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_mudar": {
+   "seg": "s7",
+   "word": "mudar",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_mudou": {
+   "seg": "s7",
+   "word": "mudou",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_brasil": {
+   "seg": "s8",
+   "word": "Brasil",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_vendedor": {
+   "seg": "s8",
+   "word": "vendedor",
+   "edge": "start",
+   "offset": 0
+  },
+  "b_decide": {
+   "seg": "s8",
+   "word": "decide",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_trabalhe": {
+   "seg": "s9",
+   "word": "trabalhe",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_dois": {
+   "seg": "s9",
+   "word": "dois",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_pesquisa": {
+   "seg": "s9",
+   "word": "pesquisa",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_documentos": {
+   "seg": "s9",
+   "word": "documentos",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_negociacao": {
+   "seg": "s9",
+   "word": "negociação",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s10",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s10",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s10",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s10",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s10",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s10",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s10",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s10",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s10",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_comprador",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26
+  },
+  {
+   "cue": "h_metade",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -27
+  },
+  {
+   "cue": "l_alemanha",
+   "offset": -0.05,
+   "sound": "whoosh_fold",
+   "gain": -29
+  },
+  {
+   "cue": "l_lei",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -27
+  },
+  {
+   "cue": "l_meio",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "a_antes",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "a_tudo",
+   "offset": 0.0,
+   "sound": "thump",
+   "gain": -28,
+   "pitch": -3
+  },
+  {
+   "cue": "a_aliviar",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 5
+  },
+  {
+   "cue": "v_soque",
+   "offset": -0.05,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "v_estudo",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -27
+  },
+  {
+   "cue": "v_maior",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": -2
+  },
+  {
+   "cue": "b_mudar",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "b_brasil",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26
+  },
+  {
+   "cue": "b_decide",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -26
+  },
+  {
+   "cue": "f_pesquisa",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26
+  },
+  {
+   "cue": "f_documentos",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "f_negociacao",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.75,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.85,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.2,
+   "sound": "click",
+   "gain": -23,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.28,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:l_alemanha",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_soque",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_trabalhe",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T05",
+  "ancoras": {
+   "virada": "cue:v_soque",
+   "insight": "cue:b_mudar",
+   "resolucao": "cue:f_trabalhe"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "cartoon-explicativo",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "e-se",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "comparação com personagens (comprador, vendedor, corretor), moeda partida, bandeira de outro país e carimbo de lei: humor que nasce do fato.",
+  "justificativaHorario": "10h: hipótese forte, E SE…?",
+  "trilha": "T05",
+  "justificativaTrilha": "ritmo leve de comparação prática do cartoon.",
+  "data": "2026-12-02",
+  "slot": "10:00",
+  "arquivo": "PRODUCAO/grade/2026-12-02.json"
+ },
+ "modelos4": true,
+ "modelo": 1,
+ "modeloNome": "Cartoon explicativo"
+}

@@ -1,0 +1,614 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1202-21",
+ "lote": "D1202",
+ "title": "A visita maior que a foto",
+ "outputDir": "ATIVO_D1202_21",
+ "deliverables": {
+  "final": "ATIVO_D1202_21_FINAL.mp4",
+  "narration": "ATIVO_D1202_21_NARRACAO.wav",
+  "subtitles": "ATIVO_D1202_21_legendas.srt",
+  "cover": "ATIVO_D1202_21_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-02/ATIVO-D1202-21_a_visita_maior_que_a_foto.md",
+ "apuracao": {
+  "fato": "Tese por raciocínio (expectativa × experiência); sem estatística.",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "tese declarada; sem números"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que produz fotos e anúncios",
+  "territorio": "ideia",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "foto bonita é a que mais vende",
+  "hipotese": "a foto vende a visita; honestidade + algo guardado para o ao vivo"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A foto do anúncio não vende o imóvel. Ela vende a visita.",
+   "caption": "A *foto* do anúncio | não vende o *imóvel.* | Ela vende | a *visita.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "promessa",
+   "text": "E se a foto prometer mais do que o imóvel entrega, a venda morre na porta.",
+   "caption": "E se a foto | *prometer mais* | do que o imóvel entrega, | a venda | *morre na porta.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "promessa",
+   "text": "Lente que estica a sala, céu trocado, ângulo que esconde a parede.",
+   "caption": "*Lente* | que estica a sala, | *céu* trocado, | *ângulo* | que esconde a parede.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "porta",
+   "text": "O cliente chega esperando um imóvel e encontra outro.",
+   "caption": "O cliente chega | esperando um imóvel | e encontra *outro.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "porta",
+   "text": "Daí em diante, ele procura o defeito em tudo.",
+   "caption": "Daí em diante, | ele procura | o *defeito* | em *tudo.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "virada",
+   "text": "O contrário também acontece.",
+   "caption": "O *contrário* | também acontece.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "virada",
+   "text": "Quando a foto é honesta, o cliente chega com a expectativa certa, e o imóvel tem chance de surpreender.",
+   "caption": "Quando a foto | é *honesta,* | o cliente chega | com a *expectativa certa,* | e o imóvel | tem chance | de *surpreender.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "guardar",
+   "text": "Por isso, mostre o imóvel como ele é.",
+   "caption": "Por isso, | *mostre* o imóvel | *como ele é.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "guardar",
+   "text": "E guarde uma coisa boa para ver ao vivo: a luz da tarde, a vista, o silêncio.",
+   "caption": "E *guarde* | uma coisa boa | para ver *ao vivo:* | a *luz* da tarde, | a *vista,* | o *silêncio.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "desfecho",
+   "text": "Visita boa é a que fica maior que a foto.",
+   "caption": "Visita boa | é a que fica | *maior que a foto.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "promessa": 0.3,
+  "porta": 0.35,
+  "virada": 0.45,
+  "guardar": 0.35,
+  "desfecho": 0.4,
+  "cta": 0.35
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_foto": {
+   "seg": "s1",
+   "word": "foto",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_imovel": {
+   "seg": "s1",
+   "word": "imóvel",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_visita": {
+   "seg": "s1",
+   "word": "visita",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_prometer": {
+   "seg": "s2",
+   "word": "prometer",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_morre": {
+   "seg": "s2",
+   "word": "morre",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_porta": {
+   "seg": "s2",
+   "word": "porta",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_lente": {
+   "seg": "s3",
+   "word": "Lente",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_ceu": {
+   "seg": "s3",
+   "word": "céu",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_angulo": {
+   "seg": "s3",
+   "word": "ângulo",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_chega": {
+   "seg": "s4",
+   "word": "chega",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_outro": {
+   "seg": "s4",
+   "word": "outro",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_defeito": {
+   "seg": "s5",
+   "word": "defeito",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_tudo": {
+   "seg": "s5",
+   "word": "tudo",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_contrario": {
+   "seg": "s6",
+   "word": "contrário",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_honesta": {
+   "seg": "s7",
+   "word": "honesta",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_expectativa": {
+   "seg": "s7",
+   "word": "expectativa",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_surpreender": {
+   "seg": "s7",
+   "word": "surpreender",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_mostre": {
+   "seg": "s8",
+   "word": "mostre",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_como": {
+   "seg": "s8",
+   "word": "como",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_guarde": {
+   "seg": "s9",
+   "word": "guarde",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_vivo": {
+   "seg": "s9",
+   "word": "vivo",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_luz": {
+   "seg": "s9",
+   "word": "luz",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_vista": {
+   "seg": "s9",
+   "word": "vista",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_silencio": {
+   "seg": "s9",
+   "word": "silêncio",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_visita": {
+   "seg": "s10",
+   "word": "Visita",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_maior": {
+   "seg": "s10",
+   "word": "maior",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s11",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s11",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s11",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s11",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s11",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s11",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s11",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s11",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s11",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_foto",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "h_visita",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "p_prometer",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "p_morre",
+   "offset": 0.0,
+   "sound": "thump",
+   "gain": -27,
+   "pitch": -4
+  },
+  {
+   "cue": "p_lente",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28
+  },
+  {
+   "cue": "p_ceu",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": 3
+  },
+  {
+   "cue": "p_angulo",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": 6
+  },
+  {
+   "cue": "d_outro",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -28
+  },
+  {
+   "cue": "d_defeito",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "v_contrario",
+   "offset": -0.1,
+   "sound": "whoosh_fold",
+   "gain": -29
+  },
+  {
+   "cue": "v_surpreender",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "g_luz",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "g_vista",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "g_silencio",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "f_maior",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -28
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.1,
+   "sound": "shimmer",
+   "gain": -25
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 2.3,
+   "sound": "chord",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:p_prometer",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_contrario",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:g_mostre",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T04",
+  "ancoras": {
+   "tensao": "cue:p_morre",
+   "virada": "cue:v_contrario",
+   "descoberta": "cue:v_surpreender",
+   "insight": "cue:f_maior"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "pictograma-cinematografico",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "ideia",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "pull",
+  "justificativaModelo": "tese reflexiva de expectativa × realidade: moldura que brilha, porta que abre para menos, luz que acende ao vivo.",
+  "justificativaHorario": "21h: conteúdo autoral e reflexivo.",
+  "trilha": "T04",
+  "justificativaTrilha": "Groove noir no Pictograma noir; tensão da expectativa até a porta (2ª T04 do dia, ver justificativas.trilhas).",
+  "data": "2026-12-02",
+  "slot": "21:00",
+  "arquivo": "PRODUCAO/grade/2026-12-02.json"
+ },
+ "modelos4": true,
+ "modelo": 2,
+ "modeloNome": "Pictograma cinematográfico"
+}

@@ -1,0 +1,609 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "20%": "vinte por cento"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1202-12",
+ "lote": "D1202",
+ "title": "O cheiro da visita",
+ "outputDir": "ATIVO_D1202_12",
+ "deliverables": {
+  "final": "ATIVO_D1202_12_FINAL.mp4",
+  "narration": "ATIVO_D1202_12_NARRACAO.wav",
+  "subtitles": "ATIVO_D1202_12_legendas.srt",
+  "cover": "ATIVO_D1202_12_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-02/ATIVO-D1202-12_o_cheiro_da_visita.md",
+ "apuracao": {
+  "fato": "Herrmann, Zidansek, Sprott e Spangenberg, Journal of Retailing (WSU, nov/2012): loja de decoração em St. Gallen, 400+ clientes, 18 dias úteis; aroma simples (laranja) × complexo (laranja, manjericão, chá verde); gasto ~20% maior com o simples. 1 estudo.",
+  "verificado_em": "2026-11-24",
+  "fontes": [
+   "https://sciencedaily.com/releases/2012/11/121126110929.htm",
+   "https://www.eurekalert.org/news-releases/921553"
+  ],
+  "ressalvas": "1 estudo numa loja (dito na fala); aplicação à visita é recomendação"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que prepara a visita",
+  "territorio": "fora-da-bolha",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "cheiro bom é perfume forte",
+  "hipotese": "cheiro simples ou nenhum; mistura disputa a atenção do imóvel"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Tem loja que escolhe o cheiro do ar com o mesmo cuidado com que escolhe a vitrine.",
+   "caption": "Tem *loja* | que escolhe | o *cheiro* do ar | com o mesmo cuidado | com que escolhe | a *vitrine.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "teste",
+   "text": "Pesquisadores testaram dois aromas numa loja de decoração na Suíça.",
+   "caption": "Pesquisadores testaram | *dois aromas* | numa loja de decoração | na *Suíça.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "teste",
+   "text": "Um simples, só laranja. Outro complexo, laranja com manjericão e chá verde.",
+   "caption": "Um *simples,* | só laranja. | Outro *complexo,* | laranja com manjericão | e chá verde.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "resultado",
+   "text": "Com o cheiro simples, os clientes gastaram em média 20% a mais.",
+   "caption": "Com o cheiro *simples,* | os clientes gastaram | em média | *20% a mais.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "resultado",
+   "text": "Foi um estudo só, mas a explicação faz sentido: o cérebro processa o simples sem esforço.",
+   "caption": "Foi um *estudo só,* | mas a explicação | faz sentido: | o *cérebro* | processa o simples | *sem esforço.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "virada",
+   "text": "Agora pense na sua visita. Perfume forte, um aromatizador em cada cômodo, cheiro do almoço.",
+   "caption": "Agora pense | na sua *visita.* | *Perfume* forte, | um aromatizador | em cada cômodo, | cheiro do *almoço.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "visita",
+   "text": "Tudo isso disputa a atenção que deveria estar no imóvel.",
+   "caption": "Tudo isso *disputa* | a atenção | que deveria estar | no *imóvel.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "visita",
+   "text": "Antes do cliente chegar: janelas abertas e nada de mistura de cheiros.",
+   "caption": "Antes do cliente chegar: | *janelas abertas* | e nada de *mistura* | de cheiros.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "desfecho",
+   "text": "O melhor cheiro da visita é aquele que ninguém comenta.",
+   "caption": "O *melhor cheiro* | da visita | é aquele | que *ninguém comenta.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "teste": 0.3,
+  "resultado": 0.35,
+  "virada": 0.4,
+  "visita": 0.35,
+  "desfecho": 0.4,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_loja": {
+   "seg": "s1",
+   "word": "loja",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_cheiro": {
+   "seg": "s1",
+   "word": "cheiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_vitrine": {
+   "seg": "s1",
+   "word": "vitrine",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_pesquisadores": {
+   "seg": "s2",
+   "word": "Pesquisadores",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_dois": {
+   "seg": "s2",
+   "word": "dois",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_suica": {
+   "seg": "s2",
+   "word": "Suíça",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_simples": {
+   "seg": "s3",
+   "word": "simples",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_laranja": {
+   "seg": "s3",
+   "word": "laranja",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_complexo": {
+   "seg": "s3",
+   "word": "complexo",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_manjericao": {
+   "seg": "s3",
+   "word": "manjericão",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_cha": {
+   "seg": "s3",
+   "word": "chá",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_simples": {
+   "seg": "s4",
+   "word": "simples",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_20": {
+   "seg": "s4",
+   "word": "20",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_mais": {
+   "seg": "s4",
+   "word": "mais",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_estudo": {
+   "seg": "s5",
+   "word": "estudo",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_cerebro": {
+   "seg": "s5",
+   "word": "cérebro",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_esforco": {
+   "seg": "s5",
+   "word": "esforço",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_agora": {
+   "seg": "s6",
+   "word": "Agora",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_visita": {
+   "seg": "s6",
+   "word": "visita",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_perfume": {
+   "seg": "s6",
+   "word": "Perfume",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_aromatizador": {
+   "seg": "s6",
+   "word": "aromatizador",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_almoco": {
+   "seg": "s6",
+   "word": "almoço",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_disputa": {
+   "seg": "s7",
+   "word": "disputa",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_imovel": {
+   "seg": "s7",
+   "word": "imóvel",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_antes": {
+   "seg": "s8",
+   "word": "Antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_janelas": {
+   "seg": "s8",
+   "word": "janelas",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_mistura": {
+   "seg": "s8",
+   "word": "mistura",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_melhor": {
+   "seg": "s9",
+   "word": "melhor",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_ninguem": {
+   "seg": "s9",
+   "word": "ninguém",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s10",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s10",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s10",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s10",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s10",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s10",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s10",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s10",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s10",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_cheiro",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -30
+  },
+  {
+   "cue": "h_vitrine",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28
+  },
+  {
+   "cue": "t_dois",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28
+  },
+  {
+   "cue": "t_simples",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27
+  },
+  {
+   "cue": "t_complexo",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": -3
+  },
+  {
+   "cue": "r_20",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -26
+  },
+  {
+   "cue": "r_estudo",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28
+  },
+  {
+   "cue": "v_agora",
+   "offset": -0.1,
+   "sound": "whoosh_fold",
+   "gain": -29
+  },
+  {
+   "cue": "v_perfume",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_almoco",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -4
+  },
+  {
+   "cue": "d_janelas",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -28
+  },
+  {
+   "cue": "d_mistura",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -29
+  },
+  {
+   "cue": "f_ninguem",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.2,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.7,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:t_pesquisadores",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_agora",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_melhor",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T03",
+  "ancoras": {
+   "descoberta": "cue:r_20",
+   "virada": "cue:v_agora",
+   "insight": "cue:f_ninguem"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "maquete-3d",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "fora-da-bolha",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "loja e casa como miniaturas no mesmo mundo; o cheiro vira arco de pontos (Fluxo) que liga ambiente e pessoa.",
+  "justificativaHorario": "12h: conteúdo cultural e acessível no almoço.",
+  "trilha": "T03",
+  "justificativaTrilha": "arco de descoberta: do estudo à aplicação na visita.",
+  "data": "2026-12-02",
+  "slot": "12:00",
+  "arquivo": "PRODUCAO/grade/2026-12-02.json"
+ },
+ "modelos4": true,
+ "modelo": 4,
+ "modeloNome": "Maquete 3D"
+}

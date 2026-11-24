@@ -1,0 +1,675 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "ITBI": "i tê bê i",
+  "3%": "três por cento"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1202-08",
+ "lote": "D1202",
+ "title": "O 13º e o ITBI",
+ "outputDir": "ATIVO_D1202_08",
+ "deliverables": {
+  "final": "ATIVO_D1202_08_FINAL.mp4",
+  "narration": "ATIVO_D1202_08_NARRACAO.wav",
+  "subtitles": "ATIVO_D1202_08_legendas.srt",
+  "cover": "ATIVO_D1202_08_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-02/ATIVO-D1202-08_o_13_e_o_itbi.md",
+ "apuracao": {
+  "fato": "Lei 4.749/1965, art. 2º: 1ª parcela do 13º até 30/11 (2026: segunda-feira). ITBI 3% em São Paulo, Rio de Janeiro e Belo Horizonte (sites das prefeituras); sem ITBI pago o cartório não conclui a transferência; escritura e registro pela tabela estadual.",
+  "verificado_em": "2026-11-24",
+  "fontes": [
+   "https://www.planalto.gov.br/ccivil_03/leis/l4749.htm",
+   "https://www.gazetasp.com.br/economia/13o-salario-de-2026-tem-primeira-parcela-ate-30-de-novembro-e-segunda-deve-ser-antecipada-para-18-de-dezembro/",
+   "https://prefeitura.pbh.gov.br/fazenda/tributos/itbi",
+   "https://www.quintoandar.com.br/guias/itbi/"
+  ],
+  "ressalvas": "alíquota varia por cidade (selo); SP tem regime reduzido sobre parte do financiado no SFH (não detalhado); cartório sem número"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor com cliente comprador que recebeu o 13º",
+  "territorio": "agora",
+  "funcao": "C3 + C4",
+  "crenca_questionada": "o 13º resolve a entrada",
+  "hipotese": "a conta que trava a compra é imposto + cartório; a pergunta certa resolve"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A primeira parcela do décimo terceiro caiu até segunda-feira.",
+   "caption": "A primeira *parcela* | do *décimo terceiro* | caiu até | *segunda-feira.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "conta",
+   "text": "E o seu cliente vai perguntar se dá para usar na entrada do imóvel.",
+   "caption": "E o seu cliente | vai perguntar | se dá para usar | na *entrada* | do imóvel.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "conta",
+   "text": "Às vezes dá. Mas antes, faça outra conta.",
+   "caption": "Às vezes dá. | Mas antes, | faça *outra conta.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "itbi",
+   "text": "Comprar imóvel tem custo que não aparece no preço.",
+   "caption": "Comprar imóvel | tem *custo* | que não aparece | no *preço.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "itbi",
+   "text": "O ITBI, o imposto da prefeitura, é de 3% em São Paulo, no Rio e em Belo Horizonte.",
+   "caption": "O *ITBI,* | o imposto | da prefeitura, | é de *3%* | em São Paulo, | no Rio | e em Belo Horizonte.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "itbi",
+   "text": "Num imóvel de 400 mil, são 12 mil reais. E ainda tem o cartório.",
+   "caption": "Num imóvel | de *400 mil,* | são *12 mil reais.* | E ainda tem | o *cartório.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "virada",
+   "text": "Sem o imposto pago, a escritura não sai.",
+   "caption": "Sem o *imposto* pago, | a escritura | *não sai.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "virada",
+   "text": "E é aí que muita compra trava, mesmo com o financiamento aprovado.",
+   "caption": "E é aí | que muita compra | *trava,* | mesmo com | o financiamento | *aprovado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "pergunta",
+   "text": "Então a pergunta não é só quanto ele tem de entrada.",
+   "caption": "Então a *pergunta* | não é só | quanto ele tem | de entrada.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "pergunta",
+   "text": "É: você já separou o imposto e o cartório?",
+   "caption": "É: | você já *separou* | o *imposto* | e o *cartório?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "pergunta",
+   "text": "O décimo terceiro pode começar essa reserva.",
+   "caption": "O décimo terceiro | pode *começar* | essa *reserva.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "desfecho",
+   "text": "Quem faz essa conta antes evita a surpresa no cartório.",
+   "caption": "Quem faz | essa conta *antes* | evita a *surpresa* | no cartório.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "conta": 0.3,
+  "itbi": 0.35,
+  "virada": 0.4,
+  "pergunta": 0.4,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_parcela": {
+   "seg": "s1",
+   "word": "parcela",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_decimo": {
+   "seg": "s1",
+   "word": "décimo",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_segunda": {
+   "seg": "s1",
+   "word": "segunda",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_cliente": {
+   "seg": "s2",
+   "word": "cliente",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_entrada": {
+   "seg": "s2",
+   "word": "entrada",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_vezes": {
+   "seg": "s3",
+   "word": "vezes",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_conta": {
+   "seg": "s3",
+   "word": "conta",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_custo": {
+   "seg": "s4",
+   "word": "custo",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_preco": {
+   "seg": "s4",
+   "word": "preço",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_itbi": {
+   "seg": "s5",
+   "word": "ITBI",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_prefeitura": {
+   "seg": "s5",
+   "word": "prefeitura",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_tres": {
+   "seg": "s5",
+   "word": "3",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_paulo": {
+   "seg": "s5",
+   "word": "Paulo",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_rio": {
+   "seg": "s5",
+   "word": "Rio",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_bh": {
+   "seg": "s5",
+   "word": "Belo",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_400": {
+   "seg": "s6",
+   "word": "400",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_12": {
+   "seg": "s6",
+   "word": "12",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_cartorio": {
+   "seg": "s6",
+   "word": "cartório",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_sem": {
+   "seg": "s7",
+   "word": "Sem",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_escritura": {
+   "seg": "s7",
+   "word": "escritura",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_sai": {
+   "seg": "s7",
+   "word": "sai",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_trava": {
+   "seg": "s8",
+   "word": "trava",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_aprovado": {
+   "seg": "s8",
+   "word": "aprovado",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_pergunta": {
+   "seg": "s9",
+   "word": "pergunta",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_entrada": {
+   "seg": "s9",
+   "word": "entrada",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_separou": {
+   "seg": "s10",
+   "word": "separou",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_imposto": {
+   "seg": "s10",
+   "word": "imposto",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_cartorio": {
+   "seg": "s10",
+   "word": "cartório",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_decimo": {
+   "seg": "s11",
+   "word": "décimo",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_reserva": {
+   "seg": "s11",
+   "word": "reserva",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_quem": {
+   "seg": "s12",
+   "word": "Quem",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_antes": {
+   "seg": "s12",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_surpresa": {
+   "seg": "s12",
+   "word": "surpresa",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s13",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s13",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s13",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s13",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s13",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s13",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s13",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s13",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s13",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_decimo",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "c_entrada",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27
+  },
+  {
+   "cue": "c_conta",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -30
+  },
+  {
+   "cue": "i_itbi",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "i_tres",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "i_400",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27
+  },
+  {
+   "cue": "i_12",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "i_cartorio",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": 5
+  },
+  {
+   "cue": "v_sai",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "v_trava",
+   "offset": 0.0,
+   "sound": "thump",
+   "gain": -28,
+   "pitch": -3
+  },
+  {
+   "cue": "p_pergunta",
+   "offset": -0.05,
+   "sound": "whoosh_fold",
+   "gain": -29
+  },
+  {
+   "cue": "p_separou",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "p_reserva",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 4
+  },
+  {
+   "cue": "f_quem",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "f_surpresa",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.85,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:i_custo",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_sem",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_quem",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T01",
+  "ancoras": {
+   "virada": "cue:v_sem",
+   "insight": "cue:p_pergunta",
+   "resolucao": "cue:f_quem"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "planta-tecnica",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "agora",
+  "origem": "radar",
+  "origemRef": "",
+  "dataFato": "2026-11-30",
+  "pushPull": "push",
+  "justificativaModelo": "custos como cômodos de uma planta (ENTRADA, ITBI, CARTÓRIO) com cotas de percentual: estrutura e medida.",
+  "justificativaHorario": "08h: atualidade que cria hábito, logo depois do pagamento.",
+  "trilha": "T01",
+  "justificativaTrilha": "explicação com números em sequência; T01 sustenta sem competir.",
+  "data": "2026-12-02",
+  "slot": "08:00",
+  "arquivo": "PRODUCAO/grade/2026-12-02.json"
+ },
+ "modelos4": true,
+ "modelo": 3,
+ "modeloNome": "Planta técnica"
+}
