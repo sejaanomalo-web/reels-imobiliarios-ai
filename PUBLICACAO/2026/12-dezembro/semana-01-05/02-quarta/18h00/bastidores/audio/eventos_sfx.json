@@ -1,0 +1,152 @@
+[
+ {
+  "t": 1.74,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "h_36"
+ },
+ {
+  "t": 7.24,
+  "sound": "thump",
+  "gain": -28,
+  "cue": "h_valor"
+ },
+ {
+  "t": 12.973,
+  "sound": "click",
+  "gain": -27,
+  "cue": "i_1886"
+ },
+ {
+  "t": 14.6,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "i_nunca"
+ },
+ {
+  "t": 16.56,
+  "sound": "block",
+  "gain": -28,
+  "cue": "o_arquiteto"
+ },
+ {
+  "t": 19.48,
+  "sound": "swish",
+  "gain": -29,
+  "cue": "o_papel"
+ },
+ {
+  "t": 23.96,
+  "sound": "thump",
+  "gain": -28,
+  "cue": "o_derrubado"
+ },
+ {
+  "t": 26.303,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "e_160"
+ },
+ {
+  "t": 29.16,
+  "sound": "block",
+  "gain": -28,
+  "cue": "e_teto"
+ },
+ {
+  "t": 32.04,
+  "sound": "hollow",
+  "gain": -28,
+  "cue": "e_vazio"
+ },
+ {
+  "t": 33.27,
+  "sound": "whoosh_fold",
+  "gain": -29,
+  "cue": "v_1922"
+ },
+ {
+  "t": 40.28,
+  "sound": "impact",
+  "gain": -27,
+  "cue": "v_nada"
+ },
+ {
+  "t": 41.16,
+  "sound": "click",
+  "gain": -27,
+  "cue": "v_leilao"
+ },
+ {
+  "t": 43.67,
+  "sound": "swish",
+  "gain": -29,
+  "cue": "l_dinheiro"
+ },
+ {
+  "t": 48.6,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "l_sentido"
+ },
+ {
+  "t": 51.88,
+  "sound": "shimmer",
+  "gain": -29,
+  "cue": "f_pergunte"
+ },
+ {
+  "t": 53.62,
+  "sound": "swish",
+  "gain": -29,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 54.61,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 55.4,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 56.0,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_word"
+ },
+ {
+  "t": 56.15,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 56.79,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 57.579,
+  "sound": "whoosh_up",
+  "gain": -28,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 57.629,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 58.529,
+  "sound": "shimmer",
+  "gain": -27,
+  "cue": "cta_direct"
+ }
+]

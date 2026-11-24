@@ -1,0 +1,101 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.63,
+    "palavras_nao_reconhecidas": [
+      "36"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.56,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 6.35,
+    "palavras_nao_reconhecidas": [
+      "oito",
+      "1886"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 1.53,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.21,
+    "palavras_nao_reconhecidas": [
+      "arquiteto"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.57,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 7.58,
+    "palavras_nao_reconhecidas": [
+      "160"
+    ]
+  },
+  {
+    "seg": "s8",
+    "seconds": 5.45,
+    "palavras_nao_reconhecidas": [
+      "1922"
+    ]
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.75,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 5.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 4.03,
+    "palavras_nao_reconhecidas": [
+      "gastou"
+    ]
+  },
+  {
+    "seg": "s12",
+    "seconds": 4.49,
+    "palavras_nao_reconhecidas": [
+      "personalizado"
+    ]
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 58.52,
+    "asr_match": 0.939,
+    "aligned_words": "139/148",
+    "words_per_min": 152,
+    "heard": "Uma mulher passou 36 anos reformando a mesma casa. Quando ela morreu, a casa foi avaliada como quase sem valor. Sarah Winchester comprou uma casa de fazenda de 8 cômodos na Califórnia em 1886. E nunca parou de reformar. Sem arqueto. Ela desenhava os cômodos em pedaços de papel e os carpinteiros construíam. O que não dava certo era fechado ou derrubado. No fim, eram 160 cômodos. Uma escada que termina no teto, uma porta no segundo andar que abre para o vazio. Em 1922, os avaliadores olharam a obra inacabada e os estragos do terremoto. Pra morar, ela quase não valia nada. Foi a leilão e virou atração turística. Dinheiro na obra não vira valor sozinho. Comprador paga por casa que faz sentido. Quando o dono disser quanto gasto na reforma, pergunte o que ela resolveu. Se você é corretor, comente sistema e conheça nosso sistema personalizada."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 60.96,
+      "wpm": 146
+    },
+    "pausas_moldadas": {
+      "n": 23,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.44,
+    "final": {
+      "seconds": 58.52,
+      "wpm": 152
+    }
+  }
+]
