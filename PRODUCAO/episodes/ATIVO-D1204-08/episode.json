@@ -1,0 +1,518 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "1987": "mil novecentos e oitenta e sete"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1204-08",
+ "lote": "D1204",
+ "title": "O preço da ficha",
+ "outputDir": "ATIVO_D1204_08",
+ "deliverables": {
+  "final": "ATIVO_D1204_08_FINAL.mp4",
+  "narration": "ATIVO_D1204_08_NARRACAO.wav",
+  "subtitles": "ATIVO_D1204_08_legendas.srt",
+  "cover": "ATIVO_D1204_08_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-04/ATIVO-D1204-08_o_preco_da_ficha.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "E se um número na ficha mudasse quanto você acha que a casa vale?",
+   "caption": "E se *um número* | na ficha | mudasse quanto você acha | que a casa *vale?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "estudo",
+   "text": "Em 1987, pesquisadores levaram corretores para avaliar a mesma casa, com a mesma ficha. Só mudava um número: o preço pedido.",
+   "caption": "Em *1987,* | pesquisadores levaram *corretores* | para avaliar | *a mesma casa,* | com a mesma ficha. | Só mudava um número: | o *preço pedido.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "estudo",
+   "text": "Quem viu o preço mais alto avaliou a casa mais cara. Quem viu o mais baixo, mais barata.",
+   "caption": "Quem viu o preço *mais alto* | avaliou a casa | *mais cara.* | Quem viu o *mais baixo,* | *mais barata.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "E quase nenhum disse que usou aquele preço para decidir.",
+   "caption": "E *quase nenhum* | disse que usou | aquele preço | para decidir.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "conta",
+   "text": "Na sua avaliação, faça a conta antes de olhar o preço que o dono quer: vendidos da região, metragem, estado.",
+   "caption": "Na sua avaliação, | faça a conta *antes* | de olhar o preço | que o dono quer: | *vendidos* da região, | *metragem,* | *estado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Primeiro o seu número. Depois o dele. Senão, quem avalia é a ficha.",
+   "caption": "Primeiro | o *seu número.* | Depois o dele. | Senão, | quem avalia | é a *ficha.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "estudo": 0.35,
+  "virada": 0.35,
+  "conta": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_numero": {
+   "seg": "s1",
+   "word": "número",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_vale": {
+   "seg": "s1",
+   "word": "vale",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_1987": {
+   "seg": "s2",
+   "word": "1987",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_corretores": {
+   "seg": "s2",
+   "word": "corretores",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_mesma": {
+   "seg": "s2",
+   "word": "mesma",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_preco": {
+   "seg": "s2",
+   "word": "preço",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_alto": {
+   "seg": "s3",
+   "word": "alto",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_cara": {
+   "seg": "s3",
+   "word": "cara",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_baixo": {
+   "seg": "s3",
+   "word": "baixo",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_barata": {
+   "seg": "s3",
+   "word": "barata",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_nenhum": {
+   "seg": "s4",
+   "word": "nenhum",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_decidir": {
+   "seg": "s4",
+   "word": "decidir",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_antes": {
+   "seg": "s5",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_vendidos": {
+   "seg": "s5",
+   "word": "vendidos",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_metragem": {
+   "seg": "s5",
+   "word": "metragem",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_estado": {
+   "seg": "s5",
+   "word": "estado",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_seu": {
+   "seg": "s6",
+   "word": "seu",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_dele": {
+   "seg": "s6",
+   "word": "dele",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_ficha": {
+   "seg": "s6",
+   "word": "ficha",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_numero",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "e_1987",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "e_mesma",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "e_alto",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "e_baixo",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_nenhum",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "c_antes",
+   "offset": -0.05,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "c_metragem",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_seu",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "f_ficha",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.85,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_vale",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_nenhum",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_ficha",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T01",
+  "ancoras": {
+   "virada": "cue:v_nenhum",
+   "insight": "cue:c_antes",
+   "resolucao": "cue:f_seu"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "planta-tecnica",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "e-se",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "a mesma casa e a mesma ficha em planta; só a cota do preço muda e a avaliação acompanha.",
+  "justificativaHorario": "08h: descoberta rápida e útil para a captação do dia.",
+  "trilha": "T01",
+  "justificativaTrilha": "explicação com cama discreta; dado e comparação.",
+  "data": "2026-12-04",
+  "slot": "08:00",
+  "arquivo": "PRODUCAO/grade/2026-12-04.json"
+ },
+ "modelos4": true,
+ "modelo": 3,
+ "modeloNome": "Planta técnica"
+}

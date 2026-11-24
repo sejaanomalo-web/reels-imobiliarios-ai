@@ -1,0 +1,515 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1204-10",
+ "lote": "D1204",
+ "title": "O cliente sumiu depois da visita",
+ "outputDir": "ATIVO_D1204_10",
+ "deliverables": {
+  "final": "ATIVO_D1204_10_FINAL.mp4",
+  "narration": "ATIVO_D1204_10_NARRACAO.wav",
+  "subtitles": "ATIVO_D1204_10_legendas.srt",
+  "cover": "ATIVO_D1204_10_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-04/ATIVO-D1204-10_o_cliente_sumiu.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Visita boa, cliente animado. Dois dias depois, sumiu.",
+   "caption": "Visita boa, | cliente *animado.* | Dois dias depois, | *sumiu.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "mensagem",
+   "text": "Você manda: e aí, o que achou? Ele visualiza e não responde.",
+   "caption": "Você manda: | e aí, | *o que achou?* | Ele *visualiza* | e não responde.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "virada",
+   "text": "Pergunta aberta dá trabalho para quem já está cansado de decidir.",
+   "caption": "Pergunta aberta | dá *trabalho* | para quem já está | *cansado* de decidir.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "resumo",
+   "text": "No mesmo dia da visita, mande um resumo curto: o que ele gostou, o que não gostou e o que falta saber.",
+   "caption": "No *mesmo dia* | da visita, | mande um *resumo* curto: | o que ele *gostou,* | o que *não gostou* | e o que *falta saber.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "pergunta",
+   "text": "E termine com uma pergunta fácil: quer ver mais um parecido, ou esse continua no páreo?",
+   "caption": "E termine | com uma pergunta *fácil:* | quer ver | mais um *parecido,* | ou esse continua | no *páreo?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "O resumo mostra que você ouviu. E a pergunta de sim ou não cabe numa resposta rápida.",
+   "caption": "O resumo mostra | que você *ouviu.* | E a pergunta | de *sim ou não* | cabe numa | resposta *rápida.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "mensagem": 0.35,
+  "virada": 0.35,
+  "resumo": 0.35,
+  "pergunta": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_animado": {
+   "seg": "s1",
+   "word": "animado",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_sumiu": {
+   "seg": "s1",
+   "word": "sumiu",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_achou": {
+   "seg": "s2",
+   "word": "achou",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_visualiza": {
+   "seg": "s2",
+   "word": "visualiza",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_trabalho": {
+   "seg": "s3",
+   "word": "trabalho",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_cansado": {
+   "seg": "s3",
+   "word": "cansado",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_dia": {
+   "seg": "s4",
+   "word": "dia",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_resumo": {
+   "seg": "s4",
+   "word": "resumo",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_gostou": {
+   "seg": "s4",
+   "word": "gostou",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_nao": {
+   "seg": "s4",
+   "word": "não",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_falta": {
+   "seg": "s4",
+   "word": "falta",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_facil": {
+   "seg": "s5",
+   "word": "fácil",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_parecido": {
+   "seg": "s5",
+   "word": "parecido",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_pareo": {
+   "seg": "s5",
+   "word": "páreo",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_ouviu": {
+   "seg": "s6",
+   "word": "ouviu",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_sim": {
+   "seg": "s6",
+   "word": "sim",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_rapida": {
+   "seg": "s6",
+   "word": "rápida",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_animado",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "m_achou",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_trabalho",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "r_dia",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "r_gostou",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "r_falta",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "p_parecido",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "f_ouviu",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_rapida",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.75,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.85,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.2,
+   "sound": "click",
+   "gain": -23,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.28,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_sumiu",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_trabalho",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_rapida",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T05",
+  "ancoras": {
+   "virada": "cue:v_trabalho",
+   "insight": "cue:r_resumo",
+   "resolucao": "cue:f_ouviu"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "cartoon-explicativo",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "corretor-real",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "pull",
+  "justificativaModelo": "celular com visualizado, o resumo chegando, humor de cena real.",
+  "justificativaHorario": "10h: rotina de trabalho, aplicação imediata.",
+  "trilha": "T05",
+  "justificativaTrilha": "motor prático para passo a passo.",
+  "data": "2026-12-04",
+  "slot": "10:00",
+  "arquivo": "PRODUCAO/grade/2026-12-04.json"
+ },
+ "modelos4": true,
+ "modelo": 1,
+ "modeloNome": "Cartoon explicativo"
+}

@@ -1,0 +1,527 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "1923": "mil novecentos e vinte e três",
+  "1949": "mil novecentos e quarenta e nove",
+  "LAND": "lénd"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1204-18",
+ "lote": "D1204",
+ "title": "O letreiro era um anúncio",
+ "outputDir": "ATIVO_D1204_18",
+ "deliverables": {
+  "final": "ATIVO_D1204_18_FINAL.mp4",
+  "narration": "ATIVO_D1204_18_NARRACAO.wav",
+  "subtitles": "ATIVO_D1204_18_legendas.srt",
+  "cover": "ATIVO_D1204_18_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-04/ATIVO-D1204-18_o_letreiro_era_um_anuncio.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O letreiro mais famoso de Los Angeles começou como anúncio de imóvel.",
+   "caption": "O *letreiro* | mais famoso | de Los Angeles | começou como | *anúncio de imóvel.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "loteamento",
+   "text": "Em 1923, um loteamento nas colinas de Hollywood pôs letras gigantes na encosta com o próprio nome. Era provisório.",
+   "caption": "Em *1923,* | um *loteamento* | nas colinas de Hollywood | pôs *letras gigantes* | na encosta | com o próprio nome. | Era *provisório.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "lugar",
+   "text": "Ele não anunciava uma casa. Anunciava o lugar: as colinas, a vista, o jeito de morar.",
+   "caption": "Ele não anunciava | *uma casa.* | Anunciava *o lugar:* | as *colinas,* | a *vista,* | o *jeito de morar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Em 1949, tiraram as quatro últimas letras, LAND. O anúncio virou o nome do bairro e, depois, o símbolo da cidade.",
+   "caption": "Em *1949,* | tiraram | as quatro últimas letras, | *LAND.* | O anúncio virou | o nome do *bairro* | e, depois, | o *símbolo* da cidade.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "licao",
+   "text": "Quem compra um imóvel também compra a rua, a padaria, o caminho de volta para casa.",
+   "caption": "Quem compra um imóvel | também compra | a *rua,* | a *padaria,* | o *caminho* | de volta para casa.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "No seu anúncio, mostre o lugar, não só a planta.",
+   "caption": "No seu anúncio, | mostre *o lugar,* | não só | a *planta.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "loteamento": 0.35,
+  "lugar": 0.35,
+  "virada": 0.35,
+  "licao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_letreiro": {
+   "seg": "s1",
+   "word": "letreiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_anuncio": {
+   "seg": "s1",
+   "word": "anúncio",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_1923": {
+   "seg": "s2",
+   "word": "1923",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_loteamento": {
+   "seg": "s2",
+   "word": "loteamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_letras": {
+   "seg": "s2",
+   "word": "letras",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_provisorio": {
+   "seg": "s2",
+   "word": "provisório",
+   "edge": "start",
+   "offset": 0
+  },
+  "u_casa": {
+   "seg": "s3",
+   "word": "casa",
+   "edge": "start",
+   "offset": 0
+  },
+  "u_lugar": {
+   "seg": "s3",
+   "word": "lugar",
+   "edge": "start",
+   "offset": 0
+  },
+  "u_colinas": {
+   "seg": "s3",
+   "word": "colinas",
+   "edge": "start",
+   "offset": 0
+  },
+  "u_vista": {
+   "seg": "s3",
+   "word": "vista",
+   "edge": "start",
+   "offset": 0
+  },
+  "u_jeito": {
+   "seg": "s3",
+   "word": "jeito",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_1949": {
+   "seg": "s4",
+   "word": "1949",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_land": {
+   "seg": "s4",
+   "word": "LAND",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_bairro": {
+   "seg": "s4",
+   "word": "bairro",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_simbolo": {
+   "seg": "s4",
+   "word": "símbolo",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_rua": {
+   "seg": "s5",
+   "word": "rua",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_padaria": {
+   "seg": "s5",
+   "word": "padaria",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_caminho": {
+   "seg": "s5",
+   "word": "caminho",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_lugar": {
+   "seg": "s6",
+   "word": "lugar",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_planta": {
+   "seg": "s6",
+   "word": "planta",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_letreiro",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "l_1923",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "l_letras",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "u_casa",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "u_colinas",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "u_jeito",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_land",
+   "offset": -0.05,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_simbolo",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "c_padaria",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "f_lugar",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.85,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_anuncio",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_1949",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_planta",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T02",
+  "ancoras": {
+   "virada": "cue:v_1949",
+   "insight": "cue:c_rua",
+   "resolucao": "cue:f_lugar"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "planta-tecnica",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "historia",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "loteamento em planta nas colinas, as letras como cota; o lugar em volta da casa.",
+  "justificativaHorario": "18h: história no fim do expediente.",
+  "trilha": "T02",
+  "justificativaTrilha": "arco emocional para a história.",
+  "data": "2026-12-04",
+  "slot": "18:00",
+  "arquivo": "PRODUCAO/grade/2026-12-04.json"
+ },
+ "modelos4": true,
+ "modelo": 3,
+ "modeloNome": "Planta técnica"
+}
