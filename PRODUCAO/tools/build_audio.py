@@ -495,7 +495,8 @@ else:
         e_ = p_.stderr.decode()
         return float(json.loads(e_[e_.rindex("{"): e_.rindex("}") + 1])["input_i"])
 
-    V2 = dict(pausa_lu=-10.0, duck_graves_db=-3.0, duck_medios_db=-9.0, cta_extra_db=-2.0, corte_hz=250, ataque_s=0.08, retorno_s=0.30, junta_pausas_s=0.35)
+    # pausa_lu −10 → −4 em 24/11/2026 (ordem do cliente: trilha 2× mais alta, +6 dB, "para trazer impacto"); o ducking por palavra continua igual
+    V2 = dict(pausa_lu=-4.0, duck_graves_db=-3.0, duck_medios_db=-9.0, cta_extra_db=-2.0, corte_hz=250, ataque_s=0.08, retorno_s=0.30, junta_pausas_s=0.35)
     V2.update(mcfg.get("mix", {}))
     _t = _TR.trilha(TRILHA)
     V2["duck_medios_db"] += float(_t.get("voz", {}).get("duck_extra_db", 0.0))

@@ -46,6 +46,8 @@ roteiro aprovado (Skill Mestre) → FICHA MUSICAL: curva emocional + âncoras (f
    → render → QA → publicar.py (trava de licença)
 ```
 
+**Nível da trilha (24/11/2026, ordem do cliente: "trilha 2× mais alta, para trazer impacto"):** nas pausas da fala a trilha fica a **−4 LU da voz** (`pausa_lu = -4`; antes −10, ou seja +6 dB). Sob a fala o ducking por palavra continua: médios −9 dB e graves −3 dB (−2 dB extra na CTA). Na prática a trilha integrada fica ~7 dB abaixo da voz. O portão de inteligibilidade (queda ≤ 3 pontos no Whisper) continua obrigatório; se reprovar, baixe por episódio em `music.mix.pausa_lu`. O final da faixa é sustentado até 0,2 s do último quadro (`adaptar_trilha.py`), para não deixar silêncio no fecho.
+
 ## Ferramentas
 
 ```bash
