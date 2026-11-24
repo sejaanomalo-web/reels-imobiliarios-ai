@@ -1,0 +1,192 @@
+{
+ "plano": [
+  {
+   "secao": "abertura",
+   "tipo": "intro",
+   "opcao": "inteira",
+   "fonte": [
+    0.0,
+    11.04
+   ],
+   "mantido": 11.04,
+   "removido": 0.0,
+   "saida_ini": 0.0
+  },
+  {
+   "secao": "frase2",
+   "tipo": "a",
+   "opcao": "removida",
+   "fonte": [
+    11.04,
+    22.12
+   ],
+   "mantido": 0.0,
+   "removido": 11.08,
+   "saida_ini": 11.04
+  },
+  {
+   "secao": "frase3",
+   "tipo": "a",
+   "opcao": "removida",
+   "fonte": [
+    22.12,
+    34.8
+   ],
+   "mantido": 0.0,
+   "removido": 12.68,
+   "saida_ini": 11.04
+  },
+  {
+   "secao": "crescendo",
+   "tipo": "subida",
+   "opcao": "removida",
+   "fonte": [
+    34.8,
+    47.65
+   ],
+   "mantido": 0.0,
+   "removido": 12.85,
+   "saida_ini": 11.04
+  },
+  {
+   "secao": "climax",
+   "tipo": "climax",
+   "opcao": "1/2 (miolo removido, cauda 1)",
+   "fonte": [
+    47.65,
+    69.73
+   ],
+   "mantido": 13.72,
+   "removido": 8.36,
+   "saida_ini": 11.04
+  },
+  {
+   "secao": "resolucao",
+   "tipo": "resolucao",
+   "opcao": "inteira",
+   "fonte": [
+    69.73,
+    80.29
+   ],
+   "mantido": 10.56,
+   "removido": 0.0,
+   "saida_ini": 24.76
+  },
+  {
+   "secao": "final",
+   "tipo": "final",
+   "opcao": "inteira",
+   "fonte": [
+    80.29,
+    82.24
+   ],
+   "mantido": 1.95,
+   "removido": 0.0,
+   "saida_ini": 35.32
+  }
+ ],
+ "pecas": [
+  {
+   "secao": "abertura",
+   "fonte": [
+    0.0,
+    11.04
+   ],
+   "saida": [
+    0.0,
+    11.04
+   ]
+  },
+  {
+   "secao": "climax",
+   "fonte": [
+    56.01,
+    69.73
+   ],
+   "saida": [
+    11.04,
+    24.76
+   ]
+  },
+  {
+   "secao": "resolucao",
+   "fonte": [
+    69.73,
+    80.29
+   ],
+   "saida": [
+    24.76,
+    35.32
+   ]
+  },
+  {
+   "secao": "final",
+   "fonte": [
+    80.29,
+    82.24
+   ],
+   "saida": [
+    35.32,
+    37.27
+   ]
+  }
+ ],
+ "ancoras": [
+  {
+   "funcao": "virada",
+   "secao": "frase3",
+   "alvo": 9.96,
+   "obtido": null,
+   "erro": null
+  },
+  {
+   "funcao": "insight",
+   "secao": "climax",
+   "alvo": 18.52,
+   "obtido": 11.04,
+   "erro": -7.48
+  },
+  {
+   "funcao": "resolucao",
+   "secao": "resolucao",
+   "alvo": 27.16,
+   "obtido": 24.76,
+   "erro": -2.4
+  }
+ ],
+ "ancoras_ignoradas": [],
+ "fim_musical": 37.27,
+ "custo": 232.37,
+ "modo": "SHORTEN",
+ "ref_costura": 1.7755,
+ "final": {
+  "tipo": "cortado",
+  "fim_musical": 37.27,
+  "video": 37.033,
+  "ajuste": "decaimento aparado 0.24 s com fade de 0.59 s",
+  "sustentacao_s": 0.0
+ },
+ "cortes": [
+  {
+   "saida": 11.04,
+   "sai_da_fonte": 11.04,
+   "entra_na_fonte": 56.01,
+   "crossfade_s": 0.5,
+   "razao": 0.88,
+   "nota": "natural",
+   "salto_amostra": 0.17
+  }
+ ],
+ "versao": 1,
+ "trilha": "T02",
+ "nome": "Piano em ondas",
+ "licenca": "autorizada",
+ "duracao_video": 37.033,
+ "amostras": 1777600,
+ "alteracao_velocidade_pct": 0.0,
+ "alteracao_tom_semitons": 0,
+ "lufs": -22.6,
+ "true_peak": -5.2,
+ "bpm": null,
+ "tom": "Ré menor"
+}

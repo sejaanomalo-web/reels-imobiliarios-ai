@@ -1,0 +1,84 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.52,
+    "palavras_nao_reconhecidas": [
+      "três"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 1.66,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.72,
+    "palavras_nao_reconhecidas": [
+      "Num",
+      "24",
+      "geleias"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 5.17,
+    "palavras_nao_reconhecidas": [
+      "24"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.39,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.39,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 2.83,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 4.27,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.35,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.42,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 43.2,
+    "asr_match": 0.952,
+    "aligned_words": "108/113",
+    "words_per_min": 157,
+    "heard": "E se você mostrasse só 3 imóveis para cada cliente. A ideia vem de um estudo famoso. No mercado, uma mesa tinha 24 GLES para provar. Outra, só 6. Com 6, 30% de quem parou na mesa comprou. Com 24%, só 3%. Só que anos depois, se uma revisão de 50 experimentos achou um efeito médio quase zero. Muita opção só atrapalha quando a pessoa ainda não sabe o que quer. Então o número de imóveis importa menos que a ordem. Primeiro, os critérios. Bairro, quartos, o que não pode faltar. Com critério claro, o cliente compara. Sem critério, ele só se perde. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 44.72,
+      "wpm": 152
+    },
+    "pausas_moldadas": {
+      "n": 22,
+      "max_s": 0.53
+    },
+    "pausas_encurtadas_s": 1.52,
+    "final": {
+      "seconds": 43.2,
+      "wpm": 157
+    }
+  }
+]

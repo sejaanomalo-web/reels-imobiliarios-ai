@@ -1,0 +1,555 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "2019": "dois mil e dezenove",
+  "5 mil": "cinco mil",
+  "5 e 10 mil": "cinco e dez mil"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1203-12",
+ "lote": "D1203",
+ "title": "A casa de 1 euro",
+ "outputDir": "ATIVO_D1203_12",
+ "deliverables": {
+  "final": "ATIVO_D1203_12_FINAL.mp4",
+  "narration": "ATIVO_D1203_12_NARRACAO.wav",
+  "subtitles": "ATIVO_D1203_12_legendas.srt",
+  "cover": "ATIVO_D1203_12_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-03/ATIVO-D1203-12_a_casa_de_um_euro.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Em 2019, uma cidade da Sicília pôs casas à venda por um euro.",
+   "caption": "Em *2019,* | uma cidade da Sicília | pôs casas à venda | por *um euro.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "cidade",
+   "text": "Sambuca estava perdendo moradores. Casas vazias, ruas silenciosas.",
+   "caption": "*Sambuca* | estava perdendo moradores. | *Casas vazias,* | ruas silenciosas.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "mundo",
+   "text": "O anúncio rodou o mundo. Choveram interessados.",
+   "caption": "O anúncio | *rodou o mundo.* | Choveram *interessados.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "mundo",
+   "text": "Mas tinha condição: depósito de 5 mil euros e reforma em até três anos.",
+   "caption": "Mas tinha *condição:* | depósito de *5 mil euros* | e reforma | em até *três anos.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "mundo",
+   "text": "E no leilão, a maioria saiu entre 5 e 10 mil euros.",
+   "caption": "E no *leilão,* | a maioria saiu | entre *5 e 10 mil* euros.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "virada",
+   "text": "A cidade nunca quis o dinheiro. Ela queria gente morando ali de novo.",
+   "caption": "A cidade | *nunca quis* o dinheiro. | Ela queria *gente* | morando ali | de novo.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "licao",
+   "text": "Todo vendedor tem um objetivo além do preço. Prazo, quem vai cuidar da casa, um recomeço.",
+   "caption": "Todo vendedor | tem um *objetivo* | além do preço. | *Prazo,* | quem vai *cuidar* da casa, | um *recomeço.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "desfecho",
+   "text": "Na captação, pergunte o que ele quer além do número. É aí que a negociação ganha saída.",
+   "caption": "Na captação, | *pergunte* | o que ele quer | além do número. | É aí que a negociação | *ganha saída.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "cidade": 0.35,
+  "mundo": 0.35,
+  "virada": 0.35,
+  "licao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_2019": {
+   "seg": "s1",
+   "word": "2019",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_cidade": {
+   "seg": "s1",
+   "word": "cidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_euro": {
+   "seg": "s1",
+   "word": "euro",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_sambuca": {
+   "seg": "s2",
+   "word": "Sambuca",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_vazias": {
+   "seg": "s2",
+   "word": "vazias",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_ruas": {
+   "seg": "s2",
+   "word": "ruas",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_mundo": {
+   "seg": "s3",
+   "word": "mundo",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_interessados": {
+   "seg": "s3",
+   "word": "interessados",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_condicao": {
+   "seg": "s4",
+   "word": "condição",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_5mil": {
+   "seg": "s4",
+   "word": "5",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_tres": {
+   "seg": "s4",
+   "word": "três",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_leilao": {
+   "seg": "s5",
+   "word": "leilão",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_10": {
+   "seg": "s5",
+   "word": "10",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_nunca": {
+   "seg": "s6",
+   "word": "nunca",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_gente": {
+   "seg": "s6",
+   "word": "gente",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_novo": {
+   "seg": "s6",
+   "word": "novo",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_objetivo": {
+   "seg": "s7",
+   "word": "objetivo",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_prazo": {
+   "seg": "s7",
+   "word": "Prazo",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_cuidar": {
+   "seg": "s7",
+   "word": "cuidar",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_recomeco": {
+   "seg": "s7",
+   "word": "recomeço",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_pergunte": {
+   "seg": "s8",
+   "word": "pergunte",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_saida": {
+   "seg": "s8",
+   "word": "saída",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s9",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s9",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s9",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s9",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s9",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s9",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s9",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s9",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s9",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_2019",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "h_euro",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "c_vazias",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "m_mundo",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "m_condicao",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "m_tres",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "m_10",
+   "offset": -0.05,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_gente",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "l_objetivo",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "l_cuidar",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_pergunte",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.2,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.7,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_cidade",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_nunca",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_saida",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T02",
+  "ancoras": {
+   "virada": "cue:v_nunca",
+   "insight": "cue:l_objetivo",
+   "resolucao": "cue:f_pergunte"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "maquete-3d",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "historia",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "a cidade em miniatura: casas vazias, o anúncio que atrai gente do mundo, a moeda de 1 euro, as casas que acendem com moradores.",
+  "justificativaHorario": "12h: história acessível no almoço.",
+  "trilha": "T02",
+  "justificativaTrilha": "arco emocional de uma cidade que volta a ter gente.",
+  "data": "2026-12-03",
+  "slot": "12:00",
+  "arquivo": "PRODUCAO/grade/2026-12-03.json"
+ },
+ "modelos4": true,
+ "modelo": 4,
+ "modeloNome": "Maquete 3D"
+}

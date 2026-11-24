@@ -1,0 +1,229 @@
+{
+ "plano": [
+  {
+   "secao": "a",
+   "tipo": "a",
+   "opcao": "7/18 (miolo removido, cauda 1)",
+   "fonte": [
+    0.0,
+    42.553
+   ],
+   "mantido": 15.07,
+   "removido": 27.483,
+   "saida_ini": 0.0
+  },
+  {
+   "secao": "silencio",
+   "tipo": "parada",
+   "opcao": "inteira",
+   "fonte": [
+    42.553,
+    45.051
+   ],
+   "mantido": 2.498,
+   "removido": 0.0,
+   "saida_ini": 15.07
+  },
+  {
+   "secao": "b",
+   "tipo": "b",
+   "opcao": "4/10 (miolo removido, cauda 1)",
+   "fonte": [
+    45.051,
+    70.035
+   ],
+   "mantido": 9.993,
+   "removido": 14.991,
+   "saida_ini": 17.568
+  },
+  {
+   "secao": "c",
+   "tipo": "climax",
+   "opcao": "6/7 (miolo removido, cauda 1)",
+   "fonte": [
+    70.035,
+    87.523
+   ],
+   "mantido": 14.99,
+   "removido": 2.498,
+   "saida_ini": 27.562
+  },
+  {
+   "secao": "final",
+   "tipo": "final",
+   "opcao": "inteira",
+   "fonte": [
+    87.523,
+    90.1
+   ],
+   "mantido": 2.577,
+   "removido": 0.0,
+   "saida_ini": 42.551
+  }
+ ],
+ "pecas": [
+  {
+   "secao": "a",
+   "fonte": [
+    0.0,
+    12.5722
+   ],
+   "saida": [
+    0.0,
+    12.5722
+   ]
+  },
+  {
+   "secao": "a",
+   "fonte": [
+    40.055,
+    42.553
+   ],
+   "saida": [
+    12.5722,
+    15.0702
+   ]
+  },
+  {
+   "secao": "silencio",
+   "fonte": [
+    42.553,
+    45.051
+   ],
+   "saida": [
+    15.0702,
+    17.5682
+   ]
+  },
+  {
+   "secao": "b",
+   "fonte": [
+    45.051,
+    52.5472
+   ],
+   "saida": [
+    17.5682,
+    25.0644
+   ]
+  },
+  {
+   "secao": "b",
+   "fonte": [
+    67.5378,
+    70.035
+   ],
+   "saida": [
+    25.0644,
+    27.5616
+   ]
+  },
+  {
+   "secao": "c",
+   "fonte": [
+    70.035,
+    82.5285
+   ],
+   "saida": [
+    27.5616,
+    40.0551
+   ]
+  },
+  {
+   "secao": "c",
+   "fonte": [
+    85.0269,
+    87.523
+   ],
+   "saida": [
+    40.0551,
+    42.5512
+   ]
+  },
+  {
+   "secao": "final",
+   "fonte": [
+    87.523,
+    90.1
+   ],
+   "saida": [
+    42.5512,
+    45.1282
+   ]
+  }
+ ],
+ "ancoras": [
+  {
+   "funcao": "virada",
+   "secao": "b",
+   "alvo": 16.44,
+   "obtido": 17.568,
+   "erro": 1.128
+  },
+  {
+   "funcao": "insight",
+   "secao": "c",
+   "alvo": 28.68,
+   "obtido": 27.562,
+   "erro": -1.118
+  }
+ ],
+ "ancoras_ignoradas": [
+  {
+   "funcao": "resolucao",
+   "alvo": 35.64,
+   "motivo": "esta faixa não tem evento para essa função (use efeito/respiro)"
+  }
+ ],
+ "fim_musical": 45.128,
+ "custo": 49.75,
+ "modo": "SHORTEN",
+ "ref_costura": 1.5717,
+ "final": {
+  "tipo": "seco",
+  "fim_musical": 45.128,
+  "video": 45.533,
+  "ajuste": "cauda sintética 0.41 s (reverberação da última batida)",
+  "sustentacao_s": 0.315
+ },
+ "cortes": [
+  {
+   "saida": 12.572,
+   "sai_da_fonte": 12.572,
+   "entra_na_fonte": 40.055,
+   "crossfade_s": 0.04,
+   "razao": 0.85,
+   "nota": "natural",
+   "salto_amostra": 0.66
+  },
+  {
+   "saida": 25.064,
+   "sai_da_fonte": 52.547,
+   "entra_na_fonte": 67.538,
+   "crossfade_s": 0.04,
+   "razao": 0.73,
+   "nota": "natural",
+   "salto_amostra": 0.54
+  },
+  {
+   "saida": 40.055,
+   "sai_da_fonte": 82.528,
+   "entra_na_fonte": 85.027,
+   "crossfade_s": 0.04,
+   "razao": 1.08,
+   "nota": "natural",
+   "salto_amostra": 1.41
+  }
+ ],
+ "versao": 1,
+ "trilha": "T05",
+ "nome": "Batida constante",
+ "licenca": "autorizada",
+ "duracao_video": 45.533,
+ "amostras": 2185600,
+ "alteracao_velocidade_pct": 0.0,
+ "alteracao_tom_semitons": 0,
+ "lufs": -23.0,
+ "true_peak": -3.2,
+ "bpm": 96.06,
+ "tom": "Dó# (maior/menor empatados)"
+}

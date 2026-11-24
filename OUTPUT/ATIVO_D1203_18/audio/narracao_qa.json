@@ -1,0 +1,68 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.69,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 7.12,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.26,
+    "palavras_nao_reconhecidas": [
+      "malfeito"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.24,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.06,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 6.9,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 3.75,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 4.51,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 38.82,
+    "asr_match": 0.98,
+    "aligned_words": "100/101",
+    "words_per_min": 156,
+    "heard": "Por que o móvel que você mesmo montou parece mais bonito? Pesquisadores americanos testaram. As pessoas pagavam mais por caixas que elas montaram do que por caixas iguais, já prontas. Até o origami mal feito ganhava valor na mão de quem dobrou. A gente valoriza o que ajudou a construir. Agora, pense na busca do seu cliente. Você entrega uma lista pronta. Experimente montar com ele. Ele marca os bairros no mapa, define o que não pode faltar, descarta junto com você. Imóvel encontrado junto vale mais do que imóvel entregue pronto. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 41.16,
+      "wpm": 147
+    },
+    "pausas_moldadas": {
+      "n": 16,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.34,
+    "final": {
+      "seconds": 38.82,
+      "wpm": 156
+    }
+  }
+]

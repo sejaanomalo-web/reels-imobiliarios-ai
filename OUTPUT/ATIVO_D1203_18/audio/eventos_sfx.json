@@ -1,0 +1,110 @@
+[
+ {
+  "t": 0.71,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "h_movel"
+ },
+ {
+  "t": 3.4,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "h_bonito"
+ },
+ {
+  "t": 6.84,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "e_pagavam"
+ },
+ {
+  "t": 10.87,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "e_prontas"
+ },
+ {
+  "t": 14.52,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "e_dobrou"
+ },
+ {
+  "t": 17.24,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "e_construir"
+ },
+ {
+  "t": 21.51,
+  "sound": "click",
+  "gain": -28,
+  "cue": "v_lista"
+ },
+ {
+  "t": 25.4,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "j_bairros"
+ },
+ {
+  "t": 28.12,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "j_descarta"
+ },
+ {
+  "t": 33.35,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "f_pronto"
+ },
+ {
+  "t": 34.14,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 35.12,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 35.96,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 36.56,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_word"
+ },
+ {
+  "t": 36.63,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 37.11,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 37.83,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 38.58,
+  "sound": "shimmer",
+  "gain": -27,
+  "cue": "cta_direct"
+ }
+]

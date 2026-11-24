@@ -1,0 +1,72 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 6.47,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 8.22,
+    "palavras_nao_reconhecidas": [
+      "2015"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.93,
+    "palavras_nao_reconhecidas": [
+      "Dez"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.6,
+    "palavras_nao_reconhecidas": [
+      "aquele"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.6,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 5.02,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 47.65,
+    "asr_match": 0.967,
+    "aligned_words": "116/119",
+    "words_per_min": 150,
+    "heard": "As plataformas de streaming não mostram só um filme, mostram o motivo porque você assistiu tal série. Num artigo de 2015, engenheiros de uma das maiores contaram que cerca de 80% do que se assiste lá vem das recomendações. Agora, olhe a sua lista de imóveis para o cliente. 10 links, nenhum motivo. Ele abre, não entende por que é que ele está ali e descarta. Escreva uma linha em cada um. Separei este porque você disse que precisa de dois quartos perto da escola. A linha mostra que você ouviu e transforma a lista em recomendação. Imóvel com motivo é visto. Imóvel sem motivo é só mais um link. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 50.68,
+      "wpm": 141
+    },
+    "pausas_moldadas": {
+      "n": 20,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 3.03,
+    "final": {
+      "seconds": 47.65,
+      "wpm": 150
+    }
+  }
+]

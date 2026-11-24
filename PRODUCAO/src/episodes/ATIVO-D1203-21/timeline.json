@@ -1,0 +1,968 @@
+{
+ "id": "ATIVO-D1203-21",
+ "title": "O contra que vende",
+ "fps": 30,
+ "duration": 37.03333333333333,
+ "durationInFrames": 1111,
+ "narrationEnd": 34.821,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 3.995
+  },
+  {
+   "id": "tudo",
+   "start": 3.995,
+   "end": 9.45
+  },
+  {
+   "id": "virada",
+   "start": 9.45,
+   "end": 16.295
+  },
+  {
+   "id": "vira",
+   "start": 16.295,
+   "end": 26.22
+  },
+  {
+   "id": "desfecho",
+   "start": 26.22,
+   "end": 30.275
+  },
+  {
+   "id": "cta",
+   "start": 30.275,
+   "end": 37.033
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Quer que o cliente acredite no seu elogio? Comece pelo defeito.",
+   "start": 0.12,
+   "end": 3.87
+  },
+  {
+   "id": "s2",
+   "scene": "tudo",
+   "text": "Se você diz que tudo é ótimo, nada é.",
+   "start": 4.12,
+   "end": 6.17
+  },
+  {
+   "id": "s3",
+   "scene": "tudo",
+   "text": "O cliente desconfia e vai procurar o problema sozinho.",
+   "start": 6.44,
+   "end": 9.26
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Agora imagine: antes de ele perceber, você mesmo mostra. A cozinha é pequena. Mas olha a luz da sala.",
+   "start": 9.64,
+   "end": 16.07
+  },
+  {
+   "id": "s5",
+   "scene": "vira",
+   "text": "O defeito dito por você vira informação. O mesmo defeito descoberto por ele vira desconfiança.",
+   "start": 16.52,
+   "end": 22.41
+  },
+  {
+   "id": "s6",
+   "scene": "vira",
+   "text": "E às vezes o certo é dizer: esse imóvel não é pra você.",
+   "start": 22.68,
+   "end": 26.08
+  },
+  {
+   "id": "s7",
+   "scene": "desfecho",
+   "text": "Quem fala o contra ganha o direito de ser acreditado no a favor.",
+   "start": 26.36,
+   "end": 30.11
+  },
+  {
+   "id": "s8",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 30.44,
+   "end": 34.38
+  }
+ ],
+ "cues": {
+  "h_elogio": 1.88,
+  "h_defeito": 3.4,
+  "t_otimo": 5.24,
+  "t_nada": 5.72,
+  "t_desconfia": 6.92,
+  "t_problema": 8.68,
+  "v_imagine": 9.96,
+  "v_mostra": 12.6,
+  "v_pequena": 14.04,
+  "v_luz": 15.4,
+  "i_informacao": 18.52,
+  "i_desconfianca": 21.72,
+  "i_certo": 23.48,
+  "i_voce": 25.8,
+  "f_contra": 27.16,
+  "f_acreditado": 28.92,
+  "cta_quer": 30.44,
+  "cta_comment": 31.56,
+  "cta_word": 32.12,
+  "cta_tiles": 32.68,
+  "cta_sys": 33.48,
+  "cta_leads": 33.24,
+  "cta_atend": 33.8,
+  "cta_direct": 33.8,
+  "cta_end": 34.38
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.08,
+   "words": [
+    {
+     "text": "Quer",
+     "start": 0.12,
+     "end": 0.2,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 0.52,
+     "end": 0.68,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 0.68,
+     "end": 0.76,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 0.76,
+     "end": 1.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.08,
+   "end": 1.56,
+   "words": [
+    {
+     "text": "acredite",
+     "start": 1.08,
+     "end": 1.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.56,
+   "end": 2.68,
+   "words": [
+    {
+     "text": "no",
+     "start": 1.56,
+     "end": 1.64,
+     "emph": false
+    },
+    {
+     "text": "seu",
+     "start": 1.64,
+     "end": 1.88,
+     "emph": false
+    },
+    {
+     "text": "elogio?",
+     "start": 1.88,
+     "end": 2.35,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.68,
+   "end": 4.12,
+   "words": [
+    {
+     "text": "Comece",
+     "start": 2.68,
+     "end": 3.16,
+     "emph": false
+    },
+    {
+     "text": "pelo",
+     "start": 3.16,
+     "end": 3.4,
+     "emph": false
+    },
+    {
+     "text": "defeito.",
+     "start": 3.4,
+     "end": 3.87,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.12,
+   "end": 4.76,
+   "words": [
+    {
+     "text": "Se",
+     "start": 4.12,
+     "end": 4.19,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 4.36,
+     "end": 4.52,
+     "emph": false
+    },
+    {
+     "text": "diz",
+     "start": 4.52,
+     "end": 4.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.76,
+   "end": 5.72,
+   "words": [
+    {
+     "text": "que",
+     "start": 4.76,
+     "end": 4.92,
+     "emph": false
+    },
+    {
+     "text": "tudo",
+     "start": 4.92,
+     "end": 5.08,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 5.08,
+     "end": 5.24,
+     "emph": false
+    },
+    {
+     "text": "ótimo,",
+     "start": 5.24,
+     "end": 5.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.72,
+   "end": 6.44,
+   "words": [
+    {
+     "text": "nada",
+     "start": 5.72,
+     "end": 6.04,
+     "emph": true
+    },
+    {
+     "text": "é.",
+     "start": 6.04,
+     "end": 6.17,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 6.44,
+   "end": 7.72,
+   "words": [
+    {
+     "text": "O",
+     "start": 6.44,
+     "end": 6.52,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 6.52,
+     "end": 6.92,
+     "emph": false
+    },
+    {
+     "text": "desconfia",
+     "start": 6.92,
+     "end": 7.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 7.72,
+   "end": 8.52,
+   "words": [
+    {
+     "text": "e",
+     "start": 7.72,
+     "end": 7.88,
+     "emph": false
+    },
+    {
+     "text": "vai",
+     "start": 7.88,
+     "end": 8.2,
+     "emph": false
+    },
+    {
+     "text": "procurar",
+     "start": 8.2,
+     "end": 8.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.52,
+   "end": 9.64,
+   "words": [
+    {
+     "text": "o",
+     "start": 8.52,
+     "end": 8.68,
+     "emph": false
+    },
+    {
+     "text": "problema",
+     "start": 8.68,
+     "end": 9.0,
+     "emph": true
+    },
+    {
+     "text": "sozinho.",
+     "start": 9.0,
+     "end": 9.26,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 9.64,
+   "end": 10.68,
+   "words": [
+    {
+     "text": "Agora",
+     "start": 9.64,
+     "end": 9.96,
+     "emph": false
+    },
+    {
+     "text": "imagine:",
+     "start": 9.96,
+     "end": 10.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 10.68,
+   "end": 12.04,
+   "words": [
+    {
+     "text": "antes",
+     "start": 10.68,
+     "end": 10.96,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 10.96,
+     "end": 11.072,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 11.072,
+     "end": 11.24,
+     "emph": false
+    },
+    {
+     "text": "perceber,",
+     "start": 11.24,
+     "end": 11.79,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.04,
+   "end": 13.24,
+   "words": [
+    {
+     "text": "você",
+     "start": 12.04,
+     "end": 12.28,
+     "emph": false
+    },
+    {
+     "text": "mesmo",
+     "start": 12.28,
+     "end": 12.6,
+     "emph": false
+    },
+    {
+     "text": "mostra.",
+     "start": 12.6,
+     "end": 12.93,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.24,
+   "end": 13.88,
+   "words": [
+    {
+     "text": "A",
+     "start": 13.24,
+     "end": 13.32,
+     "emph": false
+    },
+    {
+     "text": "cozinha",
+     "start": 13.32,
+     "end": 13.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.88,
+   "end": 14.6,
+   "words": [
+    {
+     "text": "é",
+     "start": 13.88,
+     "end": 14.04,
+     "emph": false
+    },
+    {
+     "text": "pequena.",
+     "start": 14.04,
+     "end": 14.37,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.6,
+   "end": 15.24,
+   "words": [
+    {
+     "text": "Mas",
+     "start": 14.6,
+     "end": 14.92,
+     "emph": false
+    },
+    {
+     "text": "olha",
+     "start": 14.92,
+     "end": 15.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.24,
+   "end": 16.52,
+   "words": [
+    {
+     "text": "a",
+     "start": 15.24,
+     "end": 15.4,
+     "emph": false
+    },
+    {
+     "text": "luz",
+     "start": 15.4,
+     "end": 15.72,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 15.72,
+     "end": 15.88,
+     "emph": false
+    },
+    {
+     "text": "sala.",
+     "start": 15.88,
+     "end": 16.07,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 16.52,
+   "end": 18.04,
+   "words": [
+    {
+     "text": "O",
+     "start": 16.52,
+     "end": 16.68,
+     "emph": false
+    },
+    {
+     "text": "defeito",
+     "start": 16.68,
+     "end": 17.24,
+     "emph": false
+    },
+    {
+     "text": "dito",
+     "start": 17.24,
+     "end": 17.64,
+     "emph": false
+    },
+    {
+     "text": "por",
+     "start": 17.64,
+     "end": 17.8,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 17.8,
+     "end": 18.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.04,
+   "end": 19.32,
+   "words": [
+    {
+     "text": "vira",
+     "start": 18.04,
+     "end": 18.52,
+     "emph": false
+    },
+    {
+     "text": "informação.",
+     "start": 18.52,
+     "end": 18.93,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.32,
+   "end": 20.28,
+   "words": [
+    {
+     "text": "O",
+     "start": 19.32,
+     "end": 19.48,
+     "emph": false
+    },
+    {
+     "text": "mesmo",
+     "start": 19.48,
+     "end": 19.8,
+     "emph": false
+    },
+    {
+     "text": "defeito",
+     "start": 19.8,
+     "end": 20.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.28,
+   "end": 21.32,
+   "words": [
+    {
+     "text": "descoberto",
+     "start": 20.28,
+     "end": 20.84,
+     "emph": false
+    },
+    {
+     "text": "por",
+     "start": 20.84,
+     "end": 21.0,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 21.0,
+     "end": 21.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.32,
+   "end": 22.68,
+   "words": [
+    {
+     "text": "vira",
+     "start": 21.32,
+     "end": 21.72,
+     "emph": false
+    },
+    {
+     "text": "desconfiança.",
+     "start": 21.72,
+     "end": 22.41,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.68,
+   "end": 23.32,
+   "words": [
+    {
+     "text": "E",
+     "start": 22.68,
+     "end": 22.75,
+     "emph": false
+    },
+    {
+     "text": "às",
+     "start": 22.92,
+     "end": 23.16,
+     "emph": false
+    },
+    {
+     "text": "vezes",
+     "start": 23.16,
+     "end": 23.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.32,
+   "end": 24.44,
+   "words": [
+    {
+     "text": "o",
+     "start": 23.32,
+     "end": 23.48,
+     "emph": false
+    },
+    {
+     "text": "certo",
+     "start": 23.48,
+     "end": 23.8,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 23.8,
+     "end": 23.96,
+     "emph": false
+    },
+    {
+     "text": "dizer:",
+     "start": 23.96,
+     "end": 24.15,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.44,
+   "end": 25.24,
+   "words": [
+    {
+     "text": "esse",
+     "start": 24.44,
+     "end": 24.68,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 24.68,
+     "end": 25.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.24,
+   "end": 26.36,
+   "words": [
+    {
+     "text": "não",
+     "start": 25.24,
+     "end": 25.48,
+     "emph": true
+    },
+    {
+     "text": "é",
+     "start": 25.48,
+     "end": 25.56,
+     "emph": true
+    },
+    {
+     "text": "pra",
+     "start": 25.56,
+     "end": 25.8,
+     "emph": true
+    },
+    {
+     "text": "você.",
+     "start": 25.8,
+     "end": 26.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.36,
+   "end": 27.72,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 26.36,
+     "end": 26.43,
+     "emph": false
+    },
+    {
+     "text": "fala",
+     "start": 26.68,
+     "end": 27.0,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 27.0,
+     "end": 27.16,
+     "emph": false
+    },
+    {
+     "text": "contra",
+     "start": 27.16,
+     "end": 27.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.72,
+   "end": 28.6,
+   "words": [
+    {
+     "text": "ganha",
+     "start": 27.72,
+     "end": 28.12,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 28.12,
+     "end": 28.2,
+     "emph": false
+    },
+    {
+     "text": "direito",
+     "start": 28.2,
+     "end": 28.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.6,
+   "end": 29.56,
+   "words": [
+    {
+     "text": "de",
+     "start": 28.6,
+     "end": 28.68,
+     "emph": false
+    },
+    {
+     "text": "ser",
+     "start": 28.68,
+     "end": 28.92,
+     "emph": false
+    },
+    {
+     "text": "acreditado",
+     "start": 28.92,
+     "end": 29.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.56,
+   "end": 30.44,
+   "words": [
+    {
+     "text": "no",
+     "start": 29.56,
+     "end": 29.72,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 29.72,
+     "end": 29.88,
+     "emph": false
+    },
+    {
+     "text": "favor.",
+     "start": 29.88,
+     "end": 30.11,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 30.44,
+   "end": 31.56,
+   "words": [
+    {
+     "text": "Se",
+     "start": 30.44,
+     "end": 30.51,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 30.68,
+     "end": 30.84,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 30.84,
+     "end": 31.0,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 31.0,
+     "end": 31.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 31.56,
+   "end": 32.6,
+   "words": [
+    {
+     "text": "comente",
+     "start": 31.56,
+     "end": 32.12,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 32.12,
+     "end": 32.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 32.6,
+   "end": 33.48,
+   "words": [
+    {
+     "text": "e",
+     "start": 32.6,
+     "end": 32.68,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 32.68,
+     "end": 33.24,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 33.24,
+     "end": 33.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 33.48,
+   "end": 34.88,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 33.48,
+     "end": 33.8,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 33.8,
+     "end": 34.38,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

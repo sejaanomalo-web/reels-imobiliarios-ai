@@ -1,0 +1,66 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.46,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 1.85,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.29,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.61,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.73,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.61,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.79,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 4.46,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 35.81,
+    "asr_match": 0.981,
+    "aligned_words": "101/102",
+    "words_per_min": 171,
+    "heard": "Visita com o casal. Ela já está escolhendo onde vai a mesa e ele está de braços cruzados na porta. Você tenta convencer quem não gostou. E aí os dois se fecham. Casal não discor do imóvel, discorda dos critérios, que nunca foram combinados. Na próxima conversa, pergunte a cada um, o que precisa ter para ser sim pra você? E o que é inegociável? Às vezes, ela quer espaço, ele quer não pegar trânsito. Com os dois critérios na mesa, você para de defender o imóvel e começa a procurar o certo. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 37.76,
+      "wpm": 162
+    },
+    "pausas_moldadas": {
+      "n": 18,
+      "max_s": 0.58
+    },
+    "pausas_encurtadas_s": 1.95,
+    "final": {
+      "seconds": 35.81,
+      "wpm": 171
+    }
+  }
+]

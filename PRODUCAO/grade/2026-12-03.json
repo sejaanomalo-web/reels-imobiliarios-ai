@@ -38,9 +38,10 @@
       "justificativaTrilha": "comparação prática com pulso leve.",
       "episodio": "ATIVO-D1203-08",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-03/ATIVO-D1203-08_so_tres_imoveis.md",
-      "status": "roteiro_aprovado",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-01-05/03-quinta/08h00"
     },
     {
       "horario": "10:00",
@@ -59,9 +60,10 @@
       "justificativaTrilha": "explicação em sequência.",
       "episodio": "ATIVO-D1203-10",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-03/ATIVO-D1203-10_o_porque_de_cada_imovel.md",
-      "status": "roteiro_aprovado",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-01-05/03-quinta/10h00"
     },
     {
       "horario": "12:00",
@@ -80,7 +82,7 @@
       "justificativaTrilha": "arco emocional de uma cidade que volta a ter gente.",
       "episodio": "ATIVO-D1203-12",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-03/ATIVO-D1203-12_a_casa_de_um_euro.md",
-      "status": "roteiro_aprovado",
+      "status": "producao",
       "motivo": "",
       "resultados": {}
     },
@@ -101,7 +103,7 @@
       "justificativaTrilha": "tensão do casal em movimento.",
       "episodio": "ATIVO-D1203-15",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-03/ATIVO-D1203-15_ela_amou_ele_odiou.md",
-      "status": "roteiro_aprovado",
+      "status": "producao",
       "motivo": "",
       "resultados": {}
     },
@@ -122,7 +124,7 @@
       "justificativaTrilha": "arco de descoberta.",
       "episodio": "ATIVO-D1203-18",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-03/ATIVO-D1203-18_o_movel_que_voce_montou.md",
-      "status": "roteiro_aprovado",
+      "status": "producao",
       "motivo": "",
       "resultados": {}
     },
@@ -143,7 +145,7 @@
       "justificativaTrilha": "piano em ondas para tese reflexiva (2ª T02 do dia, ver justificativas.trilhas).",
       "episodio": "ATIVO-D1203-21",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-03/ATIVO-D1203-21_o_contra_que_vende.md",
-      "status": "roteiro_aprovado",
+      "status": "producao",
       "motivo": "",
       "resultados": {}
     }

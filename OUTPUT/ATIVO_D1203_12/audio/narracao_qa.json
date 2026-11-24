@@ -1,0 +1,78 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.65,
+    "palavras_nao_reconhecidas": [
+      "2019",
+      "Sicília"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.18,
+    "palavras_nao_reconhecidas": [
+      "Sambuca"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.14,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.86,
+    "palavras_nao_reconhecidas": [
+      "três"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.6,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 6.44,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 5.57,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 4.82,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 46.01,
+    "asr_match": 0.955,
+    "aligned_words": "107/111",
+    "words_per_min": 145,
+    "heard": "Em 2019, uma cidade da Cecília pôs casas à venda por um euro. São Buca, estava perdendo moradores. Casas vazias ruas silenciosas. O anúncio rodou o mundo. Choveram interessados, mas tinha condição. Depósito de 5 mil euros e reforma em até 3 anos. E no leilão, a maioria saiu entre 5 e 10 mil euros. A cidade nunca quis o dinheiro. Ela queria gente morando ali de novo. Todo vendedor tem um objetivo além do preço. Prazo, quem vai cuidar da casa, um recomeço. Na captação, pergunte o que ele quer além do número. É aí que a negociação ganha a saída. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 48.36,
+      "wpm": 138
+    },
+    "pausas_moldadas": {
+      "n": 21,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.35,
+    "final": {
+      "seconds": 46.01,
+      "wpm": 145
+    }
+  }
+]

@@ -1,0 +1,116 @@
+[
+ {
+  "t": 0.657,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "h_2019"
+ },
+ {
+  "t": 4.68,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "h_euro"
+ },
+ {
+  "t": 8.2,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "c_vazias"
+ },
+ {
+  "t": 11.99,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "m_mundo"
+ },
+ {
+  "t": 14.68,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "m_condicao"
+ },
+ {
+  "t": 18.36,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "m_tres"
+ },
+ {
+  "t": 21.91,
+  "sound": "click",
+  "gain": -28,
+  "cue": "m_10"
+ },
+ {
+  "t": 25.96,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "v_gente"
+ },
+ {
+  "t": 29.4,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "l_objetivo"
+ },
+ {
+  "t": 32.15,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "l_cuidar"
+ },
+ {
+  "t": 35.96,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "f_pergunte"
+ },
+ {
+  "t": 40.94,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 42.08,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 42.92,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 43.52,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_word"
+ },
+ {
+  "t": 43.67,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 44.23,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 45.03,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 45.78,
+  "sound": "shimmer",
+  "gain": -27,
+  "cue": "cta_direct"
+ }
+]

@@ -1,0 +1,538 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "24": "vinte e quatro",
+  "30%": "trinta por cento",
+  "3%": "três por cento"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1203-08",
+ "lote": "D1203",
+ "title": "E se você mostrasse só 3 imóveis?",
+ "outputDir": "ATIVO_D1203_08",
+ "deliverables": {
+  "final": "ATIVO_D1203_08_FINAL.mp4",
+  "narration": "ATIVO_D1203_08_NARRACAO.wav",
+  "subtitles": "ATIVO_D1203_08_legendas.srt",
+  "cover": "ATIVO_D1203_08_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-03/ATIVO-D1203-08_so_tres_imoveis.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "E se você mostrasse só três imóveis para cada cliente?",
+   "caption": "E se você mostrasse | só *três imóveis* | para cada cliente?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "estudo",
+   "text": "A ideia vem de um estudo famoso.",
+   "caption": "A ideia vem | de um *estudo* famoso.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "estudo",
+   "text": "Num mercado, uma mesa tinha 24 geleias para provar. Outra, só 6.",
+   "caption": "Num mercado, | uma mesa tinha | *24 geleias* | para provar. | Outra, | só *6.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "estudo",
+   "text": "Com 6, 30% de quem parou na mesa comprou. Com 24, só 3%.",
+   "caption": "Com 6, | *30%* | de quem parou na mesa | comprou. | Com 24, | só *3%.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "virada",
+   "text": "Só que, anos depois, uma revisão de 50 experimentos achou um efeito médio quase zero.",
+   "caption": "Só que, | anos depois, | uma revisão | de *50 experimentos* | achou um efeito médio | *quase zero.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "virada",
+   "text": "Muita opção só atrapalha quando a pessoa ainda não sabe o que quer.",
+   "caption": "Muita opção | só atrapalha | quando a pessoa | *ainda não sabe* | o que quer.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "criterio",
+   "text": "Então o número de imóveis importa menos que a ordem.",
+   "caption": "Então o número | de imóveis | importa menos | que a *ordem.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "criterio",
+   "text": "Primeiro, os critérios: bairro, quartos, o que não pode faltar.",
+   "caption": "Primeiro, | os *critérios:* | *bairro,* | *quartos,* | o que *não pode faltar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "desfecho",
+   "text": "Com critério claro, o cliente compara. Sem critério, ele só se perde.",
+   "caption": "Com critério claro, | o cliente *compara.* | Sem critério, | ele só *se perde.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "estudo": 0.35,
+  "virada": 0.35,
+  "criterio": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_tres": {
+   "seg": "s1",
+   "word": "três",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_estudo": {
+   "seg": "s2",
+   "word": "estudo",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_24": {
+   "seg": "s3",
+   "word": "24",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_6": {
+   "seg": "s3",
+   "word": "6",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_30": {
+   "seg": "s4",
+   "word": "30",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_3": {
+   "seg": "s4",
+   "word": "3",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_soque": {
+   "seg": "s5",
+   "word": "Só",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_50": {
+   "seg": "s5",
+   "word": "50",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_zero": {
+   "seg": "s5",
+   "word": "zero",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_sabe": {
+   "seg": "s6",
+   "word": "sabe",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_ordem": {
+   "seg": "s7",
+   "word": "ordem",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_criterios": {
+   "seg": "s8",
+   "word": "critérios",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_bairro": {
+   "seg": "s8",
+   "word": "bairro",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_quartos": {
+   "seg": "s8",
+   "word": "quartos",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_faltar": {
+   "seg": "s8",
+   "word": "faltar",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_compara": {
+   "seg": "s9",
+   "word": "compara",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_perde": {
+   "seg": "s9",
+   "word": "perde",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s10",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s10",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s10",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s10",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s10",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s10",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s10",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s10",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s10",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_tres",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "e_24",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "e_30",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_soque",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_zero",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "c_ordem",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "c_bairro",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "c_faltar",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_perde",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.75,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.85,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.2,
+   "sound": "click",
+   "gain": -23,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.28,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:e_estudo",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_soque",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_perde",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T05",
+  "ancoras": {
+   "virada": "cue:v_soque",
+   "insight": "cue:c_ordem",
+   "resolucao": "cue:f_compara"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "cartoon-explicativo",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "e-se",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "mesa de geleias, cliente confuso diante de 24 potes, carimbos de estudo: comparação com humor.",
+  "justificativaHorario": "08h: descoberta rápida e curiosa.",
+  "trilha": "T05",
+  "justificativaTrilha": "comparação prática com pulso leve.",
+  "data": "2026-12-03",
+  "slot": "08:00",
+  "arquivo": "PRODUCAO/grade/2026-12-03.json"
+ },
+ "modelos4": true,
+ "modelo": 1,
+ "modeloNome": "Cartoon explicativo"
+}

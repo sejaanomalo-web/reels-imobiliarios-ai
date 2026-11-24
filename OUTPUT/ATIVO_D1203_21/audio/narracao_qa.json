@@ -1,0 +1,68 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.75,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.05,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.82,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 6.43,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.89,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.4,
+    "palavras_nao_reconhecidas": [
+      "pra"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 3.75,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 3.94,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 34.7,
+    "asr_match": 0.975,
+    "aligned_words": "97/100",
+    "words_per_min": 173,
+    "heard": "Quer que o cliente acredite no seu elogio? Comece pelo defeito. Se você diz que tudo é ótimo, nada é. O cliente desconfia e vai procurar o problema sozinho. Agora imagine, antes dele perceber, você mesmo mostra. A cozinha é pequena, mas olha a luz da sala. O defeito dito por você vira informação. O mesmo defeito descoberto por ele vira desconfiança. E às vezes o certo é dizer, esse imóvel não é para você. Quem fala o contra ganha o direito de ser acreditado no a favor. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 36.44,
+      "wpm": 165
+    },
+    "pausas_moldadas": {
+      "n": 16,
+      "max_s": 0.53
+    },
+    "pausas_encurtadas_s": 1.74,
+    "final": {
+      "seconds": 34.7,
+      "wpm": 173
+    }
+  }
+]
