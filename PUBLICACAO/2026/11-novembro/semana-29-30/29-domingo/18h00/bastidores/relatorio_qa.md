@@ -14,10 +14,12 @@
   - "Sears" pronunciado "Síars" e "1908" lido "mil novecentos e oito" (pronúncias do episódio).
 
 ## Som
-- Trilha **sintetizada** (as 5 faixas do catálogo estão como `referencia` e não vão ao ar). Efeitos 100% sintetizados por código. Mixagem (pré-master): final -15.01 LUFS, TP -1.96 dBTP, LRA 2.00; narração -19.04 · trilha -36.89 · efeitos -41.51 LUFS; 24 eventos de efeito.
+- Trilha **T03** do catálogo (licença `autorizada`: autorização do autor informada pelo cliente em 24/11/2026, `TRILHAS/licencas/autorizacao_autor_2026-11-24.md`), adaptada à história por `adaptar_trilha.py` (SHORTEN, velocidade 0.0%): virada → seção b em 14.54 s (alvo 15.16 s); tensao → seção subida em 22.54 s (alvo 23.0 s); descoberta → seção quebra em 26.54 s (alvo 26.36 s); insight → seção drop em 44.54 s (alvo 44.12 s). Mixagem v2 com ducking em 2 bandas; portão de inteligibilidade: narração 0.974 × mixagem 0.981 (queda -0.7 pontos, aprovado).
+- Efeitos 100% sintetizados por código. Mixagem (pré-master): final -15.02 LUFS, TP -1.97 dBTP, LRA 2.00; narração -19.04 · trilha -31.86 · efeitos -41.46 LUFS; 24 eventos de efeito.
+- Risco residual da trilha: reconhecimento automático de áudio das plataformas (acompanhar após a publicação).
 
 ## Validação
-- `validate.py`: 11/11 checagens OK — Dimensões 1080x1920: 1080x1920 · Codec de vídeo H.264: h264 · Pixel format yuv420p: yuv420p · 30 fps: 30/1 · Áudio AAC presente: aac · Duração = timeline (±0,1 s): 58.54 s (timeline 58.53 s) · Decodificação sem erros: ok · Loudness entre -16 e -14 LUFS: -15.01 LUFS · True peak ≤ -1 dBTP: -1.48 dBTP · Sem trechos pretos ≥ 0,2 s: nenhum · Sem silêncio total ≥ 0,4 s: nenhum · 32.87 MB.
+- `validate.py`: 11/11 checagens OK — Dimensões 1080x1920: 1080x1920 · Codec de vídeo H.264: h264 · Pixel format yuv420p: yuv420p · 30 fps: 30/1 · Áudio AAC presente: aac · Duração = timeline (±0,1 s): 58.54 s (timeline 58.53 s) · Decodificação sem erros: ok · Loudness entre -16 e -14 LUFS: -15.04 LUFS · True peak ≤ -1 dBTP: -1.54 dBTP · Sem trechos pretos ≥ 0,2 s: nenhum · Sem silêncio total ≥ 0,4 s: nenhum · 32.87 MB.
 - `editorial_check` 0 erro / 0 aviso (inclui `sistema_visual_check` do episódio). Folha de quadros (1 quadro/s) revisada antes do render final; correções feitas: ver `## Revisão visual`.
 - Legenda do Instagram: `legenda_instagram.txt` (CTA fixa na 1ª linha, sem Markdown, 5 hashtags minúsculas).
 
@@ -25,6 +27,7 @@
 - Prévia: a página da resposta ficava ~3 s vazia → a fachada nasce em "respondia antes" e a planta logo depois.
 - A elevação do trem era pequena → 3 andares que param em 2/3 na pergunta.
 - Final revisado: correções conferidas na folha de quadros do MP4 final.
+- 24/11/2026: novo render com a trilha T03 (autorizada); imagem idêntica ao final aprovado.
 - `sistema_visual_check --quadros` (1 quadro/s do MP4 final): 0 erro.
 
 ## Cenas
@@ -39,7 +42,7 @@
 
 ## Licenças e créditos
 - Imagem: tudo desenhado em código (Remotion/React, kit do modelo); nenhum asset de terceiros; logo oficial ATIVO (`MARCA/logo/`). Fonte Manrope / JetBrains Mono (OFL).
-- Áudio: voz sintética Gemini (preset aprovado); trilha e efeitos sintetizados por `tools/build_audio.py`. Nenhuma música ou efeito externo.
+- Áudio: voz sintética Gemini (preset aprovado); efeitos sintetizados por `tools/build_audio.py`; trilha do catálogo `TRILHAS/` com autorização do autor (status `autorizada`, 24/11/2026). O áudio da trilha não entra no Git.
 
 ## Regerar
 ```

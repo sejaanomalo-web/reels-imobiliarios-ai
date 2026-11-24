@@ -45,12 +45,12 @@
   {
    "check": "Loudness entre -16 e -14 LUFS",
    "ok": true,
-   "value": "-15.18 LUFS"
+   "value": "-15.24 LUFS"
   },
   {
    "check": "True peak ≤ -1 dBTP",
    "ok": true,
-   "value": "-1.65 dBTP"
+   "value": "-1.56 dBTP"
   },
   {
    "check": "Sem trechos pretos ≥ 0,2 s",

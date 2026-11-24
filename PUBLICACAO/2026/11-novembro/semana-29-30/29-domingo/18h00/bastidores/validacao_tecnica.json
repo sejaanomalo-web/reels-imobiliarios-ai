@@ -2,7 +2,7 @@
  "file": "ATIVO_D1129_18_FINAL.mp4",
  "size_mb": 32.87,
  "duration": 58.54,
- "video_bitrate_kbps": 4230,
+ "video_bitrate_kbps": 4229,
  "color_space": "bt709",
  "audio_sample_rate": "48000",
  "audio_channels": 2,
@@ -45,12 +45,12 @@
   {
    "check": "Loudness entre -16 e -14 LUFS",
    "ok": true,
-   "value": "-15.01 LUFS"
+   "value": "-15.04 LUFS"
   },
   {
    "check": "True peak ≤ -1 dBTP",
    "ok": true,
-   "value": "-1.48 dBTP"
+   "value": "-1.54 dBTP"
   },
   {
    "check": "Sem trechos pretos ≥ 0,2 s",

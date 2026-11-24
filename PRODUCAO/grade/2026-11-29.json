@@ -1,7 +1,7 @@
 {
   "data": "2026-11-29",
   "versao": 1,
-  "status": "em_producao",
+  "status": "programada",
   "justificativas": {
     "territorios": "dia-piloto com 4 vídeos (processo testado antes de 6/dia)",
     "pushPull": "dia-piloto com 4 vídeos: 2 PUSH / 2 PULL",
@@ -133,9 +133,10 @@
       "justificativaTrilha": "T05 motor prático: pulso leve e constante para a sequência de 3 dados e a punchline; afinidade 'muito' com o Cartoon (catálogo).",
       "episodio": "ATIVO-D1129-15",
       "roteiro": "ROTEIROS/ESTEIRA/2026-11-29/ATIVO-D1129-15_dezembro_nao_e_mes_morto.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-29-30/29-domingo/15h00"
     },
     {
       "horario": "18:00",

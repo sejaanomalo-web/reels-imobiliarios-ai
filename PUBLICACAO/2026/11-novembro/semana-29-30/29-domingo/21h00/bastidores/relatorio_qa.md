@@ -14,10 +14,12 @@
   - "2024" lido "dois mil e vinte e quatro" (pronúncia do episódio); cauda de 3,8 s no fecho.
 
 ## Som
-- Trilha **sintetizada** (as 5 faixas do catálogo estão como `referencia` e não vão ao ar). Efeitos 100% sintetizados por código. Mixagem (pré-master): final -15.17 LUFS, TP -1.96 dBTP, LRA 3.30; narração -20.81 · trilha -35.29 · efeitos -40.18 LUFS; 19 eventos de efeito.
+- Trilha **T02** do catálogo (licença `autorizada`: autorização do autor informada pelo cliente em 24/11/2026, `TRILHAS/licencas/autorizacao_autor_2026-11-24.md`), adaptada à história por `adaptar_trilha.py` (SHORTEN, velocidade 0.0%): virada → seção frase3 em 22.12 s (alvo 21.96 s); descoberta → seção crescendo em 34.8 s (alvo 35.08 s); insight → seção climax em 47.65 s (alvo 44.2 s). Mixagem v2 com ducking em 2 bandas; portão de inteligibilidade: narração 0.963 × mixagem 0.988 (queda -2.5 pontos, aprovado).
+- Efeitos 100% sintetizados por código. Mixagem (pré-master): final -15.21 LUFS, TP -1.96 dBTP, LRA 3.30; narração -20.81 · trilha -37.23 · efeitos -39.99 LUFS; 19 eventos de efeito.
+- Risco residual da trilha: reconhecimento automático de áudio das plataformas (acompanhar após a publicação).
 
 ## Validação
-- `validate.py`: 11/11 checagens OK — Dimensões 1080x1920: 1080x1920 · Codec de vídeo H.264: h264 · Pixel format yuv420p: yuv420p · 30 fps: 30/1 · Áudio AAC presente: aac · Duração = timeline (±0,1 s): 59.14 s (timeline 59.13 s) · Decodificação sem erros: ok · Loudness entre -16 e -14 LUFS: -15.18 LUFS · True peak ≤ -1 dBTP: -1.65 dBTP · Sem trechos pretos ≥ 0,2 s: nenhum · Sem silêncio total ≥ 0,4 s: nenhum · 19.31 MB.
+- `validate.py`: 11/11 checagens OK — Dimensões 1080x1920: 1080x1920 · Codec de vídeo H.264: h264 · Pixel format yuv420p: yuv420p · 30 fps: 30/1 · Áudio AAC presente: aac · Duração = timeline (±0,1 s): 59.14 s (timeline 59.13 s) · Decodificação sem erros: ok · Loudness entre -16 e -14 LUFS: -15.24 LUFS · True peak ≤ -1 dBTP: -1.56 dBTP · Sem trechos pretos ≥ 0,2 s: nenhum · Sem silêncio total ≥ 0,4 s: nenhum · 19.31 MB.
 - `editorial_check` 0 erro / 0 aviso (inclui `sistema_visual_check` do episódio). Folha de quadros (1 quadro/s) revisada antes do render final; correções feitas: ver `## Revisão visual`.
 - Legenda do Instagram: `legenda_instagram.txt` (CTA fixa na 1ª linha, sem Markdown, 5 hashtags minúsculas).
 
@@ -25,6 +27,7 @@
 - Prévia: a pílula EUA ficava sobre o contrato → foi para cima da porta; o papel do acordo foi para cima do comprador.
 - O dono saía cortado na borda e, na troca de cena, apareciam dois corretores → o zoom permanente do travelling foi zerado e as posições refeitas (o corretor fica exatamente onde a cena da balança começa).
 - O papel verde do registro saía do quadro → agora fica dentro da porta da direita, com o corretor entre as portas.
+- 24/11/2026: novo render com a trilha T02 (autorizada); imagem idêntica ao final aprovado.
 - `sistema_visual_check --quadros` (1 quadro/s do MP4 final): 0 erro.
 
 ## Cenas
@@ -39,7 +42,7 @@
 
 ## Licenças e créditos
 - Imagem: tudo desenhado em código (Remotion/React, kit do modelo); nenhum asset de terceiros; logo oficial ATIVO (`MARCA/logo/`). Fonte Manrope / JetBrains Mono (OFL).
-- Áudio: voz sintética Gemini (preset aprovado); trilha e efeitos sintetizados por `tools/build_audio.py`. Nenhuma música ou efeito externo.
+- Áudio: voz sintética Gemini (preset aprovado); efeitos sintetizados por `tools/build_audio.py`; trilha do catálogo `TRILHAS/` com autorização do autor (status `autorizada`, 24/11/2026). O áudio da trilha não entra no Git.
 
 ## Regerar
 ```

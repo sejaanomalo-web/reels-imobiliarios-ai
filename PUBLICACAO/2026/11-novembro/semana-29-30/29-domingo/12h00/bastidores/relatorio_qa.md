@@ -15,10 +15,12 @@
   - CRECI pronunciado "Créci" (pronúncia do episódio).
 
 ## Som
-- Trilha **sintetizada** (as 5 faixas do catálogo estão como `referencia` e não vão ao ar). Efeitos 100% sintetizados por código. Mixagem (pré-master): final -14.98 LUFS, TP -1.96 dBTP, LRA 1.90; narração -18.43 · trilha -37.07 · efeitos -40.93 LUFS; 25 eventos de efeito.
+- Trilha **T01** do catálogo (licença `autorizada`: autorização do autor informada pelo cliente em 24/11/2026, `TRILHAS/licencas/autorizacao_autor_2026-11-24.md`), adaptada à história por `adaptar_trilha.py` (SHORTEN, velocidade 0.0%): virada → seção cama2 em 28.0 s (alvo 27.04 s). Mixagem v2 com ducking em 2 bandas; portão de inteligibilidade: narração 0.953 × mixagem 0.941 (queda 1.2 pontos, aprovado).
+- Efeitos 100% sintetizados por código. Mixagem (pré-master): final -14.98 LUFS, TP -1.95 dBTP, LRA 1.80; narração -18.43 · trilha -31.90 · efeitos -41.11 LUFS; 25 eventos de efeito.
+- Risco residual da trilha: reconhecimento automático de áudio das plataformas (acompanhar após a publicação).
 
 ## Validação
-- `validate.py`: 11/11 checagens OK — Dimensões 1080x1920: 1080x1920 · Codec de vídeo H.264: h264 · Pixel format yuv420p: yuv420p · 30 fps: 30/1 · Áudio AAC presente: aac · Duração = timeline (±0,1 s): 57.22 s (timeline 57.20 s) · Decodificação sem erros: ok · Loudness entre -16 e -14 LUFS: -15.00 LUFS · True peak ≤ -1 dBTP: -1.63 dBTP · Sem trechos pretos ≥ 0,2 s: nenhum · Sem silêncio total ≥ 0,4 s: nenhum · 19.66 MB.
+- `validate.py`: 11/11 checagens OK — Dimensões 1080x1920: 1080x1920 · Codec de vídeo H.264: h264 · Pixel format yuv420p: yuv420p · 30 fps: 30/1 · Áudio AAC presente: aac · Duração = timeline (±0,1 s): 57.22 s (timeline 57.20 s) · Decodificação sem erros: ok · Loudness entre -16 e -14 LUFS: -14.99 LUFS · True peak ≤ -1 dBTP: -1.65 dBTP · Sem trechos pretos ≥ 0,2 s: nenhum · Sem silêncio total ≥ 0,4 s: nenhum · 19.66 MB.
 - `editorial_check` 0 erro / 0 aviso (inclui `sistema_visual_check` do episódio). Folha de quadros (1 quadro/s) revisada antes do render final; correções feitas: ver `## Revisão visual`.
 - Legenda do Instagram: `legenda_instagram.txt` (CTA fixa na 1ª linha, sem Markdown, 5 hashtags minúsculas).
 
@@ -27,8 +29,9 @@
 - A família cobria o dono na porta → ela para ao lado da porta e sai de cena antes do capítulo do CRECI.
 - A cópia escura saía do quadro na defesa → mural aproximado e plano mais aberto (casa real + cópia + 3 placas no mesmo quadro).
 - Casas vizinhas viraram argila clara: só a cópia (o anúncio falso) é escura; celular ao lado da família, golpista dentro do quadro; placas da pressa somem antes do capítulo seguinte.
-- Render 1 do final: `sistema_visual_check --quadros` acusou 9 quadros claros demais (closes na casa branca sob o holofote, 25–26 s e 44–50 s) → planos finais mais abertos, cone e holofote mais suaves; capa com o título em duas frases.
-- `sistema_visual_check --quadros` (1 quadro/s do MP4 final): 0 erro, 0 aviso.
+- Render 1 do final: 9 quadros claros demais (closes na casa branca sob o holofote, 25–26 s e 44–50 s) → planos finais mais abertos, cone e holofote mais suaves; capa com o título em duas frases.
+- 24/11/2026: novo render com a trilha T01 (autorizada); imagem idêntica ao final aprovado.
+- `sistema_visual_check --quadros` (1 quadro/s do MP4 final): 0 erro.
 
 ## Cenas
 1. Gancho — a casa real de argila e a cópia escura que se descola (FOTOS REAIS · ANÚNCIO FALSO).
@@ -42,7 +45,7 @@
 
 ## Licenças e créditos
 - Imagem: tudo desenhado em código (Remotion/React, kit do modelo); nenhum asset de terceiros; logo oficial ATIVO (`MARCA/logo/`). Fonte Manrope / JetBrains Mono (OFL).
-- Áudio: voz sintética Gemini (preset aprovado); trilha e efeitos sintetizados por `tools/build_audio.py`. Nenhuma música ou efeito externo.
+- Áudio: voz sintética Gemini (preset aprovado); efeitos sintetizados por `tools/build_audio.py`; trilha do catálogo `TRILHAS/` com autorização do autor (status `autorizada`, 24/11/2026). O áudio da trilha não entra no Git.
 
 ## Regerar
 ```
