@@ -1,0 +1,78 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.17,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.89,
+    "palavras_nao_reconhecidas": [
+      "2020"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 6.2,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.35,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 1.85,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 7.03,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 2.6,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 4.89,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 6.73,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.27,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 48.28,
+    "asr_match": 0.993,
+    "aligned_words": "143/144",
+    "words_per_min": 179,
+    "heard": "E se o comprador do imóvel tivesse que pagar metade da comissão do corretor? Na Alemanha, isso virou lei no fim de 2020. Na venda de apartamento ou casa para morar, quando o corretor atende os dois lados, a comissão é dividida meio a meio. Antes, em cidades como Berlim e Hamburgo, era o comprador que pagava tudo. A lei veio para aliviar quem compra. Só que um estudo de uma universidade de Berlim encontrou outra coisa. Somando as duas metades, a comissão ficou maior. Ou seja, mudar quem paga não mudou o valor. No Brasil, quase sempre quem paga é o vendedor. Mas quem decide a compra é o comprador. Então trabalhe como se os dois pagassem. Mostre ao comprador a pesquisa, os documentos e a negociação que ele recebe de você. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 50.24,
+      "wpm": 172
+    },
+    "pausas_moldadas": {
+      "n": 19,
+      "max_s": 0.49
+    },
+    "pausas_encurtadas_s": 1.96,
+    "final": {
+      "seconds": 48.28,
+      "wpm": 179
+    }
+  }
+]

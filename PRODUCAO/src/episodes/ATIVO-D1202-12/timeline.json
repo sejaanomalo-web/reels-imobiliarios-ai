@@ -1,0 +1,1241 @@
+{
+ "id": "ATIVO-D1202-12",
+ "title": "O cheiro da visita",
+ "fps": 30,
+ "duration": 50.46666666666667,
+ "durationInFrames": 1514,
+ "narrationEnd": 48.266,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.93
+  },
+  {
+   "id": "teste",
+   "start": 4.93,
+   "end": 14.165
+  },
+  {
+   "id": "resultado",
+   "start": 14.165,
+   "end": 24.85
+  },
+  {
+   "id": "virada",
+   "start": 24.85,
+   "end": 31.81
+  },
+  {
+   "id": "visita",
+   "start": 31.81,
+   "end": 40.025
+  },
+  {
+   "id": "desfecho",
+   "start": 40.025,
+   "end": 43.295
+  },
+  {
+   "id": "cta",
+   "start": 43.295,
+   "end": 50.467
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Tem loja que escolhe o cheiro do ar com o mesmo cuidado com que escolhe a vitrine.",
+   "start": 0.12,
+   "end": 4.78
+  },
+  {
+   "id": "s2",
+   "scene": "teste",
+   "text": "Pesquisadores testaram dois aromas numa loja de decoração na Suíça.",
+   "start": 5.08,
+   "end": 8.51
+  },
+  {
+   "id": "s3",
+   "scene": "teste",
+   "text": "Um simples, só laranja. Outro complexo, laranja com manjericão e chá verde.",
+   "start": 8.84,
+   "end": 13.97
+  },
+  {
+   "id": "s4",
+   "scene": "resultado",
+   "text": "Com o cheiro simples, os clientes gastaram em média 20% a mais.",
+   "start": 14.36,
+   "end": 18.79
+  },
+  {
+   "id": "s5",
+   "scene": "resultado",
+   "text": "Foi um estudo só, mas a explicação faz sentido: o cérebro processa o simples sem esforço.",
+   "start": 19.0,
+   "end": 24.62
+  },
+  {
+   "id": "s6",
+   "scene": "virada",
+   "text": "Agora pense na sua visita. Perfume forte, um aromatizador em cada cômodo, cheiro do almoço.",
+   "start": 25.08,
+   "end": 31.58
+  },
+  {
+   "id": "s7",
+   "scene": "visita",
+   "text": "Tudo isso disputa a atenção que deveria estar no imóvel.",
+   "start": 32.04,
+   "end": 35.08
+  },
+  {
+   "id": "s8",
+   "scene": "visita",
+   "text": "Antes do cliente chegar: janelas abertas e nada de mistura de cheiros.",
+   "start": 35.48,
+   "end": 39.85
+  },
+  {
+   "id": "s9",
+   "scene": "desfecho",
+   "text": "O melhor cheiro da visita é aquele que ninguém comenta.",
+   "start": 40.2,
+   "end": 43.11
+  },
+  {
+   "id": "s10",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 43.48,
+   "end": 47.87
+  }
+ ],
+ "cues": {
+  "h_loja": 0.52,
+  "h_cheiro": 1.56,
+  "h_vitrine": 4.36,
+  "t_pesquisadores": 5.08,
+  "t_dois": 6.28,
+  "t_suica": 8.2,
+  "t_simples": 9.16,
+  "t_laranja": 10.04,
+  "t_complexo": 11.16,
+  "t_manjericao": 12.52,
+  "t_cha": 13.48,
+  "r_simples": 15.16,
+  "r_20": 17.4,
+  "r_mais": 18.52,
+  "r_estudo": 19.48,
+  "r_cerebro": 22.2,
+  "r_esforco": 24.2,
+  "v_agora": 25.08,
+  "v_visita": 26.36,
+  "v_perfume": 26.92,
+  "v_aromatizador": 28.44,
+  "v_almoco": 31.08,
+  "d_disputa": 32.76,
+  "d_imovel": 34.68,
+  "d_antes": 35.48,
+  "d_janelas": 37.0,
+  "d_mistura": 38.92,
+  "f_melhor": 40.36,
+  "f_ninguem": 42.44,
+  "cta_quer": 43.48,
+  "cta_comment": 44.68,
+  "cta_word": 45.24,
+  "cta_tiles": 45.96,
+  "cta_sys": 46.76,
+  "cta_leads": 46.44,
+  "cta_atend": 47.16,
+  "cta_direct": 47.16,
+  "cta_end": 47.87
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.84,
+   "words": [
+    {
+     "text": "Tem",
+     "start": 0.12,
+     "end": 0.2,
+     "emph": false
+    },
+    {
+     "text": "loja",
+     "start": 0.52,
+     "end": 0.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.84,
+   "end": 1.4,
+   "words": [
+    {
+     "text": "que",
+     "start": 0.84,
+     "end": 1.0,
+     "emph": false
+    },
+    {
+     "text": "escolhe",
+     "start": 1.0,
+     "end": 1.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.4,
+   "end": 2.36,
+   "words": [
+    {
+     "text": "o",
+     "start": 1.4,
+     "end": 1.56,
+     "emph": false
+    },
+    {
+     "text": "cheiro",
+     "start": 1.56,
+     "end": 1.88,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 1.88,
+     "end": 2.12,
+     "emph": false
+    },
+    {
+     "text": "ar",
+     "start": 2.12,
+     "end": 2.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.36,
+   "end": 3.48,
+   "words": [
+    {
+     "text": "com",
+     "start": 2.36,
+     "end": 2.52,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 2.52,
+     "end": 2.68,
+     "emph": false
+    },
+    {
+     "text": "mesmo",
+     "start": 2.68,
+     "end": 3.0,
+     "emph": false
+    },
+    {
+     "text": "cuidado",
+     "start": 3.0,
+     "end": 3.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.48,
+   "end": 4.2,
+   "words": [
+    {
+     "text": "com",
+     "start": 3.48,
+     "end": 3.64,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 3.64,
+     "end": 3.88,
+     "emph": false
+    },
+    {
+     "text": "escolhe",
+     "start": 3.88,
+     "end": 4.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.2,
+   "end": 5.08,
+   "words": [
+    {
+     "text": "a",
+     "start": 4.2,
+     "end": 4.36,
+     "emph": false
+    },
+    {
+     "text": "vitrine.",
+     "start": 4.36,
+     "end": 4.78,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.08,
+   "end": 6.28,
+   "words": [
+    {
+     "text": "Pesquisadores",
+     "start": 5.08,
+     "end": 5.8,
+     "emph": false
+    },
+    {
+     "text": "testaram",
+     "start": 5.8,
+     "end": 6.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.28,
+   "end": 7.0,
+   "words": [
+    {
+     "text": "dois",
+     "start": 6.28,
+     "end": 6.44,
+     "emph": true
+    },
+    {
+     "text": "aromas",
+     "start": 6.44,
+     "end": 7.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.0,
+   "end": 8.04,
+   "words": [
+    {
+     "text": "numa",
+     "start": 7.0,
+     "end": 7.16,
+     "emph": false
+    },
+    {
+     "text": "loja",
+     "start": 7.16,
+     "end": 7.48,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 7.48,
+     "end": 7.56,
+     "emph": false
+    },
+    {
+     "text": "decoração",
+     "start": 7.56,
+     "end": 8.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.04,
+   "end": 8.84,
+   "words": [
+    {
+     "text": "na",
+     "start": 8.04,
+     "end": 8.2,
+     "emph": false
+    },
+    {
+     "text": "Suíça.",
+     "start": 8.2,
+     "end": 8.51,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.84,
+   "end": 9.72,
+   "words": [
+    {
+     "text": "Um",
+     "start": 8.84,
+     "end": 9.16,
+     "emph": false
+    },
+    {
+     "text": "simples,",
+     "start": 9.16,
+     "end": 9.38,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.72,
+   "end": 10.76,
+   "words": [
+    {
+     "text": "só",
+     "start": 9.72,
+     "end": 10.04,
+     "emph": false
+    },
+    {
+     "text": "laranja.",
+     "start": 10.04,
+     "end": 10.42,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.76,
+   "end": 11.8,
+   "words": [
+    {
+     "text": "Outro",
+     "start": 10.76,
+     "end": 11.16,
+     "emph": false
+    },
+    {
+     "text": "complexo,",
+     "start": 11.16,
+     "end": 11.61,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.8,
+   "end": 13.32,
+   "words": [
+    {
+     "text": "laranja",
+     "start": 11.8,
+     "end": 12.36,
+     "emph": false
+    },
+    {
+     "text": "com",
+     "start": 12.36,
+     "end": 12.52,
+     "emph": false
+    },
+    {
+     "text": "manjericão",
+     "start": 12.52,
+     "end": 13.21,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.32,
+   "end": 14.36,
+   "words": [
+    {
+     "text": "e",
+     "start": 13.32,
+     "end": 13.48,
+     "emph": false
+    },
+    {
+     "text": "chá",
+     "start": 13.48,
+     "end": 13.8,
+     "emph": false
+    },
+    {
+     "text": "verde.",
+     "start": 13.8,
+     "end": 13.97,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.36,
+   "end": 15.64,
+   "words": [
+    {
+     "text": "Com",
+     "start": 14.36,
+     "end": 14.66,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 14.66,
+     "end": 14.76,
+     "emph": false
+    },
+    {
+     "text": "cheiro",
+     "start": 14.76,
+     "end": 15.16,
+     "emph": false
+    },
+    {
+     "text": "simples,",
+     "start": 15.16,
+     "end": 15.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.64,
+   "end": 16.76,
+   "words": [
+    {
+     "text": "os",
+     "start": 15.64,
+     "end": 15.8,
+     "emph": false
+    },
+    {
+     "text": "clientes",
+     "start": 15.8,
+     "end": 16.28,
+     "emph": false
+    },
+    {
+     "text": "gastaram",
+     "start": 16.28,
+     "end": 16.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.76,
+   "end": 17.4,
+   "words": [
+    {
+     "text": "em",
+     "start": 16.76,
+     "end": 16.92,
+     "emph": false
+    },
+    {
+     "text": "média",
+     "start": 16.92,
+     "end": 17.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.4,
+   "end": 19.0,
+   "words": [
+    {
+     "text": "20%",
+     "start": 17.4,
+     "end": 18.36,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 18.36,
+     "end": 18.52,
+     "emph": true
+    },
+    {
+     "text": "mais.",
+     "start": 18.52,
+     "end": 18.79,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.0,
+   "end": 20.28,
+   "words": [
+    {
+     "text": "Foi",
+     "start": 19.0,
+     "end": 19.07,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 19.24,
+     "end": 19.48,
+     "emph": false
+    },
+    {
+     "text": "estudo",
+     "start": 19.48,
+     "end": 19.88,
+     "emph": true
+    },
+    {
+     "text": "só,",
+     "start": 19.88,
+     "end": 20.02,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.28,
+   "end": 21.16,
+   "words": [
+    {
+     "text": "mas",
+     "start": 20.28,
+     "end": 20.44,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 20.44,
+     "end": 20.6,
+     "emph": false
+    },
+    {
+     "text": "explicação",
+     "start": 20.6,
+     "end": 21.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.16,
+   "end": 22.04,
+   "words": [
+    {
+     "text": "faz",
+     "start": 21.16,
+     "end": 21.4,
+     "emph": false
+    },
+    {
+     "text": "sentido:",
+     "start": 21.4,
+     "end": 21.83,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.04,
+   "end": 22.76,
+   "words": [
+    {
+     "text": "o",
+     "start": 22.04,
+     "end": 22.2,
+     "emph": false
+    },
+    {
+     "text": "cérebro",
+     "start": 22.2,
+     "end": 22.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.76,
+   "end": 23.96,
+   "words": [
+    {
+     "text": "processa",
+     "start": 22.76,
+     "end": 23.32,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 23.32,
+     "end": 23.4,
+     "emph": false
+    },
+    {
+     "text": "simples",
+     "start": 23.4,
+     "end": 23.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.96,
+   "end": 25.08,
+   "words": [
+    {
+     "text": "sem",
+     "start": 23.96,
+     "end": 24.2,
+     "emph": true
+    },
+    {
+     "text": "esforço.",
+     "start": 24.2,
+     "end": 24.62,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.08,
+   "end": 25.96,
+   "words": [
+    {
+     "text": "Agora",
+     "start": 25.08,
+     "end": 25.48,
+     "emph": false
+    },
+    {
+     "text": "pense",
+     "start": 25.48,
+     "end": 25.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.96,
+   "end": 26.92,
+   "words": [
+    {
+     "text": "na",
+     "start": 25.96,
+     "end": 26.12,
+     "emph": false
+    },
+    {
+     "text": "sua",
+     "start": 26.12,
+     "end": 26.36,
+     "emph": false
+    },
+    {
+     "text": "visita.",
+     "start": 26.36,
+     "end": 26.67,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.92,
+   "end": 28.2,
+   "words": [
+    {
+     "text": "Perfume",
+     "start": 26.92,
+     "end": 27.56,
+     "emph": true
+    },
+    {
+     "text": "forte,",
+     "start": 27.56,
+     "end": 28.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.2,
+   "end": 29.4,
+   "words": [
+    {
+     "text": "um",
+     "start": 28.2,
+     "end": 28.44,
+     "emph": false
+    },
+    {
+     "text": "aromatizador",
+     "start": 28.44,
+     "end": 29.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 29.4,
+   "end": 30.52,
+   "words": [
+    {
+     "text": "em",
+     "start": 29.4,
+     "end": 29.56,
+     "emph": false
+    },
+    {
+     "text": "cada",
+     "start": 29.56,
+     "end": 29.8,
+     "emph": false
+    },
+    {
+     "text": "cômodo,",
+     "start": 29.8,
+     "end": 30.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 30.52,
+   "end": 32.04,
+   "words": [
+    {
+     "text": "cheiro",
+     "start": 30.52,
+     "end": 30.84,
+     "emph": false
+    },
+    {
+     "text": "do",
+     "start": 30.84,
+     "end": 31.08,
+     "emph": false
+    },
+    {
+     "text": "almoço.",
+     "start": 31.08,
+     "end": 31.58,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.04,
+   "end": 33.4,
+   "words": [
+    {
+     "text": "Tudo",
+     "start": 32.04,
+     "end": 32.44,
+     "emph": false
+    },
+    {
+     "text": "isso",
+     "start": 32.44,
+     "end": 32.76,
+     "emph": false
+    },
+    {
+     "text": "disputa",
+     "start": 32.76,
+     "end": 33.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.4,
+   "end": 33.88,
+   "words": [
+    {
+     "text": "a",
+     "start": 33.4,
+     "end": 33.48,
+     "emph": false
+    },
+    {
+     "text": "atenção",
+     "start": 33.48,
+     "end": 33.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.88,
+   "end": 34.52,
+   "words": [
+    {
+     "text": "que",
+     "start": 33.88,
+     "end": 33.96,
+     "emph": false
+    },
+    {
+     "text": "deveria",
+     "start": 33.96,
+     "end": 34.36,
+     "emph": false
+    },
+    {
+     "text": "estar",
+     "start": 34.36,
+     "end": 34.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 34.52,
+   "end": 35.48,
+   "words": [
+    {
+     "text": "no",
+     "start": 34.52,
+     "end": 34.68,
+     "emph": false
+    },
+    {
+     "text": "imóvel.",
+     "start": 34.68,
+     "end": 35.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 35.48,
+   "end": 37.0,
+   "words": [
+    {
+     "text": "Antes",
+     "start": 35.48,
+     "end": 35.8,
+     "emph": false
+    },
+    {
+     "text": "do",
+     "start": 35.8,
+     "end": 35.96,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 35.96,
+     "end": 36.36,
+     "emph": false
+    },
+    {
+     "text": "chegar:",
+     "start": 36.36,
+     "end": 36.73,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 37.0,
+   "end": 38.2,
+   "words": [
+    {
+     "text": "janelas",
+     "start": 37.0,
+     "end": 37.64,
+     "emph": true
+    },
+    {
+     "text": "abertas",
+     "start": 37.64,
+     "end": 38.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 38.2,
+   "end": 39.4,
+   "words": [
+    {
+     "text": "e",
+     "start": 38.2,
+     "end": 38.44,
+     "emph": false
+    },
+    {
+     "text": "nada",
+     "start": 38.44,
+     "end": 38.76,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 38.76,
+     "end": 38.92,
+     "emph": false
+    },
+    {
+     "text": "mistura",
+     "start": 38.92,
+     "end": 39.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 39.4,
+   "end": 40.2,
+   "words": [
+    {
+     "text": "de",
+     "start": 39.4,
+     "end": 39.48,
+     "emph": false
+    },
+    {
+     "text": "cheiros.",
+     "start": 39.48,
+     "end": 39.85,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 40.2,
+   "end": 41.16,
+   "words": [
+    {
+     "text": "O",
+     "start": 40.2,
+     "end": 40.36,
+     "emph": false
+    },
+    {
+     "text": "melhor",
+     "start": 40.36,
+     "end": 40.76,
+     "emph": true
+    },
+    {
+     "text": "cheiro",
+     "start": 40.76,
+     "end": 41.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 41.16,
+   "end": 41.8,
+   "words": [
+    {
+     "text": "da",
+     "start": 41.16,
+     "end": 41.32,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 41.32,
+     "end": 41.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 41.8,
+   "end": 42.28,
+   "words": [
+    {
+     "text": "é",
+     "start": 41.8,
+     "end": 41.96,
+     "emph": false
+    },
+    {
+     "text": "aquele",
+     "start": 41.96,
+     "end": 42.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 42.28,
+   "end": 43.48,
+   "words": [
+    {
+     "text": "que",
+     "start": 42.28,
+     "end": 42.44,
+     "emph": false
+    },
+    {
+     "text": "ninguém",
+     "start": 42.44,
+     "end": 42.76,
+     "emph": true
+    },
+    {
+     "text": "comenta.",
+     "start": 42.76,
+     "end": 43.11,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 43.48,
+   "end": 44.68,
+   "words": [
+    {
+     "text": "Se",
+     "start": 43.48,
+     "end": 43.64,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 43.64,
+     "end": 43.88,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 43.88,
+     "end": 44.04,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 44.04,
+     "end": 44.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 44.68,
+   "end": 45.8,
+   "words": [
+    {
+     "text": "comente",
+     "start": 44.68,
+     "end": 45.24,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 45.24,
+     "end": 45.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 45.8,
+   "end": 46.76,
+   "words": [
+    {
+     "text": "e",
+     "start": 45.8,
+     "end": 45.96,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 45.96,
+     "end": 46.44,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 46.44,
+     "end": 46.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 46.76,
+   "end": 48.37,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 46.76,
+     "end": 47.16,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 47.16,
+     "end": 47.87,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

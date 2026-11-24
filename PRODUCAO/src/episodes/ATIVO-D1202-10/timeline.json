@@ -1,0 +1,1416 @@
+{
+ "id": "ATIVO-D1202-10",
+ "title": "E se o comprador pagasse metade?",
+ "fps": 30,
+ "duration": 50.6,
+ "durationInFrames": 1518,
+ "narrationEnd": 48.396,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.445
+  },
+  {
+   "id": "lei",
+   "start": 4.445,
+   "end": 14.22
+  },
+  {
+   "id": "antes",
+   "start": 14.22,
+   "end": 20.965
+  },
+  {
+   "id": "virada",
+   "start": 20.965,
+   "end": 28.315
+  },
+  {
+   "id": "brasil",
+   "start": 28.315,
+   "end": 36.525
+  },
+  {
+   "id": "desfecho",
+   "start": 36.525,
+   "end": 43.565
+  },
+  {
+   "id": "cta",
+   "start": 43.565,
+   "end": 50.6
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "E se o comprador do imóvel tivesse que pagar metade da comissão do corretor?",
+   "start": 0.12,
+   "end": 4.29
+  },
+  {
+   "id": "s2",
+   "scene": "lei",
+   "text": "Na Alemanha, isso virou lei no fim de 2020.",
+   "start": 4.6,
+   "end": 7.49
+  },
+  {
+   "id": "s3",
+   "scene": "lei",
+   "text": "Na venda de apartamento ou casa para morar, quando o corretor atende os dois lados, a comissão é dividida meio a meio.",
+   "start": 7.8,
+   "end": 14.0
+  },
+  {
+   "id": "s4",
+   "scene": "antes",
+   "text": "Antes, em cidades como Berlim e Hamburgo, era o comprador que pagava tudo.",
+   "start": 14.44,
+   "end": 18.79
+  },
+  {
+   "id": "s5",
+   "scene": "antes",
+   "text": "A lei veio para aliviar quem compra.",
+   "start": 19.0,
+   "end": 20.85
+  },
+  {
+   "id": "s6",
+   "scene": "virada",
+   "text": "Só que um estudo de uma universidade de Berlim encontrou outra coisa: somando as duas metades, a comissão ficou maior.",
+   "start": 21.08,
+   "end": 28.11
+  },
+  {
+   "id": "s7",
+   "scene": "brasil",
+   "text": "Ou seja, mudar quem paga não mudou o valor.",
+   "start": 28.52,
+   "end": 31.12
+  },
+  {
+   "id": "s8",
+   "scene": "brasil",
+   "text": "No Brasil, quase sempre quem paga é o vendedor. Mas quem decide a compra é o comprador.",
+   "start": 31.48,
+   "end": 36.37
+  },
+  {
+   "id": "s9",
+   "scene": "desfecho",
+   "text": "Então trabalhe como se os dois pagassem: mostre ao comprador a pesquisa, os documentos e a negociação que ele recebe de você.",
+   "start": 36.68,
+   "end": 43.41
+  },
+  {
+   "id": "s10",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 43.72,
+   "end": 47.99
+  }
+ ],
+ "cues": {
+  "h_comprador": 0.68,
+  "h_metade": 2.68,
+  "h_comissao": 3.24,
+  "l_alemanha": 4.84,
+  "l_lei": 6.04,
+  "l_2020": 7.107,
+  "l_venda": 8.04,
+  "l_dois": 11.8,
+  "l_meio": 13.48,
+  "a_antes": 14.44,
+  "a_berlim": 15.8,
+  "a_tudo": 18.6,
+  "a_aliviar": 19.8,
+  "v_soque": 21.08,
+  "v_estudo": 21.56,
+  "v_somando": 25.0,
+  "v_maior": 27.72,
+  "b_mudar": 29.16,
+  "b_mudou": 30.44,
+  "b_brasil": 31.72,
+  "b_vendedor": 33.64,
+  "b_decide": 34.76,
+  "f_trabalhe": 37.08,
+  "f_dois": 38.04,
+  "f_pesquisa": 40.12,
+  "f_documentos": 40.92,
+  "f_negociacao": 41.88,
+  "cta_quer": 43.72,
+  "cta_comment": 44.84,
+  "cta_word": 45.48,
+  "cta_tiles": 46.12,
+  "cta_sys": 46.92,
+  "cta_leads": 46.6,
+  "cta_atend": 47.32,
+  "cta_direct": 47.32,
+  "cta_end": 47.99
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.08,
+   "words": [
+    {
+     "text": "E",
+     "start": 0.12,
+     "end": 0.2,
+     "emph": false
+    },
+    {
+     "text": "se",
+     "start": 0.44,
+     "end": 0.6,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 0.6,
+     "end": 0.68,
+     "emph": false
+    },
+    {
+     "text": "comprador",
+     "start": 0.68,
+     "end": 1.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.08,
+   "end": 1.72,
+   "words": [
+    {
+     "text": "do",
+     "start": 1.08,
+     "end": 1.24,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 1.24,
+     "end": 1.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.72,
+   "end": 2.68,
+   "words": [
+    {
+     "text": "tivesse",
+     "start": 1.72,
+     "end": 2.12,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 2.12,
+     "end": 2.28,
+     "emph": false
+    },
+    {
+     "text": "pagar",
+     "start": 2.28,
+     "end": 2.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.68,
+   "end": 3.08,
+   "words": [
+    {
+     "text": "metade",
+     "start": 2.68,
+     "end": 2.75,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.08,
+   "end": 3.72,
+   "words": [
+    {
+     "text": "da",
+     "start": 3.08,
+     "end": 3.24,
+     "emph": false
+    },
+    {
+     "text": "comissão",
+     "start": 3.24,
+     "end": 3.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.72,
+   "end": 4.6,
+   "words": [
+    {
+     "text": "do",
+     "start": 3.72,
+     "end": 3.8,
+     "emph": false
+    },
+    {
+     "text": "corretor?",
+     "start": 3.8,
+     "end": 4.29,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.6,
+   "end": 5.4,
+   "words": [
+    {
+     "text": "Na",
+     "start": 4.6,
+     "end": 4.84,
+     "emph": false
+    },
+    {
+     "text": "Alemanha,",
+     "start": 4.84,
+     "end": 5.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.4,
+   "end": 6.36,
+   "words": [
+    {
+     "text": "isso",
+     "start": 5.4,
+     "end": 5.64,
+     "emph": false
+    },
+    {
+     "text": "virou",
+     "start": 5.64,
+     "end": 6.04,
+     "emph": false
+    },
+    {
+     "text": "lei",
+     "start": 6.04,
+     "end": 6.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.36,
+   "end": 7.8,
+   "words": [
+    {
+     "text": "no",
+     "start": 6.36,
+     "end": 6.52,
+     "emph": false
+    },
+    {
+     "text": "fim",
+     "start": 6.52,
+     "end": 6.76,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 6.76,
+     "end": 7.107,
+     "emph": false
+    },
+    {
+     "text": "2020.",
+     "start": 7.107,
+     "end": 7.49,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 7.8,
+   "end": 8.36,
+   "words": [
+    {
+     "text": "Na",
+     "start": 7.8,
+     "end": 8.04,
+     "emph": false
+    },
+    {
+     "text": "venda",
+     "start": 8.04,
+     "end": 8.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.36,
+   "end": 9.16,
+   "words": [
+    {
+     "text": "de",
+     "start": 8.36,
+     "end": 8.6,
+     "emph": false
+    },
+    {
+     "text": "apartamento",
+     "start": 8.6,
+     "end": 9.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.16,
+   "end": 10.44,
+   "words": [
+    {
+     "text": "ou",
+     "start": 9.16,
+     "end": 9.4,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 9.4,
+     "end": 9.72,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 9.72,
+     "end": 9.96,
+     "emph": false
+    },
+    {
+     "text": "morar,",
+     "start": 9.96,
+     "end": 10.29,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.44,
+   "end": 11.24,
+   "words": [
+    {
+     "text": "quando",
+     "start": 10.44,
+     "end": 10.68,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 10.68,
+     "end": 10.76,
+     "emph": false
+    },
+    {
+     "text": "corretor",
+     "start": 10.76,
+     "end": 11.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.24,
+   "end": 12.36,
+   "words": [
+    {
+     "text": "atende",
+     "start": 11.24,
+     "end": 11.64,
+     "emph": false
+    },
+    {
+     "text": "os",
+     "start": 11.64,
+     "end": 11.8,
+     "emph": false
+    },
+    {
+     "text": "dois",
+     "start": 11.8,
+     "end": 11.96,
+     "emph": true
+    },
+    {
+     "text": "lados,",
+     "start": 11.96,
+     "end": 12.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.36,
+   "end": 13.48,
+   "words": [
+    {
+     "text": "a",
+     "start": 12.36,
+     "end": 12.52,
+     "emph": false
+    },
+    {
+     "text": "comissão",
+     "start": 12.52,
+     "end": 12.92,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 12.92,
+     "end": 13.0,
+     "emph": false
+    },
+    {
+     "text": "dividida",
+     "start": 13.0,
+     "end": 13.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.48,
+   "end": 14.44,
+   "words": [
+    {
+     "text": "meio",
+     "start": 13.48,
+     "end": 13.8,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 13.8,
+     "end": 13.88,
+     "emph": true
+    },
+    {
+     "text": "meio.",
+     "start": 13.88,
+     "end": 14.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.44,
+   "end": 14.92,
+   "words": [
+    {
+     "text": "Antes,",
+     "start": 14.44,
+     "end": 14.77,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.92,
+   "end": 15.8,
+   "words": [
+    {
+     "text": "em",
+     "start": 14.92,
+     "end": 15.08,
+     "emph": false
+    },
+    {
+     "text": "cidades",
+     "start": 15.08,
+     "end": 15.48,
+     "emph": false
+    },
+    {
+     "text": "como",
+     "start": 15.48,
+     "end": 15.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.8,
+   "end": 17.16,
+   "words": [
+    {
+     "text": "Berlim",
+     "start": 15.8,
+     "end": 16.28,
+     "emph": false
+    },
+    {
+     "text": "e",
+     "start": 16.28,
+     "end": 16.44,
+     "emph": false
+    },
+    {
+     "text": "Hamburgo,",
+     "start": 16.44,
+     "end": 17.03,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.16,
+   "end": 18.04,
+   "words": [
+    {
+     "text": "era",
+     "start": 17.16,
+     "end": 17.4,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 17.4,
+     "end": 17.48,
+     "emph": false
+    },
+    {
+     "text": "comprador",
+     "start": 17.48,
+     "end": 18.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.04,
+   "end": 19.0,
+   "words": [
+    {
+     "text": "que",
+     "start": 18.04,
+     "end": 18.2,
+     "emph": false
+    },
+    {
+     "text": "pagava",
+     "start": 18.2,
+     "end": 18.6,
+     "emph": false
+    },
+    {
+     "text": "tudo.",
+     "start": 18.6,
+     "end": 18.79,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.0,
+   "end": 19.72,
+   "words": [
+    {
+     "text": "A",
+     "start": 19.0,
+     "end": 19.16,
+     "emph": false
+    },
+    {
+     "text": "lei",
+     "start": 19.16,
+     "end": 19.48,
+     "emph": false
+    },
+    {
+     "text": "veio",
+     "start": 19.48,
+     "end": 19.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.72,
+   "end": 20.36,
+   "words": [
+    {
+     "text": "para",
+     "start": 19.72,
+     "end": 19.8,
+     "emph": false
+    },
+    {
+     "text": "aliviar",
+     "start": 19.8,
+     "end": 20.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.36,
+   "end": 21.08,
+   "words": [
+    {
+     "text": "quem",
+     "start": 20.36,
+     "end": 20.6,
+     "emph": false
+    },
+    {
+     "text": "compra.",
+     "start": 20.6,
+     "end": 20.85,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 21.08,
+   "end": 21.48,
+   "words": [
+    {
+     "text": "Só",
+     "start": 21.08,
+     "end": 21.32,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 21.32,
+     "end": 21.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 21.48,
+   "end": 21.88,
+   "words": [
+    {
+     "text": "um",
+     "start": 21.48,
+     "end": 21.56,
+     "emph": false
+    },
+    {
+     "text": "estudo",
+     "start": 21.56,
+     "end": 21.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 21.88,
+   "end": 22.68,
+   "words": [
+    {
+     "text": "de",
+     "start": 21.88,
+     "end": 22.04,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 22.04,
+     "end": 22.2,
+     "emph": false
+    },
+    {
+     "text": "universidade",
+     "start": 22.2,
+     "end": 22.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.68,
+   "end": 23.48,
+   "words": [
+    {
+     "text": "de",
+     "start": 22.68,
+     "end": 22.84,
+     "emph": false
+    },
+    {
+     "text": "Berlim",
+     "start": 22.84,
+     "end": 23.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.48,
+   "end": 25.0,
+   "words": [
+    {
+     "text": "encontrou",
+     "start": 23.48,
+     "end": 24.04,
+     "emph": false
+    },
+    {
+     "text": "outra",
+     "start": 24.04,
+     "end": 24.36,
+     "emph": false
+    },
+    {
+     "text": "coisa:",
+     "start": 24.36,
+     "end": 24.65,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.0,
+   "end": 26.68,
+   "words": [
+    {
+     "text": "somando",
+     "start": 25.0,
+     "end": 25.56,
+     "emph": false
+    },
+    {
+     "text": "as",
+     "start": 25.56,
+     "end": 25.72,
+     "emph": false
+    },
+    {
+     "text": "duas",
+     "start": 25.72,
+     "end": 25.96,
+     "emph": false
+    },
+    {
+     "text": "metades,",
+     "start": 25.96,
+     "end": 26.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.68,
+   "end": 27.32,
+   "words": [
+    {
+     "text": "a",
+     "start": 26.68,
+     "end": 26.76,
+     "emph": false
+    },
+    {
+     "text": "comissão",
+     "start": 26.76,
+     "end": 27.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.32,
+   "end": 28.52,
+   "words": [
+    {
+     "text": "ficou",
+     "start": 27.32,
+     "end": 27.72,
+     "emph": false
+    },
+    {
+     "text": "maior.",
+     "start": 27.72,
+     "end": 28.11,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.52,
+   "end": 29.16,
+   "words": [
+    {
+     "text": "Ou",
+     "start": 28.52,
+     "end": 28.68,
+     "emph": false
+    },
+    {
+     "text": "seja,",
+     "start": 28.68,
+     "end": 28.99,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.16,
+   "end": 30.28,
+   "words": [
+    {
+     "text": "mudar",
+     "start": 29.16,
+     "end": 29.64,
+     "emph": false
+    },
+    {
+     "text": "quem",
+     "start": 29.64,
+     "end": 29.88,
+     "emph": false
+    },
+    {
+     "text": "paga",
+     "start": 29.88,
+     "end": 30.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.28,
+   "end": 30.84,
+   "words": [
+    {
+     "text": "não",
+     "start": 30.28,
+     "end": 30.44,
+     "emph": true
+    },
+    {
+     "text": "mudou",
+     "start": 30.44,
+     "end": 30.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.84,
+   "end": 31.48,
+   "words": [
+    {
+     "text": "o",
+     "start": 30.84,
+     "end": 30.92,
+     "emph": false
+    },
+    {
+     "text": "valor.",
+     "start": 30.92,
+     "end": 31.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 31.48,
+   "end": 32.28,
+   "words": [
+    {
+     "text": "No",
+     "start": 31.48,
+     "end": 31.72,
+     "emph": false
+    },
+    {
+     "text": "Brasil,",
+     "start": 31.72,
+     "end": 32.11,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 32.28,
+   "end": 32.84,
+   "words": [
+    {
+     "text": "quase",
+     "start": 32.28,
+     "end": 32.6,
+     "emph": false
+    },
+    {
+     "text": "sempre",
+     "start": 32.6,
+     "end": 32.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 32.84,
+   "end": 33.4,
+   "words": [
+    {
+     "text": "quem",
+     "start": 32.84,
+     "end": 33.08,
+     "emph": false
+    },
+    {
+     "text": "paga",
+     "start": 33.08,
+     "end": 33.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 33.4,
+   "end": 34.28,
+   "words": [
+    {
+     "text": "é",
+     "start": 33.4,
+     "end": 33.56,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 33.56,
+     "end": 33.64,
+     "emph": false
+    },
+    {
+     "text": "vendedor.",
+     "start": 33.64,
+     "end": 34.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 34.28,
+   "end": 35.24,
+   "words": [
+    {
+     "text": "Mas",
+     "start": 34.28,
+     "end": 34.52,
+     "emph": false
+    },
+    {
+     "text": "quem",
+     "start": 34.52,
+     "end": 34.76,
+     "emph": false
+    },
+    {
+     "text": "decide",
+     "start": 34.76,
+     "end": 35.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 35.24,
+   "end": 35.72,
+   "words": [
+    {
+     "text": "a",
+     "start": 35.24,
+     "end": 35.32,
+     "emph": false
+    },
+    {
+     "text": "compra",
+     "start": 35.32,
+     "end": 35.61,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 35.72,
+   "end": 36.68,
+   "words": [
+    {
+     "text": "é",
+     "start": 35.72,
+     "end": 35.88,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 35.88,
+     "end": 35.96,
+     "emph": false
+    },
+    {
+     "text": "comprador.",
+     "start": 35.96,
+     "end": 36.37,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 36.68,
+   "end": 37.56,
+   "words": [
+    {
+     "text": "Então",
+     "start": 36.68,
+     "end": 37.08,
+     "emph": false
+    },
+    {
+     "text": "trabalhe",
+     "start": 37.08,
+     "end": 37.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 37.56,
+   "end": 38.28,
+   "words": [
+    {
+     "text": "como",
+     "start": 37.56,
+     "end": 37.72,
+     "emph": false
+    },
+    {
+     "text": "se",
+     "start": 37.72,
+     "end": 37.88,
+     "emph": false
+    },
+    {
+     "text": "os",
+     "start": 37.88,
+     "end": 38.04,
+     "emph": true
+    },
+    {
+     "text": "dois",
+     "start": 38.04,
+     "end": 38.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 38.28,
+   "end": 39.0,
+   "words": [
+    {
+     "text": "pagassem:",
+     "start": 38.28,
+     "end": 38.7,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 39.0,
+   "end": 40.04,
+   "words": [
+    {
+     "text": "mostre",
+     "start": 39.0,
+     "end": 39.4,
+     "emph": false
+    },
+    {
+     "text": "ao",
+     "start": 39.4,
+     "end": 39.56,
+     "emph": false
+    },
+    {
+     "text": "comprador",
+     "start": 39.56,
+     "end": 40.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 40.04,
+   "end": 40.76,
+   "words": [
+    {
+     "text": "a",
+     "start": 40.04,
+     "end": 40.12,
+     "emph": false
+    },
+    {
+     "text": "pesquisa,",
+     "start": 40.12,
+     "end": 40.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 40.76,
+   "end": 41.56,
+   "words": [
+    {
+     "text": "os",
+     "start": 40.76,
+     "end": 40.92,
+     "emph": false
+    },
+    {
+     "text": "documentos",
+     "start": 40.92,
+     "end": 41.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 41.56,
+   "end": 42.44,
+   "words": [
+    {
+     "text": "e",
+     "start": 41.56,
+     "end": 41.72,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 41.72,
+     "end": 41.88,
+     "emph": false
+    },
+    {
+     "text": "negociação",
+     "start": 41.88,
+     "end": 42.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 42.44,
+   "end": 43.08,
+   "words": [
+    {
+     "text": "que",
+     "start": 42.44,
+     "end": 42.52,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 42.52,
+     "end": 42.68,
+     "emph": false
+    },
+    {
+     "text": "recebe",
+     "start": 42.68,
+     "end": 43.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 43.08,
+   "end": 43.72,
+   "words": [
+    {
+     "text": "de",
+     "start": 43.08,
+     "end": 43.24,
+     "emph": false
+    },
+    {
+     "text": "você.",
+     "start": 43.24,
+     "end": 43.41,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 43.72,
+   "end": 44.84,
+   "words": [
+    {
+     "text": "Se",
+     "start": 43.72,
+     "end": 43.88,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 43.88,
+     "end": 44.04,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 44.04,
+     "end": 44.2,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 44.2,
+     "end": 44.69,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 44.84,
+   "end": 45.96,
+   "words": [
+    {
+     "text": "comente",
+     "start": 44.84,
+     "end": 45.48,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 45.48,
+     "end": 45.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 45.96,
+   "end": 46.92,
+   "words": [
+    {
+     "text": "e",
+     "start": 45.96,
+     "end": 46.12,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 46.12,
+     "end": 46.6,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 46.6,
+     "end": 46.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 46.92,
+   "end": 48.49,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 46.92,
+     "end": 47.32,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 47.32,
+     "end": 47.99,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}
