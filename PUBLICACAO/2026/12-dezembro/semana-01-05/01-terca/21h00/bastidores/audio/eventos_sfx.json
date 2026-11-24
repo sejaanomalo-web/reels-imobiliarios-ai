@@ -1,0 +1,152 @@
+[
+ {
+  "t": 2.12,
+  "sound": "thump",
+  "gain": -28,
+  "cue": "h_medo"
+ },
+ {
+  "t": 6.52,
+  "sound": "block",
+  "gain": -28,
+  "cue": "h_errado"
+ },
+ {
+  "t": 7.59,
+  "sound": "whoosh_fold",
+  "gain": -30,
+  "cue": "l_protege"
+ },
+ {
+  "t": 11.96,
+  "sound": "click",
+  "gain": -27,
+  "cue": "l_escrito"
+ },
+ {
+  "t": 13.16,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "l_devida"
+ },
+ {
+  "t": 16.31,
+  "sound": "hollow",
+  "gain": -29,
+  "cue": "c_condicao"
+ },
+ {
+  "t": 20.04,
+  "sound": "thump",
+  "gain": -28,
+  "cue": "c_inercia"
+ },
+ {
+  "t": 21.43,
+  "sound": "whoosh_fold",
+  "gain": -29,
+  "cue": "v_ouseja"
+ },
+ {
+  "t": 25.08,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "v_chance"
+ },
+ {
+  "t": 29.0,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "p_plano"
+ },
+ {
+  "t": 30.52,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "p_fazer"
+ },
+ {
+  "t": 31.64,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "p_tempo"
+ },
+ {
+  "t": 33.24,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "p_contas"
+ },
+ {
+  "t": 35.96,
+  "sound": "hollow",
+  "gain": -29,
+  "cue": "f_posse"
+ },
+ {
+  "t": 37.48,
+  "sound": "impact",
+  "gain": -28,
+  "cue": "f_compromisso"
+ },
+ {
+  "t": 37.78,
+  "sound": "shimmer",
+  "gain": -29,
+  "cue": "f_compromisso"
+ },
+ {
+  "t": 39.7,
+  "sound": "swish",
+  "gain": -29,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 40.77,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 41.64,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 42.31,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 42.87,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 43.54,
+  "sound": "whoosh_up",
+  "gain": -28,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 43.59,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 44.74,
+  "sound": "shimmer",
+  "gain": -25,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 45.94,
+  "sound": "chord",
+  "gain": -27,
+  "cue": "cta_direct"
+ }
+]
