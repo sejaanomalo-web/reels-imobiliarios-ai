@@ -16,12 +16,12 @@
   - "com dinheiro da poupança" saiu "com o dinheiro da poupança" (artigo a mais, sem mudança de sentido).
 
 ## Som
-- Trilha **T05** do catálogo (licença `autorizada`: autorização do autor informada pelo cliente em 24/11/2026, `TRILHAS/licencas/autorizacao_autor_2026-11-24.md`), adaptada à história por `adaptar_trilha.py` (SHORTEN, velocidade 0.0%): virada → seção b em 27.562 s (alvo 28.68 s); insight → seção c em 32.558 s (alvo 33.08 s). Mixagem v2 com ducking em 2 bandas; portão de inteligibilidade: narração 0.935 × mixagem 0.927 (queda 0.8 pontos, aprovado).
-- Efeitos 100% sintetizados por código. Mixagem (pré-master): final -15.17 LUFS, TP -1.95 dBTP, LRA 3.50; narração -19.84 · trilha -34.28 · efeitos -39.97 LUFS; 34 eventos de efeito.
+- Trilha **T05** do catálogo (licença `autorizada`: autorização do autor informada pelo cliente em 24/11/2026, `TRILHAS/licencas/autorizacao_autor_2026-11-24.md`), adaptada à história por `adaptar_trilha.py` (SHORTEN, velocidade 0.0%): virada → seção b em 27.562 s (alvo 28.68 s); insight → seção c em 32.558 s (alvo 33.08 s). Mixagem v2 com ducking em 2 bandas; trilha nas pausas a -4.0 LU da voz (24/11/2026: +6 dB, ordem do cliente); portão de inteligibilidade: narração 0.935 × mixagem 0.919 (queda 1.6 pontos, aprovado).
+- Efeitos 100% sintetizados por código. Mixagem (pré-master): final -15.30 LUFS, TP -1.95 dBTP, LRA 3.30; narração -19.84 · trilha -28.28 · efeitos -39.97 LUFS; 34 eventos de efeito.
 - Risco residual da trilha: reconhecimento automático de áudio das plataformas (acompanhar após a publicação).
 
 ## Validação
-- `validate.py`: 11/11 checagens OK — Dimensões 1080x1920: 1080x1920 · Codec de vídeo H.264: h264 · Pixel format yuv420p: yuv420p · 30 fps: 30/1 · Áudio AAC presente: aac · Duração = timeline (±0,1 s): 45.55 s (timeline 45.53 s) · Decodificação sem erros: ok · Loudness entre -16 e -14 LUFS: -15.17 LUFS · True peak ≤ -1 dBTP: -1.67 dBTP · Sem trechos pretos ≥ 0,2 s: nenhum · Sem silêncio total ≥ 0,4 s: nenhum · 23.91 MB.
+- `validate.py`: 11/11 checagens OK — Dimensões 1080x1920: 1080x1920 · Codec de vídeo H.264: h264 · Pixel format yuv420p: yuv420p · 30 fps: 30/1 · Áudio AAC presente: aac · Duração = timeline (±0,1 s): 45.55 s (timeline 45.53 s) · Decodificação sem erros: ok · Loudness entre -16 e -14 LUFS: -15.34 LUFS · True peak ≤ -1 dBTP: -1.65 dBTP · Sem trechos pretos ≥ 0,2 s: nenhum · Sem silêncio total ≥ 0,4 s: nenhum · 23.91 MB.
 - `editorial_check` 0 erro / 0 aviso (inclui `sistema_visual_check` do episódio). Folha de quadros (1 quadro/s) revisada antes do render final; correções feitas: ver `## Revisão visual`.
 - Legenda do Instagram: `legenda_instagram.txt` (CTA fixa na 1ª linha, sem Markdown, 5 hashtags minúsculas).
 
@@ -29,8 +29,8 @@
 - Prévia: a pilha de moedas do kit trazia o selo "%" (comissão) → pilha própria, sem símbolo.
 - As barras NOV/DEZ invadiam a faixa da legenda → descidas para o palco inferior (base em y 1480).
 - Fecho CtaCartoon adaptado à CTA curta (o cartão COMENTE digita e envia; encolhe e os 3 cartões entram em "conheça · nosso · personalizado"; sem linha de Direct).
-- `sistema_visual_check --quadros` (1 quadro/s do MP4 final): 0 erro, 2 avisos leves de luminância (q_020 = 45, barras verdes no limite de 45; q_041 = 47, fecho CtaCartoon com os 3 cartões e o SEGUIR acesos). Aceitos.
-- `motion_check`: movimento médio 3,78 (meta ≥ 2,5), 11,9% de quadros parados (meta ≤ 15%), maior trecho parado 0,8 s (meta 0,5 s; fora da meta, registrado).
+- Final: `sistema_visual_check --quadros` com 2 avisos leves de luminância (q_020 = 45, barras verdes no limite; q_041 = 47, fecho com os 3 cartões e o SEGUIR acesos), aceitos; `motion_check` movimento médio 3,78, 11,9% de quadros parados, maior trecho parado 0,8 s (meta 0,5 s; registrado).
+- `sistema_visual_check --quadros` (1 quadro/s do MP4 final): 0 erro.
 
 ## Cenas
 1. Gancho — o corretor de férias pendura a placa "VOLTO EM JANEIRO" e sai com a mala; o corretor A espantado e o carimbo MÊS MORTO?.

@@ -1,16 +1,16 @@
 {
- "final_lufs": "-15.17",
+ "final_lufs": "-15.30",
  "final_true_peak": "-1.95",
- "final_lra": "3.50",
+ "final_lra": "3.30",
  "narracao_lufs": "-19.84",
- "trilha_lufs": "-34.28",
+ "trilha_lufs": "-28.28",
  "efeitos_lufs": "-39.97",
  "eventos": 34,
  "mixagem": "v2",
  "trilha": "T05",
  "licenca_trilha": "autorizada",
  "v2": {
-  "pausa_lu": -10.0,
+  "pausa_lu": -4.0,
   "duck_graves_db": -3.0,
   "duck_medios_db": -10.0,
   "cta_extra_db": -2.0,
@@ -57,9 +57,9 @@
  },
  "inteligibilidade": {
   "narracao": 0.935,
-  "mixagem": 0.927,
+  "mixagem": 0.919,
   "palavras": 123,
-  "queda_pontos": 0.8,
+  "queda_pontos": 1.6,
   "aprovado": true
  }
 }

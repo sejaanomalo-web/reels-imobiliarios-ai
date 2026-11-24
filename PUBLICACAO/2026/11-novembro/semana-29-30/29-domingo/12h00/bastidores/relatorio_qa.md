@@ -15,12 +15,12 @@
   - CRECI pronunciado "Créci" (pronúncia do episódio).
 
 ## Som
-- Trilha **T01** do catálogo (licença `autorizada`: autorização do autor informada pelo cliente em 24/11/2026, `TRILHAS/licencas/autorizacao_autor_2026-11-24.md`), adaptada à história por `adaptar_trilha.py` (SHORTEN, velocidade 0.0%): virada → seção cama2 em 28.0 s (alvo 27.04 s). Mixagem v2 com ducking em 2 bandas; portão de inteligibilidade: narração 0.953 × mixagem 0.941 (queda 1.2 pontos, aprovado).
-- Efeitos 100% sintetizados por código. Mixagem (pré-master): final -14.98 LUFS, TP -1.95 dBTP, LRA 1.80; narração -18.43 · trilha -31.90 · efeitos -41.11 LUFS; 25 eventos de efeito.
+- Trilha **T01** do catálogo (licença `autorizada`: autorização do autor informada pelo cliente em 24/11/2026, `TRILHAS/licencas/autorizacao_autor_2026-11-24.md`), adaptada à história por `adaptar_trilha.py` (SHORTEN, velocidade 0.0%): virada → seção cama2 em 28.0 s (alvo 27.04 s). Mixagem v2 com ducking em 2 bandas; trilha nas pausas a -4.0 LU da voz (24/11/2026: +6 dB, ordem do cliente); portão de inteligibilidade: narração 0.953 × mixagem 0.941 (queda 1.2 pontos, aprovado).
+- Efeitos 100% sintetizados por código. Mixagem (pré-master): final -15.00 LUFS, TP -1.96 dBTP, LRA 1.60; narração -18.43 · trilha -25.90 · efeitos -41.11 LUFS; 25 eventos de efeito.
 - Risco residual da trilha: reconhecimento automático de áudio das plataformas (acompanhar após a publicação).
 
 ## Validação
-- `validate.py`: 11/11 checagens OK — Dimensões 1080x1920: 1080x1920 · Codec de vídeo H.264: h264 · Pixel format yuv420p: yuv420p · 30 fps: 30/1 · Áudio AAC presente: aac · Duração = timeline (±0,1 s): 57.22 s (timeline 57.20 s) · Decodificação sem erros: ok · Loudness entre -16 e -14 LUFS: -14.99 LUFS · True peak ≤ -1 dBTP: -1.65 dBTP · Sem trechos pretos ≥ 0,2 s: nenhum · Sem silêncio total ≥ 0,4 s: nenhum · 19.66 MB.
+- `validate.py`: 11/11 checagens OK — Dimensões 1080x1920: 1080x1920 · Codec de vídeo H.264: h264 · Pixel format yuv420p: yuv420p · 30 fps: 30/1 · Áudio AAC presente: aac · Duração = timeline (±0,1 s): 57.22 s (timeline 57.20 s) · Decodificação sem erros: ok · Loudness entre -16 e -14 LUFS: -15.01 LUFS · True peak ≤ -1 dBTP: -1.70 dBTP · Sem trechos pretos ≥ 0,2 s: nenhum · Sem silêncio total ≥ 0,4 s: nenhum · 19.66 MB.
 - `editorial_check` 0 erro / 0 aviso (inclui `sistema_visual_check` do episódio). Folha de quadros (1 quadro/s) revisada antes do render final; correções feitas: ver `## Revisão visual`.
 - Legenda do Instagram: `legenda_instagram.txt` (CTA fixa na 1ª linha, sem Markdown, 5 hashtags minúsculas).
 
