@@ -1,0 +1,91 @@
+1
+00:00:00,120 --> 00:00:01,620
+E se um número na ficha
+
+2
+00:00:01,640 --> 00:00:03,760
+mudasse quanto você acha que a casa vale?
+
+3
+00:00:03,960 --> 00:00:07,510
+Em 1987, pesquisadores levaram corretores
+
+4
+00:00:07,720 --> 00:00:09,120
+para avaliar a mesma casa,
+
+5
+00:00:09,160 --> 00:00:10,320
+com a mesma ficha.
+
+6
+00:00:10,440 --> 00:00:11,900
+Só mudava um número:
+
+7
+00:00:12,040 --> 00:00:13,100
+o preço pedido.
+
+8
+00:00:13,240 --> 00:00:15,380
+Quem viu o preço mais alto avaliou a casa
+
+9
+00:00:15,400 --> 00:00:15,940
+mais cara.
+
+10
+00:00:15,960 --> 00:00:17,270
+Quem viu o mais baixo,
+
+11
+00:00:17,320 --> 00:00:18,020
+mais barata.
+
+12
+00:00:18,200 --> 00:00:20,740
+E quase nenhum disse que usou aquele preço
+
+13
+00:00:20,760 --> 00:00:21,410
+para decidir.
+
+14
+00:00:21,640 --> 00:00:23,940
+Na sua avaliação, faça a conta antes
+
+15
+00:00:23,960 --> 00:00:25,450
+de olhar o preço que o dono quer:
+
+16
+00:00:25,640 --> 00:00:26,960
+vendidos da região,
+
+17
+00:00:27,000 --> 00:00:28,630
+metragem, estado.
+
+18
+00:00:28,760 --> 00:00:30,300
+Primeiro o seu número.
+
+19
+00:00:30,440 --> 00:00:31,440
+Depois o dele.
+
+20
+00:00:31,480 --> 00:00:33,500
+Senão, quem avalia é a ficha.
+
+21
+00:00:33,720 --> 00:00:34,900
+Se você é corretor,
+
+22
+00:00:34,920 --> 00:00:37,060
+comente SISTEMA e conheça nosso
+
+23
+00:00:37,080 --> 00:00:38,330
+sistema personalizado.

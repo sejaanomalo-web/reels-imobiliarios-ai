@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.44,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 8.94,
+    "palavras_nao_reconhecidas": [
+      "1987"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.58,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.01,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.79,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.54,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.41,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 38.48,
+    "asr_match": 0.986,
+    "aligned_words": "106/107",
+    "words_per_min": 167,
+    "heard": "E se um número na ficha mudasse quanto você acha que a casa vale? Em 1987, pesquisadores levaram corretores para avaliar a mesma casa, com a mesma ficha. Só mudava um número, o preço pedido. Quem viu o preço mais alto avaliou a casa mais cara. Quem viu o mais baixo, mais barata. E quase nenhum disse que usou aquele preço para decidir. Na sua avaliação, faça a conta antes de olhar o preço que o dono quer. Vendidos da região, metragem, estado, primeiro o seu número, depois o dele. Senão quem a avalia é a ficha. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 40.64,
+      "wpm": 158
+    },
+    "pausas_moldadas": {
+      "n": 17,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.16,
+    "final": {
+      "seconds": 38.48,
+      "wpm": 167
+    }
+  }
+]
