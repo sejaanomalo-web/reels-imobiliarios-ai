@@ -5,7 +5,7 @@ import type { Timeline } from "../../types";
 import { A, aa } from "../../NOV26/kit";
 import {
   Balao, Barra, Calendario, CamCartoon, Carimbo, Casa, Chave, Check, type Clima, Confete, Contador, Etiqueta, Figurante, Flash, Fumaca, Holofote,
-  Moedas, Personagem, Pop, Predio, Proibido, Raios, Selo, VIS, acentosDe, gesto, pop,
+  Personagem, Pop, Predio, Proibido, Raios, Selo, VIS, acentosDe, gesto, pop,
 } from "../../../estilos/cartoon";
 
 /**
@@ -74,6 +74,15 @@ const CadeiraPraia: React.FC = () => (
     {[0, 1, 2].map((k) => <path key={k} d={`M${-90 + k * 50} ${-62 - k * 55} L${-60 + k * 50} ${-35 - k * 55}`} stroke="#E9E2D6" strokeWidth={14} />)}
   </g>
 );
+/** Pilha de moedas (dinheiro, sem o selo "%" de comissão do kit). Base em (0,0). */
+const PilhaMoedas: React.FC = () => (
+  <g>
+    <ellipse cx={0} cy={18} rx={110} ry={20} fill="#000" opacity={0.35} />
+    {[0, 1, 2, 3, 4].map((k) => <g key={k} transform={`translate(${k % 2 ? 6 : -4} ${-k * 26})`}><ellipse rx={70} ry={22} cy={12} fill="#A8761E" /><ellipse rx={70} ry={22} fill="#E0A43A" /></g>)}
+    {[0, 1, 2].map((k) => <g key={`b${k}`} transform={`translate(${118} ${-k * 26})`}><ellipse rx={56} ry={18} cy={10} fill="#A8761E" /><ellipse rx={56} ry={18} fill="#E0A43A" /></g>)}
+  </g>
+);
+
 /** Linha de fonte (mono, discreta) no fim do palco superior. */
 const Fonte: React.FC<{ t: number; at: number; texto: string }> = ({ t, at, texto }) => {
   const k = prog(t, at, 0.3, ease.out);
@@ -172,7 +181,7 @@ export const makeShots = (tl: Timeline): Shot[] => {
       svg: (t) => (
         <>
           <Holofote x={540} chao={FLOOR} w={600} />
-          <Pop t={t} at={c.d_400 + 0.15} x={540} y={FLOOR - 20}><g transform="scale(1.6)"><Moedas /></g></Pop>
+          <Pop t={t} at={c.d_400 + 0.15} x={500} y={FLOOR - 20}><g transform="scale(1.5)"><PilhaMoedas /></g></Pop>
           {Array.from({ length: 6 }, (_, i) => (
             <Pop key={i} t={t} at={c.d_economia + i * 0.1} x={i < 3 ? 130 + i * 80 : 710 + (i - 3) * 80} y={FLOOR}><Figurante x={0} y={0} s={0.6} cor={FIG[(i + 2) % FIG.length]} t={t} seed={i + 4} /></Pop>
           ))}
@@ -225,10 +234,9 @@ export const makeShots = (tl: Timeline): Shot[] => {
       id: "8 o melhor dezembro", a: t7, b: t8, clima: "dados", vin: 0.75, hits: [c.c_melhor + 0.05], punch: [{ at: c.c_melhor, s: 1.05, y: -10 }],
       svg: (t) => (
         <>
-          <line x1={250} y1={1230} x2={830} y2={1230} stroke="#fff" strokeWidth={6} opacity={0.5} />
-          <Barra t={t} at={c.c_2024 - 0.05} x={400} base={1230} w={170} h={330} cor="#6B7080" rotulo="NOV" />
-          <Barra t={t} at={c.c_2024 + 0.3} x={680} base={1230} w={170} h={390} rotulo="DEZ" />
-          <text x={540} y={1340} textAnchor="middle" fontFamily={F.sans} fontWeight={800} fontSize={40} fill="#fff" opacity={prog(t, c.c_2024, 0.3)} style={{ paintOrder: "stroke fill", stroke: "#0A0A0C", strokeWidth: 8 }}>2024</text>
+          <line x1={250} y1={1480} x2={830} y2={1480} stroke="#fff" strokeWidth={6} opacity={0.5} />
+          <Barra t={t} at={c.c_2024 - 0.05} x={400} base={1480} w={170} h={300} cor="#6B7080" rotulo="NOV/24" />
+          <Barra t={t} at={c.c_2024 + 0.3} x={680} base={1480} w={170} h={354} rotulo="DEZ/24" />
         </>
       ),
       html: (t) => (
