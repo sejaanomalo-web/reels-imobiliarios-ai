@@ -1,0 +1,1250 @@
+{
+ "id": "ATIVO-D1202-21",
+ "title": "A visita maior que a foto",
+ "fps": 30,
+ "duration": 46.46666666666667,
+ "durationInFrames": 1394,
+ "narrationEnd": 44.267,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.44
+  },
+  {
+   "id": "promessa",
+   "start": 4.44,
+   "end": 13.89
+  },
+  {
+   "id": "porta",
+   "start": 13.89,
+   "end": 20.155
+  },
+  {
+   "id": "virada",
+   "start": 20.155,
+   "end": 27.635
+  },
+  {
+   "id": "guardar",
+   "start": 27.635,
+   "end": 36.14
+  },
+  {
+   "id": "desfecho",
+   "start": 36.14,
+   "end": 39.135
+  },
+  {
+   "id": "cta",
+   "start": 39.135,
+   "end": 46.467
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A foto do anúncio não vende o imóvel. Ela vende a visita.",
+   "start": 0.12,
+   "end": 4.28
+  },
+  {
+   "id": "s2",
+   "scene": "promessa",
+   "text": "E se a foto prometer mais do que o imóvel entrega, a venda morre na porta.",
+   "start": 4.6,
+   "end": 8.89
+  },
+  {
+   "id": "s3",
+   "scene": "promessa",
+   "text": "Lente que estica a sala, céu trocado, ângulo que esconde a parede.",
+   "start": 9.24,
+   "end": 13.74
+  },
+  {
+   "id": "s4",
+   "scene": "porta",
+   "text": "O cliente chega esperando um imóvel e encontra outro.",
+   "start": 14.04,
+   "end": 17.26
+  },
+  {
+   "id": "s5",
+   "scene": "porta",
+   "text": "Daí em diante, ele procura o defeito em tudo.",
+   "start": 17.56,
+   "end": 19.95
+  },
+  {
+   "id": "s6",
+   "scene": "virada",
+   "text": "O contrário também acontece.",
+   "start": 20.36,
+   "end": 21.79
+  },
+  {
+   "id": "s7",
+   "scene": "virada",
+   "text": "Quando a foto é honesta, o cliente chega com a expectativa certa, e o imóvel tem chance de surpreender.",
+   "start": 22.04,
+   "end": 27.39
+  },
+  {
+   "id": "s8",
+   "scene": "guardar",
+   "text": "Por isso, mostre o imóvel como ele é.",
+   "start": 27.88,
+   "end": 29.89
+  },
+  {
+   "id": "s9",
+   "scene": "guardar",
+   "text": "E guarde uma coisa boa para ver ao vivo: a luz da tarde, a vista, o silêncio.",
+   "start": 30.12,
+   "end": 35.92
+  },
+  {
+   "id": "s10",
+   "scene": "desfecho",
+   "text": "Visita boa é a que fica maior que a foto.",
+   "start": 36.36,
+   "end": 38.95
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 39.32,
+   "end": 43.89
+  }
+ ],
+ "cues": {
+  "h_foto": 0.44,
+  "h_imovel": 2.28,
+  "h_visita": 3.8,
+  "p_prometer": 5.4,
+  "p_morre": 8.2,
+  "p_porta": 8.68,
+  "p_lente": 9.24,
+  "p_ceu": 11.0,
+  "p_angulo": 12.28,
+  "d_chega": 14.68,
+  "d_outro": 17.08,
+  "d_defeito": 19.08,
+  "d_tudo": 19.8,
+  "v_contrario": 20.52,
+  "v_honesta": 22.76,
+  "v_expectativa": 24.2,
+  "v_surpreender": 26.76,
+  "g_mostre": 28.44,
+  "g_como": 29.48,
+  "g_guarde": 30.28,
+  "g_vivo": 31.96,
+  "g_luz": 32.6,
+  "g_vista": 34.2,
+  "g_silencio": 35.16,
+  "f_visita": 36.36,
+  "f_maior": 38.04,
+  "cta_quer": 39.32,
+  "cta_comment": 40.6,
+  "cta_word": 41.24,
+  "cta_tiles": 41.96,
+  "cta_sys": 42.76,
+  "cta_leads": 42.44,
+  "cta_atend": 43.24,
+  "cta_direct": 43.24,
+  "cta_end": 43.89
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.56,
+   "words": [
+    {
+     "text": "A",
+     "start": 0.12,
+     "end": 0.2,
+     "emph": false
+    },
+    {
+     "text": "foto",
+     "start": 0.44,
+     "end": 0.84,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 0.84,
+     "end": 1.0,
+     "emph": false
+    },
+    {
+     "text": "anúncio",
+     "start": 1.0,
+     "end": 1.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.56,
+   "end": 2.92,
+   "words": [
+    {
+     "text": "não",
+     "start": 1.56,
+     "end": 1.72,
+     "emph": false
+    },
+    {
+     "text": "vende",
+     "start": 1.72,
+     "end": 2.12,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 2.12,
+     "end": 2.28,
+     "emph": false
+    },
+    {
+     "text": "imóvel.",
+     "start": 2.28,
+     "end": 2.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.92,
+   "end": 3.64,
+   "words": [
+    {
+     "text": "Ela",
+     "start": 2.92,
+     "end": 3.16,
+     "emph": false
+    },
+    {
+     "text": "vende",
+     "start": 3.16,
+     "end": 3.5,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.64,
+   "end": 4.6,
+   "words": [
+    {
+     "text": "a",
+     "start": 3.64,
+     "end": 3.8,
+     "emph": false
+    },
+    {
+     "text": "visita.",
+     "start": 3.8,
+     "end": 4.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.6,
+   "end": 5.4,
+   "words": [
+    {
+     "text": "E",
+     "start": 4.6,
+     "end": 4.76,
+     "emph": false
+    },
+    {
+     "text": "se",
+     "start": 4.76,
+     "end": 5.0,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 5.0,
+     "end": 5.08,
+     "emph": false
+    },
+    {
+     "text": "foto",
+     "start": 5.08,
+     "end": 5.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.4,
+   "end": 6.2,
+   "words": [
+    {
+     "text": "prometer",
+     "start": 5.4,
+     "end": 6.04,
+     "emph": true
+    },
+    {
+     "text": "mais",
+     "start": 6.04,
+     "end": 6.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.2,
+   "end": 7.64,
+   "words": [
+    {
+     "text": "do",
+     "start": 6.2,
+     "end": 6.36,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 6.36,
+     "end": 6.44,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 6.44,
+     "end": 6.6,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 6.6,
+     "end": 7.08,
+     "emph": false
+    },
+    {
+     "text": "entrega,",
+     "start": 7.08,
+     "end": 7.49,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.64,
+   "end": 8.2,
+   "words": [
+    {
+     "text": "a",
+     "start": 7.64,
+     "end": 7.8,
+     "emph": false
+    },
+    {
+     "text": "venda",
+     "start": 7.8,
+     "end": 8.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.2,
+   "end": 9.24,
+   "words": [
+    {
+     "text": "morre",
+     "start": 8.2,
+     "end": 8.52,
+     "emph": true
+    },
+    {
+     "text": "na",
+     "start": 8.52,
+     "end": 8.68,
+     "emph": true
+    },
+    {
+     "text": "porta.",
+     "start": 8.68,
+     "end": 8.89,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.24,
+   "end": 9.72,
+   "words": [
+    {
+     "text": "Lente",
+     "start": 9.24,
+     "end": 9.31,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.72,
+   "end": 11.0,
+   "words": [
+    {
+     "text": "que",
+     "start": 9.72,
+     "end": 9.88,
+     "emph": false
+    },
+    {
+     "text": "estica",
+     "start": 9.88,
+     "end": 10.36,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 10.36,
+     "end": 10.52,
+     "emph": false
+    },
+    {
+     "text": "sala,",
+     "start": 10.52,
+     "end": 11.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.0,
+   "end": 12.28,
+   "words": [
+    {
+     "text": "céu",
+     "start": 11.0,
+     "end": 11.48,
+     "emph": true
+    },
+    {
+     "text": "trocado,",
+     "start": 11.48,
+     "end": 12.17,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.28,
+   "end": 12.68,
+   "words": [
+    {
+     "text": "ângulo",
+     "start": 12.28,
+     "end": 12.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.68,
+   "end": 14.04,
+   "words": [
+    {
+     "text": "que",
+     "start": 12.68,
+     "end": 12.84,
+     "emph": false
+    },
+    {
+     "text": "esconde",
+     "start": 12.84,
+     "end": 13.32,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 13.32,
+     "end": 13.4,
+     "emph": false
+    },
+    {
+     "text": "parede.",
+     "start": 13.4,
+     "end": 13.74,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.04,
+   "end": 15.08,
+   "words": [
+    {
+     "text": "O",
+     "start": 14.04,
+     "end": 14.12,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 14.12,
+     "end": 14.68,
+     "emph": false
+    },
+    {
+     "text": "chega",
+     "start": 14.68,
+     "end": 15.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.08,
+   "end": 16.2,
+   "words": [
+    {
+     "text": "esperando",
+     "start": 15.08,
+     "end": 15.37,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 15.48,
+     "end": 15.72,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 15.72,
+     "end": 16.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.2,
+   "end": 17.56,
+   "words": [
+    {
+     "text": "e",
+     "start": 16.2,
+     "end": 16.27,
+     "emph": false
+    },
+    {
+     "text": "encontra",
+     "start": 16.52,
+     "end": 17.08,
+     "emph": false
+    },
+    {
+     "text": "outro.",
+     "start": 17.08,
+     "end": 17.26,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.56,
+   "end": 18.44,
+   "words": [
+    {
+     "text": "Daí",
+     "start": 17.56,
+     "end": 18.04,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 18.04,
+     "end": 18.12,
+     "emph": false
+    },
+    {
+     "text": "diante,",
+     "start": 18.12,
+     "end": 18.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.44,
+   "end": 19.0,
+   "words": [
+    {
+     "text": "ele",
+     "start": 18.44,
+     "end": 18.68,
+     "emph": false
+    },
+    {
+     "text": "procura",
+     "start": 18.68,
+     "end": 19.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.0,
+   "end": 19.56,
+   "words": [
+    {
+     "text": "o",
+     "start": 19.0,
+     "end": 19.08,
+     "emph": false
+    },
+    {
+     "text": "defeito",
+     "start": 19.08,
+     "end": 19.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.56,
+   "end": 20.36,
+   "words": [
+    {
+     "text": "em",
+     "start": 19.56,
+     "end": 19.8,
+     "emph": false
+    },
+    {
+     "text": "tudo.",
+     "start": 19.8,
+     "end": 19.95,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 20.36,
+   "end": 21.0,
+   "words": [
+    {
+     "text": "O",
+     "start": 20.36,
+     "end": 20.52,
+     "emph": false
+    },
+    {
+     "text": "contrário",
+     "start": 20.52,
+     "end": 21.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 21.0,
+   "end": 22.04,
+   "words": [
+    {
+     "text": "também",
+     "start": 21.0,
+     "end": 21.32,
+     "emph": false
+    },
+    {
+     "text": "acontece.",
+     "start": 21.32,
+     "end": 21.79,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 22.04,
+   "end": 22.6,
+   "words": [
+    {
+     "text": "Quando",
+     "start": 22.04,
+     "end": 22.28,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 22.28,
+     "end": 22.36,
+     "emph": false
+    },
+    {
+     "text": "foto",
+     "start": 22.36,
+     "end": 22.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 22.6,
+   "end": 23.24,
+   "words": [
+    {
+     "text": "é",
+     "start": 22.6,
+     "end": 22.76,
+     "emph": false
+    },
+    {
+     "text": "honesta,",
+     "start": 22.76,
+     "end": 23.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 23.24,
+   "end": 23.96,
+   "words": [
+    {
+     "text": "o",
+     "start": 23.24,
+     "end": 23.4,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 23.4,
+     "end": 23.72,
+     "emph": false
+    },
+    {
+     "text": "chega",
+     "start": 23.72,
+     "end": 23.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 23.96,
+   "end": 25.32,
+   "words": [
+    {
+     "text": "com",
+     "start": 23.96,
+     "end": 24.12,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 24.12,
+     "end": 24.2,
+     "emph": false
+    },
+    {
+     "text": "expectativa",
+     "start": 24.2,
+     "end": 24.84,
+     "emph": true
+    },
+    {
+     "text": "certa,",
+     "start": 24.84,
+     "end": 25.17,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 25.32,
+   "end": 26.12,
+   "words": [
+    {
+     "text": "e",
+     "start": 25.32,
+     "end": 25.48,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 25.48,
+     "end": 25.56,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 25.56,
+     "end": 26.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.12,
+   "end": 26.6,
+   "words": [
+    {
+     "text": "tem",
+     "start": 26.12,
+     "end": 26.36,
+     "emph": false
+    },
+    {
+     "text": "chance",
+     "start": 26.36,
+     "end": 26.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.6,
+   "end": 27.88,
+   "words": [
+    {
+     "text": "de",
+     "start": 26.6,
+     "end": 26.76,
+     "emph": false
+    },
+    {
+     "text": "surpreender.",
+     "start": 26.76,
+     "end": 27.39,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 27.88,
+   "end": 28.44,
+   "words": [
+    {
+     "text": "Por",
+     "start": 27.88,
+     "end": 28.12,
+     "emph": false
+    },
+    {
+     "text": "isso,",
+     "start": 28.12,
+     "end": 28.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 28.44,
+   "end": 29.48,
+   "words": [
+    {
+     "text": "mostre",
+     "start": 28.44,
+     "end": 28.51,
+     "emph": true
+    },
+    {
+     "text": "o",
+     "start": 28.92,
+     "end": 29.08,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 29.08,
+     "end": 29.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 29.48,
+   "end": 30.12,
+   "words": [
+    {
+     "text": "como",
+     "start": 29.48,
+     "end": 29.64,
+     "emph": true
+    },
+    {
+     "text": "ele",
+     "start": 29.64,
+     "end": 29.8,
+     "emph": true
+    },
+    {
+     "text": "é.",
+     "start": 29.8,
+     "end": 29.89,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 30.12,
+   "end": 30.76,
+   "words": [
+    {
+     "text": "E",
+     "start": 30.12,
+     "end": 30.28,
+     "emph": false
+    },
+    {
+     "text": "guarde",
+     "start": 30.28,
+     "end": 30.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 30.76,
+   "end": 31.4,
+   "words": [
+    {
+     "text": "uma",
+     "start": 30.76,
+     "end": 30.92,
+     "emph": false
+    },
+    {
+     "text": "coisa",
+     "start": 30.92,
+     "end": 31.16,
+     "emph": false
+    },
+    {
+     "text": "boa",
+     "start": 31.16,
+     "end": 31.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 31.4,
+   "end": 32.44,
+   "words": [
+    {
+     "text": "para",
+     "start": 31.4,
+     "end": 31.56,
+     "emph": false
+    },
+    {
+     "text": "ver",
+     "start": 31.56,
+     "end": 31.8,
+     "emph": false
+    },
+    {
+     "text": "ao",
+     "start": 31.8,
+     "end": 31.96,
+     "emph": true
+    },
+    {
+     "text": "vivo:",
+     "start": 31.96,
+     "end": 32.06,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 32.44,
+   "end": 33.88,
+   "words": [
+    {
+     "text": "a",
+     "start": 32.44,
+     "end": 32.6,
+     "emph": false
+    },
+    {
+     "text": "luz",
+     "start": 32.6,
+     "end": 32.92,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 32.92,
+     "end": 33.16,
+     "emph": false
+    },
+    {
+     "text": "tarde,",
+     "start": 33.16,
+     "end": 33.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 33.88,
+   "end": 34.92,
+   "words": [
+    {
+     "text": "a",
+     "start": 33.88,
+     "end": 34.2,
+     "emph": false
+    },
+    {
+     "text": "vista,",
+     "start": 34.2,
+     "end": 34.75,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 34.92,
+   "end": 36.36,
+   "words": [
+    {
+     "text": "o",
+     "start": 34.92,
+     "end": 35.16,
+     "emph": false
+    },
+    {
+     "text": "silêncio.",
+     "start": 35.16,
+     "end": 35.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 36.36,
+   "end": 37.32,
+   "words": [
+    {
+     "text": "Visita",
+     "start": 36.36,
+     "end": 36.92,
+     "emph": false
+    },
+    {
+     "text": "boa",
+     "start": 36.92,
+     "end": 37.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 37.32,
+   "end": 38.04,
+   "words": [
+    {
+     "text": "é",
+     "start": 37.32,
+     "end": 37.48,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 37.48,
+     "end": 37.56,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 37.56,
+     "end": 37.72,
+     "emph": false
+    },
+    {
+     "text": "fica",
+     "start": 37.72,
+     "end": 38.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 38.04,
+   "end": 39.32,
+   "words": [
+    {
+     "text": "maior",
+     "start": 38.04,
+     "end": 38.36,
+     "emph": true
+    },
+    {
+     "text": "que",
+     "start": 38.36,
+     "end": 38.6,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 38.6,
+     "end": 38.68,
+     "emph": true
+    },
+    {
+     "text": "foto.",
+     "start": 38.68,
+     "end": 38.95,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 39.32,
+   "end": 40.6,
+   "words": [
+    {
+     "text": "Se",
+     "start": 39.32,
+     "end": 39.4,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 39.56,
+     "end": 39.72,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 39.72,
+     "end": 39.88,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 39.88,
+     "end": 40.41,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 40.6,
+   "end": 41.8,
+   "words": [
+    {
+     "text": "comente",
+     "start": 40.6,
+     "end": 41.24,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 41.24,
+     "end": 41.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 41.8,
+   "end": 42.76,
+   "words": [
+    {
+     "text": "e",
+     "start": 41.8,
+     "end": 41.96,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 41.96,
+     "end": 42.44,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 42.44,
+     "end": 42.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 42.76,
+   "end": 44.39,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 42.76,
+     "end": 43.24,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 43.24,
+     "end": 43.89,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}
