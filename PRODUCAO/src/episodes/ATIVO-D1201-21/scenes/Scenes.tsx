@@ -66,8 +66,8 @@ export const Lei: React.FC<P> = ({ t, tl }) => {
         <Pilula t={t} at={c.l_codigo} ate={c.c_condicao - 0.2} x={540} y={560} texto="CÓDIGO CIVIL · ART. 726" tom="branco" size={28} />
         <Pilula t={t} at={c.l_escrito + 0.2} ate={c.c_condicao - 0.2} x={540} y={960} texto="POR ESCRITO" tom="branco" size={26} />
         <Pilula t={t} at={c.l_sozinho} ate={c.c_condicao - 0.2} x={880} y={830} texto="VENDEU SOZINHO" tom="cinza" size={24} />
-        <Pilula t={t} at={c.l_devida} ate={c.c_condicao - 0.2} x={240} y={560} texto="COMISSÃO DEVIDA" tom="verde" size={24} />
-        <Pilula t={t} at={c.c_inercia - 0.05} x={240} y={560} texto="SALVO INÉRCIA" tom="vermelho" cheia size={26} />
+        <Pilula t={t} at={c.l_devida} ate={c.c_condicao - 0.2} x={540} y={1045} texto="COMISSÃO DEVIDA" tom="verde" size={24} />
+        <Pilula t={t} at={c.c_inercia - 0.05} x={540} y={1045} texto="SALVO INÉRCIA" tom="vermelho" cheia size={26} />
         <Pilula t={t} at={c.l_codigo + 0.4} x={540} y={1490} texto="NÃO É ORIENTAÇÃO JURÍDICA" tom="cinza" size={24} />
       </CamNoir>
       <TituloNoir t={t} at={c.h_medo - 0.1} ate={c.l_protege - 0.3} linhas={[{ texto: "MEDO DE", size: 72 }, { texto: "EXCLUSIVIDADE", cor: "vermelho", size: 88 }]} top={300} />

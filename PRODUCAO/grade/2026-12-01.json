@@ -140,9 +140,10 @@
       "justificativaTrilha": "pressão e prazo pedem pulso de tensão (T04, ainda não usada na semana).",
       "episodio": "ATIVO-D1201-18",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-01/ATIVO-D1201-18_sete_dias_para_desistir.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-01-05/01-terca/18h00"
     },
     {
       "horario": "21:00",
