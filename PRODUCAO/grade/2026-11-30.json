@@ -96,9 +96,10 @@
       "justificativaTrilha": "descoberta em camadas (dado → causa → virada da revenda): T03 abre na virada.",
       "episodio": "ATIVO-D1130-12",
       "roteiro": "ROTEIROS/ESTEIRA/2026-11-30/ATIVO-D1130-12_o_numero_na_porta.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-29-30/30-segunda/12h00"
     },
     {
       "horario": "15:00",

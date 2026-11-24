@@ -1,0 +1,164 @@
+[
+ {
+  "t": 1.8,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "h_milhao"
+ },
+ {
+  "t": 5.4,
+  "sound": "thump",
+  "gain": -27,
+  "cue": "h_nao"
+ },
+ {
+  "t": 6.23,
+  "sound": "whoosh_fold",
+  "gain": -30,
+  "cue": "h_predio"
+ },
+ {
+  "t": 8.71,
+  "sound": "swish",
+  "gain": -30,
+  "cue": "r_seattle"
+ },
+ {
+  "t": 10.52,
+  "sound": "pin",
+  "gain": -29,
+  "cue": "r_edith"
+ },
+ {
+  "t": 15.4,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "o_construtora"
+ },
+ {
+  "t": 18.84,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "o_subiram"
+ },
+ {
+  "t": 18.99,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "o_subiram"
+ },
+ {
+  "t": 20.44,
+  "sound": "block",
+  "gain": -28,
+  "cue": "o_todas"
+ },
+ {
+  "t": 24.28,
+  "sound": "thump",
+  "gain": -28,
+  "cue": "x_concreto"
+ },
+ {
+  "t": 25.03,
+  "sound": "whoosh_fold",
+  "gain": -29,
+  "cue": "v_foi"
+ },
+ {
+  "t": 27.72,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "v_chefe"
+ },
+ {
+  "t": 31.24,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "v_compras"
+ },
+ {
+  "t": 32.68,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "v_medico"
+ },
+ {
+  "t": 36.44,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "t_deixou"
+ },
+ {
+  "t": 41.08,
+  "sound": "impact",
+  "gain": -29,
+  "cue": "f_nunca"
+ },
+ {
+  "t": 47.08,
+  "sound": "impact",
+  "gain": -28,
+  "cue": "f_confianca"
+ },
+ {
+  "t": 47.38,
+  "sound": "shimmer",
+  "gain": -29,
+  "cue": "f_confianca"
+ },
+ {
+  "t": 47.78,
+  "sound": "swish",
+  "gain": -29,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 49.01,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 49.8,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 50.39,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 50.95,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 51.7,
+  "sound": "whoosh_up",
+  "gain": -28,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 51.75,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 52.9,
+  "sound": "shimmer",
+  "gain": -25,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 54.1,
+  "sound": "chord",
+  "gain": -27,
+  "cue": "cta_direct"
+ }
+]

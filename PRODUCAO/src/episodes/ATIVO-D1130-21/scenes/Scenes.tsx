@@ -76,13 +76,6 @@ const Cruz: React.FC<{ x: number; y: number }> = ({ x, y }) => (
     <path d="M -6 -20 L 6 -20 L 6 -6 L 20 -6 L 20 6 L 6 6 L 6 20 L -6 20 L -6 6 L -20 6 L -20 -6 L -6 -6 Z" fill="none" stroke={NOIR.branco} strokeWidth={3} />
   </g>
 );
-const Poltrona: React.FC<{ x: number; y: number }> = ({ x, y }) => (
-  <g stroke={NOIR.linha} strokeWidth={3} fill="none">
-    <path d={`M ${x - 70} ${y} L ${x - 70} ${y - 150} Q ${x - 70} ${y - 180} ${x - 40} ${y - 180} L ${x + 40} ${y - 180} Q ${x + 70} ${y - 180} ${x + 70} ${y - 150} L ${x + 70} ${y}`} />
-    <line x1={x - 90} y1={y - 70} x2={x + 90} y2={y - 70} />
-  </g>
-);
-
 /* ---------------------------------------------------------------- 1 · a casa, o cerco e as ofertas ---------------------------------------------------------------- */
 export const Cerco: React.FC<P> = ({ t, tl }) => {
   const c = tl.cues;
@@ -96,8 +89,8 @@ export const Cerco: React.FC<P> = ({ t, tl }) => {
   const apaga = prog(t, c.v_foi - 0.1, 0.8, ease.inOut);
   return (
     <div style={{ position: "absolute", inset: 0, opacity: on }}>
-      <CamNoir t={t} push={0} keys={[{ t: 0, s: 1.0, y: 0 }, { t: c.h_volta + 0.6, s: 0.92, y: 20 }, { t: c.r_seattle - 0.2, s: 0.92, y: 20 },
-        { t: c.r_edith, s: 2.4, x: 150, y: -560, e: ease.inOut }, { t: c.o_construtora - 0.4, s: 2.4, x: 150, y: -560 }, { t: c.o_construtora + 0.5, s: 1.0, y: 0, e: ease.inOut },
+      <CamNoir t={t} push={0} keys={[{ t: 0, s: 1.5, y: -200 }, { t: c.h_nao, s: 1.42, y: -180 }, { t: c.h_volta + 0.6, s: 0.92, y: 20 }, { t: c.r_seattle - 0.2, s: 0.92, y: 20 },
+        { t: c.r_edith, s: 2.0, x: 140, y: -180, e: ease.inOut }, { t: c.o_construtora - 0.4, s: 2.05, x: 140, y: -190 }, { t: c.o_construtora + 0.5, s: 1.0, y: 0, e: ease.inOut },
         { t: c.x_obra, s: 1.0, y: 0 }, { t: c.x_concreto + 0.8, s: 1.08, y: -30 }, { t: c.v_foi + 0.6, s: 1.5, y: -240, x: 0 }]}>
         <Svg>
           <Chao />
@@ -112,7 +105,6 @@ export const Cerco: React.FC<P> = ({ t, tl }) => {
           <Casinha x={CX} acesa={1} />
           {/* a janela: Edith na poltrona (dentro da casa, só no zoom) */}
           <g opacity={interior}>
-            <Poltrona x={470} y={CHAO - 96} />
             <Figura t={t} x={470} y={CHAO - 100} s={0.17} pose="sentado" tom="luz" />
           </g>
           {/* as ofertas chegam à porta, cada uma maior, e se desfazem */}
