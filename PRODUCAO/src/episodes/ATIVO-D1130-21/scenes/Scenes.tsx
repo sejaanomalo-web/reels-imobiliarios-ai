@@ -22,7 +22,7 @@ const GLOW = "drop-shadow(0 0 10px rgba(255,255,255,0.45))";
 const clamp = (x: number) => Math.max(0, Math.min(1, x));
 
 /** A casinha (linha fina, janelas acesas). Base em (x, CHAO); w ≈ 260. */
-const Casinha: React.FC<{ x: number; s?: number; acesa?: number; verde?: number; p?: number }> = ({ x, s = 1, acesa = 1, verde = 0, p = 1 }) => {
+export const Casinha: React.FC<{ x: number; s?: number; acesa?: number; verde?: number; p?: number }> = ({ x, s = 1, acesa = 1, verde = 0, p = 1 }) => {
   const cor = verde > 0.5 ? A.hex : NOIR.branco;
   const janela = verde > 0.5 ? aa(0.55 * acesa) : `rgba(255,255,255,${0.42 * acesa})`;
   return (
@@ -37,7 +37,7 @@ const Casinha: React.FC<{ x: number; s?: number; acesa?: number; verde?: number;
   );
 };
 /** Paredão de concreto em linha (sobe do chão com `p`). */
-const Paredao: React.FC<{ x: number; w: number; h: number; p: number; cor?: string }> = ({ x, w, h, p, cor = NOIR.cinza }) => {
+export const Paredao: React.FC<{ x: number; w: number; h: number; p: number; cor?: string }> = ({ x, w, h, p, cor = NOIR.cinza }) => {
   const k = clamp(p);
   if (k <= 0.001) return null;
   const hh = h * k;
