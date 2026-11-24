@@ -124,7 +124,8 @@
   "tipo": "natural",
   "fim_musical": 56.45,
   "video": 57.2,
-  "ajuste": "cauda sintética 0.75 s (reverberação da última batida)"
+  "ajuste": "cauda sintética 0.75 s (reverberação da última batida)",
+  "sustentacao_s": 0.725
  },
  "cortes": [
   {
@@ -145,7 +146,7 @@
  "amostras": 2745600,
  "alteracao_velocidade_pct": 0.0,
  "alteracao_tom_semitons": 0,
- "lufs": -23.2,
+ "lufs": -23.3,
  "true_peak": -7.2,
  "bpm": 120.0,
  "tom": "Dó menor?"

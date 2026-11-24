@@ -1,9 +1,9 @@
 {
- "final_lufs": "-15.20",
+ "final_lufs": "-15.21",
  "final_true_peak": "-1.96",
- "final_lra": "3.40",
+ "final_lra": "3.30",
  "narracao_lufs": "-20.81",
- "trilha_lufs": "-37.41",
+ "trilha_lufs": "-37.23",
  "efeitos_lufs": "-39.99",
  "eventos": 19,
  "mixagem": "v2",
@@ -19,7 +19,7 @@
   "retorno_s": 0.3,
   "junta_pausas_s": 0.35,
   "voz_lufs": -20.8,
-  "trilha_lufs_origem": -23.3
+  "trilha_lufs_origem": -23.4
  },
  "trilha_plano": {
   "modo": "SHORTEN",
@@ -56,9 +56,9 @@
  },
  "inteligibilidade": {
   "narracao": 0.963,
-  "mixagem": 0.975,
+  "mixagem": 0.988,
   "palavras": 163,
-  "queda_pontos": -1.2,
+  "queda_pontos": -2.5,
   "aprovado": true
  }
 }

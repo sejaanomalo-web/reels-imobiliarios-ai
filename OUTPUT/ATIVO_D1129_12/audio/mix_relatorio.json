@@ -3,7 +3,7 @@
  "final_true_peak": "-1.95",
  "final_lra": "1.80",
  "narracao_lufs": "-18.43",
- "trilha_lufs": "-31.94",
+ "trilha_lufs": "-31.90",
  "efeitos_lufs": "-41.11",
  "eventos": 25,
  "mixagem": "v2",
@@ -19,7 +19,7 @@
   "retorno_s": 0.3,
   "junta_pausas_s": 0.35,
   "voz_lufs": -18.4,
-  "trilha_lufs_origem": -23.2
+  "trilha_lufs_origem": -23.3
  },
  "trilha_plano": {
   "modo": "SHORTEN",

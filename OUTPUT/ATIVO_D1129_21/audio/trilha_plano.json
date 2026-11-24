@@ -185,7 +185,8 @@
   "tipo": "cortado",
   "fim_musical": 57.96,
   "video": 59.133,
-  "ajuste": "cauda sintética 1.17 s (reverberação da última batida)"
+  "ajuste": "cauda sintética 1.17 s (reverberação da última batida)",
+  "sustentacao_s": 1.005
  },
  "cortes": [
   {
@@ -206,7 +207,7 @@
  "amostras": 2838400,
  "alteracao_velocidade_pct": 0.0,
  "alteracao_tom_semitons": 0,
- "lufs": -23.3,
+ "lufs": -23.4,
  "true_peak": -5.2,
  "bpm": null,
  "tom": "Ré menor"

@@ -182,7 +182,8 @@
   "tipo": "seco",
   "fim_musical": 45.128,
   "video": 45.533,
-  "ajuste": "cauda sintética 0.41 s (reverberação da última batida)"
+  "ajuste": "cauda sintética 0.41 s (reverberação da última batida)",
+  "sustentacao_s": 0.315
  },
  "cortes": [
   {
