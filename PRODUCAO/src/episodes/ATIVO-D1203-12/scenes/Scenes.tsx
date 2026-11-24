@@ -37,7 +37,12 @@ export const capitulos = (c: Record<string, number>, tl: Timeline): (Capitulo & 
   { de: c.cta_comment - 0.3, atm: "solucao", chip: "SEU SISTEMA" },
 ];
 
-export const camera = (t: number, c: Record<string, number>, tl: Timeline): Cam => camAt(t, [
+/** Deriva lenta e contínua da câmera (o plano-sequência nunca congela); some no fecho. */
+const deriva = (t: number, c: Record<string, number>, cam: Cam): Cam => {
+  const k = 1 - prog(t, c.cta_quer - 0.3, 0.8);
+  return { ...cam, pos: [cam.pos[0] + k * 0.7 * Math.sin(t * 0.42), cam.pos[1] + k * 0.25 * Math.sin(t * 0.31 + 1), cam.pos[2] - k * 0.6 * Math.sin(t * 0.27 + 0.5)] };
+};
+export const camera = (t: number, c: Record<string, number>, tl: Timeline): Cam => deriva(t, c, camAt(t, [
   { t: 0, pos: [0, 9.0, 16.0], alvo: [0, 1.4, -1.2], fov: 40 },
   { t: c.c_vazias, pos: [-1.2, 5.4, 10.2], alvo: [-1, 1.6, -1.2], fov: 40, e: ease.inOut },
   { t: c.m_mundo, pos: [0, 13, 22], alvo: [0, 1.2, -3], fov: 44, e: ease.inOut },
@@ -52,7 +57,8 @@ export const camera = (t: number, c: Record<string, number>, tl: Timeline): Cam 
   { t: c.cta_quer + 0.9, pos: [CTA_BASE[0], 9.0, CTA_BASE[2] + 13.5], alvo: [CTA_BASE[0], 2.1, CTA_BASE[2] - 0.8], fov: 38, e: ease.inOut },
   { t: c.cta_comment - 0.2, pos: [CTA_BASE[0], 9.2, CTA_BASE[2] + 13.8], alvo: [CTA_BASE[0], 2.2, CTA_BASE[2] - 0.8], fov: 38 },
   { t: c.cta_comment + 0.5, pos: [CTA_BASE[0], 10.0, CTA_BASE[2] + 15.0], alvo: [CTA_BASE[0], 3.2, CTA_BASE[2] - 1.0], fov: 38, e: ease.inOut },
-]);
+  { t: tl.duration, pos: [CTA_BASE[0] + 0.6, 10.4, CTA_BASE[2] + 15.8], alvo: [CTA_BASE[0], 3.2, CTA_BASE[2] - 1.0], fov: 38 },
+]));
 
 export const clima = (t: number, c: Record<string, number>, tl: Timeline) => {
   const caps = capitulos(c, tl);
