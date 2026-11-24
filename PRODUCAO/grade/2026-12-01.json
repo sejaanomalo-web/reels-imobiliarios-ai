@@ -117,9 +117,10 @@
       "justificativaTrilha": "lista prática com pulso leve.",
       "episodio": "ATIVO-D1201-15",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-01/ATIVO-D1201-15_o_dono_na_visita.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-01-05/01-terca/15h00"
     },
     {
       "horario": "18:00",
