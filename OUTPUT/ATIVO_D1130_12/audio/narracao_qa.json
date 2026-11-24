@@ -1,0 +1,113 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.12,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.57,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.8,
+    "palavras_nao_reconhecidas": [
+      "117"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.95,
+    "palavras_nao_reconhecidas": [
+      "Endereço",
+      "oito",
+      "dois",
+      "meio",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.05,
+    "palavras_nao_reconhecidas": [
+      "quatro",
+      "dois",
+      "vírgula",
+      "dois",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 6.27,
+    "palavras_nao_reconhecidas": [
+      "oito",
+      "quatro",
+      "soa"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 2.98,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 1.9,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.83,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 3.11,
+    "palavras_nao_reconhecidas": [
+      "oito"
+    ]
+  },
+  {
+    "seg": "s11",
+    "seconds": 3.52,
+    "palavras_nao_reconhecidas": [
+      "pra"
+    ]
+  },
+  {
+    "seg": "s12",
+    "seconds": 3.43,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s13",
+    "seconds": 4.15,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 50.9,
+    "asr_match": 0.886,
+    "aligned_words": "124/144",
+    "words_per_min": 170,
+    "heard": "Duas casas iguais, na mesma rua. Uma vendeu mais caro só por causa do número na porta. Isso apareceu num estudo no Canadá, com cerca de 117 mil vendas de casas na região de Vancouver. Indereço terminado em 8, vender em média 2,5% acima. Terminado em 4, 2,2% abaixo. Para muitas famílias de origem chinesa, o 8 lembra prosperidade. E o 4, só parecido com a palavra morte. O efeito apareceu nos bairros com mais moradores dessa origem. Mas o detalhe mais curioso é outro. O efeito também apareceu em casas revendidas. Quem compra pensando em revender também paga pelo 8. Então, quando o cliente diz que isso não faz diferença para ele, lembre, o preço de amanhã depende do que o próximo comprador acredita. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 53.12,
+      "wpm": 163
+    },
+    "pausas_moldadas": {
+      "n": 20,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.22,
+    "final": {
+      "seconds": 50.9,
+      "wpm": 170
+    }
+  }
+]

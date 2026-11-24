@@ -1,0 +1,95 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.41,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.04,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.93,
+    "palavras_nao_reconhecidas": [
+      "2022"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.98,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.01,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 5.3,
+    "palavras_nao_reconhecidas": [
+      "2025"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.96,
+    "palavras_nao_reconhecidas": [
+      "2028",
+      "2034"
+    ]
+  },
+  {
+    "seg": "s8",
+    "seconds": 2.94,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 5.72,
+    "palavras_nao_reconhecidas": [
+      "IPTU"
+    ]
+  },
+  {
+    "seg": "s10",
+    "seconds": 1.52,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 6.55,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s12",
+    "seconds": 4.63,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 56.18,
+    "asr_match": 0.968,
+    "aligned_words": "153/158",
+    "words_per_min": 169,
+    "heard": "E se todo anúncio de imóvel tivesse que mostrar quanto você vai gastar de luz? Parece exagero, mas na França, isso já é regra. Desde 2022, o anúncio mostra o gasto anual estimado de energia, com letra do mesmo tamanho do resto. E o imóvel ganha uma nota, de A a G. Os piores precisam avisar no anúncio. Consumo de energia excessivo. E tem mais. Desde 2025, imóvel nota G não pode entrar em contrato novo de aluguel. Em 2028, entra a nota F e em 2034, a próxima da escala. Ou seja, lá o custo de morar entrou na vitrine. Aqui, o comprador costuma descobrir a conta de luz, o condomínio e o IPTU depois que já se apaixonou. Ninguém te obriga a mostrar isso. Mas o corretor que mostra o custo de morar antes de o cliente perguntar, ganha o que foto nenhuma dá. Confiança. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 58.48,
+      "wpm": 162
+    },
+    "pausas_moldadas": {
+      "n": 17,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.3,
+    "final": {
+      "seconds": 56.18,
+      "wpm": 169
+    }
+  }
+]

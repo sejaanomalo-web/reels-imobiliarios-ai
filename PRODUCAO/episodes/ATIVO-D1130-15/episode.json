@@ -1,0 +1,767 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1130-15",
+ "lote": "D1130",
+ "title": "A segunda visita",
+ "outputDir": "ATIVO_D1130_15",
+ "deliverables": {
+  "final": "ATIVO_D1130_15_FINAL.mp4",
+  "narration": "ATIVO_D1130_15_NARRACAO.wav",
+  "subtitles": "ATIVO_D1130_15_legendas.srt",
+  "cover": "ATIVO_D1130_15_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-11-30/ATIVO-D1130-15_a_segunda_visita.md",
+ "apuracao": {
+  "fato": "Observação de prática profissional (sem estatística).",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "sinais descritos como 'repare', não como regra; nenhum número de conversão"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que repete a apresentação na segunda visita",
+  "territorio": "corretor-real",
+  "funcao": "C1 + C3",
+  "crenca_questionada": "revisita é repetir a visita",
+  "hipotese": "na segunda visita a pergunta do cliente mudou; o corretor fala menos e prepara o terreno"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O cliente pediu pra ver o apartamento de novo.",
+   "caption": "O cliente pediu | pra ver | o apartamento | *de novo.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "E muito corretor faz exatamente a mesma visita outra vez.",
+   "caption": "E muito corretor | faz exatamente | a *mesma visita* | outra vez.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "pergunta",
+   "text": "Só que a pergunta dele mudou.",
+   "caption": "Só que | a *pergunta* dele | *mudou.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "pergunta",
+   "text": "Na primeira, ele queria saber se gostava.",
+   "caption": "Na primeira, | ele queria saber | se *gostava.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "pergunta",
+   "text": "Agora, ele quer saber como seria morar ali.",
+   "caption": "Agora, | ele quer saber | como seria | *morar* ali.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "sinais",
+   "text": "Repare nos sinais.",
+   "caption": "Repare | nos *sinais.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "sinais",
+   "text": "Ele mede a parede pro sofá. Abre o armário.",
+   "caption": "Ele *mede* | a parede | pro *sofá.* | Abre | o *armário.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "sinais",
+   "text": "Pergunta do vizinho, do barulho, do sol da tarde.",
+   "caption": "Pergunta | do *vizinho,* | do *barulho,* | do *sol* | da tarde.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "junto",
+   "text": "E muitas vezes ele traz alguém junto: a mãe, o sócio, quem divide a decisão.",
+   "caption": "E muitas vezes | ele traz | alguém *junto:* | a *mãe,* | o *sócio,* | quem divide | a *decisão.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "virada",
+   "text": "Se você continua apresentando a sala e a cozinha, você atrapalha.",
+   "caption": "Se você continua | apresentando | a sala | e a cozinha, | você *atrapalha.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "virada",
+   "text": "Ele não precisa de tour. Precisa de espaço pra se imaginar ali.",
+   "caption": "Ele não precisa | de *tour.* | Precisa de *espaço* | pra se imaginar | ali.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "pratica",
+   "text": "Chegue com a trena, as medidas e o valor do condomínio na mão.",
+   "caption": "Chegue | com a *trena,* | as *medidas* | e o valor | do *condomínio* | na mão.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "pratica",
+   "text": "E marque no horário em que ele vai viver ali: se ele trabalha de dia, mostre à noite.",
+   "caption": "E marque | no *horário* | em que ele | vai viver ali: | se ele trabalha | de *dia,* | mostre | à *noite.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "desfecho",
+   "text": "Na segunda visita, quem precisa falar menos é você.",
+   "caption": "Na *segunda visita,* | quem precisa | falar *menos* | é você.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s15",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "pergunta": 0.3,
+  "sinais": 0.3,
+  "junto": 0.25,
+  "virada": 0.35,
+  "pratica": 0.3,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_cliente": {
+   "seg": "s1",
+   "word": "cliente",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_novo": {
+   "seg": "s1",
+   "word": "novo",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_mesma": {
+   "seg": "s2",
+   "word": "mesma",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_vez": {
+   "seg": "s2",
+   "word": "vez",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_pergunta": {
+   "seg": "s3",
+   "word": "pergunta",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_mudou": {
+   "seg": "s3",
+   "word": "mudou",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_primeira": {
+   "seg": "s4",
+   "word": "primeira",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_gostava": {
+   "seg": "s4",
+   "word": "gostava",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_agora": {
+   "seg": "s5",
+   "word": "Agora",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_morar": {
+   "seg": "s5",
+   "word": "morar",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_sinais": {
+   "seg": "s6",
+   "word": "sinais",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_mede": {
+   "seg": "s7",
+   "word": "mede",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_sofa": {
+   "seg": "s7",
+   "word": "sofá",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_armario": {
+   "seg": "s7",
+   "word": "armário",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_vizinho": {
+   "seg": "s8",
+   "word": "vizinho",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_barulho": {
+   "seg": "s8",
+   "word": "barulho",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_sol": {
+   "seg": "s8",
+   "word": "sol",
+   "edge": "start",
+   "offset": 0
+  },
+  "j_junto": {
+   "seg": "s9",
+   "word": "junto",
+   "edge": "start",
+   "offset": 0
+  },
+  "j_mae": {
+   "seg": "s9",
+   "word": "mãe",
+   "edge": "start",
+   "offset": 0
+  },
+  "j_socio": {
+   "seg": "s9",
+   "word": "sócio",
+   "edge": "start",
+   "offset": 0
+  },
+  "j_decisao": {
+   "seg": "s9",
+   "word": "decisão",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_sala": {
+   "seg": "s10",
+   "word": "sala",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_atrapalha": {
+   "seg": "s10",
+   "word": "atrapalha",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_tour": {
+   "seg": "s11",
+   "word": "tour",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_espaco": {
+   "seg": "s11",
+   "word": "espaço",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_imaginar": {
+   "seg": "s11",
+   "word": "imaginar",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_trena": {
+   "seg": "s12",
+   "word": "trena",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_medidas": {
+   "seg": "s12",
+   "word": "medidas",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_condominio": {
+   "seg": "s12",
+   "word": "condomínio",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_horario": {
+   "seg": "s13",
+   "word": "horário",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_dia": {
+   "seg": "s13",
+   "word": "dia",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_noite": {
+   "seg": "s13",
+   "word": "noite",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_segunda": {
+   "seg": "s14",
+   "word": "segunda",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_menos": {
+   "seg": "s14",
+   "word": "menos",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s15",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s15",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s15",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s15",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s15",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s15",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s15",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s15",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s15",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_cliente",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "h_mesma",
+   "offset": 0.0,
+   "sound": "thump",
+   "gain": -27
+  },
+  {
+   "cue": "h_vez",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "p_mudou",
+   "offset": 0.0,
+   "sound": "whip",
+   "gain": -28
+  },
+  {
+   "cue": "p_gostava",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28
+  },
+  {
+   "cue": "p_morar",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "s_sinais",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -28
+  },
+  {
+   "cue": "s_mede",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -26
+  },
+  {
+   "cue": "s_sofa",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "s_armario",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "s_vizinho",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "s_barulho",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 2
+  },
+  {
+   "cue": "s_sol",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 4
+  },
+  {
+   "cue": "j_junto",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -28
+  },
+  {
+   "cue": "j_mae",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27
+  },
+  {
+   "cue": "j_socio",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "v_atrapalha",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -27
+  },
+  {
+   "cue": "v_tour",
+   "offset": 0.05,
+   "sound": "hollow",
+   "gain": -28
+  },
+  {
+   "cue": "v_espaco",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -28
+  },
+  {
+   "cue": "r_trena",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -26
+  },
+  {
+   "cue": "r_medidas",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "r_condominio",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -26,
+   "pitch": 6
+  },
+  {
+   "cue": "r_noite",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -29
+  },
+  {
+   "cue": "f_menos",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -27
+  },
+  {
+   "cue": "f_menos",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.75,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.85,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.2,
+   "sound": "click",
+   "gain": -23,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.28,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "F — a revisita"
+   },
+   {
+    "at": "cue:s_sinais",
+    "notes": [
+     24,
+     36,
+     43,
+     48,
+     52
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "C — os sinais"
+   },
+   {
+    "at": "cue:v_sala",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "Am — virada"
+   },
+   {
+    "at": "cue:r_trena",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "G — a prática"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T05",
+  "ancoras": {
+   "virada": "cue:v_atrapalha",
+   "insight": "cue:v_espaco",
+   "resolucao": "cue:f_menos"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "cartoon-explicativo",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "corretor-real",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "pull",
+  "justificativaModelo": "cena de visita com personagens e humor de comportamento (o tour repetido); carimbos para os sinais e a punchline.",
+  "justificativaHorario": "15h: tarde de visitas; PULL prático para quem está na rua.",
+  "trilha": "T05",
+  "justificativaTrilha": "lista de sinais e ações pede pulso prático, sem drama.",
+  "data": "2026-11-30",
+  "slot": "15:00",
+  "arquivo": "PRODUCAO/grade/2026-11-30.json"
+ },
+ "modelos4": true,
+ "modelo": 1,
+ "modeloNome": "Cartoon explicativo"
+}

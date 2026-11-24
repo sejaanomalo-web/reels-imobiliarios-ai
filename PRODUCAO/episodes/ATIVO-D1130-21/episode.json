@@ -1,0 +1,741 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "2006": "dois mil e seis",
+  "2008": "dois mil e oito",
+  "Macefield": "Mêicefild"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1130-21",
+ "lote": "D1130",
+ "title": "A casa que ninguém conseguiu comprar",
+ "outputDir": "ATIVO_D1130_21",
+ "deliverables": {
+  "final": "ATIVO_D1130_21_FINAL.mp4",
+  "narration": "ATIVO_D1130_21_NARRACAO.wav",
+  "subtitles": "ATIVO_D1130_21_legendas.srt",
+  "cover": "ATIVO_D1130_21_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-11-30/ATIVO-D1130-21_a_casa_que_ninguem_comprou.md",
+ "apuracao": {
+  "fato": "Edith Macefield (1921–2008), Ballard, Seattle: recusou em 2006 ofertas de até cerca de US$ 1 milhão de uma construtora para um empreendimento comercial (Ballard Blocks), que foi construído em volta da casa; Barry Martin, superintendente da obra, tornou-se amigo, levava compras e a acompanhava a consultas; ela deixou a casa para ele no testamento; morreu em junho de 2008, aos 86 anos (Wikipedia; HistoryLink; Seattle Weekly 2008; Cascade PBS 2015; KUOW 2015).",
+  "verificado_em": "2026-11-24",
+  "fontes": [
+   "https://en.wikipedia.org/wiki/Edith_Macefield",
+   "https://www.historylink.org/file/11092",
+   "https://www.seattleweekly.com/2008/06/17/edith-macefield-the-ballard-octagenarian-who-famously-turned-down-a-1-million",
+   "https://www.cascadepbs.org/culture/2015/04/the-real-story-behind-ballards-anti-development-icon/"
+  ],
+  "ressalvas": "valor dito como 'cerca de' (relatos de US$ 750 mil a 1 milhão); amizade simplificada; ligação com o filme Up não usada; lição é interpretação"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor diante do proprietário que recusa uma boa proposta",
+  "territorio": "historia",
+  "funcao": "C2 + C4",
+  "crenca_questionada": "todo não do proprietário é negociação de preço",
+  "hipotese": "quando o proprietário recusa um bom preço, o assunto quase nunca é dinheiro; é confiança"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Ofereceram cerca de 1 milhão de dólares por essa casinha.",
+   "caption": "Ofereceram | cerca de | *1 milhão* | de dólares | por essa *casinha.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "A dona disse não.",
+   "caption": "A dona | disse *não.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "hook",
+   "text": "E o prédio foi construído em volta dela.",
+   "caption": "E o *prédio* | foi construído | em *volta* dela.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "retrato",
+   "text": "Seattle, 2006.",
+   "caption": "*Seattle,* | 2006.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "retrato",
+   "text": "Edith Macefield tinha 84 anos e morava ali fazia décadas.",
+   "caption": "*Edith Macefield* | tinha *84 anos* | e morava ali | fazia *décadas.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "ofertas",
+   "text": "Uma construtora queria o terreno para um centro comercial.",
+   "caption": "Uma *construtora* | queria o terreno | para um centro | *comercial.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "ofertas",
+   "text": "As ofertas subiram. Ela recusou todas.",
+   "caption": "As ofertas | *subiram.* | Ela recusou | *todas.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "cerco",
+   "text": "A obra seguiu. E a casinha ficou ali, cercada de concreto.",
+   "caption": "A obra | *seguiu.* | E a casinha | ficou ali, | cercada | de *concreto.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "virada",
+   "text": "Foi aí que aconteceu o que ninguém esperava.",
+   "caption": "Foi aí | que aconteceu | o que *ninguém* | esperava.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "virada",
+   "text": "O chefe da obra, Barry Martin, começou a passar lá.",
+   "caption": "O *chefe da obra,* | Barry Martin, | começou | a *passar* lá.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "virada",
+   "text": "Levava compras, levava ela ao médico, cuidava dela.",
+   "caption": "Levava *compras,* | levava ela | ao *médico,* | *cuidava* dela.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "heranca",
+   "text": "Quando Edith morreu, em 2008, deixou a casa para ele.",
+   "caption": "Quando Edith morreu, | em 2008, | *deixou a casa* | para ele.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "desfecho",
+   "text": "A casa que ninguém conseguiu comprar ficou com quem nunca tentou.",
+   "caption": "A casa | que ninguém | conseguiu *comprar* | ficou com quem | *nunca tentou.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s14",
+   "scene": "desfecho",
+   "text": "Quando o proprietário recusa um bom preço, quase nunca é sobre dinheiro.",
+   "caption": "Quando o proprietário | *recusa* | um bom preço, | quase nunca | é sobre *dinheiro.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s15",
+   "scene": "desfecho",
+   "text": "É sobre confiança.",
+   "caption": "É sobre | *confiança.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s16",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "retrato": 0.4,
+  "ofertas": 0.35,
+  "cerco": 0.35,
+  "virada": 0.5,
+  "heranca": 0.4,
+  "desfecho": 0.45,
+  "cta": 0.35
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_milhao": {
+   "seg": "s1",
+   "word": "milhão",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_casinha": {
+   "seg": "s1",
+   "word": "casinha",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_nao": {
+   "seg": "s2",
+   "word": "não",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_predio": {
+   "seg": "s3",
+   "word": "prédio",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_volta": {
+   "seg": "s3",
+   "word": "volta",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_seattle": {
+   "seg": "s4",
+   "word": "Seattle",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_2006": {
+   "seg": "s4",
+   "word": "2006",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_edith": {
+   "seg": "s5",
+   "word": "Edith",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_84": {
+   "seg": "s5",
+   "word": "84",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_decadas": {
+   "seg": "s5",
+   "word": "décadas",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_construtora": {
+   "seg": "s6",
+   "word": "construtora",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_terreno": {
+   "seg": "s6",
+   "word": "terreno",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_comercial": {
+   "seg": "s6",
+   "word": "comercial",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_subiram": {
+   "seg": "s7",
+   "word": "subiram",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_recusou": {
+   "seg": "s7",
+   "word": "recusou",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_todas": {
+   "seg": "s7",
+   "word": "todas",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_obra": {
+   "seg": "s8",
+   "word": "obra",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_seguiu": {
+   "seg": "s8",
+   "word": "seguiu",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_casinha": {
+   "seg": "s8",
+   "word": "casinha",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_concreto": {
+   "seg": "s8",
+   "word": "concreto",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_foi": {
+   "seg": "s9",
+   "word": "Foi",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_ninguem": {
+   "seg": "s9",
+   "word": "ninguém",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_chefe": {
+   "seg": "s10",
+   "word": "chefe",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_barry": {
+   "seg": "s10",
+   "word": "Barry",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_passar": {
+   "seg": "s10",
+   "word": "passar",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_compras": {
+   "seg": "s11",
+   "word": "compras",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_medico": {
+   "seg": "s11",
+   "word": "médico",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_cuidava": {
+   "seg": "s11",
+   "word": "cuidava",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_morreu": {
+   "seg": "s12",
+   "word": "morreu",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_2008": {
+   "seg": "s12",
+   "word": "2008",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_deixou": {
+   "seg": "s12",
+   "word": "deixou",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_comprar": {
+   "seg": "s13",
+   "word": "comprar",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_nunca": {
+   "seg": "s13",
+   "word": "nunca",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_tentou": {
+   "seg": "s13",
+   "word": "tentou",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_recusa": {
+   "seg": "s14",
+   "word": "recusa",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_dinheiro": {
+   "seg": "s14",
+   "word": "dinheiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_confianca": {
+   "seg": "s15",
+   "word": "confiança",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s16",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s16",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s16",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s16",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s16",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s16",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s16",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s16",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s16",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_milhao",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28
+  },
+  {
+   "cue": "h_nao",
+   "offset": 0.0,
+   "sound": "thump",
+   "gain": -27,
+   "pitch": -3
+  },
+  {
+   "cue": "h_predio",
+   "offset": -0.05,
+   "sound": "whoosh_fold",
+   "gain": -30
+  },
+  {
+   "cue": "r_seattle",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -30
+  },
+  {
+   "cue": "r_edith",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -29
+  },
+  {
+   "cue": "o_construtora",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -29
+  },
+  {
+   "cue": "o_subiram",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28
+  },
+  {
+   "cue": "o_subiram",
+   "offset": 0.15,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": 3
+  },
+  {
+   "cue": "o_todas",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "x_concreto",
+   "offset": 0.0,
+   "sound": "thump",
+   "gain": -28,
+   "pitch": -4
+  },
+  {
+   "cue": "v_foi",
+   "offset": -0.05,
+   "sound": "whoosh_fold",
+   "gain": -29
+  },
+  {
+   "cue": "v_chefe",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -29
+  },
+  {
+   "cue": "v_compras",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": 2
+  },
+  {
+   "cue": "v_medico",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": 4
+  },
+  {
+   "cue": "t_deixou",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "f_nunca",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -29
+  },
+  {
+   "cue": "f_confianca",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -28
+  },
+  {
+   "cue": "f_confianca",
+   "offset": 0.3,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.1,
+   "sound": "shimmer",
+   "gain": -25
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 2.3,
+   "sound": "chord",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.4,
+    "label": "Am — a casa"
+   },
+   {
+    "at": "cue:o_construtora",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "F — as ofertas"
+   },
+   {
+    "at": "cue:v_foi",
+    "notes": [
+     24,
+     36,
+     43,
+     48,
+     52
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "C — a virada"
+   },
+   {
+    "at": "cue:f_comprar",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "G — confiança"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T02",
+  "ancoras": {
+   "virada": "cue:v_foi",
+   "descoberta": "cue:t_deixou",
+   "insight": "cue:f_confianca"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "pictograma-cinematografico",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "historia",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "história de uma pessoa e uma casa com virada afetiva: noir, casinha luminosa cercada pela obra, apagar a luz e portal na herança.",
+  "justificativaHorario": "21h: noite, história emocional para assistir até o fim.",
+  "trilha": "T02",
+  "justificativaTrilha": "arco íntimo → caloroso; T02 cresce na virada humana.",
+  "data": "2026-11-30",
+  "slot": "21:00",
+  "arquivo": "PRODUCAO/grade/2026-11-30.json"
+ },
+ "modelos4": true,
+ "modelo": 2,
+ "modeloNome": "Pictograma cinematográfico"
+}

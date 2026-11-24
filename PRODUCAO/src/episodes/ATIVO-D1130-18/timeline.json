@@ -1,0 +1,1562 @@
+{
+ "id": "ATIVO-D1130-18",
+ "title": "E se o anúncio mostrasse a conta de luz?",
+ "fps": 30,
+ "duration": 58.5,
+ "durationInFrames": 1755,
+ "narrationEnd": 56.298,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.685
+  },
+  {
+   "id": "regra",
+   "start": 4.685,
+   "end": 14.245
+  },
+  {
+   "id": "nota",
+   "start": 14.245,
+   "end": 21.885
+  },
+  {
+   "id": "calendario",
+   "start": 21.885,
+   "end": 32.92
+  },
+  {
+   "id": "virada",
+   "start": 32.92,
+   "end": 42.34
+  },
+  {
+   "id": "desfecho",
+   "start": 42.34,
+   "end": 51.035
+  },
+  {
+   "id": "cta",
+   "start": 51.035,
+   "end": 58.5
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "E se todo anúncio de imóvel tivesse que mostrar quanto você vai gastar de luz?",
+   "start": 0.12,
+   "end": 4.53
+  },
+  {
+   "id": "s2",
+   "scene": "regra",
+   "text": "Parece exagero, mas na França isso já é regra.",
+   "start": 4.84,
+   "end": 7.88
+  },
+  {
+   "id": "s3",
+   "scene": "regra",
+   "text": "Desde 2022, o anúncio mostra o gasto anual estimado de energia, com letra do mesmo tamanho do resto.",
+   "start": 8.2,
+   "end": 14.13
+  },
+  {
+   "id": "s4",
+   "scene": "nota",
+   "text": "E o imóvel ganha uma nota, de A a G.",
+   "start": 14.36,
+   "end": 17.34
+  },
+  {
+   "id": "s5",
+   "scene": "nota",
+   "text": "Os piores precisam avisar no anúncio: consumo de energia excessivo.",
+   "start": 17.64,
+   "end": 21.65
+  },
+  {
+   "id": "s6",
+   "scene": "calendario",
+   "text": "E tem mais. Desde 2025, imóvel nota G não pode entrar em contrato novo de aluguel.",
+   "start": 22.12,
+   "end": 27.42
+  },
+  {
+   "id": "s7",
+   "scene": "calendario",
+   "text": "Em 2028, entra a nota F. E em 2034, a próxima da escala.",
+   "start": 27.72,
+   "end": 32.68
+  },
+  {
+   "id": "s8",
+   "scene": "virada",
+   "text": "Ou seja: lá, o custo de morar entrou na vitrine.",
+   "start": 33.16,
+   "end": 36.1
+  },
+  {
+   "id": "s9",
+   "scene": "virada",
+   "text": "Aqui, o comprador costuma descobrir a conta de luz, o condomínio e o IPTU depois que já se apaixonou.",
+   "start": 36.44,
+   "end": 42.16
+  },
+  {
+   "id": "s10",
+   "scene": "desfecho",
+   "text": "Ninguém te obriga a mostrar isso.",
+   "start": 42.52,
+   "end": 44.04
+  },
+  {
+   "id": "s11",
+   "scene": "desfecho",
+   "text": "Mas o corretor que mostra o custo de morar antes de o cliente perguntar ganha o que foto nenhuma dá: confiança.",
+   "start": 44.28,
+   "end": 50.83
+  },
+  {
+   "id": "s12",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 51.24,
+   "end": 55.87
+  }
+ ],
+ "cues": {
+  "h_anuncio": 1.0,
+  "h_mostrar": 2.6,
+  "h_luz": 4.28,
+  "r_exagero": 5.32,
+  "r_franca": 6.44,
+  "r_regra": 7.48,
+  "r_2022": 8.911,
+  "r_gasto": 10.44,
+  "r_energia": 11.88,
+  "r_letra": 12.6,
+  "r_tamanho": 13.4,
+  "n_nota": 15.72,
+  "n_A": 16.52,
+  "n_G": 17.08,
+  "n_piores": 17.8,
+  "n_avisar": 18.76,
+  "n_excessivo": 21.16,
+  "k_mais": 22.6,
+  "k_2025": 23.711,
+  "k_G": 25.24,
+  "k_contrato": 26.36,
+  "k_aluguel": 27.08,
+  "k_2028": 28.093,
+  "k_F": 29.64,
+  "k_2034": 30.76,
+  "k_proxima": 31.88,
+  "v_ouseja": 33.16,
+  "v_custo": 34.44,
+  "v_vitrine": 35.72,
+  "v_aqui": 36.44,
+  "v_luz": 38.76,
+  "v_cond": 39.24,
+  "v_iptu": 40.2,
+  "v_apaixonou": 41.64,
+  "f_ninguem": 42.52,
+  "f_obriga": 43.0,
+  "f_corretor": 44.68,
+  "f_antes": 46.68,
+  "f_foto": 48.84,
+  "f_confianca": 50.2,
+  "cta_quer": 51.24,
+  "cta_comment": 52.52,
+  "cta_word": 53.08,
+  "cta_tiles": 53.8,
+  "cta_sys": 54.6,
+  "cta_leads": 54.28,
+  "cta_atend": 55.08,
+  "cta_direct": 55.08,
+  "cta_end": 55.87
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.32,
+   "words": [
+    {
+     "text": "E",
+     "start": 0.12,
+     "end": 0.2,
+     "emph": false
+    },
+    {
+     "text": "se",
+     "start": 0.44,
+     "end": 0.68,
+     "emph": false
+    },
+    {
+     "text": "todo",
+     "start": 0.68,
+     "end": 1.0,
+     "emph": false
+    },
+    {
+     "text": "anúncio",
+     "start": 1.0,
+     "end": 1.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.32,
+   "end": 1.96,
+   "words": [
+    {
+     "text": "de",
+     "start": 1.32,
+     "end": 1.48,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 1.48,
+     "end": 1.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.96,
+   "end": 3.08,
+   "words": [
+    {
+     "text": "tivesse",
+     "start": 1.96,
+     "end": 2.44,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 2.44,
+     "end": 2.6,
+     "emph": false
+    },
+    {
+     "text": "mostrar",
+     "start": 2.6,
+     "end": 2.97,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.08,
+   "end": 4.2,
+   "words": [
+    {
+     "text": "quanto",
+     "start": 3.08,
+     "end": 3.48,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 3.48,
+     "end": 3.64,
+     "emph": false
+    },
+    {
+     "text": "vai",
+     "start": 3.64,
+     "end": 3.8,
+     "emph": false
+    },
+    {
+     "text": "gastar",
+     "start": 3.8,
+     "end": 4.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.2,
+   "end": 4.84,
+   "words": [
+    {
+     "text": "de",
+     "start": 4.2,
+     "end": 4.28,
+     "emph": false
+    },
+    {
+     "text": "luz?",
+     "start": 4.28,
+     "end": 4.53,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.84,
+   "end": 5.96,
+   "words": [
+    {
+     "text": "Parece",
+     "start": 4.84,
+     "end": 5.32,
+     "emph": false
+    },
+    {
+     "text": "exagero,",
+     "start": 5.32,
+     "end": 5.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.96,
+   "end": 6.92,
+   "words": [
+    {
+     "text": "mas",
+     "start": 5.96,
+     "end": 6.2,
+     "emph": false
+    },
+    {
+     "text": "na",
+     "start": 6.2,
+     "end": 6.44,
+     "emph": false
+    },
+    {
+     "text": "França",
+     "start": 6.44,
+     "end": 6.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.92,
+   "end": 8.2,
+   "words": [
+    {
+     "text": "isso",
+     "start": 6.92,
+     "end": 7.16,
+     "emph": false
+    },
+    {
+     "text": "já",
+     "start": 7.16,
+     "end": 7.32,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 7.32,
+     "end": 7.48,
+     "emph": false
+    },
+    {
+     "text": "regra.",
+     "start": 7.48,
+     "end": 7.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.2,
+   "end": 9.48,
+   "words": [
+    {
+     "text": "Desde",
+     "start": 8.2,
+     "end": 8.911,
+     "emph": false
+    },
+    {
+     "text": "2022,",
+     "start": 8.911,
+     "end": 9.37,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.48,
+   "end": 10.36,
+   "words": [
+    {
+     "text": "o",
+     "start": 9.48,
+     "end": 9.64,
+     "emph": false
+    },
+    {
+     "text": "anúncio",
+     "start": 9.64,
+     "end": 10.04,
+     "emph": false
+    },
+    {
+     "text": "mostra",
+     "start": 10.04,
+     "end": 10.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.36,
+   "end": 11.16,
+   "words": [
+    {
+     "text": "o",
+     "start": 10.36,
+     "end": 10.44,
+     "emph": false
+    },
+    {
+     "text": "gasto",
+     "start": 10.44,
+     "end": 10.76,
+     "emph": true
+    },
+    {
+     "text": "anual",
+     "start": 10.76,
+     "end": 11.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.16,
+   "end": 12.36,
+   "words": [
+    {
+     "text": "estimado",
+     "start": 11.16,
+     "end": 11.72,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 11.72,
+     "end": 11.88,
+     "emph": false
+    },
+    {
+     "text": "energia,",
+     "start": 11.88,
+     "end": 12.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.36,
+   "end": 13.0,
+   "words": [
+    {
+     "text": "com",
+     "start": 12.36,
+     "end": 12.43,
+     "emph": false
+    },
+    {
+     "text": "letra",
+     "start": 12.6,
+     "end": 13.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.0,
+   "end": 13.8,
+   "words": [
+    {
+     "text": "do",
+     "start": 13.0,
+     "end": 13.16,
+     "emph": false
+    },
+    {
+     "text": "mesmo",
+     "start": 13.16,
+     "end": 13.4,
+     "emph": true
+    },
+    {
+     "text": "tamanho",
+     "start": 13.4,
+     "end": 13.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.8,
+   "end": 14.36,
+   "words": [
+    {
+     "text": "do",
+     "start": 13.8,
+     "end": 13.96,
+     "emph": false
+    },
+    {
+     "text": "resto.",
+     "start": 13.96,
+     "end": 14.13,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.36,
+   "end": 15.08,
+   "words": [
+    {
+     "text": "E",
+     "start": 14.36,
+     "end": 14.52,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 14.52,
+     "end": 14.68,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 14.68,
+     "end": 15.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.08,
+   "end": 16.28,
+   "words": [
+    {
+     "text": "ganha",
+     "start": 15.08,
+     "end": 15.56,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 15.56,
+     "end": 15.72,
+     "emph": false
+    },
+    {
+     "text": "nota,",
+     "start": 15.72,
+     "end": 15.85,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.28,
+   "end": 17.64,
+   "words": [
+    {
+     "text": "de",
+     "start": 16.28,
+     "end": 16.52,
+     "emph": false
+    },
+    {
+     "text": "A",
+     "start": 16.52,
+     "end": 16.84,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 16.84,
+     "end": 17.08,
+     "emph": true
+    },
+    {
+     "text": "G.",
+     "start": 17.08,
+     "end": 17.34,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.64,
+   "end": 18.36,
+   "words": [
+    {
+     "text": "Os",
+     "start": 17.64,
+     "end": 17.8,
+     "emph": false
+    },
+    {
+     "text": "piores",
+     "start": 17.8,
+     "end": 18.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.36,
+   "end": 19.08,
+   "words": [
+    {
+     "text": "precisam",
+     "start": 18.36,
+     "end": 18.76,
+     "emph": false
+    },
+    {
+     "text": "avisar",
+     "start": 18.76,
+     "end": 19.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.08,
+   "end": 19.88,
+   "words": [
+    {
+     "text": "no",
+     "start": 19.08,
+     "end": 19.24,
+     "emph": false
+    },
+    {
+     "text": "anúncio:",
+     "start": 19.24,
+     "end": 19.49,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.88,
+   "end": 21.16,
+   "words": [
+    {
+     "text": "consumo",
+     "start": 19.88,
+     "end": 20.44,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 20.44,
+     "end": 20.6,
+     "emph": false
+    },
+    {
+     "text": "energia",
+     "start": 20.6,
+     "end": 21.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.16,
+   "end": 22.12,
+   "words": [
+    {
+     "text": "excessivo.",
+     "start": 21.16,
+     "end": 21.65,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.12,
+   "end": 23.0,
+   "words": [
+    {
+     "text": "E",
+     "start": 22.12,
+     "end": 22.36,
+     "emph": false
+    },
+    {
+     "text": "tem",
+     "start": 22.36,
+     "end": 22.6,
+     "emph": false
+    },
+    {
+     "text": "mais.",
+     "start": 22.6,
+     "end": 22.89,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.0,
+   "end": 24.28,
+   "words": [
+    {
+     "text": "Desde",
+     "start": 23.0,
+     "end": 23.711,
+     "emph": false
+    },
+    {
+     "text": "2025,",
+     "start": 23.711,
+     "end": 24.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.28,
+   "end": 25.56,
+   "words": [
+    {
+     "text": "imóvel",
+     "start": 24.28,
+     "end": 24.35,
+     "emph": false
+    },
+    {
+     "text": "nota",
+     "start": 24.84,
+     "end": 25.24,
+     "emph": false
+    },
+    {
+     "text": "G",
+     "start": 25.24,
+     "end": 25.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.56,
+   "end": 26.2,
+   "words": [
+    {
+     "text": "não",
+     "start": 25.56,
+     "end": 25.72,
+     "emph": false
+    },
+    {
+     "text": "pode",
+     "start": 25.72,
+     "end": 25.96,
+     "emph": false
+    },
+    {
+     "text": "entrar",
+     "start": 25.96,
+     "end": 26.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.2,
+   "end": 26.92,
+   "words": [
+    {
+     "text": "em",
+     "start": 26.2,
+     "end": 26.36,
+     "emph": false
+    },
+    {
+     "text": "contrato",
+     "start": 26.36,
+     "end": 26.76,
+     "emph": false
+    },
+    {
+     "text": "novo",
+     "start": 26.76,
+     "end": 26.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.92,
+   "end": 27.72,
+   "words": [
+    {
+     "text": "de",
+     "start": 26.92,
+     "end": 27.08,
+     "emph": false
+    },
+    {
+     "text": "aluguel.",
+     "start": 27.08,
+     "end": 27.42,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.72,
+   "end": 28.84,
+   "words": [
+    {
+     "text": "Em",
+     "start": 27.72,
+     "end": 28.093,
+     "emph": false
+    },
+    {
+     "text": "2028,",
+     "start": 28.093,
+     "end": 28.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.84,
+   "end": 30.12,
+   "words": [
+    {
+     "text": "entra",
+     "start": 28.84,
+     "end": 29.16,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 29.16,
+     "end": 29.24,
+     "emph": false
+    },
+    {
+     "text": "nota",
+     "start": 29.24,
+     "end": 29.64,
+     "emph": false
+    },
+    {
+     "text": "F.",
+     "start": 29.64,
+     "end": 29.91,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.12,
+   "end": 31.72,
+   "words": [
+    {
+     "text": "E",
+     "start": 30.12,
+     "end": 30.28,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 30.28,
+     "end": 30.76,
+     "emph": false
+    },
+    {
+     "text": "2034,",
+     "start": 30.76,
+     "end": 31.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.72,
+   "end": 32.28,
+   "words": [
+    {
+     "text": "a",
+     "start": 31.72,
+     "end": 31.88,
+     "emph": false
+    },
+    {
+     "text": "próxima",
+     "start": 31.88,
+     "end": 32.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.28,
+   "end": 33.16,
+   "words": [
+    {
+     "text": "da",
+     "start": 32.28,
+     "end": 32.44,
+     "emph": false
+    },
+    {
+     "text": "escala.",
+     "start": 32.44,
+     "end": 32.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 33.16,
+   "end": 33.88,
+   "words": [
+    {
+     "text": "Ou",
+     "start": 33.16,
+     "end": 33.32,
+     "emph": false
+    },
+    {
+     "text": "seja:",
+     "start": 33.32,
+     "end": 33.66,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 33.88,
+   "end": 34.28,
+   "words": [
+    {
+     "text": "lá,",
+     "start": 33.88,
+     "end": 34.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 34.28,
+   "end": 35.24,
+   "words": [
+    {
+     "text": "o",
+     "start": 34.28,
+     "end": 34.44,
+     "emph": false
+    },
+    {
+     "text": "custo",
+     "start": 34.44,
+     "end": 34.76,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 34.76,
+     "end": 34.84,
+     "emph": true
+    },
+    {
+     "text": "morar",
+     "start": 34.84,
+     "end": 35.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 35.24,
+   "end": 36.44,
+   "words": [
+    {
+     "text": "entrou",
+     "start": 35.24,
+     "end": 35.56,
+     "emph": false
+    },
+    {
+     "text": "na",
+     "start": 35.56,
+     "end": 35.72,
+     "emph": false
+    },
+    {
+     "text": "vitrine.",
+     "start": 35.72,
+     "end": 36.1,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 36.44,
+   "end": 36.84,
+   "words": [
+    {
+     "text": "Aqui,",
+     "start": 36.44,
+     "end": 36.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 36.84,
+   "end": 37.48,
+   "words": [
+    {
+     "text": "o",
+     "start": 36.84,
+     "end": 36.92,
+     "emph": false
+    },
+    {
+     "text": "comprador",
+     "start": 36.92,
+     "end": 37.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 37.48,
+   "end": 38.28,
+   "words": [
+    {
+     "text": "costuma",
+     "start": 37.48,
+     "end": 37.88,
+     "emph": false
+    },
+    {
+     "text": "descobrir",
+     "start": 37.88,
+     "end": 38.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 38.28,
+   "end": 39.16,
+   "words": [
+    {
+     "text": "a",
+     "start": 38.28,
+     "end": 38.36,
+     "emph": false
+    },
+    {
+     "text": "conta",
+     "start": 38.36,
+     "end": 38.68,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 38.68,
+     "end": 38.76,
+     "emph": false
+    },
+    {
+     "text": "luz,",
+     "start": 38.76,
+     "end": 39.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 39.16,
+   "end": 39.88,
+   "words": [
+    {
+     "text": "o",
+     "start": 39.16,
+     "end": 39.24,
+     "emph": false
+    },
+    {
+     "text": "condomínio",
+     "start": 39.24,
+     "end": 39.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 39.88,
+   "end": 40.84,
+   "words": [
+    {
+     "text": "e",
+     "start": 39.88,
+     "end": 40.04,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 40.04,
+     "end": 40.2,
+     "emph": false
+    },
+    {
+     "text": "IPTU",
+     "start": 40.2,
+     "end": 40.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 40.84,
+   "end": 41.32,
+   "words": [
+    {
+     "text": "depois",
+     "start": 40.84,
+     "end": 40.91,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 41.16,
+     "end": 41.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 41.32,
+   "end": 42.52,
+   "words": [
+    {
+     "text": "já",
+     "start": 41.32,
+     "end": 41.48,
+     "emph": false
+    },
+    {
+     "text": "se",
+     "start": 41.48,
+     "end": 41.64,
+     "emph": false
+    },
+    {
+     "text": "apaixonou.",
+     "start": 41.64,
+     "end": 42.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 42.52,
+   "end": 42.84,
+   "words": [
+    {
+     "text": "Ninguém",
+     "start": 42.52,
+     "end": 42.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 42.84,
+   "end": 43.48,
+   "words": [
+    {
+     "text": "te",
+     "start": 42.84,
+     "end": 43.0,
+     "emph": false
+    },
+    {
+     "text": "obriga",
+     "start": 43.0,
+     "end": 43.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 43.48,
+   "end": 44.28,
+   "words": [
+    {
+     "text": "a",
+     "start": 43.48,
+     "end": 43.56,
+     "emph": false
+    },
+    {
+     "text": "mostrar",
+     "start": 43.56,
+     "end": 43.96,
+     "emph": false
+    },
+    {
+     "text": "isso.",
+     "start": 43.96,
+     "end": 44.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 44.28,
+   "end": 45.32,
+   "words": [
+    {
+     "text": "Mas",
+     "start": 44.28,
+     "end": 44.35,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 44.52,
+     "end": 44.68,
+     "emph": false
+    },
+    {
+     "text": "corretor",
+     "start": 44.68,
+     "end": 44.98,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 45.32,
+   "end": 45.88,
+   "words": [
+    {
+     "text": "que",
+     "start": 45.32,
+     "end": 45.48,
+     "emph": false
+    },
+    {
+     "text": "mostra",
+     "start": 45.48,
+     "end": 45.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 45.88,
+   "end": 46.68,
+   "words": [
+    {
+     "text": "o",
+     "start": 45.88,
+     "end": 45.96,
+     "emph": false
+    },
+    {
+     "text": "custo",
+     "start": 45.96,
+     "end": 46.2,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 46.2,
+     "end": 46.36,
+     "emph": false
+    },
+    {
+     "text": "morar",
+     "start": 46.36,
+     "end": 46.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 46.68,
+   "end": 46.92,
+   "words": [
+    {
+     "text": "antes",
+     "start": 46.68,
+     "end": 46.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 46.92,
+   "end": 48.2,
+   "words": [
+    {
+     "text": "de",
+     "start": 46.92,
+     "end": 47.08,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 47.08,
+     "end": 47.16,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 47.16,
+     "end": 47.56,
+     "emph": false
+    },
+    {
+     "text": "perguntar",
+     "start": 47.56,
+     "end": 48.01,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 48.2,
+   "end": 48.84,
+   "words": [
+    {
+     "text": "ganha",
+     "start": 48.2,
+     "end": 48.6,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 48.6,
+     "end": 48.68,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 48.68,
+     "end": 48.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 48.84,
+   "end": 50.2,
+   "words": [
+    {
+     "text": "foto",
+     "start": 48.84,
+     "end": 49.24,
+     "emph": true
+    },
+    {
+     "text": "nenhuma",
+     "start": 49.24,
+     "end": 49.64,
+     "emph": false
+    },
+    {
+     "text": "dá:",
+     "start": 49.64,
+     "end": 49.77,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 50.2,
+   "end": 51.24,
+   "words": [
+    {
+     "text": "confiança.",
+     "start": 50.2,
+     "end": 50.83,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 51.24,
+   "end": 52.52,
+   "words": [
+    {
+     "text": "Se",
+     "start": 51.24,
+     "end": 51.4,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 51.4,
+     "end": 51.64,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 51.64,
+     "end": 51.8,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 51.8,
+     "end": 52.34,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 52.52,
+   "end": 53.64,
+   "words": [
+    {
+     "text": "comente",
+     "start": 52.52,
+     "end": 53.08,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 53.08,
+     "end": 53.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 53.64,
+   "end": 54.6,
+   "words": [
+    {
+     "text": "e",
+     "start": 53.64,
+     "end": 53.8,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 53.8,
+     "end": 54.28,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 54.28,
+     "end": 54.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 54.6,
+   "end": 56.37,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 54.6,
+     "end": 54.96,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 55.08,
+     "end": 55.87,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

@@ -1,0 +1,718 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "117": "cento e dezessete"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1130-12",
+ "lote": "D1130",
+ "title": "O número na porta",
+ "outputDir": "ATIVO_D1130_12",
+ "deliverables": {
+  "final": "ATIVO_D1130_12_FINAL.mp4",
+  "narration": "ATIVO_D1130_12_NARRACAO.wav",
+  "subtitles": "ATIVO_D1130_12_legendas.srt",
+  "cover": "ATIVO_D1130_12_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-11-30/ATIVO-D1130-12_o_numero_na_porta.md",
+ "apuracao": {
+  "fato": "Fortin, Hill e Huang, Superstition in the Housing Market, Economic Inquiry 52(3), 2014, p. 974-993 (IZA DP 7484): ~117 mil vendas na Grande Vancouver; endereço terminado em 4 vendeu com desconto de 2,2% e em 8 com prêmio de 2,5% frente aos demais; efeito em bairros com proporção de moradores chineses acima da média ou em transações repetidas (especulação). CTV Vancouver 2010 (arquivo UBC).",
+  "verificado_em": "2026-11-24",
+  "fontes": [
+   "https://econpapers.repec.org/RePEc:bla:ecinqu:v:52:y:2014:i:3:p:974-993",
+   "https://econclone.sites.olt.ubc.ca/files/2014/06/pdf_news_2010_Lucky-numbers-drive-home-sales-_-CTV-Vancouver-News.pdf"
+  ],
+  "ressalvas": "dado de vendas até ~2010; efeito médio; leitura especulativa é dos autores; crença cultural dita como crença"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que discute preço com proprietário e comprador",
+  "territorio": "fora-da-bolha",
+  "funcao": "C2",
+  "crenca_questionada": "preço é só metragem e acabamento",
+  "hipotese": "crença do comprador tem preço mensurável; o preço de revenda depende do que o próximo comprador acredita"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Duas casas iguais, na mesma rua.",
+   "caption": "Duas *casas* | *iguais,* | na mesma rua.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Uma vendeu mais caro só por causa do número na porta.",
+   "caption": "Uma vendeu | mais *caro* | só por causa | do *número* | na porta.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "estudo",
+   "text": "Isso apareceu num estudo no Canadá, com cerca de 117 mil vendas de casas na região de Vancouver.",
+   "caption": "Isso apareceu | num *estudo* | no Canadá, | com cerca de | *117 mil* | vendas de casas | na região | de Vancouver.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "numeros",
+   "text": "Endereço terminado em oito vendeu, em média, dois e meio por cento acima.",
+   "caption": "Endereço | terminado em *oito* | vendeu, | em média, | dois e meio | por cento | *acima.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "numeros",
+   "text": "Terminado em quatro, dois vírgula dois por cento abaixo.",
+   "caption": "Terminado em *quatro,* | dois vírgula dois | por cento | *abaixo.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "cultura",
+   "text": "Para muitas famílias de origem chinesa, o oito lembra prosperidade, e o quatro soa parecido com a palavra morte.",
+   "caption": "Para muitas famílias | de origem chinesa, | o oito lembra | *prosperidade,* | e o quatro | soa parecido | com a palavra | *morte.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cultura",
+   "text": "O efeito apareceu nos bairros com mais moradores dessa origem.",
+   "caption": "O efeito | apareceu | nos *bairros* | com mais moradores | dessa origem.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "virada",
+   "text": "Mas o detalhe mais curioso é outro.",
+   "caption": "Mas o detalhe | mais *curioso* | é outro.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "virada",
+   "text": "O efeito também apareceu em casas revendidas.",
+   "caption": "O efeito | também apareceu | em casas *revendidas.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "virada",
+   "text": "Quem compra pensando em revender também paga pelo oito.",
+   "caption": "Quem compra | pensando em *revender* | também *paga* | pelo oito.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "desfecho",
+   "text": "Então, quando o cliente diz que isso não faz diferença pra ele, lembre:",
+   "caption": "Então, | quando o cliente | diz que isso | não faz *diferença* | pra ele, | lembre:",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s12",
+   "scene": "desfecho",
+   "text": "O preço de amanhã depende do que o próximo comprador acredita.",
+   "caption": "O preço | de *amanhã* | depende | do que o *próximo* | comprador | *acredita.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s13",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "estudo": 0.3,
+  "numeros": 0.3,
+  "cultura": 0.35,
+  "virada": 0.4,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_casas": {
+   "seg": "s1",
+   "word": "casas",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_iguais": {
+   "seg": "s1",
+   "word": "iguais",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_rua": {
+   "seg": "s1",
+   "word": "rua",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_caro": {
+   "seg": "s2",
+   "word": "caro",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_numero": {
+   "seg": "s2",
+   "word": "número",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_porta": {
+   "seg": "s2",
+   "word": "porta",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_estudo": {
+   "seg": "s3",
+   "word": "estudo",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_canada": {
+   "seg": "s3",
+   "word": "Canadá",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_117": {
+   "seg": "s3",
+   "word": "117",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_vendas": {
+   "seg": "s3",
+   "word": "vendas",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_vanc": {
+   "seg": "s3",
+   "word": "Vancouver",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_oito": {
+   "seg": "s4",
+   "word": "oito",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_media": {
+   "seg": "s4",
+   "word": "média",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_acima": {
+   "seg": "s4",
+   "word": "acima",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_quatro": {
+   "seg": "s5",
+   "word": "quatro",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_abaixo": {
+   "seg": "s5",
+   "word": "abaixo",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_familias": {
+   "seg": "s6",
+   "word": "famílias",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_prosp": {
+   "seg": "s6",
+   "word": "prosperidade",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_quatro": {
+   "seg": "s6",
+   "word": "quatro",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_morte": {
+   "seg": "s6",
+   "word": "morte",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_efeito": {
+   "seg": "s7",
+   "word": "efeito",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_bairros": {
+   "seg": "s7",
+   "word": "bairros",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_mas": {
+   "seg": "s8",
+   "word": "Mas",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_curioso": {
+   "seg": "s8",
+   "word": "curioso",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_tambem": {
+   "seg": "s9",
+   "word": "também",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_revendidas": {
+   "seg": "s9",
+   "word": "revendidas",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_compra": {
+   "seg": "s10",
+   "word": "compra",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_revender": {
+   "seg": "s10",
+   "word": "revender",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_paga": {
+   "seg": "s10",
+   "word": "paga",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_cliente": {
+   "seg": "s11",
+   "word": "cliente",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_diferenca": {
+   "seg": "s11",
+   "word": "diferença",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_lembre": {
+   "seg": "s11",
+   "word": "lembre",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_amanha": {
+   "seg": "s12",
+   "word": "amanhã",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_proximo": {
+   "seg": "s12",
+   "word": "próximo",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_acredita": {
+   "seg": "s12",
+   "word": "acredita",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s13",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s13",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s13",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s13",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s13",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s13",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s13",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s13",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s13",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_casas",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "h_iguais",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -1
+  },
+  {
+   "cue": "h_numero",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27
+  },
+  {
+   "cue": "h_porta",
+   "offset": 0.05,
+   "sound": "thump",
+   "gain": -28,
+   "pitch": -3
+  },
+  {
+   "cue": "e_estudo",
+   "offset": -0.05,
+   "sound": "whoosh_fold",
+   "gain": -30
+  },
+  {
+   "cue": "e_117",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -27
+  },
+  {
+   "cue": "e_117",
+   "offset": 0.12,
+   "sound": "click",
+   "gain": -28,
+   "pitch": 3
+  },
+  {
+   "cue": "n_oito",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "n_acima",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "n_quatro",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -27,
+   "pitch": -3
+  },
+  {
+   "cue": "n_abaixo",
+   "offset": 0.0,
+   "sound": "thump",
+   "gain": -28,
+   "pitch": -4
+  },
+  {
+   "cue": "c_familias",
+   "offset": -0.05,
+   "sound": "whoosh_fold",
+   "gain": -30
+  },
+  {
+   "cue": "c_prosp",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28
+  },
+  {
+   "cue": "c_morte",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -29
+  },
+  {
+   "cue": "c_bairros",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28
+  },
+  {
+   "cue": "v_mas",
+   "offset": -0.05,
+   "sound": "whoosh_fold",
+   "gain": -29
+  },
+  {
+   "cue": "v_revendidas",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -28
+  },
+  {
+   "cue": "v_paga",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -28
+  },
+  {
+   "cue": "f_diferenca",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28
+  },
+  {
+   "cue": "f_amanha",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "f_acredita",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -29
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.2,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.7,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "D — a rua"
+   },
+   {
+    "at": "cue:e_estudo",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "G — o dado"
+   },
+   {
+    "at": "cue:v_mas",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "Am — virada"
+   },
+   {
+    "at": "cue:f_cliente",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "F — insight"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T03",
+  "ancoras": {
+   "virada": "cue:v_mas",
+   "descoberta": "cue:v_paga",
+   "insight": "cue:f_amanha"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "maquete-3d",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "fora-da-bolha",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "rua de casas iguais em miniatura: os números nas fachadas e as etiquetas em hastes mostram o dado sem aula; a revenda vira arco de pontos entre donos no mesmo mundo.",
+  "justificativaHorario": "12h: almoço, curiosidade leve com dado forte (PUSH de alcance).",
+  "trilha": "T03",
+  "justificativaTrilha": "descoberta em camadas (dado → causa → virada da revenda): T03 abre na virada.",
+  "data": "2026-11-30",
+  "slot": "12:00",
+  "arquivo": "PRODUCAO/grade/2026-11-30.json"
+ },
+ "modelos4": true,
+ "modelo": 4,
+ "modeloNome": "Maquete 3D"
+}

@@ -178,6 +178,9 @@ def source_audio():
     elif "--regen" in sys.argv or not os.path.exists(SRC) or have != meta:
         from tts_gemini import synth_gemini
         expected_k = [key(w) for w in re.findall(WORD_RE, text)]
+        # o reconhecedor devolve números em dígitos ("2022", "8"): compara também com o texto ORIGINAL (antes da
+        # pronúncia do episódio) e fica com a melhor leitura — sem isso, todo número com pronúncia custava 4 gerações.
+        expected_raw = [key(w) for s in ep["segments"] for w in re.findall(WORD_RE, s["text"])]
         best = None
         for attempt in range(4):
             try:
@@ -193,8 +196,8 @@ def source_audio():
                 break
             x = trim_silence(x, sr, pad=0.02)
             heard_k = [key(w) for w, _ in word_times(x, sr)]
-            ratio = difflib.SequenceMatcher(None, expected_k, heard_k, autojunk=False).ratio()
-            extra = len(heard_k) - len(expected_k)
+            ratio, extra = max((difflib.SequenceMatcher(None, ek, heard_k, autojunk=False).ratio(), len(heard_k) - len(ek))
+                               for ek in (expected_k, expected_raw))
             print(f"tentativa {attempt + 1}: {len(x) / sr:.1f} s, texto reconhecido {ratio:.1%}, palavras a mais {extra}", flush=True)
             if best is None or ratio > best[0]:
                 best = (ratio, x, sr)

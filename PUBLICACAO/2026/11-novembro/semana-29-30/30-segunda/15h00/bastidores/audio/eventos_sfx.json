@@ -1,0 +1,218 @@
+[
+ {
+  "t": 0.28,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "h_cliente"
+ },
+ {
+  "t": 4.76,
+  "sound": "thump",
+  "gain": -27,
+  "cue": "h_mesma"
+ },
+ {
+  "t": 5.8,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "h_vez"
+ },
+ {
+  "t": 7.4,
+  "sound": "whip",
+  "gain": -28,
+  "cue": "p_mudou"
+ },
+ {
+  "t": 9.64,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "p_gostava"
+ },
+ {
+  "t": 12.28,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "p_morar"
+ },
+ {
+  "t": 13.91,
+  "sound": "swish",
+  "gain": -28,
+  "cue": "s_sinais"
+ },
+ {
+  "t": 14.76,
+  "sound": "click",
+  "gain": -26,
+  "cue": "s_mede"
+ },
+ {
+  "t": 15.88,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "s_sofa"
+ },
+ {
+  "t": 16.92,
+  "sound": "tick",
+  "gain": -26,
+  "cue": "s_armario"
+ },
+ {
+  "t": 18.28,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "s_vizinho"
+ },
+ {
+  "t": 19.08,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "s_barulho"
+ },
+ {
+  "t": 20.04,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "s_sol"
+ },
+ {
+  "t": 23.0,
+  "sound": "swish",
+  "gain": -28,
+  "cue": "j_junto"
+ },
+ {
+  "t": 23.64,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "j_mae"
+ },
+ {
+  "t": 24.28,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "j_socio"
+ },
+ {
+  "t": 29.56,
+  "sound": "block",
+  "gain": -27,
+  "cue": "v_atrapalha"
+ },
+ {
+  "t": 31.61,
+  "sound": "hollow",
+  "gain": -28,
+  "cue": "v_tour"
+ },
+ {
+  "t": 32.84,
+  "sound": "impact",
+  "gain": -28,
+  "cue": "v_espaco"
+ },
+ {
+  "t": 35.8,
+  "sound": "click",
+  "gain": -26,
+  "cue": "r_trena"
+ },
+ {
+  "t": 36.6,
+  "sound": "click",
+  "gain": -26,
+  "cue": "r_medidas"
+ },
+ {
+  "t": 37.56,
+  "sound": "click",
+  "gain": -26,
+  "cue": "r_condominio"
+ },
+ {
+  "t": 42.84,
+  "sound": "whoosh_fold",
+  "gain": -29,
+  "cue": "r_noite"
+ },
+ {
+  "t": 45.88,
+  "sound": "impact",
+  "gain": -27,
+  "cue": "f_menos"
+ },
+ {
+  "t": 46.23,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "f_menos"
+ },
+ {
+  "t": 46.97,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 48.15,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 48.76,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 49.43,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 49.51,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_word"
+ },
+ {
+  "t": 49.61,
+  "sound": "whoosh_up",
+  "gain": -28,
+  "cue": "cta_word"
+ },
+ {
+  "t": 49.91,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 50.71,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 50.76,
+  "sound": "pop",
+  "gain": -26,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 51.96,
+  "sound": "click",
+  "gain": -23,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 52.04,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "cta_direct"
+ }
+]

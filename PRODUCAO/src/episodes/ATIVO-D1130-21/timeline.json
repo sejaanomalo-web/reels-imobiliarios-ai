@@ -1,0 +1,1449 @@
+{
+ "id": "ATIVO-D1130-21",
+ "title": "A casa que ninguém conseguiu comprar",
+ "fps": 30,
+ "duration": 55.1,
+ "durationInFrames": 1653,
+ "narrationEnd": 52.876,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 8.525
+  },
+  {
+   "id": "retrato",
+   "start": 8.525,
+   "end": 15.0
+  },
+  {
+   "id": "ofertas",
+   "start": 15.0,
+   "end": 20.865
+  },
+  {
+   "id": "cerco",
+   "start": 20.865,
+   "end": 24.88
+  },
+  {
+   "id": "virada",
+   "start": 24.88,
+   "end": 34.11
+  },
+  {
+   "id": "heranca",
+   "start": 34.11,
+   "end": 37.905
+  },
+  {
+   "id": "desfecho",
+   "start": 37.905,
+   "end": 47.695
+  },
+  {
+   "id": "cta",
+   "start": 47.695,
+   "end": 55.1
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Ofereceram cerca de 1 milhão de dólares por essa casinha.",
+   "start": 0.2,
+   "end": 3.7
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "A dona disse não.",
+   "start": 4.12,
+   "end": 5.68
+  },
+  {
+   "id": "s3",
+   "scene": "hook",
+   "text": "E o prédio foi construído em volta dela.",
+   "start": 5.96,
+   "end": 8.29
+  },
+  {
+   "id": "s4",
+   "scene": "retrato",
+   "text": "Seattle, 2006.",
+   "start": 8.76,
+   "end": 10.37
+  },
+  {
+   "id": "s5",
+   "scene": "retrato",
+   "text": "Edith Macefield tinha 84 anos e morava ali fazia décadas.",
+   "start": 10.52,
+   "end": 14.84
+  },
+  {
+   "id": "s6",
+   "scene": "ofertas",
+   "text": "Uma construtora queria o terreno para um centro comercial.",
+   "start": 15.16,
+   "end": 17.83
+  },
+  {
+   "id": "s7",
+   "scene": "ofertas",
+   "text": "As ofertas subiram. Ela recusou todas.",
+   "start": 18.12,
+   "end": 20.73
+  },
+  {
+   "id": "s8",
+   "scene": "cerco",
+   "text": "A obra seguiu. E a casinha ficou ali, cercada de concreto.",
+   "start": 21.0,
+   "end": 24.68
+  },
+  {
+   "id": "s9",
+   "scene": "virada",
+   "text": "Foi aí que aconteceu o que ninguém esperava.",
+   "start": 25.08,
+   "end": 27.36
+  },
+  {
+   "id": "s10",
+   "scene": "virada",
+   "text": "O chefe da obra, Barry Martin, começou a passar lá.",
+   "start": 27.56,
+   "end": 30.35
+  },
+  {
+   "id": "s11",
+   "scene": "virada",
+   "text": "Levava compras, levava ela ao médico, cuidava dela.",
+   "start": 30.68,
+   "end": 34.02
+  },
+  {
+   "id": "s12",
+   "scene": "heranca",
+   "text": "Quando Edith morreu, em 2008, deixou a casa para ele.",
+   "start": 34.2,
+   "end": 37.69
+  },
+  {
+   "id": "s13",
+   "scene": "desfecho",
+   "text": "A casa que ninguém conseguiu comprar ficou com quem nunca tentou.",
+   "start": 38.12,
+   "end": 41.57
+  },
+  {
+   "id": "s14",
+   "scene": "desfecho",
+   "text": "Quando o proprietário recusa um bom preço, quase nunca é sobre dinheiro.",
+   "start": 41.96,
+   "end": 46.17
+  },
+  {
+   "id": "s15",
+   "scene": "desfecho",
+   "text": "É sobre confiança.",
+   "start": 46.52,
+   "end": 47.51
+  },
+  {
+   "id": "s16",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 47.88,
+   "end": 52.42
+  }
+ ],
+ "cues": {
+  "h_milhao": 1.8,
+  "h_casinha": 3.4,
+  "h_nao": 5.4,
+  "h_predio": 6.28,
+  "h_volta": 7.72,
+  "r_seattle": 8.76,
+  "r_2006": 9.88,
+  "r_edith": 10.52,
+  "r_84": 12.04,
+  "r_decadas": 14.36,
+  "o_construtora": 15.4,
+  "o_terreno": 16.44,
+  "o_comercial": 17.4,
+  "o_subiram": 18.84,
+  "o_recusou": 19.8,
+  "o_todas": 20.44,
+  "x_obra": 21.16,
+  "x_seguiu": 21.56,
+  "x_casinha": 22.36,
+  "x_concreto": 24.28,
+  "v_foi": 25.08,
+  "v_ninguem": 26.6,
+  "v_chefe": 27.72,
+  "v_barry": 28.52,
+  "v_passar": 29.96,
+  "v_compras": 31.24,
+  "v_medico": 32.68,
+  "v_cuidava": 33.24,
+  "t_morreu": 35.0,
+  "t_2008": 35.747,
+  "t_deixou": 36.44,
+  "f_comprar": 39.72,
+  "f_nunca": 41.08,
+  "f_tentou": 41.32,
+  "f_recusa": 43.0,
+  "f_dinheiro": 45.88,
+  "f_confianca": 47.08,
+  "cta_quer": 47.88,
+  "cta_comment": 49.16,
+  "cta_word": 49.8,
+  "cta_tiles": 50.44,
+  "cta_sys": 51.32,
+  "cta_leads": 51.0,
+  "cta_atend": 51.8,
+  "cta_direct": 51.8,
+  "cta_end": 52.42
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 1.16,
+   "words": [
+    {
+     "text": "Ofereceram",
+     "start": 0.2,
+     "end": 1.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.16,
+   "end": 1.56,
+   "words": [
+    {
+     "text": "cerca",
+     "start": 1.16,
+     "end": 1.4,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 1.4,
+     "end": 1.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.56,
+   "end": 2.28,
+   "words": [
+    {
+     "text": "1",
+     "start": 1.56,
+     "end": 1.8,
+     "emph": true
+    },
+    {
+     "text": "milhão",
+     "start": 1.8,
+     "end": 2.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.28,
+   "end": 2.92,
+   "words": [
+    {
+     "text": "de",
+     "start": 2.28,
+     "end": 2.44,
+     "emph": false
+    },
+    {
+     "text": "dólares",
+     "start": 2.44,
+     "end": 2.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.92,
+   "end": 4.12,
+   "words": [
+    {
+     "text": "por",
+     "start": 2.92,
+     "end": 3.24,
+     "emph": false
+    },
+    {
+     "text": "essa",
+     "start": 3.24,
+     "end": 3.4,
+     "emph": false
+    },
+    {
+     "text": "casinha.",
+     "start": 3.4,
+     "end": 3.7,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.12,
+   "end": 4.76,
+   "words": [
+    {
+     "text": "A",
+     "start": 4.12,
+     "end": 4.28,
+     "emph": false
+    },
+    {
+     "text": "dona",
+     "start": 4.28,
+     "end": 4.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.76,
+   "end": 5.96,
+   "words": [
+    {
+     "text": "disse",
+     "start": 4.76,
+     "end": 5.14,
+     "emph": false
+    },
+    {
+     "text": "não.",
+     "start": 5.4,
+     "end": 5.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 5.96,
+   "end": 6.84,
+   "words": [
+    {
+     "text": "E",
+     "start": 5.96,
+     "end": 6.12,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 6.12,
+     "end": 6.28,
+     "emph": false
+    },
+    {
+     "text": "prédio",
+     "start": 6.28,
+     "end": 6.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 6.84,
+   "end": 7.56,
+   "words": [
+    {
+     "text": "foi",
+     "start": 6.84,
+     "end": 7.0,
+     "emph": false
+    },
+    {
+     "text": "construído",
+     "start": 7.0,
+     "end": 7.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 7.56,
+   "end": 8.76,
+   "words": [
+    {
+     "text": "em",
+     "start": 7.56,
+     "end": 7.72,
+     "emph": false
+    },
+    {
+     "text": "volta",
+     "start": 7.72,
+     "end": 8.04,
+     "emph": true
+    },
+    {
+     "text": "dela.",
+     "start": 8.04,
+     "end": 8.29,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 8.76,
+   "end": 9.88,
+   "words": [
+    {
+     "text": "Seattle,",
+     "start": 8.76,
+     "end": 9.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 9.88,
+   "end": 10.52,
+   "words": [
+    {
+     "text": "2006.",
+     "start": 9.88,
+     "end": 10.37,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 10.52,
+   "end": 11.8,
+   "words": [
+    {
+     "text": "Edith",
+     "start": 10.52,
+     "end": 10.59,
+     "emph": true
+    },
+    {
+     "text": "Macefield",
+     "start": 10.977,
+     "end": 11.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 11.8,
+   "end": 13.0,
+   "words": [
+    {
+     "text": "tinha",
+     "start": 11.8,
+     "end": 12.04,
+     "emph": false
+    },
+    {
+     "text": "84",
+     "start": 12.04,
+     "end": 12.68,
+     "emph": true
+    },
+    {
+     "text": "anos",
+     "start": 12.68,
+     "end": 13.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 13.0,
+   "end": 13.96,
+   "words": [
+    {
+     "text": "e",
+     "start": 13.0,
+     "end": 13.24,
+     "emph": false
+    },
+    {
+     "text": "morava",
+     "start": 13.24,
+     "end": 13.64,
+     "emph": false
+    },
+    {
+     "text": "ali",
+     "start": 13.64,
+     "end": 13.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 13.96,
+   "end": 15.16,
+   "words": [
+    {
+     "text": "fazia",
+     "start": 13.96,
+     "end": 14.36,
+     "emph": false
+    },
+    {
+     "text": "décadas.",
+     "start": 14.36,
+     "end": 14.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 15.16,
+   "end": 16.04,
+   "words": [
+    {
+     "text": "Uma",
+     "start": 15.16,
+     "end": 15.4,
+     "emph": false
+    },
+    {
+     "text": "construtora",
+     "start": 15.4,
+     "end": 16.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 16.04,
+   "end": 16.84,
+   "words": [
+    {
+     "text": "queria",
+     "start": 16.04,
+     "end": 16.36,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 16.36,
+     "end": 16.44,
+     "emph": false
+    },
+    {
+     "text": "terreno",
+     "start": 16.44,
+     "end": 16.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 16.84,
+   "end": 17.4,
+   "words": [
+    {
+     "text": "para",
+     "start": 16.84,
+     "end": 17.0,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 17.0,
+     "end": 17.08,
+     "emph": false
+    },
+    {
+     "text": "centro",
+     "start": 17.08,
+     "end": 17.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 17.4,
+   "end": 18.12,
+   "words": [
+    {
+     "text": "comercial.",
+     "start": 17.4,
+     "end": 17.83,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 18.12,
+   "end": 18.84,
+   "words": [
+    {
+     "text": "As",
+     "start": 18.12,
+     "end": 18.36,
+     "emph": false
+    },
+    {
+     "text": "ofertas",
+     "start": 18.36,
+     "end": 18.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 18.84,
+   "end": 19.48,
+   "words": [
+    {
+     "text": "subiram.",
+     "start": 18.84,
+     "end": 19.18,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 19.48,
+   "end": 20.44,
+   "words": [
+    {
+     "text": "Ela",
+     "start": 19.48,
+     "end": 19.8,
+     "emph": false
+    },
+    {
+     "text": "recusou",
+     "start": 19.8,
+     "end": 20.19,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 20.44,
+   "end": 21.0,
+   "words": [
+    {
+     "text": "todas.",
+     "start": 20.44,
+     "end": 20.73,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 21.0,
+   "end": 21.56,
+   "words": [
+    {
+     "text": "A",
+     "start": 21.0,
+     "end": 21.16,
+     "emph": false
+    },
+    {
+     "text": "obra",
+     "start": 21.16,
+     "end": 21.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 21.56,
+   "end": 22.12,
+   "words": [
+    {
+     "text": "seguiu.",
+     "start": 21.56,
+     "end": 21.97,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 22.12,
+   "end": 22.84,
+   "words": [
+    {
+     "text": "E",
+     "start": 22.12,
+     "end": 22.28,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 22.28,
+     "end": 22.36,
+     "emph": false
+    },
+    {
+     "text": "casinha",
+     "start": 22.36,
+     "end": 22.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 22.84,
+   "end": 23.56,
+   "words": [
+    {
+     "text": "ficou",
+     "start": 22.84,
+     "end": 23.08,
+     "emph": false
+    },
+    {
+     "text": "ali,",
+     "start": 23.08,
+     "end": 23.18,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 23.56,
+   "end": 24.12,
+   "words": [
+    {
+     "text": "cercada",
+     "start": 23.56,
+     "end": 23.74,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 24.12,
+   "end": 25.08,
+   "words": [
+    {
+     "text": "de",
+     "start": 24.12,
+     "end": 24.28,
+     "emph": false
+    },
+    {
+     "text": "concreto.",
+     "start": 24.28,
+     "end": 24.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 25.08,
+   "end": 25.64,
+   "words": [
+    {
+     "text": "Foi",
+     "start": 25.08,
+     "end": 25.32,
+     "emph": false
+    },
+    {
+     "text": "aí",
+     "start": 25.32,
+     "end": 25.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 25.64,
+   "end": 26.36,
+   "words": [
+    {
+     "text": "que",
+     "start": 25.64,
+     "end": 25.8,
+     "emph": false
+    },
+    {
+     "text": "aconteceu",
+     "start": 25.8,
+     "end": 26.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 26.36,
+   "end": 27.0,
+   "words": [
+    {
+     "text": "o",
+     "start": 26.36,
+     "end": 26.52,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 26.52,
+     "end": 26.6,
+     "emph": false
+    },
+    {
+     "text": "ninguém",
+     "start": 26.6,
+     "end": 27.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 27.0,
+   "end": 27.56,
+   "words": [
+    {
+     "text": "esperava.",
+     "start": 27.0,
+     "end": 27.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 27.56,
+   "end": 28.52,
+   "words": [
+    {
+     "text": "O",
+     "start": 27.56,
+     "end": 27.72,
+     "emph": false
+    },
+    {
+     "text": "chefe",
+     "start": 27.72,
+     "end": 28.04,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 28.04,
+     "end": 28.12,
+     "emph": true
+    },
+    {
+     "text": "obra,",
+     "start": 28.12,
+     "end": 28.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 28.52,
+   "end": 29.48,
+   "words": [
+    {
+     "text": "Barry",
+     "start": 28.52,
+     "end": 29.0,
+     "emph": false
+    },
+    {
+     "text": "Martin,",
+     "start": 29.0,
+     "end": 29.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 29.48,
+   "end": 29.88,
+   "words": [
+    {
+     "text": "começou",
+     "start": 29.48,
+     "end": 29.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 29.88,
+   "end": 30.68,
+   "words": [
+    {
+     "text": "a",
+     "start": 29.88,
+     "end": 29.96,
+     "emph": false
+    },
+    {
+     "text": "passar",
+     "start": 29.96,
+     "end": 30.28,
+     "emph": true
+    },
+    {
+     "text": "lá.",
+     "start": 30.28,
+     "end": 30.35,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 30.68,
+   "end": 31.8,
+   "words": [
+    {
+     "text": "Levava",
+     "start": 30.68,
+     "end": 31.24,
+     "emph": false
+    },
+    {
+     "text": "compras,",
+     "start": 31.24,
+     "end": 31.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 31.8,
+   "end": 32.44,
+   "words": [
+    {
+     "text": "levava",
+     "start": 31.8,
+     "end": 32.28,
+     "emph": false
+    },
+    {
+     "text": "ela",
+     "start": 32.28,
+     "end": 32.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 32.44,
+   "end": 33.24,
+   "words": [
+    {
+     "text": "ao",
+     "start": 32.44,
+     "end": 32.68,
+     "emph": false
+    },
+    {
+     "text": "médico,",
+     "start": 32.68,
+     "end": 32.94,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 33.24,
+   "end": 34.2,
+   "words": [
+    {
+     "text": "cuidava",
+     "start": 33.24,
+     "end": 33.8,
+     "emph": true
+    },
+    {
+     "text": "dela.",
+     "start": 33.8,
+     "end": 34.02,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 34.2,
+   "end": 35.4,
+   "words": [
+    {
+     "text": "Quando",
+     "start": 34.2,
+     "end": 34.27,
+     "emph": false
+    },
+    {
+     "text": "Edith",
+     "start": 34.52,
+     "end": 35.0,
+     "emph": false
+    },
+    {
+     "text": "morreu,",
+     "start": 35.0,
+     "end": 35.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 35.4,
+   "end": 36.44,
+   "words": [
+    {
+     "text": "em",
+     "start": 35.4,
+     "end": 35.747,
+     "emph": false
+    },
+    {
+     "text": "2008,",
+     "start": 35.747,
+     "end": 36.19,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 36.44,
+   "end": 37.32,
+   "words": [
+    {
+     "text": "deixou",
+     "start": 36.44,
+     "end": 36.92,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 36.92,
+     "end": 37.0,
+     "emph": true
+    },
+    {
+     "text": "casa",
+     "start": 37.0,
+     "end": 37.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "start": 37.32,
+   "end": 38.12,
+   "words": [
+    {
+     "text": "para",
+     "start": 37.32,
+     "end": 37.56,
+     "emph": false
+    },
+    {
+     "text": "ele.",
+     "start": 37.56,
+     "end": 37.69,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 38.12,
+   "end": 38.68,
+   "words": [
+    {
+     "text": "A",
+     "start": 38.12,
+     "end": 38.36,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 38.36,
+     "end": 38.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 38.68,
+   "end": 39.16,
+   "words": [
+    {
+     "text": "que",
+     "start": 38.68,
+     "end": 38.84,
+     "emph": false
+    },
+    {
+     "text": "ninguém",
+     "start": 38.84,
+     "end": 39.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 39.16,
+   "end": 40.28,
+   "words": [
+    {
+     "text": "conseguiu",
+     "start": 39.16,
+     "end": 39.72,
+     "emph": false
+    },
+    {
+     "text": "comprar",
+     "start": 39.72,
+     "end": 40.06,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 40.28,
+   "end": 41.08,
+   "words": [
+    {
+     "text": "ficou",
+     "start": 40.28,
+     "end": 40.6,
+     "emph": false
+    },
+    {
+     "text": "com",
+     "start": 40.6,
+     "end": 40.76,
+     "emph": false
+    },
+    {
+     "text": "quem",
+     "start": 40.76,
+     "end": 41.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "start": 41.08,
+   "end": 41.96,
+   "words": [
+    {
+     "text": "nunca",
+     "start": 41.08,
+     "end": 41.32,
+     "emph": true
+    },
+    {
+     "text": "tentou.",
+     "start": 41.32,
+     "end": 41.57,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 41.96,
+   "end": 43.0,
+   "words": [
+    {
+     "text": "Quando",
+     "start": 41.96,
+     "end": 42.04,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 42.28,
+     "end": 42.36,
+     "emph": false
+    },
+    {
+     "text": "proprietário",
+     "start": 42.36,
+     "end": 43.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 43.0,
+   "end": 43.56,
+   "words": [
+    {
+     "text": "recusa",
+     "start": 43.0,
+     "end": 43.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 43.56,
+   "end": 44.6,
+   "words": [
+    {
+     "text": "um",
+     "start": 43.56,
+     "end": 43.64,
+     "emph": false
+    },
+    {
+     "text": "bom",
+     "start": 43.64,
+     "end": 43.88,
+     "emph": false
+    },
+    {
+     "text": "preço,",
+     "start": 43.88,
+     "end": 44.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 44.6,
+   "end": 45.4,
+   "words": [
+    {
+     "text": "quase",
+     "start": 44.6,
+     "end": 45.08,
+     "emph": false
+    },
+    {
+     "text": "nunca",
+     "start": 45.08,
+     "end": 45.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "start": 45.4,
+   "end": 46.52,
+   "words": [
+    {
+     "text": "é",
+     "start": 45.4,
+     "end": 45.56,
+     "emph": false
+    },
+    {
+     "text": "sobre",
+     "start": 45.56,
+     "end": 45.88,
+     "emph": false
+    },
+    {
+     "text": "dinheiro.",
+     "start": 45.88,
+     "end": 46.17,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s15",
+   "start": 46.52,
+   "end": 47.08,
+   "words": [
+    {
+     "text": "É",
+     "start": 46.52,
+     "end": 46.76,
+     "emph": false
+    },
+    {
+     "text": "sobre",
+     "start": 46.76,
+     "end": 47.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s15",
+   "start": 47.08,
+   "end": 47.88,
+   "words": [
+    {
+     "text": "confiança.",
+     "start": 47.08,
+     "end": 47.51,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s16",
+   "start": 47.88,
+   "end": 49.16,
+   "words": [
+    {
+     "text": "Se",
+     "start": 47.88,
+     "end": 48.04,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 48.04,
+     "end": 48.28,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 48.28,
+     "end": 48.44,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 48.44,
+     "end": 48.95,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s16",
+   "start": 49.16,
+   "end": 50.28,
+   "words": [
+    {
+     "text": "comente",
+     "start": 49.16,
+     "end": 49.8,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 49.8,
+     "end": 50.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s16",
+   "start": 50.28,
+   "end": 51.32,
+   "words": [
+    {
+     "text": "e",
+     "start": 50.28,
+     "end": 50.44,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 50.44,
+     "end": 51.0,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 51.0,
+     "end": 51.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s16",
+   "start": 51.32,
+   "end": 52.92,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 51.32,
+     "end": 51.8,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 51.8,
+     "end": 52.42,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

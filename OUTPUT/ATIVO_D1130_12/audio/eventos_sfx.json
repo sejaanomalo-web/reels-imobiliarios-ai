@@ -1,0 +1,176 @@
+[
+ {
+  "t": 0.6,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "h_casas"
+ },
+ {
+  "t": 1.0,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "h_iguais"
+ },
+ {
+  "t": 5.32,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "h_numero"
+ },
+ {
+  "t": 5.93,
+  "sound": "thump",
+  "gain": -28,
+  "cue": "h_porta"
+ },
+ {
+  "t": 7.43,
+  "sound": "whoosh_fold",
+  "gain": -30,
+  "cue": "e_estudo"
+ },
+ {
+  "t": 9.336,
+  "sound": "click",
+  "gain": -27,
+  "cue": "e_117"
+ },
+ {
+  "t": 9.456,
+  "sound": "click",
+  "gain": -28,
+  "cue": "e_117"
+ },
+ {
+  "t": 13.96,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "n_oito"
+ },
+ {
+  "t": 16.28,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "n_acima"
+ },
+ {
+  "t": 17.619,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "n_quatro"
+ },
+ {
+  "t": 19.64,
+  "sound": "thump",
+  "gain": -28,
+  "cue": "n_abaixo"
+ },
+ {
+  "t": 20.87,
+  "sound": "whoosh_fold",
+  "gain": -30,
+  "cue": "c_familias"
+ },
+ {
+  "t": 23.4,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "c_prosp"
+ },
+ {
+  "t": 26.28,
+  "sound": "hollow",
+  "gain": -29,
+  "cue": "c_morte"
+ },
+ {
+  "t": 27.96,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "c_bairros"
+ },
+ {
+  "t": 30.07,
+  "sound": "whoosh_fold",
+  "gain": -29,
+  "cue": "v_mas"
+ },
+ {
+  "t": 34.28,
+  "sound": "swish",
+  "gain": -28,
+  "cue": "v_revendidas"
+ },
+ {
+  "t": 37.56,
+  "sound": "impact",
+  "gain": -28,
+  "cue": "v_paga"
+ },
+ {
+  "t": 41.0,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "f_diferenca"
+ },
+ {
+  "t": 43.24,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "f_amanha"
+ },
+ {
+  "t": 45.64,
+  "sound": "shimmer",
+  "gain": -29,
+  "cue": "f_acredita"
+ },
+ {
+  "t": 46.54,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 47.36,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 48.12,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 48.71,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 48.72,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_word"
+ },
+ {
+  "t": 49.19,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 49.83,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 50.58,
+  "sound": "shimmer",
+  "gain": -27,
+  "cue": "cta_direct"
+ }
+]

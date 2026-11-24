@@ -94,9 +94,9 @@
       "justificativaHorario": "12h: almoço, curiosidade leve com dado forte (PUSH de alcance).",
       "trilha": "T03",
       "justificativaTrilha": "descoberta em camadas (dado → causa → virada da revenda): T03 abre na virada.",
-      "episodio": "",
+      "episodio": "ATIVO-D1130-12",
       "roteiro": "ROTEIROS/ESTEIRA/2026-11-30/ATIVO-D1130-12_o_numero_na_porta.md",
-      "status": "roteiro_aprovado",
+      "status": "producao",
       "motivo": "",
       "resultados": {}
     },
@@ -115,11 +115,12 @@
       "justificativaHorario": "15h: tarde de visitas; PULL prático para quem está na rua.",
       "trilha": "T05",
       "justificativaTrilha": "lista de sinais e ações pede pulso prático, sem drama.",
-      "episodio": "",
+      "episodio": "ATIVO-D1130-15",
       "roteiro": "ROTEIROS/ESTEIRA/2026-11-30/ATIVO-D1130-15_a_segunda_visita.md",
-      "status": "roteiro_aprovado",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/11-novembro/semana-29-30/30-segunda/15h00"
     },
     {
       "horario": "18:00",
@@ -136,9 +137,9 @@
       "justificativaHorario": "18h: fim do dia, premissa curiosa (E SE) para o pico de uso.",
       "trilha": "T01",
       "justificativaTrilha": "muita informação técnica seguida; T01 sustenta sem competir com datas e letras.",
-      "episodio": "",
+      "episodio": "ATIVO-D1130-18",
       "roteiro": "ROTEIROS/ESTEIRA/2026-11-30/ATIVO-D1130-18_a_conta_de_luz_no_anuncio.md",
-      "status": "roteiro_aprovado",
+      "status": "producao",
       "motivo": "",
       "resultados": {}
     },
@@ -157,9 +158,9 @@
       "justificativaHorario": "21h: noite, história emocional para assistir até o fim.",
       "trilha": "T02",
       "justificativaTrilha": "arco íntimo → caloroso; T02 cresce na virada humana.",
-      "episodio": "",
+      "episodio": "ATIVO-D1130-21",
       "roteiro": "ROTEIROS/ESTEIRA/2026-11-30/ATIVO-D1130-21_a_casa_que_ninguem_comprou.md",
-      "status": "roteiro_aprovado",
+      "status": "producao",
       "motivo": "",
       "resultados": {}
     }
