@@ -30,7 +30,7 @@
 9. **Prévia e revisão** — render `--scale=0.5`, folha de quadros, correções.
 10. **Som e render final** — com `music.trilha`: `adaptar_trilha.py <EP>` (relatório de cortes/âncoras) + `build_audio` mixagem v2 (portão Whisper); sem trilha: `build_audio` (−15 LUFS), render 1080×1920, `sistema_visual_check --quadros`.
 11. **Entregas** — capa, SRT, `legenda_instagram.txt`, relatório de QA.
-12. **Publicação** — `publicar.py <EP> --quando "<data e horário do slot>"`, commit/push, conferir fila (Instagram, YouTube, TikTok).
+12. **Publicação** — `publicar.py <EP> --quando "<data e horário do slot>"`, commit/push, conferir fila (Instagram, YouTube, TikTok). Ao terminar, **enviar o MP4 e a capa ao cliente no chat** (`SendUserFile`), mesmo que já esteja programado (ordem de 24/11/2026).
 
 ### B. Novo modelo / skill de vídeo — 8 etapas
 1. Análise das referências (metadados, cortes, folha de quadros, detalhe, áudio).
@@ -63,4 +63,4 @@ Título: `[Grade AAAA-MM-DD] n/10 · …`. Depois da etapa 7, cada vídeo ganha 
 7. **Roteiros** — Skill Mestre etapas 01–10, uma ideia por vez (substituir no mesmo território se reprovar) → **Aprovação 2 (lote)**; slots em `roteiro_aprovado`.
 8. **Match horário × modelo × trilha** — justificativas no slot (`trilhas.py sugerir`); `grade.py validar` 0 erro (guardrails de modelo e de trilha).
 9. **Produção** — um plano A por vídeo; slot vazio é melhor que vídeo fraco.
-10. **Programação e aprendizado** — `publicar.py` no horário do slot; depois `grade.py resultado` com as métricas reais.
+10. **Programação e aprendizado** — `publicar.py` no horário do slot; enviar os vídeos do dia ao cliente no chat (`SendUserFile`), mesmo programados; depois `grade.py resultado` com as métricas reais.
