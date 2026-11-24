@@ -684,7 +684,15 @@
     "bright": 0.6,
     "label": "Cadd9 — sistema"
    }
-  ]
+  ],
+  "trilha": "T03",
+  "ancoras": {
+   "virada": "cue:r_modelo",
+   "tensao": "cue:q_como",
+   "descoberta": "cue:a_catalogo",
+   "insight": "cue:f_escuro"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
  },
  "modelos4": true,
  "modelo": 3,
@@ -697,7 +705,7 @@
   "pushPull": "push",
   "justificativaModelo": "a história É um catálogo de plantas: cada página vira prancha, as peças viram cotas, o trem vira rota; a planta técnica conta isso sem esforço",
   "justificativaHorario": "18h: narrativa de alto apelo na volta para casa no domingo",
-  "trilha": "",
+  "trilha": "T03",
   "justificativaTrilha": "trilha sintetizada: as faixas do catálogo estão em `referencia` (sem licença); sugestão de catálogo registrada na ficha musical",
   "data": "2026-11-29",
   "slot": "18:00",

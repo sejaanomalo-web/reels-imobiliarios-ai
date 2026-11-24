@@ -646,7 +646,14 @@
     "bright": 0.6,
     "label": "Cadd9 — sistema"
    }
-  ]
+  ],
+  "trilha": "T02",
+  "ancoras": {
+   "virada": "cue:p_some",
+   "descoberta": "cue:f_ficha",
+   "insight": "cue:t_visita"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
  },
  "modelos4": true,
  "modelo": 2,
@@ -659,7 +666,7 @@
   "pushPull": "pull",
   "justificativaModelo": "tese autoral com virada (EUA × Brasil); o noir do pictograma sustenta a reflexão sem dados densos",
   "justificativaHorario": "21h: conteúdo autoral e reflexivo à noite, maior recompensa",
-  "trilha": "",
+  "trilha": "T02",
   "justificativaTrilha": "trilha sintetizada: as faixas do catálogo estão em `referencia` (sem licença); sugestão de catálogo registrada na ficha musical",
   "data": "2026-11-29",
   "slot": "21:00",

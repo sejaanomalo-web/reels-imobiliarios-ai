@@ -20,7 +20,7 @@ import sys
 PROD = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 REPO = os.path.dirname(PROD)
 CAT = os.path.join(REPO, "TRILHAS", "trilhas.json")
-STATUS_PUBLICAVEL = ("licenciada", "original")
+STATUS_PUBLICAVEL = ("licenciada", "autorizada", "original")
 AFIN = {"muito": 3.0, "compativel": 2.0, "contextual": 1.0, "evitar": -5.0}
 TERRITORIOS = ("agora", "e-se", "fora-da-bolha", "corretor-real", "historia", "ideia")
 MODELOS = ("cartoon-explicativo", "pictograma-cinematografico", "planta-tecnica", "maquete-3d")

@@ -195,6 +195,8 @@ import { D1129_18, timeline as d1129_18 } from "./episodes/ATIVO-D1129-18/Episod
 import { D1129_18Cover } from "./episodes/ATIVO-D1129-18/Cover";
 import { D1129_21, timeline as d1129_21 } from "./episodes/ATIVO-D1129-21/Episode";
 import { D1129_21Cover } from "./episodes/ATIVO-D1129-21/Cover";
+import { D1129_15, timeline as d1129_15 } from "./episodes/ATIVO-D1129-15/Episode";
+import { D1129_15Cover } from "./episodes/ATIVO-D1129-15/Cover";
 import { MostruarioTokens, MostruarioCertoErrado } from "./sistema-visual/Mostruario";
 import { GTA6_11, timeline as gta6_11 } from "./episodes/ATIVO-GTA6-11/Episode";
 import { GTA6_11Cover } from "./episodes/ATIVO-GTA6-11/Cover";
@@ -830,6 +832,8 @@ export const RemotionRoot: React.FC = () => (
       <Still id="ATIVO-D1129-18-Capa" component={D1129_18Cover} width={VIDEO.width} height={VIDEO.height} />
       <Composition id="ATIVO-D1129-21" component={D1129_21} width={VIDEO.width} height={VIDEO.height} fps={d1129_21.fps} durationInFrames={d1129_21.durationInFrames} defaultProps={{ withAudio: true }} />
       <Still id="ATIVO-D1129-21-Capa" component={D1129_21Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-D1129-15" component={D1129_15} width={VIDEO.width} height={VIDEO.height} fps={d1129_15.fps} durationInFrames={d1129_15.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-D1129-15-Capa" component={D1129_15Cover} width={VIDEO.width} height={VIDEO.height} />
       <Still id="ATIVO-PICTO-01-Capa" component={PICTO_01Cover} width={VIDEO.width} height={VIDEO.height} />
       {/* Sistema Visual ATIVO (Nível 1): mostruário que gera MARCA/sistema-visual/exemplos/ */}
       <Still id="ATIVO-SISTEMA-VISUAL-Tokens" component={MostruarioTokens} width={VIDEO.width} height={VIDEO.height} />

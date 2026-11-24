@@ -1,6 +1,6 @@
 """Lote D1129 — dia-piloto da Esteira Editorial Diária (grade PRODUCAO/grade/2026-11-29.json).
 Gera os episode.json dos 3 roteiros aprovados (ROTEIROS/ESTEIRA/2026-11-29/) com a CTA curta vigente (Skill Mestre).
-Uso (a partir de PRODUCAO/): python3 lotes/D1129/mk_D1129.py [12|18|21 ...]
+Uso (a partir de PRODUCAO/): python3 lotes/D1129/mk_D1129.py [12|15|18|21 ...]  (15 = Cartoon, acrescentado em 24/11/2026)
 """
 import json
 import os
@@ -194,7 +194,58 @@ def ep21():
     ajusta("ATIVO-D1129-21", tail=3.8, gain=-28, duck=-6, bpm=70, pron={"2024": "dois mil e vinte e quatro"})  # skill do Pictograma: logo parado ~2 s, pad escuro
 
 
+def ep15():
+    S = [
+        ("hook", "Todo ano tem corretor que, em dezembro, pendura a plaquinha: volto em janeiro.",
+         "Todo ano | tem corretor | que, em *dezembro,* | pendura a plaquinha: | *volto em janeiro.*"),
+        ("hook", "Afinal, dezembro é mês morto. Será?", "Afinal, | dezembro é | *mês morto.* | *Será?*"),
+        ("dinheiro", "O décimo terceiro deve colocar quase 400 bilhões de reais na economia este ano, segundo o Dieese.",
+         "O *décimo terceiro* | deve colocar | quase *400 bilhões* | de reais | na economia | este ano, | segundo o Dieese."),
+        ("dinheiro", "E o prazo das parcelas vai até 18 de dezembro.", "E o prazo | das parcelas | vai até | *18 de dezembro.*"),
+        ("credito", "No financiamento com dinheiro da poupança, dezembro de 2024 foi o melhor dezembro da história.",
+         "No *financiamento* | com dinheiro | da poupança, | dezembro de 2024 | foi o *melhor dezembro* | da história."),
+        ("aluguel", "E no aluguel, a procura costuma subir no começo do ano, quando contratos vencem e as aulas voltam.",
+         "E no *aluguel,* | a procura | costuma *subir* | no começo do ano, | quando contratos | *vencem* | e as aulas | *voltam.*"),
+        ("virada", "Ou seja: dezembro não é o mês em que o cliente some.", "Ou seja: | dezembro *não* é | o mês | em que o cliente | *some.*"),
+        ("virada", "É o mês em que ele decide.", "É o mês | em que ele | *decide.*"),
+        ("desfecho", "E em janeiro, ele já sabe pra quem vai ligar.", "E em *janeiro,* | ele já sabe | pra quem | vai *ligar.*"),
+        ("desfecho", "Férias, sim. Sumiço, não.", "*Férias, sim.* | Sumiço, *não.*"),
+    ]
+    L = [("h_ano", "s1", "ano"), ("h_dez", "s1", "dezembro"), ("h_placa", "s1", "plaquinha"), ("h_volto", "s1", "volto"),
+         ("h_morto", "s2", "morto"), ("h_sera", "s2", "Será"),
+         ("d_decimo", "s3", "décimo"), ("d_400", "s3", "400"), ("d_economia", "s3", "economia"), ("d_dieese", "s3", "Dieese"),
+         ("d_prazo", "s4", "prazo"), ("d_18", "s4", "18"),
+         ("c_fin", "s5", "financiamento"), ("c_poup", "s5", "poupança"), ("c_2024", "s5", "2024"), ("c_melhor", "s5", "melhor"),
+         ("a_aluguel", "s6", "aluguel"), ("a_subir", "s6", "subir"), ("a_contratos", "s6", "contratos"), ("a_aulas", "s6", "aulas"),
+         ("v_ouseja", "s7", "Ou"), ("v_some", "s7", "some"), ("v_decide", "s8", "decide"),
+         ("f_janeiro", "s9", "janeiro"), ("f_ligar", "s9", "ligar"), ("f_ferias", "s10", "Férias"), ("f_sumico", "s10", "Sumiço")]
+    sfx = [fx("h_placa", 0.0, "pop", -26), fx("h_volto", 0.05, "thump", -28), fx("h_morto", 0.0, "impact", -27),
+           fx("d_decimo", -0.05, "whip", -29), fx("d_400", 0.0, "click", -26), fx("d_400", 0.12, "click", -27, pitch=3), fx("d_400", 0.24, "click", -28, pitch=6),
+           fx("d_prazo", -0.05, "swish", -28), fx("d_18", 0.0, "click", -24, pitch=4),
+           fx("c_fin", -0.05, "whip", -29), fx("c_2024", 0.0, "tick", -26), fx("c_melhor", 0.0, "impact", -27),
+           fx("a_aluguel", -0.05, "swish", -28), fx("a_contratos", 0.0, "pop", -26), fx("a_aulas", 0.0, "pop", -26, pitch=3),
+           fx("v_some", 0.05, "hollow", -28), fx("v_decide", 0.0, "impact", -27), fx("v_decide", 0.08, "pin", -27),
+           fx("f_ligar", 0.0, "click", -25), fx("f_ligar", 0.15, "click", -26, pitch=3), fx("f_ferias", 0.0, "impact", -27),
+           fx("f_sumico", 0.0, "block", -28), fx("f_sumico", 0.35, "shimmer", -28)]
+    prog = [{"at": 0, "notes": [29, 41, 48, 53, 57], "root": 41, "dens": 1, "bright": 0.5, "label": "F — a placa"},
+            {"at": "cue:d_decimo", "notes": [24, 36, 43, 48, 52], "root": 36, "dens": 2, "bright": 0.55, "label": "C — os dados"},
+            {"at": "cue:v_ouseja", "notes": [33, 45, 52, 57, 60], "root": 45, "dens": 1, "bright": 0.45, "label": "Am — virada"},
+            {"at": "cue:f_janeiro", "notes": [31, 43, 50, 55, 59], "root": 43, "dens": 2, "bright": 0.6, "label": "G — punchline"}]
+    diag = dict(publico_situacao="corretor que 'desliga' em dezembro achando que o mercado para", territorio="corretor-real", funcao="C2 + C1",
+                crenca_questionada="dezembro é mês morto", hipotese="dezembro é o mês em que o cliente decide; quem some fica fora da lista de janeiro")
+    apur = dict(fato="Dieese (13/11/2026): 13º pode injetar R$ 399,1 bi em 2026 (~99,7 mi de pessoas; parcelas até 30/11 e 18/12). Abecip: SBPE R$ 17,61 bi em dez/2024, maior volume da série para um dezembro (+18,1% s/ nov). QuintoAndar: procura por aluguel sobe no início do ano (contratos que vencem, volta às aulas).",
+                verificado_em="2026-11-24",
+                fontes=["https://www.dieese.org.br/notaaimprensa/2026/decimoTerceiroSalario2026.html", "https://abecip.org.br/admin/assets/uploads/anexos/data-abecip-2024-12.pdf",
+                        "https://sindusconsp.com.br/credito-imobiliario-cresceu-223-em-2024/", "https://www.quintoandar.com.br/guias/?p=2449926"],
+                ressalvas="13º: volume do ano (não necessariamente concentrado em nov/dez); Abecip: recorde em valor, não em unidades; aluguel sem percentual; 'em janeiro ele já sabe pra quem vai ligar' é interpretação")
+    lead = {"dinheiro": 0.3, "credito": 0.3, "aluguel": 0.3, "virada": 0.35, "desfecho": 0.3, "cta": 0.3}
+    build("ATIVO-D1129-15", "ATIVO_D1129_15", "D1129", ROT + "ATIVO-D1129-15_dezembro_nao_e_mes_morto.md", "Dezembro não é mês morto",
+          S, L, sfx, prog, {}, diag, apur, lead, formato="cartoon-explicativo", grade=GRADE, slot="15:00", cta_curta=True,
+          trilha="T05", ancoras={"virada": "cue:v_ouseja", "insight": "cue:v_decide", "resolucao": "cue:f_ferias"})
+    ajusta("ATIVO-D1129-15", pron={"2024": "dois mil e vinte e quatro"})
+
+
 if __name__ == "__main__":
-    alvo = sys.argv[1:] or ["12", "18", "21"]
+    alvo = sys.argv[1:] or ["12", "18", "21", "15"]
     for a in alvo:
-        {"12": ep12, "18": ep18, "21": ep21}[a]()
+        {"12": ep12, "15": ep15, "18": ep18, "21": ep21}[a]()

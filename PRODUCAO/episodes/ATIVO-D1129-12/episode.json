@@ -663,7 +663,14 @@
     "bright": 0.6,
     "label": "Cadd9 — sistema"
    }
-  ]
+  ],
+  "trilha": "T01",
+  "ancoras": {
+   "tensao": "cue:p_pressa",
+   "virada": "cue:k_creci",
+   "insight": "cue:f_golpista"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
  },
  "modelos4": true,
  "modelo": 4,
@@ -676,7 +683,7 @@
   "pushPull": "push",
   "justificativaModelo": "notícia com mecanismo entre partes (imóvel real → fotos copiadas → anúncio falso → Pix → família na porta errada): a maquete mostra o fluxo e quem decide o quê",
   "justificativaHorario": "12h: notícia acessível no domingo, antes de quem planeja a viagem de férias; 08h já está ocupado",
-  "trilha": "",
+  "trilha": "T01",
   "justificativaTrilha": "trilha sintetizada: as faixas do catálogo estão em `referencia` (sem licença); sugestão de catálogo registrada na ficha musical",
   "data": "2026-11-29",
   "slot": "12:00",

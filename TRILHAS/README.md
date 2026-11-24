@@ -21,12 +21,13 @@ A música participa da narrativa (curiosidade → tensão → desenvolvimento �
 ## Licença: a trava
 
 `licenca.status`:
-- `referencia`: **sem licença comprovada**. É o status das 5 faixas de 23/11/2026, que vieram de vídeos de terceiros. Só teste interno.
+- `referencia`: **sem licença comprovada**. Foi o status das 5 faixas em 23/11/2026; em 24/11/2026 passaram a `autorizada`. Só teste interno.
 - `licenciada`: licença comercial comprovada para **Instagram, TikTok e YouTube**, incluindo publicação por API com o áudio embutido. Comprovante em `licencas/`.
 - `original`: composta para a ATIVO (por código ou encomenda).
+- `autorizada`: autorização **direta do autor** para uso nas 3 redes, informada pelo cliente, registrada em `licencas/` (24/11/2026: T01–T05). Publicável; o risco residual é o reconhecimento automático de áudio das plataformas, acompanhado depois de cada publicação.
 - `bloqueada`: não usar.
 
-`publicar.py` **recusa** episódio cuja trilha não seja `licenciada` ou `original`. `editorial_check.py` avisa desde a criação. Motivo: publicamos por API com o áudio dentro do MP4. A biblioteca licenciada dos apps não cobre esse caso, contas comerciais ficam restritas às bibliotecas comerciais, e o YouTube Content ID pode reivindicar ou bloquear o vídeo.
+`publicar.py` **recusa** episódio cuja trilha não seja `licenciada`, `autorizada` ou `original`. `editorial_check.py` avisa desde a criação. Motivo: publicamos por API com o áudio dentro do MP4. A biblioteca licenciada dos apps não cobre esse caso, contas comerciais ficam restritas às bibliotecas comerciais, e o YouTube Content ID pode reivindicar ou bloquear o vídeo.
 
 Faixa de referência sem licença tem três saídas:
 1. comprar ou licenciar a mesma faixa;

@@ -1,0 +1,1269 @@
+{
+ "id": "ATIVO-D1129-15",
+ "title": "Dezembro não é mês morto",
+ "fps": 30,
+ "duration": 45.53333333333333,
+ "durationInFrames": 1366,
+ "narrationEnd": 43.303,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 7.385
+  },
+  {
+   "id": "dinheiro",
+   "start": 7.385,
+   "end": 16.71
+  },
+  {
+   "id": "credito",
+   "start": 16.71,
+   "end": 22.78
+  },
+  {
+   "id": "aluguel",
+   "start": 22.78,
+   "end": 28.43
+  },
+  {
+   "id": "virada",
+   "start": 28.43,
+   "end": 33.545
+  },
+  {
+   "id": "desfecho",
+   "start": 33.545,
+   "end": 38.24
+  },
+  {
+   "id": "cta",
+   "start": 38.24,
+   "end": 45.533
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Todo ano tem corretor que, em dezembro, pendura a plaquinha: volto em janeiro.",
+   "start": 0.12,
+   "end": 4.45
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Afinal, dezembro é mês morto. Será?",
+   "start": 4.68,
+   "end": 7.21
+  },
+  {
+   "id": "s3",
+   "scene": "dinheiro",
+   "text": "O décimo terceiro deve colocar quase 400 bilhões de reais na economia este ano, segundo o Dieese.",
+   "start": 7.56,
+   "end": 13.51
+  },
+  {
+   "id": "s4",
+   "scene": "dinheiro",
+   "text": "E o prazo das parcelas vai até 18 de dezembro.",
+   "start": 13.88,
+   "end": 16.58
+  },
+  {
+   "id": "s5",
+   "scene": "credito",
+   "text": "No financiamento com dinheiro da poupança, dezembro de 2024 foi o melhor dezembro da história.",
+   "start": 16.84,
+   "end": 22.64
+  },
+  {
+   "id": "s6",
+   "scene": "aluguel",
+   "text": "E no aluguel, a procura costuma subir no começo do ano, quando contratos vencem e as aulas voltam.",
+   "start": 22.92,
+   "end": 28.18
+  },
+  {
+   "id": "s7",
+   "scene": "virada",
+   "text": "Ou seja: dezembro não é o mês em que o cliente some.",
+   "start": 28.68,
+   "end": 31.97
+  },
+  {
+   "id": "s8",
+   "scene": "virada",
+   "text": "É o mês em que ele decide.",
+   "start": 32.2,
+   "end": 33.45
+  },
+  {
+   "id": "s9",
+   "scene": "desfecho",
+   "text": "E em janeiro, ele já sabe pra quem vai ligar.",
+   "start": 33.64,
+   "end": 35.98
+  },
+  {
+   "id": "s10",
+   "scene": "desfecho",
+   "text": "Férias, sim. Sumiço, não.",
+   "start": 36.314,
+   "end": 38.04
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 38.44,
+   "end": 42.87
+  }
+ ],
+ "cues": {
+  "h_ano": 0.52,
+  "h_dez": 1.88,
+  "h_placa": 2.92,
+  "h_volto": 3.56,
+  "h_morto": 6.12,
+  "h_sera": 6.84,
+  "d_decimo": 7.8,
+  "d_400": 9.96,
+  "d_economia": 11.8,
+  "d_dieese": 13.126,
+  "d_prazo": 14.2,
+  "d_18": 15.72,
+  "c_fin": 17.08,
+  "c_poup": 18.28,
+  "c_2024": 20.013,
+  "c_melhor": 21.16,
+  "a_aluguel": 23.32,
+  "a_subir": 24.84,
+  "a_contratos": 26.28,
+  "a_aulas": 27.56,
+  "v_ouseja": 28.68,
+  "v_some": 31.56,
+  "v_decide": 33.08,
+  "f_janeiro": 33.96,
+  "f_ligar": 35.8,
+  "f_ferias": 36.314,
+  "f_sumico": 37.24,
+  "cta_quer": 38.44,
+  "cta_comment": 39.56,
+  "cta_word": 40.2,
+  "cta_tiles": 41.0,
+  "cta_sys": 41.88,
+  "cta_leads": 41.56,
+  "cta_atend": 42.28,
+  "cta_direct": 42.28,
+  "cta_end": 42.87
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.76,
+   "words": [
+    {
+     "text": "Todo",
+     "start": 0.12,
+     "end": 0.52,
+     "emph": false
+    },
+    {
+     "text": "ano",
+     "start": 0.52,
+     "end": 0.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.76,
+   "end": 1.48,
+   "words": [
+    {
+     "text": "tem",
+     "start": 0.76,
+     "end": 1.0,
+     "emph": false
+    },
+    {
+     "text": "corretor",
+     "start": 1.0,
+     "end": 1.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.48,
+   "end": 2.28,
+   "words": [
+    {
+     "text": "que,",
+     "start": 1.48,
+     "end": 1.72,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 1.72,
+     "end": 1.88,
+     "emph": false
+    },
+    {
+     "text": "dezembro,",
+     "start": 1.88,
+     "end": 2.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.28,
+   "end": 3.56,
+   "words": [
+    {
+     "text": "pendura",
+     "start": 2.28,
+     "end": 2.84,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 2.84,
+     "end": 2.92,
+     "emph": false
+    },
+    {
+     "text": "plaquinha:",
+     "start": 2.92,
+     "end": 3.34,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.56,
+   "end": 4.68,
+   "words": [
+    {
+     "text": "volto",
+     "start": 3.56,
+     "end": 4.04,
+     "emph": true
+    },
+    {
+     "text": "em",
+     "start": 4.04,
+     "end": 4.12,
+     "emph": true
+    },
+    {
+     "text": "janeiro.",
+     "start": 4.12,
+     "end": 4.45,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.68,
+   "end": 5.32,
+   "words": [
+    {
+     "text": "Afinal,",
+     "start": 4.68,
+     "end": 5.19,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.32,
+   "end": 5.88,
+   "words": [
+    {
+     "text": "dezembro",
+     "start": 5.32,
+     "end": 5.72,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 5.72,
+     "end": 5.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.88,
+   "end": 6.64,
+   "words": [
+    {
+     "text": "mês",
+     "start": 5.88,
+     "end": 6.12,
+     "emph": true
+    },
+    {
+     "text": "morto.",
+     "start": 6.12,
+     "end": 6.29,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.84,
+   "end": 7.56,
+   "words": [
+    {
+     "text": "Será?",
+     "start": 6.84,
+     "end": 7.21,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 7.56,
+   "end": 8.84,
+   "words": [
+    {
+     "text": "O",
+     "start": 7.56,
+     "end": 7.64,
+     "emph": false
+    },
+    {
+     "text": "décimo",
+     "start": 7.8,
+     "end": 8.36,
+     "emph": true
+    },
+    {
+     "text": "terceiro",
+     "start": 8.36,
+     "end": 8.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.84,
+   "end": 9.64,
+   "words": [
+    {
+     "text": "deve",
+     "start": 8.84,
+     "end": 9.16,
+     "emph": false
+    },
+    {
+     "text": "colocar",
+     "start": 9.16,
+     "end": 9.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.64,
+   "end": 11.16,
+   "words": [
+    {
+     "text": "quase",
+     "start": 9.64,
+     "end": 9.86,
+     "emph": false
+    },
+    {
+     "text": "400",
+     "start": 9.96,
+     "end": 10.68,
+     "emph": true
+    },
+    {
+     "text": "bilhões",
+     "start": 10.68,
+     "end": 11.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.16,
+   "end": 11.56,
+   "words": [
+    {
+     "text": "de",
+     "start": 11.16,
+     "end": 11.24,
+     "emph": false
+    },
+    {
+     "text": "reais",
+     "start": 11.24,
+     "end": 11.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.56,
+   "end": 12.2,
+   "words": [
+    {
+     "text": "na",
+     "start": 11.56,
+     "end": 11.8,
+     "emph": false
+    },
+    {
+     "text": "economia",
+     "start": 11.8,
+     "end": 12.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.2,
+   "end": 12.68,
+   "words": [
+    {
+     "text": "este",
+     "start": 12.2,
+     "end": 12.36,
+     "emph": false
+    },
+    {
+     "text": "ano,",
+     "start": 12.36,
+     "end": 12.54,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.68,
+   "end": 13.88,
+   "words": [
+    {
+     "text": "segundo",
+     "start": 12.68,
+     "end": 13.0,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 13.0,
+     "end": 13.126,
+     "emph": false
+    },
+    {
+     "text": "Dieese.",
+     "start": 13.126,
+     "end": 13.51,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.88,
+   "end": 14.52,
+   "words": [
+    {
+     "text": "E",
+     "start": 13.88,
+     "end": 14.04,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 14.04,
+     "end": 14.2,
+     "emph": false
+    },
+    {
+     "text": "prazo",
+     "start": 14.2,
+     "end": 14.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.52,
+   "end": 15.16,
+   "words": [
+    {
+     "text": "das",
+     "start": 14.52,
+     "end": 14.68,
+     "emph": false
+    },
+    {
+     "text": "parcelas",
+     "start": 14.68,
+     "end": 15.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.16,
+   "end": 15.72,
+   "words": [
+    {
+     "text": "vai",
+     "start": 15.16,
+     "end": 15.4,
+     "emph": false
+    },
+    {
+     "text": "até",
+     "start": 15.4,
+     "end": 15.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.72,
+   "end": 16.84,
+   "words": [
+    {
+     "text": "18",
+     "start": 15.72,
+     "end": 16.12,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 16.12,
+     "end": 16.28,
+     "emph": true
+    },
+    {
+     "text": "dezembro.",
+     "start": 16.28,
+     "end": 16.58,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 16.84,
+   "end": 17.64,
+   "words": [
+    {
+     "text": "No",
+     "start": 16.84,
+     "end": 17.08,
+     "emph": false
+    },
+    {
+     "text": "financiamento",
+     "start": 17.08,
+     "end": 17.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.64,
+   "end": 18.12,
+   "words": [
+    {
+     "text": "com",
+     "start": 17.64,
+     "end": 17.88,
+     "emph": false
+    },
+    {
+     "text": "dinheiro",
+     "start": 17.88,
+     "end": 18.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.12,
+   "end": 19.16,
+   "words": [
+    {
+     "text": "da",
+     "start": 18.12,
+     "end": 18.28,
+     "emph": false
+    },
+    {
+     "text": "poupança,",
+     "start": 18.28,
+     "end": 18.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.16,
+   "end": 20.76,
+   "words": [
+    {
+     "text": "dezembro",
+     "start": 19.16,
+     "end": 19.64,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 19.64,
+     "end": 20.013,
+     "emph": false
+    },
+    {
+     "text": "2024",
+     "start": 20.013,
+     "end": 20.53,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.76,
+   "end": 22.2,
+   "words": [
+    {
+     "text": "foi",
+     "start": 20.76,
+     "end": 21.0,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 21.0,
+     "end": 21.16,
+     "emph": false
+    },
+    {
+     "text": "melhor",
+     "start": 21.16,
+     "end": 21.56,
+     "emph": true
+    },
+    {
+     "text": "dezembro",
+     "start": 21.56,
+     "end": 22.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.2,
+   "end": 22.92,
+   "words": [
+    {
+     "text": "da",
+     "start": 22.2,
+     "end": 22.36,
+     "emph": false
+    },
+    {
+     "text": "história.",
+     "start": 22.36,
+     "end": 22.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.92,
+   "end": 23.96,
+   "words": [
+    {
+     "text": "E",
+     "start": 22.92,
+     "end": 23.08,
+     "emph": false
+    },
+    {
+     "text": "no",
+     "start": 23.08,
+     "end": 23.32,
+     "emph": false
+    },
+    {
+     "text": "aluguel,",
+     "start": 23.32,
+     "end": 23.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.96,
+   "end": 24.44,
+   "words": [
+    {
+     "text": "a",
+     "start": 23.96,
+     "end": 24.04,
+     "emph": false
+    },
+    {
+     "text": "procura",
+     "start": 24.04,
+     "end": 24.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.44,
+   "end": 25.16,
+   "words": [
+    {
+     "text": "costuma",
+     "start": 24.44,
+     "end": 24.84,
+     "emph": false
+    },
+    {
+     "text": "subir",
+     "start": 24.84,
+     "end": 25.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.16,
+   "end": 26.04,
+   "words": [
+    {
+     "text": "no",
+     "start": 25.16,
+     "end": 25.24,
+     "emph": false
+    },
+    {
+     "text": "começo",
+     "start": 25.24,
+     "end": 25.56,
+     "emph": false
+    },
+    {
+     "text": "do",
+     "start": 25.56,
+     "end": 25.64,
+     "emph": false
+    },
+    {
+     "text": "ano,",
+     "start": 25.64,
+     "end": 25.79,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.04,
+   "end": 26.76,
+   "words": [
+    {
+     "text": "quando",
+     "start": 26.04,
+     "end": 26.28,
+     "emph": false
+    },
+    {
+     "text": "contratos",
+     "start": 26.28,
+     "end": 26.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.76,
+   "end": 27.24,
+   "words": [
+    {
+     "text": "vencem",
+     "start": 26.76,
+     "end": 27.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.24,
+   "end": 27.96,
+   "words": [
+    {
+     "text": "e",
+     "start": 27.24,
+     "end": 27.4,
+     "emph": false
+    },
+    {
+     "text": "as",
+     "start": 27.4,
+     "end": 27.56,
+     "emph": false
+    },
+    {
+     "text": "aulas",
+     "start": 27.56,
+     "end": 27.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.96,
+   "end": 28.53,
+   "words": [
+    {
+     "text": "voltam.",
+     "start": 27.96,
+     "end": 28.18,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.68,
+   "end": 29.48,
+   "words": [
+    {
+     "text": "Ou",
+     "start": 28.68,
+     "end": 28.92,
+     "emph": false
+    },
+    {
+     "text": "seja:",
+     "start": 28.92,
+     "end": 29.18,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.48,
+   "end": 30.44,
+   "words": [
+    {
+     "text": "dezembro",
+     "start": 29.48,
+     "end": 30.12,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 30.12,
+     "end": 30.28,
+     "emph": true
+    },
+    {
+     "text": "é",
+     "start": 30.28,
+     "end": 30.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.44,
+   "end": 30.92,
+   "words": [
+    {
+     "text": "o",
+     "start": 30.44,
+     "end": 30.6,
+     "emph": false
+    },
+    {
+     "text": "mês",
+     "start": 30.6,
+     "end": 30.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.92,
+   "end": 31.56,
+   "words": [
+    {
+     "text": "em",
+     "start": 30.92,
+     "end": 31.0,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 31.0,
+     "end": 31.16,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 31.16,
+     "end": 31.24,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 31.24,
+     "end": 31.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.56,
+   "end": 32.2,
+   "words": [
+    {
+     "text": "some.",
+     "start": 31.56,
+     "end": 31.97,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 32.2,
+   "end": 32.68,
+   "words": [
+    {
+     "text": "É",
+     "start": 32.2,
+     "end": 32.32,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 32.32,
+     "end": 32.44,
+     "emph": false
+    },
+    {
+     "text": "mês",
+     "start": 32.44,
+     "end": 32.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 32.68,
+   "end": 33.08,
+   "words": [
+    {
+     "text": "em",
+     "start": 32.68,
+     "end": 32.76,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 32.76,
+     "end": 32.92,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 32.92,
+     "end": 33.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "start": 33.08,
+   "end": 33.64,
+   "words": [
+    {
+     "text": "decide.",
+     "start": 33.08,
+     "end": 33.45,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 33.64,
+   "end": 34.6,
+   "words": [
+    {
+     "text": "E",
+     "start": 33.64,
+     "end": 33.8,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 33.8,
+     "end": 33.96,
+     "emph": false
+    },
+    {
+     "text": "janeiro,",
+     "start": 33.96,
+     "end": 34.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 34.6,
+   "end": 35.274,
+   "words": [
+    {
+     "text": "ele",
+     "start": 34.6,
+     "end": 34.84,
+     "emph": false
+    },
+    {
+     "text": "já",
+     "start": 34.84,
+     "end": 35.0,
+     "emph": false
+    },
+    {
+     "text": "sabe",
+     "start": 35.0,
+     "end": 35.274,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 35.274,
+   "end": 35.64,
+   "words": [
+    {
+     "text": "pra",
+     "start": 35.274,
+     "end": 35.48,
+     "emph": false
+    },
+    {
+     "text": "quem",
+     "start": 35.48,
+     "end": 35.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "start": 35.64,
+   "end": 36.314,
+   "words": [
+    {
+     "text": "vai",
+     "start": 35.64,
+     "end": 35.8,
+     "emph": false
+    },
+    {
+     "text": "ligar.",
+     "start": 35.8,
+     "end": 35.98,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 36.314,
+   "end": 37.24,
+   "words": [
+    {
+     "text": "Férias,",
+     "start": 36.314,
+     "end": 36.39,
+     "emph": true
+    },
+    {
+     "text": "sim.",
+     "start": 36.931,
+     "end": 37.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "start": 37.24,
+   "end": 38.44,
+   "words": [
+    {
+     "text": "Sumiço,",
+     "start": 37.24,
+     "end": 37.96,
+     "emph": false
+    },
+    {
+     "text": "não.",
+     "start": 37.96,
+     "end": 38.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 38.44,
+   "end": 39.56,
+   "words": [
+    {
+     "text": "Se",
+     "start": 38.44,
+     "end": 38.6,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 38.6,
+     "end": 38.84,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 38.84,
+     "end": 39.0,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 39.0,
+     "end": 39.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 39.56,
+   "end": 40.84,
+   "words": [
+    {
+     "text": "comente",
+     "start": 39.56,
+     "end": 40.2,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 40.2,
+     "end": 40.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 40.84,
+   "end": 41.88,
+   "words": [
+    {
+     "text": "e",
+     "start": 40.84,
+     "end": 41.0,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 41.0,
+     "end": 41.56,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 41.56,
+     "end": 41.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "start": 41.88,
+   "end": 43.37,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 41.88,
+     "end": 42.28,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 42.28,
+     "end": 42.87,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

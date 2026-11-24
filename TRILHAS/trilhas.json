@@ -6,7 +6,8 @@
   "referencia": "sem licença comprovada: só teste interno",
   "licenciada": "licença comercial comprovada para as 3 redes (comprovante em TRILHAS/licencas/)",
   "original": "composta para a ATIVO (código ou encomenda), direitos da ATIVO",
-  "bloqueada": "não usar"
+  "bloqueada": "não usar",
+  "autorizada": "autorização direta do autor para uso nas 3 redes, informada pelo cliente (registro em TRILHAS/licencas/); publicável"
  },
  "funcoes_narrativas": [
   "virada",
@@ -31,12 +32,12 @@
     ]
    },
    "licenca": {
-    "status": "referencia",
-    "instagram": false,
-    "tiktok": false,
-    "youtube": false,
-    "comprovante": null,
-    "nota": "Sem licença comprovada. Uso só em teste interno (OUTPUT/testes-de-trilha/). publicar.py recusa episódio com esta trilha."
+    "status": "autorizada",
+    "instagram": true,
+    "tiktok": true,
+    "youtube": true,
+    "comprovante": "TRILHAS/licencas/autorizacao_autor_2026-11-24.md",
+    "nota": "Autorização do autor relatada pelo cliente em 24/11/2026 (conversa direta, sem documento escrito; o autor apoia o uso como divulgação). Risco residual: reconhecimento automático de áudio (Content ID/Instagram/TikTok) se a faixa estiver cadastrada em distribuidora — acompanhar após cada publicação."
    },
    "tecnico": {
     "duracao": 79.16,
@@ -203,12 +204,12 @@
     ]
    },
    "licenca": {
-    "status": "referencia",
-    "instagram": false,
-    "tiktok": false,
-    "youtube": false,
-    "comprovante": null,
-    "nota": "Sem licença comprovada. Uso só em teste interno (OUTPUT/testes-de-trilha/). publicar.py recusa episódio com esta trilha."
+    "status": "autorizada",
+    "instagram": true,
+    "tiktok": true,
+    "youtube": true,
+    "comprovante": "TRILHAS/licencas/autorizacao_autor_2026-11-24.md",
+    "nota": "Autorização do autor relatada pelo cliente em 24/11/2026 (conversa direta, sem documento escrito; o autor apoia o uso como divulgação). Risco residual: reconhecimento automático de áudio (Content ID/Instagram/TikTok) se a faixa estiver cadastrada em distribuidora — acompanhar após cada publicação."
    },
    "tecnico": {
     "duracao": 82.25,
@@ -414,12 +415,12 @@
     ]
    },
    "licenca": {
-    "status": "referencia",
-    "instagram": false,
-    "tiktok": false,
-    "youtube": false,
-    "comprovante": null,
-    "nota": "Sem licença comprovada. Uso só em teste interno (OUTPUT/testes-de-trilha/). publicar.py recusa episódio com esta trilha."
+    "status": "autorizada",
+    "instagram": true,
+    "tiktok": true,
+    "youtube": true,
+    "comprovante": "TRILHAS/licencas/autorizacao_autor_2026-11-24.md",
+    "nota": "Autorização do autor relatada pelo cliente em 24/11/2026 (conversa direta, sem documento escrito; o autor apoia o uso como divulgação). Risco residual: reconhecimento automático de áudio (Content ID/Instagram/TikTok) se a faixa estiver cadastrada em distribuidora — acompanhar após cada publicação."
    },
    "tecnico": {
     "duracao": 91.56,
@@ -683,12 +684,12 @@
     ]
    },
    "licenca": {
-    "status": "referencia",
-    "instagram": false,
-    "tiktok": false,
-    "youtube": false,
-    "comprovante": null,
-    "nota": "Sem licença comprovada. Uso só em teste interno (OUTPUT/testes-de-trilha/). publicar.py recusa episódio com esta trilha."
+    "status": "autorizada",
+    "instagram": true,
+    "tiktok": true,
+    "youtube": true,
+    "comprovante": "TRILHAS/licencas/autorizacao_autor_2026-11-24.md",
+    "nota": "Autorização do autor relatada pelo cliente em 24/11/2026 (conversa direta, sem documento escrito; o autor apoia o uso como divulgação). Risco residual: reconhecimento automático de áudio (Content ID/Instagram/TikTok) se a faixa estiver cadastrada em distribuidora — acompanhar após cada publicação."
    },
    "tecnico": {
     "duracao": 111.55,
@@ -893,12 +894,12 @@
     ]
    },
    "licenca": {
-    "status": "referencia",
-    "instagram": false,
-    "tiktok": false,
-    "youtube": false,
-    "comprovante": null,
-    "nota": "Sem licença comprovada. Uso só em teste interno (OUTPUT/testes-de-trilha/). publicar.py recusa episódio com esta trilha."
+    "status": "autorizada",
+    "instagram": true,
+    "tiktok": true,
+    "youtube": true,
+    "comprovante": "TRILHAS/licencas/autorizacao_autor_2026-11-24.md",
+    "nota": "Autorização do autor relatada pelo cliente em 24/11/2026 (conversa direta, sem documento escrito; o autor apoia o uso como divulgação). Risco residual: reconhecimento automático de áudio (Content ID/Instagram/TikTok) se a faixa estiver cadastrada em distribuidora — acompanhar após cada publicação."
    },
    "tecnico": {
     "duracao": 100.96,

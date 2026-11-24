@@ -1,0 +1,689 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "2024": "dois mil e vinte e quatro"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1129-15",
+ "lote": "D1129",
+ "title": "Dezembro não é mês morto",
+ "outputDir": "ATIVO_D1129_15",
+ "deliverables": {
+  "final": "ATIVO_D1129_15_FINAL.mp4",
+  "narration": "ATIVO_D1129_15_NARRACAO.wav",
+  "subtitles": "ATIVO_D1129_15_legendas.srt",
+  "cover": "ATIVO_D1129_15_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-11-29/ATIVO-D1129-15_dezembro_nao_e_mes_morto.md",
+ "apuracao": {
+  "fato": "Dieese (13/11/2026): 13º pode injetar R$ 399,1 bi em 2026 (~99,7 mi de pessoas; parcelas até 30/11 e 18/12). Abecip: SBPE R$ 17,61 bi em dez/2024, maior volume da série para um dezembro (+18,1% s/ nov). QuintoAndar: procura por aluguel sobe no início do ano (contratos que vencem, volta às aulas).",
+  "verificado_em": "2026-11-24",
+  "fontes": [
+   "https://www.dieese.org.br/notaaimprensa/2026/decimoTerceiroSalario2026.html",
+   "https://abecip.org.br/admin/assets/uploads/anexos/data-abecip-2024-12.pdf",
+   "https://sindusconsp.com.br/credito-imobiliario-cresceu-223-em-2024/",
+   "https://www.quintoandar.com.br/guias/?p=2449926"
+  ],
+  "ressalvas": "13º: volume do ano (não necessariamente concentrado em nov/dez); Abecip: recorde em valor, não em unidades; aluguel sem percentual; 'em janeiro ele já sabe pra quem vai ligar' é interpretação"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor que 'desliga' em dezembro achando que o mercado para",
+  "territorio": "corretor-real",
+  "funcao": "C2 + C1",
+  "crenca_questionada": "dezembro é mês morto",
+  "hipotese": "dezembro é o mês em que o cliente decide; quem some fica fora da lista de janeiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Todo ano tem corretor que, em dezembro, pendura a plaquinha: volto em janeiro.",
+   "caption": "Todo ano | tem corretor | que, em *dezembro,* | pendura a plaquinha: | *volto em janeiro.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "hook",
+   "text": "Afinal, dezembro é mês morto. Será?",
+   "caption": "Afinal, | dezembro é | *mês morto.* | *Será?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "dinheiro",
+   "text": "O décimo terceiro deve colocar quase 400 bilhões de reais na economia este ano, segundo o Dieese.",
+   "caption": "O *décimo terceiro* | deve colocar | quase *400 bilhões* | de reais | na economia | este ano, | segundo o Dieese.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "dinheiro",
+   "text": "E o prazo das parcelas vai até 18 de dezembro.",
+   "caption": "E o prazo | das parcelas | vai até | *18 de dezembro.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "credito",
+   "text": "No financiamento com dinheiro da poupança, dezembro de 2024 foi o melhor dezembro da história.",
+   "caption": "No *financiamento* | com dinheiro | da poupança, | dezembro de 2024 | foi o *melhor dezembro* | da história.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "aluguel",
+   "text": "E no aluguel, a procura costuma subir no começo do ano, quando contratos vencem e as aulas voltam.",
+   "caption": "E no *aluguel,* | a procura | costuma *subir* | no começo do ano, | quando contratos | *vencem* | e as aulas | *voltam.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "virada",
+   "text": "Ou seja: dezembro não é o mês em que o cliente some.",
+   "caption": "Ou seja: | dezembro *não* é | o mês | em que o cliente | *some.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s8",
+   "scene": "virada",
+   "text": "É o mês em que ele decide.",
+   "caption": "É o mês | em que ele | *decide.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s9",
+   "scene": "desfecho",
+   "text": "E em janeiro, ele já sabe pra quem vai ligar.",
+   "caption": "E em *janeiro,* | ele já sabe | pra quem | vai *ligar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s10",
+   "scene": "desfecho",
+   "text": "Férias, sim. Sumiço, não.",
+   "caption": "*Férias, sim.* | Sumiço, *não.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s11",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "dinheiro": 0.3,
+  "credito": 0.3,
+  "aluguel": 0.3,
+  "virada": 0.35,
+  "desfecho": 0.3,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_ano": {
+   "seg": "s1",
+   "word": "ano",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_dez": {
+   "seg": "s1",
+   "word": "dezembro",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_placa": {
+   "seg": "s1",
+   "word": "plaquinha",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_volto": {
+   "seg": "s1",
+   "word": "volto",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_morto": {
+   "seg": "s2",
+   "word": "morto",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_sera": {
+   "seg": "s2",
+   "word": "Será",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_decimo": {
+   "seg": "s3",
+   "word": "décimo",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_400": {
+   "seg": "s3",
+   "word": "400",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_economia": {
+   "seg": "s3",
+   "word": "economia",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_dieese": {
+   "seg": "s3",
+   "word": "Dieese",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_prazo": {
+   "seg": "s4",
+   "word": "prazo",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_18": {
+   "seg": "s4",
+   "word": "18",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_fin": {
+   "seg": "s5",
+   "word": "financiamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_poup": {
+   "seg": "s5",
+   "word": "poupança",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_2024": {
+   "seg": "s5",
+   "word": "2024",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_melhor": {
+   "seg": "s5",
+   "word": "melhor",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_aluguel": {
+   "seg": "s6",
+   "word": "aluguel",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_subir": {
+   "seg": "s6",
+   "word": "subir",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_contratos": {
+   "seg": "s6",
+   "word": "contratos",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_aulas": {
+   "seg": "s6",
+   "word": "aulas",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_ouseja": {
+   "seg": "s7",
+   "word": "Ou",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_some": {
+   "seg": "s7",
+   "word": "some",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_decide": {
+   "seg": "s8",
+   "word": "decide",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_janeiro": {
+   "seg": "s9",
+   "word": "janeiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_ligar": {
+   "seg": "s9",
+   "word": "ligar",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_ferias": {
+   "seg": "s10",
+   "word": "Férias",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_sumico": {
+   "seg": "s10",
+   "word": "Sumiço",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s11",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s11",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s11",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s11",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s11",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s11",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s11",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s11",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s11",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_placa",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26
+  },
+  {
+   "cue": "h_volto",
+   "offset": 0.05,
+   "sound": "thump",
+   "gain": -28
+  },
+  {
+   "cue": "h_morto",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -27
+  },
+  {
+   "cue": "d_decimo",
+   "offset": -0.05,
+   "sound": "whip",
+   "gain": -29
+  },
+  {
+   "cue": "d_400",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -26
+  },
+  {
+   "cue": "d_400",
+   "offset": 0.12,
+   "sound": "click",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "d_400",
+   "offset": 0.24,
+   "sound": "click",
+   "gain": -28,
+   "pitch": 6
+  },
+  {
+   "cue": "d_prazo",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -28
+  },
+  {
+   "cue": "d_18",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -24,
+   "pitch": 4
+  },
+  {
+   "cue": "c_fin",
+   "offset": -0.05,
+   "sound": "whip",
+   "gain": -29
+  },
+  {
+   "cue": "c_2024",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -26
+  },
+  {
+   "cue": "c_melhor",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -27
+  },
+  {
+   "cue": "a_aluguel",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -28
+  },
+  {
+   "cue": "a_contratos",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26
+  },
+  {
+   "cue": "a_aulas",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "v_some",
+   "offset": 0.05,
+   "sound": "hollow",
+   "gain": -28
+  },
+  {
+   "cue": "v_decide",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -27
+  },
+  {
+   "cue": "v_decide",
+   "offset": 0.08,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "f_ligar",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -25
+  },
+  {
+   "cue": "f_ligar",
+   "offset": 0.15,
+   "sound": "click",
+   "gain": -26,
+   "pitch": 3
+  },
+  {
+   "cue": "f_ferias",
+   "offset": 0.0,
+   "sound": "impact",
+   "gain": -27
+  },
+  {
+   "cue": "f_sumico",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28
+  },
+  {
+   "cue": "f_sumico",
+   "offset": 0.35,
+   "sound": "shimmer",
+   "gain": -28
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.75,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.85,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.2,
+   "sound": "click",
+   "gain": -23,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.28,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "F — a placa"
+   },
+   {
+    "at": "cue:d_decimo",
+    "notes": [
+     24,
+     36,
+     43,
+     48,
+     52
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "C — os dados"
+   },
+   {
+    "at": "cue:v_ouseja",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "Am — virada"
+   },
+   {
+    "at": "cue:f_janeiro",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "G — punchline"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T05",
+  "ancoras": {
+   "virada": "cue:v_ouseja",
+   "insight": "cue:v_decide",
+   "resolucao": "cue:f_ferias"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "cartoon-explicativo",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "corretor-real",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "pull",
+  "justificativaModelo": "Mito do mercado com personagem e humor que nasce do fato (placa na porta); carimbos e contadores sustentam 3 dados sem virar aula. Fecha o dia com os 4 modelos (regra nova de 24/11).",
+  "justificativaHorario": "15h, domingo à tarde: momento de leitura leve e identificação; separa a notícia das 12h da história das 18h; véspera do prazo da 1ª parcela do 13º (30/11).",
+  "trilha": "T05",
+  "justificativaTrilha": "T05 motor prático: pulso leve e constante para a sequência de 3 dados e a punchline; afinidade 'muito' com o Cartoon (catálogo).",
+  "data": "2026-11-29",
+  "slot": "15:00",
+  "arquivo": "PRODUCAO/grade/2026-11-29.json"
+ },
+ "modelos4": true,
+ "modelo": 1,
+ "modeloNome": "Cartoon explicativo"
+}

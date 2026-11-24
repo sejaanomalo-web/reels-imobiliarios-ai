@@ -581,18 +581,26 @@ export const CtaCartoon: React.FC<{ t: number; tl: { captions: CaptionChunk[]; c
   };
   const c = tl.cues;
   const t0 = tl.captions.find((k) => k.seg === segPergunta)?.start ?? c.cta_quer;
-  const tCom = tl.captions.find((k) => k.seg === segComente)?.start ?? c.cta_comment;
-  const tSis = wAt(segComente, /sistema/i, tCom + 0.5);
-  const tDir = wAt(segComente, /direct/i, tCom + 2.4);
+  // CTA curta (Skill Mestre, 21/11/2026) quando pergunta e "comente" são o mesmo segmento:
+  // "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado." → o cartão COMENTE vem primeiro (digita e envia),
+  // encolhe para o topo e os 3 cartões do sistema entram em "conheça · nosso · personalizado"; sem a linha de Direct.
+  const curta = segPergunta === segComente;
+  const fimSeg = Math.max(...tl.captions.filter((k) => k.seg === segComente).map((k) => k.end), t0 + 3.5);
+  const tCom = curta ? wAt(segComente, /^comente/i, t0 + 1.1) : tl.captions.find((k) => k.seg === segComente)?.start ?? c.cta_comment;
+  const tSis = wAt(segComente, curta ? /^sistema/i : /sistema/i, tCom + 0.5);
+  const tDir = curta ? fimSeg : wAt(segComente, /direct/i, tCom + 2.4);
   const itens = [
-    { k: "IMÓVEIS", at: wAt(segPergunta, /im[óo]veis/i, t0 + 2.4), icon: <IconeCasa />, x: 230 },
-    { k: "LEADS", at: wAt(segPergunta, /leads/i, t0 + 2.9), icon: <IconePessoa />, x: 540 },
-    { k: "ATENDIMENTOS", at: wAt(segPergunta, /atendimentos/i, t0 + 3.6), icon: <IconeChat />, x: 850 },
+    { k: "IMÓVEIS", at: curta ? wAt(segPergunta, /^conhe/i, tCom + 1.0) : wAt(segPergunta, /im[óo]veis/i, t0 + 2.4), icon: <IconeCasa />, x: 230 },
+    { k: "LEADS", at: curta ? wAt(segPergunta, /^nosso/i, tCom + 1.4) : wAt(segPergunta, /leads/i, t0 + 2.9), icon: <IconePessoa />, x: 540 },
+    { k: "ATENDIMENTOS", at: curta ? wAt(segPergunta, /^personalizado/i, tCom + 2.0) : wAt(segPergunta, /atendimentos/i, t0 + 3.6), icon: <IconeChat />, x: 850 },
   ];
-  const sai = prog(t, tCom - 0.15, 0.3, ease.in);
+  const sai = curta ? 0 : prog(t, tCom - 0.15, 0.3, ease.in);
   const card = pop(t, tCom - 0.05);
   const typed = Math.round(prog(t, tSis, 0.45, ease.linear) * 7);
-  const tEnv = tSis + 0.75;
+  const tEnv = curta ? tSis + 0.5 : tSis + 0.75;
+  const encolhe = curta ? prog(t, Math.max(itens[0].at - 0.15, tEnv + 0.2), 0.35, ease.inOut) : 0;
+  const cardY = curta ? 700 : 620;
+  const cardS = curta ? 0.72 : 1;
   const maoEnv = prog(t, tSis + 0.3, 0.4, ease.out);
   const clickEnv = Math.sin(Math.PI * prog(t, tEnv, 0.16, ease.linear));
   const voo = prog(t, tEnv + 0.1, 0.9, ease.inOut);
@@ -611,10 +619,12 @@ export const CtaCartoon: React.FC<{ t: number; tl: { captions: CaptionChunk[]; c
         {/* cartões do sistema */}
         <g opacity={1 - sai} transform={`translate(0 ${-sai * 120})`}>
           {itens.map((q) => (
-            <Pop key={q.k} t={t} at={q.at - 0.05} x={q.x} y={620}>
+            <Pop key={q.k} t={t} at={q.at - 0.05} x={q.x} y={cardY}>
+              <g transform={`scale(${cardS})`}>
               <rect x={-140} y={-160} width={280} height={300} rx={34} fill="#13161B" stroke={A.hex} strokeWidth={7} />
               <g transform="translate(0 -40)">{q.icon}</g>
               <text x={0} y={95} textAnchor="middle" fontFamily={F.sans} fontWeight={800} fontSize={q.k.length > 8 ? 30 : 38} fill="#fff">{q.k}</text>
+              </g>
             </Pop>
           ))}
         </g>
@@ -627,7 +637,7 @@ export const CtaCartoon: React.FC<{ t: number; tl: { captions: CaptionChunk[]; c
       </svg>
       {/* cartão COMENTE */}
       {card > 0.001 ? (
-        <div style={{ position: "absolute", left: 110, top: 420, width: 860, transform: `scale(${0.5 + 0.5 * card})`, transformOrigin: "540px 200px", opacity: Math.min(1, card * 3), background: BRANCO, borderRadius: 40, border: `8px solid ${CONTORNO}`, boxShadow: `0 30px 60px rgba(0,0,0,0.5), 0 0 60px ${aa(0.25)}`, padding: "34px 40px 40px", boxSizing: "border-box", fontFamily: F.sans }}>
+        <div style={{ position: "absolute", left: 110, top: 420 - 40 * encolhe, width: 860, transform: `scale(${(0.5 + 0.5 * card) * (1 - 0.36 * encolhe)})`, transformOrigin: "430px 0px", opacity: Math.min(1, card * 3), background: BRANCO, borderRadius: 40, border: `8px solid ${CONTORNO}`, boxShadow: `0 30px 60px rgba(0,0,0,0.5), 0 0 60px ${aa(0.25)}`, padding: "34px 40px 40px", boxSizing: "border-box", fontFamily: F.sans }}>
           <div style={{ fontWeight: 800, fontSize: 64, color: "#111", letterSpacing: "-0.02em" }}>COMENTE:</div>
           <div style={{ marginTop: 22, display: "flex", alignItems: "center", gap: 20 }}>
             <div style={{ flex: 1, height: 120, borderRadius: 60, background: "#fff", border: "5px solid #111", display: "flex", alignItems: "center", padding: "0 34px", fontWeight: 800, fontSize: 72, color: "#111", letterSpacing: "0.02em" }}>
@@ -637,9 +647,11 @@ export const CtaCartoon: React.FC<{ t: number; tl: { captions: CaptionChunk[]; c
               <svg width={64} height={64} viewBox="0 0 24 24"><path d="M3 11.5 21 3l-8.5 18-2-7.5z" fill={A.ink} /></svg>
             </div>
           </div>
-          <div style={{ marginTop: 26, fontWeight: 700, fontSize: 40, color: "#333", opacity: prog(t, tDir - 0.2, 0.3) }}>
-            → detalhes pelo <span style={{ color: "#111", fontWeight: 800, background: A.hex, padding: "2px 14px", borderRadius: 12 }}>Direct</span>
-          </div>
+          {curta ? null : (
+            <div style={{ marginTop: 26, fontWeight: 700, fontSize: 40, color: "#333", opacity: prog(t, tDir - 0.2, 0.3) }}>
+              → detalhes pelo <span style={{ color: "#111", fontWeight: 800, background: A.hex, padding: "2px 14px", borderRadius: 12 }}>Direct</span>
+            </div>
+          )}
         </div>
       ) : null}
       {/* SEGUIR → SEGUINDO */}
