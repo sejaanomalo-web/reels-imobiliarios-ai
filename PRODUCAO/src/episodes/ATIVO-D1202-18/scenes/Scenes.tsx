@@ -5,7 +5,7 @@ import type { SceneProps } from "../../types";
 import { A } from "../../NOV26/kit";
 import {
   Chamada, Comodo, Contorno, Cota, LINHA, Porta, Prancha, Rota, SeloPlanta, TituloFolha, TRACO,
-  clamp01, ease, prog, sp,
+  clamp01, ease, mergulho, prog, sp,
 } from "../../../estilos/planta";
 
 /**
@@ -66,17 +66,19 @@ const PlantaCasa: React.FC<{ t: number; p8: number; n: number; fechado: number; 
 /* ------------------------------------------------ 1–3 · a casa que cresce ------------------------------------------------ */
 export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
   const c = tl.cues;
-  const fim = c.e_escada - 0.4;
-  if (t > fim + 0.5) return null;
-  const sai = prog(t, fim, 0.45);
+  const mg = prog(t, c.e_escada - 0.7, 0.6, ease.linear);
+  if (mg >= 1) return null;
+  const m = mergulho(mg, { x: 540, y: 330, w: 100, h: 100 }, TELA);
   const n = 46 * prog(t, c.i_nunca - 0.2, c.e_160 - c.i_nunca + 0.1, ease.inOut);
   const n0 = t < c.i_sarah - 0.3 ? 46 * prog(t, 0.6, 1.4, ease.out) * (1 - prog(t, c.h_valor + 0.2, 0.4)) : 0;
   const stamp = sp(t, c.h_valor - 0.1, { damping: 10, stiffness: 220 }) * (1 - prog(t, c.i_sarah - 0.4, 0.3));
   const dens = prog(t, c.e_160 - 0.2, 0.4);
   return (
-    <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: 1 - sai }}>
+    <div style={{ position: "absolute", inset: 0, fontFamily: F.sans }}>
       <Camera drift={6} t={t} keys={[{ t: 0, s: 1.06, y: -10 }, { t: c.h_valor, s: 1.02, e: ease.out }, { t: c.i_oito, s: 1.1, y: -20, e: ease.inOut }, { t: c.i_nunca, s: 1.0, e: ease.inOut }, { t: c.e_160, s: 1.04, y: -8, e: ease.out }]}>
         <Prancha top={TOP} h={900}>
+          <g transform={m.transform} opacity={m.opacity}>
+          <g opacity={m.outros}>
           <Contorno {...TELA} p={prog(t, -0.1, 0.9, ease.out)} />
           <Rot x={540} y={170} anchor="middle" texto={t < c.i_sarah - 0.3 ? "UMA CASA · 36 ANOS DE OBRA" : "CALIFÓRNIA · 1886"} p={prog(t, 0.2, 0.5)} />
           <PlantaCasa t={t} p8={prog(t, t < c.i_sarah - 0.3 ? 0.1 : c.i_sarah - 0.2, 0.8)} n={t < c.i_sarah - 0.3 ? n0 : n} fechado={prog(t, c.o_fechado - 0.1, 0.4)} derrubado={prog(t, c.o_derrubado - 0.1, 0.5)} />
@@ -87,6 +89,9 @@ export const Hook: React.FC<SceneProps> = ({ t, tl }) => {
           <g opacity={fade(stamp)} transform={`translate(540 440) rotate(-7) scale(${1 + 0.4 * (1 - Math.min(1, stamp))})`}>
             <rect x={-260} y={-56} width={520} height={112} rx={10} fill="rgba(255,107,94,0.14)" stroke={C.warn} strokeWidth={4} />
             <text x={0} y={18} textAnchor="middle" fill={C.warn} fontFamily={M} fontWeight={700} fontSize={46} letterSpacing="0.08em">QUASE SEM VALOR</text>
+          </g>
+          </g>
+          <Ret r={{ x: 540, y: 330, w: 100, h: 100 }} p={prog(t, c.i_sarah - 0.2, 0.8)} w={TRACO} />
           </g>
         </Prancha>
       </Camera>
@@ -136,12 +141,16 @@ export const Take2: React.FC<SceneProps> = ({ t, tl }) => {
   const c = tl.cues;
   const ini = c.v_1922 - 0.3;
   if (t < ini - 0.05 || t > c.l_dinheiro + 0.3) return null;
-  const sai = prog(t, c.l_dinheiro - 0.35, 0.4);
+  const mg = prog(t, c.l_dinheiro - 0.65, 0.6, ease.linear);
+  if (mg >= 1) return null;
+  const m = mergulho(mg, { x: 340, y: 330, w: 400, h: 200 }, TELA);
   const stamp = sp(t, c.v_nada - 0.1, { damping: 10, stiffness: 220 });
   return (
-    <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: Math.min(prog(t, ini, 0.4), 1 - sai) }}>
+    <div style={{ position: "absolute", inset: 0, fontFamily: F.sans, opacity: prog(t, ini, 0.4) }}>
       <Camera drift={6} t={t} keys={[{ t: ini, s: 1.0 }, { t: c.v_terremoto, s: 1.03, y: -8, e: ease.out }, { t: c.v_nada, s: 1.07, y: -16, e: ease.out }, { t: c.v_atracao, s: 1.04, e: ease.inOut }]}>
         <Prancha top={TOP} h={900}>
+          <g transform={m.transform} opacity={m.opacity}>
+          <g opacity={m.outros}>
           <Contorno {...TELA} p={prog(t, ini, 0.6, ease.out)} />
           <Rot x={540} y={170} anchor="middle" texto="AVALIAÇÃO · 1922" p={prog(t, ini + 0.2, 0.4)} cor={C.text} />
           <g opacity={0.45}><PlantaCasa t={t} p8={1} n={46} fechado={1} derrubado={1} /></g>
@@ -153,6 +162,9 @@ export const Take2: React.FC<SceneProps> = ({ t, tl }) => {
           </g>
           <Rot x={330} y={700} anchor="middle" texto="LEILÃO · 12/1922" p={prog(t, c.v_leilao - 0.1, 0.4)} cor={C.text} size={28} />
           <Rot x={750} y={700} anchor="middle" texto="ATRAÇÃO TURÍSTICA" p={prog(t, c.v_atracao - 0.1, 0.4)} cor={C.text} size={28} />
+          </g>
+          <Ret r={{ x: 340, y: 330, w: 400, h: 200 }} p={1} w={TRACO} />
+          </g>
         </Prancha>
       </Camera>
       <TituloFolha p={prog(t, ini, 0.35) * (1 - prog(t, c.v_morar - 0.4, 0.2))} size={56}>OS <W>AVALIADORES</W></TituloFolha>

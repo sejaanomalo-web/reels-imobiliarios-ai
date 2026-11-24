@@ -1,0 +1,146 @@
+[
+ {
+  "t": 0.44,
+  "sound": "click",
+  "gain": -27,
+  "cue": "h_foto"
+ },
+ {
+  "t": 3.8,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "h_visita"
+ },
+ {
+  "t": 5.35,
+  "sound": "swish",
+  "gain": -29,
+  "cue": "p_prometer"
+ },
+ {
+  "t": 8.2,
+  "sound": "thump",
+  "gain": -27,
+  "cue": "p_morre"
+ },
+ {
+  "t": 9.24,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "p_lente"
+ },
+ {
+  "t": 11.0,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "p_ceu"
+ },
+ {
+  "t": 12.28,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "p_angulo"
+ },
+ {
+  "t": 17.08,
+  "sound": "hollow",
+  "gain": -28,
+  "cue": "d_outro"
+ },
+ {
+  "t": 19.08,
+  "sound": "block",
+  "gain": -28,
+  "cue": "d_defeito"
+ },
+ {
+  "t": 20.42,
+  "sound": "whoosh_fold",
+  "gain": -29,
+  "cue": "v_contrario"
+ },
+ {
+  "t": 26.76,
+  "sound": "shimmer",
+  "gain": -29,
+  "cue": "v_surpreender"
+ },
+ {
+  "t": 32.6,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "g_luz"
+ },
+ {
+  "t": 34.2,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "g_vista"
+ },
+ {
+  "t": 35.16,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "g_silencio"
+ },
+ {
+  "t": 38.04,
+  "sound": "impact",
+  "gain": -28,
+  "cue": "f_maior"
+ },
+ {
+  "t": 39.22,
+  "sound": "swish",
+  "gain": -29,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 40.45,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 41.24,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 41.91,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 42.39,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 43.14,
+  "sound": "whoosh_up",
+  "gain": -28,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 43.19,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 44.34,
+  "sound": "shimmer",
+  "gain": -25,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 45.54,
+  "sound": "chord",
+  "gain": -27,
+  "cue": "cta_direct"
+ }
+]

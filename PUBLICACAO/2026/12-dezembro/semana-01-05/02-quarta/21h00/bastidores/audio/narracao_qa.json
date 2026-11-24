@@ -1,0 +1,81 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.16,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.29,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.5,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 2.39,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 1.43,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 5.35,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 2.01,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 5.8,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.59,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 4.57,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 44.15,
+    "asr_match": 0.992,
+    "aligned_words": "126/127",
+    "words_per_min": 173,
+    "heard": "A foto do anúncio não vende o imóvel. Ela vende a visita. E se a foto prometer mais do que o imóvel entrega, a venda morre na porta. Lente que estica a sala, céu trocado, ângulo que esconde a parede. O cliente cheia esperando um imóvel e encontra outro. Daí em diante, ele procura o defeito em tudo. O contrário também acontece. Quando a foto é honesta, o cliente chega com a expectativa certa e o imóvel tem chance de surpreender. Por isso, mostre o imóvel como ele é e guarde uma coisa boa para ver ao vivo. A luz da tarde, a vista, o silêncio. Visita boa é a que fica maior que a foto. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 47.32,
+      "wpm": 161
+    },
+    "pausas_moldadas": {
+      "n": 21,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 3.17,
+    "final": {
+      "seconds": 44.15,
+      "wpm": 173
+    }
+  }
+]
