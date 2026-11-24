@@ -277,6 +277,57 @@ def planejar(t, D, ancoras, audio=None):
 
 
 # ---------------- render ----------------
+
+PISO_FINAL_DBFS = -34.0   # nível RMS mínimo da trilha adaptada até o fim (na mixagem fica ~-43 dBFS, acima do limiar de silêncio de -50 dB)
+FADE_FINAL_S = 0.2
+
+
+def sustentar_final(out, N):
+    """Se a música fica inaudível antes do último quadro (decaimento natural ou cauda curta), SUSTENTA a última nota até
+    FADE_FINAL_S do fim: grãos (Hann, 50%) do próprio material logo antes do ponto em que ele cai abaixo do piso, com leve
+    decaimento (−4 dB). Sem esticar nem mudar o tom; não cria buraco de silêncio no fecho (validate: silêncio ≥ 0,4 s). Retorna os segundos sustentados."""
+    win, hop = int(0.05 * SR), int(0.01 * SR)
+    ini = max(0, N - int(4.0 * SR))
+    mono = out[ini:N].mean(axis=1)
+    if len(mono) < win * 2:
+        return 0.0
+    pos = np.arange(0, len(mono) - win, hop)
+    rms = np.array([np.sqrt(np.mean(mono[p:p + win] ** 2)) + 1e-12 for p in pos])
+    db = 20 * np.log10(rms)
+    vivos = np.where(db > PISO_FINAL_DBFS)[0]
+    if len(vivos) == 0:
+        return 0.0
+    T = ini + pos[vivos[-1]] + win // 2
+    alvo = N - int(FADE_FINAL_S * SR)
+    if alvo - T < int(0.25 * SR):
+        return 0.0
+    g = int(0.24 * SR)
+    fonte_ini = max(0, T - int(0.45 * SR))
+    if T - fonte_ini < g:
+        return 0.0
+    rng = np.random.default_rng(7)
+    janela = np.hanning(g)[:, None]
+    L = N - T
+    fz = np.zeros((L + g, 2))
+    k = 0
+    while k < L:
+        a0 = rng.integers(fonte_ini, T - g + 1)
+        fz[k:k + g] += out[a0:a0 + g] * janela
+        k += g // 2
+    fz = fz[:L]
+    nivel_fonte = np.sqrt(np.mean(out[fonte_ini:T] ** 2)) + 1e-12
+    nivel_fz = np.sqrt(np.mean(fz ** 2)) + 1e-12
+    alvo_lin = max(nivel_fonte, 10 ** ((PISO_FINAL_DBFS + 3) / 20))
+    fz *= alvo_lin / nivel_fz
+    fz *= np.linspace(1.0, 10 ** (-4 / 20), L)[:, None]
+    xf = min(int(0.15 * SR), L)
+    w = np.ones(L)
+    w[:xf] = np.linspace(0, 1, xf)
+    out[T:N] = out[T:N] * (1 - w)[:, None] + fz * w[:, None]
+    f = int(FADE_FINAL_S * SR)
+    out[N - f:N] *= np.linspace(1, 0, f)[:, None] ** 1.2
+    return (alvo - T) / SR
+
 def renderizar(t, D, rel, x):
     N = int(round(D * SR))
     xf = float(t.get("crossfade", 0.05))
@@ -325,12 +376,13 @@ def renderizar(t, D, rel, x):
         if fim > g:
             out[fim - g:fim] *= np.linspace(1, 0.55, g)[:, None]
     out = out[:N]
+    sust = sustentar_final(out, N)
     g0 = int(0.005 * SR)
     out[:g0] *= np.linspace(0, 1, g0)[:, None]
     if N > int(0.02 * SR):
         g = int(0.02 * SR)
         out[-g:] *= np.linspace(1, 0, g)[:, None]
-    rel["final"] = dict(tipo=fin.get("tipo"), fim_musical=round(fim / SR, 3), video=round(D, 3), ajuste=ajuste)
+    rel["final"] = dict(tipo=fin.get("tipo"), fim_musical=round(fim / SR, 3), video=round(D, 3), ajuste=ajuste, sustentacao_s=round(sust, 3))
     rel["cortes"] = cortes
     return out
 
