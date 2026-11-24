@@ -24,7 +24,7 @@ python3 PRODUCAO/tools/grade.py onde ATIVO-D1126-18      # em que grade/slot est
 - item do `radar` sem classe A/B/C, URL ou datas;
 - guardrail violado **sem** justificativa no bloco `justificativas` (com justificativa vira AVISO registrado):
   - dia sem os 6 territórios (`territorios`); PUSH/PULL diferente de 4/2 (`pushPull`); mais de 2 referências de `modelos/` (`modelos_ref`);
-  - modelo mais de 2× no dia, modelo repetido em slots consecutivos, menos de 3 modelos com 5+ slots, modelo acima de 40% em 7 dias (`modelos`);
+  - modelo mais de 2× no dia, modelo repetido em slots consecutivos, menos de 3 modelos com 4+ slots, modelo acima de 40% em 7 dias, modelo ausente nos últimos 7 dias quando há 8+ vídeos na janela (`modelos`);
   - trilha (Sistema Musical, `TRILHAS/README.md`) mais de 1× no dia, repetida em horários seguidos ou acima de 25% em 7 dias (`trilhas`). Slot em produção com `trilha` precisa de `justificativaTrilha`; a trilha precisa existir no catálogo.
 
 ## Regras de convivência

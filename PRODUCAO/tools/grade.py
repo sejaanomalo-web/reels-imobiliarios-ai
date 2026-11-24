@@ -42,6 +42,8 @@ EM_PRODUCAO = ("producao", "pronto", "programado", "publicado")
 MAX_MODELO_DIA = 2
 MIN_MODELOS_DIA = 3
 MAX_MODELO_SEMANA = 0.40
+MIN_SLOTS_PARA_3_MODELOS = 4  # dia com 4+ vídeos precisa de 3+ modelos (24/11/2026: era 5+)
+MIN_VIDEOS_JANELA_PRESENCA = 8  # com 8+ vídeos em 7 dias, cada um dos 4 modelos aparece pelo menos 1× (24/11/2026)
 MAX_TRILHA_DIA = 1
 MAX_TRILHA_SEMANA = 0.25
 CATALOGO_TRILHAS = os.path.join(REPO, "TRILHAS", "trilhas.json")
@@ -205,8 +207,8 @@ def validar(g: dict) -> tuple:
     seq = [m for _, m in mods]
     for i in range(1, len(seq)):
         guard(seq[i] == seq[i - 1], f"{MODELOS.get(seq[i], seq[i])} em slots consecutivos ({mods[i - 1][0]} e {mods[i][0]})", "modelos")
-    if len(mods) >= 5:
-        guard(len(cont) < MIN_MODELOS_DIA, f"só {len(cont)} modelos diferentes no dia (mínimo {MIN_MODELOS_DIA}; ideal 4)", "modelos")
+    if len(mods) >= MIN_SLOTS_PARA_3_MODELOS:
+        guard(len(cont) < MIN_MODELOS_DIA, f"só {len(cont)} modelos diferentes no dia com {len(mods)} vídeos (mínimo {MIN_MODELOS_DIA}; ideal 4)", "modelos")
     semana = {}
     total = 0
     for gg in _grades_janela(data):
@@ -217,6 +219,10 @@ def validar(g: dict) -> tuple:
     if total >= 12:
         for m, n in semana.items():
             guard(n / total > MAX_MODELO_SEMANA, f"{MODELOS.get(m, m)} = {n}/{total} ({n / total:.0%}) nos últimos 7 dias (máximo {MAX_MODELO_SEMANA:.0%})", "modelos")
+    # presença: nenhum dos 4 modelos some da janela (o excesso já é limitado acima; aqui se cobra a ausência)
+    if total >= MIN_VIDEOS_JANELA_PRESENCA:
+        for m in MODELOS:
+            guard(semana.get(m, 0) == 0, f"{MODELOS[m]} não aparece em nenhum dos {total} vídeos dos últimos 7 dias (cada modelo, pelo menos 1×)", "modelos")
     # Sistema Musical (TRILHAS/README.md): trilha por adequação + guardrails de repetição
     ids_trilha = set()
     if os.path.exists(CATALOGO_TRILHAS):

@@ -117,8 +117,9 @@ Um conteúdo de `modelos/` pode ser o primeiro criado e ir às 18h ou 21h se ess
 ### Guardrails verificáveis (`grade.py validar`)
 1. Nenhum modelo mais de **2×** no dia.
 2. Mesmo modelo em **slots consecutivos** só com justificativa.
-3. Com 5 ou mais slots definidos, pelo menos **3 modelos diferentes** no dia (o ideal são os 4).
+3. Com **4 ou mais** slots definidos, pelo menos **3 modelos diferentes** no dia (o ideal são os 4). *(24/11/2026: era 5+; o dia-piloto de 29/11 deixou o Cartoon de fora sem nenhum alerta.)*
 4. Na janela de 7 dias (grades existentes), nenhum modelo acima de **40%** dos vídeos.
+4b. Na mesma janela, com **8 ou mais vídeos**, **cada um dos 4 modelos aparece pelo menos 1×** (nenhum modelo some da esteira). *(24/11/2026)*
 5. Todo slot em produção tem `modelo` + `justificativaModelo` (a razão narrativa, não "faltava usar").
 
 Para quebrar 1–4, preencha `justificativas.modelos` com o motivo editorial; vira aviso registrado. **Não escolher formato só para cumprir distribuição.** Quando a Fonte D mostrar padrão `território × formato`, a tabela de compatibilidade é atualizada aqui.
