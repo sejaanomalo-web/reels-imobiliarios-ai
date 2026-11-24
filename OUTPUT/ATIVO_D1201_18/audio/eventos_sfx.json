@@ -1,0 +1,140 @@
+[
+ {
+  "t": 1.72,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "h_desistir"
+ },
+ {
+  "t": 4.28,
+  "sound": "click",
+  "gain": -27,
+  "cue": "h_assinar"
+ },
+ {
+  "t": 7.88,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "h_pode"
+ },
+ {
+  "t": 8.87,
+  "sound": "whoosh_fold",
+  "gain": -30,
+  "cue": "l_lei"
+ },
+ {
+  "t": 11.684,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "l_estande"
+ },
+ {
+  "t": 14.84,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "l_7"
+ },
+ {
+  "t": 14.96,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "l_7"
+ },
+ {
+  "t": 17.32,
+  "sound": "swish",
+  "gain": -28,
+  "cue": "d_volta"
+ },
+ {
+  "t": 21.8,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "d_corretagem"
+ },
+ {
+  "t": 22.95,
+  "sound": "whoosh_fold",
+  "gain": -29,
+  "cue": "v_ouseja"
+ },
+ {
+  "t": 26.52,
+  "sound": "impact",
+  "gain": -28,
+  "cue": "v_7"
+ },
+ {
+  "t": 28.28,
+  "sound": "thump",
+  "gain": -28,
+  "cue": "p_pressao"
+ },
+ {
+  "t": 30.68,
+  "sound": "block",
+  "gain": -28,
+  "cue": "p_cara"
+ },
+ {
+  "t": 36.68,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "f_oitavo"
+ },
+ {
+  "t": 36.98,
+  "sound": "shimmer",
+  "gain": -29,
+  "cue": "f_oitavo"
+ },
+ {
+  "t": 37.82,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 38.8,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 39.64,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 40.24,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_word"
+ },
+ {
+  "t": 40.31,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 40.87,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 41.51,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 42.26,
+  "sound": "shimmer",
+  "gain": -27,
+  "cue": "cta_direct"
+ }
+]

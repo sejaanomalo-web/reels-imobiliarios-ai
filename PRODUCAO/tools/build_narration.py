@@ -204,6 +204,11 @@ def source_audio():
             if ratio >= 0.97 and abs(extra) <= 2:
                 break
         ratio, x, sr = best
+        if ratio < 0.90 and "--force" not in sys.argv:
+            # tomada que erra muito o texto (ex.: o TTS leu a direção em voz alta) nunca vira a narração oficial
+            rej = os.path.join(REPO, "OUTPUT", ep.get("outputDir", EP), "audio", f"narracao_tomada_rejeitada_{model}.wav")
+            write_wav(rej, x, sr)
+            raise SystemExit(f"tomada rejeitada: reconheceu só {ratio:.1%} do texto (salva em {rej}); gere de novo mais tarde ou use --force")
         if ratio < 0.97 and os.path.exists(SRC) and "--force" not in sys.argv:
             # nunca troca uma narração existente por uma tomada que erra o texto; guarda a tomada para escuta
             rej = os.path.join(REPO, "OUTPUT", ep.get("outputDir", EP), "audio", f"narracao_tomada_rejeitada_{model}.wav")

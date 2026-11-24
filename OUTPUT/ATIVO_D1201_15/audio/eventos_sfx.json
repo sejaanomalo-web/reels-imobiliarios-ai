@@ -1,0 +1,182 @@
+[
+ {
+  "t": 1.08,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "h_proprietario"
+ },
+ {
+  "t": 5.8,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "h_vizinho"
+ },
+ {
+  "t": 6.25,
+  "sound": "thump",
+  "gain": -27,
+  "cue": "h_barulhento"
+ },
+ {
+  "t": 8.04,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "c_pagou"
+ },
+ {
+  "t": 9.48,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "c_vendendo"
+ },
+ {
+  "t": 11.08,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "c_negociar"
+ },
+ {
+  "t": 13.11,
+  "sound": "swish",
+  "gain": -29,
+  "cue": "m_casa"
+ },
+ {
+  "t": 17.27,
+  "sound": "whip",
+  "gain": -28,
+  "cue": "v_problema"
+ },
+ {
+  "t": 20.52,
+  "sound": "impact",
+  "gain": -27,
+  "cue": "v_argumento"
+ },
+ {
+  "t": 23.27,
+  "sound": "swish",
+  "gain": -28,
+  "cue": "p_combine"
+ },
+ {
+  "t": 24.92,
+  "sound": "click",
+  "gain": -26,
+  "cue": "p_recebe"
+ },
+ {
+  "t": 26.76,
+  "sound": "click",
+  "gain": -26,
+  "cue": "p_mostra"
+ },
+ {
+  "t": 31.16,
+  "sound": "click",
+  "gain": -26,
+  "cue": "p_espaco"
+ },
+ {
+  "t": 32.04,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "p_preco"
+ },
+ {
+  "t": 32.76,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "p_motivo"
+ },
+ {
+  "t": 34.2,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "p_prazo"
+ },
+ {
+  "t": 35.88,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "p_voce"
+ },
+ {
+  "t": 39.88,
+  "sound": "impact",
+  "gain": -27,
+  "cue": "f_papel"
+ },
+ {
+  "t": 40.23,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "f_papel"
+ },
+ {
+  "t": 41.37,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 42.55,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 43.32,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 44.07,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 44.07,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_word"
+ },
+ {
+  "t": 44.17,
+  "sound": "whoosh_up",
+  "gain": -28,
+  "cue": "cta_word"
+ },
+ {
+  "t": 44.63,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 45.35,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 45.4,
+  "sound": "pop",
+  "gain": -26,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 46.6,
+  "sound": "click",
+  "gain": -23,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 46.68,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "cta_direct"
+ }
+]

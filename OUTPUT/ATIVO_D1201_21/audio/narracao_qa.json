@@ -1,0 +1,83 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.53,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.93,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 1.93,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 6.17,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.4,
+    "palavras_nao_reconhecidas": [
+      "provada"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.53,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 1.8,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 8.07,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.25,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 2.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s11",
+    "seconds": 4.58,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 44.76,
+    "asr_match": 0.991,
+    "aligned_words": "114/115",
+    "words_per_min": 154,
+    "heard": "Muito proprietário tem medo de assinar exclusividade. E muito corretor pede exclusividade do jeito errado. A lei protege o corretor exclusivo. Pelo código civil, se a exclusividade está por escrito, a comissão é devida, mesmo se o dono vender sozinho. Mas tem uma condição no fim do artigo. Salvo se ficar aprovada a inércia do corretor. Ou seja, a exclusividade não garante a comissão. Ela garante a chance de trabalhar. Por isso, peça exclusividade mostrando o plano, o que você vai fazer, em quanto tempo e como vai prestar contas toda semana. Exclusividade não é posse do imóvel. É compromisso de trabalho por escrito. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 45.88,
+      "wpm": 150
+    },
+    "pausas_moldadas": {
+      "n": 22,
+      "max_s": 0.42
+    },
+    "pausas_encurtadas_s": 1.12,
+    "final": {
+      "seconds": 44.76,
+      "wpm": 154
+    }
+  }
+]
