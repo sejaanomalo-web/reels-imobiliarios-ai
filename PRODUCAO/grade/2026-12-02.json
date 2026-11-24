@@ -90,9 +90,10 @@
       "justificativaTrilha": "arco de descoberta: do estudo à aplicação na visita.",
       "episodio": "ATIVO-D1202-12",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-02/ATIVO-D1202-12_o_cheiro_da_visita.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-01-05/02-quarta/12h00"
     },
     {
       "horario": "15:00",

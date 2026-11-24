@@ -1,0 +1,76 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.66,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.43,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.13,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.43,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 6.5,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 3.04,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s8",
+    "seconds": 4.37,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s9",
+    "seconds": 2.91,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s10",
+    "seconds": 4.39,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 48.15,
+    "asr_match": 0.988,
+    "aligned_words": "124/125",
+    "words_per_min": 156,
+    "heard": "Tem loja que escolhe o cheiro do ar com o mesmo cuidado com que escolhe a vitrine. Pesquisadores testaram dois aromas numa loja de decoração na Suíça. Um simples, só laranja, outro complexo, laranja com manjericão e chá verde. Com um cheiro simples, os clientes gastaram em média 20% a mais. Foi um estudo só, mas a explicação faz sentido. O cérebro processa é o simples, sem esforço. Agora pense na sua visita. Perfume forte, um aromatizador em cada cômodo, cheiro do almoço, tudo isso disputa a atenção que deveria estar no imóvel. Antes do cliente chegar. Janelas abertas e nada de mistura de cheiros. O melhor cheiro da visita é aquele que ninguém comenta. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 50.32,
+      "wpm": 149
+    },
+    "pausas_moldadas": {
+      "n": 19,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.17,
+    "final": {
+      "seconds": 48.15,
+      "wpm": 156
+    }
+  }
+]

@@ -1,0 +1,128 @@
+[
+ {
+  "t": 1.56,
+  "sound": "shimmer",
+  "gain": -30,
+  "cue": "h_cheiro"
+ },
+ {
+  "t": 4.36,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "h_vitrine"
+ },
+ {
+  "t": 6.28,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "t_dois"
+ },
+ {
+  "t": 9.16,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "t_simples"
+ },
+ {
+  "t": 11.16,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "t_complexo"
+ },
+ {
+  "t": 17.4,
+  "sound": "pin",
+  "gain": -26,
+  "cue": "r_20"
+ },
+ {
+  "t": 19.48,
+  "sound": "click",
+  "gain": -28,
+  "cue": "r_estudo"
+ },
+ {
+  "t": 24.98,
+  "sound": "whoosh_fold",
+  "gain": -29,
+  "cue": "v_agora"
+ },
+ {
+  "t": 26.92,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "v_perfume"
+ },
+ {
+  "t": 31.08,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "v_almoco"
+ },
+ {
+  "t": 37.0,
+  "sound": "swish",
+  "gain": -28,
+  "cue": "d_janelas"
+ },
+ {
+  "t": 38.92,
+  "sound": "block",
+  "gain": -29,
+  "cue": "d_mistura"
+ },
+ {
+  "t": 42.44,
+  "sound": "shimmer",
+  "gain": -29,
+  "cue": "f_ninguem"
+ },
+ {
+  "t": 43.58,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 44.48,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 45.24,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 45.84,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_word"
+ },
+ {
+  "t": 45.91,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 46.39,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 47.11,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 47.86,
+  "sound": "shimmer",
+  "gain": -27,
+  "cue": "cta_direct"
+ }
+]
