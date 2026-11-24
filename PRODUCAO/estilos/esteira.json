@@ -48,6 +48,14 @@
         "data": "2026-11-23",
         "grade": "2026-11-29",
         "slot": "21:00"
+      },
+      {
+        "episodio": "ATIVO-D1129-15",
+        "modelo": 1,
+        "nome": "Cartoon explicativo",
+        "data": "2026-11-24",
+        "grade": "2026-11-29",
+        "slot": "15:00"
       }
     ],
     "rotacaoFixaArquivada": {
