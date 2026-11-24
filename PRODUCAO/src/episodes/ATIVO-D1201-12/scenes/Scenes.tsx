@@ -93,8 +93,8 @@ export const Take1: React.FC<SceneProps> = ({ t, tl }) => {
                 <Rot x={k.x} y={300} anchor="middle" texto={k.txt} p={prog(t, k.at - 0.15, 0.4)} cor={i === 1 ? A.hex : C.muted} size={i === 1 ? 34 : 26} />
               </g>
             ))}
-            <Rot x={260} y={390} anchor="middle" texto="ATO PUBLICADO" p={prog(t, c.r_reforma, 0.4)} size={22} />
-            <Rot x={820} y={390} anchor="middle" texto="SIMPLES" p={prog(t, c.r_eletronica + 0.3, 0.4)} size={22} />
+            <Rot x={260} y={390} anchor="middle" texto="ATO PUBLICADO" p={prog(t, c.r_reforma, 0.4)} size={24} />
+            <Rot x={820} y={390} anchor="middle" texto="SIMPLES" p={prog(t, c.r_eletronica + 0.3, 0.4)} size={24} />
             </g>
             <g opacity={fade(carimbo)} transform={`translate(540 560) rotate(-6) scale(${1 + 0.4 * (1 - Math.min(1, carimbo))})`}>
               <Comodo x={-260} y={-110} w={520} h={220} p={1} titulo="NFS-e" sub="LOCAÇÃO DE IMÓVEL" titleSize={56} acende={prog(t, c.r_eletronica - 0.1, 0.4)} />
@@ -164,7 +164,7 @@ export const Take3: React.FC<SceneProps> = ({ t, tl }) => {
           ))}
           <Rota id="contador" d="M 600 445 L 700 445 L 700 600" p={prog(t, c.f_indicar - 0.3, 0.7, ease.out)} tom="accent" />
           <Comodo x={640} y={600} w={280} h={140} p={prog(t, c.f_contador - 0.3, 0.7, ease.out)} titulo="CONTADOR" titleSize={34} acende={prog(t, c.f_indicar, 0.4)} />
-          <Rot x={780} y={580} anchor="middle" texto="QUEM RESPONDE" p={prog(t, c.f_indicar, 0.4)} size={22} />
+          <Rot x={780} y={580} anchor="middle" texto="QUEM RESPONDE" p={prog(t, c.f_indicar, 0.4)} size={24} />
         </Prancha>
       </Camera>
       <TituloFolha p={prog(t, ini, 0.35) * (1 - prog(t, c.f_contador - 0.3, 0.2))} size={54}><W>DEPENDE</W> DE QUEM ALUGA</TituloFolha>

@@ -1,0 +1,140 @@
+[
+ {
+  "t": 2.84,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "h_nota"
+ },
+ {
+  "t": 4.04,
+  "sound": "thump",
+  "gain": -28,
+  "cue": "h_nao"
+ },
+ {
+  "t": 8.44,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "r_dezembro"
+ },
+ {
+  "t": 12.31,
+  "sound": "swish",
+  "gain": -29,
+  "cue": "e_empresa"
+ },
+ {
+  "t": 13.72,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "e_emite"
+ },
+ {
+  "t": 17.8,
+  "sound": "tick",
+  "gain": -27,
+  "cue": "e_simples"
+ },
+ {
+  "t": 22.47,
+  "sound": "whoosh_fold",
+  "gain": -30,
+  "cue": "p_fisica"
+ },
+ {
+  "t": 25.88,
+  "sound": "click",
+  "gain": -27,
+  "cue": "p_240"
+ },
+ {
+  "t": 29.32,
+  "sound": "click",
+  "gain": -27,
+  "cue": "p_tres"
+ },
+ {
+  "t": 31.16,
+  "sound": "block",
+  "gain": -28,
+  "cue": "p_divergencia"
+ },
+ {
+  "t": 33.27,
+  "sound": "whoosh_fold",
+  "gain": -29,
+  "cue": "v_ouseja"
+ },
+ {
+  "t": 38.44,
+  "sound": "impact",
+  "gain": -28,
+  "cue": "v_depende"
+ },
+ {
+  "t": 43.08,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "f_pergunta"
+ },
+ {
+  "t": 44.2,
+  "sound": "shimmer",
+  "gain": -29,
+  "cue": "f_indicar"
+ },
+ {
+  "t": 45.62,
+  "sound": "swish",
+  "gain": -29,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 46.77,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 47.56,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 48.16,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_word"
+ },
+ {
+  "t": 48.31,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 48.95,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 49.62,
+  "sound": "whoosh_up",
+  "gain": -28,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 49.67,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 50.57,
+  "sound": "shimmer",
+  "gain": -27,
+  "cue": "cta_direct"
+ }
+]

@@ -96,9 +96,10 @@
       "justificativaTrilha": "explicação técnica em sequência; T01 sustenta sem competir.",
       "episodio": "ATIVO-D1201-12",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-01/ATIVO-D1201-12_nota_fiscal_do_aluguel.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-01-05/01-terca/12h00"
     },
     {
       "horario": "15:00",

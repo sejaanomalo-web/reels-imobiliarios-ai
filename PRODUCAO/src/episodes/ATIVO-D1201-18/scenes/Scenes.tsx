@@ -42,7 +42,7 @@ export const capitulos = (c: Record<string, number>, tl: Timeline): (Capitulo & 
 export const camera = (t: number, c: Record<string, number>, tl: Timeline): Cam => camAt(t, [
   { t: 0, pos: [-1.6, 5.6, 12.6], alvo: [0, 1.2, 0.4], fov: 38 },
   { t: c.h_assinar + 0.3, pos: [0.4, 4.6, 10.6], alvo: [0, 1.1, 0.8], fov: 38, e: ease.inOut },
-  { t: c.h_pode + 0.2, pos: [0.4, 6.6, 13.6], alvo: [0.3, 1.6, -1.4], fov: 40, e: ease.inOut },
+  { t: c.h_pode + 0.2, pos: [0.4, 7.4, 14.6], alvo: [0.3, 1.2, -1.4], fov: 40, e: ease.inOut },
   // a lei e os 7 dias (à direita)
   { t: c.l_estande, pos: [3.4, 6.6, 12.8], alvo: [3.6, 1.0, 0.2], fov: 40, e: ease.inOut },
   { t: c.l_arrepender + 0.4, pos: [5.6, 7.4, 13.6], alvo: [5.8, 0.8, 0.2], fov: 40, e: ease.inOut },
@@ -56,8 +56,8 @@ export const camera = (t: number, c: Record<string, number>, tl: Timeline): Cam 
   { t: c.p_pressao + 0.2, pos: [0.6, 4.4, 10.2], alvo: [0, 1.2, 1.0], fov: 38, e: ease.inOut },
   { t: c.p_pensar + 0.3, pos: [2.6, 6.0, 12.8], alvo: [3.0, 1.0, 0.8], fov: 40, e: ease.inOut },
   // desfecho: o 8º dia e o prédio de pé
-  { t: c.f_boa + 0.4, pos: [4.2, 7.4, 15.6], alvo: [4.0, 1.8, -1.4], fov: 42, e: ease.inOut },
-  { t: c.cta_quer - 0.3, pos: [4.4, 7.5, 15.8], alvo: [4.2, 1.8, -1.4], fov: 42 },
+  { t: c.f_boa + 0.4, pos: [4.6, 8.6, 17.4], alvo: [4.4, 1.6, -1.8], fov: 44, e: ease.inOut },
+  { t: c.cta_quer - 0.3, pos: [4.7, 8.7, 17.6], alvo: [4.5, 1.6, -1.8], fov: 44 },
   { t: c.cta_quer + 0.9, pos: [CTA_BASE[0], 9.0, CTA_BASE[2] + 13.5], alvo: [CTA_BASE[0], 2.1, CTA_BASE[2] - 0.8], fov: 38, e: ease.inOut },
   { t: c.cta_comment - 0.2, pos: [CTA_BASE[0], 9.2, CTA_BASE[2] + 13.8], alvo: [CTA_BASE[0], 2.2, CTA_BASE[2] - 0.8], fov: 38 },
   { t: c.cta_comment + 0.5, pos: [CTA_BASE[0], 10.0, CTA_BASE[2] + 15.0], alvo: [CTA_BASE[0], 3.2, CTA_BASE[2] - 1.0], fov: 38, e: ease.inOut },
@@ -125,7 +125,7 @@ export const placas = (t: number, c: Record<string, number>, tl: Timeline): Plac
     { id: "stand", pos: [ESTANDE[0], 2.3, ESTANDE[2]], texto: "ESTANDE DE VENDAS", p: ate(0.1, c.h_desistir - 0.15) },
     { id: "desistir", pos: [COMPRADOR[0], 2.1, COMPRADOR[2]], texto: "E SE DESISTIR?", p: ate(c.h_desistir - 0.1, c.h_assinar - 0.1) },
     { id: "assinado", pos: [MESA[0], 1.7, MESA[2]], texto: "CONTRATO ASSINADO", tom: "acento", p: ate(c.h_assinar - 0.1, c.h_planta - 0.1) },
-    { id: "planta", pos: [PREDIO[0], 3.2, PREDIO[2]], texto: "IMÓVEL NA PLANTA", p: ate(c.h_planta - 0.1, ini(tl, "lei")) },
+    { id: "planta", pos: [PREDIO[0] + 1.2, 1.6, PREDIO[2] + 2.0], texto: "IMÓVEL NA PLANTA", p: ate(c.h_planta - 0.1, ini(tl, "lei")) },
     { id: "lei", pos: [3.0, 1.7, -0.6], texto: "LEI DO DISTRATO · 2018", p: ate(c.l_lei - 0.1, c.l_7 - 0.2) },
     { id: "estande", pos: [ESTANDE[0] + 1.6, 1.9, ESTANDE[2] + 0.6], texto: "ESTANDE OU FORA DA SEDE", p: ate(c.l_estande - 0.1, c.l_7 - 0.1) },
     { id: "sete", pos: [DIA(3)[0], 1.5, DIA(3)[2]], texto: "7 DIAS PARA SE ARREPENDER", tom: "acento", p: ate(c.l_7, ini(tl, "devolve")) },
