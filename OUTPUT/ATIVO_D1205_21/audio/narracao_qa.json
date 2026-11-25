@@ -1,0 +1,61 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.11,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.16,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.56,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.39,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.54,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.39,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 29.46,
+    "asr_match": 0.988,
+    "aligned_words": "82/83",
+    "words_per_min": 169,
+    "heard": "O imóvel que o cliente recusou ensina mais do que o que ele gostou. Cada não tem um motivo. Escada demais, sol da tarde, rua barulhenta, só que esse motivo some no meio das mensagens. Anote o não com o motivo logo depois da visita. Depois de três visitas, os motivos se repetem e viram um filtro que o cliente nunca soube explicar. Quem anota o não, chega mais perto do sim. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 30.57,
+      "wpm": 163
+    },
+    "pausas_moldadas": {
+      "n": 13,
+      "max_s": 0.53
+    },
+    "pausas_encurtadas_s": 1.11,
+    "final": {
+      "seconds": 29.46,
+      "wpm": 169
+    }
+  }
+]
