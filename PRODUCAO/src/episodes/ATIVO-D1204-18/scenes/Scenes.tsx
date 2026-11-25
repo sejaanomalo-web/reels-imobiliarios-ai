@@ -114,7 +114,7 @@ export const Virada: React.FC<SceneProps> = ({ t, tl }) => {
               <Contorno {...TELA} p={prog(t, ini, 0.6, ease.out)} />
               <Rot x={540} y={170} anchor="middle" texto="ELEVAÇÃO · 1949" p={prog(t, ini + 0.2, 0.5)} />
               <Encosta t={t} at={ini} p={prog(t, ini, 0.6, ease.out)} sai={sai} acende={prog(t, c.v_simbolo - 0.1, 0.4)} />
-              <Chamada x={790} y={330} bx={640} by={200} bw={280} texto="SAI: LAND" p={prog(t, c.v_land - 0.2, 0.5)} tone="warn" />
+              <Chamada x={820} y={380} bx={640} by={470} bw={280} texto="SAI: LAND" p={prog(t, c.v_land - 0.2, 0.5)} tone="warn" />
               <Cota x1={200} x2={660} y={420} texto="NOME DO BAIRRO" p={prog(t, c.v_bairro - 0.2, 0.5)} cor={C.text} />
               <Comodo x={200} y={560} w={680} h={150} p={prog(t, c.v_simbolo - 0.3, 0.5, ease.out)} titulo="SÍMBOLO DA CIDADE" titleSize={36} acende={prog(t, c.v_simbolo - 0.1, 0.4)} />
             </g>

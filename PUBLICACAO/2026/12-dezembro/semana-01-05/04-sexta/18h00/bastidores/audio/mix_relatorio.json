@@ -1,0 +1,72 @@
+{
+ "final_lufs": "-15.11",
+ "final_true_peak": "-1.96",
+ "final_lra": "3.50",
+ "narracao_lufs": "-18.04",
+ "trilha_lufs": "-29.44",
+ "efeitos_lufs": "-40.53",
+ "eventos": 19,
+ "mixagem": "v2",
+ "trilha": "T02",
+ "licenca_trilha": "autorizada",
+ "v2": {
+  "pausa_lu": -4.0,
+  "duck_graves_db": -3.0,
+  "duck_medios_db": -12.0,
+  "cta_extra_db": -2.0,
+  "corte_hz": 250,
+  "ataque_s": 0.08,
+  "retorno_s": 0.3,
+  "junta_pausas_s": 0.35,
+  "voz_lufs": -18.0,
+  "trilha_lufs_origem": -22.8
+ },
+ "trilha_plano": {
+  "modo": "SHORTEN",
+  "ancoras": [
+   {
+    "funcao": "virada",
+    "secao": "frase3",
+    "alvo": 18.04,
+    "obtido": null,
+    "erro": null
+   },
+   {
+    "funcao": "insight",
+    "secao": "climax",
+    "alvo": 27.4,
+    "obtido": 23.89,
+    "erro": -3.51
+   },
+   {
+    "funcao": "resolucao",
+    "secao": "resolucao",
+    "alvo": 32.2,
+    "obtido": null,
+    "erro": null
+   }
+  ],
+  "cortes": [
+   [
+    11.04,
+    "natural"
+   ],
+   [
+    23.89,
+    "natural"
+   ],
+   [
+    37.61,
+    "aten\u00e7\u00e3o"
+   ]
+  ],
+  "velocidade_pct": 0.0
+ },
+ "inteligibilidade": {
+  "narracao": 0.99,
+  "mixagem": 0.99,
+  "palavras": 105,
+  "queda_pontos": 0.0,
+  "aprovado": true
+ }
+}

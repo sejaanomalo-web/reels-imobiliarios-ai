@@ -48,8 +48,8 @@ export const Agua: React.FC<P> = ({ t, tl }) => {
               return <rect key={i} x={200 + i * 180} y={700} width={150} height={190} fill={ult ? aa(0.14) : "none"} stroke={ult ? A.hex : NOIR.branco} strokeWidth={3} opacity={surge(t, 0.1 + i * 0.12)} style={{ filter: ult ? GLOW_V : undefined }} />;
             })}
           </g>
-          <Termometro x={300} y={960} nivel={0.25} p={surge(t, c.a_gelada - 0.2)} />
-          <Termometro x={780} y={960} nivel={mix(0.25, 0.38, esquenta)} p={surge(t, c.a_meio - 0.3)} quente={esquenta} />
+          <Termometro x={300} y={960} nivel={0.25} p={surge(t, c.a_1993 + 0.3)} />
+          <Termometro x={780} y={960} nivel={mix(0.25, 0.38, esquenta)} p={surge(t, c.a_1993 + 0.6)} quente={esquenta} />
           <Figura t={t} x={540} y={CHAO} s={0.9} pose={testes > 0.5 ? "cabisbaixo" : "pe"} tom="luz" />
         </Svg>
         <Pilula t={t} at={c.a_minuto - 0.05} ate={c.v_ruim - 0.5} x={300} y={600} texto="1 MIN · 14 °C" tom="branco" size={28} />

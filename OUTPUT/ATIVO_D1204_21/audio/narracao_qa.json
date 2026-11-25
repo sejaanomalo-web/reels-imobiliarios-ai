@@ -1,0 +1,66 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.91,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.89,
+    "palavras_nao_reconhecidas": [
+      "1993"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.21,
+    "palavras_nao_reconhecidas": [
+      "trinta",
+      "esquentava"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.53,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.46,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.17,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.5,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 33.18,
+    "asr_match": 0.969,
+    "aligned_words": "93/96",
+    "words_per_min": 174,
+    "heard": "A ordem dos cômodos muda a lembrança que o cliente leva da visita. Em 1993, pesquisadores pediram para as pessoas colocarem a mão em água gelada por um minuto. Na outra vez, um minuto e meio, mas nos últimos 30 segundos a água um pouco. A mais longa foi lembrada como o menos ruim. O final pesou mais do que a duração. Na visita, o cliente leva para casa o último cômodo que viu. Termine no melhor ponto do imóvel, não na área de serviço. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 33.8,
+      "wpm": 170
+    },
+    "pausas_moldadas": {
+      "n": 13,
+      "max_s": 0.44
+    },
+    "pausas_encurtadas_s": 0.62,
+    "final": {
+      "seconds": 33.18,
+      "wpm": 174
+    }
+  }
+]

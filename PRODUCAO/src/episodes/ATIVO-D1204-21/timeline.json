@@ -1,0 +1,934 @@
+{
+ "id": "ATIVO-D1204-21",
+ "title": "O fim da visita",
+ "fps": 30,
+ "duration": 35.5,
+ "durationInFrames": 1065,
+ "narrationEnd": 33.297,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.315
+  },
+  {
+   "id": "agua",
+   "start": 4.315,
+   "end": 16.045
+  },
+  {
+   "id": "virada",
+   "start": 16.045,
+   "end": 20.945
+  },
+  {
+   "id": "visita",
+   "start": 20.945,
+   "end": 24.81
+  },
+  {
+   "id": "desfecho",
+   "start": 24.81,
+   "end": 28.265
+  },
+  {
+   "id": "cta",
+   "start": 28.265,
+   "end": 35.5
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A ordem dos cômodos muda a lembrança que o cliente leva da visita.",
+   "start": 0.2,
+   "end": 4.11
+  },
+  {
+   "id": "s2",
+   "scene": "agua",
+   "text": "Em 1993, pesquisadores pediram para as pessoas colocarem a mão em água gelada por um minuto.",
+   "start": 4.52,
+   "end": 10.41
+  },
+  {
+   "id": "s3",
+   "scene": "agua",
+   "text": "Na outra vez, um minuto e meio, mas nos últimos trinta segundos a água esquentava um pouco.",
+   "start": 10.68,
+   "end": 15.89
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "A mais longa foi lembrada como menos ruim. O final pesou mais do que a duração.",
+   "start": 16.2,
+   "end": 20.73
+  },
+  {
+   "id": "s5",
+   "scene": "visita",
+   "text": "Na visita, o cliente leva para casa o último cômodo que viu.",
+   "start": 21.16,
+   "end": 24.62
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Termine no melhor ponto do imóvel, não na área de serviço.",
+   "start": 25.0,
+   "end": 28.17
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 28.36,
+   "end": 32.86
+  }
+ ],
+ "cues": {
+  "h_ordem": 0.68,
+  "h_lembranca": 2.36,
+  "a_1993": 5.107,
+  "a_gelada": 9.24,
+  "a_minuto": 10.12,
+  "a_meio": 12.44,
+  "a_esquentava": 15.011,
+  "v_ruim": 18.28,
+  "v_final": 19.0,
+  "v_duracao": 20.36,
+  "i_ultimo": 23.48,
+  "f_melhor": 25.72,
+  "f_servico": 27.8,
+  "cta_quer": 28.36,
+  "cta_comment": 29.48,
+  "cta_word": 30.12,
+  "cta_tiles": 30.84,
+  "cta_sys": 31.64,
+  "cta_leads": 31.32,
+  "cta_atend": 32.12,
+  "cta_direct": 32.12,
+  "cta_end": 32.86
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 1.88,
+   "words": [
+    {
+     "text": "A",
+     "start": 0.2,
+     "end": 0.5,
+     "emph": false
+    },
+    {
+     "text": "ordem",
+     "start": 0.68,
+     "end": 1.08,
+     "emph": true
+    },
+    {
+     "text": "dos",
+     "start": 1.08,
+     "end": 1.24,
+     "emph": true
+    },
+    {
+     "text": "cômodos",
+     "start": 1.24,
+     "end": 1.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.88,
+   "end": 2.76,
+   "words": [
+    {
+     "text": "muda",
+     "start": 1.88,
+     "end": 2.2,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 2.2,
+     "end": 2.36,
+     "emph": false
+    },
+    {
+     "text": "lembrança",
+     "start": 2.36,
+     "end": 2.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.76,
+   "end": 3.64,
+   "words": [
+    {
+     "text": "que",
+     "start": 2.76,
+     "end": 2.92,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 2.92,
+     "end": 3.0,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 3.0,
+     "end": 3.32,
+     "emph": false
+    },
+    {
+     "text": "leva",
+     "start": 3.32,
+     "end": 3.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.64,
+   "end": 4.52,
+   "words": [
+    {
+     "text": "da",
+     "start": 3.64,
+     "end": 3.8,
+     "emph": false
+    },
+    {
+     "text": "visita.",
+     "start": 3.8,
+     "end": 4.11,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.52,
+   "end": 6.28,
+   "words": [
+    {
+     "text": "Em",
+     "start": 4.52,
+     "end": 5.107,
+     "emph": false
+    },
+    {
+     "text": "1993,",
+     "start": 5.107,
+     "end": 6.15,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.28,
+   "end": 7.4,
+   "words": [
+    {
+     "text": "pesquisadores",
+     "start": 6.28,
+     "end": 7.0,
+     "emph": false
+    },
+    {
+     "text": "pediram",
+     "start": 7.0,
+     "end": 7.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.4,
+   "end": 7.96,
+   "words": [
+    {
+     "text": "para",
+     "start": 7.4,
+     "end": 7.56,
+     "emph": false
+    },
+    {
+     "text": "as",
+     "start": 7.56,
+     "end": 7.64,
+     "emph": false
+    },
+    {
+     "text": "pessoas",
+     "start": 7.64,
+     "end": 7.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.96,
+   "end": 8.76,
+   "words": [
+    {
+     "text": "colocarem",
+     "start": 7.96,
+     "end": 8.52,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 8.52,
+     "end": 8.6,
+     "emph": false
+    },
+    {
+     "text": "mão",
+     "start": 8.6,
+     "end": 8.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.76,
+   "end": 9.8,
+   "words": [
+    {
+     "text": "em",
+     "start": 8.76,
+     "end": 8.92,
+     "emph": false
+    },
+    {
+     "text": "água",
+     "start": 8.92,
+     "end": 9.24,
+     "emph": true
+    },
+    {
+     "text": "gelada",
+     "start": 9.24,
+     "end": 9.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.8,
+   "end": 10.68,
+   "words": [
+    {
+     "text": "por",
+     "start": 9.8,
+     "end": 9.96,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 9.96,
+     "end": 10.12,
+     "emph": true
+    },
+    {
+     "text": "minuto.",
+     "start": 10.12,
+     "end": 10.41,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.68,
+   "end": 11.72,
+   "words": [
+    {
+     "text": "Na",
+     "start": 10.68,
+     "end": 10.92,
+     "emph": false
+    },
+    {
+     "text": "outra",
+     "start": 10.92,
+     "end": 11.24,
+     "emph": false
+    },
+    {
+     "text": "vez,",
+     "start": 11.24,
+     "end": 11.59,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.72,
+   "end": 13.0,
+   "words": [
+    {
+     "text": "um",
+     "start": 11.72,
+     "end": 11.96,
+     "emph": true
+    },
+    {
+     "text": "minuto",
+     "start": 11.96,
+     "end": 12.28,
+     "emph": true
+    },
+    {
+     "text": "e",
+     "start": 12.28,
+     "end": 12.44,
+     "emph": true
+    },
+    {
+     "text": "meio,",
+     "start": 12.44,
+     "end": 12.7,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.0,
+   "end": 13.788,
+   "words": [
+    {
+     "text": "mas",
+     "start": 13.0,
+     "end": 13.24,
+     "emph": false
+    },
+    {
+     "text": "nos",
+     "start": 13.24,
+     "end": 13.4,
+     "emph": false
+    },
+    {
+     "text": "últimos",
+     "start": 13.4,
+     "end": 13.788,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.788,
+   "end": 14.6,
+   "words": [
+    {
+     "text": "trinta",
+     "start": 13.788,
+     "end": 14.12,
+     "emph": false
+    },
+    {
+     "text": "segundos",
+     "start": 14.12,
+     "end": 14.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.6,
+   "end": 15.64,
+   "words": [
+    {
+     "text": "a",
+     "start": 14.6,
+     "end": 14.76,
+     "emph": false
+    },
+    {
+     "text": "água",
+     "start": 14.76,
+     "end": 15.011,
+     "emph": false
+    },
+    {
+     "text": "esquentava",
+     "start": 15.011,
+     "end": 15.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.64,
+   "end": 16.2,
+   "words": [
+    {
+     "text": "um",
+     "start": 15.64,
+     "end": 15.72,
+     "emph": false
+    },
+    {
+     "text": "pouco.",
+     "start": 15.72,
+     "end": 15.89,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.2,
+   "end": 17.08,
+   "words": [
+    {
+     "text": "A",
+     "start": 16.2,
+     "end": 16.28,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 16.44,
+     "end": 16.68,
+     "emph": false
+    },
+    {
+     "text": "longa",
+     "start": 16.68,
+     "end": 17.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.08,
+   "end": 17.72,
+   "words": [
+    {
+     "text": "foi",
+     "start": 17.08,
+     "end": 17.24,
+     "emph": false
+    },
+    {
+     "text": "lembrada",
+     "start": 17.24,
+     "end": 17.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.72,
+   "end": 18.84,
+   "words": [
+    {
+     "text": "como",
+     "start": 17.72,
+     "end": 18.04,
+     "emph": false
+    },
+    {
+     "text": "menos",
+     "start": 18.04,
+     "end": 18.28,
+     "emph": true
+    },
+    {
+     "text": "ruim.",
+     "start": 18.28,
+     "end": 18.59,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.84,
+   "end": 20.04,
+   "words": [
+    {
+     "text": "O",
+     "start": 18.84,
+     "end": 19.0,
+     "emph": false
+    },
+    {
+     "text": "final",
+     "start": 19.0,
+     "end": 19.4,
+     "emph": true
+    },
+    {
+     "text": "pesou",
+     "start": 19.4,
+     "end": 19.88,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 19.88,
+     "end": 20.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 20.04,
+   "end": 21.16,
+   "words": [
+    {
+     "text": "do",
+     "start": 20.04,
+     "end": 20.12,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 20.12,
+     "end": 20.28,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 20.28,
+     "end": 20.36,
+     "emph": false
+    },
+    {
+     "text": "duração.",
+     "start": 20.36,
+     "end": 20.73,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.16,
+   "end": 21.96,
+   "words": [
+    {
+     "text": "Na",
+     "start": 21.16,
+     "end": 21.4,
+     "emph": false
+    },
+    {
+     "text": "visita,",
+     "start": 21.4,
+     "end": 21.86,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.96,
+   "end": 23.4,
+   "words": [
+    {
+     "text": "o",
+     "start": 21.96,
+     "end": 22.12,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 22.12,
+     "end": 22.52,
+     "emph": false
+    },
+    {
+     "text": "leva",
+     "start": 22.52,
+     "end": 22.92,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 22.92,
+     "end": 23.08,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 23.08,
+     "end": 23.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.4,
+   "end": 24.28,
+   "words": [
+    {
+     "text": "o",
+     "start": 23.4,
+     "end": 23.48,
+     "emph": false
+    },
+    {
+     "text": "último",
+     "start": 23.48,
+     "end": 23.8,
+     "emph": true
+    },
+    {
+     "text": "cômodo",
+     "start": 23.8,
+     "end": 24.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.28,
+   "end": 25.0,
+   "words": [
+    {
+     "text": "que",
+     "start": 24.28,
+     "end": 24.44,
+     "emph": false
+    },
+    {
+     "text": "viu.",
+     "start": 24.44,
+     "end": 24.62,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.0,
+   "end": 25.56,
+   "words": [
+    {
+     "text": "Termine",
+     "start": 25.0,
+     "end": 25.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.56,
+   "end": 26.28,
+   "words": [
+    {
+     "text": "no",
+     "start": 25.56,
+     "end": 25.72,
+     "emph": false
+    },
+    {
+     "text": "melhor",
+     "start": 25.72,
+     "end": 26.04,
+     "emph": true
+    },
+    {
+     "text": "ponto",
+     "start": 26.04,
+     "end": 26.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.28,
+   "end": 27.08,
+   "words": [
+    {
+     "text": "do",
+     "start": 26.28,
+     "end": 26.44,
+     "emph": false
+    },
+    {
+     "text": "imóvel,",
+     "start": 26.44,
+     "end": 26.9,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.08,
+   "end": 27.48,
+   "words": [
+    {
+     "text": "não",
+     "start": 27.08,
+     "end": 27.32,
+     "emph": false
+    },
+    {
+     "text": "na",
+     "start": 27.32,
+     "end": 27.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.48,
+   "end": 28.36,
+   "words": [
+    {
+     "text": "área",
+     "start": 27.48,
+     "end": 27.72,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 27.72,
+     "end": 27.8,
+     "emph": true
+    },
+    {
+     "text": "serviço.",
+     "start": 27.8,
+     "end": 28.17,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.36,
+   "end": 29.48,
+   "words": [
+    {
+     "text": "Se",
+     "start": 28.36,
+     "end": 28.52,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 28.52,
+     "end": 28.68,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 28.68,
+     "end": 28.84,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 28.84,
+     "end": 29.34,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.48,
+   "end": 30.68,
+   "words": [
+    {
+     "text": "comente",
+     "start": 29.48,
+     "end": 30.12,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 30.12,
+     "end": 30.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.68,
+   "end": 31.64,
+   "words": [
+    {
+     "text": "e",
+     "start": 30.68,
+     "end": 30.84,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 30.84,
+     "end": 31.32,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 31.32,
+     "end": 31.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.64,
+   "end": 33.36,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 31.64,
+     "end": 32.12,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 32.12,
+     "end": 32.86,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}
