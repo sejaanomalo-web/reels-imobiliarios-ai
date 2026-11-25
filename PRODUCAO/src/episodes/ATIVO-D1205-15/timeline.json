@@ -1,0 +1,962 @@
+{
+ "id": "ATIVO-D1205-15",
+ "title": "Vou pensar",
+ "fps": 30,
+ "duration": 39.6,
+ "durationInFrames": 1188,
+ "narrationEnd": 37.383,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 3.375
+  },
+  {
+   "id": "erro",
+   "start": 3.375,
+   "end": 8.21
+  },
+  {
+   "id": "virada",
+   "start": 8.21,
+   "end": 14.042
+  },
+  {
+   "id": "pergunta",
+   "start": 14.042,
+   "end": 21.435
+  },
+  {
+   "id": "efeito",
+   "start": 21.435,
+   "end": 26.045
+  },
+  {
+   "id": "desfecho",
+   "start": 26.045,
+   "end": 32.44
+  },
+  {
+   "id": "cta",
+   "start": 32.44,
+   "end": 39.6
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O cliente gostou do imóvel e disse: vou pensar.",
+   "start": 0.12,
+   "end": 3.19
+  },
+  {
+   "id": "s2",
+   "scene": "erro",
+   "text": "Você responde: claro, fico no aguardo. E a conversa morre ali.",
+   "start": 3.56,
+   "end": 7.98
+  },
+  {
+   "id": "s3",
+   "scene": "virada",
+   "text": "Muitas vezes, vou pensar não é sobre tempo. É uma dúvida que ele ainda não falou.",
+   "start": 8.44,
+   "end": 13.97
+  },
+  {
+   "id": "s4",
+   "scene": "pergunta",
+   "text": "Pergunte com calma: pensar em quê, exatamente? É o valor, o bairro ou alguém que precisa ver também?",
+   "start": 14.114,
+   "end": 21.15
+  },
+  {
+   "id": "s5",
+   "scene": "efeito",
+   "text": "Agora você sabe o que resolver, e ele não precisa inventar desculpa.",
+   "start": 21.72,
+   "end": 25.89
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Quem pergunta o motivo ganha uma conversa. Quem só aguarda corre o risco de perder o cliente em silêncio.",
+   "start": 26.2,
+   "end": 32.28
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 32.6,
+   "end": 36.96
+  }
+ ],
+ "cues": {
+  "h_gostou": 0.6,
+  "h_pensar": 2.76,
+  "e_aguardo": 5.64,
+  "e_morre": 7.24,
+  "v_tempo": 11.08,
+  "v_duvida": 12.04,
+  "p_que": 16.44,
+  "p_valor": 18.12,
+  "p_bairro": 18.92,
+  "p_alguem": 19.88,
+  "x_resolver": 23.16,
+  "x_desculpa": 25.48,
+  "f_conversa": 28.28,
+  "f_aguarda": 29.4,
+  "f_silencio": 31.88,
+  "cta_quer": 32.6,
+  "cta_comment": 33.72,
+  "cta_word": 34.36,
+  "cta_tiles": 35.08,
+  "cta_sys": 35.88,
+  "cta_leads": 35.56,
+  "cta_atend": 36.36,
+  "cta_direct": 36.36,
+  "cta_end": 36.96
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.0,
+   "words": [
+    {
+     "text": "O",
+     "start": 0.12,
+     "end": 0.28,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 0.28,
+     "end": 0.6,
+     "emph": false
+    },
+    {
+     "text": "gostou",
+     "start": 0.6,
+     "end": 1.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.0,
+   "end": 1.72,
+   "words": [
+    {
+     "text": "do",
+     "start": 1.0,
+     "end": 1.16,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 1.16,
+     "end": 1.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.72,
+   "end": 2.44,
+   "words": [
+    {
+     "text": "e",
+     "start": 1.72,
+     "end": 1.88,
+     "emph": false
+    },
+    {
+     "text": "disse:",
+     "start": 1.88,
+     "end": 2.29,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.44,
+   "end": 3.56,
+   "words": [
+    {
+     "text": "vou",
+     "start": 2.44,
+     "end": 2.76,
+     "emph": true
+    },
+    {
+     "text": "pensar.",
+     "start": 2.76,
+     "end": 3.19,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.56,
+   "end": 4.6,
+   "words": [
+    {
+     "text": "Você",
+     "start": 3.56,
+     "end": 3.88,
+     "emph": false
+    },
+    {
+     "text": "responde:",
+     "start": 3.88,
+     "end": 4.43,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.6,
+   "end": 5.16,
+   "words": [
+    {
+     "text": "claro,",
+     "start": 4.6,
+     "end": 5.03,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.16,
+   "end": 6.36,
+   "words": [
+    {
+     "text": "fico",
+     "start": 5.16,
+     "end": 5.48,
+     "emph": true
+    },
+    {
+     "text": "no",
+     "start": 5.48,
+     "end": 5.64,
+     "emph": true
+    },
+    {
+     "text": "aguardo.",
+     "start": 5.64,
+     "end": 6.13,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.36,
+   "end": 7.24,
+   "words": [
+    {
+     "text": "E",
+     "start": 6.36,
+     "end": 6.52,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 6.52,
+     "end": 6.68,
+     "emph": false
+    },
+    {
+     "text": "conversa",
+     "start": 6.68,
+     "end": 7.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.24,
+   "end": 8.44,
+   "words": [
+    {
+     "text": "morre",
+     "start": 7.24,
+     "end": 7.72,
+     "emph": true
+    },
+    {
+     "text": "ali.",
+     "start": 7.72,
+     "end": 7.98,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.44,
+   "end": 9.48,
+   "words": [
+    {
+     "text": "Muitas",
+     "start": 8.44,
+     "end": 8.84,
+     "emph": false
+    },
+    {
+     "text": "vezes,",
+     "start": 8.84,
+     "end": 9.33,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.48,
+   "end": 10.36,
+   "words": [
+    {
+     "text": "vou",
+     "start": 9.48,
+     "end": 9.72,
+     "emph": false
+    },
+    {
+     "text": "pensar",
+     "start": 9.72,
+     "end": 10.25,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.36,
+   "end": 11.64,
+   "words": [
+    {
+     "text": "não",
+     "start": 10.36,
+     "end": 10.6,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 10.6,
+     "end": 10.76,
+     "emph": false
+    },
+    {
+     "text": "sobre",
+     "start": 10.76,
+     "end": 11.08,
+     "emph": false
+    },
+    {
+     "text": "tempo.",
+     "start": 11.08,
+     "end": 11.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.64,
+   "end": 12.44,
+   "words": [
+    {
+     "text": "É",
+     "start": 11.64,
+     "end": 11.88,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 11.88,
+     "end": 12.04,
+     "emph": false
+    },
+    {
+     "text": "dúvida",
+     "start": 12.04,
+     "end": 12.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.44,
+   "end": 12.92,
+   "words": [
+    {
+     "text": "que",
+     "start": 12.44,
+     "end": 12.6,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 12.6,
+     "end": 12.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.92,
+   "end": 14.114,
+   "words": [
+    {
+     "text": "ainda",
+     "start": 12.92,
+     "end": 13.24,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 13.24,
+     "end": 13.56,
+     "emph": false
+    },
+    {
+     "text": "falou.",
+     "start": 13.56,
+     "end": 13.97,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.114,
+   "end": 15.72,
+   "words": [
+    {
+     "text": "Pergunte",
+     "start": 14.114,
+     "end": 14.19,
+     "emph": false
+    },
+    {
+     "text": "com",
+     "start": 15.0,
+     "end": 15.16,
+     "emph": false
+    },
+    {
+     "text": "calma:",
+     "start": 15.16,
+     "end": 15.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.72,
+   "end": 16.76,
+   "words": [
+    {
+     "text": "pensar",
+     "start": 15.72,
+     "end": 16.2,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 16.2,
+     "end": 16.28,
+     "emph": true
+    },
+    {
+     "text": "quê,",
+     "start": 16.44,
+     "end": 16.63,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.76,
+   "end": 17.72,
+   "words": [
+    {
+     "text": "exatamente?",
+     "start": 16.76,
+     "end": 17.49,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.72,
+   "end": 18.76,
+   "words": [
+    {
+     "text": "É",
+     "start": 17.72,
+     "end": 17.96,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 17.96,
+     "end": 18.12,
+     "emph": false
+    },
+    {
+     "text": "valor,",
+     "start": 18.12,
+     "end": 18.53,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.76,
+   "end": 19.56,
+   "words": [
+    {
+     "text": "o",
+     "start": 18.76,
+     "end": 18.92,
+     "emph": false
+    },
+    {
+     "text": "bairro",
+     "start": 18.92,
+     "end": 19.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 19.56,
+   "end": 20.12,
+   "words": [
+    {
+     "text": "ou",
+     "start": 19.56,
+     "end": 19.88,
+     "emph": false
+    },
+    {
+     "text": "alguém",
+     "start": 19.88,
+     "end": 20.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 20.12,
+   "end": 21.5,
+   "words": [
+    {
+     "text": "que",
+     "start": 20.12,
+     "end": 20.28,
+     "emph": false
+    },
+    {
+     "text": "precisa",
+     "start": 20.28,
+     "end": 20.68,
+     "emph": false
+    },
+    {
+     "text": "ver",
+     "start": 20.68,
+     "end": 20.92,
+     "emph": false
+    },
+    {
+     "text": "também?",
+     "start": 20.92,
+     "end": 21.15,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.72,
+   "end": 22.76,
+   "words": [
+    {
+     "text": "Agora",
+     "start": 21.72,
+     "end": 22.12,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 22.12,
+     "end": 22.44,
+     "emph": false
+    },
+    {
+     "text": "sabe",
+     "start": 22.44,
+     "end": 22.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.76,
+   "end": 23.8,
+   "words": [
+    {
+     "text": "o",
+     "start": 22.76,
+     "end": 22.92,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 22.92,
+     "end": 23.16,
+     "emph": false
+    },
+    {
+     "text": "resolver,",
+     "start": 23.16,
+     "end": 23.63,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.8,
+   "end": 25.0,
+   "words": [
+    {
+     "text": "e",
+     "start": 23.8,
+     "end": 24.04,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 24.04,
+     "end": 24.28,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 24.28,
+     "end": 24.44,
+     "emph": false
+    },
+    {
+     "text": "precisa",
+     "start": 24.44,
+     "end": 25.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 25.0,
+   "end": 26.2,
+   "words": [
+    {
+     "text": "inventar",
+     "start": 25.0,
+     "end": 25.48,
+     "emph": false
+    },
+    {
+     "text": "desculpa.",
+     "start": 25.48,
+     "end": 25.89,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.2,
+   "end": 27.0,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 26.2,
+     "end": 26.27,
+     "emph": false
+    },
+    {
+     "text": "pergunta",
+     "start": 26.52,
+     "end": 27.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.0,
+   "end": 27.64,
+   "words": [
+    {
+     "text": "o",
+     "start": 27.0,
+     "end": 27.16,
+     "emph": false
+    },
+    {
+     "text": "motivo",
+     "start": 27.16,
+     "end": 27.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.64,
+   "end": 28.84,
+   "words": [
+    {
+     "text": "ganha",
+     "start": 27.64,
+     "end": 28.12,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 28.12,
+     "end": 28.28,
+     "emph": false
+    },
+    {
+     "text": "conversa.",
+     "start": 28.28,
+     "end": 28.7,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.84,
+   "end": 29.88,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 28.84,
+     "end": 28.91,
+     "emph": false
+    },
+    {
+     "text": "só",
+     "start": 29.16,
+     "end": 29.4,
+     "emph": false
+    },
+    {
+     "text": "aguarda",
+     "start": 29.4,
+     "end": 29.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 29.88,
+   "end": 30.68,
+   "words": [
+    {
+     "text": "corre",
+     "start": 29.88,
+     "end": 30.28,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 30.28,
+     "end": 30.36,
+     "emph": false
+    },
+    {
+     "text": "risco",
+     "start": 30.36,
+     "end": 30.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 30.68,
+   "end": 31.72,
+   "words": [
+    {
+     "text": "de",
+     "start": 30.68,
+     "end": 30.84,
+     "emph": false
+    },
+    {
+     "text": "perder",
+     "start": 30.84,
+     "end": 31.24,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 31.24,
+     "end": 31.32,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 31.32,
+     "end": 31.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 31.72,
+   "end": 32.6,
+   "words": [
+    {
+     "text": "em",
+     "start": 31.72,
+     "end": 31.88,
+     "emph": false
+    },
+    {
+     "text": "silêncio.",
+     "start": 31.88,
+     "end": 32.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.6,
+   "end": 33.72,
+   "words": [
+    {
+     "text": "Se",
+     "start": 32.6,
+     "end": 32.76,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 32.76,
+     "end": 33.0,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 33.0,
+     "end": 33.16,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 33.16,
+     "end": 33.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.72,
+   "end": 34.92,
+   "words": [
+    {
+     "text": "comente",
+     "start": 33.72,
+     "end": 34.36,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 34.36,
+     "end": 34.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 34.92,
+   "end": 35.88,
+   "words": [
+    {
+     "text": "e",
+     "start": 34.92,
+     "end": 35.08,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 35.08,
+     "end": 35.56,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 35.56,
+     "end": 35.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 35.88,
+   "end": 37.46,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 35.88,
+     "end": 36.36,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 36.36,
+     "end": 36.96,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

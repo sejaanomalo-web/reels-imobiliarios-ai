@@ -1,0 +1,110 @@
+[
+ {
+  "t": 1.967,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "h_cinco"
+ },
+ {
+  "t": 6.28,
+  "sound": "block",
+  "gain": -28,
+  "cue": "d_2mil"
+ },
+ {
+  "t": 11.32,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "d_quarto"
+ },
+ {
+  "t": 13.83,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "v_duvida"
+ },
+ {
+  "t": 17.24,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "a_pronta"
+ },
+ {
+  "t": 20.84,
+  "sound": "block",
+  "gain": -28,
+  "cue": "a_financiamento"
+ },
+ {
+  "t": 24.15,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "f_desinteresse"
+ },
+ {
+  "t": 26.65,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 27.67,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 28.28,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 28.95,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 29.03,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_word"
+ },
+ {
+  "t": 29.13,
+  "sound": "whoosh_up",
+  "gain": -28,
+  "cue": "cta_word"
+ },
+ {
+  "t": 29.51,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 30.15,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 30.2,
+  "sound": "pop",
+  "gain": -26,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 31.4,
+  "sound": "click",
+  "gain": -23,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 31.48,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "cta_direct"
+ }
+]

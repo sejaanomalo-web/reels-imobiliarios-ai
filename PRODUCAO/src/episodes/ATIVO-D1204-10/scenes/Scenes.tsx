@@ -22,7 +22,7 @@ export type Shot = {
 };
 type Msg = { texto: string[]; lado: "eu" | "ele"; at: number; verde?: boolean };
 /** Celular com conversa (balões de texto em linhas). */
-const Celular: React.FC<{ t: number; x: number; y: number; s?: number; msgs: Msg[]; rodape?: string; rodapeAt?: number }> = ({ t, x, y, s = 1, msgs, rodape, rodapeAt = 0 }) => {
+export const Celular: React.FC<{ t: number; x: number; y: number; s?: number; msgs: Msg[]; rodape?: string; rodapeAt?: number }> = ({ t, x, y, s = 1, msgs, rodape, rodapeAt = 0 }) => {
   let cy = -190;
   return (
     <g transform={`translate(${x} ${y}) scale(${s})`}>

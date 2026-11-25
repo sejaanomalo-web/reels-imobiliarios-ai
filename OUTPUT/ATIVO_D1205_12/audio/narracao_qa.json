@@ -1,0 +1,67 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.85,
+    "palavras_nao_reconhecidas": [
+      "Por",
+      "dez",
+      "parecem"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 6.85,
+    "palavras_nao_reconhecidas": [
+      "1985"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.95,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 5.04,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.13,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.24,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 35.99,
+    "asr_match": 0.942,
+    "aligned_words": "81/87",
+    "words_per_min": 145,
+    "heard": "Porque 10 minutos numa fila parec uma hora. Em 1985, um professor de negócios escreveu sobre isso. Espera sem nada para fazer parece mais longa. Espera sem prazo, parece maior ainda. E espera sem explicação, pior. Agora pense no seu cliente, esperando a aprovação do financiamento, sem saber em que etapa está. Mande uma mensagem a cada etapa. Documentos enviados, análise começou, falta avaliação. A espera continua a mesma, mas explicada, ela pesa menos. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 37.82,
+      "wpm": 138
+    },
+    "pausas_moldadas": {
+      "n": 17,
+      "max_s": 0.59
+    },
+    "pausas_encurtadas_s": 1.83,
+    "final": {
+      "seconds": 35.99,
+      "wpm": 145
+    }
+  }
+]

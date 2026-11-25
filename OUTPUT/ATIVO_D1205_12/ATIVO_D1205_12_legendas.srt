@@ -1,0 +1,79 @@
+1
+00:00:00,120 --> 00:00:01,729
+Por que dez minutos numa fila
+
+2
+00:00:01,749 --> 00:00:03,170
+parecem uma hora?
+
+3
+00:00:03,320 --> 00:00:06,260
+Em 1985, um professor de negócios
+
+4
+00:00:06,280 --> 00:00:07,370
+escreveu sobre isso:
+
+5
+00:00:07,480 --> 00:00:09,140
+espera sem nada para fazer
+
+6
+00:00:09,160 --> 00:00:10,370
+parece mais longa.
+
+7
+00:00:10,520 --> 00:00:13,140
+Espera sem prazo parece maior ainda.
+
+8
+00:00:13,160 --> 00:00:15,120
+E espera sem explicação,
+
+9
+00:00:15,160 --> 00:00:15,670
+pior.
+
+10
+00:00:15,960 --> 00:00:17,540
+Agora pense no seu cliente
+
+11
+00:00:17,560 --> 00:00:19,600
+esperando a aprovação do financiamento,
+
+12
+00:00:19,640 --> 00:00:21,200
+sem saber em que etapa está.
+
+13
+00:00:21,320 --> 00:00:23,160
+Mande uma mensagem a cada etapa:
+
+14
+00:00:23,240 --> 00:00:24,580
+documentos enviados,
+
+15
+00:00:24,600 --> 00:00:27,000
+análise começou, falta a avaliação.
+
+16
+00:00:27,080 --> 00:00:28,750
+A espera continua a mesma.
+
+17
+00:00:28,840 --> 00:00:31,410
+Mas explicada, ela pesa menos.
+
+18
+00:00:31,480 --> 00:00:32,660
+Se você é corretor,
+
+19
+00:00:32,680 --> 00:00:34,740
+comente SISTEMA e conheça nosso
+
+20
+00:00:34,760 --> 00:00:35,920
+sistema personalizado.

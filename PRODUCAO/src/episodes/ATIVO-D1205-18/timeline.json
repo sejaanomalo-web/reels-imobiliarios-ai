@@ -1,0 +1,993 @@
+{
+ "id": "ATIVO-D1205-18",
+ "title": "A terceira opção",
+ "fps": 30,
+ "duration": 43.8,
+ "durationInFrames": 1314,
+ "narrationEnd": 41.577,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.275
+  },
+  {
+   "id": "teste",
+   "start": 4.275,
+   "end": 14.85
+  },
+  {
+   "id": "virada",
+   "start": 14.85,
+   "end": 24.175
+  },
+  {
+   "id": "aplica",
+   "start": 24.175,
+   "end": 31.555
+  },
+  {
+   "id": "desfecho",
+   "start": 31.555,
+   "end": 36.62
+  },
+  {
+   "id": "cta",
+   "start": 36.62,
+   "end": 43.8
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Uma opção que ninguém escolheu mudou a escolha de quase todo mundo.",
+   "start": 0.12,
+   "end": 4.19
+  },
+  {
+   "id": "s2",
+   "scene": "teste",
+   "text": "Num experimento com estudantes, uma revista oferecia: só digital por 59 dólares, ou impressa mais digital por 125.",
+   "start": 4.36,
+   "end": 12.76
+  },
+  {
+   "id": "s3",
+   "scene": "teste",
+   "text": "A maioria ficou com a digital.",
+   "start": 13.0,
+   "end": 14.62
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Aí incluíram a impressa sozinha, também por 125. Ninguém escolheu ela. Mas 84% passaram a escolher a combinada.",
+   "start": 15.08,
+   "end": 23.99
+  },
+  {
+   "id": "s5",
+   "scene": "aplica",
+   "text": "A comparação muda o valor que a gente enxerga. Por isso, mostre os imóveis em grupos que façam sentido lado a lado.",
+   "start": 24.36,
+   "end": 31.39
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Com uma referência honesta do lado, o cliente enxerga melhor o valor do imóvel certo.",
+   "start": 31.72,
+   "end": 36.48
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 36.76,
+   "end": 41.16
+  }
+ ],
+ "cues": {
+  "h_ninguem": 0.92,
+  "h_todo": 3.64,
+  "t_digital": 7.72,
+  "t_59": 8.776,
+  "t_125": 12.28,
+  "t_maioria": 13.16,
+  "v_impressa": 16.36,
+  "v_ninguem": 18.92,
+  "v_84": 20.52,
+  "v_combinada": 23.32,
+  "a_comparacao": 24.6,
+  "a_grupos": 29.16,
+  "a_lado": 30.76,
+  "f_honesta": 32.76,
+  "f_certo": 36.28,
+  "cta_quer": 36.76,
+  "cta_comment": 37.88,
+  "cta_word": 38.44,
+  "cta_tiles": 39.16,
+  "cta_sys": 39.96,
+  "cta_leads": 39.64,
+  "cta_atend": 40.44,
+  "cta_direct": 40.44,
+  "cta_end": 41.16
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.76,
+   "words": [
+    {
+     "text": "Uma",
+     "start": 0.12,
+     "end": 0.44,
+     "emph": false
+    },
+    {
+     "text": "opção",
+     "start": 0.44,
+     "end": 0.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.76,
+   "end": 1.88,
+   "words": [
+    {
+     "text": "que",
+     "start": 0.76,
+     "end": 0.92,
+     "emph": false
+    },
+    {
+     "text": "ninguém",
+     "start": 0.92,
+     "end": 1.24,
+     "emph": true
+    },
+    {
+     "text": "escolheu",
+     "start": 1.24,
+     "end": 1.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.88,
+   "end": 2.92,
+   "words": [
+    {
+     "text": "mudou",
+     "start": 1.88,
+     "end": 2.28,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 2.28,
+     "end": 2.36,
+     "emph": false
+    },
+    {
+     "text": "escolha",
+     "start": 2.36,
+     "end": 2.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.92,
+   "end": 4.36,
+   "words": [
+    {
+     "text": "de",
+     "start": 2.92,
+     "end": 2.99,
+     "emph": false
+    },
+    {
+     "text": "quase",
+     "start": 3.16,
+     "end": 3.64,
+     "emph": true
+    },
+    {
+     "text": "todo",
+     "start": 3.64,
+     "end": 3.88,
+     "emph": true
+    },
+    {
+     "text": "mundo.",
+     "start": 3.88,
+     "end": 4.19,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.36,
+   "end": 5.16,
+   "words": [
+    {
+     "text": "Num",
+     "start": 4.36,
+     "end": 4.68,
+     "emph": false
+    },
+    {
+     "text": "experimento",
+     "start": 4.68,
+     "end": 5.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.16,
+   "end": 6.04,
+   "words": [
+    {
+     "text": "com",
+     "start": 5.16,
+     "end": 5.4,
+     "emph": false
+    },
+    {
+     "text": "estudantes,",
+     "start": 5.4,
+     "end": 6.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.04,
+   "end": 7.4,
+   "words": [
+    {
+     "text": "uma",
+     "start": 6.04,
+     "end": 6.2,
+     "emph": false
+    },
+    {
+     "text": "revista",
+     "start": 6.2,
+     "end": 6.68,
+     "emph": false
+    },
+    {
+     "text": "oferecia:",
+     "start": 6.68,
+     "end": 7.27,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.4,
+   "end": 8.2,
+   "words": [
+    {
+     "text": "só",
+     "start": 7.4,
+     "end": 7.72,
+     "emph": false
+    },
+    {
+     "text": "digital",
+     "start": 7.72,
+     "end": 8.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.2,
+   "end": 9.72,
+   "words": [
+    {
+     "text": "por",
+     "start": 8.2,
+     "end": 8.776,
+     "emph": false
+    },
+    {
+     "text": "59",
+     "start": 8.776,
+     "end": 9.16,
+     "emph": true
+    },
+    {
+     "text": "dólares,",
+     "start": 9.16,
+     "end": 9.55,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.72,
+   "end": 11.56,
+   "words": [
+    {
+     "text": "ou",
+     "start": 9.72,
+     "end": 10.04,
+     "emph": false
+    },
+    {
+     "text": "impressa",
+     "start": 10.04,
+     "end": 10.68,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 10.68,
+     "end": 10.92,
+     "emph": false
+    },
+    {
+     "text": "digital",
+     "start": 10.92,
+     "end": 11.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 11.56,
+   "end": 13.0,
+   "words": [
+    {
+     "text": "por",
+     "start": 11.56,
+     "end": 12.28,
+     "emph": false
+    },
+    {
+     "text": "125.",
+     "start": 12.28,
+     "end": 12.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.0,
+   "end": 13.64,
+   "words": [
+    {
+     "text": "A",
+     "start": 13.0,
+     "end": 13.16,
+     "emph": false
+    },
+    {
+     "text": "maioria",
+     "start": 13.16,
+     "end": 13.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.64,
+   "end": 15.08,
+   "words": [
+    {
+     "text": "ficou",
+     "start": 13.64,
+     "end": 13.96,
+     "emph": false
+    },
+    {
+     "text": "com",
+     "start": 13.96,
+     "end": 14.12,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 14.12,
+     "end": 14.28,
+     "emph": false
+    },
+    {
+     "text": "digital.",
+     "start": 14.28,
+     "end": 14.62,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.08,
+   "end": 16.2,
+   "words": [
+    {
+     "text": "Aí",
+     "start": 15.08,
+     "end": 15.56,
+     "emph": false
+    },
+    {
+     "text": "incluíram",
+     "start": 15.56,
+     "end": 16.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.2,
+   "end": 17.4,
+   "words": [
+    {
+     "text": "a",
+     "start": 16.2,
+     "end": 16.36,
+     "emph": false
+    },
+    {
+     "text": "impressa",
+     "start": 16.36,
+     "end": 16.84,
+     "emph": true
+    },
+    {
+     "text": "sozinha,",
+     "start": 16.84,
+     "end": 17.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.4,
+   "end": 18.92,
+   "words": [
+    {
+     "text": "também",
+     "start": 17.4,
+     "end": 17.72,
+     "emph": false
+    },
+    {
+     "text": "por",
+     "start": 17.72,
+     "end": 18.32,
+     "emph": false
+    },
+    {
+     "text": "125.",
+     "start": 18.32,
+     "end": 18.58,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.92,
+   "end": 20.2,
+   "words": [
+    {
+     "text": "Ninguém",
+     "start": 18.92,
+     "end": 19.24,
+     "emph": true
+    },
+    {
+     "text": "escolheu",
+     "start": 19.24,
+     "end": 19.8,
+     "emph": false
+    },
+    {
+     "text": "ela.",
+     "start": 19.8,
+     "end": 19.9,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 20.2,
+   "end": 21.96,
+   "words": [
+    {
+     "text": "Mas",
+     "start": 20.2,
+     "end": 20.52,
+     "emph": false
+    },
+    {
+     "text": "84%",
+     "start": 20.52,
+     "end": 21.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 21.96,
+   "end": 23.16,
+   "words": [
+    {
+     "text": "passaram",
+     "start": 21.96,
+     "end": 22.44,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 22.44,
+     "end": 22.6,
+     "emph": false
+    },
+    {
+     "text": "escolher",
+     "start": 22.6,
+     "end": 23.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 23.16,
+   "end": 24.36,
+   "words": [
+    {
+     "text": "a",
+     "start": 23.16,
+     "end": 23.32,
+     "emph": false
+    },
+    {
+     "text": "combinada.",
+     "start": 23.32,
+     "end": 23.99,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.36,
+   "end": 25.48,
+   "words": [
+    {
+     "text": "A",
+     "start": 24.36,
+     "end": 24.43,
+     "emph": false
+    },
+    {
+     "text": "comparação",
+     "start": 24.6,
+     "end": 25.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 25.48,
+   "end": 26.44,
+   "words": [
+    {
+     "text": "muda",
+     "start": 25.48,
+     "end": 26.04,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 26.04,
+     "end": 26.12,
+     "emph": false
+    },
+    {
+     "text": "valor",
+     "start": 26.12,
+     "end": 26.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 26.44,
+   "end": 27.56,
+   "words": [
+    {
+     "text": "que",
+     "start": 26.44,
+     "end": 26.6,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 26.6,
+     "end": 26.68,
+     "emph": false
+    },
+    {
+     "text": "gente",
+     "start": 26.68,
+     "end": 26.84,
+     "emph": false
+    },
+    {
+     "text": "enxerga.",
+     "start": 26.84,
+     "end": 27.31,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 27.56,
+   "end": 27.96,
+   "words": [
+    {
+     "text": "Por",
+     "start": 27.56,
+     "end": 27.72,
+     "emph": false
+    },
+    {
+     "text": "isso,",
+     "start": 27.72,
+     "end": 27.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 27.96,
+   "end": 29.0,
+   "words": [
+    {
+     "text": "mostre",
+     "start": 27.96,
+     "end": 28.44,
+     "emph": false
+    },
+    {
+     "text": "os",
+     "start": 28.44,
+     "end": 28.52,
+     "emph": false
+    },
+    {
+     "text": "imóveis",
+     "start": 28.52,
+     "end": 29.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 29.0,
+   "end": 29.56,
+   "words": [
+    {
+     "text": "em",
+     "start": 29.0,
+     "end": 29.16,
+     "emph": false
+    },
+    {
+     "text": "grupos",
+     "start": 29.16,
+     "end": 29.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 29.56,
+   "end": 30.76,
+   "words": [
+    {
+     "text": "que",
+     "start": 29.56,
+     "end": 29.72,
+     "emph": false
+    },
+    {
+     "text": "façam",
+     "start": 29.72,
+     "end": 30.2,
+     "emph": false
+    },
+    {
+     "text": "sentido",
+     "start": 30.2,
+     "end": 30.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 30.76,
+   "end": 31.72,
+   "words": [
+    {
+     "text": "lado",
+     "start": 30.76,
+     "end": 31.08,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 31.08,
+     "end": 31.16,
+     "emph": true
+    },
+    {
+     "text": "lado.",
+     "start": 31.16,
+     "end": 31.39,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 31.72,
+   "end": 32.76,
+   "words": [
+    {
+     "text": "Com",
+     "start": 31.72,
+     "end": 31.84,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 32.04,
+     "end": 32.2,
+     "emph": false
+    },
+    {
+     "text": "referência",
+     "start": 32.2,
+     "end": 32.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 32.76,
+   "end": 33.72,
+   "words": [
+    {
+     "text": "honesta",
+     "start": 32.76,
+     "end": 33.16,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 33.16,
+     "end": 33.32,
+     "emph": false
+    },
+    {
+     "text": "lado,",
+     "start": 33.32,
+     "end": 33.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 33.72,
+   "end": 35.16,
+   "words": [
+    {
+     "text": "o",
+     "start": 33.72,
+     "end": 33.88,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 33.88,
+     "end": 34.2,
+     "emph": false
+    },
+    {
+     "text": "enxerga",
+     "start": 34.2,
+     "end": 34.76,
+     "emph": false
+    },
+    {
+     "text": "melhor",
+     "start": 34.76,
+     "end": 35.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 35.16,
+   "end": 35.56,
+   "words": [
+    {
+     "text": "o",
+     "start": 35.16,
+     "end": 35.32,
+     "emph": false
+    },
+    {
+     "text": "valor",
+     "start": 35.32,
+     "end": 35.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 35.56,
+   "end": 36.76,
+   "words": [
+    {
+     "text": "do",
+     "start": 35.56,
+     "end": 35.72,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 35.72,
+     "end": 36.28,
+     "emph": false
+    },
+    {
+     "text": "certo.",
+     "start": 36.28,
+     "end": 36.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 36.76,
+   "end": 37.88,
+   "words": [
+    {
+     "text": "Se",
+     "start": 36.76,
+     "end": 36.92,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 36.92,
+     "end": 37.16,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 37.16,
+     "end": 37.32,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 37.32,
+     "end": 37.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 37.88,
+   "end": 39.0,
+   "words": [
+    {
+     "text": "comente",
+     "start": 37.88,
+     "end": 38.44,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 38.44,
+     "end": 39.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 39.0,
+   "end": 39.96,
+   "words": [
+    {
+     "text": "e",
+     "start": 39.0,
+     "end": 39.16,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 39.16,
+     "end": 39.64,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 39.64,
+     "end": 39.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 39.96,
+   "end": 41.66,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 39.96,
+     "end": 40.44,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 40.44,
+     "end": 41.16,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

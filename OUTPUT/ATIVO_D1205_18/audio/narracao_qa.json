@@ -1,0 +1,66 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.07,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 8.4,
+    "palavras_nao_reconhecidas": [
+      "59",
+      "125"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 1.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 8.91,
+    "palavras_nao_reconhecidas": [
+      "125"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 7.03,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.76,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.4,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 41.46,
+    "asr_match": 0.971,
+    "aligned_words": "99/102",
+    "words_per_min": 148,
+    "heard": "Uma opção que ninguém escolheu mudou a escolha de quase todo mundo. Num experimento com estudantes, uma revista oferecia só digital por 59 dólares. Ou impressa mais digital por 125. A maioria ficou com a digital. Aí incluíram a impressa sozinha, também por 125. Ninguém escolheu ela. Mas 84% passaram a escolher a combinada. A comparação muda o valor que a gente enxerga. Por isso mostre os imóveis em grupos que façam sentido lado a lado. Com uma referência honesta do lado, o cliente enxerga melhor o valor do imóvel certo. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 42.28,
+      "wpm": 145
+    },
+    "pausas_moldadas": {
+      "n": 13,
+      "max_s": 0.44
+    },
+    "pausas_encurtadas_s": 0.82,
+    "final": {
+      "seconds": 41.46,
+      "wpm": 148
+    }
+  }
+]

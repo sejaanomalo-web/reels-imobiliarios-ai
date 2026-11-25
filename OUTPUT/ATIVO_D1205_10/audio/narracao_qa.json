@@ -1,0 +1,71 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 6.81,
+    "palavras_nao_reconhecidas": [
+      "254"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 6.82,
+    "palavras_nao_reconhecidas": [
+      "Niemeyer",
+      "1966",
+      "mil",
+      "cento",
+      "sessenta"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.08,
+    "palavras_nao_reconhecidas": [
+      "quitinete"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.29,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.06,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.52,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 37.87,
+    "asr_match": 0.93,
+    "aligned_words": "86/94",
+    "words_per_min": 149,
+    "heard": "Um prédio em São Paulo tem mais apartamentos do que 254 cidades brasileiras tem de casas. É o Copan, de Oscar Niemayer, inaugurado em 1966, 1160 apartamentos. E não são iguais. Tem kitnet, tem apartamento grande, tudo no mesmo endereço. O mesmo prédio serve para vidas completamente diferentes. Na sua carteira é igual. O mesmo endereço pode ser certo para um cliente e errado para outro. Antes de falar do prédio, pergunte qual vida o cliente quer levar dentro dele. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 39.02,
+      "wpm": 145
+    },
+    "pausas_moldadas": {
+      "n": 15,
+      "max_s": 0.57
+    },
+    "pausas_encurtadas_s": 1.15,
+    "final": {
+      "seconds": 37.87,
+      "wpm": 149
+    }
+  }
+]

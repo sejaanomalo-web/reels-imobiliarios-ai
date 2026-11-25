@@ -243,6 +243,10 @@ import { D1204_18, timeline as d1204_18 } from "./episodes/ATIVO-D1204-18/Episod
 import { D1204_18Cover } from "./episodes/ATIVO-D1204-18/Cover";
 import { D1204_21, timeline as d1204_21 } from "./episodes/ATIVO-D1204-21/Episode";
 import { D1204_21Cover } from "./episodes/ATIVO-D1204-21/Cover";
+import { D1205_08, timeline as d1205_08 } from "./episodes/ATIVO-D1205-08/Episode";
+import { D1205_08Cover } from "./episodes/ATIVO-D1205-08/Cover";
+import { D1205_10, timeline as d1205_10 } from "./episodes/ATIVO-D1205-10/Episode";
+import { D1205_10Cover } from "./episodes/ATIVO-D1205-10/Cover";
 import { D1129_18, timeline as d1129_18 } from "./episodes/ATIVO-D1129-18/Episode";
 import { D1129_18Cover } from "./episodes/ATIVO-D1129-18/Cover";
 import { D1129_21, timeline as d1129_21 } from "./episodes/ATIVO-D1129-21/Episode";
@@ -932,6 +936,10 @@ export const RemotionRoot: React.FC = () => (
       <Still id="ATIVO-D1204-18-Capa" component={D1204_18Cover} width={VIDEO.width} height={VIDEO.height} />
       <Composition id="ATIVO-D1204-21" component={D1204_21} width={VIDEO.width} height={VIDEO.height} fps={d1204_21.fps} durationInFrames={d1204_21.durationInFrames} defaultProps={{ withAudio: true }} />
       <Still id="ATIVO-D1204-21-Capa" component={D1204_21Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-D1205-08" component={D1205_08} width={VIDEO.width} height={VIDEO.height} fps={d1205_08.fps} durationInFrames={d1205_08.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-D1205-08-Capa" component={D1205_08Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-D1205-10" component={D1205_10} width={VIDEO.width} height={VIDEO.height} fps={d1205_10.fps} durationInFrames={d1205_10.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-D1205-10-Capa" component={D1205_10Cover} width={VIDEO.width} height={VIDEO.height} />
       <Composition id="ATIVO-D1129-18" component={D1129_18} width={VIDEO.width} height={VIDEO.height} fps={d1129_18.fps} durationInFrames={d1129_18.durationInFrames} defaultProps={{ withAudio: true }} />
       <Still id="ATIVO-D1129-18-Capa" component={D1129_18Cover} width={VIDEO.width} height={VIDEO.height} />
       <Composition id="ATIVO-D1129-21" component={D1129_21} width={VIDEO.width} height={VIDEO.height} fps={d1129_21.fps} durationInFrames={d1129_21.durationInFrames} defaultProps={{ withAudio: true }} />

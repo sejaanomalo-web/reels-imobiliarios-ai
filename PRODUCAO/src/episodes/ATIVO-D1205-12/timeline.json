@@ -1,0 +1,867 @@
+{
+ "id": "ATIVO-D1205-12",
+ "title": "A espera explicada",
+ "fps": 30,
+ "duration": 38.333333333333336,
+ "durationInFrames": 1150,
+ "narrationEnd": 36.113,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 3.145
+  },
+  {
+   "id": "principios",
+   "start": 3.145,
+   "end": 15.715
+  },
+  {
+   "id": "virada",
+   "start": 15.715,
+   "end": 21.16
+  },
+  {
+   "id": "acao",
+   "start": 21.16,
+   "end": 26.94
+  },
+  {
+   "id": "desfecho",
+   "start": 26.94,
+   "end": 31.345
+  },
+  {
+   "id": "cta",
+   "start": 31.345,
+   "end": 38.333
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Por que dez minutos numa fila parecem uma hora?",
+   "start": 0.12,
+   "end": 2.97
+  },
+  {
+   "id": "s2",
+   "scene": "principios",
+   "text": "Em 1985, um professor de negócios escreveu sobre isso: espera sem nada para fazer parece mais longa.",
+   "start": 3.32,
+   "end": 10.17
+  },
+  {
+   "id": "s3",
+   "scene": "principios",
+   "text": "Espera sem prazo parece maior ainda. E espera sem explicação, pior.",
+   "start": 10.52,
+   "end": 15.47
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Agora pense no seu cliente esperando a aprovação do financiamento, sem saber em que etapa está.",
+   "start": 15.96,
+   "end": 21.0
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Mande uma mensagem a cada etapa: documentos enviados, análise começou, falta a avaliação.",
+   "start": 21.32,
+   "end": 26.8
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "A espera continua a mesma. Mas explicada, ela pesa menos.",
+   "start": 27.08,
+   "end": 31.21
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 31.48,
+   "end": 35.72
+  }
+ ],
+ "cues": {
+  "h_dez": 0.547,
+  "h_hora": 2.76,
+  "p_1985": 3.88,
+  "p_nada": 8.28,
+  "p_prazo": 11.24,
+  "p_explicacao": 14.12,
+  "v_financiamento": 18.84,
+  "v_etapa": 20.52,
+  "a_mensagem": 21.96,
+  "a_documentos": 23.24,
+  "a_analise": 24.6,
+  "a_avaliacao": 26.2,
+  "f_explicada": 29.16,
+  "f_menos": 31.0,
+  "cta_quer": 31.48,
+  "cta_comment": 32.68,
+  "cta_word": 33.32,
+  "cta_tiles": 33.96,
+  "cta_sys": 34.76,
+  "cta_leads": 34.44,
+  "cta_atend": 35.16,
+  "cta_direct": 35.16,
+  "cta_end": 35.72
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.547,
+   "words": [
+    {
+     "text": "Por",
+     "start": 0.12,
+     "end": 0.333,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 0.333,
+     "end": 0.547,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.547,
+   "end": 1.08,
+   "words": [
+    {
+     "text": "dez",
+     "start": 0.547,
+     "end": 0.76,
+     "emph": true
+    },
+    {
+     "text": "minutos",
+     "start": 0.76,
+     "end": 1.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.08,
+   "end": 1.749,
+   "words": [
+    {
+     "text": "numa",
+     "start": 1.08,
+     "end": 1.4,
+     "emph": false
+    },
+    {
+     "text": "fila",
+     "start": 1.4,
+     "end": 1.749,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.749,
+   "end": 3.32,
+   "words": [
+    {
+     "text": "parecem",
+     "start": 1.749,
+     "end": 2.19,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 2.36,
+     "end": 2.76,
+     "emph": true
+    },
+    {
+     "text": "hora?",
+     "start": 2.76,
+     "end": 2.97,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.32,
+   "end": 5.0,
+   "words": [
+    {
+     "text": "Em",
+     "start": 3.32,
+     "end": 3.88,
+     "emph": false
+    },
+    {
+     "text": "1985,",
+     "start": 3.88,
+     "end": 4.81,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.0,
+   "end": 6.28,
+   "words": [
+    {
+     "text": "um",
+     "start": 5.0,
+     "end": 5.16,
+     "emph": false
+    },
+    {
+     "text": "professor",
+     "start": 5.16,
+     "end": 5.56,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 5.56,
+     "end": 5.72,
+     "emph": false
+    },
+    {
+     "text": "negócios",
+     "start": 5.72,
+     "end": 6.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.28,
+   "end": 7.48,
+   "words": [
+    {
+     "text": "escreveu",
+     "start": 6.28,
+     "end": 6.76,
+     "emph": false
+    },
+    {
+     "text": "sobre",
+     "start": 6.76,
+     "end": 7.0,
+     "emph": false
+    },
+    {
+     "text": "isso:",
+     "start": 7.0,
+     "end": 7.17,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.48,
+   "end": 9.16,
+   "words": [
+    {
+     "text": "espera",
+     "start": 7.48,
+     "end": 7.96,
+     "emph": false
+    },
+    {
+     "text": "sem",
+     "start": 7.96,
+     "end": 8.28,
+     "emph": true
+    },
+    {
+     "text": "nada",
+     "start": 8.28,
+     "end": 8.52,
+     "emph": true
+    },
+    {
+     "text": "para",
+     "start": 8.52,
+     "end": 8.68,
+     "emph": true
+    },
+    {
+     "text": "fazer",
+     "start": 8.68,
+     "end": 8.98,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.16,
+   "end": 10.52,
+   "words": [
+    {
+     "text": "parece",
+     "start": 9.16,
+     "end": 9.72,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 9.72,
+     "end": 9.88,
+     "emph": false
+    },
+    {
+     "text": "longa.",
+     "start": 9.88,
+     "end": 10.17,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.52,
+   "end": 11.88,
+   "words": [
+    {
+     "text": "Espera",
+     "start": 10.52,
+     "end": 11.0,
+     "emph": false
+    },
+    {
+     "text": "sem",
+     "start": 11.0,
+     "end": 11.24,
+     "emph": true
+    },
+    {
+     "text": "prazo",
+     "start": 11.24,
+     "end": 11.66,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.88,
+   "end": 13.16,
+   "words": [
+    {
+     "text": "parece",
+     "start": 11.88,
+     "end": 12.28,
+     "emph": false
+    },
+    {
+     "text": "maior",
+     "start": 12.28,
+     "end": 12.68,
+     "emph": false
+    },
+    {
+     "text": "ainda.",
+     "start": 12.68,
+     "end": 12.97,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.16,
+   "end": 15.16,
+   "words": [
+    {
+     "text": "E",
+     "start": 13.16,
+     "end": 13.23,
+     "emph": false
+    },
+    {
+     "text": "espera",
+     "start": 13.4,
+     "end": 13.88,
+     "emph": false
+    },
+    {
+     "text": "sem",
+     "start": 13.88,
+     "end": 14.12,
+     "emph": true
+    },
+    {
+     "text": "explicação,",
+     "start": 14.12,
+     "end": 14.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.16,
+   "end": 15.96,
+   "words": [
+    {
+     "text": "pior.",
+     "start": 15.16,
+     "end": 15.47,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.96,
+   "end": 16.76,
+   "words": [
+    {
+     "text": "Agora",
+     "start": 15.96,
+     "end": 16.28,
+     "emph": false
+    },
+    {
+     "text": "pense",
+     "start": 16.28,
+     "end": 16.35,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.76,
+   "end": 17.56,
+   "words": [
+    {
+     "text": "no",
+     "start": 16.76,
+     "end": 16.92,
+     "emph": false
+    },
+    {
+     "text": "seu",
+     "start": 16.92,
+     "end": 17.08,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 17.08,
+     "end": 17.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.56,
+   "end": 18.68,
+   "words": [
+    {
+     "text": "esperando",
+     "start": 17.56,
+     "end": 18.04,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 18.04,
+     "end": 18.2,
+     "emph": false
+    },
+    {
+     "text": "aprovação",
+     "start": 18.2,
+     "end": 18.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.68,
+   "end": 19.64,
+   "words": [
+    {
+     "text": "do",
+     "start": 18.68,
+     "end": 18.84,
+     "emph": false
+    },
+    {
+     "text": "financiamento,",
+     "start": 18.84,
+     "end": 19.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 19.64,
+   "end": 20.2,
+   "words": [
+    {
+     "text": "sem",
+     "start": 19.64,
+     "end": 19.88,
+     "emph": false
+    },
+    {
+     "text": "saber",
+     "start": 19.88,
+     "end": 20.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 20.2,
+   "end": 21.32,
+   "words": [
+    {
+     "text": "em",
+     "start": 20.2,
+     "end": 20.28,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 20.28,
+     "end": 20.52,
+     "emph": false
+    },
+    {
+     "text": "etapa",
+     "start": 20.52,
+     "end": 20.92,
+     "emph": true
+    },
+    {
+     "text": "está.",
+     "start": 20.92,
+     "end": 21.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.32,
+   "end": 22.36,
+   "words": [
+    {
+     "text": "Mande",
+     "start": 21.32,
+     "end": 21.8,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 21.8,
+     "end": 21.96,
+     "emph": false
+    },
+    {
+     "text": "mensagem",
+     "start": 21.96,
+     "end": 22.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.36,
+   "end": 23.24,
+   "words": [
+    {
+     "text": "a",
+     "start": 22.36,
+     "end": 22.52,
+     "emph": false
+    },
+    {
+     "text": "cada",
+     "start": 22.52,
+     "end": 22.76,
+     "emph": false
+    },
+    {
+     "text": "etapa:",
+     "start": 22.76,
+     "end": 22.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.24,
+   "end": 24.6,
+   "words": [
+    {
+     "text": "documentos",
+     "start": 23.24,
+     "end": 23.88,
+     "emph": true
+    },
+    {
+     "text": "enviados,",
+     "start": 23.88,
+     "end": 24.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.6,
+   "end": 25.72,
+   "words": [
+    {
+     "text": "análise",
+     "start": 24.6,
+     "end": 25.08,
+     "emph": true
+    },
+    {
+     "text": "começou,",
+     "start": 25.08,
+     "end": 25.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 25.72,
+   "end": 27.08,
+   "words": [
+    {
+     "text": "falta",
+     "start": 25.72,
+     "end": 26.12,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 26.12,
+     "end": 26.2,
+     "emph": false
+    },
+    {
+     "text": "avaliação.",
+     "start": 26.2,
+     "end": 26.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.08,
+   "end": 27.8,
+   "words": [
+    {
+     "text": "A",
+     "start": 27.08,
+     "end": 27.15,
+     "emph": false
+    },
+    {
+     "text": "espera",
+     "start": 27.32,
+     "end": 27.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.8,
+   "end": 28.84,
+   "words": [
+    {
+     "text": "continua",
+     "start": 27.8,
+     "end": 28.28,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 28.28,
+     "end": 28.36,
+     "emph": false
+    },
+    {
+     "text": "mesma.",
+     "start": 28.36,
+     "end": 28.55,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.84,
+   "end": 29.85,
+   "words": [
+    {
+     "text": "Mas",
+     "start": 28.84,
+     "end": 29.16,
+     "emph": false
+    },
+    {
+     "text": "explicada,",
+     "start": 29.16,
+     "end": 29.5,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 30.12,
+   "end": 31.48,
+   "words": [
+    {
+     "text": "ela",
+     "start": 30.12,
+     "end": 30.44,
+     "emph": false
+    },
+    {
+     "text": "pesa",
+     "start": 30.44,
+     "end": 31.0,
+     "emph": false
+    },
+    {
+     "text": "menos.",
+     "start": 31.0,
+     "end": 31.21,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.48,
+   "end": 32.68,
+   "words": [
+    {
+     "text": "Se",
+     "start": 31.48,
+     "end": 31.55,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 31.72,
+     "end": 31.88,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 31.88,
+     "end": 32.04,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 32.04,
+     "end": 32.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.68,
+   "end": 33.8,
+   "words": [
+    {
+     "text": "comente",
+     "start": 32.68,
+     "end": 33.32,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 33.32,
+     "end": 33.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.8,
+   "end": 34.76,
+   "words": [
+    {
+     "text": "e",
+     "start": 33.8,
+     "end": 33.96,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 33.96,
+     "end": 34.44,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 34.44,
+     "end": 34.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 34.76,
+   "end": 36.22,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 34.76,
+     "end": 35.16,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 35.16,
+     "end": 35.72,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

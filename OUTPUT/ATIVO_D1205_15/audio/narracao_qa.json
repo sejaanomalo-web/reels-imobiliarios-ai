@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.07,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.42,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.53,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 7.04,
+    "palavras_nao_reconhecidas": [
+      "Pergunte"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.17,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 6.08,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 37.26,
+    "asr_match": 0.99,
+    "aligned_words": "95/96",
+    "words_per_min": 155,
+    "heard": "O cliente gostou do imóvel e disse, vou pensar. Você responde, claro, fico no aguardo e a conversa morre ali. Muitas vezes, vou pensar não é sobre tempo. É uma dúvida que ele ainda não falou. Pergunta com calma, pensar em que exatamente? É o valor? O bairro ou alguém que precisa ver também? Agora você sabe o que resolver. E ele não precisa inventar desculpa. Quem pergunta o motivo ganha uma conversa. Quem só aguarda, corre o risco de perder o cliente em silêncio. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 39.42,
+      "wpm": 146
+    },
+    "pausas_moldadas": {
+      "n": 18,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.16,
+    "final": {
+      "seconds": 37.26,
+      "wpm": 155
+    }
+  }
+]

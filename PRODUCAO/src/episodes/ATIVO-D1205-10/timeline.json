@@ -1,0 +1,931 @@
+{
+ "id": "ATIVO-D1205-10",
+ "title": "Um prédio, muitas vidas",
+ "fps": 30,
+ "duration": 40.2,
+ "durationInFrames": 1206,
+ "narrationEnd": 37.993,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 7.005
+  },
+  {
+   "id": "predio",
+   "start": 7.005,
+   "end": 19.34
+  },
+  {
+   "id": "virada",
+   "start": 19.34,
+   "end": 22.885
+  },
+  {
+   "id": "licao",
+   "start": 22.885,
+   "end": 28.55
+  },
+  {
+   "id": "desfecho",
+   "start": 28.55,
+   "end": 32.95
+  },
+  {
+   "id": "cta",
+   "start": 32.95,
+   "end": 40.2
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Um prédio em São Paulo tem mais apartamentos do que 254 cidades brasileiras têm de casas.",
+   "start": 0.12,
+   "end": 6.93
+  },
+  {
+   "id": "s2",
+   "scene": "predio",
+   "text": "É o Copan, de Oscar Niemeyer, inaugurado em 1966: mil cento e sessenta apartamentos.",
+   "start": 7.08,
+   "end": 13.9
+  },
+  {
+   "id": "s3",
+   "scene": "predio",
+   "text": "E não são iguais: tem quitinete, tem apartamento grande, tudo no mesmo endereço.",
+   "start": 14.12,
+   "end": 19.2
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "O mesmo prédio serve para vidas completamente diferentes.",
+   "start": 19.48,
+   "end": 22.77
+  },
+  {
+   "id": "s5",
+   "scene": "licao",
+   "text": "Na sua carteira é igual: o mesmo endereço pode ser certo para um cliente e errado para outro.",
+   "start": 23.0,
+   "end": 28.34
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Antes de falar do prédio, pergunte qual vida o cliente quer levar dentro dele.",
+   "start": 28.76,
+   "end": 32.82
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 33.08,
+   "end": 37.6
+  }
+ ],
+ "cues": {
+  "h_predio": 0.28,
+  "h_254": 3.76,
+  "p_copan": 7.4,
+  "p_1966": 10.252,
+  "p_mil": 10.837,
+  "p_iguais": 14.76,
+  "p_quitinete": 15.52,
+  "p_grande": 17.24,
+  "p_endereco": 18.76,
+  "v_vidas": 21.08,
+  "v_diferentes": 22.2,
+  "l_certo": 26.12,
+  "l_errado": 27.48,
+  "f_pergunte": 30.28,
+  "f_vida": 31.08,
+  "cta_quer": 33.08,
+  "cta_comment": 34.28,
+  "cta_word": 34.84,
+  "cta_tiles": 35.64,
+  "cta_sys": 36.52,
+  "cta_leads": 36.2,
+  "cta_atend": 36.92,
+  "cta_direct": 36.92,
+  "cta_end": 37.6
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.76,
+   "words": [
+    {
+     "text": "Um",
+     "start": 0.12,
+     "end": 0.28,
+     "emph": false
+    },
+    {
+     "text": "prédio",
+     "start": 0.28,
+     "end": 0.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.76,
+   "end": 1.48,
+   "words": [
+    {
+     "text": "em",
+     "start": 0.76,
+     "end": 0.92,
+     "emph": false
+    },
+    {
+     "text": "São",
+     "start": 0.92,
+     "end": 1.08,
+     "emph": false
+    },
+    {
+     "text": "Paulo",
+     "start": 1.08,
+     "end": 1.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.48,
+   "end": 2.76,
+   "words": [
+    {
+     "text": "tem",
+     "start": 1.48,
+     "end": 1.8,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 1.8,
+     "end": 2.04,
+     "emph": false
+    },
+    {
+     "text": "apartamentos",
+     "start": 2.04,
+     "end": 2.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.76,
+   "end": 5.08,
+   "words": [
+    {
+     "text": "do",
+     "start": 2.76,
+     "end": 2.92,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 2.92,
+     "end": 3.76,
+     "emph": false
+    },
+    {
+     "text": "254",
+     "start": 3.76,
+     "end": 4.6,
+     "emph": true
+    },
+    {
+     "text": "cidades",
+     "start": 4.6,
+     "end": 5.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 5.08,
+   "end": 5.8,
+   "words": [
+    {
+     "text": "brasileiras",
+     "start": 5.08,
+     "end": 5.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 5.8,
+   "end": 7.08,
+   "words": [
+    {
+     "text": "têm",
+     "start": 5.8,
+     "end": 6.12,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 6.12,
+     "end": 6.2,
+     "emph": false
+    },
+    {
+     "text": "casas.",
+     "start": 6.36,
+     "end": 6.93,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.08,
+   "end": 8.04,
+   "words": [
+    {
+     "text": "É",
+     "start": 7.08,
+     "end": 7.24,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 7.24,
+     "end": 7.4,
+     "emph": false
+    },
+    {
+     "text": "Copan,",
+     "start": 7.4,
+     "end": 7.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.04,
+   "end": 9.32,
+   "words": [
+    {
+     "text": "de",
+     "start": 8.04,
+     "end": 8.2,
+     "emph": false
+    },
+    {
+     "text": "Oscar",
+     "start": 8.2,
+     "end": 8.631,
+     "emph": false
+    },
+    {
+     "text": "Niemeyer,",
+     "start": 8.631,
+     "end": 9.1,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.32,
+   "end": 10.837,
+   "words": [
+    {
+     "text": "inaugurado",
+     "start": 9.32,
+     "end": 9.96,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 9.96,
+     "end": 10.252,
+     "emph": false
+    },
+    {
+     "text": "1966:",
+     "start": 10.252,
+     "end": 10.837,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.837,
+   "end": 13.32,
+   "words": [
+    {
+     "text": "mil",
+     "start": 10.837,
+     "end": 11.275,
+     "emph": true
+    },
+    {
+     "text": "cento",
+     "start": 11.275,
+     "end": 11.65,
+     "emph": true
+    },
+    {
+     "text": "e",
+     "start": 12.005,
+     "end": 12.151,
+     "emph": true
+    },
+    {
+     "text": "sessenta",
+     "start": 12.151,
+     "end": 13.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 13.32,
+   "end": 14.12,
+   "words": [
+    {
+     "text": "apartamentos.",
+     "start": 13.32,
+     "end": 13.9,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.12,
+   "end": 15.24,
+   "words": [
+    {
+     "text": "E",
+     "start": 14.12,
+     "end": 14.36,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 14.36,
+     "end": 14.6,
+     "emph": false
+    },
+    {
+     "text": "são",
+     "start": 14.6,
+     "end": 14.76,
+     "emph": false
+    },
+    {
+     "text": "iguais:",
+     "start": 14.76,
+     "end": 15.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.24,
+   "end": 16.36,
+   "words": [
+    {
+     "text": "tem",
+     "start": 15.24,
+     "end": 15.31,
+     "emph": false
+    },
+    {
+     "text": "quitinete,",
+     "start": 15.52,
+     "end": 16.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 16.36,
+   "end": 17.88,
+   "words": [
+    {
+     "text": "tem",
+     "start": 16.36,
+     "end": 16.6,
+     "emph": false
+    },
+    {
+     "text": "apartamento",
+     "start": 16.6,
+     "end": 17.24,
+     "emph": false
+    },
+    {
+     "text": "grande,",
+     "start": 17.24,
+     "end": 17.61,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 17.88,
+   "end": 19.48,
+   "words": [
+    {
+     "text": "tudo",
+     "start": 17.88,
+     "end": 18.2,
+     "emph": false
+    },
+    {
+     "text": "no",
+     "start": 18.2,
+     "end": 18.44,
+     "emph": false
+    },
+    {
+     "text": "mesmo",
+     "start": 18.44,
+     "end": 18.76,
+     "emph": true
+    },
+    {
+     "text": "endereço.",
+     "start": 18.76,
+     "end": 19.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 19.48,
+   "end": 20.52,
+   "words": [
+    {
+     "text": "O",
+     "start": 19.48,
+     "end": 19.72,
+     "emph": false
+    },
+    {
+     "text": "mesmo",
+     "start": 19.72,
+     "end": 19.96,
+     "emph": false
+    },
+    {
+     "text": "prédio",
+     "start": 19.96,
+     "end": 20.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 20.52,
+   "end": 21.08,
+   "words": [
+    {
+     "text": "serve",
+     "start": 20.52,
+     "end": 20.84,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 20.84,
+     "end": 21.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 21.08,
+   "end": 21.48,
+   "words": [
+    {
+     "text": "vidas",
+     "start": 21.08,
+     "end": 21.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 21.48,
+   "end": 23.0,
+   "words": [
+    {
+     "text": "completamente",
+     "start": 21.48,
+     "end": 22.2,
+     "emph": false
+    },
+    {
+     "text": "diferentes.",
+     "start": 22.2,
+     "end": 22.77,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.0,
+   "end": 23.96,
+   "words": [
+    {
+     "text": "Na",
+     "start": 23.0,
+     "end": 23.16,
+     "emph": false
+    },
+    {
+     "text": "sua",
+     "start": 23.16,
+     "end": 23.4,
+     "emph": false
+    },
+    {
+     "text": "carteira",
+     "start": 23.4,
+     "end": 23.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.96,
+   "end": 24.76,
+   "words": [
+    {
+     "text": "é",
+     "start": 23.96,
+     "end": 24.2,
+     "emph": false
+    },
+    {
+     "text": "igual:",
+     "start": 24.2,
+     "end": 24.46,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.76,
+   "end": 25.72,
+   "words": [
+    {
+     "text": "o",
+     "start": 24.76,
+     "end": 24.92,
+     "emph": false
+    },
+    {
+     "text": "mesmo",
+     "start": 24.92,
+     "end": 25.24,
+     "emph": false
+    },
+    {
+     "text": "endereço",
+     "start": 25.24,
+     "end": 25.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 25.72,
+   "end": 26.52,
+   "words": [
+    {
+     "text": "pode",
+     "start": 25.72,
+     "end": 25.96,
+     "emph": false
+    },
+    {
+     "text": "ser",
+     "start": 25.96,
+     "end": 26.12,
+     "emph": false
+    },
+    {
+     "text": "certo",
+     "start": 26.12,
+     "end": 26.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 26.52,
+   "end": 27.24,
+   "words": [
+    {
+     "text": "para",
+     "start": 26.52,
+     "end": 26.68,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 26.68,
+     "end": 26.84,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 26.84,
+     "end": 27.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 27.24,
+   "end": 28.76,
+   "words": [
+    {
+     "text": "e",
+     "start": 27.24,
+     "end": 27.31,
+     "emph": false
+    },
+    {
+     "text": "errado",
+     "start": 27.48,
+     "end": 27.96,
+     "emph": true
+    },
+    {
+     "text": "para",
+     "start": 27.96,
+     "end": 28.2,
+     "emph": false
+    },
+    {
+     "text": "outro.",
+     "start": 28.2,
+     "end": 28.34,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.76,
+   "end": 29.56,
+   "words": [
+    {
+     "text": "Antes",
+     "start": 28.76,
+     "end": 29.08,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 29.08,
+     "end": 29.24,
+     "emph": false
+    },
+    {
+     "text": "falar",
+     "start": 29.24,
+     "end": 29.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 29.56,
+   "end": 30.28,
+   "words": [
+    {
+     "text": "do",
+     "start": 29.56,
+     "end": 29.72,
+     "emph": false
+    },
+    {
+     "text": "prédio,",
+     "start": 29.72,
+     "end": 30.1,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 30.28,
+   "end": 30.76,
+   "words": [
+    {
+     "text": "pergunte",
+     "start": 30.28,
+     "end": 30.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 30.76,
+   "end": 31.4,
+   "words": [
+    {
+     "text": "qual",
+     "start": 30.76,
+     "end": 31.08,
+     "emph": false
+    },
+    {
+     "text": "vida",
+     "start": 31.08,
+     "end": 31.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 31.4,
+   "end": 32.36,
+   "words": [
+    {
+     "text": "o",
+     "start": 31.4,
+     "end": 31.48,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 31.48,
+     "end": 31.8,
+     "emph": false
+    },
+    {
+     "text": "quer",
+     "start": 31.8,
+     "end": 31.96,
+     "emph": false
+    },
+    {
+     "text": "levar",
+     "start": 31.96,
+     "end": 32.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 32.36,
+   "end": 33.08,
+   "words": [
+    {
+     "text": "dentro",
+     "start": 32.36,
+     "end": 32.6,
+     "emph": false
+    },
+    {
+     "text": "dele.",
+     "start": 32.6,
+     "end": 32.82,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.08,
+   "end": 34.28,
+   "words": [
+    {
+     "text": "Se",
+     "start": 33.08,
+     "end": 33.24,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 33.24,
+     "end": 33.4,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 33.4,
+     "end": 33.56,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 33.56,
+     "end": 34.1,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 34.28,
+   "end": 35.48,
+   "words": [
+    {
+     "text": "comente",
+     "start": 34.28,
+     "end": 34.84,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 34.84,
+     "end": 35.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 35.48,
+   "end": 36.52,
+   "words": [
+    {
+     "text": "e",
+     "start": 35.48,
+     "end": 35.64,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 35.64,
+     "end": 36.2,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 36.2,
+     "end": 36.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 36.52,
+   "end": 38.1,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 36.52,
+     "end": 36.92,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 36.92,
+     "end": 37.6,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

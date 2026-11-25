@@ -1,0 +1,69 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.58,
+    "palavras_nao_reconhecidas": [
+      "cinco"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.6,
+    "palavras_nao_reconhecidas": [
+      "42"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 1.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.83,
+    "palavras_nao_reconhecidas": [
+      "42"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.62,
+    "palavras_nao_reconhecidas": [
+      "Deixe"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.69,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.21,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 31.13,
+    "asr_match": 0.953,
+    "aligned_words": "81/85",
+    "words_per_min": 164,
+    "heard": "E se você respondesse o lead em 5 minutos? Enquanto ele ainda está olhando o anúncio, num levantamento com mais de 2 mil empresas americanas, quem respondeu levou em média 42 horas. E quase um quarto nunca respondeu. Em 42 horas, a dúvida que fez ele clicar pode já ter passado. Deixa pronta a resposta das perguntas de sempre. Ainda está disponível? Aceita financiamento? Tem vaga? Muito lead não esfria por desinteresse. Esfria esperando. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 32.02,
+      "wpm": 159
+    },
+    "pausas_moldadas": {
+      "n": 12,
+      "max_s": 0.42
+    },
+    "pausas_encurtadas_s": 0.89,
+    "final": {
+      "seconds": 31.13,
+      "wpm": 164
+    }
+  }
+]
