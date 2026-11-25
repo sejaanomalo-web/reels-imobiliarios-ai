@@ -1,0 +1,467 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "1985": "mil novecentos e oitenta e cinco"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1205-12",
+ "lote": "D1205",
+ "title": "A espera explicada",
+ "outputDir": "ATIVO_D1205_12",
+ "deliverables": {
+  "final": "ATIVO_D1205_12_FINAL.mp4",
+  "narration": "ATIVO_D1205_12_NARRACAO.wav",
+  "subtitles": "ATIVO_D1205_12_legendas.srt",
+  "cover": "ATIVO_D1205_12_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-05/ATIVO-D1205-12_a_espera_explicada.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Por que dez minutos numa fila parecem uma hora?",
+   "caption": "Por que | *dez minutos* | numa fila | parecem *uma hora?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "principios",
+   "text": "Em 1985, um professor de negócios escreveu sobre isso: espera sem nada para fazer parece mais longa.",
+   "caption": "Em *1985,* | um professor de negócios | escreveu sobre isso: | espera *sem nada para fazer* | parece mais longa.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "principios",
+   "text": "Espera sem prazo parece maior ainda. E espera sem explicação, pior.",
+   "caption": "Espera *sem prazo* | parece maior ainda. | E espera *sem explicação,* | pior.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Agora pense no seu cliente esperando a aprovação do financiamento, sem saber em que etapa está.",
+   "caption": "Agora pense | no seu cliente | esperando a aprovação | do *financiamento,* | sem saber | em que *etapa* está.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Mande uma mensagem a cada etapa: documentos enviados, análise começou, falta a avaliação.",
+   "caption": "Mande uma *mensagem* | a cada etapa: | *documentos* enviados, | *análise* começou, | falta a *avaliação.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "A espera continua a mesma. Mas explicada, ela pesa menos.",
+   "caption": "A espera | continua a mesma. | Mas *explicada,* | ela pesa *menos.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "principios": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_dez": {
+   "seg": "s1",
+   "word": "dez",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_hora": {
+   "seg": "s1",
+   "word": "hora",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_1985": {
+   "seg": "s2",
+   "word": "1985",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_nada": {
+   "seg": "s2",
+   "word": "nada",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_prazo": {
+   "seg": "s3",
+   "word": "prazo",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_explicacao": {
+   "seg": "s3",
+   "word": "explicação",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_financiamento": {
+   "seg": "s4",
+   "word": "financiamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_etapa": {
+   "seg": "s4",
+   "word": "etapa",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_mensagem": {
+   "seg": "s5",
+   "word": "mensagem",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_documentos": {
+   "seg": "s5",
+   "word": "documentos",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_analise": {
+   "seg": "s5",
+   "word": "análise",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_avaliacao": {
+   "seg": "s5",
+   "word": "avaliação",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_explicada": {
+   "seg": "s6",
+   "word": "explicada",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_menos": {
+   "seg": "s6",
+   "word": "menos",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_dez",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "p_1985",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "p_prazo",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_financiamento",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_mensagem",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_analise",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_explicada",
+   "offset": -0.05,
+   "sound": "impact",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.1,
+   "sound": "shimmer",
+   "gain": -25
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 2.3,
+   "sound": "chord",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_hora",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_financiamento",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_menos",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T03",
+  "ancoras": {
+   "virada": "cue:v_financiamento",
+   "insight": "cue:a_mensagem",
+   "resolucao": "cue:f_explicada"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "pictograma-cinematografico",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "fora-da-bolha",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "fila, relógio, barra de etapas que acende: reflexivo.",
+  "justificativaHorario": "12h: almoço, maior alcance.",
+  "trilha": "T03",
+  "justificativaTrilha": "arco de descoberta.",
+  "data": "2026-12-05",
+  "slot": "12:00",
+  "arquivo": "PRODUCAO/grade/2026-12-05.json"
+ },
+ "modelos4": true,
+ "modelo": 2,
+ "modeloNome": "Pictograma cinematográfico"
+}

@@ -264,6 +264,54 @@
         "data": "2026-11-24",
         "grade": "2026-12-04",
         "slot": "21:00"
+      },
+      {
+        "episodio": "ATIVO-D1205-08",
+        "modelo": 1,
+        "nome": "Cartoon explicativo",
+        "data": "2026-11-25",
+        "grade": "2026-12-05",
+        "slot": "08:00"
+      },
+      {
+        "episodio": "ATIVO-D1205-10",
+        "modelo": 4,
+        "nome": "Maquete 3D",
+        "data": "2026-11-25",
+        "grade": "2026-12-05",
+        "slot": "10:00"
+      },
+      {
+        "episodio": "ATIVO-D1205-12",
+        "modelo": 2,
+        "nome": "Pictograma cinematográfico",
+        "data": "2026-11-25",
+        "grade": "2026-12-05",
+        "slot": "12:00"
+      },
+      {
+        "episodio": "ATIVO-D1205-15",
+        "modelo": 1,
+        "nome": "Cartoon explicativo",
+        "data": "2026-11-25",
+        "grade": "2026-12-05",
+        "slot": "15:00"
+      },
+      {
+        "episodio": "ATIVO-D1205-18",
+        "modelo": 3,
+        "nome": "Planta técnica",
+        "data": "2026-11-25",
+        "grade": "2026-12-05",
+        "slot": "18:00"
+      },
+      {
+        "episodio": "ATIVO-D1205-21",
+        "modelo": 2,
+        "nome": "Pictograma cinematográfico",
+        "data": "2026-11-25",
+        "grade": "2026-12-05",
+        "slot": "21:00"
       }
     ],
     "rotacaoFixaArquivada": {

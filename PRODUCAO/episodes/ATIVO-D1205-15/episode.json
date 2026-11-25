@@ -1,0 +1,496 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1205-15",
+ "lote": "D1205",
+ "title": "Vou pensar",
+ "outputDir": "ATIVO_D1205_15",
+ "deliverables": {
+  "final": "ATIVO_D1205_15_FINAL.mp4",
+  "narration": "ATIVO_D1205_15_NARRACAO.wav",
+  "subtitles": "ATIVO_D1205_15_legendas.srt",
+  "cover": "ATIVO_D1205_15_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-05/ATIVO-D1205-15_vou_pensar.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O cliente gostou do imóvel e disse: vou pensar.",
+   "caption": "O cliente *gostou* | do imóvel | e disse: | *vou pensar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "erro",
+   "text": "Você responde: claro, fico no aguardo. E a conversa morre ali.",
+   "caption": "Você responde: | claro, | *fico no aguardo.* | E a conversa | *morre* ali.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "virada",
+   "text": "Muitas vezes, vou pensar não é sobre tempo. É uma dúvida que ele ainda não falou.",
+   "caption": "Muitas vezes, | vou pensar | não é sobre *tempo.* | É uma *dúvida* | que ele | ainda não falou.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "pergunta",
+   "text": "Pergunte com calma: pensar em quê, exatamente? É o valor, o bairro ou alguém que precisa ver também?",
+   "caption": "Pergunte com calma: | pensar *em quê,* | exatamente? | É o *valor,* | o *bairro* | ou *alguém* | que precisa ver também?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "efeito",
+   "text": "Agora você sabe o que resolver, e ele não precisa inventar desculpa.",
+   "caption": "Agora você sabe | o que *resolver,* | e ele não precisa | inventar *desculpa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Quem pergunta o motivo ganha uma conversa. Quem só aguarda corre o risco de perder o cliente em silêncio.",
+   "caption": "Quem pergunta | o motivo | ganha uma *conversa.* | Quem só *aguarda* | corre o risco | de perder o cliente | em *silêncio.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "erro": 0.35,
+  "virada": 0.35,
+  "pergunta": 0.35,
+  "efeito": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_gostou": {
+   "seg": "s1",
+   "word": "gostou",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_pensar": {
+   "seg": "s1",
+   "word": "pensar",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_aguardo": {
+   "seg": "s2",
+   "word": "aguardo",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_morre": {
+   "seg": "s2",
+   "word": "morre",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_tempo": {
+   "seg": "s3",
+   "word": "tempo",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_duvida": {
+   "seg": "s3",
+   "word": "dúvida",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_que": {
+   "seg": "s4",
+   "word": "quê",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_valor": {
+   "seg": "s4",
+   "word": "valor",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_bairro": {
+   "seg": "s4",
+   "word": "bairro",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_alguem": {
+   "seg": "s4",
+   "word": "alguém",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_resolver": {
+   "seg": "s5",
+   "word": "resolver",
+   "edge": "start",
+   "offset": 0
+  },
+  "x_desculpa": {
+   "seg": "s5",
+   "word": "desculpa",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_conversa": {
+   "seg": "s6",
+   "word": "conversa",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_aguarda": {
+   "seg": "s6",
+   "word": "aguarda",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_silencio": {
+   "seg": "s6",
+   "word": "silêncio",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_gostou",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "e_aguardo",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_tempo",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "p_que",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "p_bairro",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "x_resolver",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_conversa",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "f_silencio",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.75,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.85,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.2,
+   "sound": "click",
+   "gain": -23,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.28,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_pensar",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_tempo",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_silencio",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T04",
+  "ancoras": {
+   "virada": "cue:v_tempo",
+   "insight": "cue:p_que",
+   "resolucao": "cue:f_conversa"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "cartoon-explicativo",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "corretor-real",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "pull",
+  "justificativaModelo": "diálogo, balões e portas: cena de atendimento.",
+  "justificativaHorario": "15h: tarde de negociação.",
+  "trilha": "T04",
+  "justificativaTrilha": "tensão em movimento na objeção.",
+  "data": "2026-12-05",
+  "slot": "15:00",
+  "arquivo": "PRODUCAO/grade/2026-12-05.json"
+ },
+ "modelos4": true,
+ "modelo": 1,
+ "modeloNome": "Cartoon explicativo"
+}
