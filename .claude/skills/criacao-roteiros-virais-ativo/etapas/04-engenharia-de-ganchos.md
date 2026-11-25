@@ -26,6 +26,13 @@ Encontrar a primeira frase e o primeiro enquadramento que criam uma pergunta ver
 7. Garantir que o primeiro quadro confirma/contrasta o gancho. Se a fala depende de imagem, registrar a dependência na etapa 05.
 8. Escolher 1 gancho final e justificar por que supera os outros para aquele arco. Não declarar que foi "comprovado" sem teste real.
 
+## Complemento obrigatório — skill `script-creator` (25/11/2026, regra do cliente)
+Ao chegar a esta etapa, aplique também `references/02-hooks.md` da skill **script-creator** (`/anthropic-skills:script-creator`, "ANÔMALO — Creative Performance Engine"). Ela não substitui esta etapa; endurece a escolha do gancho:
+1. **Sempre 3 ganchos com MECANISMOS diferentes** (não 2–4 opcionais, não sinônimos), cada um no cartão `Mecanismo | FALA | PRIMEIRO QUADRO/AÇÃO | Pergunta implícita | Risco e ajuste`. Registrar o ESCOLHIDO com 1 linha de justificativa e dizer se trocar de gancho exige mudar o Take 01 ou o payoff.
+2. **Teste dos 4 erros** em cada gancho: demora (assunto tardio), confusão, irrelevância para o corretor, desinteresse.
+3. **Testes contrafactuais:** som desligado (o primeiro quadro diz algo?), só áudio (a fala se entende?), sem marca (ainda há motivo para ver?), sem payoff (o gancho se sustenta?).
+4. Os 3 ganchos e o cartão vão no roteiro (seção `GANCHOS`), não só na cabeça.
+
 ## Aprendizado aprovado
 "Tem gente querendo visitar uma cidade que não existe." funciona como **exemplo de estrutura**: afirmação simples com contradição curiosa e pergunta implícita. Não usar "Tem gente..." automaticamente; o assunto precisa carregar a curiosidade.
 

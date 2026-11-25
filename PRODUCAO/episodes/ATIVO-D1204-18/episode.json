@@ -505,8 +505,9 @@
   },
   "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
  },
- "formato": "planta-tecnica",
- "sistemaVisual": "1.0.0",
+ "modelos4": true,
+ "modelo": 3,
+ "modeloNome": "Planta técnica",
  "grade": {
   "territorio": "historia",
   "origem": "pesquisa",
@@ -521,7 +522,6 @@
   "slot": "18:00",
   "arquivo": "PRODUCAO/grade/2026-12-04.json"
  },
- "modelos4": true,
- "modelo": 3,
- "modeloNome": "Planta técnica"
+ "formato": "planta-tecnica",
+ "sistemaVisual": "1.0.0"
 }

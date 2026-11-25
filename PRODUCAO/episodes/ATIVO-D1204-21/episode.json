@@ -48,8 +48,8 @@
   {
    "id": "s1",
    "scene": "hook",
-   "text": "Como sofrer mais tempo pode deixar uma lembrança melhor?",
-   "caption": "Como sofrer | *mais tempo* | pode deixar | uma lembrança *melhor?*",
+   "text": "A ordem dos cômodos muda a lembrança que o cliente leva da visita.",
+   "caption": "A *ordem dos cômodos* | muda a *lembrança* | que o cliente leva | da visita.",
    "pauseAfter": 0.3
   },
   {
@@ -112,15 +112,15 @@
  },
  "hideCaptions": [],
  "cues": {
-  "h_tempo": {
+  "h_ordem": {
    "seg": "s1",
-   "word": "tempo",
+   "word": "ordem",
    "edge": "start",
    "offset": 0
   },
-  "h_melhor": {
+  "h_lembranca": {
    "seg": "s1",
-   "word": "melhor",
+   "word": "lembrança",
    "edge": "start",
    "offset": 0
   },
@@ -249,7 +249,7 @@
  "series": {},
  "sfx": [
   {
-   "cue": "h_tempo",
+   "cue": "h_ordem",
    "offset": -0.05,
    "sound": "swish",
    "gain": -28,
@@ -374,7 +374,7 @@
     "label": "abertura"
    },
    {
-    "at": "cue:h_melhor",
+    "at": "cue:h_lembranca",
     "notes": [
      31,
      43,
@@ -439,8 +439,9 @@
   },
   "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
  },
- "formato": "pictograma-cinematografico",
- "sistemaVisual": "1.0.0",
+ "modelos4": true,
+ "modelo": 2,
+ "modeloNome": "Pictograma cinematográfico",
  "grade": {
   "territorio": "fora-da-bolha",
   "origem": "pesquisa",
@@ -455,7 +456,6 @@
   "slot": "21:00",
   "arquivo": "PRODUCAO/grade/2026-12-04.json"
  },
- "modelos4": true,
- "modelo": 2,
- "modeloNome": "Pictograma cinematográfico"
+ "formato": "pictograma-cinematografico",
+ "sistemaVisual": "1.0.0"
 }

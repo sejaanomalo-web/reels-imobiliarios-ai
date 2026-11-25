@@ -37,5 +37,8 @@ Se dois takes consecutivos não mudam o estado do público, fundir ou cortar.
 - Pontos de atenção podem ser planejados; NÃO prever curva de retenção real nem produzir gráficos como dados.
 - Se um tema tem potencial para 35s, 90s quase sempre diluem a recompensa. Se exige 70s para contar sem simplificação enganosa, justificar.
 
+## Complemento obrigatório — skill `script-creator` (25/11/2026)
+Aplicar `references/03-narrativa-e-retencao.md` da skill **script-creator**: planejar atenção → contexto mínimo → avanço → payoff → CTA antes de escrever; **cada take declara a informação NOVA que entrega** (take sem novidade é cortado); rehook só entra se acrescentar tensão, pergunta, consequência ou descoberta real; a promessa do gancho é fechada antes da CTA SISTEMA.
+
 ## Saída
 Roteiro integral com cabeçalho de hipótese, ganho, duração estimada, GANCHO, TAKE 01...N, DESFECHO e CTA. Em cada trecho: FALA, DIREÇÃO VISUAL, TEXTO NA TELA (se necessário), EDIÇÃO/SOM, FONTE quando houver alegação. Garantir locução limpa e separável para produção.

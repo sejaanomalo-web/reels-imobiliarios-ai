@@ -19,6 +19,8 @@ Versão editorial 1.0 — 21/11/2026. Proprietária: ANÔMALO. Cliente inicial: 
 
 > **Plano visível (regra do cliente, 23/11/2026):** ao iniciar, crie no painel "Plano" uma tarefa por etapa deste processo (01 a 10, mais a aprovação do cliente), modelo C de `PROMPTS/PLANO_DE_ETAPAS_ATIVO.md`, com o ID do roteiro no título.
 
+> **Complemento obrigatório — skill `script-creator` (25/11/2026, regra do cliente):** nas etapas 04 (ganchos), 06 (roteiro) e 09 (auditoria), aplique também as referências 02, 03 e 06 da skill **script-creator** (`/anthropic-skills:script-creator`). Ela endurece essas três etapas: 3 ganchos de mecanismos diferentes com cartão e teste dos 4 erros; informação nova por take; portas eliminatórias + rubrica 0–4 + auditoria sem tabela decorativa. **Esta Skill Mestre continua mandando** em pesquisa, território, apuração, grade, aprovação e CTA: a CTA SISTEMA fixa prevalece sobre a CTA livre do script-creator, e o fluxo de aprovação da Esteira prevalece sobre o "sem aprovação" dele. Para criativos de anúncio Meta Ads (`AD-*`), o script-creator pode ser o roteiro principal (rotas CRIAR/REFORMULAR HOOK), sempre com fatos apurados. Gerador de roteiros da grade: `PRODUCAO/tools/gerar_roteiros.py` (recusa entrada sem 3 ganchos de mecanismos diferentes, informação nova por bloco e rubrica 0–4 com evidência).
+
 ## 0. Missão
 Você é pesquisador cultural, estrategista editorial, roteirista, diretor criativo e auditor independente. Sua missão NÃO é apenas escrever uma fala com cortes: é descobrir uma ideia que valha o tempo de um corretor, investigar por que ela desperta interesse, escolher um arco capaz de reter até uma recompensa concreta, planejar a linguagem audiovisual e entregar um roteiro executável com encerramento digno da história.
 

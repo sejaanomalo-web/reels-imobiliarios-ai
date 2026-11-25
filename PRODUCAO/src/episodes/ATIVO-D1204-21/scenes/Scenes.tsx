@@ -1,12 +1,12 @@
 import React from "react";
 import type { Timeline } from "../../types";
 import {
-  A, CamNoir, Caminho, Figura, Halo, Holofote, Icone, NOIR, Pilula, Relogio, TituloNoir, aa, ease, luz, mix, prog, surge,
+  A, CamNoir, Caminho, Figura, Halo, Holofote, Icone, NOIR, Pilula, TituloNoir, aa, ease, luz, mix, prog, surge,
 } from "../../../estilos/pictograma";
 
 /**
  * ATIVO-D1204-21 — "O fim da visita" (grade 04/12/2026 · 21h · FORA DA BOLHA · Pictograma).
- * Sem corte seco: o relógio e a pergunta (mais tempo, lembrança melhor?) → duas rodadas de água gelada: 1 minuto a 14 °C ×
+ * Sem corte seco: cômodos em linha, o último acende (a ordem muda a lembrança) → duas rodadas de água gelada: 1 minuto a 14 °C ×
  * 1 minuto e meio com o fim a 15 °C (termômetros) → a curva da lembrança: o final pesa mais que a duração → a visita em
  * cômodos: a figura atravessa e o último acende; não termine na área de serviço → fecho CtaNoir.
  * Apuração: Kahneman, Fredrickson, Schreiber & Redelmeier (1993), Psychological Science.
@@ -36,13 +36,18 @@ export const Agua: React.FC<P> = ({ t, tl }) => {
   const esquenta = prog(t, c.a_esquentava - 0.2, 1.0, ease.out);
   return (
     <div style={{ position: "absolute", inset: 0, opacity: on }}>
-      <CamNoir t={t} push={0.004} keys={[{ t: 0, s: 1.06, y: -16 }, { t: c.h_melhor, s: 1.0, e: ease.out }, { t: c.a_minuto, s: 1.04, x: 40, e: ease.inOut }, { t: c.a_esquentava + 0.4, s: 1.06, x: -40, e: ease.inOut }]}>
+      <CamNoir t={t} push={0.004} keys={[{ t: 0, s: 1.06, y: -16 }, { t: c.h_lembranca, s: 1.0, e: ease.out }, { t: c.a_minuto, s: 1.04, x: 40, e: ease.inOut }, { t: c.a_esquentava + 0.4, s: 1.06, x: -40, e: ease.inOut }]}>
         <Svg>
           <Chao />
           <Holofote x={540} chao={CHAO} w={620} p={prog(t, 0, 0.6) * (1 - testes * 0.5)} />
           <Holofote x={300} chao={CHAO} w={420} p={testes * 0.8} cor="#C9E4FF" />
           <Holofote x={780} chao={CHAO} w={420} p={testes * 0.8} cor={esquenta > 0.5 ? A.hex : "#C9E4FF"} />
-          <g opacity={1 - testes}><Relogio t={t} x={540} y={760} r={130} vel={0.4} p={prog(t, 0.1, 0.5)} /></g>
+          <g opacity={1 - testes}>
+            {[0, 1, 2, 3].map((i) => {
+              const ult = i === 3 && t > c.h_lembranca - 0.1;
+              return <rect key={i} x={200 + i * 180} y={700} width={150} height={190} fill={ult ? aa(0.14) : "none"} stroke={ult ? A.hex : NOIR.branco} strokeWidth={3} opacity={surge(t, 0.1 + i * 0.12)} style={{ filter: ult ? GLOW_V : undefined }} />;
+            })}
+          </g>
           <Termometro x={300} y={960} nivel={0.25} p={surge(t, c.a_gelada - 0.2)} />
           <Termometro x={780} y={960} nivel={mix(0.25, 0.38, esquenta)} p={surge(t, c.a_meio - 0.3)} quente={esquenta} />
           <Figura t={t} x={540} y={CHAO} s={0.9} pose={testes > 0.5 ? "cabisbaixo" : "pe"} tom="luz" />
@@ -51,7 +56,7 @@ export const Agua: React.FC<P> = ({ t, tl }) => {
         <Pilula t={t} at={c.a_meio - 0.05} ate={c.v_ruim - 0.5} x={780} y={600} texto="1 MIN E MEIO" tom="branco" size={28} />
         <Pilula t={t} at={c.a_esquentava - 0.05} ate={c.v_ruim - 0.5} x={780} y={1060} texto="FIM A 15 °C" tom="verde" size={26} cheia />
       </CamNoir>
-      <TituloNoir t={t} at={0.05} ate={c.a_1993 - 0.4} linhas={[{ texto: "MAIS TEMPO DE DOR,", size: 64 }, { texto: "LEMBRANÇA MELHOR?", cor: "verde", size: 76 }]} top={300} />
+      <TituloNoir t={t} at={0.05} ate={c.a_1993 - 0.4} linhas={[{ texto: "A ORDEM DOS CÔMODOS", size: 64 }, { texto: "MUDA A LEMBRANÇA", cor: "verde", size: 80 }]} top={300} />
       <TituloNoir t={t} at={c.a_1993 - 0.2} ate={c.v_ruim - 0.5} linhas={[{ texto: "1993", size: 64 }, { texto: "ÁGUA GELADA", size: 92 }]} top={300} />
     </div>
   );
