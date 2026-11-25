@@ -1,0 +1,500 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1206-08",
+ "lote": "D1206",
+ "title": "A casa que vence",
+ "outputDir": "ATIVO_D1206_08",
+ "deliverables": {
+  "final": "ATIVO_D1206_08_FINAL.mp4",
+  "narration": "ATIVO_D1206_08_NARRACAO.wav",
+  "subtitles": "ATIVO_D1206_08_legendas.srt",
+  "cover": "ATIVO_D1206_08_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-06/ATIVO-D1206-08_casa_que_vence.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "E se a sua casa perdesse valor como um carro?",
+   "caption": "E se a sua *casa* | perdesse *valor* | como um *carro?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "japao",
+   "text": "No Japão, uma casa é demolida, em média, com uns trinta e dois anos. Nos Estados Unidos, com mais que o dobro.",
+   "caption": "No *Japão,* | uma casa é *demolida,* | em média, | com uns *trinta e dois anos.* | Nos Estados Unidos, | com mais que o *dobro.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "terreno",
+   "text": "Na conta dos impostos de lá, uma casa de madeira se deprecia em vinte e dois anos. O que segura o valor é o terreno.",
+   "caption": "Na conta dos impostos | de lá, | uma casa de madeira | se deprecia | em *vinte e dois anos.* | O que segura o valor | é o *terreno.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Aqui é diferente. Mas a pergunta do comprador é a mesma: o que ainda vai valer daqui a dez anos?",
+   "caption": "Aqui é *diferente.* | Mas a pergunta | do comprador | é a mesma: | o que ainda vai *valer* | daqui a *dez anos?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Mostre o que segura o preço: a localização, o terreno, a estrutura e a manutenção. Não só o acabamento novo.",
+   "caption": "Mostre o que *segura* o preço: | a *localização,* | o *terreno,* | a *estrutura* | e a *manutenção.* | Não só | o acabamento novo.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "O acabamento envelhece. O endereço, não.",
+   "caption": "O acabamento *envelhece.* | O *endereço,* não.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "japao": 0.35,
+  "terreno": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_casa": {
+   "seg": "s1",
+   "word": "casa",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_carro": {
+   "seg": "s1",
+   "word": "carro",
+   "edge": "start",
+   "offset": 0
+  },
+  "j_japao": {
+   "seg": "s2",
+   "word": "Japão",
+   "edge": "start",
+   "offset": 0
+  },
+  "j_demolida": {
+   "seg": "s2",
+   "word": "demolida",
+   "edge": "start",
+   "offset": 0
+  },
+  "j_32": {
+   "seg": "s2",
+   "word": "trinta",
+   "edge": "start",
+   "offset": 0
+  },
+  "j_dobro": {
+   "seg": "s2",
+   "word": "dobro",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_madeira": {
+   "seg": "s3",
+   "word": "madeira",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_22": {
+   "seg": "s3",
+   "word": "vinte",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_terreno": {
+   "seg": "s3",
+   "word": "terreno",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_diferente": {
+   "seg": "s4",
+   "word": "diferente",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_valer": {
+   "seg": "s4",
+   "word": "valer",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_localizacao": {
+   "seg": "s5",
+   "word": "localização",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_terreno": {
+   "seg": "s5",
+   "word": "terreno",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_estrutura": {
+   "seg": "s5",
+   "word": "estrutura",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_manutencao": {
+   "seg": "s5",
+   "word": "manutenção",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_acabamento": {
+   "seg": "s5",
+   "word": "acabamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_envelhece": {
+   "seg": "s6",
+   "word": "envelhece",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_endereco": {
+   "seg": "s6",
+   "word": "endereço",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_casa",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "j_japao",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "j_32",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "t_madeira",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "t_terreno",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_valer",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_terreno",
+   "offset": -0.05,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_manutencao",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_envelhece",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.2,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.7,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_carro",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_diferente",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_endereco",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T04",
+  "ancoras": {
+   "virada": "cue:v_diferente",
+   "insight": "cue:a_localizacao",
+   "resolucao": "cue:f_endereco"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "maquete-3d",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "e-se",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "casa em miniatura que envelhece, é demolida e renasce no mesmo lote aceso.",
+  "justificativaHorario": "08h: abertura do dia com pergunta forte.",
+  "trilha": "T04",
+  "justificativaTrilha": "tensão em movimento para a casa que perde valor.",
+  "data": "2026-12-06",
+  "slot": "08:00",
+  "arquivo": "PRODUCAO/grade/2026-12-06.json"
+ },
+ "modelos4": true,
+ "modelo": 4,
+ "modeloNome": "Maquete 3D"
+}

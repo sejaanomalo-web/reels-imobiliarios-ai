@@ -1,0 +1,525 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "2009": "dois mil e nove"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1206-12",
+ "lote": "D1206",
+ "title": "Dezenove itens",
+ "outputDir": "ATIVO_D1206_12",
+ "deliverables": {
+  "final": "ATIVO_D1206_12_FINAL.mp4",
+  "narration": "ATIVO_D1206_12_NARRACAO.wav",
+  "subtitles": "ATIVO_D1206_12_legendas.srt",
+  "cover": "ATIVO_D1206_12_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-06/ATIVO-D1206-12_dezenove_itens.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Uma lista de dezenove itens ajudou a reduzir mortes em cirurgias.",
+   "caption": "Uma *lista* | de *dezenove itens* | ajudou a reduzir | mortes | em *cirurgias.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "estudo",
+   "text": "Em 2009, um estudo em oito hospitais de oito países testou um checklist da Organização Mundial da Saúde.",
+   "caption": "Em *2009,* | um estudo | em *oito hospitais* | de oito países | testou um *checklist* | da Organização Mundial da Saúde.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "numeros",
+   "text": "Depois da lista, as mortes caíram de um e meio por cento para menos de um. As complicações, de onze para sete por cento.",
+   "caption": "Depois da lista, | as mortes caíram | de *um e meio por cento* | para *menos de um.* | As complicações, | de *onze* | para *sete por cento.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "As equipes já sabiam tudo aquilo. A lista só não deixava esquecer.",
+   "caption": "As equipes | já *sabiam* | tudo aquilo. | A lista | só não deixava *esquecer.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "No fechamento, faça a sua: documentos do vendedor, certidões, matrícula atualizada, prazo do financiamento e data das chaves.",
+   "caption": "No *fechamento,* | faça a sua: | *documentos* do vendedor, | *certidões,* | *matrícula* atualizada, | *prazo* do financiamento | e data das *chaves.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Experiência não protege do esquecimento. Lista protege.",
+   "caption": "Experiência | não protege | do esquecimento. | *Lista protege.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "estudo": 0.35,
+  "numeros": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_lista": {
+   "seg": "s1",
+   "word": "lista",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_dezenove": {
+   "seg": "s1",
+   "word": "dezenove",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_cirurgias": {
+   "seg": "s1",
+   "word": "cirurgias",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_2009": {
+   "seg": "s2",
+   "word": "2009",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_hospitais": {
+   "seg": "s2",
+   "word": "hospitais",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_checklist": {
+   "seg": "s2",
+   "word": "checklist",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_mortes": {
+   "seg": "s3",
+   "word": "mortes",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_menos": {
+   "seg": "s3",
+   "word": "menos",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_onze": {
+   "seg": "s3",
+   "word": "onze",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_sete": {
+   "seg": "s3",
+   "word": "sete",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_sabiam": {
+   "seg": "s4",
+   "word": "sabiam",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_esquecer": {
+   "seg": "s4",
+   "word": "esquecer",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_fechamento": {
+   "seg": "s5",
+   "word": "fechamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_documentos": {
+   "seg": "s5",
+   "word": "documentos",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_certidoes": {
+   "seg": "s5",
+   "word": "certidões",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_matricula": {
+   "seg": "s5",
+   "word": "matrícula",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_prazo": {
+   "seg": "s5",
+   "word": "prazo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_chaves": {
+   "seg": "s5",
+   "word": "chaves",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_experiencia": {
+   "seg": "s6",
+   "word": "Experiência",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_lista": {
+   "seg": "s6",
+   "word": "Lista",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_lista",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "h_cirurgias",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "e_hospitais",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "n_mortes",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "n_onze",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_sabiam",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_fechamento",
+   "offset": -0.05,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_certidoes",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_prazo",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "f_experiencia",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.85,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_dezenove",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_sabiam",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_lista",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T03",
+  "ancoras": {
+   "virada": "cue:v_sabiam",
+   "insight": "cue:a_fechamento",
+   "resolucao": "cue:f_lista"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "planta-tecnica",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "fora-da-bolha",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "a lista vira prancha; itens = cômodos que acendem; mergulho no FECHAMENTO.",
+  "justificativaHorario": "12h: almoço, maior alcance.",
+  "trilha": "T03",
+  "justificativaTrilha": "arco de descoberta.",
+  "data": "2026-12-06",
+  "slot": "12:00",
+  "arquivo": "PRODUCAO/grade/2026-12-06.json"
+ },
+ "modelos4": true,
+ "modelo": 3,
+ "modeloNome": "Planta técnica"
+}

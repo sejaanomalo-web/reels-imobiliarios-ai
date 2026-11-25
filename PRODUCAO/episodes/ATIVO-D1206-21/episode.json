@@ -1,0 +1,500 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "1998": "mil novecentos e noventa e oito"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1206-21",
+ "lote": "D1206",
+ "title": "O preço por dia",
+ "outputDir": "ATIVO_D1206_21",
+ "deliverables": {
+  "final": "ATIVO_D1206_21_FINAL.mp4",
+  "narration": "ATIVO_D1206_21_NARRACAO.wav",
+  "subtitles": "ATIVO_D1206_21_legendas.srt",
+  "cover": "ATIVO_D1206_21_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-06/ATIVO-D1206-21_o_preco_por_dia.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Um real por dia parece pouco. Trezentos e sessenta e cinco reais por ano parecem mais. É o mesmo dinheiro.",
+   "caption": "*Um real* por dia | parece *pouco.* | *Trezentos e sessenta e cinco reais* | por ano | parecem *mais.* | É o *mesmo dinheiro.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "estudo",
+   "text": "Em 1998, um pesquisador de Harvard mostrou que o mesmo valor, dito por dia, costuma parecer menor.",
+   "caption": "Em *1998,* | um pesquisador | de Harvard | mostrou que o mesmo valor, | dito *por dia,* | costuma parecer *menor.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "cafe",
+   "text": "Porque a gente compara com os gastos pequenos do dia, como um café.",
+   "caption": "Porque a gente *compara* | com os gastos pequenos | do dia, | como um *café.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Use isso para dar clareza, não para pressionar.",
+   "caption": "Use isso | para dar *clareza,* | não para *pressionar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "O apartamento perto do trabalho custa mais? Mostre quanto essa diferença dá por dia, ao lado das horas de trânsito que ele deixa de pegar.",
+   "caption": "O apartamento | perto do *trabalho* | custa mais? | Mostre quanto | essa *diferença* | dá *por dia,* | ao lado das *horas de trânsito* | que ele deixa de pegar.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Número grande assusta. Número do dia a dia dá para comparar.",
+   "caption": "Número grande | *assusta.* | Número do *dia a dia* | dá para *comparar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "estudo": 0.35,
+  "cafe": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_real": {
+   "seg": "s1",
+   "word": "real",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_pouco": {
+   "seg": "s1",
+   "word": "pouco",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_ano": {
+   "seg": "s1",
+   "word": "ano",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_mesmo": {
+   "seg": "s1",
+   "word": "mesmo",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_1998": {
+   "seg": "s2",
+   "word": "1998",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_dia": {
+   "seg": "s2",
+   "word": "dia",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_menor": {
+   "seg": "s2",
+   "word": "menor",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_compara": {
+   "seg": "s3",
+   "word": "compara",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_cafe": {
+   "seg": "s3",
+   "word": "café",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_clareza": {
+   "seg": "s4",
+   "word": "clareza",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_pressionar": {
+   "seg": "s4",
+   "word": "pressionar",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_trabalho": {
+   "seg": "s5",
+   "word": "trabalho",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_diferenca": {
+   "seg": "s5",
+   "word": "diferença",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_dia": {
+   "seg": "s5",
+   "word": "dia",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_horas": {
+   "seg": "s5",
+   "word": "horas",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_assusta": {
+   "seg": "s6",
+   "word": "assusta",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_comparar": {
+   "seg": "s6",
+   "word": "comparar",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_real",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "h_ano",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "e_1998",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "e_menor",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "c_cafe",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_pressionar",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_diferenca",
+   "offset": -0.05,
+   "sound": "impact",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_horas",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_comparar",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.1,
+   "sound": "shimmer",
+   "gain": -25
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 2.3,
+   "sound": "chord",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_pouco",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_clareza",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_comparar",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T03",
+  "ancoras": {
+   "virada": "cue:v_clareza",
+   "insight": "cue:a_diferenca",
+   "resolucao": "cue:f_comparar"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "pictograma-cinematografico",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "fora-da-bolha",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "moedas, balança e relógio em linha fina.",
+  "justificativaHorario": "21h: noite, conteúdo de reflexão.",
+  "trilha": "T03",
+  "justificativaTrilha": "arco de descoberta (o mesmo dinheiro que muda de tamanho).",
+  "data": "2026-12-06",
+  "slot": "21:00",
+  "arquivo": "PRODUCAO/grade/2026-12-06.json"
+ },
+ "modelos4": true,
+ "modelo": 2,
+ "modeloNome": "Pictograma cinematográfico"
+}
