@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.86,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.35,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 9.13,
+    "palavras_nao_reconhecidas": [
+      "1989"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.49,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.31,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 5.0,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.41,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 37.23,
+    "asr_match": 0.99,
+    "aligned_words": "95/96",
+    "words_per_min": 155,
+    "heard": "Antes de o cliente assinar, faça uma pergunta estranha. Imagine que já passou um ano e você se arrependeu dessa compra. O que deu errado? Parece pessimismo, mas um estudo de 1989 viu que imaginar que algo já aconteceu ajuda a apontar cerca de 30% mais motivos. O cliente fala do barulho da rua, da parcela apertada, da escola longe. E você resolve agora, antes da caneta e não depois da chave na mão. Dúvida que aparece antes da assinatura tem solução. Depois virá arrependimento. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 38.92,
+      "wpm": 148
+    },
+    "pausas_moldadas": {
+      "n": 16,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.69,
+    "final": {
+      "seconds": 37.23,
+      "wpm": 155
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.14,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.93,
+    "palavras_nao_reconhecidas": [
+      "pedia",
+      "de"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.75,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 5.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.0,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 5.46,
+    "palavras_nao_reconhecidas": [
+      "parecidas"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.29,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 36.78,
+    "asr_match": 0.978,
+    "aligned_words": "87/90",
+    "words_per_min": 147,
+    "heard": "Num hotel, mudaram uma frase no cartão da toalha. E mais hóspedes reutilizaram. O cartão comum pedi ajuda ao meio ambiente. Cerca 35% reutilizavam. O novo dizia, a maioria dos hóspedes reutiliza a toalha. Subiu para 44%. E quando dizia que a maioria dos hóspedes daquele mesmo quarto reutilizava, funcionou ainda melhor. A gente segue gente parecida, num lugar parecido. Com o cliente, conte o que famílias com a dele escolheram naquele bairro, desde que seja verdade. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 38.16,
+      "wpm": 142
+    },
+    "pausas_moldadas": {
+      "n": 15,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.38,
+    "final": {
+      "seconds": 36.78,
+      "wpm": 147
+    }
+  }
+]

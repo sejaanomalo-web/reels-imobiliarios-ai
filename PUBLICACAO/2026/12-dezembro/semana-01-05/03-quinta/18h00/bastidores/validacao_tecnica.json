@@ -1,8 +1,8 @@
 {
- "file": "ATIVO_D1203_12_FINAL.mp4",
- "size_mb": 14.97,
- "duration": 48.34,
- "video_bitrate_kbps": 2216,
+ "file": "ATIVO_D1203_18_FINAL.mp4",
+ "size_mb": 15.26,
+ "duration": 41.17,
+ "video_bitrate_kbps": 2702,
  "color_space": "bt709",
  "audio_sample_rate": "48000",
  "audio_channels": 2,
@@ -35,7 +35,7 @@
   {
    "check": "Duração = timeline (±0,1 s)",
    "ok": true,
-   "value": "48.34 s (timeline 48.33 s)"
+   "value": "41.17 s (timeline 41.17 s)"
   },
   {
    "check": "Decodificação sem erros",
@@ -45,12 +45,12 @@
   {
    "check": "Loudness entre -16 e -14 LUFS",
    "ok": true,
-   "value": "-15.10 LUFS"
+   "value": "-15.13 LUFS"
   },
   {
    "check": "True peak ≤ -1 dBTP",
    "ok": true,
-   "value": "-1.57 dBTP"
+   "value": "-1.70 dBTP"
   },
   {
    "check": "Sem trechos pretos ≥ 0,2 s",

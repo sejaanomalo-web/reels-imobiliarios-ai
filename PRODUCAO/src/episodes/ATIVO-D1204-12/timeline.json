@@ -1,0 +1,900 @@
+{
+ "id": "ATIVO-D1204-12",
+ "title": "A toalha do hotel",
+ "fps": 30,
+ "duration": 39.13333333333333,
+ "durationInFrames": 1174,
+ "narrationEnd": 36.905,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.57
+  },
+  {
+   "id": "teste",
+   "start": 5.57,
+   "end": 16.835
+  },
+  {
+   "id": "virada",
+   "start": 16.835,
+   "end": 22.62
+  },
+  {
+   "id": "licao",
+   "start": 22.62,
+   "end": 26.1
+  },
+  {
+   "id": "desfecho",
+   "start": 26.1,
+   "end": 32.01
+  },
+  {
+   "id": "cta",
+   "start": 32.01,
+   "end": 39.133
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Num hotel, mudaram uma frase no cartão da toalha. E mais hóspedes reutilizaram.",
+   "start": 0.2,
+   "end": 5.34
+  },
+  {
+   "id": "s2",
+   "scene": "teste",
+   "text": "O cartão comum pedia ajuda ao meio ambiente. Cerca de 35% reutilizavam.",
+   "start": 5.8,
+   "end": 10.73
+  },
+  {
+   "id": "s3",
+   "scene": "teste",
+   "text": "O novo dizia: a maioria dos hóspedes reutiliza a toalha. Subiu para 44%.",
+   "start": 11.0,
+   "end": 16.75
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "E quando dizia que a maioria dos hóspedes daquele mesmo quarto reutilizava, funcionou ainda melhor.",
+   "start": 16.92,
+   "end": 22.4
+  },
+  {
+   "id": "s5",
+   "scene": "licao",
+   "text": "A gente segue gente parecida, num lugar parecido.",
+   "start": 22.84,
+   "end": 25.84
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Com o cliente, conte o que famílias parecidas com a dele escolheram naquele bairro. Desde que seja verdade.",
+   "start": 26.36,
+   "end": 31.82
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 32.2,
+   "end": 36.49
+  }
+ ],
+ "cues": {
+  "h_hotel": 0.84,
+  "h_frase": 2.12,
+  "h_reutilizaram": 4.68,
+  "t_comum": 6.36,
+  "t_35": 9.08,
+  "t_novo": 11.16,
+  "t_maioria": 12.28,
+  "t_44": 15.56,
+  "v_quarto": 19.8,
+  "v_melhor": 22.2,
+  "l_gente": 23.08,
+  "l_lugar": 25.08,
+  "f_familias": 27.88,
+  "f_bairro": 30.2,
+  "f_verdade": 31.56,
+  "cta_quer": 32.2,
+  "cta_comment": 33.4,
+  "cta_word": 34.04,
+  "cta_tiles": 34.76,
+  "cta_sys": 35.56,
+  "cta_leads": 35.24,
+  "cta_atend": 35.88,
+  "cta_direct": 35.88,
+  "cta_end": 36.49
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 1.4,
+   "words": [
+    {
+     "text": "Num",
+     "start": 0.2,
+     "end": 0.28,
+     "emph": false
+    },
+    {
+     "text": "hotel,",
+     "start": 0.84,
+     "end": 1.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.4,
+   "end": 2.44,
+   "words": [
+    {
+     "text": "mudaram",
+     "start": 1.4,
+     "end": 1.96,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 1.96,
+     "end": 2.12,
+     "emph": true
+    },
+    {
+     "text": "frase",
+     "start": 2.12,
+     "end": 2.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.44,
+   "end": 3.56,
+   "words": [
+    {
+     "text": "no",
+     "start": 2.44,
+     "end": 2.6,
+     "emph": false
+    },
+    {
+     "text": "cartão",
+     "start": 2.6,
+     "end": 2.92,
+     "emph": false
+    },
+    {
+     "text": "da",
+     "start": 2.92,
+     "end": 3.08,
+     "emph": false
+    },
+    {
+     "text": "toalha.",
+     "start": 3.08,
+     "end": 3.39,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.56,
+   "end": 4.68,
+   "words": [
+    {
+     "text": "E",
+     "start": 3.56,
+     "end": 3.8,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 3.8,
+     "end": 4.04,
+     "emph": false
+    },
+    {
+     "text": "hóspedes",
+     "start": 4.04,
+     "end": 4.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.68,
+   "end": 5.8,
+   "words": [
+    {
+     "text": "reutilizaram.",
+     "start": 4.68,
+     "end": 5.34,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.8,
+   "end": 6.76,
+   "words": [
+    {
+     "text": "O",
+     "start": 5.8,
+     "end": 5.96,
+     "emph": false
+    },
+    {
+     "text": "cartão",
+     "start": 5.96,
+     "end": 6.36,
+     "emph": false
+    },
+    {
+     "text": "comum",
+     "start": 6.36,
+     "end": 6.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.76,
+   "end": 7.56,
+   "words": [
+    {
+     "text": "pedia",
+     "start": 6.76,
+     "end": 7.16,
+     "emph": false
+    },
+    {
+     "text": "ajuda",
+     "start": 7.16,
+     "end": 7.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.56,
+   "end": 8.6,
+   "words": [
+    {
+     "text": "ao",
+     "start": 7.56,
+     "end": 7.72,
+     "emph": false
+    },
+    {
+     "text": "meio",
+     "start": 7.72,
+     "end": 7.96,
+     "emph": false
+    },
+    {
+     "text": "ambiente.",
+     "start": 7.96,
+     "end": 8.11,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.6,
+   "end": 10.04,
+   "words": [
+    {
+     "text": "Cerca",
+     "start": 8.6,
+     "end": 8.943,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 8.943,
+     "end": 9.08,
+     "emph": false
+    },
+    {
+     "text": "35%",
+     "start": 9.08,
+     "end": 10.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.04,
+   "end": 11.0,
+   "words": [
+    {
+     "text": "reutilizavam.",
+     "start": 10.04,
+     "end": 10.73,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.0,
+   "end": 12.12,
+   "words": [
+    {
+     "text": "O",
+     "start": 11.0,
+     "end": 11.16,
+     "emph": false
+    },
+    {
+     "text": "novo",
+     "start": 11.16,
+     "end": 11.56,
+     "emph": true
+    },
+    {
+     "text": "dizia:",
+     "start": 11.56,
+     "end": 11.81,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.12,
+   "end": 13.48,
+   "words": [
+    {
+     "text": "a",
+     "start": 12.12,
+     "end": 12.28,
+     "emph": false
+    },
+    {
+     "text": "maioria",
+     "start": 12.28,
+     "end": 12.76,
+     "emph": true
+    },
+    {
+     "text": "dos",
+     "start": 12.76,
+     "end": 12.92,
+     "emph": false
+    },
+    {
+     "text": "hóspedes",
+     "start": 12.92,
+     "end": 13.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.48,
+   "end": 14.76,
+   "words": [
+    {
+     "text": "reutiliza",
+     "start": 13.48,
+     "end": 14.12,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 14.12,
+     "end": 14.2,
+     "emph": false
+    },
+    {
+     "text": "toalha.",
+     "start": 14.2,
+     "end": 14.47,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.76,
+   "end": 16.92,
+   "words": [
+    {
+     "text": "Subiu",
+     "start": 14.76,
+     "end": 15.32,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 15.32,
+     "end": 15.56,
+     "emph": false
+    },
+    {
+     "text": "44%.",
+     "start": 15.56,
+     "end": 16.75,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.92,
+   "end": 17.8,
+   "words": [
+    {
+     "text": "E",
+     "start": 16.92,
+     "end": 16.99,
+     "emph": false
+    },
+    {
+     "text": "quando",
+     "start": 17.16,
+     "end": 17.4,
+     "emph": false
+    },
+    {
+     "text": "dizia",
+     "start": 17.4,
+     "end": 17.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.8,
+   "end": 19.08,
+   "words": [
+    {
+     "text": "que",
+     "start": 17.8,
+     "end": 17.96,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 17.96,
+     "end": 18.04,
+     "emph": false
+    },
+    {
+     "text": "maioria",
+     "start": 18.04,
+     "end": 18.36,
+     "emph": false
+    },
+    {
+     "text": "dos",
+     "start": 18.36,
+     "end": 18.52,
+     "emph": false
+    },
+    {
+     "text": "hóspedes",
+     "start": 18.52,
+     "end": 19.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 19.08,
+   "end": 20.28,
+   "words": [
+    {
+     "text": "daquele",
+     "start": 19.08,
+     "end": 19.48,
+     "emph": false
+    },
+    {
+     "text": "mesmo",
+     "start": 19.48,
+     "end": 19.8,
+     "emph": true
+    },
+    {
+     "text": "quarto",
+     "start": 19.8,
+     "end": 20.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 20.28,
+   "end": 21.32,
+   "words": [
+    {
+     "text": "reutilizava,",
+     "start": 20.28,
+     "end": 21.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 21.32,
+   "end": 21.88,
+   "words": [
+    {
+     "text": "funcionou",
+     "start": 21.32,
+     "end": 21.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 21.88,
+   "end": 22.84,
+   "words": [
+    {
+     "text": "ainda",
+     "start": 21.88,
+     "end": 22.2,
+     "emph": true
+    },
+    {
+     "text": "melhor.",
+     "start": 22.2,
+     "end": 22.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.84,
+   "end": 23.88,
+   "words": [
+    {
+     "text": "A",
+     "start": 22.84,
+     "end": 23.08,
+     "emph": false
+    },
+    {
+     "text": "gente",
+     "start": 23.08,
+     "end": 23.4,
+     "emph": false
+    },
+    {
+     "text": "segue",
+     "start": 23.4,
+     "end": 23.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.88,
+   "end": 24.76,
+   "words": [
+    {
+     "text": "gente",
+     "start": 23.88,
+     "end": 24.12,
+     "emph": true
+    },
+    {
+     "text": "parecida,",
+     "start": 24.12,
+     "end": 24.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.76,
+   "end": 26.19,
+   "words": [
+    {
+     "text": "num",
+     "start": 24.76,
+     "end": 25.08,
+     "emph": false
+    },
+    {
+     "text": "lugar",
+     "start": 25.08,
+     "end": 25.4,
+     "emph": true
+    },
+    {
+     "text": "parecido.",
+     "start": 25.4,
+     "end": 25.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.36,
+   "end": 27.16,
+   "words": [
+    {
+     "text": "Com",
+     "start": 26.36,
+     "end": 26.45,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 26.6,
+     "end": 26.68,
+     "emph": false
+    },
+    {
+     "text": "cliente,",
+     "start": 26.68,
+     "end": 27.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.16,
+   "end": 28.76,
+   "words": [
+    {
+     "text": "conte",
+     "start": 27.16,
+     "end": 27.23,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 27.64,
+     "end": 27.72,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 27.72,
+     "end": 27.88,
+     "emph": false
+    },
+    {
+     "text": "famílias",
+     "start": 27.88,
+     "end": 28.294,
+     "emph": true
+    },
+    {
+     "text": "parecidas",
+     "start": 28.294,
+     "end": 28.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.76,
+   "end": 29.4,
+   "words": [
+    {
+     "text": "com",
+     "start": 28.76,
+     "end": 28.92,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 28.92,
+     "end": 29.08,
+     "emph": false
+    },
+    {
+     "text": "dele",
+     "start": 29.08,
+     "end": 29.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 29.4,
+   "end": 29.96,
+   "words": [
+    {
+     "text": "escolheram",
+     "start": 29.4,
+     "end": 29.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 29.96,
+   "end": 30.76,
+   "words": [
+    {
+     "text": "naquele",
+     "start": 29.96,
+     "end": 30.2,
+     "emph": false
+    },
+    {
+     "text": "bairro.",
+     "start": 30.2,
+     "end": 30.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 30.76,
+   "end": 31.16,
+   "words": [
+    {
+     "text": "Desde",
+     "start": 30.76,
+     "end": 31.0,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 31.0,
+     "end": 31.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 31.16,
+   "end": 32.2,
+   "words": [
+    {
+     "text": "seja",
+     "start": 31.16,
+     "end": 31.56,
+     "emph": false
+    },
+    {
+     "text": "verdade.",
+     "start": 31.56,
+     "end": 31.82,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.2,
+   "end": 33.4,
+   "words": [
+    {
+     "text": "Se",
+     "start": 32.2,
+     "end": 32.36,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 32.36,
+     "end": 32.6,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 32.6,
+     "end": 32.76,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 32.76,
+     "end": 33.19,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.4,
+   "end": 34.6,
+   "words": [
+    {
+     "text": "comente",
+     "start": 33.4,
+     "end": 34.04,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 34.04,
+     "end": 34.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 34.6,
+   "end": 35.56,
+   "words": [
+    {
+     "text": "e",
+     "start": 34.6,
+     "end": 34.76,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 34.76,
+     "end": 35.24,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 35.24,
+     "end": 35.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 35.56,
+   "end": 36.99,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 35.56,
+     "end": 35.88,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 35.88,
+     "end": 36.49,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

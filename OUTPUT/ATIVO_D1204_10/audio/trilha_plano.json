@@ -1,0 +1,198 @@
+{
+ "plano": [
+  {
+   "secao": "a",
+   "tipo": "a",
+   "opcao": "4/18 (só a cabeça)",
+   "fonte": [
+    0.0,
+    42.553
+   ],
+   "mantido": 7.575,
+   "removido": 34.978,
+   "saida_ini": 0.0
+  },
+  {
+   "secao": "silencio",
+   "tipo": "parada",
+   "opcao": "inteira",
+   "fonte": [
+    42.553,
+    45.051
+   ],
+   "mantido": 2.498,
+   "removido": 0.0,
+   "saida_ini": 7.575
+  },
+  {
+   "secao": "b",
+   "tipo": "b",
+   "opcao": "2/10 (miolo removido, cauda 1)",
+   "fonte": [
+    45.051,
+    70.035
+   ],
+   "mantido": 4.996,
+   "removido": 19.988,
+   "saida_ini": 10.073
+  },
+  {
+   "secao": "c",
+   "tipo": "climax",
+   "opcao": "inteira",
+   "fonte": [
+    70.035,
+    87.523
+   ],
+   "mantido": 17.488,
+   "removido": 0.0,
+   "saida_ini": 15.07
+  },
+  {
+   "secao": "final",
+   "tipo": "final",
+   "opcao": "inteira",
+   "fonte": [
+    87.523,
+    90.1
+   ],
+   "mantido": 2.577,
+   "removido": 0.0,
+   "saida_ini": 32.558
+  }
+ ],
+ "pecas": [
+  {
+   "secao": "a",
+   "fonte": [
+    0.0,
+    7.5753
+   ],
+   "saida": [
+    0.0,
+    7.5753
+   ]
+  },
+  {
+   "secao": "silencio",
+   "fonte": [
+    42.553,
+    45.051
+   ],
+   "saida": [
+    7.5753,
+    10.0733
+   ]
+  },
+  {
+   "secao": "b",
+   "fonte": [
+    45.051,
+    47.5503
+   ],
+   "saida": [
+    10.0733,
+    12.5726
+   ]
+  },
+  {
+   "secao": "b",
+   "fonte": [
+    67.5378,
+    70.035
+   ],
+   "saida": [
+    12.5726,
+    15.0698
+   ]
+  },
+  {
+   "secao": "c",
+   "fonte": [
+    70.035,
+    87.523
+   ],
+   "saida": [
+    15.0698,
+    32.5578
+   ]
+  },
+  {
+   "secao": "final",
+   "fonte": [
+    87.523,
+    90.1
+   ],
+   "saida": [
+    32.5578,
+    35.1348
+   ]
+  }
+ ],
+ "ancoras": [
+  {
+   "funcao": "virada",
+   "secao": "b",
+   "alvo": 10.84,
+   "obtido": 10.073,
+   "erro": -0.767
+  },
+  {
+   "funcao": "insight",
+   "secao": "c",
+   "alvo": 15.32,
+   "obtido": 15.07,
+   "erro": -0.25
+  }
+ ],
+ "ancoras_ignoradas": [
+  {
+   "funcao": "resolucao",
+   "alvo": 26.84,
+   "motivo": "esta faixa não tem evento para essa função (use efeito/respiro)"
+  }
+ ],
+ "fim_musical": 35.135,
+ "custo": 48.05,
+ "modo": "SHORTEN",
+ "ref_costura": 1.5717,
+ "final": {
+  "tipo": "seco",
+  "fim_musical": 35.135,
+  "video": 37.733,
+  "ajuste": "cauda sintética 2.60 s (reverberação da última batida)",
+  "sustentacao_s": 2.515
+ },
+ "cortes": [
+  {
+   "saida": 7.575,
+   "sai_da_fonte": 7.575,
+   "entra_na_fonte": 42.553,
+   "crossfade_s": 0.04,
+   "razao": 0.77,
+   "nota": "natural",
+   "salto_amostra": 0.76
+  },
+  {
+   "saida": 12.573,
+   "sai_da_fonte": 47.55,
+   "entra_na_fonte": 67.538,
+   "crossfade_s": 0.04,
+   "razao": 0.91,
+   "nota": "natural",
+   "salto_amostra": 0.47
+  }
+ ],
+ "versao": 1,
+ "trilha": "T05",
+ "nome": "Batida constante",
+ "licenca": "autorizada",
+ "duracao_video": 37.733,
+ "amostras": 1811200,
+ "alteracao_velocidade_pct": 0.0,
+ "alteracao_tom_semitons": 0,
+ "lufs": -23.1,
+ "true_peak": -3.2,
+ "bpm": 96.06,
+ "tom": "Dó# (maior/menor empatados)"
+}

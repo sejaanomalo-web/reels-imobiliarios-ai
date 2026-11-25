@@ -82,9 +82,10 @@
       "justificativaTrilha": "arco emocional de uma cidade que volta a ter gente.",
       "episodio": "ATIVO-D1203-12",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-03/ATIVO-D1203-12_a_casa_de_um_euro.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-01-05/03-quinta/12h00"
     },
     {
       "horario": "15:00",
@@ -125,9 +126,10 @@
       "justificativaTrilha": "arco de descoberta.",
       "episodio": "ATIVO-D1203-18",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-03/ATIVO-D1203-18_o_movel_que_voce_montou.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-01-05/03-quinta/18h00"
     },
     {
       "horario": "21:00",
@@ -146,9 +148,10 @@
       "justificativaTrilha": "piano em ondas para tese reflexiva (2ª T02 do dia, ver justificativas.trilhas).",
       "episodio": "ATIVO-D1203-21",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-03/ATIVO-D1203-21_o_contra_que_vende.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-01-05/03-quinta/21h00"
     }
   ]
 }
