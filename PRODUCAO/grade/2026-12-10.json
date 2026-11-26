@@ -140,9 +140,10 @@
       "justificativaTrilha": "tensão em movimento (o encaixe).",
       "episodio": "ATIVO-D1210-21",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-10/ATIVO-D1210-21_montado_pelas_proprias_maos.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/10-quinta/21h00"
     }
   ]
 }
