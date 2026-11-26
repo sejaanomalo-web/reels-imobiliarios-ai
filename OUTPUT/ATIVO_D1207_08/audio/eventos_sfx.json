@@ -1,0 +1,110 @@
+[
+ {
+  "t": 0.63,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "h_apartamento"
+ },
+ {
+  "t": 3.24,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "s_singapura"
+ },
+ {
+  "t": 6.76,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "s_publicos"
+ },
+ {
+  "t": 9.99,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "p_prazo"
+ },
+ {
+  "t": 12.12,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "p_estado"
+ },
+ {
+  "t": 15.72,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "v_uniao"
+ },
+ {
+  "t": 18.39,
+  "sound": "click",
+  "gain": -28,
+  "cue": "a_marinha"
+ },
+ {
+  "t": 20.84,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "a_laudemio"
+ },
+ {
+  "t": 23.48,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "a_matricula"
+ },
+ {
+  "t": 27.35,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "f_custo"
+ },
+ {
+  "t": 28.86,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 29.76,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 30.6,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 31.19,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 31.2,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_word"
+ },
+ {
+  "t": 31.75,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 32.55,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 33.3,
+  "sound": "shimmer",
+  "gain": -27,
+  "cue": "cta_direct"
+ }
+]

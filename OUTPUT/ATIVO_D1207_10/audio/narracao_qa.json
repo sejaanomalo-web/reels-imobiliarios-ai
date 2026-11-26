@@ -1,0 +1,61 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.38,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.79,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.2,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.84,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.55,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.44,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 30.27,
+    "asr_match": 1.0,
+    "aligned_words": "92/92",
+    "words_per_min": 182,
+    "heard": "O cliente pede desconto antes de ver o imóvel. Se você já responde com um número, ele aprende que o preço é a primeira coisa que cai. E desconto sem visita é desconto num imóvel que ele talvez nem queira. Primeiro, ele precisa querer o imóvel. Depois se fala de preço. Responda, vamos visitar. Se for o imóvel certo, eu levo a sua proposta ao proprietário. Negociação boa começa com o cliente querendo o imóvel, não com o preço no chão. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 31.61,
+      "wpm": 175
+    },
+    "pausas_moldadas": {
+      "n": 13,
+      "max_s": 0.57
+    },
+    "pausas_encurtadas_s": 1.34,
+    "final": {
+      "seconds": 30.27,
+      "wpm": 182
+    }
+  }
+]

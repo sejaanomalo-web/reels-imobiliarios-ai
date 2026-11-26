@@ -1,0 +1,207 @@
+{
+ "plano": [
+  {
+   "secao": "a",
+   "tipo": "a",
+   "opcao": "5/10 (só a cabeça)",
+   "fonte": [
+    0.0,
+    21.818
+   ],
+   "mantido": 10.909,
+   "removido": 10.909,
+   "saida_ini": 0.0
+  },
+  {
+   "secao": "respiro",
+   "tipo": "parada",
+   "opcao": "inteira",
+   "fonte": [
+    21.818,
+    24.0
+   ],
+   "mantido": 2.182,
+   "removido": 0.0,
+   "saida_ini": 10.909
+  },
+  {
+   "secao": "b",
+   "tipo": "b",
+   "opcao": "4/14 (miolo removido, cauda 1)",
+   "fonte": [
+    24.0,
+    54.545
+   ],
+   "mantido": 8.727,
+   "removido": 21.818,
+   "saida_ini": 13.091
+  },
+  {
+   "secao": "a2",
+   "tipo": "climax",
+   "opcao": "4/14 (só a cabeça)",
+   "fonte": [
+    54.545,
+    85.091
+   ],
+   "mantido": 8.728,
+   "removido": 21.818,
+   "saida_ini": 21.818
+  },
+  {
+   "secao": "final",
+   "tipo": "final",
+   "opcao": "inteira",
+   "fonte": [
+    85.091,
+    89.6
+   ],
+   "mantido": 4.509,
+   "removido": 0.0,
+   "saida_ini": 30.546
+  }
+ ],
+ "pecas": [
+  {
+   "secao": "a",
+   "fonte": [
+    0.0,
+    10.9091
+   ],
+   "saida": [
+    0.0,
+    10.9091
+   ]
+  },
+  {
+   "secao": "respiro",
+   "fonte": [
+    21.818,
+    24.0
+   ],
+   "saida": [
+    10.9091,
+    13.0911
+   ]
+  },
+  {
+   "secao": "b",
+   "fonte": [
+    24.0,
+    30.5455
+   ],
+   "saida": [
+    13.0911,
+    19.6366
+   ]
+  },
+  {
+   "secao": "b",
+   "fonte": [
+    52.3636,
+    54.545
+   ],
+   "saida": [
+    19.6366,
+    21.818
+   ]
+  },
+  {
+   "secao": "a2",
+   "fonte": [
+    54.545,
+    63.2727
+   ],
+   "saida": [
+    21.818,
+    30.5457
+   ]
+  },
+  {
+   "secao": "final",
+   "fonte": [
+    85.091,
+    89.6
+   ],
+   "saida": [
+    30.5457,
+    35.0547
+   ]
+  }
+ ],
+ "ancoras": [
+  {
+   "funcao": "virada",
+   "secao": "b",
+   "alvo": 12.84,
+   "obtido": 13.091,
+   "erro": 0.251
+  },
+  {
+   "funcao": "insight",
+   "secao": "a2",
+   "alvo": 20.84,
+   "obtido": 21.818,
+   "erro": 0.978
+  }
+ ],
+ "ancoras_ignoradas": [
+  {
+   "funcao": "resolucao",
+   "alvo": 28.12,
+   "motivo": "esta faixa não tem evento para essa função (use efeito/respiro)"
+  }
+ ],
+ "fim_musical": 35.055,
+ "custo": 39.32,
+ "modo": "SHORTEN",
+ "ref_costura": 1.6052,
+ "final": {
+  "tipo": "seco",
+  "fim_musical": 35.055,
+  "video": 35.867,
+  "ajuste": "cauda sintética 0.81 s (reverberação da última batida)",
+  "sustentacao_s": 0.595
+ },
+ "cortes": [
+  {
+   "saida": 10.909,
+   "sai_da_fonte": 10.909,
+   "entra_na_fonte": 21.818,
+   "crossfade_s": 0.04,
+   "razao": 0.94,
+   "nota": "natural",
+   "salto_amostra": 0.54
+  },
+  {
+   "saida": 19.637,
+   "sai_da_fonte": 30.546,
+   "entra_na_fonte": 52.364,
+   "crossfade_s": 0.04,
+   "razao": 0.81,
+   "nota": "natural",
+   "salto_amostra": 0.32
+  },
+  {
+   "saida": 30.546,
+   "sai_da_fonte": 63.273,
+   "entra_na_fonte": 85.091,
+   "crossfade_s": 0.04,
+   "razao": 0.87,
+   "nota": "natural",
+   "salto_amostra": 0.54
+  }
+ ],
+ "versao": 1,
+ "trilha": "T04",
+ "nome": "Groove noir",
+ "licenca": "autorizada",
+ "duracao_video": 35.867,
+ "amostras": 1721600,
+ "alteracao_velocidade_pct": 0.0,
+ "alteracao_tom_semitons": 0,
+ "lufs": -23.1,
+ "true_peak": -5.4,
+ "bpm": 110.0,
+ "tom": "Dó# menor"
+}

@@ -18,7 +18,7 @@ const G: React.FC<{ children: React.ReactNode }> = ({ children }) => <span style
 const N = 6;
 const rowP = (i: number): V3 => [-2.4 + i * 1.0, 0, 2.8 - i * 1.7];
 const BR: V3 = [16, 0, 3];
-const PED = (j: number): V3 => [BR[0] - 4.5 + j * 3.0, 0, BR[2]];
+const PED = (j: number): V3 => [BR[0] - 2.1 + j * 1.4, 0, BR[2] + 2.0 - j * 1.6];
 const CTA_BASE: V3 = [26, 0, -9];
 const ini = (tl: Timeline, id: string) => tl.scenes.find((s) => s.id === id)?.start ?? 0;
 const add = (a: V3, b: V3): V3 => [a[0] + b[0], a[1] + b[1], a[2] + b[2]];
@@ -51,10 +51,10 @@ export const camera = (t: number, c: Record<string, number>, tl: Timeline): Cam 
   { t: c.s_dezessete - 0.6, pos: [-2.6, 8.4, 13.2], alvo: [0.2, 0.9, -1.4], fov: 40 },
   { t: c.s_dezessete + 0.9, pos: [0, 14.0, 6.0], alvo: [0, 2.0, -13.0], fov: 42, e: ease.inOut },
   { t: c.v_jeito, pos: [0.6, 13.4, 5.4], alvo: [0.4, 2.0, -12.6], fov: 42, e: ease.inOut },
-  { t: ini(tl, "acao") + 0.9, pos: [BR[0], 9.0, BR[2] + 17.0], alvo: [BR[0], 0.7, BR[2]], fov: 40, e: ease.inOut },
-  { t: c.a_defina, pos: [BR[0], 8.6, BR[2] + 16.2], alvo: [BR[0], 0.7, BR[2]], fov: 40, e: ease.inOut },
-  { t: c.f_pior, pos: [BR[0] + 0.3, 8.4, BR[2] + 15.6], alvo: [BR[0], 0.8, BR[2]], fov: 40, e: ease.inOut },
-  { t: c.cta_quer - 0.3, pos: [BR[0] + 0.35, 8.4, BR[2] + 15.6], alvo: [BR[0], 0.8, BR[2]], fov: 40 },
+  { t: ini(tl, "acao") + 0.9, pos: [BR[0] - 1.5, 9.0, BR[2] + 16.0], alvo: [BR[0], 0.9, BR[2]], fov: 40, e: ease.inOut },
+  { t: c.a_defina, pos: [BR[0] - 1.3, 8.8, BR[2] + 15.6], alvo: [BR[0], 0.9, BR[2]], fov: 40, e: ease.inOut },
+  { t: c.f_pior, pos: [BR[0] - 1.0, 8.6, BR[2] + 15.2], alvo: [BR[0], 0.9, BR[2]], fov: 40, e: ease.inOut },
+  { t: c.cta_quer - 0.3, pos: [BR[0] - 0.95, 8.6, BR[2] + 15.2], alvo: [BR[0], 0.9, BR[2]], fov: 40 },
   { t: c.cta_quer + 0.9, pos: [CTA_BASE[0], 9.0, CTA_BASE[2] + 13.5], alvo: [CTA_BASE[0], 2.1, CTA_BASE[2] - 0.8], fov: 38, e: ease.inOut },
   { t: c.cta_comment - 0.2, pos: [CTA_BASE[0], 9.2, CTA_BASE[2] + 13.8], alvo: [CTA_BASE[0], 2.2, CTA_BASE[2] - 0.8], fov: 38 },
   { t: c.cta_comment + 0.5, pos: [CTA_BASE[0], 10.0, CTA_BASE[2] + 15.0], alvo: [CTA_BASE[0], 3.2, CTA_BASE[2] - 1.0], fov: 38, e: ease.inOut },
@@ -109,12 +109,12 @@ export const Maquete3D: React.FC<{ t: number; tl: Timeline }> = ({ t, tl }) => {
       {/* o seu atendimento: 4 etapas */}
       {[0, 1, 2, 3].map((j) => (
         <React.Fragment key={j}>
-          <Bloco pos={add(PED(j), [0, 0.2, 0])} tam={[1.3, 0.4, 1.0]} surge={s(ini(tl, "acao") + 0.6 + j * 0.1, 0.25) * fimCena} mat="grafite" acende={Math.max(ped[j] * 0.22, pior * 0.28)} />
+          <Bloco pos={add(PED(j), [0, 0.2, 0])} tam={[1.1, 0.4, 0.9]} surge={s(ini(tl, "acao") + 0.6 + j * 0.1, 0.25) * fimCena} mat="grafite" acende={Math.max(ped[j] * 0.22, pior * 0.28)} />
         </React.Fragment>
       ))}
-      <Boneco pos={add(PED(clamp((t - c.a_contato) / 0.7, 0, 3)), [0, 0.4, 0])} rot={0} gravata surge={s(c.a_atendimento, 0.3) * fimCena} acende={pior * 0.6} pose={t > c.a_defina && t < c.f_certo ? "aponta" : "pe"} />
+      <Boneco pos={add(PED(clamp((t - c.a_contato) / 0.7, 0, 3)), [0, 0.4, 0])} rot={-0.6} gravata surge={s(c.a_atendimento, 0.3) * fimCena} acende={pior * 0.6} pose={t > c.a_defina && t < c.f_certo ? "aponta" : "pe"} />
       {[0, 1, 2].map((k) => (
-        <Boneco key={k} pos={add(BR, [-2.6 + k * 2.6, 0, 2.6])} rot={Math.PI} escala={0.8} surge={s(c.f_certo + k * 0.12, 0.3) * fimCena} acende={pior * 0.35} />
+        <Boneco key={k} pos={add(BR, [1.2 + k * 1.1, 0, 2.4 - k * 0.3])} rot={Math.PI} escala={0.8} surge={s(c.f_certo + k * 0.12, 0.3) * fimCena} acende={pior * 0.35} />
       ))}
       <ConeLuz pos={BR} alt={6} raio={3.2} p={Math.max(ped[0], certo) * fimCena * 0.7} verde={pior} />
       <ModulosSistema t={t} tl={tl} segPergunta="s7" segComente="s7" base={CTA_BASE} />
@@ -141,9 +141,9 @@ export const placas = (t: number, c: Record<string, number>, tl: Timeline): Plac
     { id: "17", pos: [0, 2.4, -13], texto: "MAIS DE 17 MIL CASAS", tom: "acento", p: ate(c.s_dezessete - 0.05, c.v_trabalhar - 0.2) },
     { id: "mais", pos: [0, 2.4, -13], texto: "NÃO ERA TRABALHAR MAIS", tom: "alerta", p: ate(c.v_trabalhar - 0.1, c.v_jeito - 0.25) },
     { id: "jeito", pos: [0, 2.4, -13], texto: "CADA ETAPA, SEMPRE DO MESMO JEITO", tom: "acento", p: ate(c.v_jeito - 0.15, ini(tl, "acao") - 0.1) },
-    ...NOMES.map((k, j) => ({ id: k, pos: add(PED(j), [0, j % 2 ? 1.1 : 1.7, 0]), texto: k, tom: "acento" as const, p: ate(AT[j] - 0.1, c.cta_quer) })),
-    { id: "defina", pos: add(BR, [0, 2.6, 0]), texto: "DEFINA COMO CADA UMA É FEITA", tom: "acento", p: ate(c.a_defina - 0.1, c.f_certo - 0.3) },
-    { id: "certo", pos: add(BR, [0, 2.6, 0]), texto: "UM JEITO CERTO", tom: "acento", p: ate(c.f_certo - 0.1, c.f_pior - 0.2) },
-    { id: "pior", pos: add(BR, [0, 2.6, 0]), texto: "MAIS, SEM ATENDER PIOR", tom: "acento", p: ate(c.f_pior - 0.1, c.cta_quer) },
+    ...NOMES.map((k, j) => ({ id: k, pos: add(PED(j), [0, 1.3, 0]), texto: k, tom: "acento" as const, p: ate(AT[j] - 0.1, c.cta_quer) })),
+    { id: "defina", pos: add(BR, [-2.6, 2.5, -0.8]), texto: "DEFINA COMO CADA UMA É FEITA", tom: "acento", p: ate(c.a_defina - 0.1, c.f_certo - 0.3) },
+    { id: "certo", pos: add(BR, [-2.6, 2.5, -0.8]), texto: "UM JEITO CERTO", tom: "acento", p: ate(c.f_certo - 0.1, c.f_pior - 0.2) },
+    { id: "pior", pos: add(BR, [-2.6, 2.5, -0.8]), texto: "MAIS, SEM ATENDER PIOR", tom: "acento", p: ate(c.f_pior - 0.1, c.cta_quer) },
   ];
 };

@@ -1,0 +1,70 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.6,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 6.4,
+    "palavras_nao_reconhecidas": [
+      "noventa",
+      "nove"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.59,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 7.1,
+    "palavras_nao_reconhecidas": [
+      "cinco",
+      "por",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.42,
+    "palavras_nao_reconhecidas": [
+      "hora"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.45,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 33.52,
+    "asr_match": 0.948,
+    "aligned_words": "91/99",
+    "words_per_min": 177,
+    "heard": "E se o seu apartamento tivesse data de validade? Em Singapura, três em cada quatro moradores vivem em apartamentos públicos com contrato de 99 anos. Quando o prazo acaba, o imóvel volta para o Estado. Aqui não é assim. Mas tem imóvel em que a União também tem uma parte. Em terreno de marinha, a cada venda se paga a União um laudêmio de 5%. Confira na matrícula antes de anunciar. Quem lê a matrícula antes, não descobre o custo de assinar. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 35.15,
+      "wpm": 169
+    },
+    "pausas_moldadas": {
+      "n": 11,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.63,
+    "final": {
+      "seconds": 33.52,
+      "wpm": 177
+    }
+  }
+]

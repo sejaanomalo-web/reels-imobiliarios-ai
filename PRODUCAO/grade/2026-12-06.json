@@ -118,9 +118,10 @@
       "justificativaTrilha": "cama de explicação para o método.",
       "episodio": "ATIVO-D1206-18",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-06/ATIVO-D1206-18_linha_de_montagem_ao_contrario.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/06-domingo/18h00"
     },
     {
       "horario": "21:00",
@@ -139,9 +140,10 @@
       "justificativaTrilha": "arco de descoberta (o mesmo dinheiro que muda de tamanho).",
       "episodio": "ATIVO-D1206-21",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-06/ATIVO-D1206-21_o_preco_por_dia.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/06-domingo/21h00"
     }
   ]
 }
