@@ -1,0 +1,524 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1209-15",
+ "lote": "D1209",
+ "title": "Imagine que deu errado",
+ "outputDir": "ATIVO_D1209_15",
+ "deliverables": {
+  "final": "ATIVO_D1209_15_FINAL.mp4",
+  "narration": "ATIVO_D1209_15_NARRACAO.wav",
+  "subtitles": "ATIVO_D1209_15_legendas.srt",
+  "cover": "ATIVO_D1209_15_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-09/ATIVO-D1209-15_imagine_que_deu_errado.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-26",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A pergunta mais útil da visita é imaginar que a compra deu errado.",
+   "caption": "A pergunta *mais útil* | da visita | é imaginar | que a compra | *deu errado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "metodo",
+   "text": "Um psicólogo criou um método para projetos: antes de começar, a equipe imagina que fracassou e explica por quê.",
+   "caption": "Um *psicólogo* | criou um *método* | para projetos: | *antes* de começar, | a equipe imagina | que *fracassou* | e explica *por quê.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "estudo",
+   "text": "Num estudo citado por ele, imaginar o fato já consumado melhorou em trinta por cento a identificação dos motivos.",
+   "caption": "Num *estudo* | citado por ele, | imaginar o fato | já *consumado* | melhorou em | *trinta por cento* | a identificação | dos *motivos.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Na visita, pergunte: imagine que daqui a um ano você se arrependeu desta compra. Por quê?",
+   "caption": "Na visita, | *pergunte:* | imagine que | daqui a *um ano* | você se *arrependeu* | desta compra. | *Por quê?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "respostas",
+   "text": "Barulho, escola longe, condomínio caro. O cliente fala agora o que só diria depois.",
+   "caption": "*Barulho,* | *escola longe,* | *condomínio caro.* | O cliente fala *agora* | o que só diria *depois.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "O arrependimento que aparece antes vira pergunta. Depois, vira distrato.",
+   "caption": "O arrependimento | que aparece *antes* | vira *pergunta.* | Depois, | vira *distrato.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "metodo": 0.35,
+  "estudo": 0.35,
+  "virada": 0.35,
+  "respostas": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_util": {
+   "seg": "s1",
+   "word": "útil",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_errado": {
+   "seg": "s1",
+   "word": "errado",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_psicologo": {
+   "seg": "s2",
+   "word": "psicólogo",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_metodo": {
+   "seg": "s2",
+   "word": "método",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_antes": {
+   "seg": "s2",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "m_fracassou": {
+   "seg": "s2",
+   "word": "fracassou",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_estudo": {
+   "seg": "s3",
+   "word": "estudo",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_consumado": {
+   "seg": "s3",
+   "word": "consumado",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_trinta": {
+   "seg": "s3",
+   "word": "trinta",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_motivos": {
+   "seg": "s3",
+   "word": "motivos",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_pergunte": {
+   "seg": "s4",
+   "word": "pergunte",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_ano": {
+   "seg": "s4",
+   "word": "ano",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_arrependeu": {
+   "seg": "s4",
+   "word": "arrependeu",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_barulho": {
+   "seg": "s5",
+   "word": "Barulho",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_escola": {
+   "seg": "s5",
+   "word": "escola",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_condominio": {
+   "seg": "s5",
+   "word": "condomínio",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_agora": {
+   "seg": "s5",
+   "word": "agora",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_antes": {
+   "seg": "s6",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_pergunta": {
+   "seg": "s6",
+   "word": "pergunta",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_distrato": {
+   "seg": "s6",
+   "word": "distrato",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_util",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "m_psicologo",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "m_antes",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "e_estudo",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "e_trinta",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_pergunte",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_arrependeu",
+   "offset": -0.05,
+   "sound": "impact",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "r_escola",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "r_agora",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "f_pergunta",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.1,
+   "sound": "shimmer",
+   "gain": -25
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 2.3,
+   "sound": "chord",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_errado",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_pergunte",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_distrato",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T04",
+  "ancoras": {
+   "virada": "cue:v_pergunte",
+   "insight": "cue:r_agora",
+   "resolucao": "cue:f_distrato"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "pictograma-cinematografico",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "ideia",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "pull",
+  "justificativaModelo": "relógio que adianta um ano.",
+  "justificativaHorario": "15h: tarde de visitas.",
+  "trilha": "T04",
+  "justificativaTrilha": "tensão em movimento (o arrependimento).",
+  "data": "2026-12-09",
+  "slot": "15:00",
+  "arquivo": "PRODUCAO/grade/2026-12-09.json"
+ },
+ "modelos4": true,
+ "modelo": 2,
+ "modeloNome": "Pictograma cinematográfico"
+}

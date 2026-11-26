@@ -116,9 +116,10 @@
       "justificativaTrilha": "cama de explicação.",
       "episodio": "ATIVO-D1208-18",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-08/ATIVO-D1208-18_a_torre_provisoria.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/08-terca/18h00"
     },
     {
       "horario": "21:00",

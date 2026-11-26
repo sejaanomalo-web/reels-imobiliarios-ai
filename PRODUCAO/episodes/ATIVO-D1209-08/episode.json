@@ -1,0 +1,534 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "1995": "mil novecentos e noventa e cinco",
+  "ITBI": "í tê bê í"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1209-08",
+ "lote": "D1209",
+ "title": "O preço público",
+ "outputDir": "ATIVO_D1209_08",
+ "deliverables": {
+  "final": "ATIVO_D1209_08_FINAL.mp4",
+  "narration": "ATIVO_D1209_08_NARRACAO.wav",
+  "subtitles": "ATIVO_D1209_08_legendas.srt",
+  "cover": "ATIVO_D1209_08_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-09/ATIVO-D1209-08_o_preco_publico.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-26",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "E se o preço de venda de cada casa da sua cidade fosse público?",
+   "caption": "E se o *preço de venda* | de cada casa | da sua cidade | fosse *público?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "inglaterra",
+   "text": "Na Inglaterra, o governo publica de graça o valor das vendas de casas registradas desde 1995.",
+   "caption": "Na *Inglaterra,* | o governo publica | *de graça* | o valor das *vendas* | de casas registradas | desde *1995.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "sp",
+   "text": "Aqui, a cidade de São Paulo já publica todo mês o valor das transações em que o ITBI foi pago.",
+   "caption": "Aqui, | a cidade de *São Paulo* | já publica *todo mês* | o valor das *transações* | em que o *ITBI* foi pago.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "O anúncio mostra o que o dono quer. A transação mostra o que alguém pagou.",
+   "caption": "O *anúncio* mostra | o que o dono *quer.* | A *transação* mostra | o que alguém *pagou.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Compare com vendas reais da rua. E guarde, de cada negócio seu, o valor pedido e o valor fechado.",
+   "caption": "*Compare* | com vendas *reais* da rua. | E *guarde,* | de cada negócio seu, | o valor *pedido* | e o valor *fechado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Quem argumenta com venda real não discute opinião.",
+   "caption": "Quem argumenta | com *venda real* | não discute *opinião.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "inglaterra": 0.35,
+  "sp": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_preco": {
+   "seg": "s1",
+   "word": "preço",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_publico": {
+   "seg": "s1",
+   "word": "público",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_inglaterra": {
+   "seg": "s2",
+   "word": "Inglaterra",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_graca": {
+   "seg": "s2",
+   "word": "graça",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_vendas": {
+   "seg": "s2",
+   "word": "vendas",
+   "edge": "start",
+   "offset": 0
+  },
+  "i_1995": {
+   "seg": "s2",
+   "word": "1995",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_paulo": {
+   "seg": "s3",
+   "word": "Paulo",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_mes": {
+   "seg": "s3",
+   "word": "mês",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_transacoes": {
+   "seg": "s3",
+   "word": "transações",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_itbi": {
+   "seg": "s3",
+   "word": "ITBI",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_anuncio": {
+   "seg": "s4",
+   "word": "anúncio",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_quer": {
+   "seg": "s4",
+   "word": "quer",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_transacao": {
+   "seg": "s4",
+   "word": "transação",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_pagou": {
+   "seg": "s4",
+   "word": "pagou",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_compare": {
+   "seg": "s5",
+   "word": "Compare",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_reais": {
+   "seg": "s5",
+   "word": "reais",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_guarde": {
+   "seg": "s5",
+   "word": "guarde",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_pedido": {
+   "seg": "s5",
+   "word": "pedido",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_fechado": {
+   "seg": "s5",
+   "word": "fechado",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_real": {
+   "seg": "s6",
+   "word": "real",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_opiniao": {
+   "seg": "s6",
+   "word": "opinião",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_preco",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "i_inglaterra",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "i_vendas",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "p_paulo",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "p_transacoes",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_anuncio",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_transacao",
+   "offset": -0.05,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_compare",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_guarde",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_fechado",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_opiniao",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.2,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.7,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_publico",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_anuncio",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_opiniao",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T03",
+  "ancoras": {
+   "virada": "cue:v_anuncio",
+   "insight": "cue:a_compare",
+   "resolucao": "cue:f_opiniao"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "maquete-3d",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "e-se",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "rua de casas com placas que trocam de preço.",
+  "justificativaHorario": "08h: pergunta forte.",
+  "trilha": "T03",
+  "justificativaTrilha": "arco de descoberta (o preço real aparece).",
+  "data": "2026-12-09",
+  "slot": "08:00",
+  "arquivo": "PRODUCAO/grade/2026-12-09.json"
+ },
+ "modelos4": true,
+ "modelo": 4,
+ "modeloNome": "Maquete 3D"
+}

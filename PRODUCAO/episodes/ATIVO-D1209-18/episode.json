@@ -1,0 +1,541 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "1882": "mil oitocentos e oitenta e dois",
+  "1926": "mil novecentos e vinte e seis",
+  "Gaudí": "Gaudí"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1209-18",
+ "lote": "D1209",
+ "title": "O que ficou registrado",
+ "outputDir": "ATIVO_D1209_18",
+ "deliverables": {
+  "final": "ATIVO_D1209_18_FINAL.mp4",
+  "narration": "ATIVO_D1209_18_NARRACAO.wav",
+  "subtitles": "ATIVO_D1209_18_legendas.srt",
+  "cover": "ATIVO_D1209_18_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-09/ATIVO-D1209-18_o_que_ficou_registrado.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-26",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Esta igreja começou em 1882. E a torre mais alta só ficou pronta este ano.",
+   "caption": "Esta *igreja* | começou em *1882.* | E a torre *mais alta* | só ficou *pronta* | *este ano.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "autor",
+   "text": "Gaudí morreu em 1926, com a obra longe do fim.",
+   "caption": "*Gaudí* morreu | em *1926,* | com a obra | *longe do fim.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "guerra",
+   "text": "Dez anos depois, na guerra, queimaram os desenhos e quebraram as maquetes de gesso.",
+   "caption": "Dez anos depois, | na *guerra,* | *queimaram* os desenhos | e *quebraram* | as maquetes de *gesso.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "A obra continuou porque juntaram os pedaços, as fotos e as plantas publicadas.",
+   "caption": "A obra *continuou* | porque juntaram | os *pedaços,* | as *fotos* | e as *plantas* publicadas.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "ponte",
+   "text": "Se o seu atendimento só existe na sua cabeça, ele para no dia em que você parar.",
+   "caption": "Se o seu *atendimento* | só existe | na sua *cabeça,* | ele *para* | no dia em que | você *parar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Registre como quem constrói para outra pessoa terminar.",
+   "caption": "*Registre* | como quem *constrói* | para outra pessoa | *terminar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "autor": 0.35,
+  "guerra": 0.35,
+  "virada": 0.35,
+  "ponte": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_igreja": {
+   "seg": "s1",
+   "word": "igreja",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_1882": {
+   "seg": "s1",
+   "word": "1882",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_alta": {
+   "seg": "s1",
+   "word": "alta",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_pronta": {
+   "seg": "s1",
+   "word": "pronta",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_gaudi": {
+   "seg": "s2",
+   "word": "Gaudí",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_1926": {
+   "seg": "s2",
+   "word": "1926",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_longe": {
+   "seg": "s2",
+   "word": "longe",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_guerra": {
+   "seg": "s3",
+   "word": "guerra",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_queimaram": {
+   "seg": "s3",
+   "word": "queimaram",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_quebraram": {
+   "seg": "s3",
+   "word": "quebraram",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_gesso": {
+   "seg": "s3",
+   "word": "gesso",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_continuou": {
+   "seg": "s4",
+   "word": "continuou",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_pedacos": {
+   "seg": "s4",
+   "word": "pedaços",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_fotos": {
+   "seg": "s4",
+   "word": "fotos",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_plantas": {
+   "seg": "s4",
+   "word": "plantas",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_atendimento": {
+   "seg": "s5",
+   "word": "atendimento",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_cabeca": {
+   "seg": "s5",
+   "word": "cabeça",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_para": {
+   "seg": "s5",
+   "word": "para",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_parar": {
+   "seg": "s5",
+   "word": "parar",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_registre": {
+   "seg": "s6",
+   "word": "Registre",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_constroi": {
+   "seg": "s6",
+   "word": "constrói",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_terminar": {
+   "seg": "s6",
+   "word": "terminar",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_igreja",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "h_alta",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_gaudi",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_longe",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "g_queimaram",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "g_gesso",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_pedacos",
+   "offset": -0.05,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_plantas",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "p_cabeca",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "p_parar",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_constroi",
+   "offset": 0.0,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.2,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.7,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_1882",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_continuou",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_terminar",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T02",
+  "ancoras": {
+   "virada": "cue:v_continuou",
+   "insight": "cue:p_atendimento",
+   "resolucao": "cue:f_terminar"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "maquete-3d",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "historia",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "torres de argila e maquetes que se partem.",
+  "justificativaHorario": "18h: volta para casa, história.",
+  "trilha": "T02",
+  "justificativaTrilha": "arco emocional.",
+  "data": "2026-12-09",
+  "slot": "18:00",
+  "arquivo": "PRODUCAO/grade/2026-12-09.json"
+ },
+ "modelos4": true,
+ "modelo": 4,
+ "modeloNome": "Maquete 3D"
+}
