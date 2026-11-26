@@ -139,9 +139,10 @@
       "justificativaTrilha": "cama de explicação (regra legal em 3 passos). Troca de T05: reprovou no portão de inteligibilidade (queda de 4,5 pontos).",
       "episodio": "ATIVO-D1209-21",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-09/ATIVO-D1209-21_os_180_dias.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/09-quarta/21h00"
     }
   ]
 }

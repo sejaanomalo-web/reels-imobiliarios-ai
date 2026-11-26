@@ -41,8 +41,8 @@ const deriva = (t: number, c: Record<string, number>, cam: Cam): Cam => {
 };
 export const camera = (t: number, c: Record<string, number>, tl: Timeline): Cam => deriva(t, c, camAt(t, [
   { t: 0, pos: [0.8, 5.0, 16.4], alvo: [0, 2.6, 0], fov: 40 },
-  { t: c.h_pronta, pos: [1.0, 5.6, 17.4], alvo: [0, 3.0, 0], fov: 40, e: ease.inOut },
-  { t: c.a_longe, pos: [0.0, 5.0, 16.0], alvo: [-0.5, 2.4, 0.8], fov: 40, e: ease.inOut },
+  { t: c.h_pronta, pos: [1.0, 5.8, 18.2], alvo: [0, 3.1, 0], fov: 40, e: ease.inOut },
+  { t: c.a_longe, pos: [0.2, 5.8, 18.2], alvo: [-0.4, 3.0, 0.6], fov: 40, e: ease.inOut },
   { t: c.g_guerra, pos: [ATE[0] + 0.4, 5.0, ATE[2] + 11.8], alvo: [ATE[0], 1.0, ATE[2]], fov: 40, e: ease.inOut },
   { t: c.g_gesso, pos: [ATE[0] + 0.6, 4.8, ATE[2] + 11.2], alvo: [ATE[0], 0.9, ATE[2] + 0.4], fov: 40, e: ease.inOut },
   { t: c.v_fotos, pos: [ATE[0] - 1.4, 5.4, ATE[2] + 12.4], alvo: [ATE[0] - 1.6, 1.2, ATE[2] + 0.8], fov: 40, e: ease.inOut },
