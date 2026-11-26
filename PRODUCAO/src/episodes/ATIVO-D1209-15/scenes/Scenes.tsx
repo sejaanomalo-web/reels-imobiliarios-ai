@@ -37,13 +37,13 @@ export const Metodo: React.FC<P> = ({ t, tl }) => {
           <g opacity={proj * (1 - est)}><Icone t={t} nome="documento" x={540} y={740} r={84} tom="branco" /></g>
           <g opacity={xis * (1 - est)}><Icone t={t} nome="x" x={640} y={650} r={40} tom="vermelho" /></g>
           <g opacity={prog(t, c.m_psicologo - 0.2, 0.4) * (1 - est)}><Icone t={t} nome="lampada" x={300} y={760} r={46} tom="branco" /></g>
-          <g opacity={est}><Icone t={t} nome="lupa" x={540} y={740} r={84} tom={trinta > 0.5 ? "verde" : "branco"} brilho={trinta > 0.5} /></g>
-          <Figura t={t} x={540} y={CHAO} s={0.8} pose={trinta > 0.5 ? "comemorando" : xis > 0.5 ? "cabisbaixo" : "pe"} tom={trinta > 0.5 ? "verde" : "luz"} />
+          <g opacity={est}><Icone t={t} nome="lupa" x={540} y={760} r={76} tom={trinta > 0.5 ? "verde" : "branco"} brilho={trinta > 0.5} /></g>
+          <Figura t={t} x={540} y={CHAO} s={0.66} pose={trinta > 0.5 ? "comemorando" : xis > 0.5 ? "cabisbaixo" : "pe"} tom={trinta > 0.5 ? "verde" : "luz"} />
         </Svg>
-        <Pilula t={t} at={c.m_antes - 0.05} ate={c.e_estudo - 0.4} x={540} y={880} texto="ANTES DE COMEÇAR" tom="branco" size={28} />
-        <Pilula t={t} at={c.m_fracassou - 0.05} ate={c.e_estudo - 0.4} x={540} y={950} texto="IMAGINA QUE FRACASSOU · POR QUÊ?" tom="vermelho" size={26} />
-        <Pilula t={t} at={c.e_estudo - 0.05} ate={c.v_pergunte - 1.0} x={540} y={540} texto="ESTUDO DE 1989 CITADO POR KLEIN · HBR · 2007" tom="cinza" size={24} />
-        <Pilula t={t} at={c.e_trinta - 0.05} x={540} y={900} texto="+30% NA IDENTIFICAÇÃO DOS MOTIVOS" tom="verde" size={28} />
+        <Pilula t={t} at={c.m_antes - 0.05} ate={c.e_estudo - 0.4} x={540} y={850} texto="ANTES DE COMEÇAR" tom="branco" size={28} />
+        <Pilula t={t} at={c.m_fracassou - 0.05} ate={c.e_estudo - 0.4} x={540} y={905} texto="IMAGINA QUE FRACASSOU · POR QUÊ?" tom="vermelho" size={26} />
+        <Pilula t={t} at={c.e_estudo - 0.05} ate={c.v_pergunte - 1.0} x={540} y={630} texto="ESTUDO DE 1989 CITADO POR KLEIN · HBR · 2007" tom="cinza" size={24} />
+        <Pilula t={t} at={c.e_trinta - 0.05} x={540} y={890} texto="+30% NA IDENTIFICAÇÃO DOS MOTIVOS" tom="verde" size={28} />
       </CamNoir>
       <TituloNoir t={t} at={0.05} ate={c.m_psicologo - 0.4} linhas={[{ texto: "IMAGINE QUE", size: 72 }, { texto: "DEU ERRADO", cor: "vermelho", size: 96 }]} top={300} />
       <TituloNoir t={t} at={c.m_psicologo - 0.25} ate={c.e_estudo - 0.4} linhas={[{ texto: "O MÉTODO DO", size: 64 }, { texto: "PRÉ-MORTEM", cor: "verde", size: 100 }]} top={300} />
@@ -60,7 +60,7 @@ export const Pergunta: React.FC<P> = ({ t, tl }) => {
   const objs = prog(t, c.r_barulho - 0.3, 0.4);
   const agora = prog(t, c.r_agora - 0.2, 0.6);
   const dist = prog(t, c.f_distrato - 0.2, 0.5);
-  const O: [number, number, "audio" | "pin" | "dinheiro", string][] = [[c.r_barulho, 290, "audio", "BARULHO"], [c.r_escola, 540, "pin", "ESCOLA LONGE"], [c.r_condominio, 790, "dinheiro", "CONDOMÍNIO CARO"]];
+  const O: [number, number, "audio" | "pin" | "dinheiro", string][] = [[c.r_barulho, 230, "audio", "BARULHO"], [c.r_escola, 530, "pin", "ESCOLA LONGE"], [c.r_condominio, 820, "dinheiro", "CONDOMÍNIO CARO"]];
   return (
     <div style={{ position: "absolute", inset: 0, opacity: on }}>
       <CamNoir t={t} t0={c.v_pergunte - 1.1} push={0.005} keys={[{ t: c.v_pergunte - 1.1, s: 1.05 }, { t: c.v_pergunte, s: 1.0, e: ease.out }, { t: c.r_condominio, s: 1.04, y: -10 }, { t: c.f_pergunta + 0.4, s: 1.07, y: -16, e: ease.out }]}>
@@ -77,7 +77,7 @@ export const Pergunta: React.FC<P> = ({ t, tl }) => {
         </Svg>
         <Bolha t={t} at={c.v_pergunte - 0.1} ate={c.r_barulho - 0.4} x={420} y={540} texto="IMAGINE: DAQUI A 1 ANO…" tom="branco" size={30} />
         <Bolha t={t} at={c.v_arrependeu - 0.1} ate={c.r_barulho - 0.4} x={500} y={900} texto="…VOCÊ SE ARREPENDEU. POR QUÊ?" tom="verde" size={30} />
-        {O.map(([at, x, , k]) => <Pilula key={k} t={t} at={at - 0.05} ate={c.f_antes - 0.3} x={x} y={830} texto={k} tom={agora > 0.5 ? "verde" : "vermelho"} size={26} />)}
+        {O.map(([at, x, , k]) => <Pilula key={k} t={t} at={at - 0.05} ate={c.f_antes - 0.3} x={x} y={830} texto={k} tom={agora > 0.5 ? "verde" : "vermelho"} size={24} />)}
         <Pilula t={t} at={c.r_agora - 0.05} ate={c.f_antes - 0.3} x={540} y={930} texto="AGORA, E NÃO DEPOIS" tom="verde" size={28} />
         <Pilula t={t} at={c.f_pergunta - 0.05} x={300} y={870} texto="ANTES: PERGUNTA" tom="verde" size={26} />
         <Pilula t={t} at={c.f_distrato - 0.05} x={780} y={870} texto="DEPOIS: DISTRATO" tom="vermelho" size={26} />

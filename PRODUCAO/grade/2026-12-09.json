@@ -74,9 +74,10 @@
       "justificativaTrilha": "cama de explicação (experimento).",
       "episodio": "ATIVO-D1209-12",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-09/ATIVO-D1209-12_a_caneca_que_vale_o_dobro.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/09-quarta/12h00"
     },
     {
       "horario": "15:00",
