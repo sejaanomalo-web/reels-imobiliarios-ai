@@ -1,0 +1,65 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.12,
+    "palavras_nao_reconhecidas": [
+      "1984"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.85,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.73,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.19,
+    "palavras_nao_reconhecidas": [
+      "cortina"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.18,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.31,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 33.29,
+    "asr_match": 0.97,
+    "aligned_words": "82/84",
+    "words_per_min": 151,
+    "heard": "Uma janela mudou o tempo de internação de pacientes num hospital. Em 1984, um pesquisador comparou pacientes operados em quartos iguais. Metade via uma parede de tijolos. A outra metade via árvores. Quem via árvores teve alta em média quase um dia antes. Na visita, não passe correndo pela janela. Pare. Abra a cutina e deixe o cliente olhar. A vista não aparece na planta, mas mora com a pessoa todos os dias. Se você é corretor, comente sistema e conheça o nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 35.13,
+      "wpm": 143
+    },
+    "pausas_moldadas": {
+      "n": 15,
+      "max_s": 0.57
+    },
+    "pausas_encurtadas_s": 1.84,
+    "final": {
+      "seconds": 33.29,
+      "wpm": 151
+    }
+  }
+]

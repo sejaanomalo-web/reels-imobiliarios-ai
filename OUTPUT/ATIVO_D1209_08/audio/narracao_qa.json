@@ -1,0 +1,68 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.03,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 6.64,
+    "palavras_nao_reconhecidas": [
+      "1995"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.64,
+    "palavras_nao_reconhecidas": [
+      "ITBI"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.93,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.72,
+    "palavras_nao_reconhecidas": [
+      "Compare",
+      "guarde"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.13,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.41,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 38.04,
+    "asr_match": 0.961,
+    "aligned_words": "99/103",
+    "words_per_min": 162,
+    "heard": "E se o preço de venda de cada casa da sua cidade fosse público? Na Inglaterra, o governo publica de graça o valor das vendas de casas registradas desde 1995. Aqui, a cidade de São Paulo já publica todo mês o valor das transações em que o ITBI foi pago. O anúncio mostra o que o dono quer. A transação mostra o que alguém pagou. Compara com vendas reais da rua. E guarda de cada negócio seu o valor pedido e o valor fechado. Quem argumenta com venda real não discute opinião. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 39.74,
+      "wpm": 156
+    },
+    "pausas_moldadas": {
+      "n": 14,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.7,
+    "final": {
+      "seconds": 38.04,
+      "wpm": 162
+    }
+  }
+]

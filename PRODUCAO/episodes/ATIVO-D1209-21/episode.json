@@ -514,13 +514,16 @@
     "label": "Cadd9 — sistema"
    }
   ],
-  "trilha": "T05",
+  "trilha": "T01",
   "ancoras": {
    "virada": "cue:v_passou",
    "insight": "cue:a_mostre",
    "resolucao": "cue:f_briga"
   },
-  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso",
+  "mix": {
+   "duck_medios_db": -11.0
+  }
  },
  "formato": "planta-tecnica",
  "sistemaVisual": "1.0.0",
@@ -532,8 +535,8 @@
   "pushPull": "push",
   "justificativaModelo": "cronograma com cota de 180 dias.",
   "justificativaHorario": "21h: leitura atenta.",
-  "trilha": "T05",
-  "justificativaTrilha": "motor prático (regra e ação).",
+  "trilha": "T01",
+  "justificativaTrilha": "cama de explicação (regra legal em 3 passos). Troca de T05: reprovou no portão de inteligibilidade (queda de 4,5 pontos).",
   "data": "2026-12-09",
   "slot": "21:00",
   "arquivo": "PRODUCAO/grade/2026-12-09.json"

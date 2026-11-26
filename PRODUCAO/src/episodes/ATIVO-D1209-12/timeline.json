@@ -1,0 +1,980 @@
+{
+ "id": "ATIVO-D1209-12",
+ "title": "A caneca que vale o dobro",
+ "fps": 30,
+ "duration": 39.333333333333336,
+ "durationInFrames": 1180,
+ "narrationEnd": 37.117,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.0
+  },
+  {
+   "id": "estudo",
+   "start": 4.0,
+   "end": 11.195
+  },
+  {
+   "id": "resultado",
+   "start": 11.195,
+   "end": 15.775
+  },
+  {
+   "id": "virada",
+   "start": 15.775,
+   "end": 22.3
+  },
+  {
+   "id": "acao",
+   "start": 22.3,
+   "end": 28.235
+  },
+  {
+   "id": "desfecho",
+   "start": 28.235,
+   "end": 32.035
+  },
+  {
+   "id": "cta",
+   "start": 32.035,
+   "end": 39.333
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Dê uma caneca a uma pessoa, e ela passa a valer mais que o dobro.",
+   "start": 0.12,
+   "end": 3.88
+  },
+  {
+   "id": "s2",
+   "scene": "estudo",
+   "text": "Num estudo de 1990, pesquisadores deram canecas a metade dos participantes e abriram um mercado entre eles.",
+   "start": 4.12,
+   "end": 11.07
+  },
+  {
+   "id": "s3",
+   "scene": "resultado",
+   "text": "Quem ganhou a caneca pedia mais que o dobro do que os outros topavam pagar.",
+   "start": 11.32,
+   "end": 15.59
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Isso tem nome: efeito dotação. Agora pense no dono de uma casa em que ele viveu vinte anos.",
+   "start": 15.96,
+   "end": 22.16
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Ouça a história da casa primeiro. Depois, mostre o que o mercado pagou por casas parecidas.",
+   "start": 22.44,
+   "end": 28.11
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "O dono não está mentindo. Ele está sentindo o preço.",
+   "start": 28.36,
+   "end": 31.87
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 32.2,
+   "end": 36.69
+  }
+ ],
+ "cues": {
+  "h_caneca": 0.68,
+  "h_dobro": 3.48,
+  "e_estudo": 4.36,
+  "e_metade": 7.8,
+  "e_mercado": 10.2,
+  "r_ganhou": 11.56,
+  "r_pedia": 12.52,
+  "r_dobro": 13.72,
+  "r_pagar": 15.48,
+  "v_efeito": 17.16,
+  "v_dono": 19.88,
+  "v_vinte": 21.6,
+  "a_historia": 23.24,
+  "a_primeiro": 24.12,
+  "a_mercado": 26.2,
+  "a_parecidas": 27.56,
+  "f_mentindo": 29.48,
+  "f_sentindo": 30.68,
+  "cta_quer": 32.2,
+  "cta_comment": 33.4,
+  "cta_word": 34.04,
+  "cta_tiles": 34.84,
+  "cta_sys": 35.64,
+  "cta_leads": 35.32,
+  "cta_atend": 36.04,
+  "cta_direct": 36.04,
+  "cta_end": 36.69
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.08,
+   "words": [
+    {
+     "text": "Dê",
+     "start": 0.12,
+     "end": 0.52,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 0.52,
+     "end": 0.68,
+     "emph": false
+    },
+    {
+     "text": "caneca",
+     "start": 0.68,
+     "end": 1.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.08,
+   "end": 1.8,
+   "words": [
+    {
+     "text": "a",
+     "start": 1.08,
+     "end": 1.24,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 1.24,
+     "end": 1.4,
+     "emph": false
+    },
+    {
+     "text": "pessoa,",
+     "start": 1.4,
+     "end": 1.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.8,
+   "end": 3.0,
+   "words": [
+    {
+     "text": "e",
+     "start": 1.8,
+     "end": 1.96,
+     "emph": false
+    },
+    {
+     "text": "ela",
+     "start": 1.96,
+     "end": 2.2,
+     "emph": false
+    },
+    {
+     "text": "passa",
+     "start": 2.2,
+     "end": 2.52,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 2.52,
+     "end": 2.6,
+     "emph": false
+    },
+    {
+     "text": "valer",
+     "start": 2.6,
+     "end": 3.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.0,
+   "end": 4.12,
+   "words": [
+    {
+     "text": "mais",
+     "start": 3.0,
+     "end": 3.24,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 3.24,
+     "end": 3.4,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 3.4,
+     "end": 3.48,
+     "emph": false
+    },
+    {
+     "text": "dobro.",
+     "start": 3.48,
+     "end": 3.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.12,
+   "end": 5.96,
+   "words": [
+    {
+     "text": "Num",
+     "start": 4.12,
+     "end": 4.36,
+     "emph": false
+    },
+    {
+     "text": "estudo",
+     "start": 4.36,
+     "end": 4.68,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 4.68,
+     "end": 5.107,
+     "emph": false
+    },
+    {
+     "text": "1990,",
+     "start": 5.107,
+     "end": 5.79,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.96,
+   "end": 6.6,
+   "words": [
+    {
+     "text": "pesquisadores",
+     "start": 5.96,
+     "end": 6.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.6,
+   "end": 7.64,
+   "words": [
+    {
+     "text": "deram",
+     "start": 6.6,
+     "end": 7.0,
+     "emph": false
+    },
+    {
+     "text": "canecas",
+     "start": 7.0,
+     "end": 7.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.64,
+   "end": 9.32,
+   "words": [
+    {
+     "text": "a",
+     "start": 7.64,
+     "end": 7.8,
+     "emph": false
+    },
+    {
+     "text": "metade",
+     "start": 7.8,
+     "end": 7.87,
+     "emph": true
+    },
+    {
+     "text": "dos",
+     "start": 8.28,
+     "end": 8.52,
+     "emph": false
+    },
+    {
+     "text": "participantes",
+     "start": 8.52,
+     "end": 9.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.32,
+   "end": 10.6,
+   "words": [
+    {
+     "text": "e",
+     "start": 9.32,
+     "end": 9.48,
+     "emph": false
+    },
+    {
+     "text": "abriram",
+     "start": 9.48,
+     "end": 10.04,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 10.04,
+     "end": 10.2,
+     "emph": false
+    },
+    {
+     "text": "mercado",
+     "start": 10.2,
+     "end": 10.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.6,
+   "end": 11.32,
+   "words": [
+    {
+     "text": "entre",
+     "start": 10.6,
+     "end": 10.84,
+     "emph": false
+    },
+    {
+     "text": "eles.",
+     "start": 10.84,
+     "end": 11.07,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.32,
+   "end": 12.52,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 11.32,
+     "end": 11.56,
+     "emph": false
+    },
+    {
+     "text": "ganhou",
+     "start": 11.56,
+     "end": 11.88,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 11.88,
+     "end": 11.96,
+     "emph": false
+    },
+    {
+     "text": "caneca",
+     "start": 11.96,
+     "end": 12.34,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.52,
+   "end": 13.0,
+   "words": [
+    {
+     "text": "pedia",
+     "start": 12.52,
+     "end": 13.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.0,
+   "end": 14.12,
+   "words": [
+    {
+     "text": "mais",
+     "start": 13.0,
+     "end": 13.24,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 13.24,
+     "end": 13.34,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 13.48,
+     "end": 13.72,
+     "emph": false
+    },
+    {
+     "text": "dobro",
+     "start": 13.72,
+     "end": 14.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.12,
+   "end": 14.84,
+   "words": [
+    {
+     "text": "do",
+     "start": 14.12,
+     "end": 14.22,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 14.36,
+     "end": 14.52,
+     "emph": false
+    },
+    {
+     "text": "os",
+     "start": 14.52,
+     "end": 14.6,
+     "emph": false
+    },
+    {
+     "text": "outros",
+     "start": 14.6,
+     "end": 14.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.84,
+   "end": 15.96,
+   "words": [
+    {
+     "text": "topavam",
+     "start": 14.84,
+     "end": 15.48,
+     "emph": false
+    },
+    {
+     "text": "pagar.",
+     "start": 15.48,
+     "end": 15.59,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.96,
+   "end": 17.16,
+   "words": [
+    {
+     "text": "Isso",
+     "start": 15.96,
+     "end": 16.2,
+     "emph": false
+    },
+    {
+     "text": "tem",
+     "start": 16.2,
+     "end": 16.6,
+     "emph": false
+    },
+    {
+     "text": "nome:",
+     "start": 16.6,
+     "end": 16.77,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.16,
+   "end": 18.68,
+   "words": [
+    {
+     "text": "efeito",
+     "start": 17.16,
+     "end": 17.72,
+     "emph": true
+    },
+    {
+     "text": "dotação.",
+     "start": 17.72,
+     "end": 18.27,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.68,
+   "end": 19.72,
+   "words": [
+    {
+     "text": "Agora",
+     "start": 18.68,
+     "end": 19.05,
+     "emph": false
+    },
+    {
+     "text": "pense",
+     "start": 19.16,
+     "end": 19.23,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 19.72,
+   "end": 20.76,
+   "words": [
+    {
+     "text": "no",
+     "start": 19.72,
+     "end": 19.88,
+     "emph": false
+    },
+    {
+     "text": "dono",
+     "start": 19.88,
+     "end": 20.2,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 20.2,
+     "end": 20.28,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 20.28,
+     "end": 20.44,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 20.44,
+     "end": 20.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 20.76,
+   "end": 21.6,
+   "words": [
+    {
+     "text": "em",
+     "start": 20.76,
+     "end": 20.92,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 20.92,
+     "end": 21.08,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 21.08,
+     "end": 21.24,
+     "emph": false
+    },
+    {
+     "text": "viveu",
+     "start": 21.24,
+     "end": 21.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 21.6,
+   "end": 22.44,
+   "words": [
+    {
+     "text": "vinte",
+     "start": 21.6,
+     "end": 21.96,
+     "emph": true
+    },
+    {
+     "text": "anos.",
+     "start": 21.96,
+     "end": 22.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.44,
+   "end": 23.56,
+   "words": [
+    {
+     "text": "Ouça",
+     "start": 22.44,
+     "end": 22.51,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 23.08,
+     "end": 23.24,
+     "emph": false
+    },
+    {
+     "text": "história",
+     "start": 23.24,
+     "end": 23.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.56,
+   "end": 24.76,
+   "words": [
+    {
+     "text": "da",
+     "start": 23.56,
+     "end": 23.8,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 23.8,
+     "end": 24.12,
+     "emph": false
+    },
+    {
+     "text": "primeiro.",
+     "start": 24.12,
+     "end": 24.42,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.76,
+   "end": 25.32,
+   "words": [
+    {
+     "text": "Depois,",
+     "start": 24.76,
+     "end": 25.19,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 25.32,
+   "end": 27.0,
+   "words": [
+    {
+     "text": "mostre",
+     "start": 25.32,
+     "end": 25.88,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 25.88,
+     "end": 25.96,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 25.96,
+     "end": 26.12,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 26.12,
+     "end": 26.2,
+     "emph": false
+    },
+    {
+     "text": "mercado",
+     "start": 26.2,
+     "end": 26.6,
+     "emph": true
+    },
+    {
+     "text": "pagou",
+     "start": 26.6,
+     "end": 27.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 27.0,
+   "end": 28.36,
+   "words": [
+    {
+     "text": "por",
+     "start": 27.0,
+     "end": 27.16,
+     "emph": false
+    },
+    {
+     "text": "casas",
+     "start": 27.16,
+     "end": 27.56,
+     "emph": false
+    },
+    {
+     "text": "parecidas.",
+     "start": 27.56,
+     "end": 28.11,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.36,
+   "end": 29.0,
+   "words": [
+    {
+     "text": "O",
+     "start": 28.36,
+     "end": 28.6,
+     "emph": false
+    },
+    {
+     "text": "dono",
+     "start": 28.6,
+     "end": 29.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 29.0,
+   "end": 30.2,
+   "words": [
+    {
+     "text": "não",
+     "start": 29.0,
+     "end": 29.24,
+     "emph": false
+    },
+    {
+     "text": "está",
+     "start": 29.24,
+     "end": 29.48,
+     "emph": false
+    },
+    {
+     "text": "mentindo.",
+     "start": 29.48,
+     "end": 29.91,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 30.2,
+   "end": 31.32,
+   "words": [
+    {
+     "text": "Ele",
+     "start": 30.2,
+     "end": 30.44,
+     "emph": false
+    },
+    {
+     "text": "está",
+     "start": 30.44,
+     "end": 30.68,
+     "emph": false
+    },
+    {
+     "text": "sentindo",
+     "start": 30.68,
+     "end": 31.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 31.32,
+   "end": 32.2,
+   "words": [
+    {
+     "text": "o",
+     "start": 31.32,
+     "end": 31.48,
+     "emph": false
+    },
+    {
+     "text": "preço.",
+     "start": 31.48,
+     "end": 31.87,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.2,
+   "end": 33.4,
+   "words": [
+    {
+     "text": "Se",
+     "start": 32.2,
+     "end": 32.36,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 32.36,
+     "end": 32.6,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 32.6,
+     "end": 32.76,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 32.76,
+     "end": 33.21,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.4,
+   "end": 34.68,
+   "words": [
+    {
+     "text": "comente",
+     "start": 33.4,
+     "end": 34.04,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 34.04,
+     "end": 34.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 34.68,
+   "end": 35.64,
+   "words": [
+    {
+     "text": "e",
+     "start": 34.68,
+     "end": 34.84,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 34.84,
+     "end": 35.32,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 35.32,
+     "end": 35.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 35.64,
+   "end": 37.19,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 35.64,
+     "end": 36.04,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 36.04,
+     "end": 36.69,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

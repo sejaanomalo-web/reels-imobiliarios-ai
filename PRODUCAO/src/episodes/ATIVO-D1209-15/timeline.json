@@ -1,0 +1,1031 @@
+{
+ "id": "ATIVO-D1209-15",
+ "title": "Imagine que deu errado",
+ "fps": 30,
+ "duration": 45.3,
+ "durationInFrames": 1359,
+ "narrationEnd": 43.089,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.84
+  },
+  {
+   "id": "metodo",
+   "start": 4.84,
+   "end": 12.405
+  },
+  {
+   "id": "estudo",
+   "start": 12.405,
+   "end": 19.515
+  },
+  {
+   "id": "virada",
+   "start": 19.515,
+   "end": 25.855
+  },
+  {
+   "id": "respostas",
+   "start": 25.855,
+   "end": 32.66
+  },
+  {
+   "id": "desfecho",
+   "start": 32.66,
+   "end": 37.99
+  },
+  {
+   "id": "cta",
+   "start": 37.99,
+   "end": 45.3
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A pergunta mais útil da visita é imaginar que a compra deu errado.",
+   "start": 0.12,
+   "end": 4.6
+  },
+  {
+   "id": "s2",
+   "scene": "metodo",
+   "text": "Um psicólogo criou um método para projetos: antes de começar, a equipe imagina que fracassou e explica por quê.",
+   "start": 5.08,
+   "end": 12.21
+  },
+  {
+   "id": "s3",
+   "scene": "estudo",
+   "text": "Num estudo citado por ele, imaginar o fato já consumado melhorou em trinta por cento a identificação dos motivos.",
+   "start": 12.6,
+   "end": 19.31
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Na visita, pergunte: imagine que daqui a um ano você se arrependeu desta compra. Por quê?",
+   "start": 19.72,
+   "end": 25.59
+  },
+  {
+   "id": "s5",
+   "scene": "respostas",
+   "text": "Barulho, escola longe, condomínio caro. O cliente fala agora o que só diria depois.",
+   "start": 26.12,
+   "end": 32.48
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "O arrependimento que aparece antes vira pergunta. Depois, vira distrato.",
+   "start": 32.84,
+   "end": 37.78
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 38.2,
+   "end": 42.69
+  }
+ ],
+ "cues": {
+  "h_util": 1.16,
+  "h_errado": 4.44,
+  "m_psicologo": 5.32,
+  "m_metodo": 6.44,
+  "m_antes": 7.88,
+  "m_fracassou": 10.44,
+  "e_estudo": 12.92,
+  "e_consumado": 15.56,
+  "e_trinta": 16.9,
+  "e_motivos": 18.84,
+  "v_pergunte": 20.6,
+  "v_ano": 22.92,
+  "v_arrependeu": 23.64,
+  "r_barulho": 26.12,
+  "r_escola": 27.08,
+  "r_condominio": 28.28,
+  "r_agora": 30.6,
+  "f_antes": 34.6,
+  "f_pergunta": 35.48,
+  "f_distrato": 37.293,
+  "cta_quer": 38.2,
+  "cta_comment": 39.4,
+  "cta_word": 40.04,
+  "cta_tiles": 40.76,
+  "cta_sys": 41.72,
+  "cta_leads": 41.4,
+  "cta_atend": 42.12,
+  "cta_direct": 42.12,
+  "cta_end": 42.69
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.64,
+   "words": [
+    {
+     "text": "A",
+     "start": 0.12,
+     "end": 0.36,
+     "emph": false
+    },
+    {
+     "text": "pergunta",
+     "start": 0.36,
+     "end": 0.92,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 0.92,
+     "end": 1.16,
+     "emph": true
+    },
+    {
+     "text": "útil",
+     "start": 1.16,
+     "end": 1.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.64,
+   "end": 2.36,
+   "words": [
+    {
+     "text": "da",
+     "start": 1.64,
+     "end": 1.8,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 1.8,
+     "end": 2.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.36,
+   "end": 3.32,
+   "words": [
+    {
+     "text": "é",
+     "start": 2.36,
+     "end": 2.76,
+     "emph": false
+    },
+    {
+     "text": "imaginar",
+     "start": 2.76,
+     "end": 3.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.32,
+   "end": 4.04,
+   "words": [
+    {
+     "text": "que",
+     "start": 3.32,
+     "end": 3.48,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 3.48,
+     "end": 3.64,
+     "emph": false
+    },
+    {
+     "text": "compra",
+     "start": 3.64,
+     "end": 4.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.04,
+   "end": 5.08,
+   "words": [
+    {
+     "text": "deu",
+     "start": 4.04,
+     "end": 4.44,
+     "emph": true
+    },
+    {
+     "text": "errado.",
+     "start": 4.44,
+     "end": 4.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.08,
+   "end": 5.96,
+   "words": [
+    {
+     "text": "Um",
+     "start": 5.08,
+     "end": 5.32,
+     "emph": false
+    },
+    {
+     "text": "psicólogo",
+     "start": 5.32,
+     "end": 5.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.96,
+   "end": 6.84,
+   "words": [
+    {
+     "text": "criou",
+     "start": 5.96,
+     "end": 6.36,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 6.36,
+     "end": 6.44,
+     "emph": false
+    },
+    {
+     "text": "método",
+     "start": 6.44,
+     "end": 6.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.84,
+   "end": 7.88,
+   "words": [
+    {
+     "text": "para",
+     "start": 6.84,
+     "end": 7.08,
+     "emph": false
+    },
+    {
+     "text": "projetos:",
+     "start": 7.08,
+     "end": 7.53,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.88,
+   "end": 9.0,
+   "words": [
+    {
+     "text": "antes",
+     "start": 7.88,
+     "end": 8.2,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 8.2,
+     "end": 8.36,
+     "emph": false
+    },
+    {
+     "text": "começar,",
+     "start": 8.36,
+     "end": 8.81,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.0,
+   "end": 10.2,
+   "words": [
+    {
+     "text": "a",
+     "start": 9.0,
+     "end": 9.16,
+     "emph": false
+    },
+    {
+     "text": "equipe",
+     "start": 9.16,
+     "end": 9.64,
+     "emph": false
+    },
+    {
+     "text": "imagina",
+     "start": 9.64,
+     "end": 10.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.2,
+   "end": 11.16,
+   "words": [
+    {
+     "text": "que",
+     "start": 10.2,
+     "end": 10.44,
+     "emph": false
+    },
+    {
+     "text": "fracassou",
+     "start": 10.44,
+     "end": 11.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 11.16,
+   "end": 12.6,
+   "words": [
+    {
+     "text": "e",
+     "start": 11.16,
+     "end": 11.4,
+     "emph": false
+    },
+    {
+     "text": "explica",
+     "start": 11.4,
+     "end": 11.96,
+     "emph": false
+    },
+    {
+     "text": "por",
+     "start": 11.96,
+     "end": 12.12,
+     "emph": true
+    },
+    {
+     "text": "quê.",
+     "start": 12.12,
+     "end": 12.21,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.6,
+   "end": 13.32,
+   "words": [
+    {
+     "text": "Num",
+     "start": 12.6,
+     "end": 12.67,
+     "emph": false
+    },
+    {
+     "text": "estudo",
+     "start": 12.92,
+     "end": 13.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.32,
+   "end": 14.28,
+   "words": [
+    {
+     "text": "citado",
+     "start": 13.32,
+     "end": 13.72,
+     "emph": false
+    },
+    {
+     "text": "por",
+     "start": 13.72,
+     "end": 13.8,
+     "emph": false
+    },
+    {
+     "text": "ele,",
+     "start": 13.8,
+     "end": 14.02,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.28,
+   "end": 15.32,
+   "words": [
+    {
+     "text": "imaginar",
+     "start": 14.28,
+     "end": 14.84,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 14.84,
+     "end": 14.92,
+     "emph": false
+    },
+    {
+     "text": "fato",
+     "start": 14.92,
+     "end": 15.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.32,
+   "end": 16.2,
+   "words": [
+    {
+     "text": "já",
+     "start": 15.32,
+     "end": 15.56,
+     "emph": false
+    },
+    {
+     "text": "consumado",
+     "start": 15.56,
+     "end": 16.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 16.2,
+   "end": 16.9,
+   "words": [
+    {
+     "text": "melhorou",
+     "start": 16.2,
+     "end": 16.76,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 16.76,
+     "end": 16.9,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 16.9,
+   "end": 17.88,
+   "words": [
+    {
+     "text": "trinta",
+     "start": 16.9,
+     "end": 17.32,
+     "emph": true
+    },
+    {
+     "text": "por",
+     "start": 17.32,
+     "end": 17.53,
+     "emph": true
+    },
+    {
+     "text": "cento",
+     "start": 17.53,
+     "end": 17.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 17.88,
+   "end": 18.68,
+   "words": [
+    {
+     "text": "a",
+     "start": 17.88,
+     "end": 18.04,
+     "emph": false
+    },
+    {
+     "text": "identificação",
+     "start": 18.04,
+     "end": 18.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 18.68,
+   "end": 19.72,
+   "words": [
+    {
+     "text": "dos",
+     "start": 18.68,
+     "end": 18.84,
+     "emph": false
+    },
+    {
+     "text": "motivos.",
+     "start": 18.84,
+     "end": 19.31,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 19.72,
+   "end": 20.6,
+   "words": [
+    {
+     "text": "Na",
+     "start": 19.72,
+     "end": 19.96,
+     "emph": false
+    },
+    {
+     "text": "visita,",
+     "start": 19.96,
+     "end": 20.47,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 20.6,
+   "end": 21.48,
+   "words": [
+    {
+     "text": "pergunte:",
+     "start": 20.6,
+     "end": 21.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 21.48,
+   "end": 22.28,
+   "words": [
+    {
+     "text": "imagine",
+     "start": 21.48,
+     "end": 22.12,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 22.12,
+     "end": 22.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 22.28,
+   "end": 23.24,
+   "words": [
+    {
+     "text": "daqui",
+     "start": 22.28,
+     "end": 22.6,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 22.6,
+     "end": 22.76,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 22.76,
+     "end": 22.92,
+     "emph": true
+    },
+    {
+     "text": "ano",
+     "start": 22.92,
+     "end": 23.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 23.24,
+   "end": 24.36,
+   "words": [
+    {
+     "text": "você",
+     "start": 23.24,
+     "end": 23.48,
+     "emph": false
+    },
+    {
+     "text": "se",
+     "start": 23.48,
+     "end": 23.64,
+     "emph": false
+    },
+    {
+     "text": "arrependeu",
+     "start": 23.64,
+     "end": 24.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 24.36,
+   "end": 25.24,
+   "words": [
+    {
+     "text": "desta",
+     "start": 24.36,
+     "end": 24.68,
+     "emph": false
+    },
+    {
+     "text": "compra.",
+     "start": 24.68,
+     "end": 24.87,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 25.24,
+   "end": 25.94,
+   "words": [
+    {
+     "text": "Por",
+     "start": 25.24,
+     "end": 25.4,
+     "emph": true
+    },
+    {
+     "text": "quê?",
+     "start": 25.4,
+     "end": 25.59,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 26.12,
+   "end": 27.08,
+   "words": [
+    {
+     "text": "Barulho,",
+     "start": 26.12,
+     "end": 26.85,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 27.08,
+   "end": 28.28,
+   "words": [
+    {
+     "text": "escola",
+     "start": 27.08,
+     "end": 27.56,
+     "emph": true
+    },
+    {
+     "text": "longe,",
+     "start": 27.56,
+     "end": 28.13,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 28.28,
+   "end": 29.56,
+   "words": [
+    {
+     "text": "condomínio",
+     "start": 28.28,
+     "end": 29.08,
+     "emph": true
+    },
+    {
+     "text": "caro.",
+     "start": 29.08,
+     "end": 29.37,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 29.56,
+   "end": 31.08,
+   "words": [
+    {
+     "text": "O",
+     "start": 29.56,
+     "end": 29.72,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 29.72,
+     "end": 30.12,
+     "emph": false
+    },
+    {
+     "text": "fala",
+     "start": 30.12,
+     "end": 30.6,
+     "emph": false
+    },
+    {
+     "text": "agora",
+     "start": 30.6,
+     "end": 31.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 31.08,
+   "end": 32.84,
+   "words": [
+    {
+     "text": "o",
+     "start": 31.08,
+     "end": 31.24,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 31.24,
+     "end": 31.48,
+     "emph": false
+    },
+    {
+     "text": "só",
+     "start": 31.48,
+     "end": 31.72,
+     "emph": false
+    },
+    {
+     "text": "diria",
+     "start": 31.72,
+     "end": 32.12,
+     "emph": false
+    },
+    {
+     "text": "depois.",
+     "start": 32.12,
+     "end": 32.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 32.84,
+   "end": 33.88,
+   "words": [
+    {
+     "text": "O",
+     "start": 32.84,
+     "end": 32.91,
+     "emph": false
+    },
+    {
+     "text": "arrependimento",
+     "start": 33.08,
+     "end": 33.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 33.88,
+   "end": 35.08,
+   "words": [
+    {
+     "text": "que",
+     "start": 33.88,
+     "end": 34.04,
+     "emph": false
+    },
+    {
+     "text": "aparece",
+     "start": 34.04,
+     "end": 34.6,
+     "emph": false
+    },
+    {
+     "text": "antes",
+     "start": 34.6,
+     "end": 35.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 35.08,
+   "end": 36.2,
+   "words": [
+    {
+     "text": "vira",
+     "start": 35.08,
+     "end": 35.48,
+     "emph": false
+    },
+    {
+     "text": "pergunta.",
+     "start": 35.48,
+     "end": 35.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 36.2,
+   "end": 36.66,
+   "words": [
+    {
+     "text": "Depois,",
+     "start": 36.2,
+     "end": 36.31,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 36.84,
+   "end": 38.2,
+   "words": [
+    {
+     "text": "vira",
+     "start": 36.84,
+     "end": 36.91,
+     "emph": false
+    },
+    {
+     "text": "distrato.",
+     "start": 37.293,
+     "end": 37.78,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 38.2,
+   "end": 39.4,
+   "words": [
+    {
+     "text": "Se",
+     "start": 38.2,
+     "end": 38.36,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 38.36,
+     "end": 38.6,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 38.6,
+     "end": 38.76,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 38.76,
+     "end": 39.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 39.4,
+   "end": 40.6,
+   "words": [
+    {
+     "text": "comente",
+     "start": 39.4,
+     "end": 40.04,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 40.04,
+     "end": 40.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 40.6,
+   "end": 41.72,
+   "words": [
+    {
+     "text": "e",
+     "start": 40.6,
+     "end": 40.76,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 40.76,
+     "end": 41.4,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 41.4,
+     "end": 41.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 41.72,
+   "end": 43.19,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 41.72,
+     "end": 42.12,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 42.12,
+     "end": 42.69,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

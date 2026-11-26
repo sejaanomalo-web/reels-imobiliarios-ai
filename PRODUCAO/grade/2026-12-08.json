@@ -96,9 +96,10 @@
       "justificativaTrilha": "arco emocional.",
       "episodio": "ATIVO-D1208-15",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-08/ATIVO-D1208-15_cinco_minutos_sozinho.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/08-terca/15h00"
     },
     {
       "horario": "18:00",
@@ -139,9 +140,10 @@
       "justificativaTrilha": "arco emocional (a vista que cura).",
       "episodio": "ATIVO-D1208-21",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-08/ATIVO-D1208-21_a_janela.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/08-terca/21h00"
     }
   ]
 }

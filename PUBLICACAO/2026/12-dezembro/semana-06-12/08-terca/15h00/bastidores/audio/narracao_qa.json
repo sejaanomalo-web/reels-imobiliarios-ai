@@ -1,0 +1,61 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.95,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.84,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.3,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.05,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.37,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.68,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 29.01,
+    "asr_match": 1.0,
+    "aligned_words": "83/83",
+    "words_per_min": 172,
+    "heard": "Às vezes a melhor parte da visita é quando você sai da sala. Com você falando, o cliente escuta. Ele visita o imóvel como visitante. Sozinho, ele começa a mudar os móveis de lugar na cabeça. É aí que ele deixa de olhar um imóvel e começa a imaginar a casa dele. No fim da visita, ofereça, fiquem uns minutos à vontade, eu espero lá fora. O silêncio também apresenta o imóvel. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 30.26,
+      "wpm": 165
+    },
+    "pausas_moldadas": {
+      "n": 15,
+      "max_s": 0.53
+    },
+    "pausas_encurtadas_s": 1.25,
+    "final": {
+      "seconds": 29.01,
+      "wpm": 172
+    }
+  }
+]

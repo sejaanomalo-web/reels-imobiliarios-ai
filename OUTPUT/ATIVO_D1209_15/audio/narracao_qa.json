@@ -1,0 +1,66 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 7.13,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 6.71,
+    "palavras_nao_reconhecidas": [
+      "trinta",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 5.87,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.94,
+    "palavras_nao_reconhecidas": [
+      "distrato"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.49,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 42.97,
+    "asr_match": 0.97,
+    "aligned_words": "98/102",
+    "words_per_min": 142,
+    "heard": "A pergunta mais útil da visita é imaginar que a compra deu errado. Um psicólogo criou um método para projetos. Antes de começar, a equipe imagina que fracassou e explica por quê. Num estudo citado por ele, imaginar o fato já consumado melhorou em 30% a identificação dos motivos. Na visita, pergunte, imagine que daqui a um ano você se arrependeu desta compra. Por quê? Barulho, escola longe, condomínio caro, o cliente fala agora o que só diria depois. O arrependimento que aparece antes vira pergunta. Depois vira destrato. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 45.29,
+      "wpm": 135
+    },
+    "pausas_moldadas": {
+      "n": 17,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.32,
+    "final": {
+      "seconds": 42.97,
+      "wpm": 142
+    }
+  }
+]

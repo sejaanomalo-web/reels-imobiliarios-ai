@@ -1,0 +1,827 @@
+{
+ "id": "ATIVO-D1208-15",
+ "title": "Cinco minutos sozinho",
+ "fps": 30,
+ "duration": 31.333333333333332,
+ "durationInFrames": 940,
+ "narrationEnd": 29.129,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.295
+  },
+  {
+   "id": "falando",
+   "start": 4.295,
+   "end": 8.48
+  },
+  {
+   "id": "sozinho",
+   "start": 8.48,
+   "end": 12.13
+  },
+  {
+   "id": "virada",
+   "start": 12.13,
+   "end": 16.465
+  },
+  {
+   "id": "acao",
+   "start": 16.465,
+   "end": 21.185
+  },
+  {
+   "id": "desfecho",
+   "start": 21.185,
+   "end": 23.89
+  },
+  {
+   "id": "cta",
+   "start": 23.89,
+   "end": 31.333
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Às vezes a melhor parte da visita é quando você sai da sala.",
+   "start": 0.2,
+   "end": 4.15
+  },
+  {
+   "id": "s2",
+   "scene": "falando",
+   "text": "Com você falando, o cliente escuta. Ele visita o imóvel como visitante.",
+   "start": 4.44,
+   "end": 8.28
+  },
+  {
+   "id": "s3",
+   "scene": "sozinho",
+   "text": "Sozinho, ele começa a mudar os móveis de lugar na cabeça.",
+   "start": 8.68,
+   "end": 11.98
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "É aí que ele deixa de olhar um imóvel e começa a imaginar a casa dele.",
+   "start": 12.28,
+   "end": 16.33
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "No fim da visita, ofereça: fiquem uns minutos à vontade; eu espero lá fora.",
+   "start": 16.6,
+   "end": 20.97
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "O silêncio também apresenta o imóvel.",
+   "start": 21.4,
+   "end": 23.74
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 24.04,
+   "end": 28.72
+  }
+ ],
+ "cues": {
+  "h_melhor": 1.4,
+  "h_sai": 3.32,
+  "f2_falando": 4.84,
+  "f2_escuta": 5.72,
+  "f2_visitante": 7.8,
+  "s_sozinho": 8.68,
+  "s_moveis": 10.6,
+  "v_imaginar": 15.08,
+  "v_casa": 15.8,
+  "a_ofereca": 17.64,
+  "a_vontade": 19.56,
+  "a_fora": 20.84,
+  "f_silencio": 21.56,
+  "f_apresenta": 22.76,
+  "cta_quer": 24.04,
+  "cta_comment": 25.32,
+  "cta_word": 25.96,
+  "cta_tiles": 26.68,
+  "cta_sys": 27.56,
+  "cta_leads": 27.24,
+  "cta_atend": 28.04,
+  "cta_direct": 28.04,
+  "cta_end": 28.72
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 1.24,
+   "words": [
+    {
+     "text": "Às",
+     "start": 0.2,
+     "end": 0.28,
+     "emph": false
+    },
+    {
+     "text": "vezes",
+     "start": 1.0,
+     "end": 1.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.24,
+   "end": 2.68,
+   "words": [
+    {
+     "text": "a",
+     "start": 1.24,
+     "end": 1.4,
+     "emph": false
+    },
+    {
+     "text": "melhor",
+     "start": 1.4,
+     "end": 1.72,
+     "emph": true
+    },
+    {
+     "text": "parte",
+     "start": 1.72,
+     "end": 2.04,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 2.04,
+     "end": 2.2,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 2.2,
+     "end": 2.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.68,
+   "end": 3.32,
+   "words": [
+    {
+     "text": "é",
+     "start": 2.68,
+     "end": 2.84,
+     "emph": false
+    },
+    {
+     "text": "quando",
+     "start": 2.84,
+     "end": 3.08,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 3.08,
+     "end": 3.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.32,
+   "end": 4.44,
+   "words": [
+    {
+     "text": "sai",
+     "start": 3.32,
+     "end": 3.72,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 3.72,
+     "end": 3.88,
+     "emph": true
+    },
+    {
+     "text": "sala.",
+     "start": 3.88,
+     "end": 4.15,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.44,
+   "end": 5.32,
+   "words": [
+    {
+     "text": "Com",
+     "start": 4.44,
+     "end": 4.6,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 4.6,
+     "end": 4.84,
+     "emph": false
+    },
+    {
+     "text": "falando,",
+     "start": 4.84,
+     "end": 5.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.32,
+   "end": 6.28,
+   "words": [
+    {
+     "text": "o",
+     "start": 5.32,
+     "end": 5.4,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 5.4,
+     "end": 5.72,
+     "emph": false
+    },
+    {
+     "text": "escuta.",
+     "start": 5.72,
+     "end": 6.1,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.28,
+   "end": 7.56,
+   "words": [
+    {
+     "text": "Ele",
+     "start": 6.28,
+     "end": 6.52,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 6.52,
+     "end": 7.0,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 7.0,
+     "end": 7.08,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 7.08,
+     "end": 7.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.56,
+   "end": 8.68,
+   "words": [
+    {
+     "text": "como",
+     "start": 7.56,
+     "end": 7.8,
+     "emph": false
+    },
+    {
+     "text": "visitante.",
+     "start": 7.8,
+     "end": 8.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.68,
+   "end": 9.48,
+   "words": [
+    {
+     "text": "Sozinho,",
+     "start": 8.68,
+     "end": 9.3,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.48,
+   "end": 10.44,
+   "words": [
+    {
+     "text": "ele",
+     "start": 9.48,
+     "end": 9.64,
+     "emph": false
+    },
+    {
+     "text": "começa",
+     "start": 9.64,
+     "end": 10.04,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 10.04,
+     "end": 10.12,
+     "emph": false
+    },
+    {
+     "text": "mudar",
+     "start": 10.12,
+     "end": 10.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.44,
+   "end": 11.56,
+   "words": [
+    {
+     "text": "os",
+     "start": 10.44,
+     "end": 10.6,
+     "emph": false
+    },
+    {
+     "text": "móveis",
+     "start": 10.6,
+     "end": 11.08,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 11.08,
+     "end": 11.24,
+     "emph": false
+    },
+    {
+     "text": "lugar",
+     "start": 11.24,
+     "end": 11.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.56,
+   "end": 12.28,
+   "words": [
+    {
+     "text": "na",
+     "start": 11.56,
+     "end": 11.72,
+     "emph": false
+    },
+    {
+     "text": "cabeça.",
+     "start": 11.72,
+     "end": 11.98,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.28,
+   "end": 13.48,
+   "words": [
+    {
+     "text": "É",
+     "start": 12.28,
+     "end": 12.52,
+     "emph": false
+    },
+    {
+     "text": "aí",
+     "start": 12.52,
+     "end": 12.76,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 12.76,
+     "end": 12.92,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 12.92,
+     "end": 13.08,
+     "emph": false
+    },
+    {
+     "text": "deixa",
+     "start": 13.08,
+     "end": 13.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.48,
+   "end": 14.44,
+   "words": [
+    {
+     "text": "de",
+     "start": 13.48,
+     "end": 13.56,
+     "emph": false
+    },
+    {
+     "text": "olhar",
+     "start": 13.56,
+     "end": 13.88,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 13.88,
+     "end": 14.04,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 14.04,
+     "end": 14.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.44,
+   "end": 15.64,
+   "words": [
+    {
+     "text": "e",
+     "start": 14.44,
+     "end": 14.6,
+     "emph": false
+    },
+    {
+     "text": "começa",
+     "start": 14.6,
+     "end": 15.0,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 15.0,
+     "end": 15.08,
+     "emph": false
+    },
+    {
+     "text": "imaginar",
+     "start": 15.08,
+     "end": 15.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.64,
+   "end": 16.6,
+   "words": [
+    {
+     "text": "a",
+     "start": 15.64,
+     "end": 15.8,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 15.8,
+     "end": 16.12,
+     "emph": true
+    },
+    {
+     "text": "dele.",
+     "start": 16.12,
+     "end": 16.33,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 16.6,
+   "end": 17.64,
+   "words": [
+    {
+     "text": "No",
+     "start": 16.6,
+     "end": 16.76,
+     "emph": false
+    },
+    {
+     "text": "fim",
+     "start": 16.76,
+     "end": 17.0,
+     "emph": false
+    },
+    {
+     "text": "da",
+     "start": 17.0,
+     "end": 17.08,
+     "emph": false
+    },
+    {
+     "text": "visita,",
+     "start": 17.08,
+     "end": 17.51,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.64,
+   "end": 18.44,
+   "words": [
+    {
+     "text": "ofereça:",
+     "start": 17.64,
+     "end": 18.25,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.44,
+   "end": 19.48,
+   "words": [
+    {
+     "text": "fiquem",
+     "start": 18.44,
+     "end": 18.92,
+     "emph": false
+    },
+    {
+     "text": "uns",
+     "start": 18.92,
+     "end": 19.16,
+     "emph": false
+    },
+    {
+     "text": "minutos",
+     "start": 19.16,
+     "end": 19.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.48,
+   "end": 20.12,
+   "words": [
+    {
+     "text": "à",
+     "start": 19.48,
+     "end": 19.56,
+     "emph": true
+    },
+    {
+     "text": "vontade;",
+     "start": 19.56,
+     "end": 19.94,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.12,
+   "end": 20.68,
+   "words": [
+    {
+     "text": "eu",
+     "start": 20.12,
+     "end": 20.28,
+     "emph": false
+    },
+    {
+     "text": "espero",
+     "start": 20.28,
+     "end": 20.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.68,
+   "end": 21.4,
+   "words": [
+    {
+     "text": "lá",
+     "start": 20.68,
+     "end": 20.84,
+     "emph": true
+    },
+    {
+     "text": "fora.",
+     "start": 20.84,
+     "end": 20.97,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 21.4,
+   "end": 22.36,
+   "words": [
+    {
+     "text": "O",
+     "start": 21.4,
+     "end": 21.56,
+     "emph": false
+    },
+    {
+     "text": "silêncio",
+     "start": 21.56,
+     "end": 22.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.36,
+   "end": 23.32,
+   "words": [
+    {
+     "text": "também",
+     "start": 22.36,
+     "end": 22.76,
+     "emph": false
+    },
+    {
+     "text": "apresenta",
+     "start": 22.76,
+     "end": 23.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.32,
+   "end": 24.04,
+   "words": [
+    {
+     "text": "o",
+     "start": 23.32,
+     "end": 23.48,
+     "emph": false
+    },
+    {
+     "text": "imóvel.",
+     "start": 23.48,
+     "end": 23.74,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 24.04,
+   "end": 25.32,
+   "words": [
+    {
+     "text": "Se",
+     "start": 24.04,
+     "end": 24.12,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 24.28,
+     "end": 24.44,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 24.44,
+     "end": 24.6,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 24.6,
+     "end": 25.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 25.32,
+   "end": 26.52,
+   "words": [
+    {
+     "text": "comente",
+     "start": 25.32,
+     "end": 25.96,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 25.96,
+     "end": 26.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.52,
+   "end": 27.56,
+   "words": [
+    {
+     "text": "e",
+     "start": 26.52,
+     "end": 26.68,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 26.68,
+     "end": 27.24,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 27.24,
+     "end": 27.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.56,
+   "end": 29.22,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 27.56,
+     "end": 28.04,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 28.04,
+     "end": 28.72,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

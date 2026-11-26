@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.7,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.37,
+    "palavras_nao_reconhecidas": [
+      "180"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.67,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 6.57,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.86,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.1,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.59,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 34.22,
+    "asr_match": 0.989,
+    "aligned_words": "89/90",
+    "words_per_min": 158,
+    "heard": "O apartamento na planta atrasou seis meses. E pode estar tudo dentro do contrato. A lei permite uma tolerância de até 180 dias depois da data prometida. Mas só se essa cláusula estiver no contrato, clara e destacada. Passou disso, quem comprou pode desfazer o negócio e receber o que pagou, com a multa. Ou manter e ser indenizado. Na venda, mostre essa cláusula ao cliente e anote a data prometida. Atraso combinado é prazo. Atraso escondido vira briga. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 35.64,
+      "wpm": 152
+    },
+    "pausas_moldadas": {
+      "n": 13,
+      "max_s": 0.5
+    },
+    "pausas_encurtadas_s": 1.42,
+    "final": {
+      "seconds": 34.22,
+      "wpm": 158
+    }
+  }
+]

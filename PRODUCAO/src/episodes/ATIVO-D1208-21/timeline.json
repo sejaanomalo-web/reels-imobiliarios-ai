@@ -1,0 +1,848 @@
+{
+ "id": "ATIVO-D1208-21",
+ "title": "A janela",
+ "fps": 30,
+ "duration": 35.63333333333333,
+ "durationInFrames": 1069,
+ "narrationEnd": 33.414,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.02
+  },
+  {
+   "id": "estudo",
+   "start": 4.02,
+   "end": 9.44
+  },
+  {
+   "id": "diferenca",
+   "start": 9.44,
+   "end": 13.525
+  },
+  {
+   "id": "virada",
+   "start": 13.525,
+   "end": 17.545
+  },
+  {
+   "id": "acao",
+   "start": 17.545,
+   "end": 24.055
+  },
+  {
+   "id": "desfecho",
+   "start": 24.055,
+   "end": 28.53
+  },
+  {
+   "id": "cta",
+   "start": 28.53,
+   "end": 35.633
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Uma janela mudou o tempo de internação de pacientes num hospital.",
+   "start": 0.12,
+   "end": 3.84
+  },
+  {
+   "id": "s2",
+   "scene": "estudo",
+   "text": "Em 1984, um pesquisador comparou pacientes operados em quartos iguais.",
+   "start": 4.2,
+   "end": 9.32
+  },
+  {
+   "id": "s3",
+   "scene": "diferenca",
+   "text": "Metade via uma parede de tijolos. A outra metade via árvores.",
+   "start": 9.56,
+   "end": 13.41
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Quem via árvores teve alta, em média, quase um dia antes.",
+   "start": 13.64,
+   "end": 17.37
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Na visita, não passe correndo pela janela. Pare, abra a cortina e deixe o cliente olhar.",
+   "start": 17.72,
+   "end": 23.91
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "A vista não aparece na planta. Mas mora com a pessoa todos os dias.",
+   "start": 24.2,
+   "end": 28.38
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 28.68,
+   "end": 32.99
+  }
+ ],
+ "cues": {
+  "h_janela": 0.44,
+  "h_internacao": 1.96,
+  "e_1984": 4.76,
+  "e_iguais": 8.92,
+  "d_parede": 10.44,
+  "d_arvores": 13.0,
+  "v_alta": 15.08,
+  "v_dia": 16.68,
+  "a_correndo": 19.4,
+  "a_pare": 20.76,
+  "a_cortina": 21.98,
+  "a_olhar": 23.72,
+  "f_planta": 25.56,
+  "f_mora": 26.28,
+  "f_dias": 27.96,
+  "cta_quer": 28.68,
+  "cta_comment": 29.88,
+  "cta_word": 30.44,
+  "cta_tiles": 31.16,
+  "cta_sys": 31.96,
+  "cta_leads": 31.72,
+  "cta_atend": 32.36,
+  "cta_direct": 32.36,
+  "cta_end": 32.99
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.0,
+   "words": [
+    {
+     "text": "Uma",
+     "start": 0.12,
+     "end": 0.44,
+     "emph": false
+    },
+    {
+     "text": "janela",
+     "start": 0.44,
+     "end": 1.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.0,
+   "end": 1.8,
+   "words": [
+    {
+     "text": "mudou",
+     "start": 1.0,
+     "end": 1.4,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 1.4,
+     "end": 1.48,
+     "emph": false
+    },
+    {
+     "text": "tempo",
+     "start": 1.48,
+     "end": 1.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.8,
+   "end": 2.6,
+   "words": [
+    {
+     "text": "de",
+     "start": 1.8,
+     "end": 1.96,
+     "emph": false
+    },
+    {
+     "text": "internação",
+     "start": 1.96,
+     "end": 2.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.6,
+   "end": 3.24,
+   "words": [
+    {
+     "text": "de",
+     "start": 2.6,
+     "end": 2.76,
+     "emph": false
+    },
+    {
+     "text": "pacientes",
+     "start": 2.76,
+     "end": 3.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.24,
+   "end": 4.2,
+   "words": [
+    {
+     "text": "num",
+     "start": 3.24,
+     "end": 3.48,
+     "emph": false
+    },
+    {
+     "text": "hospital.",
+     "start": 3.48,
+     "end": 3.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.2,
+   "end": 5.88,
+   "words": [
+    {
+     "text": "Em",
+     "start": 4.2,
+     "end": 4.76,
+     "emph": false
+    },
+    {
+     "text": "1984,",
+     "start": 4.76,
+     "end": 5.71,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.88,
+   "end": 6.68,
+   "words": [
+    {
+     "text": "um",
+     "start": 5.88,
+     "end": 6.04,
+     "emph": false
+    },
+    {
+     "text": "pesquisador",
+     "start": 6.04,
+     "end": 6.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.68,
+   "end": 8.36,
+   "words": [
+    {
+     "text": "comparou",
+     "start": 6.68,
+     "end": 7.32,
+     "emph": false
+    },
+    {
+     "text": "pacientes",
+     "start": 7.32,
+     "end": 7.8,
+     "emph": false
+    },
+    {
+     "text": "operados",
+     "start": 7.8,
+     "end": 8.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.36,
+   "end": 9.56,
+   "words": [
+    {
+     "text": "em",
+     "start": 8.36,
+     "end": 8.52,
+     "emph": false
+    },
+    {
+     "text": "quartos",
+     "start": 8.52,
+     "end": 8.92,
+     "emph": true
+    },
+    {
+     "text": "iguais.",
+     "start": 8.92,
+     "end": 9.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.56,
+   "end": 10.28,
+   "words": [
+    {
+     "text": "Metade",
+     "start": 9.56,
+     "end": 9.96,
+     "emph": false
+    },
+    {
+     "text": "via",
+     "start": 9.96,
+     "end": 10.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.28,
+   "end": 11.88,
+   "words": [
+    {
+     "text": "uma",
+     "start": 10.28,
+     "end": 10.44,
+     "emph": false
+    },
+    {
+     "text": "parede",
+     "start": 10.44,
+     "end": 10.76,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 10.76,
+     "end": 10.92,
+     "emph": false
+    },
+    {
+     "text": "tijolos.",
+     "start": 10.92,
+     "end": 11.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.88,
+   "end": 12.68,
+   "words": [
+    {
+     "text": "A",
+     "start": 11.88,
+     "end": 12.04,
+     "emph": false
+    },
+    {
+     "text": "outra",
+     "start": 12.04,
+     "end": 12.28,
+     "emph": false
+    },
+    {
+     "text": "metade",
+     "start": 12.28,
+     "end": 12.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.68,
+   "end": 13.64,
+   "words": [
+    {
+     "text": "via",
+     "start": 12.68,
+     "end": 13.0,
+     "emph": false
+    },
+    {
+     "text": "árvores.",
+     "start": 13.0,
+     "end": 13.41,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.64,
+   "end": 14.76,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 13.64,
+     "end": 13.71,
+     "emph": false
+    },
+    {
+     "text": "via",
+     "start": 13.96,
+     "end": 14.28,
+     "emph": false
+    },
+    {
+     "text": "árvores",
+     "start": 14.28,
+     "end": 14.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.76,
+   "end": 15.4,
+   "words": [
+    {
+     "text": "teve",
+     "start": 14.76,
+     "end": 15.08,
+     "emph": false
+    },
+    {
+     "text": "alta,",
+     "start": 15.08,
+     "end": 15.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.4,
+   "end": 16.04,
+   "words": [
+    {
+     "text": "em",
+     "start": 15.4,
+     "end": 15.56,
+     "emph": false
+    },
+    {
+     "text": "média,",
+     "start": 15.56,
+     "end": 15.82,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.04,
+   "end": 17.72,
+   "words": [
+    {
+     "text": "quase",
+     "start": 16.04,
+     "end": 16.36,
+     "emph": true
+    },
+    {
+     "text": "um",
+     "start": 16.36,
+     "end": 16.68,
+     "emph": true
+    },
+    {
+     "text": "dia",
+     "start": 16.68,
+     "end": 17.0,
+     "emph": true
+    },
+    {
+     "text": "antes.",
+     "start": 17.0,
+     "end": 17.37,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.72,
+   "end": 18.68,
+   "words": [
+    {
+     "text": "Na",
+     "start": 17.72,
+     "end": 17.8,
+     "emph": false
+    },
+    {
+     "text": "visita,",
+     "start": 18.04,
+     "end": 18.49,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.68,
+   "end": 19.8,
+   "words": [
+    {
+     "text": "não",
+     "start": 18.68,
+     "end": 18.84,
+     "emph": false
+    },
+    {
+     "text": "passe",
+     "start": 18.84,
+     "end": 18.94,
+     "emph": false
+    },
+    {
+     "text": "correndo",
+     "start": 19.4,
+     "end": 19.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.8,
+   "end": 20.76,
+   "words": [
+    {
+     "text": "pela",
+     "start": 19.8,
+     "end": 19.96,
+     "emph": false
+    },
+    {
+     "text": "janela.",
+     "start": 19.96,
+     "end": 20.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.76,
+   "end": 21.48,
+   "words": [
+    {
+     "text": "Pare,",
+     "start": 20.76,
+     "end": 21.14,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.48,
+   "end": 22.68,
+   "words": [
+    {
+     "text": "abra",
+     "start": 21.48,
+     "end": 21.88,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 21.88,
+     "end": 21.98,
+     "emph": false
+    },
+    {
+     "text": "cortina",
+     "start": 21.98,
+     "end": 22.46,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.68,
+   "end": 24.2,
+   "words": [
+    {
+     "text": "e",
+     "start": 22.68,
+     "end": 22.84,
+     "emph": false
+    },
+    {
+     "text": "deixe",
+     "start": 22.84,
+     "end": 23.24,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 23.24,
+     "end": 23.32,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 23.32,
+     "end": 23.72,
+     "emph": false
+    },
+    {
+     "text": "olhar.",
+     "start": 23.72,
+     "end": 23.91,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.2,
+   "end": 24.84,
+   "words": [
+    {
+     "text": "A",
+     "start": 24.2,
+     "end": 24.36,
+     "emph": false
+    },
+    {
+     "text": "vista",
+     "start": 24.36,
+     "end": 24.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.84,
+   "end": 26.04,
+   "words": [
+    {
+     "text": "não",
+     "start": 24.84,
+     "end": 24.92,
+     "emph": false
+    },
+    {
+     "text": "aparece",
+     "start": 24.92,
+     "end": 25.4,
+     "emph": false
+    },
+    {
+     "text": "na",
+     "start": 25.4,
+     "end": 25.56,
+     "emph": false
+    },
+    {
+     "text": "planta.",
+     "start": 25.56,
+     "end": 25.74,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.04,
+   "end": 27.4,
+   "words": [
+    {
+     "text": "Mas",
+     "start": 26.04,
+     "end": 26.28,
+     "emph": false
+    },
+    {
+     "text": "mora",
+     "start": 26.28,
+     "end": 26.68,
+     "emph": true
+    },
+    {
+     "text": "com",
+     "start": 26.68,
+     "end": 26.84,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 26.84,
+     "end": 26.92,
+     "emph": false
+    },
+    {
+     "text": "pessoa",
+     "start": 26.92,
+     "end": 27.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.4,
+   "end": 28.68,
+   "words": [
+    {
+     "text": "todos",
+     "start": 27.4,
+     "end": 27.72,
+     "emph": true
+    },
+    {
+     "text": "os",
+     "start": 27.72,
+     "end": 27.96,
+     "emph": true
+    },
+    {
+     "text": "dias.",
+     "start": 27.96,
+     "end": 28.38,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.68,
+   "end": 29.88,
+   "words": [
+    {
+     "text": "Se",
+     "start": 28.68,
+     "end": 28.84,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 28.84,
+     "end": 29.08,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 29.08,
+     "end": 29.24,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 29.24,
+     "end": 29.7,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.88,
+   "end": 31.0,
+   "words": [
+    {
+     "text": "comente",
+     "start": 29.88,
+     "end": 30.44,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 30.44,
+     "end": 31.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.0,
+   "end": 31.96,
+   "words": [
+    {
+     "text": "e",
+     "start": 31.0,
+     "end": 31.16,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 31.16,
+     "end": 31.72,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 31.72,
+     "end": 31.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.96,
+   "end": 33.49,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 31.96,
+     "end": 32.36,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 32.36,
+     "end": 32.99,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

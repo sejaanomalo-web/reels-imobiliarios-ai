@@ -510,7 +510,7 @@
     "label": "Cadd9 — sistema"
    }
   ],
-  "trilha": "T05",
+  "trilha": "T04",
   "ancoras": {
    "virada": "cue:v_ouca",
    "insight": "cue:g_corrige",
@@ -528,8 +528,8 @@
   "pushPull": "pull",
   "justificativaModelo": "onda de áudio gigante, checklist.",
   "justificativaHorario": "10h: manhã de atendimento.",
-  "trilha": "T05",
-  "justificativaTrilha": "motor prático.",
+  "trilha": "T04",
+  "justificativaTrilha": "tensão em movimento (a informação que se perde no áudio). Troca de T05: a mixagem com T05 reprovou no portão de inteligibilidade (queda de 4,2 pontos).",
   "data": "2026-12-09",
   "slot": "10:00",
   "arquivo": "PRODUCAO/grade/2026-12-09.json"

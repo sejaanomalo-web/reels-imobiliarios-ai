@@ -1,0 +1,975 @@
+{
+ "id": "ATIVO-D1209-08",
+ "title": "O preço público",
+ "fps": 30,
+ "duration": 40.36666666666667,
+ "durationInFrames": 1211,
+ "narrationEnd": 38.163,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.295
+  },
+  {
+   "id": "inglaterra",
+   "start": 4.295,
+   "end": 11.32
+  },
+  {
+   "id": "sp",
+   "start": 11.32,
+   "end": 17.42
+  },
+  {
+   "id": "virada",
+   "start": 17.42,
+   "end": 22.701
+  },
+  {
+   "id": "acao",
+   "start": 22.701,
+   "end": 29.675
+  },
+  {
+   "id": "desfecho",
+   "start": 29.675,
+   "end": 33.125
+  },
+  {
+   "id": "cta",
+   "start": 33.125,
+   "end": 40.367
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "E se o preço de venda de cada casa da sua cidade fosse público?",
+   "start": 0.12,
+   "end": 4.15
+  },
+  {
+   "id": "s2",
+   "scene": "inglaterra",
+   "text": "Na Inglaterra, o governo publica de graça o valor das vendas de casas registradas desde 1995.",
+   "start": 4.44,
+   "end": 11.08
+  },
+  {
+   "id": "s3",
+   "scene": "sp",
+   "text": "Aqui, a cidade de São Paulo já publica todo mês o valor das transações em que o ITBI foi pago.",
+   "start": 11.56,
+   "end": 17.2
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "O anúncio mostra o que o dono quer. A transação mostra o que alguém pagou.",
+   "start": 17.64,
+   "end": 22.57
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Compare com vendas reais da rua. E guarde, de cada negócio seu, o valor pedido e o valor fechado.",
+   "start": 22.833,
+   "end": 29.55
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Quem argumenta com venda real não discute opinião.",
+   "start": 29.8,
+   "end": 32.93
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 33.32,
+   "end": 37.73
+  }
+ ],
+ "cues": {
+  "h_preco": 0.6,
+  "h_publico": 3.72,
+  "i_inglaterra": 4.76,
+  "i_graca": 6.68,
+  "i_vendas": 7.64,
+  "i_1995": 10.493,
+  "p_paulo": 13.0,
+  "p_mes": 14.52,
+  "p_transacoes": 15.56,
+  "p_itbi": 16.408,
+  "v_anuncio": 17.8,
+  "v_quer": 19.8,
+  "v_transacao": 20.36,
+  "v_pagou": 22.2,
+  "a_compare": 22.833,
+  "a_reais": 24.28,
+  "a_guarde": 25.286,
+  "a_pedido": 28.04,
+  "a_fechado": 29.16,
+  "f_real": 31.24,
+  "f_opiniao": 32.6,
+  "cta_quer": 33.32,
+  "cta_comment": 34.52,
+  "cta_word": 35.16,
+  "cta_tiles": 35.88,
+  "cta_sys": 36.76,
+  "cta_leads": 36.44,
+  "cta_atend": 37.16,
+  "cta_direct": 37.16,
+  "cta_end": 37.73
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.56,
+   "words": [
+    {
+     "text": "E",
+     "start": 0.12,
+     "end": 0.28,
+     "emph": false
+    },
+    {
+     "text": "se",
+     "start": 0.28,
+     "end": 0.37,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 0.52,
+     "end": 0.6,
+     "emph": false
+    },
+    {
+     "text": "preço",
+     "start": 0.6,
+     "end": 0.92,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 0.92,
+     "end": 1.08,
+     "emph": true
+    },
+    {
+     "text": "venda",
+     "start": 1.08,
+     "end": 1.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.56,
+   "end": 2.52,
+   "words": [
+    {
+     "text": "de",
+     "start": 1.56,
+     "end": 1.63,
+     "emph": false
+    },
+    {
+     "text": "cada",
+     "start": 1.8,
+     "end": 2.12,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 2.12,
+     "end": 2.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.52,
+   "end": 3.4,
+   "words": [
+    {
+     "text": "da",
+     "start": 2.52,
+     "end": 2.68,
+     "emph": false
+    },
+    {
+     "text": "sua",
+     "start": 2.68,
+     "end": 2.92,
+     "emph": false
+    },
+    {
+     "text": "cidade",
+     "start": 2.92,
+     "end": 3.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.4,
+   "end": 4.44,
+   "words": [
+    {
+     "text": "fosse",
+     "start": 3.4,
+     "end": 3.72,
+     "emph": false
+    },
+    {
+     "text": "público?",
+     "start": 3.72,
+     "end": 4.15,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.44,
+   "end": 5.4,
+   "words": [
+    {
+     "text": "Na",
+     "start": 4.44,
+     "end": 4.76,
+     "emph": false
+    },
+    {
+     "text": "Inglaterra,",
+     "start": 4.76,
+     "end": 5.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.4,
+   "end": 6.52,
+   "words": [
+    {
+     "text": "o",
+     "start": 5.4,
+     "end": 5.56,
+     "emph": false
+    },
+    {
+     "text": "governo",
+     "start": 5.56,
+     "end": 5.96,
+     "emph": false
+    },
+    {
+     "text": "publica",
+     "start": 5.96,
+     "end": 6.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.52,
+   "end": 7.16,
+   "words": [
+    {
+     "text": "de",
+     "start": 6.52,
+     "end": 6.68,
+     "emph": true
+    },
+    {
+     "text": "graça",
+     "start": 6.68,
+     "end": 7.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.16,
+   "end": 8.04,
+   "words": [
+    {
+     "text": "o",
+     "start": 7.16,
+     "end": 7.24,
+     "emph": false
+    },
+    {
+     "text": "valor",
+     "start": 7.24,
+     "end": 7.48,
+     "emph": false
+    },
+    {
+     "text": "das",
+     "start": 7.48,
+     "end": 7.64,
+     "emph": false
+    },
+    {
+     "text": "vendas",
+     "start": 7.64,
+     "end": 8.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.04,
+   "end": 9.16,
+   "words": [
+    {
+     "text": "de",
+     "start": 8.04,
+     "end": 8.12,
+     "emph": false
+    },
+    {
+     "text": "casas",
+     "start": 8.12,
+     "end": 8.44,
+     "emph": false
+    },
+    {
+     "text": "registradas",
+     "start": 8.44,
+     "end": 9.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.16,
+   "end": 11.56,
+   "words": [
+    {
+     "text": "desde",
+     "start": 9.16,
+     "end": 10.493,
+     "emph": false
+    },
+    {
+     "text": "1995.",
+     "start": 10.493,
+     "end": 11.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.56,
+   "end": 12.12,
+   "words": [
+    {
+     "text": "Aqui,",
+     "start": 11.56,
+     "end": 12.01,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.12,
+   "end": 13.4,
+   "words": [
+    {
+     "text": "a",
+     "start": 12.12,
+     "end": 12.28,
+     "emph": false
+    },
+    {
+     "text": "cidade",
+     "start": 12.28,
+     "end": 12.68,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 12.68,
+     "end": 12.76,
+     "emph": false
+    },
+    {
+     "text": "São",
+     "start": 12.76,
+     "end": 13.0,
+     "emph": true
+    },
+    {
+     "text": "Paulo",
+     "start": 13.0,
+     "end": 13.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.4,
+   "end": 14.92,
+   "words": [
+    {
+     "text": "já",
+     "start": 13.4,
+     "end": 13.56,
+     "emph": false
+    },
+    {
+     "text": "publica",
+     "start": 13.56,
+     "end": 13.92,
+     "emph": false
+    },
+    {
+     "text": "todo",
+     "start": 14.2,
+     "end": 14.52,
+     "emph": true
+    },
+    {
+     "text": "mês",
+     "start": 14.52,
+     "end": 14.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.92,
+   "end": 16.04,
+   "words": [
+    {
+     "text": "o",
+     "start": 14.92,
+     "end": 15.08,
+     "emph": false
+    },
+    {
+     "text": "valor",
+     "start": 15.08,
+     "end": 15.32,
+     "emph": false
+    },
+    {
+     "text": "das",
+     "start": 15.32,
+     "end": 15.56,
+     "emph": false
+    },
+    {
+     "text": "transações",
+     "start": 15.56,
+     "end": 16.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 16.04,
+   "end": 17.64,
+   "words": [
+    {
+     "text": "em",
+     "start": 16.04,
+     "end": 16.12,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 16.12,
+     "end": 16.28,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 16.28,
+     "end": 16.408,
+     "emph": false
+    },
+    {
+     "text": "ITBI",
+     "start": 16.408,
+     "end": 16.92,
+     "emph": true
+    },
+    {
+     "text": "foi",
+     "start": 16.92,
+     "end": 17.08,
+     "emph": false
+    },
+    {
+     "text": "pago.",
+     "start": 17.08,
+     "end": 17.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.64,
+   "end": 18.76,
+   "words": [
+    {
+     "text": "O",
+     "start": 17.64,
+     "end": 17.8,
+     "emph": false
+    },
+    {
+     "text": "anúncio",
+     "start": 17.8,
+     "end": 18.36,
+     "emph": true
+    },
+    {
+     "text": "mostra",
+     "start": 18.36,
+     "end": 18.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.76,
+   "end": 20.2,
+   "words": [
+    {
+     "text": "o",
+     "start": 18.76,
+     "end": 18.92,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 18.92,
+     "end": 19.08,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 19.08,
+     "end": 19.24,
+     "emph": false
+    },
+    {
+     "text": "dono",
+     "start": 19.24,
+     "end": 19.8,
+     "emph": false
+    },
+    {
+     "text": "quer.",
+     "start": 19.8,
+     "end": 19.9,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 20.2,
+   "end": 21.48,
+   "words": [
+    {
+     "text": "A",
+     "start": 20.2,
+     "end": 20.36,
+     "emph": false
+    },
+    {
+     "text": "transação",
+     "start": 20.36,
+     "end": 20.92,
+     "emph": true
+    },
+    {
+     "text": "mostra",
+     "start": 21.08,
+     "end": 21.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 21.48,
+   "end": 22.833,
+   "words": [
+    {
+     "text": "o",
+     "start": 21.48,
+     "end": 21.56,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 21.56,
+     "end": 21.8,
+     "emph": false
+    },
+    {
+     "text": "alguém",
+     "start": 21.8,
+     "end": 22.03,
+     "emph": false
+    },
+    {
+     "text": "pagou.",
+     "start": 22.2,
+     "end": 22.57,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.833,
+   "end": 23.26,
+   "words": [
+    {
+     "text": "Compare",
+     "start": 22.833,
+     "end": 22.91,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.72,
+   "end": 25.16,
+   "words": [
+    {
+     "text": "com",
+     "start": 23.72,
+     "end": 23.88,
+     "emph": false
+    },
+    {
+     "text": "vendas",
+     "start": 23.88,
+     "end": 24.28,
+     "emph": false
+    },
+    {
+     "text": "reais",
+     "start": 24.28,
+     "end": 24.6,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 24.6,
+     "end": 24.76,
+     "emph": false
+    },
+    {
+     "text": "rua.",
+     "start": 24.76,
+     "end": 24.89,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 25.16,
+   "end": 26.04,
+   "words": [
+    {
+     "text": "E",
+     "start": 25.16,
+     "end": 25.286,
+     "emph": false
+    },
+    {
+     "text": "guarde,",
+     "start": 25.286,
+     "end": 25.81,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 26.04,
+   "end": 27.48,
+   "words": [
+    {
+     "text": "de",
+     "start": 26.04,
+     "end": 26.14,
+     "emph": false
+    },
+    {
+     "text": "cada",
+     "start": 26.28,
+     "end": 26.6,
+     "emph": false
+    },
+    {
+     "text": "negócio",
+     "start": 26.6,
+     "end": 27.08,
+     "emph": false
+    },
+    {
+     "text": "seu,",
+     "start": 27.08,
+     "end": 27.31,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 27.48,
+   "end": 28.52,
+   "words": [
+    {
+     "text": "o",
+     "start": 27.48,
+     "end": 27.64,
+     "emph": false
+    },
+    {
+     "text": "valor",
+     "start": 27.64,
+     "end": 28.04,
+     "emph": false
+    },
+    {
+     "text": "pedido",
+     "start": 28.04,
+     "end": 28.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 28.52,
+   "end": 29.8,
+   "words": [
+    {
+     "text": "e",
+     "start": 28.52,
+     "end": 28.68,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 28.68,
+     "end": 28.84,
+     "emph": false
+    },
+    {
+     "text": "valor",
+     "start": 28.84,
+     "end": 29.16,
+     "emph": false
+    },
+    {
+     "text": "fechado.",
+     "start": 29.16,
+     "end": 29.55,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 29.8,
+   "end": 30.6,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 29.8,
+     "end": 29.87,
+     "emph": false
+    },
+    {
+     "text": "argumenta",
+     "start": 30.12,
+     "end": 30.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 30.6,
+   "end": 31.8,
+   "words": [
+    {
+     "text": "com",
+     "start": 30.6,
+     "end": 30.84,
+     "emph": false
+    },
+    {
+     "text": "venda",
+     "start": 30.84,
+     "end": 31.24,
+     "emph": true
+    },
+    {
+     "text": "real",
+     "start": 31.24,
+     "end": 31.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 31.8,
+   "end": 33.32,
+   "words": [
+    {
+     "text": "não",
+     "start": 31.8,
+     "end": 31.96,
+     "emph": false
+    },
+    {
+     "text": "discute",
+     "start": 31.96,
+     "end": 32.6,
+     "emph": false
+    },
+    {
+     "text": "opinião.",
+     "start": 32.6,
+     "end": 32.93,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.32,
+   "end": 34.52,
+   "words": [
+    {
+     "text": "Se",
+     "start": 33.32,
+     "end": 33.48,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 33.48,
+     "end": 33.72,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 33.72,
+     "end": 33.88,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 33.88,
+     "end": 34.33,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 34.52,
+   "end": 35.72,
+   "words": [
+    {
+     "text": "comente",
+     "start": 34.52,
+     "end": 35.16,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 35.16,
+     "end": 35.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 35.72,
+   "end": 36.76,
+   "words": [
+    {
+     "text": "e",
+     "start": 35.72,
+     "end": 35.88,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 35.88,
+     "end": 36.44,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 36.44,
+     "end": 36.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 36.76,
+   "end": 38.23,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 36.76,
+     "end": 37.16,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 37.16,
+     "end": 37.73,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

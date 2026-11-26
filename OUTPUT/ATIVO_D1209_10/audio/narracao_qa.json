@@ -1,0 +1,66 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 6.19,
+    "palavras_nao_reconhecidas": [
+      "cinco",
+      "quatro"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 6.84,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.52,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 6.55,
+    "palavras_nao_reconhecidas": [
+      "Está"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.07,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.43,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 37.45,
+    "asr_match": 0.968,
+    "aligned_words": "92/95",
+    "words_per_min": 152,
+    "heard": "O cliente mandou um áudio de 5 minutos. E a única coisa que importava estava no minuto 4. Três quartos, perto da escola e o teto de preço. Perdidos entre a reforma da cunhada e o trânsito. Se você responde com outro áudio, a informação se perde de novo. Ouça inteiro e devolva por escrito. Em tópicos. Entendi isso, isso e isso. Tá certo? O cliente corrige na hora. E você fica com a ficha dele pronta. Áudio é conversa. Por escrito é combinado. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 39.87,
+      "wpm": 143
+    },
+    "pausas_moldadas": {
+      "n": 16,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.42,
+    "final": {
+      "seconds": 37.45,
+      "wpm": 152
+    }
+  }
+]

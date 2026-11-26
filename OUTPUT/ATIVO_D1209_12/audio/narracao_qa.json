@@ -1,0 +1,65 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.76,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 6.95,
+    "palavras_nao_reconhecidas": [
+      "1990"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.27,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 6.2,
+    "palavras_nao_reconhecidas": [
+      "vinte"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.67,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.51,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.49,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 37.0,
+    "asr_match": 0.98,
+    "aligned_words": "100/102",
+    "words_per_min": 165,
+    "heard": "Dê uma caneca a uma pessoa e ela passa a valer mais que o dobro. Num estudo de 1990, pesquisadores deram canecas à metade dos participantes e abriram um mercado entre eles. Quem ganhou a caneca, pedia mais que o dobro do que os outros topavam pagar. Isso tem nome, efeito dotação. Agora, pense no dono de uma casa em que ele viveu 20 anos. Ouça a história da casa primeiro. Depois, mostre o que o mercado pagou por casas parecidas. O dono não está mentindo. Ele está sentindo o preço. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 38.36,
+      "wpm": 160
+    },
+    "pausas_moldadas": {
+      "n": 17,
+      "max_s": 0.5
+    },
+    "pausas_encurtadas_s": 1.36,
+    "final": {
+      "seconds": 37.0,
+      "wpm": 165
+    }
+  }
+]
