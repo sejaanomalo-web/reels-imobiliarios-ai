@@ -1,0 +1,501 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "1854": "mil oitocentos e cinquenta e quatro"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1211-18",
+ "lote": "D1211",
+ "title": "Mandou cortar a corda",
+ "outputDir": "ATIVO_D1211_18",
+ "deliverables": {
+  "final": "ATIVO_D1211_18_FINAL.mp4",
+  "narration": "ATIVO_D1211_18_NARRACAO.wav",
+  "subtitles": "ATIVO_D1211_18_legendas.srt",
+  "cover": "ATIVO_D1211_18_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-11/ATIVO-D1211-18_mandou_cortar_a_corda.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-26",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Em 1854, um homem subiu numa plataforma alta e mandou cortar a corda.",
+   "caption": "Em *1854,* | um homem subiu | numa *plataforma alta* | e mandou | *cortar a corda.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "quem",
+   "text": "Era um inventor, mostrando o freio de segurança do elevador numa feira em Nova York.",
+   "caption": "Era um *inventor,* | mostrando o *freio* de segurança | do *elevador* | numa feira | em Nova York.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "parou",
+   "text": "A plataforma caiu poucos centímetros e parou. O público viu com os próprios olhos.",
+   "caption": "A plataforma caiu | *poucos centímetros* | e *parou.* | O público viu | com os *próprios olhos.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Ele não disse que era seguro. Ele mostrou.",
+   "caption": "Ele *não disse* | que era seguro. | Ele *mostrou.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "ponte",
+   "text": "Quando o cliente desconfiar, não jure: mostre a matrícula, as certidões, o histórico.",
+   "caption": "Quando o cliente | *desconfiar,* | não jure: | mostre a *matrícula,* | as *certidões,* | o *histórico.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Prova convence mais do que promessa.",
+   "caption": "*Prova* convence mais | do que *promessa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "quem": 0.35,
+  "parou": 0.35,
+  "virada": 0.35,
+  "ponte": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_1854": {
+   "seg": "s1",
+   "word": "1854",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_plataforma": {
+   "seg": "s1",
+   "word": "plataforma",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_cortar": {
+   "seg": "s1",
+   "word": "cortar",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_corda": {
+   "seg": "s1",
+   "word": "corda",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_inventor": {
+   "seg": "s2",
+   "word": "inventor",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_freio": {
+   "seg": "s2",
+   "word": "freio",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_elevador": {
+   "seg": "s2",
+   "word": "elevador",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_centimetros": {
+   "seg": "s3",
+   "word": "centímetros",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_parou": {
+   "seg": "s3",
+   "word": "parou",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_olhos": {
+   "seg": "s3",
+   "word": "olhos",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_disse": {
+   "seg": "s4",
+   "word": "disse",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_mostrou": {
+   "seg": "s4",
+   "word": "mostrou",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_desconfiar": {
+   "seg": "s5",
+   "word": "desconfiar",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_matricula": {
+   "seg": "s5",
+   "word": "matrícula",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_certidoes": {
+   "seg": "s5",
+   "word": "certidões",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_historico": {
+   "seg": "s5",
+   "word": "histórico",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_prova": {
+   "seg": "s6",
+   "word": "Prova",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_promessa": {
+   "seg": "s6",
+   "word": "promessa",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_1854",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "h_cortar",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "q_inventor",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "q_elevador",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "p_parou",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_disse",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_desconfiar",
+   "offset": -0.05,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_certidoes",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_prova",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.2,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.7,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_plataforma",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_disse",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_promessa",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T03",
+  "ancoras": {
+   "virada": "cue:v_disse",
+   "insight": "cue:a_desconfiar",
+   "resolucao": "cue:f_promessa"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "maquete-3d",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "historia",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "torre com plataforma e corda.",
+  "justificativaHorario": "18h: volta para casa, história.",
+  "trilha": "T03",
+  "justificativaTrilha": "arco de descoberta.",
+  "data": "2026-12-11",
+  "slot": "18:00",
+  "arquivo": "PRODUCAO/grade/2026-12-11.json"
+ },
+ "modelos4": true,
+ "modelo": 4,
+ "modeloNome": "Maquete 3D"
+}

@@ -1,0 +1,515 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1211-10",
+ "lote": "D1211",
+ "title": "A mensagem das 23h",
+ "outputDir": "ATIVO_D1211_10",
+ "deliverables": {
+  "final": "ATIVO_D1211_10_FINAL.mp4",
+  "narration": "ATIVO_D1211_10_NARRACAO.wav",
+  "subtitles": "ATIVO_D1211_10_legendas.srt",
+  "cover": "ATIVO_D1211_10_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-11/ATIVO-D1211-10_a_mensagem_das_23h.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-26",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Chegou mensagem do cliente às onze da noite. E você respondeu na hora.",
+   "caption": "Chegou *mensagem* | do cliente | às *onze da noite.* | E você respondeu | *na hora.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "repete",
+   "text": "No dia seguinte, ele manda de novo às onze. E às onze e meia.",
+   "caption": "No dia seguinte, | ele manda *de novo* | às *onze.* | E às *onze e meia.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "ensinou",
+   "text": "Você ensinou que o seu horário é qualquer horário.",
+   "caption": "Você *ensinou* | que o seu horário | é *qualquer horário.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Responda de manhã, cedo, com tudo resolvido.",
+   "caption": "Responda *de manhã,* | *cedo,* | com tudo *resolvido.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Se for urgente de verdade, ligue. Se não, uma mensagem curta: amanhã às nove te mando tudo.",
+   "caption": "Se for *urgente* de verdade, | *ligue.* | Se não, | uma mensagem *curta:* | amanhã às *nove* | te mando tudo.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Disponível não é o mesmo que sempre online.",
+   "caption": "*Disponível* | não é o mesmo | que *sempre online.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "repete": 0.35,
+  "ensinou": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_mensagem": {
+   "seg": "s1",
+   "word": "mensagem",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_noite": {
+   "seg": "s1",
+   "word": "noite",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_hora": {
+   "seg": "s1",
+   "word": "hora",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_novo": {
+   "seg": "s2",
+   "word": "novo",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_onze": {
+   "seg": "s2",
+   "word": "onze",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_meia": {
+   "seg": "s2",
+   "word": "meia",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_ensinou": {
+   "seg": "s3",
+   "word": "ensinou",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_qualquer": {
+   "seg": "s3",
+   "word": "qualquer",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_manha": {
+   "seg": "s4",
+   "word": "manhã",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_cedo": {
+   "seg": "s4",
+   "word": "cedo",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_resolvido": {
+   "seg": "s4",
+   "word": "resolvido",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_urgente": {
+   "seg": "s5",
+   "word": "urgente",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_ligue": {
+   "seg": "s5",
+   "word": "ligue",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_curta": {
+   "seg": "s5",
+   "word": "curta",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_nove": {
+   "seg": "s5",
+   "word": "nove",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_disponivel": {
+   "seg": "s6",
+   "word": "Disponível",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_online": {
+   "seg": "s6",
+   "word": "online",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_mensagem",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "h_hora",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "r_onze",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "e_ensinou",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_manha",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_resolvido",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_ligue",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_nove",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_online",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.75,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.85,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.2,
+   "sound": "click",
+   "gain": -23,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.28,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_noite",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_manha",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_online",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T02",
+  "ancoras": {
+   "virada": "cue:v_manha",
+   "insight": "cue:a_urgente",
+   "resolucao": "cue:f_online"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "cartoon-explicativo",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "corretor-real",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "pull",
+  "justificativaModelo": "corretor de pijama e relógio.",
+  "justificativaHorario": "10h: manhã de atendimento.",
+  "trilha": "T02",
+  "justificativaTrilha": "arco emocional (da noite à manhã).",
+  "data": "2026-12-11",
+  "slot": "10:00",
+  "arquivo": "PRODUCAO/grade/2026-12-11.json"
+ },
+ "modelos4": true,
+ "modelo": 1,
+ "modeloNome": "Cartoon explicativo"
+}

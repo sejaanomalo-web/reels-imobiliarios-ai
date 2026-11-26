@@ -1,0 +1,499 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1211-21",
+ "lote": "D1211",
+ "title": "Nas fotos parecia maior",
+ "outputDir": "ATIVO_D1211_21",
+ "deliverables": {
+  "final": "ATIVO_D1211_21_FINAL.mp4",
+  "narration": "ATIVO_D1211_21_NARRACAO.wav",
+  "subtitles": "ATIVO_D1211_21_legendas.srt",
+  "cover": "ATIVO_D1211_21_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-11/ATIVO-D1211-21_nas_fotos_parecia_maior.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-26",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O cliente chegou na visita e disse: nas fotos parecia maior.",
+   "caption": "O cliente chegou | na visita e disse: | nas *fotos* | parecia *maior.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "lente",
+   "text": "A lente bem aberta estica o cômodo e afasta as paredes.",
+   "caption": "A *lente* bem aberta | *estica* o cômodo | e *afasta* as paredes.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "porta",
+   "text": "A foto atrai a visita. Mas a decepção começa na porta.",
+   "caption": "A foto *atrai* a visita. | Mas a *decepção* | começa na *porta.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Expectativa alta demais vira objeção.",
+   "caption": "*Expectativa* | alta demais | vira *objeção.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Use fotos honestas, coloque a metragem de cada cômodo e mostre algo que dê escala, como uma cama ou uma mesa.",
+   "caption": "Use fotos *honestas,* | coloque a *metragem* | de cada cômodo | e mostre algo | que dê *escala,* | como uma *cama* | ou uma *mesa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Quem chega esperando o real pode gostar do real.",
+   "caption": "Quem chega | esperando o *real* | pode *gostar* do real.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "lente": 0.35,
+  "porta": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_fotos": {
+   "seg": "s1",
+   "word": "fotos",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_maior": {
+   "seg": "s1",
+   "word": "maior",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_lente": {
+   "seg": "s2",
+   "word": "lente",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_estica": {
+   "seg": "s2",
+   "word": "estica",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_afasta": {
+   "seg": "s2",
+   "word": "afasta",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_atrai": {
+   "seg": "s3",
+   "word": "atrai",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_decepcao": {
+   "seg": "s3",
+   "word": "decepção",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_porta": {
+   "seg": "s3",
+   "word": "porta",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_expectativa": {
+   "seg": "s4",
+   "word": "Expectativa",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_objecao": {
+   "seg": "s4",
+   "word": "objeção",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_honestas": {
+   "seg": "s5",
+   "word": "honestas",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_metragem": {
+   "seg": "s5",
+   "word": "metragem",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_escala": {
+   "seg": "s5",
+   "word": "escala",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_cama": {
+   "seg": "s5",
+   "word": "cama",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_mesa": {
+   "seg": "s5",
+   "word": "mesa",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_real": {
+   "seg": "s6",
+   "word": "esperando",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_gostar": {
+   "seg": "s6",
+   "word": "gostar",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_fotos",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "l_lente",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "l_afasta",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "p_decepcao",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_expectativa",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_honestas",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_escala",
+   "offset": -0.05,
+   "sound": "impact",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_mesa",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_gostar",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.1,
+   "sound": "shimmer",
+   "gain": -25
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 2.3,
+   "sound": "chord",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_maior",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_expectativa",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_gostar",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T01",
+  "ancoras": {
+   "virada": "cue:v_expectativa",
+   "insight": "cue:a_honestas",
+   "resolucao": "cue:f_gostar"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "pictograma-cinematografico",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "corretor-real",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "a moldura que encolhe.",
+  "justificativaHorario": "21h: leitura atenta.",
+  "trilha": "T01",
+  "justificativaTrilha": "cama de explicação.",
+  "data": "2026-12-11",
+  "slot": "21:00",
+  "arquivo": "PRODUCAO/grade/2026-12-11.json"
+ },
+ "modelos4": true,
+ "modelo": 2,
+ "modeloNome": "Pictograma cinematográfico"
+}
