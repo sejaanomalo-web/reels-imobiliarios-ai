@@ -1,0 +1,75 @@
+1
+00:00:00,120 --> 00:00:02,340
+Quantas mensagens de cliente você deixou
+
+2
+00:00:02,360 --> 00:00:04,320
+para responder depois hoje?
+
+3
+00:00:04,520 --> 00:00:05,780
+Um consultor americano
+
+4
+00:00:05,800 --> 00:00:06,920
+criou uma regra simples:
+
+5
+00:00:07,160 --> 00:00:09,060
+se leva menos de dois minutos,
+
+6
+00:00:09,080 --> 00:00:10,260
+faça agora.
+
+7
+00:00:10,360 --> 00:00:12,100
+Anotar para depois custa mais
+
+8
+00:00:12,120 --> 00:00:13,000
+do que resolver.
+
+9
+00:00:13,240 --> 00:00:14,340
+Confirmar a visita,
+
+10
+00:00:14,360 --> 00:00:15,700
+mandar a localização,
+
+11
+00:00:15,720 --> 00:00:17,770
+responder um ainda está disponível:
+
+12
+00:00:17,960 --> 00:00:19,890
+tudo cabe em dois minutos.
+
+13
+00:00:20,040 --> 00:00:21,700
+O que passa de dois minutos
+
+14
+00:00:21,720 --> 00:00:22,740
+vai para a agenda,
+
+15
+00:00:22,760 --> 00:00:23,940
+com dia e hora.
+
+16
+00:00:24,200 --> 00:00:26,530
+Lista curta, cliente respondido.
+
+17
+00:00:26,600 --> 00:00:27,700
+Se você é corretor,
+
+18
+00:00:27,720 --> 00:00:29,780
+comente SISTEMA e conheça nosso
+
+19
+00:00:29,800 --> 00:00:31,130
+sistema personalizado.

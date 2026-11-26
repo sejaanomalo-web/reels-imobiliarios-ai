@@ -1,0 +1,800 @@
+{
+ "id": "ATIVO-D1211-15",
+ "title": "A regra dos dois minutos",
+ "fps": 30,
+ "duration": 33.63333333333333,
+ "durationInFrames": 1009,
+ "narrationEnd": 31.409,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.32
+  },
+  {
+   "id": "regra",
+   "start": 4.32,
+   "end": 10.21
+  },
+  {
+   "id": "porque",
+   "start": 10.21,
+   "end": 13.02
+  },
+  {
+   "id": "virada",
+   "start": 13.02,
+   "end": 19.865
+  },
+  {
+   "id": "resto",
+   "start": 19.865,
+   "end": 23.97
+  },
+  {
+   "id": "desfecho",
+   "start": 23.97,
+   "end": 26.465
+  },
+  {
+   "id": "cta",
+   "start": 26.465,
+   "end": 33.633
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Quantas mensagens de cliente você deixou para responder depois hoje?",
+   "start": 0.12,
+   "end": 4.12
+  },
+  {
+   "id": "s2",
+   "scene": "regra",
+   "text": "Um consultor americano criou uma regra simples: se leva menos de dois minutos, faça agora.",
+   "start": 4.52,
+   "end": 10.06
+  },
+  {
+   "id": "s3",
+   "scene": "porque",
+   "text": "Anotar para depois custa mais do que resolver.",
+   "start": 10.36,
+   "end": 12.8
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Confirmar a visita, mandar a localização, responder um ainda está disponível: tudo cabe em dois minutos.",
+   "start": 13.24,
+   "end": 19.69
+  },
+  {
+   "id": "s5",
+   "scene": "resto",
+   "text": "O que passa de dois minutos vai para a agenda, com dia e hora.",
+   "start": 20.04,
+   "end": 23.74
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Lista curta, cliente respondido.",
+   "start": 24.2,
+   "end": 26.33
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 26.6,
+   "end": 30.93
+  }
+ ],
+ "cues": {
+  "h_mensagens": 0.6,
+  "h_depois": 3.16,
+  "r_regra": 6.28,
+  "r_dois": 8.2,
+  "r_agora": 9.64,
+  "p_anotar": 10.36,
+  "p_mais": 11.96,
+  "p_resolver": 12.44,
+  "v_confirmar": 13.24,
+  "v_localizacao": 14.84,
+  "v_disponivel": 17.16,
+  "v_cabe": 18.36,
+  "s_passa": 20.44,
+  "s_agenda": 22.2,
+  "s_dia": 23.0,
+  "f_curta": 24.68,
+  "f_respondido": 25.8,
+  "cta_quer": 26.6,
+  "cta_comment": 27.72,
+  "cta_word": 28.28,
+  "cta_tiles": 29.0,
+  "cta_sys": 29.8,
+  "cta_leads": 29.48,
+  "cta_atend": 30.28,
+  "cta_direct": 30.28,
+  "cta_end": 30.93
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.08,
+   "words": [
+    {
+     "text": "Quantas",
+     "start": 0.12,
+     "end": 0.6,
+     "emph": false
+    },
+    {
+     "text": "mensagens",
+     "start": 0.6,
+     "end": 1.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.08,
+   "end": 1.72,
+   "words": [
+    {
+     "text": "de",
+     "start": 1.08,
+     "end": 1.24,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 1.24,
+     "end": 1.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.72,
+   "end": 2.36,
+   "words": [
+    {
+     "text": "você",
+     "start": 1.72,
+     "end": 1.96,
+     "emph": false
+    },
+    {
+     "text": "deixou",
+     "start": 1.96,
+     "end": 2.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.36,
+   "end": 3.88,
+   "words": [
+    {
+     "text": "para",
+     "start": 2.36,
+     "end": 2.52,
+     "emph": false
+    },
+    {
+     "text": "responder",
+     "start": 2.52,
+     "end": 3.16,
+     "emph": false
+    },
+    {
+     "text": "depois",
+     "start": 3.16,
+     "end": 3.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.88,
+   "end": 4.52,
+   "words": [
+    {
+     "text": "hoje?",
+     "start": 3.88,
+     "end": 4.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.52,
+   "end": 5.8,
+   "words": [
+    {
+     "text": "Um",
+     "start": 4.52,
+     "end": 4.68,
+     "emph": false
+    },
+    {
+     "text": "consultor",
+     "start": 4.68,
+     "end": 5.32,
+     "emph": false
+    },
+    {
+     "text": "americano",
+     "start": 5.32,
+     "end": 5.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.8,
+   "end": 7.16,
+   "words": [
+    {
+     "text": "criou",
+     "start": 5.8,
+     "end": 6.2,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 6.2,
+     "end": 6.28,
+     "emph": false
+    },
+    {
+     "text": "regra",
+     "start": 6.28,
+     "end": 6.6,
+     "emph": true
+    },
+    {
+     "text": "simples:",
+     "start": 6.6,
+     "end": 6.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.16,
+   "end": 8.04,
+   "words": [
+    {
+     "text": "se",
+     "start": 7.16,
+     "end": 7.4,
+     "emph": false
+    },
+    {
+     "text": "leva",
+     "start": 7.4,
+     "end": 7.8,
+     "emph": false
+    },
+    {
+     "text": "menos",
+     "start": 7.8,
+     "end": 8.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.04,
+   "end": 9.08,
+   "words": [
+    {
+     "text": "de",
+     "start": 8.04,
+     "end": 8.2,
+     "emph": false
+    },
+    {
+     "text": "dois",
+     "start": 8.2,
+     "end": 8.52,
+     "emph": true
+    },
+    {
+     "text": "minutos,",
+     "start": 8.52,
+     "end": 8.89,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.08,
+   "end": 10.36,
+   "words": [
+    {
+     "text": "faça",
+     "start": 9.08,
+     "end": 9.64,
+     "emph": false
+    },
+    {
+     "text": "agora.",
+     "start": 9.64,
+     "end": 10.06,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.36,
+   "end": 11.56,
+   "words": [
+    {
+     "text": "Anotar",
+     "start": 10.36,
+     "end": 10.92,
+     "emph": true
+    },
+    {
+     "text": "para",
+     "start": 10.92,
+     "end": 11.08,
+     "emph": false
+    },
+    {
+     "text": "depois",
+     "start": 11.08,
+     "end": 11.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.56,
+   "end": 12.12,
+   "words": [
+    {
+     "text": "custa",
+     "start": 11.56,
+     "end": 11.96,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 11.96,
+     "end": 12.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.12,
+   "end": 13.24,
+   "words": [
+    {
+     "text": "do",
+     "start": 12.12,
+     "end": 12.28,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 12.28,
+     "end": 12.44,
+     "emph": false
+    },
+    {
+     "text": "resolver.",
+     "start": 12.44,
+     "end": 12.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.24,
+   "end": 14.36,
+   "words": [
+    {
+     "text": "Confirmar",
+     "start": 13.24,
+     "end": 13.72,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 13.72,
+     "end": 13.88,
+     "emph": false
+    },
+    {
+     "text": "visita,",
+     "start": 13.88,
+     "end": 14.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.36,
+   "end": 15.72,
+   "words": [
+    {
+     "text": "mandar",
+     "start": 14.36,
+     "end": 14.76,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 14.76,
+     "end": 14.84,
+     "emph": false
+    },
+    {
+     "text": "localização,",
+     "start": 14.84,
+     "end": 15.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.72,
+   "end": 16.68,
+   "words": [
+    {
+     "text": "responder",
+     "start": 15.72,
+     "end": 15.79,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 16.36,
+     "end": 16.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.68,
+   "end": 17.96,
+   "words": [
+    {
+     "text": "ainda",
+     "start": 16.68,
+     "end": 17.0,
+     "emph": false
+    },
+    {
+     "text": "está",
+     "start": 17.0,
+     "end": 17.16,
+     "emph": false
+    },
+    {
+     "text": "disponível:",
+     "start": 17.16,
+     "end": 17.57,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.96,
+   "end": 18.84,
+   "words": [
+    {
+     "text": "tudo",
+     "start": 17.96,
+     "end": 18.36,
+     "emph": false
+    },
+    {
+     "text": "cabe",
+     "start": 18.36,
+     "end": 18.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.84,
+   "end": 20.04,
+   "words": [
+    {
+     "text": "em",
+     "start": 18.84,
+     "end": 19.0,
+     "emph": false
+    },
+    {
+     "text": "dois",
+     "start": 19.0,
+     "end": 19.32,
+     "emph": false
+    },
+    {
+     "text": "minutos.",
+     "start": 19.32,
+     "end": 19.69,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.04,
+   "end": 20.84,
+   "words": [
+    {
+     "text": "O",
+     "start": 20.04,
+     "end": 20.28,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 20.28,
+     "end": 20.44,
+     "emph": false
+    },
+    {
+     "text": "passa",
+     "start": 20.44,
+     "end": 20.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.84,
+   "end": 21.72,
+   "words": [
+    {
+     "text": "de",
+     "start": 20.84,
+     "end": 21.0,
+     "emph": false
+    },
+    {
+     "text": "dois",
+     "start": 21.0,
+     "end": 21.24,
+     "emph": false
+    },
+    {
+     "text": "minutos",
+     "start": 21.24,
+     "end": 21.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.72,
+   "end": 22.76,
+   "words": [
+    {
+     "text": "vai",
+     "start": 21.72,
+     "end": 21.96,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 21.96,
+     "end": 22.12,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 22.12,
+     "end": 22.2,
+     "emph": false
+    },
+    {
+     "text": "agenda,",
+     "start": 22.2,
+     "end": 22.54,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.76,
+   "end": 24.2,
+   "words": [
+    {
+     "text": "com",
+     "start": 22.76,
+     "end": 23.0,
+     "emph": false
+    },
+    {
+     "text": "dia",
+     "start": 23.0,
+     "end": 23.32,
+     "emph": true
+    },
+    {
+     "text": "e",
+     "start": 23.32,
+     "end": 23.56,
+     "emph": true
+    },
+    {
+     "text": "hora.",
+     "start": 23.56,
+     "end": 23.74,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.2,
+   "end": 25.24,
+   "words": [
+    {
+     "text": "Lista",
+     "start": 24.2,
+     "end": 24.68,
+     "emph": false
+    },
+    {
+     "text": "curta,",
+     "start": 24.68,
+     "end": 25.06,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.24,
+   "end": 26.6,
+   "words": [
+    {
+     "text": "cliente",
+     "start": 25.24,
+     "end": 25.8,
+     "emph": false
+    },
+    {
+     "text": "respondido.",
+     "start": 25.8,
+     "end": 26.33,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.6,
+   "end": 27.72,
+   "words": [
+    {
+     "text": "Se",
+     "start": 26.6,
+     "end": 26.76,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 26.76,
+     "end": 26.92,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 26.92,
+     "end": 27.16,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 27.16,
+     "end": 27.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.72,
+   "end": 28.84,
+   "words": [
+    {
+     "text": "comente",
+     "start": 27.72,
+     "end": 28.28,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 28.28,
+     "end": 28.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.84,
+   "end": 29.8,
+   "words": [
+    {
+     "text": "e",
+     "start": 28.84,
+     "end": 29.0,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 29.0,
+     "end": 29.48,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 29.48,
+     "end": 29.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.8,
+   "end": 31.43,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 29.8,
+     "end": 30.28,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 30.28,
+     "end": 30.93,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

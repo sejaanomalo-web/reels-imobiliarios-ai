@@ -1,0 +1,61 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.0,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.54,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.44,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 6.45,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.7,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.13,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 31.29,
+    "asr_match": 1.0,
+    "aligned_words": "78/78",
+    "words_per_min": 150,
+    "heard": "Quantas mensagens de cliente você deixou para responder depois, hoje? Um consultor americano criou uma regra simples. Se leva menos de dois minutos, faça agora. Anotar para depois custa mais do que resolver. Confirmar a visita, mandar a localização, responder um ainda está disponível. Tudo cabe em dois minutos. O que passa de dois minutos vai para a agenda, com dia e hora. Lista curta, cliente respondido. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 32.86,
+      "wpm": 142
+    },
+    "pausas_moldadas": {
+      "n": 13,
+      "max_s": 0.59
+    },
+    "pausas_encurtadas_s": 1.57,
+    "final": {
+      "seconds": 31.29,
+      "wpm": 150
+    }
+  }
+]

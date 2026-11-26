@@ -1,0 +1,65 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.41,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.82,
+    "palavras_nao_reconhecidas": [
+      "estande"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.49,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.14,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.97,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.01,
+    "palavras_nao_reconhecidas": [
+      "pelos"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 34.05,
+    "asr_match": 0.944,
+    "aligned_words": "93/99",
+    "words_per_min": 174,
+    "heard": "E se o cliente pudesse desistir da compra em 7 dias e receber até a sua comissão de volta? Isso já existe. Na compra de imóvel na planta, assinada em stand ou fora da sede da incorporadora. A lei dá 7 dias para desisti, com devolução de tudo o que foi pago. Inclusive a corretagem. Passados os sete dias sem aviso, o contrato fica firme. Explique esse prazo antes da assinatura e acompanhe o cliente durante essa semana. Venda que passa pelete dias é venda bem feita. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 35.25,
+      "wpm": 169
+    },
+    "pausas_moldadas": {
+      "n": 11,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.2,
+    "final": {
+      "seconds": 34.05,
+      "wpm": 174
+    }
+  }
+]

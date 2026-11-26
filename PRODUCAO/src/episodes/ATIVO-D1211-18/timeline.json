@@ -1,0 +1,820 @@
+{
+ "id": "ATIVO-D1211-18",
+ "title": "Mandou cortar a corda",
+ "fps": 30,
+ "duration": 36.06666666666667,
+ "durationInFrames": 1082,
+ "narrationEnd": 33.863,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.02
+  },
+  {
+   "id": "quem",
+   "start": 6.02,
+   "end": 11.385
+  },
+  {
+   "id": "parou",
+   "start": 11.385,
+   "end": 17.1
+  },
+  {
+   "id": "virada",
+   "start": 17.1,
+   "end": 20.17
+  },
+  {
+   "id": "ponte",
+   "start": 20.17,
+   "end": 26.16
+  },
+  {
+   "id": "desfecho",
+   "start": 26.16,
+   "end": 28.63
+  },
+  {
+   "id": "cta",
+   "start": 28.63,
+   "end": 36.067
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Em 1854, um homem subiu numa plataforma alta e mandou cortar a corda.",
+   "start": 0.12,
+   "end": 5.84
+  },
+  {
+   "id": "s2",
+   "scene": "quem",
+   "text": "Era um inventor, mostrando o freio de segurança do elevador numa feira em Nova York.",
+   "start": 6.2,
+   "end": 11.21
+  },
+  {
+   "id": "s3",
+   "scene": "parou",
+   "text": "A plataforma caiu poucos centímetros e parou. O público viu com os próprios olhos.",
+   "start": 11.56,
+   "end": 16.96
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Ele não disse que era seguro. Ele mostrou.",
+   "start": 17.24,
+   "end": 19.9
+  },
+  {
+   "id": "s5",
+   "scene": "ponte",
+   "text": "Quando o cliente desconfiar, não jure: mostre a matrícula, as certidões, o histórico.",
+   "start": 20.44,
+   "end": 25.96
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Prova convence mais do que promessa.",
+   "start": 26.36,
+   "end": 28.5
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 28.76,
+   "end": 33.44
+  }
+ ],
+ "cues": {
+  "h_1854": 0.84,
+  "h_plataforma": 3.48,
+  "h_cortar": 5.08,
+  "h_corda": 5.56,
+  "q_inventor": 6.68,
+  "q_freio": 7.88,
+  "q_elevador": 9.24,
+  "p_centimetros": 12.92,
+  "p_parou": 13.88,
+  "p_olhos": 16.6,
+  "v_disse": 17.72,
+  "v_mostrou": 19.4,
+  "a_desconfiar": 21.24,
+  "a_matricula": 23.56,
+  "a_certidoes": 24.52,
+  "a_historico": 25.48,
+  "f_prova": 26.36,
+  "f_promessa": 28.12,
+  "cta_quer": 28.76,
+  "cta_comment": 29.96,
+  "cta_word": 30.6,
+  "cta_tiles": 31.4,
+  "cta_sys": 32.28,
+  "cta_leads": 31.96,
+  "cta_atend": 32.76,
+  "cta_direct": 32.76,
+  "cta_end": 33.44
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 2.28,
+   "words": [
+    {
+     "text": "Em",
+     "start": 0.12,
+     "end": 0.84,
+     "emph": false
+    },
+    {
+     "text": "1854,",
+     "start": 0.84,
+     "end": 2.13,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.28,
+   "end": 3.16,
+   "words": [
+    {
+     "text": "um",
+     "start": 2.28,
+     "end": 2.44,
+     "emph": false
+    },
+    {
+     "text": "homem",
+     "start": 2.44,
+     "end": 2.76,
+     "emph": false
+    },
+    {
+     "text": "subiu",
+     "start": 2.76,
+     "end": 3.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.16,
+   "end": 4.52,
+   "words": [
+    {
+     "text": "numa",
+     "start": 3.16,
+     "end": 3.48,
+     "emph": false
+    },
+    {
+     "text": "plataforma",
+     "start": 3.48,
+     "end": 4.12,
+     "emph": true
+    },
+    {
+     "text": "alta",
+     "start": 4.12,
+     "end": 4.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.52,
+   "end": 5.08,
+   "words": [
+    {
+     "text": "e",
+     "start": 4.52,
+     "end": 4.68,
+     "emph": false
+    },
+    {
+     "text": "mandou",
+     "start": 4.68,
+     "end": 5.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 5.08,
+   "end": 6.2,
+   "words": [
+    {
+     "text": "cortar",
+     "start": 5.08,
+     "end": 5.22,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 5.48,
+     "end": 5.56,
+     "emph": true
+    },
+    {
+     "text": "corda.",
+     "start": 5.56,
+     "end": 5.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.2,
+   "end": 7.32,
+   "words": [
+    {
+     "text": "Era",
+     "start": 6.2,
+     "end": 6.488,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 6.488,
+     "end": 6.68,
+     "emph": false
+    },
+    {
+     "text": "inventor,",
+     "start": 6.68,
+     "end": 7.11,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.32,
+   "end": 9.08,
+   "words": [
+    {
+     "text": "mostrando",
+     "start": 7.32,
+     "end": 7.8,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 7.8,
+     "end": 7.88,
+     "emph": false
+    },
+    {
+     "text": "freio",
+     "start": 7.88,
+     "end": 8.36,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 8.36,
+     "end": 8.52,
+     "emph": false
+    },
+    {
+     "text": "segurança",
+     "start": 8.52,
+     "end": 9.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.08,
+   "end": 9.88,
+   "words": [
+    {
+     "text": "do",
+     "start": 9.08,
+     "end": 9.24,
+     "emph": false
+    },
+    {
+     "text": "elevador",
+     "start": 9.24,
+     "end": 9.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.88,
+   "end": 10.68,
+   "words": [
+    {
+     "text": "numa",
+     "start": 9.88,
+     "end": 9.96,
+     "emph": false
+    },
+    {
+     "text": "feira",
+     "start": 10.28,
+     "end": 10.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.68,
+   "end": 11.56,
+   "words": [
+    {
+     "text": "em",
+     "start": 10.68,
+     "end": 10.76,
+     "emph": false
+    },
+    {
+     "text": "Nova",
+     "start": 10.76,
+     "end": 11.08,
+     "emph": false
+    },
+    {
+     "text": "York.",
+     "start": 11.08,
+     "end": 11.21,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.56,
+   "end": 12.6,
+   "words": [
+    {
+     "text": "A",
+     "start": 11.56,
+     "end": 11.72,
+     "emph": false
+    },
+    {
+     "text": "plataforma",
+     "start": 11.72,
+     "end": 12.2,
+     "emph": false
+    },
+    {
+     "text": "caiu",
+     "start": 12.2,
+     "end": 12.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.6,
+   "end": 13.72,
+   "words": [
+    {
+     "text": "poucos",
+     "start": 12.6,
+     "end": 12.92,
+     "emph": true
+    },
+    {
+     "text": "centímetros",
+     "start": 12.92,
+     "end": 13.49,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.72,
+   "end": 14.68,
+   "words": [
+    {
+     "text": "e",
+     "start": 13.72,
+     "end": 13.88,
+     "emph": false
+    },
+    {
+     "text": "parou.",
+     "start": 13.88,
+     "end": 14.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.68,
+   "end": 15.8,
+   "words": [
+    {
+     "text": "O",
+     "start": 14.68,
+     "end": 14.84,
+     "emph": false
+    },
+    {
+     "text": "público",
+     "start": 14.84,
+     "end": 15.32,
+     "emph": false
+    },
+    {
+     "text": "viu",
+     "start": 15.32,
+     "end": 15.67,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.8,
+   "end": 17.24,
+   "words": [
+    {
+     "text": "com",
+     "start": 15.8,
+     "end": 16.04,
+     "emph": false
+    },
+    {
+     "text": "os",
+     "start": 16.04,
+     "end": 16.2,
+     "emph": false
+    },
+    {
+     "text": "próprios",
+     "start": 16.2,
+     "end": 16.6,
+     "emph": true
+    },
+    {
+     "text": "olhos.",
+     "start": 16.6,
+     "end": 16.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.24,
+   "end": 17.96,
+   "words": [
+    {
+     "text": "Ele",
+     "start": 17.24,
+     "end": 17.31,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 17.56,
+     "end": 17.72,
+     "emph": true
+    },
+    {
+     "text": "disse",
+     "start": 17.72,
+     "end": 17.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.96,
+   "end": 19.08,
+   "words": [
+    {
+     "text": "que",
+     "start": 17.96,
+     "end": 18.12,
+     "emph": false
+    },
+    {
+     "text": "era",
+     "start": 18.12,
+     "end": 18.36,
+     "emph": false
+    },
+    {
+     "text": "seguro.",
+     "start": 18.36,
+     "end": 18.65,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 19.08,
+   "end": 20.25,
+   "words": [
+    {
+     "text": "Ele",
+     "start": 19.08,
+     "end": 19.4,
+     "emph": false
+    },
+    {
+     "text": "mostrou.",
+     "start": 19.4,
+     "end": 19.9,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.44,
+   "end": 21.24,
+   "words": [
+    {
+     "text": "Quando",
+     "start": 20.44,
+     "end": 20.54,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 20.76,
+     "end": 20.84,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 20.84,
+     "end": 21.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.24,
+   "end": 22.04,
+   "words": [
+    {
+     "text": "desconfiar,",
+     "start": 21.24,
+     "end": 21.81,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.04,
+   "end": 22.92,
+   "words": [
+    {
+     "text": "não",
+     "start": 22.04,
+     "end": 22.28,
+     "emph": false
+    },
+    {
+     "text": "jure:",
+     "start": 22.28,
+     "end": 22.63,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.92,
+   "end": 24.28,
+   "words": [
+    {
+     "text": "mostre",
+     "start": 22.92,
+     "end": 23.4,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 23.4,
+     "end": 23.56,
+     "emph": false
+    },
+    {
+     "text": "matrícula,",
+     "start": 23.56,
+     "end": 24.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.28,
+   "end": 25.32,
+   "words": [
+    {
+     "text": "as",
+     "start": 24.28,
+     "end": 24.52,
+     "emph": false
+    },
+    {
+     "text": "certidões,",
+     "start": 24.52,
+     "end": 25.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 25.32,
+   "end": 26.36,
+   "words": [
+    {
+     "text": "o",
+     "start": 25.32,
+     "end": 25.48,
+     "emph": false
+    },
+    {
+     "text": "histórico.",
+     "start": 25.48,
+     "end": 25.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.36,
+   "end": 27.8,
+   "words": [
+    {
+     "text": "Prova",
+     "start": 26.36,
+     "end": 26.87,
+     "emph": true
+    },
+    {
+     "text": "convence",
+     "start": 27.0,
+     "end": 27.64,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 27.64,
+     "end": 27.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.8,
+   "end": 28.76,
+   "words": [
+    {
+     "text": "do",
+     "start": 27.8,
+     "end": 27.96,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 27.96,
+     "end": 28.12,
+     "emph": false
+    },
+    {
+     "text": "promessa.",
+     "start": 28.12,
+     "end": 28.5,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.76,
+   "end": 29.96,
+   "words": [
+    {
+     "text": "Se",
+     "start": 28.76,
+     "end": 29.0,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 29.0,
+     "end": 29.16,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 29.16,
+     "end": 29.32,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 29.32,
+     "end": 29.83,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.96,
+   "end": 31.24,
+   "words": [
+    {
+     "text": "comente",
+     "start": 29.96,
+     "end": 30.6,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 30.6,
+     "end": 31.07,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.24,
+   "end": 32.28,
+   "words": [
+    {
+     "text": "e",
+     "start": 31.24,
+     "end": 31.4,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 31.4,
+     "end": 31.96,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 31.96,
+     "end": 32.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.28,
+   "end": 33.94,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 32.28,
+     "end": 32.76,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 32.76,
+     "end": 33.44,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.72,
+    "palavras_nao_reconhecidas": [
+      "1854"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.01,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.4,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.66,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.52,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.14,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.68,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 33.74,
+    "asr_match": 0.975,
+    "aligned_words": "78/80",
+    "words_per_min": 142,
+    "heard": "Em 1854, um homem subiu numa plataforma alta e mandou cortar a corda. Era o inventor, mostrando o freio de segurança do elevador numa feira em Nova York. A plataforma caiu poucos centímetros e parou. O público viu com os próprios olhos. Ele não disse que era seguro. Ele mostrou. Quando o cliente desconfiar, não jure. Mostre a matrícula. As certidões, o histórico. Prova. Convence mais do que promessa. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 35.67,
+      "wpm": 135
+    },
+    "pausas_moldadas": {
+      "n": 15,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.93,
+    "final": {
+      "seconds": 33.74,
+      "wpm": 142
+    }
+  }
+]
