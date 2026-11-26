@@ -52,9 +52,10 @@
       "justificativaTrilha": "motor prático para a ação.",
       "episodio": "ATIVO-D1206-10",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-06/ATIVO-D1206-10_dez_imoveis_no_sabado.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/06-domingo/10h00"
     },
     {
       "horario": "12:00",
@@ -95,9 +96,10 @@
       "justificativaTrilha": "arco emocional, da calma ao fim de tarde.",
       "episodio": "ATIVO-D1206-15",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-06/ATIVO-D1206-15_o_horario_da_rotina.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/06-domingo/15h00"
     },
     {
       "horario": "18:00",

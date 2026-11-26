@@ -1,0 +1,1004 @@
+{
+ "id": "ATIVO-D1206-21",
+ "title": "O preço por dia",
+ "fps": 30,
+ "duration": 41.93333333333333,
+ "durationInFrames": 1258,
+ "narrationEnd": 39.711,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 7.575
+  },
+  {
+   "id": "estudo",
+   "start": 7.575,
+   "end": 15.27
+  },
+  {
+   "id": "cafe",
+   "start": 15.27,
+   "end": 19.5
+  },
+  {
+   "id": "virada",
+   "start": 19.5,
+   "end": 22.235
+  },
+  {
+   "id": "acao",
+   "start": 22.235,
+   "end": 29.81
+  },
+  {
+   "id": "desfecho",
+   "start": 29.81,
+   "end": 34.155
+  },
+  {
+   "id": "cta",
+   "start": 34.155,
+   "end": 41.933
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Um real por dia parece pouco. Trezentos e sessenta e cinco reais por ano parecem mais. É o mesmo dinheiro.",
+   "start": 0.12,
+   "end": 7.35
+  },
+  {
+   "id": "s2",
+   "scene": "estudo",
+   "text": "Em 1998, um pesquisador de Harvard mostrou que o mesmo valor, dito por dia, costuma parecer menor.",
+   "start": 7.8,
+   "end": 15.06
+  },
+  {
+   "id": "s3",
+   "scene": "cafe",
+   "text": "Porque a gente compara com os gastos pequenos do dia, como um café.",
+   "start": 15.48,
+   "end": 19.28
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Use isso para dar clareza, não para pressionar.",
+   "start": 19.72,
+   "end": 22.03
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "O apartamento perto do trabalho custa mais? Mostre quanto essa diferença dá por dia, ao lado das horas de trânsito que ele deixa de pegar.",
+   "start": 22.44,
+   "end": 29.58
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Número grande assusta. Número do dia a dia dá para comparar.",
+   "start": 30.04,
+   "end": 33.95
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 34.36,
+   "end": 39.21
+  }
+ ],
+ "cues": {
+  "h_real": 0.44,
+  "h_pouco": 1.8,
+  "h_ano": 4.6,
+  "h_mesmo": 6.68,
+  "e_1998": 8.387,
+  "e_dia": 13.56,
+  "e_menor": 14.84,
+  "c_compara": 16.2,
+  "c_cafe": 18.92,
+  "v_clareza": 20.6,
+  "v_pressionar": 21.64,
+  "a_trabalho": 23.56,
+  "a_diferenca": 26.04,
+  "a_dia": 26.92,
+  "a_horas": 27.96,
+  "f_assusta": 31.0,
+  "f_comparar": 33.48,
+  "cta_quer": 34.36,
+  "cta_comment": 35.8,
+  "cta_word": 36.6,
+  "cta_tiles": 37.32,
+  "cta_sys": 38.2,
+  "cta_leads": 37.88,
+  "cta_atend": 38.6,
+  "cta_direct": 38.6,
+  "cta_end": 39.21
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.32,
+   "words": [
+    {
+     "text": "Um",
+     "start": 0.12,
+     "end": 0.44,
+     "emph": true
+    },
+    {
+     "text": "real",
+     "start": 0.44,
+     "end": 0.76,
+     "emph": true
+    },
+    {
+     "text": "por",
+     "start": 0.76,
+     "end": 1.0,
+     "emph": false
+    },
+    {
+     "text": "dia",
+     "start": 1.0,
+     "end": 1.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.32,
+   "end": 2.186,
+   "words": [
+    {
+     "text": "parece",
+     "start": 1.32,
+     "end": 1.8,
+     "emph": false
+    },
+    {
+     "text": "pouco.",
+     "start": 1.8,
+     "end": 2.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.186,
+   "end": 4.44,
+   "words": [
+    {
+     "text": "Trezentos",
+     "start": 2.186,
+     "end": 2.26,
+     "emph": true
+    },
+    {
+     "text": "e",
+     "start": 2.881,
+     "end": 2.959,
+     "emph": true
+    },
+    {
+     "text": "sessenta",
+     "start": 2.959,
+     "end": 3.577,
+     "emph": true
+    },
+    {
+     "text": "e",
+     "start": 3.577,
+     "end": 3.654,
+     "emph": true
+    },
+    {
+     "text": "cinco",
+     "start": 3.654,
+     "end": 4.04,
+     "emph": true
+    },
+    {
+     "text": "reais",
+     "start": 4.04,
+     "end": 4.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.44,
+   "end": 5.0,
+   "words": [
+    {
+     "text": "por",
+     "start": 4.44,
+     "end": 4.6,
+     "emph": false
+    },
+    {
+     "text": "ano",
+     "start": 4.6,
+     "end": 4.89,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 5.0,
+   "end": 6.12,
+   "words": [
+    {
+     "text": "parecem",
+     "start": 5.0,
+     "end": 5.56,
+     "emph": false
+    },
+    {
+     "text": "mais.",
+     "start": 5.56,
+     "end": 5.79,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 6.12,
+   "end": 7.8,
+   "words": [
+    {
+     "text": "É",
+     "start": 6.12,
+     "end": 6.44,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 6.44,
+     "end": 6.68,
+     "emph": false
+    },
+    {
+     "text": "mesmo",
+     "start": 6.68,
+     "end": 7.0,
+     "emph": true
+    },
+    {
+     "text": "dinheiro.",
+     "start": 7.0,
+     "end": 7.35,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.8,
+   "end": 9.56,
+   "words": [
+    {
+     "text": "Em",
+     "start": 7.8,
+     "end": 7.87,
+     "emph": false
+    },
+    {
+     "text": "1998,",
+     "start": 8.387,
+     "end": 9.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.56,
+   "end": 10.28,
+   "words": [
+    {
+     "text": "um",
+     "start": 9.56,
+     "end": 9.72,
+     "emph": false
+    },
+    {
+     "text": "pesquisador",
+     "start": 9.72,
+     "end": 10.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.28,
+   "end": 11.08,
+   "words": [
+    {
+     "text": "de",
+     "start": 10.28,
+     "end": 10.44,
+     "emph": false
+    },
+    {
+     "text": "Harvard",
+     "start": 10.44,
+     "end": 11.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 11.08,
+   "end": 12.76,
+   "words": [
+    {
+     "text": "mostrou",
+     "start": 11.08,
+     "end": 11.48,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 11.48,
+     "end": 11.64,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 11.64,
+     "end": 11.8,
+     "emph": false
+    },
+    {
+     "text": "mesmo",
+     "start": 11.8,
+     "end": 12.12,
+     "emph": false
+    },
+    {
+     "text": "valor,",
+     "start": 12.12,
+     "end": 12.53,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 12.76,
+   "end": 13.96,
+   "words": [
+    {
+     "text": "dito",
+     "start": 12.76,
+     "end": 13.09,
+     "emph": false
+    },
+    {
+     "text": "por",
+     "start": 13.32,
+     "end": 13.56,
+     "emph": true
+    },
+    {
+     "text": "dia,",
+     "start": 13.56,
+     "end": 13.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 13.96,
+   "end": 15.48,
+   "words": [
+    {
+     "text": "costuma",
+     "start": 13.96,
+     "end": 14.52,
+     "emph": false
+    },
+    {
+     "text": "parecer",
+     "start": 14.52,
+     "end": 14.84,
+     "emph": false
+    },
+    {
+     "text": "menor.",
+     "start": 14.84,
+     "end": 15.06,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.48,
+   "end": 16.6,
+   "words": [
+    {
+     "text": "Porque",
+     "start": 15.48,
+     "end": 15.88,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 15.88,
+     "end": 15.96,
+     "emph": false
+    },
+    {
+     "text": "gente",
+     "start": 15.96,
+     "end": 16.2,
+     "emph": false
+    },
+    {
+     "text": "compara",
+     "start": 16.2,
+     "end": 16.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 16.6,
+   "end": 17.88,
+   "words": [
+    {
+     "text": "com",
+     "start": 16.6,
+     "end": 16.84,
+     "emph": false
+    },
+    {
+     "text": "os",
+     "start": 16.84,
+     "end": 16.92,
+     "emph": false
+    },
+    {
+     "text": "gastos",
+     "start": 16.92,
+     "end": 17.32,
+     "emph": false
+    },
+    {
+     "text": "pequenos",
+     "start": 17.32,
+     "end": 17.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 17.88,
+   "end": 18.44,
+   "words": [
+    {
+     "text": "do",
+     "start": 17.88,
+     "end": 18.04,
+     "emph": false
+    },
+    {
+     "text": "dia,",
+     "start": 18.04,
+     "end": 18.27,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 18.44,
+   "end": 19.72,
+   "words": [
+    {
+     "text": "como",
+     "start": 18.44,
+     "end": 18.76,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 18.76,
+     "end": 18.92,
+     "emph": false
+    },
+    {
+     "text": "café.",
+     "start": 18.92,
+     "end": 19.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 19.72,
+   "end": 20.28,
+   "words": [
+    {
+     "text": "Use",
+     "start": 19.72,
+     "end": 20.12,
+     "emph": false
+    },
+    {
+     "text": "isso",
+     "start": 20.12,
+     "end": 20.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 20.28,
+   "end": 21.24,
+   "words": [
+    {
+     "text": "para",
+     "start": 20.28,
+     "end": 20.44,
+     "emph": false
+    },
+    {
+     "text": "dar",
+     "start": 20.44,
+     "end": 20.6,
+     "emph": false
+    },
+    {
+     "text": "clareza,",
+     "start": 20.6,
+     "end": 21.1,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 21.24,
+   "end": 22.44,
+   "words": [
+    {
+     "text": "não",
+     "start": 21.24,
+     "end": 21.4,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 21.4,
+     "end": 21.64,
+     "emph": false
+    },
+    {
+     "text": "pressionar.",
+     "start": 21.64,
+     "end": 22.03,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.44,
+   "end": 23.16,
+   "words": [
+    {
+     "text": "O",
+     "start": 22.44,
+     "end": 22.6,
+     "emph": false
+    },
+    {
+     "text": "apartamento",
+     "start": 22.6,
+     "end": 23.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.16,
+   "end": 23.96,
+   "words": [
+    {
+     "text": "perto",
+     "start": 23.16,
+     "end": 23.48,
+     "emph": false
+    },
+    {
+     "text": "do",
+     "start": 23.48,
+     "end": 23.56,
+     "emph": false
+    },
+    {
+     "text": "trabalho",
+     "start": 23.56,
+     "end": 23.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.96,
+   "end": 24.92,
+   "words": [
+    {
+     "text": "custa",
+     "start": 23.96,
+     "end": 24.36,
+     "emph": false
+    },
+    {
+     "text": "mais?",
+     "start": 24.36,
+     "end": 24.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.92,
+   "end": 25.8,
+   "words": [
+    {
+     "text": "Mostre",
+     "start": 24.92,
+     "end": 25.37,
+     "emph": false
+    },
+    {
+     "text": "quanto",
+     "start": 25.48,
+     "end": 25.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 25.8,
+   "end": 26.44,
+   "words": [
+    {
+     "text": "essa",
+     "start": 25.8,
+     "end": 26.04,
+     "emph": false
+    },
+    {
+     "text": "diferença",
+     "start": 26.04,
+     "end": 26.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 26.44,
+   "end": 27.4,
+   "words": [
+    {
+     "text": "dá",
+     "start": 26.44,
+     "end": 26.76,
+     "emph": false
+    },
+    {
+     "text": "por",
+     "start": 26.76,
+     "end": 26.92,
+     "emph": true
+    },
+    {
+     "text": "dia,",
+     "start": 26.92,
+     "end": 27.25,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 27.4,
+   "end": 28.68,
+   "words": [
+    {
+     "text": "ao",
+     "start": 27.4,
+     "end": 27.56,
+     "emph": false
+    },
+    {
+     "text": "lado",
+     "start": 27.56,
+     "end": 27.8,
+     "emph": false
+    },
+    {
+     "text": "das",
+     "start": 27.8,
+     "end": 27.96,
+     "emph": false
+    },
+    {
+     "text": "horas",
+     "start": 27.96,
+     "end": 28.2,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 28.2,
+     "end": 28.28,
+     "emph": true
+    },
+    {
+     "text": "trânsito",
+     "start": 28.28,
+     "end": 28.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 28.68,
+   "end": 30.04,
+   "words": [
+    {
+     "text": "que",
+     "start": 28.68,
+     "end": 28.84,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 28.84,
+     "end": 29.0,
+     "emph": false
+    },
+    {
+     "text": "deixa",
+     "start": 29.0,
+     "end": 29.32,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 29.32,
+     "end": 29.48,
+     "emph": false
+    },
+    {
+     "text": "pegar.",
+     "start": 29.48,
+     "end": 29.58,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 30.04,
+   "end": 31.0,
+   "words": [
+    {
+     "text": "Número",
+     "start": 30.04,
+     "end": 30.52,
+     "emph": false
+    },
+    {
+     "text": "grande",
+     "start": 30.52,
+     "end": 31.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 31.0,
+   "end": 31.8,
+   "words": [
+    {
+     "text": "assusta.",
+     "start": 31.0,
+     "end": 31.61,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 31.8,
+   "end": 33.0,
+   "words": [
+    {
+     "text": "Número",
+     "start": 31.8,
+     "end": 32.12,
+     "emph": false
+    },
+    {
+     "text": "do",
+     "start": 32.12,
+     "end": 32.28,
+     "emph": false
+    },
+    {
+     "text": "dia",
+     "start": 32.28,
+     "end": 32.52,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 32.52,
+     "end": 32.6,
+     "emph": true
+    },
+    {
+     "text": "dia",
+     "start": 32.6,
+     "end": 32.83,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 33.0,
+   "end": 34.36,
+   "words": [
+    {
+     "text": "dá",
+     "start": 33.0,
+     "end": 33.24,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 33.24,
+     "end": 33.48,
+     "emph": false
+    },
+    {
+     "text": "comparar.",
+     "start": 33.48,
+     "end": 33.95,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 34.36,
+   "end": 35.8,
+   "words": [
+    {
+     "text": "Se",
+     "start": 34.36,
+     "end": 34.6,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 34.6,
+     "end": 34.92,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 34.92,
+     "end": 35.08,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 35.08,
+     "end": 35.61,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 35.8,
+   "end": 37.16,
+   "words": [
+    {
+     "text": "comente",
+     "start": 35.8,
+     "end": 36.6,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 36.6,
+     "end": 37.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 37.16,
+   "end": 38.2,
+   "words": [
+    {
+     "text": "e",
+     "start": 37.16,
+     "end": 37.32,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 37.32,
+     "end": 37.88,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 37.88,
+     "end": 38.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 38.2,
+   "end": 39.71,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 38.2,
+     "end": 38.46,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 38.6,
+     "end": 39.21,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

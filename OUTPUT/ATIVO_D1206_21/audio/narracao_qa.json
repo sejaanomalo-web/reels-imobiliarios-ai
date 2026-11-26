@@ -1,0 +1,67 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 7.23,
+    "palavras_nao_reconhecidas": [
+      "Trezentos",
+      "sessenta",
+      "cinco"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 7.26,
+    "palavras_nao_reconhecidas": [
+      "1998"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.8,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.31,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 7.14,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.91,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.85,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 39.59,
+    "asr_match": 0.961,
+    "aligned_words": "99/105",
+    "words_per_min": 159,
+    "heard": "Um real por dia parece pouco. 365 reais por ano parecem mais. É o mesmo dinheiro. Em 1998, um pesquisador de Harvard mostrou que o mesmo valor dito por dia costuma parecer menor. Porque a gente compara com os gastos pequenos do dia, como um café. Use isso para dar clareza, não para pressionar. O apartamento perto do trabalho custa mais? Mostre quanto essa diferença dá por dia, ao lado das horas de trânsito que ele deixa de pegar. Número grande assusta. Número do dia a dia dá para comparar. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 41.27,
+      "wpm": 153
+    },
+    "pausas_moldadas": {
+      "n": 15,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.68,
+    "final": {
+      "seconds": 39.59,
+      "wpm": 159
+    }
+  }
+]
