@@ -1,0 +1,68 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.19,
+    "palavras_nao_reconhecidas": [
+      "torto"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.74,
+    "palavras_nao_reconhecidas": [
+      "2012",
+      "caixas"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.73,
+    "palavras_nao_reconhecidas": [
+      "pronta"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.76,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.67,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.91,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.49,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 31.84,
+    "asr_match": 0.95,
+    "aligned_words": "86/90",
+    "words_per_min": 170,
+    "heard": "Por que a gente gosta mais do móvel que montou sozinho, mesmo o meio torta? Em 2012, pesquisadores pediram a pessoas que montassem caixa simples de guardar coisas. Quem montou aceitava pagar mais pela própria caixa do que por uma igual já pronto. O que a gente ajuda a construir passa a valer mais. Monte a busca com o cliente, ele escolhe os critérios, você traz as opções e explica cada uma. Cliente que participa da escolha, defende a escolha. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 32.71,
+      "wpm": 165
+    },
+    "pausas_moldadas": {
+      "n": 11,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 0.87,
+    "final": {
+      "seconds": 31.84,
+      "wpm": 170
+    }
+  }
+]

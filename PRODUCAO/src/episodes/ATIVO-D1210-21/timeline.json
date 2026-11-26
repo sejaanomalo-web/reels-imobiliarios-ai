@@ -1,0 +1,894 @@
+{
+ "id": "ATIVO-D1210-21",
+ "title": "Montado pelas próprias mãos",
+ "fps": 30,
+ "duration": 34.166666666666664,
+ "durationInFrames": 1025,
+ "narrationEnd": 31.965,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.495
+  },
+  {
+   "id": "estudo",
+   "start": 4.495,
+   "end": 9.61
+  },
+  {
+   "id": "resultado",
+   "start": 9.61,
+   "end": 14.645
+  },
+  {
+   "id": "virada",
+   "start": 14.645,
+   "end": 17.74
+  },
+  {
+   "id": "acao",
+   "start": 17.74,
+   "end": 23.795
+  },
+  {
+   "id": "desfecho",
+   "start": 23.795,
+   "end": 26.975
+  },
+  {
+   "id": "cta",
+   "start": 26.975,
+   "end": 34.167
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Por que a gente gosta mais do móvel que montou sozinho, mesmo meio torto?",
+   "start": 0.12,
+   "end": 4.31
+  },
+  {
+   "id": "s2",
+   "scene": "estudo",
+   "text": "Em 2012, pesquisadores pediram a pessoas que montassem caixas simples de guardar coisas.",
+   "start": 4.68,
+   "end": 9.42
+  },
+  {
+   "id": "s3",
+   "scene": "resultado",
+   "text": "Quem montou aceitava pagar mais pela própria caixa do que por uma igual, já pronta.",
+   "start": 9.8,
+   "end": 14.53
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "O que a gente ajuda a construir passa a valer mais.",
+   "start": 14.76,
+   "end": 17.52
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Monte a busca com o cliente: ele escolhe os critérios, você traz as opções e explica cada uma.",
+   "start": 17.96,
+   "end": 23.63
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Cliente que participa da escolha defende a escolha.",
+   "start": 23.96,
+   "end": 26.87
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 27.08,
+   "end": 31.57
+  }
+ ],
+ "cues": {
+  "h_gosta": 0.76,
+  "h_montou": 2.2,
+  "h_torto": 4.147,
+  "e_2012": 4.973,
+  "e_montassem": 7.24,
+  "e_caixas": 7.816,
+  "r_montou": 10.12,
+  "r_pagar": 11.32,
+  "r_propria": 12.28,
+  "r_pronta": 14.28,
+  "v_construir": 15.88,
+  "v_valer": 16.84,
+  "a_monte": 17.96,
+  "a_criterios": 20.6,
+  "a_opcoes": 22.04,
+  "a_explica": 22.76,
+  "f_participa": 24.6,
+  "f_defende": 25.88,
+  "cta_quer": 27.08,
+  "cta_comment": 28.36,
+  "cta_word": 29.0,
+  "cta_tiles": 29.72,
+  "cta_sys": 30.52,
+  "cta_leads": 30.28,
+  "cta_atend": 30.92,
+  "cta_direct": 30.92,
+  "cta_end": 31.57
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.76,
+   "words": [
+    {
+     "text": "Por",
+     "start": 0.12,
+     "end": 0.28,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 0.28,
+     "end": 0.52,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 0.52,
+     "end": 0.6,
+     "emph": false
+    },
+    {
+     "text": "gente",
+     "start": 0.6,
+     "end": 0.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.76,
+   "end": 1.24,
+   "words": [
+    {
+     "text": "gosta",
+     "start": 0.76,
+     "end": 1.08,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 1.08,
+     "end": 1.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.24,
+   "end": 2.04,
+   "words": [
+    {
+     "text": "do",
+     "start": 1.24,
+     "end": 1.48,
+     "emph": false
+    },
+    {
+     "text": "móvel",
+     "start": 1.48,
+     "end": 2.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.04,
+   "end": 3.24,
+   "words": [
+    {
+     "text": "que",
+     "start": 2.04,
+     "end": 2.2,
+     "emph": false
+    },
+    {
+     "text": "montou",
+     "start": 2.2,
+     "end": 2.6,
+     "emph": true
+    },
+    {
+     "text": "sozinho,",
+     "start": 2.6,
+     "end": 3.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.24,
+   "end": 4.68,
+   "words": [
+    {
+     "text": "mesmo",
+     "start": 3.24,
+     "end": 3.72,
+     "emph": false
+    },
+    {
+     "text": "meio",
+     "start": 3.72,
+     "end": 4.147,
+     "emph": false
+    },
+    {
+     "text": "torto?",
+     "start": 4.147,
+     "end": 4.31,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.68,
+   "end": 5.56,
+   "words": [
+    {
+     "text": "Em",
+     "start": 4.68,
+     "end": 4.973,
+     "emph": false
+    },
+    {
+     "text": "2012,",
+     "start": 4.973,
+     "end": 5.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.56,
+   "end": 6.2,
+   "words": [
+    {
+     "text": "pesquisadores",
+     "start": 5.56,
+     "end": 6.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.2,
+   "end": 7.08,
+   "words": [
+    {
+     "text": "pediram",
+     "start": 6.2,
+     "end": 6.68,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 6.68,
+     "end": 6.76,
+     "emph": false
+    },
+    {
+     "text": "pessoas",
+     "start": 6.76,
+     "end": 7.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.08,
+   "end": 7.816,
+   "words": [
+    {
+     "text": "que",
+     "start": 7.08,
+     "end": 7.24,
+     "emph": false
+    },
+    {
+     "text": "montassem",
+     "start": 7.24,
+     "end": 7.816,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.816,
+   "end": 8.52,
+   "words": [
+    {
+     "text": "caixas",
+     "start": 7.816,
+     "end": 8.2,
+     "emph": true
+    },
+    {
+     "text": "simples",
+     "start": 8.2,
+     "end": 8.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.52,
+   "end": 9.8,
+   "words": [
+    {
+     "text": "de",
+     "start": 8.52,
+     "end": 8.68,
+     "emph": false
+    },
+    {
+     "text": "guardar",
+     "start": 8.68,
+     "end": 9.16,
+     "emph": false
+    },
+    {
+     "text": "coisas.",
+     "start": 9.16,
+     "end": 9.42,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.8,
+   "end": 10.68,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 9.8,
+     "end": 9.87,
+     "emph": false
+    },
+    {
+     "text": "montou",
+     "start": 10.12,
+     "end": 10.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.68,
+   "end": 11.96,
+   "words": [
+    {
+     "text": "aceitava",
+     "start": 10.68,
+     "end": 11.32,
+     "emph": false
+    },
+    {
+     "text": "pagar",
+     "start": 11.32,
+     "end": 11.72,
+     "emph": true
+    },
+    {
+     "text": "mais",
+     "start": 11.72,
+     "end": 11.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.96,
+   "end": 13.0,
+   "words": [
+    {
+     "text": "pela",
+     "start": 11.96,
+     "end": 12.17,
+     "emph": false
+    },
+    {
+     "text": "própria",
+     "start": 12.28,
+     "end": 12.6,
+     "emph": true
+    },
+    {
+     "text": "caixa",
+     "start": 12.6,
+     "end": 13.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.0,
+   "end": 14.12,
+   "words": [
+    {
+     "text": "do",
+     "start": 13.0,
+     "end": 13.16,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 13.16,
+     "end": 13.32,
+     "emph": false
+    },
+    {
+     "text": "por",
+     "start": 13.32,
+     "end": 13.48,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 13.48,
+     "end": 13.72,
+     "emph": false
+    },
+    {
+     "text": "igual,",
+     "start": 13.72,
+     "end": 14.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.12,
+   "end": 14.76,
+   "words": [
+    {
+     "text": "já",
+     "start": 14.12,
+     "end": 14.28,
+     "emph": false
+    },
+    {
+     "text": "pronta.",
+     "start": 14.28,
+     "end": 14.53,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.76,
+   "end": 15.4,
+   "words": [
+    {
+     "text": "O",
+     "start": 14.76,
+     "end": 14.92,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 14.92,
+     "end": 15.08,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 15.08,
+     "end": 15.16,
+     "emph": false
+    },
+    {
+     "text": "gente",
+     "start": 15.16,
+     "end": 15.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.4,
+   "end": 16.44,
+   "words": [
+    {
+     "text": "ajuda",
+     "start": 15.4,
+     "end": 15.72,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 15.72,
+     "end": 15.88,
+     "emph": false
+    },
+    {
+     "text": "construir",
+     "start": 15.88,
+     "end": 16.3,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.44,
+   "end": 17.96,
+   "words": [
+    {
+     "text": "passa",
+     "start": 16.44,
+     "end": 16.76,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 16.76,
+     "end": 16.84,
+     "emph": false
+    },
+    {
+     "text": "valer",
+     "start": 16.84,
+     "end": 17.32,
+     "emph": true
+    },
+    {
+     "text": "mais.",
+     "start": 17.32,
+     "end": 17.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.96,
+   "end": 18.92,
+   "words": [
+    {
+     "text": "Monte",
+     "start": 17.96,
+     "end": 18.44,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 18.44,
+     "end": 18.6,
+     "emph": true
+    },
+    {
+     "text": "busca",
+     "start": 18.6,
+     "end": 18.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.92,
+   "end": 19.8,
+   "words": [
+    {
+     "text": "com",
+     "start": 18.92,
+     "end": 19.08,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 19.08,
+     "end": 19.16,
+     "emph": false
+    },
+    {
+     "text": "cliente:",
+     "start": 19.16,
+     "end": 19.54,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.8,
+   "end": 20.52,
+   "words": [
+    {
+     "text": "ele",
+     "start": 19.8,
+     "end": 20.04,
+     "emph": false
+    },
+    {
+     "text": "escolhe",
+     "start": 20.04,
+     "end": 20.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.52,
+   "end": 21.24,
+   "words": [
+    {
+     "text": "os",
+     "start": 20.52,
+     "end": 20.6,
+     "emph": false
+    },
+    {
+     "text": "critérios,",
+     "start": 20.6,
+     "end": 21.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.24,
+   "end": 22.52,
+   "words": [
+    {
+     "text": "você",
+     "start": 21.24,
+     "end": 21.48,
+     "emph": false
+    },
+    {
+     "text": "traz",
+     "start": 21.48,
+     "end": 21.88,
+     "emph": false
+    },
+    {
+     "text": "as",
+     "start": 21.88,
+     "end": 22.04,
+     "emph": false
+    },
+    {
+     "text": "opções",
+     "start": 22.04,
+     "end": 22.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.52,
+   "end": 23.96,
+   "words": [
+    {
+     "text": "e",
+     "start": 22.52,
+     "end": 22.76,
+     "emph": false
+    },
+    {
+     "text": "explica",
+     "start": 22.76,
+     "end": 23.24,
+     "emph": true
+    },
+    {
+     "text": "cada",
+     "start": 23.24,
+     "end": 23.48,
+     "emph": false
+    },
+    {
+     "text": "uma.",
+     "start": 23.48,
+     "end": 23.63,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.96,
+   "end": 25.08,
+   "words": [
+    {
+     "text": "Cliente",
+     "start": 23.96,
+     "end": 24.04,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 24.44,
+     "end": 24.6,
+     "emph": false
+    },
+    {
+     "text": "participa",
+     "start": 24.6,
+     "end": 25.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.08,
+   "end": 25.88,
+   "words": [
+    {
+     "text": "da",
+     "start": 25.08,
+     "end": 25.24,
+     "emph": false
+    },
+    {
+     "text": "escolha",
+     "start": 25.24,
+     "end": 25.55,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.88,
+   "end": 27.08,
+   "words": [
+    {
+     "text": "defende",
+     "start": 25.88,
+     "end": 26.44,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 26.44,
+     "end": 26.6,
+     "emph": false
+    },
+    {
+     "text": "escolha.",
+     "start": 26.6,
+     "end": 26.87,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.08,
+   "end": 28.36,
+   "words": [
+    {
+     "text": "Se",
+     "start": 27.08,
+     "end": 27.24,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 27.24,
+     "end": 27.48,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 27.48,
+     "end": 27.64,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 27.64,
+     "end": 28.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.36,
+   "end": 29.56,
+   "words": [
+    {
+     "text": "comente",
+     "start": 28.36,
+     "end": 29.0,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 29.0,
+     "end": 29.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.56,
+   "end": 30.52,
+   "words": [
+    {
+     "text": "e",
+     "start": 29.56,
+     "end": 29.72,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 29.72,
+     "end": 30.28,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 30.28,
+     "end": 30.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.52,
+   "end": 32.07,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 30.52,
+     "end": 30.92,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 30.92,
+     "end": 31.57,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}
