@@ -25,6 +25,8 @@ Cada passo vira uma linha do painel "Plano" (`PROMPTS/PLANO_DE_ETAPAS_ATIVO.md`,
 
 **Duas aprovações por dia, não doze.** A Skill Mestre exige aprovação de ideia e de roteiro. Na esteira diária, isso acontece em lote (pauta inteira, depois roteiros inteiros), sem pular a aprovação.
 
+**Nenhum tema repetido (26/11/2026).** Antes da Aprovação 1, cada ideia passa por `python3 PRODUCAO/tools/pauta_repetida.py --texto "<proposta + fonte + gancho>"` (ou `--json` com o lote de roteiros) contra todos os roteiros de `ROTEIROS/ESTEIRA/`. `REPETIDO` (mesma fonte, mesmo artigo de lei ou mesma proposta) = ideia substituída. A ferramenta também lista os 5 roteiros mais próximos: leia-os, porque a mesma **tese** com outra história e outra fonte (ex.: "prova convence mais que promessa") não é pega por palavra e também conta como repetição. Motivo: entre 30/11 e 11/12 saíram 8 pares de temas repetidos com menos de 10 dias de distância.
+
 **Slot vazio é melhor que vídeo fraco.** Se uma ideia é descartada na auditoria e não há substituta forte a tempo, o horário fica vazio (`status: "vazio"` com motivo). Nunca publicar para cumprir quota.
 
 ---
