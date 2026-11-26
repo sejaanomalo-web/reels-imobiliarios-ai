@@ -1,0 +1,519 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "2004": "dois mil e quatro"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1212-08",
+ "lote": "D1212",
+ "title": "A ficha técnica da casa",
+ "outputDir": "ATIVO_D1212_08",
+ "deliverables": {
+  "final": "ATIVO_D1212_08_FINAL.mp4",
+  "narration": "ATIVO_D1212_08_NARRACAO.wav",
+  "subtitles": "ATIVO_D1212_08_legendas.srt",
+  "cover": "ATIVO_D1212_08_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-12/ATIVO-D1212-08_a_ficha_tecnica_da_casa.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-26",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "E se toda casa à venda viesse com uma ficha técnica, igual carro?",
+   "caption": "E se toda *casa* | à venda viesse | com uma *ficha técnica,* | igual *carro?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "portugal",
+   "text": "Em Portugal, casa nova já vem: desde 2004 existe a Ficha Técnica da Habitação.",
+   "caption": "Em *Portugal,* | casa nova *já vem:* | desde *2004* | existe a *Ficha Técnica* | da Habitação.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "conteudo",
+   "text": "Ela descreve a construção, com áreas, materiais e instalações, e vai para as mãos do comprador.",
+   "caption": "Ela descreve | a *construção,* | com *áreas,* | *materiais* | e *instalações,* | e vai para as mãos | do *comprador.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Aqui, essas respostas costumam aparecer só depois da visita. Quando aparecem.",
+   "caption": "*Aqui,* | essas respostas | costumam aparecer | só *depois* da visita. | Quando *aparecem.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Monte a sua: metragem de cada cômodo, ano da construção, reformas feitas e a documentação em ordem.",
+   "caption": "*Monte* a sua: | *metragem* | de cada cômodo, | *ano* da construção, | *reformas* feitas | e a *documentação* | em ordem.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "A visita mostra a parede. A ficha mostra o que tem dentro dela.",
+   "caption": "A visita | mostra a *parede.* | A ficha mostra | o que tem *dentro* dela.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "portugal": 0.35,
+  "conteudo": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_ficha": {
+   "seg": "s1",
+   "word": "ficha",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_carro": {
+   "seg": "s1",
+   "word": "carro",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_portugal": {
+   "seg": "s2",
+   "word": "Portugal",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_2004": {
+   "seg": "s2",
+   "word": "2004",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_ficha": {
+   "seg": "s2",
+   "word": "Ficha",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_construcao": {
+   "seg": "s3",
+   "word": "construção",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_areas": {
+   "seg": "s3",
+   "word": "áreas",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_materiais": {
+   "seg": "s3",
+   "word": "materiais",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_instalacoes": {
+   "seg": "s3",
+   "word": "instalações",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_comprador": {
+   "seg": "s3",
+   "word": "comprador",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_aqui": {
+   "seg": "s4",
+   "word": "Aqui",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_depois": {
+   "seg": "s4",
+   "word": "depois",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_monte": {
+   "seg": "s5",
+   "word": "Monte",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_metragem": {
+   "seg": "s5",
+   "word": "metragem",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_ano": {
+   "seg": "s5",
+   "word": "ano",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_reformas": {
+   "seg": "s5",
+   "word": "reformas",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_documentacao": {
+   "seg": "s5",
+   "word": "documentação",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_parede": {
+   "seg": "s6",
+   "word": "parede",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_dentro": {
+   "seg": "s6",
+   "word": "dentro",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_ficha",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "p_portugal",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "p_ficha",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "c_areas",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "c_instalacoes",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_aqui",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_monte",
+   "offset": -0.05,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_ano",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_documentacao",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "f_dentro",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.85,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_carro",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_aqui",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_dentro",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T03",
+  "ancoras": {
+   "virada": "cue:v_aqui",
+   "insight": "cue:a_monte",
+   "resolucao": "cue:f_dentro"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "planta-tecnica",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "e-se",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "a ficha se preenche ao lado da prancha.",
+  "justificativaHorario": "08h: começo do dia, informação útil.",
+  "trilha": "T03",
+  "justificativaTrilha": "arco de descoberta: premissa → já existe.",
+  "data": "2026-12-12",
+  "slot": "08:00",
+  "arquivo": "PRODUCAO/grade/2026-12-12.json"
+ },
+ "modelos4": true,
+ "modelo": 3,
+ "modeloNome": "Planta técnica"
+}

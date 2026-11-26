@@ -1,0 +1,516 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "1885": "mil oitocentos e oitenta e cinco"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1212-15",
+ "lote": "D1212",
+ "title": "O resumo do mesmo dia",
+ "outputDir": "ATIVO_D1212_15",
+ "deliverables": {
+  "final": "ATIVO_D1212_15_FINAL.mp4",
+  "narration": "ATIVO_D1212_15_NARRACAO.wav",
+  "subtitles": "ATIVO_D1212_15_legendas.srt",
+  "cover": "ATIVO_D1212_15_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-12/ATIVO-D1212-15_o_resumo_do_mesmo_dia.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-26",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "No dia seguinte à visita, o cliente já esqueceu boa parte do que viu.",
+   "caption": "No dia *seguinte* | à visita, | o cliente já *esqueceu* | boa parte | do que viu.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "prova",
+   "text": "Em 1885, um psicólogo alemão mediu isso: a memória cai rápido nas primeiras horas.",
+   "caption": "Em *1885,* | um psicólogo alemão | *mediu* isso: | a *memória* | cai *rápido* | nas primeiras horas.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "casa",
+   "text": "E o que ele não lembra, ele não defende na conversa em casa.",
+   "caption": "E o que ele | *não lembra,* | ele não *defende* | na conversa | em *casa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Não espere ele perguntar.",
+   "caption": "Não *espere* | ele perguntar.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "No mesmo dia, mande um resumo: três fotos, o que ele gostou e o que ficou de dúvida.",
+   "caption": "No *mesmo dia,* | mande um *resumo:* | três *fotos,* | o que ele *gostou* | e o que ficou | de *dúvida.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "O imóvel que fica na memória é o que entra na conversa.",
+   "caption": "O imóvel | que fica na *memória* | é o que entra | na *conversa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "prova": 0.35,
+  "casa": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_seguinte": {
+   "seg": "s1",
+   "word": "seguinte",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_esqueceu": {
+   "seg": "s1",
+   "word": "esqueceu",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_1885": {
+   "seg": "s2",
+   "word": "1885",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_mediu": {
+   "seg": "s2",
+   "word": "mediu",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_memoria": {
+   "seg": "s2",
+   "word": "memória",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_rapido": {
+   "seg": "s2",
+   "word": "rápido",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_lembra": {
+   "seg": "s3",
+   "word": "lembra",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_defende": {
+   "seg": "s3",
+   "word": "defende",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_casa": {
+   "seg": "s3",
+   "word": "casa",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_espere": {
+   "seg": "s4",
+   "word": "espere",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_mesmo": {
+   "seg": "s5",
+   "word": "mesmo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_resumo": {
+   "seg": "s5",
+   "word": "resumo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_fotos": {
+   "seg": "s5",
+   "word": "fotos",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_gostou": {
+   "seg": "s5",
+   "word": "gostou",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_duvida": {
+   "seg": "s5",
+   "word": "dúvida",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_memoria": {
+   "seg": "s6",
+   "word": "memória",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_conversa": {
+   "seg": "s6",
+   "word": "conversa",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_seguinte",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "p_1885",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "p_memoria",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "c_lembra",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "c_casa",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_mesmo",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_fotos",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_duvida",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_conversa",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.75,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.85,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.2,
+   "sound": "click",
+   "gain": -23,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.28,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_esqueceu",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_espere",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_conversa",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T01",
+  "ancoras": {
+   "virada": "cue:v_espere",
+   "insight": "cue:a_resumo",
+   "resolucao": "cue:f_conversa"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "cartoon-explicativo",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "ideia",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "pull",
+  "justificativaModelo": "balão de pensamento esvaziando.",
+  "justificativaHorario": "15h: tarde de visitas.",
+  "trilha": "T01",
+  "justificativaTrilha": "cama de explicação.",
+  "data": "2026-12-12",
+  "slot": "15:00",
+  "arquivo": "PRODUCAO/grade/2026-12-12.json"
+ },
+ "modelos4": true,
+ "modelo": 1,
+ "modeloNome": "Cartoon explicativo"
+}
