@@ -116,9 +116,10 @@
       "justificativaTrilha": "arco de descoberta.",
       "episodio": "ATIVO-D1211-18",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-11/ATIVO-D1211-18_mandou_cortar_a_corda.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/11-sexta/18h00"
     },
     {
       "horario": "21:00",
