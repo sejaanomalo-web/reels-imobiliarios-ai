@@ -94,9 +94,10 @@
       "justificativaTrilha": "tensão em movimento (a pilha).",
       "episodio": "ATIVO-D1211-15",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-11/ATIVO-D1211-15_a_regra_dos_dois_minutos.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/11-sexta/15h00"
     },
     {
       "horario": "18:00",

@@ -1,0 +1,110 @@
+[
+ {
+  "t": 0.55,
+  "sound": "swish",
+  "gain": -28,
+  "cue": "h_mensagens"
+ },
+ {
+  "t": 6.28,
+  "sound": "hollow",
+  "gain": -28,
+  "cue": "r_regra"
+ },
+ {
+  "t": 9.64,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "r_agora"
+ },
+ {
+  "t": 11.91,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "p_mais"
+ },
+ {
+  "t": 13.24,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "v_confirmar"
+ },
+ {
+  "t": 17.16,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "v_disponivel"
+ },
+ {
+  "t": 20.39,
+  "sound": "impact",
+  "gain": -28,
+  "cue": "s_passa"
+ },
+ {
+  "t": 23.0,
+  "sound": "swish",
+  "gain": -28,
+  "cue": "s_dia"
+ },
+ {
+  "t": 25.8,
+  "sound": "hollow",
+  "gain": -28,
+  "cue": "f_respondido"
+ },
+ {
+  "t": 26.5,
+  "sound": "swish",
+  "gain": -29,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 27.57,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 28.28,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 28.95,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 29.43,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 30.18,
+  "sound": "whoosh_up",
+  "gain": -28,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 30.23,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 31.38,
+  "sound": "shimmer",
+  "gain": -25,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 32.58,
+  "sound": "chord",
+  "gain": -27,
+  "cue": "cta_direct"
+ }
+]
