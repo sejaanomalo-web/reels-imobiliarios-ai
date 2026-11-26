@@ -1,0 +1,865 @@
+{
+ "id": "ATIVO-D1210-15",
+ "title": "Termine no melhor cômodo",
+ "fps": 30,
+ "duration": 36.3,
+ "durationInFrames": 1089,
+ "narrationEnd": 34.085,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.385
+  },
+  {
+   "id": "estudo",
+   "start": 4.385,
+   "end": 9.985
+  },
+  {
+   "id": "resultado",
+   "start": 9.985,
+   "end": 14.92
+  },
+  {
+   "id": "virada",
+   "start": 14.92,
+   "end": 19.785
+  },
+  {
+   "id": "acao",
+   "start": 19.785,
+   "end": 26.08
+  },
+  {
+   "id": "desfecho",
+   "start": 26.08,
+   "end": 28.735
+  },
+  {
+   "id": "cta",
+   "start": 28.735,
+   "end": 36.3
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Seu cliente não vai lembrar da visita inteira. Só de dois momentos.",
+   "start": 0.12,
+   "end": 4.25
+  },
+  {
+   "id": "s2",
+   "scene": "estudo",
+   "text": "Pesquisadores mediram, minuto a minuto, o incômodo de pacientes durante um exame médico.",
+   "start": 4.52,
+   "end": 9.85
+  },
+  {
+   "id": "s3",
+   "scene": "resultado",
+   "text": "Na lembrança, pesou o pior momento e o final. A duração quase não contou.",
+   "start": 10.12,
+   "end": 14.76
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Na visita é parecido: o ponto alto e o fim viram a memória do imóvel.",
+   "start": 15.08,
+   "end": 19.66
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Planeje a rota e termine no melhor lugar: a varanda, a vista, a cozinha clara.",
+   "start": 19.911,
+   "end": 25.88
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Quem termina bem é lembrado melhor.",
+   "start": 26.28,
+   "end": 28.55
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 28.92,
+   "end": 33.61
+  }
+ ],
+ "cues": {
+  "h_inteira": 2.52,
+  "h_dois": 3.56,
+  "e_mediram": 5.24,
+  "e_minuto": 6.04,
+  "e_exame": 9.24,
+  "r_lembranca": 10.28,
+  "r_pior": 11.48,
+  "r_final": 12.44,
+  "r_duracao": 13.08,
+  "v_visita": 15.32,
+  "v_alto": 17.16,
+  "v_fim": 17.72,
+  "v_memoria": 18.68,
+  "a_planeje": 19.911,
+  "a_termine": 21.33,
+  "a_varanda": 23.32,
+  "a_vista": 24.28,
+  "a_clara": 25.56,
+  "f_termina": 26.68,
+  "f_lembrado": 27.569,
+  "cta_quer": 28.92,
+  "cta_comment": 30.2,
+  "cta_word": 30.92,
+  "cta_tiles": 31.64,
+  "cta_sys": 32.52,
+  "cta_leads": 32.2,
+  "cta_atend": 32.92,
+  "cta_direct": 32.92,
+  "cta_end": 33.61
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.92,
+   "words": [
+    {
+     "text": "Seu",
+     "start": 0.12,
+     "end": 0.52,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 0.52,
+     "end": 0.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.92,
+   "end": 1.88,
+   "words": [
+    {
+     "text": "não",
+     "start": 0.92,
+     "end": 1.16,
+     "emph": false
+    },
+    {
+     "text": "vai",
+     "start": 1.16,
+     "end": 1.4,
+     "emph": false
+    },
+    {
+     "text": "lembrar",
+     "start": 1.4,
+     "end": 1.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.88,
+   "end": 3.08,
+   "words": [
+    {
+     "text": "da",
+     "start": 1.88,
+     "end": 2.04,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 2.04,
+     "end": 2.52,
+     "emph": false
+    },
+    {
+     "text": "inteira.",
+     "start": 2.52,
+     "end": 2.86,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.08,
+   "end": 4.52,
+   "words": [
+    {
+     "text": "Só",
+     "start": 3.08,
+     "end": 3.4,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 3.4,
+     "end": 3.56,
+     "emph": false
+    },
+    {
+     "text": "dois",
+     "start": 3.56,
+     "end": 3.8,
+     "emph": true
+    },
+    {
+     "text": "momentos.",
+     "start": 3.8,
+     "end": 4.25,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.52,
+   "end": 5.24,
+   "words": [
+    {
+     "text": "Pesquisadores",
+     "start": 4.52,
+     "end": 5.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.24,
+   "end": 6.04,
+   "words": [
+    {
+     "text": "mediram,",
+     "start": 5.24,
+     "end": 5.75,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.04,
+   "end": 7.32,
+   "words": [
+    {
+     "text": "minuto",
+     "start": 6.04,
+     "end": 6.47,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 6.6,
+     "end": 6.84,
+     "emph": true
+    },
+    {
+     "text": "minuto,",
+     "start": 6.84,
+     "end": 7.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.32,
+   "end": 8.76,
+   "words": [
+    {
+     "text": "o",
+     "start": 7.32,
+     "end": 7.48,
+     "emph": false
+    },
+    {
+     "text": "incômodo",
+     "start": 7.48,
+     "end": 8.12,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 8.12,
+     "end": 8.28,
+     "emph": false
+    },
+    {
+     "text": "pacientes",
+     "start": 8.28,
+     "end": 8.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.76,
+   "end": 10.12,
+   "words": [
+    {
+     "text": "durante",
+     "start": 8.76,
+     "end": 9.08,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 9.08,
+     "end": 9.24,
+     "emph": false
+    },
+    {
+     "text": "exame",
+     "start": 9.24,
+     "end": 9.56,
+     "emph": true
+    },
+    {
+     "text": "médico.",
+     "start": 9.56,
+     "end": 9.85,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.12,
+   "end": 10.92,
+   "words": [
+    {
+     "text": "Na",
+     "start": 10.12,
+     "end": 10.28,
+     "emph": false
+    },
+    {
+     "text": "lembrança,",
+     "start": 10.28,
+     "end": 10.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.92,
+   "end": 12.12,
+   "words": [
+    {
+     "text": "pesou",
+     "start": 10.92,
+     "end": 11.4,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 11.4,
+     "end": 11.48,
+     "emph": false
+    },
+    {
+     "text": "pior",
+     "start": 11.48,
+     "end": 11.8,
+     "emph": true
+    },
+    {
+     "text": "momento",
+     "start": 11.8,
+     "end": 12.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.12,
+   "end": 12.92,
+   "words": [
+    {
+     "text": "e",
+     "start": 12.12,
+     "end": 12.36,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 12.36,
+     "end": 12.44,
+     "emph": false
+    },
+    {
+     "text": "final.",
+     "start": 12.44,
+     "end": 12.69,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.92,
+   "end": 13.8,
+   "words": [
+    {
+     "text": "A",
+     "start": 12.92,
+     "end": 13.08,
+     "emph": false
+    },
+    {
+     "text": "duração",
+     "start": 13.08,
+     "end": 13.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.8,
+   "end": 15.08,
+   "words": [
+    {
+     "text": "quase",
+     "start": 13.8,
+     "end": 14.2,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 14.2,
+     "end": 14.36,
+     "emph": false
+    },
+    {
+     "text": "contou.",
+     "start": 14.36,
+     "end": 14.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.08,
+   "end": 15.64,
+   "words": [
+    {
+     "text": "Na",
+     "start": 15.08,
+     "end": 15.16,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 15.32,
+     "end": 15.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.64,
+   "end": 16.52,
+   "words": [
+    {
+     "text": "é",
+     "start": 15.64,
+     "end": 15.8,
+     "emph": false
+    },
+    {
+     "text": "parecido:",
+     "start": 15.8,
+     "end": 16.14,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.52,
+   "end": 17.48,
+   "words": [
+    {
+     "text": "o",
+     "start": 16.52,
+     "end": 16.76,
+     "emph": false
+    },
+    {
+     "text": "ponto",
+     "start": 16.76,
+     "end": 17.16,
+     "emph": true
+    },
+    {
+     "text": "alto",
+     "start": 17.16,
+     "end": 17.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.48,
+   "end": 18.02,
+   "words": [
+    {
+     "text": "e",
+     "start": 17.48,
+     "end": 17.64,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 17.64,
+     "end": 17.72,
+     "emph": false
+    },
+    {
+     "text": "fim",
+     "start": 17.72,
+     "end": 18.02,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.02,
+   "end": 19.911,
+   "words": [
+    {
+     "text": "viram",
+     "start": 18.02,
+     "end": 18.1,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 18.52,
+     "end": 18.68,
+     "emph": false
+    },
+    {
+     "text": "memória",
+     "start": 18.68,
+     "end": 19.08,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 19.08,
+     "end": 19.32,
+     "emph": false
+    },
+    {
+     "text": "imóvel.",
+     "start": 19.32,
+     "end": 19.66,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.911,
+   "end": 21.24,
+   "words": [
+    {
+     "text": "Planeje",
+     "start": 19.911,
+     "end": 19.99,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 20.6,
+     "end": 20.76,
+     "emph": true
+    },
+    {
+     "text": "rota",
+     "start": 20.76,
+     "end": 21.13,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.24,
+   "end": 21.96,
+   "words": [
+    {
+     "text": "e",
+     "start": 21.24,
+     "end": 21.33,
+     "emph": false
+    },
+    {
+     "text": "termine",
+     "start": 21.33,
+     "end": 21.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.96,
+   "end": 23.16,
+   "words": [
+    {
+     "text": "no",
+     "start": 21.96,
+     "end": 22.12,
+     "emph": false
+    },
+    {
+     "text": "melhor",
+     "start": 22.12,
+     "end": 22.52,
+     "emph": false
+    },
+    {
+     "text": "lugar:",
+     "start": 22.52,
+     "end": 22.77,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.16,
+   "end": 24.04,
+   "words": [
+    {
+     "text": "a",
+     "start": 23.16,
+     "end": 23.32,
+     "emph": false
+    },
+    {
+     "text": "varanda,",
+     "start": 23.32,
+     "end": 23.89,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.04,
+   "end": 24.84,
+   "words": [
+    {
+     "text": "a",
+     "start": 24.04,
+     "end": 24.28,
+     "emph": false
+    },
+    {
+     "text": "vista,",
+     "start": 24.28,
+     "end": 24.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.84,
+   "end": 26.28,
+   "words": [
+    {
+     "text": "a",
+     "start": 24.84,
+     "end": 25.0,
+     "emph": false
+    },
+    {
+     "text": "cozinha",
+     "start": 25.0,
+     "end": 25.56,
+     "emph": false
+    },
+    {
+     "text": "clara.",
+     "start": 25.56,
+     "end": 25.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.28,
+   "end": 27.48,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 26.28,
+     "end": 26.35,
+     "emph": false
+    },
+    {
+     "text": "termina",
+     "start": 26.68,
+     "end": 27.16,
+     "emph": true
+    },
+    {
+     "text": "bem",
+     "start": 27.16,
+     "end": 27.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.48,
+   "end": 28.92,
+   "words": [
+    {
+     "text": "é",
+     "start": 27.48,
+     "end": 27.569,
+     "emph": false
+    },
+    {
+     "text": "lembrado",
+     "start": 27.569,
+     "end": 28.28,
+     "emph": true
+    },
+    {
+     "text": "melhor.",
+     "start": 28.28,
+     "end": 28.55,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.92,
+   "end": 30.2,
+   "words": [
+    {
+     "text": "Se",
+     "start": 28.92,
+     "end": 29.16,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 29.16,
+     "end": 29.32,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 29.32,
+     "end": 29.48,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 29.48,
+     "end": 30.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.2,
+   "end": 31.48,
+   "words": [
+    {
+     "text": "comente",
+     "start": 30.2,
+     "end": 30.92,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 30.92,
+     "end": 31.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.48,
+   "end": 32.52,
+   "words": [
+    {
+     "text": "e",
+     "start": 31.48,
+     "end": 31.64,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 31.64,
+     "end": 32.2,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 32.2,
+     "end": 32.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.52,
+   "end": 34.11,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 32.52,
+     "end": 32.92,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 32.92,
+     "end": 33.61,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

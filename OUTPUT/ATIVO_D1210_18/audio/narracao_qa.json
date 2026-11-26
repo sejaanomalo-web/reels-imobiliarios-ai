@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.24,
+    "palavras_nao_reconhecidas": [
+      "1805"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.39,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.29,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.23,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 1.95,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 31.68,
+    "asr_match": 0.988,
+    "aligned_words": "79/80",
+    "words_per_min": 151,
+    "heard": "Em 1805, Paris criou uma regra para numerar as casas. Ela vale até hoje. Números pares de um lado da rua, ímpares do outro. E a contagem começa pelo rio. Quanto mais perto do Sena, menor o número. Uma regra simples fez a cidade inteira virar um mapa. Sua carteira precisa disso. Cada imóvel cadastrado do mesmo jeito, com endereço, fotos e código. Imóvel que ninguém acha não vende. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 33.71,
+      "wpm": 142
+    },
+    "pausas_moldadas": {
+      "n": 13,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.03,
+    "final": {
+      "seconds": 31.68,
+      "wpm": 151
+    }
+  }
+]

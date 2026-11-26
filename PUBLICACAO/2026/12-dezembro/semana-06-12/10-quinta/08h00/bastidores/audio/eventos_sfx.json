@@ -1,0 +1,104 @@
+[
+ {
+  "t": 0.71,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "h_anuncio"
+ },
+ {
+  "t": 4.44,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "e_uniao"
+ },
+ {
+  "t": 7.96,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "e_classe"
+ },
+ {
+  "t": 11.67,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "q_etiqueta"
+ },
+ {
+  "t": 14.28,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "v_pergunta"
+ },
+ {
+  "t": 16.44,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "v_conta"
+ },
+ {
+  "t": 18.55,
+  "sound": "click",
+  "gain": -28,
+  "cue": "a_face"
+ },
+ {
+  "t": 22.12,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "a_ficha"
+ },
+ {
+  "t": 26.6,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "f_mes"
+ },
+ {
+  "t": 27.18,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 28.08,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 28.84,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 29.35,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 29.44,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_word"
+ },
+ {
+  "t": 29.83,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 30.63,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 31.38,
+  "sound": "shimmer",
+  "gain": -27,
+  "cue": "cta_direct"
+ }
+]

@@ -7,7 +7,7 @@
     "pushPull": "4 PUSH (e-se, fora-da-bolha ×2, historia) / 2 PULL (corretor-real, ideia).",
     "modelos": "Maquete 2× (08h e 18h, não seguidos) e Pictograma 2× (15h e 21h, não seguidos): casas com placa de energia e rua numerada; linha do tempo do pico-fim e a caixa montada.",
     "modelos_ref": "",
-    "trilhas": "T03 2× (08h e 18h) e T04 2× (10h e 21h), nunca seguidos; T05 fica de fora depois de reprovar no portão de inteligibilidade em 09/12.",
+    "trilhas": "T03 2× (08h e 18h) e T02 2× (10h e 15h), nunca seguidos; 10h trocou T04 por T02 depois de reprovar no portão de inteligibilidade; T05 fora desde 09/12.",
     "aprovacao": "APROVADA por delegação do cliente (ordem no chat de 24/11/2026: produzir e programar sem aprovação, revisão posterior; seguir até o limite de armazenamento)",
     "roteiros": "Roteiros com o complemento script-creator; portas eliminatórias: '63%' do efeito IKEA (não verificado na fonte primária), nome de marca na fala, 'todo anúncio' europeu, nome do prefeito de 1805 (fontes divergem), cifras em dólar de 1987."
   },
@@ -30,9 +30,10 @@
       "justificativaTrilha": "arco de descoberta.",
       "episodio": "ATIVO-D1210-08",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-10/ATIVO-D1210-08_a_conta_de_luz.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/10-quinta/08h00"
     },
     {
       "horario": "10:00",
@@ -47,8 +48,8 @@
       "modelo": "cartoon-explicativo",
       "justificativaModelo": "lista enorme e casas se misturando.",
       "justificativaHorario": "10h: manhã, agenda.",
-      "trilha": "T04",
-      "justificativaTrilha": "tensão em movimento (a confusão).",
+      "trilha": "T02",
+      "justificativaTrilha": "arco emocional (da confusão à decisão). Troca de T04: reprovou no portão de inteligibilidade (queda de 4,6 pontos; 5,7 com ducking).",
       "episodio": "ATIVO-D1210-10",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-10/ATIVO-D1210-10_os_quinze_imoveis.md",
       "status": "roteiro",

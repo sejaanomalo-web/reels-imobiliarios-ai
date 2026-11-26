@@ -485,7 +485,7 @@
     "label": "Cadd9 — sistema"
    }
   ],
-  "trilha": "T04",
+  "trilha": "T02",
   "ancoras": {
    "virada": "cue:v_antes",
    "insight": "cue:a_leve",
@@ -503,8 +503,8 @@
   "pushPull": "pull",
   "justificativaModelo": "lista enorme e casas se misturando.",
   "justificativaHorario": "10h: manhã, agenda.",
-  "trilha": "T04",
-  "justificativaTrilha": "tensão em movimento (a confusão).",
+  "trilha": "T02",
+  "justificativaTrilha": "arco emocional (da confusão à decisão). Troca de T04: reprovou no portão de inteligibilidade (queda de 4,6 pontos; 5,7 com ducking).",
   "data": "2026-12-10",
   "slot": "10:00",
   "arquivo": "PRODUCAO/grade/2026-12-10.json"

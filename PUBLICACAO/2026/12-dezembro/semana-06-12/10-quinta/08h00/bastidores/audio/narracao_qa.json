@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.85,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.99,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.58,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.2,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.91,
+    "palavras_nao_reconhecidas": [
+      "coloque"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.7,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.28,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 31.62,
+    "asr_match": 0.985,
+    "aligned_words": "98/99",
+    "words_per_min": 188,
+    "heard": "E se todo o anúncio de imóvel mostrasse quanto a casa gasta de energia? Na União Europeia, o anúncio de venda ou de aluguel tem que mostrar a classe de energia do imóvel. Aqui, para imóvel residencial privado, essa etiqueta ainda é voluntária. Mas o cliente já pergunta, bate sol à tarde? A conta de luz é alta? Anote a face do sol, peça ao dono as últimas contas de luz e coloca isso na ficha do imóvel. O preço se paga uma vez. A conta chega todo mês. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 32.62,
+      "wpm": 182
+    },
+    "pausas_moldadas": {
+      "n": 11,
+      "max_s": 0.47
+    },
+    "pausas_encurtadas_s": 1.0,
+    "final": {
+      "seconds": 31.62,
+      "wpm": 188
+    }
+  }
+]

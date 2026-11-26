@@ -1,0 +1,68 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.13,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.64,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.58,
+    "palavras_nao_reconhecidas": [
+      "viram"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.97,
+    "palavras_nao_reconhecidas": [
+      "Planeje",
+      "termine"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.27,
+    "palavras_nao_reconhecidas": [
+      "lembrado"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.69,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 33.96,
+    "asr_match": 0.948,
+    "aligned_words": "82/86",
+    "words_per_min": 152,
+    "heard": "Seu cliente não vai lembrar da visita inteira, só de dois momentos. Pesquisadores mediram minuto a minuto o incômodo de pacientes durante um exame médico. Na lembrança, pesou o pior momento e o final. A duração quase não contou. Na visita é parecido. O ponto alto e o fim virão a memória do imóvel. Planeja a rota e termina no melhor lugar. A varanda, a vista, a cozinha clara. Quem termina bem é lembrar do melhor. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 35.58,
+      "wpm": 145
+    },
+    "pausas_moldadas": {
+      "n": 14,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.62,
+    "final": {
+      "seconds": 33.96,
+      "wpm": 152
+    }
+  }
+]

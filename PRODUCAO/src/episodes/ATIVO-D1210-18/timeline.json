@@ -1,0 +1,806 @@
+{
+ "id": "ATIVO-D1210-18",
+ "title": "Os números das casas",
+ "fps": 30,
+ "duration": 34.03333333333333,
+ "durationInFrames": 1021,
+ "narrationEnd": 31.805,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.58
+  },
+  {
+   "id": "pares",
+   "start": 5.58,
+   "end": 9.295
+  },
+  {
+   "id": "rio",
+   "start": 9.295,
+   "end": 13.83
+  },
+  {
+   "id": "virada",
+   "start": 13.83,
+   "end": 17.565
+  },
+  {
+   "id": "ponte",
+   "start": 17.565,
+   "end": 24.195
+  },
+  {
+   "id": "desfecho",
+   "start": 24.195,
+   "end": 26.495
+  },
+  {
+   "id": "cta",
+   "start": 26.495,
+   "end": 34.033
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Em 1805, Paris criou uma regra para numerar as casas. Ela vale até hoje.",
+   "start": 0.12,
+   "end": 5.36
+  },
+  {
+   "id": "s2",
+   "scene": "pares",
+   "text": "Números pares de um lado da rua, ímpares do outro.",
+   "start": 5.8,
+   "end": 9.19
+  },
+  {
+   "id": "s3",
+   "scene": "rio",
+   "text": "E a contagem começa pelo rio: quanto mais perto do Sena, menor o número.",
+   "start": 9.4,
+   "end": 13.62
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Uma regra simples fez a cidade inteira virar um mapa.",
+   "start": 14.04,
+   "end": 17.33
+  },
+  {
+   "id": "s5",
+   "scene": "ponte",
+   "text": "Sua carteira precisa disso: cada imóvel cadastrado do mesmo jeito, com endereço, fotos e código.",
+   "start": 17.8,
+   "end": 24.03
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Imóvel que ninguém acha não vende.",
+   "start": 24.36,
+   "end": 26.31
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 26.68,
+   "end": 31.3
+  }
+ ],
+ "cues": {
+  "h_1805": 0.6,
+  "h_paris": 1.56,
+  "h_numerar": 3.08,
+  "h_hoje": 5.08,
+  "p_pares": 6.36,
+  "p_impares": 7.96,
+  "r_rio": 10.84,
+  "r_sena": 12.44,
+  "r_menor": 13.0,
+  "v_simples": 14.84,
+  "v_mapa": 17.16,
+  "p_carteira": 18.12,
+  "p_jeito": 21.72,
+  "p_endereco": 22.44,
+  "p_fotos": 23.16,
+  "p_codigo": 23.72,
+  "f_acha": 25.4,
+  "f_vende": 26.04,
+  "cta_quer": 26.68,
+  "cta_comment": 27.96,
+  "cta_word": 28.6,
+  "cta_tiles": 29.32,
+  "cta_sys": 30.12,
+  "cta_leads": 29.8,
+  "cta_atend": 30.6,
+  "cta_direct": 30.6,
+  "cta_end": 31.3
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.56,
+   "words": [
+    {
+     "text": "Em",
+     "start": 0.12,
+     "end": 0.6,
+     "emph": false
+    },
+    {
+     "text": "1805,",
+     "start": 0.6,
+     "end": 1.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.56,
+   "end": 2.84,
+   "words": [
+    {
+     "text": "Paris",
+     "start": 1.56,
+     "end": 2.12,
+     "emph": true
+    },
+    {
+     "text": "criou",
+     "start": 2.12,
+     "end": 2.44,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 2.44,
+     "end": 2.6,
+     "emph": false
+    },
+    {
+     "text": "regra",
+     "start": 2.6,
+     "end": 2.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.84,
+   "end": 4.12,
+   "words": [
+    {
+     "text": "para",
+     "start": 2.84,
+     "end": 3.08,
+     "emph": false
+    },
+    {
+     "text": "numerar",
+     "start": 3.08,
+     "end": 3.48,
+     "emph": true
+    },
+    {
+     "text": "as",
+     "start": 3.48,
+     "end": 3.56,
+     "emph": false
+    },
+    {
+     "text": "casas.",
+     "start": 3.56,
+     "end": 3.93,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.12,
+   "end": 4.76,
+   "words": [
+    {
+     "text": "Ela",
+     "start": 4.12,
+     "end": 4.36,
+     "emph": false
+    },
+    {
+     "text": "vale",
+     "start": 4.36,
+     "end": 4.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.76,
+   "end": 5.8,
+   "words": [
+    {
+     "text": "até",
+     "start": 4.76,
+     "end": 5.08,
+     "emph": true
+    },
+    {
+     "text": "hoje.",
+     "start": 5.08,
+     "end": 5.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.8,
+   "end": 6.84,
+   "words": [
+    {
+     "text": "Números",
+     "start": 5.8,
+     "end": 6.36,
+     "emph": false
+    },
+    {
+     "text": "pares",
+     "start": 6.36,
+     "end": 6.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.84,
+   "end": 7.96,
+   "words": [
+    {
+     "text": "de",
+     "start": 6.84,
+     "end": 6.92,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 6.92,
+     "end": 7.08,
+     "emph": false
+    },
+    {
+     "text": "lado",
+     "start": 7.08,
+     "end": 7.32,
+     "emph": false
+    },
+    {
+     "text": "da",
+     "start": 7.32,
+     "end": 7.48,
+     "emph": false
+    },
+    {
+     "text": "rua,",
+     "start": 7.48,
+     "end": 7.73,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.96,
+   "end": 9.4,
+   "words": [
+    {
+     "text": "ímpares",
+     "start": 7.96,
+     "end": 8.76,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 8.76,
+     "end": 8.92,
+     "emph": false
+    },
+    {
+     "text": "outro.",
+     "start": 8.92,
+     "end": 9.19,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.4,
+   "end": 10.28,
+   "words": [
+    {
+     "text": "E",
+     "start": 9.4,
+     "end": 9.56,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 9.56,
+     "end": 9.72,
+     "emph": false
+    },
+    {
+     "text": "contagem",
+     "start": 9.72,
+     "end": 10.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.28,
+   "end": 11.4,
+   "words": [
+    {
+     "text": "começa",
+     "start": 10.28,
+     "end": 10.68,
+     "emph": false
+    },
+    {
+     "text": "pelo",
+     "start": 10.68,
+     "end": 10.84,
+     "emph": false
+    },
+    {
+     "text": "rio:",
+     "start": 10.84,
+     "end": 11.05,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.4,
+   "end": 12.28,
+   "words": [
+    {
+     "text": "quanto",
+     "start": 11.4,
+     "end": 11.72,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 11.72,
+     "end": 11.96,
+     "emph": false
+    },
+    {
+     "text": "perto",
+     "start": 11.96,
+     "end": 12.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.28,
+   "end": 13.0,
+   "words": [
+    {
+     "text": "do",
+     "start": 12.28,
+     "end": 12.44,
+     "emph": false
+    },
+    {
+     "text": "Sena,",
+     "start": 12.44,
+     "end": 13.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.0,
+   "end": 14.04,
+   "words": [
+    {
+     "text": "menor",
+     "start": 13.0,
+     "end": 13.32,
+     "emph": true
+    },
+    {
+     "text": "o",
+     "start": 13.32,
+     "end": 13.48,
+     "emph": false
+    },
+    {
+     "text": "número.",
+     "start": 13.48,
+     "end": 13.62,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.04,
+   "end": 15.32,
+   "words": [
+    {
+     "text": "Uma",
+     "start": 14.04,
+     "end": 14.36,
+     "emph": false
+    },
+    {
+     "text": "regra",
+     "start": 14.36,
+     "end": 14.84,
+     "emph": false
+    },
+    {
+     "text": "simples",
+     "start": 14.84,
+     "end": 15.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.32,
+   "end": 16.6,
+   "words": [
+    {
+     "text": "fez",
+     "start": 15.32,
+     "end": 15.64,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 15.64,
+     "end": 15.72,
+     "emph": false
+    },
+    {
+     "text": "cidade",
+     "start": 15.72,
+     "end": 16.12,
+     "emph": false
+    },
+    {
+     "text": "inteira",
+     "start": 16.12,
+     "end": 16.19,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.6,
+   "end": 17.8,
+   "words": [
+    {
+     "text": "virar",
+     "start": 16.6,
+     "end": 17.0,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 17.0,
+     "end": 17.16,
+     "emph": false
+    },
+    {
+     "text": "mapa.",
+     "start": 17.16,
+     "end": 17.33,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.8,
+   "end": 18.76,
+   "words": [
+    {
+     "text": "Sua",
+     "start": 17.8,
+     "end": 18.12,
+     "emph": false
+    },
+    {
+     "text": "carteira",
+     "start": 18.12,
+     "end": 18.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.76,
+   "end": 19.8,
+   "words": [
+    {
+     "text": "precisa",
+     "start": 18.76,
+     "end": 19.32,
+     "emph": false
+    },
+    {
+     "text": "disso:",
+     "start": 19.32,
+     "end": 19.62,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.8,
+   "end": 21.32,
+   "words": [
+    {
+     "text": "cada",
+     "start": 19.8,
+     "end": 19.88,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 20.12,
+     "end": 20.68,
+     "emph": false
+    },
+    {
+     "text": "cadastrado",
+     "start": 20.68,
+     "end": 21.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.32,
+   "end": 22.2,
+   "words": [
+    {
+     "text": "do",
+     "start": 21.32,
+     "end": 21.48,
+     "emph": false
+    },
+    {
+     "text": "mesmo",
+     "start": 21.48,
+     "end": 21.72,
+     "emph": true
+    },
+    {
+     "text": "jeito,",
+     "start": 21.72,
+     "end": 22.03,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.2,
+   "end": 23.16,
+   "words": [
+    {
+     "text": "com",
+     "start": 22.2,
+     "end": 22.44,
+     "emph": false
+    },
+    {
+     "text": "endereço,",
+     "start": 22.44,
+     "end": 23.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.16,
+   "end": 24.36,
+   "words": [
+    {
+     "text": "fotos",
+     "start": 23.16,
+     "end": 23.56,
+     "emph": true
+    },
+    {
+     "text": "e",
+     "start": 23.56,
+     "end": 23.72,
+     "emph": false
+    },
+    {
+     "text": "código.",
+     "start": 23.72,
+     "end": 24.03,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.36,
+   "end": 25.8,
+   "words": [
+    {
+     "text": "Imóvel",
+     "start": 24.36,
+     "end": 24.92,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 24.92,
+     "end": 25.08,
+     "emph": false
+    },
+    {
+     "text": "ninguém",
+     "start": 25.08,
+     "end": 25.4,
+     "emph": true
+    },
+    {
+     "text": "acha",
+     "start": 25.4,
+     "end": 25.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.8,
+   "end": 26.68,
+   "words": [
+    {
+     "text": "não",
+     "start": 25.8,
+     "end": 26.04,
+     "emph": true
+    },
+    {
+     "text": "vende.",
+     "start": 26.04,
+     "end": 26.31,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.68,
+   "end": 27.96,
+   "words": [
+    {
+     "text": "Se",
+     "start": 26.68,
+     "end": 26.92,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 26.92,
+     "end": 27.16,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 27.16,
+     "end": 27.32,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 27.32,
+     "end": 27.86,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.96,
+   "end": 29.16,
+   "words": [
+    {
+     "text": "comente",
+     "start": 27.96,
+     "end": 28.6,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 28.6,
+     "end": 29.02,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.16,
+   "end": 30.12,
+   "words": [
+    {
+     "text": "e",
+     "start": 29.16,
+     "end": 29.32,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 29.32,
+     "end": 29.8,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 29.8,
+     "end": 30.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.12,
+   "end": 31.8,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 30.12,
+     "end": 30.6,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 30.6,
+     "end": 31.3,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}
