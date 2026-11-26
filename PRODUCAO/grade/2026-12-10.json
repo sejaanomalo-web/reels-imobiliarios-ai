@@ -74,9 +74,10 @@
       "justificativaTrilha": "cama de explicação.",
       "episodio": "ATIVO-D1210-12",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-10/ATIVO-D1210-12_o_preco_da_ficha.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/10-quinta/12h00"
     },
     {
       "horario": "15:00",
