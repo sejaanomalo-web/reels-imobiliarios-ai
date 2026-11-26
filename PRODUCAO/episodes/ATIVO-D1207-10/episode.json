@@ -1,0 +1,515 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1207-10",
+ "lote": "D1207",
+ "title": "Desconto antes da visita",
+ "outputDir": "ATIVO_D1207_10",
+ "deliverables": {
+  "final": "ATIVO_D1207_10_FINAL.mp4",
+  "narration": "ATIVO_D1207_10_NARRACAO.wav",
+  "subtitles": "ATIVO_D1207_10_legendas.srt",
+  "cover": "ATIVO_D1207_10_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-07/ATIVO-D1207-10_desconto_antes_da_visita.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O cliente pede desconto antes de ver o imóvel.",
+   "caption": "O cliente pede *desconto* | *antes* | de ver o imóvel.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "numero",
+   "text": "Se você já responde com um número, ele aprende que o preço é a primeira coisa que cai.",
+   "caption": "Se você já responde | com um *número,* | ele *aprende* | que o *preço* | é a primeira coisa | que *cai.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "semvisita",
+   "text": "E desconto sem visita é desconto num imóvel que ele talvez nem queira.",
+   "caption": "E desconto | *sem visita* | é desconto num imóvel | que ele talvez | *nem queira.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Primeiro ele precisa querer o imóvel. Depois se fala de preço.",
+   "caption": "*Primeiro* | ele precisa *querer* o imóvel. | *Depois* | se fala de preço.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Responda: vamos visitar; se for o imóvel certo, eu levo a sua proposta ao proprietário.",
+   "caption": "Responda: | *vamos visitar;* | se for o *imóvel certo,* | eu levo a sua *proposta* | ao *proprietário.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Negociação boa começa com o cliente querendo o imóvel, não com o preço no chão.",
+   "caption": "Negociação boa | começa com o cliente | *querendo* o imóvel, | não com o preço | *no chão.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "numero": 0.35,
+  "semvisita": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_desconto": {
+   "seg": "s1",
+   "word": "desconto",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_antes": {
+   "seg": "s1",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_numero": {
+   "seg": "s2",
+   "word": "número",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_aprende": {
+   "seg": "s2",
+   "word": "aprende",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_preco": {
+   "seg": "s2",
+   "word": "preço",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_cai": {
+   "seg": "s2",
+   "word": "cai",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_visita": {
+   "seg": "s3",
+   "word": "visita",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_queira": {
+   "seg": "s3",
+   "word": "queira",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_primeiro": {
+   "seg": "s4",
+   "word": "Primeiro",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_querer": {
+   "seg": "s4",
+   "word": "querer",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_depois": {
+   "seg": "s4",
+   "word": "Depois",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_visitar": {
+   "seg": "s5",
+   "word": "visitar",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_certo": {
+   "seg": "s5",
+   "word": "certo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_proposta": {
+   "seg": "s5",
+   "word": "proposta",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_proprietario": {
+   "seg": "s5",
+   "word": "proprietário",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_querendo": {
+   "seg": "s6",
+   "word": "querendo",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_chao": {
+   "seg": "s6",
+   "word": "chão",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_desconto",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "n_numero",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "n_preco",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "s_visita",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_primeiro",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_depois",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_certo",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_proprietario",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_chao",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.75,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.85,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.2,
+   "sound": "click",
+   "gain": -23,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.28,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_antes",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_primeiro",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_chao",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T05",
+  "ancoras": {
+   "virada": "cue:v_primeiro",
+   "insight": "cue:a_proposta",
+   "resolucao": "cue:f_chao"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "modelos4": true,
+ "modelo": 1,
+ "modeloNome": "Cartoon explicativo",
+ "grade": {
+  "territorio": "corretor-real",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "pull",
+  "justificativaModelo": "celular, etiqueta caindo, visita, proposta: humor de rotina.",
+  "justificativaHorario": "10h: manhã de segunda, mensagens acumuladas.",
+  "trilha": "T05",
+  "justificativaTrilha": "motor prático.",
+  "data": "2026-12-07",
+  "slot": "10:00",
+  "arquivo": "PRODUCAO/grade/2026-12-07.json"
+ },
+ "formato": "cartoon-explicativo",
+ "sistemaVisual": "1.0.0"
+}

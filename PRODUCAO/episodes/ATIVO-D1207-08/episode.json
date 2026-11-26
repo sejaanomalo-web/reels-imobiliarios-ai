@@ -1,0 +1,519 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1207-08",
+ "lote": "D1207",
+ "title": "Data de validade",
+ "outputDir": "ATIVO_D1207_08",
+ "deliverables": {
+  "final": "ATIVO_D1207_08_FINAL.mp4",
+  "narration": "ATIVO_D1207_08_NARRACAO.wav",
+  "subtitles": "ATIVO_D1207_08_legendas.srt",
+  "cover": "ATIVO_D1207_08_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-07/ATIVO-D1207-08_data_de_validade.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "E se o seu apartamento tivesse data de validade?",
+   "caption": "E se o seu *apartamento* | tivesse | *data de validade?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "singapura",
+   "text": "Em Singapura, três em cada quatro moradores vivem em apartamentos públicos com contrato de noventa e nove anos.",
+   "caption": "Em *Singapura,* | *três em cada quatro* moradores | vivem em apartamentos *públicos* | com contrato | de *noventa e nove anos.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "volta",
+   "text": "Quando o prazo acaba, o imóvel volta para o Estado.",
+   "caption": "Quando o *prazo* acaba, | o imóvel *volta* | para o *Estado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Aqui não é assim. Mas tem imóvel em que a União também tem uma parte.",
+   "caption": "Aqui *não é assim.* | Mas tem imóvel | em que a *União* | também tem *uma parte.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Em terreno de marinha, a cada venda, se paga à União um laudêmio de cinco por cento. Confira na matrícula antes de anunciar.",
+   "caption": "Em *terreno de marinha,* | a cada *venda,* | se paga à União | um *laudêmio* | de *cinco por cento.* | Confira na *matrícula* | antes de anunciar.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Quem lê a matrícula antes não descobre o custo na hora de assinar.",
+   "caption": "Quem lê a matrícula *antes* | não descobre o *custo* | na hora de *assinar.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "singapura": 0.35,
+  "volta": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_apartamento": {
+   "seg": "s1",
+   "word": "apartamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_validade": {
+   "seg": "s1",
+   "word": "validade",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_singapura": {
+   "seg": "s2",
+   "word": "Singapura",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_tres": {
+   "seg": "s2",
+   "word": "três",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_publicos": {
+   "seg": "s2",
+   "word": "públicos",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_99": {
+   "seg": "s2",
+   "word": "noventa",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_prazo": {
+   "seg": "s3",
+   "word": "prazo",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_volta": {
+   "seg": "s3",
+   "word": "volta",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_estado": {
+   "seg": "s3",
+   "word": "Estado",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_aqui": {
+   "seg": "s4",
+   "word": "Aqui",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_uniao": {
+   "seg": "s4",
+   "word": "União",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_parte": {
+   "seg": "s4",
+   "word": "parte",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_marinha": {
+   "seg": "s5",
+   "word": "marinha",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_venda": {
+   "seg": "s5",
+   "word": "venda",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_laudemio": {
+   "seg": "s5",
+   "word": "laudêmio",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_cinco": {
+   "seg": "s5",
+   "word": "cinco",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_matricula": {
+   "seg": "s5",
+   "word": "matrícula",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_antes": {
+   "seg": "s6",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_custo": {
+   "seg": "s6",
+   "word": "custo",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_assinar": {
+   "seg": "s6",
+   "word": "assinar",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_apartamento",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "s_singapura",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "s_publicos",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "p_prazo",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "p_estado",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_uniao",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_marinha",
+   "offset": -0.05,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_laudemio",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_matricula",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "f_custo",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.2,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.7,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_validade",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_aqui",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_assinar",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T04",
+  "ancoras": {
+   "virada": "cue:v_aqui",
+   "insight": "cue:a_laudemio",
+   "resolucao": "cue:f_assinar"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "modelos4": true,
+ "modelo": 4,
+ "modeloNome": "Maquete 3D",
+ "grade": {
+  "territorio": "e-se",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "prédio com relógio de 99 anos, chave que volta, terreno com a fatia da União.",
+  "justificativaHorario": "08h: pergunta forte para abrir a semana.",
+  "trilha": "T04",
+  "justificativaTrilha": "tensão em movimento: a validade correndo.",
+  "data": "2026-12-07",
+  "slot": "08:00",
+  "arquivo": "PRODUCAO/grade/2026-12-07.json"
+ },
+ "formato": "maquete-3d",
+ "sistemaVisual": "1.0.0"
+}

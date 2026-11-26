@@ -1,0 +1,506 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "2006": "dois mil e seis"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1207-12",
+ "lote": "D1207",
+ "title": "Dois carimbos de graça",
+ "outputDir": "ATIVO_D1207_12",
+ "deliverables": {
+  "final": "ATIVO_D1207_12_FINAL.mp4",
+  "narration": "ATIVO_D1207_12_NARRACAO.wav",
+  "subtitles": "ATIVO_D1207_12_legendas.srt",
+  "cover": "ATIVO_D1207_12_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-07/ATIVO-D1207-12_dois_carimbos.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Dois carimbos de graça fizeram mais gente voltar ao lava-rápido.",
+   "caption": "*Dois carimbos* | de graça | fizeram mais gente | *voltar* | ao lava-rápido.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "oito",
+   "text": "Num estudo publicado em 2006, metade dos clientes recebeu um cartão de oito lavagens.",
+   "caption": "Num estudo | publicado em *2006,* | *metade* dos clientes | recebeu um cartão | de *oito lavagens.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "dez",
+   "text": "A outra metade recebeu um cartão de dez, com duas já carimbadas. Nos dois, faltavam oito.",
+   "caption": "A outra metade | recebeu um cartão de *dez,* | com *duas* já carimbadas. | Nos dois, | faltavam *oito.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Quem via o caminho já começado completou mais, e mais rápido.",
+   "caption": "Quem via o caminho | já *começado* | completou *mais,* | e mais *rápido.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "No financiamento, mostre o que já foi feito: documentos enviados, simulação pronta, falta a avaliação.",
+   "caption": "No *financiamento,* | mostre | o que *já foi feito:* | *documentos* enviados, | *simulação* pronta, | falta a *avaliação.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Ninguém larga fácil um caminho que já começou.",
+   "caption": "Ninguém larga fácil | um caminho | que *já começou.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "oito": 0.35,
+  "dez": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_dois": {
+   "seg": "s1",
+   "word": "Dois",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_voltar": {
+   "seg": "s1",
+   "word": "voltar",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_2006": {
+   "seg": "s2",
+   "word": "2006",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_metade": {
+   "seg": "s2",
+   "word": "metade",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_oito": {
+   "seg": "s2",
+   "word": "oito",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_dez": {
+   "seg": "s3",
+   "word": "dez",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_duas": {
+   "seg": "s3",
+   "word": "duas",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_oito": {
+   "seg": "s3",
+   "word": "oito",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_comecado": {
+   "seg": "s4",
+   "word": "começado",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_mais": {
+   "seg": "s4",
+   "word": "mais",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_rapido": {
+   "seg": "s4",
+   "word": "rápido",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_financiamento": {
+   "seg": "s5",
+   "word": "financiamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_feito": {
+   "seg": "s5",
+   "word": "feito",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_documentos": {
+   "seg": "s5",
+   "word": "documentos",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_simulacao": {
+   "seg": "s5",
+   "word": "simulação",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_avaliacao": {
+   "seg": "s5",
+   "word": "avaliação",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_ninguem": {
+   "seg": "s6",
+   "word": "Ninguém",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_comecou": {
+   "seg": "s6",
+   "word": "começou",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_dois",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "o_2006",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "o_oito",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "d_duas",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_comecado",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_rapido",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_feito",
+   "offset": -0.05,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_simulacao",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_ninguem",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.85,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_voltar",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_comecado",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_comecou",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T03",
+  "ancoras": {
+   "virada": "cue:v_comecado",
+   "insight": "cue:a_financiamento",
+   "resolucao": "cue:f_comecou"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "modelos4": true,
+ "modelo": 3,
+ "modeloNome": "Planta técnica",
+ "grade": {
+  "territorio": "fora-da-bolha",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "cartões viram pranchas; carimbos = cômodos acesos; mergulho na barra de etapas.",
+  "justificativaHorario": "12h: almoço, maior alcance.",
+  "trilha": "T03",
+  "justificativaTrilha": "arco de descoberta.",
+  "data": "2026-12-07",
+  "slot": "12:00",
+  "arquivo": "PRODUCAO/grade/2026-12-07.json"
+ },
+ "formato": "planta-tecnica",
+ "sistemaVisual": "1.0.0"
+}
