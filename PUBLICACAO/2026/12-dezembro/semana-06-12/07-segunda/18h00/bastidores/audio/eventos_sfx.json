@@ -42,12 +42,6 @@
   "cue": "a_prova"
  },
  {
-  "t": 26.04,
-  "sound": "pop",
-  "gain": -28,
-  "cue": "a_matricula"
- },
- {
   "t": 28.84,
   "sound": "tick",
   "gain": -28,

@@ -1,0 +1,116 @@
+[
+ {
+  "t": 1.19,
+  "sound": "swish",
+  "gain": -28,
+  "cue": "h_promete"
+ },
+ {
+  "t": 3.613,
+  "sound": "hollow",
+  "gain": -28,
+  "cue": "d_2014"
+ },
+ {
+  "t": 8.44,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "d_semana"
+ },
+ {
+  "t": 9.91,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "d_ano"
+ },
+ {
+  "t": 12.6,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "c_datas"
+ },
+ {
+  "t": 16.84,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "v_recomeco"
+ },
+ {
+  "t": 19.59,
+  "sound": "impact",
+  "gain": -28,
+  "cue": "v_chance"
+ },
+ {
+  "t": 21.88,
+  "sound": "swish",
+  "gain": -28,
+  "cue": "a_retome"
+ },
+ {
+  "t": 24.36,
+  "sound": "hollow",
+  "gain": -28,
+  "cue": "a_mes"
+ },
+ {
+  "t": 26.15,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "a_aluguel"
+ },
+ {
+  "t": 31.22,
+  "sound": "swish",
+  "gain": -29,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 32.37,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 33.08,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 33.67,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 34.15,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 34.9,
+  "sound": "whoosh_up",
+  "gain": -28,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 34.95,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 36.1,
+  "sound": "shimmer",
+  "gain": -25,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 37.3,
+  "sound": "chord",
+  "gain": -27,
+  "cue": "cta_direct"
+ }
+]
