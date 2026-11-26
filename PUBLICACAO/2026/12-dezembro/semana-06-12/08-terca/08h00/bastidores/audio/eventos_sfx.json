@@ -1,0 +1,110 @@
+[
+ {
+  "t": 0.47,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "h_predio"
+ },
+ {
+  "t": 3.72,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "n_york"
+ },
+ {
+  "t": 6.28,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "n_entrevista"
+ },
+ {
+  "t": 10.23,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "q_escolhe"
+ },
+ {
+  "t": 12.6,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "q_barrar"
+ },
+ {
+  "t": 17.32,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "v_convencao"
+ },
+ {
+  "t": 19.11,
+  "sound": "click",
+  "gain": -28,
+  "cue": "v_aplicativo"
+ },
+ {
+  "t": 23.16,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "a_leia"
+ },
+ {
+  "t": 26.44,
+  "sound": "tick",
+  "gain": -28,
+  "cue": "f_certo"
+ },
+ {
+  "t": 28.23,
+  "sound": "pin",
+  "gain": -28,
+  "cue": "f_investimento"
+ },
+ {
+  "t": 29.58,
+  "sound": "pop",
+  "gain": -29,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 30.48,
+  "sound": "whoosh_fold",
+  "gain": -28,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 31.32,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 31.91,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 31.92,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_word"
+ },
+ {
+  "t": 32.39,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 33.11,
+  "sound": "pin",
+  "gain": -27,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 33.86,
+  "sound": "shimmer",
+  "gain": -27,
+  "cue": "cta_direct"
+ }
+]

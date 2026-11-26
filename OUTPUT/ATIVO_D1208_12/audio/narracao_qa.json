@@ -1,0 +1,69 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.64,
+    "palavras_nao_reconhecidas": [
+      "sete",
+      "por",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.86,
+    "palavras_nao_reconhecidas": [
+      "sessenta"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.15,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 5.03,
+    "palavras_nao_reconhecidas": [
+      "mal"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.89,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.95,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.31,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 33.64,
+    "asr_match": 0.953,
+    "aligned_words": "82/87",
+    "words_per_min": 155,
+    "heard": "Você já ouviu que as palavras valem só 7% da comunicação? Esse número vem de experimentos dos anos 60, sobre como as pessoas percebem sentimentos. E só quando a voz e o rosto contradizem as palavras. O próprio autor diz que o número é mau citado. Fora disso, as palavras pesam muito. Na proposta, escreva claro, valor, condições, prazo, o que está incluso. Postura ajuda, mas quem fecha o negócio são as palavras certas. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 35.71,
+      "wpm": 146
+    },
+    "pausas_moldadas": {
+      "n": 20,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.07,
+    "final": {
+      "seconds": 33.64,
+      "wpm": 155
+    }
+  }
+]

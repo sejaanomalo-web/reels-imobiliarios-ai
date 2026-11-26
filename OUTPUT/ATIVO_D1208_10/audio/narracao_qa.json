@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.88,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.74,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.93,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.1,
+    "palavras_nao_reconhecidas": [
+      "mostre"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.6,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.5,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 29.9,
+    "asr_match": 0.988,
+    "aligned_words": "84/85",
+    "words_per_min": 171,
+    "heard": "O cliente chega na visita com o pai, que é engenheiro. Ele bate na parede, olha o teto, aponta uma rachadura. Se você tenta defender cada ponto, vira uma disputa. E ele ganha. O pai não está ali para atrapalhar, está ali para proteger o filho. Chame ele para perto. Mostra a planta, o laudo, a idade do prédio. Pergunte o que ele olharia primeiro. Quem vinha para barrar, vira quem ajuda a decidir. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 31.31,
+      "wpm": 163
+    },
+    "pausas_moldadas": {
+      "n": 14,
+      "max_s": 0.57
+    },
+    "pausas_encurtadas_s": 1.41,
+    "final": {
+      "seconds": 29.9,
+      "wpm": 171
+    }
+  }
+]

@@ -1,0 +1,912 @@
+{
+ "id": "ATIVO-D1208-18",
+ "title": "A torre provisória",
+ "fps": 30,
+ "duration": 39.86666666666667,
+ "durationInFrames": 1196,
+ "narrationEnd": 37.645,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 2.955
+  },
+  {
+   "id": "licenca",
+   "start": 2.955,
+   "end": 11.37
+  },
+  {
+   "id": "feia",
+   "start": 11.37,
+   "end": 15.11
+  },
+  {
+   "id": "virada",
+   "start": 15.11,
+   "end": 19.55
+  },
+  {
+   "id": "acao",
+   "start": 19.55,
+   "end": 27.53
+  },
+  {
+   "id": "desfecho",
+   "start": 27.53,
+   "end": 32.15
+  },
+  {
+   "id": "cta",
+   "start": 32.15,
+   "end": 39.867
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A Torre Eiffel foi feita para durar vinte anos.",
+   "start": 0.12,
+   "end": 2.83
+  },
+  {
+   "id": "s2",
+   "scene": "licenca",
+   "text": "Construída para a exposição de 1889, ela tinha autorização só até 1909. Depois, podia ser desmontada.",
+   "start": 3.08,
+   "end": 11.1
+  },
+  {
+   "id": "s3",
+   "scene": "feia",
+   "text": "Muita gente achava a torre feia e inútil.",
+   "start": 11.64,
+   "end": 14.9
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Ela foi salva quando ganhou um novo uso: virou antena de rádio.",
+   "start": 15.32,
+   "end": 19.38
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Com imóvel é parecido: mostre os usos que o cliente ainda não viu. O quarto extra vira escritório, a edícula vira renda.",
+   "start": 19.72,
+   "end": 27.34
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Às vezes o imóvel não precisa de reforma. Precisa de um novo uso.",
+   "start": 27.72,
+   "end": 31.94
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 32.36,
+   "end": 37.28
+  }
+ ],
+ "cues": {
+  "h_eiffel": 0.636,
+  "h_vinte": 2.08,
+  "l_1889": 5.107,
+  "l_1909": 8.611,
+  "l_desmontada": 10.6,
+  "e_feia": 13.48,
+  "e_inutil": 14.36,
+  "v_salva": 15.96,
+  "v_uso": 17.48,
+  "v_antena": 18.44,
+  "a_usos": 22.2,
+  "a_viu": 23.48,
+  "a_escritorio": 25.32,
+  "a_renda": 27.16,
+  "f_reforma": 29.56,
+  "f_novo": 31.32,
+  "cta_quer": 32.36,
+  "cta_comment": 33.8,
+  "cta_word": 34.52,
+  "cta_tiles": 35.24,
+  "cta_sys": 36.2,
+  "cta_leads": 35.88,
+  "cta_atend": 36.6,
+  "cta_direct": 36.6,
+  "cta_end": 37.28
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.16,
+   "words": [
+    {
+     "text": "A",
+     "start": 0.12,
+     "end": 0.2,
+     "emph": false
+    },
+    {
+     "text": "Torre",
+     "start": 0.2,
+     "end": 0.636,
+     "emph": false
+    },
+    {
+     "text": "Eiffel",
+     "start": 0.636,
+     "end": 1.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.16,
+   "end": 1.56,
+   "words": [
+    {
+     "text": "foi",
+     "start": 1.16,
+     "end": 1.32,
+     "emph": false
+    },
+    {
+     "text": "feita",
+     "start": 1.32,
+     "end": 1.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.56,
+   "end": 2.08,
+   "words": [
+    {
+     "text": "para",
+     "start": 1.56,
+     "end": 1.72,
+     "emph": false
+    },
+    {
+     "text": "durar",
+     "start": 1.72,
+     "end": 2.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.08,
+   "end": 3.08,
+   "words": [
+    {
+     "text": "vinte",
+     "start": 2.08,
+     "end": 2.44,
+     "emph": true
+    },
+    {
+     "text": "anos.",
+     "start": 2.44,
+     "end": 2.83,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.08,
+   "end": 3.64,
+   "words": [
+    {
+     "text": "Construída",
+     "start": 3.08,
+     "end": 3.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.64,
+   "end": 6.44,
+   "words": [
+    {
+     "text": "para",
+     "start": 3.64,
+     "end": 3.72,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 3.72,
+     "end": 3.88,
+     "emph": false
+    },
+    {
+     "text": "exposição",
+     "start": 3.88,
+     "end": 4.44,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 4.44,
+     "end": 5.107,
+     "emph": false
+    },
+    {
+     "text": "1889,",
+     "start": 5.107,
+     "end": 6.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.44,
+   "end": 7.72,
+   "words": [
+    {
+     "text": "ela",
+     "start": 6.44,
+     "end": 6.68,
+     "emph": false
+    },
+    {
+     "text": "tinha",
+     "start": 6.68,
+     "end": 7.0,
+     "emph": false
+    },
+    {
+     "text": "autorização",
+     "start": 7.0,
+     "end": 7.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.72,
+   "end": 9.48,
+   "words": [
+    {
+     "text": "só",
+     "start": 7.72,
+     "end": 7.96,
+     "emph": false
+    },
+    {
+     "text": "até",
+     "start": 7.96,
+     "end": 8.611,
+     "emph": false
+    },
+    {
+     "text": "1909.",
+     "start": 8.611,
+     "end": 9.21,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.48,
+   "end": 10.04,
+   "words": [
+    {
+     "text": "Depois,",
+     "start": 9.48,
+     "end": 10.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.04,
+   "end": 11.45,
+   "words": [
+    {
+     "text": "podia",
+     "start": 10.04,
+     "end": 10.44,
+     "emph": false
+    },
+    {
+     "text": "ser",
+     "start": 10.44,
+     "end": 10.6,
+     "emph": false
+    },
+    {
+     "text": "desmontada.",
+     "start": 10.6,
+     "end": 11.1,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.64,
+   "end": 12.44,
+   "words": [
+    {
+     "text": "Muita",
+     "start": 11.64,
+     "end": 12.12,
+     "emph": false
+    },
+    {
+     "text": "gente",
+     "start": 12.12,
+     "end": 12.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.44,
+   "end": 13.48,
+   "words": [
+    {
+     "text": "achava",
+     "start": 12.44,
+     "end": 12.92,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 12.92,
+     "end": 13.0,
+     "emph": false
+    },
+    {
+     "text": "torre",
+     "start": 13.0,
+     "end": 13.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.48,
+   "end": 15.32,
+   "words": [
+    {
+     "text": "feia",
+     "start": 13.48,
+     "end": 14.12,
+     "emph": true
+    },
+    {
+     "text": "e",
+     "start": 14.12,
+     "end": 14.36,
+     "emph": false
+    },
+    {
+     "text": "inútil.",
+     "start": 14.36,
+     "end": 14.9,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.32,
+   "end": 16.52,
+   "words": [
+    {
+     "text": "Ela",
+     "start": 15.32,
+     "end": 15.39,
+     "emph": false
+    },
+    {
+     "text": "foi",
+     "start": 15.64,
+     "end": 15.96,
+     "emph": false
+    },
+    {
+     "text": "salva",
+     "start": 15.96,
+     "end": 16.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.52,
+   "end": 17.16,
+   "words": [
+    {
+     "text": "quando",
+     "start": 16.52,
+     "end": 16.76,
+     "emph": false
+    },
+    {
+     "text": "ganhou",
+     "start": 16.76,
+     "end": 17.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.16,
+   "end": 17.96,
+   "words": [
+    {
+     "text": "um",
+     "start": 17.16,
+     "end": 17.24,
+     "emph": false
+    },
+    {
+     "text": "novo",
+     "start": 17.24,
+     "end": 17.48,
+     "emph": true
+    },
+    {
+     "text": "uso:",
+     "start": 17.48,
+     "end": 17.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.96,
+   "end": 19.72,
+   "words": [
+    {
+     "text": "virou",
+     "start": 17.96,
+     "end": 18.44,
+     "emph": false
+    },
+    {
+     "text": "antena",
+     "start": 18.44,
+     "end": 18.92,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 18.92,
+     "end": 19.08,
+     "emph": false
+    },
+    {
+     "text": "rádio.",
+     "start": 19.08,
+     "end": 19.38,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.72,
+   "end": 21.48,
+   "words": [
+    {
+     "text": "Com",
+     "start": 19.72,
+     "end": 19.8,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 20.04,
+     "end": 20.44,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 20.44,
+     "end": 20.68,
+     "emph": false
+    },
+    {
+     "text": "parecido:",
+     "start": 20.68,
+     "end": 21.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.48,
+   "end": 22.6,
+   "words": [
+    {
+     "text": "mostre",
+     "start": 21.48,
+     "end": 21.96,
+     "emph": false
+    },
+    {
+     "text": "os",
+     "start": 21.96,
+     "end": 22.2,
+     "emph": false
+    },
+    {
+     "text": "usos",
+     "start": 22.2,
+     "end": 22.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.6,
+   "end": 23.16,
+   "words": [
+    {
+     "text": "que",
+     "start": 22.6,
+     "end": 22.76,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 22.76,
+     "end": 22.84,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 22.84,
+     "end": 23.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.16,
+   "end": 23.96,
+   "words": [
+    {
+     "text": "ainda",
+     "start": 23.16,
+     "end": 23.32,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 23.32,
+     "end": 23.48,
+     "emph": false
+    },
+    {
+     "text": "viu.",
+     "start": 23.48,
+     "end": 23.65,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.96,
+   "end": 24.84,
+   "words": [
+    {
+     "text": "O",
+     "start": 23.96,
+     "end": 24.12,
+     "emph": false
+    },
+    {
+     "text": "quarto",
+     "start": 24.12,
+     "end": 24.52,
+     "emph": false
+    },
+    {
+     "text": "extra",
+     "start": 24.52,
+     "end": 24.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.84,
+   "end": 25.96,
+   "words": [
+    {
+     "text": "vira",
+     "start": 24.84,
+     "end": 25.32,
+     "emph": false
+    },
+    {
+     "text": "escritório,",
+     "start": 25.32,
+     "end": 25.85,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 25.96,
+   "end": 26.84,
+   "words": [
+    {
+     "text": "a",
+     "start": 25.96,
+     "end": 26.2,
+     "emph": false
+    },
+    {
+     "text": "edícula",
+     "start": 26.2,
+     "end": 26.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 26.84,
+   "end": 27.72,
+   "words": [
+    {
+     "text": "vira",
+     "start": 26.84,
+     "end": 27.16,
+     "emph": false
+    },
+    {
+     "text": "renda.",
+     "start": 27.16,
+     "end": 27.34,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.72,
+   "end": 28.84,
+   "words": [
+    {
+     "text": "Às",
+     "start": 27.72,
+     "end": 28.04,
+     "emph": false
+    },
+    {
+     "text": "vezes",
+     "start": 28.04,
+     "end": 28.2,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 28.2,
+     "end": 28.36,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 28.36,
+     "end": 28.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.84,
+   "end": 29.4,
+   "words": [
+    {
+     "text": "não",
+     "start": 28.84,
+     "end": 29.0,
+     "emph": false
+    },
+    {
+     "text": "precisa",
+     "start": 29.0,
+     "end": 29.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 29.4,
+   "end": 30.52,
+   "words": [
+    {
+     "text": "de",
+     "start": 29.4,
+     "end": 29.56,
+     "emph": false
+    },
+    {
+     "text": "reforma.",
+     "start": 29.56,
+     "end": 30.15,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 30.52,
+   "end": 31.0,
+   "words": [
+    {
+     "text": "Precisa",
+     "start": 30.52,
+     "end": 31.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 31.0,
+   "end": 32.36,
+   "words": [
+    {
+     "text": "de",
+     "start": 31.0,
+     "end": 31.16,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 31.16,
+     "end": 31.32,
+     "emph": false
+    },
+    {
+     "text": "novo",
+     "start": 31.32,
+     "end": 31.72,
+     "emph": true
+    },
+    {
+     "text": "uso.",
+     "start": 31.72,
+     "end": 31.94,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.36,
+   "end": 33.8,
+   "words": [
+    {
+     "text": "Se",
+     "start": 32.36,
+     "end": 32.43,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 32.6,
+     "end": 32.84,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 32.84,
+     "end": 33.0,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 33.0,
+     "end": 33.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.8,
+   "end": 35.08,
+   "words": [
+    {
+     "text": "comente",
+     "start": 33.8,
+     "end": 34.52,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 34.52,
+     "end": 35.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 35.08,
+   "end": 36.2,
+   "words": [
+    {
+     "text": "e",
+     "start": 35.08,
+     "end": 35.24,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 35.24,
+     "end": 35.88,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 35.88,
+     "end": 36.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 36.2,
+   "end": 37.78,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 36.2,
+     "end": 36.6,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 36.6,
+     "end": 37.28,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

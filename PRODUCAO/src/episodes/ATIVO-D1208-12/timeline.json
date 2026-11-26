@@ -1,0 +1,876 @@
+{
+ "id": "ATIVO-D1208-12",
+ "title": "O mito dos 7%",
+ "fps": 30,
+ "duration": 35.96666666666667,
+ "durationInFrames": 1079,
+ "narrationEnd": 33.757,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 3.94
+  },
+  {
+   "id": "origem",
+   "start": 3.94,
+   "end": 9.19
+  },
+  {
+   "id": "condicao",
+   "start": 9.19,
+   "end": 12.775
+  },
+  {
+   "id": "virada",
+   "start": 12.775,
+   "end": 18.235
+  },
+  {
+   "id": "acao",
+   "start": 18.235,
+   "end": 24.545
+  },
+  {
+   "id": "desfecho",
+   "start": 24.545,
+   "end": 28.855
+  },
+  {
+   "id": "cta",
+   "start": 28.855,
+   "end": 35.967
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Você já ouviu que as palavras valem só sete por cento da comunicação?",
+   "start": 0.12,
+   "end": 3.76
+  },
+  {
+   "id": "s2",
+   "scene": "origem",
+   "text": "Esse número vem de experimentos dos anos sessenta, sobre como as pessoas percebem sentimentos.",
+   "start": 4.12,
+   "end": 8.98
+  },
+  {
+   "id": "s3",
+   "scene": "condicao",
+   "text": "E só quando a voz e o rosto contradizem as palavras.",
+   "start": 9.4,
+   "end": 12.55
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "O próprio autor diz que o número é mal citado. Fora disso, as palavras pesam muito.",
+   "start": 13.0,
+   "end": 18.03
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Na proposta, escreva claro: valor, condições, prazo, o que está incluso.",
+   "start": 18.44,
+   "end": 24.33
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Postura ajuda. Mas quem fecha o negócio são as palavras certas.",
+   "start": 24.76,
+   "end": 28.71
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 29.0,
+   "end": 33.31
+  }
+ ],
+ "cues": {
+  "h_palavras": 1.16,
+  "h_sete": 2.257,
+  "o_experimentos": 5.24,
+  "o_sessenta": 6.227,
+  "o_sentimentos": 8.44,
+  "c_so": 9.8,
+  "c_contradizem": 11.48,
+  "v_autor": 13.56,
+  "v_mal": 14.88,
+  "v_pesam": 17.24,
+  "a_proposta": 18.68,
+  "a_claro": 20.12,
+  "a_valor": 20.84,
+  "a_condicoes": 21.56,
+  "a_prazo": 22.6,
+  "a_incluso": 23.96,
+  "f_fecha": 26.44,
+  "f_certas": 28.36,
+  "cta_quer": 29.0,
+  "cta_comment": 30.2,
+  "cta_word": 30.84,
+  "cta_tiles": 31.56,
+  "cta_sys": 32.36,
+  "cta_leads": 32.12,
+  "cta_atend": 32.76,
+  "cta_direct": 32.76,
+  "cta_end": 33.31
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.92,
+   "words": [
+    {
+     "text": "Você",
+     "start": 0.12,
+     "end": 0.36,
+     "emph": false
+    },
+    {
+     "text": "já",
+     "start": 0.36,
+     "end": 0.52,
+     "emph": false
+    },
+    {
+     "text": "ouviu",
+     "start": 0.52,
+     "end": 0.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.92,
+   "end": 1.64,
+   "words": [
+    {
+     "text": "que",
+     "start": 0.92,
+     "end": 1.08,
+     "emph": false
+    },
+    {
+     "text": "as",
+     "start": 1.08,
+     "end": 1.16,
+     "emph": false
+    },
+    {
+     "text": "palavras",
+     "start": 1.16,
+     "end": 1.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.64,
+   "end": 2.257,
+   "words": [
+    {
+     "text": "valem",
+     "start": 1.64,
+     "end": 2.12,
+     "emph": false
+    },
+    {
+     "text": "só",
+     "start": 2.12,
+     "end": 2.257,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.257,
+   "end": 3.08,
+   "words": [
+    {
+     "text": "sete",
+     "start": 2.257,
+     "end": 2.531,
+     "emph": true
+    },
+    {
+     "text": "por",
+     "start": 2.531,
+     "end": 2.737,
+     "emph": true
+    },
+    {
+     "text": "cento",
+     "start": 2.737,
+     "end": 3.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.08,
+   "end": 4.12,
+   "words": [
+    {
+     "text": "da",
+     "start": 3.08,
+     "end": 3.24,
+     "emph": false
+    },
+    {
+     "text": "comunicação?",
+     "start": 3.24,
+     "end": 3.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.12,
+   "end": 4.76,
+   "words": [
+    {
+     "text": "Esse",
+     "start": 4.12,
+     "end": 4.19,
+     "emph": false
+    },
+    {
+     "text": "número",
+     "start": 4.44,
+     "end": 4.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.76,
+   "end": 5.8,
+   "words": [
+    {
+     "text": "vem",
+     "start": 4.76,
+     "end": 5.0,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 5.0,
+     "end": 5.24,
+     "emph": false
+    },
+    {
+     "text": "experimentos",
+     "start": 5.24,
+     "end": 5.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.8,
+   "end": 6.76,
+   "words": [
+    {
+     "text": "dos",
+     "start": 5.8,
+     "end": 5.96,
+     "emph": false
+    },
+    {
+     "text": "anos",
+     "start": 5.96,
+     "end": 6.227,
+     "emph": false
+    },
+    {
+     "text": "sessenta,",
+     "start": 6.227,
+     "end": 6.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.76,
+   "end": 7.72,
+   "words": [
+    {
+     "text": "sobre",
+     "start": 6.76,
+     "end": 7.0,
+     "emph": false
+    },
+    {
+     "text": "como",
+     "start": 7.0,
+     "end": 7.32,
+     "emph": false
+    },
+    {
+     "text": "as",
+     "start": 7.32,
+     "end": 7.48,
+     "emph": false
+    },
+    {
+     "text": "pessoas",
+     "start": 7.48,
+     "end": 7.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.72,
+   "end": 9.4,
+   "words": [
+    {
+     "text": "percebem",
+     "start": 7.72,
+     "end": 8.44,
+     "emph": false
+    },
+    {
+     "text": "sentimentos.",
+     "start": 8.44,
+     "end": 8.98,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.4,
+   "end": 10.28,
+   "words": [
+    {
+     "text": "E",
+     "start": 9.4,
+     "end": 9.8,
+     "emph": false
+    },
+    {
+     "text": "só",
+     "start": 9.8,
+     "end": 10.04,
+     "emph": true
+    },
+    {
+     "text": "quando",
+     "start": 10.04,
+     "end": 10.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.28,
+   "end": 11.48,
+   "words": [
+    {
+     "text": "a",
+     "start": 10.28,
+     "end": 10.44,
+     "emph": false
+    },
+    {
+     "text": "voz",
+     "start": 10.44,
+     "end": 10.76,
+     "emph": false
+    },
+    {
+     "text": "e",
+     "start": 10.76,
+     "end": 10.92,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 10.92,
+     "end": 11.0,
+     "emph": false
+    },
+    {
+     "text": "rosto",
+     "start": 11.0,
+     "end": 11.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.48,
+   "end": 12.12,
+   "words": [
+    {
+     "text": "contradizem",
+     "start": 11.48,
+     "end": 12.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.12,
+   "end": 13.0,
+   "words": [
+    {
+     "text": "as",
+     "start": 12.12,
+     "end": 12.2,
+     "emph": false
+    },
+    {
+     "text": "palavras.",
+     "start": 12.2,
+     "end": 12.55,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.0,
+   "end": 13.96,
+   "words": [
+    {
+     "text": "O",
+     "start": 13.0,
+     "end": 13.16,
+     "emph": false
+    },
+    {
+     "text": "próprio",
+     "start": 13.16,
+     "end": 13.23,
+     "emph": false
+    },
+    {
+     "text": "autor",
+     "start": 13.56,
+     "end": 13.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.96,
+   "end": 14.76,
+   "words": [
+    {
+     "text": "diz",
+     "start": 13.96,
+     "end": 14.28,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 14.28,
+     "end": 14.44,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 14.44,
+     "end": 14.52,
+     "emph": false
+    },
+    {
+     "text": "número",
+     "start": 14.52,
+     "end": 14.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.76,
+   "end": 15.88,
+   "words": [
+    {
+     "text": "é",
+     "start": 14.76,
+     "end": 14.88,
+     "emph": false
+    },
+    {
+     "text": "mal",
+     "start": 14.88,
+     "end": 15.24,
+     "emph": true
+    },
+    {
+     "text": "citado.",
+     "start": 15.24,
+     "end": 15.49,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.88,
+   "end": 16.68,
+   "words": [
+    {
+     "text": "Fora",
+     "start": 15.88,
+     "end": 16.2,
+     "emph": false
+    },
+    {
+     "text": "disso,",
+     "start": 16.2,
+     "end": 16.51,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.68,
+   "end": 18.44,
+   "words": [
+    {
+     "text": "as",
+     "start": 16.68,
+     "end": 16.84,
+     "emph": false
+    },
+    {
+     "text": "palavras",
+     "start": 16.84,
+     "end": 17.24,
+     "emph": false
+    },
+    {
+     "text": "pesam",
+     "start": 17.24,
+     "end": 17.88,
+     "emph": true
+    },
+    {
+     "text": "muito.",
+     "start": 17.88,
+     "end": 18.03,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.44,
+   "end": 19.48,
+   "words": [
+    {
+     "text": "Na",
+     "start": 18.44,
+     "end": 18.68,
+     "emph": false
+    },
+    {
+     "text": "proposta,",
+     "start": 18.68,
+     "end": 19.26,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.48,
+   "end": 20.84,
+   "words": [
+    {
+     "text": "escreva",
+     "start": 19.48,
+     "end": 19.93,
+     "emph": false
+    },
+    {
+     "text": "claro:",
+     "start": 20.12,
+     "end": 20.45,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.84,
+   "end": 21.56,
+   "words": [
+    {
+     "text": "valor,",
+     "start": 20.84,
+     "end": 21.29,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.56,
+   "end": 22.6,
+   "words": [
+    {
+     "text": "condições,",
+     "start": 21.56,
+     "end": 22.33,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.6,
+   "end": 23.32,
+   "words": [
+    {
+     "text": "prazo,",
+     "start": 22.6,
+     "end": 23.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.32,
+   "end": 24.76,
+   "words": [
+    {
+     "text": "o",
+     "start": 23.32,
+     "end": 23.56,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 23.56,
+     "end": 23.8,
+     "emph": false
+    },
+    {
+     "text": "está",
+     "start": 23.8,
+     "end": 23.96,
+     "emph": false
+    },
+    {
+     "text": "incluso.",
+     "start": 23.96,
+     "end": 24.33,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.76,
+   "end": 25.96,
+   "words": [
+    {
+     "text": "Postura",
+     "start": 24.76,
+     "end": 25.4,
+     "emph": false
+    },
+    {
+     "text": "ajuda.",
+     "start": 25.4,
+     "end": 25.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.96,
+   "end": 27.56,
+   "words": [
+    {
+     "text": "Mas",
+     "start": 25.96,
+     "end": 26.2,
+     "emph": false
+    },
+    {
+     "text": "quem",
+     "start": 26.2,
+     "end": 26.44,
+     "emph": false
+    },
+    {
+     "text": "fecha",
+     "start": 26.44,
+     "end": 26.92,
+     "emph": true
+    },
+    {
+     "text": "o",
+     "start": 26.92,
+     "end": 27.0,
+     "emph": false
+    },
+    {
+     "text": "negócio",
+     "start": 27.0,
+     "end": 27.38,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.56,
+   "end": 29.0,
+   "words": [
+    {
+     "text": "são",
+     "start": 27.56,
+     "end": 27.72,
+     "emph": false
+    },
+    {
+     "text": "as",
+     "start": 27.72,
+     "end": 27.88,
+     "emph": false
+    },
+    {
+     "text": "palavras",
+     "start": 27.88,
+     "end": 28.36,
+     "emph": true
+    },
+    {
+     "text": "certas.",
+     "start": 28.36,
+     "end": 28.71,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.0,
+   "end": 30.2,
+   "words": [
+    {
+     "text": "Se",
+     "start": 29.0,
+     "end": 29.16,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 29.16,
+     "end": 29.32,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 29.32,
+     "end": 29.48,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 29.48,
+     "end": 29.95,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.2,
+   "end": 31.4,
+   "words": [
+    {
+     "text": "comente",
+     "start": 30.2,
+     "end": 30.84,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 30.84,
+     "end": 31.27,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.4,
+   "end": 32.36,
+   "words": [
+    {
+     "text": "e",
+     "start": 31.4,
+     "end": 31.56,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 31.56,
+     "end": 32.12,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 32.12,
+     "end": 32.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.36,
+   "end": 33.81,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 32.36,
+     "end": 32.76,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 32.76,
+     "end": 33.31,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

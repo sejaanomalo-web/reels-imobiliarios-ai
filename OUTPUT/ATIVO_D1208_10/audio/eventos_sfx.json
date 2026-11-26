@@ -1,0 +1,122 @@
+[
+ {
+  "t": 1.91,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "h_pai"
+ },
+ {
+  "t": 4.36,
+  "sound": "block",
+  "gain": -28,
+  "cue": "i_parede"
+ },
+ {
+  "t": 6.68,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "i_rachadura"
+ },
+ {
+  "t": 10.15,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "d_disputa"
+ },
+ {
+  "t": 13.08,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "v_atrapalhar"
+ },
+ {
+  "t": 15.64,
+  "sound": "block",
+  "gain": -28,
+  "cue": "a_chame"
+ },
+ {
+  "t": 18.23,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "a_laudo"
+ },
+ {
+  "t": 20.2,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "a_pergunte"
+ },
+ {
+  "t": 23.96,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "f_ajuda"
+ },
+ {
+  "t": 25.13,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 26.31,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 27.0,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 27.67,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 27.75,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_word"
+ },
+ {
+  "t": 27.85,
+  "sound": "whoosh_up",
+  "gain": -28,
+  "cue": "cta_word"
+ },
+ {
+  "t": 28.15,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 28.87,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 28.92,
+  "sound": "pop",
+  "gain": -26,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 30.12,
+  "sound": "click",
+  "gain": -23,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 30.2,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "cta_direct"
+ }
+]

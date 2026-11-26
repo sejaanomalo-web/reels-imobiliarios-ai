@@ -1,0 +1,67 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.71,
+    "palavras_nao_reconhecidas": [
+      "Eiffel",
+      "vinte"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 8.02,
+    "palavras_nao_reconhecidas": [
+      "1889",
+      "1909"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.26,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.06,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 7.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.92,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 37.52,
+    "asr_match": 0.951,
+    "aligned_words": "87/91",
+    "words_per_min": 146,
+    "heard": "A torre Eifel foi feita para durar 20 anos. Construída para a exposição de 1889, ela tinha autorização só até 1909. Depois podia ser desmontada. Muita gente achava a torre feia e inútil. Ela foi salva quando ganhou um novo uso. Virou antena de rádio. Com o imóvel é parecido. Mostre os usos que o cliente ainda não viu. O quarto extra vira escritório, a edícula vira renda. Às vezes o imóvel não precisa de reforma, precisa de um novo uso. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 40.46,
+      "wpm": 135
+    },
+    "pausas_moldadas": {
+      "n": 16,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.94,
+    "final": {
+      "seconds": 37.52,
+      "wpm": 146
+    }
+  }
+]
