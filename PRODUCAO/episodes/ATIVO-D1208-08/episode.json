@@ -1,0 +1,515 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "2021": "dois mil e vinte e um",
+  "STJ": "esse tê jota"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1208-08",
+ "lote": "D1208",
+ "title": "O prédio escolhe",
+ "outputDir": "ATIVO_D1208_08",
+ "deliverables": {
+  "final": "ATIVO_D1208_08_FINAL.mp4",
+  "narration": "ATIVO_D1208_08_NARRACAO.wav",
+  "subtitles": "ATIVO_D1208_08_legendas.srt",
+  "cover": "ATIVO_D1208_08_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-08/ATIVO-D1208-08_o_predio_escolhe.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "E se o prédio pudesse escolher quem compra o apartamento?",
+   "caption": "E se o *prédio* | pudesse *escolher* | quem compra | o apartamento?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "ny",
+   "text": "Em Nova York, em muitos prédios, um conselho de moradores entrevista o comprador e pode dizer não.",
+   "caption": "Em *Nova York,* | em muitos prédios, | um *conselho* de moradores | *entrevista* o comprador | e pode dizer *não.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "aqui",
+   "text": "Aqui o condomínio não escolhe o comprador. Mas as regras dele podem barrar o plano de quem compra.",
+   "caption": "Aqui o condomínio | *não escolhe* o comprador. | Mas as *regras* dele | podem *barrar* o plano | de quem compra.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Em 2021, num caso, o STJ decidiu que a convenção pode proibir aluguel por aplicativo em prédio residencial.",
+   "caption": "Em *2021,* | num caso, | o STJ decidiu | que a *convenção* | pode *proibir* | aluguel por *aplicativo* | em prédio residencial.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Se o seu cliente compra para alugar por temporada, leia a convenção com ele antes da proposta.",
+   "caption": "Se o seu cliente | compra para *alugar* | por temporada, | *leia a convenção* com ele | *antes* da proposta.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "O imóvel certo com a regra errada vira o investimento errado.",
+   "caption": "O imóvel *certo* | com a regra *errada* | vira o *investimento* errado.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "ny": 0.35,
+  "aqui": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_predio": {
+   "seg": "s1",
+   "word": "prédio",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_escolher": {
+   "seg": "s1",
+   "word": "escolher",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_york": {
+   "seg": "s2",
+   "word": "York",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_conselho": {
+   "seg": "s2",
+   "word": "conselho",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_entrevista": {
+   "seg": "s2",
+   "word": "entrevista",
+   "edge": "start",
+   "offset": 0
+  },
+  "n_nao": {
+   "seg": "s2",
+   "word": "não",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_escolhe": {
+   "seg": "s3",
+   "word": "escolhe",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_regras": {
+   "seg": "s3",
+   "word": "regras",
+   "edge": "start",
+   "offset": 0
+  },
+  "q_barrar": {
+   "seg": "s3",
+   "word": "barrar",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_2021": {
+   "seg": "s4",
+   "word": "2021",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_convencao": {
+   "seg": "s4",
+   "word": "convenção",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_proibir": {
+   "seg": "s4",
+   "word": "proibir",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_aplicativo": {
+   "seg": "s4",
+   "word": "aplicativo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_alugar": {
+   "seg": "s5",
+   "word": "alugar",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_leia": {
+   "seg": "s5",
+   "word": "leia",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_antes": {
+   "seg": "s5",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_certo": {
+   "seg": "s6",
+   "word": "certo",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_errada": {
+   "seg": "s6",
+   "word": "errada",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_investimento": {
+   "seg": "s6",
+   "word": "investimento",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_predio",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "n_york",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "n_entrevista",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "q_escolhe",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "q_barrar",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_convencao",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_aplicativo",
+   "offset": -0.05,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_leia",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_certo",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "f_investimento",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.2,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.7,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_escolher",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_2021",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_investimento",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T04",
+  "ancoras": {
+   "virada": "cue:v_2021",
+   "insight": "cue:a_leia",
+   "resolucao": "cue:f_investimento"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "maquete-3d",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "e-se",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "prédio com conselho na portaria; placa de aplicativo que apaga.",
+  "justificativaHorario": "08h: pergunta forte.",
+  "trilha": "T04",
+  "justificativaTrilha": "tensão em movimento (o comprador barrado).",
+  "data": "2026-12-08",
+  "slot": "08:00",
+  "arquivo": "PRODUCAO/grade/2026-12-08.json"
+ },
+ "modelos4": true,
+ "modelo": 4,
+ "modeloNome": "Maquete 3D"
+}

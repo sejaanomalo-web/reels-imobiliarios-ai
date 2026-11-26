@@ -335,13 +335,6 @@
    "pitch": -2
   },
   {
-   "cue": "a_matricula",
-   "offset": 0.0,
-   "sound": "pop",
-   "gain": -28,
-   "pitch": 2
-  },
-  {
    "cue": "a_manutencao",
    "offset": 0.0,
    "sound": "tick",

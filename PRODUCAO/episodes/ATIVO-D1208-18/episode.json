@@ -1,0 +1,488 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "1889": "mil oitocentos e oitenta e nove",
+  "1909": "mil novecentos e nove"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1208-18",
+ "lote": "D1208",
+ "title": "A torre provisória",
+ "outputDir": "ATIVO_D1208_18",
+ "deliverables": {
+  "final": "ATIVO_D1208_18_FINAL.mp4",
+  "narration": "ATIVO_D1208_18_NARRACAO.wav",
+  "subtitles": "ATIVO_D1208_18_legendas.srt",
+  "cover": "ATIVO_D1208_18_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-08/ATIVO-D1208-18_a_torre_provisoria.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A Torre Eiffel foi feita para durar vinte anos.",
+   "caption": "A Torre Eiffel | foi feita | para durar | *vinte anos.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "licenca",
+   "text": "Construída para a exposição de 1889, ela tinha autorização só até 1909. Depois, podia ser desmontada.",
+   "caption": "Construída | para a exposição de *1889,* | ela tinha autorização | só até *1909.* | Depois, | podia ser *desmontada.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "feia",
+   "text": "Muita gente achava a torre feia e inútil.",
+   "caption": "Muita gente | achava a torre | *feia* e *inútil.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Ela foi salva quando ganhou um novo uso: virou antena de rádio.",
+   "caption": "Ela foi *salva* | quando ganhou | um *novo uso:* | virou *antena* de rádio.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Com imóvel é parecido: mostre os usos que o cliente ainda não viu. O quarto extra vira escritório, a edícula vira renda.",
+   "caption": "Com imóvel é parecido: | mostre os *usos* | que o cliente | ainda não viu. | O quarto extra | vira *escritório,* | a edícula | vira *renda.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Às vezes o imóvel não precisa de reforma. Precisa de um novo uso.",
+   "caption": "Às vezes o imóvel | não precisa | de *reforma.* | Precisa | de um *novo uso.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "licenca": 0.35,
+  "feia": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_eiffel": {
+   "seg": "s1",
+   "word": "Eiffel",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_vinte": {
+   "seg": "s1",
+   "word": "vinte",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_1889": {
+   "seg": "s2",
+   "word": "1889",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_1909": {
+   "seg": "s2",
+   "word": "1909",
+   "edge": "start",
+   "offset": 0
+  },
+  "l_desmontada": {
+   "seg": "s2",
+   "word": "desmontada",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_feia": {
+   "seg": "s3",
+   "word": "feia",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_inutil": {
+   "seg": "s3",
+   "word": "inútil",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_salva": {
+   "seg": "s4",
+   "word": "salva",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_uso": {
+   "seg": "s4",
+   "word": "uso",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_antena": {
+   "seg": "s4",
+   "word": "antena",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_usos": {
+   "seg": "s5",
+   "word": "usos",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_viu": {
+   "seg": "s5",
+   "word": "viu",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_escritorio": {
+   "seg": "s5",
+   "word": "escritório",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_renda": {
+   "seg": "s5",
+   "word": "renda",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_reforma": {
+   "seg": "s6",
+   "word": "reforma",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_novo": {
+   "seg": "s6",
+   "word": "novo",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_eiffel",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "l_1889",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "l_desmontada",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "e_inutil",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_uso",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_usos",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_escritorio",
+   "offset": -0.05,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "f_reforma",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.85,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_vinte",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_salva",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_novo",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T01",
+  "ancoras": {
+   "virada": "cue:v_salva",
+   "insight": "cue:a_usos",
+   "resolucao": "cue:f_novo"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "planta-tecnica",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "historia",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "elevação da torre, cota de 20 anos, antena que acende.",
+  "justificativaHorario": "18h: fim de tarde, história.",
+  "trilha": "T01",
+  "justificativaTrilha": "cama de explicação.",
+  "data": "2026-12-08",
+  "slot": "18:00",
+  "arquivo": "PRODUCAO/grade/2026-12-08.json"
+ },
+ "modelos4": true,
+ "modelo": 3,
+ "modeloNome": "Planta técnica"
+}

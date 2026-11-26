@@ -1,0 +1,505 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1208-12",
+ "lote": "D1208",
+ "title": "O mito dos 7%",
+ "outputDir": "ATIVO_D1208_12",
+ "deliverables": {
+  "final": "ATIVO_D1208_12_FINAL.mp4",
+  "narration": "ATIVO_D1208_12_NARRACAO.wav",
+  "subtitles": "ATIVO_D1208_12_legendas.srt",
+  "cover": "ATIVO_D1208_12_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-08/ATIVO-D1208-12_o_mito_dos_7.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-24",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Você já ouviu que as palavras valem só sete por cento da comunicação?",
+   "caption": "Você já ouviu | que as *palavras* | valem só | *sete por cento* | da comunicação?",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "origem",
+   "text": "Esse número vem de experimentos dos anos sessenta, sobre como as pessoas percebem sentimentos.",
+   "caption": "Esse número | vem de *experimentos* | dos anos *sessenta,* | sobre como as pessoas | percebem *sentimentos.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "condicao",
+   "text": "E só quando a voz e o rosto contradizem as palavras.",
+   "caption": "E *só* quando | a voz e o rosto | *contradizem* | as palavras.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "O próprio autor diz que o número é mal citado. Fora disso, as palavras pesam muito.",
+   "caption": "O próprio *autor* | diz que o número | é *mal citado.* | Fora disso, | as palavras *pesam muito.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Na proposta, escreva claro: valor, condições, prazo, o que está incluso.",
+   "caption": "Na *proposta,* | escreva *claro:* | *valor,* | *condições,* | *prazo,* | o que está *incluso.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Postura ajuda. Mas quem fecha o negócio são as palavras certas.",
+   "caption": "Postura ajuda. | Mas quem *fecha* o negócio | são as *palavras certas.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "origem": 0.35,
+  "condicao": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_palavras": {
+   "seg": "s1",
+   "word": "palavras",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_sete": {
+   "seg": "s1",
+   "word": "sete",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_experimentos": {
+   "seg": "s2",
+   "word": "experimentos",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_sessenta": {
+   "seg": "s2",
+   "word": "sessenta",
+   "edge": "start",
+   "offset": 0
+  },
+  "o_sentimentos": {
+   "seg": "s2",
+   "word": "sentimentos",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_so": {
+   "seg": "s3",
+   "word": "só",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_contradizem": {
+   "seg": "s3",
+   "word": "contradizem",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_autor": {
+   "seg": "s4",
+   "word": "autor",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_mal": {
+   "seg": "s4",
+   "word": "mal",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_pesam": {
+   "seg": "s4",
+   "word": "pesam",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_proposta": {
+   "seg": "s5",
+   "word": "proposta",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_claro": {
+   "seg": "s5",
+   "word": "claro",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_valor": {
+   "seg": "s5",
+   "word": "valor",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_condicoes": {
+   "seg": "s5",
+   "word": "condições",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_prazo": {
+   "seg": "s5",
+   "word": "prazo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_incluso": {
+   "seg": "s5",
+   "word": "incluso",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_fecha": {
+   "seg": "s6",
+   "word": "fecha",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_certas": {
+   "seg": "s6",
+   "word": "certas",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_palavras",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "o_experimentos",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "o_sentimentos",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "c_contradizem",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_mal",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_proposta",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_valor",
+   "offset": -0.05,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_prazo",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_fecha",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.85,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_sete",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_autor",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_certas",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T03",
+  "ancoras": {
+   "virada": "cue:v_autor",
+   "insight": "cue:a_proposta",
+   "resolucao": "cue:f_certas"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "planta-tecnica",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "fora-da-bolha",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "prancha 7/38/55 com carimbo de erro; mergulho na proposta.",
+  "justificativaHorario": "12h: almoço, maior alcance.",
+  "trilha": "T03",
+  "justificativaTrilha": "arco de descoberta (desmontar o mito).",
+  "data": "2026-12-08",
+  "slot": "12:00",
+  "arquivo": "PRODUCAO/grade/2026-12-08.json"
+ },
+ "modelos4": true,
+ "modelo": 3,
+ "modeloNome": "Planta técnica"
+}
