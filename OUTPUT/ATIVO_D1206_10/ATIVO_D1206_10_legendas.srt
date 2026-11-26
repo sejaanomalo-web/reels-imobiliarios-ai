@@ -1,0 +1,83 @@
+1
+00:00:00,120 --> 00:00:02,850
+O cliente quer ver dez imóveis no sábado.
+
+2
+00:00:02,920 --> 00:00:04,260
+Você monta a rota,
+
+3
+00:00:04,280 --> 00:00:05,910
+roda o dia inteiro,
+
+4
+00:00:06,040 --> 00:00:08,420
+e no fim ele não lembra qual tinha
+
+5
+00:00:08,440 --> 00:00:09,250
+a varanda.
+
+6
+00:00:09,320 --> 00:00:10,900
+Depois de alguns imóveis,
+
+7
+00:00:10,920 --> 00:00:13,220
+as salas, os quartos e os preços
+
+8
+00:00:13,240 --> 00:00:14,340
+começam a se misturar.
+
+9
+00:00:14,493 --> 00:00:16,370
+Mais visitas não dão mais certeza.
+
+10
+00:00:16,680 --> 00:00:18,040
+Dão mais confusão.
+
+11
+00:00:18,120 --> 00:00:19,730
+Escolha três ou quatro,
+
+12
+00:00:19,800 --> 00:00:21,140
+cada um com um motivo,
+
+13
+00:00:21,160 --> 00:00:22,980
+e entregue uma ficha para ele anotar
+
+14
+00:00:23,000 --> 00:00:24,660
+o que gostou e o que não gostou
+
+15
+00:00:24,680 --> 00:00:25,270
+em cada um.
+
+16
+00:00:25,400 --> 00:00:27,540
+No fim do sábado, ele não precisa
+
+17
+00:00:27,560 --> 00:00:28,430
+lembrar de tudo.
+
+18
+00:00:28,520 --> 00:00:30,220
+Precisa conseguir escolher.
+
+19
+00:00:30,360 --> 00:00:31,460
+Se você é corretor,
+
+20
+00:00:31,480 --> 00:00:33,540
+comente SISTEMA e conheça nosso
+
+21
+00:00:33,560 --> 00:00:34,920
+sistema personalizado.

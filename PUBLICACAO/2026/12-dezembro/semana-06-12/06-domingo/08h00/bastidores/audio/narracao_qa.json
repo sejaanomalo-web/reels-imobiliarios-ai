@@ -1,0 +1,69 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.77,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 6.41,
+    "palavras_nao_reconhecidas": [
+      "trinta",
+      "dois"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 6.72,
+    "palavras_nao_reconhecidas": [
+      "vinte",
+      "dois"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 5.31,
+    "palavras_nao_reconhecidas": [
+      "dez"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.65,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.43,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.46,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 37.54,
+    "asr_match": 0.955,
+    "aligned_words": "107/114",
+    "words_per_min": 182,
+    "heard": "E se a sua casa perdesse valor como um carro? No Japão, uma casa é demolida, em média, com uns 32 anos. Nos Estados Unidos, com mais que o dobro. Na conta dos impostos de lá, uma casa de madeira se deprecia em 22 anos. O que segura o valor é o terreno. Aqui é diferente, mas a pergunta do comprador é a mesma. O que ainda vai valer daqui a 10 anos? Mostre o que segura o preço. A localização, o terreno, a estrutura e a manutenção. Não só o acabamento novo. O acabamento envelhece. O endereço não. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 39.85,
+      "wpm": 172
+    },
+    "pausas_moldadas": {
+      "n": 15,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.31,
+    "final": {
+      "seconds": 37.54,
+      "wpm": 182
+    }
+  }
+]

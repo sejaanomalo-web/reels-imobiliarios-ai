@@ -1,0 +1,67 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 7.87,
+    "palavras_nao_reconhecidas": [
+      "1947"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.92,
+    "palavras_nao_reconhecidas": [
+      "vinte"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.58,
+    "palavras_nao_reconhecidas": [
+      "dezessete"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 5.02,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 7.54,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.49,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 41.43,
+    "asr_match": 0.967,
+    "aligned_words": "101/105",
+    "words_per_min": 152,
+    "heard": "Em 1947, um construtor americano inverteu a linha de montagem. A casa ficava parada e quem andava era a equipe. Cada casa foi dividida em 2 poucas etapas, e cada equipe fazia só a sua, de casa em casa. Assim, surgiram mais de 17 mil casas no mesmo lugar. O segredo não era trabalhar mais, era fazer cada etapa sempre do mesmo jeito. O seu atendimento também tem etapas. Primeiro contato, visita, proposta, documentos. Defina como cada uma é feita. Quando cada etapa tem um jeito certo, você atende mais sem atender pior. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 42.49,
+      "wpm": 148
+    },
+    "pausas_moldadas": {
+      "n": 10,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.06,
+    "final": {
+      "seconds": 41.43,
+      "wpm": 152
+    }
+  }
+]

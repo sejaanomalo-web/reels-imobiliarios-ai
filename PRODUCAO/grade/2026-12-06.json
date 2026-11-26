@@ -30,9 +30,10 @@
       "justificativaTrilha": "tensão em movimento para a casa que perde valor.",
       "episodio": "ATIVO-D1206-08",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-06/ATIVO-D1206-08_casa_que_vence.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/06-domingo/08h00"
     },
     {
       "horario": "10:00",
@@ -72,9 +73,10 @@
       "justificativaTrilha": "arco de descoberta.",
       "episodio": "ATIVO-D1206-12",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-06/ATIVO-D1206-12_dezenove_itens.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/06-domingo/12h00"
     },
     {
       "horario": "15:00",

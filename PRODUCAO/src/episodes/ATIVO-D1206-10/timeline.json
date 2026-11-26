@@ -1,0 +1,974 @@
+{
+ "id": "ATIVO-D1206-10",
+ "title": "Dez imóveis no sábado",
+ "fps": 30,
+ "duration": 37.4,
+ "durationInFrames": 1122,
+ "narrationEnd": 35.171,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 2.785
+  },
+  {
+   "id": "rota",
+   "start": 2.785,
+   "end": 9.185
+  },
+  {
+   "id": "mistura",
+   "start": 9.185,
+   "end": 14.317
+  },
+  {
+   "id": "virada",
+   "start": 14.317,
+   "end": 17.98
+  },
+  {
+   "id": "acao",
+   "start": 17.98,
+   "end": 25.235
+  },
+  {
+   "id": "desfecho",
+   "start": 25.235,
+   "end": 30.19
+  },
+  {
+   "id": "cta",
+   "start": 30.19,
+   "end": 37.4
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O cliente quer ver dez imóveis no sábado.",
+   "start": 0.12,
+   "end": 2.65
+  },
+  {
+   "id": "s2",
+   "scene": "rota",
+   "text": "Você monta a rota, roda o dia inteiro, e no fim ele não lembra qual tinha a varanda.",
+   "start": 2.92,
+   "end": 9.05
+  },
+  {
+   "id": "s3",
+   "scene": "mistura",
+   "text": "Depois de alguns imóveis, as salas, os quartos e os preços começam a se misturar.",
+   "start": 9.32,
+   "end": 14.14
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Mais visitas não dão mais certeza. Dão mais confusão.",
+   "start": 14.493,
+   "end": 17.84
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Escolha três ou quatro, cada um com um motivo, e entregue uma ficha para ele anotar o que gostou e o que não gostou em cada um.",
+   "start": 18.12,
+   "end": 25.07
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "No fim do sábado, ele não precisa lembrar de tudo. Precisa conseguir escolher.",
+   "start": 25.4,
+   "end": 30.02
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 30.36,
+   "end": 34.72
+  }
+ ],
+ "cues": {
+  "h_dez": 1.4,
+  "h_sabado": 2.36,
+  "r_rota": 3.8,
+  "r_dia": 5.0,
+  "r_lembra": 7.32,
+  "r_varanda": 8.6,
+  "m_salas": 11.16,
+  "m_quartos": 11.96,
+  "m_precos": 12.76,
+  "m_misturar": 13.8,
+  "v_certeza": 16.04,
+  "v_confusao": 17.24,
+  "a_tres": 18.76,
+  "a_motivo": 20.6,
+  "a_ficha": 21.96,
+  "a_gostou": 23.32,
+  "f_tudo": 28.04,
+  "f_escolher": 29.56,
+  "cta_quer": 30.36,
+  "cta_comment": 31.48,
+  "cta_word": 32.12,
+  "cta_tiles": 32.76,
+  "cta_sys": 33.56,
+  "cta_leads": 33.32,
+  "cta_atend": 34.04,
+  "cta_direct": 34.04,
+  "cta_end": 34.72
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.92,
+   "words": [
+    {
+     "text": "O",
+     "start": 0.12,
+     "end": 0.32,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 0.44,
+     "end": 0.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.92,
+   "end": 1.4,
+   "words": [
+    {
+     "text": "quer",
+     "start": 0.92,
+     "end": 1.16,
+     "emph": false
+    },
+    {
+     "text": "ver",
+     "start": 1.16,
+     "end": 1.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.4,
+   "end": 2.2,
+   "words": [
+    {
+     "text": "dez",
+     "start": 1.4,
+     "end": 1.72,
+     "emph": true
+    },
+    {
+     "text": "imóveis",
+     "start": 1.72,
+     "end": 2.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.2,
+   "end": 2.92,
+   "words": [
+    {
+     "text": "no",
+     "start": 2.2,
+     "end": 2.36,
+     "emph": false
+    },
+    {
+     "text": "sábado.",
+     "start": 2.36,
+     "end": 2.65,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 2.92,
+   "end": 4.28,
+   "words": [
+    {
+     "text": "Você",
+     "start": 2.92,
+     "end": 3.24,
+     "emph": false
+    },
+    {
+     "text": "monta",
+     "start": 3.24,
+     "end": 3.64,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 3.64,
+     "end": 3.8,
+     "emph": false
+    },
+    {
+     "text": "rota,",
+     "start": 3.8,
+     "end": 4.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.28,
+   "end": 6.04,
+   "words": [
+    {
+     "text": "roda",
+     "start": 4.28,
+     "end": 4.76,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 4.76,
+     "end": 5.0,
+     "emph": false
+    },
+    {
+     "text": "dia",
+     "start": 5.0,
+     "end": 5.32,
+     "emph": true
+    },
+    {
+     "text": "inteiro,",
+     "start": 5.32,
+     "end": 5.71,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.04,
+   "end": 7.0,
+   "words": [
+    {
+     "text": "e",
+     "start": 6.04,
+     "end": 6.12,
+     "emph": false
+    },
+    {
+     "text": "no",
+     "start": 6.36,
+     "end": 6.52,
+     "emph": false
+    },
+    {
+     "text": "fim",
+     "start": 6.52,
+     "end": 7.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.0,
+   "end": 7.8,
+   "words": [
+    {
+     "text": "ele",
+     "start": 7.0,
+     "end": 7.24,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 7.24,
+     "end": 7.32,
+     "emph": true
+    },
+    {
+     "text": "lembra",
+     "start": 7.32,
+     "end": 7.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.8,
+   "end": 8.44,
+   "words": [
+    {
+     "text": "qual",
+     "start": 7.8,
+     "end": 8.12,
+     "emph": false
+    },
+    {
+     "text": "tinha",
+     "start": 8.12,
+     "end": 8.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.44,
+   "end": 9.32,
+   "words": [
+    {
+     "text": "a",
+     "start": 8.44,
+     "end": 8.6,
+     "emph": false
+    },
+    {
+     "text": "varanda.",
+     "start": 8.6,
+     "end": 9.05,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.32,
+   "end": 10.92,
+   "words": [
+    {
+     "text": "Depois",
+     "start": 9.32,
+     "end": 9.72,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 9.72,
+     "end": 9.88,
+     "emph": false
+    },
+    {
+     "text": "alguns",
+     "start": 9.88,
+     "end": 10.2,
+     "emph": false
+    },
+    {
+     "text": "imóveis,",
+     "start": 10.2,
+     "end": 10.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.92,
+   "end": 11.8,
+   "words": [
+    {
+     "text": "as",
+     "start": 10.92,
+     "end": 11.16,
+     "emph": false
+    },
+    {
+     "text": "salas,",
+     "start": 11.16,
+     "end": 11.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.8,
+   "end": 12.52,
+   "words": [
+    {
+     "text": "os",
+     "start": 11.8,
+     "end": 11.96,
+     "emph": false
+    },
+    {
+     "text": "quartos",
+     "start": 11.96,
+     "end": 12.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.52,
+   "end": 13.24,
+   "words": [
+    {
+     "text": "e",
+     "start": 12.52,
+     "end": 12.68,
+     "emph": false
+    },
+    {
+     "text": "os",
+     "start": 12.68,
+     "end": 12.76,
+     "emph": false
+    },
+    {
+     "text": "preços",
+     "start": 12.76,
+     "end": 13.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.24,
+   "end": 14.493,
+   "words": [
+    {
+     "text": "começam",
+     "start": 13.24,
+     "end": 13.64,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 13.64,
+     "end": 13.72,
+     "emph": false
+    },
+    {
+     "text": "se",
+     "start": 13.72,
+     "end": 13.8,
+     "emph": false
+    },
+    {
+     "text": "misturar.",
+     "start": 13.8,
+     "end": 14.14,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.493,
+   "end": 15.4,
+   "words": [
+    {
+     "text": "Mais",
+     "start": 14.493,
+     "end": 14.84,
+     "emph": false
+    },
+    {
+     "text": "visitas",
+     "start": 14.84,
+     "end": 15.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.4,
+   "end": 16.52,
+   "words": [
+    {
+     "text": "não",
+     "start": 15.4,
+     "end": 15.56,
+     "emph": false
+    },
+    {
+     "text": "dão",
+     "start": 15.56,
+     "end": 15.88,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 15.88,
+     "end": 16.04,
+     "emph": false
+    },
+    {
+     "text": "certeza.",
+     "start": 16.04,
+     "end": 16.17,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.68,
+   "end": 18.12,
+   "words": [
+    {
+     "text": "Dão",
+     "start": 16.68,
+     "end": 17.0,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 17.0,
+     "end": 17.24,
+     "emph": false
+    },
+    {
+     "text": "confusão.",
+     "start": 17.24,
+     "end": 17.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.12,
+   "end": 19.8,
+   "words": [
+    {
+     "text": "Escolha",
+     "start": 18.12,
+     "end": 18.63,
+     "emph": false
+    },
+    {
+     "text": "três",
+     "start": 18.76,
+     "end": 19.0,
+     "emph": true
+    },
+    {
+     "text": "ou",
+     "start": 19.0,
+     "end": 19.24,
+     "emph": true
+    },
+    {
+     "text": "quatro,",
+     "start": 19.24,
+     "end": 19.53,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.8,
+   "end": 20.28,
+   "words": [
+    {
+     "text": "cada",
+     "start": 19.8,
+     "end": 20.04,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 20.04,
+     "end": 20.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.28,
+   "end": 21.16,
+   "words": [
+    {
+     "text": "com",
+     "start": 20.28,
+     "end": 20.44,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 20.44,
+     "end": 20.6,
+     "emph": false
+    },
+    {
+     "text": "motivo,",
+     "start": 20.6,
+     "end": 21.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.16,
+   "end": 22.28,
+   "words": [
+    {
+     "text": "e",
+     "start": 21.16,
+     "end": 21.231,
+     "emph": false
+    },
+    {
+     "text": "entregue",
+     "start": 21.231,
+     "end": 21.8,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 21.8,
+     "end": 21.96,
+     "emph": false
+    },
+    {
+     "text": "ficha",
+     "start": 21.96,
+     "end": 22.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.28,
+   "end": 23.0,
+   "words": [
+    {
+     "text": "para",
+     "start": 22.28,
+     "end": 22.44,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 22.44,
+     "end": 22.6,
+     "emph": false
+    },
+    {
+     "text": "anotar",
+     "start": 22.6,
+     "end": 23.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.0,
+   "end": 23.72,
+   "words": [
+    {
+     "text": "o",
+     "start": 23.0,
+     "end": 23.16,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 23.16,
+     "end": 23.32,
+     "emph": false
+    },
+    {
+     "text": "gostou",
+     "start": 23.32,
+     "end": 23.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.72,
+   "end": 24.68,
+   "words": [
+    {
+     "text": "e",
+     "start": 23.72,
+     "end": 23.88,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 23.88,
+     "end": 23.96,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 23.96,
+     "end": 24.12,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 24.12,
+     "end": 24.28,
+     "emph": true
+    },
+    {
+     "text": "gostou",
+     "start": 24.28,
+     "end": 24.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.68,
+   "end": 25.4,
+   "words": [
+    {
+     "text": "em",
+     "start": 24.68,
+     "end": 24.84,
+     "emph": false
+    },
+    {
+     "text": "cada",
+     "start": 24.84,
+     "end": 25.0,
+     "emph": false
+    },
+    {
+     "text": "um.",
+     "start": 25.0,
+     "end": 25.07,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.4,
+   "end": 26.68,
+   "words": [
+    {
+     "text": "No",
+     "start": 25.4,
+     "end": 25.47,
+     "emph": false
+    },
+    {
+     "text": "fim",
+     "start": 25.64,
+     "end": 25.88,
+     "emph": false
+    },
+    {
+     "text": "do",
+     "start": 25.88,
+     "end": 26.04,
+     "emph": false
+    },
+    {
+     "text": "sábado,",
+     "start": 26.04,
+     "end": 26.42,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.68,
+   "end": 27.56,
+   "words": [
+    {
+     "text": "ele",
+     "start": 26.68,
+     "end": 26.92,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 26.92,
+     "end": 27.08,
+     "emph": false
+    },
+    {
+     "text": "precisa",
+     "start": 27.08,
+     "end": 27.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.56,
+   "end": 28.52,
+   "words": [
+    {
+     "text": "lembrar",
+     "start": 27.56,
+     "end": 27.96,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 27.96,
+     "end": 28.04,
+     "emph": false
+    },
+    {
+     "text": "tudo.",
+     "start": 28.04,
+     "end": 28.23,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.52,
+   "end": 30.36,
+   "words": [
+    {
+     "text": "Precisa",
+     "start": 28.52,
+     "end": 29.0,
+     "emph": false
+    },
+    {
+     "text": "conseguir",
+     "start": 29.0,
+     "end": 29.37,
+     "emph": false
+    },
+    {
+     "text": "escolher.",
+     "start": 29.56,
+     "end": 30.02,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.36,
+   "end": 31.48,
+   "words": [
+    {
+     "text": "Se",
+     "start": 30.36,
+     "end": 30.52,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 30.52,
+     "end": 30.68,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 30.68,
+     "end": 30.84,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 30.84,
+     "end": 31.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.48,
+   "end": 32.6,
+   "words": [
+    {
+     "text": "comente",
+     "start": 31.48,
+     "end": 32.12,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 32.12,
+     "end": 32.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.6,
+   "end": 33.56,
+   "words": [
+    {
+     "text": "e",
+     "start": 32.6,
+     "end": 32.76,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 32.76,
+     "end": 33.32,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 33.32,
+     "end": 33.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.56,
+   "end": 35.22,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 33.56,
+     "end": 34.04,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 34.04,
+     "end": 34.72,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

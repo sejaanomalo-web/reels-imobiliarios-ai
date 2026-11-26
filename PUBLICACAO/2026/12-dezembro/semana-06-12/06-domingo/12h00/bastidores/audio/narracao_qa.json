@@ -1,0 +1,74 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.11,
+    "palavras_nao_reconhecidas": [
+      "dezenove",
+      "reduzir"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.97,
+    "palavras_nao_reconhecidas": [
+      "2009"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 8.0,
+    "palavras_nao_reconhecidas": [
+      "meio",
+      "por",
+      "cento",
+      "onze",
+      "sete",
+      "por",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.3,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 7.99,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.08,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.37,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 41.54,
+    "asr_match": 0.893,
+    "aligned_words": "88/101",
+    "words_per_min": 146,
+    "heard": "Uma lista de 19 itens ajudou a reduz mortes em cirurgias. Em 2009, um estudo em oito hospitais de oito países testou um checklist da Organização Mundial da Saúde. Depois da lista, as mortes caíram de 1,5% para menos de 1. As complicações de 11 para 7%. As equipes já sabiam tudo aquilo. A lista só não deixava esquecer. No fechamento, faça a sua. Documentos do vendedor, certidões, matrícula atualizada, prazo do financiamento e data das chaves. Experiência não protege do esquecimento. Lista protege. Se você é corretor, comente Sistema e conheça o nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 43.52,
+      "wpm": 139
+    },
+    "pausas_moldadas": {
+      "n": 16,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.98,
+    "final": {
+      "seconds": 41.54,
+      "wpm": 146
+    }
+  }
+]

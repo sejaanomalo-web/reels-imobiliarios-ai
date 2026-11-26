@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.53,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 6.13,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.82,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.35,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.95,
+    "palavras_nao_reconhecidas": [
+      "entregue"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 35.05,
+    "asr_match": 0.98,
+    "aligned_words": "99/101",
+    "words_per_min": 173,
+    "heard": "O cliente quer ver dez imóveis no sábado. Você monta a rota, roda o dia inteiro e no fim ele não lembra qual tinha a varanda. Depois de alguns imóveis, as salas, os quartos e os preços começam a se misturar. Mas visitas não dão mais certeza, dão mais confusão. Escolha três ou quatro, cada um com um motivo e entrega uma ficha para ele anotar o que gostou e o que não gostou em cada um. No fim do sábado, ele não precisa lembrar de tudo, precisa conseguir escolher. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 36.09,
+      "wpm": 168
+    },
+    "pausas_moldadas": {
+      "n": 9,
+      "max_s": 0.56
+    },
+    "pausas_encurtadas_s": 1.04,
+    "final": {
+      "seconds": 35.05,
+      "wpm": 173
+    }
+  }
+]
