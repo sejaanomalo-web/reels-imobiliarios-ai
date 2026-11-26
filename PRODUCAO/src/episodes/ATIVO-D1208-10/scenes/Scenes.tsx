@@ -40,7 +40,7 @@ export const makeShots = (tl: Timeline): Shot[] => {
   const t1 = c.i_parede - 0.9;
   const t2 = c.d_defender - 0.8;
   const t3 = c.v_atrapalhar - 1.0;
-  const t4 = c.a_chame - 0.6;
+  const t4 = c.a_chame - 0.1;
   const t5 = c.f_barrar - 0.9;
   const tFim = c.cta_quer - 0.05;
   const PAI = { ...VIS.B };
@@ -56,7 +56,7 @@ export const makeShots = (tl: Timeline): Shot[] => {
           <g opacity={prog(t, c.h_engenheiro - 0.2, 0.3)}><Capacete x={850} y={1150} s={0.62} /></g>
         </>
       ),
-      html: (t) => <Etiqueta t={t} at={c.h_engenheiro - 0.1} x={850} y={860} texto="PAI ENGENHEIRO" cor="white" size={32} />,
+      html: (t) => <Etiqueta t={t} at={c.h_pai - 0.1} x={850} y={860} texto="PAI ENGENHEIRO" cor="white" size={32} />,
       selo: (t) => <Selo t={t} at={0.1} texto="NA VISITA" />,
     },
     {
@@ -112,7 +112,7 @@ export const makeShots = (tl: Timeline): Shot[] => {
       html: (t) => (
         <>
           <Etiqueta t={t} at={c.v_atrapalhar - 0.1} x={540} y={480} texto="NÃO VEIO ATRAPALHAR" cor="white" size={38} />
-          <Carimbo t={t} at={c.v_proteger - 0.03} x={540} y={640} texto="VEIO PROTEGER O FILHO" cor="green" size={52} rot={-4} />
+          <Carimbo t={t} at={c.v_proteger - 0.35} x={540} y={640} texto="VEIO PROTEGER O FILHO" cor="green" size={52} rot={-4} />
         </>
       ),
       selo: (t) => <Selo t={t} at={t3 + 0.05} texto="A VIRADA" cor="green" />,
