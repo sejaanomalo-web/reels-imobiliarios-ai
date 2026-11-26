@@ -52,9 +52,10 @@
       "justificativaTrilha": "tensão em movimento (a informação que se perde no áudio). Troca de T05: a mixagem com T05 reprovou no portão de inteligibilidade (queda de 4,2 pontos).",
       "episodio": "ATIVO-D1209-10",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-09/ATIVO-D1209-10_o_audio_de_cinco_minutos.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/09-quarta/10h00"
     },
     {
       "horario": "12:00",
