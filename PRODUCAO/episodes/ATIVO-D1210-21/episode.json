@@ -1,0 +1,506 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "2012": "dois mil e doze"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1210-21",
+ "lote": "D1210",
+ "title": "Montado pelas próprias mãos",
+ "outputDir": "ATIVO_D1210_21",
+ "deliverables": {
+  "final": "ATIVO_D1210_21_FINAL.mp4",
+  "narration": "ATIVO_D1210_21_NARRACAO.wav",
+  "subtitles": "ATIVO_D1210_21_legendas.srt",
+  "cover": "ATIVO_D1210_21_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-10/ATIVO-D1210-21_montado_pelas_proprias_maos.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-26",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Por que a gente gosta mais do móvel que montou sozinho, mesmo meio torto?",
+   "caption": "Por que a gente | gosta *mais* | do móvel | que *montou sozinho,* | mesmo meio *torto?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "estudo",
+   "text": "Em 2012, pesquisadores pediram a pessoas que montassem caixas simples de guardar coisas.",
+   "caption": "Em *2012,* | pesquisadores | pediram a pessoas | que *montassem* | *caixas* simples | de guardar coisas.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "resultado",
+   "text": "Quem montou aceitava pagar mais pela própria caixa do que por uma igual, já pronta.",
+   "caption": "Quem *montou* | aceitava *pagar mais* | pela *própria* caixa | do que por uma igual, | já *pronta.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "O que a gente ajuda a construir passa a valer mais.",
+   "caption": "O que a gente | ajuda a *construir* | passa a *valer mais.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Monte a busca com o cliente: ele escolhe os critérios, você traz as opções e explica cada uma.",
+   "caption": "*Monte a busca* | com o cliente: | ele escolhe | os *critérios,* | você traz as *opções* | e *explica* cada uma.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Cliente que participa da escolha defende a escolha.",
+   "caption": "Cliente que *participa* | da escolha | *defende* a escolha.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "estudo": 0.35,
+  "resultado": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_gosta": {
+   "seg": "s1",
+   "word": "gosta",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_montou": {
+   "seg": "s1",
+   "word": "montou",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_torto": {
+   "seg": "s1",
+   "word": "torto",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_2012": {
+   "seg": "s2",
+   "word": "2012",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_montassem": {
+   "seg": "s2",
+   "word": "montassem",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_caixas": {
+   "seg": "s2",
+   "word": "caixas",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_montou": {
+   "seg": "s3",
+   "word": "montou",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_pagar": {
+   "seg": "s3",
+   "word": "pagar",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_propria": {
+   "seg": "s3",
+   "word": "própria",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_pronta": {
+   "seg": "s3",
+   "word": "pronta",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_construir": {
+   "seg": "s4",
+   "word": "construir",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_valer": {
+   "seg": "s4",
+   "word": "valer",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_monte": {
+   "seg": "s5",
+   "word": "Monte",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_criterios": {
+   "seg": "s5",
+   "word": "critérios",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_opcoes": {
+   "seg": "s5",
+   "word": "opções",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_explica": {
+   "seg": "s5",
+   "word": "explica",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_participa": {
+   "seg": "s6",
+   "word": "participa",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_defende": {
+   "seg": "s6",
+   "word": "defende",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_gosta",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "h_torto",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "e_montassem",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "r_montou",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "r_propria",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_construir",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_monte",
+   "offset": -0.05,
+   "sound": "impact",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_opcoes",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_participa",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.1,
+   "sound": "shimmer",
+   "gain": -25
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 2.3,
+   "sound": "chord",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_montou",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_construir",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_defende",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T04",
+  "ancoras": {
+   "virada": "cue:v_construir",
+   "insight": "cue:a_monte",
+   "resolucao": "cue:f_defende"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "pictograma-cinematografico",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "fora-da-bolha",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "o boneco montando a caixa.",
+  "justificativaHorario": "21h: leitura atenta.",
+  "trilha": "T04",
+  "justificativaTrilha": "tensão em movimento (o encaixe).",
+  "data": "2026-12-10",
+  "slot": "21:00",
+  "arquivo": "PRODUCAO/grade/2026-12-10.json"
+ },
+ "modelos4": true,
+ "modelo": 2,
+ "modeloNome": "Pictograma cinematográfico"
+}

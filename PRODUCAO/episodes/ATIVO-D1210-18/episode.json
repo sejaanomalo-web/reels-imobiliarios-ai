@@ -1,0 +1,501 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "1805": "mil oitocentos e cinco"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1210-18",
+ "lote": "D1210",
+ "title": "Os números das casas",
+ "outputDir": "ATIVO_D1210_18",
+ "deliverables": {
+  "final": "ATIVO_D1210_18_FINAL.mp4",
+  "narration": "ATIVO_D1210_18_NARRACAO.wav",
+  "subtitles": "ATIVO_D1210_18_legendas.srt",
+  "cover": "ATIVO_D1210_18_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-10/ATIVO-D1210-18_os_numeros_das_casas.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-26",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Em 1805, Paris criou uma regra para numerar as casas. Ela vale até hoje.",
+   "caption": "Em *1805,* | *Paris* criou uma regra | para *numerar* as casas. | Ela vale | *até hoje.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "pares",
+   "text": "Números pares de um lado da rua, ímpares do outro.",
+   "caption": "Números *pares* | de um lado da rua, | *ímpares* do outro.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "rio",
+   "text": "E a contagem começa pelo rio: quanto mais perto do Sena, menor o número.",
+   "caption": "E a contagem | começa pelo *rio:* | quanto mais perto | do *Sena,* | *menor* o número.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Uma regra simples fez a cidade inteira virar um mapa.",
+   "caption": "Uma regra *simples* | fez a cidade inteira | virar um *mapa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "ponte",
+   "text": "Sua carteira precisa disso: cada imóvel cadastrado do mesmo jeito, com endereço, fotos e código.",
+   "caption": "Sua *carteira* | precisa disso: | cada imóvel cadastrado | do *mesmo jeito,* | com *endereço,* | *fotos* e *código.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Imóvel que ninguém acha não vende.",
+   "caption": "Imóvel que *ninguém acha* | *não vende.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "pares": 0.35,
+  "rio": 0.35,
+  "virada": 0.35,
+  "ponte": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_1805": {
+   "seg": "s1",
+   "word": "1805",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_paris": {
+   "seg": "s1",
+   "word": "Paris",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_numerar": {
+   "seg": "s1",
+   "word": "numerar",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_hoje": {
+   "seg": "s1",
+   "word": "hoje",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_pares": {
+   "seg": "s2",
+   "word": "pares",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_impares": {
+   "seg": "s2",
+   "word": "ímpares",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_rio": {
+   "seg": "s3",
+   "word": "rio",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_sena": {
+   "seg": "s3",
+   "word": "Sena",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_menor": {
+   "seg": "s3",
+   "word": "menor",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_simples": {
+   "seg": "s4",
+   "word": "simples",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_mapa": {
+   "seg": "s4",
+   "word": "mapa",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_carteira": {
+   "seg": "s5",
+   "word": "carteira",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_jeito": {
+   "seg": "s5",
+   "word": "jeito",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_endereco": {
+   "seg": "s5",
+   "word": "endereço",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_fotos": {
+   "seg": "s5",
+   "word": "fotos",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_codigo": {
+   "seg": "s5",
+   "word": "código",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_acha": {
+   "seg": "s6",
+   "word": "acha",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_vende": {
+   "seg": "s6",
+   "word": "vende",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_1805",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "h_numerar",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "p_pares",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "r_rio",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "r_menor",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_mapa",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "p_jeito",
+   "offset": -0.05,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "p_fotos",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "f_acha",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.2,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.7,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_paris",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_simples",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_vende",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T03",
+  "ancoras": {
+   "virada": "cue:v_simples",
+   "insight": "cue:p_carteira",
+   "resolucao": "cue:f_vende"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "maquete-3d",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "historia",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "rua de argila com números a partir do rio.",
+  "justificativaHorario": "18h: volta para casa, história.",
+  "trilha": "T03",
+  "justificativaTrilha": "arco de descoberta.",
+  "data": "2026-12-10",
+  "slot": "18:00",
+  "arquivo": "PRODUCAO/grade/2026-12-10.json"
+ },
+ "modelos4": true,
+ "modelo": 4,
+ "modeloNome": "Maquete 3D"
+}
