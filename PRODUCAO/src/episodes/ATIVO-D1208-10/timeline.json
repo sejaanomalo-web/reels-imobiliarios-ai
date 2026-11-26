@@ -1,0 +1,856 @@
+{
+ "id": "ATIVO-D1208-10",
+ "title": "O pai engenheiro",
+ "fps": 30,
+ "duration": 32.233333333333334,
+ "durationInFrames": 967,
+ "narrationEnd": 30.023,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 3.24
+  },
+  {
+   "id": "inspecao",
+   "start": 3.24,
+   "end": 7.39
+  },
+  {
+   "id": "disputa",
+   "start": 7.39,
+   "end": 11.725
+  },
+  {
+   "id": "virada",
+   "start": 11.725,
+   "end": 15.465
+  },
+  {
+   "id": "acao",
+   "start": 15.465,
+   "end": 21.93
+  },
+  {
+   "id": "desfecho",
+   "start": 21.93,
+   "end": 24.9
+  },
+  {
+   "id": "cta",
+   "start": 24.9,
+   "end": 32.233
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O cliente chega na visita com o pai, que é engenheiro.",
+   "start": 0.12,
+   "end": 3.0
+  },
+  {
+   "id": "s2",
+   "scene": "inspecao",
+   "text": "Ele bate na parede, olha o teto, aponta uma rachadura.",
+   "start": 3.48,
+   "end": 7.22
+  },
+  {
+   "id": "s3",
+   "scene": "disputa",
+   "text": "Se você tenta defender cada ponto, vira uma disputa. E ele ganha.",
+   "start": 7.56,
+   "end": 11.49
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "O pai não está ali para atrapalhar. Está ali para proteger o filho.",
+   "start": 11.96,
+   "end": 15.29
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Chame ele para perto: mostre a planta, o laudo, a idade do prédio. Pergunte o que ele olharia primeiro.",
+   "start": 15.64,
+   "end": 21.74
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Quem vinha para barrar vira quem ajuda a decidir.",
+   "start": 22.12,
+   "end": 24.72
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 25.08,
+   "end": 29.58
+  }
+ ],
+ "cues": {
+  "h_pai": 1.96,
+  "h_engenheiro": 2.68,
+  "i_parede": 4.36,
+  "i_teto": 5.4,
+  "i_rachadura": 6.68,
+  "d_defender": 8.44,
+  "d_disputa": 10.2,
+  "d_ganha": 11.24,
+  "v_atrapalhar": 13.08,
+  "v_proteger": 14.52,
+  "a_chame": 15.64,
+  "a_planta": 17.56,
+  "a_laudo": 18.28,
+  "a_predio": 19.64,
+  "a_pergunte": 20.2,
+  "f_barrar": 22.84,
+  "f_ajuda": 23.96,
+  "cta_quer": 25.08,
+  "cta_comment": 26.36,
+  "cta_word": 27.0,
+  "cta_tiles": 27.72,
+  "cta_sys": 28.52,
+  "cta_leads": 28.2,
+  "cta_atend": 28.92,
+  "cta_direct": 28.92,
+  "cta_end": 29.58
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.16,
+   "words": [
+    {
+     "text": "O",
+     "start": 0.12,
+     "end": 0.36,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 0.36,
+     "end": 0.84,
+     "emph": false
+    },
+    {
+     "text": "chega",
+     "start": 0.84,
+     "end": 1.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.16,
+   "end": 1.72,
+   "words": [
+    {
+     "text": "na",
+     "start": 1.16,
+     "end": 1.32,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 1.32,
+     "end": 1.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.72,
+   "end": 2.28,
+   "words": [
+    {
+     "text": "com",
+     "start": 1.72,
+     "end": 1.88,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 1.88,
+     "end": 1.96,
+     "emph": false
+    },
+    {
+     "text": "pai,",
+     "start": 1.96,
+     "end": 2.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.28,
+   "end": 3.48,
+   "words": [
+    {
+     "text": "que",
+     "start": 2.28,
+     "end": 2.44,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 2.44,
+     "end": 2.68,
+     "emph": false
+    },
+    {
+     "text": "engenheiro.",
+     "start": 2.68,
+     "end": 3.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.48,
+   "end": 4.12,
+   "words": [
+    {
+     "text": "Ele",
+     "start": 3.48,
+     "end": 3.72,
+     "emph": false
+    },
+    {
+     "text": "bate",
+     "start": 3.72,
+     "end": 4.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.12,
+   "end": 4.92,
+   "words": [
+    {
+     "text": "na",
+     "start": 4.12,
+     "end": 4.36,
+     "emph": false
+    },
+    {
+     "text": "parede,",
+     "start": 4.36,
+     "end": 4.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.92,
+   "end": 5.96,
+   "words": [
+    {
+     "text": "olha",
+     "start": 4.92,
+     "end": 5.32,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 5.32,
+     "end": 5.4,
+     "emph": false
+    },
+    {
+     "text": "teto,",
+     "start": 5.4,
+     "end": 5.79,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.96,
+   "end": 7.56,
+   "words": [
+    {
+     "text": "aponta",
+     "start": 5.96,
+     "end": 6.44,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 6.44,
+     "end": 6.68,
+     "emph": false
+    },
+    {
+     "text": "rachadura.",
+     "start": 6.68,
+     "end": 7.22,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 7.56,
+   "end": 8.44,
+   "words": [
+    {
+     "text": "Se",
+     "start": 7.56,
+     "end": 7.8,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 7.8,
+     "end": 8.04,
+     "emph": false
+    },
+    {
+     "text": "tenta",
+     "start": 8.04,
+     "end": 8.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.44,
+   "end": 9.72,
+   "words": [
+    {
+     "text": "defender",
+     "start": 8.44,
+     "end": 9.0,
+     "emph": true
+    },
+    {
+     "text": "cada",
+     "start": 9.0,
+     "end": 9.32,
+     "emph": false
+    },
+    {
+     "text": "ponto,",
+     "start": 9.32,
+     "end": 9.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.72,
+   "end": 10.76,
+   "words": [
+    {
+     "text": "vira",
+     "start": 9.72,
+     "end": 10.04,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 10.04,
+     "end": 10.2,
+     "emph": false
+    },
+    {
+     "text": "disputa.",
+     "start": 10.2,
+     "end": 10.58,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.76,
+   "end": 11.96,
+   "words": [
+    {
+     "text": "E",
+     "start": 10.76,
+     "end": 11.0,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 11.0,
+     "end": 11.24,
+     "emph": false
+    },
+    {
+     "text": "ganha.",
+     "start": 11.24,
+     "end": 11.49,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 11.96,
+   "end": 12.44,
+   "words": [
+    {
+     "text": "O",
+     "start": 11.96,
+     "end": 12.12,
+     "emph": false
+    },
+    {
+     "text": "pai",
+     "start": 12.12,
+     "end": 12.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.44,
+   "end": 12.92,
+   "words": [
+    {
+     "text": "não",
+     "start": 12.44,
+     "end": 12.6,
+     "emph": false
+    },
+    {
+     "text": "está",
+     "start": 12.6,
+     "end": 12.76,
+     "emph": false
+    },
+    {
+     "text": "ali",
+     "start": 12.76,
+     "end": 12.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.92,
+   "end": 13.8,
+   "words": [
+    {
+     "text": "para",
+     "start": 12.92,
+     "end": 13.08,
+     "emph": false
+    },
+    {
+     "text": "atrapalhar.",
+     "start": 13.08,
+     "end": 13.63,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.8,
+   "end": 14.36,
+   "words": [
+    {
+     "text": "Está",
+     "start": 13.8,
+     "end": 14.12,
+     "emph": false
+    },
+    {
+     "text": "ali",
+     "start": 14.12,
+     "end": 14.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.36,
+   "end": 15.64,
+   "words": [
+    {
+     "text": "para",
+     "start": 14.36,
+     "end": 14.52,
+     "emph": false
+    },
+    {
+     "text": "proteger",
+     "start": 14.52,
+     "end": 15.0,
+     "emph": true
+    },
+    {
+     "text": "o",
+     "start": 15.0,
+     "end": 15.08,
+     "emph": false
+    },
+    {
+     "text": "filho.",
+     "start": 15.08,
+     "end": 15.29,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 15.64,
+   "end": 16.956,
+   "words": [
+    {
+     "text": "Chame",
+     "start": 15.64,
+     "end": 15.71,
+     "emph": true
+    },
+    {
+     "text": "ele",
+     "start": 16.2,
+     "end": 16.36,
+     "emph": true
+    },
+    {
+     "text": "para",
+     "start": 16.36,
+     "end": 16.52,
+     "emph": false
+    },
+    {
+     "text": "perto:",
+     "start": 16.52,
+     "end": 16.78,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 16.956,
+   "end": 18.04,
+   "words": [
+    {
+     "text": "mostre",
+     "start": 16.956,
+     "end": 17.48,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 17.48,
+     "end": 17.56,
+     "emph": false
+    },
+    {
+     "text": "planta,",
+     "start": 17.56,
+     "end": 18.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.04,
+   "end": 18.92,
+   "words": [
+    {
+     "text": "o",
+     "start": 18.04,
+     "end": 18.28,
+     "emph": false
+    },
+    {
+     "text": "laudo,",
+     "start": 18.28,
+     "end": 18.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.92,
+   "end": 20.2,
+   "words": [
+    {
+     "text": "a",
+     "start": 18.92,
+     "end": 19.16,
+     "emph": false
+    },
+    {
+     "text": "idade",
+     "start": 19.16,
+     "end": 19.48,
+     "emph": false
+    },
+    {
+     "text": "do",
+     "start": 19.48,
+     "end": 19.64,
+     "emph": false
+    },
+    {
+     "text": "prédio.",
+     "start": 19.64,
+     "end": 20.01,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.2,
+   "end": 20.68,
+   "words": [
+    {
+     "text": "Pergunte",
+     "start": 20.2,
+     "end": 20.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.68,
+   "end": 22.12,
+   "words": [
+    {
+     "text": "o",
+     "start": 20.68,
+     "end": 20.76,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 20.76,
+     "end": 20.92,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 20.92,
+     "end": 21.0,
+     "emph": false
+    },
+    {
+     "text": "olharia",
+     "start": 21.0,
+     "end": 21.56,
+     "emph": false
+    },
+    {
+     "text": "primeiro.",
+     "start": 21.56,
+     "end": 21.74,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.12,
+   "end": 22.68,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 22.12,
+     "end": 22.36,
+     "emph": false
+    },
+    {
+     "text": "vinha",
+     "start": 22.36,
+     "end": 22.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.68,
+   "end": 23.4,
+   "words": [
+    {
+     "text": "para",
+     "start": 22.68,
+     "end": 22.84,
+     "emph": false
+    },
+    {
+     "text": "barrar",
+     "start": 22.84,
+     "end": 23.23,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.4,
+   "end": 24.28,
+   "words": [
+    {
+     "text": "vira",
+     "start": 23.4,
+     "end": 23.72,
+     "emph": false
+    },
+    {
+     "text": "quem",
+     "start": 23.72,
+     "end": 23.96,
+     "emph": false
+    },
+    {
+     "text": "ajuda",
+     "start": 23.96,
+     "end": 24.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.28,
+   "end": 25.08,
+   "words": [
+    {
+     "text": "a",
+     "start": 24.28,
+     "end": 24.44,
+     "emph": false
+    },
+    {
+     "text": "decidir.",
+     "start": 24.44,
+     "end": 24.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 25.08,
+   "end": 26.36,
+   "words": [
+    {
+     "text": "Se",
+     "start": 25.08,
+     "end": 25.15,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 25.32,
+     "end": 25.48,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 25.48,
+     "end": 25.64,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 25.64,
+     "end": 26.15,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.36,
+   "end": 27.56,
+   "words": [
+    {
+     "text": "comente",
+     "start": 26.36,
+     "end": 27.0,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 27.0,
+     "end": 27.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.56,
+   "end": 28.52,
+   "words": [
+    {
+     "text": "e",
+     "start": 27.56,
+     "end": 27.72,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 27.72,
+     "end": 28.2,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 28.2,
+     "end": 28.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.52,
+   "end": 30.08,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 28.52,
+     "end": 28.92,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 28.92,
+     "end": 29.58,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}
