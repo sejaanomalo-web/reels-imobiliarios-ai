@@ -1,0 +1,71 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.49,
+    "palavras_nao_reconhecidas": [
+      "lava"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.83,
+    "palavras_nao_reconhecidas": [
+      "2006",
+      "oito"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.22,
+    "palavras_nao_reconhecidas": [
+      "dez",
+      "oito"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.14,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.42,
+    "palavras_nao_reconhecidas": [
+      "fácil"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.3,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 31.96,
+    "asr_match": 0.93,
+    "aligned_words": "80/86",
+    "words_per_min": 161,
+    "heard": "Dois carimbos de graça fizeram mais gente voltar ao lavar rápido. Num estudo publicado em 2006, metade dos clientes recebeu um cartão de 8 lavagens. A outra metade recebeu um cartão de 10, com duas já carimbadas. Nos dois faltavam 8. Quem via o caminho já começado completou mais e mais rápido. No financiamento, mostre o que já foi feito. Documentos enviados, simulação pronta, falta a avaliação. Ninguém larga face um caminho que já começou. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 33.08,
+      "wpm": 156
+    },
+    "pausas_moldadas": {
+      "n": 12,
+      "max_s": 0.53
+    },
+    "pausas_encurtadas_s": 1.12,
+    "final": {
+      "seconds": 31.96,
+      "wpm": 161
+    }
+  }
+]

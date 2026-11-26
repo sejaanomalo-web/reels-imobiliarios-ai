@@ -1,0 +1,66 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.53,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.93,
+    "palavras_nao_reconhecidas": [
+      "há",
+      "esta"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.96,
+    "palavras_nao_reconhecidas": [
+      "entende"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.59,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 32.53,
+    "asr_match": 0.963,
+    "aligned_words": "78/81",
+    "words_per_min": 149,
+    "heard": "A pergunta mais importante do atendimento tem duas palavras. Por que agora? O cliente procurava meses e de repente quer visitar essa semana. Alguma coisa mudou. Um filho a caminho, um emprego novo, o fim do aluguel, o motivo do agora mostra o prazo, o que pesa e quem decide. Pergunte com naturalidade. O que fez você começar a procurar agora? Quem tem de o agora, atende no tempo certo. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 34.79,
+      "wpm": 140
+    },
+    "pausas_moldadas": {
+      "n": 13,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.26,
+    "final": {
+      "seconds": 32.53,
+      "wpm": 149
+    }
+  }
+]

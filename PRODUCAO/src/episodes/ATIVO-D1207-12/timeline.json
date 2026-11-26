@@ -1,0 +1,864 @@
+{
+ "id": "ATIVO-D1207-12",
+ "title": "Dois carimbos de graça",
+ "fps": 30,
+ "duration": 34.3,
+ "durationInFrames": 1029,
+ "narrationEnd": 32.085,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 3.745
+  },
+  {
+   "id": "oito",
+   "start": 3.745,
+   "end": 8.815
+  },
+  {
+   "id": "dez",
+   "start": 8.815,
+   "end": 14.25
+  },
+  {
+   "id": "virada",
+   "start": 14.25,
+   "end": 17.98
+  },
+  {
+   "id": "acao",
+   "start": 17.98,
+   "end": 24.43
+  },
+  {
+   "id": "desfecho",
+   "start": 24.43,
+   "end": 27.21
+  },
+  {
+   "id": "cta",
+   "start": 27.21,
+   "end": 34.3
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Dois carimbos de graça fizeram mais gente voltar ao lava-rápido.",
+   "start": 0.12,
+   "end": 3.61
+  },
+  {
+   "id": "s2",
+   "scene": "oito",
+   "text": "Num estudo publicado em 2006, metade dos clientes recebeu um cartão de oito lavagens.",
+   "start": 3.88,
+   "end": 8.71
+  },
+  {
+   "id": "s3",
+   "scene": "dez",
+   "text": "A outra metade recebeu um cartão de dez, com duas já carimbadas. Nos dois, faltavam oito.",
+   "start": 8.92,
+   "end": 14.14
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Quem via o caminho já começado completou mais, e mais rápido.",
+   "start": 14.36,
+   "end": 17.84
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "No financiamento, mostre o que já foi feito: documentos enviados, simulação pronta, falta a avaliação.",
+   "start": 18.12,
+   "end": 24.26
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Ninguém larga fácil um caminho que já começou.",
+   "start": 24.6,
+   "end": 27.02
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 27.4,
+   "end": 31.7
+  }
+ ],
+ "cues": {
+  "h_dois": 0.12,
+  "h_voltar": 2.6,
+  "o_2006": 5.213,
+  "o_metade": 5.96,
+  "o_oito": 7.907,
+  "d_dez": 10.824,
+  "d_duas": 11.4,
+  "d_oito": 14.04,
+  "v_comecado": 15.64,
+  "v_mais": 16.84,
+  "v_rapido": 17.56,
+  "a_financiamento": 18.36,
+  "a_feito": 20.12,
+  "a_documentos": 20.68,
+  "a_simulacao": 21.96,
+  "a_avaliacao": 23.72,
+  "f_ninguem": 24.6,
+  "f_comecou": 26.68,
+  "cta_quer": 27.4,
+  "cta_comment": 28.52,
+  "cta_word": 29.08,
+  "cta_tiles": 29.72,
+  "cta_sys": 30.6,
+  "cta_leads": 30.28,
+  "cta_atend": 31.0,
+  "cta_direct": 31.0,
+  "cta_end": 31.7
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.08,
+   "words": [
+    {
+     "text": "Dois",
+     "start": 0.12,
+     "end": 0.44,
+     "emph": true
+    },
+    {
+     "text": "carimbos",
+     "start": 0.44,
+     "end": 1.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.08,
+   "end": 1.64,
+   "words": [
+    {
+     "text": "de",
+     "start": 1.08,
+     "end": 1.16,
+     "emph": false
+    },
+    {
+     "text": "graça",
+     "start": 1.16,
+     "end": 1.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.64,
+   "end": 2.6,
+   "words": [
+    {
+     "text": "fizeram",
+     "start": 1.64,
+     "end": 2.12,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 2.12,
+     "end": 2.36,
+     "emph": false
+    },
+    {
+     "text": "gente",
+     "start": 2.36,
+     "end": 2.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.6,
+   "end": 2.92,
+   "words": [
+    {
+     "text": "voltar",
+     "start": 2.6,
+     "end": 2.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.92,
+   "end": 3.88,
+   "words": [
+    {
+     "text": "ao",
+     "start": 2.92,
+     "end": 3.08,
+     "emph": false
+    },
+    {
+     "text": "lava-rápido.",
+     "start": 3.08,
+     "end": 3.61,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.88,
+   "end": 4.44,
+   "words": [
+    {
+     "text": "Num",
+     "start": 3.88,
+     "end": 4.12,
+     "emph": false
+    },
+    {
+     "text": "estudo",
+     "start": 4.12,
+     "end": 4.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.44,
+   "end": 5.96,
+   "words": [
+    {
+     "text": "publicado",
+     "start": 4.44,
+     "end": 4.84,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 4.84,
+     "end": 5.213,
+     "emph": false
+    },
+    {
+     "text": "2006,",
+     "start": 5.213,
+     "end": 5.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.96,
+   "end": 6.92,
+   "words": [
+    {
+     "text": "metade",
+     "start": 5.96,
+     "end": 6.06,
+     "emph": true
+    },
+    {
+     "text": "dos",
+     "start": 6.36,
+     "end": 6.52,
+     "emph": false
+    },
+    {
+     "text": "clientes",
+     "start": 6.52,
+     "end": 6.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.92,
+   "end": 7.8,
+   "words": [
+    {
+     "text": "recebeu",
+     "start": 6.92,
+     "end": 7.4,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 7.4,
+     "end": 7.48,
+     "emph": false
+    },
+    {
+     "text": "cartão",
+     "start": 7.48,
+     "end": 7.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.8,
+   "end": 8.92,
+   "words": [
+    {
+     "text": "de",
+     "start": 7.8,
+     "end": 7.907,
+     "emph": false
+    },
+    {
+     "text": "oito",
+     "start": 7.907,
+     "end": 8.12,
+     "emph": true
+    },
+    {
+     "text": "lavagens.",
+     "start": 8.12,
+     "end": 8.71,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.92,
+   "end": 9.72,
+   "words": [
+    {
+     "text": "A",
+     "start": 8.92,
+     "end": 9.08,
+     "emph": false
+    },
+    {
+     "text": "outra",
+     "start": 9.08,
+     "end": 9.32,
+     "emph": false
+    },
+    {
+     "text": "metade",
+     "start": 9.32,
+     "end": 9.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.72,
+   "end": 11.16,
+   "words": [
+    {
+     "text": "recebeu",
+     "start": 9.72,
+     "end": 10.2,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 10.2,
+     "end": 10.28,
+     "emph": false
+    },
+    {
+     "text": "cartão",
+     "start": 10.28,
+     "end": 10.6,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 10.6,
+     "end": 10.824,
+     "emph": false
+    },
+    {
+     "text": "dez,",
+     "start": 10.824,
+     "end": 11.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.16,
+   "end": 12.84,
+   "words": [
+    {
+     "text": "com",
+     "start": 11.16,
+     "end": 11.4,
+     "emph": false
+    },
+    {
+     "text": "duas",
+     "start": 11.4,
+     "end": 11.64,
+     "emph": true
+    },
+    {
+     "text": "já",
+     "start": 11.64,
+     "end": 11.96,
+     "emph": false
+    },
+    {
+     "text": "carimbadas.",
+     "start": 11.96,
+     "end": 12.62,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.84,
+   "end": 13.4,
+   "words": [
+    {
+     "text": "Nos",
+     "start": 12.84,
+     "end": 13.08,
+     "emph": false
+    },
+    {
+     "text": "dois,",
+     "start": 13.08,
+     "end": 13.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.4,
+   "end": 14.36,
+   "words": [
+    {
+     "text": "faltavam",
+     "start": 13.4,
+     "end": 14.04,
+     "emph": false
+    },
+    {
+     "text": "oito.",
+     "start": 14.04,
+     "end": 14.14,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.36,
+   "end": 15.4,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 14.36,
+     "end": 14.68,
+     "emph": false
+    },
+    {
+     "text": "via",
+     "start": 14.68,
+     "end": 15.0,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 15.0,
+     "end": 15.08,
+     "emph": false
+    },
+    {
+     "text": "caminho",
+     "start": 15.08,
+     "end": 15.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.4,
+   "end": 16.2,
+   "words": [
+    {
+     "text": "já",
+     "start": 15.4,
+     "end": 15.64,
+     "emph": false
+    },
+    {
+     "text": "começado",
+     "start": 15.64,
+     "end": 16.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.2,
+   "end": 17.16,
+   "words": [
+    {
+     "text": "completou",
+     "start": 16.2,
+     "end": 16.84,
+     "emph": false
+    },
+    {
+     "text": "mais,",
+     "start": 16.84,
+     "end": 17.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.16,
+   "end": 18.12,
+   "words": [
+    {
+     "text": "e",
+     "start": 17.16,
+     "end": 17.32,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 17.32,
+     "end": 17.56,
+     "emph": false
+    },
+    {
+     "text": "rápido.",
+     "start": 17.56,
+     "end": 17.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.12,
+   "end": 19.08,
+   "words": [
+    {
+     "text": "No",
+     "start": 18.12,
+     "end": 18.36,
+     "emph": false
+    },
+    {
+     "text": "financiamento,",
+     "start": 18.36,
+     "end": 19.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.08,
+   "end": 19.48,
+   "words": [
+    {
+     "text": "mostre",
+     "start": 19.08,
+     "end": 19.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.48,
+   "end": 20.68,
+   "words": [
+    {
+     "text": "o",
+     "start": 19.48,
+     "end": 19.56,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 19.56,
+     "end": 19.72,
+     "emph": false
+    },
+    {
+     "text": "já",
+     "start": 19.72,
+     "end": 19.88,
+     "emph": true
+    },
+    {
+     "text": "foi",
+     "start": 19.88,
+     "end": 20.12,
+     "emph": true
+    },
+    {
+     "text": "feito:",
+     "start": 20.12,
+     "end": 20.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.68,
+   "end": 21.96,
+   "words": [
+    {
+     "text": "documentos",
+     "start": 20.68,
+     "end": 21.24,
+     "emph": true
+    },
+    {
+     "text": "enviados,",
+     "start": 21.24,
+     "end": 21.7,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.96,
+   "end": 23.16,
+   "words": [
+    {
+     "text": "simulação",
+     "start": 21.96,
+     "end": 22.6,
+     "emph": true
+    },
+    {
+     "text": "pronta,",
+     "start": 22.6,
+     "end": 22.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.16,
+   "end": 24.6,
+   "words": [
+    {
+     "text": "falta",
+     "start": 23.16,
+     "end": 23.56,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 23.56,
+     "end": 23.72,
+     "emph": false
+    },
+    {
+     "text": "avaliação.",
+     "start": 23.72,
+     "end": 24.26,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.6,
+   "end": 25.96,
+   "words": [
+    {
+     "text": "Ninguém",
+     "start": 24.6,
+     "end": 25.08,
+     "emph": false
+    },
+    {
+     "text": "larga",
+     "start": 25.08,
+     "end": 25.52,
+     "emph": false
+    },
+    {
+     "text": "fácil",
+     "start": 25.52,
+     "end": 25.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.96,
+   "end": 26.36,
+   "words": [
+    {
+     "text": "um",
+     "start": 25.96,
+     "end": 26.04,
+     "emph": false
+    },
+    {
+     "text": "caminho",
+     "start": 26.04,
+     "end": 26.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.36,
+   "end": 27.4,
+   "words": [
+    {
+     "text": "que",
+     "start": 26.36,
+     "end": 26.52,
+     "emph": false
+    },
+    {
+     "text": "já",
+     "start": 26.52,
+     "end": 26.68,
+     "emph": true
+    },
+    {
+     "text": "começou.",
+     "start": 26.68,
+     "end": 27.02,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.4,
+   "end": 28.52,
+   "words": [
+    {
+     "text": "Se",
+     "start": 27.4,
+     "end": 27.56,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 27.56,
+     "end": 27.72,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 27.72,
+     "end": 27.88,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 27.88,
+     "end": 28.15,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.52,
+   "end": 29.56,
+   "words": [
+    {
+     "text": "comente",
+     "start": 28.52,
+     "end": 29.08,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 29.08,
+     "end": 29.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.56,
+   "end": 30.6,
+   "words": [
+    {
+     "text": "e",
+     "start": 29.56,
+     "end": 29.72,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 29.72,
+     "end": 30.28,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 30.28,
+     "end": 30.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.6,
+   "end": 32.2,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 30.6,
+     "end": 30.83,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 31.0,
+     "end": 31.7,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

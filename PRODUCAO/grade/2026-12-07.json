@@ -30,9 +30,10 @@
       "justificativaTrilha": "tensão em movimento: a validade correndo.",
       "episodio": "ATIVO-D1207-08",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-07/ATIVO-D1207-08_data_de_validade.md",
-      "status": "producao",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/07-segunda/08h00"
     },
     {
       "horario": "10:00",
