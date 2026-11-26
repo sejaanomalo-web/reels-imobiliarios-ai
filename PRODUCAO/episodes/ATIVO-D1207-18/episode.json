@@ -490,7 +490,10 @@
    "insight": "cue:a_prova",
    "resolucao": "cue:f_mostra"
   },
-  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso",
+  "mix": {
+   "duck_medios_db": -12.0
+  }
  },
  "formato": "maquete-3d",
  "sistemaVisual": "1.0.0",
