@@ -1,0 +1,959 @@
+{
+ "id": "ATIVO-D1207-21",
+ "title": "O novo começo",
+ "fps": 30,
+ "duration": 38.3,
+ "durationInFrames": 1149,
+ "narrationEnd": 36.099,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 3.09
+  },
+  {
+   "id": "dieta",
+   "start": 3.09,
+   "end": 10.295
+  },
+  {
+   "id": "academia",
+   "start": 10.295,
+   "end": 14.56
+  },
+  {
+   "id": "virada",
+   "start": 14.56,
+   "end": 20.055
+  },
+  {
+   "id": "acao",
+   "start": 20.055,
+   "end": 26.89
+  },
+  {
+   "id": "desfecho",
+   "start": 26.89,
+   "end": 31.16
+  },
+  {
+   "id": "cta",
+   "start": 31.16,
+   "end": 38.3
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Por que a gente sempre promete começar na segunda-feira?",
+   "start": 0.12,
+   "end": 2.94
+  },
+  {
+   "id": "s2",
+   "scene": "dieta",
+   "text": "Em 2014, pesquisadores americanos viram que as buscas por dieta sobem no começo da semana, do mês e do ano.",
+   "start": 3.24,
+   "end": 10.23
+  },
+  {
+   "id": "s3",
+   "scene": "academia",
+   "text": "E as idas à academia aumentam depois de datas marcantes, como aniversários.",
+   "start": 10.36,
+   "end": 14.36
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Essas datas funcionam como um recomeço: o plano adiado ganha uma nova chance.",
+   "start": 14.76,
+   "end": 19.91
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Aquele lead que esfriou? Retome a conversa num marco: começo do mês, virada do ano, fim do aluguel.",
+   "start": 20.2,
+   "end": 26.7
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Às vezes o cliente não precisa de outro imóvel. Precisa de um novo começo.",
+   "start": 27.08,
+   "end": 31.0
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 31.32,
+   "end": 35.62
+  }
+ ],
+ "cues": {
+  "h_promete": 1.24,
+  "h_segunda": 2.2,
+  "d_2014": 3.613,
+  "d_dieta": 6.76,
+  "d_semana": 8.44,
+  "d_mes": 9.24,
+  "d_ano": 9.96,
+  "c_academia": 11.24,
+  "c_datas": 12.6,
+  "c_aniversarios": 13.72,
+  "v_recomeco": 16.84,
+  "v_adiado": 18.28,
+  "v_chance": 19.64,
+  "a_esfriou": 21.16,
+  "a_retome": 21.88,
+  "a_marco": 23.16,
+  "a_mes": 24.36,
+  "a_ano": 25.4,
+  "a_aluguel": 26.2,
+  "f_novo": 30.36,
+  "cta_quer": 31.32,
+  "cta_comment": 32.52,
+  "cta_word": 33.08,
+  "cta_tiles": 33.72,
+  "cta_sys": 34.52,
+  "cta_leads": 34.2,
+  "cta_atend": 35.0,
+  "cta_direct": 35.0,
+  "cta_end": 35.62
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.92,
+   "words": [
+    {
+     "text": "Por",
+     "start": 0.12,
+     "end": 0.36,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 0.36,
+     "end": 0.52,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 0.52,
+     "end": 0.68,
+     "emph": false
+    },
+    {
+     "text": "gente",
+     "start": 0.68,
+     "end": 0.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.92,
+   "end": 1.88,
+   "words": [
+    {
+     "text": "sempre",
+     "start": 0.92,
+     "end": 1.24,
+     "emph": false
+    },
+    {
+     "text": "promete",
+     "start": 1.24,
+     "end": 1.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.88,
+   "end": 2.2,
+   "words": [
+    {
+     "text": "começar",
+     "start": 1.88,
+     "end": 2.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.2,
+   "end": 3.24,
+   "words": [
+    {
+     "text": "na",
+     "start": 2.2,
+     "end": 2.349,
+     "emph": false
+    },
+    {
+     "text": "segunda-feira?",
+     "start": 2.349,
+     "end": 2.94,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.24,
+   "end": 4.36,
+   "words": [
+    {
+     "text": "Em",
+     "start": 3.24,
+     "end": 3.613,
+     "emph": false
+    },
+    {
+     "text": "2014,",
+     "start": 3.613,
+     "end": 4.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.36,
+   "end": 5.56,
+   "words": [
+    {
+     "text": "pesquisadores",
+     "start": 4.36,
+     "end": 5.0,
+     "emph": false
+    },
+    {
+     "text": "americanos",
+     "start": 5.0,
+     "end": 5.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.56,
+   "end": 6.6,
+   "words": [
+    {
+     "text": "viram",
+     "start": 5.56,
+     "end": 5.88,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 5.88,
+     "end": 6.04,
+     "emph": false
+    },
+    {
+     "text": "as",
+     "start": 6.04,
+     "end": 6.2,
+     "emph": false
+    },
+    {
+     "text": "buscas",
+     "start": 6.2,
+     "end": 6.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.6,
+   "end": 7.88,
+   "words": [
+    {
+     "text": "por",
+     "start": 6.6,
+     "end": 6.76,
+     "emph": false
+    },
+    {
+     "text": "dieta",
+     "start": 6.76,
+     "end": 7.32,
+     "emph": true
+    },
+    {
+     "text": "sobem",
+     "start": 7.32,
+     "end": 7.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.88,
+   "end": 9.08,
+   "words": [
+    {
+     "text": "no",
+     "start": 7.88,
+     "end": 8.04,
+     "emph": false
+    },
+    {
+     "text": "começo",
+     "start": 8.04,
+     "end": 8.36,
+     "emph": false
+    },
+    {
+     "text": "da",
+     "start": 8.36,
+     "end": 8.44,
+     "emph": false
+    },
+    {
+     "text": "semana,",
+     "start": 8.44,
+     "end": 8.85,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.08,
+   "end": 9.64,
+   "words": [
+    {
+     "text": "do",
+     "start": 9.08,
+     "end": 9.24,
+     "emph": false
+    },
+    {
+     "text": "mês",
+     "start": 9.24,
+     "end": 9.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.64,
+   "end": 10.36,
+   "words": [
+    {
+     "text": "e",
+     "start": 9.64,
+     "end": 9.88,
+     "emph": false
+    },
+    {
+     "text": "do",
+     "start": 9.88,
+     "end": 9.96,
+     "emph": false
+    },
+    {
+     "text": "ano.",
+     "start": 9.96,
+     "end": 10.23,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.36,
+   "end": 11.8,
+   "words": [
+    {
+     "text": "E",
+     "start": 10.36,
+     "end": 10.52,
+     "emph": false
+    },
+    {
+     "text": "as",
+     "start": 10.52,
+     "end": 10.76,
+     "emph": false
+    },
+    {
+     "text": "idas",
+     "start": 10.76,
+     "end": 11.08,
+     "emph": false
+    },
+    {
+     "text": "à",
+     "start": 11.08,
+     "end": 11.24,
+     "emph": false
+    },
+    {
+     "text": "academia",
+     "start": 11.24,
+     "end": 11.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.8,
+   "end": 12.2,
+   "words": [
+    {
+     "text": "aumentam",
+     "start": 11.8,
+     "end": 12.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.2,
+   "end": 13.4,
+   "words": [
+    {
+     "text": "depois",
+     "start": 12.2,
+     "end": 12.44,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 12.44,
+     "end": 12.6,
+     "emph": false
+    },
+    {
+     "text": "datas",
+     "start": 12.6,
+     "end": 12.92,
+     "emph": true
+    },
+    {
+     "text": "marcantes,",
+     "start": 12.92,
+     "end": 13.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.4,
+   "end": 14.76,
+   "words": [
+    {
+     "text": "como",
+     "start": 13.4,
+     "end": 13.72,
+     "emph": false
+    },
+    {
+     "text": "aniversários.",
+     "start": 13.72,
+     "end": 14.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.76,
+   "end": 15.8,
+   "words": [
+    {
+     "text": "Essas",
+     "start": 14.76,
+     "end": 15.24,
+     "emph": false
+    },
+    {
+     "text": "datas",
+     "start": 15.24,
+     "end": 15.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.8,
+   "end": 16.6,
+   "words": [
+    {
+     "text": "funcionam",
+     "start": 15.8,
+     "end": 16.44,
+     "emph": false
+    },
+    {
+     "text": "como",
+     "start": 16.44,
+     "end": 16.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.6,
+   "end": 17.8,
+   "words": [
+    {
+     "text": "um",
+     "start": 16.6,
+     "end": 16.84,
+     "emph": false
+    },
+    {
+     "text": "recomeço:",
+     "start": 16.84,
+     "end": 17.55,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.8,
+   "end": 18.84,
+   "words": [
+    {
+     "text": "o",
+     "start": 17.8,
+     "end": 17.96,
+     "emph": false
+    },
+    {
+     "text": "plano",
+     "start": 17.96,
+     "end": 18.28,
+     "emph": false
+    },
+    {
+     "text": "adiado",
+     "start": 18.28,
+     "end": 18.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.84,
+   "end": 20.2,
+   "words": [
+    {
+     "text": "ganha",
+     "start": 18.84,
+     "end": 19.16,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 19.16,
+     "end": 19.32,
+     "emph": false
+    },
+    {
+     "text": "nova",
+     "start": 19.32,
+     "end": 19.64,
+     "emph": true
+    },
+    {
+     "text": "chance.",
+     "start": 19.64,
+     "end": 19.91,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.2,
+   "end": 21.0,
+   "words": [
+    {
+     "text": "Aquele",
+     "start": 20.2,
+     "end": 20.27,
+     "emph": false
+    },
+    {
+     "text": "lead",
+     "start": 20.68,
+     "end": 21.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.0,
+   "end": 21.88,
+   "words": [
+    {
+     "text": "que",
+     "start": 21.0,
+     "end": 21.16,
+     "emph": false
+    },
+    {
+     "text": "esfriou?",
+     "start": 21.16,
+     "end": 21.53,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.88,
+   "end": 22.92,
+   "words": [
+    {
+     "text": "Retome",
+     "start": 21.88,
+     "end": 22.44,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 22.44,
+     "end": 22.52,
+     "emph": false
+    },
+    {
+     "text": "conversa",
+     "start": 22.52,
+     "end": 22.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.92,
+   "end": 23.633,
+   "words": [
+    {
+     "text": "num",
+     "start": 22.92,
+     "end": 23.16,
+     "emph": false
+    },
+    {
+     "text": "marco:",
+     "start": 23.16,
+     "end": 23.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.633,
+   "end": 24.84,
+   "words": [
+    {
+     "text": "começo",
+     "start": 23.633,
+     "end": 23.71,
+     "emph": false
+    },
+    {
+     "text": "do",
+     "start": 24.2,
+     "end": 24.36,
+     "emph": false
+    },
+    {
+     "text": "mês,",
+     "start": 24.36,
+     "end": 24.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.84,
+   "end": 25.8,
+   "words": [
+    {
+     "text": "virada",
+     "start": 24.84,
+     "end": 25.24,
+     "emph": false
+    },
+    {
+     "text": "do",
+     "start": 25.24,
+     "end": 25.4,
+     "emph": false
+    },
+    {
+     "text": "ano,",
+     "start": 25.4,
+     "end": 25.7,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 25.8,
+   "end": 27.08,
+   "words": [
+    {
+     "text": "fim",
+     "start": 25.8,
+     "end": 25.88,
+     "emph": false
+    },
+    {
+     "text": "do",
+     "start": 26.04,
+     "end": 26.2,
+     "emph": false
+    },
+    {
+     "text": "aluguel.",
+     "start": 26.2,
+     "end": 26.7,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.08,
+   "end": 28.04,
+   "words": [
+    {
+     "text": "Às",
+     "start": 27.08,
+     "end": 27.4,
+     "emph": false
+    },
+    {
+     "text": "vezes",
+     "start": 27.4,
+     "end": 27.56,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 27.56,
+     "end": 27.72,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 27.72,
+     "end": 28.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.04,
+   "end": 28.52,
+   "words": [
+    {
+     "text": "não",
+     "start": 28.04,
+     "end": 28.2,
+     "emph": false
+    },
+    {
+     "text": "precisa",
+     "start": 28.2,
+     "end": 28.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.52,
+   "end": 29.56,
+   "words": [
+    {
+     "text": "de",
+     "start": 28.52,
+     "end": 28.68,
+     "emph": false
+    },
+    {
+     "text": "outro",
+     "start": 28.68,
+     "end": 28.92,
+     "emph": false
+    },
+    {
+     "text": "imóvel.",
+     "start": 28.92,
+     "end": 29.25,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 29.56,
+   "end": 31.32,
+   "words": [
+    {
+     "text": "Precisa",
+     "start": 29.56,
+     "end": 30.04,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 30.04,
+     "end": 30.2,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 30.2,
+     "end": 30.36,
+     "emph": false
+    },
+    {
+     "text": "novo",
+     "start": 30.36,
+     "end": 30.68,
+     "emph": true
+    },
+    {
+     "text": "começo.",
+     "start": 30.68,
+     "end": 31.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.32,
+   "end": 32.52,
+   "words": [
+    {
+     "text": "Se",
+     "start": 31.32,
+     "end": 31.39,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 31.56,
+     "end": 31.72,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 31.72,
+     "end": 31.88,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 31.88,
+     "end": 32.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.52,
+   "end": 33.64,
+   "words": [
+    {
+     "text": "comente",
+     "start": 32.52,
+     "end": 33.08,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 33.08,
+     "end": 33.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.64,
+   "end": 34.52,
+   "words": [
+    {
+     "text": "e",
+     "start": 33.64,
+     "end": 33.72,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 33.72,
+     "end": 34.2,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 34.2,
+     "end": 34.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 34.52,
+   "end": 36.12,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 34.52,
+     "end": 34.84,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 35.0,
+     "end": 35.62,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

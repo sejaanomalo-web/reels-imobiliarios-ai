@@ -1,0 +1,68 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.75,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.39,
+    "palavras_nao_reconhecidas": [
+      "arranha",
+      "céu",
+      "trinta"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.71,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 6.1,
+    "palavras_nao_reconhecidas": [
+      "1929",
+      "mudou"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 7.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.56,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.73,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 37.91,
+    "asr_match": 0.938,
+    "aligned_words": "83/90",
+    "words_per_min": 142,
+    "heard": "Em São Paulo, um empresário construiu uma casa no alto do próprio prédio e foi morar lá. Era o Martinelli, o primeiro arranha-céu da cidade, com 30 andares. Segundo a prefeitura, muita gente desconfiava da segurança da obra. Ele não ficou só discutindo. Em 1929, mudou-se com a família para cobertura. No seu atendimento, prova vale mais que argumento. Mostre a matrícula em dia, o laudo, o histórico de manutenção. Confiança não se pede, se mostra. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 40.15,
+      "wpm": 134
+    },
+    "pausas_moldadas": {
+      "n": 17,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.24,
+    "final": {
+      "seconds": 37.91,
+      "wpm": 142
+    }
+  }
+]

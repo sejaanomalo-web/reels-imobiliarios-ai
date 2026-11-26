@@ -26,7 +26,7 @@ export const makeShots = (tl: Timeline): Shot[] => {
   const ac = acentosDe(tl.captions);
   const t1 = c.n_numero - 1.0;
   const t2 = c.s_visita - 0.8;
-  const t3 = c.v_primeiro - 0.8;
+  const t3 = c.v_primeiro - 0.2;
   const t4 = c.a_visitar - 0.9;
   const t5 = c.f_querendo - 1.0;
   const tFim = c.cta_quer - 0.05;
@@ -70,14 +70,14 @@ export const makeShots = (tl: Timeline): Shot[] => {
         <>
           <Holofote x={540} chao={FLOOR} w={640} />
           <Pop t={t} at={t2 + 0.05} x={540} y={700}><g transform="scale(0.7)"><Casa w={300} /></g></Pop>
-          <Pop t={t} at={c.s_queira - 0.1} x={720} y={560}><text textAnchor="middle" fontFamily="Manrope" fontWeight={800} fontSize={120} fill="#F4F5F7" stroke="#0A0A0C" strokeWidth={8} paintOrder="stroke">?</text></Pop>
+          <Pop t={t} at={c.s_queira - 0.6} x={720} y={560}><text textAnchor="middle" fontFamily="Manrope" fontWeight={800} fontSize={120} fill="#F4F5F7" stroke="#0A0A0C" strokeWidth={8} paintOrder="stroke">?</text></Pop>
           <Personagem t={t} x={540} y={FLOOR} s={0.82} v={VIS.comprador} seed={1} acentos={ac} humor="neutro" olhar={Math.sin(t * 2)} />
         </>
       ),
       html: (t) => (
         <>
           <Etiqueta t={t} at={c.s_visita - 0.1} x={540} y={420} texto="DESCONTO SEM VISITA" cor="white" size={38} />
-          <Carimbo t={t} at={c.s_queira - 0.03} x={540} y={860} texto="TALVEZ NEM QUEIRA" cor="red" size={50} rot={-4} />
+          <Carimbo t={t} at={c.s_queira - 0.5} x={540} y={860} texto="TALVEZ NEM QUEIRA" cor="red" size={50} rot={-4} />
         </>
       ),
       selo: (t) => <Selo t={t} at={t2 + 0.05} texto="E MAIS…" />,
@@ -123,7 +123,7 @@ export const makeShots = (tl: Timeline): Shot[] => {
       html: (t) => (
         <>
           <Carimbo t={t} at={c.f_querendo - 0.03} x={540} y={470} texto="QUERENDO O IMÓVEL" cor="green" size={52} rot={-4} />
-          <Etiqueta t={t} at={c.f_chao - 0.1} x={540} y={860} texto="NÃO COM O PREÇO NO CHÃO" cor="white" size={34} />
+          <Etiqueta t={t} at={c.f_querendo + 1.0} x={540} y={860} texto="NÃO COM O PREÇO NO CHÃO" cor="white" size={34} />
         </>
       ),
     },

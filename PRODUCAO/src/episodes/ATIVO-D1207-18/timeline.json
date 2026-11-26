@@ -1,0 +1,876 @@
+{
+ "id": "ATIVO-D1207-18",
+ "title": "A casa no topo do prédio",
+ "fps": 30,
+ "duration": 40.233333333333334,
+ "durationInFrames": 1207,
+ "narrationEnd": 38.033,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.075
+  },
+  {
+   "id": "martinelli",
+   "start": 6.075,
+   "end": 10.795
+  },
+  {
+   "id": "medo",
+   "start": 10.795,
+   "end": 14.975
+  },
+  {
+   "id": "virada",
+   "start": 14.975,
+   "end": 21.61
+  },
+  {
+   "id": "acao",
+   "start": 21.61,
+   "end": 29.65
+  },
+  {
+   "id": "desfecho",
+   "start": 29.65,
+   "end": 32.64
+  },
+  {
+   "id": "cta",
+   "start": 32.64,
+   "end": 40.233
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Em São Paulo, um empresário construiu uma casa no alto do próprio prédio e foi morar lá.",
+   "start": 0.12,
+   "end": 5.87
+  },
+  {
+   "id": "s2",
+   "scene": "martinelli",
+   "text": "Era o Martinelli, o primeiro arranha-céu da cidade, com trinta andares.",
+   "start": 6.28,
+   "end": 10.67
+  },
+  {
+   "id": "s3",
+   "scene": "medo",
+   "text": "Segundo a prefeitura, muita gente desconfiava da segurança da obra.",
+   "start": 10.92,
+   "end": 14.63
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Ele não ficou só discutindo. Em 1929, mudou-se com a família para a cobertura.",
+   "start": 15.32,
+   "end": 21.42
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "No seu atendimento, prova vale mais que argumento: mostre a matrícula em dia, o laudo, o histórico de manutenção.",
+   "start": 21.8,
+   "end": 29.42
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Confiança não se pede. Se mostra.",
+   "start": 29.88,
+   "end": 32.44
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 32.84,
+   "end": 37.57
+  }
+ ],
+ "cues": {
+  "h_casa": 3.0,
+  "h_alto": 3.64,
+  "h_morar": 5.48,
+  "m_martinelli": 6.76,
+  "m_primeiro": 7.8,
+  "m_30": 9.693,
+  "d_desconfiava": 12.76,
+  "d_seguranca": 13.64,
+  "v_discutindo": 16.52,
+  "v_1929": 17.874,
+  "v_familia": 20.28,
+  "v_cobertura": 20.84,
+  "a_prova": 23.16,
+  "a_argumento": 24.68,
+  "a_matricula": 26.04,
+  "a_laudo": 27.32,
+  "a_manutencao": 28.84,
+  "f_pede": 31.0,
+  "f_mostra": 32.04,
+  "cta_quer": 32.84,
+  "cta_comment": 34.2,
+  "cta_word": 34.84,
+  "cta_tiles": 35.48,
+  "cta_sys": 36.36,
+  "cta_leads": 36.04,
+  "cta_atend": 36.84,
+  "cta_direct": 36.84,
+  "cta_end": 37.57
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.32,
+   "words": [
+    {
+     "text": "Em",
+     "start": 0.12,
+     "end": 0.44,
+     "emph": false
+    },
+    {
+     "text": "São",
+     "start": 0.44,
+     "end": 0.76,
+     "emph": false
+    },
+    {
+     "text": "Paulo,",
+     "start": 0.76,
+     "end": 1.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.32,
+   "end": 2.2,
+   "words": [
+    {
+     "text": "um",
+     "start": 1.32,
+     "end": 1.39,
+     "emph": false
+    },
+    {
+     "text": "empresário",
+     "start": 1.56,
+     "end": 2.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.2,
+   "end": 3.4,
+   "words": [
+    {
+     "text": "construiu",
+     "start": 2.2,
+     "end": 2.84,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 2.84,
+     "end": 3.0,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 3.0,
+     "end": 3.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.4,
+   "end": 5.0,
+   "words": [
+    {
+     "text": "no",
+     "start": 3.4,
+     "end": 3.64,
+     "emph": false
+    },
+    {
+     "text": "alto",
+     "start": 3.64,
+     "end": 3.96,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 3.96,
+     "end": 4.12,
+     "emph": false
+    },
+    {
+     "text": "próprio",
+     "start": 4.12,
+     "end": 4.44,
+     "emph": false
+    },
+    {
+     "text": "prédio",
+     "start": 4.44,
+     "end": 4.83,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 5.0,
+   "end": 6.28,
+   "words": [
+    {
+     "text": "e",
+     "start": 5.0,
+     "end": 5.16,
+     "emph": false
+    },
+    {
+     "text": "foi",
+     "start": 5.16,
+     "end": 5.48,
+     "emph": false
+    },
+    {
+     "text": "morar",
+     "start": 5.48,
+     "end": 5.8,
+     "emph": true
+    },
+    {
+     "text": "lá.",
+     "start": 5.8,
+     "end": 5.87,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.28,
+   "end": 7.72,
+   "words": [
+    {
+     "text": "Era",
+     "start": 6.28,
+     "end": 6.43,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 6.6,
+     "end": 6.76,
+     "emph": false
+    },
+    {
+     "text": "Martinelli,",
+     "start": 6.76,
+     "end": 7.33,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.72,
+   "end": 8.92,
+   "words": [
+    {
+     "text": "o",
+     "start": 7.72,
+     "end": 7.8,
+     "emph": false
+    },
+    {
+     "text": "primeiro",
+     "start": 7.8,
+     "end": 8.298,
+     "emph": false
+    },
+    {
+     "text": "arranha-céu",
+     "start": 8.298,
+     "end": 8.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.92,
+   "end": 9.48,
+   "words": [
+    {
+     "text": "da",
+     "start": 8.92,
+     "end": 9.0,
+     "emph": false
+    },
+    {
+     "text": "cidade,",
+     "start": 9.0,
+     "end": 9.23,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.48,
+   "end": 10.92,
+   "words": [
+    {
+     "text": "com",
+     "start": 9.48,
+     "end": 9.693,
+     "emph": false
+    },
+    {
+     "text": "trinta",
+     "start": 9.693,
+     "end": 10.12,
+     "emph": true
+    },
+    {
+     "text": "andares.",
+     "start": 10.12,
+     "end": 10.67,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.92,
+   "end": 12.2,
+   "words": [
+    {
+     "text": "Segundo",
+     "start": 10.92,
+     "end": 11.32,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 11.32,
+     "end": 11.4,
+     "emph": false
+    },
+    {
+     "text": "prefeitura,",
+     "start": 11.4,
+     "end": 11.95,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.2,
+   "end": 12.76,
+   "words": [
+    {
+     "text": "muita",
+     "start": 12.2,
+     "end": 12.52,
+     "emph": false
+    },
+    {
+     "text": "gente",
+     "start": 12.52,
+     "end": 12.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.76,
+   "end": 13.48,
+   "words": [
+    {
+     "text": "desconfiava",
+     "start": 12.76,
+     "end": 13.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.48,
+   "end": 14.98,
+   "words": [
+    {
+     "text": "da",
+     "start": 13.48,
+     "end": 13.64,
+     "emph": false
+    },
+    {
+     "text": "segurança",
+     "start": 13.64,
+     "end": 14.2,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 14.2,
+     "end": 14.36,
+     "emph": false
+    },
+    {
+     "text": "obra.",
+     "start": 14.36,
+     "end": 14.63,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.32,
+   "end": 16.2,
+   "words": [
+    {
+     "text": "Ele",
+     "start": 15.32,
+     "end": 15.39,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 15.64,
+     "end": 15.8,
+     "emph": false
+    },
+    {
+     "text": "ficou",
+     "start": 15.8,
+     "end": 16.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.2,
+   "end": 17.48,
+   "words": [
+    {
+     "text": "só",
+     "start": 16.2,
+     "end": 16.52,
+     "emph": false
+    },
+    {
+     "text": "discutindo.",
+     "start": 16.52,
+     "end": 17.15,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.48,
+   "end": 18.662,
+   "words": [
+    {
+     "text": "Em",
+     "start": 17.48,
+     "end": 17.874,
+     "emph": false
+    },
+    {
+     "text": "1929,",
+     "start": 17.874,
+     "end": 18.662,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.662,
+   "end": 20.6,
+   "words": [
+    {
+     "text": "mudou-se",
+     "start": 18.662,
+     "end": 20.04,
+     "emph": false
+    },
+    {
+     "text": "com",
+     "start": 20.04,
+     "end": 20.2,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 20.2,
+     "end": 20.28,
+     "emph": false
+    },
+    {
+     "text": "família",
+     "start": 20.28,
+     "end": 20.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 20.6,
+   "end": 21.8,
+   "words": [
+    {
+     "text": "para",
+     "start": 20.6,
+     "end": 20.792,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 20.792,
+     "end": 20.842,
+     "emph": false
+    },
+    {
+     "text": "cobertura.",
+     "start": 20.84,
+     "end": 21.42,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.8,
+   "end": 23.16,
+   "words": [
+    {
+     "text": "No",
+     "start": 21.8,
+     "end": 21.88,
+     "emph": false
+    },
+    {
+     "text": "seu",
+     "start": 22.04,
+     "end": 22.28,
+     "emph": false
+    },
+    {
+     "text": "atendimento,",
+     "start": 22.28,
+     "end": 22.93,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.16,
+   "end": 24.36,
+   "words": [
+    {
+     "text": "prova",
+     "start": 23.16,
+     "end": 23.72,
+     "emph": true
+    },
+    {
+     "text": "vale",
+     "start": 23.72,
+     "end": 24.12,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 24.12,
+     "end": 24.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.36,
+   "end": 25.4,
+   "words": [
+    {
+     "text": "que",
+     "start": 24.36,
+     "end": 24.68,
+     "emph": false
+    },
+    {
+     "text": "argumento:",
+     "start": 24.68,
+     "end": 25.02,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 25.4,
+   "end": 27.16,
+   "words": [
+    {
+     "text": "mostre",
+     "start": 25.4,
+     "end": 25.47,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 25.96,
+     "end": 26.04,
+     "emph": false
+    },
+    {
+     "text": "matrícula",
+     "start": 26.04,
+     "end": 26.52,
+     "emph": true
+    },
+    {
+     "text": "em",
+     "start": 26.52,
+     "end": 26.68,
+     "emph": false
+    },
+    {
+     "text": "dia,",
+     "start": 26.68,
+     "end": 26.91,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 27.16,
+   "end": 27.96,
+   "words": [
+    {
+     "text": "o",
+     "start": 27.16,
+     "end": 27.32,
+     "emph": false
+    },
+    {
+     "text": "laudo,",
+     "start": 27.32,
+     "end": 27.86,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 27.96,
+   "end": 29.88,
+   "words": [
+    {
+     "text": "o",
+     "start": 27.96,
+     "end": 28.2,
+     "emph": false
+    },
+    {
+     "text": "histórico",
+     "start": 28.2,
+     "end": 28.68,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 28.68,
+     "end": 28.84,
+     "emph": false
+    },
+    {
+     "text": "manutenção.",
+     "start": 28.84,
+     "end": 29.42,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 29.88,
+   "end": 30.68,
+   "words": [
+    {
+     "text": "Confiança",
+     "start": 29.88,
+     "end": 30.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 30.68,
+   "end": 31.72,
+   "words": [
+    {
+     "text": "não",
+     "start": 30.68,
+     "end": 30.84,
+     "emph": false
+    },
+    {
+     "text": "se",
+     "start": 30.84,
+     "end": 31.0,
+     "emph": false
+    },
+    {
+     "text": "pede.",
+     "start": 31.0,
+     "end": 31.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 31.72,
+   "end": 32.84,
+   "words": [
+    {
+     "text": "Se",
+     "start": 31.72,
+     "end": 32.04,
+     "emph": false
+    },
+    {
+     "text": "mostra.",
+     "start": 32.04,
+     "end": 32.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.84,
+   "end": 34.2,
+   "words": [
+    {
+     "text": "Se",
+     "start": 32.84,
+     "end": 32.91,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 33.08,
+     "end": 33.32,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 33.32,
+     "end": 33.48,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 33.48,
+     "end": 34.03,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 34.2,
+   "end": 35.4,
+   "words": [
+    {
+     "text": "comente",
+     "start": 34.2,
+     "end": 34.84,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 34.84,
+     "end": 35.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 35.4,
+   "end": 36.36,
+   "words": [
+    {
+     "text": "e",
+     "start": 35.4,
+     "end": 35.48,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 35.48,
+     "end": 36.04,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 36.04,
+     "end": 36.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 36.36,
+   "end": 38.07,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 36.36,
+     "end": 36.84,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 36.84,
+     "end": 37.57,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

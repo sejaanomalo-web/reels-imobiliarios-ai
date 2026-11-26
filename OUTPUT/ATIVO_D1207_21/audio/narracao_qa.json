@@ -1,0 +1,66 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.82,
+    "palavras_nao_reconhecidas": [
+      "segunda",
+      "feira"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 6.99,
+    "palavras_nao_reconhecidas": [
+      "2014"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.0,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 5.15,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.5,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.92,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.3,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 35.98,
+    "asr_match": 0.964,
+    "aligned_words": "94/98",
+    "words_per_min": 163,
+    "heard": "Por que a gente sempre promete começar na segunda-feira? Em 2014, pesquisadores americanos viram que as buscas por dieta sobem no começo da semana, do mês e do ano. E as idas à academia aumentam depois de datas marcantes como aniversários. Essas datas funcionam como um recomeço. O plano adiado ganha uma nova chance. Aquele lead que esfriou retome a conversa num marco. Come do mês, virada do ano, fim do aluguel. Às vezes o cliente não precisa de outro imóvel, precisa de um novo começo. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 37.51,
+      "wpm": 157
+    },
+    "pausas_moldadas": {
+      "n": 14,
+      "max_s": 0.55
+    },
+    "pausas_encurtadas_s": 1.53,
+    "final": {
+      "seconds": 35.98,
+      "wpm": 163
+    }
+  }
+]
