@@ -74,9 +74,10 @@
       "justificativaTrilha": "tensão em movimento: corrida.",
       "episodio": "ATIVO-D1212-12",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-12/ATIVO-D1212-12_o_bastao.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/12-sabado/12h00"
     },
     {
       "horario": "15:00",
