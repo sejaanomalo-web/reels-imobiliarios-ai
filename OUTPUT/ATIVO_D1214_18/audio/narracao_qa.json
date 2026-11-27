@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 6.27,
+    "palavras_nao_reconhecidas": [
+      "1861"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.02,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 6.78,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.98,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.5,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.42,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 37.0,
+    "asr_match": 0.977,
+    "aligned_words": "104/106",
+    "words_per_min": 172,
+    "heard": "Em 1861, um hotel de seis andares subiu mais de um metro, com os hóspedes lá dentro. Chicago tinha sido construída num terreno plano e encharcado, e o esgoto não tinha para onde escoar. A cidade decidiu subir o nível das ruas, e os prédios tiveram que subir junto, com centenas de macacos de rosca. O que está embaixo da rua muda o valor de tudo o que está em cima. Antes de mostrar o imóvel, descubra se a rua alaga. Pergunte aos vizinhos e consulte a prefeitura. Endereço bom também é o que não alaga. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 38.11,
+      "wpm": 167
+    },
+    "pausas_moldadas": {
+      "n": 17,
+      "max_s": 0.5
+    },
+    "pausas_encurtadas_s": 1.11,
+    "final": {
+      "seconds": 37.0,
+      "wpm": 172
+    }
+  }
+]

@@ -1,0 +1,495 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "1861": "mil oitocentos e sessenta e um"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1214-18",
+ "lote": "D1214",
+ "title": "A cidade que subiu",
+ "outputDir": "ATIVO_D1214_18",
+ "deliverables": {
+  "final": "ATIVO_D1214_18_FINAL.mp4",
+  "narration": "ATIVO_D1214_18_NARRACAO.wav",
+  "subtitles": "ATIVO_D1214_18_legendas.srt",
+  "cover": "ATIVO_D1214_18_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-14/ATIVO-D1214-18_a_cidade_que_subiu.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-26",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Em 1861, um hotel de seis andares subiu mais de um metro, com os hóspedes lá dentro.",
+   "caption": "Em *1861,* | um *hotel* de seis andares | *subiu* mais de um metro, | com os *hóspedes* | lá dentro.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "terreno",
+   "text": "Chicago tinha sido construída num terreno plano e encharcado, e o esgoto não tinha para onde escoar.",
+   "caption": "*Chicago* | tinha sido construída | num terreno plano | e *encharcado,* | e o *esgoto* | não tinha | para onde escoar.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "subir",
+   "text": "A cidade decidiu subir o nível das ruas, e os prédios tiveram que subir junto, com centenas de macacos de rosca.",
+   "caption": "A cidade decidiu | subir o nível | das *ruas,* | e os *prédios* | tiveram que | subir junto, | com centenas | de *macacos* de rosca.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "O que está embaixo da rua muda o valor de tudo que está em cima.",
+   "caption": "O que está | *embaixo* da rua | muda o *valor* | de tudo | que está em cima.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Antes de mostrar um imóvel, descubra se a rua alaga: pergunte aos vizinhos e consulte a prefeitura.",
+   "caption": "Antes de mostrar | um imóvel, | descubra | se a rua *alaga:* | pergunte aos *vizinhos* | e consulte | a *prefeitura.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Endereço bom também é o que não alaga.",
+   "caption": "Endereço bom | também é | o que *não alaga.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "terreno": 0.35,
+  "subir": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_1861": {
+   "seg": "s1",
+   "word": "1861",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_hotel": {
+   "seg": "s1",
+   "word": "hotel",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_subiu": {
+   "seg": "s1",
+   "word": "subiu",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_hospedes": {
+   "seg": "s1",
+   "word": "hóspedes",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_chicago": {
+   "seg": "s2",
+   "word": "Chicago",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_encharcado": {
+   "seg": "s2",
+   "word": "encharcado",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_esgoto": {
+   "seg": "s2",
+   "word": "esgoto",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_ruas": {
+   "seg": "s3",
+   "word": "ruas",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_predios": {
+   "seg": "s3",
+   "word": "prédios",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_macacos": {
+   "seg": "s3",
+   "word": "macacos",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_embaixo": {
+   "seg": "s4",
+   "word": "embaixo",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_valor": {
+   "seg": "s4",
+   "word": "valor",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_alaga": {
+   "seg": "s5",
+   "word": "alaga",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_vizinhos": {
+   "seg": "s5",
+   "word": "vizinhos",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_prefeitura": {
+   "seg": "s5",
+   "word": "prefeitura",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_endereco": {
+   "seg": "s6",
+   "word": "Endereço",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_alaga": {
+   "seg": "s6",
+   "word": "alaga",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_1861",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "h_subiu",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "t_chicago",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "t_esgoto",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "s_predios",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_embaixo",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_alaga",
+   "offset": -0.05,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_prefeitura",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "d_alaga",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.2,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.7,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_hotel",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_embaixo",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:d_alaga",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T03",
+  "ancoras": {
+   "virada": "cue:v_embaixo",
+   "insight": "cue:a_alaga",
+   "resolucao": "cue:d_alaga"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "maquete-3d",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "historia",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "o prédio sobe com macacos e a rua sobe junto.",
+  "justificativaHorario": "18h: história no fim do dia.",
+  "trilha": "T03",
+  "justificativaTrilha": "arco de descoberta: problema → solução → lição.",
+  "data": "2026-12-14",
+  "slot": "18:00",
+  "arquivo": "PRODUCAO/grade/2026-12-14.json"
+ },
+ "modelos4": true,
+ "modelo": 4,
+ "modeloNome": "Maquete 3D"
+}

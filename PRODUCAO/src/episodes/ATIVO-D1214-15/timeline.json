@@ -1,0 +1,842 @@
+{
+ "id": "ATIVO-D1214-15",
+ "title": "As palavras do cliente",
+ "fps": 30,
+ "duration": 34.8,
+ "durationInFrames": 1044,
+ "narrationEnd": 32.571,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.32
+  },
+  {
+   "id": "estudo",
+   "start": 5.32,
+   "end": 11.295
+  },
+  {
+   "id": "resultado",
+   "start": 11.295,
+   "end": 14.355
+  },
+  {
+   "id": "virada",
+   "start": 14.355,
+   "end": 18.36
+  },
+  {
+   "id": "acao",
+   "start": 18.36,
+   "end": 24.535
+  },
+  {
+   "id": "desfecho",
+   "start": 24.535,
+   "end": 27.58
+  },
+  {
+   "id": "cta",
+   "start": 27.58,
+   "end": 34.8
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Uma garçonete ganhou gorjetas maiores sem trabalhar mais e sem sorrir mais.",
+   "start": 0.12,
+   "end": 5.24
+  },
+  {
+   "id": "s2",
+   "scene": "estudo",
+   "text": "Em 2003, na Holanda, ela repetiu o pedido com as mesmas palavras do cliente em metade das mesas.",
+   "start": 5.4,
+   "end": 11.11
+  },
+  {
+   "id": "s3",
+   "scene": "resultado",
+   "text": "Nessas mesas, as gorjetas foram maiores.",
+   "start": 11.48,
+   "end": 14.19
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Ouvir a própria frase de volta prova que alguém prestou atenção.",
+   "start": 14.52,
+   "end": 18.2
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Anote as palavras exatas do cliente: se ele disse quintal para o cachorro, não escreva área externa.",
+   "start": 18.52,
+   "end": 24.39
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Quem repete as palavras do cliente mostra que ouviu.",
+   "start": 24.68,
+   "end": 27.36
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 27.8,
+   "end": 32.19
+  }
+ ],
+ "cues": {
+  "h_garconete": 0.36,
+  "h_gorjetas": 1.508,
+  "h_sorrir": 4.44,
+  "e_2003": 5.667,
+  "e_holanda": 6.44,
+  "e_repetiu": 7.16,
+  "e_mesmas": 8.36,
+  "r_maiores": 13.64,
+  "v_propria": 15.08,
+  "v_atencao": 17.88,
+  "a_anote": 18.52,
+  "a_exatas": 19.72,
+  "a_quintal": 21.64,
+  "a_area": 23.72,
+  "d_repete": 25.0,
+  "d_ouviu": 27.08,
+  "cta_quer": 27.8,
+  "cta_comment": 29.08,
+  "cta_word": 29.72,
+  "cta_tiles": 30.28,
+  "cta_sys": 31.08,
+  "cta_leads": 30.76,
+  "cta_atend": 31.48,
+  "cta_direct": 31.48,
+  "cta_end": 32.19
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.049,
+   "words": [
+    {
+     "text": "Uma",
+     "start": 0.12,
+     "end": 0.36,
+     "emph": false
+    },
+    {
+     "text": "garçonete",
+     "start": 0.36,
+     "end": 1.049,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.049,
+   "end": 2.84,
+   "words": [
+    {
+     "text": "ganhou",
+     "start": 1.049,
+     "end": 1.508,
+     "emph": false
+    },
+    {
+     "text": "gorjetas",
+     "start": 1.508,
+     "end": 2.12,
+     "emph": true
+    },
+    {
+     "text": "maiores",
+     "start": 2.12,
+     "end": 2.69,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.84,
+   "end": 3.96,
+   "words": [
+    {
+     "text": "sem",
+     "start": 2.84,
+     "end": 3.16,
+     "emph": false
+    },
+    {
+     "text": "trabalhar",
+     "start": 3.16,
+     "end": 3.72,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 3.72,
+     "end": 3.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.96,
+   "end": 5.4,
+   "words": [
+    {
+     "text": "e",
+     "start": 3.96,
+     "end": 4.12,
+     "emph": false
+    },
+    {
+     "text": "sem",
+     "start": 4.12,
+     "end": 4.44,
+     "emph": false
+    },
+    {
+     "text": "sorrir",
+     "start": 4.44,
+     "end": 5.0,
+     "emph": true
+    },
+    {
+     "text": "mais.",
+     "start": 5.0,
+     "end": 5.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.4,
+   "end": 6.2,
+   "words": [
+    {
+     "text": "Em",
+     "start": 5.4,
+     "end": 5.667,
+     "emph": false
+    },
+    {
+     "text": "2003,",
+     "start": 5.667,
+     "end": 6.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.2,
+   "end": 6.92,
+   "words": [
+    {
+     "text": "na",
+     "start": 6.2,
+     "end": 6.44,
+     "emph": false
+    },
+    {
+     "text": "Holanda,",
+     "start": 6.44,
+     "end": 6.81,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.92,
+   "end": 8.04,
+   "words": [
+    {
+     "text": "ela",
+     "start": 6.92,
+     "end": 7.16,
+     "emph": false
+    },
+    {
+     "text": "repetiu",
+     "start": 7.16,
+     "end": 7.56,
+     "emph": true
+    },
+    {
+     "text": "o",
+     "start": 7.56,
+     "end": 7.64,
+     "emph": false
+    },
+    {
+     "text": "pedido",
+     "start": 7.64,
+     "end": 8.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.04,
+   "end": 9.16,
+   "words": [
+    {
+     "text": "com",
+     "start": 8.04,
+     "end": 8.2,
+     "emph": false
+    },
+    {
+     "text": "as",
+     "start": 8.2,
+     "end": 8.36,
+     "emph": false
+    },
+    {
+     "text": "mesmas",
+     "start": 8.36,
+     "end": 8.76,
+     "emph": true
+    },
+    {
+     "text": "palavras",
+     "start": 8.76,
+     "end": 9.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.16,
+   "end": 9.8,
+   "words": [
+    {
+     "text": "do",
+     "start": 9.16,
+     "end": 9.32,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 9.32,
+     "end": 9.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.8,
+   "end": 11.48,
+   "words": [
+    {
+     "text": "em",
+     "start": 9.8,
+     "end": 10.04,
+     "emph": false
+    },
+    {
+     "text": "metade",
+     "start": 10.04,
+     "end": 10.13,
+     "emph": false
+    },
+    {
+     "text": "das",
+     "start": 10.52,
+     "end": 10.76,
+     "emph": false
+    },
+    {
+     "text": "mesas.",
+     "start": 10.76,
+     "end": 11.11,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.48,
+   "end": 12.52,
+   "words": [
+    {
+     "text": "Nessas",
+     "start": 11.48,
+     "end": 11.55,
+     "emph": false
+    },
+    {
+     "text": "mesas,",
+     "start": 11.96,
+     "end": 12.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.52,
+   "end": 13.32,
+   "words": [
+    {
+     "text": "as",
+     "start": 12.52,
+     "end": 12.68,
+     "emph": false
+    },
+    {
+     "text": "gorjetas",
+     "start": 12.68,
+     "end": 13.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.32,
+   "end": 14.52,
+   "words": [
+    {
+     "text": "foram",
+     "start": 13.32,
+     "end": 13.64,
+     "emph": false
+    },
+    {
+     "text": "maiores.",
+     "start": 13.64,
+     "end": 14.19,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.52,
+   "end": 15.88,
+   "words": [
+    {
+     "text": "Ouvir",
+     "start": 14.52,
+     "end": 15.0,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 15.0,
+     "end": 15.08,
+     "emph": false
+    },
+    {
+     "text": "própria",
+     "start": 15.08,
+     "end": 15.48,
+     "emph": true
+    },
+    {
+     "text": "frase",
+     "start": 15.48,
+     "end": 15.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.88,
+   "end": 16.6,
+   "words": [
+    {
+     "text": "de",
+     "start": 15.88,
+     "end": 16.12,
+     "emph": false
+    },
+    {
+     "text": "volta",
+     "start": 16.12,
+     "end": 16.41,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.6,
+   "end": 17.4,
+   "words": [
+    {
+     "text": "prova",
+     "start": 16.6,
+     "end": 17.0,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 17.0,
+     "end": 17.16,
+     "emph": false
+    },
+    {
+     "text": "alguém",
+     "start": 17.16,
+     "end": 17.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.4,
+   "end": 18.52,
+   "words": [
+    {
+     "text": "prestou",
+     "start": 17.4,
+     "end": 17.88,
+     "emph": false
+    },
+    {
+     "text": "atenção.",
+     "start": 17.88,
+     "end": 18.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.52,
+   "end": 19.72,
+   "words": [
+    {
+     "text": "Anote",
+     "start": 18.52,
+     "end": 18.59,
+     "emph": true
+    },
+    {
+     "text": "as",
+     "start": 19.16,
+     "end": 19.24,
+     "emph": false
+    },
+    {
+     "text": "palavras",
+     "start": 19.24,
+     "end": 19.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.72,
+   "end": 21.0,
+   "words": [
+    {
+     "text": "exatas",
+     "start": 19.72,
+     "end": 20.28,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 20.28,
+     "end": 20.36,
+     "emph": false
+    },
+    {
+     "text": "cliente:",
+     "start": 20.36,
+     "end": 20.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.0,
+   "end": 21.64,
+   "words": [
+    {
+     "text": "se",
+     "start": 21.0,
+     "end": 21.16,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 21.16,
+     "end": 21.32,
+     "emph": false
+    },
+    {
+     "text": "disse",
+     "start": 21.32,
+     "end": 21.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.64,
+   "end": 23.08,
+   "words": [
+    {
+     "text": "quintal",
+     "start": 21.64,
+     "end": 22.28,
+     "emph": true
+    },
+    {
+     "text": "para",
+     "start": 22.28,
+     "end": 22.36,
+     "emph": true
+    },
+    {
+     "text": "o",
+     "start": 22.36,
+     "end": 22.52,
+     "emph": true
+    },
+    {
+     "text": "cachorro,",
+     "start": 22.52,
+     "end": 22.93,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.08,
+   "end": 23.72,
+   "words": [
+    {
+     "text": "não",
+     "start": 23.08,
+     "end": 23.24,
+     "emph": false
+    },
+    {
+     "text": "escreva",
+     "start": 23.24,
+     "end": 23.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.72,
+   "end": 24.68,
+   "words": [
+    {
+     "text": "área",
+     "start": 23.72,
+     "end": 24.12,
+     "emph": true
+    },
+    {
+     "text": "externa.",
+     "start": 24.12,
+     "end": 24.39,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.68,
+   "end": 25.48,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 24.68,
+     "end": 25.0,
+     "emph": false
+    },
+    {
+     "text": "repete",
+     "start": 25.0,
+     "end": 25.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.48,
+   "end": 26.52,
+   "words": [
+    {
+     "text": "as",
+     "start": 25.48,
+     "end": 25.56,
+     "emph": false
+    },
+    {
+     "text": "palavras",
+     "start": 25.56,
+     "end": 25.88,
+     "emph": false
+    },
+    {
+     "text": "do",
+     "start": 25.88,
+     "end": 26.04,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 26.04,
+     "end": 26.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.52,
+   "end": 27.8,
+   "words": [
+    {
+     "text": "mostra",
+     "start": 26.52,
+     "end": 26.92,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 26.92,
+     "end": 27.08,
+     "emph": false
+    },
+    {
+     "text": "ouviu.",
+     "start": 27.08,
+     "end": 27.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.8,
+   "end": 29.08,
+   "words": [
+    {
+     "text": "Se",
+     "start": 27.8,
+     "end": 27.89,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 28.04,
+     "end": 28.28,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 28.28,
+     "end": 28.44,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 28.44,
+     "end": 28.94,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.08,
+   "end": 30.2,
+   "words": [
+    {
+     "text": "comente",
+     "start": 29.08,
+     "end": 29.72,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 29.72,
+     "end": 30.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.2,
+   "end": 31.08,
+   "words": [
+    {
+     "text": "e",
+     "start": 30.2,
+     "end": 30.28,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 30.28,
+     "end": 30.76,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 30.76,
+     "end": 31.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.08,
+   "end": 32.69,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 31.08,
+     "end": 31.48,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 31.48,
+     "end": 32.19,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

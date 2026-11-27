@@ -1,0 +1,65 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.83,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.97,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.7,
+    "palavras_nao_reconhecidas": [
+      "trinta"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.06,
+    "palavras_nao_reconhecidas": [
+      "peça"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.46,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.3,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 31.77,
+    "asr_match": 0.97,
+    "aligned_words": "82/85",
+    "words_per_min": 161,
+    "heard": "Escritura marcada, todo mundo no cartório e a certidão do imóvel venceu ontem. A assinatura volta para a fila e o cliente volta para casa sem o imóvel. Para a escritura, a certidão do registro de imóveis vale 30 dias. E as outras têm prazos diferentes. As certidões não vencem juntas. Anote a data de emissão de cada uma e peças de prazo curto por último. Documento em dia é escritura no dia. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 33.02,
+      "wpm": 154
+    },
+    "pausas_moldadas": {
+      "n": 14,
+      "max_s": 0.56
+    },
+    "pausas_encurtadas_s": 1.25,
+    "final": {
+      "seconds": 31.77,
+      "wpm": 161
+    }
+  }
+]

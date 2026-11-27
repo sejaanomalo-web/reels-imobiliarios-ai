@@ -1,0 +1,67 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.96,
+    "palavras_nao_reconhecidas": [
+      "estivesse"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 6.75,
+    "palavras_nao_reconhecidas": [
+      "cinco",
+      "por",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 6.16,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.14,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.06,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.78,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 36.82,
+    "asr_match": 0.971,
+    "aligned_words": "99/103",
+    "words_per_min": 168,
+    "heard": "E se a metragem do anúncio estiveresse errada e o comprador pudesse pedir desconto? Na França, isso é lei. Se o apartamento tem mais de 5% a menos que o declarado, o preço cai na mesma proporção. No Brasil, quando a venda é pela medida, uma diferença acima de um vigésimo também pode virar abatimento. A metragem do anúncio não é detalhe, é promessa. Antes de anunciar, confira a área na matrícula e na planta. E diga de onde veio o número. Metragem certa no anúncio é negociação sem surpresa. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 38.17,
+      "wpm": 162
+    },
+    "pausas_moldadas": {
+      "n": 16,
+      "max_s": 0.54
+    },
+    "pausas_encurtadas_s": 1.35,
+    "final": {
+      "seconds": 36.82,
+      "wpm": 168
+    }
+  }
+]

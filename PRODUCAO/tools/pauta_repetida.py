@@ -43,7 +43,7 @@ def entidades(fontes: str) -> set:
     arts = {"art:" + m.upper() for m in re.findall(r"art\.?\s*(\d+(?:-[A-Za-z])?)", fontes)}
     comuns = {"lei", "brasil", "estados", "unidos", "europa", "estudo", "pesquisa", "dados", "artigo", "journal", "review",
               "universidade", "detalhes", "situacao", "roteiro", "fontes", "origem", "nenhum", "nenhuma", "quando", "segundo",
-              "rotina", "pratica", "tese", "prefeitura", "secretaria", "psychological", "science", "consumer", "psychology"}
+              "rotina", "pratica", "tese", "codigo", "civil", "prefeitura", "secretaria", "psychological", "science", "consumer", "psychology"}
     return {n for n in nomes if n not in comuns} | arts
 
 

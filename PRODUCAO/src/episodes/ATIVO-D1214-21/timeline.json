@@ -1,0 +1,854 @@
+{
+ "id": "ATIVO-D1214-21",
+ "title": "A certidão vencida",
+ "fps": 30,
+ "duration": 34.1,
+ "durationInFrames": 1023,
+ "narrationEnd": 31.893,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.49
+  },
+  {
+   "id": "fila",
+   "start": 6.49,
+   "end": 11.025
+  },
+  {
+   "id": "prazo",
+   "start": 11.025,
+   "end": 17.13
+  },
+  {
+   "id": "virada",
+   "start": 17.13,
+   "end": 19.805
+  },
+  {
+   "id": "acao",
+   "start": 19.805,
+   "end": 24.19
+  },
+  {
+   "id": "desfecho",
+   "start": 24.19,
+   "end": 26.99
+  },
+  {
+   "id": "cta",
+   "start": 26.99,
+   "end": 34.1
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Escritura marcada, todo mundo no cartório, e a certidão do imóvel venceu ontem.",
+   "start": 0.12,
+   "end": 5.95
+  },
+  {
+   "id": "s2",
+   "scene": "fila",
+   "text": "A assinatura volta para a fila, e o cliente volta para casa sem o imóvel.",
+   "start": 6.84,
+   "end": 10.81
+  },
+  {
+   "id": "s3",
+   "scene": "prazo",
+   "text": "Para a escritura, a certidão do registro de imóveis vale trinta dias, e as outras têm prazos diferentes.",
+   "start": 11.24,
+   "end": 16.94
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "As certidões não vencem juntas.",
+   "start": 17.32,
+   "end": 19.65
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Anote a data de emissão de cada uma e peça as de prazo curto por último.",
+   "start": 19.96,
+   "end": 24.02
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Documento em dia é escritura no dia.",
+   "start": 24.36,
+   "end": 26.82
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 27.16,
+   "end": 31.46
+  }
+ ],
+ "cues": {
+  "h_escritura": 0.12,
+  "h_cartorio": 2.52,
+  "h_certidao": 3.72,
+  "h_venceu": 4.92,
+  "f_assinatura": 7.08,
+  "f_sem": 10.2,
+  "p_registro": 13.08,
+  "p_trinta": 14.376,
+  "p_diferentes": 16.52,
+  "v_juntas": 19.32,
+  "a_data": 20.6,
+  "a_curto": 23.32,
+  "a_ultimo": 23.8,
+  "d_documento": 24.36,
+  "d_dia": 25.08,
+  "cta_quer": 27.16,
+  "cta_comment": 28.28,
+  "cta_word": 28.92,
+  "cta_tiles": 29.64,
+  "cta_sys": 30.44,
+  "cta_leads": 30.12,
+  "cta_atend": 30.84,
+  "cta_direct": 30.84,
+  "cta_end": 31.46
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.64,
+   "words": [
+    {
+     "text": "Escritura",
+     "start": 0.12,
+     "end": 0.76,
+     "emph": true
+    },
+    {
+     "text": "marcada,",
+     "start": 0.76,
+     "end": 1.37,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.64,
+   "end": 2.28,
+   "words": [
+    {
+     "text": "todo",
+     "start": 1.64,
+     "end": 1.96,
+     "emph": false
+    },
+    {
+     "text": "mundo",
+     "start": 1.96,
+     "end": 2.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.28,
+   "end": 3.4,
+   "words": [
+    {
+     "text": "no",
+     "start": 2.28,
+     "end": 2.52,
+     "emph": false
+    },
+    {
+     "text": "cartório,",
+     "start": 2.52,
+     "end": 3.26,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.4,
+   "end": 4.92,
+   "words": [
+    {
+     "text": "e",
+     "start": 3.4,
+     "end": 3.56,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 3.56,
+     "end": 3.72,
+     "emph": false
+    },
+    {
+     "text": "certidão",
+     "start": 3.72,
+     "end": 4.28,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 4.28,
+     "end": 4.44,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 4.44,
+     "end": 4.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.92,
+   "end": 6.3,
+   "words": [
+    {
+     "text": "venceu",
+     "start": 4.92,
+     "end": 5.29,
+     "emph": true
+    },
+    {
+     "text": "ontem.",
+     "start": 5.56,
+     "end": 5.95,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.84,
+   "end": 7.8,
+   "words": [
+    {
+     "text": "A",
+     "start": 6.84,
+     "end": 6.97,
+     "emph": false
+    },
+    {
+     "text": "assinatura",
+     "start": 7.08,
+     "end": 7.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.8,
+   "end": 8.84,
+   "words": [
+    {
+     "text": "volta",
+     "start": 7.8,
+     "end": 8.2,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 8.2,
+     "end": 8.36,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 8.36,
+     "end": 8.44,
+     "emph": false
+    },
+    {
+     "text": "fila,",
+     "start": 8.44,
+     "end": 8.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.84,
+   "end": 9.48,
+   "words": [
+    {
+     "text": "e",
+     "start": 8.84,
+     "end": 9.0,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 9.0,
+     "end": 9.08,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 9.08,
+     "end": 9.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.48,
+   "end": 10.2,
+   "words": [
+    {
+     "text": "volta",
+     "start": 9.48,
+     "end": 9.8,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 9.8,
+     "end": 9.96,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 9.96,
+     "end": 10.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.2,
+   "end": 11.24,
+   "words": [
+    {
+     "text": "sem",
+     "start": 10.2,
+     "end": 10.36,
+     "emph": true
+    },
+    {
+     "text": "o",
+     "start": 10.36,
+     "end": 10.52,
+     "emph": true
+    },
+    {
+     "text": "imóvel.",
+     "start": 10.52,
+     "end": 10.81,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.24,
+   "end": 12.2,
+   "words": [
+    {
+     "text": "Para",
+     "start": 11.24,
+     "end": 11.4,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 11.4,
+     "end": 11.56,
+     "emph": false
+    },
+    {
+     "text": "escritura,",
+     "start": 11.56,
+     "end": 11.75,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.2,
+   "end": 12.92,
+   "words": [
+    {
+     "text": "a",
+     "start": 12.2,
+     "end": 12.36,
+     "emph": false
+    },
+    {
+     "text": "certidão",
+     "start": 12.36,
+     "end": 12.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.92,
+   "end": 14.12,
+   "words": [
+    {
+     "text": "do",
+     "start": 12.92,
+     "end": 13.08,
+     "emph": false
+    },
+    {
+     "text": "registro",
+     "start": 13.08,
+     "end": 13.48,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 13.48,
+     "end": 13.64,
+     "emph": true
+    },
+    {
+     "text": "imóveis",
+     "start": 13.64,
+     "end": 14.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.12,
+   "end": 15.24,
+   "words": [
+    {
+     "text": "vale",
+     "start": 14.12,
+     "end": 14.376,
+     "emph": false
+    },
+    {
+     "text": "trinta",
+     "start": 14.376,
+     "end": 14.76,
+     "emph": true
+    },
+    {
+     "text": "dias,",
+     "start": 14.76,
+     "end": 15.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.24,
+   "end": 15.88,
+   "words": [
+    {
+     "text": "e",
+     "start": 15.24,
+     "end": 15.4,
+     "emph": false
+    },
+    {
+     "text": "as",
+     "start": 15.4,
+     "end": 15.56,
+     "emph": false
+    },
+    {
+     "text": "outras",
+     "start": 15.56,
+     "end": 15.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.88,
+   "end": 16.52,
+   "words": [
+    {
+     "text": "têm",
+     "start": 15.88,
+     "end": 16.12,
+     "emph": false
+    },
+    {
+     "text": "prazos",
+     "start": 16.12,
+     "end": 16.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 16.52,
+   "end": 17.32,
+   "words": [
+    {
+     "text": "diferentes.",
+     "start": 16.52,
+     "end": 16.94,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.32,
+   "end": 18.52,
+   "words": [
+    {
+     "text": "As",
+     "start": 17.32,
+     "end": 17.56,
+     "emph": false
+    },
+    {
+     "text": "certidões",
+     "start": 17.56,
+     "end": 18.38,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.52,
+   "end": 19.96,
+   "words": [
+    {
+     "text": "não",
+     "start": 18.52,
+     "end": 18.76,
+     "emph": false
+    },
+    {
+     "text": "vencem",
+     "start": 18.76,
+     "end": 19.32,
+     "emph": false
+    },
+    {
+     "text": "juntas.",
+     "start": 19.32,
+     "end": 19.65,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.96,
+   "end": 21.4,
+   "words": [
+    {
+     "text": "Anote",
+     "start": 19.96,
+     "end": 20.04,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 20.52,
+     "end": 20.6,
+     "emph": false
+    },
+    {
+     "text": "data",
+     "start": 20.6,
+     "end": 20.92,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 20.92,
+     "end": 21.0,
+     "emph": true
+    },
+    {
+     "text": "emissão",
+     "start": 21.0,
+     "end": 21.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.4,
+   "end": 22.12,
+   "words": [
+    {
+     "text": "de",
+     "start": 21.4,
+     "end": 21.56,
+     "emph": false
+    },
+    {
+     "text": "cada",
+     "start": 21.56,
+     "end": 21.8,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 21.8,
+     "end": 22.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.12,
+   "end": 22.691,
+   "words": [
+    {
+     "text": "e",
+     "start": 22.12,
+     "end": 22.234,
+     "emph": false
+    },
+    {
+     "text": "peça",
+     "start": 22.234,
+     "end": 22.41,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.691,
+   "end": 23.64,
+   "words": [
+    {
+     "text": "as",
+     "start": 22.691,
+     "end": 22.92,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 22.92,
+     "end": 23.0,
+     "emph": false
+    },
+    {
+     "text": "prazo",
+     "start": 23.0,
+     "end": 23.32,
+     "emph": true
+    },
+    {
+     "text": "curto",
+     "start": 23.32,
+     "end": 23.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.64,
+   "end": 24.36,
+   "words": [
+    {
+     "text": "por",
+     "start": 23.64,
+     "end": 23.8,
+     "emph": false
+    },
+    {
+     "text": "último.",
+     "start": 23.8,
+     "end": 24.02,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.36,
+   "end": 25.48,
+   "words": [
+    {
+     "text": "Documento",
+     "start": 24.36,
+     "end": 24.92,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 24.92,
+     "end": 25.08,
+     "emph": true
+    },
+    {
+     "text": "dia",
+     "start": 25.08,
+     "end": 25.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.48,
+   "end": 26.44,
+   "words": [
+    {
+     "text": "é",
+     "start": 25.48,
+     "end": 25.8,
+     "emph": false
+    },
+    {
+     "text": "escritura",
+     "start": 25.8,
+     "end": 25.98,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.44,
+   "end": 27.16,
+   "words": [
+    {
+     "text": "no",
+     "start": 26.44,
+     "end": 26.6,
+     "emph": true
+    },
+    {
+     "text": "dia.",
+     "start": 26.6,
+     "end": 26.82,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.16,
+   "end": 28.28,
+   "words": [
+    {
+     "text": "Se",
+     "start": 27.16,
+     "end": 27.32,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 27.32,
+     "end": 27.48,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 27.48,
+     "end": 27.64,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 27.64,
+     "end": 28.09,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.28,
+   "end": 29.48,
+   "words": [
+    {
+     "text": "comente",
+     "start": 28.28,
+     "end": 28.92,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 28.92,
+     "end": 29.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.48,
+   "end": 30.44,
+   "words": [
+    {
+     "text": "e",
+     "start": 29.48,
+     "end": 29.64,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 29.64,
+     "end": 30.12,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 30.12,
+     "end": 30.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.44,
+   "end": 31.96,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 30.44,
+     "end": 30.84,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 30.84,
+     "end": 31.46,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.12,
+    "palavras_nao_reconhecidas": [
+      "ganhou"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.71,
+    "palavras_nao_reconhecidas": [
+      "2003"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.71,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.68,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.87,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.68,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.39,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 32.45,
+    "asr_match": 0.964,
+    "aligned_words": "81/84",
+    "words_per_min": 155,
+    "heard": "Uma garçonete ganhetas maiores sem trabalhar mais e sem sorrir mais. Em 2003, na Holanda, ela repetiu o pedido com as mesmas palavras do cliente em metade das mesas. Nessas mesas, as gorjetas foram maiores. Ouvir a própria frase de volta prova que alguém prestou atenção. Anote as palavras exatas do cliente. Se ele disse quintal para o cachorro, não escreva a área externa. Quem repete as palavras do cliente, mostra que ouviu. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 33.49,
+      "wpm": 150
+    },
+    "pausas_moldadas": {
+      "n": 12,
+      "max_s": 0.53
+    },
+    "pausas_encurtadas_s": 1.04,
+    "final": {
+      "seconds": 32.45,
+      "wpm": 155
+    }
+  }
+]

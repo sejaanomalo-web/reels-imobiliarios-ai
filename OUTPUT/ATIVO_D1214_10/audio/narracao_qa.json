@@ -1,0 +1,66 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.21,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.47,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.01,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.57,
+    "palavras_nao_reconhecidas": [
+      "cinco"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 7.23,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.69,
+    "palavras_nao_reconhecidas": [
+      "Cinco",
+      "cem"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.56,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 30.15,
+    "asr_match": 0.963,
+    "aligned_words": "78/81",
+    "words_per_min": 161,
+    "heard": "A foto do banheiro foi para o anúncio com a tampa do vaso levantada. Quem rola o anúncio repara na hora e passa para o próximo. A foto é a primeira visita e ela acontece sem você. Antes de fotografar, o imóvel precisa de 5 minutos de preparo. Luzes acesas, cortinas abertas, tampa abaixada, objetos pessoais guardados e celular na horizontal. 5 minutos de preparo valem mais que 100 fotos. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 31.84,
+      "wpm": 153
+    },
+    "pausas_moldadas": {
+      "n": 17,
+      "max_s": 0.56
+    },
+    "pausas_encurtadas_s": 1.69,
+    "final": {
+      "seconds": 30.15,
+      "wpm": 161
+    }
+  }
+]

@@ -1,0 +1,824 @@
+{
+ "id": "ATIVO-D1214-10",
+ "title": "A tampa do vaso",
+ "fps": 30,
+ "duration": 32.5,
+ "durationInFrames": 975,
+ "narrationEnd": 30.273,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 3.485
+  },
+  {
+   "id": "reacao",
+   "start": 3.485,
+   "end": 7.295
+  },
+  {
+   "id": "visita",
+   "start": 7.295,
+   "end": 10.665
+  },
+  {
+   "id": "virada",
+   "start": 10.665,
+   "end": 14.545
+  },
+  {
+   "id": "acao",
+   "start": 14.545,
+   "end": 22.108
+  },
+  {
+   "id": "desfecho",
+   "start": 22.108,
+   "end": 25.16
+  },
+  {
+   "id": "cta",
+   "start": 25.16,
+   "end": 32.5
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A foto do banheiro foi para o anúncio com a tampa do vaso levantada.",
+   "start": 0.12,
+   "end": 3.33
+  },
+  {
+   "id": "s2",
+   "scene": "reacao",
+   "text": "Quem rola o anúncio repara na hora, e passa para o próximo.",
+   "start": 3.64,
+   "end": 7.11
+  },
+  {
+   "id": "s3",
+   "scene": "visita",
+   "text": "A foto é a primeira visita, e ela acontece sem você.",
+   "start": 7.48,
+   "end": 10.49
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Antes de fotografar, o imóvel precisa de cinco minutos de preparo.",
+   "start": 10.84,
+   "end": 14.41
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Luzes acesas, cortinas abertas, tampa abaixada, objetos pessoais guardados e celular na horizontal.",
+   "start": 14.68,
+   "end": 21.91
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Cinco minutos de preparo valem mais que cem fotos.",
+   "start": 22.307,
+   "end": 25.0
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 25.32,
+   "end": 29.88
+  }
+ ],
+ "cues": {
+  "h_foto": 0.2,
+  "h_tampa": 2.04,
+  "h_levantada": 2.84,
+  "r_repara": 4.76,
+  "r_proximo": 6.84,
+  "p_primeira": 8.28,
+  "p_sem": 10.04,
+  "v_cinco": 13.217,
+  "v_preparo": 14.04,
+  "a_luzes": 14.68,
+  "a_cortinas": 15.96,
+  "a_tampa": 17.32,
+  "a_objetos": 18.76,
+  "a_horizontal": 21.4,
+  "d_valem": 23.64,
+  "d_fotos": 24.68,
+  "cta_quer": 25.32,
+  "cta_comment": 26.6,
+  "cta_word": 27.24,
+  "cta_tiles": 27.96,
+  "cta_sys": 28.84,
+  "cta_leads": 28.52,
+  "cta_atend": 29.24,
+  "cta_direct": 29.24,
+  "cta_end": 29.88
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.08,
+   "words": [
+    {
+     "text": "A",
+     "start": 0.12,
+     "end": 0.2,
+     "emph": false
+    },
+    {
+     "text": "foto",
+     "start": 0.2,
+     "end": 0.44,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 0.44,
+     "end": 0.6,
+     "emph": false
+    },
+    {
+     "text": "banheiro",
+     "start": 0.6,
+     "end": 1.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.08,
+   "end": 1.8,
+   "words": [
+    {
+     "text": "foi",
+     "start": 1.08,
+     "end": 1.24,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 1.24,
+     "end": 1.32,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 1.32,
+     "end": 1.4,
+     "emph": false
+    },
+    {
+     "text": "anúncio",
+     "start": 1.4,
+     "end": 1.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.8,
+   "end": 2.84,
+   "words": [
+    {
+     "text": "com",
+     "start": 1.8,
+     "end": 1.96,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 1.96,
+     "end": 2.04,
+     "emph": false
+    },
+    {
+     "text": "tampa",
+     "start": 2.04,
+     "end": 2.36,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 2.36,
+     "end": 2.52,
+     "emph": true
+    },
+    {
+     "text": "vaso",
+     "start": 2.52,
+     "end": 2.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.84,
+   "end": 3.64,
+   "words": [
+    {
+     "text": "levantada.",
+     "start": 2.84,
+     "end": 3.33,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.64,
+   "end": 4.76,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 3.64,
+     "end": 3.88,
+     "emph": false
+    },
+    {
+     "text": "rola",
+     "start": 3.88,
+     "end": 4.2,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 4.2,
+     "end": 4.28,
+     "emph": false
+    },
+    {
+     "text": "anúncio",
+     "start": 4.28,
+     "end": 4.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.76,
+   "end": 5.88,
+   "words": [
+    {
+     "text": "repara",
+     "start": 4.76,
+     "end": 5.24,
+     "emph": true
+    },
+    {
+     "text": "na",
+     "start": 5.24,
+     "end": 5.48,
+     "emph": false
+    },
+    {
+     "text": "hora,",
+     "start": 5.48,
+     "end": 5.62,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.88,
+   "end": 6.6,
+   "words": [
+    {
+     "text": "e",
+     "start": 5.88,
+     "end": 6.06,
+     "emph": false
+    },
+    {
+     "text": "passa",
+     "start": 6.2,
+     "end": 6.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.6,
+   "end": 7.48,
+   "words": [
+    {
+     "text": "para",
+     "start": 6.6,
+     "end": 6.76,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 6.76,
+     "end": 6.84,
+     "emph": false
+    },
+    {
+     "text": "próximo.",
+     "start": 6.84,
+     "end": 7.11,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 7.48,
+   "end": 8.12,
+   "words": [
+    {
+     "text": "A",
+     "start": 7.48,
+     "end": 7.64,
+     "emph": false
+    },
+    {
+     "text": "foto",
+     "start": 7.64,
+     "end": 7.96,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 7.96,
+     "end": 8.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.12,
+   "end": 9.08,
+   "words": [
+    {
+     "text": "a",
+     "start": 8.12,
+     "end": 8.28,
+     "emph": false
+    },
+    {
+     "text": "primeira",
+     "start": 8.28,
+     "end": 8.6,
+     "emph": true
+    },
+    {
+     "text": "visita,",
+     "start": 8.6,
+     "end": 9.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.08,
+   "end": 10.04,
+   "words": [
+    {
+     "text": "e",
+     "start": 9.08,
+     "end": 9.16,
+     "emph": false
+    },
+    {
+     "text": "ela",
+     "start": 9.32,
+     "end": 9.48,
+     "emph": false
+    },
+    {
+     "text": "acontece",
+     "start": 9.48,
+     "end": 10.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.04,
+   "end": 10.84,
+   "words": [
+    {
+     "text": "sem",
+     "start": 10.04,
+     "end": 10.28,
+     "emph": true
+    },
+    {
+     "text": "você.",
+     "start": 10.28,
+     "end": 10.49,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 10.84,
+   "end": 12.04,
+   "words": [
+    {
+     "text": "Antes",
+     "start": 10.84,
+     "end": 11.08,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 11.08,
+     "end": 11.24,
+     "emph": false
+    },
+    {
+     "text": "fotografar,",
+     "start": 11.24,
+     "end": 11.94,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.04,
+   "end": 13.08,
+   "words": [
+    {
+     "text": "o",
+     "start": 12.04,
+     "end": 12.2,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 12.2,
+     "end": 12.76,
+     "emph": false
+    },
+    {
+     "text": "precisa",
+     "start": 12.76,
+     "end": 13.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.08,
+   "end": 13.88,
+   "words": [
+    {
+     "text": "de",
+     "start": 13.08,
+     "end": 13.217,
+     "emph": false
+    },
+    {
+     "text": "cinco",
+     "start": 13.217,
+     "end": 13.56,
+     "emph": true
+    },
+    {
+     "text": "minutos",
+     "start": 13.56,
+     "end": 13.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.88,
+   "end": 14.68,
+   "words": [
+    {
+     "text": "de",
+     "start": 13.88,
+     "end": 14.04,
+     "emph": false
+    },
+    {
+     "text": "preparo.",
+     "start": 14.04,
+     "end": 14.41,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 14.68,
+   "end": 15.96,
+   "words": [
+    {
+     "text": "Luzes",
+     "start": 14.68,
+     "end": 14.75,
+     "emph": true
+    },
+    {
+     "text": "acesas,",
+     "start": 15.24,
+     "end": 15.73,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 15.96,
+   "end": 17.32,
+   "words": [
+    {
+     "text": "cortinas",
+     "start": 15.96,
+     "end": 16.6,
+     "emph": true
+    },
+    {
+     "text": "abertas,",
+     "start": 16.6,
+     "end": 17.1,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.32,
+   "end": 18.76,
+   "words": [
+    {
+     "text": "tampa",
+     "start": 17.32,
+     "end": 17.88,
+     "emph": true
+    },
+    {
+     "text": "abaixada,",
+     "start": 17.88,
+     "end": 18.49,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.76,
+   "end": 20.44,
+   "words": [
+    {
+     "text": "objetos",
+     "start": 18.76,
+     "end": 19.24,
+     "emph": true
+    },
+    {
+     "text": "pessoais",
+     "start": 19.24,
+     "end": 19.72,
+     "emph": true
+    },
+    {
+     "text": "guardados",
+     "start": 19.72,
+     "end": 20.25,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.44,
+   "end": 21.24,
+   "words": [
+    {
+     "text": "e",
+     "start": 20.44,
+     "end": 20.68,
+     "emph": false
+    },
+    {
+     "text": "celular",
+     "start": 20.68,
+     "end": 21.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.24,
+   "end": 22.307,
+   "words": [
+    {
+     "text": "na",
+     "start": 21.24,
+     "end": 21.4,
+     "emph": false
+    },
+    {
+     "text": "horizontal.",
+     "start": 21.4,
+     "end": 21.91,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.307,
+   "end": 23.08,
+   "words": [
+    {
+     "text": "Cinco",
+     "start": 22.307,
+     "end": 22.76,
+     "emph": false
+    },
+    {
+     "text": "minutos",
+     "start": 22.76,
+     "end": 23.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.08,
+   "end": 23.64,
+   "words": [
+    {
+     "text": "de",
+     "start": 23.08,
+     "end": 23.16,
+     "emph": false
+    },
+    {
+     "text": "preparo",
+     "start": 23.16,
+     "end": 23.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.64,
+   "end": 24.2,
+   "words": [
+    {
+     "text": "valem",
+     "start": 23.64,
+     "end": 24.04,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 24.04,
+     "end": 24.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.2,
+   "end": 25.32,
+   "words": [
+    {
+     "text": "que",
+     "start": 24.2,
+     "end": 24.44,
+     "emph": false
+    },
+    {
+     "text": "cem",
+     "start": 24.44,
+     "end": 24.68,
+     "emph": true
+    },
+    {
+     "text": "fotos.",
+     "start": 24.68,
+     "end": 25.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 25.32,
+   "end": 26.6,
+   "words": [
+    {
+     "text": "Se",
+     "start": 25.32,
+     "end": 25.48,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 25.48,
+     "end": 25.72,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 25.72,
+     "end": 25.88,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 25.88,
+     "end": 26.37,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.6,
+   "end": 27.8,
+   "words": [
+    {
+     "text": "comente",
+     "start": 26.6,
+     "end": 27.24,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 27.24,
+     "end": 27.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.8,
+   "end": 28.84,
+   "words": [
+    {
+     "text": "e",
+     "start": 27.8,
+     "end": 27.96,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 27.96,
+     "end": 28.52,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 28.52,
+     "end": 28.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.84,
+   "end": 30.38,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 28.84,
+     "end": 29.24,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 29.24,
+     "end": 29.88,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

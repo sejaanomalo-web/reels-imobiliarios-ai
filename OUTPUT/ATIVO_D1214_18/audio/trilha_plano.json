@@ -1,0 +1,296 @@
+{
+ "plano": [
+  {
+   "secao": "intro",
+   "tipo": "intro",
+   "opcao": "inteira",
+   "fonte": [
+    0.0,
+    4.54
+   ],
+   "mantido": 4.54,
+   "removido": 0.0,
+   "saida_ini": 0.0
+  },
+  {
+   "secao": "a",
+   "tipo": "a",
+   "opcao": "6/7 (miolo removido, cauda 1)",
+   "fonte": [
+    4.54,
+    18.54
+   ],
+   "mantido": 12.0,
+   "removido": 2.0,
+   "saida_ini": 4.54
+  },
+  {
+   "secao": "parada",
+   "tipo": "parada",
+   "opcao": "respiro +1 tempo",
+   "fonte": [
+    18.54,
+    20.54
+   ],
+   "mantido": 2.5,
+   "removido": 0.0,
+   "saida_ini": 16.54
+  },
+  {
+   "secao": "b",
+   "tipo": "b",
+   "opcao": "2/6 (aparo do fim)",
+   "fonte": [
+    20.54,
+    32.54
+   ],
+   "mantido": 4.0,
+   "removido": 8.0,
+   "saida_ini": 19.04
+  },
+  {
+   "secao": "subida",
+   "tipo": "subida",
+   "opcao": "removida",
+   "fonte": [
+    32.54,
+    36.54
+   ],
+   "mantido": 0.0,
+   "removido": 4.0,
+   "saida_ini": 23.04
+  },
+  {
+   "secao": "quebra",
+   "tipo": "quebra",
+   "opcao": "2/10 (miolo removido, cauda 2)",
+   "fonte": [
+    36.54,
+    56.54
+   ],
+   "mantido": 4.0,
+   "removido": 16.0,
+   "saida_ini": 23.04
+  },
+  {
+   "secao": "drop",
+   "tipo": "climax",
+   "opcao": "5/16 (só a cabeça)",
+   "fonte": [
+    56.54,
+    88.54
+   ],
+   "mantido": 10.0,
+   "removido": 22.0,
+   "saida_ini": 27.04
+  },
+  {
+   "secao": "final",
+   "tipo": "final",
+   "opcao": "inteira",
+   "fonte": [
+    88.54,
+    90.6
+   ],
+   "mantido": 2.06,
+   "removido": 0.0,
+   "saida_ini": 37.04
+  }
+ ],
+ "pecas": [
+  {
+   "secao": "intro",
+   "fonte": [
+    0.0,
+    4.54
+   ],
+   "saida": [
+    0.0,
+    4.54
+   ]
+  },
+  {
+   "secao": "a",
+   "fonte": [
+    4.54,
+    14.54
+   ],
+   "saida": [
+    4.54,
+    14.54
+   ]
+  },
+  {
+   "secao": "a",
+   "fonte": [
+    16.54,
+    18.54
+   ],
+   "saida": [
+    14.54,
+    16.54
+   ]
+  },
+  {
+   "secao": "parada",
+   "fonte": [
+    18.54,
+    19.54
+   ],
+   "saida": [
+    16.54,
+    17.54
+   ]
+  },
+  {
+   "secao": "parada",
+   "fonte": [
+    19.04,
+    19.54
+   ],
+   "saida": [
+    17.54,
+    18.04
+   ]
+  },
+  {
+   "secao": "parada",
+   "fonte": [
+    19.54,
+    20.54
+   ],
+   "saida": [
+    18.04,
+    19.04
+   ]
+  },
+  {
+   "secao": "b",
+   "fonte": [
+    20.54,
+    24.54
+   ],
+   "saida": [
+    19.04,
+    23.04
+   ]
+  },
+  {
+   "secao": "quebra",
+   "fonte": [
+    52.54,
+    56.54
+   ],
+   "saida": [
+    23.04,
+    27.04
+   ]
+  },
+  {
+   "secao": "drop",
+   "fonte": [
+    56.54,
+    66.54
+   ],
+   "saida": [
+    27.04,
+    37.04
+   ]
+  },
+  {
+   "secao": "final",
+   "fonte": [
+    88.54,
+    90.6
+   ],
+   "saida": [
+    37.04,
+    39.1
+   ]
+  }
+ ],
+ "ancoras": [
+  {
+   "funcao": "virada",
+   "secao": "b",
+   "alvo": 19.88,
+   "obtido": 19.04,
+   "erro": -0.84
+  },
+  {
+   "funcao": "insight",
+   "secao": "drop",
+   "alvo": 26.36,
+   "obtido": 27.04,
+   "erro": 0.68
+  }
+ ],
+ "ancoras_ignoradas": [
+  {
+   "funcao": "resolucao",
+   "alvo": 31.56,
+   "motivo": "esta faixa não tem evento para essa função (use efeito/respiro)"
+  }
+ ],
+ "fim_musical": 39.1,
+ "custo": 43.23,
+ "modo": "SHORTEN",
+ "ref_costura": 1.3578,
+ "final": {
+  "tipo": "natural",
+  "fim_musical": 39.1,
+  "video": 39.333,
+  "ajuste": "cauda sintética 0.23 s (reverberação da última batida)",
+  "sustentacao_s": 0.905
+ },
+ "cortes": [
+  {
+   "saida": 14.54,
+   "sai_da_fonte": 14.54,
+   "entra_na_fonte": 16.54,
+   "crossfade_s": 0.04,
+   "razao": 0.6,
+   "nota": "natural",
+   "salto_amostra": 0.18
+  },
+  {
+   "saida": 17.54,
+   "sai_da_fonte": 19.54,
+   "entra_na_fonte": 19.04,
+   "crossfade_s": 0.04,
+   "razao": 0.29,
+   "nota": "natural",
+   "salto_amostra": 0.42
+  },
+  {
+   "saida": 23.04,
+   "sai_da_fonte": 24.54,
+   "entra_na_fonte": 52.54,
+   "crossfade_s": 0.04,
+   "razao": 0.72,
+   "nota": "natural",
+   "salto_amostra": 0.31
+  },
+  {
+   "saida": 37.04,
+   "sai_da_fonte": 66.54,
+   "entra_na_fonte": 88.54,
+   "crossfade_s": 0.04,
+   "razao": 0.68,
+   "nota": "natural",
+   "salto_amostra": 0.07
+  }
+ ],
+ "versao": 1,
+ "trilha": "T03",
+ "nome": "Ascensão tech",
+ "licenca": "autorizada",
+ "duracao_video": 39.333,
+ "amostras": 1888000,
+ "alteracao_velocidade_pct": 0.0,
+ "alteracao_tom_semitons": 0,
+ "lufs": -24.3,
+ "true_peak": -9.1,
+ "bpm": 120.0,
+ "tom": "Ré♭ maior"
+}

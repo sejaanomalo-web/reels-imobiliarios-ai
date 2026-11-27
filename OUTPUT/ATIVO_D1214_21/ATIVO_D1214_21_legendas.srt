@@ -1,0 +1,59 @@
+1
+00:00:00,120 --> 00:00:01,570
+Escritura marcada,
+
+2
+00:00:01,640 --> 00:00:03,380
+todo mundo no cartório,
+
+3
+00:00:03,400 --> 00:00:06,150
+e a certidão do imóvel venceu ontem.
+
+4
+00:00:06,840 --> 00:00:08,820
+A assinatura volta para a fila,
+
+5
+00:00:08,840 --> 00:00:11,010
+e o cliente volta para casa sem o imóvel.
+
+6
+00:00:11,240 --> 00:00:12,900
+Para a escritura, a certidão
+
+7
+00:00:12,920 --> 00:00:15,220
+do registro de imóveis vale trinta dias,
+
+8
+00:00:15,240 --> 00:00:17,140
+e as outras têm prazos diferentes.
+
+9
+00:00:17,320 --> 00:00:19,850
+As certidões não vencem juntas.
+
+10
+00:00:19,960 --> 00:00:22,610
+Anote a data de emissão de cada uma e peça
+
+11
+00:00:22,691 --> 00:00:24,220
+as de prazo curto por último.
+
+12
+00:00:24,360 --> 00:00:27,020
+Documento em dia é escritura no dia.
+
+13
+00:00:27,160 --> 00:00:28,260
+Se você é corretor,
+
+14
+00:00:28,280 --> 00:00:30,420
+comente SISTEMA e conheça nosso
+
+15
+00:00:30,440 --> 00:00:31,660
+sistema personalizado.

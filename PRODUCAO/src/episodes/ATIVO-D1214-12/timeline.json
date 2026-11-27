@@ -1,0 +1,894 @@
+{
+ "id": "ATIVO-D1214-12",
+ "title": "O pé na porta",
+ "fps": 30,
+ "duration": 39.166666666666664,
+ "durationInFrames": 1175,
+ "narrationEnd": 36.951,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 7.45
+  },
+  {
+   "id": "sim",
+   "start": 7.45,
+   "end": 14.11
+  },
+  {
+   "id": "nao",
+   "start": 14.11,
+   "end": 17.88
+  },
+  {
+   "id": "virada",
+   "start": 17.88,
+   "end": 21.04
+  },
+  {
+   "id": "acao",
+   "start": 21.04,
+   "end": 28.325
+  },
+  {
+   "id": "desfecho",
+   "start": 28.325,
+   "end": 31.865
+  },
+  {
+   "id": "cta",
+   "start": 31.865,
+   "end": 39.167
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Em 1966, pesquisadores pediram a moradores da Califórnia para colocar uma placa enorme no jardim.",
+   "start": 0.12,
+   "end": 7.26
+  },
+  {
+   "id": "s2",
+   "scene": "sim",
+   "text": "Entre quem semanas antes tinha aceitado só uma plaquinha na janela, três em cada quatro disseram sim.",
+   "start": 7.64,
+   "end": 13.94
+  },
+  {
+   "id": "s3",
+   "scene": "nao",
+   "text": "Entre quem ouviu só o pedido grande, a maioria recusou.",
+   "start": 14.28,
+   "end": 17.64
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Um sim pequeno abre caminho para o grande.",
+   "start": 18.12,
+   "end": 20.84
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Na captação, não peça a exclusividade na primeira conversa: peça primeiro para conhecer o imóvel e fazer a avaliação.",
+   "start": 21.24,
+   "end": 28.13
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Quem começa pelo passo pequeno chega ao grande.",
+   "start": 28.52,
+   "end": 31.69
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 32.04,
+   "end": 36.52
+  }
+ ],
+ "cues": {
+  "h_1966": 0.787,
+  "h_placa": 5.8,
+  "h_jardim": 6.92,
+  "s_plaquinha": 10.28,
+  "s_tres": 11.72,
+  "s_sim": 13.64,
+  "n_grande": 16.04,
+  "n_recusou": 17.24,
+  "v_sim": 18.44,
+  "v_grande": 20.6,
+  "a_captacao": 21.56,
+  "a_exclusividade": 23.08,
+  "a_conhecer": 25.96,
+  "a_avaliacao": 27.56,
+  "d_passo": 29.676,
+  "d_grande": 31.4,
+  "cta_quer": 32.04,
+  "cta_comment": 33.32,
+  "cta_word": 33.96,
+  "cta_tiles": 34.76,
+  "cta_sys": 35.56,
+  "cta_leads": 35.32,
+  "cta_atend": 35.96,
+  "cta_direct": 35.96,
+  "cta_end": 36.52
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 2.12,
+   "words": [
+    {
+     "text": "Em",
+     "start": 0.12,
+     "end": 0.787,
+     "emph": false
+    },
+    {
+     "text": "1966,",
+     "start": 0.787,
+     "end": 1.95,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.12,
+   "end": 3.32,
+   "words": [
+    {
+     "text": "pesquisadores",
+     "start": 2.12,
+     "end": 2.84,
+     "emph": false
+    },
+    {
+     "text": "pediram",
+     "start": 2.84,
+     "end": 3.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.32,
+   "end": 4.12,
+   "words": [
+    {
+     "text": "a",
+     "start": 3.32,
+     "end": 3.48,
+     "emph": false
+    },
+    {
+     "text": "moradores",
+     "start": 3.48,
+     "end": 4.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.12,
+   "end": 5.0,
+   "words": [
+    {
+     "text": "da",
+     "start": 4.12,
+     "end": 4.28,
+     "emph": false
+    },
+    {
+     "text": "Califórnia",
+     "start": 4.28,
+     "end": 5.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 5.0,
+   "end": 5.56,
+   "words": [
+    {
+     "text": "para",
+     "start": 5.0,
+     "end": 5.16,
+     "emph": false
+    },
+    {
+     "text": "colocar",
+     "start": 5.16,
+     "end": 5.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 5.56,
+   "end": 6.76,
+   "words": [
+    {
+     "text": "uma",
+     "start": 5.56,
+     "end": 5.8,
+     "emph": false
+    },
+    {
+     "text": "placa",
+     "start": 5.8,
+     "end": 6.28,
+     "emph": true
+    },
+    {
+     "text": "enorme",
+     "start": 6.28,
+     "end": 6.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 6.76,
+   "end": 7.64,
+   "words": [
+    {
+     "text": "no",
+     "start": 6.76,
+     "end": 6.92,
+     "emph": false
+    },
+    {
+     "text": "jardim.",
+     "start": 6.92,
+     "end": 7.26,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.64,
+   "end": 8.44,
+   "words": [
+    {
+     "text": "Entre",
+     "start": 7.64,
+     "end": 8.04,
+     "emph": false
+    },
+    {
+     "text": "quem",
+     "start": 8.04,
+     "end": 8.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.44,
+   "end": 9.16,
+   "words": [
+    {
+     "text": "semanas",
+     "start": 8.44,
+     "end": 8.84,
+     "emph": false
+    },
+    {
+     "text": "antes",
+     "start": 8.84,
+     "end": 9.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.16,
+   "end": 9.96,
+   "words": [
+    {
+     "text": "tinha",
+     "start": 9.16,
+     "end": 9.48,
+     "emph": false
+    },
+    {
+     "text": "aceitado",
+     "start": 9.48,
+     "end": 9.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.96,
+   "end": 10.84,
+   "words": [
+    {
+     "text": "só",
+     "start": 9.96,
+     "end": 10.12,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 10.12,
+     "end": 10.28,
+     "emph": false
+    },
+    {
+     "text": "plaquinha",
+     "start": 10.28,
+     "end": 10.43,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.84,
+   "end": 11.72,
+   "words": [
+    {
+     "text": "na",
+     "start": 10.84,
+     "end": 11.0,
+     "emph": false
+    },
+    {
+     "text": "janela,",
+     "start": 11.0,
+     "end": 11.39,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 11.72,
+   "end": 13.0,
+   "words": [
+    {
+     "text": "três",
+     "start": 11.72,
+     "end": 12.12,
+     "emph": true
+    },
+    {
+     "text": "em",
+     "start": 12.12,
+     "end": 12.28,
+     "emph": true
+    },
+    {
+     "text": "cada",
+     "start": 12.28,
+     "end": 12.6,
+     "emph": true
+    },
+    {
+     "text": "quatro",
+     "start": 12.6,
+     "end": 13.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 13.0,
+   "end": 14.28,
+   "words": [
+    {
+     "text": "disseram",
+     "start": 13.0,
+     "end": 13.64,
+     "emph": false
+    },
+    {
+     "text": "sim.",
+     "start": 13.64,
+     "end": 13.94,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.28,
+   "end": 15.32,
+   "words": [
+    {
+     "text": "Entre",
+     "start": 14.28,
+     "end": 14.35,
+     "emph": false
+    },
+    {
+     "text": "quem",
+     "start": 14.68,
+     "end": 14.92,
+     "emph": false
+    },
+    {
+     "text": "ouviu",
+     "start": 14.92,
+     "end": 15.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.32,
+   "end": 16.6,
+   "words": [
+    {
+     "text": "só",
+     "start": 15.32,
+     "end": 15.56,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 15.56,
+     "end": 15.64,
+     "emph": false
+    },
+    {
+     "text": "pedido",
+     "start": 15.64,
+     "end": 16.04,
+     "emph": false
+    },
+    {
+     "text": "grande,",
+     "start": 16.04,
+     "end": 16.34,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 16.6,
+   "end": 18.12,
+   "words": [
+    {
+     "text": "a",
+     "start": 16.6,
+     "end": 16.76,
+     "emph": false
+    },
+    {
+     "text": "maioria",
+     "start": 16.76,
+     "end": 17.24,
+     "emph": false
+    },
+    {
+     "text": "recusou.",
+     "start": 17.24,
+     "end": 17.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.12,
+   "end": 19.56,
+   "words": [
+    {
+     "text": "Um",
+     "start": 18.12,
+     "end": 18.44,
+     "emph": false
+    },
+    {
+     "text": "sim",
+     "start": 18.44,
+     "end": 18.84,
+     "emph": true
+    },
+    {
+     "text": "pequeno",
+     "start": 18.84,
+     "end": 19.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 19.56,
+   "end": 20.36,
+   "words": [
+    {
+     "text": "abre",
+     "start": 19.56,
+     "end": 19.96,
+     "emph": false
+    },
+    {
+     "text": "caminho",
+     "start": 19.96,
+     "end": 20.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 20.36,
+   "end": 21.24,
+   "words": [
+    {
+     "text": "para",
+     "start": 20.36,
+     "end": 20.52,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 20.52,
+     "end": 20.6,
+     "emph": false
+    },
+    {
+     "text": "grande.",
+     "start": 20.6,
+     "end": 20.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.24,
+   "end": 22.36,
+   "words": [
+    {
+     "text": "Na",
+     "start": 21.24,
+     "end": 21.31,
+     "emph": false
+    },
+    {
+     "text": "captação,",
+     "start": 21.56,
+     "end": 22.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.36,
+   "end": 22.968,
+   "words": [
+    {
+     "text": "não",
+     "start": 22.36,
+     "end": 22.52,
+     "emph": false
+    },
+    {
+     "text": "peça",
+     "start": 22.52,
+     "end": 22.968,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.968,
+   "end": 23.8,
+   "words": [
+    {
+     "text": "a",
+     "start": 22.968,
+     "end": 23.08,
+     "emph": false
+    },
+    {
+     "text": "exclusividade",
+     "start": 23.08,
+     "end": 23.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.8,
+   "end": 25.0,
+   "words": [
+    {
+     "text": "na",
+     "start": 23.8,
+     "end": 23.96,
+     "emph": false
+    },
+    {
+     "text": "primeira",
+     "start": 23.96,
+     "end": 24.36,
+     "emph": false
+    },
+    {
+     "text": "conversa:",
+     "start": 24.36,
+     "end": 24.73,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 25.0,
+   "end": 25.8,
+   "words": [
+    {
+     "text": "peça",
+     "start": 25.0,
+     "end": 25.48,
+     "emph": false
+    },
+    {
+     "text": "primeiro",
+     "start": 25.48,
+     "end": 25.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 25.8,
+   "end": 26.92,
+   "words": [
+    {
+     "text": "para",
+     "start": 25.8,
+     "end": 25.96,
+     "emph": false
+    },
+    {
+     "text": "conhecer",
+     "start": 25.96,
+     "end": 26.36,
+     "emph": true
+    },
+    {
+     "text": "o",
+     "start": 26.36,
+     "end": 26.44,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 26.44,
+     "end": 26.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 26.92,
+   "end": 28.52,
+   "words": [
+    {
+     "text": "e",
+     "start": 26.92,
+     "end": 27.08,
+     "emph": false
+    },
+    {
+     "text": "fazer",
+     "start": 27.08,
+     "end": 27.32,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 27.32,
+     "end": 27.56,
+     "emph": false
+    },
+    {
+     "text": "avaliação.",
+     "start": 27.56,
+     "end": 28.13,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.52,
+   "end": 29.32,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 28.52,
+     "end": 28.59,
+     "emph": false
+    },
+    {
+     "text": "começa",
+     "start": 28.92,
+     "end": 29.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 29.32,
+   "end": 30.76,
+   "words": [
+    {
+     "text": "pelo",
+     "start": 29.32,
+     "end": 29.676,
+     "emph": false
+    },
+    {
+     "text": "passo",
+     "start": 29.676,
+     "end": 30.12,
+     "emph": true
+    },
+    {
+     "text": "pequeno",
+     "start": 30.12,
+     "end": 30.46,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 30.76,
+   "end": 32.04,
+   "words": [
+    {
+     "text": "chega",
+     "start": 30.76,
+     "end": 31.16,
+     "emph": false
+    },
+    {
+     "text": "ao",
+     "start": 31.16,
+     "end": 31.4,
+     "emph": false
+    },
+    {
+     "text": "grande.",
+     "start": 31.4,
+     "end": 31.69,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.04,
+   "end": 33.32,
+   "words": [
+    {
+     "text": "Se",
+     "start": 32.04,
+     "end": 32.12,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 32.28,
+     "end": 32.44,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 32.44,
+     "end": 32.6,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 32.6,
+     "end": 33.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.32,
+   "end": 34.6,
+   "words": [
+    {
+     "text": "comente",
+     "start": 33.32,
+     "end": 33.96,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 33.96,
+     "end": 34.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 34.6,
+   "end": 35.56,
+   "words": [
+    {
+     "text": "e",
+     "start": 34.6,
+     "end": 34.76,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 34.76,
+     "end": 35.32,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 35.32,
+     "end": 35.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 35.56,
+   "end": 37.02,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 35.56,
+     "end": 35.96,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 35.96,
+     "end": 36.52,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 7.14,
+    "palavras_nao_reconhecidas": [
+      "1966"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 6.3,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.89,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.17,
+    "palavras_nao_reconhecidas": [
+      "passo"
+    ]
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 36.83,
+    "asr_match": 0.971,
+    "aligned_words": "85/88",
+    "words_per_min": 143,
+    "heard": "Em 1966, pesquisadores pediram a moradores da Califórnia para colocar uma placa enorme no jardim. Entre quem semanas antes tinha aceitado só uma plaquinha na janela, três em cada quatro disseram sim. Entre quem ouviu só o pedido grande, a maioria recusou. Um sim pequeno abre caminho para o grande. Na captação, não peça exclusividade na primeira conversa. Peça primeiro para conhecer o imóvel e fazer a avaliação. Quem começa pelo passe pequeno, chega ao grande. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 38.81,
+      "wpm": 136
+    },
+    "pausas_moldadas": {
+      "n": 14,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.98,
+    "final": {
+      "seconds": 36.83,
+      "wpm": 143
+    }
+  }
+]
