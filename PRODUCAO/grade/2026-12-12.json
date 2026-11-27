@@ -96,9 +96,10 @@
       "justificativaTrilha": "cama de explicação.",
       "episodio": "ATIVO-D1212-15",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-12/ATIVO-D1212-15_o_resumo_do_mesmo_dia.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/12-sabado/15h00"
     },
     {
       "horario": "18:00",
