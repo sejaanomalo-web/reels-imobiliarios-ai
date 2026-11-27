@@ -1,0 +1,486 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1213-08",
+ "lote": "D1213",
+ "title": "O sinal e a desistência",
+ "outputDir": "ATIVO_D1213_08",
+ "deliverables": {
+  "final": "ATIVO_D1213_08_FINAL.mp4",
+  "narration": "ATIVO_D1213_08_NARRACAO.wav",
+  "subtitles": "ATIVO_D1213_08_legendas.srt",
+  "cover": "ATIVO_D1213_08_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-13/ATIVO-D1213-08_o_sinal_e_a_desistencia.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-26",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "E se o vendedor desistir da venda depois de receber o sinal?",
+   "caption": "E se o *vendedor* | desistir da venda | depois de receber | o *sinal?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "recebeu",
+   "text": "O Código Civil já responde: quem recebeu e não cumpre devolve o sinal e mais o equivalente.",
+   "caption": "O *Código Civil* | já responde: | quem *recebeu* | e não cumpre | *devolve* o sinal | e mais o *equivalente.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "pagou",
+   "text": "E se quem pagou desiste, perde o sinal.",
+   "caption": "E se quem *pagou* | desiste, | *perde* o sinal.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Se o contrato prevê o direito de se arrepender, o sinal vira só o preço da desistência.",
+   "caption": "Se o contrato prevê | o direito | de se *arrepender,* | o sinal vira | só o *preço* | da desistência.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Antes de receber qualquer sinal, deixe escrito: o valor, para que ele serve e se existe arrependimento.",
+   "caption": "Antes de receber | qualquer sinal, | deixe *escrito:* | o *valor,* | para que ele *serve* | e se existe | *arrependimento.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Sinal sem papel vira briga. Sinal escrito vira compromisso.",
+   "caption": "Sinal sem papel | vira *briga.* | Sinal escrito | vira *compromisso.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "recebeu": 0.35,
+  "pagou": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_vendedor": {
+   "seg": "s1",
+   "word": "vendedor",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_sinal": {
+   "seg": "s1",
+   "word": "sinal",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_codigo": {
+   "seg": "s2",
+   "word": "Código",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_recebeu": {
+   "seg": "s2",
+   "word": "recebeu",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_devolve": {
+   "seg": "s2",
+   "word": "devolve",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_equivalente": {
+   "seg": "s2",
+   "word": "equivalente",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_pagou": {
+   "seg": "s3",
+   "word": "pagou",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_perde": {
+   "seg": "s3",
+   "word": "perde",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_arrepender": {
+   "seg": "s4",
+   "word": "arrepender",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_preco": {
+   "seg": "s4",
+   "word": "preço",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_escrito": {
+   "seg": "s5",
+   "word": "escrito",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_valor": {
+   "seg": "s5",
+   "word": "valor",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_serve": {
+   "seg": "s5",
+   "word": "serve",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_arrependimento": {
+   "seg": "s5",
+   "word": "arrependimento",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_briga": {
+   "seg": "s6",
+   "word": "briga",
+   "edge": "start",
+   "offset": 0
+  },
+  "f_compromisso": {
+   "seg": "s6",
+   "word": "compromisso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_vendedor",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "r_codigo",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "r_devolve",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "p_pagou",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_arrepender",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_escrito",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_serve",
+   "offset": -0.05,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "f_briga",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.85,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_sinal",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_arrepender",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:f_compromisso",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T03",
+  "ancoras": {
+   "virada": "cue:v_arrepender",
+   "insight": "cue:a_escrito",
+   "resolucao": "cue:f_compromisso"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "planta-tecnica",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "e-se",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "o contrato como planta.",
+  "justificativaHorario": "08h: informação útil cedo.",
+  "trilha": "T03",
+  "justificativaTrilha": "arco de descoberta: premissa → a lei já responde.",
+  "data": "2026-12-13",
+  "slot": "08:00",
+  "arquivo": "PRODUCAO/grade/2026-12-13.json"
+ },
+ "modelos4": true,
+ "modelo": 3,
+ "modeloNome": "Planta técnica"
+}
