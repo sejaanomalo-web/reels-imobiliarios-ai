@@ -52,9 +52,10 @@
       "justificativaTrilha": "cama de explicação (T02 não fecha em 31 s; T05 reprovou no portão de inteligibilidade, queda de 8,3 pontos).",
       "episodio": "ATIVO-D1212-10",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-12/ATIVO-D1212-10_qual_o_valor.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/12-sabado/10h00"
     },
     {
       "horario": "12:00",
