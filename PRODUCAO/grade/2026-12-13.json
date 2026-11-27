@@ -30,9 +30,10 @@
       "justificativaTrilha": "arco emocional; lead-in de 0,45 s para a trilha abrir antes da voz (com T03 e com lead-in de 0,12 s, o 'E se o' do gancho ficava mascarado: queda 6,6).",
       "episodio": "ATIVO-D1213-08",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-13/ATIVO-D1213-08_o_sinal_e_a_desistencia.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-13-19/13-domingo/08h00"
     },
     {
       "horario": "10:00",
