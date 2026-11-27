@@ -52,9 +52,10 @@
       "justificativaTrilha": "cama de explicação (fala curta, ~30 s).",
       "episodio": "ATIVO-D1213-10",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-13/ATIVO-D1213-10_o_link_do_concorrente.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-13-19/13-domingo/10h00"
     },
     {
       "horario": "12:00",
