@@ -74,9 +74,10 @@
       "justificativaTrilha": "cama de explicação.",
       "episodio": "ATIVO-D1211-12",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-11/ATIVO-D1211-12_noventa_ou_dez.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/11-sexta/12h00"
     },
     {
       "horario": "15:00",

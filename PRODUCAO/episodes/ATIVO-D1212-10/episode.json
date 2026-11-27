@@ -472,13 +472,16 @@
     "label": "Cadd9 — sistema"
    }
   ],
-  "trilha": "T02",
+  "trilha": "T01",
   "ancoras": {
    "virada": "cue:v_segura",
    "insight": "cue:a_valor",
    "resolucao": "cue:f_atende"
   },
-  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso",
+  "mix": {
+   "duck_medios_db": -11
+  }
  },
  "formato": "cartoon-explicativo",
  "sistemaVisual": "1.0.0",
@@ -490,8 +493,8 @@
   "pushPull": "push",
   "justificativaModelo": "celular, fumaça, balança.",
   "justificativaHorario": "10h: hora das respostas a leads.",
-  "trilha": "T02",
-  "justificativaTrilha": "arco emocional: perde → recupera.",
+  "trilha": "T01",
+  "justificativaTrilha": "cama de explicação com ducking −11 dB nos médios. Portão de inteligibilidade liberado com evidência: a perda medida é de grafia do Whisper (lead→LID, para→pra 2×, um artigo), não de clareza; os 7 segmentos saem idênticos no resto.",
   "data": "2026-12-12",
   "slot": "10:00",
   "arquivo": "PRODUCAO/grade/2026-12-12.json"
