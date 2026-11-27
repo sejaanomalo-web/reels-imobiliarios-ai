@@ -74,9 +74,10 @@
       "justificativaTrilha": "tensão em movimento: o altímetro descendo.",
       "episodio": "ATIVO-D1213-12",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-13/ATIVO-D1213-12_a_cabine_esteril.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-13-19/13-domingo/12h00"
     },
     {
       "horario": "15:00",
