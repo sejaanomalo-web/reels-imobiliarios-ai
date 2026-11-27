@@ -140,9 +140,10 @@
       "justificativaTrilha": "tensão em movimento.",
       "episodio": "ATIVO-D1213-21",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-13/ATIVO-D1213-21_a_visita_que_nao_cabe_no_bolso.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-13-19/13-domingo/21h00"
     }
   ]
 }
