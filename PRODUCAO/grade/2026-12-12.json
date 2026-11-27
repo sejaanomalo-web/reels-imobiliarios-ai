@@ -140,9 +140,10 @@
       "justificativaTrilha": "cama de explicação.",
       "episodio": "ATIVO-D1212-21",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-12/ATIVO-D1212-21_o_inquilino_e_a_visita.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/12-sabado/21h00"
     }
   ]
 }
