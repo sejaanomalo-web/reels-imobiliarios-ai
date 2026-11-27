@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 2.4,
+    "palavras_nao_reconhecidas": [
+      "lead"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.07,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.28,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.83,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.36,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.23,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 28.67,
+    "asr_match": 0.979,
+    "aligned_words": "70/72",
+    "words_per_min": 151,
+    "heard": "O Lid manda só isso. Qual o valor? Você responde preço, ele visualiza e some. Preço sozinho vira comparação com o anúncio mais barato do bairro. A resposta que segura a conversa tem o preço e uma pergunta. Diga o valor e pergunte, é para morar ou para investir? Quantos quartos você precisa? Quem só responde, encerra. Quem pergunta, atende. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 30.52,
+      "wpm": 142
+    },
+    "pausas_moldadas": {
+      "n": 14,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.85,
+    "final": {
+      "seconds": 28.67,
+      "wpm": 151
+    }
+  }
+]

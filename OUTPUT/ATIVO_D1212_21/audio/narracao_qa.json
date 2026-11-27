@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.92,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.82,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.83,
+    "palavras_nao_reconhecidas": [
+      "surpresa"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.68,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.15,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 28.75,
+    "asr_match": 0.989,
+    "aligned_words": "87/88",
+    "words_per_min": 184,
+    "heard": "O imóvel está alugado e o inquilino diz que não vai deixar ninguém visitar. A lei do inquilinato diz que ele precisa permitir a visita de quem quer comprar, mas com dia e hora combinados antes. Aparecer de suspense não vale. A lei dá o direito. O jeito de pedir decide se a porta abre. Agende por escrito, com antecedência e chegue no horário que ele aceitou. Inquilino avisado com antecedência, abre a porta de boa vontade. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 29.45,
+      "wpm": 179
+    },
+    "pausas_moldadas": {
+      "n": 8,
+      "max_s": 0.45
+    },
+    "pausas_encurtadas_s": 0.7,
+    "final": {
+      "seconds": 28.75,
+      "wpm": 184
+    }
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.32,
+    "palavras_nao_reconhecidas": [
+      "2016"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.23,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.53,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.2,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.18,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 28.98,
+    "asr_match": 0.983,
+    "aligned_words": "89/90",
+    "words_per_min": 186,
+    "heard": "Em 2016, o Japão ganhou a prata olímpica no revezamento, sem ter os velocistas mais rápidos. A diferença estava na passagem do bastão, de baixo para cima, treinada durante anos. Revezamento se perde na troca, não na reta. Com o cliente é igual. Ele se perde quando passa de uma mão para outra. Quando passar um cliente para um colega, passe junto o histórico. O que viu, o que recusou e o que pediu. Bastão bem passado não perde velocidade. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 29.86,
+      "wpm": 181
+    },
+    "pausas_moldadas": {
+      "n": 10,
+      "max_s": 0.45
+    },
+    "pausas_encurtadas_s": 0.88,
+    "final": {
+      "seconds": 28.98,
+      "wpm": 186
+    }
+  }
+]

@@ -1,0 +1,173 @@
+{
+ "plano": [
+  {
+   "secao": "entrada",
+   "tipo": "intro",
+   "opcao": "11/13 (aparo do início)",
+   "fonte": [
+    0.0,
+    6.15
+   ],
+   "mantido": 5.5,
+   "removido": 0.65,
+   "saida_ini": 0.0
+  },
+  {
+   "secao": "cama",
+   "tipo": "cama",
+   "opcao": "17/89 (aparo do fim)",
+   "fonte": [
+    6.15,
+    50.65
+   ],
+   "mantido": 8.5,
+   "removido": 36.0,
+   "saida_ini": 5.5
+  },
+  {
+   "secao": "cama2",
+   "tipo": "cama",
+   "opcao": "33/53 (miolo removido, cauda 4)",
+   "fonte": [
+    50.65,
+    77.15
+   ],
+   "mantido": 16.5,
+   "removido": 10.0,
+   "saida_ini": 14.0
+  },
+  {
+   "secao": "final",
+   "tipo": "final",
+   "opcao": "inteira",
+   "fonte": [
+    77.15,
+    79.1
+   ],
+   "mantido": 1.95,
+   "removido": 0.0,
+   "saida_ini": 30.5
+  }
+ ],
+ "pecas": [
+  {
+   "secao": "entrada",
+   "fonte": [
+    0.65,
+    6.15
+   ],
+   "saida": [
+    0.0,
+    5.5
+   ]
+  },
+  {
+   "secao": "cama",
+   "fonte": [
+    6.15,
+    14.65
+   ],
+   "saida": [
+    5.5,
+    14.0
+   ]
+  },
+  {
+   "secao": "cama2",
+   "fonte": [
+    50.65,
+    65.15
+   ],
+   "saida": [
+    14.0,
+    28.5
+   ]
+  },
+  {
+   "secao": "cama2",
+   "fonte": [
+    75.15,
+    77.15
+   ],
+   "saida": [
+    28.5,
+    30.5
+   ]
+  },
+  {
+   "secao": "final",
+   "fonte": [
+    77.15,
+    79.1
+   ],
+   "saida": [
+    30.5,
+    32.45
+   ]
+  }
+ ],
+ "ancoras": [
+  {
+   "funcao": "virada",
+   "secao": "cama2",
+   "alvo": 14.44,
+   "obtido": 14.0,
+   "erro": -0.44
+  }
+ ],
+ "ancoras_ignoradas": [
+  {
+   "funcao": "insight",
+   "alvo": 17.88,
+   "motivo": "esta faixa não tem evento para essa função (use efeito/respiro)"
+  },
+  {
+   "funcao": "resolucao",
+   "alvo": 24.04,
+   "motivo": "esta faixa não tem evento para essa função (use efeito/respiro)"
+  }
+ ],
+ "fim_musical": 32.45,
+ "custo": 10.14,
+ "modo": "SHORTEN",
+ "ref_costura": 1.0904,
+ "final": {
+  "tipo": "natural",
+  "fim_musical": 32.45,
+  "video": 32.4,
+  "ajuste": "decaimento aparado 0.05 s com fade de 0.40 s",
+  "sustentacao_s": 0.0
+ },
+ "cortes": [
+  {
+   "saida": 14.0,
+   "sai_da_fonte": 14.65,
+   "entra_na_fonte": 50.65,
+   "crossfade_s": 0.06,
+   "razao": 0.95,
+   "nota": "natural",
+   "salto_amostra": 0.05
+  },
+  {
+   "saida": 28.5,
+   "sai_da_fonte": 65.15,
+   "entra_na_fonte": 75.15,
+   "crossfade_s": 0.06,
+   "razao": 0.61,
+   "nota": "natural",
+   "salto_amostra": 0.08
+  }
+ ],
+ "versao": 1,
+ "trilha": "T01",
+ "nome": "Pulso grave contínuo",
+ "licenca": "autorizada",
+ "duracao_video": 32.4,
+ "amostras": 1555200,
+ "alteracao_velocidade_pct": 0.0,
+ "alteracao_tom_semitons": 0,
+ "lufs": -23.4,
+ "true_peak": -8.2,
+ "bpm": 120.0,
+ "tom": "Dó menor?"
+}

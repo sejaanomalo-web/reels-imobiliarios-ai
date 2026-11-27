@@ -1,0 +1,75 @@
+1
+00:00:00,120 --> 00:00:01,540
+Chegou mensagem do cliente
+
+2
+00:00:01,560 --> 00:00:02,820
+às onze da noite.
+
+3
+00:00:02,840 --> 00:00:04,790
+E você respondeu na hora.
+
+4
+00:00:05,000 --> 00:00:07,230
+No dia seguinte, ele manda de novo
+
+5
+00:00:07,400 --> 00:00:08,280
+às onze.
+
+6
+00:00:08,360 --> 00:00:09,660
+E às onze e meia.
+
+7
+00:00:09,880 --> 00:00:11,700
+Você ensinou que o seu horário
+
+8
+00:00:11,720 --> 00:00:12,790
+é qualquer horário.
+
+9
+00:00:12,920 --> 00:00:14,130
+Responda de manhã,
+
+10
+00:00:14,200 --> 00:00:15,960
+cedo, com tudo resolvido.
+
+11
+00:00:16,120 --> 00:00:17,940
+Se for urgente de verdade,
+
+12
+00:00:17,960 --> 00:00:18,520
+ligue.
+
+13
+00:00:18,760 --> 00:00:20,660
+Se não, uma mensagem curta:
+
+14
+00:00:20,680 --> 00:00:22,790
+amanhã às nove te mando tudo.
+
+15
+00:00:23,160 --> 00:00:25,060
+Disponível não é o mesmo
+
+16
+00:00:25,080 --> 00:00:26,580
+que sempre online.
+
+17
+00:00:26,760 --> 00:00:28,020
+Se você é corretor,
+
+18
+00:00:28,040 --> 00:00:30,180
+comente SISTEMA e conheça nosso
+
+19
+00:00:30,200 --> 00:00:31,490
+sistema personalizado.

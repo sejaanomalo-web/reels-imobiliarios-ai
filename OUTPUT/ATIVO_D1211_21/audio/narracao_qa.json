@@ -1,0 +1,61 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.91,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.07,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.42,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.8,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.25,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.44,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.54,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 30.07,
+    "asr_match": 0.994,
+    "aligned_words": "83/83",
+    "words_per_min": 166,
+    "heard": "Você marcou a visita, o cliente chegou e ninguém sabe com quem está a chave. Ficou na portaria, com outro corretor, no carro de alguém da equipe. Enquanto você liga para todo mundo, o cliente espera na calçada. A chave não sumiu. O que sumiu foi o registro. Na hora em que a chave sai, anote quem pegou, para qual visita e quando devolve. Chave com nome e horário não atrasa a visita. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 32.11,
+      "wpm": 155
+    },
+    "pausas_moldadas": {
+      "n": 15,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.04,
+    "final": {
+      "seconds": 30.07,
+      "wpm": 166
+    }
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.61,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.97,
+    "palavras_nao_reconhecidas": [
+      "2004"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.01,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 4.8,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.07,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.44,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 36.1,
+    "asr_match": 0.984,
+    "aligned_words": "94/95",
+    "words_per_min": 158,
+    "heard": "E se toda casa a venda viesse com uma ficha técnica? Igual o carro. Em Portugal, casa nova já vem. Desde 2004 existe a ficha técnica da habitação. Ela descreve a construção, com áreas, materiais e instalações e vai para as mãos do comprador. Aqui essas respostas costumam aparecer só depois da visita. Quando aparecem. Monte a sua, metragem de cada cômodo, ano da construção, reformas feitas e a documentação em ordem. A visita mostra a parede. A ficha mostra o que tem dentro dela. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 37.4,
+      "wpm": 152
+    },
+    "pausas_moldadas": {
+      "n": 13,
+      "max_s": 0.58
+    },
+    "pausas_encurtadas_s": 1.3,
+    "final": {
+      "seconds": 36.1,
+      "wpm": 158
+    }
+  }
+]

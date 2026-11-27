@@ -1,0 +1,882 @@
+{
+ "id": "ATIVO-D1212-21",
+ "title": "O inquilino e a visita",
+ "fps": 30,
+ "duration": 31.1,
+ "durationInFrames": 933,
+ "narrationEnd": 28.875,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.12
+  },
+  {
+   "id": "lei",
+   "start": 4.12,
+   "end": 8.11
+  },
+  {
+   "id": "condicao",
+   "start": 8.11,
+   "end": 12.155
+  },
+  {
+   "id": "virada",
+   "start": 12.155,
+   "end": 16.18
+  },
+  {
+   "id": "acao",
+   "start": 16.18,
+   "end": 20.22
+  },
+  {
+   "id": "desfecho",
+   "start": 20.22,
+   "end": 24.16
+  },
+  {
+   "id": "cta",
+   "start": 24.16,
+   "end": 31.1
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O imóvel está alugado e o inquilino diz que não vai deixar ninguém visitar.",
+   "start": 0.12,
+   "end": 4.04
+  },
+  {
+   "id": "s2",
+   "scene": "lei",
+   "text": "A Lei do Inquilinato diz que ele precisa permitir a visita de quem quer comprar.",
+   "start": 4.2,
+   "end": 8.02
+  },
+  {
+   "id": "s3",
+   "scene": "condicao",
+   "text": "Mas com dia e hora combinados antes. Aparecer de surpresa não vale.",
+   "start": 8.2,
+   "end": 12.03
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "A lei dá o direito. O jeito de pedir decide se a porta abre.",
+   "start": 12.28,
+   "end": 16.0
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Agende por escrito, com antecedência, e chegue no horário que ele aceitou.",
+   "start": 16.36,
+   "end": 20.08
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Inquilino avisado com antecedência abre a porta de boa vontade.",
+   "start": 20.36,
+   "end": 24.04
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 24.28,
+   "end": 28.43
+  }
+ ],
+ "cues": {
+  "h_alugado": 0.84,
+  "h_inquilino": 1.64,
+  "h_ninguem": 3.16,
+  "l_lei": 4.36,
+  "l_permitir": 6.36,
+  "l_comprar": 7.72,
+  "c_dia": 8.68,
+  "c_combinados": 9.4,
+  "c_surpresa": 11.064,
+  "v_direito": 13.0,
+  "v_jeito": 13.8,
+  "v_porta": 15.48,
+  "a_agende": 16.36,
+  "a_escrito": 17.08,
+  "a_antecedencia": 17.8,
+  "a_horario": 19.16,
+  "f_avisado": 21.0,
+  "f_vontade": 23.64,
+  "cta_quer": 24.28,
+  "cta_comment": 25.48,
+  "cta_word": 26.04,
+  "cta_tiles": 26.76,
+  "cta_sys": 27.56,
+  "cta_leads": 27.24,
+  "cta_atend": 27.88,
+  "cta_direct": 27.88,
+  "cta_end": 28.43
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.68,
+   "words": [
+    {
+     "text": "O",
+     "start": 0.12,
+     "end": 0.28,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 0.28,
+     "end": 0.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.68,
+   "end": 1.32,
+   "words": [
+    {
+     "text": "está",
+     "start": 0.68,
+     "end": 0.84,
+     "emph": false
+    },
+    {
+     "text": "alugado",
+     "start": 0.84,
+     "end": 1.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.32,
+   "end": 2.44,
+   "words": [
+    {
+     "text": "e",
+     "start": 1.32,
+     "end": 1.48,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 1.48,
+     "end": 1.64,
+     "emph": false
+    },
+    {
+     "text": "inquilino",
+     "start": 1.64,
+     "end": 2.28,
+     "emph": true
+    },
+    {
+     "text": "diz",
+     "start": 2.28,
+     "end": 2.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.44,
+   "end": 3.16,
+   "words": [
+    {
+     "text": "que",
+     "start": 2.44,
+     "end": 2.6,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 2.6,
+     "end": 2.68,
+     "emph": false
+    },
+    {
+     "text": "vai",
+     "start": 2.68,
+     "end": 2.84,
+     "emph": false
+    },
+    {
+     "text": "deixar",
+     "start": 2.84,
+     "end": 3.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.16,
+   "end": 4.2,
+   "words": [
+    {
+     "text": "ninguém",
+     "start": 3.16,
+     "end": 3.56,
+     "emph": true
+    },
+    {
+     "text": "visitar.",
+     "start": 3.56,
+     "end": 4.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.2,
+   "end": 5.4,
+   "words": [
+    {
+     "text": "A",
+     "start": 4.2,
+     "end": 4.36,
+     "emph": false
+    },
+    {
+     "text": "Lei",
+     "start": 4.36,
+     "end": 4.52,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 4.52,
+     "end": 4.68,
+     "emph": true
+    },
+    {
+     "text": "Inquilinato",
+     "start": 4.68,
+     "end": 5.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.4,
+   "end": 5.88,
+   "words": [
+    {
+     "text": "diz",
+     "start": 5.4,
+     "end": 5.56,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 5.56,
+     "end": 5.72,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 5.72,
+     "end": 5.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.88,
+   "end": 6.84,
+   "words": [
+    {
+     "text": "precisa",
+     "start": 5.88,
+     "end": 6.36,
+     "emph": true
+    },
+    {
+     "text": "permitir",
+     "start": 6.36,
+     "end": 6.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.84,
+   "end": 7.24,
+   "words": [
+    {
+     "text": "a",
+     "start": 6.84,
+     "end": 6.92,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 6.92,
+     "end": 7.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.24,
+   "end": 8.2,
+   "words": [
+    {
+     "text": "de",
+     "start": 7.24,
+     "end": 7.32,
+     "emph": false
+    },
+    {
+     "text": "quem",
+     "start": 7.32,
+     "end": 7.56,
+     "emph": false
+    },
+    {
+     "text": "quer",
+     "start": 7.56,
+     "end": 7.72,
+     "emph": false
+    },
+    {
+     "text": "comprar.",
+     "start": 7.72,
+     "end": 8.02,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.2,
+   "end": 9.4,
+   "words": [
+    {
+     "text": "Mas",
+     "start": 8.2,
+     "end": 8.44,
+     "emph": false
+    },
+    {
+     "text": "com",
+     "start": 8.44,
+     "end": 8.68,
+     "emph": false
+    },
+    {
+     "text": "dia",
+     "start": 8.68,
+     "end": 9.0,
+     "emph": true
+    },
+    {
+     "text": "e",
+     "start": 9.0,
+     "end": 9.16,
+     "emph": true
+    },
+    {
+     "text": "hora",
+     "start": 9.16,
+     "end": 9.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.4,
+   "end": 10.36,
+   "words": [
+    {
+     "text": "combinados",
+     "start": 9.4,
+     "end": 9.96,
+     "emph": true
+    },
+    {
+     "text": "antes.",
+     "start": 9.96,
+     "end": 10.22,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.36,
+   "end": 11.64,
+   "words": [
+    {
+     "text": "Aparecer",
+     "start": 10.36,
+     "end": 10.92,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 10.92,
+     "end": 11.064,
+     "emph": false
+    },
+    {
+     "text": "surpresa",
+     "start": 11.064,
+     "end": 11.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.64,
+   "end": 12.28,
+   "words": [
+    {
+     "text": "não",
+     "start": 11.64,
+     "end": 11.8,
+     "emph": false
+    },
+    {
+     "text": "vale.",
+     "start": 11.8,
+     "end": 12.03,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.28,
+   "end": 12.92,
+   "words": [
+    {
+     "text": "A",
+     "start": 12.28,
+     "end": 12.36,
+     "emph": false
+    },
+    {
+     "text": "lei",
+     "start": 12.36,
+     "end": 12.68,
+     "emph": false
+    },
+    {
+     "text": "dá",
+     "start": 12.68,
+     "end": 12.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.92,
+   "end": 13.64,
+   "words": [
+    {
+     "text": "o",
+     "start": 12.92,
+     "end": 13.0,
+     "emph": false
+    },
+    {
+     "text": "direito.",
+     "start": 13.0,
+     "end": 13.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.64,
+   "end": 14.68,
+   "words": [
+    {
+     "text": "O",
+     "start": 13.64,
+     "end": 13.8,
+     "emph": false
+    },
+    {
+     "text": "jeito",
+     "start": 13.8,
+     "end": 14.04,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 14.04,
+     "end": 14.2,
+     "emph": false
+    },
+    {
+     "text": "pedir",
+     "start": 14.2,
+     "end": 14.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.68,
+   "end": 15.16,
+   "words": [
+    {
+     "text": "decide",
+     "start": 14.68,
+     "end": 15.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.16,
+   "end": 16.36,
+   "words": [
+    {
+     "text": "se",
+     "start": 15.16,
+     "end": 15.32,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 15.32,
+     "end": 15.48,
+     "emph": false
+    },
+    {
+     "text": "porta",
+     "start": 15.48,
+     "end": 15.72,
+     "emph": true
+    },
+    {
+     "text": "abre.",
+     "start": 15.72,
+     "end": 16.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 16.36,
+   "end": 17.56,
+   "words": [
+    {
+     "text": "Agende",
+     "start": 16.36,
+     "end": 16.92,
+     "emph": true
+    },
+    {
+     "text": "por",
+     "start": 16.92,
+     "end": 17.08,
+     "emph": false
+    },
+    {
+     "text": "escrito,",
+     "start": 17.08,
+     "end": 17.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.56,
+   "end": 18.52,
+   "words": [
+    {
+     "text": "com",
+     "start": 17.56,
+     "end": 17.8,
+     "emph": false
+    },
+    {
+     "text": "antecedência,",
+     "start": 17.8,
+     "end": 18.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.52,
+   "end": 19.0,
+   "words": [
+    {
+     "text": "e",
+     "start": 18.52,
+     "end": 18.68,
+     "emph": false
+    },
+    {
+     "text": "chegue",
+     "start": 18.68,
+     "end": 19.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.0,
+   "end": 19.48,
+   "words": [
+    {
+     "text": "no",
+     "start": 19.0,
+     "end": 19.16,
+     "emph": false
+    },
+    {
+     "text": "horário",
+     "start": 19.16,
+     "end": 19.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.48,
+   "end": 20.36,
+   "words": [
+    {
+     "text": "que",
+     "start": 19.48,
+     "end": 19.56,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 19.56,
+     "end": 19.72,
+     "emph": false
+    },
+    {
+     "text": "aceitou.",
+     "start": 19.72,
+     "end": 20.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 20.36,
+   "end": 21.48,
+   "words": [
+    {
+     "text": "Inquilino",
+     "start": 20.36,
+     "end": 21.0,
+     "emph": false
+    },
+    {
+     "text": "avisado",
+     "start": 21.0,
+     "end": 21.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 21.48,
+   "end": 22.44,
+   "words": [
+    {
+     "text": "com",
+     "start": 21.48,
+     "end": 21.64,
+     "emph": false
+    },
+    {
+     "text": "antecedência",
+     "start": 21.64,
+     "end": 22.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.44,
+   "end": 23.16,
+   "words": [
+    {
+     "text": "abre",
+     "start": 22.44,
+     "end": 22.84,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 22.84,
+     "end": 22.92,
+     "emph": false
+    },
+    {
+     "text": "porta",
+     "start": 22.92,
+     "end": 23.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.16,
+   "end": 24.28,
+   "words": [
+    {
+     "text": "de",
+     "start": 23.16,
+     "end": 23.32,
+     "emph": false
+    },
+    {
+     "text": "boa",
+     "start": 23.32,
+     "end": 23.64,
+     "emph": true
+    },
+    {
+     "text": "vontade.",
+     "start": 23.64,
+     "end": 24.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 24.28,
+   "end": 25.48,
+   "words": [
+    {
+     "text": "Se",
+     "start": 24.28,
+     "end": 24.35,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 24.52,
+     "end": 24.68,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 24.68,
+     "end": 24.84,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 24.84,
+     "end": 25.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 25.48,
+   "end": 26.6,
+   "words": [
+    {
+     "text": "comente",
+     "start": 25.48,
+     "end": 26.04,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 26.04,
+     "end": 26.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.6,
+   "end": 27.56,
+   "words": [
+    {
+     "text": "e",
+     "start": 26.6,
+     "end": 26.76,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 26.76,
+     "end": 27.24,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 27.24,
+     "end": 27.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.56,
+   "end": 28.93,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 27.56,
+     "end": 27.88,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 27.88,
+     "end": 28.43,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

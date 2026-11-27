@@ -1,0 +1,969 @@
+{
+ "id": "ATIVO-D1211-12",
+ "title": "Noventa ou dez",
+ "fps": 30,
+ "duration": 36.166666666666664,
+ "durationInFrames": 1085,
+ "narrationEnd": 33.954,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.775
+  },
+  {
+   "id": "estudo",
+   "start": 6.775,
+   "end": 12.75
+  },
+  {
+   "id": "resultado",
+   "start": 12.75,
+   "end": 18.31
+  },
+  {
+   "id": "virada",
+   "start": 18.31,
+   "end": 21.16
+  },
+  {
+   "id": "acao",
+   "start": 21.16,
+   "end": 26.33
+  },
+  {
+   "id": "desfecho",
+   "start": 26.33,
+   "end": 29.09
+  },
+  {
+   "id": "cta",
+   "start": 29.09,
+   "end": 36.167
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Noventa por cento de chance de dar certo. Ou dez por cento de chance de dar errado. Qual parece melhor?",
+   "start": 0.12,
+   "end": 6.63
+  },
+  {
+   "id": "s2",
+   "scene": "estudo",
+   "text": "Em 1982, pesquisadores apresentaram o mesmo tratamento a médicos e pacientes, de dois jeitos.",
+   "start": 6.92,
+   "end": 12.66
+  },
+  {
+   "id": "s3",
+   "scene": "resultado",
+   "text": "Quando ouviam a chance de sobreviver, mais gente escolhia a cirurgia do que quando ouviam a chance de morrer.",
+   "start": 12.84,
+   "end": 18.18
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "O número era o mesmo. Mudou só o jeito de dizer.",
+   "start": 18.44,
+   "end": 20.92
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Na proposta, mostre a informação pelo lado do que o cliente ganha. E deixe o resto à vista.",
+   "start": 21.4,
+   "end": 26.14
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "O número informa. A frase decide.",
+   "start": 26.52,
+   "end": 28.94
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 29.24,
+   "end": 33.58
+  }
+ ],
+ "cues": {
+  "h_noventa": 0.12,
+  "h_certo": 2.2,
+  "h_dez": 2.945,
+  "h_errado": 4.92,
+  "h_melhor": 6.36,
+  "e_1982": 7.427,
+  "e_mesmo": 10.28,
+  "e_dois": 12.12,
+  "r_sobreviver": 14.12,
+  "r_mais": 15.16,
+  "r_morrer": 17.88,
+  "v_mesmo": 19.16,
+  "v_jeito": 20.28,
+  "a_proposta": 21.64,
+  "a_ganha": 24.36,
+  "a_vista": 25.88,
+  "f_informa": 27.16,
+  "f_decide": 28.44,
+  "cta_quer": 29.24,
+  "cta_comment": 30.36,
+  "cta_word": 31.0,
+  "cta_tiles": 31.56,
+  "cta_sys": 32.44,
+  "cta_leads": 32.12,
+  "cta_atend": 32.92,
+  "cta_direct": 32.92,
+  "cta_end": 33.58
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.16,
+   "words": [
+    {
+     "text": "Noventa",
+     "start": 0.12,
+     "end": 0.605,
+     "emph": true
+    },
+    {
+     "text": "por",
+     "start": 0.605,
+     "end": 0.813,
+     "emph": true
+    },
+    {
+     "text": "cento",
+     "start": 0.813,
+     "end": 1.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.16,
+   "end": 1.72,
+   "words": [
+    {
+     "text": "de",
+     "start": 1.16,
+     "end": 1.4,
+     "emph": false
+    },
+    {
+     "text": "chance",
+     "start": 1.4,
+     "end": 1.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.72,
+   "end": 2.76,
+   "words": [
+    {
+     "text": "de",
+     "start": 1.72,
+     "end": 1.96,
+     "emph": false
+    },
+    {
+     "text": "dar",
+     "start": 1.96,
+     "end": 2.2,
+     "emph": false
+    },
+    {
+     "text": "certo.",
+     "start": 2.2,
+     "end": 2.29,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.76,
+   "end": 3.96,
+   "words": [
+    {
+     "text": "Ou",
+     "start": 2.76,
+     "end": 2.945,
+     "emph": false
+    },
+    {
+     "text": "dez",
+     "start": 2.945,
+     "end": 3.222,
+     "emph": true
+    },
+    {
+     "text": "por",
+     "start": 3.222,
+     "end": 3.498,
+     "emph": true
+    },
+    {
+     "text": "cento",
+     "start": 3.498,
+     "end": 3.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.96,
+   "end": 4.44,
+   "words": [
+    {
+     "text": "de",
+     "start": 3.96,
+     "end": 4.12,
+     "emph": false
+    },
+    {
+     "text": "chance",
+     "start": 4.12,
+     "end": 4.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.44,
+   "end": 5.56,
+   "words": [
+    {
+     "text": "de",
+     "start": 4.44,
+     "end": 4.6,
+     "emph": false
+    },
+    {
+     "text": "dar",
+     "start": 4.6,
+     "end": 4.92,
+     "emph": false
+    },
+    {
+     "text": "errado.",
+     "start": 4.92,
+     "end": 5.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 5.56,
+   "end": 6.92,
+   "words": [
+    {
+     "text": "Qual",
+     "start": 5.56,
+     "end": 5.64,
+     "emph": false
+    },
+    {
+     "text": "parece",
+     "start": 5.96,
+     "end": 6.36,
+     "emph": false
+    },
+    {
+     "text": "melhor?",
+     "start": 6.36,
+     "end": 6.63,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.92,
+   "end": 8.44,
+   "words": [
+    {
+     "text": "Em",
+     "start": 6.92,
+     "end": 7.427,
+     "emph": false
+    },
+    {
+     "text": "1982,",
+     "start": 7.427,
+     "end": 8.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.44,
+   "end": 9.16,
+   "words": [
+    {
+     "text": "pesquisadores",
+     "start": 8.44,
+     "end": 9.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.16,
+   "end": 9.88,
+   "words": [
+    {
+     "text": "apresentaram",
+     "start": 9.16,
+     "end": 9.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.88,
+   "end": 10.76,
+   "words": [
+    {
+     "text": "o",
+     "start": 9.88,
+     "end": 9.96,
+     "emph": false
+    },
+    {
+     "text": "mesmo",
+     "start": 9.96,
+     "end": 10.28,
+     "emph": true
+    },
+    {
+     "text": "tratamento",
+     "start": 10.28,
+     "end": 10.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.76,
+   "end": 11.96,
+   "words": [
+    {
+     "text": "a",
+     "start": 10.76,
+     "end": 10.92,
+     "emph": false
+    },
+    {
+     "text": "médicos",
+     "start": 10.92,
+     "end": 11.32,
+     "emph": false
+    },
+    {
+     "text": "e",
+     "start": 11.32,
+     "end": 11.48,
+     "emph": false
+    },
+    {
+     "text": "pacientes,",
+     "start": 11.48,
+     "end": 11.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 11.96,
+   "end": 12.84,
+   "words": [
+    {
+     "text": "de",
+     "start": 11.96,
+     "end": 12.12,
+     "emph": false
+    },
+    {
+     "text": "dois",
+     "start": 12.12,
+     "end": 12.36,
+     "emph": true
+    },
+    {
+     "text": "jeitos.",
+     "start": 12.36,
+     "end": 12.66,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.84,
+   "end": 13.64,
+   "words": [
+    {
+     "text": "Quando",
+     "start": 12.84,
+     "end": 12.91,
+     "emph": false
+    },
+    {
+     "text": "ouviam",
+     "start": 13.16,
+     "end": 13.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.64,
+   "end": 14.92,
+   "words": [
+    {
+     "text": "a",
+     "start": 13.64,
+     "end": 13.72,
+     "emph": false
+    },
+    {
+     "text": "chance",
+     "start": 13.72,
+     "end": 13.96,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 13.96,
+     "end": 14.12,
+     "emph": false
+    },
+    {
+     "text": "sobreviver,",
+     "start": 14.12,
+     "end": 14.71,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.92,
+   "end": 15.96,
+   "words": [
+    {
+     "text": "mais",
+     "start": 14.92,
+     "end": 15.16,
+     "emph": true
+    },
+    {
+     "text": "gente",
+     "start": 15.16,
+     "end": 15.48,
+     "emph": true
+    },
+    {
+     "text": "escolhia",
+     "start": 15.48,
+     "end": 15.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.96,
+   "end": 16.6,
+   "words": [
+    {
+     "text": "a",
+     "start": 15.96,
+     "end": 16.04,
+     "emph": false
+    },
+    {
+     "text": "cirurgia",
+     "start": 16.04,
+     "end": 16.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 16.6,
+   "end": 17.4,
+   "words": [
+    {
+     "text": "do",
+     "start": 16.6,
+     "end": 16.68,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 16.68,
+     "end": 16.84,
+     "emph": false
+    },
+    {
+     "text": "quando",
+     "start": 16.84,
+     "end": 17.0,
+     "emph": false
+    },
+    {
+     "text": "ouviam",
+     "start": 17.0,
+     "end": 17.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 17.4,
+   "end": 18.44,
+   "words": [
+    {
+     "text": "a",
+     "start": 17.4,
+     "end": 17.56,
+     "emph": false
+    },
+    {
+     "text": "chance",
+     "start": 17.56,
+     "end": 17.8,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 17.8,
+     "end": 17.88,
+     "emph": false
+    },
+    {
+     "text": "morrer.",
+     "start": 17.88,
+     "end": 18.18,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.44,
+   "end": 18.92,
+   "words": [
+    {
+     "text": "O",
+     "start": 18.44,
+     "end": 18.6,
+     "emph": false
+    },
+    {
+     "text": "número",
+     "start": 18.6,
+     "end": 18.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.92,
+   "end": 19.56,
+   "words": [
+    {
+     "text": "era",
+     "start": 18.92,
+     "end": 19.08,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 19.08,
+     "end": 19.16,
+     "emph": false
+    },
+    {
+     "text": "mesmo.",
+     "start": 19.16,
+     "end": 19.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 19.56,
+   "end": 20.2,
+   "words": [
+    {
+     "text": "Mudou",
+     "start": 19.56,
+     "end": 19.96,
+     "emph": false
+    },
+    {
+     "text": "só",
+     "start": 19.96,
+     "end": 20.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 20.2,
+   "end": 21.4,
+   "words": [
+    {
+     "text": "o",
+     "start": 20.2,
+     "end": 20.28,
+     "emph": false
+    },
+    {
+     "text": "jeito",
+     "start": 20.28,
+     "end": 20.6,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 20.6,
+     "end": 20.76,
+     "emph": true
+    },
+    {
+     "text": "dizer.",
+     "start": 20.76,
+     "end": 20.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.4,
+   "end": 22.28,
+   "words": [
+    {
+     "text": "Na",
+     "start": 21.4,
+     "end": 21.64,
+     "emph": false
+    },
+    {
+     "text": "proposta,",
+     "start": 21.64,
+     "end": 22.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.28,
+   "end": 23.24,
+   "words": [
+    {
+     "text": "mostre",
+     "start": 22.28,
+     "end": 22.68,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 22.68,
+     "end": 22.84,
+     "emph": false
+    },
+    {
+     "text": "informação",
+     "start": 22.84,
+     "end": 23.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.24,
+   "end": 23.72,
+   "words": [
+    {
+     "text": "pelo",
+     "start": 23.24,
+     "end": 23.48,
+     "emph": false
+    },
+    {
+     "text": "lado",
+     "start": 23.48,
+     "end": 23.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.72,
+   "end": 24.84,
+   "words": [
+    {
+     "text": "do",
+     "start": 23.72,
+     "end": 23.8,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 23.8,
+     "end": 23.96,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 23.96,
+     "end": 24.04,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 24.04,
+     "end": 24.36,
+     "emph": false
+    },
+    {
+     "text": "ganha.",
+     "start": 24.36,
+     "end": 24.65,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.84,
+   "end": 25.72,
+   "words": [
+    {
+     "text": "E",
+     "start": 24.84,
+     "end": 25.0,
+     "emph": false
+    },
+    {
+     "text": "deixe",
+     "start": 25.0,
+     "end": 25.32,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 25.32,
+     "end": 25.4,
+     "emph": false
+    },
+    {
+     "text": "resto",
+     "start": 25.4,
+     "end": 25.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 25.72,
+   "end": 26.52,
+   "words": [
+    {
+     "text": "à",
+     "start": 25.72,
+     "end": 25.88,
+     "emph": true
+    },
+    {
+     "text": "vista.",
+     "start": 25.88,
+     "end": 26.14,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.52,
+   "end": 27.8,
+   "words": [
+    {
+     "text": "O",
+     "start": 26.52,
+     "end": 26.68,
+     "emph": false
+    },
+    {
+     "text": "número",
+     "start": 26.68,
+     "end": 27.16,
+     "emph": false
+    },
+    {
+     "text": "informa.",
+     "start": 27.16,
+     "end": 27.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.8,
+   "end": 29.24,
+   "words": [
+    {
+     "text": "A",
+     "start": 27.8,
+     "end": 27.96,
+     "emph": false
+    },
+    {
+     "text": "frase",
+     "start": 27.96,
+     "end": 28.44,
+     "emph": false
+    },
+    {
+     "text": "decide.",
+     "start": 28.44,
+     "end": 28.94,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.24,
+   "end": 30.36,
+   "words": [
+    {
+     "text": "Se",
+     "start": 29.24,
+     "end": 29.4,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 29.4,
+     "end": 29.64,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 29.64,
+     "end": 29.8,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 29.8,
+     "end": 30.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.36,
+   "end": 31.48,
+   "words": [
+    {
+     "text": "comente",
+     "start": 30.36,
+     "end": 31.0,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 31.0,
+     "end": 31.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.48,
+   "end": 32.44,
+   "words": [
+    {
+     "text": "e",
+     "start": 31.48,
+     "end": 31.56,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 31.56,
+     "end": 32.12,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 32.12,
+     "end": 32.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.44,
+   "end": 34.08,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 32.44,
+     "end": 32.76,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 32.92,
+     "end": 33.58,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

@@ -1,0 +1,953 @@
+{
+ "id": "ATIVO-D1212-08",
+ "title": "A ficha técnica da casa",
+ "fps": 30,
+ "duration": 38.43333333333333,
+ "durationInFrames": 1153,
+ "narrationEnd": 36.217,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.945
+  },
+  {
+   "id": "portugal",
+   "start": 4.945,
+   "end": 10.365
+  },
+  {
+   "id": "conteudo",
+   "start": 10.365,
+   "end": 15.865
+  },
+  {
+   "id": "virada",
+   "start": 15.865,
+   "end": 21.12
+  },
+  {
+   "id": "acao",
+   "start": 21.12,
+   "end": 27.515
+  },
+  {
+   "id": "desfecho",
+   "start": 27.515,
+   "end": 31.28
+  },
+  {
+   "id": "cta",
+   "start": 31.28,
+   "end": 38.433
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "E se toda casa à venda viesse com uma ficha técnica, igual carro?",
+   "start": 0.12,
+   "end": 4.73
+  },
+  {
+   "id": "s2",
+   "scene": "portugal",
+   "text": "Em Portugal, casa nova já vem: desde 2004 existe a Ficha Técnica da Habitação.",
+   "start": 5.16,
+   "end": 10.13
+  },
+  {
+   "id": "s3",
+   "scene": "conteudo",
+   "text": "Ela descreve a construção, com áreas, materiais e instalações, e vai para as mãos do comprador.",
+   "start": 10.6,
+   "end": 15.61
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Aqui, essas respostas costumam aparecer só depois da visita. Quando aparecem.",
+   "start": 16.12,
+   "end": 20.92
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Monte a sua: metragem de cada cômodo, ano da construção, reformas feitas e a documentação em ordem.",
+   "start": 21.32,
+   "end": 27.39
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "A visita mostra a parede. A ficha mostra o que tem dentro dela.",
+   "start": 27.64,
+   "end": 31.08
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 31.48,
+   "end": 35.81
+  }
+ ],
+ "cues": {
+  "h_ficha": 3.0,
+  "h_carro": 4.52,
+  "p_portugal": 5.32,
+  "p_2004": 7.622,
+  "p_ficha": 8.68,
+  "c_construcao": 11.48,
+  "c_areas": 12.44,
+  "c_materiais": 13.0,
+  "c_instalacoes": 13.64,
+  "c_comprador": 15.24,
+  "v_aqui": 16.12,
+  "v_depois": 18.68,
+  "a_monte": 21.32,
+  "a_metragem": 22.44,
+  "a_ano": 23.96,
+  "a_reformas": 25.08,
+  "a_documentacao": 26.44,
+  "f_parede": 28.68,
+  "f_dentro": 30.6,
+  "cta_quer": 31.48,
+  "cta_comment": 32.76,
+  "cta_word": 33.4,
+  "cta_tiles": 34.04,
+  "cta_sys": 34.84,
+  "cta_leads": 34.6,
+  "cta_atend": 35.24,
+  "cta_direct": 35.24,
+  "cta_end": 35.81
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.4,
+   "words": [
+    {
+     "text": "E",
+     "start": 0.12,
+     "end": 0.36,
+     "emph": false
+    },
+    {
+     "text": "se",
+     "start": 0.36,
+     "end": 0.6,
+     "emph": false
+    },
+    {
+     "text": "toda",
+     "start": 0.6,
+     "end": 0.76,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 0.92,
+     "end": 1.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.4,
+   "end": 2.6,
+   "words": [
+    {
+     "text": "à",
+     "start": 1.4,
+     "end": 1.56,
+     "emph": false
+    },
+    {
+     "text": "venda",
+     "start": 1.56,
+     "end": 2.04,
+     "emph": false
+    },
+    {
+     "text": "viesse",
+     "start": 2.04,
+     "end": 2.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.6,
+   "end": 4.04,
+   "words": [
+    {
+     "text": "com",
+     "start": 2.6,
+     "end": 2.76,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 2.76,
+     "end": 3.0,
+     "emph": false
+    },
+    {
+     "text": "ficha",
+     "start": 3.0,
+     "end": 3.33,
+     "emph": true
+    },
+    {
+     "text": "técnica,",
+     "start": 3.48,
+     "end": 3.86,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.04,
+   "end": 5.16,
+   "words": [
+    {
+     "text": "igual",
+     "start": 4.04,
+     "end": 4.52,
+     "emph": false
+    },
+    {
+     "text": "carro?",
+     "start": 4.52,
+     "end": 4.73,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.16,
+   "end": 5.88,
+   "words": [
+    {
+     "text": "Em",
+     "start": 5.16,
+     "end": 5.32,
+     "emph": false
+    },
+    {
+     "text": "Portugal,",
+     "start": 5.32,
+     "end": 5.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.88,
+   "end": 7.0,
+   "words": [
+    {
+     "text": "casa",
+     "start": 5.88,
+     "end": 6.2,
+     "emph": false
+    },
+    {
+     "text": "nova",
+     "start": 6.2,
+     "end": 6.44,
+     "emph": false
+    },
+    {
+     "text": "já",
+     "start": 6.44,
+     "end": 6.6,
+     "emph": true
+    },
+    {
+     "text": "vem:",
+     "start": 6.6,
+     "end": 6.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.0,
+   "end": 8.12,
+   "words": [
+    {
+     "text": "desde",
+     "start": 7.0,
+     "end": 7.622,
+     "emph": false
+    },
+    {
+     "text": "2004",
+     "start": 7.622,
+     "end": 8.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.12,
+   "end": 9.56,
+   "words": [
+    {
+     "text": "existe",
+     "start": 8.12,
+     "end": 8.44,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 8.44,
+     "end": 8.68,
+     "emph": false
+    },
+    {
+     "text": "Ficha",
+     "start": 8.68,
+     "end": 9.16,
+     "emph": true
+    },
+    {
+     "text": "Técnica",
+     "start": 9.16,
+     "end": 9.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.56,
+   "end": 10.6,
+   "words": [
+    {
+     "text": "da",
+     "start": 9.56,
+     "end": 9.72,
+     "emph": false
+    },
+    {
+     "text": "Habitação.",
+     "start": 9.72,
+     "end": 10.13,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.6,
+   "end": 11.4,
+   "words": [
+    {
+     "text": "Ela",
+     "start": 10.6,
+     "end": 10.84,
+     "emph": false
+    },
+    {
+     "text": "descreve",
+     "start": 10.84,
+     "end": 11.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.4,
+   "end": 12.2,
+   "words": [
+    {
+     "text": "a",
+     "start": 11.4,
+     "end": 11.48,
+     "emph": false
+    },
+    {
+     "text": "construção,",
+     "start": 11.48,
+     "end": 12.09,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.2,
+   "end": 13.0,
+   "words": [
+    {
+     "text": "com",
+     "start": 12.2,
+     "end": 12.44,
+     "emph": false
+    },
+    {
+     "text": "áreas,",
+     "start": 12.44,
+     "end": 13.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.0,
+   "end": 13.48,
+   "words": [
+    {
+     "text": "materiais",
+     "start": 13.0,
+     "end": 13.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.48,
+   "end": 14.28,
+   "words": [
+    {
+     "text": "e",
+     "start": 13.48,
+     "end": 13.64,
+     "emph": false
+    },
+    {
+     "text": "instalações,",
+     "start": 13.64,
+     "end": 14.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.28,
+   "end": 15.16,
+   "words": [
+    {
+     "text": "e",
+     "start": 14.28,
+     "end": 14.44,
+     "emph": false
+    },
+    {
+     "text": "vai",
+     "start": 14.44,
+     "end": 14.6,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 14.6,
+     "end": 14.76,
+     "emph": false
+    },
+    {
+     "text": "as",
+     "start": 14.76,
+     "end": 14.92,
+     "emph": false
+    },
+    {
+     "text": "mãos",
+     "start": 14.92,
+     "end": 15.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.16,
+   "end": 15.96,
+   "words": [
+    {
+     "text": "do",
+     "start": 15.16,
+     "end": 15.24,
+     "emph": false
+    },
+    {
+     "text": "comprador.",
+     "start": 15.24,
+     "end": 15.61,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.12,
+   "end": 16.6,
+   "words": [
+    {
+     "text": "Aqui,",
+     "start": 16.12,
+     "end": 16.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.6,
+   "end": 17.48,
+   "words": [
+    {
+     "text": "essas",
+     "start": 16.6,
+     "end": 16.92,
+     "emph": false
+    },
+    {
+     "text": "respostas",
+     "start": 16.92,
+     "end": 17.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.48,
+   "end": 18.44,
+   "words": [
+    {
+     "text": "costumam",
+     "start": 17.48,
+     "end": 17.96,
+     "emph": false
+    },
+    {
+     "text": "aparecer",
+     "start": 17.96,
+     "end": 18.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.44,
+   "end": 19.88,
+   "words": [
+    {
+     "text": "só",
+     "start": 18.44,
+     "end": 18.68,
+     "emph": false
+    },
+    {
+     "text": "depois",
+     "start": 18.68,
+     "end": 19.0,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 19.0,
+     "end": 19.16,
+     "emph": false
+    },
+    {
+     "text": "visita.",
+     "start": 19.16,
+     "end": 19.5,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 19.88,
+   "end": 21.32,
+   "words": [
+    {
+     "text": "Quando",
+     "start": 19.88,
+     "end": 20.36,
+     "emph": false
+    },
+    {
+     "text": "aparecem.",
+     "start": 20.36,
+     "end": 20.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.32,
+   "end": 22.44,
+   "words": [
+    {
+     "text": "Monte",
+     "start": 21.32,
+     "end": 21.41,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 21.88,
+     "end": 21.96,
+     "emph": false
+    },
+    {
+     "text": "sua:",
+     "start": 21.96,
+     "end": 22.18,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.44,
+   "end": 23.0,
+   "words": [
+    {
+     "text": "metragem",
+     "start": 22.44,
+     "end": 23.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.0,
+   "end": 23.96,
+   "words": [
+    {
+     "text": "de",
+     "start": 23.0,
+     "end": 23.08,
+     "emph": false
+    },
+    {
+     "text": "cada",
+     "start": 23.08,
+     "end": 23.32,
+     "emph": false
+    },
+    {
+     "text": "cômodo,",
+     "start": 23.32,
+     "end": 23.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.96,
+   "end": 25.08,
+   "words": [
+    {
+     "text": "ano",
+     "start": 23.96,
+     "end": 24.28,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 24.28,
+     "end": 24.44,
+     "emph": false
+    },
+    {
+     "text": "construção,",
+     "start": 24.44,
+     "end": 24.97,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 25.08,
+   "end": 26.12,
+   "words": [
+    {
+     "text": "reformas",
+     "start": 25.08,
+     "end": 25.64,
+     "emph": true
+    },
+    {
+     "text": "feitas",
+     "start": 25.64,
+     "end": 26.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 26.12,
+   "end": 27.0,
+   "words": [
+    {
+     "text": "e",
+     "start": 26.12,
+     "end": 26.28,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 26.28,
+     "end": 26.44,
+     "emph": false
+    },
+    {
+     "text": "documentação",
+     "start": 26.44,
+     "end": 27.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 27.0,
+   "end": 27.64,
+   "words": [
+    {
+     "text": "em",
+     "start": 27.0,
+     "end": 27.16,
+     "emph": false
+    },
+    {
+     "text": "ordem.",
+     "start": 27.16,
+     "end": 27.39,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.64,
+   "end": 28.28,
+   "words": [
+    {
+     "text": "A",
+     "start": 27.64,
+     "end": 27.8,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 27.8,
+     "end": 28.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.28,
+   "end": 29.24,
+   "words": [
+    {
+     "text": "mostra",
+     "start": 28.28,
+     "end": 28.6,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 28.6,
+     "end": 28.68,
+     "emph": false
+    },
+    {
+     "text": "parede.",
+     "start": 28.68,
+     "end": 29.02,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 29.24,
+   "end": 30.2,
+   "words": [
+    {
+     "text": "A",
+     "start": 29.24,
+     "end": 29.4,
+     "emph": false
+    },
+    {
+     "text": "ficha",
+     "start": 29.4,
+     "end": 29.8,
+     "emph": false
+    },
+    {
+     "text": "mostra",
+     "start": 29.8,
+     "end": 30.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 30.2,
+   "end": 31.48,
+   "words": [
+    {
+     "text": "o",
+     "start": 30.2,
+     "end": 30.28,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 30.28,
+     "end": 30.36,
+     "emph": false
+    },
+    {
+     "text": "tem",
+     "start": 30.36,
+     "end": 30.6,
+     "emph": false
+    },
+    {
+     "text": "dentro",
+     "start": 30.6,
+     "end": 30.92,
+     "emph": true
+    },
+    {
+     "text": "dela.",
+     "start": 30.92,
+     "end": 31.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.48,
+   "end": 32.76,
+   "words": [
+    {
+     "text": "Se",
+     "start": 31.48,
+     "end": 31.55,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 31.72,
+     "end": 31.88,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 31.88,
+     "end": 32.04,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 32.04,
+     "end": 32.61,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.76,
+   "end": 33.96,
+   "words": [
+    {
+     "text": "comente",
+     "start": 32.76,
+     "end": 33.4,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 33.4,
+     "end": 33.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.96,
+   "end": 34.84,
+   "words": [
+    {
+     "text": "e",
+     "start": 33.96,
+     "end": 34.04,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 34.04,
+     "end": 34.6,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 34.6,
+     "end": 34.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 34.84,
+   "end": 36.31,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 34.84,
+     "end": 35.24,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 35.24,
+     "end": 35.81,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

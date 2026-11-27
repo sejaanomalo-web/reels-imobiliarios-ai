@@ -1,0 +1,71 @@
+1
+00:00:00,120 --> 00:00:02,980
+Em 2016, o Japão ganhou a prata olímpica
+
+2
+00:00:03,000 --> 00:00:04,900
+no revezamento sem ter os velocistas
+
+3
+00:00:04,920 --> 00:00:05,620
+mais rápidos.
+
+4
+00:00:05,640 --> 00:00:07,840
+A diferença estava na passagem do bastão,
+
+5
+00:00:07,880 --> 00:00:08,900
+de baixo para cima,
+
+6
+00:00:08,920 --> 00:00:10,340
+treinada durante anos.
+
+7
+00:00:10,360 --> 00:00:12,020
+Revezamento se perde na troca,
+
+8
+00:00:12,040 --> 00:00:12,790
+não na reta.
+
+9
+00:00:12,920 --> 00:00:14,420
+Com cliente é igual:
+
+10
+00:00:14,440 --> 00:00:15,700
+ele se perde quando passa
+
+11
+00:00:15,720 --> 00:00:16,650
+de uma mão para outra.
+
+12
+00:00:16,680 --> 00:00:18,340
+Quando passar um cliente para um colega,
+
+13
+00:00:18,360 --> 00:00:19,700
+passe junto o histórico:
+
+14
+00:00:19,720 --> 00:00:22,360
+o que viu, o que recusou e o que pediu.
+
+15
+00:00:22,520 --> 00:00:24,900
+Bastão bem passado não perde velocidade.
+
+16
+00:00:24,920 --> 00:00:25,940
+Se você é corretor,
+
+17
+00:00:25,960 --> 00:00:27,860
+comente SISTEMA e conheça nosso
+
+18
+00:00:27,880 --> 00:00:29,301
+sistema personalizado.

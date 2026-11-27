@@ -1,0 +1,71 @@
+1
+00:00:00,200 --> 00:00:01,860
+Você marcou a visita,
+
+2
+00:00:01,880 --> 00:00:04,100
+o cliente chegou e ninguém sabe
+
+3
+00:00:04,120 --> 00:00:05,310
+com quem está a chave.
+
+4
+00:00:05,400 --> 00:00:06,580
+Ficou na portaria?
+
+5
+00:00:06,600 --> 00:00:07,940
+Com outro corretor?
+
+6
+00:00:07,960 --> 00:00:09,670
+No carro de alguém da equipe?
+
+7
+00:00:09,880 --> 00:00:11,860
+Enquanto você liga para todo mundo,
+
+8
+00:00:11,880 --> 00:00:13,500
+o cliente espera na calçada.
+
+9
+00:00:13,720 --> 00:00:14,980
+A chave não sumiu.
+
+10
+00:00:15,000 --> 00:00:16,720
+O que sumiu foi o registro.
+
+11
+00:00:16,840 --> 00:00:18,340
+Na hora em que a chave sai,
+
+12
+00:00:18,360 --> 00:00:20,900
+anote quem pegou, para qual visita
+
+13
+00:00:20,920 --> 00:00:22,290
+e quando devolve.
+
+14
+00:00:22,360 --> 00:00:23,860
+Chave com nome e horário
+
+15
+00:00:23,880 --> 00:00:25,000
+não atrasa visita.
+
+16
+00:00:25,240 --> 00:00:26,580
+Se você é corretor,
+
+17
+00:00:26,600 --> 00:00:28,660
+comente SISTEMA e conheça nosso
+
+18
+00:00:28,680 --> 00:00:29,980
+sistema personalizado.

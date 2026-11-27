@@ -1,0 +1,69 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.47,
+    "palavras_nao_reconhecidas": [
+      "onze"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.46,
+    "palavras_nao_reconhecidas": [
+      "onze",
+      "onze",
+      "meia"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.71,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.84,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.47,
+    "palavras_nao_reconhecidas": [
+      "nove"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.53,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 31.59,
+    "asr_match": 0.936,
+    "aligned_words": "73/79",
+    "words_per_min": 150,
+    "heard": "Chegou mensagem do cliente às 11 da noite e você respondeu na hora. No dia seguinte, ele manda de novo. Às 11. E às 11h30. Você ensinou que o seu horário é qualquer horário. Responda de manhã, cedo, com tudo resolvido. Se for urgente, de verdade, ligue. Se não, uma mensagem curta. Amanhã às 9, te mando tudo. Disponível não é o mesmo que sempre online. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 34.23,
+      "wpm": 138
+    },
+    "pausas_moldadas": {
+      "n": 19,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 2.64,
+    "final": {
+      "seconds": 31.59,
+      "wpm": 150
+    }
+  }
+]

@@ -1,0 +1,932 @@
+{
+ "id": "ATIVO-D1212-18",
+ "title": "A casa em cima da cachoeira",
+ "fps": 30,
+ "duration": 37.03333333333333,
+ "durationInFrames": 1111,
+ "narrationEnd": 34.809,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.5
+  },
+  {
+   "id": "quando",
+   "start": 6.5,
+   "end": 12.09
+  },
+  {
+   "id": "porque",
+   "start": 12.09,
+   "end": 16.475
+  },
+  {
+   "id": "virada",
+   "start": 16.475,
+   "end": 20.19
+  },
+  {
+   "id": "acao",
+   "start": 20.19,
+   "end": 25.525
+  },
+  {
+   "id": "desfecho",
+   "start": 25.525,
+   "end": 29.7
+  },
+  {
+   "id": "cta",
+   "start": 29.7,
+   "end": 37.033
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Uma família pediu uma casa com vista para a cachoeira. O arquiteto construiu a casa em cima dela.",
+   "start": 0.2,
+   "end": 6.32
+  },
+  {
+   "id": "s2",
+   "scene": "quando",
+   "text": "Foi em 1935, nos Estados Unidos. Conta-se que o dono não gostou de início.",
+   "start": 6.68,
+   "end": 11.98
+  },
+  {
+   "id": "s3",
+   "scene": "porque",
+   "text": "O arquiteto queria que eles vivessem com a cachoeira, e não só olhassem para ela.",
+   "start": 12.2,
+   "end": 16.27
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "O pedido era a vista. O desejo era a cachoeira.",
+   "start": 16.68,
+   "end": 19.94
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Quando o cliente pedir três quartos, pergunte para quê: filhos, escritório ou visitas?",
+   "start": 20.44,
+   "end": 25.41
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Quem entende o desejo encontra o imóvel que o pedido não descreve.",
+   "start": 25.64,
+   "end": 29.52
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 29.88,
+   "end": 34.39
+  }
+ ],
+ "cues": {
+  "h_vista": 2.44,
+  "h_cachoeira": 3.08,
+  "h_cima": 5.72,
+  "q_1935": 7.507,
+  "q_dono": 10.6,
+  "q_gostou": 11.16,
+  "p_vivessem": 13.4,
+  "p_olhassem": 15.4,
+  "v_pedido": 16.92,
+  "v_desejo": 18.6,
+  "a_quartos": 21.8,
+  "a_pergunte": 22.36,
+  "a_filhos": 23.4,
+  "a_escritorio": 24.04,
+  "a_visitas": 24.92,
+  "f_desejo": 26.6,
+  "f_descreve": 29.0,
+  "cta_quer": 29.88,
+  "cta_comment": 31.0,
+  "cta_word": 31.56,
+  "cta_tiles": 32.28,
+  "cta_sys": 33.16,
+  "cta_leads": 32.84,
+  "cta_atend": 33.64,
+  "cta_direct": 33.64,
+  "cta_end": 34.39
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 1.72,
+   "words": [
+    {
+     "text": "Uma",
+     "start": 0.2,
+     "end": 0.28,
+     "emph": false
+    },
+    {
+     "text": "família",
+     "start": 0.68,
+     "end": 1.16,
+     "emph": false
+    },
+    {
+     "text": "pediu",
+     "start": 1.16,
+     "end": 1.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.72,
+   "end": 2.84,
+   "words": [
+    {
+     "text": "uma",
+     "start": 1.72,
+     "end": 1.88,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 1.88,
+     "end": 2.2,
+     "emph": false
+    },
+    {
+     "text": "com",
+     "start": 2.2,
+     "end": 2.44,
+     "emph": false
+    },
+    {
+     "text": "vista",
+     "start": 2.44,
+     "end": 2.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.84,
+   "end": 3.88,
+   "words": [
+    {
+     "text": "para",
+     "start": 2.84,
+     "end": 3.032,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 3.032,
+     "end": 3.082,
+     "emph": false
+    },
+    {
+     "text": "cachoeira.",
+     "start": 3.08,
+     "end": 3.55,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.88,
+   "end": 4.6,
+   "words": [
+    {
+     "text": "O",
+     "start": 3.88,
+     "end": 4.04,
+     "emph": false
+    },
+    {
+     "text": "arquiteto",
+     "start": 4.04,
+     "end": 4.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.6,
+   "end": 5.56,
+   "words": [
+    {
+     "text": "construiu",
+     "start": 4.6,
+     "end": 5.16,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 5.16,
+     "end": 5.24,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 5.24,
+     "end": 5.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 5.56,
+   "end": 6.68,
+   "words": [
+    {
+     "text": "em",
+     "start": 5.56,
+     "end": 5.72,
+     "emph": false
+    },
+    {
+     "text": "cima",
+     "start": 5.72,
+     "end": 6.04,
+     "emph": true
+    },
+    {
+     "text": "dela.",
+     "start": 6.04,
+     "end": 6.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.68,
+   "end": 8.52,
+   "words": [
+    {
+     "text": "Foi",
+     "start": 6.68,
+     "end": 6.75,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 7.0,
+     "end": 7.507,
+     "emph": false
+    },
+    {
+     "text": "1935,",
+     "start": 7.507,
+     "end": 8.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.52,
+   "end": 9.64,
+   "words": [
+    {
+     "text": "nos",
+     "start": 8.52,
+     "end": 8.68,
+     "emph": false
+    },
+    {
+     "text": "Estados",
+     "start": 8.68,
+     "end": 9.0,
+     "emph": false
+    },
+    {
+     "text": "Unidos.",
+     "start": 9.0,
+     "end": 9.31,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.64,
+   "end": 11.0,
+   "words": [
+    {
+     "text": "Conta-se",
+     "start": 9.64,
+     "end": 10.36,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 10.36,
+     "end": 10.52,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 10.52,
+     "end": 10.6,
+     "emph": false
+    },
+    {
+     "text": "dono",
+     "start": 10.6,
+     "end": 11.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 11.0,
+   "end": 11.56,
+   "words": [
+    {
+     "text": "não",
+     "start": 11.0,
+     "end": 11.16,
+     "emph": true
+    },
+    {
+     "text": "gostou",
+     "start": 11.16,
+     "end": 11.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 11.56,
+   "end": 12.2,
+   "words": [
+    {
+     "text": "de",
+     "start": 11.56,
+     "end": 11.72,
+     "emph": false
+    },
+    {
+     "text": "início.",
+     "start": 11.72,
+     "end": 11.98,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.2,
+   "end": 13.08,
+   "words": [
+    {
+     "text": "O",
+     "start": 12.2,
+     "end": 12.36,
+     "emph": false
+    },
+    {
+     "text": "arquiteto",
+     "start": 12.36,
+     "end": 12.84,
+     "emph": false
+    },
+    {
+     "text": "queria",
+     "start": 12.84,
+     "end": 13.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.08,
+   "end": 13.96,
+   "words": [
+    {
+     "text": "que",
+     "start": 13.08,
+     "end": 13.24,
+     "emph": false
+    },
+    {
+     "text": "eles",
+     "start": 13.24,
+     "end": 13.4,
+     "emph": false
+    },
+    {
+     "text": "vivessem",
+     "start": 13.4,
+     "end": 13.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.96,
+   "end": 14.84,
+   "words": [
+    {
+     "text": "com",
+     "start": 13.96,
+     "end": 14.12,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 14.12,
+     "end": 14.2,
+     "emph": false
+    },
+    {
+     "text": "cachoeira,",
+     "start": 14.2,
+     "end": 14.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.84,
+   "end": 16.04,
+   "words": [
+    {
+     "text": "e",
+     "start": 14.84,
+     "end": 15.0,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 15.0,
+     "end": 15.16,
+     "emph": false
+    },
+    {
+     "text": "só",
+     "start": 15.16,
+     "end": 15.4,
+     "emph": false
+    },
+    {
+     "text": "olhassem",
+     "start": 15.4,
+     "end": 16.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 16.04,
+   "end": 16.68,
+   "words": [
+    {
+     "text": "para",
+     "start": 16.04,
+     "end": 16.2,
+     "emph": false
+    },
+    {
+     "text": "ela.",
+     "start": 16.2,
+     "end": 16.27,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.68,
+   "end": 17.32,
+   "words": [
+    {
+     "text": "O",
+     "start": 16.68,
+     "end": 16.92,
+     "emph": false
+    },
+    {
+     "text": "pedido",
+     "start": 16.92,
+     "end": 17.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.32,
+   "end": 18.44,
+   "words": [
+    {
+     "text": "era",
+     "start": 17.32,
+     "end": 17.56,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 17.56,
+     "end": 17.72,
+     "emph": false
+    },
+    {
+     "text": "vista.",
+     "start": 17.72,
+     "end": 18.09,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.44,
+   "end": 19.08,
+   "words": [
+    {
+     "text": "O",
+     "start": 18.44,
+     "end": 18.6,
+     "emph": false
+    },
+    {
+     "text": "desejo",
+     "start": 18.6,
+     "end": 19.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 19.08,
+   "end": 20.29,
+   "words": [
+    {
+     "text": "era",
+     "start": 19.08,
+     "end": 19.24,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 19.24,
+     "end": 19.4,
+     "emph": false
+    },
+    {
+     "text": "cachoeira.",
+     "start": 19.4,
+     "end": 19.94,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.44,
+   "end": 21.56,
+   "words": [
+    {
+     "text": "Quando",
+     "start": 20.44,
+     "end": 20.51,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 20.76,
+     "end": 20.84,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 20.84,
+     "end": 21.16,
+     "emph": false
+    },
+    {
+     "text": "pedir",
+     "start": 21.16,
+     "end": 21.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.56,
+   "end": 22.36,
+   "words": [
+    {
+     "text": "três",
+     "start": 21.56,
+     "end": 21.8,
+     "emph": true
+    },
+    {
+     "text": "quartos,",
+     "start": 21.8,
+     "end": 22.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.36,
+   "end": 23.4,
+   "words": [
+    {
+     "text": "pergunte",
+     "start": 22.36,
+     "end": 22.733,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 22.733,
+     "end": 22.92,
+     "emph": true
+    },
+    {
+     "text": "quê:",
+     "start": 22.92,
+     "end": 23.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.4,
+   "end": 24.04,
+   "words": [
+    {
+     "text": "filhos,",
+     "start": 23.4,
+     "end": 24.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.04,
+   "end": 24.76,
+   "words": [
+    {
+     "text": "escritório",
+     "start": 24.04,
+     "end": 24.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.76,
+   "end": 25.64,
+   "words": [
+    {
+     "text": "ou",
+     "start": 24.76,
+     "end": 24.92,
+     "emph": false
+    },
+    {
+     "text": "visitas?",
+     "start": 24.92,
+     "end": 25.41,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.64,
+   "end": 26.53,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 25.64,
+     "end": 25.71,
+     "emph": false
+    },
+    {
+     "text": "entende",
+     "start": 26.04,
+     "end": 26.53,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.53,
+   "end": 27.08,
+   "words": [
+    {
+     "text": "o",
+     "start": 26.53,
+     "end": 26.6,
+     "emph": false
+    },
+    {
+     "text": "desejo",
+     "start": 26.6,
+     "end": 27.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.08,
+   "end": 28.12,
+   "words": [
+    {
+     "text": "encontra",
+     "start": 27.08,
+     "end": 27.56,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 27.56,
+     "end": 27.64,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 27.64,
+     "end": 28.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.12,
+   "end": 28.76,
+   "words": [
+    {
+     "text": "que",
+     "start": 28.12,
+     "end": 28.28,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 28.28,
+     "end": 28.36,
+     "emph": false
+    },
+    {
+     "text": "pedido",
+     "start": 28.36,
+     "end": 28.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 28.76,
+   "end": 29.88,
+   "words": [
+    {
+     "text": "não",
+     "start": 28.76,
+     "end": 29.0,
+     "emph": true
+    },
+    {
+     "text": "descreve.",
+     "start": 29.0,
+     "end": 29.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.88,
+   "end": 31.0,
+   "words": [
+    {
+     "text": "Se",
+     "start": 29.88,
+     "end": 30.04,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 30.04,
+     "end": 30.2,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 30.2,
+     "end": 30.36,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 30.36,
+     "end": 30.87,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.0,
+   "end": 32.12,
+   "words": [
+    {
+     "text": "comente",
+     "start": 31.0,
+     "end": 31.56,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 31.56,
+     "end": 32.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 32.12,
+   "end": 33.16,
+   "words": [
+    {
+     "text": "e",
+     "start": 32.12,
+     "end": 32.28,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 32.28,
+     "end": 32.84,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 32.84,
+     "end": 33.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 33.16,
+   "end": 34.89,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 33.16,
+     "end": 33.53,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 33.64,
+     "end": 34.39,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

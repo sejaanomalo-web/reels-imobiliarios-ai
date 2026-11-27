@@ -1,0 +1,70 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 6.51,
+    "palavras_nao_reconhecidas": [
+      "Noventa",
+      "por",
+      "cento",
+      "dez",
+      "por",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.74,
+    "palavras_nao_reconhecidas": [
+      "1982"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.74,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.42,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 33.83,
+    "asr_match": 0.948,
+    "aligned_words": "92/99",
+    "words_per_min": 176,
+    "heard": "90% de chance de dar certo. Ou 10% de chance de dar errado. Qual parece melhor? Em 1982, pesquisadores apresentaram o mesmo tratamento a médicos e pacientes de dois jeitos. Quando ouviam a chance de sobreviver, mais gente escolhia a cirurgia do que quando ouviam a chance de morrer. O número era o mesmo, mudou só o jeito de dizer. Na proposta, mostre a informação pelo lado do que o cliente ganha. E deixe o resto à vista. O número informa. A frase decide. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 35.19,
+      "wpm": 169
+    },
+    "pausas_moldadas": {
+      "n": 13,
+      "max_s": 0.57
+    },
+    "pausas_encurtadas_s": 1.36,
+    "final": {
+      "seconds": 33.83,
+      "wpm": 176
+    }
+  }
+]
