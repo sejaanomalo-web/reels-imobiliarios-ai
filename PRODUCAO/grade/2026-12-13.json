@@ -96,9 +96,10 @@
       "justificativaTrilha": "arco de descoberta: o estudo revela a regra.",
       "episodio": "ATIVO-D1213-15",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-13/ATIVO-D1213-15_o_proximo_passo_com_data.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-13-19/13-domingo/15h00"
     },
     {
       "horario": "18:00",
