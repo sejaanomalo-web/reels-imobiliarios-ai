@@ -1,0 +1,849 @@
+{
+ "id": "ATIVO-D1213-12",
+ "title": "A cabine estéril",
+ "fps": 30,
+ "duration": 33.833333333333336,
+ "durationInFrames": 1015,
+ "narrationEnd": 31.629,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.925
+  },
+  {
+   "id": "regra",
+   "start": 4.925,
+   "end": 11.155
+  },
+  {
+   "id": "porque",
+   "start": 11.155,
+   "end": 14.625
+  },
+  {
+   "id": "virada",
+   "start": 14.625,
+   "end": 16.605
+  },
+  {
+   "id": "acao",
+   "start": 16.605,
+   "end": 23.885
+  },
+  {
+   "id": "desfecho",
+   "start": 23.885,
+   "end": 26.475
+  },
+  {
+   "id": "cta",
+   "start": 26.475,
+   "end": 33.833
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Na decolagem e no pouso, o piloto não pode conversar sobre nada que não seja o voo.",
+   "start": 0.12,
+   "end": 4.77
+  },
+  {
+   "id": "s2",
+   "scene": "regra",
+   "text": "É uma regra americana de 1981: abaixo de dez mil pés, só o essencial na cabine.",
+   "start": 5.08,
+   "end": 10.99
+  },
+  {
+   "id": "s3",
+   "scene": "porque",
+   "text": "Porque é nesses minutos que uma distração custa mais caro.",
+   "start": 11.32,
+   "end": 14.49
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "A venda também tem fase crítica.",
+   "start": 14.76,
+   "end": 16.45
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Na visita decisiva, na proposta e na assinatura: celular no silencioso e só o assunto do cliente.",
+   "start": 16.76,
+   "end": 23.73
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Nos minutos que decidem, só o essencial.",
+   "start": 24.04,
+   "end": 26.35
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 26.6,
+   "end": 31.16
+  }
+ ],
+ "cues": {
+  "h_decolagem": 0.28,
+  "h_pouso": 1.24,
+  "h_conversar": 2.92,
+  "h_voo": 4.68,
+  "r_1981": 6.76,
+  "r_dez": 8.44,
+  "r_essencial": 9.88,
+  "p_minutos": 12.12,
+  "p_distracao": 13.0,
+  "v_fase": 15.88,
+  "a_visita": 17.0,
+  "a_proposta": 18.6,
+  "a_assinatura": 19.72,
+  "a_silencioso": 21.48,
+  "f_decidem": 24.84,
+  "f_essencial": 25.96,
+  "cta_quer": 26.6,
+  "cta_comment": 27.8,
+  "cta_word": 28.36,
+  "cta_tiles": 29.16,
+  "cta_sys": 30.04,
+  "cta_leads": 29.64,
+  "cta_atend": 30.52,
+  "cta_direct": 30.52,
+  "cta_end": 31.16
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.92,
+   "words": [
+    {
+     "text": "Na",
+     "start": 0.12,
+     "end": 0.28,
+     "emph": false
+    },
+    {
+     "text": "decolagem",
+     "start": 0.28,
+     "end": 0.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.92,
+   "end": 1.8,
+   "words": [
+    {
+     "text": "e",
+     "start": 0.92,
+     "end": 1.08,
+     "emph": false
+    },
+    {
+     "text": "no",
+     "start": 1.08,
+     "end": 1.24,
+     "emph": false
+    },
+    {
+     "text": "pouso,",
+     "start": 1.24,
+     "end": 1.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.8,
+   "end": 2.92,
+   "words": [
+    {
+     "text": "o",
+     "start": 1.8,
+     "end": 1.88,
+     "emph": false
+    },
+    {
+     "text": "piloto",
+     "start": 1.88,
+     "end": 2.44,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 2.44,
+     "end": 2.6,
+     "emph": false
+    },
+    {
+     "text": "pode",
+     "start": 2.6,
+     "end": 2.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.92,
+   "end": 3.4,
+   "words": [
+    {
+     "text": "conversar",
+     "start": 2.92,
+     "end": 3.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.4,
+   "end": 3.88,
+   "words": [
+    {
+     "text": "sobre",
+     "start": 3.4,
+     "end": 3.64,
+     "emph": false
+    },
+    {
+     "text": "nada",
+     "start": 3.64,
+     "end": 3.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.88,
+   "end": 5.08,
+   "words": [
+    {
+     "text": "que",
+     "start": 3.88,
+     "end": 4.04,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 4.04,
+     "end": 4.2,
+     "emph": false
+    },
+    {
+     "text": "seja",
+     "start": 4.2,
+     "end": 4.52,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 4.52,
+     "end": 4.68,
+     "emph": false
+    },
+    {
+     "text": "voo.",
+     "start": 4.68,
+     "end": 4.77,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.08,
+   "end": 5.72,
+   "words": [
+    {
+     "text": "É",
+     "start": 5.08,
+     "end": 5.24,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 5.24,
+     "end": 5.4,
+     "emph": false
+    },
+    {
+     "text": "regra",
+     "start": 5.4,
+     "end": 5.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.72,
+   "end": 7.88,
+   "words": [
+    {
+     "text": "americana",
+     "start": 5.72,
+     "end": 6.2,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 6.2,
+     "end": 6.76,
+     "emph": false
+    },
+    {
+     "text": "1981:",
+     "start": 6.76,
+     "end": 7.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.88,
+   "end": 8.44,
+   "words": [
+    {
+     "text": "abaixo",
+     "start": 7.88,
+     "end": 8.28,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 8.28,
+     "end": 8.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.44,
+   "end": 9.4,
+   "words": [
+    {
+     "text": "dez",
+     "start": 8.44,
+     "end": 8.68,
+     "emph": true
+    },
+    {
+     "text": "mil",
+     "start": 8.68,
+     "end": 8.92,
+     "emph": true
+    },
+    {
+     "text": "pés,",
+     "start": 8.92,
+     "end": 9.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.4,
+   "end": 10.44,
+   "words": [
+    {
+     "text": "só",
+     "start": 9.4,
+     "end": 9.72,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 9.72,
+     "end": 9.88,
+     "emph": false
+    },
+    {
+     "text": "essencial",
+     "start": 9.88,
+     "end": 10.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.44,
+   "end": 11.32,
+   "words": [
+    {
+     "text": "na",
+     "start": 10.44,
+     "end": 10.6,
+     "emph": false
+    },
+    {
+     "text": "cabine.",
+     "start": 10.6,
+     "end": 10.99,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.32,
+   "end": 11.72,
+   "words": [
+    {
+     "text": "Porque",
+     "start": 11.32,
+     "end": 11.56,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 11.56,
+     "end": 11.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.72,
+   "end": 12.6,
+   "words": [
+    {
+     "text": "nesses",
+     "start": 11.72,
+     "end": 12.12,
+     "emph": false
+    },
+    {
+     "text": "minutos",
+     "start": 12.12,
+     "end": 12.41,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.6,
+   "end": 13.64,
+   "words": [
+    {
+     "text": "que",
+     "start": 12.6,
+     "end": 12.84,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 12.84,
+     "end": 13.0,
+     "emph": false
+    },
+    {
+     "text": "distração",
+     "start": 13.0,
+     "end": 13.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.64,
+   "end": 14.76,
+   "words": [
+    {
+     "text": "custa",
+     "start": 13.64,
+     "end": 14.12,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 14.12,
+     "end": 14.28,
+     "emph": false
+    },
+    {
+     "text": "caro.",
+     "start": 14.28,
+     "end": 14.49,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.76,
+   "end": 15.64,
+   "words": [
+    {
+     "text": "A",
+     "start": 14.76,
+     "end": 14.92,
+     "emph": false
+    },
+    {
+     "text": "venda",
+     "start": 14.92,
+     "end": 15.4,
+     "emph": false
+    },
+    {
+     "text": "também",
+     "start": 15.4,
+     "end": 15.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.64,
+   "end": 16.76,
+   "words": [
+    {
+     "text": "tem",
+     "start": 15.64,
+     "end": 15.88,
+     "emph": false
+    },
+    {
+     "text": "fase",
+     "start": 15.88,
+     "end": 16.2,
+     "emph": true
+    },
+    {
+     "text": "crítica.",
+     "start": 16.2,
+     "end": 16.45,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 16.76,
+   "end": 18.36,
+   "words": [
+    {
+     "text": "Na",
+     "start": 16.76,
+     "end": 17.0,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 17.0,
+     "end": 17.48,
+     "emph": true
+    },
+    {
+     "text": "decisiva,",
+     "start": 17.48,
+     "end": 18.17,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.36,
+   "end": 19.32,
+   "words": [
+    {
+     "text": "na",
+     "start": 18.36,
+     "end": 18.6,
+     "emph": false
+    },
+    {
+     "text": "proposta",
+     "start": 18.6,
+     "end": 19.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.32,
+   "end": 20.68,
+   "words": [
+    {
+     "text": "e",
+     "start": 19.32,
+     "end": 19.56,
+     "emph": false
+    },
+    {
+     "text": "na",
+     "start": 19.56,
+     "end": 19.72,
+     "emph": false
+    },
+    {
+     "text": "assinatura:",
+     "start": 19.72,
+     "end": 20.46,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.68,
+   "end": 22.36,
+   "words": [
+    {
+     "text": "celular",
+     "start": 20.68,
+     "end": 21.24,
+     "emph": false
+    },
+    {
+     "text": "no",
+     "start": 21.24,
+     "end": 21.48,
+     "emph": false
+    },
+    {
+     "text": "silencioso",
+     "start": 21.48,
+     "end": 22.25,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.36,
+   "end": 23.32,
+   "words": [
+    {
+     "text": "e",
+     "start": 22.36,
+     "end": 22.52,
+     "emph": false
+    },
+    {
+     "text": "só",
+     "start": 22.52,
+     "end": 22.84,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 22.84,
+     "end": 22.92,
+     "emph": false
+    },
+    {
+     "text": "assunto",
+     "start": 22.92,
+     "end": 23.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.32,
+   "end": 24.04,
+   "words": [
+    {
+     "text": "do",
+     "start": 23.32,
+     "end": 23.4,
+     "emph": false
+    },
+    {
+     "text": "cliente.",
+     "start": 23.4,
+     "end": 23.73,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.04,
+   "end": 24.6,
+   "words": [
+    {
+     "text": "Nos",
+     "start": 24.04,
+     "end": 24.28,
+     "emph": false
+    },
+    {
+     "text": "minutos",
+     "start": 24.28,
+     "end": 24.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.6,
+   "end": 25.48,
+   "words": [
+    {
+     "text": "que",
+     "start": 24.6,
+     "end": 24.84,
+     "emph": false
+    },
+    {
+     "text": "decidem,",
+     "start": 24.84,
+     "end": 25.27,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.48,
+   "end": 26.6,
+   "words": [
+    {
+     "text": "só",
+     "start": 25.48,
+     "end": 25.8,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 25.8,
+     "end": 25.96,
+     "emph": false
+    },
+    {
+     "text": "essencial.",
+     "start": 25.96,
+     "end": 26.35,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.6,
+   "end": 27.8,
+   "words": [
+    {
+     "text": "Se",
+     "start": 26.6,
+     "end": 26.76,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 26.76,
+     "end": 26.92,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 26.92,
+     "end": 27.08,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 27.08,
+     "end": 27.57,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.8,
+   "end": 29.0,
+   "words": [
+    {
+     "text": "comente",
+     "start": 27.8,
+     "end": 28.36,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 28.36,
+     "end": 29.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.0,
+   "end": 30.04,
+   "words": [
+    {
+     "text": "e",
+     "start": 29.0,
+     "end": 29.16,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 29.16,
+     "end": 29.64,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 29.64,
+     "end": 30.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.04,
+   "end": 31.66,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 30.04,
+     "end": 30.37,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 30.52,
+     "end": 31.16,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

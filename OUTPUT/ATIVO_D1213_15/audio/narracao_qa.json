@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.16,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.63,
+    "palavras_nao_reconhecidas": [
+      "1997"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.18,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 1.99,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.56,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.59,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.35,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 32.07,
+    "asr_match": 0.981,
+    "aligned_words": "79/80",
+    "words_per_min": 150,
+    "heard": "Toda conversa com o cliente deveria terminar com uma data. Em 1997, pesquisadores pediram a estudantes um relatório para entregar depois do Natal. Quem anotou quando e onde ia escrever, entregou mais que o dobro de quem não anotou. Depois a gente vê não é combinado. Antes de encerrar, marque o próximo passo. O dia, a hora e o que vai acontecer. Próximo passo com data acontece. Sem data, esfria. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 33.57,
+      "wpm": 143
+    },
+    "pausas_moldadas": {
+      "n": 15,
+      "max_s": 0.59
+    },
+    "pausas_encurtadas_s": 1.5,
+    "final": {
+      "seconds": 32.07,
+      "wpm": 150
+    }
+  }
+]

@@ -1,0 +1,1018 @@
+{
+ "id": "ATIVO-D1213-18",
+ "title": "A sombra que mudou a cidade",
+ "fps": 30,
+ "duration": 34.9,
+ "durationInFrames": 1047,
+ "narrationEnd": 32.675,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.565
+  },
+  {
+   "id": "paredao",
+   "start": 5.565,
+   "end": 10.515
+  },
+  {
+   "id": "lei",
+   "start": 10.515,
+   "end": 15.815
+  },
+  {
+   "id": "virada",
+   "start": 15.815,
+   "end": 19.92
+  },
+  {
+   "id": "acao",
+   "start": 19.92,
+   "end": 24.915
+  },
+  {
+   "id": "desfecho",
+   "start": 24.915,
+   "end": 27.87
+  },
+  {
+   "id": "cta",
+   "start": 27.87,
+   "end": 34.9
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Em 1915, um prédio em Nova York fez tanta sombra que a cidade mudou as regras.",
+   "start": 0.12,
+   "end": 5.49
+  },
+  {
+   "id": "s2",
+   "scene": "paredao",
+   "text": "Era um paredão de quase quarenta andares, sem recuo, e as ruas em volta perderam o sol.",
+   "start": 5.64,
+   "end": 10.35
+  },
+  {
+   "id": "s3",
+   "scene": "lei",
+   "text": "No ano seguinte, veio a primeira lei de zoneamento da cidade, com recuos para a luz chegar à rua.",
+   "start": 10.68,
+   "end": 15.67
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Os vizinhos tinham comprado luz. E perderam por causa do terreno ao lado.",
+   "start": 15.96,
+   "end": 19.72
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Antes de vender a vista ou o sol, confira o que a lei permite construir no terreno vizinho.",
+   "start": 20.12,
+   "end": 24.75
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "O que pode subir ao lado também faz parte do imóvel.",
+   "start": 25.08,
+   "end": 27.7
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 28.04,
+   "end": 32.29
+  }
+ ],
+ "cues": {
+  "h_1915": 0.573,
+  "h_sombra": 3.56,
+  "h_regras": 5.16,
+  "p_paredao": 5.96,
+  "p_quarenta": 6.957,
+  "p_sol": 10.2,
+  "l_zoneamento": 12.52,
+  "l_recuos": 14.2,
+  "l_luz": 14.92,
+  "v_luz": 17.4,
+  "v_perderam": 18.04,
+  "a_vista": 21.08,
+  "a_confira": 22.2,
+  "a_construir": 23.56,
+  "a_vizinho": 24.44,
+  "f_subir": 25.64,
+  "f_parte": 27.08,
+  "cta_quer": 28.04,
+  "cta_comment": 29.16,
+  "cta_word": 29.72,
+  "cta_tiles": 30.44,
+  "cta_sys": 31.24,
+  "cta_leads": 30.92,
+  "cta_atend": 31.64,
+  "cta_direct": 31.64,
+  "cta_end": 32.29
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.48,
+   "words": [
+    {
+     "text": "Em",
+     "start": 0.12,
+     "end": 0.573,
+     "emph": false
+    },
+    {
+     "text": "1915,",
+     "start": 0.573,
+     "end": 1.37,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.48,
+   "end": 2.84,
+   "words": [
+    {
+     "text": "um",
+     "start": 1.48,
+     "end": 1.64,
+     "emph": false
+    },
+    {
+     "text": "prédio",
+     "start": 1.64,
+     "end": 2.12,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 2.12,
+     "end": 2.2,
+     "emph": false
+    },
+    {
+     "text": "Nova",
+     "start": 2.2,
+     "end": 2.52,
+     "emph": true
+    },
+    {
+     "text": "York",
+     "start": 2.52,
+     "end": 2.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.84,
+   "end": 4.04,
+   "words": [
+    {
+     "text": "fez",
+     "start": 2.84,
+     "end": 3.09,
+     "emph": false
+    },
+    {
+     "text": "tanta",
+     "start": 3.24,
+     "end": 3.56,
+     "emph": false
+    },
+    {
+     "text": "sombra",
+     "start": 3.56,
+     "end": 4.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.04,
+   "end": 4.68,
+   "words": [
+    {
+     "text": "que",
+     "start": 4.04,
+     "end": 4.2,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 4.2,
+     "end": 4.36,
+     "emph": false
+    },
+    {
+     "text": "cidade",
+     "start": 4.36,
+     "end": 4.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.68,
+   "end": 5.64,
+   "words": [
+    {
+     "text": "mudou",
+     "start": 4.68,
+     "end": 5.08,
+     "emph": false
+    },
+    {
+     "text": "as",
+     "start": 5.08,
+     "end": 5.16,
+     "emph": false
+    },
+    {
+     "text": "regras.",
+     "start": 5.16,
+     "end": 5.49,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.64,
+   "end": 6.52,
+   "words": [
+    {
+     "text": "Era",
+     "start": 5.64,
+     "end": 5.88,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 5.88,
+     "end": 5.96,
+     "emph": false
+    },
+    {
+     "text": "paredão",
+     "start": 5.96,
+     "end": 6.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.52,
+   "end": 6.957,
+   "words": [
+    {
+     "text": "de",
+     "start": 6.52,
+     "end": 6.68,
+     "emph": false
+    },
+    {
+     "text": "quase",
+     "start": 6.68,
+     "end": 6.957,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.957,
+   "end": 7.96,
+   "words": [
+    {
+     "text": "quarenta",
+     "start": 6.957,
+     "end": 7.4,
+     "emph": true
+    },
+    {
+     "text": "andares,",
+     "start": 7.4,
+     "end": 7.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.96,
+   "end": 8.68,
+   "words": [
+    {
+     "text": "sem",
+     "start": 7.96,
+     "end": 8.12,
+     "emph": false
+    },
+    {
+     "text": "recuo,",
+     "start": 8.12,
+     "end": 8.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.68,
+   "end": 9.64,
+   "words": [
+    {
+     "text": "e",
+     "start": 8.68,
+     "end": 8.84,
+     "emph": false
+    },
+    {
+     "text": "as",
+     "start": 8.84,
+     "end": 8.92,
+     "emph": false
+    },
+    {
+     "text": "ruas",
+     "start": 8.92,
+     "end": 9.24,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 9.24,
+     "end": 9.32,
+     "emph": false
+    },
+    {
+     "text": "volta",
+     "start": 9.32,
+     "end": 9.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.64,
+   "end": 10.68,
+   "words": [
+    {
+     "text": "perderam",
+     "start": 9.64,
+     "end": 10.12,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 10.12,
+     "end": 10.2,
+     "emph": false
+    },
+    {
+     "text": "sol.",
+     "start": 10.2,
+     "end": 10.35,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.68,
+   "end": 11.48,
+   "words": [
+    {
+     "text": "No",
+     "start": 10.68,
+     "end": 10.84,
+     "emph": false
+    },
+    {
+     "text": "ano",
+     "start": 10.84,
+     "end": 11.08,
+     "emph": false
+    },
+    {
+     "text": "seguinte,",
+     "start": 11.08,
+     "end": 11.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.48,
+   "end": 12.2,
+   "words": [
+    {
+     "text": "veio",
+     "start": 11.48,
+     "end": 11.88,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 11.88,
+     "end": 11.96,
+     "emph": false
+    },
+    {
+     "text": "primeira",
+     "start": 11.96,
+     "end": 12.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.2,
+   "end": 13.32,
+   "words": [
+    {
+     "text": "lei",
+     "start": 12.2,
+     "end": 12.44,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 12.44,
+     "end": 12.52,
+     "emph": false
+    },
+    {
+     "text": "zoneamento",
+     "start": 12.52,
+     "end": 13.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.32,
+   "end": 13.96,
+   "words": [
+    {
+     "text": "da",
+     "start": 13.32,
+     "end": 13.48,
+     "emph": false
+    },
+    {
+     "text": "cidade,",
+     "start": 13.48,
+     "end": 13.73,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.96,
+   "end": 14.68,
+   "words": [
+    {
+     "text": "com",
+     "start": 13.96,
+     "end": 14.2,
+     "emph": false
+    },
+    {
+     "text": "recuos",
+     "start": 14.2,
+     "end": 14.27,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.68,
+   "end": 15.16,
+   "words": [
+    {
+     "text": "para",
+     "start": 14.68,
+     "end": 14.76,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 14.76,
+     "end": 14.92,
+     "emph": false
+    },
+    {
+     "text": "luz",
+     "start": 14.92,
+     "end": 15.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.16,
+   "end": 15.96,
+   "words": [
+    {
+     "text": "chegar",
+     "start": 15.16,
+     "end": 15.48,
+     "emph": false
+    },
+    {
+     "text": "à",
+     "start": 15.48,
+     "end": 15.56,
+     "emph": false
+    },
+    {
+     "text": "rua.",
+     "start": 15.56,
+     "end": 15.67,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.96,
+   "end": 16.68,
+   "words": [
+    {
+     "text": "Os",
+     "start": 15.96,
+     "end": 16.12,
+     "emph": false
+    },
+    {
+     "text": "vizinhos",
+     "start": 16.12,
+     "end": 16.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.68,
+   "end": 17.88,
+   "words": [
+    {
+     "text": "tinham",
+     "start": 16.68,
+     "end": 16.92,
+     "emph": false
+    },
+    {
+     "text": "comprado",
+     "start": 16.92,
+     "end": 17.4,
+     "emph": false
+    },
+    {
+     "text": "luz.",
+     "start": 17.4,
+     "end": 17.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.88,
+   "end": 18.6,
+   "words": [
+    {
+     "text": "E",
+     "start": 17.88,
+     "end": 18.04,
+     "emph": false
+    },
+    {
+     "text": "perderam",
+     "start": 18.04,
+     "end": 18.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.6,
+   "end": 19.0,
+   "words": [
+    {
+     "text": "por",
+     "start": 18.6,
+     "end": 18.76,
+     "emph": false
+    },
+    {
+     "text": "causa",
+     "start": 18.76,
+     "end": 19.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 19.0,
+   "end": 20.12,
+   "words": [
+    {
+     "text": "do",
+     "start": 19.0,
+     "end": 19.08,
+     "emph": false
+    },
+    {
+     "text": "terreno",
+     "start": 19.08,
+     "end": 19.48,
+     "emph": false
+    },
+    {
+     "text": "ao",
+     "start": 19.48,
+     "end": 19.64,
+     "emph": false
+    },
+    {
+     "text": "lado.",
+     "start": 19.64,
+     "end": 19.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.12,
+   "end": 20.92,
+   "words": [
+    {
+     "text": "Antes",
+     "start": 20.12,
+     "end": 20.44,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 20.44,
+     "end": 20.6,
+     "emph": false
+    },
+    {
+     "text": "vender",
+     "start": 20.6,
+     "end": 20.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.92,
+   "end": 22.2,
+   "words": [
+    {
+     "text": "a",
+     "start": 20.92,
+     "end": 21.08,
+     "emph": false
+    },
+    {
+     "text": "vista",
+     "start": 21.08,
+     "end": 21.48,
+     "emph": true
+    },
+    {
+     "text": "ou",
+     "start": 21.48,
+     "end": 21.64,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 21.64,
+     "end": 21.8,
+     "emph": false
+    },
+    {
+     "text": "sol,",
+     "start": 21.8,
+     "end": 22.03,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.2,
+   "end": 22.68,
+   "words": [
+    {
+     "text": "confira",
+     "start": 22.2,
+     "end": 22.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.68,
+   "end": 23.16,
+   "words": [
+    {
+     "text": "o",
+     "start": 22.68,
+     "end": 22.76,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 22.76,
+     "end": 22.84,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 22.84,
+     "end": 22.92,
+     "emph": false
+    },
+    {
+     "text": "lei",
+     "start": 22.92,
+     "end": 23.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.16,
+   "end": 23.96,
+   "words": [
+    {
+     "text": "permite",
+     "start": 23.16,
+     "end": 23.56,
+     "emph": false
+    },
+    {
+     "text": "construir",
+     "start": 23.56,
+     "end": 23.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.96,
+   "end": 25.08,
+   "words": [
+    {
+     "text": "no",
+     "start": 23.96,
+     "end": 24.12,
+     "emph": false
+    },
+    {
+     "text": "terreno",
+     "start": 24.12,
+     "end": 24.44,
+     "emph": false
+    },
+    {
+     "text": "vizinho.",
+     "start": 24.44,
+     "end": 24.75,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.08,
+   "end": 25.96,
+   "words": [
+    {
+     "text": "O",
+     "start": 25.08,
+     "end": 25.24,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 25.24,
+     "end": 25.4,
+     "emph": false
+    },
+    {
+     "text": "pode",
+     "start": 25.4,
+     "end": 25.64,
+     "emph": false
+    },
+    {
+     "text": "subir",
+     "start": 25.64,
+     "end": 25.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.96,
+   "end": 26.52,
+   "words": [
+    {
+     "text": "ao",
+     "start": 25.96,
+     "end": 26.12,
+     "emph": false
+    },
+    {
+     "text": "lado",
+     "start": 26.12,
+     "end": 26.31,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.52,
+   "end": 27.24,
+   "words": [
+    {
+     "text": "também",
+     "start": 26.52,
+     "end": 26.84,
+     "emph": false
+    },
+    {
+     "text": "faz",
+     "start": 26.84,
+     "end": 27.08,
+     "emph": false
+    },
+    {
+     "text": "parte",
+     "start": 27.08,
+     "end": 27.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.24,
+   "end": 28.04,
+   "words": [
+    {
+     "text": "do",
+     "start": 27.24,
+     "end": 27.4,
+     "emph": false
+    },
+    {
+     "text": "imóvel.",
+     "start": 27.4,
+     "end": 27.7,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.04,
+   "end": 29.16,
+   "words": [
+    {
+     "text": "Se",
+     "start": 28.04,
+     "end": 28.2,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 28.2,
+     "end": 28.36,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 28.36,
+     "end": 28.52,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 28.52,
+     "end": 28.98,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.16,
+   "end": 30.28,
+   "words": [
+    {
+     "text": "comente",
+     "start": 29.16,
+     "end": 29.72,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 29.72,
+     "end": 30.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.28,
+   "end": 31.24,
+   "words": [
+    {
+     "text": "e",
+     "start": 30.28,
+     "end": 30.44,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 30.44,
+     "end": 30.92,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 30.92,
+     "end": 31.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.24,
+   "end": 32.79,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 31.24,
+     "end": 31.64,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 31.64,
+     "end": 32.29,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

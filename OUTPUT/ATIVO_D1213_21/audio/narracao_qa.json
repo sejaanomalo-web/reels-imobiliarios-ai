@@ -1,0 +1,61 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.93,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.08,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.58,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.06,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.81,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.6,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.63,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 30.07,
+    "asr_match": 0.994,
+    "aligned_words": "79/79",
+    "words_per_min": 158,
+    "heard": "O cliente amou o apartamento. Aí veio a simulação do financiamento. A parcela não coube e o sonho virou frustração. Pior, agora tudo o que cabe no bolso parece pior do que aquele. A simulação tem que vir antes da visita, não depois. No primeiro contato. Simule com o cliente, a renda, a entrada e a parcela que cabe. Quem visita dentro do orçamento se apaixona pelo imóvel certo. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 31.13,
+      "wpm": 152
+    },
+    "pausas_moldadas": {
+      "n": 11,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.06,
+    "final": {
+      "seconds": 30.07,
+      "wpm": 158
+    }
+  }
+]

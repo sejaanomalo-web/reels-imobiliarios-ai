@@ -1,0 +1,67 @@
+1
+00:00:00,120 --> 00:00:02,580
+Toda conversa com cliente deveria terminar
+
+2
+00:00:02,600 --> 00:00:03,460
+com uma data.
+
+3
+00:00:03,480 --> 00:00:06,260
+Em 1997, pesquisadores pediram
+
+4
+00:00:06,280 --> 00:00:08,340
+a estudantes um relatório para entregar
+
+5
+00:00:08,360 --> 00:00:09,310
+depois do Natal.
+
+6
+00:00:09,480 --> 00:00:12,500
+Quem anotou quando e onde ia escrever
+
+7
+00:00:12,520 --> 00:00:13,860
+entregou mais que o dobro
+
+8
+00:00:13,880 --> 00:00:14,860
+de quem não anotou.
+
+9
+00:00:15,080 --> 00:00:17,270
+Depois a gente vê não é combinado.
+
+10
+00:00:17,480 --> 00:00:18,580
+Antes de encerrar,
+
+11
+00:00:18,600 --> 00:00:20,200
+marque o próximo passo:
+
+12
+00:00:20,280 --> 00:00:23,240
+o dia, a hora e o que vai acontecer.
+
+13
+00:00:23,480 --> 00:00:25,650
+Próximo passo com data acontece.
+
+14
+00:00:25,720 --> 00:00:27,270
+Sem data, esfria.
+
+15
+00:00:27,400 --> 00:00:28,660
+Se você é corretor,
+
+16
+00:00:28,680 --> 00:00:30,740
+comente SISTEMA e conheça nosso
+
+17
+00:00:30,760 --> 00:00:31,950
+sistema personalizado.

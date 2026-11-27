@@ -1,0 +1,64 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.43,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.82,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.41,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 3.33,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 3.62,
+    "palavras_nao_reconhecidas": [
+      "Pergunte",
+      "as"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.05,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.39,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 24.6,
+    "asr_match": 0.98,
+    "aligned_words": "73/75",
+    "words_per_min": 183,
+    "heard": "O cliente manda o link de um imóvel anunciado por outro corretor. A vontade é ignorar ou apontar defeito no anúncio, mas esse link diz exatamente o que ele procura. O anúncio do concorrente é a melhor pista do seu cliente. Pergunta o que chamou a atenção nele e use isso para filtrar suas opções. Quem compara junto vira o corretor de confiança. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 25.26,
+      "wpm": 178
+    },
+    "pausas_moldadas": {
+      "n": 7,
+      "max_s": 0.44
+    },
+    "pausas_encurtadas_s": 0.66,
+    "final": {
+      "seconds": 24.6,
+      "wpm": 183
+    }
+  }
+]

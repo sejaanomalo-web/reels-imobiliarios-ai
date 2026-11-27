@@ -1,0 +1,67 @@
+1
+00:00:00,200 --> 00:00:03,220
+O cliente amou o apartamento.
+
+2
+00:00:03,240 --> 00:00:05,300
+Aí veio a simulação do financiamento.
+
+3
+00:00:05,320 --> 00:00:06,660
+A parcela não coube,
+
+4
+00:00:06,680 --> 00:00:08,600
+e o sonho virou frustração.
+
+5
+00:00:08,840 --> 00:00:09,460
+Pior:
+
+6
+00:00:09,480 --> 00:00:11,860
+agora tudo que cabe no bolso parece pior
+
+7
+00:00:11,880 --> 00:00:12,620
+do que aquele.
+
+8
+00:00:12,840 --> 00:00:15,220
+A simulação tem que vir antes da visita,
+
+9
+00:00:15,240 --> 00:00:16,100
+não depois.
+
+10
+00:00:16,120 --> 00:00:17,220
+No primeiro contato,
+
+11
+00:00:17,240 --> 00:00:18,500
+simule com o cliente:
+
+12
+00:00:18,520 --> 00:00:21,130
+a renda, a entrada e a parcela que cabe.
+
+13
+00:00:21,240 --> 00:00:23,140
+Quem visita dentro do orçamento
+
+14
+00:00:23,160 --> 00:00:25,040
+se apaixona pelo imóvel certo.
+
+15
+00:00:25,160 --> 00:00:26,340
+Se você é corretor,
+
+16
+00:00:26,360 --> 00:00:28,500
+comente SISTEMA e conheça nosso
+
+17
+00:00:28,520 --> 00:00:29,990
+sistema personalizado.

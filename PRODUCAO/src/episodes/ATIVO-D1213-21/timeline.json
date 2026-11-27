@@ -1,0 +1,824 @@
+{
+ "id": "ATIVO-D1213-21",
+ "title": "A visita que não cabe no bolso",
+ "fps": 30,
+ "duration": 32.4,
+ "durationInFrames": 972,
+ "narrationEnd": 30.189,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.225
+  },
+  {
+   "id": "frustra",
+   "start": 5.225,
+   "end": 8.62
+  },
+  {
+   "id": "compara",
+   "start": 8.62,
+   "end": 12.63
+  },
+  {
+   "id": "virada",
+   "start": 12.63,
+   "end": 16.01
+  },
+  {
+   "id": "acao",
+   "start": 16.01,
+   "end": 21.085
+  },
+  {
+   "id": "desfecho",
+   "start": 21.085,
+   "end": 25.0
+  },
+  {
+   "id": "cta",
+   "start": 25.0,
+   "end": 32.4
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O cliente amou o apartamento. Aí veio a simulação do financiamento.",
+   "start": 0.2,
+   "end": 5.13
+  },
+  {
+   "id": "s2",
+   "scene": "frustra",
+   "text": "A parcela não coube, e o sonho virou frustração.",
+   "start": 5.32,
+   "end": 8.4
+  },
+  {
+   "id": "s3",
+   "scene": "compara",
+   "text": "Pior: agora tudo que cabe no bolso parece pior do que aquele.",
+   "start": 8.84,
+   "end": 12.42
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "A simulação tem que vir antes da visita, não depois.",
+   "start": 12.84,
+   "end": 15.9
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "No primeiro contato, simule com o cliente: a renda, a entrada e a parcela que cabe.",
+   "start": 16.12,
+   "end": 20.93
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Quem visita dentro do orçamento se apaixona pelo imóvel certo.",
+   "start": 21.24,
+   "end": 24.84
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 25.16,
+   "end": 29.79
+  }
+ ],
+ "cues": {
+  "h_amou": 1.72,
+  "h_simulacao": 3.96,
+  "f_parcela": 5.48,
+  "f_frustracao": 7.8,
+  "c_pior": 8.84,
+  "c_aquele": 12.2,
+  "v_antes": 14.28,
+  "v_depois": 15.48,
+  "a_contato": 16.76,
+  "a_renda": 18.68,
+  "a_entrada": 19.32,
+  "a_parcela": 19.96,
+  "d_orcamento": 22.52,
+  "d_certo": 24.68,
+  "cta_quer": 25.16,
+  "cta_comment": 26.36,
+  "cta_word": 26.92,
+  "cta_tiles": 27.64,
+  "cta_sys": 28.52,
+  "cta_leads": 28.12,
+  "cta_atend": 29.0,
+  "cta_direct": 29.0,
+  "cta_end": 29.79
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 2.28,
+   "words": [
+    {
+     "text": "O",
+     "start": 0.2,
+     "end": 0.66,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 1.08,
+     "end": 1.72,
+     "emph": false
+    },
+    {
+     "text": "amou",
+     "start": 1.72,
+     "end": 2.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.28,
+   "end": 3.24,
+   "words": [
+    {
+     "text": "o",
+     "start": 2.28,
+     "end": 2.44,
+     "emph": false
+    },
+    {
+     "text": "apartamento.",
+     "start": 2.44,
+     "end": 3.07,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.24,
+   "end": 3.88,
+   "words": [
+    {
+     "text": "Aí",
+     "start": 3.24,
+     "end": 3.56,
+     "emph": false
+    },
+    {
+     "text": "veio",
+     "start": 3.56,
+     "end": 3.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.88,
+   "end": 4.44,
+   "words": [
+    {
+     "text": "a",
+     "start": 3.88,
+     "end": 3.96,
+     "emph": false
+    },
+    {
+     "text": "simulação",
+     "start": 3.96,
+     "end": 4.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.44,
+   "end": 5.32,
+   "words": [
+    {
+     "text": "do",
+     "start": 4.44,
+     "end": 4.6,
+     "emph": false
+    },
+    {
+     "text": "financiamento.",
+     "start": 4.6,
+     "end": 5.13,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.32,
+   "end": 5.96,
+   "words": [
+    {
+     "text": "A",
+     "start": 5.32,
+     "end": 5.48,
+     "emph": false
+    },
+    {
+     "text": "parcela",
+     "start": 5.48,
+     "end": 5.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.96,
+   "end": 6.68,
+   "words": [
+    {
+     "text": "não",
+     "start": 5.96,
+     "end": 6.12,
+     "emph": false
+    },
+    {
+     "text": "coube,",
+     "start": 6.12,
+     "end": 6.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.68,
+   "end": 7.32,
+   "words": [
+    {
+     "text": "e",
+     "start": 6.68,
+     "end": 6.84,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 6.84,
+     "end": 7.0,
+     "emph": false
+    },
+    {
+     "text": "sonho",
+     "start": 7.0,
+     "end": 7.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.32,
+   "end": 8.84,
+   "words": [
+    {
+     "text": "virou",
+     "start": 7.32,
+     "end": 7.8,
+     "emph": false
+    },
+    {
+     "text": "frustração.",
+     "start": 7.8,
+     "end": 8.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.84,
+   "end": 9.48,
+   "words": [
+    {
+     "text": "Pior:",
+     "start": 8.84,
+     "end": 9.31,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.48,
+   "end": 10.2,
+   "words": [
+    {
+     "text": "agora",
+     "start": 9.48,
+     "end": 9.74,
+     "emph": false
+    },
+    {
+     "text": "tudo",
+     "start": 9.88,
+     "end": 10.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.2,
+   "end": 11.24,
+   "words": [
+    {
+     "text": "que",
+     "start": 10.2,
+     "end": 10.36,
+     "emph": false
+    },
+    {
+     "text": "cabe",
+     "start": 10.36,
+     "end": 10.68,
+     "emph": false
+    },
+    {
+     "text": "no",
+     "start": 10.68,
+     "end": 10.84,
+     "emph": false
+    },
+    {
+     "text": "bolso",
+     "start": 10.84,
+     "end": 11.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.24,
+   "end": 11.88,
+   "words": [
+    {
+     "text": "parece",
+     "start": 11.24,
+     "end": 11.64,
+     "emph": false
+    },
+    {
+     "text": "pior",
+     "start": 11.64,
+     "end": 11.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.88,
+   "end": 12.84,
+   "words": [
+    {
+     "text": "do",
+     "start": 11.88,
+     "end": 12.04,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 12.04,
+     "end": 12.2,
+     "emph": false
+    },
+    {
+     "text": "aquele.",
+     "start": 12.2,
+     "end": 12.42,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.84,
+   "end": 13.64,
+   "words": [
+    {
+     "text": "A",
+     "start": 12.84,
+     "end": 13.0,
+     "emph": false
+    },
+    {
+     "text": "simulação",
+     "start": 13.0,
+     "end": 13.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.64,
+   "end": 14.28,
+   "words": [
+    {
+     "text": "tem",
+     "start": 13.64,
+     "end": 13.8,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 13.8,
+     "end": 13.96,
+     "emph": false
+    },
+    {
+     "text": "vir",
+     "start": 13.96,
+     "end": 14.09,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.28,
+   "end": 15.24,
+   "words": [
+    {
+     "text": "antes",
+     "start": 14.28,
+     "end": 14.6,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 14.6,
+     "end": 14.76,
+     "emph": false
+    },
+    {
+     "text": "visita,",
+     "start": 14.76,
+     "end": 15.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.24,
+   "end": 16.12,
+   "words": [
+    {
+     "text": "não",
+     "start": 15.24,
+     "end": 15.48,
+     "emph": false
+    },
+    {
+     "text": "depois.",
+     "start": 15.48,
+     "end": 15.9,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 16.12,
+   "end": 17.24,
+   "words": [
+    {
+     "text": "No",
+     "start": 16.12,
+     "end": 16.36,
+     "emph": false
+    },
+    {
+     "text": "primeiro",
+     "start": 16.36,
+     "end": 16.76,
+     "emph": true
+    },
+    {
+     "text": "contato,",
+     "start": 16.76,
+     "end": 17.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.24,
+   "end": 18.52,
+   "words": [
+    {
+     "text": "simule",
+     "start": 17.24,
+     "end": 17.31,
+     "emph": false
+    },
+    {
+     "text": "com",
+     "start": 17.88,
+     "end": 17.96,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 17.96,
+     "end": 18.04,
+     "emph": false
+    },
+    {
+     "text": "cliente:",
+     "start": 18.04,
+     "end": 18.38,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.52,
+   "end": 19.16,
+   "words": [
+    {
+     "text": "a",
+     "start": 18.52,
+     "end": 18.68,
+     "emph": false
+    },
+    {
+     "text": "renda,",
+     "start": 18.68,
+     "end": 19.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.16,
+   "end": 19.72,
+   "words": [
+    {
+     "text": "a",
+     "start": 19.16,
+     "end": 19.32,
+     "emph": false
+    },
+    {
+     "text": "entrada",
+     "start": 19.32,
+     "end": 19.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.72,
+   "end": 20.52,
+   "words": [
+    {
+     "text": "e",
+     "start": 19.72,
+     "end": 19.88,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 19.88,
+     "end": 19.96,
+     "emph": false
+    },
+    {
+     "text": "parcela",
+     "start": 19.96,
+     "end": 20.52,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.52,
+   "end": 21.24,
+   "words": [
+    {
+     "text": "que",
+     "start": 20.52,
+     "end": 20.68,
+     "emph": false
+    },
+    {
+     "text": "cabe.",
+     "start": 20.68,
+     "end": 20.93,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 21.24,
+   "end": 22.12,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 21.24,
+     "end": 21.31,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 21.56,
+     "end": 22.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.12,
+   "end": 23.16,
+   "words": [
+    {
+     "text": "dentro",
+     "start": 22.12,
+     "end": 22.36,
+     "emph": false
+    },
+    {
+     "text": "do",
+     "start": 22.36,
+     "end": 22.52,
+     "emph": false
+    },
+    {
+     "text": "orçamento",
+     "start": 22.52,
+     "end": 23.05,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.16,
+   "end": 23.88,
+   "words": [
+    {
+     "text": "se",
+     "start": 23.16,
+     "end": 23.4,
+     "emph": false
+    },
+    {
+     "text": "apaixona",
+     "start": 23.4,
+     "end": 23.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.88,
+   "end": 25.16,
+   "words": [
+    {
+     "text": "pelo",
+     "start": 23.88,
+     "end": 24.12,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 24.12,
+     "end": 24.68,
+     "emph": false
+    },
+    {
+     "text": "certo.",
+     "start": 24.68,
+     "end": 24.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 25.16,
+   "end": 26.36,
+   "words": [
+    {
+     "text": "Se",
+     "start": 25.16,
+     "end": 25.4,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 25.4,
+     "end": 25.56,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 25.56,
+     "end": 25.72,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 25.72,
+     "end": 26.17,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.36,
+   "end": 27.48,
+   "words": [
+    {
+     "text": "comente",
+     "start": 26.36,
+     "end": 26.92,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 26.92,
+     "end": 27.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.48,
+   "end": 28.52,
+   "words": [
+    {
+     "text": "e",
+     "start": 27.48,
+     "end": 27.64,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 27.64,
+     "end": 28.12,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 28.12,
+     "end": 28.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.52,
+   "end": 30.29,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 28.52,
+     "end": 28.88,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 29.0,
+     "end": 29.79,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

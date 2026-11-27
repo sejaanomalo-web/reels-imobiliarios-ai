@@ -2,7 +2,7 @@
  "fps": 30,
  "width": 1080,
  "height": 1920,
- "leadIn": 0.12,
+ "leadIn": 0.45,
  "tail": 2.2,
  "accent": "#02FB3F",
  "pronunciation": {
@@ -456,7 +456,7 @@
     "label": "Cadd9 — sistema"
    }
   ],
-  "trilha": "T03",
+  "trilha": "T02",
   "ancoras": {
    "virada": "cue:v_arrepender",
    "insight": "cue:a_escrito",
@@ -474,8 +474,8 @@
   "pushPull": "push",
   "justificativaModelo": "o contrato como planta.",
   "justificativaHorario": "08h: informação útil cedo.",
-  "trilha": "T03",
-  "justificativaTrilha": "arco de descoberta: premissa → a lei já responde.",
+  "trilha": "T02",
+  "justificativaTrilha": "arco emocional; lead-in de 0,45 s para a trilha abrir antes da voz (com T03 e com lead-in de 0,12 s, o 'E se o' do gancho ficava mascarado: queda 6,6).",
   "data": "2026-12-13",
   "slot": "08:00",
   "arquivo": "PRODUCAO/grade/2026-12-13.json"

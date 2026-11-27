@@ -1,0 +1,64 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.65,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.91,
+    "palavras_nao_reconhecidas": [
+      "1981",
+      "dez"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.17,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 1.69,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.97,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.31,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.56,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 31.51,
+    "asr_match": 0.958,
+    "aligned_words": "80/84",
+    "words_per_min": 160,
+    "heard": "Na decolagem e no pouso, o piloto não pode conversar sobre nada que não seja o voo. É uma regra americana de 1981. Abaixo de 10 mil pés, sol essencial na cabine. Porque é nesses minutos que uma distração custa mais caro. A venda também tem fase crítica. Na visita decisiva, na proposta e na assinatura, celular no silencioso e só o assunto do cliente. Nos minutos que decidem, só o essencial. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 32.5,
+      "wpm": 155
+    },
+    "pausas_moldadas": {
+      "n": 12,
+      "max_s": 0.41
+    },
+    "pausas_encurtadas_s": 0.99,
+    "final": {
+      "seconds": 31.51,
+      "wpm": 160
+    }
+  }
+]
