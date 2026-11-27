@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.07,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.88,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.58,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 5.04,
+    "palavras_nao_reconhecidas": [
+      "prevê"
+    ]
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.9,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.93,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 35.67,
+    "asr_match": 0.989,
+    "aligned_words": "90/91",
+    "words_per_min": 153,
+    "heard": "E se o vendedor desistir da venda depois de receber o sinal? O Código Civil já responde. Quem recebeu e não cumpre, devolve o sinal e mais o equivalente. E se quem pagou desiste, perde o sinal. Se o contrato prever o direito de se arrepender, o sinal virá só o preço da desistência. Antes de receber qualquer sinal, deixe escrito. O valor, para que ele serve e se existe arrependimento. Sinal sem papel vira briga. Sinal escrito vira compromisso. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 37.39,
+      "wpm": 146
+    },
+    "pausas_moldadas": {
+      "n": 17,
+      "max_s": 0.57
+    },
+    "pausas_encurtadas_s": 1.72,
+    "final": {
+      "seconds": 35.67,
+      "wpm": 153
+    }
+  }
+]
