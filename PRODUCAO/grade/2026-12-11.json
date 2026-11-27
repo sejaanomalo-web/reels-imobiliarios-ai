@@ -140,9 +140,10 @@
       "justificativaTrilha": "cama de explicação.",
       "episodio": "ATIVO-D1211-21",
       "roteiro": "ROTEIROS/ESTEIRA/2026-12-11/ATIVO-D1211-21_com_quem_esta_a_chave.md",
-      "status": "roteiro",
+      "status": "programado",
       "motivo": "substitui 'Nas fotos parecia maior' (repetia a tese de 02/12 21h; checagem de pauta repetida, 26/11/2026).",
-      "resultados": {}
+      "resultados": {},
+      "publicacao": "PUBLICACAO/2026/12-dezembro/semana-06-12/11-sexta/21h00"
     }
   ]
 }
