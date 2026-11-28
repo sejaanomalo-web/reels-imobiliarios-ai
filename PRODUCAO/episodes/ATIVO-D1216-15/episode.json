@@ -1,0 +1,496 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1216-15",
+ "lote": "D1216",
+ "title": "O trajeto no horário de pico",
+ "outputDir": "ATIVO_D1216_15",
+ "deliverables": {
+  "final": "ATIVO_D1216_15_FINAL.mp4",
+  "narration": "ATIVO_D1216_15_NARRACAO.wav",
+  "subtitles": "ATIVO_D1216_15_legendas.srt",
+  "cover": "ATIVO_D1216_15_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-16/ATIVO-D1216-15_o_trajeto_no_horario_de_pico.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-26",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O casal amou a casa, e descobriu o trânsito só depois da mudança.",
+   "caption": "O casal | *amou* a casa, | e descobriu | o *trânsito* | só depois | da *mudança.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "pesquisa",
+   "text": "Uma pesquisa alemã mostrou que quem gasta mais tempo indo ao trabalho está, em média, menos satisfeito com a vida.",
+   "caption": "Uma pesquisa *alemã* | mostrou que | quem gasta mais *tempo* | indo ao trabalho | está, em média, | menos *satisfeito* | com a vida.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "compensa",
+   "text": "E a casa bonita não compensa a hora perdida todo dia.",
+   "caption": "E a casa *bonita* | não *compensa* | a hora perdida | todo dia.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "O trajeto também faz parte do imóvel.",
+   "caption": "O *trajeto* | também faz parte | do *imóvel.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Antes de mostrar, calcule com o cliente o trajeto até o trabalho no horário de pico.",
+   "caption": "Antes de mostrar, | *calcule* com o cliente | o trajeto | até o *trabalho* | no horário | de *pico.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "A casa certa também é a que deixa tempo para viver nela.",
+   "caption": "A casa certa | também é a que | deixa *tempo* | para *viver* nela.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "pesquisa": 0.35,
+  "compensa": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_amou": {
+   "seg": "s1",
+   "word": "amou",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_transito": {
+   "seg": "s1",
+   "word": "trânsito",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_mudanca": {
+   "seg": "s1",
+   "word": "mudança",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_alema": {
+   "seg": "s2",
+   "word": "alemã",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_tempo": {
+   "seg": "s2",
+   "word": "tempo",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_satisfeito": {
+   "seg": "s2",
+   "word": "satisfeito",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_bonita": {
+   "seg": "s3",
+   "word": "bonita",
+   "edge": "start",
+   "offset": 0
+  },
+  "c_compensa": {
+   "seg": "s3",
+   "word": "compensa",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_trajeto": {
+   "seg": "s4",
+   "word": "trajeto",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_imovel": {
+   "seg": "s4",
+   "word": "imóvel",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_calcule": {
+   "seg": "s5",
+   "word": "calcule",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_trabalho": {
+   "seg": "s5",
+   "word": "trabalho",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_pico": {
+   "seg": "s5",
+   "word": "pico",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_tempo": {
+   "seg": "s6",
+   "word": "tempo",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_viver": {
+   "seg": "s6",
+   "word": "viver",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_amou",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "h_mudanca",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "p_tempo",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "c_bonita",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_trajeto",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_calcule",
+   "offset": 0.0,
+   "sound": "block",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_pico",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "d_viver",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.05,
+   "sound": "pop",
+   "gain": -27,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -25,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.75,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.85,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -26,
+   "pitch": 4
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.2,
+   "sound": "click",
+   "gain": -23,
+   "pitch": 5
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.28,
+   "sound": "shimmer",
+   "gain": -28
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_transito",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_trajeto",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:d_viver",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T02",
+  "ancoras": {
+   "virada": "cue:v_trajeto",
+   "insight": "cue:a_calcule",
+   "resolucao": "cue:d_viver"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "cartoon-explicativo",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "ideia",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "pull",
+  "justificativaModelo": "casal, relógio, fila de carros.",
+  "justificativaHorario": "15h: ideia aplicável na tarde.",
+  "trilha": "T02",
+  "justificativaTrilha": "arco emocional.",
+  "data": "2026-12-16",
+  "slot": "15:00",
+  "arquivo": "PRODUCAO/grade/2026-12-16.json"
+ },
+ "modelos4": true,
+ "modelo": 1,
+ "modeloNome": "Cartoon explicativo"
+}

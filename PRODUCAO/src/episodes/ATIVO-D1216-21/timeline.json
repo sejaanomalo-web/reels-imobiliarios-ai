@@ -1,0 +1,734 @@
+{
+ "id": "ATIVO-D1216-21",
+ "title": "O anúncio que ficou no ar",
+ "fps": 30,
+ "duration": 30.266666666666666,
+ "durationInFrames": 908,
+ "narrationEnd": 28.049,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.74
+  },
+  {
+   "id": "tres",
+   "start": 4.74,
+   "end": 8.33
+  },
+  {
+   "id": "isca",
+   "start": 8.33,
+   "end": 11.665
+  },
+  {
+   "id": "virada",
+   "start": 11.665,
+   "end": 14.56
+  },
+  {
+   "id": "acao",
+   "start": 14.56,
+   "end": 20.15
+  },
+  {
+   "id": "desfecho",
+   "start": 20.15,
+   "end": 22.99
+  },
+  {
+   "id": "cta",
+   "start": 22.99,
+   "end": 30.267
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O cliente ligou animado para visitar, e o imóvel já tinha sido vendido.",
+   "start": 0.12,
+   "end": 4.56
+  },
+  {
+   "id": "s2",
+   "scene": "tres",
+   "text": "O anúncio continuava no ar, em três lugares diferentes.",
+   "start": 4.92,
+   "end": 8.22
+  },
+  {
+   "id": "s3",
+   "scene": "isca",
+   "text": "Para quem liga, parece isca, mesmo sem ser.",
+   "start": 8.44,
+   "end": 11.45
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Anúncio esquecido também fala por você.",
+   "start": 11.88,
+   "end": 14.36
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "No dia da venda, tire o anúncio de todos os lugares, e anote onde ele estava publicado.",
+   "start": 14.76,
+   "end": 19.94
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Carteira atualizada é carteira confiável.",
+   "start": 20.36,
+   "end": 22.82
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 23.16,
+   "end": 27.61
+  }
+ ],
+ "cues": {
+  "h_animado": 1.08,
+  "h_vendido": 4.12,
+  "t_ar": 6.44,
+  "t_tres": 7.0,
+  "i_isca": 9.96,
+  "v_esquecido": 12.44,
+  "v_fala": 13.56,
+  "a_dia": 15.0,
+  "a_todos": 17.24,
+  "a_anote": 18.44,
+  "d_atualizada": 20.92,
+  "d_confiavel": 22.28,
+  "cta_quer": 23.16,
+  "cta_comment": 24.44,
+  "cta_word": 25.08,
+  "cta_tiles": 25.8,
+  "cta_sys": 26.6,
+  "cta_leads": 26.36,
+  "cta_atend": 27.0,
+  "cta_direct": 27.0,
+  "cta_end": 27.61
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.08,
+   "words": [
+    {
+     "text": "O",
+     "start": 0.12,
+     "end": 0.28,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 0.28,
+     "end": 0.6,
+     "emph": false
+    },
+    {
+     "text": "ligou",
+     "start": 0.6,
+     "end": 1.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.08,
+   "end": 2.44,
+   "words": [
+    {
+     "text": "animado",
+     "start": 1.08,
+     "end": 1.64,
+     "emph": true
+    },
+    {
+     "text": "para",
+     "start": 1.64,
+     "end": 1.8,
+     "emph": false
+    },
+    {
+     "text": "visitar,",
+     "start": 1.8,
+     "end": 2.27,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.44,
+   "end": 3.4,
+   "words": [
+    {
+     "text": "e",
+     "start": 2.44,
+     "end": 2.51,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 2.68,
+     "end": 2.76,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 2.76,
+     "end": 3.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.4,
+   "end": 4.12,
+   "words": [
+    {
+     "text": "já",
+     "start": 3.4,
+     "end": 3.56,
+     "emph": false
+    },
+    {
+     "text": "tinha",
+     "start": 3.56,
+     "end": 3.88,
+     "emph": false
+    },
+    {
+     "text": "sido",
+     "start": 3.88,
+     "end": 4.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.12,
+   "end": 4.92,
+   "words": [
+    {
+     "text": "vendido.",
+     "start": 4.12,
+     "end": 4.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.92,
+   "end": 5.64,
+   "words": [
+    {
+     "text": "O",
+     "start": 4.92,
+     "end": 5.08,
+     "emph": false
+    },
+    {
+     "text": "anúncio",
+     "start": 5.08,
+     "end": 5.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.64,
+   "end": 6.84,
+   "words": [
+    {
+     "text": "continuava",
+     "start": 5.64,
+     "end": 6.2,
+     "emph": false
+    },
+    {
+     "text": "no",
+     "start": 6.2,
+     "end": 6.44,
+     "emph": true
+    },
+    {
+     "text": "ar,",
+     "start": 6.44,
+     "end": 6.51,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.84,
+   "end": 7.64,
+   "words": [
+    {
+     "text": "em",
+     "start": 6.84,
+     "end": 7.0,
+     "emph": false
+    },
+    {
+     "text": "três",
+     "start": 7.0,
+     "end": 7.24,
+     "emph": true
+    },
+    {
+     "text": "lugares",
+     "start": 7.24,
+     "end": 7.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.64,
+   "end": 8.44,
+   "words": [
+    {
+     "text": "diferentes.",
+     "start": 7.64,
+     "end": 8.22,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.44,
+   "end": 9.48,
+   "words": [
+    {
+     "text": "Para",
+     "start": 8.44,
+     "end": 8.68,
+     "emph": false
+    },
+    {
+     "text": "quem",
+     "start": 8.68,
+     "end": 8.92,
+     "emph": false
+    },
+    {
+     "text": "liga,",
+     "start": 8.92,
+     "end": 9.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.48,
+   "end": 10.76,
+   "words": [
+    {
+     "text": "parece",
+     "start": 9.48,
+     "end": 9.96,
+     "emph": false
+    },
+    {
+     "text": "isca,",
+     "start": 9.96,
+     "end": 10.37,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.76,
+   "end": 11.88,
+   "words": [
+    {
+     "text": "mesmo",
+     "start": 10.76,
+     "end": 11.08,
+     "emph": false
+    },
+    {
+     "text": "sem",
+     "start": 11.08,
+     "end": 11.32,
+     "emph": false
+    },
+    {
+     "text": "ser.",
+     "start": 11.32,
+     "end": 11.45,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 11.88,
+   "end": 13.24,
+   "words": [
+    {
+     "text": "Anúncio",
+     "start": 11.88,
+     "end": 12.44,
+     "emph": false
+    },
+    {
+     "text": "esquecido",
+     "start": 12.44,
+     "end": 13.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.24,
+   "end": 13.56,
+   "words": [
+    {
+     "text": "também",
+     "start": 13.24,
+     "end": 13.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.56,
+   "end": 14.76,
+   "words": [
+    {
+     "text": "fala",
+     "start": 13.56,
+     "end": 13.96,
+     "emph": true
+    },
+    {
+     "text": "por",
+     "start": 13.96,
+     "end": 14.2,
+     "emph": true
+    },
+    {
+     "text": "você.",
+     "start": 14.2,
+     "end": 14.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 14.76,
+   "end": 15.88,
+   "words": [
+    {
+     "text": "No",
+     "start": 14.76,
+     "end": 15.0,
+     "emph": false
+    },
+    {
+     "text": "dia",
+     "start": 15.0,
+     "end": 15.24,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 15.24,
+     "end": 15.4,
+     "emph": true
+    },
+    {
+     "text": "venda,",
+     "start": 15.4,
+     "end": 15.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 15.88,
+   "end": 17.0,
+   "words": [
+    {
+     "text": "tire",
+     "start": 15.88,
+     "end": 16.36,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 16.36,
+     "end": 16.44,
+     "emph": false
+    },
+    {
+     "text": "anúncio",
+     "start": 16.44,
+     "end": 17.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.0,
+   "end": 18.28,
+   "words": [
+    {
+     "text": "de",
+     "start": 17.0,
+     "end": 17.07,
+     "emph": false
+    },
+    {
+     "text": "todos",
+     "start": 17.24,
+     "end": 17.56,
+     "emph": true
+    },
+    {
+     "text": "os",
+     "start": 17.56,
+     "end": 17.72,
+     "emph": true
+    },
+    {
+     "text": "lugares,",
+     "start": 17.72,
+     "end": 18.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.28,
+   "end": 19.0,
+   "words": [
+    {
+     "text": "e",
+     "start": 18.28,
+     "end": 18.44,
+     "emph": false
+    },
+    {
+     "text": "anote",
+     "start": 18.44,
+     "end": 19.0,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.0,
+   "end": 19.56,
+   "words": [
+    {
+     "text": "onde",
+     "start": 19.0,
+     "end": 19.16,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 19.16,
+     "end": 19.32,
+     "emph": false
+    },
+    {
+     "text": "estava",
+     "start": 19.32,
+     "end": 19.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.56,
+   "end": 20.36,
+   "words": [
+    {
+     "text": "publicado.",
+     "start": 19.56,
+     "end": 19.94,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 20.36,
+   "end": 21.56,
+   "words": [
+    {
+     "text": "Carteira",
+     "start": 20.36,
+     "end": 20.92,
+     "emph": false
+    },
+    {
+     "text": "atualizada",
+     "start": 20.92,
+     "end": 21.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 21.56,
+   "end": 22.28,
+   "words": [
+    {
+     "text": "é",
+     "start": 21.56,
+     "end": 21.72,
+     "emph": false
+    },
+    {
+     "text": "carteira",
+     "start": 21.72,
+     "end": 22.11,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.28,
+   "end": 23.16,
+   "words": [
+    {
+     "text": "confiável.",
+     "start": 22.28,
+     "end": 22.82,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 23.16,
+   "end": 24.44,
+   "words": [
+    {
+     "text": "Se",
+     "start": 23.16,
+     "end": 23.23,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 23.4,
+     "end": 23.56,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 23.56,
+     "end": 23.72,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 23.72,
+     "end": 24.26,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 24.44,
+   "end": 25.64,
+   "words": [
+    {
+     "text": "comente",
+     "start": 24.44,
+     "end": 25.08,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 25.08,
+     "end": 25.64,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 25.64,
+   "end": 26.6,
+   "words": [
+    {
+     "text": "e",
+     "start": 25.64,
+     "end": 25.8,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 25.8,
+     "end": 26.36,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 26.36,
+     "end": 26.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.6,
+   "end": 28.11,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 26.6,
+     "end": 27.0,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 27.0,
+     "end": 27.61,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

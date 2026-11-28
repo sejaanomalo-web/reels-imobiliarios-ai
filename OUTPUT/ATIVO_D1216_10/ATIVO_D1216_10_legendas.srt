@@ -1,0 +1,59 @@
+1
+00:00:00,120 --> 00:00:01,780
+O cliente chegou na hora,
+
+2
+00:00:01,800 --> 00:00:03,670
+e a portaria não deixou entrar.
+
+3
+00:00:03,800 --> 00:00:04,900
+Ninguém tinha avisado,
+
+4
+00:00:04,920 --> 00:00:06,460
+e o porteiro estava certo.
+
+5
+00:00:06,840 --> 00:00:08,740
+Dez minutos na calçada,
+
+6
+00:00:08,760 --> 00:00:10,700
+e a visita já começou errada.
+
+7
+00:00:10,920 --> 00:00:13,230
+A visita começa na portaria.
+
+8
+00:00:13,400 --> 00:00:15,780
+Na véspera, avise a portaria
+
+9
+00:00:15,800 --> 00:00:16,980
+com o nome do cliente,
+
+10
+00:00:17,000 --> 00:00:19,020
+o horário e o apartamento.
+
+11
+00:00:19,240 --> 00:00:21,700
+Cliente que entra sem esperar entra de
+
+12
+00:00:21,720 --> 00:00:22,470
+bom humor.
+
+13
+00:00:22,600 --> 00:00:23,780
+Se você é corretor,
+
+14
+00:00:23,800 --> 00:00:26,180
+comente SISTEMA e conheça nosso
+
+15
+00:00:26,200 --> 00:00:27,520
+sistema personalizado.

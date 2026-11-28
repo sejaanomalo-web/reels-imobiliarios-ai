@@ -1,0 +1,70 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 6.61,
+    "palavras_nao_reconhecidas": [
+      "Sydney",
+      "1963",
+      "sete"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.87,
+    "palavras_nao_reconhecidas": [
+      "1973",
+      "custou",
+      "cento",
+      "dois"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.5,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.45,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 6.04,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.71,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.39,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 33.13,
+    "asr_match": 0.91,
+    "aligned_words": "71/79",
+    "words_per_min": 143,
+    "heard": "A ópera de Sidney deveria ficar pronta em 1963 e custar 7 milhões de dólares australianos. Ficou pronta em 1973 e custo 102 milhões. Virou um símbolo e também o exemplo clássico de promessa otimista. Prazo prometido sem folga vira cobrança. Ao prometer prazo de documentação ou de financiamento, some uma folga e diga a data já com ela. Quem entrega antes do prometido ganha confiança. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 34.07,
+      "wpm": 139
+    },
+    "pausas_moldadas": {
+      "n": 9,
+      "max_s": 0.53
+    },
+    "pausas_encurtadas_s": 0.94,
+    "final": {
+      "seconds": 33.13,
+      "wpm": 143
+    }
+  }
+]

@@ -1,0 +1,905 @@
+{
+ "id": "ATIVO-D1216-15",
+ "title": "O trajeto no horário de pico",
+ "fps": 30,
+ "duration": 34.53333333333333,
+ "durationInFrames": 1036,
+ "narrationEnd": 32.305,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.755
+  },
+  {
+   "id": "pesquisa",
+   "start": 4.755,
+   "end": 11.115
+  },
+  {
+   "id": "compensa",
+   "start": 11.115,
+   "end": 14.885
+  },
+  {
+   "id": "virada",
+   "start": 14.885,
+   "end": 17.675
+  },
+  {
+   "id": "acao",
+   "start": 17.675,
+   "end": 22.65
+  },
+  {
+   "id": "desfecho",
+   "start": 22.65,
+   "end": 26.66
+  },
+  {
+   "id": "cta",
+   "start": 26.66,
+   "end": 34.533
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O casal amou a casa, e descobriu o trânsito só depois da mudança.",
+   "start": 0.12,
+   "end": 4.59
+  },
+  {
+   "id": "s2",
+   "scene": "pesquisa",
+   "text": "Uma pesquisa alemã mostrou que quem gasta mais tempo indo ao trabalho está, em média, menos satisfeito com a vida.",
+   "start": 4.92,
+   "end": 10.99
+  },
+  {
+   "id": "s3",
+   "scene": "compensa",
+   "text": "E a casa bonita não compensa a hora perdida todo dia.",
+   "start": 11.24,
+   "end": 14.77
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "O trajeto também faz parte do imóvel.",
+   "start": 15.0,
+   "end": 17.47
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Antes de mostrar, calcule com o cliente o trajeto até o trabalho no horário de pico.",
+   "start": 17.88,
+   "end": 22.46
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "A casa certa também é a que deixa tempo para viver nela.",
+   "start": 22.84,
+   "end": 26.48
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 26.84,
+   "end": 31.89
+  }
+ ],
+ "cues": {
+  "h_amou": 0.84,
+  "h_transito": 2.84,
+  "h_mudanca": 4.12,
+  "p_alema": 5.56,
+  "p_tempo": 7.32,
+  "p_satisfeito": 9.96,
+  "c_bonita": 11.88,
+  "c_compensa": 12.6,
+  "v_trajeto": 15.16,
+  "v_imovel": 17.08,
+  "a_calcule": 19.0,
+  "a_trabalho": 21.08,
+  "a_pico": 22.12,
+  "d_tempo": 25.16,
+  "d_viver": 25.72,
+  "cta_quer": 26.84,
+  "cta_comment": 28.04,
+  "cta_word": 28.76,
+  "cta_tiles": 29.56,
+  "cta_sys": 30.52,
+  "cta_leads": 30.12,
+  "cta_atend": 31.08,
+  "cta_direct": 31.08,
+  "cta_end": 31.89
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.84,
+   "words": [
+    {
+     "text": "O",
+     "start": 0.12,
+     "end": 0.36,
+     "emph": false
+    },
+    {
+     "text": "casal",
+     "start": 0.36,
+     "end": 0.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.84,
+   "end": 1.88,
+   "words": [
+    {
+     "text": "amou",
+     "start": 0.84,
+     "end": 1.32,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 1.32,
+     "end": 1.4,
+     "emph": false
+    },
+    {
+     "text": "casa,",
+     "start": 1.4,
+     "end": 1.73,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.88,
+   "end": 2.76,
+   "words": [
+    {
+     "text": "e",
+     "start": 1.88,
+     "end": 1.95,
+     "emph": false
+    },
+    {
+     "text": "descobriu",
+     "start": 2.2,
+     "end": 2.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.76,
+   "end": 3.32,
+   "words": [
+    {
+     "text": "o",
+     "start": 2.76,
+     "end": 2.84,
+     "emph": false
+    },
+    {
+     "text": "trânsito",
+     "start": 2.84,
+     "end": 3.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.32,
+   "end": 3.96,
+   "words": [
+    {
+     "text": "só",
+     "start": 3.32,
+     "end": 3.64,
+     "emph": false
+    },
+    {
+     "text": "depois",
+     "start": 3.64,
+     "end": 3.71,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.96,
+   "end": 4.92,
+   "words": [
+    {
+     "text": "da",
+     "start": 3.96,
+     "end": 4.12,
+     "emph": false
+    },
+    {
+     "text": "mudança.",
+     "start": 4.12,
+     "end": 4.59,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.92,
+   "end": 6.04,
+   "words": [
+    {
+     "text": "Uma",
+     "start": 4.92,
+     "end": 4.99,
+     "emph": false
+    },
+    {
+     "text": "pesquisa",
+     "start": 5.16,
+     "end": 5.56,
+     "emph": false
+    },
+    {
+     "text": "alemã",
+     "start": 5.56,
+     "end": 6.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.04,
+   "end": 6.52,
+   "words": [
+    {
+     "text": "mostrou",
+     "start": 6.04,
+     "end": 6.36,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 6.36,
+     "end": 6.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.52,
+   "end": 7.56,
+   "words": [
+    {
+     "text": "quem",
+     "start": 6.52,
+     "end": 6.76,
+     "emph": false
+    },
+    {
+     "text": "gasta",
+     "start": 6.76,
+     "end": 7.16,
+     "emph": false
+    },
+    {
+     "text": "mais",
+     "start": 7.16,
+     "end": 7.32,
+     "emph": false
+    },
+    {
+     "text": "tempo",
+     "start": 7.32,
+     "end": 7.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.56,
+   "end": 8.52,
+   "words": [
+    {
+     "text": "indo",
+     "start": 7.56,
+     "end": 7.88,
+     "emph": false
+    },
+    {
+     "text": "ao",
+     "start": 7.88,
+     "end": 8.04,
+     "emph": false
+    },
+    {
+     "text": "trabalho",
+     "start": 8.04,
+     "end": 8.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.52,
+   "end": 9.56,
+   "words": [
+    {
+     "text": "está,",
+     "start": 8.52,
+     "end": 8.76,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 8.76,
+     "end": 8.92,
+     "emph": false
+    },
+    {
+     "text": "média,",
+     "start": 8.92,
+     "end": 9.23,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.56,
+   "end": 10.6,
+   "words": [
+    {
+     "text": "menos",
+     "start": 9.56,
+     "end": 9.96,
+     "emph": false
+    },
+    {
+     "text": "satisfeito",
+     "start": 9.96,
+     "end": 10.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.6,
+   "end": 11.24,
+   "words": [
+    {
+     "text": "com",
+     "start": 10.6,
+     "end": 10.76,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 10.76,
+     "end": 10.84,
+     "emph": false
+    },
+    {
+     "text": "vida.",
+     "start": 10.84,
+     "end": 10.99,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.24,
+   "end": 12.36,
+   "words": [
+    {
+     "text": "E",
+     "start": 11.24,
+     "end": 11.31,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 11.48,
+     "end": 11.56,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 11.56,
+     "end": 11.88,
+     "emph": false
+    },
+    {
+     "text": "bonita",
+     "start": 11.88,
+     "end": 12.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.36,
+   "end": 13.16,
+   "words": [
+    {
+     "text": "não",
+     "start": 12.36,
+     "end": 12.6,
+     "emph": false
+    },
+    {
+     "text": "compensa",
+     "start": 12.6,
+     "end": 13.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.16,
+   "end": 14.2,
+   "words": [
+    {
+     "text": "a",
+     "start": 13.16,
+     "end": 13.24,
+     "emph": false
+    },
+    {
+     "text": "hora",
+     "start": 13.24,
+     "end": 13.56,
+     "emph": false
+    },
+    {
+     "text": "perdida",
+     "start": 13.56,
+     "end": 14.01,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.2,
+   "end": 15.0,
+   "words": [
+    {
+     "text": "todo",
+     "start": 14.2,
+     "end": 14.52,
+     "emph": false
+    },
+    {
+     "text": "dia.",
+     "start": 14.52,
+     "end": 14.77,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.0,
+   "end": 15.88,
+   "words": [
+    {
+     "text": "O",
+     "start": 15.0,
+     "end": 15.16,
+     "emph": false
+    },
+    {
+     "text": "trajeto",
+     "start": 15.16,
+     "end": 15.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.88,
+   "end": 16.92,
+   "words": [
+    {
+     "text": "também",
+     "start": 15.88,
+     "end": 16.28,
+     "emph": false
+    },
+    {
+     "text": "faz",
+     "start": 16.28,
+     "end": 16.6,
+     "emph": false
+    },
+    {
+     "text": "parte",
+     "start": 16.6,
+     "end": 16.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.92,
+   "end": 17.88,
+   "words": [
+    {
+     "text": "do",
+     "start": 16.92,
+     "end": 17.08,
+     "emph": false
+    },
+    {
+     "text": "imóvel.",
+     "start": 17.08,
+     "end": 17.47,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.88,
+   "end": 19.0,
+   "words": [
+    {
+     "text": "Antes",
+     "start": 17.88,
+     "end": 18.2,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 18.2,
+     "end": 18.36,
+     "emph": false
+    },
+    {
+     "text": "mostrar,",
+     "start": 18.36,
+     "end": 18.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.0,
+   "end": 20.2,
+   "words": [
+    {
+     "text": "calcule",
+     "start": 19.0,
+     "end": 19.56,
+     "emph": true
+    },
+    {
+     "text": "com",
+     "start": 19.56,
+     "end": 19.72,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 19.72,
+     "end": 19.8,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 19.8,
+     "end": 20.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.2,
+   "end": 20.76,
+   "words": [
+    {
+     "text": "o",
+     "start": 20.2,
+     "end": 20.28,
+     "emph": false
+    },
+    {
+     "text": "trajeto",
+     "start": 20.28,
+     "end": 20.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.76,
+   "end": 21.48,
+   "words": [
+    {
+     "text": "até",
+     "start": 20.76,
+     "end": 21.0,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 21.0,
+     "end": 21.08,
+     "emph": false
+    },
+    {
+     "text": "trabalho",
+     "start": 21.08,
+     "end": 21.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.48,
+   "end": 21.96,
+   "words": [
+    {
+     "text": "no",
+     "start": 21.48,
+     "end": 21.64,
+     "emph": false
+    },
+    {
+     "text": "horário",
+     "start": 21.64,
+     "end": 21.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.96,
+   "end": 22.84,
+   "words": [
+    {
+     "text": "de",
+     "start": 21.96,
+     "end": 22.12,
+     "emph": false
+    },
+    {
+     "text": "pico.",
+     "start": 22.12,
+     "end": 22.46,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.84,
+   "end": 23.8,
+   "words": [
+    {
+     "text": "A",
+     "start": 22.84,
+     "end": 23.0,
+     "emph": false
+    },
+    {
+     "text": "casa",
+     "start": 23.0,
+     "end": 23.4,
+     "emph": false
+    },
+    {
+     "text": "certa",
+     "start": 23.4,
+     "end": 23.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.8,
+   "end": 24.68,
+   "words": [
+    {
+     "text": "também",
+     "start": 23.8,
+     "end": 24.2,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 24.2,
+     "end": 24.36,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 24.36,
+     "end": 24.44,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 24.44,
+     "end": 24.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.68,
+   "end": 25.48,
+   "words": [
+    {
+     "text": "deixa",
+     "start": 24.68,
+     "end": 24.93,
+     "emph": false
+    },
+    {
+     "text": "tempo",
+     "start": 25.16,
+     "end": 25.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.48,
+   "end": 26.84,
+   "words": [
+    {
+     "text": "para",
+     "start": 25.48,
+     "end": 25.72,
+     "emph": false
+    },
+    {
+     "text": "viver",
+     "start": 25.72,
+     "end": 26.2,
+     "emph": true
+    },
+    {
+     "text": "nela.",
+     "start": 26.2,
+     "end": 26.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.84,
+   "end": 28.04,
+   "words": [
+    {
+     "text": "Se",
+     "start": 26.84,
+     "end": 27.0,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 27.0,
+     "end": 27.24,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 27.24,
+     "end": 27.4,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 27.4,
+     "end": 27.85,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.04,
+   "end": 29.4,
+   "words": [
+    {
+     "text": "comente",
+     "start": 28.04,
+     "end": 28.76,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 28.76,
+     "end": 29.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.4,
+   "end": 30.52,
+   "words": [
+    {
+     "text": "e",
+     "start": 29.4,
+     "end": 29.56,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 29.56,
+     "end": 30.12,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 30.12,
+     "end": 30.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.52,
+   "end": 32.39,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 30.52,
+     "end": 30.87,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 31.08,
+     "end": 31.89,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

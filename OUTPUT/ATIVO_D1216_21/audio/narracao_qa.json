@@ -1,0 +1,61 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.44,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.3,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.01,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.48,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.18,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.46,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.45,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 27.93,
+    "asr_match": 0.993,
+    "aligned_words": "69/69",
+    "words_per_min": 148,
+    "heard": "o cliente ligou animado para visitar. E o imóvel já tinha sido vendido. O anúncio continuava no ar, em três lugares diferentes. Para quem liga, parece isca. Mesmo sem ser. Anúncio esquecido também fala por você. No dia da venda, tire o anúncio de todos os lugares. E anote onde ele estava publicado. Carteira atualizada é carteira confiável. Se você é corretor, comente Sistema e conheça o nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 29.6,
+      "wpm": 140
+    },
+    "pausas_moldadas": {
+      "n": 16,
+      "max_s": 0.56
+    },
+    "pausas_encurtadas_s": 1.67,
+    "final": {
+      "seconds": 27.93,
+      "wpm": 148
+    }
+  }
+]

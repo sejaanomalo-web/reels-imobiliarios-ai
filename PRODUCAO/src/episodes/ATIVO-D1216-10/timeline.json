@@ -1,0 +1,724 @@
+{
+ "id": "ATIVO-D1216-10",
+ "title": "A portaria",
+ "fps": 30,
+ "duration": 29.966666666666665,
+ "durationInFrames": 899,
+ "narrationEnd": 27.747,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 3.635
+  },
+  {
+   "id": "certo",
+   "start": 3.635,
+   "end": 6.55
+  },
+  {
+   "id": "calcada",
+   "start": 6.55,
+   "end": 10.71
+  },
+  {
+   "id": "virada",
+   "start": 10.71,
+   "end": 13.215
+  },
+  {
+   "id": "acao",
+   "start": 13.215,
+   "end": 19.03
+  },
+  {
+   "id": "desfecho",
+   "start": 19.03,
+   "end": 22.435
+  },
+  {
+   "id": "cta",
+   "start": 22.435,
+   "end": 29.967
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O cliente chegou na hora, e a portaria não deixou entrar.",
+   "start": 0.12,
+   "end": 3.47
+  },
+  {
+   "id": "s2",
+   "scene": "certo",
+   "text": "Ninguém tinha avisado, e o porteiro estava certo.",
+   "start": 3.8,
+   "end": 6.26
+  },
+  {
+   "id": "s3",
+   "scene": "calcada",
+   "text": "Dez minutos na calçada, e a visita já começou errada.",
+   "start": 6.84,
+   "end": 10.5
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "A visita começa na portaria.",
+   "start": 10.92,
+   "end": 13.03
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Na véspera, avise a portaria com o nome do cliente, o horário e o apartamento.",
+   "start": 13.4,
+   "end": 18.82
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Cliente que entra sem esperar entra de bom humor.",
+   "start": 19.24,
+   "end": 22.27
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 22.6,
+   "end": 27.32
+  }
+ ],
+ "cues": {
+  "h_hora": 1.4,
+  "h_portaria": 2.12,
+  "h_entrar": 3.24,
+  "c_avisado": 4.36,
+  "c_certo": 6.04,
+  "k_dez": 6.84,
+  "k_calcada": 8.04,
+  "k_errada": 10.2,
+  "v_comeca": 11.64,
+  "v_portaria": 12.36,
+  "a_vespera": 13.64,
+  "a_nome": 16.04,
+  "a_horario": 17.16,
+  "a_apartamento": 18.12,
+  "d_esperar": 20.44,
+  "d_humor": 21.96,
+  "cta_quer": 22.6,
+  "cta_comment": 23.8,
+  "cta_word": 24.52,
+  "cta_tiles": 25.24,
+  "cta_sys": 26.2,
+  "cta_leads": 25.88,
+  "cta_atend": 26.6,
+  "cta_direct": 26.6,
+  "cta_end": 27.32
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.76,
+   "words": [
+    {
+     "text": "O",
+     "start": 0.12,
+     "end": 0.28,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 0.28,
+     "end": 0.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.76,
+   "end": 1.8,
+   "words": [
+    {
+     "text": "chegou",
+     "start": 0.76,
+     "end": 1.16,
+     "emph": false
+    },
+    {
+     "text": "na",
+     "start": 1.16,
+     "end": 1.4,
+     "emph": false
+    },
+    {
+     "text": "hora,",
+     "start": 1.4,
+     "end": 1.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.8,
+   "end": 2.68,
+   "words": [
+    {
+     "text": "e",
+     "start": 1.8,
+     "end": 1.96,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 1.96,
+     "end": 2.12,
+     "emph": false
+    },
+    {
+     "text": "portaria",
+     "start": 2.12,
+     "end": 2.68,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.68,
+   "end": 3.8,
+   "words": [
+    {
+     "text": "não",
+     "start": 2.68,
+     "end": 2.76,
+     "emph": false
+    },
+    {
+     "text": "deixou",
+     "start": 2.76,
+     "end": 3.24,
+     "emph": false
+    },
+    {
+     "text": "entrar.",
+     "start": 3.24,
+     "end": 3.47,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 3.8,
+   "end": 4.92,
+   "words": [
+    {
+     "text": "Ninguém",
+     "start": 3.8,
+     "end": 4.12,
+     "emph": false
+    },
+    {
+     "text": "tinha",
+     "start": 4.12,
+     "end": 4.36,
+     "emph": false
+    },
+    {
+     "text": "avisado,",
+     "start": 4.36,
+     "end": 4.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.92,
+   "end": 5.72,
+   "words": [
+    {
+     "text": "e",
+     "start": 4.92,
+     "end": 5.08,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 5.08,
+     "end": 5.24,
+     "emph": false
+    },
+    {
+     "text": "porteiro",
+     "start": 5.24,
+     "end": 5.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.72,
+   "end": 6.61,
+   "words": [
+    {
+     "text": "estava",
+     "start": 5.72,
+     "end": 6.04,
+     "emph": false
+    },
+    {
+     "text": "certo.",
+     "start": 6.04,
+     "end": 6.26,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 6.84,
+   "end": 7.8,
+   "words": [
+    {
+     "text": "Dez",
+     "start": 6.84,
+     "end": 7.32,
+     "emph": true
+    },
+    {
+     "text": "minutos",
+     "start": 7.32,
+     "end": 7.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 7.8,
+   "end": 8.76,
+   "words": [
+    {
+     "text": "na",
+     "start": 7.8,
+     "end": 8.04,
+     "emph": false
+    },
+    {
+     "text": "calçada,",
+     "start": 8.04,
+     "end": 8.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.76,
+   "end": 9.48,
+   "words": [
+    {
+     "text": "e",
+     "start": 8.76,
+     "end": 8.92,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 8.92,
+     "end": 9.08,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 9.08,
+     "end": 9.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.48,
+   "end": 10.92,
+   "words": [
+    {
+     "text": "já",
+     "start": 9.48,
+     "end": 9.64,
+     "emph": false
+    },
+    {
+     "text": "começou",
+     "start": 9.64,
+     "end": 10.2,
+     "emph": false
+    },
+    {
+     "text": "errada.",
+     "start": 10.2,
+     "end": 10.5,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 10.92,
+   "end": 12.12,
+   "words": [
+    {
+     "text": "A",
+     "start": 10.92,
+     "end": 11.08,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 11.08,
+     "end": 11.64,
+     "emph": false
+    },
+    {
+     "text": "começa",
+     "start": 11.64,
+     "end": 12.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.12,
+   "end": 13.4,
+   "words": [
+    {
+     "text": "na",
+     "start": 12.12,
+     "end": 12.36,
+     "emph": false
+    },
+    {
+     "text": "portaria.",
+     "start": 12.36,
+     "end": 13.03,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 13.4,
+   "end": 14.6,
+   "words": [
+    {
+     "text": "Na",
+     "start": 13.4,
+     "end": 13.64,
+     "emph": false
+    },
+    {
+     "text": "véspera,",
+     "start": 13.64,
+     "end": 14.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 14.6,
+   "end": 15.8,
+   "words": [
+    {
+     "text": "avise",
+     "start": 14.6,
+     "end": 15.16,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 15.16,
+     "end": 15.24,
+     "emph": false
+    },
+    {
+     "text": "portaria",
+     "start": 15.24,
+     "end": 15.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 15.8,
+   "end": 17.0,
+   "words": [
+    {
+     "text": "com",
+     "start": 15.8,
+     "end": 15.96,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 15.96,
+     "end": 16.04,
+     "emph": false
+    },
+    {
+     "text": "nome",
+     "start": 16.04,
+     "end": 16.28,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 16.28,
+     "end": 16.44,
+     "emph": false
+    },
+    {
+     "text": "cliente,",
+     "start": 16.44,
+     "end": 16.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.0,
+   "end": 17.72,
+   "words": [
+    {
+     "text": "o",
+     "start": 17.0,
+     "end": 17.16,
+     "emph": false
+    },
+    {
+     "text": "horário",
+     "start": 17.16,
+     "end": 17.59,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.72,
+   "end": 19.24,
+   "words": [
+    {
+     "text": "e",
+     "start": 17.72,
+     "end": 17.8,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 17.96,
+     "end": 18.12,
+     "emph": false
+    },
+    {
+     "text": "apartamento.",
+     "start": 18.12,
+     "end": 18.82,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 19.24,
+   "end": 20.2,
+   "words": [
+    {
+     "text": "Cliente",
+     "start": 19.24,
+     "end": 19.64,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 19.64,
+     "end": 19.8,
+     "emph": false
+    },
+    {
+     "text": "entra",
+     "start": 19.8,
+     "end": 20.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 20.2,
+   "end": 21.16,
+   "words": [
+    {
+     "text": "sem",
+     "start": 20.2,
+     "end": 20.44,
+     "emph": false
+    },
+    {
+     "text": "esperar",
+     "start": 20.44,
+     "end": 20.92,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 21.16,
+   "end": 21.72,
+   "words": [
+    {
+     "text": "entra",
+     "start": 21.16,
+     "end": 21.56,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 21.56,
+     "end": 21.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 21.72,
+   "end": 22.6,
+   "words": [
+    {
+     "text": "bom",
+     "start": 21.72,
+     "end": 21.96,
+     "emph": true
+    },
+    {
+     "text": "humor.",
+     "start": 21.96,
+     "end": 22.27,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 22.6,
+   "end": 23.8,
+   "words": [
+    {
+     "text": "Se",
+     "start": 22.6,
+     "end": 22.76,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 22.76,
+     "end": 22.92,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 22.92,
+     "end": 23.08,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 23.08,
+     "end": 23.58,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 23.8,
+   "end": 25.08,
+   "words": [
+    {
+     "text": "comente",
+     "start": 23.8,
+     "end": 24.52,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 24.52,
+     "end": 25.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 25.08,
+   "end": 26.2,
+   "words": [
+    {
+     "text": "e",
+     "start": 25.08,
+     "end": 25.24,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 25.24,
+     "end": 25.88,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 25.88,
+     "end": 26.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.2,
+   "end": 27.82,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 26.2,
+     "end": 26.6,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 26.6,
+     "end": 27.32,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

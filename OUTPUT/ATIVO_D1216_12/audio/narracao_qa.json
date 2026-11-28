@@ -1,0 +1,67 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 5.22,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 7.61,
+    "palavras_nao_reconhecidas": [
+      "1994",
+      "oitenta",
+      "cinco",
+      "por",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.69,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.05,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.74,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.06,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 32.37,
+    "asr_match": 0.956,
+    "aligned_words": "86/92",
+    "words_per_min": 171,
+    "heard": "No Japão, os maquinistas apontam para o sinal e falam o que estão vendo em voz alta. Parece exagero, mas num estudo de 1994, apontar e falar reduziu os erros em cerca de 85%. O gesto obriga a atenção a parar em cada item. Conferência em silêncio deixa passar. Na entrega das chaves e na conferência dos documentos, aponte cada item e fale em voz alta. O que é dito em voz alta não fica para trás. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 33.51,
+      "wpm": 165
+    },
+    "pausas_moldadas": {
+      "n": 11,
+      "max_s": 0.55
+    },
+    "pausas_encurtadas_s": 1.14,
+    "final": {
+      "seconds": 32.37,
+      "wpm": 171
+    }
+  }
+]

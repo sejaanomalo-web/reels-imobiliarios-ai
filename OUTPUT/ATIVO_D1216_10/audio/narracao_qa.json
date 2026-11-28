@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.35,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 2.46,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.66,
+    "palavras_nao_reconhecidas": [
+      "Dez"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.11,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.42,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.03,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 27.63,
+    "asr_match": 0.986,
+    "aligned_words": "68/69",
+    "words_per_min": 150,
+    "heard": "O cliente chegou na hora e a portaria não deixou entrar. Ninguém tinha avisado. E o porteiro estava certo. 10 minutos na calçada e a visita já começou errada. A visita começa na portaria. Na véspera, avise a portaria com o nome do cliente, o horário e o apartamento. Cliente que entra sem esperar, entra de bom humor. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 28.87,
+      "wpm": 143
+    },
+    "pausas_moldadas": {
+      "n": 11,
+      "max_s": 0.53
+    },
+    "pausas_encurtadas_s": 1.24,
+    "final": {
+      "seconds": 27.63,
+      "wpm": 150
+    }
+  }
+]

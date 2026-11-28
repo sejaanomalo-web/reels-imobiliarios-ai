@@ -1,0 +1,482 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema",
+  "1963": "mil novecentos e sessenta e três",
+  "1973": "mil novecentos e setenta e três"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1216-18",
+ "lote": "D1216",
+ "title": "A ópera que atrasou",
+ "outputDir": "ATIVO_D1216_18",
+ "deliverables": {
+  "final": "ATIVO_D1216_18_FINAL.mp4",
+  "narration": "ATIVO_D1216_18_NARRACAO.wav",
+  "subtitles": "ATIVO_D1216_18_legendas.srt",
+  "cover": "ATIVO_D1216_18_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-16/ATIVO-D1216-18_a_opera_que_atrasou.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-26",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A Ópera de Sydney deveria ficar pronta em 1963 e custar sete milhões de dólares australianos.",
+   "caption": "A *Ópera de Sydney* | deveria ficar pronta | em *1963* | e custar | *sete milhões* | de dólares australianos.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "real",
+   "text": "Ficou pronta em 1973, e custou cento e dois milhões.",
+   "caption": "Ficou pronta | em *1973,* | e custou | *cento e dois milhões.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "simbolo",
+   "text": "Virou um símbolo, e também o exemplo clássico de promessa otimista.",
+   "caption": "Virou um *símbolo,* | e também | o exemplo clássico | de promessa *otimista.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Prazo prometido sem folga vira cobrança.",
+   "caption": "Prazo prometido | sem *folga* | vira *cobrança.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Ao prometer prazo de documentação ou de financiamento, some uma folga e diga a data já com ela.",
+   "caption": "Ao prometer prazo | de *documentação* | ou de *financiamento,* | some uma *folga* | e diga a data | já com ela.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Quem entrega antes do prometido ganha confiança.",
+   "caption": "Quem entrega | *antes* do prometido | ganha *confiança.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "real": 0.35,
+  "simbolo": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_opera": {
+   "seg": "s1",
+   "word": "Ópera",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_1963": {
+   "seg": "s1",
+   "word": "1963",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_sete": {
+   "seg": "s1",
+   "word": "sete",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_1973": {
+   "seg": "s2",
+   "word": "1973",
+   "edge": "start",
+   "offset": 0
+  },
+  "r_cento": {
+   "seg": "s2",
+   "word": "cento",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_simbolo": {
+   "seg": "s3",
+   "word": "símbolo",
+   "edge": "start",
+   "offset": 0
+  },
+  "s_otimista": {
+   "seg": "s3",
+   "word": "otimista",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_folga": {
+   "seg": "s4",
+   "word": "folga",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_cobranca": {
+   "seg": "s4",
+   "word": "cobrança",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_documentacao": {
+   "seg": "s5",
+   "word": "documentação",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_financiamento": {
+   "seg": "s5",
+   "word": "financiamento",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_folga": {
+   "seg": "s5",
+   "word": "folga",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_data": {
+   "seg": "s5",
+   "word": "data",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_antes": {
+   "seg": "s6",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_confianca": {
+   "seg": "s6",
+   "word": "confiança",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_opera",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "h_sete",
+   "offset": 0.0,
+   "sound": "click",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "r_cento",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "s_otimista",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_cobranca",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_financiamento",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_data",
+   "offset": -0.05,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "d_confianca",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.85,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_1963",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_folga",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:d_confianca",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T03",
+  "ancoras": {
+   "virada": "cue:v_folga",
+   "insight": "cue:a_documentacao",
+   "resolucao": "cue:d_confianca"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "planta-tecnica",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "historia",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "cotas que se esticam na prancha.",
+  "justificativaHorario": "18h: história no fim do dia.",
+  "trilha": "T03",
+  "justificativaTrilha": "arco de descoberta.",
+  "data": "2026-12-16",
+  "slot": "18:00",
+  "arquivo": "PRODUCAO/grade/2026-12-16.json"
+ },
+ "modelos4": true,
+ "modelo": 3,
+ "modeloNome": "Planta técnica"
+}

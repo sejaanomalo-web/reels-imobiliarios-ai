@@ -1,0 +1,811 @@
+{
+ "id": "ATIVO-D1216-18",
+ "title": "A ópera que atrasou",
+ "fps": 30,
+ "duration": 35.46666666666667,
+ "durationInFrames": 1064,
+ "narrationEnd": 33.255,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.865
+  },
+  {
+   "id": "real",
+   "start": 6.865,
+   "end": 12.075
+  },
+  {
+   "id": "simbolo",
+   "start": 12.075,
+   "end": 15.99
+  },
+  {
+   "id": "virada",
+   "start": 15.99,
+   "end": 18.865
+  },
+  {
+   "id": "acao",
+   "start": 18.865,
+   "end": 25.22
+  },
+  {
+   "id": "desfecho",
+   "start": 25.22,
+   "end": 28.195
+  },
+  {
+   "id": "cta",
+   "start": 28.195,
+   "end": 35.467
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "A Ópera de Sydney deveria ficar pronta em 1963 e custar sete milhões de dólares australianos.",
+   "start": 0.12,
+   "end": 6.73
+  },
+  {
+   "id": "s2",
+   "scene": "real",
+   "text": "Ficou pronta em 1973, e custou cento e dois milhões.",
+   "start": 7.0,
+   "end": 11.87
+  },
+  {
+   "id": "s3",
+   "scene": "simbolo",
+   "text": "Virou um símbolo, e também o exemplo clássico de promessa otimista.",
+   "start": 12.28,
+   "end": 15.78
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Prazo prometido sem folga vira cobrança.",
+   "start": 16.2,
+   "end": 18.65
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Ao prometer prazo de documentação ou de financiamento, some uma folga e diga a data já com ela.",
+   "start": 19.08,
+   "end": 25.12
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Quem entrega antes do prometido ganha confiança.",
+   "start": 25.32,
+   "end": 28.03
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 28.36,
+   "end": 32.75
+  }
+ ],
+ "cues": {
+  "h_opera": 0.28,
+  "h_1963": 2.813,
+  "h_sete": 4.728,
+  "r_1973": 8.413,
+  "r_cento": 10.426,
+  "s_simbolo": 12.84,
+  "s_otimista": 15.32,
+  "v_folga": 17.4,
+  "v_cobranca": 18.28,
+  "a_documentacao": 20.36,
+  "a_financiamento": 21.56,
+  "a_folga": 23.16,
+  "a_data": 24.2,
+  "d_antes": 26.12,
+  "d_confianca": 27.56,
+  "cta_quer": 28.36,
+  "cta_comment": 29.64,
+  "cta_word": 30.28,
+  "cta_tiles": 30.92,
+  "cta_sys": 31.72,
+  "cta_leads": 31.48,
+  "cta_atend": 32.12,
+  "cta_direct": 32.12,
+  "cta_end": 32.75
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 1.32,
+   "words": [
+    {
+     "text": "A",
+     "start": 0.12,
+     "end": 0.28,
+     "emph": false
+    },
+    {
+     "text": "Ópera",
+     "start": 0.28,
+     "end": 0.52,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 0.52,
+     "end": 0.72,
+     "emph": true
+    },
+    {
+     "text": "Sydney",
+     "start": 0.72,
+     "end": 1.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.32,
+   "end": 2.2,
+   "words": [
+    {
+     "text": "deveria",
+     "start": 1.32,
+     "end": 1.64,
+     "emph": false
+    },
+    {
+     "text": "ficar",
+     "start": 1.64,
+     "end": 1.88,
+     "emph": false
+    },
+    {
+     "text": "pronta",
+     "start": 1.88,
+     "end": 2.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.2,
+   "end": 4.04,
+   "words": [
+    {
+     "text": "em",
+     "start": 2.2,
+     "end": 2.813,
+     "emph": false
+    },
+    {
+     "text": "1963",
+     "start": 2.813,
+     "end": 4.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.04,
+   "end": 4.728,
+   "words": [
+    {
+     "text": "e",
+     "start": 4.04,
+     "end": 4.2,
+     "emph": false
+    },
+    {
+     "text": "custar",
+     "start": 4.2,
+     "end": 4.728,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.728,
+   "end": 5.48,
+   "words": [
+    {
+     "text": "sete",
+     "start": 4.728,
+     "end": 5.08,
+     "emph": true
+    },
+    {
+     "text": "milhões",
+     "start": 5.08,
+     "end": 5.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 5.48,
+   "end": 7.0,
+   "words": [
+    {
+     "text": "de",
+     "start": 5.48,
+     "end": 5.56,
+     "emph": false
+    },
+    {
+     "text": "dólares",
+     "start": 5.56,
+     "end": 6.04,
+     "emph": false
+    },
+    {
+     "text": "australianos.",
+     "start": 6.04,
+     "end": 6.73,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.0,
+   "end": 7.72,
+   "words": [
+    {
+     "text": "Ficou",
+     "start": 7.0,
+     "end": 7.4,
+     "emph": false
+    },
+    {
+     "text": "pronta",
+     "start": 7.4,
+     "end": 7.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.72,
+   "end": 9.12,
+   "words": [
+    {
+     "text": "em",
+     "start": 7.72,
+     "end": 8.413,
+     "emph": false
+    },
+    {
+     "text": "1973,",
+     "start": 8.413,
+     "end": 8.77,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.8,
+   "end": 10.426,
+   "words": [
+    {
+     "text": "e",
+     "start": 9.8,
+     "end": 9.889,
+     "emph": false
+    },
+    {
+     "text": "custou",
+     "start": 9.889,
+     "end": 10.426,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.426,
+   "end": 12.28,
+   "words": [
+    {
+     "text": "cento",
+     "start": 10.426,
+     "end": 10.873,
+     "emph": true
+    },
+    {
+     "text": "e",
+     "start": 10.873,
+     "end": 10.962,
+     "emph": true
+    },
+    {
+     "text": "dois",
+     "start": 10.962,
+     "end": 11.32,
+     "emph": true
+    },
+    {
+     "text": "milhões.",
+     "start": 11.32,
+     "end": 11.87,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.28,
+   "end": 13.32,
+   "words": [
+    {
+     "text": "Virou",
+     "start": 12.28,
+     "end": 12.76,
+     "emph": false
+    },
+    {
+     "text": "um",
+     "start": 12.76,
+     "end": 12.84,
+     "emph": false
+    },
+    {
+     "text": "símbolo,",
+     "start": 12.84,
+     "end": 13.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.32,
+   "end": 13.72,
+   "words": [
+    {
+     "text": "e",
+     "start": 13.32,
+     "end": 13.48,
+     "emph": false
+    },
+    {
+     "text": "também",
+     "start": 13.48,
+     "end": 13.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.72,
+   "end": 14.68,
+   "words": [
+    {
+     "text": "o",
+     "start": 13.72,
+     "end": 13.96,
+     "emph": false
+    },
+    {
+     "text": "exemplo",
+     "start": 13.96,
+     "end": 14.28,
+     "emph": false
+    },
+    {
+     "text": "clássico",
+     "start": 14.28,
+     "end": 14.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.68,
+   "end": 16.2,
+   "words": [
+    {
+     "text": "de",
+     "start": 14.68,
+     "end": 14.84,
+     "emph": false
+    },
+    {
+     "text": "promessa",
+     "start": 14.84,
+     "end": 15.32,
+     "emph": false
+    },
+    {
+     "text": "otimista.",
+     "start": 15.32,
+     "end": 15.78,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.2,
+   "end": 17.16,
+   "words": [
+    {
+     "text": "Prazo",
+     "start": 16.2,
+     "end": 16.6,
+     "emph": false
+    },
+    {
+     "text": "prometido",
+     "start": 16.6,
+     "end": 17.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.16,
+   "end": 17.88,
+   "words": [
+    {
+     "text": "sem",
+     "start": 17.16,
+     "end": 17.4,
+     "emph": false
+    },
+    {
+     "text": "folga",
+     "start": 17.4,
+     "end": 17.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.88,
+   "end": 19.08,
+   "words": [
+    {
+     "text": "vira",
+     "start": 17.88,
+     "end": 18.28,
+     "emph": false
+    },
+    {
+     "text": "cobrança.",
+     "start": 18.28,
+     "end": 18.65,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.08,
+   "end": 20.28,
+   "words": [
+    {
+     "text": "Ao",
+     "start": 19.08,
+     "end": 19.32,
+     "emph": false
+    },
+    {
+     "text": "prometer",
+     "start": 19.32,
+     "end": 19.88,
+     "emph": false
+    },
+    {
+     "text": "prazo",
+     "start": 19.88,
+     "end": 20.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.28,
+   "end": 21.16,
+   "words": [
+    {
+     "text": "de",
+     "start": 20.28,
+     "end": 20.36,
+     "emph": false
+    },
+    {
+     "text": "documentação",
+     "start": 20.36,
+     "end": 21.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.16,
+   "end": 22.44,
+   "words": [
+    {
+     "text": "ou",
+     "start": 21.16,
+     "end": 21.4,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 21.4,
+     "end": 21.56,
+     "emph": false
+    },
+    {
+     "text": "financiamento,",
+     "start": 21.56,
+     "end": 22.22,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.44,
+   "end": 23.56,
+   "words": [
+    {
+     "text": "some",
+     "start": 22.44,
+     "end": 23.0,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 23.0,
+     "end": 23.16,
+     "emph": false
+    },
+    {
+     "text": "folga",
+     "start": 23.16,
+     "end": 23.56,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.56,
+   "end": 24.6,
+   "words": [
+    {
+     "text": "e",
+     "start": 23.56,
+     "end": 23.72,
+     "emph": false
+    },
+    {
+     "text": "diga",
+     "start": 23.72,
+     "end": 24.12,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 24.12,
+     "end": 24.2,
+     "emph": false
+    },
+    {
+     "text": "data",
+     "start": 24.2,
+     "end": 24.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 24.6,
+   "end": 25.32,
+   "words": [
+    {
+     "text": "já",
+     "start": 24.6,
+     "end": 24.76,
+     "emph": false
+    },
+    {
+     "text": "com",
+     "start": 24.76,
+     "end": 24.92,
+     "emph": false
+    },
+    {
+     "text": "ela.",
+     "start": 24.92,
+     "end": 25.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.32,
+   "end": 26.12,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 25.32,
+     "end": 25.39,
+     "emph": false
+    },
+    {
+     "text": "entrega",
+     "start": 25.64,
+     "end": 26.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.12,
+   "end": 27.16,
+   "words": [
+    {
+     "text": "antes",
+     "start": 26.12,
+     "end": 26.36,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 26.36,
+     "end": 26.52,
+     "emph": false
+    },
+    {
+     "text": "prometido",
+     "start": 26.52,
+     "end": 27.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.16,
+   "end": 28.36,
+   "words": [
+    {
+     "text": "ganha",
+     "start": 27.16,
+     "end": 27.32,
+     "emph": false
+    },
+    {
+     "text": "confiança.",
+     "start": 27.56,
+     "end": 28.03,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.36,
+   "end": 29.64,
+   "words": [
+    {
+     "text": "Se",
+     "start": 28.36,
+     "end": 28.52,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 28.52,
+     "end": 28.76,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 28.76,
+     "end": 28.92,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 28.92,
+     "end": 29.42,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.64,
+   "end": 30.84,
+   "words": [
+    {
+     "text": "comente",
+     "start": 29.64,
+     "end": 30.28,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 30.28,
+     "end": 30.84,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.84,
+   "end": 31.72,
+   "words": [
+    {
+     "text": "e",
+     "start": 30.84,
+     "end": 30.92,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 30.92,
+     "end": 31.48,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 31.48,
+     "end": 31.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.72,
+   "end": 33.25,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 31.72,
+     "end": 32.12,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 32.12,
+     "end": 32.75,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}
