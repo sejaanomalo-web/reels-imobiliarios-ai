@@ -363,6 +363,8 @@ import { D1214_18, timeline as d1214_18 } from "./episodes/ATIVO-D1214-18/Episod
 import { D1214_18Cover } from "./episodes/ATIVO-D1214-18/Cover";
 import { D1214_21, timeline as d1214_21 } from "./episodes/ATIVO-D1214-21/Episode";
 import { D1214_21Cover } from "./episodes/ATIVO-D1214-21/Cover";
+import { D1215_08, timeline as d1215_08 } from "./episodes/ATIVO-D1215-08/Episode";
+import { D1215_08Cover } from "./episodes/ATIVO-D1215-08/Cover";
 import { D1129_18, timeline as d1129_18 } from "./episodes/ATIVO-D1129-18/Episode";
 import { D1129_18Cover } from "./episodes/ATIVO-D1129-18/Cover";
 import { D1129_21, timeline as d1129_21 } from "./episodes/ATIVO-D1129-21/Episode";
@@ -1172,6 +1174,8 @@ export const RemotionRoot: React.FC = () => (
       <Still id="ATIVO-D1214-18-Capa" component={D1214_18Cover} width={VIDEO.width} height={VIDEO.height} />
       <Composition id="ATIVO-D1214-21" component={D1214_21} width={VIDEO.width} height={VIDEO.height} fps={d1214_21.fps} durationInFrames={d1214_21.durationInFrames} defaultProps={{ withAudio: true }} />
       <Still id="ATIVO-D1214-21-Capa" component={D1214_21Cover} width={VIDEO.width} height={VIDEO.height} />
+      <Composition id="ATIVO-D1215-08" component={D1215_08} width={VIDEO.width} height={VIDEO.height} fps={d1215_08.fps} durationInFrames={d1215_08.durationInFrames} defaultProps={{ withAudio: true }} />
+      <Still id="ATIVO-D1215-08-Capa" component={D1215_08Cover} width={VIDEO.width} height={VIDEO.height} />
       <Composition id="ATIVO-D1129-18" component={D1129_18} width={VIDEO.width} height={VIDEO.height} fps={d1129_18.fps} durationInFrames={d1129_18.durationInFrames} defaultProps={{ withAudio: true }} />
       <Still id="ATIVO-D1129-18-Capa" component={D1129_18Cover} width={VIDEO.width} height={VIDEO.height} />
       <Composition id="ATIVO-D1129-21" component={D1129_21} width={VIDEO.width} height={VIDEO.height} fps={d1129_21.fps} durationInFrames={d1129_21.durationInFrames} defaultProps={{ withAudio: true }} />
