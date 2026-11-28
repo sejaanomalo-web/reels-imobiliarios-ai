@@ -1,0 +1,954 @@
+{
+ "id": "ATIVO-D1215-12",
+ "title": "O que já vem marcado",
+ "fps": 30,
+ "duration": 35.166666666666664,
+ "durationInFrames": 1055,
+ "narrationEnd": 32.953,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.63
+  },
+  {
+   "id": "optin",
+   "start": 6.63,
+   "end": 11.195
+  },
+  {
+   "id": "optout",
+   "start": 11.195,
+   "end": 15.92
+  },
+  {
+   "id": "virada",
+   "start": 15.92,
+   "end": 18.355
+  },
+  {
+   "id": "acao",
+   "start": 18.355,
+   "end": 24.15
+  },
+  {
+   "id": "desfecho",
+   "start": 24.15,
+   "end": 28.09
+  },
+  {
+   "id": "cta",
+   "start": 28.09,
+   "end": 35.167
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Num experimento de 2003, a mesma pergunta teve quase o dobro de sim só por causa do que já vinha marcado.",
+   "start": 0.12,
+   "end": 6.5
+  },
+  {
+   "id": "s2",
+   "scene": "optin",
+   "text": "Quem precisava marcar para ser doador de órgãos: quarenta e dois por cento aceitaram.",
+   "start": 6.76,
+   "end": 11.07
+  },
+  {
+   "id": "s3",
+   "scene": "optout",
+   "text": "Quem já vinha marcado e só podia desmarcar: oitenta e dois por cento ficaram.",
+   "start": 11.32,
+   "end": 15.72
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "As pessoas tendem a aceitar o que já vem pronto.",
+   "start": 16.12,
+   "end": 18.19
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Mande ao proprietário o cadastro do imóvel já preenchido com o que você sabe, para ele só conferir e corrigir.",
+   "start": 18.52,
+   "end": 24.02
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Formulário em branco fica para depois. Formulário pronto volta.",
+   "start": 24.28,
+   "end": 27.9
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 28.28,
+   "end": 32.51
+  }
+ ],
+ "cues": {
+  "h_2003": 1.213,
+  "h_dobro": 3.72,
+  "h_marcado": 6.12,
+  "i_marcar": 7.72,
+  "i_quarenta": 9.293,
+  "i_aceitaram": 10.6,
+  "o_desmarcar": 13.16,
+  "o_oitenta": 13.83,
+  "o_ficaram": 15.32,
+  "v_aceitar": 17.16,
+  "v_pronto": 18.04,
+  "a_cadastro": 19.72,
+  "a_preenchido": 20.92,
+  "a_conferir": 23.08,
+  "a_corrigir": 23.64,
+  "d_branco": 25.0,
+  "d_volta": 27.56,
+  "cta_quer": 28.28,
+  "cta_comment": 29.32,
+  "cta_word": 29.88,
+  "cta_tiles": 30.6,
+  "cta_sys": 31.4,
+  "cta_leads": 31.16,
+  "cta_atend": 31.8,
+  "cta_direct": 31.8,
+  "cta_end": 32.51
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.84,
+   "words": [
+    {
+     "text": "Num",
+     "start": 0.12,
+     "end": 0.36,
+     "emph": false
+    },
+    {
+     "text": "experimento",
+     "start": 0.36,
+     "end": 0.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.84,
+   "end": 1.96,
+   "words": [
+    {
+     "text": "de",
+     "start": 0.84,
+     "end": 1.213,
+     "emph": false
+    },
+    {
+     "text": "2003,",
+     "start": 1.213,
+     "end": 1.96,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.96,
+   "end": 2.84,
+   "words": [
+    {
+     "text": "a",
+     "start": 1.96,
+     "end": 2.12,
+     "emph": false
+    },
+    {
+     "text": "mesma",
+     "start": 2.12,
+     "end": 2.44,
+     "emph": false
+    },
+    {
+     "text": "pergunta",
+     "start": 2.44,
+     "end": 2.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.84,
+   "end": 4.76,
+   "words": [
+    {
+     "text": "teve",
+     "start": 2.84,
+     "end": 3.24,
+     "emph": false
+    },
+    {
+     "text": "quase",
+     "start": 3.24,
+     "end": 3.48,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 3.48,
+     "end": 3.72,
+     "emph": false
+    },
+    {
+     "text": "dobro",
+     "start": 3.72,
+     "end": 4.12,
+     "emph": true
+    },
+    {
+     "text": "de",
+     "start": 4.12,
+     "end": 4.36,
+     "emph": false
+    },
+    {
+     "text": "sim",
+     "start": 4.36,
+     "end": 4.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.76,
+   "end": 5.32,
+   "words": [
+    {
+     "text": "só",
+     "start": 4.76,
+     "end": 5.0,
+     "emph": false
+    },
+    {
+     "text": "por",
+     "start": 5.0,
+     "end": 5.08,
+     "emph": false
+    },
+    {
+     "text": "causa",
+     "start": 5.08,
+     "end": 5.32,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 5.32,
+   "end": 6.76,
+   "words": [
+    {
+     "text": "do",
+     "start": 5.32,
+     "end": 5.48,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 5.48,
+     "end": 5.64,
+     "emph": false
+    },
+    {
+     "text": "já",
+     "start": 5.64,
+     "end": 5.8,
+     "emph": false
+    },
+    {
+     "text": "vinha",
+     "start": 5.8,
+     "end": 6.12,
+     "emph": false
+    },
+    {
+     "text": "marcado.",
+     "start": 6.12,
+     "end": 6.5,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.76,
+   "end": 8.04,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 6.76,
+     "end": 7.08,
+     "emph": false
+    },
+    {
+     "text": "precisava",
+     "start": 7.08,
+     "end": 7.72,
+     "emph": false
+    },
+    {
+     "text": "marcar",
+     "start": 7.72,
+     "end": 8.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.04,
+   "end": 8.84,
+   "words": [
+    {
+     "text": "para",
+     "start": 8.04,
+     "end": 8.2,
+     "emph": false
+    },
+    {
+     "text": "ser",
+     "start": 8.2,
+     "end": 8.44,
+     "emph": false
+    },
+    {
+     "text": "doador",
+     "start": 8.44,
+     "end": 8.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 8.84,
+   "end": 9.293,
+   "words": [
+    {
+     "text": "de",
+     "start": 8.84,
+     "end": 8.92,
+     "emph": false
+    },
+    {
+     "text": "órgãos:",
+     "start": 8.92,
+     "end": 9.293,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.293,
+   "end": 10.6,
+   "words": [
+    {
+     "text": "quarenta",
+     "start": 9.293,
+     "end": 9.4,
+     "emph": true
+    },
+    {
+     "text": "e",
+     "start": 9.791,
+     "end": 9.853,
+     "emph": true
+    },
+    {
+     "text": "dois",
+     "start": 9.853,
+     "end": 10.102,
+     "emph": true
+    },
+    {
+     "text": "por",
+     "start": 10.102,
+     "end": 10.289,
+     "emph": true
+    },
+    {
+     "text": "cento",
+     "start": 10.289,
+     "end": 10.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 10.6,
+   "end": 11.32,
+   "words": [
+    {
+     "text": "aceitaram.",
+     "start": 10.6,
+     "end": 11.07,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.32,
+   "end": 12.44,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 11.32,
+     "end": 11.56,
+     "emph": false
+    },
+    {
+     "text": "já",
+     "start": 11.56,
+     "end": 11.72,
+     "emph": false
+    },
+    {
+     "text": "vinha",
+     "start": 11.72,
+     "end": 12.04,
+     "emph": false
+    },
+    {
+     "text": "marcado",
+     "start": 12.04,
+     "end": 12.44,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.44,
+   "end": 13.83,
+   "words": [
+    {
+     "text": "e",
+     "start": 12.44,
+     "end": 12.6,
+     "emph": false
+    },
+    {
+     "text": "só",
+     "start": 12.6,
+     "end": 12.76,
+     "emph": false
+    },
+    {
+     "text": "podia",
+     "start": 12.76,
+     "end": 13.16,
+     "emph": false
+    },
+    {
+     "text": "desmarcar:",
+     "start": 13.16,
+     "end": 13.7,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.83,
+   "end": 15.32,
+   "words": [
+    {
+     "text": "oitenta",
+     "start": 13.83,
+     "end": 14.17,
+     "emph": true
+    },
+    {
+     "text": "e",
+     "start": 14.352,
+     "end": 14.426,
+     "emph": true
+    },
+    {
+     "text": "dois",
+     "start": 14.426,
+     "end": 14.724,
+     "emph": true
+    },
+    {
+     "text": "por",
+     "start": 14.724,
+     "end": 14.948,
+     "emph": true
+    },
+    {
+     "text": "cento",
+     "start": 14.948,
+     "end": 15.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 15.32,
+   "end": 16.12,
+   "words": [
+    {
+     "text": "ficaram.",
+     "start": 15.32,
+     "end": 15.72,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.12,
+   "end": 16.6,
+   "words": [
+    {
+     "text": "As",
+     "start": 16.12,
+     "end": 16.28,
+     "emph": false
+    },
+    {
+     "text": "pessoas",
+     "start": 16.28,
+     "end": 16.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.6,
+   "end": 17.48,
+   "words": [
+    {
+     "text": "tendem",
+     "start": 16.6,
+     "end": 17.0,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 17.0,
+     "end": 17.16,
+     "emph": false
+    },
+    {
+     "text": "aceitar",
+     "start": 17.16,
+     "end": 17.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 17.48,
+   "end": 18.04,
+   "words": [
+    {
+     "text": "o",
+     "start": 17.48,
+     "end": 17.56,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 17.56,
+     "end": 17.72,
+     "emph": false
+    },
+    {
+     "text": "já",
+     "start": 17.72,
+     "end": 17.8,
+     "emph": false
+    },
+    {
+     "text": "vem",
+     "start": 17.8,
+     "end": 18.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 18.04,
+   "end": 18.52,
+   "words": [
+    {
+     "text": "pronto.",
+     "start": 18.04,
+     "end": 18.19,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.52,
+   "end": 19.64,
+   "words": [
+    {
+     "text": "Mande",
+     "start": 18.52,
+     "end": 18.92,
+     "emph": false
+    },
+    {
+     "text": "ao",
+     "start": 18.92,
+     "end": 19.08,
+     "emph": false
+    },
+    {
+     "text": "proprietário",
+     "start": 19.08,
+     "end": 19.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.64,
+   "end": 20.68,
+   "words": [
+    {
+     "text": "o",
+     "start": 19.64,
+     "end": 19.72,
+     "emph": false
+    },
+    {
+     "text": "cadastro",
+     "start": 19.72,
+     "end": 20.12,
+     "emph": true
+    },
+    {
+     "text": "do",
+     "start": 20.12,
+     "end": 20.28,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 20.28,
+     "end": 20.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.68,
+   "end": 21.48,
+   "words": [
+    {
+     "text": "já",
+     "start": 20.68,
+     "end": 20.92,
+     "emph": false
+    },
+    {
+     "text": "preenchido",
+     "start": 20.92,
+     "end": 21.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.48,
+   "end": 22.44,
+   "words": [
+    {
+     "text": "com",
+     "start": 21.48,
+     "end": 21.56,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 21.56,
+     "end": 21.72,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 21.72,
+     "end": 21.8,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 21.8,
+     "end": 22.04,
+     "emph": false
+    },
+    {
+     "text": "sabe,",
+     "start": 22.04,
+     "end": 22.3,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.44,
+   "end": 23.08,
+   "words": [
+    {
+     "text": "para",
+     "start": 22.44,
+     "end": 22.6,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 22.6,
+     "end": 22.84,
+     "emph": false
+    },
+    {
+     "text": "só",
+     "start": 22.84,
+     "end": 23.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 23.08,
+   "end": 24.28,
+   "words": [
+    {
+     "text": "conferir",
+     "start": 23.08,
+     "end": 23.48,
+     "emph": true
+    },
+    {
+     "text": "e",
+     "start": 23.48,
+     "end": 23.64,
+     "emph": false
+    },
+    {
+     "text": "corrigir.",
+     "start": 23.64,
+     "end": 24.02,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.28,
+   "end": 25.4,
+   "words": [
+    {
+     "text": "Formulário",
+     "start": 24.28,
+     "end": 24.92,
+     "emph": false
+    },
+    {
+     "text": "em",
+     "start": 24.92,
+     "end": 25.0,
+     "emph": true
+    },
+    {
+     "text": "branco",
+     "start": 25.0,
+     "end": 25.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.4,
+   "end": 26.44,
+   "words": [
+    {
+     "text": "fica",
+     "start": 25.4,
+     "end": 25.64,
+     "emph": false
+    },
+    {
+     "text": "para",
+     "start": 25.64,
+     "end": 25.88,
+     "emph": false
+    },
+    {
+     "text": "depois.",
+     "start": 25.88,
+     "end": 26.18,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.44,
+   "end": 27.56,
+   "words": [
+    {
+     "text": "Formulário",
+     "start": 26.44,
+     "end": 27.08,
+     "emph": false
+    },
+    {
+     "text": "pronto",
+     "start": 27.08,
+     "end": 27.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 27.56,
+   "end": 28.28,
+   "words": [
+    {
+     "text": "volta.",
+     "start": 27.56,
+     "end": 27.9,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.28,
+   "end": 29.32,
+   "words": [
+    {
+     "text": "Se",
+     "start": 28.28,
+     "end": 28.44,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 28.44,
+     "end": 28.6,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 28.6,
+     "end": 28.76,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 28.76,
+     "end": 29.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.32,
+   "end": 30.44,
+   "words": [
+    {
+     "text": "comente",
+     "start": 29.32,
+     "end": 29.88,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 29.88,
+     "end": 30.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.44,
+   "end": 31.4,
+   "words": [
+    {
+     "text": "e",
+     "start": 30.44,
+     "end": 30.6,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 30.6,
+     "end": 31.16,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 31.16,
+     "end": 31.4,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 31.4,
+   "end": 33.01,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 31.4,
+     "end": 31.8,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 31.8,
+     "end": 32.51,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.12,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 7.86,
+    "palavras_nao_reconhecidas": [
+      "1957"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 3.72,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.68,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.6,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.1,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.37,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 32.07,
+    "asr_match": 0.982,
+    "aligned_words": "84/85",
+    "words_per_min": 159,
+    "heard": "O projeto de Brasília foi entregue ao concurso com rabiscos a lápis de cor. Era 1957. Poucos desenhos, um texto batido à máquina e o autor ainda pediu desculpas pela apresentação simples. Mas a ideia cabia numa frase. Dois eixos que se cruzam. Antes da lista de detalhes, vem uma ideia clara. Antes de anunciar, escreva a frase do imóvel. Para quem ele é e por quê. Quem entende a ideia, lembra do imóvel. Se você é corretor, comente sistema e conheça o nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 33.69,
+      "wpm": 151
+    },
+    "pausas_moldadas": {
+      "n": 15,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.62,
+    "final": {
+      "seconds": 32.07,
+      "wpm": 159
+    }
+  }
+]

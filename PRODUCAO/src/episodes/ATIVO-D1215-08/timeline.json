@@ -1,0 +1,939 @@
+{
+ "id": "ATIVO-D1215-08",
+ "title": "A vistoria antes de assinar",
+ "fps": 30,
+ "duration": 34.56666666666667,
+ "durationInFrames": 1037,
+ "narrationEnd": 32.347,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.835
+  },
+  {
+   "id": "eua",
+   "start": 4.835,
+   "end": 10.225
+  },
+  {
+   "id": "problema",
+   "start": 10.225,
+   "end": 14.945
+  },
+  {
+   "id": "virada",
+   "start": 14.945,
+   "end": 17.4
+  },
+  {
+   "id": "acao",
+   "start": 17.4,
+   "end": 22.515
+  },
+  {
+   "id": "desfecho",
+   "start": 22.515,
+   "end": 27.555
+  },
+  {
+   "id": "cta",
+   "start": 27.555,
+   "end": 34.567
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "E se o comprador pudesse desistir da compra depois de ver o laudo da vistoria?",
+   "start": 0.12,
+   "end": 4.67
+  },
+  {
+   "id": "s2",
+   "scene": "eua",
+   "text": "Nos Estados Unidos, isso é comum: o contrato costuma dar de sete a dez dias para a inspeção da casa.",
+   "start": 5.0,
+   "end": 10.09
+  },
+  {
+   "id": "s3",
+   "scene": "problema",
+   "text": "Se a inspeção encontra problema, o comprador negocia ou desiste do negócio.",
+   "start": 10.36,
+   "end": 14.81
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Aqui não é regra, mas pode ser combinado.",
+   "start": 15.08,
+   "end": 17.24
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Na proposta, escreva o prazo para a vistoria técnica e o que acontece se ela encontrar problema.",
+   "start": 17.56,
+   "end": 22.35
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Problema achado antes da assinatura é negociação. Depois, vira briga.",
+   "start": 22.68,
+   "end": 27.39
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 27.72,
+   "end": 31.96
+  }
+ ],
+ "cues": {
+  "h_desistir": 1.4,
+  "h_laudo": 3.72,
+  "h_vistoria": 4.2,
+  "e_eua": 5.24,
+  "e_sete": 7.987,
+  "e_inspecao": 9.4,
+  "p_problema": 11.56,
+  "p_negocia": 12.76,
+  "p_desiste": 13.64,
+  "v_regra": 15.72,
+  "v_combinado": 16.84,
+  "a_proposta": 17.8,
+  "a_prazo": 19.0,
+  "a_acontece": 20.84,
+  "d_antes": 23.64,
+  "d_negociacao": 24.84,
+  "d_briga": 27.08,
+  "cta_quer": 27.72,
+  "cta_comment": 28.84,
+  "cta_word": 29.4,
+  "cta_tiles": 29.96,
+  "cta_sys": 30.84,
+  "cta_leads": 30.52,
+  "cta_atend": 31.24,
+  "cta_direct": 31.24,
+  "cta_end": 31.96
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.92,
+   "words": [
+    {
+     "text": "E",
+     "start": 0.12,
+     "end": 0.28,
+     "emph": false
+    },
+    {
+     "text": "se",
+     "start": 0.28,
+     "end": 0.36,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 0.36,
+     "end": 0.44,
+     "emph": false
+    },
+    {
+     "text": "comprador",
+     "start": 0.44,
+     "end": 0.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.92,
+   "end": 2.04,
+   "words": [
+    {
+     "text": "pudesse",
+     "start": 0.92,
+     "end": 1.4,
+     "emph": false
+    },
+    {
+     "text": "desistir",
+     "start": 1.4,
+     "end": 2.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.04,
+   "end": 2.76,
+   "words": [
+    {
+     "text": "da",
+     "start": 2.04,
+     "end": 2.28,
+     "emph": false
+    },
+    {
+     "text": "compra",
+     "start": 2.28,
+     "end": 2.76,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.76,
+   "end": 3.56,
+   "words": [
+    {
+     "text": "depois",
+     "start": 2.76,
+     "end": 2.97,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 3.16,
+     "end": 3.32,
+     "emph": false
+    },
+    {
+     "text": "ver",
+     "start": 3.32,
+     "end": 3.56,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.56,
+   "end": 4.12,
+   "words": [
+    {
+     "text": "o",
+     "start": 3.56,
+     "end": 3.72,
+     "emph": false
+    },
+    {
+     "text": "laudo",
+     "start": 3.72,
+     "end": 4.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 4.12,
+   "end": 5.0,
+   "words": [
+    {
+     "text": "da",
+     "start": 4.12,
+     "end": 4.2,
+     "emph": false
+    },
+    {
+     "text": "vistoria?",
+     "start": 4.2,
+     "end": 4.67,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.0,
+   "end": 5.88,
+   "words": [
+    {
+     "text": "Nos",
+     "start": 5.0,
+     "end": 5.24,
+     "emph": false
+    },
+    {
+     "text": "Estados",
+     "start": 5.24,
+     "end": 5.56,
+     "emph": true
+    },
+    {
+     "text": "Unidos,",
+     "start": 5.56,
+     "end": 5.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.88,
+   "end": 6.6,
+   "words": [
+    {
+     "text": "isso",
+     "start": 5.88,
+     "end": 6.12,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 6.12,
+     "end": 6.2,
+     "emph": false
+    },
+    {
+     "text": "comum:",
+     "start": 6.2,
+     "end": 6.41,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.6,
+   "end": 7.16,
+   "words": [
+    {
+     "text": "o",
+     "start": 6.6,
+     "end": 6.68,
+     "emph": false
+    },
+    {
+     "text": "contrato",
+     "start": 6.68,
+     "end": 7.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.16,
+   "end": 7.8,
+   "words": [
+    {
+     "text": "costuma",
+     "start": 7.16,
+     "end": 7.56,
+     "emph": false
+    },
+    {
+     "text": "dar",
+     "start": 7.56,
+     "end": 7.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.8,
+   "end": 9.16,
+   "words": [
+    {
+     "text": "de",
+     "start": 7.8,
+     "end": 7.987,
+     "emph": false
+    },
+    {
+     "text": "sete",
+     "start": 7.987,
+     "end": 8.36,
+     "emph": true
+    },
+    {
+     "text": "a",
+     "start": 8.36,
+     "end": 8.48,
+     "emph": true
+    },
+    {
+     "text": "dez",
+     "start": 8.48,
+     "end": 8.84,
+     "emph": true
+    },
+    {
+     "text": "dias",
+     "start": 8.84,
+     "end": 9.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.16,
+   "end": 9.8,
+   "words": [
+    {
+     "text": "para",
+     "start": 9.16,
+     "end": 9.32,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 9.32,
+     "end": 9.4,
+     "emph": false
+    },
+    {
+     "text": "inspeção",
+     "start": 9.4,
+     "end": 9.8,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 9.8,
+   "end": 10.36,
+   "words": [
+    {
+     "text": "da",
+     "start": 9.8,
+     "end": 9.96,
+     "emph": false
+    },
+    {
+     "text": "casa.",
+     "start": 9.96,
+     "end": 10.09,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.36,
+   "end": 11.16,
+   "words": [
+    {
+     "text": "Se",
+     "start": 10.36,
+     "end": 10.52,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 10.52,
+     "end": 10.68,
+     "emph": false
+    },
+    {
+     "text": "inspeção",
+     "start": 10.68,
+     "end": 11.16,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.16,
+   "end": 12.04,
+   "words": [
+    {
+     "text": "encontra",
+     "start": 11.16,
+     "end": 11.56,
+     "emph": false
+    },
+    {
+     "text": "problema,",
+     "start": 11.56,
+     "end": 12.04,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.04,
+   "end": 13.4,
+   "words": [
+    {
+     "text": "o",
+     "start": 12.04,
+     "end": 12.2,
+     "emph": false
+    },
+    {
+     "text": "comprador",
+     "start": 12.2,
+     "end": 12.76,
+     "emph": false
+    },
+    {
+     "text": "negocia",
+     "start": 12.76,
+     "end": 13.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.4,
+   "end": 14.28,
+   "words": [
+    {
+     "text": "ou",
+     "start": 13.4,
+     "end": 13.64,
+     "emph": false
+    },
+    {
+     "text": "desiste",
+     "start": 13.64,
+     "end": 14.28,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 14.28,
+   "end": 15.08,
+   "words": [
+    {
+     "text": "do",
+     "start": 14.28,
+     "end": 14.44,
+     "emph": false
+    },
+    {
+     "text": "negócio.",
+     "start": 14.44,
+     "end": 14.81,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.08,
+   "end": 16.2,
+   "words": [
+    {
+     "text": "Aqui",
+     "start": 15.08,
+     "end": 15.16,
+     "emph": false
+    },
+    {
+     "text": "não",
+     "start": 15.4,
+     "end": 15.56,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 15.56,
+     "end": 15.72,
+     "emph": false
+    },
+    {
+     "text": "regra,",
+     "start": 15.72,
+     "end": 15.99,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.2,
+   "end": 16.84,
+   "words": [
+    {
+     "text": "mas",
+     "start": 16.2,
+     "end": 16.44,
+     "emph": false
+    },
+    {
+     "text": "pode",
+     "start": 16.44,
+     "end": 16.68,
+     "emph": false
+    },
+    {
+     "text": "ser",
+     "start": 16.68,
+     "end": 16.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 16.84,
+   "end": 17.56,
+   "words": [
+    {
+     "text": "combinado.",
+     "start": 16.84,
+     "end": 17.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.56,
+   "end": 18.44,
+   "words": [
+    {
+     "text": "Na",
+     "start": 17.56,
+     "end": 17.8,
+     "emph": false
+    },
+    {
+     "text": "proposta,",
+     "start": 17.8,
+     "end": 18.44,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.44,
+   "end": 19.32,
+   "words": [
+    {
+     "text": "escreva",
+     "start": 18.44,
+     "end": 18.92,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 18.92,
+     "end": 19.0,
+     "emph": false
+    },
+    {
+     "text": "prazo",
+     "start": 19.0,
+     "end": 19.32,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.32,
+   "end": 20.36,
+   "words": [
+    {
+     "text": "para",
+     "start": 19.32,
+     "end": 19.4,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 19.4,
+     "end": 19.48,
+     "emph": false
+    },
+    {
+     "text": "vistoria",
+     "start": 19.48,
+     "end": 19.96,
+     "emph": false
+    },
+    {
+     "text": "técnica",
+     "start": 19.96,
+     "end": 20.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.36,
+   "end": 21.24,
+   "words": [
+    {
+     "text": "e",
+     "start": 20.36,
+     "end": 20.6,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 20.6,
+     "end": 20.68,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 20.68,
+     "end": 20.84,
+     "emph": false
+    },
+    {
+     "text": "acontece",
+     "start": 20.84,
+     "end": 21.24,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.24,
+   "end": 22.12,
+   "words": [
+    {
+     "text": "se",
+     "start": 21.24,
+     "end": 21.4,
+     "emph": false
+    },
+    {
+     "text": "ela",
+     "start": 21.4,
+     "end": 21.64,
+     "emph": false
+    },
+    {
+     "text": "encontrar",
+     "start": 21.64,
+     "end": 22.12,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 22.12,
+   "end": 22.68,
+   "words": [
+    {
+     "text": "problema.",
+     "start": 22.12,
+     "end": 22.35,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.68,
+   "end": 23.64,
+   "words": [
+    {
+     "text": "Problema",
+     "start": 22.68,
+     "end": 22.75,
+     "emph": false
+    },
+    {
+     "text": "achado",
+     "start": 23.16,
+     "end": 23.64,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.64,
+   "end": 24.6,
+   "words": [
+    {
+     "text": "antes",
+     "start": 23.64,
+     "end": 23.88,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 23.88,
+     "end": 23.96,
+     "emph": false
+    },
+    {
+     "text": "assinatura",
+     "start": 23.96,
+     "end": 24.6,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.6,
+   "end": 25.8,
+   "words": [
+    {
+     "text": "é",
+     "start": 24.6,
+     "end": 24.84,
+     "emph": false
+    },
+    {
+     "text": "negociação.",
+     "start": 24.84,
+     "end": 25.38,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 25.8,
+   "end": 26.6,
+   "words": [
+    {
+     "text": "Depois,",
+     "start": 25.8,
+     "end": 26.45,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 26.6,
+   "end": 27.72,
+   "words": [
+    {
+     "text": "vira",
+     "start": 26.6,
+     "end": 27.08,
+     "emph": false
+    },
+    {
+     "text": "briga.",
+     "start": 27.08,
+     "end": 27.39,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.72,
+   "end": 28.84,
+   "words": [
+    {
+     "text": "Se",
+     "start": 27.72,
+     "end": 27.88,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 27.88,
+     "end": 28.04,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 28.04,
+     "end": 28.2,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 28.2,
+     "end": 28.69,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.84,
+   "end": 29.88,
+   "words": [
+    {
+     "text": "comente",
+     "start": 28.84,
+     "end": 29.4,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 29.4,
+     "end": 29.78,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 29.88,
+   "end": 30.84,
+   "words": [
+    {
+     "text": "e",
+     "start": 29.88,
+     "end": 29.96,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 29.96,
+     "end": 30.52,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 30.52,
+     "end": 30.84,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 30.84,
+   "end": 32.46,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 30.84,
+     "end": 31.24,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 31.24,
+     "end": 31.96,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

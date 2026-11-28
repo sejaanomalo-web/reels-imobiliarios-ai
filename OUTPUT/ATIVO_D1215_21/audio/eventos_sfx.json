@@ -1,0 +1,122 @@
+[
+ {
+  "t": 0.47,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "h_chegou"
+ },
+ {
+  "t": 3.24,
+  "sound": "block",
+  "gain": -28,
+  "cue": "h_apareceu"
+ },
+ {
+  "t": 6.04,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "m_esqueceu"
+ },
+ {
+  "t": 8.31,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "e_saude"
+ },
+ {
+  "t": 12.12,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "e_faltas"
+ },
+ {
+  "t": 15.96,
+  "sound": "block",
+  "gain": -28,
+  "cue": "v_lembrete"
+ },
+ {
+  "t": 18.15,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "a_duas"
+ },
+ {
+  "t": 21.64,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "a_esperar"
+ },
+ {
+  "t": 24.52,
+  "sound": "pop",
+  "gain": -28,
+  "cue": "d_acontece"
+ },
+ {
+  "t": 25.29,
+  "sound": "pop",
+  "gain": -27,
+  "cue": "cta_quer"
+ },
+ {
+  "t": 26.31,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_comment"
+ },
+ {
+  "t": 26.92,
+  "sound": "typing",
+  "gain": -29,
+  "cue": "cta_word"
+ },
+ {
+  "t": 27.59,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_tiles"
+ },
+ {
+  "t": 27.67,
+  "sound": "click",
+  "gain": -24,
+  "cue": "cta_word"
+ },
+ {
+  "t": 27.77,
+  "sound": "whoosh_up",
+  "gain": -28,
+  "cue": "cta_word"
+ },
+ {
+  "t": 28.15,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_leads"
+ },
+ {
+  "t": 28.87,
+  "sound": "pop",
+  "gain": -25,
+  "cue": "cta_atend"
+ },
+ {
+  "t": 28.92,
+  "sound": "pop",
+  "gain": -26,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 30.12,
+  "sound": "click",
+  "gain": -23,
+  "cue": "cta_direct"
+ },
+ {
+  "t": 30.2,
+  "sound": "shimmer",
+  "gain": -28,
+  "cue": "cta_direct"
+ }
+]

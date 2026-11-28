@@ -1,0 +1,65 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.57,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 3.53,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 5.96,
+    "palavras_nao_reconhecidas": [
+      "um"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.05,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.48,
+    "palavras_nao_reconhecidas": [
+      "dez"
+    ]
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.39,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.37,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 29.9,
+    "asr_match": 0.975,
+    "aligned_words": "77/79",
+    "words_per_min": 159,
+    "heard": "Você chegou, abriu o imóvel e o cliente não apareceu. Quase sempre não é maldade. Ele esqueceu ou o dia dele mudou. Na saúde, uma revisão de estudos mostrou que lembretes reduzem as faltas em cerca de 1 quarto. Visita marcada precisa de lembrete. Confirme na véspera e duas horas antes, com uma pergunta que pede resposta. Posso te esperar às 10? Visita confirmada é visita que acontece. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 31.4,
+      "wpm": 151
+    },
+    "pausas_moldadas": {
+      "n": 12,
+      "max_s": 0.6
+    },
+    "pausas_encurtadas_s": 1.5,
+    "final": {
+      "seconds": 29.9,
+      "wpm": 159
+    }
+  }
+]

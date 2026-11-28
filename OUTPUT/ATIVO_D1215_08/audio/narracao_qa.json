@@ -1,0 +1,64 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 4.55,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 5.09,
+    "palavras_nao_reconhecidas": [
+      "sete",
+      "dez"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.45,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.16,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 4.79,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 4.71,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.24,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 32.23,
+    "asr_match": 0.973,
+    "aligned_words": "91/93",
+    "words_per_min": 173,
+    "heard": "E se o comprador pudesse desistir da compra depois de ver o laudo da vistoria? Nos Estados Unidos isso é comum. O contrato costuma dar de 7 a 10 dias para a inspeção da casa. Se a inspeção encontra problema, o comprador negocia ou desiste do negócio. Aqui não é regra, mas pode ser combinado. Na proposta, escreva o prazo para a vistoria técnica e o que acontece se ela encontrar problema. Problema achado antes da assinatura é negociação. Depois, vira a briga. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 33.39,
+      "wpm": 167
+    },
+    "pausas_moldadas": {
+      "n": 11,
+      "max_s": 0.53
+    },
+    "pausas_encurtadas_s": 1.16,
+    "final": {
+      "seconds": 32.23,
+      "wpm": 173
+    }
+  }
+]

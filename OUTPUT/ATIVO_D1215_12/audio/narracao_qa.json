@@ -1,0 +1,71 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 6.38,
+    "palavras_nao_reconhecidas": [
+      "2003"
+    ]
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.31,
+    "palavras_nao_reconhecidas": [
+      "quarenta",
+      "dois",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s3",
+    "seconds": 4.4,
+    "palavras_nao_reconhecidas": [
+      "oitenta",
+      "dois",
+      "cento"
+    ]
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.07,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 5.5,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 3.62,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.23,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 32.83,
+    "asr_match": 0.926,
+    "aligned_words": "88/99",
+    "words_per_min": 181,
+    "heard": "Num experimento de 2003, a mesma pergunta teve quase o dobro de sim só por causa do que já vinha marcado. Quem precisava marcar para ser doador de órgãos, 42% aceitaram. Quem já vinha marcado e só podia desmarcar, 82% ficaram. As pessoas tendem a aceitar o que já vem pronto. Mande ao proprietário o cadastro do imóvel já preenchido com o que você sabe, para ele só conferir e corrigir. Formulário em branco fica para depois. Formulário pronto, volta. Se você é corretor, comente Sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 33.76,
+      "wpm": 176
+    },
+    "pausas_moldadas": {
+      "n": 8,
+      "max_s": 0.54
+    },
+    "pausas_encurtadas_s": 0.93,
+    "final": {
+      "seconds": 32.83,
+      "wpm": 181
+    }
+  }
+]

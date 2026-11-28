@@ -70,7 +70,7 @@ def comparar(novo: dict, base: list, ignorar: str = ""):
     tn, en = assinatura(novo)
     out = []
     for r in base:
-        if r["id"] == ignorar or r["id"] == novo.get("id"):
+        if r["id"] == ignorar or (novo.get("id") and r["id"].split("_")[0] == novo["id"].split("_")[0]):
             continue
         tb, eb = assinatura(r)
         st, se = jacc(tn, tb), jacc(en, eb)

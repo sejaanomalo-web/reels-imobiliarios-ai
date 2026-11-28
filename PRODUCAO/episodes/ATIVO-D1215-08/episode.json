@@ -1,0 +1,494 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1215-08",
+ "lote": "D1215",
+ "title": "A vistoria antes de assinar",
+ "outputDir": "ATIVO_D1215_08",
+ "deliverables": {
+  "final": "ATIVO_D1215_08_FINAL.mp4",
+  "narration": "ATIVO_D1215_08_NARRACAO.wav",
+  "subtitles": "ATIVO_D1215_08_legendas.srt",
+  "cover": "ATIVO_D1215_08_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-15/ATIVO-D1215-08_a_vistoria_antes_de_assinar.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-26",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "E se o comprador pudesse desistir da compra depois de ver o laudo da vistoria?",
+   "caption": "E se o comprador | pudesse *desistir* | da compra | depois de ver | o *laudo* | da *vistoria?*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "eua",
+   "text": "Nos Estados Unidos, isso é comum: o contrato costuma dar de sete a dez dias para a inspeção da casa.",
+   "caption": "Nos *Estados Unidos,* | isso é *comum:* | o contrato | costuma dar | de *sete a dez dias* | para a *inspeção* | da casa.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "problema",
+   "text": "Se a inspeção encontra problema, o comprador negocia ou desiste do negócio.",
+   "caption": "Se a inspeção | encontra *problema,* | o comprador *negocia* | ou *desiste* | do negócio.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Aqui não é regra, mas pode ser combinado.",
+   "caption": "Aqui não é *regra,* | mas pode ser | *combinado.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Na proposta, escreva o prazo para a vistoria técnica e o que acontece se ela encontrar problema.",
+   "caption": "Na *proposta,* | escreva o *prazo* | para a vistoria técnica | e o que *acontece* | se ela encontrar | problema.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Problema achado antes da assinatura é negociação. Depois, vira briga.",
+   "caption": "Problema achado | *antes* da assinatura | é *negociação.* | Depois, | vira *briga.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "eua": 0.35,
+  "problema": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_desistir": {
+   "seg": "s1",
+   "word": "desistir",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_laudo": {
+   "seg": "s1",
+   "word": "laudo",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_vistoria": {
+   "seg": "s1",
+   "word": "vistoria",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_eua": {
+   "seg": "s2",
+   "word": "Estados",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_sete": {
+   "seg": "s2",
+   "word": "sete",
+   "edge": "start",
+   "offset": 0
+  },
+  "e_inspecao": {
+   "seg": "s2",
+   "word": "inspeção",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_problema": {
+   "seg": "s3",
+   "word": "problema",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_negocia": {
+   "seg": "s3",
+   "word": "negocia",
+   "edge": "start",
+   "offset": 0
+  },
+  "p_desiste": {
+   "seg": "s3",
+   "word": "desiste",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_regra": {
+   "seg": "s4",
+   "word": "regra",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_combinado": {
+   "seg": "s4",
+   "word": "combinado",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_proposta": {
+   "seg": "s5",
+   "word": "proposta",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_prazo": {
+   "seg": "s5",
+   "word": "prazo",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_acontece": {
+   "seg": "s5",
+   "word": "acontece",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_antes": {
+   "seg": "s6",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_negociacao": {
+   "seg": "s6",
+   "word": "negociação",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_briga": {
+   "seg": "s6",
+   "word": "briga",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_desistir",
+   "offset": -0.05,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "h_vistoria",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "e_sete",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "p_problema",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "p_desiste",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "v_combinado",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_prazo",
+   "offset": -0.05,
+   "sound": "click",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "d_antes",
+   "offset": 0.0,
+   "sound": "pop",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "d_briga",
+   "offset": 0.0,
+   "sound": "tick",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": 0.1,
+   "sound": "pop",
+   "gain": -29,
+   "pitch": -3
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.2,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.6,
+   "sound": "click",
+   "gain": -24
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 0.7,
+   "sound": "shimmer",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_laudo",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_regra",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:d_briga",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T04",
+  "ancoras": {
+   "virada": "cue:v_combinado",
+   "insight": "cue:a_proposta",
+   "resolucao": "cue:d_briga"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "maquete-3d",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "e-se",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "push",
+  "justificativaModelo": "o inspetor percorre a casa na maquete e o defeito acende.",
+  "justificativaHorario": "08h: informação útil cedo.",
+  "trilha": "T04",
+  "justificativaTrilha": "tensão do prazo e do defeito.",
+  "data": "2026-12-15",
+  "slot": "08:00",
+  "arquivo": "PRODUCAO/grade/2026-12-15.json"
+ },
+ "modelos4": true,
+ "modelo": 4,
+ "modeloNome": "Maquete 3D"
+}

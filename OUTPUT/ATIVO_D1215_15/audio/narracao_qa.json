@@ -1,0 +1,61 @@
+[
+  {
+    "seg": "s1",
+    "seconds": 3.45,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s2",
+    "seconds": 4.15,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s3",
+    "seconds": 2.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s4",
+    "seconds": 2.37,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s5",
+    "seconds": 7.34,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s6",
+    "seconds": 2.94,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "s7",
+    "seconds": 4.64,
+    "palavras_nao_reconhecidas": []
+  },
+  {
+    "seg": "TOTAL",
+    "seconds": 29.93,
+    "asr_match": 0.994,
+    "aligned_words": "81/81",
+    "words_per_min": 162,
+    "heard": "O cliente saiu da visita e só lembrava da cor da parede. Sem saber o que olhar, ele olha o que chama atenção, não o que importa. E a decisão vira a gosto, não critério. Visita boa começa antes de chegar. Na véspera, mande três coisas para ele observar. A luz da sala, o barulho da rua e o espaço da cozinha. Quem sabe o que procurar, enxerga o imóvel certo. Se você é corretor, comente sistema e conheça nosso sistema personalizado."
+  },
+  {
+    "seg": "PROCESSAMENTO",
+    "original": {
+      "seconds": 31.29,
+      "wpm": 155
+    },
+    "pausas_moldadas": {
+      "n": 18,
+      "max_s": 0.53
+    },
+    "pausas_encurtadas_s": 1.36,
+    "final": {
+      "seconds": 29.93,
+      "wpm": 162
+    }
+  }
+]

@@ -1,0 +1,813 @@
+{
+ "id": "ATIVO-D1215-21",
+ "title": "O cliente que não apareceu",
+ "fps": 30,
+ "duration": 32.233333333333334,
+ "durationInFrames": 967,
+ "narrationEnd": 30.024,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 3.945
+  },
+  {
+   "id": "motivo",
+   "start": 3.945,
+   "end": 7.885
+  },
+  {
+   "id": "estudo",
+   "start": 7.885,
+   "end": 14.26
+  },
+  {
+   "id": "virada",
+   "start": 14.26,
+   "end": 16.625
+  },
+  {
+   "id": "acao",
+   "start": 16.625,
+   "end": 22.42
+  },
+  {
+   "id": "desfecho",
+   "start": 22.42,
+   "end": 25.115
+  },
+  {
+   "id": "cta",
+   "start": 25.115,
+   "end": 32.233
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "Você chegou, abriu o imóvel, e o cliente não apareceu.",
+   "start": 0.2,
+   "end": 3.77
+  },
+  {
+   "id": "s2",
+   "scene": "motivo",
+   "text": "Quase sempre não é maldade: ele esqueceu, ou o dia dele mudou.",
+   "start": 4.12,
+   "end": 7.65
+  },
+  {
+   "id": "s3",
+   "scene": "estudo",
+   "text": "Na saúde, uma revisão de estudos mostrou que lembretes reduzem as faltas em cerca de um quarto.",
+   "start": 8.12,
+   "end": 14.08
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Visita marcada precisa de lembrete.",
+   "start": 14.44,
+   "end": 16.49
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Confirme na véspera e duas horas antes, com uma pergunta que pede resposta: posso te esperar às dez?",
+   "start": 16.76,
+   "end": 22.24
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Visita confirmada é visita que acontece.",
+   "start": 22.6,
+   "end": 24.99
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 25.24,
+   "end": 29.61
+  }
+ ],
+ "cues": {
+  "h_chegou": 0.52,
+  "h_abriu": 1.08,
+  "h_apareceu": 3.24,
+  "m_maldade": 5.24,
+  "m_esqueceu": 6.04,
+  "m_mudou": 7.48,
+  "e_saude": 8.36,
+  "e_lembretes": 10.76,
+  "e_faltas": 12.12,
+  "e_quarto": 13.64,
+  "v_lembrete": 15.96,
+  "a_confirme": 16.76,
+  "a_duas": 18.2,
+  "a_resposta": 20.44,
+  "a_esperar": 21.64,
+  "d_confirmada": 23.16,
+  "d_acontece": 24.52,
+  "cta_quer": 25.24,
+  "cta_comment": 26.36,
+  "cta_word": 26.92,
+  "cta_tiles": 27.64,
+  "cta_sys": 28.52,
+  "cta_leads": 28.2,
+  "cta_atend": 28.92,
+  "cta_direct": 28.92,
+  "cta_end": 29.61
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.2,
+   "end": 1.08,
+   "words": [
+    {
+     "text": "Você",
+     "start": 0.2,
+     "end": 0.52,
+     "emph": false
+    },
+    {
+     "text": "chegou,",
+     "start": 0.52,
+     "end": 1.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.08,
+   "end": 2.2,
+   "words": [
+    {
+     "text": "abriu",
+     "start": 1.08,
+     "end": 1.48,
+     "emph": true
+    },
+    {
+     "text": "o",
+     "start": 1.48,
+     "end": 1.64,
+     "emph": false
+    },
+    {
+     "text": "imóvel,",
+     "start": 1.64,
+     "end": 2.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.2,
+   "end": 3.0,
+   "words": [
+    {
+     "text": "e",
+     "start": 2.2,
+     "end": 2.44,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 2.44,
+     "end": 2.52,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 2.52,
+     "end": 3.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 3.0,
+   "end": 4.12,
+   "words": [
+    {
+     "text": "não",
+     "start": 3.0,
+     "end": 3.24,
+     "emph": true
+    },
+    {
+     "text": "apareceu.",
+     "start": 3.24,
+     "end": 3.77,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.12,
+   "end": 4.92,
+   "words": [
+    {
+     "text": "Quase",
+     "start": 4.12,
+     "end": 4.52,
+     "emph": false
+    },
+    {
+     "text": "sempre",
+     "start": 4.52,
+     "end": 4.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.92,
+   "end": 5.8,
+   "words": [
+    {
+     "text": "não",
+     "start": 4.92,
+     "end": 5.08,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 5.08,
+     "end": 5.24,
+     "emph": false
+    },
+    {
+     "text": "maldade:",
+     "start": 5.24,
+     "end": 5.65,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.8,
+   "end": 6.76,
+   "words": [
+    {
+     "text": "ele",
+     "start": 5.8,
+     "end": 6.04,
+     "emph": false
+    },
+    {
+     "text": "esqueceu,",
+     "start": 6.04,
+     "end": 6.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 6.76,
+   "end": 7.48,
+   "words": [
+    {
+     "text": "ou",
+     "start": 6.76,
+     "end": 6.92,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 6.92,
+     "end": 7.0,
+     "emph": false
+    },
+    {
+     "text": "dia",
+     "start": 7.0,
+     "end": 7.24,
+     "emph": false
+    },
+    {
+     "text": "dele",
+     "start": 7.24,
+     "end": 7.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.48,
+   "end": 8.12,
+   "words": [
+    {
+     "text": "mudou.",
+     "start": 7.48,
+     "end": 7.65,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.12,
+   "end": 8.92,
+   "words": [
+    {
+     "text": "Na",
+     "start": 8.12,
+     "end": 8.36,
+     "emph": false
+    },
+    {
+     "text": "saúde,",
+     "start": 8.36,
+     "end": 8.76,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.92,
+   "end": 10.2,
+   "words": [
+    {
+     "text": "uma",
+     "start": 8.92,
+     "end": 9.16,
+     "emph": false
+    },
+    {
+     "text": "revisão",
+     "start": 9.16,
+     "end": 9.64,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 9.64,
+     "end": 9.8,
+     "emph": false
+    },
+    {
+     "text": "estudos",
+     "start": 9.8,
+     "end": 10.2,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 10.2,
+   "end": 11.48,
+   "words": [
+    {
+     "text": "mostrou",
+     "start": 10.2,
+     "end": 10.6,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 10.6,
+     "end": 10.76,
+     "emph": false
+    },
+    {
+     "text": "lembretes",
+     "start": 10.76,
+     "end": 11.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 11.48,
+   "end": 12.6,
+   "words": [
+    {
+     "text": "reduzem",
+     "start": 11.48,
+     "end": 11.96,
+     "emph": false
+    },
+    {
+     "text": "as",
+     "start": 11.96,
+     "end": 12.12,
+     "emph": false
+    },
+    {
+     "text": "faltas",
+     "start": 12.12,
+     "end": 12.6,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 12.6,
+   "end": 13.36,
+   "words": [
+    {
+     "text": "em",
+     "start": 12.6,
+     "end": 12.76,
+     "emph": false
+    },
+    {
+     "text": "cerca",
+     "start": 12.76,
+     "end": 13.08,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 13.08,
+     "end": 13.17,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 13.36,
+   "end": 14.44,
+   "words": [
+    {
+     "text": "um",
+     "start": 13.36,
+     "end": 13.64,
+     "emph": true
+    },
+    {
+     "text": "quarto.",
+     "start": 13.64,
+     "end": 14.08,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 14.44,
+   "end": 15.48,
+   "words": [
+    {
+     "text": "Visita",
+     "start": 14.44,
+     "end": 14.51,
+     "emph": false
+    },
+    {
+     "text": "marcada",
+     "start": 15.0,
+     "end": 15.48,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 15.48,
+   "end": 16.76,
+   "words": [
+    {
+     "text": "precisa",
+     "start": 15.48,
+     "end": 15.88,
+     "emph": false
+    },
+    {
+     "text": "de",
+     "start": 15.88,
+     "end": 15.96,
+     "emph": false
+    },
+    {
+     "text": "lembrete.",
+     "start": 15.96,
+     "end": 16.49,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 16.76,
+   "end": 18.04,
+   "words": [
+    {
+     "text": "Confirme",
+     "start": 16.76,
+     "end": 16.83,
+     "emph": true
+    },
+    {
+     "text": "na",
+     "start": 17.32,
+     "end": 17.48,
+     "emph": false
+    },
+    {
+     "text": "véspera",
+     "start": 17.48,
+     "end": 18.04,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.04,
+   "end": 19.08,
+   "words": [
+    {
+     "text": "e",
+     "start": 18.04,
+     "end": 18.2,
+     "emph": false
+    },
+    {
+     "text": "duas",
+     "start": 18.2,
+     "end": 18.44,
+     "emph": true
+    },
+    {
+     "text": "horas",
+     "start": 18.44,
+     "end": 18.68,
+     "emph": true
+    },
+    {
+     "text": "antes,",
+     "start": 18.68,
+     "end": 18.87,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.08,
+   "end": 19.88,
+   "words": [
+    {
+     "text": "com",
+     "start": 19.08,
+     "end": 19.32,
+     "emph": false
+    },
+    {
+     "text": "uma",
+     "start": 19.32,
+     "end": 19.48,
+     "emph": false
+    },
+    {
+     "text": "pergunta",
+     "start": 19.48,
+     "end": 19.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 19.88,
+   "end": 21.08,
+   "words": [
+    {
+     "text": "que",
+     "start": 19.88,
+     "end": 20.04,
+     "emph": false
+    },
+    {
+     "text": "pede",
+     "start": 20.04,
+     "end": 20.44,
+     "emph": false
+    },
+    {
+     "text": "resposta:",
+     "start": 20.44,
+     "end": 20.77,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.08,
+   "end": 21.88,
+   "words": [
+    {
+     "text": "posso",
+     "start": 21.08,
+     "end": 21.15,
+     "emph": false
+    },
+    {
+     "text": "te",
+     "start": 21.4,
+     "end": 21.64,
+     "emph": false
+    },
+    {
+     "text": "esperar",
+     "start": 21.64,
+     "end": 21.88,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 21.88,
+   "end": 22.6,
+   "words": [
+    {
+     "text": "às",
+     "start": 21.88,
+     "end": 22.168,
+     "emph": false
+    },
+    {
+     "text": "dez?",
+     "start": 22.168,
+     "end": 22.24,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.6,
+   "end": 23.72,
+   "words": [
+    {
+     "text": "Visita",
+     "start": 22.6,
+     "end": 23.16,
+     "emph": false
+    },
+    {
+     "text": "confirmada",
+     "start": 23.16,
+     "end": 23.72,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.72,
+   "end": 24.28,
+   "words": [
+    {
+     "text": "é",
+     "start": 23.72,
+     "end": 23.96,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 23.96,
+     "end": 24.28,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 24.28,
+   "end": 25.24,
+   "words": [
+    {
+     "text": "que",
+     "start": 24.28,
+     "end": 24.52,
+     "emph": false
+    },
+    {
+     "text": "acontece.",
+     "start": 24.52,
+     "end": 24.99,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 25.24,
+   "end": 26.36,
+   "words": [
+    {
+     "text": "Se",
+     "start": 25.24,
+     "end": 25.4,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 25.4,
+     "end": 25.56,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 25.56,
+     "end": 25.72,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 25.72,
+     "end": 26.36,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.36,
+   "end": 27.48,
+   "words": [
+    {
+     "text": "comente",
+     "start": 26.36,
+     "end": 26.92,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 26.92,
+     "end": 27.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.48,
+   "end": 28.52,
+   "words": [
+    {
+     "text": "e",
+     "start": 27.48,
+     "end": 27.64,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 27.64,
+     "end": 28.2,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 28.2,
+     "end": 28.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.52,
+   "end": 30.11,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 28.52,
+     "end": 28.92,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 28.92,
+     "end": 29.61,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}

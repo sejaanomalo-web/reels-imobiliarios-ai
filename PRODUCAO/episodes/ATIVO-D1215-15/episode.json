@@ -1,0 +1,486 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "leadIn": 0.12,
+ "tail": 2.2,
+ "accent": "#02FB3F",
+ "pronunciation": {
+  "SISTEMA": "sistema"
+ },
+ "master": {
+  "tp": -2.0
+ },
+ "id": "ATIVO-D1215-15",
+ "lote": "D1215",
+ "title": "O que observar na visita",
+ "outputDir": "ATIVO_D1215_15",
+ "deliverables": {
+  "final": "ATIVO_D1215_15_FINAL.mp4",
+  "narration": "ATIVO_D1215_15_NARRACAO.wav",
+  "subtitles": "ATIVO_D1215_15_legendas.srt",
+  "cover": "ATIVO_D1215_15_capa.png"
+ },
+ "fonte": "ROTEIROS/ESTEIRA/2026-12-15/ATIVO-D1215-15_o_que_observar_na_visita.md",
+ "apuracao": {
+  "fato": "ver Parte A do roteiro",
+  "verificado_em": "2026-11-26",
+  "fontes": [],
+  "ressalvas": "ver roteiro"
+ },
+ "diagnostico": {
+  "publico_situacao": "corretor de imóveis",
+  "territorio": "ver grade",
+  "funcao": "C2 + C3",
+  "crenca_questionada": "ver roteiro",
+  "hipotese": "ver roteiro"
+ },
+ "cta": {
+  "type": "comentario",
+  "keyword": "SISTEMA",
+  "channel": "Direct",
+  "base_text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+  "curta": true,
+  "source": "Skill Mestre (21/11/2026): CTA falada vigente para novos Reels orgânicos; sem prometer Direct automático"
+ },
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O cliente saiu da visita e só lembrava da cor da parede.",
+   "caption": "O cliente | saiu da visita | e só lembrava | da *cor da parede.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s2",
+   "scene": "atencao",
+   "text": "Sem saber o que olhar, ele olha o que chama atenção, não o que importa.",
+   "caption": "Sem saber | o que *olhar,* | ele olha | o que chama *atenção,* | não o que *importa.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s3",
+   "scene": "gosto",
+   "text": "E a decisão vira gosto, não critério.",
+   "caption": "E a decisão | vira *gosto,* | não *critério.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Visita boa começa antes de chegar.",
+   "caption": "Visita boa | começa *antes* | de chegar.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Na véspera, mande três coisas para ele observar: a luz da sala, o barulho da rua e o espaço da cozinha.",
+   "caption": "Na *véspera,* | mande *três coisas* | para ele observar: | a *luz* da sala, | o *barulho* da rua | e o *espaço* da cozinha.",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Quem sabe o que procurar enxerga o imóvel certo.",
+   "caption": "Quem sabe | o que *procurar* | enxerga | o imóvel *certo.*",
+   "pauseAfter": 0.3
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "caption": "Se você é *corretor,* | comente *SISTEMA* | e conheça nosso | sistema *personalizado.*",
+   "pauseAfter": 0.3
+  }
+ ],
+ "voice": {
+  "shapePauses": {
+   "keepUnder": 0.22,
+   "ratio": 0.6,
+   "max": 0.6
+  },
+  "nota": "regra do cliente 19/11/2026 (tarde): pausas de respiração e suspense, sem embolar nem arrastar; 1,0× sem time-stretch"
+ },
+ "sceneLead": {
+  "atencao": 0.35,
+  "gosto": 0.35,
+  "virada": 0.35,
+  "acao": 0.35,
+  "desfecho": 0.35,
+  "cta": 0.3
+ },
+ "hideCaptions": [],
+ "cues": {
+  "h_cliente": {
+   "seg": "s1",
+   "word": "cliente",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_cor": {
+   "seg": "s1",
+   "word": "cor",
+   "edge": "start",
+   "offset": 0
+  },
+  "h_parede": {
+   "seg": "s1",
+   "word": "parede",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_olhar": {
+   "seg": "s2",
+   "word": "olhar",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_atencao": {
+   "seg": "s2",
+   "word": "atenção",
+   "edge": "start",
+   "offset": 0
+  },
+  "t_importa": {
+   "seg": "s2",
+   "word": "importa",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_gosto": {
+   "seg": "s3",
+   "word": "gosto",
+   "edge": "start",
+   "offset": 0
+  },
+  "g_criterio": {
+   "seg": "s3",
+   "word": "critério",
+   "edge": "start",
+   "offset": 0
+  },
+  "v_antes": {
+   "seg": "s4",
+   "word": "antes",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_vespera": {
+   "seg": "s5",
+   "word": "véspera",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_tres": {
+   "seg": "s5",
+   "word": "três",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_luz": {
+   "seg": "s5",
+   "word": "luz",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_barulho": {
+   "seg": "s5",
+   "word": "barulho",
+   "edge": "start",
+   "offset": 0
+  },
+  "a_espaco": {
+   "seg": "s5",
+   "word": "espaço",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_procurar": {
+   "seg": "s6",
+   "word": "procurar",
+   "edge": "start",
+   "offset": 0
+  },
+  "d_certo": {
+   "seg": "s6",
+   "word": "certo",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_quer": {
+   "seg": "s7",
+   "word": "Se",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_comment": {
+   "seg": "s7",
+   "word": "comente",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_word": {
+   "seg": "s7",
+   "word": "SISTEMA",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_tiles": {
+   "seg": "s7",
+   "word": "conheça",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_sys": {
+   "seg": "s7",
+   "word": "sistema",
+   "edge": "start",
+   "offset": 0,
+   "occ": 2
+  },
+  "cta_leads": {
+   "seg": "s7",
+   "word": "nosso",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_atend": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_direct": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "start",
+   "offset": 0
+  },
+  "cta_end": {
+   "seg": "s7",
+   "word": "personalizado",
+   "edge": "end",
+   "offset": 0
+  }
+ },
+ "series": {},
+ "sfx": [
+  {
+   "cue": "h_cliente",
+   "offset": -0.05,
+   "sound": "swish",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "h_parede",
+   "offset": 0.0,
+   "sound": "hollow",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "t_atencao",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "g_gosto",
+   "offset": -0.05,
+   "sound": "shimmer",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "v_antes",
+   "offset": 0.0,
+   "sound": "pin",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "a_tres",
+   "offset": 0.0,
+   "sound": "whoosh_fold",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "a_barulho",
+   "offset": -0.05,
+   "sound": "impact",
+   "gain": -28,
+   "pitch": -2
+  },
+  {
+   "cue": "d_procurar",
+   "offset": 0.0,
+   "sound": "swish",
+   "gain": -28,
+   "pitch": 2
+  },
+  {
+   "cue": "cta_quer",
+   "offset": -0.1,
+   "sound": "swish",
+   "gain": -29
+  },
+  {
+   "cue": "cta_tiles",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27
+  },
+  {
+   "cue": "cta_leads",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 3
+  },
+  {
+   "cue": "cta_atend",
+   "offset": -0.05,
+   "sound": "pin",
+   "gain": -27,
+   "pitch": 6
+  },
+  {
+   "cue": "cta_comment",
+   "offset": -0.15,
+   "sound": "whoosh_fold",
+   "gain": -28
+  },
+  {
+   "cue": "cta_word",
+   "offset": 0.0,
+   "sound": "typing",
+   "gain": -29
+  },
+  {
+   "cue": "cta_direct",
+   "offset": -0.1,
+   "sound": "whoosh_up",
+   "gain": -28
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 1.1,
+   "sound": "shimmer",
+   "gain": -25
+  },
+  {
+   "cue": "cta_direct",
+   "offset": 2.3,
+   "sound": "chord",
+   "gain": -27
+  }
+ ],
+ "music": {
+  "gain": -30,
+  "duck": -5.5,
+  "bpm": 88,
+  "prog": [
+   {
+    "at": 0,
+    "notes": [
+     26,
+     38,
+     45,
+     50,
+     54
+    ],
+    "root": 38,
+    "dens": 1,
+    "bright": 0.5,
+    "label": "abertura"
+   },
+   {
+    "at": "cue:h_cor",
+    "notes": [
+     31,
+     43,
+     50,
+     55,
+     59
+    ],
+    "root": 43,
+    "dens": 2,
+    "bright": 0.55,
+    "label": "desenvolvimento"
+   },
+   {
+    "at": "cue:v_antes",
+    "notes": [
+     33,
+     45,
+     52,
+     57,
+     60
+    ],
+    "root": 45,
+    "dens": 1,
+    "bright": 0.45,
+    "label": "virada"
+   },
+   {
+    "at": "cue:d_certo",
+    "notes": [
+     29,
+     41,
+     48,
+     53,
+     57
+    ],
+    "root": 41,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "desfecho"
+   },
+   {
+    "at": "cue:cta_sys",
+    "notes": [
+     24,
+     36,
+     48,
+     52,
+     55,
+     62
+    ],
+    "root": 36,
+    "dens": 2,
+    "bright": 0.6,
+    "label": "Cadd9 — sistema"
+   }
+  ],
+  "trilha": "T02",
+  "ancoras": {
+   "virada": "cue:v_antes",
+   "insight": "cue:a_vespera",
+   "resolucao": "cue:d_certo"
+  },
+  "nota": "mixagem v2 (build_audio.py): trilha adaptada à história por tools/adaptar_trilha.py; prog/bpm acima ficam sem uso"
+ },
+ "formato": "pictograma-cinematografico",
+ "sistemaVisual": "1.0.0",
+ "grade": {
+  "territorio": "ideia",
+  "origem": "pesquisa",
+  "origemRef": "",
+  "dataFato": "",
+  "pushPull": "pull",
+  "justificativaModelo": "pontos que acendem na casa em linha fina.",
+  "justificativaHorario": "15h: ideia aplicável na tarde.",
+  "trilha": "T02",
+  "justificativaTrilha": "arco emocional: gosto → critério.",
+  "data": "2026-12-15",
+  "slot": "15:00",
+  "arquivo": "PRODUCAO/grade/2026-12-15.json"
+ },
+ "modelos4": true,
+ "modelo": 2,
+ "modeloNome": "Pictograma cinematográfico"
+}

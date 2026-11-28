@@ -1,0 +1,817 @@
+{
+ "id": "ATIVO-D1215-15",
+ "title": "O que observar na visita",
+ "fps": 30,
+ "duration": 32.266666666666666,
+ "durationInFrames": 968,
+ "narrationEnd": 30.047,
+ "voice": "Puck",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 3.805
+  },
+  {
+   "id": "atencao",
+   "start": 3.805,
+   "end": 8.275
+  },
+  {
+   "id": "gosto",
+   "start": 8.275,
+   "end": 11.01
+  },
+  {
+   "id": "virada",
+   "start": 11.01,
+   "end": 13.825
+  },
+  {
+   "id": "acao",
+   "start": 13.825,
+   "end": 21.51
+  },
+  {
+   "id": "desfecho",
+   "start": 21.51,
+   "end": 24.83
+  },
+  {
+   "id": "cta",
+   "start": 24.83,
+   "end": 32.267
+  }
+ ],
+ "segments": [
+  {
+   "id": "s1",
+   "scene": "hook",
+   "text": "O cliente saiu da visita e só lembrava da cor da parede.",
+   "start": 0.12,
+   "end": 3.57
+  },
+  {
+   "id": "s2",
+   "scene": "atencao",
+   "text": "Sem saber o que olhar, ele olha o que chama atenção, não o que importa.",
+   "start": 4.04,
+   "end": 8.19
+  },
+  {
+   "id": "s3",
+   "scene": "gosto",
+   "text": "E a decisão vira gosto, não critério.",
+   "start": 8.36,
+   "end": 10.7
+  },
+  {
+   "id": "s4",
+   "scene": "virada",
+   "text": "Visita boa começa antes de chegar.",
+   "start": 11.32,
+   "end": 13.69
+  },
+  {
+   "id": "s5",
+   "scene": "acao",
+   "text": "Na véspera, mande três coisas para ele observar: a luz da sala, o barulho da rua e o espaço da cozinha.",
+   "start": 13.96,
+   "end": 21.3
+  },
+  {
+   "id": "s6",
+   "scene": "desfecho",
+   "text": "Quem sabe o que procurar enxerga o imóvel certo.",
+   "start": 21.72,
+   "end": 24.66
+  },
+  {
+   "id": "s7",
+   "scene": "cta",
+   "text": "Se você é corretor, comente SISTEMA e conheça nosso sistema personalizado.",
+   "start": 25.0,
+   "end": 29.64
+  }
+ ],
+ "cues": {
+  "h_cliente": 0.44,
+  "h_cor": 2.84,
+  "h_parede": 3.24,
+  "t_olhar": 5.0,
+  "t_atencao": 6.52,
+  "t_importa": 7.72,
+  "g_gosto": 9.48,
+  "g_criterio": 10.28,
+  "v_antes": 12.92,
+  "a_vespera": 14.2,
+  "a_tres": 15.56,
+  "a_luz": 17.64,
+  "a_barulho": 18.92,
+  "a_espaco": 20.44,
+  "d_procurar": 22.68,
+  "d_certo": 24.44,
+  "cta_quer": 25.0,
+  "cta_comment": 26.36,
+  "cta_word": 27.0,
+  "cta_tiles": 27.64,
+  "cta_sys": 28.52,
+  "cta_leads": 28.2,
+  "cta_atend": 28.92,
+  "cta_direct": 28.92,
+  "cta_end": 29.64
+ },
+ "series": {},
+ "captions": [
+  {
+   "seg": "s1",
+   "start": 0.12,
+   "end": 0.92,
+   "words": [
+    {
+     "text": "O",
+     "start": 0.12,
+     "end": 0.26,
+     "emph": false
+    },
+    {
+     "text": "cliente",
+     "start": 0.44,
+     "end": 0.92,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 0.92,
+   "end": 1.8,
+   "words": [
+    {
+     "text": "saiu",
+     "start": 0.92,
+     "end": 1.32,
+     "emph": false
+    },
+    {
+     "text": "da",
+     "start": 1.32,
+     "end": 1.48,
+     "emph": false
+    },
+    {
+     "text": "visita",
+     "start": 1.48,
+     "end": 1.8,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 1.8,
+   "end": 2.68,
+   "words": [
+    {
+     "text": "e",
+     "start": 1.8,
+     "end": 1.96,
+     "emph": false
+    },
+    {
+     "text": "só",
+     "start": 1.96,
+     "end": 2.2,
+     "emph": false
+    },
+    {
+     "text": "lembrava",
+     "start": 2.2,
+     "end": 2.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "start": 2.68,
+   "end": 4.04,
+   "words": [
+    {
+     "text": "da",
+     "start": 2.68,
+     "end": 2.84,
+     "emph": false
+    },
+    {
+     "text": "cor",
+     "start": 2.84,
+     "end": 3.08,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 3.08,
+     "end": 3.24,
+     "emph": true
+    },
+    {
+     "text": "parede.",
+     "start": 3.24,
+     "end": 3.57,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.04,
+   "end": 4.68,
+   "words": [
+    {
+     "text": "Sem",
+     "start": 4.04,
+     "end": 4.11,
+     "emph": false
+    },
+    {
+     "text": "saber",
+     "start": 4.36,
+     "end": 4.68,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 4.68,
+   "end": 5.4,
+   "words": [
+    {
+     "text": "o",
+     "start": 4.68,
+     "end": 4.84,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 4.84,
+     "end": 5.0,
+     "emph": false
+    },
+    {
+     "text": "olhar,",
+     "start": 5.0,
+     "end": 5.4,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.4,
+   "end": 5.96,
+   "words": [
+    {
+     "text": "ele",
+     "start": 5.4,
+     "end": 5.56,
+     "emph": false
+    },
+    {
+     "text": "olha",
+     "start": 5.56,
+     "end": 5.96,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 5.96,
+   "end": 7.16,
+   "words": [
+    {
+     "text": "o",
+     "start": 5.96,
+     "end": 6.04,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 6.04,
+     "end": 6.2,
+     "emph": false
+    },
+    {
+     "text": "chama",
+     "start": 6.2,
+     "end": 6.52,
+     "emph": false
+    },
+    {
+     "text": "atenção,",
+     "start": 6.52,
+     "end": 6.82,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "start": 7.16,
+   "end": 8.36,
+   "words": [
+    {
+     "text": "não",
+     "start": 7.16,
+     "end": 7.4,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 7.4,
+     "end": 7.56,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 7.56,
+     "end": 7.72,
+     "emph": false
+    },
+    {
+     "text": "importa.",
+     "start": 7.72,
+     "end": 8.19,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 8.36,
+   "end": 9.08,
+   "words": [
+    {
+     "text": "E",
+     "start": 8.36,
+     "end": 8.43,
+     "emph": false
+    },
+    {
+     "text": "a",
+     "start": 8.6,
+     "end": 8.68,
+     "emph": false
+    },
+    {
+     "text": "decisão",
+     "start": 8.68,
+     "end": 9.08,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.08,
+   "end": 9.96,
+   "words": [
+    {
+     "text": "vira",
+     "start": 9.08,
+     "end": 9.48,
+     "emph": false
+    },
+    {
+     "text": "gosto,",
+     "start": 9.48,
+     "end": 9.77,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "start": 9.96,
+   "end": 11.05,
+   "words": [
+    {
+     "text": "não",
+     "start": 9.96,
+     "end": 10.28,
+     "emph": false
+    },
+    {
+     "text": "critério.",
+     "start": 10.28,
+     "end": 10.7,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 11.32,
+   "end": 12.36,
+   "words": [
+    {
+     "text": "Visita",
+     "start": 11.32,
+     "end": 11.88,
+     "emph": false
+    },
+    {
+     "text": "boa",
+     "start": 11.88,
+     "end": 12.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 12.36,
+   "end": 13.16,
+   "words": [
+    {
+     "text": "começa",
+     "start": 12.36,
+     "end": 12.92,
+     "emph": false
+    },
+    {
+     "text": "antes",
+     "start": 12.92,
+     "end": 13.16,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "start": 13.16,
+   "end": 13.96,
+   "words": [
+    {
+     "text": "de",
+     "start": 13.16,
+     "end": 13.4,
+     "emph": false
+    },
+    {
+     "text": "chegar.",
+     "start": 13.4,
+     "end": 13.69,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 13.96,
+   "end": 15.0,
+   "words": [
+    {
+     "text": "Na",
+     "start": 13.96,
+     "end": 14.04,
+     "emph": false
+    },
+    {
+     "text": "véspera,",
+     "start": 14.2,
+     "end": 14.79,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 15.0,
+   "end": 16.2,
+   "words": [
+    {
+     "text": "mande",
+     "start": 15.0,
+     "end": 15.41,
+     "emph": false
+    },
+    {
+     "text": "três",
+     "start": 15.56,
+     "end": 15.88,
+     "emph": true
+    },
+    {
+     "text": "coisas",
+     "start": 15.88,
+     "end": 16.2,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 16.2,
+   "end": 17.48,
+   "words": [
+    {
+     "text": "para",
+     "start": 16.2,
+     "end": 16.44,
+     "emph": false
+    },
+    {
+     "text": "ele",
+     "start": 16.44,
+     "end": 16.68,
+     "emph": false
+    },
+    {
+     "text": "observar:",
+     "start": 16.68,
+     "end": 17.0,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 17.48,
+   "end": 18.68,
+   "words": [
+    {
+     "text": "a",
+     "start": 17.48,
+     "end": 17.64,
+     "emph": false
+    },
+    {
+     "text": "luz",
+     "start": 17.64,
+     "end": 17.96,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 17.96,
+     "end": 18.12,
+     "emph": false
+    },
+    {
+     "text": "sala,",
+     "start": 18.12,
+     "end": 18.46,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 18.68,
+   "end": 20.04,
+   "words": [
+    {
+     "text": "o",
+     "start": 18.68,
+     "end": 18.75,
+     "emph": false
+    },
+    {
+     "text": "barulho",
+     "start": 18.92,
+     "end": 19.48,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 19.48,
+     "end": 19.64,
+     "emph": false
+    },
+    {
+     "text": "rua",
+     "start": 19.64,
+     "end": 19.86,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "start": 20.04,
+   "end": 21.72,
+   "words": [
+    {
+     "text": "e",
+     "start": 20.04,
+     "end": 20.2,
+     "emph": false
+    },
+    {
+     "text": "o",
+     "start": 20.2,
+     "end": 20.44,
+     "emph": false
+    },
+    {
+     "text": "espaço",
+     "start": 20.44,
+     "end": 20.84,
+     "emph": true
+    },
+    {
+     "text": "da",
+     "start": 20.84,
+     "end": 21.0,
+     "emph": false
+    },
+    {
+     "text": "cozinha.",
+     "start": 21.0,
+     "end": 21.3,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 21.72,
+   "end": 22.36,
+   "words": [
+    {
+     "text": "Quem",
+     "start": 21.72,
+     "end": 21.8,
+     "emph": false
+    },
+    {
+     "text": "sabe",
+     "start": 22.04,
+     "end": 22.36,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 22.36,
+   "end": 23.32,
+   "words": [
+    {
+     "text": "o",
+     "start": 22.36,
+     "end": 22.52,
+     "emph": false
+    },
+    {
+     "text": "que",
+     "start": 22.52,
+     "end": 22.68,
+     "emph": false
+    },
+    {
+     "text": "procurar",
+     "start": 22.68,
+     "end": 23.06,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.32,
+   "end": 23.88,
+   "words": [
+    {
+     "text": "enxerga",
+     "start": 23.32,
+     "end": 23.88,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "start": 23.88,
+   "end": 25.0,
+   "words": [
+    {
+     "text": "o",
+     "start": 23.88,
+     "end": 23.96,
+     "emph": false
+    },
+    {
+     "text": "imóvel",
+     "start": 23.96,
+     "end": 24.44,
+     "emph": false
+    },
+    {
+     "text": "certo.",
+     "start": 24.44,
+     "end": 24.66,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 25.0,
+   "end": 26.36,
+   "words": [
+    {
+     "text": "Se",
+     "start": 25.0,
+     "end": 25.07,
+     "emph": false
+    },
+    {
+     "text": "você",
+     "start": 25.24,
+     "end": 25.4,
+     "emph": false
+    },
+    {
+     "text": "é",
+     "start": 25.4,
+     "end": 25.56,
+     "emph": false
+    },
+    {
+     "text": "corretor,",
+     "start": 25.56,
+     "end": 26.12,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 26.36,
+   "end": 27.48,
+   "words": [
+    {
+     "text": "comente",
+     "start": 26.36,
+     "end": 27.0,
+     "emph": false
+    },
+    {
+     "text": "SISTEMA",
+     "start": 27.0,
+     "end": 27.48,
+     "emph": true
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 27.48,
+   "end": 28.52,
+   "words": [
+    {
+     "text": "e",
+     "start": 27.48,
+     "end": 27.64,
+     "emph": false
+    },
+    {
+     "text": "conheça",
+     "start": 27.64,
+     "end": 28.2,
+     "emph": false
+    },
+    {
+     "text": "nosso",
+     "start": 28.2,
+     "end": 28.52,
+     "emph": false
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "start": 28.52,
+   "end": 30.14,
+   "words": [
+    {
+     "text": "sistema",
+     "start": 28.52,
+     "end": 28.92,
+     "emph": false
+    },
+    {
+     "text": "personalizado.",
+     "start": 28.92,
+     "end": 29.64,
+     "emph": true
+    }
+   ]
+  }
+ ],
+ "hideCaptions": []
+}
